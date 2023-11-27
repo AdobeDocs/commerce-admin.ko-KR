@@ -1,0 +1,154 @@
+---
+title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
+description: 에서 구성 설정을 검토합니다. [!UICONTROL General] &gt; [!UICONTROL Web] 상거래 관리자의 페이지입니다.
+exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
+feature: Site Management, Configuration
+source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+workflow-type: tm+mt
+source-wordcount: '1822'
+ht-degree: 0%
+
+---
+
+# [!UICONTROL General] > [!UICONTROL Web]
+
+{{config}}
+
+## [!UICONTROL URL Options]
+
+![웹 > 일반 옵션](./assets/web-url-options.png)<!-- zoom -->
+
+<!-- [URL Options configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+
+| 필드 | 범위 | 설명 |
+|  ---  |  ---  |  ---  |
+| [!UICONTROL Add Store Code to URLs] | 글로벌 | 웹 서버 재작성을 사용하도록 설정한 경우 에서는 현재 보기의 스토어 코드를 URL에 삽입합니다. 옵션: `Yes` / `No`. <br />이 필드가 로 설정된 경우 `Yes`, URL 재쓰기가 올바르게 매핑되고 모든 페이지가 성공적으로 열리도록 하려면 브라우저 URL에 저장 코드를 포함해야 합니다. 이 경우 이 문제가 해결됩니다. _404 페이지를 찾을 수 없음_ 오류. |
+| [!UICONTROL Auto-redirect to Base URL] | 스토어 뷰 | (단일 스토어 설정의 경우) 사이트에 끊어진 링크가 있으면 은 트래픽을 &quot;404 페이지를 찾을 수 없음&quot; 메시지가 있는 페이지가 아닌 기본 URL로 리디렉션합니다. 옵션:` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_중요 사항:_**다중 스토어 설정에 기본 URL로 자동 리디렉션을 사용하지 마십시오. |
+| [!UICONTROL Catalog media URL format] | 글로벌 | 다음을 정의합니다 [URL 형식](../../catalog/catalog-urls.md) 제품 및 범주에 할당됩니다. 옵션: 이미지 변형당 고유 해시(레거시 모드) 변환된 파일 이름을 고유한 해시 값으로 정의합니다. 쿼리 매개 변수를 기반으로 한 이미지 최적화는 다음을 정의합니다. [이미지 최적화](../../content-design/media-gallery-image-optimization.md) 쿼리 매개 변수에 따라 처리 |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Search Engine Optimization]
+
+![웹 > 검색 엔진 최적화](./assets/web-search-engine-optimization.png)<!-- zoom -->
+
+<!-- [Search Engine Optimization configuration settings](https://docs.magento.com/user-guide/marketing/url-rewrite.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Use Web Server Rewrites] | 스토어 뷰 | PHP 기반 시스템에는 일반적으로 라는 파일이 포함됩니다. `index.php` 루트 폴더에 있습니다. 기본적으로 루트 폴더 이름 바로 뒤에 파일 이름이 URL에 나타납니다. 이 기능이 활성화되면 시스템이 생략됩니다 `index.php` URL에서 이 유용성 모범 사례는 각 URL을 보다 간결하게 만들며 성능이나 사이트 등급에 영향을 주지 않습니다. 옵션: `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Base URLs]
+
+![웹 > 기본 URL](./assets/web-base-urls.png)<!-- zoom -->
+
+<!-- [Base URLS configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Base URL] | 스토어 뷰 | 암호화된(SSL) 채널을 통해 실행되고 있지 않은 상거래 루트 폴더의 전체 주소입니다. URL은 슬래시로 끝나야 합니다. |
+| [!UICONTROL Base Link URL] | 스토어 뷰 | 기본 URL의 자리 표시자로 사용되는 마크업 태그입니다. |
+| [!UICONTROL Base URL for Static View Files] | 스토어 뷰 | css, 글꼴, 이미지 및 JavaScript와 같이 테마에 사용되는 정적 파일의 위치를 가리키는 경로입니다. 자리 표시자는 기본 URL을 나타내는 데 사용됩니다. Commerce 설치에 동일한 폴더 구조를 사용하는 사이트가 여러 개 있는 경우 사이트별로 다른 폴더가 있을 수 있습니다. 정적 보기 파일의 기본 URL을 입력하기 전에 구성 범위를 올바른 사이트로 설정합니다. Commerce 설치 외부에 폴더를 지정할 수도 있습니다. |
+| [!UICONTROL Base URL for User Media Files] | 스토어 뷰 | 카탈로그 이미지 및 기타 미디어 파일의 위치를 가리키는 경로입니다. 자리 표시자는 기본 URL을 나타내는 데 사용됩니다. Commerce 설치에 동일한 폴더 구조를 사용하는 사이트가 여러 개 있는 경우 각각에 대해 서로 다른 미디어 폴더가 있을 수 있습니다. 이렇게 하면 각 미디어 폴더를 개별적으로 백업하고 롤백할 수 있습니다. Commerce 설치 외부에 미디어 폴더를 지정할 수도 있습니다. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Base URLs (Secure)]
+
+![웹 > 기본 URL(보안)](./assets/web-base-urls-secure.png)<!-- zoom -->
+
+<!-- [Base URLs (Secure) configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Secure Base URL] | 스토어 뷰 | 암호화된 보안(SSL/TLS) 프로토콜을 통해 제공되는 상거래 루트 폴더의 전체 주소입니다. URL은 슬래시로 끝나야 합니다. |
+| [!UICONTROL Secure Base Link URL] | 스토어 뷰 | 보안 채널에서 실행되는 기본 URL의 자리 표시자로 사용되는 마크업 태그입니다. |
+| [!UICONTROL Secure Base URL for Static View Files] | 스토어 뷰 | 테마에 사용되는 CSS, 글꼴, 이미지 및 JavaScript와 같은 정적 파일의 위치를 가리키는 마크업 태그입니다. 파일은 비보안 또는 보안 채널에 있을 수 있습니다. Commerce 설치에 동일한 폴더 구조를 사용하는 사이트가 여러 개 있는 경우 사이트별로 다른 폴더가 있을 수 있습니다. 정적 보기 파일의 기본 URL을 입력하기 전에 구성 범위를 올바른 사이트로 설정합니다. Commerce 설치 외부에 폴더를 지정할 수도 있습니다. |
+| [!UICONTROL Secure Base URL for User Media Files] | 스토어 뷰 | 카탈로그 이미지 및 기타 미디어 파일의 위치를 가리키는 경로입니다. 파일은 비보안 또는 보안 채널에 있을 수 있습니다. 자리 표시자는 기본 URL을 나타내는 데 사용됩니다. Commerce 설치에 동일한 폴더 구조를 사용하는 사이트가 여러 개 있는 경우 각각에 대해 서로 다른 미디어 폴더가 있을 수 있습니다. 이렇게 하면 각 미디어 폴더를 개별적으로 백업하고 롤백할 수 있습니다. Commerce 설치 외부에 미디어 폴더를 지정할 수도 있습니다. |
+| [!UICONTROL Use Secure URLs on Storefront] | 스토어 뷰 | 도메인에 보안 인증서가 있는 경우 SSL 암호화를 사용하거나 사용하지 않고 Storefront를 실행하도록 선택할 수 있습니다. 옵션:<br />**`Yes`**- 스토어 URL은 다음으로 시작 `https` 페이지가 암호화된 보안 프로토콜로 전달됨을 나타냅니다.<br />**`No`** - 스토어 URL은 다음으로 시작 `http` 보안 프로토콜 없이 페이지가 전달됨을 나타냅니다. |
+| [!UICONTROL Use Secure URLs in Admin] | 글로벌 | 도메인에 보안 인증서가 있는 경우 SSL 암호화를 사용하거나 사용하지 않고 저장소 관리자를 실행하도록 선택할 수 있습니다. 옵션: <br />**`Yes`**- 관리자 URL은 `https` 페이지가 암호화된 보안 프로토콜로 전달됨을 나타냅니다.<br />**`No`** - 관리자 URL은 `http` 보안 프로토콜 없이 페이지가 전달됨을 나타냅니다.<br /> 저장소와 관리자 모두에 대해 보안 URL이 활성화되면 두 개의 추가 필드가 표시되어 활성화하고 구성합니다 `HSTS`. |
+| [!UICONTROL Enable HTTP Strict Transport Security (HSTS)] | 스토어 뷰 | 활성화된 경우 [`HSTS`][1] 은 &quot;man in the middle&quot; 공격에 대한 보안 측정을 제공하며 사용자가 &quot;잘못된 인증서&quot; 메시지를 재정의하지 못하도록 합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Upgrade Insecure Requests] | 스토어 뷰 | 활성화되면 비보안(`HTTP`) 브라우저에서 보안( )으로 요청을 받았습니다.`HTTPS`) 프로토콜. 옵션: `Yes` / `No` |
+| [!UICONTROL Offloader Header] | 글로벌 | 다음을 지정합니다. `offloader_header` 클라이언트와 로드 밸런서 간의 프로토콜을 식별하는 서버 구성의 값입니다. 대부분의 Commerce 설치는 기본값, `X-Forwarded-Proto` (XFP) 프로토콜을 다음 중 하나로 식별합니다 `HTTP` 또는 `HTTPS`. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Default Pages]
+
+![웹 > 기본 페이지](./assets/web-default-pages.png)<!-- zoom -->
+
+<!-- [Default Pages configuration settings](https://docs.magento.com/user-guide/cms/pages-default.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Default Web URL] | 스토어 뷰 | 기본 URL과 연결된 랜딩 페이지를 나타냅니다. CMS(Commerce Content Management System)의 페이지를 나타내려면 기본적으로 &quot;cms&quot;로 설정됩니다. 블로그와 같은 다른 유형의 랜딩 페이지를 사용할 수도 있습니다. 예를 들어 다음 위치의 서버에 블로그가 설치되어 있는 경우 `magento/blog`, &quot;블로그&quot; 폴더의 이름을 페이지 선택에 대한 상대 경로로 입력할 수 있습니다. |
+| [!UICONTROL CMS Home Page] | 스토어 뷰 | 스토어의 홈 페이지를 선택하려면 목록에서 CMS 페이지를 선택하면 됩니다. 기본적으로 CMS 홈 페이지에는 스토어에 사용할 수 있는 전체 CMS 페이지가 나열됩니다. |
+| [!UICONTROL Default No-route URL] | 스토어 뷰 | 다음과 같은 경우에 표시할 기본 페이지의 URL을 포함합니다. `404 Page not Found` 오류가 발생했습니다. 기본값은 입니다. `cms/noroute/index`. |
+| [!UICONTROL CMS No Route Page] | 스토어 뷰 | 404 페이지를 찾을 수 없음 오류가 발생할 때 표시할 특정 CMS 페이지를 식별합니다. 기본 페이지는 404 찾을 수 없음 입니다. |
+| [!UICONTROL CMS No Cookies Page] | 스토어 뷰 | 브라우저에 대해 쿠키가 활성화되지 않은 경우 나타나는 특정 CMS 페이지를 식별합니다. 이 페이지에서는 쿠키가 사용되는 이유와 각 브라우저에 대해 쿠키를 활성화하는 방법을 설명합니다. 기본 페이지는 쿠키 활성화 입니다. |
+| [!UICONTROL Show Breadcrumbs for CMS Pages] | 스토어 뷰 | 카탈로그의 모든 CMS 페이지에 탐색 표시 추적이 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Default Layouts]
+
+![기본 레이아웃](./assets/web-default-layouts.png)<!-- zoom -->
+
+<!--[Default Layouts](https://docs.magento.com/user-guide/design/page-layout.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Default Product Layout] | 글로벌 | 다음을 결정합니다. [레이아웃](../../content-design/page-layout.md) 제품 페이지에 기본적으로 사용됩니다. 옵션: <br/>**`No layout updates`**- 기본적으로 제품 페이지에는 레이아웃 업데이트를 사용할 수 없습니다.<br/>**`Empty`** - 기본적으로 은 제품 페이지에 빈 레이아웃을 사용합니다. <br/>**`1 column`**- 기본적으로 은 제품 페이지에 대해 단일 열 레이아웃을 사용합니다.<br/>**`2 columns with left bar`** - 기본적으로 에서는 제품 페이지의 왼쪽에 사이드바가 있는 2열 레이아웃을 사용합니다. <br/>**`2 columns with right bar`**- 기본적으로 은 제품 페이지의 오른쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`3 columns`** - 기본적으로 은 제품 페이지의 왼쪽과 오른쪽에 사이드바가 있는 3열 레이아웃을 사용합니다.<br/>**`Page -- Full Width`**- (필수) [!DNL Page Builder]) 기본적으로 은 제품 페이지에 대해 페이지 — 전체 너비 레이아웃을 사용합니다.<br/>**`Category - Full Width`** - (필수) [!DNL Page Builder]) 기본적으로 은 제품 페이지에 대해 카테고리 - 전체 너비 레이아웃을 사용합니다. <br/>**`Product - Full Width`**- (필수) [!DNL Page Builder]) 기본적으로 은 제품 페이지에 대해 제품 - 전체 너비 레이아웃을 사용합니다. |
+| [!UICONTROL Default Category Layout] | 글로벌 | 다음을 결정합니다. [레이아웃](../../content-design/page-layout.md) 카테고리 페이지에 기본적으로 사용됩니다. 옵션: <br/>**`No layout updates`**- 기본적으로 카테고리 페이지에는 레이아웃 업데이트를 사용할 수 없습니다.<br/>**`Empty`** - 기본적으로 은 범주 페이지에 빈 레이아웃을 사용합니다. <br/>**`1 column`**- 기본적으로 은 카테고리 페이지에 대해 단일 열 레이아웃을 사용합니다.<br/>**`2 columns with left bar`** - 기본적으로 은 범주 페이지의 왼쪽에 사이드바가 있는 2열 레이아웃을 사용합니다. <br/>**`2 columns with right bar`**- 기본적으로 은 범주 페이지의 오른쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`3 columns`** - 기본적으로 은 범주 페이지의 왼쪽과 오른쪽에 사이드바가 있는 3열 레이아웃을 사용합니다.<br/>**`Page - Full Width`**- (필수) [!DNL Page Builder]) 기본적으로 은 카테고리 페이지에 대해 페이지 - 전체 너비 레이아웃을 사용합니다.<br/>**`Category - Full Width`** - (필수) [!DNL Page Builder]) 기본적으로 은 카테고리 페이지에 대해 카테고리 - 전체 너비 레이아웃을 사용합니다. <br/>**`Product - Full Width`**- (필수) [!DNL Page Builder]) 기본적으로 은 카테고리 페이지에 대해 제품 - 전체 너비 레이아웃을 사용합니다. |
+| 기본 페이지 레이아웃 | 글로벌 | 다음을 결정합니다. [레이아웃](../../content-design/page-layout.md) cms 페이지에 기본적으로 사용됩니다. 옵션: <br/>**`No layout updates`**- 기본적으로 CMS 페이지에는 레이아웃 업데이트를 사용할 수 없습니다.<br/>**`Empty`** - 기본적으로 은 CMS 페이지에 대해 빈 레이아웃을 사용합니다. <br/>**`1 column`**- 기본적으로 은 CMS 페이지에 대해 단일 열 레이아웃을 사용합니다.<br/>**`2 columns with left bar`** - 기본적으로 에서는 CMS 페이지의 왼쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`2 columns with right bar`**- 기본적으로 은 CMS 페이지의 오른쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`3 columns`** - 기본적으로 은 CMS 페이지의 왼쪽과 오른쪽에 사이드바가 있는 3열 레이아웃을 사용합니다.<br/>**`Page - Full Width`**- (필수) [!UICONTROL Page Builder]) 기본적으로 은 CMS 페이지에 대한 페이지 - 전체 너비 레이아웃을 사용합니다.<br/>**`Category - Full Width`** - (필수) [!UICONTROL Page Builder]) 기본적으로 은 CMS 페이지에 대해 카테고리 - 전체 너비 레이아웃을 사용합니다. <br/>**`Product - Full Width`**- (필수) [!DNL Page Builder]) 기본적으로 은 CMS 페이지의 제품 - 전체 너비 레이아웃을 사용합니다. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Default Cookie Settings]
+
+![웹 > 기본 쿠키 설정](./assets/web-default-cookie-settings.png)<!-- zoom -->
+
+<!-- [Default Cookie configuration settings](https://docs.magento.com/user-guide/stores/compliance-cookie-law.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Cookie Lifetime] | 스토어 뷰 | 쿠키가 자동으로 삭제되기 전까지 쿠키가 존재할 수 있는 기간을 결정합니다. 기본값은 3,600초(1시간)입니다. |
+| [!UICONTROL Cookie Path] | 스토어 뷰 | 상거래 쿠키를 사용할 수 있는 서버의 폴더를 지정합니다. 상거래 쿠키를 설치의 모든 곳에서 사용할 수 있도록 하려면 쿠키 경로 를 단일 슬래시로 설정합니다. `/`. 이 값은 쿠키 경로만 포함할 수 있으며, **_할 수 없음_** 다른 쿠키 매개 변수를 포함합니다. |
+| [!UICONTROL Cookie Domain] | 스토어 뷰 | 하위 도메인에서 상거래 쿠키를 사용할 수 있는지 여부를 결정합니다. 예를 들어 을 지원하려면 다음을 수행합니다 `mysubdomain`.domain.com에서 처럼 시작 부분에 마침표를 사용하여 도메인 이름을 입력합니다. `.domain.com`. 이 값은 쿠키 도메인만 포함할 수 있으며, **_할 수 없음_** 다른 쿠키 매개 변수를 포함합니다. |
+| [!UICONTROL Use HTTP Only] | 스토어 뷰 | 상거래 쿠키를 비보안 채널(http)에서만 사용할 수 있는지 또는 암호화된 채널(https)에서도 사용할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Cookie Restriction Mode] | 웹 사이트 | 쿠키 제한 모드가 활성화되어 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Session Validation Settings]
+
+![웹 > 세션 유효성 검사](./assets/web-session-validation-settings.png)<!-- zoom -->
+
+<!-- [Session Validation configuration settings](https://docs.magento.com/user-guide/stores/security-session-validation.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Validate REMOTE_ADDR] | 글로벌 | 요청의 IP 주소가 일치하는지 확인합니다. `$_SESSION` 데이터. 다른 IP 주소가 검색되면 세션이 종료됩니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Validate HTTP_VIA] | 글로벌 | 들어오는 프록시 데이터를 확인하고 요청의 프록시 주소가 일치하는지 확인합니다. `$_SESSION` 데이터. 다른 프록시 주소가 검색되면 세션이 종료됩니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Validate HTTP_x_FORWARDED_FOR] | 글로벌 | 나가는 프록시 데이터를 확인하고 요청의 전달된 주소가 일치하는지 확인합니다.  `$_SESSION` 데이터. 다른 forwarded-for 주소가 검색되면 세션이 종료됩니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Validate HTTP_USER_AGENT] | 글로벌 | `USER_AGENT` 웹 사이트에 액세스하는 데 사용되는 브라우저 또는 장치를 나타냅니다. 브라우저의 이름과 버전 및 운영 체제가 일치하는지 확인합니다. `$_SESSION` 데이터. 동일한 세션의 한 요청에서 다른 요청으로 다른 사용자 에이전트가 감지되면 세션이 종료됩니다. 옵션: `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Browser Capabilities Detection]
+
+![웹 > 브라우저 기능 감지](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
+
+<!-- [Browser Capabilities Detection configuration settings](https://docs.magento.com/user-guide/stores/security-browser-capabilities-detection.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Redirect to CMS-page if Cookies are Disabled] | 스토어 뷰 | 브라우저에서 쿠키를 비활성화하면 자동으로 CMS 쿠키 없음 페이지로 리디렉션됩니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Show Notice if JavaScript is Disabled] | 스토어 뷰 | 브라우저에 의해 JavaScript가 비활성화되어 있으면 사용자에게 JavaScript 옵션을 활성화하라는 메시지가 표시됩니다. `Yes` / `No` (비활성화) |
+| [!UICONTROL Show Notice if Local Storage is Disabled] | 스토어 뷰 | 로컬 캐시가 비활성화된 경우 메시지를 표시합니다. 옵션: `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+[1]: https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html

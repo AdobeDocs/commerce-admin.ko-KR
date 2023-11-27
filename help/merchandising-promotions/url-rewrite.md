@@ -1,0 +1,109 @@
+---
+title: URL 재작성
+description: URL 재작성에 대해 알아보고 상거래 URL 재작성 도구를 사용하여 제품, 카테고리 또는 CMS 페이지와 연결된 URL을 변경하는 방법에 대해 알아봅니다.
+exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
+feature: Categories, Products, Configuration
+source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+workflow-type: tm+mt
+source-wordcount: '669'
+ht-degree: 0%
+
+---
+
+# URL 재작성
+
+URL 재작성 도구를 사용하면 제품, 카테고리 또는 CMS 페이지와 연결된 모든 URL을 변경할 수 있습니다. 다시 쓰기가 적용되면 이전 URL을 가리키는 모든 링크가 새 주소로 리디렉션됩니다.
+
+>[!NOTE]
+>
+>여러 제품 또는 모든 제품에 대한 URL 재작성을 동시에 업데이트하려면 다음을 참조하십시오. [여러 URL 재작성](url-rewrite-product.md#multiple-url-rewrites).
+
+용어 _다시 작성_ 및 _리디렉션_ 는 종종 서로 교환하여 사용되지만 약간 다른 프로세스를 나타냅니다. URL 재작성은 URL이 브라우저에 표시되는 방식을 변경합니다. URL 리디렉션은 서버에 저장된 URL을 업데이트합니다. URL 리디렉션은 임시적이거나 영구적일 수 있습니다. 스토어는 URL 재작성 및 리디렉션을 사용하여 제품, 카테고리 또는 페이지의 URL 키를 쉽게 변경하고 기존 링크를 유지할 수 있습니다.
+
+기본적으로, [자동 URL 리디렉션](url-redirect-product-automatic.md) 은(는) 스토어 및 **이전 URL에 대한 영구 리디렉션 만들기** 각 제품의 URL 키 필드 아래에서 확인란이 선택됩니다.
+
+{{url-rewrite-skip}}
+
+{{url-rewrite-params}}
+
+![검색 엔진 최적화 - 영구 URL 리디렉션 만들기](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
+
+## 표준 URL
+
+SEO 목적으로, 은 각 웹 페이지에 하나의 고유 URL만 있는 것이 좋습니다.
+
+여러 URL로 액세스할 수 있는 단일 페이지가 있거나 유사한 콘텐츠를 가진 서로 다른 페이지가 있는 경우 Google은 이러한 페이지를 동일한 페이지의 중복 버전으로 봅니다. Google은 하나의 URL을 표준 버전으로 선택하고 크롤링하며, 다른 모든 URL은 중복 URL로 간주되어 덜 자주 크롤링됩니다.
+
+Google에 어떤 URL이 정식 URL인지 명시적으로 알리지 않는 경우, 자동으로 선택되거나 두 URL을 모두 동일한 가중치로 간주할 수 있습니다. 이로 인해 원치 않는 동작이 발생할 수 있으며, 비효율적인 크롤링 예산과 낮은 배포 백링크의 위험이 있습니다.
+
+웹 사이트를 설정하는 방법에 따라 색인에는 다음을 포함한 여러 버전의 사이트가 있을 수 있습니다.
+
+    https://www.example.com
+    https://www.example.com/
+    http://www.example.com
+    https://example.com
+    https://www.example.com/index.html
+
+표준 페이지를 지정하려면 다음을 참조하십시오. [Google Search Central 설명서](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls).
+
+## URL 재작성 구성
+
+웹 서버 Apache Rewrites 활성화는 초기 Commerce 설정의 일부입니다. Commerce에서는 파일 이름을 제거하기 위해 URL 재작성을 일상적으로 사용합니다 `index.php` 일반적으로 루트 폴더 바로 뒤에 있는 URL에 표시됩니다. 웹 서버 재쓰기가 활성화되면 시스템은 각 URL을 생략하도록 재작성합니다 `index.php`. 다시 쓰기는 검색 엔진 또는 고객에게 아무런 가치도 주지 않는 단어를 제거하며 성능이나 사이트 등급에 영향을 주지 않습니다.
+
+웹 서버를 다시 작성하지 않은 URL
+
+    http://www.yourdomain.com/magento/index.php/storeview/url-identifier
+
+웹 서버 다시 쓰기가 포함된 URL
+
+    http://www.yourdomain.com/magento/storeview/url-identifier
+
+1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. 왼쪽 패널에서 **[!UICONTROL General]** 확장됨, 선택 **[!UICONTROL Web]**.
+
+1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL Search Engine Optimization]** 섹션.
+
+   ![일반 구성 - 웹 검색 엔진 최적화](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
+
+1. 설정 **[!UICONTROL Use Web Server Rewrites]** 원하는 대로 사용하십시오.
+
+1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+
+## URL 재작성 만들기
+
+URL 재작성 도구를 사용하여 스토어의 모든 페이지에 대한 제품 및 카테고리 재작성 및 사용자 정의 재작성을 만들 수 있습니다. 다시 쓰기가 적용되면 이전 URL을 가리키는 기존 링크는 새 주소로 원활하게 리디렉션됩니다.
+
+URL 재작성은 가치가 높은 키워드를 추가하여 검색 엔진에서 제품이 색인화되는 방식을 개선하는 데 사용할 수 있습니다. 또한 재작성을 사용하여 임시 시즌 변경 또는 영구 변경에 대한 추가 URL을 만들 수도 있습니다. CMS 콘텐츠 페이지를 포함하여 모든 유효한 경로에 대해 재작성을 만들 수 있습니다. 내부적으로, 시스템은 항상 제품 및 범주를 해당 ID별로 참조합니다. URL이 얼마나 자주 변경되더라도 ID는 동일하게 유지됩니다. 다음은 URL 재작성을 사용할 수 있는 몇 가지 방법입니다.
+
+시스템 URL
+
+    http://www.example.com/catalog/category/id/6
+
+원본 URL
+
+    http://www.example.com/peripherals/keyboard.html
+
+리디렉션된 제품 URL
+
+    http://www.example.com/ergonomic-keyboard.html
+
+추가 범주 URL
+
+    http://www.example.com/all-on-sale.html
+    http://www.example.com/save-now/spring-sale
+
+![URL이 그리드 재작성](./assets/url-rewrites.png){width="700" zoomable="yes"}
+
+Commerce는 다음과 같은 URL 재작성 유형을 제공합니다.
+
+* [제품 리쓰기](url-rewrite-product.md)
+* [범주 재작성](url-rewrite-category.md)
+* [CMS 페이지 재작성](url-rewrite-cms-page.md)
+* [사용자 지정 재작성](url-rewrite-custom.md)
+
+## URL이 데모 재작성
+
+이 비디오를 통해 URL 재작성 관리에 대해 알아보십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)

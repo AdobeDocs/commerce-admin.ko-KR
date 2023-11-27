@@ -1,0 +1,220 @@
+---
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
+description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Sales] 상거래 관리자의 페이지입니다.
+exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
+feature: Configuration, Orders
+source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+workflow-type: tm+mt
+source-wordcount: '1108'
+ht-degree: 1%
+
+---
+
+# [!UICONTROL Sales] > [!UICONTROL Sales]
+
+{{config}}
+
+{{beta-updates}}
+
+## [!UICONTROL General]
+
+![일반](./assets/sales-general.png)<!-- zoom -->
+
+<!-- [General](https://docs.magento.com/user-guide/marketing/sales-documents-ref-id.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Hide Customer IP] | 스토어 뷰 | 주문, 송장, 선적 및 대변 메모에 고객 IP 주소를 표시할지 여부를 결정합니다. 옵션: `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Checkout Totals Sort Order]
+
+![체크아웃 합계 정렬 순서](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
+
+<!-- [Checkout Totals Sort Order](https://docs.magento.com/user-guide/sales/checkout-totals-sort-order.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Subtotal] | 웹 사이트 | 다른 체크아웃 합계와 관련하여 소계를 계산하는 시기를 결정하는 숫자입니다. 기본값: `10` |
+| [!UICONTROL Discount] | 웹 사이트 | 다른 체크아웃 합계와 관련하여 할인이 계산되는 시기를 결정하는 숫자입니다. 기본값: `20` |
+| [!UICONTROL Shipping] | 웹 사이트 | 기타 체크아웃 합계와 관련하여 배송이 계산되는 시기를 결정하는 숫자입니다. 기본값: `30` |
+| [!UICONTROL Tax] | 웹 사이트 | 기타 체크아웃 합계와 관련하여 세금이 계산되는 시기를 결정하는 숫자입니다. 기본값: `40` |
+| [!UICONTROL Fixed Product Tax] | 웹 사이트 | 기타 체크아웃 합계와 관련하여 고정 제품 세금이 계산되는 시기를 결정하는 숫자입니다. 기본값: `50` |
+| [!UICONTROL Grand Total] | 웹 사이트 | 기타 체크아웃 합계와 관련하여 총계를 계산하는 시기를 결정하는 숫자입니다. 기본값: `100` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Reorder]
+
+![순서 바꾸기](./assets/sales-reorder.png)<!-- zoom -->
+
+<!-- [Reorder](https://docs.magento.com/user-guide/sales/reorders-allow.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Allow Reorder] | 스토어 뷰 | 고객이 계정에서 순서를 변경할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Allow Zero Grand Total]
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Allow Zero Grand Total for Credit Memo] | 스토어 뷰 | 총계가 0인 대변 메모를 생성할 가능성을 결정합니다. 옵션: `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Invoice and Packing Slip Design]
+
+![송장 및 포장 명세서 설계](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
+
+<!-- [Invoice and Packing Slip Design](https://docs.magento.com/user-guide/marketing/sales-document-pdf-logo.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Logo for PDF Print-outs] | 스토어 뷰 | PDF 송장 및 포장 명세서 헤더에 나타나는 로고 파일을 식별합니다. 허용되는 파일 형식: <br/>JPG/JPEG <br/>TIF/TIFF <br/>PNG |
+| [!UICONTROL Logo for HTML Print View] | 스토어 뷰 | 송장 및 포장 명세서 HTML 인쇄 보기의 헤더에 나타나는 로고 파일을 식별합니다. 허용되는 파일 형식: <br/>JPG /JPEG <br/>GIF <br/>PNG |
+| [!UICONTROL Address] | 스토어 뷰 | 송장 및 포장 명세서에 표시하려는 상점 주소. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Minimum Order Amount]
+
+![최소 주문 금액](./assets/sales-minimum-order-amount.png)<!-- zoom -->
+
+<!-- [Minimum Order Amount](https://docs.magento.com/user-guide/sales/cart-minimum-order-amount.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Enable] | 웹 사이트 | 사이트에 대해 최소 주문 금액이 설정되었는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Minimum Amount] | 웹 사이트 | 할인이 적용된 후 주문하는 최소 소계를 지정합니다. |
+| [!UICONTROL Include Discount Amount] | 웹 사이트 | 최소 주문 금액에 적용된 할인이 포함되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Include Tax to Amount] | 웹 사이트 | 최소 주문 금액에 세금이 포함되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Description Message] | 스토어 뷰 | 장바구니 합계가 최소 주문 수량보다 작을 때 장바구니의 맨 위에 표시되는 메시지를 결정합니다. 비워 두면 다음과 같은 기본 메시지가 나타납니다. `Minimum order amount is $[minimum_amount]` |
+| [!UICONTROL Error to Show in Shopping Cart] | 스토어 뷰 | 주문 금액이 필요한 최소 주문 금액보다 적을 경우 미니 장바구니 또는 체크아웃 링크에서 표시되는 메시지를 결정합니다. 비워 두면 기본 메시지가 나타납니다. |
+| [!UICONTROL Validate Each Address Separately in Multi-address Checkout] | 웹 사이트 | 복수 품목 주문의 경우, 주소를 분리할 주문 품목이 최소 주문 금액을 충족하는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Multi-address Description Message] | 스토어 뷰 | 다중 주소 주문의 경우, 주소로 보낸 항목이 최소 주문 수량보다 적은 경우 장바구니에 표시되는 메시지를 결정합니다. |
+| [!UICONTROL Multi-address Error to Show in Shopping Cart] | 스토어 뷰 | 다중 주소 주문의 경우, 주문 금액이 필요한 최소 주문 금액보다 적을 때 미니 장바구니 또는 체크아웃 링크에서 표시되는 메시지를 결정합니다. 비워 두면 기본 메시지가 나타납니다. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Dashboard]
+
+![대시보드](./assets/sales-dashboard.png)<!-- zoom -->
+
+<!-- [Dashboard](https://docs.magento.com/user-guide/stores/admin-dashboard.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Use Aggregated Data] | 글로벌 | 실시간으로 집계된 판매 데이터를 사용하여 대시보드 스냅샷 보고서를 생성하는지 여부를 결정합니다. 처리할 데이터가 많은 경우 실시간 데이터 표시를 해제하여 성능을 향상시킬 수 있습니다. 옵션: `Yes` / `No` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Orders Cron Settings]
+
+![주문 크론 설정](./assets/sales-orders-cron-settings.png)<!-- zoom -->
+
+<!-- [Orders Cron Settings](https://docs.magento.com/user-guide/system/cron.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Pending Payment Order Lifetime] | 웹 사이트 | 보류 중인 주문의 수명(분)을 결정합니다. 기본 설정: `480` 분(8시간) |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Gift Options]
+
+![선물 옵션](./assets/sales-gift-options.png)<!-- zoom -->
+
+<!-- [Gift Options](https://docs.magento.com/user-guide/sales/gift-options.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Allow Gift Messages on Order Level] | 웹 사이트 | 전체 주문에 대해 선물 메시지를 추가할 수 있는지 여부를 지정합니다. |
+| [!UICONTROL Allow Gift Messages on Order Items] | 웹 사이트 | 개별 주문 항목에 대한 선물 메시지를 추가할 수 있는지 여부를 지정합니다. |
+| [!UICONTROL Allow Gift Wrapping on Order Level] | 웹 사이트 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) 전체 주문에 대해 선물 포장을 추가할 수 있는지 여부를 지정합니다. |
+| [!UICONTROL Allow Gift Wrapping for Order Items] | 웹 사이트 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) 개별 주문 항목에 선물 포장을 추가할 수 있는지 여부를 지정합니다. |
+| [!UICONTROL Allow Gift Receipt] | 웹 사이트 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) 주문에 선물 영수증을 추가할 수 있는지 여부를 지정합니다. |
+| [!UICONTROL Allow Printed Card] | 웹 사이트 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) 인쇄된 카드를 주문에 추가할 수 있는지 여부를 지정합니다. |
+| [!UICONTROL Default Price for Printed Card] | 웹 사이트 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) 인쇄된 카드의 기본 가격을 지정합니다. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Minimum Advertised Price]
+
+![최소 광고 가격](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
+
+<!-- [Minimum Advertised Price](https://docs.magento.com/user-guide/catalog/product-price-minimum-advertised.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Enable MAP] | 웹 사이트 | 스토어에 대한 최소 광고 가격을 활성화합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Display Actual Price] | 웹 사이트 | 제품의 실제 가격이 고객에게 표시되는 위치를 결정합니다. 옵션: <br/>**`In Cart`**- 장바구니에 실제 제품 가격이 표시됩니다.<br/>**`Before Order Confirmation`** - 체크아웃 프로세스가 끝난 후 주문이 확정되기 직전에 실제 제품 가격을 표시합니다. <br/>**`On Gesture`**- 고객이 &quot;가격 클릭&quot; 또는 &quot;이것은 무엇입니까?&quot;를 클릭하면 실제 제품 가격이 팝업으로 표시됩니다. 링크를 클릭합니다. |
+| [!UICONTROL Default Popup Text Message] | 스토어 뷰 | 고객이 범주 목록 또는 제품 보기 페이지에서 &quot;가격 클릭&quot; 링크를 선택할 때 표시되는 텍스트 메시지입니다. |
+| [!UICONTROL Default "What's This" Text Message] | 스토어 뷰 | 고객이 &quot;이게 뭐야?&quot;를 클릭할 때 표시되는 텍스트 메시지 제품 보기 페이지의 링크입니다. |
+| [!UICONTROL Manufacturer's Suggested Retail Price] | 글로벌 | 제조업체(MSRP)가 제안한 소매 가격. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Order by SKU Settings]
+
+{{ee-feature}}
+
+![SKU 설정별 주문](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
+
+<!-- [Order by SKU Settings](https://docs.magento.com/user-guide/customers/account-dashboard-order-by-sku.html) -->
+
+![고객 그룹에 대한 SKU 설정별 주문](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Enable Order by SKU on My Account in Storefront] | 웹 사이트 | 고객 계정 대시보드에서 SKU별 주문을 사용할 수 있는지 여부를 결정합니다. 옵션: <br/>**`Yes, for Everyone`**- SKU별 주문 탭이 모든 고객의 계정 대시보드에 표시됩니다.<br/>**`Yes, for Specified Customer Groups`** - SKU별 주문 탭이 지정된 그룹의 구성원 또는 공유 카탈로그의 계정 대시보드에 표시됩니다. <br/>**`No`**- SKU별 주문 탭은 고객 계정에서 사용할 수 없습니다. |
+| [!UICONTROL Customer Groups] | 웹 사이트 | 고객 그룹을 결정합니다. 옵션: `General` / `Retailer` / `Wholesale` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Instant Purchase]
+
+![즉시 구매](./assets/sales-instant-purchase.png)<!-- zoom -->
+
+<!-- [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Enabled] | 스토어 뷰 | Braintree과 같은 결제 방법에 자격 증명 모음이 활성화된 경우 스토어 보기에 대해 즉시 구매를 활성화합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Button Text] | 스토어 뷰 | 즉시 구매 단추에 나타나는 텍스트를 지정합니다. 기본 텍스트는 입니다. `Instant Purchase`. |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving]
+
+{{ee-feature}}
+
+![주문, 송장, 선적, 대변 메모 보관](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
+
+이러한 설정 변경에 대한 자세한 내용은 [주문 아카이브 구성](../../stores-purchase/order-archive.md#configure-the-order-archive) 다음에서 _경험 저장 및 구매 안내서_.
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Enable Archiving] | 글로벌 | 보관을 사용할지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Archive Orders Purchased] | 글로벌 | 완료된 주문이 보관되기까지 경과되는 일 수를 결정합니다. 기본값: `30` |
+| [!UICONTROL Order  Statuses to be Archived] | 글로벌 | 다음을 결정합니다. [상태](../../stores-purchase/order-status.md) 보관할 주문 수 기본적으로 완료 또는 마감됨 상태의 주문은 보관됩니다. 옵션: `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
+
+{:style=&quot;table-layout:auto&quot;}
+
+## [!UICONTROL RMA Settings]
+
+{{ee-feature}}
+
+![RMA 설정](./assets/sales-rma-settings.png)<!-- zoom -->
+
+이러한 설정 변경에 대한 자세한 내용은 [반환 구성](../../stores-purchase/rma-configure.md) 다음에서 _경험 저장 및 구매 안내서_.
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Enable RMA on Storefront] | 웹 사이트 | 고객이 상점 첫 화면에서 RMA 요청을 만들고 볼 수 있는지 여부를 결정합니다. RMA는 신규 및 기존 주문 모두에 적용할 수 있습니다. 기본적으로 RMA는 상점 앞에 대해 활성화되지 않습니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable RMA on Product Level] | 웹 사이트 | 제품 정보에서 RMA 활성화 필드에 대한 기본값을 결정합니다. |
+| [!UICONTROL Use Store Address] | 웹 사이트 | 반송된 상품의 배송에 사용되는 연락처명과 주소를 결정합니다. 옵션: <br/>**`Yes`**- 를 사용합니다. [원점](../../stores-purchase/shipping-settings.md#point-of-origin) 배송 설정의 주소.<br/>**`No`** - 대체 주소를 입력할 수 있도록 주소 양식을 엽니다. |
+
+{:style=&quot;table-layout:auto&quot;}

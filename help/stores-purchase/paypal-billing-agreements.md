@@ -1,0 +1,139 @@
+---
+title: PayPal 결제 계약
+description: 스토어에서 PayPal 결제 계약 및 결제 방법을 지원하는 방법에 대해 알아봅니다.
+exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
+feature: Payments
+source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+workflow-type: tm+mt
+source-wordcount: '791'
+ht-degree: 0%
+
+---
+
+# PayPal 결제 계약
+
+체크아웃 프로세스를 간소화하기 위해 고객은 결제 서비스 공급자로서 PayPal과 청구 계약을 체결할 수 있습니다. 체크아웃 시 고객은 결제 방법으로 청구 계약을 선택합니다. 결제 시스템은 고유한 번호로 청구 계약을 확인하고 고객 계정에 비용을 청구합니다. 청구 계약이 있는 경우 고객은 더 이상 각 구매에 대한 결제 정보를 입력할 필요가 없습니다. 고객은 각 의 상태가 표시되는 고객 계정의 대시보드에서 청구 계약을 관리할 수 있습니다. _활성_ 또는 _취소됨_. 청구 계약이 취소되면 다시 활성화할 수 없습니다.
+
+## 청구 계약 워크플로우
+
+1. **고객이 청구 계약에 등록합니다.**. 청구 계약이 체결된 후에는 고객 계정에서만 추가 청구 계약을 추가할 수 있습니다. 고객이 만들 수 있는 청구 계약 수에는 제한이 없습니다. 고객은 다음 방법 중 하나를 사용하여 청구 계약에 등록할 수 있습니다.
+
+   - **고객 계정에 등록** - 고객은 고객 계정에서 청구 계약에 등록할 수 있습니다.
+   - **체크아웃 시 등록** - PayPal Express Checkout을 사용하여 구매 비용을 지불하는 고객은 결제 계약을 만들기 위한 확인란을 선택할 수 있습니다. 현재 주문에는 청구 계약이 사용되지 않지만, 고객이 다음에 주문을 할 때 결제 방법 옵션으로 사용할 수 있습니다.
+   - **스토어 관리자가 등록** - 고객 요청 시 스토어 관리자는 고객 청구 계약을 사용하여 판매 주문을 생성할 수 있습니다.
+
+1. **PayPal 확인 및 기록 계약**. 고객이 청구별 지급결제로 주문하면 청구 계약 참조 ID와 판매 주문 결제 내역이 PayPal로 이전되고 참조 정보와 함께 고객 계정에 기록됩니다. 결제가 승인되면 Commerce에서 주문이 생성됩니다. 청구 계약 참조 ID가 고객과 스토어에 전송됩니다.
+
+## 청구 계약 관리
+
+다음 _[!UICONTROL Billing Agreements]_이 페이지에는 스토어와 고객 간의 모든 청구 계약이 나열됩니다. 판매자는 청구 계약 참조 ID, 상태 및 생성 날짜를 포함하여 고객 또는 청구 계약 정보별로 레코드를 필터링할 수 있습니다. 각 레코드에는 청구 계약에 대한 일반 정보와 결제 수단으로 사용한 모든 판매 주문이 포함됩니다. 고객 청구 계약을 조회, 취소 또는 삭제할 수 있습니다. 취소된 청구 계약은 스토어 관리자만 삭제할 수 있습니다.
+
+### 청구 계약 보기
+
+1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+
+1. 목록에서 청구 계약을 찾은 다음 을(를) 클릭하여 엽니다.
+
+각 청구 계약 페이지는 두 개의 탭으로 구성됩니다. _[!UICONTROL General Information]_및_[!UICONTROL Related Orders]_.
+
+#### 일반 정보
+
+이 탭에는 청구 계약에 대한 일반 정보가 포함되어 있습니다.
+
+- [!UICONTROL Reference ID]: 현재 청구 계약에 할당된 고유 숫자 식별자입니다.
+- [!UICONTROL Customer]: 현재 청구 계약에 할당된 고객의 계정입니다.
+- [!UICONTROL Status]: 결제 계약 상태.
+- [!UICONTROL Created At]: 만든 날짜.
+- [!UICONTROL Updated At]: 날짜를 업데이트합니다.
+
+![청구 계약 보기](./assets/billing-agreement-view.png){width="600" zoomable="yes"}
+
+#### 관련 주문
+
+이 탭에는 현재 청구 계약을 사용하여 수행한 주문 목록이 표시됩니다.
+
+![청구 계약 보기](./assets/billing-agreement-related-orders.png){width="600" zoomable="yes"}
+
+### 청구 계약 취소
+
+1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+
+1. 목록에서 청구 계약을 찾은 다음 을(를) 클릭하여 엽니다.
+
+1. 오른쪽 상단 모서리에서 을(를) 클릭합니다. **[!UICONTROL Cancel]**.
+
+1. 작업을 확인하려면 다음을 클릭합니다. **[!UICONTROL OK]**.
+
+### 청구 계약 삭제
+
+1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+
+1. 목록에서 청구 계약을 찾은 다음 을(를) 클릭하여 엽니다.
+
+1. 오른쪽 상단 모서리에서 을(를) 클릭합니다. **[!UICONTROL Delete]**.
+
+1. 작업을 확인하려면 다음을 클릭합니다. **[!UICONTROL OK]**.
+
+### 열 설명
+
+| 열 | 설명 |
+|--- |--- |
+| [!UICONTROL ID] | 각 청구 계약에 할당된 고유 숫자 식별자 |
+| [!UICONTROL Email] | 고객 연락처 이메일 |
+| [!UICONTROL First Name] | 고객의 이름 |
+| [!UICONTROL Last Name] | 고객의 성 |
+| [!UICONTROL Reference ID] | 각 청구 계약에 지정된 고유한 숫자 참조 식별자 |
+| [!UICONTROL Status] | 결제 계약 상태. 옵션: `Active` 또는 `Canceled` |
+| [!UICONTROL Created] | 제작일 |
+| [!UICONTROL Updated] | 업데이트 일자 |
+
+{style="table-layout:auto"}
+
+## Storefront 경험
+
+결제 제공자와 청구 계약을 체결한 고객은 계약에 따라 지금 구매하고 나중에 결제할 수 있습니다. 다음
+
+![고객 대시보드의 청구 계약 목록](./assets/billing-agreements-dashboard.png){width="700" zoomable="yes"}
+
+| 열 | 설명 |
+|--- |--- |
+| [!UICONTROL Reference ID] | 각 청구 계약에 지정된 고유한 숫자 참조 식별자 |
+| [!UICONTROL Status] | 결제 계약 상태. 옵션: `Active` 또는 `Canceled` |
+| [!UICONTROL Created At] | 제작일 |
+| [!UICONTROL Updated At] | 업데이트 일자 |
+| [!UICONTROL Payment Method] | 청구 계약의 결제 제공업체 |
+| [!UICONTROL View] | 청구 계약 조회에 사용되는 버튼 |
+
+{style="table-layout:auto"}
+
+### 청구 계약 만들기
+
+1. 고객은 계정 대시보드에서 다음을 선택합니다 **[!UICONTROL Billing Agreements]**.
+
+1. 아래 **[!UICONTROL New Billing Agreement]**&#x200B;에서 결제 공급자를 선택합니다.
+
+1. 클릭 **[!UICONTROL Create]**.
+
+이 작업은 고객을 결제 시스템 웹 사이트로 리디렉션합니다.
+
+![고객 계정 대시보드의 새 청구 계약](./assets/create-billing-agreement-dashboard.png){width="700" zoomable="yes"}
+
+### 청구 계약 보기
+
+1. 고객은 계정 대시보드에서 다음을 선택합니다 **[!UICONTROL Billing Agreements]**.
+
+1. 청구 계약 및 클릭 수 선택 **[!UICONTROL View]**.
+
+![고객 대시보드에서 청구 계약 보기](./assets/view-billing-agreement.png){width="700" zoomable="yes"}
+
+### 청구 계약 취소
+
+1. 고객은 계정 대시보드에서 다음을 선택합니다 **[!UICONTROL Billing Agreements]**.
+
+1. 청구 계약 및 클릭 수 선택 **[!UICONTROL View]**.
+
+1. 오른쪽 상단에서 **[!UICONTROL Cancel]** 그런 다음 **[!UICONTROL OK]** 확인할 수 있습니다.
+
+>[!NOTE]
+>
+>관리자 사용자(판매자)가 청구 계약을 취소하는 경우 상점 첫 화면에서 취소할 수 없습니다. 다음 _취소됨_ 이 계약에 대한 상태가 표시됩니다.
