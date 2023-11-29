@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] 상거래 관리자의 페이지입니다.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3095'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 | [!UICONTROL Mask for Meta Keywords] | 글로벌 | 의 기본값을 결정합니다. _메타 키워드_ 다른 필드의 자리 표시자 값 및 입력한 추가 텍스트를 기반으로 하는 필드입니다. 기본 자리 표시자: <br/>제품 이름 - `{{name}}` |
 | [!UICONTROL Mask for Meta Description] | 글로벌 | 다른 필드의 자리 표시자 값 및 입력된 추가 텍스트를 기반으로 메타 설명 필드의 기본값을 결정합니다. 기본 자리 표시자: <br/>제품 이름 - `{{name}}` <br/>설명 - `{{description}}` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Reviews]
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!UICONTROL Enabled] | 스토어 뷰 | 제품 검토를 활성화합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Allow Guests to Write Reviews] | 웹 사이트 | 고객이 제품 리뷰를 작성할 수 있도록 스토어에 계정을 열어야 하는지 여부를 결정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Storefront]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Show Swatches in Product List] | 스토어 뷰 | 견본이 제품 목록에 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Show Swatch Tooltip] | 스토어 뷰 | 견본 도구 설명이 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Alerts]
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 | [!UICONTROL Stock Alert Email Template] | 스토어 뷰 | 스톡 경고 이메일 알림에 사용되는 템플릿을 식별합니다. 기본 템플릿: `Product stock alert` |
 | [!UICONTROL Alert Email Sender] | 스토어 뷰 | 제품 경고 이메일 메시지의 발신자로 표시되는 스토어 연락처를 결정합니다. 옵션: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Alerts Run Settings]
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 | [!UICONTROL Error Email Sender] | 글로벌 | 이메일이 포함된 역할 선택 `from`. |
 | [!UICONTROL Error Email Template] | 글로벌 | 제품 경고 오류 알림에 사용할 이메일 템플릿을 선택합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Image Placeholders]
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 | [!UICONTROL Thumbnail] | 스토어 뷰 | 썸네일에 대해 선택한 자리 표시자 파일을 식별합니다. |
 | [!UICONTROL Choose File] |  | 파일로 이동하여 해당 유형의 자리 표시자 이미지로 업로드합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Recently Viewed/Compared Products]
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 | [!UICONTROL Lifetime of products in Recently Viewed Widget] | 글로벌 | 최근에 본 목록에 표시된 제품이 표시되는 시간을 초 단위로 결정합니다. |
 | [!UICONTROL Lifetime of products in Recently Compared Widget] | 글로벌 | 최근 비교 목록에 비교된 제품이 표시되는 기간(초)을 결정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Video]
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 | [!UICONTROL Show related video] | 스토어 뷰 | 관련 비디오를 표시하려면 을(를) 로 설정합니다. `Yes`. |
 | [!UICONTROL Auto restart video] | 스토어 뷰 | 비디오 자동 재생을 활성화하려면 를 로 설정합니다. `Yes`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Price]
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Price Scope] | 글로벌 | 기본 통화의 범위를 결정합니다. 옵션: `Global` / `Website` |
 | [!UICONTROL Default Product Price] | 글로벌 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) 해당하는 경우 기본 제품 가격을 정의합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Layered Navigation]
 
@@ -180,7 +180,7 @@ ht-degree: 0%
 | [!UICONTROL Default Price Navigation Step] | 스토어 뷰 | 각 단계에 포함되는 제품 수를 결정합니다. |
 | [!UICONTROL Maximum Number of Price Intervals] | 스토어 뷰 | 레이어 탐색에 나타나는 가격 간격 수에 대한 제한을 설정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Category Permissions]
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 | [!UICONTROL Allow Adding to Cart] | 웹 사이트 | 범주에서 제품을 구매할 수 있는 사용자를 결정합니다. 옵션: <br/>`Yes, for Everyone` - 모든 사용자가 카테고리의 제품을 장바구니에 넣을 수 있습니다. <br/>`Yes, for Specified Customer Groups` - 선택한 고객 그룹의 구성원만 해당 범주의 제품을 장바구니에 넣을 수 있습니다. <br/>`No` - 이 범주의 제품을 장바구니에 넣을 수 없습니다. |
 | [!UICONTROL Disallow Catalog Search by] | 웹 사이트 | 카테고리에서 제품을 검색할 수 없는 고객 그룹을 식별합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Optimization]
 
@@ -218,7 +218,7 @@ ht-degree: 0%
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | 스토어 뷰 | 동일한 카테고리 페이지를 가리키는 URL이 여러 개 있는 경우 이 옵션은 표준 메타 태그를 사용하여 검색 엔진이 인덱싱해야 하는 카테고리 URL을 식별합니다. URL에는 메타 태그를 사용하는 카테고리의 전체 이름이 포함되어 있습니다. 이렇게 하면 중복 컨텐츠가 줄어들고 SEO가 향상됩니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Use Canonical Link Meta Tag for Products] | 스토어 뷰 | 동일한 제품 페이지를 가리키는 URL이 여러 개 있는 경우, 이 옵션은 표준 메타 태그를 사용하여 검색 엔진이 인덱싱해야 하는 제품 URL을 식별합니다. URL에는 메타 태그를 사용하는 제품에 대한 전체 이름이 포함되어 있습니다. 이렇게 하면 중복 컨텐츠가 줄어들고 SEO가 향상됩니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Category Top Navigation]
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Maximal Depth] | 글로벌 | 위쪽 탐색에서 하위 범주 수준의 수를 결정합니다. 기본값 `0` 레벨 수에 제한을 두지 않습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Search]
 
@@ -251,7 +251,7 @@ ht-degree: 0%
 | [!UICONTROL Number of top search results to cache] | 스토어 뷰 | 더 빠른 응답을 위해 캐시할 인기 검색어 및 결과 수. 값 입력 `0` 을(를) 두 번째로 입력하면 모든 검색어와 결과를 캐시합니다. 기본값: `100` |
 | [!UICONTROL Autocomplete Limit] | 스토어 뷰 | 에서 사용할 수 있는 최대 라인 수를 결정합니다. [상점 첫 화면 팝오버] 페이지를 가리키도록 업데이트하는 중입니다. 라이브 검색 설치 시 기본값을 변경할 수 있으며 이 구성 설정을 변경하여 나중에 업데이트할 수 있습니다. 기본값: `8` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Elasticsearch 포함 Adobe Commerce
 
@@ -289,7 +289,7 @@ Elasticsearch이 있는 기본 Adobe Commerce에는 다음 구성 설정이 포�
 | [!UICONTROL Show Results Count for Each Suggestion] | 스토어 뷰 | 각 제안에 대한 검색 결과 수를 표시할지 여부를 결정합니다. 테마에 따라 숫자는 제안 후 대괄호 안에 나타납니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | 스토어 뷰 | 검색 결과가 반환되기 위해 일치해야 하는 쿼리의 용어 수에 해당하는 값을 지정합니다. 따라서 쇼핑객에게 최적의 결과 관련성이 보장됩니다. 비율 값은 숫자와 관련이 있으며 필요한 경우 내림차순 처리하여 쿼리에서 일치시킬 최소 용어 수로 사용합니다. 값은 음수 또는 양의 정수, 음수 또는 양의 퍼센트, 두 가지의 조합 또는 다중 조합일 수 있다. 자세한 내용은 다음을 참조하십시오. [minimum_should_match 매개 변수](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) Elasticsearch 설명서에서 확인할 수 있습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Downloadable Product Options]
 
@@ -308,7 +308,7 @@ Elasticsearch이 있는 기본 Adobe Commerce에는 다음 구성 설정이 포�
 | [!UICONTROL Use Content Disposition] | 스토어 뷰 | 다운로드 가능한 콘텐츠에 대한 링크를 이메일 첨부 파일 또는 브라우저 창의 인라인 링크로 전달하는 방법을 결정합니다. 옵션: <br/>**`Attachment`**- 다운로드 링크가 이메일 첨부 파일로 제공됩니다.<br/>**`Inline`** - 다운로드 링크는 웹 페이지에서 인라인 링크로 제공됩니다. |
 | [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 웹 사이트 | 다운로드 가능한 제품을 구입하는 게스트가 계정을 등록하고 로그인하여 체크아웃 프로세스를 완료해야 하는지 여부를 결정합니다. 옵션: <br/>**`Yes`**- 장바구니에 다운로드 가능한 제품이 포함되어 있는 경우, 고객은 계정을 등록하거나 기존 계정에 로그인하여 구매를 완료해야 합니다.<br/>**`No`** - 다운로드 링크는 이메일 메시지 본문에서 인라인 링크로 전달됩니다.  <br/> _**참고:**_ 공유 가능이 로 설정된 경우에만 게스트 체크아웃을 제품 다운로드에 사용할 수 있습니다. `Yes`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Date & Time Custom Options]
 
@@ -323,7 +323,7 @@ Elasticsearch이 있는 기본 Adobe Commerce에는 다음 구성 설정이 포�
 | [!UICONTROL Time Format] | 스토어 뷰 | 시간 형식을 12시간 또는 24시간 시계로 설정합니다. 옵션: `12h AM/PM` / `24h` |
 | [!UICONTROL Year Range] | 스토어 뷰 | 에 표시되는 연도의 시작 및 종료 범위를 정의합니다. _년_ 필드. 값을 YYYY 형식으로 입력해야 합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog Events]
 
@@ -340,7 +340,7 @@ Elasticsearch이 있는 기본 Adobe Commerce에는 다음 구성 설정이 포�
 | [!UICONTROL Number of Events to be Displayed in the Event Slider Widget] | 스토어 뷰 | 카테고리 페이지의 이벤트 슬라이더 위젯에 표시되는 이벤트 수를 결정합니다. 재정의하려면 `limit="x"` 변수를 채우는 방법에 따라 페이지를 순서대로 표시합니다. |
 | [!UICONTROL Events to Scroll per Click in Event Slider Widget] | 스토어 뷰 | 홈 페이지와 같은 CMS 페이지에서 이벤트 슬라이더 위젯에 표시되는 이벤트의 수를 결정합니다. 재정의하려면 `scroll="x"` 변수를 채우는 방법에 따라 페이지를 순서대로 표시합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Rule-Based Product Relations]
 
@@ -362,4 +362,4 @@ Elasticsearch이 있는 기본 Adobe Commerce에는 다음 구성 설정이 포�
 | [!UICONTROL Show Upsell Products] | 글로벌 | 스토어에 나타나는 업셀 제품 목록을 결정합니다. 제품 정보에서 수동으로 선택한 목록, 제품 관계 규칙에 대한 응답으로 생성된 목록 또는 두 가지 모두를 조합할 수 있습니다. 옵션: `Both Selected and Rule-Based` / `Selected Only` / `Rule-Based Only` |
 | [!UICONTROL Rotation Mode for Products in Upsell Product List] | 글로벌 | 업셀 제품 목록의 제품이 표시되는 순서를 결정합니다. 옵션: `Do not rotate` / `Shuffle` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

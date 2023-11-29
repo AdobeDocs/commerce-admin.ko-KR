@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] 상거래 관리자의 페이지입니다.
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Theme] | 글로벌 | Google reCAPTCHA 상자의 스타일을 결정합니다. 옵션: `Light Theme` (기본값) / `Dark Theme` |
 | [!UICONTROL Language Code] | 글로벌 | A [문자 코드](https://developers.google.com/recaptcha/docs/language) Google reCAPTCHA 텍스트 및 메시징에 사용되는 언어를 지정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v2 Invisible]
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 | [!UICONTROL Theme] | 글로벌 | Google reCAPTCHA 상자의 스타일을 결정합니다. 옵션: `Light Theme` (기본값) / `Dark Theme` |
 | [!UICONTROL Language Code] | 글로벌 | A [문자 코드](https://developers.google.com/recaptcha/docs/language) Google reCAPTCHA 텍스트 및 메시징에 사용되는 언어를 지정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA v3 Invisible]
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 | [!UICONTROL Theme] | 글로벌 | Google reCAPTCHA 상자의 스타일을 결정합니다. 옵션: `Light Theme` (기본값) / `Dark Theme` |
 | [!UICONTROL Language Code] | 글로벌 | A [문자 코드](https://developers.google.com/recaptcha/docs/language) Google reCAPTCHA 텍스트 및 메시징에 사용되는 언어를 지정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL reCAPTCHA Failure Messages]
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 | [!UICONTROL reCAPTCHA Validation Failure Message] | 글로벌 | 확인에 실패할 경우 관리자에 표시되는 메시지입니다. 기본 텍스트: `reCAPTCHA verification failed.` |
 | [!UICONTROL reCAPTCHA Technical Failure Message] | 글로벌 | reCAPTCHA가 확인 결과를 반환하지 못하는 경우 관리자에 표시되는 메시지입니다. 기본 텍스트: `Something went wrong with reCAPTCHA. Please contact the store owner.` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Admin Panel]
 
@@ -91,4 +91,4 @@ ht-degree: 0%
 | [!UICONTROL Enable for Login] | 글로벌 | 다음에 대해 사용할 수 있는 reCAPTCHA 형식을 결정합니다. [관리자 로그인](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). 옵션:<br/>**`No`**- (기본값) 관리자 로그인의 유효성을 검사하지 않습니다.<br />**`reCAPTCHA v2 ("I am not a robot")`** - 사용자가 다음을 선택해야 합니다. _난 로봇이 아니야_ 확인란.<br />**`Invisible reCAPTCHA v2`**- 점수를 기반으로 상호 작용하지 않고 백그라운드에서 사용자 행동을 확인합니다.<br/>**`Invisible reCAPTCHA v3`** - (권장) 상호 작용 점수를 기반으로 백그라운드에서 사용자 행동을 확인합니다. |
 | [!UICONTROL Enable for Forgot Password] | 글로벌 | 요청을 위해 사용할 수 있는 reCAPTCHA의 유형을 결정합니다. [관리자 암호 재설정](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). 옵션:<br/>**`No`**- (기본값) 암호 재설정 요청의 유효성을 검사하지 않습니다.<br />**`reCAPTCHA v2 ("I am not a robot")`** - 사용자가 다음을 선택해야 합니다. _난 로봇이 아니야_ 확인란.<br />**`Invisible reCAPTCHA v2`**- 점수를 기반으로 상호 작용하지 않고 백그라운드에서 사용자 행동을 확인합니다.<br/>**`Invisible reCaptcha v3`** - (권장) 상호 작용 점수를 기반으로 백그라운드에서 사용자 행동을 확인합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] 상거래 관리자의 페이지입니다.
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '202'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 | [!UICONTROL Sender Name] | 스토어 뷰 | 에서 보낸 이메일의 발신자로 표시되는 이름 `General Contact` 신원. |
 | [!UICONTROL Sender Email] | 스토어 뷰 | 와 연결된 이메일 주소 `General Contact` 신원. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Sales Representative]
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 | [!UICONTROL Sender Name] | 스토어 뷰 | 에서 보낸 이메일의 발신자로 표시되는 이름 `Sales Representative` 신원. |
 | [!UICONTROL Sender Email] | 스토어 뷰 | 와 연결된 이메일 주소 `Sales Representative` 신원. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Support]
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 | [!UICONTROL Sender Name] | 스토어 뷰 | 에서 보낸 이메일의 발신자로 표시되는 이름 `Customer Support` 신원. |
 | [!UICONTROL Sender Email] | 스토어 뷰 | 와 연결된 이메일 주소 `Customer Support` 신원. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 사용자 정의 이메일 1
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 | [!UICONTROL Sender Name] | 스토어 뷰 | 에서 보낸 이메일의 발신자로 표시되는 이름 `Custom 1` 신원. |
 | [!UICONTROL Sender Email] | 스토어 뷰 | 와 연결된 이메일 주소 `Custom 1` 신원. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 사용자 정의 이메일 2
 
@@ -69,4 +69,4 @@ ht-degree: 2%
 | [!UICONTROL Sender Name] | 스토어 뷰 | 에서 보낸 이메일의 발신자로 표시되는 이름 `Custom 2` 신원. |
 | [!UICONTROL Sender Email] | 스토어 뷰 | 와 연결된 이메일 주소 `Custom 2` 신원. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

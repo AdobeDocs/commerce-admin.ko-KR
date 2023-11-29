@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Tax]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Tax] 상거래 관리자의 페이지입니다.
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
-source-git-commit: 0d1bb3666be18676acd770b6b96e4ee46d3cf1c9
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 | [!UICONTROL Default Tax Class for Product] | 글로벌 | 제품에 사용되는 기본 세금 분류를 식별합니다. |
 | [!UICONTROL Default Tax Class for Customer] | 글로벌 | 고객에 사용되는 기본 세금 분류를 식별합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Calculation Settings]
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Apply Tax On] | 웹 사이트 | 세금이 원래 가격에 적용되는지 또는 가능한 경우 사용자 지정 가격에 적용되는지 여부를 결정합니다. 옵션: `Custom price if available` / `Original price only` |
 | [!UICONTROL Enable Cross Border Trade] | 웹 사이트 | 활성화하면 세율이 다른 지역의 경계 간에 일관된 가격을 적용합니다. 옵션: `Yes` / `No` <br/><br/>**_참고:_**국경 간 무역을 사용하면 세율별 이익률이 조정된다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Tax Destination Calculation]
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 | [!UICONTROL Default State] | 스토어 뷰 | 세금 계산의 기준이 되는 상태를 결정합니다. 별표(*)는 선택한 국가 내의 모든 상태를 나타내는 와일드카드로 기능할 수 있습니다. |
 | [!UICONTROL Default Post Code] | 스토어 뷰 | 세금 계산의 기준이 되는 우편 번호 또는 우편번호를 식별합니다. 별표(*)는 와일드카드로 작동하여 선택한 상태 내의 모든 우편 번호를 나타낼 수 있습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Price Display Settings]
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 | [!UICONTROL Display Product Prices in Catalog] | 스토어 뷰 | 카탈로그에 게시된 제품 가격에 세금이 포함되는지 또는 제외되는지 여부를 결정하거나 두 가지 버전의 가격을 표시합니다(하나는 세금이 포함됨). 옵션: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_참고:_**제품 가격 표시 필드를 다음으로 설정한 경우 `Including Tax`즉, 세금 출처와 일치하는 세금 규칙이 있거나 세금 규칙과 일치하는 고객 주소가 있는 경우에만 세금이 표시됩니다. 일치를 트리거할 수 있는 이벤트에는 고객 계정 생성, 로그인 또는 장바구니에서 세금 및 배송 예상 도구의 사용이 포함됩니다. |
 | [!UICONTROL Display Shipping Prices] | 스토어 뷰 | 배송비에 세금이 포함되는지 또는 제외되는지 또는 배송비의 두 가지 버전을 표시할지 여부를 결정합니다. 하나는 세금이 있고 다른 하나는 세금이 없습니다. 옵션: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart Display Settings]
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Display Full Tax Summary] | 스토어 뷰 | 장바구니에 전체 세금 요약이 포함되어 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Display Zero Tax Subtotal] | 스토어 뷰 | 세금이 0일 때 장바구니에 세금 소계가 포함되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders, Invoices, Credit Memos Display Settings]
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 | [!UICONTROL Display Gift Wrapping Prices] | 스토어 뷰 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) 소계에 선물 포장 가격이 포함되어 있는지 여부를 결정합니다. 옵션: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 | [!UICONTROL Display Printed Card Prices] | 스토어 뷰 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) 인쇄된 카드 가격이 소계에 포함되는지 여부를 결정합니다. 옵션: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixed Product Taxes]
 
@@ -130,4 +130,4 @@ ht-degree: 0%
 | [!UICONTROL FPT Tax Configuration] | 웹 사이트 | FPT 세금 계산 방법을 결정합니다. 옵션: <br/>**`Not Taxed`**- 과세 관할 구역에서 FPT에 대해 과세하지 않는 경우 이 옵션을 선택합니다. (예: 캘리포니아)<br/>**`Taxed`** - 과세 관할 구역에서 세금 FPT를 수행하는 경우 이 옵션을 선택합니다. (예: 캐나다) <br/>**`Loaded and Displayed with Tax`**- FPT가 세금을 적용하기 전에 주문 합계에 추가되는 경우 이 옵션을 클릭합니다. (예: EU 국가) |
 | [!UICONTROL Include FPT in Subtotal] | 웹 사이트 | FPT가 장바구니 소계에 포함되는지 여부를 결정합니다. 옵션: <br/>**`Yes`**- 장바구니 소계에 FPT를 포함합니다.<br/>**`No`** - FPT는 소계에 포함되지 않으며 장바구니에서 소계 뒤에 배치됩니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

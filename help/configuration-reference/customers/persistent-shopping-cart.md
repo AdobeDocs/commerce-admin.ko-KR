@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart] 상거래 관리자의 페이지입니다.
 exl-id: d6c5ae46-32ed-4fcd-bcd6-ee3a07d7db5f
 feature: Configuration, Shopping Cart
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -39,4 +39,4 @@ ht-degree: 0%
 | [!UICONTROL Persist Recently Viewed Products] | 웹 사이트 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) 세션이 종료될 때 최근에 본 제품의 상태가 유지되는지 여부를 결정합니다. 옵션: <br/>**`Yes`**- 최근에 본 제품의 상태는 세션이 종료될 때 저장됩니다.<br/>**`No`** - 최근 본 제품의 상태는 세션이 종료될 때 저장되지 않습니다. |
 | [!UICONTROL Persist Customer Group Membership and Segmentation] | 웹 사이트 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) 세션이 종료될 때 고객의 그룹 멤버십 및 세분화 기준의 상태가 유지되는지 여부를 결정합니다. 옵션: <br/>**`Yes`**- 세션이 종료되면 고객의 그룹 멤버십 및 세분화 데이터의 상태가 저장됩니다.<br/>**`No`** - 세션이 종료될 때 고객의 그룹 멤버십 및 세분화 데이터가 저장되지 않습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

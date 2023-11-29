@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] 상거래 관리자의 페이지입니다.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | 웹 사이트 | 스토어 방문자가 다음을 선택할 수 있는지 확인합니다. [레지스터](../../customers/customer-sign-in.md) 회사 계정 또는 개인 계정용. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Options - Company Registration]
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 | [!UICONTROL Send Email Copy Method] | 스토어 뷰 | 등록 이메일 사본을 전송하는 데 사용되는 이메일 메서드입니다. 옵션: `Bcc` / `Separate Email` |
 | [!UICONTROL Default Company Registration Email] | 스토어 뷰 | 회사 등록 알림에 기본적으로 사용되는 이메일 템플릿입니다. 기본 템플릿: `Company Registration Request` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer-Related Emails]
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 | [!UICONTROL Default 'Customer Status Active' Email] | 스토어 뷰 | 고객 상태가 활성화될 때 기본적으로 사용되는 이메일 템플릿입니다. 이 이메일은 고객에게만 전송됩니다. 기본 템플릿: `Customer Status Active` |
 | [!UICONTROL Default 'Customer Status Inactive' Email] | 스토어 뷰 | 고객의 상태가 비활성화될 때 기본적으로 사용되는 이메일 템플릿입니다. 이 이메일은 고객에게만 전송됩니다. 기본 템플릿: `Customer Status Inactive` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Status Change]
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 | [!UICONTROL Default 'Company Status Change to Blocked' Email] | 스토어 뷰 | 회사 상태가 (으)로 변경될 때 기본적으로 사용되는 이메일 템플릿 _차단됨_. 기본 템플릿: `Company Status Blocked` |
 | [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | 스토어 뷰 | 회사 상태가 (으)로 변경될 때 기본적으로 사용되는 이메일 템플릿 _승인 보류 중_. 기본 템플릿: `Company Status Pending Approval` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Credit]
 
@@ -97,4 +97,4 @@ ht-degree: 0%
 | [!UICONTROL Refunded Email Template] | 스토어 뷰 | 주문 금액이 회사 크레딧으로 환불될 때 기본적으로 사용되는 이메일 템플릿입니다. 이 이메일은 회사 관리자에게 전송됩니다. 기본 템플릿: `Order Refunded to Company Credit` |
 | [!UICONTROL Reverted Email Template] | 스토어 뷰 | 주문이 회사 크레딧으로 돌아갈 때 기본적으로 사용되는 이메일 템플릿입니다. 이 이메일은 회사 관리자에게 전송됩니다. 기본 템플릿: `Order Reverted to Company Credit` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

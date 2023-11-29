@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL General] &gt; [!UICONTROL General] 상거래 관리자의 페이지입니다.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL European Union Countries] | 글로벌 | 유럽 연합 회원국. |
 | [!UICONTROL Top Destinations] | 스토어 뷰 | 판매를 목표로 하는 기본 국가. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL State Options]
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL State is required for] | 글로벌 | 우편 주소에 지역 또는 주를 포함해야 하는 국가(사업을 수행하는 경우). |
 | [!UICONTROL Allow to Choose State if It is Optional for Country] | 글로벌 | 필수가 아닌 국가의 경우 _지역/주_ 필드는 고객의 우편 주소에 포함되어 있습니다.<br /> <br />**`Yes`**- 다음을 포함 _지역/주_ 국가에서 요구하지 않더라도 고객 주소의 필드입니다.<br />**`No`** - 국가에서 필요하지 않은 경우 고객 주소에서 지역/주 필드를 생략합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Locale Options]
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL First Day of Week] | 스토어 뷰 | 스토어 보기에서 제공하는 시장에서 첫 번째 요일로 간주되는 날짜입니다. |
 | [!UICONTROL Weekend Days] | 스토어 뷰 | 주말에 마켓에 있는 요일 중 스토어 보기에서 제공하는 요일입니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Website Restrictions]
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 | [!UICONTROL HTTP Response] | 웹 사이트 | 웹 사이트가 닫히고 보트, 크롤러 또는 스파이더에 의해 연결이 시도될 때 전송되는 HTTP 응답을 결정합니다.<br /> <br />**`503 Service unavailable`**- 페이지를 사용할 수 없지만 스파이더가 색인을 업데이트해서는 안 됩니다.<br />**`200 OK`** - 랜딩 페이지는 올바르며 사이트의 유일한 페이지로 스파이더가 처리해야 합니다. |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | 웹 사이트 | 의 필드 여부를 결정합니다. _로그인_ 및 _암호 분실_ 양식은 이전 항목에서 자동으로 채워집니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Information]
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 | [!UICONTROL VAT Number] | 웹 사이트 | Commerce 설치를 소유하는 비즈니스의 부가가치세 번호(해당하는 경우). |
 | [!UICONTROL Validate VAT Number] |  | 부가가치세 식별 번호를 확인합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Single-Store Mode]
 
@@ -109,4 +109,4 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | 글로벌 | 단일 스토어 설치에 대해 활성화된 경우 는 구성 범위 상자 및 관련 필드 레이블 옵션을 숨깁니다. `Yes` / `No` <br/>**_참고:_**둘 이상의 보기가 있는 저장소의 경우 단일 스토어 모드가 무시됩니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

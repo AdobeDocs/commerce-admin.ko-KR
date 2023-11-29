@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Gift Cards]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] 상거래 관리자의 페이지입니다.
 exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 feature: Configuration, Gift
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Card Notification Email Sender] | 스토어 뷰 | 다음 항목을 식별합니다. [저장소 연락처](../../getting-started/store-details.md#store-email-addresses) 기프트 카드 알림 이메일을 보낸 사람으로 표시됩니다. 기본값: `General Contact` |
 | [!UICONTROL Gift Card Notification Email Template] | 스토어 뷰 | 다음을 결정합니다. [템플릿](../../systems/email-templates.md) 기프트 카드 알림 이메일에 사용됩니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card General Settings]
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Message Maximum Length] | 스토어 뷰 | 기프트 카드 메시지에 사용할 수 있는 최대 문자 수를 결정합니다. 기본값: 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | 글로벌 | 고객이 주문을 할 때 또는 주문 송장이 발행될 때 기프트 카드 계정이 생성되는지 여부를 결정합니다. 옵션: `Ordered` / `Invoiced` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Sent from Gift Card Account Management]
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 | [!UICONTROL Gift Card Email Sender] | 스토어 뷰 | 다음 항목을 식별합니다. [저장소 연락처](../../getting-started/store-details.md#store-email-addresses) 기프트 카드 이메일을 보낸 사람으로 표시됩니다. 기본값: `General Contact` |
 | [!UICONTROL Gift Card Template] | 스토어 뷰 | 다음을 결정합니다. [템플릿](../../systems/email-templates.md) 기프트 카드 이메일에 사용됩니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Card Account General Settings]
 
@@ -75,4 +75,4 @@ ht-degree: 1%
 | [!UICONTROL Low Code Pool Threshold] | 글로벌 | 풀을 보충해야 한다는 경고를 트리거하는 코드 풀의 레코드 수를 결정합니다. |
 | [!UICONTROL Generate] | 글로벌 | 를 클릭하여 기프트 카드 코드 목록을 생성합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

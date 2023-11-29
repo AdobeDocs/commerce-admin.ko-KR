@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Google API] 상거래 관리자의 페이지입니다.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Anonymize IP] | 스토어 뷰 | IP 주소에서 식별 정보가 제거되는지 여부를 결정합니다. [!DNL Google Analytics] 결과. |
 | [!UICONTROL Enable Content Experiments] | 스토어 뷰 | 활성화 [Google 콘텐츠 실험](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207): 동일한 페이지의 서로 다른 버전을 최대 10개까지 테스트하는 데 사용할 수 있습니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Analytics - Google Tag Manager]
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 | [!UICONTROL List property for the search results page] | 스토어 뷰 | 다음 항목을 식별합니다. [!DNL Google Tag Manager] 검색 결과 페이지와 연결된 속성입니다. 기본값: `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | 스토어 뷰 | 다음 항목을 식별합니다. [!DNL Google Tag Manager] 내부 프로모션의 레이블과 연결된 속성입니다. 기본값: `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google AdWords]
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Value] | 스토어 뷰 | 다음에 사용되는 값을 지정합니다. _[!UICONTROL Constant]_전환 값 유형입니다. |
 | [!UICONTROL Send Order Currency] | 스토어 뷰 | AdWords(기본 통화가 다른 웹 사이트의 경우)에서 거래별 통화 전환 값을 활성화합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google GTag]
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Anonymize IP] | 스토어 뷰 | Google Analytics 결과에 나타나는 IP 주소에서 식별 정보가 제거되는지 여부를 결정합니다. |
 | [!UICONTROL Enable Content Experiments] | 스토어 뷰 | 활성화 [Google 콘텐츠 실험](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207): 동일한 페이지의 서로 다른 버전을 최대 10개까지 테스트하는 데 사용할 수 있습니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google Analytics4 - Google Tag Manager]
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 | [!UICONTROL List property for the search results page] | 스토어 뷰 | 다음 항목을 식별합니다. [!DNL Google Tag Manager] 검색 결과 페이지와 연결된 속성입니다. 기본값: `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | 스토어 뷰 | 다음 항목을 식별합니다. [!DNL Google Tag Manager] 내부 프로모션의 레이블과 연결된 속성입니다. 기본값: `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google AdWords]
 
@@ -128,4 +128,4 @@ ht-degree: 0%
 | [!UICONTROL Conversion Value] | 스토어 뷰 | 다음에 사용되는 값을 지정합니다. _[!UICONTROL Constant]_전환 값 유형입니다. |
 | [!UICONTROL Send Order Currency] | 스토어 뷰 | AdWords(기본 통화가 다른 웹 사이트의 경우)에서 거래별 통화 전환 값을 활성화합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: 제품 목록
 description: 페이지당 표시되는 제품 수와 목록을 정렬하는 데 사용되는 속성을 결정하는 제품 목록 구성을 수정하는 방법을 알아봅니다.
 exl-id: 3779d9db-4adb-473b-b9c9-ad066f50b549
 feature: Catalog Management, Products, Page Content
-source-git-commit: 7ae9955b0283cb7bcd757e7b45fdbc4c3b2181ca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 0%
 | ![페이지당 표시](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - 페이지당 표시되는 제품 수를 결정합니다. |
 | ![페이지 매김 링크](./assets/control-pagination.png) | 페이지 매김 링크 - 다른 페이지에 대한 탐색 링크. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 페이지 매김 컨트롤 구성
 

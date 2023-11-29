@@ -4,9 +4,9 @@ description: 에서 구성 설정을 검토합니다. [!UICONTROL General] &gt; 
 exl-id: a84be30f-f2eb-4c86-942c-2d49e5cf23af
 role: Admin
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '356'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 | [!UICONTROL Default Display Currency] | 스토어 뷰 | 가격을 표시하는 데 사용되는 기본 통화. |
 | [!UICONTROL Allowed Currencies] | 스토어 뷰 | 스토어에서 결제 시 허용한 통화. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixer.io (legacy)]
 
@@ -44,7 +44,7 @@ ht-degree: 2%
 | [!UICONTROL API key] | 글로벌 | 를 통해 전환 서비스에 액세스하는 데 사용되는 키 [!DNL fixer.io] 계정입니다. 자세한 내용은 [[!DNL fixer.io]](https://fixer.io/). |
 | [!UICONTROL Connection Timeout in Seconds] | 글로벌 | Fixer.io 세션이 시간 초과되기 전의 비활성 시간(초)을 결정합니다. 기본값: `100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixer Api (APILayer)]
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 | [!UICONTROL API key] | 글로벌 | 를 통해 전환 서비스에 액세스하는 데 사용되는 키 [!DNL APILayer] 계정입니다. 자세한 내용은 [[!DNL APILayer]](https://apilayer.com/). |
 | [!UICONTROL Connection Timeout in Seconds] | 글로벌 | 다음 시간 이전의 비활성 시간(초)을 결정합니다. [!DNL APILayer] 세션 시간이 초과되었습니다. 기본값은 입니다. `100`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Currency Converter API]
 
@@ -66,7 +66,7 @@ ht-degree: 2%
 | [!UICONTROL API key] | 글로벌 | 전환 서비스에 액세스하는 데 사용되는 키입니다. 자세한 내용은 [[!DNL Currency Convertor] API](https://free.currencyconverterapi.com/). |
 | [!UICONTROL Connection Timeout in Seconds] | 글로벌 | 다음 시간 이전의 비활성 시간(초)을 결정합니다. [!DNL Currency Converter] 세션 시간이 초과되었습니다. 기본값:`100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Scheduled Import Settings]
 
@@ -82,4 +82,4 @@ ht-degree: 2%
 | [!UICONTROL Error Email Sender] | 웹 사이트 | 오류 이메일 알림을 보낸 사람으로 표시되는 스토어 연락처를 식별합니다. 기본 발신자: `General Contact` |
 | [!UICONTROL Error Email Template] | 웹 사이트 | 오류 이메일 알림의 기반으로 사용되는 템플릿을 지정합니다. 기본 템플릿: `Currency Update Warnings` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

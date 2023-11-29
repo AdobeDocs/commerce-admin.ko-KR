@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Login As Customer]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Customers] &gt; [!UICONTROL Login As Customer] 상거래 관리자의 페이지입니다.
 exl-id: fe5925a2-f66f-44a1-aead-8b1abcbd9db2
 feature: Configuration, Customer Service
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 1%
 
 ---
@@ -28,4 +28,4 @@ ht-degree: 1%
 | [!UICONTROL Title for Login as Customer opt-in checkbox] | 웹 사이트 | 에 대한 제목 추가 `Login as customer` 확인란. |
 | [!UICONTROL Login as Customer checkbox tooltip] | 웹 사이트 | 에 대한 도구 설명을 추가합니다. `Log in as customer` 확인란. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] 상거래 관리자의 페이지입니다.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Merchant Country] | 웹 사이트 | 판매자가 등록되어 비즈니스를 수행하는 국가를 식별합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 권장 솔루션
 
@@ -86,7 +86,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Maximum Order Total] | 웹 사이트 | 수표 또는 금전 주문으로 결제할 수 있는 최대 주문 금액. <br/><br/>**_참고:_**합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 적격 처리됩니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 결제 방법과 함께 나열할 때 수표 또는 금전 주문에 의한 결제가 나타나는 순서를 결정하는 숫자입니다. 입력 `0` 목록의 맨 위에 놓습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Bank Transfer Payment]
 
@@ -105,7 +105,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Maximum Order Total] | 웹 사이트 | 은행 이체로 지급할 수 있는 가장 큰 주문 금액. <br/><br/>**_참고:_**합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 적격 처리됩니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 결제 방법과 함께 나열할 때 은행 이체로 지급하는 순서를 결정하는 번호가 나타납니다. 입력 `0` 목록의 맨 위에 놓습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Payment on Account]
 
@@ -126,7 +126,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Maximum Order Total] | 웹 사이트 | 회사 계정에 청구할 수 있는 최대 주문 금액. <br/><br/>**_참고:_**합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 적격 처리됩니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 결제 방법과 함께 나열할 때 계정 결제가 표시되는 순서를 결정하는 번호입니다. 입력 `0` 목록의 맨 위에 놓습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Maximum Order Total] | 웹 사이트 | 은행 이체로 지급할 수 있는 가장 큰 주문 금액. <br/><br/>**_참고:_**합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 적격 처리됩니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 결제 방법과 함께 나열할 때 은행 이체로 지급하는 순서를 결정하는 번호가 나타납니다. 입력 `0` 목록의 맨 위에 놓습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
@@ -166,7 +166,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Payment from Specific Countries] | 웹 사이트 | 소계 체크아웃 0이 적용될 수 있는 특정 국가를 식별합니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 시 다른 결제 방법과 함께 나열할 때 &quot;결제 정보가 필요하지 않음&quot;과 같이 제목이 표시되는 순서를 결정하는 번호입니다. 입력 `0` 목록의 맨 위에 놓습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
 
@@ -185,7 +185,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Order] | 머천트가 정의된 기간(최대 29일) 내에 고객의 구매자 계정에서 주문 총액까지 하나 이상의 금액을 캡처할 수 있도록 하는 PayPal과의 계약을 나타냅니다. |
 | [!UICONTROL Sale] | 구매 금액이 승인되어 즉시 고객의 계좌에서 인출됩니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -208,4 +208,4 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Maximum Order Total] | 웹 사이트 | PO로 지급할 수 있는 가장 큰 주문 금액. <br/><br/>**_참고:_**합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 적격 처리됩니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 결제 방법과 함께 나열할 때 PO별 결제 순서를 결정하는 번호가 나타납니다. 입력 `0` 목록의 맨 위에 놓습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

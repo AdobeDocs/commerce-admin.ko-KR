@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Promotions]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Customers] &gt; [!UICONTROL Promotions] 상거래 관리자의 페이지입니다.
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Email Send Failure Threshold] | 글로벌 | 미리 알림이 특정 이메일 주소로 알림을 전송하려고 시도했으나 실패한 횟수. 이 값을 0으로 설정하면 임계값이 없으며, 어떠한 실패에도 불구하고 알림이 계속 전송됩니다. |
 | [!UICONTROL Reminder Email Sender] | 스토어 뷰 | 이메일 발신자로 표시되는 스토어 ID입니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Auto Generated Specific Coupon Codes]
 
@@ -48,4 +48,4 @@ ht-degree: 0%
 | [!UICONTROL Code Suffix] | 글로벌 | 모든 코드의 끝에 추가되는 값입니다. 접미사를 사용하지 않으려면 필드를 비워 둡니다. |
 | [!UICONTROL Dash Every X Characters] | 글로벌 | 모든 쿠폰 코드에 대시(-)를 삽입하는 간격입니다. 대시를 사용하지 않으려면 필드를 비워 둡니다. <br/>_**참고:**_ 대시(dash)만으로 다른 쿠폰 코드는 상이한 코드로 간주된다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

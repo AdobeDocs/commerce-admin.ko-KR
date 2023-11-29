@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] 상거래 관리자의 페이지입니다.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | 글로벌 | 환불 금액에서 보상 포인트가 자동으로 차감되는지 여부를 결정합니다. 옵션: `Yes` / `No`. |
 | [!UICONTROL Landing Page] | 스토어 뷰 | 보상 포인트 프로그램을 설명하는 CMS 페이지를 지정합니다. 스토어에서 포인트를 획득할 수 있는 위치에 기본 보상 페이지에 대한 링크가 나타납니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!UICONTROL Review Submission] | 웹 사이트 | 게시가 승인된 검토를 제출한 고객이 얻은 점수 수를 결정합니다. |
 | [!UICONTROL Rewarded Reviews Submission Quantity Limit] | 웹 사이트 | 고객당 포인트를 적립하는 데 사용할 수 있는 리뷰 수를 제한합니다. 제한을 두지 않으려면 비워 둡니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Notification Settings]
 
@@ -76,4 +76,4 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expiry Warning Email] | 스토어 뷰 | 일괄 처리에 대한 만료 경고 제한에 도달했을 때 고객이 받는 전자 메일의 템플릿을 결정합니다. 기본 템플릿: `Reward Points Expiry Warning` |
 | [!UICONTROL Expiry Warning before (days)] | 글로벌 | 알림을 전송할 지점 만료 전 일 수를 지정합니다. 만료 알림을 전송하지 않으려면 비워 둡니다. 입력한 일 수가 포인트의 남은 라이프타임보다 큰 경우 알림이 전송되지 않습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

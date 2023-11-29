@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Invitations]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Customers] &gt; [!UICONTROL Invitations] 상거래 관리자의 페이지입니다.
 exl-id: edafeaed-9c4f-4d9f-b35c-381ae5f43b67
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '252'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 | [!UICONTROL Allow Customers to Add Custom Message to Invitation Email] | 스토어 뷰 | 초대 양식에 초대자가 전자 메일을 통해 초대자에게 보내는 사용자 지정 메시지를 추가할 수 있는 필드가 있는지 여부를 결정합니다. 이는 초대에 메시지를 추가하는 관리자의 기능에 영향을 주지 않습니다. 옵션: `Yes` / `No`. |
 | [!UICONTROL Max Invitations Allowed to be Sent at One Time] | 스토어 뷰 | 초대자가 한 번에 보낼 수 있는 최대 초대 수를 결정합니다. 초대가 양식에 포함된 각 이메일 주소로 다른 초대를 보냅니다. 이렇게 하면 대량의 초대가 한 번에 전송되지 않도록 하여 서버 리소스를 보호하고 초대가 스팸으로 전송될 가능성을 줄일 수 있습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email]
 
@@ -44,4 +44,4 @@ ht-degree: 1%
 | [!UICONTROL Customer Invitation Email Sender] | 스토어 뷰 | 초대 이메일을 보낼 때 초대인이 받는 이메일의 발신자를 결정합니다. 기본값: `General Contact` |
 | [!UICONTROL Customer Invitation Email Template] | 스토어 뷰 | 초대 이메일을 보낼 때 초대받은 사람이 받는 전자 메일의 템플릿을 결정합니다. 기본 템플릿: `Customer Invitation` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

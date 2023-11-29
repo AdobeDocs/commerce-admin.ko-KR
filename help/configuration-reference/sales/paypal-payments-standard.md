@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL P
 description: 에서 구성 설정을 검토합니다. [!UICONTROL PayPal Payments Standard] 다음에 대한 섹션 [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] 상거래 관리자의 페이지입니다.
 exl-id: 846d9b6f-92b9-4610-b894-625f67f4cff8
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 | [!UICONTROL Enable this Solution] | 웹 사이트 | 고객이 PayPal Payments Pro를 결제 방법으로 사용할 수 있는지 여부를 결정합니다. |
 | [!UICONTROL Enable PayPal Credit] | 웹 사이트 | 고객이 PayPal 크레딧을 결제 옵션으로 사용할 수 있는지 여부를 결정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PayPal 크레딧 광고
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | 웹 사이트 | 의 위치 및 크기를 결정합니다. [!DNL PayPal Credit] 제품 페이지의 배너. 옵션: (과 동일) [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | 웹 사이트 | 의 위치 및 크기를 결정합니다. [!DNL PayPal Credit] 장바구니 페이지의 배너. 옵션: (과 동일) [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings - PayPal Payments Standard]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Credit Card Settings] |  |  |
 | [!UICONTROL Allowed Credit Cart Types] | 웹 사이트 | 체크아웃 중에 고객이 사용할 수 있는 신용 카드를 결정합니다. 지원되는 카드를 각각 선택하십시오. 옵션: `American Express` (추가 계약 필요) / `Visa` / `MasterCard` / `Discover` / `JCB` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 | [!UICONTROL Billing Agreement Signup] | 웹 사이트 | 고객이 을 입력할 수 있는지 여부를 결정합니다. [청구 계약](../../stores-purchase/paypal-billing-agreements.md) 스토어와 함께. 옵션: <br/>**`Auto`**- 고객은 빠른 체크아웃 중에 청구 계약에 등록할 수 있습니다.<br/>**`Ask Customer`** - 고객이 청구 계약에 등록할 것인지 묻는 메시지가 표시됩니다. <br/>**`Never`**- 고객은 결제 계약에 등록할 수 있는 옵션이 제공되지 않습니다. |
 | [!UICONTROL Skip Order Review Step] | 웹 사이트 | 고객이 PayPal 사이트에서 거래를 완료할 수 있는지, 아니면 주문을 제출하기 전에 상점으로 돌아가서 주문 검토 단계를 완료해야 하는지 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Billing Agreement Setting]
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | 웹 사이트 | 활성화되면 PayPal 결제 페이지에 장바구니의 라인 항목 요약을 표시합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Allow in Billing Agreement Wizard] | 웹 사이트 | 활성화되면 고객은 고객 계정의 대시보드에서 청구 계약을 시작할 수 있습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Settlement Report Settings]
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 | [!UICONTROL Schedule] | 글로벌 | PayPal에서 결제 보고서를 생성하는 빈도를 결정합니다. 옵션: `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | 글로벌 | 결제 보고서가 생성되는 시간, 분 및 초를 결정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Frontend Experience Settings]
 
@@ -138,4 +138,4 @@ ht-degree: 0%
 | [!UICONTROL Header Image Border Color] | 스토어 뷰 | 헤더 주위의 2픽셀 테두리에 대한 6자 16진수 색상 코드. |
 | [!UICONTROL Page Background Color] | 스토어 뷰 | 머리글 및 결제 양식 뒤에 표시되는 체크아웃 페이지의 배경색에 대한 6자리 16진수 색상 코드. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

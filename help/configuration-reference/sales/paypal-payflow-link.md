@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL P
 description: 에서 구성 설정을 검토합니다. [!UICONTROL PayPal Payflow Link] 다음에 대한 섹션 [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] 상거래 관리자의 페이지입니다.
 exl-id: 5ea30b22-e251-4d93-be2c-d34138ef2f7d
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1330'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Express Checkout] | 웹 사이트 | 고객이 결제 수단으로 PayPal Express Checkout을 사용할 수 있는지 여부를 결정합니다. |
 | [!UICONTROL Enable PayPal Credit] | 웹 사이트 | 고객이 PayPal 크레딧을 결제 옵션으로 사용할 수 있는지 여부를 결정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advertise PayPal Credit]
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | 웹 사이트 | 의 위치 및 크기를 결정합니다. [!DNL PayPal Credit] 제품 페이지의 배너. 옵션: (과 동일) [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | 웹 사이트 | 의 위치 및 크기를 결정합니다. [!DNL PayPal Credit] 장바구니 페이지의 배너. 옵션: (과 동일) [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Basic Settings]
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 | [!UICONTROL Sort Order] | 스토어 뷰 | 체크아웃 중에 다른 결제 방법과 함께 나열할 때 PayPal 결제 링크가 표시되는 순서를 결정하는 번호입니다. |
 | [!UICONTROL Payment Action] | 웹 사이트 | 주문이 제출될 때 PayPal에서 취하는 조치를 결정합니다. 옵션: <br/>**`Authorization`**- 구매를 승인하지만 자금을 보류합니다. 상인에게 &#39;포착&#39;되기 전까지는 그 금액이 인출되지 않는다.<br/>**`Sale`** - 구매 금액이 승인되어 즉시 고객의 계좌에서 인출됩니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Advanced Settings]
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 | [!UICONTROL Send Email Confirmation] | 웹 사이트 | 고객이 결제 확인 이메일을 받는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL URL Method for Cancel  URL and Return URL] | 웹 사이트 | 트랜잭션 중에 PayPal 서버와 정보를 교환하는 데 사용할 방법을 결정합니다. 옵션: <br/>**`GET`**- 프로세스의 결과인 정보를 검색합니다. (기본 방법입니다.)<br/>**`POST`** - 양식에 입력한 데이터와 같은 데이터 블록을 데이터 처리 프로세스에 보냅니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Settlement Report Settings]
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Schedule] | 글로벌 | PayPal에서 결제 보고서를 생성하는 빈도를 결정합니다. 옵션: `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | 글로벌 | 결제 보고서가 생성되는 시간, 분 및 초를 결정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Frontend Experience Settings]
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 | [!UICONTROL Header Image Border Color] | 스토어 뷰 | 헤더 주위의 2픽셀 테두리에 대한 6자 16진수 색상 코드. |
 | [!UICONTROL Page Background Color] | 스토어 뷰 | 머리글 및 결제 양식 뒤에 표시되는 체크아웃 페이지의 배경색에 대한 6자리 16진수 색상 코드. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Basic Settings - PayPal Express Checkout]
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Action] | 웹 사이트 | PayPal이 주문을 받으면 수행할 작업을 결정합니다. 옵션: <br/>**`Authorization`**- 구매를 승인하지만 자금을 보류합니다. 상인에게 &#39;포착&#39;되기 전까지는 그 금액이 인출되지 않는다.<br/>**`Sale`** - 구매 금액이 승인되어 즉시 고객의 계좌에서 인출됩니다. <br/>**`Order`**- 머천트가 정의된 기간 내에 고객의 구매자 계정에서 주문된 합계까지 하나 이상의 금액을 캡처할 수 있도록 해주는 PayPal과의 계약을 나타냅니다. 최대 29일이 될 수 있습니다. 자금을 수집하려면 상거래 관리에서 하나 이상의 송장을 생성해야 합니다. |
 | [!UICONTROL URL Display on Product Details Page] | 스토어 뷰 | 제품 페이지에 &quot;PayPal로 체크아웃&quot; 단추가 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Advanced Settings - PayPal Express Checkout]
 
@@ -144,4 +144,4 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | 웹 사이트 | PayPal 사이트에 고객 장바구니의 라인 항목에 대한 전체 요약을 표시합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Skip Order Review Step] | 웹 사이트 | 고객이 PayPal 사이트에서 거래를 완료할 수 있는지, 아니면 주문을 제출하기 전에 상점으로 돌아가서 주문 검토 단계를 완료해야 하는지 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

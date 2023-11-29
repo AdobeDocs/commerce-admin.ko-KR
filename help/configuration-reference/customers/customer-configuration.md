@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] 상거래 관리자의 페이지입니다.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Share Customer Accounts] | 글로벌 | 저장소 계층 구조에서 고객 계정의 범위를 결정합니다. 옵션: <br/>**`Global`**- 고객 계정 정보는 Commerce 설치의 모든 웹 사이트 및 스토어와 공유됩니다.<br/>**`Per Website`** - 고객 계정 정보는 계정이 생성된 웹 사이트로 제한됩니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Online Customers Options]
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Online Minutes Interval] | 글로벌 | 관리자로부터 고객의 온라인 활동에 액세스할 수 있는 시간을 결정합니다. 기본 간격 15분 동안 비워 둡니다. |
 | [!UICONTROL Customer Data Lifetime] | 글로벌 | 고객이 입력한 저장되지 않은 데이터가 만료될 때까지의 시간(분)을 결정합니다. 기본적으로 저장되지 않은 데이터는 60분 후에 만료됩니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Create New Account Options]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Welcome Email] | 스토어 뷰 | 계정이 확인된 후 보내는 환영 메시지에 사용되는 이메일 템플릿을 식별합니다. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | 글로벌 | VAT ID 번호를 입력하고 저장하는 데 사용되는 필드가 상점 첫 화면에서 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Password Options]
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Password Length] | 글로벌 | 암호에 허용되는 최소 문자 수를 결정합니다. 숫자는 0보다 커야 합니다(`0`). |
 | [!UICONTROL Lockout Time (minutes)] | 글로벌 | 로그인 시도 실패 횟수가 너무 많으면 고객 계정이 잠기는 시간(분)을 결정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Account Information Options]
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Change Email Template] | 스토어 뷰 | 고객이 이메일 주소를 변경할 때 사용되는 기본 이메일 템플릿을 식별합니다. |
 | [!UICONTROL Change Email and Password Template] | 스토어 뷰 | 고객이 이메일 주소와 암호를 변경할 때 사용되는 기본 이메일 템플릿을 식별합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Name and Address Options]
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Show Company] | 웹 사이트 | 고객의 회사가 이름 및 주소 양식에 포함되어 있는지 여부를 결정합니다. 옵션: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | 웹 사이트 | 고객의 팩스 번호가 이름과 주소 양식에 포함되어 있는지 여부를 결정합니다. 옵션: `No` / `Optional` / `Required` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Adobe Commerce 옵션
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 | [!UICONTROL Show Company] | 웹 사이트 | 고객의 회사가 이름 및 주소 양식에 포함되어 있는지 여부를 결정합니다. 옵션: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Fax] | 웹 사이트 | 고객의 팩스 번호가 이름과 주소 양식에 포함되어 있는지 여부를 결정합니다. 옵션: `No` / `Optional` / `Required` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Credit Options]
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 | [!UICONTROL Store Credit Update Email Sender] | 스토어 뷰 | 고객에게 전송된 신용 업데이트 알림의 발신자로 표시되는 스토어 ID를 결정합니다. |
 | [!UICONTROL Store Credit Update Email Template] | 스토어 뷰 | 크레딧 업데이트에 사용되는 이메일 템플릿을 결정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Login Options]
 
@@ -174,7 +174,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Redirect Customer to Account Dashboard after Logging in] | 웹 사이트 | 고객이 계정에 로그인한 후 수행할 작업을 결정합니다. 고객을 계정 대시보드로 리디렉션하려면 `Yes`. 옵션: <br/>**`Yes`**- 계정 대시보드는 고객이 계정에 로그인할 때 표시됩니다.<br/>**`No`** - 고객은 계정에 로그인한 후 계속 쇼핑을 할 수 있습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Address Templates]
 
@@ -189,7 +189,7 @@ ht-degree: 0%
 | [!UICONTROL HTML] | 스토어 뷰 | 이 템플릿은 아래에 있는 주소 필드의 순서를 정의합니다. _고객 주소_ 관리 패널의 영역([!UICONTROL Customers] > [!UICONTROL Manage Customers]). 이 오류는 의 옵션에도 영향을 줍니다. _새 주소 추가_ 고객이 계정 페이지에서 청구 또는 배송 주소를 만들 때 페이지. |
 | [!UICONTROL PDF] | 스토어 뷰 | 템플릿은 인쇄된 송장, 선적 및 대변 메모에 청구 및 운송 주소 표시를 정의합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Segments]
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Customer Segment Functionality] | 글로벌 | 고객 세그먼트를 사용하여 타깃팅된 프로모션을 만들 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Real-time Check if Customer is Matched by Segment] | 글로벌 | 고객 세그먼트의 유효성을 실시간으로 확인할지 여부를 결정합니다. 옵션: <br/>**[!UICONTROL Yes]**- 고객 세그먼트는 실시간으로 확인됩니다(기본값).<br/>**[!UICONTROL No]** - 고객 세그먼트는 하나의 결합된 조건 SQL 쿼리를 통해 검증됩니다. 이렇게 하면 시스템에 고객 세그먼트가 많은 경우 세그먼트 유효성 검사 성능이 향상됩니다. 그러나 분할 데이터베이스나 등록된 고객이 없는 경우에는 유효성 검사가 작동하지 않습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CAPTCHA]
 
@@ -224,4 +224,4 @@ ht-degree: 0%
 | [!UICONTROL Symbols Used in CAPTCHA] | 웹 사이트 | CAPTCHA에 나타나는 문자(a-z 및 A-Z)와 숫자(0-9)를 결정합니다. 다른 기호와 구분하기 어려운 기호(예: ) `i`, `l`, 또는 `1`는 기본 CAPTCHA 기호 집합에 포함되지 않습니다. |
 | [!UICONTROL Case Sensitive] | 웹 사이트 | CAPTCHA 문자가 대/소문자를 구분하는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,10 +3,10 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] 상거래 관리자의 페이지입니다.
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 1%
+source-wordcount: '97'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 | [!UICONTROL Street Address] | 웹 사이트 | 출발지 주소. |
 | [!UICONTROL Street Address Line 2] | 웹 사이트 | 필요한 경우 출발지 주소 추가 줄. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipping Policy Parameters]
 
@@ -40,4 +40,4 @@ ht-degree: 1%
 | [!UICONTROL Apply Custom Shipping Policy] | 웹 사이트 | 체크아웃 중에 배송 정책이 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Shipping Policy] | 스토어 뷰 | 배송 정책을 텍스트로 포함합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

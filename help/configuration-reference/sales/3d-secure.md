@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL 3D Secure]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL 3D Secure] 상거래 관리자의 페이지입니다.
 exl-id: 38eb3ee6-8b80-4ba3-afce-8ab82baa76a9
 feature: Configuration, Security, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,4 @@ ht-degree: 0%
 | [!UICONTROL API Identifier] | 웹 사이트 | 의 API 식별자 [!DNL CardinalCommerce] 판매자 계정. |
 | [!UICONTROL Debug] | 웹 사이트 | 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] 상거래 관리자의 페이지입니다.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 스토어 뷰 | 저장소 보기 범위에 대해 뉴스레터를 활성화할지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Subscription Options]
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 | [!UICONTROL Unsubscription Email Sender] | 스토어 뷰 | 뉴스레터 구독 종료를 요청하는 사용자에게 전송된 이메일 발신자로 표시되는 스토어 연락처를 식별합니다. |
 | [!UICONTROL Unsubscription Email Template] | 스토어 뷰 | 뉴스레터 구독 종료를 요청하는 사용자에게 전송된 알림에 사용되는 이메일 템플릿을 결정합니다. 기본 템플릿: `Newsletter unsubscription success` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

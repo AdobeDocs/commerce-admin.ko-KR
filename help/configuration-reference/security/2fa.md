@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Security] &gt; [!UICONTROL 2FA] 상거래 관리자의 페이지입니다.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 | [!UICONTROL Providers to use] | 글로벌 | 필요한 2단계 인증 방법을 나타냅니다. 공급자를 두 개 이상 선택하는 경우 각 사용자는 다음에 로그인할 때 각 2FA 메서드를 구성해야 합니다. |
 | [!UICONTROL Configuration Email URL for Web API] | 글로벌 | 사용자 지정 구현의 경우 (으)로 전송되는 대체 이메일 구성 링크의 URL _관리자_ 처음 로그인할 때 사용자. 이메일 템플릿에서 자리 표시자를 사용합니다. `:tfat` 토큰을 삽입할 위치를 나타냅니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google]
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL OTP Window] | 글로벌 | Google Authenticator에서 생성한 각 일회용 암호(OTP)의 수명(초)입니다. 기본값: `30` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Duo Security]
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 | [!UICONTROL Secret Key] | 글로벌 | 의 비밀 키 [!DNL Duo Security] 계정입니다. |
 | [!UICONTROL API Hostname] | 글로벌 | 의 API 호스트 이름 [!DNL Duo Security] 계정입니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Authy]
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 | [!UICONTROL API Key] | 글로벌 | 의 API 키 [!DNL Authy] 계정입니다. |
 | [!UICONTROL OneTouch Message] | 글로벌 | 에 표시되는 메시지 [!DNL Authy] 로그인 시 인증자. 기본값: `Login request to your Magento Admin` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL U2F Key]
 
@@ -72,4 +72,4 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL WebApi Challenge Domain] | 글로벌 | 발행 및 처리에 사용되는 도메인 [!DNL WebAuthn] 사용자 지정 WebAPI 구현의 어려움. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL OAuth]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Services] &gt; [!UICONTROL OAuth] 상거래 관리자의 페이지입니다.
 exl-id: 984793e0-6ac9-443b-b234-e0cea717dada
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 | [!UICONTROL Customer Token Lifetime (hours]) | 글로벌 | 고객 API 토큰이 만료되기 전 시간(시간)을 결정합니다. 필드가 비어 있으면 고객 토큰이 만료되지 않습니다. 기본값: `1` |
 | [!UICONTROL Admin Token Lifetime (hours)] | 글로벌 | 관리 API 토큰이 만료될 때까지의 시간(시간)을 결정합니다. 필드가 비어 있으면 관리 토큰이 만료되지 않습니다. 기본값: `4` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ ht-degree: 1%
 | [!UICONTROL Cleanup Probability] | 글로벌 | 정리를 시작하기 전 OAuth 요청 횟수를 지정합니다. 입력 안 함 `0` 정리를 비활성화합니다. |
 | [!UICONTROL Enable WSDL Cache] | 글로벌 | 항목이 정리되기 전 항목의 보존 기간을 분 단위로 결정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Consumer Settings]
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 | [!UICONTROL OAuth consumer credentials HTTP Post maxredirects] | 글로벌 | 소비자 자격 증명 게시와 관련된 최대 리디렉션 수를 지정합니다. |
 | [!UICONTROL Expiration Period] | 글로벌 | OAuth 토큰 교환이 시작된 후 사용하지 않은 키/암호가 만료될 때까지 남은 시간(초)을 결정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Authentication Locks]
 
@@ -61,4 +61,4 @@ ht-degree: 1%
 | [!UICONTROL Maximum Login Failures to Lock Out Account] | 글로벌 | 계정을 잠글 최대 인증 실패 수를 지정합니다. |
 | [!UICONTROL Lockout Time (seconds)] | 글로벌 | 계정이 잠금 해제된 후 걸리는 시간을 초 단위로 지정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

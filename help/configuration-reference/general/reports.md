@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Reports]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL General] &gt; [!UICONTROL Reports] 상거래 관리자의 페이지입니다.
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 feature: Configuration, Admin Workspace, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 | [!UICONTROL Year-to-Date Starts] | 글로벌 | 연간 누계 계산의 기준이 되는 월 및 일을 지정합니다. |
 | [!UICONTROL Current Month Starts] | 글로벌 | 계산에서 현재 월의 시작을 표시하는 데 사용되는 날짜를 지정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL General Options]
 
@@ -45,4 +45,4 @@ ht-degree: 1%
 | [!UICONTROL Enable "Product Added To Wishlist" Report] | 글로벌 | 위시리스트에 추가된 제품 통계 수집을 활성화하거나 비활성화합니다. |
 | [!UICONTROL Enable "Share WishList" Report] | 글로벌 | 공유 위시 목록의 통계 수집을 활성화하거나 비활성화합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

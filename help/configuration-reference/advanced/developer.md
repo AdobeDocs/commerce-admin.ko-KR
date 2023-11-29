@@ -4,9 +4,9 @@ description: 에서 구성 설정을 검토합니다. [!UICONTROL Advanced] &gt;
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '802'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Workflow Type] | 글로벌 | 개발 중에 클라이언트측에서 컴파일 수가 줄어드는지 아니면 서버측에서 컴파일 수가 줄어드는지 여부를 결정합니다. 옵션: <br/>**`Client side less compilation`**- 기본 less.js 라이브러리를 사용하여 브라우저에서 컴파일이 수행됩니다.<br/>**`Server side less compilation`** - 컴파일은 Less PHP 라이브러리를 사용하여 서버에서 발생합니다. 프로덕션 기본 모드입니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Developer Client Restrictions]
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow IPs (comma separated)] | 스토어 뷰 | 스토어의 개발자 도구를 방해하지 않고 라이브 사이트에서 사용할 수 있는 허용 목록에 추가하다 를 만듭니다. 개발자 도구를 사용할 때 사이트에 대한 모든 변경 사항(예: _인라인 번역_&#x200B;는 허용 목록에 추가하다의 IP 주소에서만 볼 수 있습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Template Settings]
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 | [!UICONTROL Allow Symlinks] | 스토어 뷰 | 활성화 중 [심볼 링크](https://en.wikipedia.org/wiki/Symbolic_link) 는 사이트를 보안 위험에 노출할 수 있으며 프로덕션 스토어에는 권장되지 않습니다. |
 | [!UICONTROL Minify Html] | 스토어 뷰 | 저장소 템플릿에 대한 HTML이 최소화되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Debug]
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 | [!UICONTROL Enable Template Path Hints for Admin] | 글로벌 | 페이지에서 사용되는 각 템플릿의 경로를 나타내는 표기법을 관리자에 추가합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Add Block Class Type to Hints] | 스토어 뷰 | 템플릿 경로 힌트에 블록 이름을 포함합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Translate Inline]
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 | [!UICONTROL Enable for Storefront] | 스토어 뷰 | 상점 첫 화면의 인라인 번역기를 활성화합니다. 각 스토어 보기에 대해 인터페이스 텍스트를 편집할 수 있습니다. 라이브 스토어를 방해하지 않고 인라인 번역기를 사용하려면 개발자 클라이언트 제한 허용 목록에 추가하다에 IP 주소를 추가하십시오. |
 | [!UICONTROL Enable for Admin] | 글로벌 | 관리자용 인라인 번역기를 활성화합니다. 상점 첫 페이지와는 달리 관리자는 여러 언어로 번역할 수 없습니다. 그러나 필드 레이블과 인터페이스의 다른 텍스트는 변경될 수 있습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL JavaScript Settings]
 
@@ -99,7 +99,7 @@ ht-degree: 1%
 | [!UICONTROL Log JS Errors to Session Storage] | 글로벌 | 활성화된 경우 보고용 기능 테스트에서 사용할 수 있습니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Log JS Errors to Session Storage Key] | 글로벌 | 수집된 js 오류를 검색하는 데 사용되는 키를 식별합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CSS Settings]
 
@@ -113,7 +113,7 @@ ht-degree: 1%
 | [!UICONTROL Minify CSS Files] | 스토어 뷰 | 불필요한 문자, 공백 및 들여쓰기를 제거하여 코드의 크기를 줄입니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Use CSS critical path] | 글로벌 | 다음 _CSS 중요 경로_ 에서 축소된 중요한 CSS 인라인을 제공합니다. `<head>` 비동기적으로 로드되는 모든 중요하지 않은 스타일을 지웁니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Image Processing Settings]
 
@@ -123,7 +123,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Image Adapter] | 글로벌 | 이미지를 렌더링하는 데 사용할 어댑터를 지정합니다. 어댑터 설정을 변경한 후 카탈로그 이미지 캐시를 플러시합니다. 옵션: `PHP GD2` / `ImageMagick` <br/><br/>**_참고:_**ICO 파일 형식은 ImageMagick 어댑터에서만 지원됩니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Caching Settings]
 
@@ -133,7 +133,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Cache User Defined Attributes] | 글로벌 | 활성화되면 사용자 정의 및 시스템 EAV(엔티티 속성 값) 속성을 캐시합니다. 이 옵션을 사용하면 성능이 향상될 수 있지만 캐싱을 위한 추가 공간이 필요합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Static Files Settings]
 
@@ -143,7 +143,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Sign Static Files] | 글로벌 | 활성화되면 는 정적 파일의 URL에 디지털 서명을 추가하여 브라우저가 파일의 최신 버전을 사용할 수 있는 시기를 감지할 수 있도록 합니다. 파일의 서명이 브라우저의 캐시에 저장된 것과 다른 경우 파일의 최신 버전이 사용됩니다. 서명할 수 있는 정적 파일에는 JavaScript, CSS, 이미지 및 글꼴이 포함됩니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Grid Settings]
 
@@ -153,4 +153,4 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Asynchronous Indexing|Global] | 주문, 송장, 선적 및 대변 메모와 같은 주문 처리 시스템 개체가 그리드에 추가되고 다시 색인화되는 시기를 결정합니다. 비동기 인덱싱을 사용하여 저장 작업 중에 데이터가 잠기지 않도록 하고 처리 시간을 줄일 수 있습니다. 옵션: <br/>**`Disable`**- (기본값) 주문 관련 엔티티가 다양한 시간에 그리드에 추가됩니다. 저장됨.<br/>**`Enable`** - 주문 관련 엔티티는 예약된 cron 작업 중에만 그리드에 추가됩니다. Cron은 1분에 한 번 실행되도록 구성해야 합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

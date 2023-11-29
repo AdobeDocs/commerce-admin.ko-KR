@@ -2,9 +2,9 @@
 title: 구성 범위
 description: Commerce 관리자의 구성 설정에 대한 범위 설정에 대해 알아봅니다.
 exl-id: b7b87ac5-dc7d-472f-af24-52b4d12e46c5
-source-git-commit: eb61d90c0a3bf5cac976fc8b79b23dc717aca3e6
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 | [!UICONTROL Default Store View] | 상위 스토어와 연결된 기본 스토어 보기의 이름입니다. |
 | [!UICONTROL Stores Configuration] | 스토어 그리드로 이동합니다. 이는 선택하는 것과 같습니다 [!UICONTROL Stores] > [!UICONTROL All Stores] 관리 사이드바에서. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![선택한 시스템 값 확인란 사용](./assets/store-view-control.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Use Default] | 이 확인란은 구성 범위가 메인으로 설정된 경우에 나타납니다 `Website`및 는 웹 사이트에 할당된 기본 스토어를 나타냅니다. |
 | [!UICONTROL Use Website] | 이 확인란은 구성 범위가 특정 저장소 보기로 설정된 경우에 나타납니다. 선택하면 스토어 보기와 연결된 상위 웹 사이트의 설정이 사용됩니다. 이 경우, 웹 사이트와 연관된 기본 스토어에 적용되는 것으로 이해되기 때문에 스토어 레벨은 생략된다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 범위 설정
 
@@ -94,4 +94,4 @@ ht-degree: 0%
 | 언어 | 여러 언어를 지원하려면 제품 설명을 포함한 모든 컨텐츠가 다음과 같아야 합니다. [번역됨](../stores-purchase/store-localize.md#localize-products) 각 스토어 조회수. |
 | 통화 표시 | 다름 [통화 표시](../stores-purchase/currency-configuration.md) 트랜잭션이 기본 통화를 사용하여 웹 사이트 수준에서 처리되지만 각 스토어 보기에 사용할 수 있습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

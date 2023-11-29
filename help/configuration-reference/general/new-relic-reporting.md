@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL New Relic Reporting]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL General] &gt; [!UICONTROL New Relic Reporting] 상거래 관리자의 페이지입니다.
 exl-id: d6bf4810-81a3-420d-abc9-9b87c1e92551
 feature: Configuration, System, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '189'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 4%
 | [!UICONTROL New Relic Application Name] | 스토어 뷰 | 에 할당한 이름 [!DNL New Relic] 통합. |
 | [!UICONTROL Send Adminhtml and Frontend as Separate Apps] | 스토어 뷰 | 상점 및 관리자를 위해 수집된 보고서 데이터를 별도의 앱으로 New Relic에 전송하는 옵션입니다. 이 옵션을 사용하려면 다음에 대해 입력한 이름이 필요합니다. [!UICONTROL New Relic Application Name]. 이 기능은 수집된 앱 데이터에 밑줄이 있는 애플리케이션 이름을 추가합니다. For example: `MyStore_Adminhtml`, `MyStore_frontend` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Cron]
 
@@ -44,4 +44,4 @@ ht-degree: 4%
 |--- |--- |--- |
 | [!UICONTROL Enable Cron] | 스토어 뷰 | 다음 여부를 결정합니다. [!DNL New Relic] 보고서는 다음 방법으로 일정에 따라 실행할 수 있습니다. [크론](../../systems/cron.md). 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

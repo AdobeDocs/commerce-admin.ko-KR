@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser] 상거래 관리자의 페이지입니다.
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
 feature: Configuration, Merchandising
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 1%
 
 ---
@@ -29,4 +29,4 @@ ht-degree: 1%
 | [!UICONTROL Color Attribute Code] | 글로벌 | 제품을 색상별로 정렬하는 데 사용되는 특성을 지정합니다. 기본값: `color` |
 | [!UICONTROL Color Order] | 글로벌 | 제품을 색상별로 정렬할 때 정렬 순서를 결정합니다. 각 색상을 별도의 행에 입력합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

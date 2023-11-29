@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL B2B Features]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL General] &gt; [!UICONTROL B2B Features] 상거래 관리자의 페이지입니다.
 exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 feature: Configuration, B2B
-source-git-commit: 4f4ddb6da9bbf3bc07efb3b8518ee71323d43b49
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '368'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 | [[!UICONTROL Enable Quick Order]](../../b2b/quick-order.md) | 웹 사이트 | 활성화되면 고객 및 게스트는 SKU 또는 제품 이름을 기반으로 신속하게 주문을 할 수 있습니다. 옵션: `Yes` / `No` |
 | [[!UICONTROL Enable Requisition List]](../../b2b/configure-requisition-lists.md) | 웹 사이트 | 활성화되면 고객은 계정 대시보드에서 구매요청 목록을 생성하고 관리할 수 있습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![회사 및 공유 카탈로그가 활성화된 B2B 기능](./assets/b2b-features-company-enabled.png)<!-- zoom -->
 
@@ -42,7 +42,7 @@ ht-degree: 1%
 | [!UICONTROL Enable Shared Catalog direct products price assigning] | 웹 사이트 | 다음의 경우 _[!UICONTROL Enable Shared Catalog]_필드가 로 설정됨 `Yes`, 이 옵션을 사용할 수 있습니다. 활성화된 경우 공유 카탈로그에 지정된 제품만 가격 인덱스에 저장됩니다. 공유 카탈로그에 할당되지 않은 제품은 상점 앞에 표시되지 않습니다. 옵션: `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | 웹 사이트 | 활성화되면 회사 구매자는 장바구니에서 견적에 대한 요청을 제출할 수 있습니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Payment Methods]
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 | [!UICONTROL Applicable Payment Methods] | 글로벌 | B2B 구매자가 사용할 수 있는 결제 방법 선택을 결정합니다. 옵션: `All Payment Methods` / `Specific Payment Methods` |
 | [!UICONTROL Payment Methods] | 글로벌 | B2B 구매자가 사용할 수 있는 각 결제 방법을 지정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Shipping Methods]
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 | [!UICONTROL Applicable Shipping Methods] | 글로벌 | B2B 구매자가 기본적으로 사용할 수 있는 배송 방법의 선택을 결정합니다. 옵션: `All Shipping Methods` / `Specific Shipping Methods` |
 | [!UICONTROL Shipping Methods] | 글로벌 | B2B 구매자가 기본적으로 사용할 수 있는 각 배송 방법을 지정합니다. <br/>**_참고:_**특정 제품의 배송 방법을 제한할 수도 있습니다 [회사 계정](../../b2b/account-companies.md). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Approval Configuration]
 
@@ -74,6 +74,6 @@ ht-degree: 1%
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Purchase Orders]](../../stores-purchase/purchase-order.md) | 웹 사이트 | 활성화되면 회사에서 구매 발주를 생성할 수 있습니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 

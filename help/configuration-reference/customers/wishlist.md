@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Wish List]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Customers] &gt; [!UICONTROL Wish List] 상거래 관리자의 페이지입니다.
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 | [!UICONTROL Enable Multiple Wish Lists] | 스토어 뷰 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) (으)로 설정된 경우 `Yes`을 통해 고객은 여러 위시 목록을 만들고 유지 관리할 수 있습니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Number of Multiple Wish Lists] | 스토어 뷰 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) 여러 개의 위시리스트가 활성화된 경우, 은 고객이 계정과 연결할 수 있는 최대 위시리스트 수를 결정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Share Options]
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 | [!UICONTROL Max Emails Allowed to be Sent] | 스토어 뷰 | 일괄 처리할 수 있는 최대 이메일 수를 결정합니다. 최대 한도를 설정하면 서버의 부하를 줄이는 데 도움이 될 수 있습니다. 허용되는 최대 수는 10,000입니다. 기본값: `10` |
 | [!UICONTROL Email Text Length Limit] | 스토어 뷰 | 메시지에 포함할 수 있는 최대 문자 수를 결정합니다. 허용되는 최대 수는 10,000입니다. 기본값: `255` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Wish List Link]
 
@@ -58,4 +58,4 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Display Wish List Summary] | 웹 사이트 | 고객 계정 대시보드의 위시리스트 요약 표시를 구성합니다. 옵션: `Display number of items in wish list` / `Display item quantities` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

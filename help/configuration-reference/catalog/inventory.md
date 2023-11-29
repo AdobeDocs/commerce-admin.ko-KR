@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Catalog] &gt; [!UICONTROL Inventory] 상거래 관리자의 페이지입니다.
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
-source-git-commit: 80630957dbe25d21c45f64d8027a39b7b396619d
+source-git-commit: 768c9fdc37127b408230983e39e98b11149713a7
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Inventory Check On Cart Load] | 글로벌 | 장바구니에서 제품을 로드할 때 인벤토리 검사가 수행되는지 여부를 결정합니다. 이 인벤토리 검사를 비활성화하면 체크아웃 단계의 성능이 향상될 수 있습니다(특히 장바구니에 많은 항목이 있는 경우). 그러나 사전 유효성 검사를 건너뛸 경우 고객은 다음을 볼 수 있습니다. _품절_ 나중에 체크아웃 프로세스에서 오류가 발생했습니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Synchronize with Catalog] | 글로벌 | 로 설정된 경우 `Yes`, 재고 데이터는 카탈로그 변경(예: 제품 제거, 제품 SKU 변경 및 제품 유형 변경)에 따라 조정되며 재고와 카탈로그 간의 일관성을 유지합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Stock Options]
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Qty Increments] | 글로벌 | 수량 증분을 구성하는 제품 수를 설정합니다. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | 글로벌 | 대변 메모에 포함된 항목을 자동으로 재고로 반환할지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Admin Bulk Operations]
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 | [!UICONTROL Run asynchronously] | 글로벌 | 다음을 포함한 대량 제품 작업에 대해 일괄 작업을 비동기적으로 실행할지 여부를 결정합니다. [일괄](../../inventory-management/bulk-assignment.md) 소스 할당, 소스 할당 해제 및 [재고를 출처로 이전](../../inventory-management/inventory-transfer.md). 최대 까지 일괄 작업을 수집합니다. _[!UICONTROL Asynchronous batch size]_그런 다음 해당 작업을 실행합니다. 이 기능은 기본적으로 비활성화되어 있습니다. 활성화하기 전에 일괄 작업으로 성능을 검토하는 것이 좋습니다. 옵션:<br/>**`Yes`**- 다음에 대한 모든 대량 작업을 실행합니다. [!DNL Inventory Management] 비동기식으로. 활성화하려면 비동기 큐 관리자를 구성해야 합니다.<br/>**`No`**- 기본값. 대량 작업을 비동기적으로 실행하지 않습니다. |
 | [!UICONTROL Asynchronous batch size] | 글로벌 | 설정 **[!UICONTROL Run asynchronously]** 끝 `Yes` 값을 입력하려면 _[!UICONTROL Asynchronous batch size]_필드. <br/>기본 배치 크기는 100입니다. 벌크 프로세스가 이 양에 도달하면 실행됩니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Inventory Indexer Settings]
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Stock/Source reindex strategy] | 글로벌 | 재고/소스 리인덱싱에 사용되는 전략을 결정합니다. 옵션: `Synchronous` / `Asynchronous` 비동기 모드에 대해 비동기 큐 관리자를 구성해야 합니다. |
 
+{style="table-layout:auto"}
+
 >[!NOTE]
 >
 > 주문 관련 활동에 대한 재고 업데이트의 종속성으로 인해 재고 인덱서는 `Synchronous` 또는 `Asynchronous` 설정.
 
-
-{:style=&quot;table-layout:auto&quot;}
 
 ## [!UICONTROL Distance Provider for Distance Based SSA]
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Provider] | 글로벌 | 거리 우선순위 소스 선택 알고리즘에 사용할 공급자를 결정합니다. 이 기능은 기본적으로 활성화되어 있습니다. 옵션: <br/>**`Google MAP`**- Google 서비스를 사용하여 배송 대상 주소와 원본 위치(주소 및 GPS 좌표) 간의 거리 및 시간을 계산합니다. 이 옵션을 사용하려면 Google API 키가 필요하며 Google을 통해 요금이 부과될 수 있습니다.<br/>**`Offline Calculation`** - 포함된 데이터베이스를 사용하여 거리를 계산하여 배송 대상 주소와 가장 가까운 소스를 확인합니다. 이 옵션을 사용하려면 명령줄을 사용하여 배송하는 모든 국가에 대한 데이터베이스 위치 콘텐츠를 처음에 다운로드하도록 개발자 지원이 필요할 수 있습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Distance Provider]
 
@@ -111,4 +111,4 @@ ht-degree: 0%
 | [!UICONTROL Computation mode] | 글로벌 | 배송 주소 및 재고에 지정된 모든 출처와의 거리를 계산하는 방향 및 경로를 결정합니다. 기본적으로 계산은 운전 모드를 사용합니다. 옵션: <br/>**`Driving`**- 기본 설정이며, 도로 네트워크를 사용하여 표준 주행 방향을 요청합니다.<br/>**`Walking`** - 보행자 경로 및 보도를 사용하여 보행 방향을 요청합니다(가능한 경우). <br/>**`Bicycling`**- 자전거 도로 및 선호 거리를 사용하여 자전거 방향을 요청합니다 (현재 미국과 일부 캐나다 도시에서만 이용 가능). |
 | [!UICONTROL Value] | 글로벌 | 운송 대상 주소까지의 출처 위치에 대한 거리 및 시간을 계산하고 반환할 사항을 나타냅니다. 거리 우선순위 알고리즘은 배송지 주소까지의 거리 또는 시간이 가장 짧은 소스를 권장하므로 배송을 이행하는 데 더 빠르고 저렴할 수 있습니다. 옵션: <br/>**`Distance`**- 지표(킬로미터 및 미터) 또는 임페리얼(마일 및 피트) 포인트 사이의 거리를 반환합니다.<br/>**`Time to Destination`** - 소스 위치에서 배송 주소까지 이동하는 데 필요한 시간을 시간 및 분 단위로 반환합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

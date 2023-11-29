@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] 상거래 관리자의 페이지입니다.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3812'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | 웹 사이트 | 결제 방법이 구매에 적용되지 않는 경우 결제 중에 정액 요금이 옵션으로 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 게재 방법과 함께 나열할 때 정액 요금이 표시되는 순서를 결정하는 숫자입니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Free Shipping]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 | 해당되지 않는 경우 메서드 표시 | 웹 사이트 | 결제 방법이 구매에 적용되지 않는 경우 무료 배송이 체크아웃 중에 옵션으로 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 배송 방법과 함께 나열할 때 무료 배송이 표시되는 주문을 결정하는 숫자입니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Table Rates]
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | 웹 사이트 | 결제 방법이 구매에 적용되지 않는 경우 체크아웃 중에 테이블 비율 이 옵션으로 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 게재 방법과 함께 나열할 때 테이블 환율이 표시되는 순서를 결정하는 숫자입니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL In-Store Delivery]
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Search Radius] | 웹 사이트 | 픽업 위치를 검색할 때 사용할 반경(km). |
 | [!UICONTROL Displayed Error Message] | 스토어 뷰 | 고객이 매장 내 픽업을 선택하지만 배송 방법을 사용할 수 없을 때 표시되는 메시지입니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Carriers]
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 | [!UICONTROL Origin of the Shipment] | 웹 사이트 | (UPS XML만 해당) 제품 선적이 시작된 국가 또는 지역. |
 | [!UICONTROL Password] | 스토어 뷰 | UPS 배송자 계정 암호입니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS 패키지 정보](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | 웹 사이트 | 각 주문에 처리 비용이 적용되는지 또는 주문 내의 각 패키지에 적용되는지를 지정합니다. |
 | [!UICONTROL Handling Fee] | 웹 사이트 | 배송비 가격에 포함된 처리를 설정합니다. 취급 수수료는 고정 금액 또는 백분율로 설정할 수 있습니다. <br/><br/>**_참고:_**백분율을 입력할 경우 십진수 형식을 사용합니다. `0.25` 25%요 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS 허용 메서드](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
@@ -167,7 +167,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | 웹 사이트 | 무료 배송에 대한 자격이 부여되기 위해 주문이 도달해야 하는 최소 총 금액을 설정합니다. |
 | [!UICONTROL Displayed Error Message] | 스토어 뷰 | 어떤 이유로든 이 배송 방법을 사용할 수 없을 때 표시되는 오류 메시지. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS 적용 국가 및 기타 설정](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | 웹 사이트 | 디버깅을 위해 스토어와 UPS 간의 데이터 전송이 시스템에 기록되는지 여부를 지정합니다. 추적 및 기록해야 하는 문제가 없는 경우 이 옵션을 로 설정해야 합니다. `No`. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 게재 방법과 함께 나열할 때 UPS가 표시되는 순서를 결정하는 숫자입니다. 입력 `0` 목록의 맨 위에. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL USPS]
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | 웹 사이트 | USPS 발송자 계정 암호입니다. |
 | [!UICONTROL Mode] | 웹 사이트 | USPS 시스템으로 전송되는 데이터에 사용되는 전송 모드를 결정합니다. 옵션은 다음과 같습니다. <br/>**`Development`**- USPS는 상거래 서버에서 받은 데이터가 SSL을 통해 전송되는지 확인하지 않습니다.<br/>**`Live`** - USPS는 Commerce 서버에서 받은 데이터가 SSL(Secure Socket Layer)을 통해 전송되는지 확인합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS 패키징 설정](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
@@ -213,7 +213,7 @@ ht-degree: 0%
 | [!UICONTROL Machinable] | 웹 사이트 | 패키지를 컴퓨터에서 처리할 수 있는지 여부를 지정합니다. 이 옵션은 배송비 계산에 영향을 줍니다. |
 | [!UICONTROL Maximum Package Weight] | 웹 사이트 | USPS에서 지정하는 대로 패키지를 지정할 수 있는 최대 가중치를 설정합니다. 주문한 제품이 최대 패키지 중량을 초과하면 이 배송 옵션을 이용할 수 없습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS 취급 수수료 설정](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | 웹 사이트 | 각 주문에 처리 비용이 적용되는지 또는 주문 내의 각 패키지에 적용되는지를 지정합니다. |
 | [!UICONTROL Handling Fee] | 웹 사이트 | 배송비 가격에 포함된 처리를 설정합니다. 취급 수수료는 고정 금액 또는 백분율로 설정할 수 있습니다. <br/><br/>**_참고:_**백분율 금액을 입력할 때 십진수 형식을 사용하십시오 `0.25` 25%요 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS 허용 메서드](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Order Amount for Free Shipping] | 웹 사이트 | 무료 배송을 위해 충족해야 하는 최소 주문 금액을 설정합니다. |
 | [!UICONTROL Displayed Error Message] | 스토어 뷰 | 어떤 이유로든 USPS를 사용할 수 없을 때 표시되는 오류 메시지입니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS 적용 국가](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
@@ -254,7 +254,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | 웹 사이트 | 시스템이 디버깅을 위해 스토어와 USPS 간의 데이터 전송 로그를 유지하는지 확인합니다. 추적 및 기록해야 하는 문제가 없는 경우 이 옵션을 로 설정해야 합니다. `No`. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 게재 방법과 함께 나열할 때 USPS가 표시되는 순서를 결정하는 숫자입니다. 입력 `0` 목록의 맨 위에. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL FedEx]
 
@@ -276,7 +276,7 @@ ht-degree: 0%
 | [!UICONTROL Sandbox Mode] | 웹 사이트 | 테스트 환경에서 FedEx 트랜잭션을 실행하려면 샌드박스 모드 를 로 설정합니다. `Yes`. 옵션: `Yes` / `No`. |
 | [!UICONTROL Web-Services URL] | 웹 사이트 | 필요한 URL은 샌드박스 모드 설정에 따라 다릅니다. 옵션: <br/>**`Production`**- 스토어가 라이브 상태일 때 FedEx 웹 서비스에 액세스하기 위한 URL.<br/>**`Sandbox`** - FedEx 웹 서비스의 테스트 환경에 액세스할 수 있는 URL |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx 패키지](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
 
@@ -290,7 +290,7 @@ ht-degree: 0%
 | [!UICONTROL Dropoff] | 웹 사이트 | 목록에서 픽업 방법을 선택합니다. <br/>**`Regular Pickup`**- (기본값) 출하량이 많은 경우 일반 픽업을 정렬하는 것이 비용 효율적입니다.<br/>**`Request Courier`** - FedEx 택배사에 전화를 걸어 배송물을 수령하도록 요청해야 합니다. <br/>**`Drop Box`**- 현지 FedEx 드롭오프에서 배송을 드롭해야 합니다.<br/>**`Business Service Center`** - 현지 FedEx 비즈니스 서비스 센터에서 발송을 중단해야 합니다. <br/>**`Station`**- 현지 FedEx 역에서 선적을 취소해야 합니다. |
 | [!UICONTROL Maximum Package Weight] | 웹 사이트 | FedEx의 기본값은 150파운드입니다. 지원되는 최대 무게에 대해서는 운송 회사에 문의하십시오. FedEx에 특별한 약정이 없는 한 기본값을 사용하는 것이 좋습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx 취급 수수료](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
 
@@ -303,7 +303,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | 웹 사이트 | 취급 수수료를 적용하는 방법을 결정합니다. 옵션: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | 웹 사이트 | 금액을 계산하는 데 사용되는 방법에 따라 처리 수수료로 청구되는 금액을 지정합니다. 요금이 고정 요금을 기준으로 하는 경우 다음과 같이 금액을 소수로 입력합니다. `4.90`. 처리 수수료가 주문의 백분율을 기준으로 하는 경우 백분율로 금액을 입력합니다. 예를 들어 주문의 6%를 부과하려면 값을 다음과 같이 입력합니다. `.06`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx 게재 방법](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
 
@@ -320,7 +320,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | 웹 사이트 | 무료 배송에 필요한 최소 주문 금액을 지정합니다. |
 | [!UICONTROL Displayed Error Message] | 스토어 뷰 | FedEx가 어떤 이유로든 사용할 수 없을 때 나타나는 메시지입니다. 기본 메시지를 사용하거나 다른 메시지를 입력할 수 있습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx 적용 국가](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
 
@@ -335,7 +335,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | 웹 사이트 | 체크아웃 중 배송 방법으로 FedEx가 표시되는 시점을 결정합니다. 옵션: <br/>**`Yes`**- FedEx 배송 옵션은 주문에서 사용할 수 있는지 여부에 관계없이 배송 방법 목록에 표시됩니다.<br/>**`No`** - 주문에 적용할 수 없는 경우(예: 주문 중량이 최대 중량 금액을 초과하는 경우) FedEx 배송 옵션이 배송 방법 목록에 표시되지 않습니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃하는 동안 다른 배달 방법과 함께 나열할 때 FedEx가 표시되는 순서를 결정하는 숫자입니다. 입력 `0` 목록의 맨 위에. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL DHL]
 
@@ -353,7 +353,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | 웹 사이트 | DHL 배송자 계정 암호입니다. |
 | [!UICONTROL Account Number] | 웹 사이트 | 당신의 DHL 쉬퍼 계정 번호입니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![DHL 패키지 설정](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
@@ -369,7 +369,7 @@ ht-degree: 0%
 | [!UICONTROL Weight Unit] | 스토어 뷰 | 운송 계산에 사용되는 가중치의 측정 단위를 결정합니다. 옵션: `Pounds` / `Kilograms` |
 | [!UICONTROL Size] | 스토어 뷰 | 패키지의 크기를 결정합니다. 옵션: <br/>**`Regular`**- 배송된 패키지는 DHL 표준 포장 방법을 준수합니다. 다음에서 [!UICONTROL Allowed Methods] 목록에서 스토어에서 제품을 출하하는 데 사용되는 각 포장 방법을 선택합니다.<br/>**`Specific`** - 배송된 패키지에 사용자 지정 차원이 있는 경우 다음을 완료하십시오. [!UICONTROL Height (cm)] / [!UICONTROL Depth (cm)] / [!UICONTROL Width (cm)] |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![DHL 허용 메서드](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
@@ -385,7 +385,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping with Minimum Order Amount] | 웹 사이트 | 다음 중 하나로 설정합니다. <br/>**`Enable`**- 최소 금액을 충족하는 주문에 대해 무료 DHL 배송을 허용합니다.<br/>**`Disable`** - 최소 주문과 함께 무료 DHL 배송을 제공하지 않습니다. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | 웹 사이트 | 을 활성화한 경우 [!UICONTROL Free Shipping with Minimum Order]필드에 최소 주문 금액 값을 입력합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![DHL 적용 국가](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
@@ -400,4 +400,4 @@ ht-degree: 0%
 | [!UICONTROL Debug] | 웹 사이트 | 오류 정보가 있는 로그 파일을 만듭니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 게재 방법과 함께 나열할 때 DHL이 표시되는 순서를 결정하는 숫자입니다. 목록의 맨 위에 배치하려면 다음을 입력합니다. `0`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

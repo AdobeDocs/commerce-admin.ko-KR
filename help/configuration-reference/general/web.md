@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL General] &gt; [!UICONTROL Web] 상거래 관리자의 페이지입니다.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1795'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 | [!UICONTROL Auto-redirect to Base URL] | 스토어 뷰 | (단일 스토어 설정의 경우) 사이트에 끊어진 링크가 있으면 은 트래픽을 &quot;404 페이지를 찾을 수 없음&quot; 메시지가 있는 페이지가 아닌 기본 URL로 리디렉션합니다. 옵션:` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_중요 사항:_**다중 스토어 설정에 기본 URL로 자동 리디렉션을 사용하지 마십시오. |
 | [!UICONTROL Catalog media URL format] | 글로벌 | 다음을 정의합니다 [URL 형식](../../catalog/catalog-urls.md) 제품 및 범주에 할당됩니다. 옵션: 이미지 변형당 고유 해시(레거시 모드) 변환된 파일 이름을 고유한 해시 값으로 정의합니다. 쿼리 매개 변수를 기반으로 한 이미지 최적화는 다음을 정의합니다. [이미지 최적화](../../content-design/media-gallery-image-optimization.md) 쿼리 매개 변수에 따라 처리 |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Optimization]
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Use Web Server Rewrites] | 스토어 뷰 | PHP 기반 시스템에는 일반적으로 라는 파일이 포함됩니다. `index.php` 루트 폴더에 있습니다. 기본적으로 루트 폴더 이름 바로 뒤에 파일 이름이 URL에 나타납니다. 이 기능이 활성화되면 시스템이 생략됩니다 `index.php` URL에서 이 유용성 모범 사례는 각 URL을 보다 간결하게 만들며 성능이나 사이트 등급에 영향을 주지 않습니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Base URLs]
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 | [!UICONTROL Base URL for Static View Files] | 스토어 뷰 | css, 글꼴, 이미지 및 JavaScript와 같이 테마에 사용되는 정적 파일의 위치를 가리키는 경로입니다. 자리 표시자는 기본 URL을 나타내는 데 사용됩니다. Commerce 설치에 동일한 폴더 구조를 사용하는 사이트가 여러 개 있는 경우 사이트별로 다른 폴더가 있을 수 있습니다. 정적 보기 파일의 기본 URL을 입력하기 전에 구성 범위를 올바른 사이트로 설정합니다. Commerce 설치 외부에 폴더를 지정할 수도 있습니다. |
 | [!UICONTROL Base URL for User Media Files] | 스토어 뷰 | 카탈로그 이미지 및 기타 미디어 파일의 위치를 가리키는 경로입니다. 자리 표시자는 기본 URL을 나타내는 데 사용됩니다. Commerce 설치에 동일한 폴더 구조를 사용하는 사이트가 여러 개 있는 경우 각각에 대해 서로 다른 미디어 폴더가 있을 수 있습니다. 이렇게 하면 각 미디어 폴더를 개별적으로 백업하고 롤백할 수 있습니다. Commerce 설치 외부에 미디어 폴더를 지정할 수도 있습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Base URLs (Secure)]
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 | [!UICONTROL Upgrade Insecure Requests] | 스토어 뷰 | 활성화되면 비보안(`HTTP`) 브라우저에서 보안( )으로 요청을 받았습니다.`HTTPS`) 프로토콜. 옵션: `Yes` / `No` |
 | [!UICONTROL Offloader Header] | 글로벌 | 다음을 지정합니다. `offloader_header` 클라이언트와 로드 밸런서 간의 프로토콜을 식별하는 서버 구성의 값입니다. 대부분의 Commerce 설치는 기본값, `X-Forwarded-Proto` (XFP) 프로토콜을 다음 중 하나로 식별합니다 `HTTP` 또는 `HTTPS`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Pages]
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 | [!UICONTROL CMS No Cookies Page] | 스토어 뷰 | 브라우저에 대해 쿠키가 활성화되지 않은 경우 나타나는 특정 CMS 페이지를 식별합니다. 이 페이지에서는 쿠키가 사용되는 이유와 각 브라우저에 대해 쿠키를 활성화하는 방법을 설명합니다. 기본 페이지는 쿠키 활성화 입니다. |
 | [!UICONTROL Show Breadcrumbs for CMS Pages] | 스토어 뷰 | 카탈로그의 모든 CMS 페이지에 탐색 표시 추적이 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Layouts]
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 | [!UICONTROL Default Category Layout] | 글로벌 | 다음을 결정합니다. [레이아웃](../../content-design/page-layout.md) 카테고리 페이지에 기본적으로 사용됩니다. 옵션: <br/>**`No layout updates`**- 기본적으로 카테고리 페이지에는 레이아웃 업데이트를 사용할 수 없습니다.<br/>**`Empty`** - 기본적으로 은 범주 페이지에 빈 레이아웃을 사용합니다. <br/>**`1 column`**- 기본적으로 은 카테고리 페이지에 대해 단일 열 레이아웃을 사용합니다.<br/>**`2 columns with left bar`** - 기본적으로 은 범주 페이지의 왼쪽에 사이드바가 있는 2열 레이아웃을 사용합니다. <br/>**`2 columns with right bar`**- 기본적으로 은 범주 페이지의 오른쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`3 columns`** - 기본적으로 은 범주 페이지의 왼쪽과 오른쪽에 사이드바가 있는 3열 레이아웃을 사용합니다.<br/>**`Page - Full Width`**- (필수) [!DNL Page Builder]) 기본적으로 은 카테고리 페이지에 대해 페이지 - 전체 너비 레이아웃을 사용합니다.<br/>**`Category - Full Width`** - (필수) [!DNL Page Builder]) 기본적으로 은 카테고리 페이지에 대해 카테고리 - 전체 너비 레이아웃을 사용합니다. <br/>**`Product - Full Width`**- (필수) [!DNL Page Builder]) 기본적으로 은 카테고리 페이지에 대해 제품 - 전체 너비 레이아웃을 사용합니다. |
 | 기본 페이지 레이아웃 | 글로벌 | 다음을 결정합니다. [레이아웃](../../content-design/page-layout.md) cms 페이지에 기본적으로 사용됩니다. 옵션: <br/>**`No layout updates`**- 기본적으로 CMS 페이지에는 레이아웃 업데이트를 사용할 수 없습니다.<br/>**`Empty`** - 기본적으로 은 CMS 페이지에 대해 빈 레이아웃을 사용합니다. <br/>**`1 column`**- 기본적으로 은 CMS 페이지에 대해 단일 열 레이아웃을 사용합니다.<br/>**`2 columns with left bar`** - 기본적으로 에서는 CMS 페이지의 왼쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`2 columns with right bar`**- 기본적으로 은 CMS 페이지의 오른쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`3 columns`** - 기본적으로 은 CMS 페이지의 왼쪽과 오른쪽에 사이드바가 있는 3열 레이아웃을 사용합니다.<br/>**`Page - Full Width`**- (필수) [!UICONTROL Page Builder]) 기본적으로 은 CMS 페이지에 대한 페이지 - 전체 너비 레이아웃을 사용합니다.<br/>**`Category - Full Width`** - (필수) [!UICONTROL Page Builder]) 기본적으로 은 CMS 페이지에 대해 카테고리 - 전체 너비 레이아웃을 사용합니다. <br/>**`Product - Full Width`**- (필수) [!DNL Page Builder]) 기본적으로 은 CMS 페이지의 제품 - 전체 너비 레이아웃을 사용합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Cookie Settings]
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 | [!UICONTROL Use HTTP Only] | 스토어 뷰 | 상거래 쿠키를 비보안 채널(http)에서만 사용할 수 있는지 또는 암호화된 채널(https)에서도 사용할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Cookie Restriction Mode] | 웹 사이트 | 쿠키 제한 모드가 활성화되어 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Session Validation Settings]
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 | [!UICONTROL Validate HTTP_x_FORWARDED_FOR] | 글로벌 | 나가는 프록시 데이터를 확인하고 요청의 전달된 주소가 일치하는지 확인합니다.  `$_SESSION` 데이터. 다른 forwarded-for 주소가 검색되면 세션이 종료됩니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Validate HTTP_USER_AGENT] | 글로벌 | `USER_AGENT` 웹 사이트에 액세스하는 데 사용되는 브라우저 또는 장치를 나타냅니다. 브라우저의 이름과 버전 및 운영 체제가 일치하는지 확인합니다. `$_SESSION` 데이터. 동일한 세션의 한 요청에서 다른 요청으로 다른 사용자 에이전트가 감지되면 세션이 종료됩니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Browser Capabilities Detection]
 
@@ -149,6 +149,6 @@ ht-degree: 0%
 | [!UICONTROL Show Notice if JavaScript is Disabled] | 스토어 뷰 | 브라우저에 의해 JavaScript가 비활성화되어 있으면 사용자에게 JavaScript 옵션을 활성화하라는 메시지가 표시됩니다. `Yes` / `No` (비활성화) |
 | [!UICONTROL Show Notice if Local Storage is Disabled] | 스토어 뷰 | 로컬 캐시가 비활성화된 경우 메시지를 표시합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 [1]: https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html

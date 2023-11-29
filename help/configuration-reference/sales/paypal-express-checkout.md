@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL P
 description: 에서 구성 설정을 검토합니다. [!UICONTROL PayPal Express Checkout] 다음에 대한 섹션 [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] 상거래 관리자의 페이지입니다.
 exl-id: aae5b1d9-f47e-447a-b40c-924f8d2ee824
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Enable In-Context Checkout Experience] | 웹 사이트 | 고객이 사용할 수 있는 결제 방법으로 간소화된 PayPal In-Context Checkout을 활성화합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Enable PayPal Credit] | 웹 사이트 | 고객이 지금 구매하고 나중에 결제할 수 있도록 PayPal 크레딧을 활성화합니다. 선불은 받지만, 손님들이 낼 시간이 더 많다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Express Checkout]
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Proxy Host] | 웹 사이트 | API에서 프록시를 사용하는 경우 프록시 호스트의 IP 주소를 지정합니다. |
 | [!UICONTROL Proxy Port] | 웹 사이트 | API에서 프록시를 사용하는 경우 프록시 호스트에서 사용하는 포트를 지정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Advertise PayPal Credit]
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | 웹 사이트 | 의 위치 및 크기를 결정합니다. [!DNL PayPal Credit] 제품 페이지의 배너. 옵션: (과 동일) [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | 웹 사이트 | 의 위치 및 크기를 결정합니다. [!DNL PayPal Credit] 장바구니 페이지의 배너. 옵션: (과 동일) [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings]
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Action] | 웹 사이트 | PayPal이 주문을 받으면 수행할 작업을 결정합니다. 옵션: <br/>**`Authorization`**- 구매를 승인하지만 자금을 보류합니다. 상인에게 &#39;포착&#39;되기 전까지는 그 금액이 인출되지 않는다.<br/>**`Sale`** - 구매 금액이 승인되어 즉시 고객의 계좌에서 인출됩니다. <br/>**`Order`**- 머천트가 정의된 기간 내에 고객의 구매자 계정에서 주문된 합계까지 하나 이상의 금액을 캡처할 수 있도록 해주는 PayPal과의 계약을 나타냅니다. 최대 29일이 될 수 있습니다. 자금을 수집하려면 상거래 관리에서 하나 이상의 송장을 생성해야 합니다. |
 | [!UICONTROL Display on Product Details Page] | 스토어 뷰 | 제품 페이지에 &quot;PayPal로 체크아웃&quot; 단추가 표시되는지 여부를 결정합니다. 옵션은 다음과 같습니다. `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Billing Agreement Signup] | 웹 사이트 | 고객이 을 입력할 수 있는지 여부를 결정합니다. [청구 계약](../../stores-purchase/paypal-billing-agreements.md) 스토어와 함께. 옵션: <br/>**`Auto`**- 고객은 빠른 체크아웃 중에 청구 계약에 등록할 수 있습니다.<br/>**`Ask Customer`** - 고객이 청구 계약에 등록할 것인지 묻는 메시지가 표시됩니다. <br/>**`Never`**- 고객은 결제 계약에 등록할 수 있는 옵션이 제공되지 않습니다. |
 | [!UICONTROL Skip Order Review Step] | 웹 사이트 | 고객이 PayPal 사이트에서 거래를 완료할 수 있는지, 아니면 주문을 제출하기 전에 상점으로 돌아가서 주문 검토 단계를 완료해야 하는지 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Billing Agreement Settings]
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | 웹 사이트 | 활성화되면 PayPal 결제 페이지에 장바구니의 라인 항목 요약을 표시합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Allow in Billing Agreement Wizard] | 웹 사이트 | 활성화되면 고객은 고객 계정의 대시보드에서 청구 계약을 시작할 수 있습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Settlement Report Settings]
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 | [!UICONTROL Schedule] | 웹 사이트 | PayPal에서 결제 보고서를 생성하는 빈도를 결정합니다. 옵션: `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | 웹 사이트 | 결제 보고서가 생성되는 시간, 분 및 초를 결정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Frontend Experience Settings]
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 | [!UICONTROL Header Image Border Color] | 스토어 뷰 | 자 6 [진수 색상](https://en.wikipedia.org/wiki/Web_colors) 머리글 주변의 2픽셀 테두리 코드입니다. |
 | [!UICONTROL Page Background Color] | 스토어 뷰 | 자 6 [진수 색상](https://en.wikipedia.org/wiki/Web_colors) 머리글 및 결제 양식 뒤에 표시되는 체크아웃 페이지의 배경색에 대한 코드입니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 #### [!UICONTROL Customize Smart Buttons (Basic)]
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 | [!UICONTROL Shape] | 스토어 보기 | 스마트 결제 버튼의 모양을 설정합니다. 옵션: `Pill` (기본값) / `Rectangle` |
 | [!UICONTROL Color] | 스토어 보기 | 스마트 결제 버튼의 색상을 설정합니다. 옵션: `Gold` (기본값) / `Blue` / `Silver` / `Black` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 #### [!UICONTROL Customize Smart Buttons (Features)]
 
@@ -178,4 +178,4 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Disable Funding Options] | 스토어 보기 | 체크아웃 페이지에 표시되는 다른 PayPal 자금 옵션을 결정합니다. 선택한 옵션은 체크아웃 페이지에 표시되지 않습니다. 선택하지 않은 옵션은 PayPal이 스토어의 통화와 구매자의 위치를 지원하는 경우에만 표시됩니다. 옵션: `PayPal Credit` / `PayPal Guest Checkout` `Credit Card Icons` / `Elektronisches Lastschriftverfahren - German ELV` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

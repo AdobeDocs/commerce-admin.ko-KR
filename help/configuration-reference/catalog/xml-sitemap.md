@@ -3,10 +3,10 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] 상거래 관리자의 페이지입니다.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 1%
+source-wordcount: '339'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 | [!UICONTROL Frequency] | 스토어 뷰 | 사이트 맵 범주를 업데이트하는 빈도를 결정합니다. 옵션: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | 스토어 뷰 | 다음 사이의 값 `0.0` 및 `1.0` 다른 콘텐츠와 관련하여 카테고리 사이트맵 업데이트의 우선 순위를 결정합니다. 0(`0.0`)의 우선 순위가 가장 낮습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Products Options]
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 | [!UICONTROL Priority] | 스토어 뷰 | 다음 사이의 값 `0.0` 및 `1.0` 다른 콘텐츠와 관련하여 제품 사이트 맵 업데이트의 우선 순위를 결정합니다. 0(`0.0`)의 우선 순위가 가장 낮습니다. |
 | [!UICONTROL Add Images into Sitemap] | 스토어 뷰 | 사이트 맵에 이미지가 포함되는 범위를 결정합니다. 옵션: `None` / `Base Only` / `All` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CMS Pages Options]
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 | [!UICONTROL Frequency] | 스토어 뷰 | 사이트 맵 CMS 페이지의 업데이트 빈도를 결정합니다. 옵션: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | 스토어 뷰 | 다음 사이의 값 `0.0` 및 `1.0` 다른 콘텐츠와 관련된 CMS 페이지 사이트맵 업데이트의 우선 순위를 결정합니다. 0(`0.0`)의 우선 순위가 가장 낮습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Url Options]
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 | [!UICONTROL Frequency] | 스토어 뷰 | 저장소 URL의 업데이트 빈도를 결정합니다. 옵션: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | 스토어 뷰 | 다음 사이의 값 `0.0` 및 `1.0` 다른 콘텐츠와 관련된 스토어 URL 업데이트의 우선 순위를 결정합니다. 0(`0.0`)의 우선 순위가 가장 낮습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Generation Settings]
 
@@ -78,7 +78,7 @@ ht-degree: 1%
 | [!UICONTROL Error Email Sender] | 웹 사이트 | 오류 알림을 보낸 사람으로 표시되는 스토어 연락처를 식별합니다. 옵션: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
 | [!UICONTROL Error Email Template] | 웹 사이트 | 오류 알림에 사용되는 이메일 템플릿을 식별합니다. 기본 템플릿: `Sitemap generate Warnings` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Sitemap File Limits]
 
@@ -91,7 +91,7 @@ ht-degree: 1%
 | [!UICONTROL Maximum No of URLs Per File] | 스토어 뷰 | 단일 사이트 맵에 포함할 수 있는 최대 URL 수를 결정합니다. |
 | [!UICONTROL Maximum File Size] | 스토어 뷰 | 생성된 사이트 맵의 최대 크기(바이트)를 결정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Submission Settings]
 
@@ -103,4 +103,4 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enable Submission to Robots.txt] | 스토어 뷰 | robots.txt 파일에 대해 디렉티브를 제출할 수 있도록 합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

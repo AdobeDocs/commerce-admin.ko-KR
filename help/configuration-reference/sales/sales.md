@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Sales] 상거래 관리자의 페이지입니다.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Hide Customer IP] | 스토어 뷰 | 주문, 송장, 선적 및 대변 메모에 고객 IP 주소를 표시할지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Checkout Totals Sort Order]
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 | [!UICONTROL Fixed Product Tax] | 웹 사이트 | 기타 체크아웃 합계와 관련하여 고정 제품 세금이 계산되는 시기를 결정하는 숫자입니다. 기본값: `50` |
 | [!UICONTROL Grand Total] | 웹 사이트 | 기타 체크아웃 합계와 관련하여 총계를 계산하는 시기를 결정하는 숫자입니다. 기본값: `100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Reorder]
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Reorder] | 스토어 뷰 | 고객이 계정에서 순서를 변경할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Allow Zero Grand Total]
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Allow Zero Grand Total for Credit Memo] | 스토어 뷰 | 총계가 0인 대변 메모를 생성할 가능성을 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice and Packing Slip Design]
 
@@ -77,7 +77,7 @@ ht-degree: 1%
 | [!UICONTROL Logo for HTML Print View] | 스토어 뷰 | 송장 및 포장 명세서 HTML 인쇄 보기의 헤더에 나타나는 로고 파일을 식별합니다. 허용되는 파일 형식: <br/>JPG /JPEG <br/>GIF <br/>PNG |
 | [!UICONTROL Address] | 스토어 뷰 | 송장 및 포장 명세서에 표시하려는 상점 주소. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Order Amount]
 
@@ -97,7 +97,7 @@ ht-degree: 1%
 | [!UICONTROL Multi-address Description Message] | 스토어 뷰 | 다중 주소 주문의 경우, 주소로 보낸 항목이 최소 주문 수량보다 적은 경우 장바구니에 표시되는 메시지를 결정합니다. |
 | [!UICONTROL Multi-address Error to Show in Shopping Cart] | 스토어 뷰 | 다중 주소 주문의 경우, 주문 금액이 필요한 최소 주문 금액보다 적을 때 미니 장바구니 또는 체크아웃 링크에서 표시되는 메시지를 결정합니다. 비워 두면 기본 메시지가 나타납니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Dashboard]
 
@@ -109,7 +109,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Use Aggregated Data] | 글로벌 | 실시간으로 집계된 판매 데이터를 사용하여 대시보드 스냅샷 보고서를 생성하는지 여부를 결정합니다. 처리할 데이터가 많은 경우 실시간 데이터 표시를 해제하여 성능을 향상시킬 수 있습니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders Cron Settings]
 
@@ -121,7 +121,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Pending Payment Order Lifetime] | 웹 사이트 | 보류 중인 주문의 수명(분)을 결정합니다. 기본 설정: `480` 분(8시간) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Gift Options]
 
@@ -139,7 +139,7 @@ ht-degree: 1%
 | [!UICONTROL Allow Printed Card] | 웹 사이트 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) 인쇄된 카드를 주문에 추가할 수 있는지 여부를 지정합니다. |
 | [!UICONTROL Default Price for Printed Card] | 웹 사이트 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) 인쇄된 카드의 기본 가격을 지정합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Minimum Advertised Price]
 
@@ -155,7 +155,7 @@ ht-degree: 1%
 | [!UICONTROL Default "What's This" Text Message] | 스토어 뷰 | 고객이 &quot;이게 뭐야?&quot;를 클릭할 때 표시되는 텍스트 메시지 제품 보기 페이지의 링크입니다. |
 | [!UICONTROL Manufacturer's Suggested Retail Price] | 글로벌 | 제조업체(MSRP)가 제안한 소매 가격. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order by SKU Settings]
 
@@ -172,7 +172,7 @@ ht-degree: 1%
 | [!UICONTROL Enable Order by SKU on My Account in Storefront] | 웹 사이트 | 고객 계정 대시보드에서 SKU별 주문을 사용할 수 있는지 여부를 결정합니다. 옵션: <br/>**`Yes, for Everyone`**- SKU별 주문 탭이 모든 고객의 계정 대시보드에 표시됩니다.<br/>**`Yes, for Specified Customer Groups`** - SKU별 주문 탭이 지정된 그룹의 구성원 또는 공유 카탈로그의 계정 대시보드에 표시됩니다. <br/>**`No`**- SKU별 주문 탭은 고객 계정에서 사용할 수 없습니다. |
 | [!UICONTROL Customer Groups] | 웹 사이트 | 고객 그룹을 결정합니다. 옵션: `General` / `Retailer` / `Wholesale` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Instant Purchase]
 
@@ -185,7 +185,7 @@ ht-degree: 1%
 | [!UICONTROL Enabled] | 스토어 뷰 | Braintree과 같은 결제 방법에 자격 증명 모음이 활성화된 경우 스토어 보기에 대해 즉시 구매를 활성화합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Button Text] | 스토어 뷰 | 즉시 구매 단추에 나타나는 텍스트를 지정합니다. 기본 텍스트는 입니다. `Instant Purchase`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders, Invoices, Shipments, Credit Memos Archiving]
 
@@ -201,7 +201,7 @@ ht-degree: 1%
 | [!UICONTROL Archive Orders Purchased] | 글로벌 | 완료된 주문이 보관되기까지 경과되는 일 수를 결정합니다. 기본값: `30` |
 | [!UICONTROL Order  Statuses to be Archived] | 글로벌 | 다음을 결정합니다. [상태](../../stores-purchase/order-status.md) 보관할 주문 수 기본적으로 완료 또는 마감됨 상태의 주문은 보관됩니다. 옵션: `Pending` / `Processing` / `Suspected Fraud` / `Complete` / `Closed` / `Canceled` / `On Hold` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Settings]
 
@@ -217,4 +217,4 @@ ht-degree: 1%
 | [!UICONTROL Enable RMA on Product Level] | 웹 사이트 | 제품 정보에서 RMA 활성화 필드에 대한 기본값을 결정합니다. |
 | [!UICONTROL Use Store Address] | 웹 사이트 | 반송된 상품의 배송에 사용되는 연락처명과 주소를 결정합니다. 옵션: <br/>**`Yes`**- 를 사용합니다. [원점](../../stores-purchase/shipping-settings.md#point-of-origin) 배송 설정의 주소.<br/>**`No`** - 대체 주소를 입력할 수 있도록 주소 양식을 엽니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

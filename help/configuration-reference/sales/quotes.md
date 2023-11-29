@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Quotes]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Quotes] 상거래 관리자의 페이지입니다.
 exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 feature: Configuration, Quotes
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Amount Message] | 스토어 뷰 | 고객이 견적에 대한 요청을 제출하려고 하지만 필요한 최소 금액이 충족되지 않을 때 장바구니에 표시되는 메시지입니다. |
 | [!UICONTROL Default Expiration Period] | 웹 사이트 | 의 기본 수명을 결정합니다. [인용](../../b2b/quote-price-negotiation.md) quote 요청 제출 날짜부터 일정 기간 옵션: `Days` / `Weeks` / `Months` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Attached Files]
 
@@ -43,4 +43,4 @@ ht-degree: 0%
 | [!UICONTROL File formats for upload] | 글로벌 | 견적에 첨부할 수 있는 파일 형식을 결정합니다. 지원되는 기본값: `doc`, `docx`, `xls`, `xlsx`, `pdf`, `txt`, `jpg`, `png`, 및 `jpeg` |
 | [!UICONTROL Maximum file size] | 글로벌 | 견적에 첨부되는 파일의 최대 크기를 결정합니다. 이 설정은 서버 구성으로 재정의할 수 있습니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales Emails]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Sales Emails] 상거래 관리자의 페이지입니다.
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 feature: Configuration, Communications
-source-git-commit: 74cc15bd7e0873705b46175ae5f277b1753ec5b5
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2331'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Asynchronous sending] | 글로벌 | 영업 이메일이 비동기적으로 전송되는지 여부를 결정합니다. 비동기 전송을 활성화하는 것이 좋습니다. 옵션: <br/>**`Disable`**- (기본값) 이벤트에 의해 트리거되면 판매 이메일이 전송됩니다.<br/>**`Enable`** - (권장) 판매 이메일은 사전 결정된 일정한 간격으로 전송됩니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL Send Order Email Copy To] | 스토어 뷰 | 주문 이메일 사본을 받을 사용자의 이메일 주소를 제공합니다. 여러 주소는 쉼표로 구분합니다. |
 | [!UICONTROL Send Order Email Copy Method] | 스토어 뷰 | 복사본을 보내는 데 사용되는 이메일 방법을 나타냅니다. 옵션은 다음과 같습니다. <br/>**`Bcc`**- 고객에게 전송된 동일한 이메일의 헤더에 수신자를 포함하여 맹목적인 무료 사본을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.<br/>**`Separate Email`** - 사본을 별도의 이메일로 전송합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Comments]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 | [!UICONTROL Send Order Email Copy To|Store View] | 주문 댓글 전자 메일의 복사본을 받는 모든 사람의 전자 메일 주소를 제공합니다. 여러 주소는 쉼표로 구분합니다. |
 | [!UICONTROL Send Order Email Copy Method] | 스토어 뷰 | 복사본을 보내는 데 사용되는 방법을 나타냅니다. 옵션은 다음과 같습니다. <br/>**`Bcc`**- 고객에게 전송된 동일한 이메일의 헤더에 수신자를 포함하여 맹목적인 무료 사본을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.<br/>**`Separate Email`** - 사본을 별도의 이메일로 전송합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice]
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 | [!UICONTROL Send Invoice Email Copy To] | 스토어 뷰 | 송장 전자 메일 사본을 받을 사용자의 전자 메일 주소를 제공합니다. 여러 주소는 쉼표로 구분합니다. |
 | [!UICONTROL Send Invoice Email Copy Method] | 스토어 뷰 | 복사본을 보내는 데 사용되는 방법을 나타냅니다. 옵션은 다음과 같습니다. <br/>**`Bcc`**- 고객에게 전송된 동일한 이메일의 헤더에 수신자를 포함하여 맹목적인 무료 사본을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.<br/>**`Separate Email`** - 사본을 별도의 이메일로 전송합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice Comments]
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Send Invoice Comment Email Copy To] | 스토어 뷰 | 송장 주석 이메일의 사본을 받을 사용자의 이메일 주소를 제공합니다. 여러 주소는 쉼표로 구분합니다. |
 | [!UICONTROL Send Invoice Comments Email Copy Method] | 스토어 뷰 | 복사본을 보내는 데 사용되는 이메일 방법을 나타냅니다. 옵션은 다음과 같습니다. <br/>**`Bcc`**- 고객에게 전송된 동일한 이메일의 헤더에 수신자를 포함하여 맹목적인 무료 사본을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.<br/>**`Separate Email`** - 사본을 별도의 이메일로 전송합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 | [!UICONTROL Send Shipment Email Copy To] | 스토어 뷰 | 배송 이메일 복사본을 받아야 하는 사용자의 이메일 주소를 제공합니다. 여러 주소는 쉼표로 구분합니다. |
 | [!UICONTROL Send Shipment Email Copy Method] | 스토어 뷰 | 복사본을 보내는 데 사용되는 방법을 나타냅니다. 옵션은 다음과 같습니다. <br/>**`Bcc`**- 고객에게 전송된 동일한 이메일의 헤더에 수신자를 포함하여 맹목적인 무료 사본을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.<br/>**`Separate Email`** - 사본을 별도의 이메일로 전송합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment Comments]
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Send Shipment Comment Email Copy To] | 스토어 뷰 | 발송 댓글 메일의 사본을 받을 사용자의 이메일 주소를 제공합니다. 여러 주소는 쉼표로 구분합니다. |
 | [!UICONTROL Send Shipment Comments Email Copy Method] | 스토어 뷰 | 복사본을 보내는 데 사용되는 이메일 방법을 나타냅니다. 옵션은 다음과 같습니다. <br/>**`Bcc`**- 고객에게 전송된 동일한 이메일의 헤더에 수신자를 포함하여 맹목적인 무료 사본을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.<br/>**`Separate Email`** - 사본을 별도의 이메일로 전송합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo]
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 | [!UICONTROL Send Credit Memo Email Copy To] | 스토어 뷰 | 대변 메모 이메일 복사본을 받아야 하는 모든 사람의 이메일 주소를 제공합니다. 여러 주소는 쉼표로 구분합니다. |
 | [!UICONTROL Send Credit Memo Email Copy Method] | 스토어 뷰 | 복사본을 보내는 데 사용되는 방법을 나타냅니다. 옵션은 다음과 같습니다. <br/>**`Bcc`**- 고객에게 전송된 동일한 이메일의 헤더에 수신자를 포함하여 맹목적인 무료 사본을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.<br/>**`Separate Email`** - 사본을 별도의 이메일로 전송합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo Comments]
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 | [!UICONTROL Send Credit Memo Comment Email Copy To] | 스토어 뷰 | 메모 메모 메모 메모 메모 전자 메일의 복사본을 받을 사용자의 전자 메일 주소를 지정합니다. 여러 주소는 쉼표로 구분합니다. |
 | [!UICONTROL Send Credit Memo Comments Email Copy Method] | 스토어 뷰 | 복사본을 보내는 데 사용되는 이메일 방법을 나타냅니다. 옵션은 다음과 같습니다. <br/>**`Bcc`**- 고객에게 전송된 동일한 이메일의 헤더에 수신자를 포함하여 맹목적인 무료 사본을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.<br/>**`Separate Email`** - 사본을 별도의 이메일로 전송합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 | 주문 보내기 픽업 전자 메일 복사 대상 | 스토어 뷰 | 복사본을 받을 사용자의 이메일 주소를 지정합니다. _픽업 준비 주문_ 이메일. 여러 주소는 쉼표로 구분합니다. |
 | [!UICONTROL Send Order Ready For Pickup Email Copy Method] | 스토어 뷰 | 복사본을 보내는 데 사용되는 이메일 방법을 나타냅니다. 옵션: <br/>**`Bcc`**- 고객에게 전송된 동일한 이메일의 헤더에 수신자를 포함하여 맹목적인 무료 사본을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.<br/>**`Separate Email`** - 사본을 별도의 이메일로 전송합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Purchase Order Approval]
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 | [!UICONTROL Error creating Order from Purchase Order (to Buyer)] | 스토어 뷰 | PO를 주문으로 전환할 때 오류가 발생했음을 작성자에게 알립니다. |
 | [!UICONTROL Purchase Order required Approval (to Approver)] | 스토어 뷰 | 승인자에게 구매 주문의 승인이 필요하다는 것을 알리는 이메일을 보냅니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Quote]
 
@@ -219,7 +219,7 @@ ht-degree: 0%
 | [!UICONTROL Send Quote Email Copy To] | 스토어 뷰 | 견적 이메일 사본을 받을 각 사용자의 이메일 주소를 지정합니다. 여러 주소는 쉼표로 구분합니다. |
 | [!UICONTROL Send Quote Email Copy Method] | 스토어 뷰 | 복사본을 보내는 데 사용되는 이메일 방법을 나타냅니다. 옵션은 다음과 같습니다. <br/>**`Bcc`**- 고객에게 전송된 동일한 이메일의 헤더에 수신자를 포함하여 맹목적인 무료 사본을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.<br/>**`Separate Email`** - 사본을 별도의 이메일로 전송합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA]
 
@@ -238,7 +238,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Email Copy To] | 스토어 뷰 | RMA 이메일 복사본을 받아야 하는 사용자의 이메일 주소를 제공합니다. 여러 주소는 쉼표로 구분합니다. |
 | [!UICONTROL Send RMA  Email Copy Method] | 스토어 뷰 | 복사본을 보내는 데 사용되는 이메일 방법을 나타냅니다. 옵션은 다음과 같습니다. <br/>**`Bcc`**- 고객에게 전송된 동일한 이메일의 헤더에 수신자를 포함하여 맹목적인 무료 사본을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.<br/>**`Separate Email`** - 사본을 별도의 이메일로 전송합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Authorization]
 
@@ -257,7 +257,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Authorization Email Copy To] | 스토어 뷰 | RMA 인증 이메일 사본을 받을 사용자의 이메일 주소를 제공합니다. 여러 주소는 쉼표로 구분합니다. |
 | [!UICONTROL Send RMA Authorization Email Copy Method] | 스토어 뷰 | 복사본을 보내는 데 사용되는 이메일 방법을 나타냅니다. 옵션은 다음과 같습니다. <br/>**`Bcc`**- 고객에게 전송된 동일한 이메일의 헤더에 수신자를 포함하여 맹목적인 무료 사본을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.<br/>**`Separate Email`** - 사본을 별도의 이메일로 전송합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Admin Comments]
 
@@ -274,7 +274,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Comment Email Copy To] | 스토어 뷰 | 알림의 사본을 받을 사용자의 이메일 주소를 제공합니다. 여러 주소는 쉼표로 구분합니다. |
 | [!UICONTROL Send RMA Comments Email Copy Method] | 스토어 뷰 | 복사본을 보내는 데 사용되는 이메일 방법을 나타냅니다. 옵션은 다음과 같습니다. <br/>**`Bcc`**- 고객에게 전송된 동일한 이메일의 헤더에 수신자를 포함하여 맹목적인 무료 사본을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.<br/>**`Separate Email`** - 사본을 별도의 이메일로 전송합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Customer Comments]
 
@@ -293,4 +293,4 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Comment Email Copy To] | 스토어 뷰 | 알림의 사본을 받을 사용자의 이메일 주소를 제공합니다. 여러 주소는 쉼표로 구분합니다. |
 | [!UICONTROL Send RMA Comments Email Copy Method] | 스토어 뷰 | 복사본을 보내는 데 사용되는 이메일 방법을 나타냅니다. 옵션은 다음과 같습니다. <br/>**`Bcc`**- 고객에게 전송된 동일한 이메일의 헤더에 수신자를 포함하여 맹목적인 무료 사본을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.<br/>**`Separate Email`** - 사본을 별도의 이메일로 전송합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

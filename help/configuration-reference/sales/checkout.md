@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Checkout]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Checkout] 상거래 관리자의 페이지입니다.
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Address Search] | 웹 사이트 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) 고객이 [주소 검색](../../stores-purchase/checkout-address-search.md) 배송, 검토 및 결제 단계에 대한 기능. 이 기능이 활성화되어 있으면 고객 주소 수 제한 을 사용하여 체크아웃 중에 이 기능을 활성화하는 데 필요한 저장된 주소 수를 설정합니다. 옵션: `Yes` / `No` |
 | 고객 주소 수 제한 | 웹 사이트 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) 주소 검색이 활성화되면 체크 아웃 중에 이 기능을 활성화하는 데 필요한 저장된 주소 수를 결정합니다. 고객의 저장된 주소 수가 이 수를 충족하거나 초과하면 기본 주소만 _배송_ 및 _검토 및 결제_ 단계. 고객은 검색 기능을 사용하여 선택한 주소를 변경할 수 있습니다. 기본값은 입니다 `10`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart]
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 | [!UICONTROL Preview Quote Lifetime (minutes)] | 스토어 뷰 | 장바구니에서 미리 볼 때 견적의 최대 기간(분)을 결정합니다. |
 | [!UICONTROL Enable Clear Shopping Cart] | 웹 사이트 | 사용자가 단일 작업으로 장바구니의 컨텐츠를 지울 수 있는 옵션을 장바구니에 표시할지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Cart Link]
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Display Cart Summary] | 웹 사이트 | 내 장바구니 링크 뒤에 괄호 안에 표시되는 값을 결정합니다. 옵션: `Display number of items in cart` / `Display item quantities` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 미니 카트
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL Number of Items to Display Scrollbar] | 스토어 뷰 | 스크롤 막대가 트리거되기 전에 미니 장바구니에 나타날 수 있는 항목 수를 결정합니다. 기본값: `5` |
 | [!UICONTROL Maximum Number of Items to Display] | 스토어 뷰 | 미니 장바구니에 표시할 수 있는 최대 항목 수를 결정합니다. 기본값: `10` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment Failed Emails]
 
@@ -95,4 +95,4 @@ ht-degree: 0%
 | [!UICONTROL Send Payment Failed Copy To] | 스토어 뷰 | 결제 실패 이메일의 사본을 받을 사용자의 이메일 주소를 제공합니다. 여러 주소는 쉼표로 구분합니다. |
 | [!UICONTROL Send Payment Failed Copy Method] | 스토어 뷰 | 복사본을 보내는 데 사용되는 이메일 방법을 나타냅니다. 옵션: <br />**`Bcc`**- 고객에게 전송된 동일한 이메일의 헤더에 수신자를 포함하여 맹목적인 무료 사본을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.<br />**`Separate Email`** - 사본을 별도의 이메일로 전송합니다. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
