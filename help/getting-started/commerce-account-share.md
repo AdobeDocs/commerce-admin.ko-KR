@@ -3,9 +3,9 @@ title: 공유 [!DNL Commerce] account
 description: 에 제한된 액세스 권한을 부여하는 방법 알아보기 [!DNL Commerce] 기타 계정 [!DNL Commerce] 계정 보유자입니다.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 11b2f3f9558bf5a36199015247fb96d559bb5fdc
+source-git-commit: adccffa3b9735eaa77f119271d026fa01cd1337b
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. 아래 _[!UICONTROL Shared Information]_를 사용하여 다음을 수행합니다.
 
-   - 공유 계정을 식별하려면 **[!UICONTROL Share Name]**. 이 이름은 내부 참조용이며 귀하와 귀하의 계정을 공유하는 사람에게만 표시됩니다.
+   - 공유 계정을 식별하려면 **[!UICONTROL Share Name]**. 이 이름은 내부 참조용이며 귀하와 귀하의 계정을 공유하는 사람에게만 표시됩니다. (다음으로 시작하는 공유 이름을 입력하지 마십시오.) `CLOUD SHARED ACCESS FROM MAG XYX`.)
    - 개인 연락처 정보를 새 사용자와 공유하려면 다음을 입력하십시오. **[!UICONTROL Your Email]** 및 **[!UICONTROL Your Phone]**.
 
 1. 아래 _[!UICONTROL Grant Account Permissions]_, 각 의 확인란을 선택합니다. [!DNL Commerce] 공유할 제품 및 서비스입니다.
@@ -95,6 +95,10 @@ ht-degree: 0%
 1. 왼쪽 탐색 패널에서 을 클릭합니다. **[!UICONTROL Shared Access]**.
 
 1. 다음에서 해지할 계정 찾기 _[!UICONTROL Managing Users & Permissions]_및 클릭&#x200B;**[!UICONTROL Delete]**.
+
+   >[!NOTE]
+   >
+   > If  **[!UICONTROL Delete]** 이(가) 표시되지 않으면 **[!UICONTROL Share Name]** 시작 문자 `Cloud Shared Access from MAG XYZ` - 일반적으로, [이러한 계정](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) 삭제할 수 없습니다.
 
 1. 확인을 묻는 메시지가 나타나면 **[!UICONTROL Delete User]**.
 
