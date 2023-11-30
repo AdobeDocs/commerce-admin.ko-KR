@@ -5,10 +5,10 @@ breadcrumb-title: 시작
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 14c8c656fdba7bd08451161594d1347897ff6f12
+source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 1%
    + [고객 보고서](customer-reports.md)
    + [제품 보고서](product-reports.md)
    + [비공개 판매 보고서](private-sales-reports.md)
-   + [비즈니스 인텔리전스 도구](business-intelligence.md)
+   + [Commerce Intelligence 도구](business-intelligence.md)
    + [New Relic 보고](new-relic-reporting.md)
 + 리소스 {#resources}
    + [에코시스템](resources.md)

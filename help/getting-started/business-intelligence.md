@@ -1,32 +1,32 @@
 ---
-title: '[!DNL Business Intelligence] 도구'
-description: Adobe Commerce 및 Magento Open Source 판매자가 비즈니스 인텔리전스 도구를 사용하여 건전한 비즈니스 의사 결정을 내리는 데 사용되는 통찰력을 얻는 방법에 대해 알아봅니다.
+title: '[!DNL Commerce Intelligence] 도구'
+description: Adobe Commerce 및 Magento Open Source 판매자가 Commerce Intelligence 도구를 사용하여 건전한 비즈니스 결정을 내리는 데 사용되는 통찰력을 얻는 방법에 대해 알아봅니다.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# [!DNL Business Intelligence] 도구
+# [!DNL Commerce Intelligence] 도구
 
-비즈니스 인텔리전스 도구를 사용하여 건전한 비즈니스 의사 결정을 내리는 데 사용되는 통찰력을 얻으십시오.
+Commerce Intelligence 도구를 사용하여 건전한 비즈니스 의사 결정을 내리는 데 사용되는 통찰력을 얻으십시오.
 
-## [!DNL Business Intelligence] account
+## [!DNL Commerce Intelligence] account
 
-를 활성화할 때 [!DNL Business Intelligence] Adobe을 통해 약 70개의 보고서가 있는 5개의 대시보드에 액세스할 수 있습니다. 이러한 보고서는 데이터에 대한 통찰력을 제공하고 &quot;매월 주문이 어떻게 증가하고 있습니까?&quot;, &quot;가장 충성스러운 고객은 누구입니까?&quot;, &quot;내 쿠폰 전략이 작동하고 있습니까?&quot;와 같은 질문에 답변하기 위해 설계되었습니다. 이 도구 세트에 대한 자세한 내용은 [MBI 사용 안내서][1].
+를 활성화할 때 [!DNL Commerce Intelligence] Adobe을 통해 약 70개의 보고서가 있는 5개의 대시보드에 액세스할 수 있습니다. 이러한 보고서는 데이터에 대한 통찰력을 제공하고 &quot;매월 주문이 어떻게 증가하고 있습니까?&quot;, &quot;가장 충성스러운 고객은 누구입니까?&quot;, &quot;내 쿠폰 전략이 작동하고 있습니까?&quot;와 같은 질문에 답변하기 위해 설계되었습니다. 이 도구 세트에 대한 자세한 내용은 [Commerce Intelligence 사용 안내서][1].
 
 ## [!DNL Advanced Reporting]
 
-[!DNL Advanced Reporting] Adobe Commerce 및 Magento Open Source에 포함되어 있습니다. 이 기능을 사용하면 비즈니스 요구 사항에 맞는 개인화된 대시보드를 사용하여 제품, 주문 및 고객 데이터를 기반으로 하는 동적 보고서 세트에 액세스할 수 있습니다. While [!DNL Advanced Reporting] 사용 [!DNL Business Intelligence] analytics의 경우 사용할 Business Intelligence 계정이 필요하지 않습니다 [!DNL Advanced Reporting].
+[!DNL Advanced Reporting] Adobe Commerce 및 Magento Open Source에 포함되어 있습니다. 이 기능을 사용하면 비즈니스 요구 사항에 맞는 개인화된 대시보드를 사용하여 제품, 주문 및 고객 데이터를 기반으로 하는 동적 보고서 세트에 액세스할 수 있습니다. While [!DNL Advanced Reporting] 사용 [!DNL Commerce Intelligence] analytics의 경우 사용하기 위해 Commerce Intelligence 계정이 필요하지 않습니다 [!DNL Advanced Reporting].
 
 자세한 내용은 [[!DNL Advanced Reporting]][2]개발자 설명서의 {:target=&quot;_blank&quot;} 항목.
 
 >[!NOTE]
 >
->[!DNL Business Intelligence] 계정은 기본 제공 보고를 사용하지만 [!DNL Advanced Reporting] 기능.
+>[!DNL Commerce Intelligence] 계정은 기본 제공 보고를 사용하지만 [!DNL Advanced Reporting] 기능.
 
 ![고급 보고 대시보드](./assets/reporting-advanced.png){width="700"}
 
