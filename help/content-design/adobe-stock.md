@@ -3,7 +3,7 @@ title: Adobe Stock 통합
 description: Adobe Stock과 통합 [!DNL Commerce] 스토어에서 사용하기 위해 셀 수 없는 미디어 자산에 액세스하는 인스턴스.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 6666073a48741cb494f408a61401f46fc20cedc4
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%
