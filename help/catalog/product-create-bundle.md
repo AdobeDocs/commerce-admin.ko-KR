@@ -3,9 +3,9 @@ title: 번들 제품
 description: 쇼핑객이 스토어에서 사용자 지정된 제품을 작성할 수 있는 번들 제품을 만드는 방법을 알아봅니다.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >동적 가격책정을 사용하는 번들 제품에는 MAP(최소 광고 가격)을 사용할 수 없습니다.
+
+>[!NOTE]
+>
+>상위 번들 제품은 항상 모든 하위 제품에 대한 상향 판매 제품으로 표시됩니다.
 
 If [즉시 구매](../stores-purchase/checkout-instant-purchase.md) 은(는) 사용할 수 있으며 _즉시 구매_ 아래에 단추가 표시됩니다. _장바구니에 추가_ 번들의 각 항목에 대한 단추입니다.
 
@@ -276,3 +280,5 @@ If [즉시 구매](../stores-purchase/checkout-instant-purchase.md) 은(는) 사
 ![확인란](../assets/checkbox.png) 수량은 사전 설정 또는 사용자 정의 값일 수 있습니다. 그러나 을(를) 할당하지 마십시오. _[!UICONTROL User Defined]_속성을 확인란 또는 다중 선택 입력 유형에 추가합니다.
 
 ![확인란](../assets/checkbox.png) 번들 제품은 함께 배송되거나 별도로 배송될 수 있습니다.
+
+![확인란](../assets/checkbox.png) 상위 번들 제품은 항상 모든 하위 제품에 대한 상향 판매 제품으로 표시됩니다.

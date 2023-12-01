@@ -3,9 +3,9 @@ title: 제품 설정 - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 description: 제품의 경우 [!UICONTROL Related Products, Up-Sells, and Cross-Sells] 설정은 제품 페이지에서 추가 제품 선택을 강조 표시하는 간단한 프로모션 블록을 정의합니다.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,10 @@ ht-degree: 0%
    ![상향 판매 제품](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
 
 1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Add Selected Products]**.
+
+>[!NOTE]
+>
+>상위 번들 제품은 항상 모든 하위 제품에 대한 상향 판매 제품으로 표시됩니다.
 
 ## 크로스셀
 
