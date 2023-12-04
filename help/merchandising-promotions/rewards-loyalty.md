@@ -3,9 +3,9 @@ title: 보상 및 충성도 프로그램
 description: 고객 참여를 유도하고 고객 충성도를 홍보하는 데 사용할 수 있는 보상 포인트 시스템에 대해 알아봅니다.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,11 @@ ht-degree: 0%
 
 1. 사용 가능한 보상 포인트를 자동으로 환급하려면 을 설정합니다. **[!UICONTROL Refund Reward Points Automatically]** 끝 `Yes`.
 
-1. 보상 포인트를 자동으로 공제하려면 다음을 설정합니다. **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** 끝 `Yes`.
+1. 포인트를 획득한 주문이 전체 또는 일부 환불될 때 구매를 통해 획득한 보상 포인트를 무효화하려면 다음을 설정합니다. **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** 끝 `Yes`.
+
+   >[!NOTE]
+   >
+   >환불 중인 주문으로 획득한 점수만 영향을 받습니다.
 
 1. 설정 **[!UICONTROL Landing Page]** 보상 포인트 프로그램을 설명하는 콘텐츠 페이지로 이동합니다.
 
