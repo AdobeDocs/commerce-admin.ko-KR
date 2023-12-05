@@ -3,9 +3,9 @@ title: 번들 제품
 description: 쇼핑객이 스토어에서 사용자 지정된 제품을 작성할 수 있는 번들 제품을 만드는 방법을 알아봅니다.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: eca41f653aa6499743982199f067d6df86079010
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ If [즉시 구매](../stores-purchase/checkout-instant-purchase.md) 은(는) 사
    - 고객이 선택한 옵션을 가격에 반영하려면 다음을 설정하십시오. **[!UICONTROL Dynamic Price]** 끝 `Yes` 및 나가기 **[!UICONTROL Price]** 비어 있음.
 
    - 번들에 고정 가격을 부과하려면 다음을 설정하십시오. **[!UICONTROL Dynamic Price]** 끝 `No` 을(를) 입력한 후 **[!UICONTROL Price]** 번들에 대해 비용을 청구하려는 경우
+
+   >[!NOTE]
+   >
+   >[!UICONTROL Special Price] 및 [!UICONTROL Customer Group Price] (계층 가격)은 항상 모든 번들 제품 유형에 대한 할인율로 설정됩니다.
 
 1. 제품이 아직 게시할 준비가 되지 않았으므로 을(를) 설정합니다. **[!UICONTROL Enable Product]** 끝 `No`.
 
@@ -282,3 +286,5 @@ If [즉시 구매](../stores-purchase/checkout-instant-purchase.md) 은(는) 사
 ![확인란](../assets/checkbox.png) 번들 제품은 함께 배송되거나 별도로 배송될 수 있습니다.
 
 ![확인란](../assets/checkbox.png) 상위 번들 제품은 항상 모든 하위 제품에 대한 상향 판매 제품으로 표시됩니다.
+
+![확인란](../assets/checkbox.png) [!UICONTROL Special Price] 및 [!UICONTROL Customer Group Price] (계층 가격)은 항상 모든 번들 제품 유형에 대한 할인율로 설정됩니다.
