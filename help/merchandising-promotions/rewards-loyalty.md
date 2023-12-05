@@ -3,9 +3,9 @@ title: 보상 및 충성도 프로그램
 description: 고객 참여를 유도하고 고객 충성도를 홍보하는 데 사용할 수 있는 보상 포인트 시스템에 대해 알아봅니다.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
+source-git-commit: 3376b6f4fd558f7dd10133beeabf87e7228776a1
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 
    ![고객 구성 - 고객이 보상 포인트를 획득하는 작업](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
-1. 장바구니에 구매에 대해 획득한 보상 포인트와 고객의 현재 보상 포인트 잔액이 포함된 메시지를 표시하려면 을 설정합니다. **[!UICONTROL Purchase]** 끝 `Yes`.
+1. 구성된 을(를) 기반으로 구매에 대해 보상 포인트를 획득하도록 허용 [보상 환율](reward-exchange-rates.md), 설정됨 **[!UICONTROL Purchase]** 끝 `Yes`.
 
    >[!NOTE]
    >
