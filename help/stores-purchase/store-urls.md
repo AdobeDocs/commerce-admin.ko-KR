@@ -3,9 +3,9 @@ title: URL 저장
 description: 스토어 URL과 기본 URL 및 스토어 코드를 구성하는 방법에 대해 알아봅니다.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 555c54e9a980aa181e0b4380412ad027d80ee10f
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL Base URL]** 섹션.
 
-   - **[!UICONTROL Base URL]** — 스토어의 정규화된 기본 URL을 입력합니다. 스토어의 추가 URL 키로 URL을 확장할 수 있도록 URL은 슬래시로 끝나야 합니다. For example: `http://yourdomain.com/`
+   - **[!UICONTROL Base URL]** — 스토어의 정규화된 기본 URL을 입력합니다. 스토어의 추가 URL 키로 URL을 확장할 수 있도록 URL은 슬래시로 끝나야 합니다. 예: `http://yourdomain.com/`
 
      >[!NOTE]
      >
@@ -74,7 +74,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
    ![일반 구성 - 보안 기본 URL](../configuration-reference/general/assets/web-base-urls-secure.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Secure Base URL]** — 전체 보안 기본 URL을 입력한 다음 슬래시를 입력합니다. For example: `https://yourdomain.com/`
+   - **[!UICONTROL Secure Base URL]** — 전체 보안 기본 URL을 입력한 다음 슬래시를 입력합니다. 예: `https://yourdomain.com/`
 
    - **[!UICONTROL Secure Base Link URL]** — 보안 기본 링크 URL 필드의 자리 표시자를 변경하지 마십시오. 이 변수는 보안 기본 URL에 대한 상대 링크를 만드는 데 사용됩니다.
 
@@ -137,7 +137,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 ## 사용자 지정 관리자 URL 사용
 
-로서의 [보안 모범 사례](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf), Adobe은 기본값 대신 고유한 관리자 URL을 사용할 것을 권장합니다 _admin_ 또는 다음과 같은 일반적인 용어 _백엔드_. 부적합한 행위자로부터 사이트를 직접 보호하지는 않지만 무단 액세스를 시도하는 스크립트에 대한 노출을 줄일 수 있습니다.
+로서의 [보안 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html), Adobe은 기본값 대신 고유한 관리자 URL을 사용할 것을 권장합니다 _admin_ 또는 다음과 같은 일반적인 용어 _백엔드_. 부적합한 행위자로부터 사이트를 직접 보호하지는 않지만 무단 액세스를 시도하는 스크립트에 대한 노출을 줄일 수 있습니다.
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 >[!NOTE]
 >
->서버에서 구성 파일을 편집하는 방법을 모르는 경우 사전 예방차원에서 관리자 URL을 직접 변경하지 마십시오.
+>서버에서 구성 파일을 편집하는 방법을 모르는 경우 사전 예방차원에서 관리자 URL을 직접 변경하지 마십시오. 클라우드 인프라에 배포된 Adobe Commerce 프로젝트의 경우 다음을 수행하여 관리 URL을 변경합니다. [지침](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) 다음에서 *Adobe Commerce on Cloud Infrastructure 안내서*.
 
 ### 방법 1: 관리자의 변경
 

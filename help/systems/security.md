@@ -3,9 +3,9 @@ title: 보안
 description: 스토어와 데이터를 보호하는 데 사용할 수 있는 도구 및 손상을 감지하는 경우 보안 작업 계획에 대한 지침에 대해 알아봅니다.
 exl-id: 10eef4ac-de83-4083-9ba3-e42c8eb33781
 feature: Security, Site Management
-source-git-commit: 671ec7015c37b24ca0acc615ae3715b8b870a453
+source-git-commit: fede05a413428520eec89d46f41a1cdd9c9c3a2e
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,15 @@ ht-degree: 0%
 - 구현 [CAPTCHA](security-captcha.md) 또는 [reCAPT차](security-google-recaptcha.md)
 - 설정 [보안 검사](security-scan.md) Adobe Commerce 또는 Magento Open Source 설치의 각 도메인용.
 
-다음 방문: [보안 센터](https://helpx.adobe.com/security.html){:target=&quot;_blank&quot;} 보안 경고 레지스트리에 참여하여 잠재적인 취약점에 대한 최신 뉴스를 확인하십시오. 보안 모범 사례에 대한 자세한 내용은 [상거래 사이트 및 인프라 보호](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) 다음에서 _구현 플레이북_.
-
 >[!NOTE]
 >
 >활성화된 스토어 [!DNL Adobe Identity Management Services] (IMS) 인증에는 기본 Adobe Commerce 및 Magento Open Source 2FA가 비활성화되어 있습니다. Adobe 자격 증명으로 Commerce 인스턴스에 로그인한 관리자는 많은 관리 작업에 대해 다시 인증할 필요가 없습니다. Adobe IMS는 관리자 가 현재 세션에 로그인할 때 인증을 처리합니다. 다음을 참조하십시오 [[!DNL Adobe Identity Management Service] (IMS) 통합 개요](../getting-started/adobe-ims-integration-overview.md).
 
+다음 방문: [보안 센터](https://helpx.adobe.com/security.html)잠재적인 취약점에 대한 최신 뉴스를 얻고 Adobe 보안 알림에 등록하며 Adobe 트러스트 센터에 액세스하려면 {:target=&quot;_blank&quot;}를 참조하십시오.
+
 ![보안 센터](./assets/product-security-home.png){width="700" zoomable="yes"}
+
+보안 모범 사례에 대한 자세한 내용은 [상거래 사이트 및 인프라 보호](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) 다음에서 _구현 플레이북_.
 
 ## 보안 작업 계획
 
