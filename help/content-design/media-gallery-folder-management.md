@@ -3,10 +3,10 @@ title: 미디어 갤러리 폴더 관리
 description: 폴더를 사용하여 미디어 에셋을 구성하는 방법에 대해 알아봅니다.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 65521c2b2113768ebec43b3aadac487d4d07c3a0
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 1%
+source-wordcount: '139'
+ht-degree: 0%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 1%
 폴더를 사용하여 새 이미지 구성 [미디어 갤러리](media-gallery.md). 미디어 에셋의 수가 증가하면 미디어 갤러리에서 폴더를 사용하여 기존 에셋을 보다 쉽게 찾고 관리할 수 있습니다.
 
 ## 폴더 만들기
+
+>[!NOTE]
+>
+>폴더는에서 만들 수만 있습니다. `pub/media/wysywig` 및 `pub/media/catalog/category` 개 폴더.
 
 1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
@@ -30,7 +34,7 @@ ht-degree: 1%
 
 >[!WARNING]
 >
->폴더를 삭제하면 해당 폴더 내의 모든 이미지가 제거됩니다.
+>폴더를 삭제하면 해당 폴더 내의 모든 이미지가 제거됩니다. 폴더만 삭제할 수 있습니다 `pub/media/wysywig` 및 `pub/media/catalog/category` 개 폴더.
 
 1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
