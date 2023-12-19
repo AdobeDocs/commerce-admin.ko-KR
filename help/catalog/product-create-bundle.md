@@ -3,9 +3,9 @@ title: 번들 제품
 description: 쇼핑객이 스토어에서 사용자 지정된 제품을 작성할 수 있는 번들 제품을 만드는 방법을 알아봅니다.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: eca41f653aa6499743982199f067d6df86079010
+source-git-commit: e38958bb57251ccc9409b849abc1aadb82ff0a54
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 번들은 _나만의 콘텐츠 구축_, 사용자 정의 가능한 제품. 번들의 각 항목은 다음 제품 유형 중 하나를 기반으로 할 수 있습니다.
 
 - [단순 제품](product-create-simple.md)
+- [가상 제품](product-create-virtual.md)
+- [다운로드 가능한 제품](product-create-downloadable.md)
 - [가상 제품](product-create-virtual.md)
 
 ![번들 제품](./assets/product-bundle.png){width="700" zoomable="yes"}
