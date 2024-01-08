@@ -3,9 +3,9 @@ title: 그룹화된 제품
 description: 그룹으로 표시되는 간단한 독립 실행형 제품으로 구성된 그룹화된 제품을 만드는 방법을 알아봅니다.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ ht-degree: 0%
 1. 기본값 적용 **[!UICONTROL SKU]** 제품 이름을 기반으로 하거나 다른 이름을 입력합니다.
 
    다음 사항에 유의하십시오. **[!UICONTROL Quantity]** 값이 그룹을 구성하는 개별 제품에서 파생되었으므로 필드를 사용할 수 없습니다.
+
+   그룹화된 제품은 카탈로그에 자체 가격이 없습니다. 그룹화된 제품 가격은 그룹에 포함된 개별 제품의 가격에서 파생됩니다.
 
 1. 제품이 아직 게시할 준비가 되지 않았으므로 을(를) 설정합니다. **[!UICONTROL Enable Product]** 끝 `No` ( ![아니요 전환](../assets/toggle-no.png) ).
 
@@ -189,5 +191,7 @@ ht-degree: 0%
 - 그룹화된 하위 제품은 간단하거나, 다운로드할 수 있거나, 가상 제품일 수 있습니다 **[!UICONTROL without custom options]**.
 
 - 구매한 각 항목은 그룹의 일부가 아니라 장바구니에 개별적으로 표시됩니다.
+
+- 그룹화된 제품은 카탈로그에 자체 가격이 없습니다. 그룹화된 제품 가격은 그룹에 포함된 개별 제품의 가격에서 파생됩니다.
 
 - 장바구니의 썸네일 이미지는 그룹화된 상위 제품 또는 관련 제품의 이미지를 표시하도록 설정할 수 있습니다.

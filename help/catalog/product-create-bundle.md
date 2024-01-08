@@ -3,9 +3,9 @@ title: 번들 제품
 description: 쇼핑객이 스토어에서 사용자 지정된 제품을 작성할 수 있는 번들 제품을 만드는 방법을 알아봅니다.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
+source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ If [즉시 구매](../stores-purchase/checkout-instant-purchase.md) 은(는) 사
 
 1. 번들의 가격을 확인하려면 다음 중 하나를 수행하십시오.
 
-   - 고객이 선택한 옵션을 가격에 반영하려면 다음을 설정하십시오. **[!UICONTROL Dynamic Price]** 끝 `Yes` 및 나가기 **[!UICONTROL Price]** 비어 있음.
+   - 고객이 선택한 옵션을 가격에 반영하려면 다음을 설정하십시오. **[!UICONTROL Dynamic Price]** 끝 `Yes` 및 나가기 **[!UICONTROL Price]** 비어 있음. 이 경우 묶음 제품은 카탈로그에서 자체 가격이 없으며 제품 가격은 묶음에 포함된 개별 제품의 가격에서 파생됩니다.
 
    - 번들에 고정 가격을 부과하려면 다음을 설정하십시오. **[!UICONTROL Dynamic Price]** 끝 `No` 을(를) 입력한 후 **[!UICONTROL Price]** 번들에 대해 비용을 청구하려는 경우
 

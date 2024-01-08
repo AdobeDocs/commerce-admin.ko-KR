@@ -3,9 +3,9 @@ title: 구성 가능한 제품
 description: 쇼핑객에게 다양한 선택 항목을 제공하는 구성 가능한 제품을 만드는 방법을 알아봅니다.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -204,6 +204,10 @@ ht-degree: 0%
 
 다음 방법 중 하나를 사용하여 **[!UICONTROL prices]**:
 
+>[!NOTE]
+>
+>구성 가능한 제품은 카탈로그에 자체 가격이 없습니다. 구성 가능한 제품 가격은 [!UICONTROL In Stock] 하위 제품.
+
 **방법 1:** 모든 SKU에 동일한 가격 적용
 
 1. 모든 변형에 대한 가격이 동일한 경우 다음을 선택합니다. **[!UICONTROL Apply single price to all SKUs]**.
@@ -373,6 +377,8 @@ _를 사용하는 다중 소스 판매자 [Inventory management](../inventory-ma
 - [재고 상태](../inventory-management/sources-stocks.md) 구성 가능한 제품의 경우 반수동으로 제어되는 설정입니다. 제품 이용가능성을 직접 나타내는 단순한 제품의 재고 상태와는 다르다. 구성 가능한 제품의 경우 재고 상태는 다중 기준 재고 상태 계산의 일부입니다.
 
 - 구성 가능한 하위 제품은 단순 또는 가상 제품일 수 있습니다. **사용자 지정 옵션 없음**. 사용자 지정 하위 제품을 가상화하려면 다음을 선택해야 합니다. `Тhis item has no weight` 대상: **[!UICONTROL Weight]** 각각에 대해 를 설정합니다.
+
+- 구성 가능한 제품은 카탈로그에 자체 가격이 없습니다. 구성 가능한 제품 가격은 [!UICONTROL In Stock] 하위 제품.
 
 - 제품 변형에 사용되는 특성은 범위가 전역적이어야 하며 고객은 값을 선택해야 합니다. 제품 변형 속성은 구성 가능한 제품의 템플릿으로 사용되는 속성 세트에 포함되어야 합니다.
 

@@ -3,9 +3,9 @@ title: 기프트 카드 제품
 description: 체크아웃 중에 수신자 고객이 상환할 고유 코드를 생성하는 기프트 카드 제품을 만드는 방법을 알아봅니다.
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,10 @@ ht-degree: 0%
    - 허용 가능한 최소 및 최대 값의 범위를 정의하려면 **[!UICONTROL Open Amount From]** 및 **[!UICONTROL To]** 값.
 
    고정 가격, 미결 금액 가격 또는 두 가지 모두를 사용하여 기프트 카드를 만들 수 있습니다.
+
+   >[!NOTE]
+   >
+   >기프트 카드 상품은 카탈로그에 있는 고유의 가격이 없습니다. 기프트 카드 가격은 구매 중 선택한 기프트 카드 금액에서 파생됩니다.
 
    ![기프트 카드 금액](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
@@ -152,5 +156,7 @@ ht-degree: 0%
 - 기프트 카드의 수명은 무제한이거나 지정된 일수로 설정할 수 있습니다.
 
 - 기프트 카드의 가액은 고정 금액으로 설정하거나 최소와 최대치로 개설 금액을 설정할 수 있습니다.
+
+- 기프트 카드 상품은 카탈로그에 있는 고유의 가격이 없습니다. 기프트 카드 가격은 구매 중 선택한 기프트 카드 금액에서 파생됩니다.
 
 - 고객을 위한 기프트 카드 계정은 주문 시 또는 송장 발행 시 생성할 수 있습니다.
