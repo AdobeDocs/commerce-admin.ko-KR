@@ -3,9 +3,9 @@ title: 장바구니 가격 규칙 만들기
 description: 장바구니 또는 제품 속성을 기반으로 장바구니 가격 규칙을 만드는 방법을 알아봅니다.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: bf52884cb0eccd4d9c7326a95f8600a3ed950918
+source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
 workflow-type: tm+mt
-source-wordcount: '2885'
+source-wordcount: '2971'
 ht-degree: 0%
 
 ---
@@ -240,13 +240,13 @@ Real-Time CDP을 기반으로 장바구니 가격 규칙에 대한 조건을 설
    | `Percent of product price discount` | 최초 가격에서 퍼센트를 차감하여 품목을 할인합니다. 할인은 장바구니에 있는 각 적격 항목에 적용됩니다. 예: Enter `10` 위치: [!UICONTROL Discount Amount] (원래 가격보다 10% 낮은 업데이트된 가격) |
    | `Fixed amount discount` | 장바구니에 있는 각 적격 품목의 최초 가격에서 고정 금액을 차감하여 품목을 할인합니다. 예: Enter `10` 위치: [!UICONTROL Discount Amount] 원래 가격보다 10달러 낮은 업데이트된 가격. |
    | 장바구니 전체에 대한 고정 금액 할인 | 장바구니 합계에서 고정 금액을 빼서 전체 장바구니를 할인합니다. 예: 10을 입력합니다. [!UICONTROL Discount Amount] 장바구니 합계에서 $10를 뺍니다. 기본적으로 할인율은 장바구니 소계에만 적용됩니다. 소계 및 배송에 할인을 별도로 적용하려면 _[!UICONTROL Apply to Shipping Amount]_옵션을 선택합니다. |
-   | `Buy X get Y free` | 고객이 무상으로 수량을 받기 위해 구매해야 하는 수량을 정의합니다. (다음 [!UICONTROL Discount Amount] Y임) |
+   | `Buy X get Y free` | 수량 Y를 입고하기 위해 고객이 구매해야 하는 수량 X를 정의합니다. **동일제품/동일변량** 공짜로. (다음 [!UICONTROL Discount Amount] (Y임) 할인을 적용하려면 동일한 품목의 총 X+Y 수량이 장바구니에 있거나 장바구니에 추가되어야 합니다. |
 
    {style="table-layout:auto"}
 
    - 다음을 입력합니다. **[!UICONTROL Discount Amount]** 기호 없이 숫자로 표시합니다. 예를 들어 선택한 할인 옵션에 따라 숫자 10은 퍼센트, 고정 금액 또는 품목 수량을 나타낼 수 있습니다.
 
-   - 의 경우 _X 구입 Y 무료_ 할인에서 수량을 입력합니다. **[!UICONTROL Discount Qty Step (Buy X)]** 할인을 받기 위해 고객이 구매해야 하는 필드.
+   - 의 경우 _X 구입 Y 무료_ 할인에서 수량을 입력합니다. **[!UICONTROL Discount Qty Step (Buy X)]** Y 수량에 대한 할인을 받기 위해 고객이 구매해야 하는 단일 제품/SKU/라인 항목의 필드. X와 Y는 모두 동일한 SKU의 수량을 참조하며, 해당 품목의 특정 수량(구성 가능한 제품의 변형은 별도로 계산됨)은 장바구니에 수동으로 추가해야 합니다.
 
    - 다음에서 **[!UICONTROL Maximum Qty Discount is Applied To]** 필드에서는 동일한 구매에서 할인을 받을 수 있는 동일한 제품의 최대 수량을 입력합니다.
 
