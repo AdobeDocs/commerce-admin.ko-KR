@@ -3,9 +3,9 @@ title: 머천다이징에 대한 범주 규칙
 description: 조건 세트에 따라 제품 선택 사항을 동적으로 변경하는 규칙을 만드는 방법을 알아봅니다.
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 50951e5aae51067cdba2d8b50c1e530c7f79007a
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
 
    ![자동 정렬](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
 
-   정렬은 현재 상태를 기반으로 합니다.
+   정렬 순서 옵션은 전체적으로 정의되며 현재 조건을 기반으로 적용됩니다. 웹 사이트, 스토어 또는 스토어 보기 수준에 대해 다른 정렬 순서를 설정할 수 없습니다.
 
    | 정렬 옵션 | 설명 |
    |-----------| -----------|
