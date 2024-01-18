@@ -4,9 +4,9 @@ description: 회사 계정과 연결된 고객이 견적에 대한 요청을 제
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 21361104fa06425df0b44d5c7ae204ef4d9e21ac
+source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 1. 고객은 의 구매자로 사용자 계정에 로그인합니다. [권한](account-company-roles-permissions.md) 견적을 요청합니다.
 
 1. 견적에 포함할 제품을 장바구니에 추가합니다.
+
+   >[!TIP]
+   > 
+   >주문할 제품 SKU 목록이 있는 경우 를 사용하여 장바구니에 더 빨리 추가하십시오. [빠른 주문](quick-order.md).
 
 1. 선택 **[!UICONTROL Request a Quote]**.
 
