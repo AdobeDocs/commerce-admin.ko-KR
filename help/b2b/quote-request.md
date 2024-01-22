@@ -4,9 +4,9 @@ description: 회사 계정과 연결된 고객이 견적에 대한 요청을 제
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
+source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 0%
 
    >[!TIP]
    > 
-   >주문할 제품 SKU 목록이 있는 경우 를 사용하여 장바구니에 더 빨리 추가하십시오. [빠른 주문](quick-order.md).
+   >고객은 를 사용하여 제품 SKU 목록을 장바구니에 보다 빠르게 추가할 수 있습니다. [빠른 주문](quick-order.md).
 
 1. 선택 **[!UICONTROL Request a Quote]**.
 
    ![장바구니에서 견적 요청](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
-1. 다음에서 **[!UICONTROL Add your comment]** 상자에 요청을 설명하는 간단한 메모를 입력합니다.
+1. 다음에서 **[!UICONTROL Add your comment]** 상자에 고객이 요청을 설명하는 간단한 메모를 입력합니다.
 
 1. 을(를) 입력합니다 **[!UICONTROL Quote Name]**.
 
@@ -51,4 +51,4 @@ ht-degree: 0%
    - 을(를) 선택하여 판매자에게 견적을 전송합니다. **[!UICONTROL Request a Quote]**.
    - [!BADGE 1.5.0 베타 기능]{type=Informative url="/help/b2b/release-notes.md" tooltip="Beta 프로그램 참가자만 사용 가능"}**[!UICONTROL Save as Draft]**.
 
-     구매자가 견적을 초안으로 저장하면 견적을 다음 위치에서 사용할 수 있습니다. [!UICONTROL My Quotes] 위치: `Draft` 주. 구매자가 초안 견적을 열어 제출하기 전까지는 판매자가 볼 수 없습니다.
+     구매자가 견적을 초안으로 저장하면 견적을 다음 위치에서 사용할 수 있습니다. [!UICONTROL My Quotes] 위치: `Draft` 주. 초안 견적은 구매자가 검토를 위해 보낼 때까지 판매자에게 표시되지 않습니다.
