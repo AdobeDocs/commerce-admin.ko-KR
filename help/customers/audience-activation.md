@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: f7b8e47aa5a8113fac768b8086ace3bf673193c5
+source-git-commit: 2eacc773f96540691decaf1ca798328bc51a5d70
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Luma 상점 첫 화면에서 대상자를 활성화하거나 [headless](#headles
 
 _2023년 8월 15일_
 
-![수정](../assets/new.svg) - 을(를) 업데이트함 [Real-Time CDP 대상 대시보드](#real-time-cdp-audiences-dashboard) 필터링을 단순화합니다.
+![수정](../assets/fix.svg) - 을(를) 업데이트함 [Real-Time CDP 대상 대시보드](#real-time-cdp-audiences-dashboard) 필터링을 단순화합니다.
 
 _2023년 6월 27일_
 
@@ -49,6 +49,22 @@ _2023년 5월 30일_
 ![신규](../assets/new.svg) - 을(를) 업데이트함 [Real-Time CDP 대상 대시보드](#real-time-cdp-audiences-dashboard) Adobe Commerce 인스턴스 내에서 활성 대상을 정렬, 검색 및 필터링할 수 있는 기능을 포함합니다.
 
 +++
+
+### 2.1.0
+
+[!BADGE 호환성]{type=Informative tooltip="호환성"}
+
+_2024년 1월 24일_
+
+![신규](../assets/new.svg) - 을(를) 업데이트함 [Real-Time CDP 대상 대시보드](#real-time-cdp-audiences-dashboard) 대상자를 포함하는 웹 사이트를 포함하고 해당 대상자를 사용하도록 구성된 동적 블록 및 장바구니 가격 규칙을 지정합니다.
+
+### 2.0.1
+
+[!BADGE 호환성]{type=Informative tooltip="호환성"}
+
+_2023년 11월 16일_
+
+![수정](../assets/fix.svg) - 안정성 향상.
 
 ### 2.0.0
 
@@ -137,16 +153,20 @@ composer require magento/audiences
 
 1. 클릭 **구성 저장**.
 
-Adobe Commerce 인스턴스에 활성화된 대상자를 통해 다음을 수행할 수 있습니다.
+## Commerce에서 Real-Time CDP 대상을 사용하는 위치
+
+포함 [!DNL Audience Activation] 확장을 활성화하면 다음과 같은 작업을 수행할 수 있습니다.
 
 - [장바구니 가격 규칙 만들기](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) 대상자가 정보 제공
 - [동적 블록 만들기](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 대상자가 정보 제공
 
 ## Real-Time CDP 대상 대시보드
 
-를 사용하여 Adobe Commerce 인스턴스 내에서 개인화할 수 있는 모든 활성 대상을 볼 수 있습니다. **Real-Time CDP 대상** 대시보드입니다. 귀하가 원하는 모든 대상자 [활성화됨](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) Real-Time CDP의 Adobe Commerce 대상에서 이 대시보드에 표시됩니다.
+모두 볼 수 있습니다 [활성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) 를 사용하여 Adobe Commerce 인스턴스 내에서 개인화할 수 있는 대상자 **Real-Time CDP 대상** 대시보드입니다.
 
 에 액세스하려면 **Real-Time CDP 대상** 대시보드에서 로 이동합니다. _관리자_ 사이드바, 다음으로 이동 **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
+
+![Real-Time CDP 대상 대시보드](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 대시보드에는 다음 필드가 포함되어 있습니다.
 
@@ -156,9 +176,12 @@ Adobe Commerce 인스턴스에 활성화된 대상자를 통해 다음을 수행
 | `Search` | 상거래 인스턴스에서 활성 대상을 검색할 수 있도록 해줍니다. |
 | `Name` | Real-Time CDP에서 대상에게 지정된 이름입니다. |
 | `Origin` | 대상이 어디에서 왔는지를 나타냅니다. 예: `Experience Platform`. |
+| `Websites` | 대상을 사용하도록 구성된 웹 사이트를 나타냅니다. |
+| `Dynamic Blocks` | 대상을 사용하도록 구성된 동적 블록을 나타냅니다. |
+| `Cart Price Rules` | 대상자를 사용하도록 구성된 장바구니 가격 규칙을 나타냅니다. |
 | `Last updated` | Real-Time CDP에서 대상이 수정된 시기를 나타냅니다. |
 | `Sync now` | Real-Time CDP에서 새 대상자 또는 업데이트된 대상자를 검색합니다. |
-| `Customize table` | 다음을 표시하거나 숨길 수 있습니다. `Origin` 및 `Last updated` 열. |
+| `Customize table` | 다음을 표시하거나 숨길 수 있습니다. `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, 및 `Last updated` 열. |
 
 {style="table-layout:auto"}
 
