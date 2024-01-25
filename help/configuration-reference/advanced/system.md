@@ -4,9 +4,9 @@ description: 에서 구성 설정을 검토합니다. [!UICONTROL Advanced] &gt;
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 3a113d162f13c659ee52ae3cbff2c7a3873d3857
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
@@ -142,21 +142,22 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-## [!UICONTROL Scheduled Backup Settings]
+## [!UICONTROL Backup Settings]
 
-![고급 구성 - 예약된 백업 설정](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
-
-이러한 설정 변경에 대한 자세한 내용은 [시스템 백업](../../systems/backups.md) 다음에서 _관리 시스템 안내서_.
+![고급 구성 - 백업 설정](./assets/system-scheduled-backup-settings.png)<!-- zoom -->
 
 {{$include /help/_includes/backups-note.md}}
 
+이러한 설정 변경에 대한 자세한 내용은 [시스템 백업](../../systems/backups.md) 다음에서 _관리 시스템 안내서_.
+
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Enable Scheduled Backup] | 글로벌 | 상거래 인스턴스가 정기적인 일정에 따라 자동으로 백업되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Backup Type] | 글로벌 | 백업에 포함된 상거래 인스턴스 요소를 결정합니다. 옵션: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | 글로벌 | 스케줄 지정 백업이 시작되는 시간, 분, 초를 지정합니다. |
-| [!UICONTROL Frequency] | 글로벌 | 스케줄 지정 백업이 수행되는 빈도를 결정합니다. 옵션: `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | 글로벌 | 예약된 백업 중에 저장소가 유지 관리 모드에 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Backup] | 글로벌 | Commerce 인스턴스에서 백업을 허용하는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | 글로벌 | (다음의 경우에 표시됨) _[!UICONTROL Enable Backup]_이(가) (으)로 설정됨 `Yes`.) 상거래 인스턴스가 정기적인 일정에 따라 자동으로 백업되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | 글로벌 | (다음의 경우에 표시됨) _[!UICONTROL Enable Scheduled Backup]_이(가) (으)로 설정됨 `Yes`.) 백업에 포함된 상거래 인스턴스 요소를 결정합니다. 옵션: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | 글로벌 | (다음의 경우에 표시됨) [!UICONTROL Enable Scheduled Backup] 이(가) (으)로 설정됨 `Yes`.) 스케줄 지정 백업이 시작되는 시간, 분, 초를 지정합니다. |
+| [!UICONTROL Frequency] | 글로벌 | (다음의 경우에 표시됨) [!UICONTROL Enable Scheduled Backup] 이(가) (으)로 설정됨 `Yes`.) 스케줄 지정 백업이 수행되는 빈도를 결정합니다. 옵션: `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | 글로벌 | (다음의 경우에 표시됨) [!UICONTROL Enable Scheduled Backup] 이(가) (으)로 설정됨 `Yes`.) 예약된 백업 중에 저장소가 유지 관리 모드에 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
