@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Tax]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Tax] 상거래 관리자의 페이지입니다.
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: f95e6d22f83b518c64b254f0d98147e3c6ebaf42
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -123,11 +123,10 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable FPT] | 웹 사이트 | FPT를 사용할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Display Prices in Product Lists] | 웹 사이트 | 제품 목록에서 FPT의 표시를 제어합니다. 옵션:<br/> **`Including FPT Only`** - 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액은 별도로 표시되지 않습니다.<br/>**`Including FPT and FPT description`**- 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT. Including FPT description and final price`** - 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT`**- 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액은 별도로 표시되지 않습니다. |
-| 제품 보기 페이지에 가격 표시 | 웹 사이트 | 제품 페이지에서 FPT의 표시를 제어합니다. 옵션:<br/> **`Including FPT Only`** - 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액은 별도로 표시되지 않습니다.<br/>**`Including FPT and FPT description`**- 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT. Including FPT description and final price`** - 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT`**- 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액은 별도로 표시되지 않습니다. |
+| [!UICONTROL Display Prices On Product View Page] | 웹 사이트 | 제품 페이지에서 FPT의 표시를 제어합니다. 옵션:<br/> **`Including FPT Only`** - 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액은 별도로 표시되지 않습니다.<br/>**`Including FPT and FPT description`**- 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT. Including FPT description and final price`** - 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT`**- 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액은 별도로 표시되지 않습니다. |
 | [!UICONTROL Display Prices in Sales Modules] | 웹 사이트 | 장바구니 및 체크아웃 중에 FPT의 표시를 제어합니다. 옵션:<br/> **`Including FPT Only`** - 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액은 별도로 표시되지 않습니다.<br/>**`Including FPT and FPT description`**- 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT. Including FPT description and final price`** - 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT`**- 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액은 별도로 표시되지 않습니다. |
 | [!UICONTROL Display Prices in Emails] | 웹 사이트 | 이메일에 FPT가 표시되도록 제어합니다. 옵션:<br/> **`Including FPT Only`** - 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액은 별도로 표시되지 않습니다.<br/>**`Including FPT and FPT description`**- 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시됩니다.<br/>** FPT 제외 FPT 설명 및 최종 가격 포함&#x200B;**- 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT`** - 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액은 별도로 표시되지 않습니다. |
-| [!UICONTROL Apply Discounts to FPT] | 웹 사이트 | FPT 금액에 할인을 적용할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL FPT Tax Configuration] | 웹 사이트 | FPT 세금 계산 방법을 결정합니다. 옵션: <br/>**`Not Taxed`**- 과세 관할 구역에서 FPT에 대해 과세하지 않는 경우 이 옵션을 선택합니다. (예: 캘리포니아)<br/>**`Taxed`** - 과세 관할 구역에서 세금 FPT를 수행하는 경우 이 옵션을 선택합니다. (예: 캐나다) <br/>**`Loaded and Displayed with Tax`**- FPT가 세금을 적용하기 전에 주문 합계에 추가되는 경우 이 옵션을 클릭합니다. (예: EU 국가) |
+| [!UICONTROL Apply Tax to FPT] | 웹 사이트 | FPT 금액에 세금이 적용되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Include FPT in Subtotal] | 웹 사이트 | FPT가 장바구니 소계에 포함되는지 여부를 결정합니다. 옵션: <br/>**`Yes`**- 장바구니 소계에 FPT를 포함합니다.<br/>**`No`** - FPT는 소계에 포함되지 않으며 장바구니에서 소계 뒤에 배치됩니다. |
 
 {style="table-layout:auto"}
