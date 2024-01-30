@@ -3,9 +3,9 @@ title: 검색어 관리
 description: 철자가 틀리거나 대체 용어를 사용하여 고객을 리디렉션하기 위해 스토어에 대한 검색어를 관리하는 방법을 알아봅니다.
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 6126943f20f33d52085018ca634159918833efc9
+source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,10 @@ Adobe Commerce은 두 가지 다른 동의어 관리 솔루션을 지원합니�
 >[!NOTE]
 >
 >표준 동의어 검색 기능은 기본적으로 를 지원합니다 `name` 및 `sku` 제품 속성 **_전용_**.
+
+>[!IMPORTANT]
+>
+>동의어 검색 기능은 전체 텍스트 일치 검색 방법만 사용합니다.
 
 ![예 storefront - 동의어가 있는 검색 결과](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
 
