@@ -3,7 +3,7 @@ title: 미디어 갤러리 자산 관리
 description: Adobe Stock 통합을 통해 얻은 업로드된 미디어 파일 및 에셋을 관리하는 방법을 알아봅니다.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -72,6 +72,8 @@ ht-degree: 0%
 1. 미디어 에셋을 사용할 수 있는 영역에서 새 미디어 갤러리에 액세스합니다.
 
 1. 에셋을 선택하고 **[!UICONTROL Add Selected]**.
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
 
 ## 에셋 삭제
 

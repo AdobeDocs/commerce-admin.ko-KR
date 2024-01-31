@@ -3,9 +3,9 @@ title: 미디어 갤러리 이미지 최적화
 description: 에 대한 이미지 최적화를 사용하는 방법을 알아봅니다. [!DNL Commerce] 미디어 자산입니다.
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -32,3 +32,5 @@ Media Gallery 이미지 최적화 기능이 활성화되면 최적화된 이미�
 다음의 경우 _최대 폭_ 및 _최대 높이_ 구성에서 값이 변경되면 이전에 삽입한 기존의 최적화된 모든 이미지가 업데이트됩니다.
 
 미디어 갤러리 이미지 최적화를 사용하려면 `media.gallery.renditions.update` 구성을 변경할 때 대기열 소비자는 최적화된 이미지를 재생성하기 위해 실행 중입니다. 다음을 참조하십시오 [메시지 대기열 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) 다음에서 _구성 안내서_ 을 참조하십시오.
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
