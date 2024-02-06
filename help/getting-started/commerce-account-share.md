@@ -3,9 +3,9 @@ title: 공유 [!DNL Commerce] account
 description: 에 제한된 액세스 권한을 부여하는 방법 알아보기 [!DNL Commerce] 기타 계정 [!DNL Commerce] 계정 보유자입니다.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: adccffa3b9735eaa77f119271d026fa01cd1337b
+source-git-commit: 8d4c37f512030c907d26b0210ddaad11ce605dfe
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,12 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > If  **[!UICONTROL Delete]** 이(가) 표시되지 않으면 **[!UICONTROL Share Name]** 시작 문자 `Cloud Shared Access from MAG XYZ` - 일반적으로, [이러한 계정](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) 삭제할 수 없습니다.
+   > If  **[!UICONTROL Delete]** 이(가) 표시되지 않으면 **[!UICONTROL Share Name]** 시작 문자 `Cloud Shared Access from MAG XYZ` - [이러한 계정](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) 삭제할 수 없습니다.
+   > 
+   > 이 경우 계정 소유자에게 공유 액세스 계정을 수정하고 계정 권한을 지우도록 요청하십시오. 해당 업데이트 후에는 사용자가 리소스에 대한 공유 액세스를 사용할 수 없습니다.
+   >
+   > 또한 사용자가 프로젝트에서 제거되어 더 이상 이메일 알림을 받지 않도록 하십시오. [이전 팀원이 Adobe Commerce 클라우드 알림 이메일을 받습니다.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+
 
 1. 확인을 묻는 메시지가 나타나면 **[!UICONTROL Delete User]**.
 
