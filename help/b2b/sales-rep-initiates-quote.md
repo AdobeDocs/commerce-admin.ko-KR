@@ -4,9 +4,9 @@ description: 판매자가 협상 프로세스를 시작하기 위해 특정 구�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
+source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Sales Rep 는 Quote 또는 Customer Grid에서 Quote 를 생성할 수 있습니
 
 1. 을(를) 선택하여 견적에 항목 추가 **[!UICONTROL Add Product By SKU]**. SKU 번호와 수량을 입력한 다음 을(를) 선택합니다. **[!UICONTROL Add Product]**.
 
-![판매자가 구매자를 위한 초안 견적에 항목 추가](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+   ![판매자가 구매자를 위한 초안 견적에 항목 추가](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. 필요에 따라 제품에 라인 항목 할인을 적용합니다.
 
@@ -67,7 +67,7 @@ Sales Rep 는 Quote 또는 Customer Grid에서 Quote 를 생성할 수 있습니
 
    - 다음에서 [!UICONTROL Discount Line item] 양식을 선택하고 **[!UICONTROL Discount Type]**.
 
-   ![견적에 라인 항목 할인 적용](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+     ![견적에 라인 항목 할인 적용](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
    - 다음에서 [!UICONTROL Discount] 필드에 할인 유형의 값을 입력합니다. 예를 들어 퍼센트 할인을 선택한 경우 10을 입력하여 라인 품목에 10% 할인을 적용합니다.
 
@@ -85,7 +85,7 @@ Sales Rep 는 Quote 또는 Customer Grid에서 Quote 를 생성할 수 있습니
 
 1. 구매자를 위한 추가 정보를 추가합니다.
 
-   위치 [!UICONTROL Negotiation - Comments]에서 메모를 추가하고 구매자에게 필요한 지원 파일을 첨부합니다. [!UICONTROL Negotiation - Comments]
+   다음에서 **[!UICONTROL Negotiation - Comments]** 탭에서 메모를 추가하고 구매자에게 필요한 지원 파일을 첨부합니다.
 
    ![판매자가 구매자를 위한 정보를 추가합니다.](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
@@ -95,9 +95,7 @@ Sales Rep 는 Quote 또는 Customer Grid에서 Quote 를 생성할 수 있습니
 
    견적을 초안으로 저장하거나 구매자에게 전송합니다.
 
-   - 견적을 초안으로 저장하면 상태가 다음으로 갱신됩니다. `Draft` 그리고 확인 메시지가 표시됩니다.
-
-     ![구매자에게 제출된 확인 초안 견적](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+   - 견적을 초안으로 저장하면 상태가 다음으로 갱신됩니다. `Draft` 확인 메시지가 표시됩니다.
 
    - 구매자에게 견적을 발송하면 상태가 다음으로 변경됩니다. `Submitted`. 구매자는 견적을 검토하기 위해 이메일 알림을 받습니다. 구매자가 추가 협상을 위해 견적을 반환할 때까지 견적이 잠깁니다. 판매자는 Quote 표 또는 Customer 표에서 Quote 를 볼 수 있습니다.
 
