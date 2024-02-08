@@ -4,9 +4,9 @@ description: 판매자가 협상 프로세스를 시작하기 위해 특정 구�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: be3427f6cc2bab68b6d2b0fa0c36b83dc310e528
+source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,11 @@ Sales Rep 는 Quote 또는 Customer Grid에서 Quote 를 생성할 수 있습니
 
    견적을 초안으로 저장하거나 구매자에게 전송합니다.
 
-   구매자에게 견적을 발송하면 상태가 다음으로 변경됩니다. `Submitted`구매자가 견적을 제출할 때까지 견적이 잠기고 상태가 초안으로 업데이트되며 확인 메시지가 표시됩니다.
+   - 견적을 초안으로 저장하면 상태가 다음으로 갱신됩니다. `Draft` 그리고 확인 메시지가 표시됩니다.
 
-   ![구매자에게 제출된 확인 초안 견적](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+     ![구매자에게 제출된 확인 초안 견적](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
 
-구매자는 견적을 검토하기 위해 이메일 알림을 받습니다. 구매자가 추가 협상을 위해 견적을 반환할 때까지 견적이 잠깁니다. 판매자는 Quote 표 또는 Customer 표에서 Quote 를 볼 수 있습니다.
+   - 구매자에게 견적을 발송하면 상태가 다음으로 변경됩니다. `Submitted`. 구매자는 견적을 검토하기 위해 이메일 알림을 받습니다. 구매자가 추가 협상을 위해 견적을 반환할 때까지 견적이 잠깁니다. 판매자는 Quote 표 또는 Customer 표에서 Quote 를 볼 수 있습니다.
 
 ## 고객 그리드에서 견적 조회 및 생성
 
