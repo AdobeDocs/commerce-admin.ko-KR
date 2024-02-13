@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] 상거래 관리자의 페이지입니다.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 8ce1bca0a14b838c843c66e48a2c1cd895bb1340
 workflow-type: tm+mt
-source-wordcount: '3095'
+source-wordcount: '3134'
 ht-degree: 0%
 
 ---
@@ -207,13 +207,14 @@ ht-degree: 0%
 <!-- [Search Engine Optimization](https://docs.magento.com/user-guide/catalog/product-search-engine-optimization.html) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
-|--- |--- |--- |
+|--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Popular Search Terms] | 스토어 뷰 | 다음 여부를 결정합니다. _인기 검색어_ 은 스토어에서 구현됩니다. 이 설정은 를 사용하는 저장소에는 적용되지 않습니다. [라이브 검색](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). 옵션: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | 스토어 뷰 | html 또는 htm과 같은 접미사를 제품 URL에 적용할지 여부를 결정합니다. 접미사를 사용하면 접미사가 자동으로 적용되므로 접미사 앞에 마침표를 포함하지 마십시오. |
 | [!UICONTROL Category URL Suffix] | 스토어 뷰 | html 또는 htm과 같은 접미사를 범주 URL에 적용할지 여부를 결정합니다. 접미사를 사용하면 접미사가 자동으로 적용되므로 접미사 앞에 마침표를 포함하지 마십시오. |
 | [!UICONTROL Use Categories Path for Product URLs] | 스토어 뷰 | 제품 URL에 카테고리 경로가 포함되어 있는지 여부를 결정합니다. 이렇게 하면 여러 URL이 동일한 페이지를 가리키게 되어 검색 순위에 영향을 줄 수 있습니다. 자세한 내용은 다음을 참조하십시오. [표준 메타 태그](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | 스토어 뷰 | URL 키가 변경될 때마다 영구 리디렉션을 자동으로 만들지 여부를 결정합니다. 구현되면 제품 URL 키 필드 아래에 있는 이전 URL에 대한 사용자 지정 리디렉션 만들기 확인란이 기본적으로 선택됩니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Generate "category/product" URL Rewrites] | 글로벌 | 사용자가 많은 지정된 제품을 포함하는 카테고리를 저장할 때 Adobe Commerce이 데이터를 생성하여 다시 작성 테이블에 저장할지 여부를 결정합니다. 옵션: `Yes` / `No` <br/><br/>**_중요 사항:_**이렇게 생성된 데이터를 URL 재작성 테이블에 저장하면 성능이 저하될 수 있습니다. 다음을 참조하십시오 [자동 제품 리디렉션](../../merchandising-promotions/url-redirect-product-automatic.md) 추가 정보. |
+| [!UICONTROL Apply transliteration for product URL] | 스토어 뷰 | 제품 URL을 만들거나 업데이트할 때 음역이 적용되는지 여부를 결정합니다. 옵션: `Yes` / `No`. 기본값은 로 설정되어 있습니다. `Yes`. <br/><br/>특정 사용 사례의 경우 음역을 비활성화해야 합니다. 예를 들어, 중국어로 온라인 스토어를 운영하는 경우 SEO 모범 사례에서는 제품 URL이 제품 이름과 일치하도록 권장합니다. 옵션을 로 설정 `No` 제품 URL에서 ASCII에 해당하는 문자 대신 한자를 사용할 수 있습니다. |
 | [!UICONTROL Page Title Separator] | 스토어 뷰 | 브라우저 제목 표시줄에서 카테고리 이름과 하위 카테고리를 구분하는 문자를 식별합니다. |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | 스토어 뷰 | 동일한 카테고리 페이지를 가리키는 URL이 여러 개 있는 경우 이 옵션은 표준 메타 태그를 사용하여 검색 엔진이 인덱싱해야 하는 카테고리 URL을 식별합니다. URL에는 메타 태그를 사용하는 카테고리의 전체 이름이 포함되어 있습니다. 이렇게 하면 중복 컨텐츠가 줄어들고 SEO가 향상됩니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Use Canonical Link Meta Tag for Products] | 스토어 뷰 | 동일한 제품 페이지를 가리키는 URL이 여러 개 있는 경우, 이 옵션은 표준 메타 태그를 사용하여 검색 엔진이 인덱싱해야 하는 제품 URL을 식별합니다. URL에는 메타 태그를 사용하는 제품에 대한 전체 이름이 포함되어 있습니다. 이렇게 하면 중복 컨텐츠가 줄어들고 SEO가 향상됩니다. 옵션: `Yes` / `No` |
@@ -285,7 +286,7 @@ Elasticsearch이 있는 기본 Adobe Commerce에는 다음 구성 설정이 포�
 | [!UICONTROL Search Recommendations Count] | 스토어 뷰 | 권장 사항으로 제공된 검색어의 수를 지정합니다. 기본적으로 5개를 넘지 않도록 표시됩니다. |
 | [!UICONTROL Show Results Count for Each Recommendation] | 스토어 뷰 | 로 설정된 경우 `Yes`제안된 검색 권장 사항에 대해 검색된 제품 수가 대괄호 안에 표시됩니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | 스토어 뷰 | 일반적인 철자 오류에 대한 검색 제안이 표시되는지 여부를 결정합니다. 활성화하면 결과를 반환하지 않고 아래에 표시되는 모든 요청에 대해 검색 제안이 제공됩니다. `Did you mean` 다음에 대한 섹션 **검색 결과** 페이지를 가리키도록 업데이트하는 중입니다. 검색 제안은 검색 성능에 영향을 줄 수 있습니다. 로 설정된 경우 `Yes`, 검색 사용 Recommendations 및 관련 필드에 대한 추가 옵션이 표시됩니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Search Suggestions Count] | 스토어 뷰 | 제공되는 검색 제안 수를 결정합니다. For example: `2` |
+| [!UICONTROL Search Suggestions Count] | 스토어 뷰 | 제공되는 검색 제안 수를 결정합니다. 예: `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | 스토어 뷰 | 각 제안에 대한 검색 결과 수를 표시할지 여부를 결정합니다. 테마에 따라 숫자는 제안 후 대괄호 안에 나타납니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | 스토어 뷰 | 검색 결과가 반환되기 위해 일치해야 하는 쿼리의 용어 수에 해당하는 값을 지정합니다. 따라서 쇼핑객에게 최적의 결과 관련성이 보장됩니다. 비율 값은 숫자와 관련이 있으며 필요한 경우 내림차순 처리하여 쿼리에서 일치시킬 최소 용어 수로 사용합니다. 값은 음수 또는 양의 정수, 음수 또는 양의 퍼센트, 두 가지의 조합 또는 다중 조합일 수 있다. 자세한 내용은 다음을 참조하십시오. [minimum_should_match 매개 변수](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) Elasticsearch 설명서에서 확인할 수 있습니다. |
 

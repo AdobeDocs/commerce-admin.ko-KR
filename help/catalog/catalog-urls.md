@@ -3,9 +3,9 @@ title: 카탈로그 및 제품 URL
 description: 카탈로그 제품의 URL 형식 유형 및 구성 방법에 대해 알아봅니다.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ URL 키는 제품 또는 범주를 설명하는 정적 URL의 일부입니다. �
 
 >[!NOTE]
 >
->악센트가 지정된 특수 문자는 URL 키에서 악센트가 적용되지 않은 일반 버전으로 자동 교체됩니다. 예를 들어, `ñ` 은(는) 자동으로 다음으로 대체됩니다. `n`.
+>기본적으로, 악센트 부호가 있는 특수 문자는 URL 키에서 악센트 부호가 없는 일반 버전으로 자동 대체됩니다. 예를 들어, `ñ` 은(는) 자동으로 다음으로 대체됩니다. `n`. 이 동작은 다음을 설정하여 비활성화할 수 있습니다. _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_구성 옵션 대상 `No`. 다음을 참조하십시오 [카탈로그 URL 구성](#configure-catalog-urls).
 
 URL 키는 단어를 구분하기 위해 문자 사이에 하이픈이 아닌 소문자로 구성되어야 합니다. URL 키의 시작 또는 끝에는 하이픈을 사용할 수 없습니다. 잘 설계된 &quot;검색 엔진 친화적&quot; URL 키에는 제품 이름과 주요 단어가 포함되어 검색 엔진에서 색인화되는 방식을 개선할 수 있습니다. URL 키가 변경되는 경우 자동 리디렉션을 만들도록 URL 키를 구성할 수 있습니다.
 
