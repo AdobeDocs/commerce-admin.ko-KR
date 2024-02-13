@@ -3,9 +3,9 @@ title: 상거래 관리자를 위한 Adobe Experience Cloud 통합
 description: 고객이 Experience Cloud 홈 페이지에서 Commerce 프로젝트에 액세스할 수 있도록 Commerce를 Experience Cloud과 통합하는 관리자 통합 경험 확장에 대해 알아봅니다.
 feature: Integration
 exl-id: e3fb6337-c7d5-4b6f-8f4a-583697a1f2d2
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: a07c91bc2f01cd110f3e0ccd6d27fe5d37eb2fc9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Commerce용 Adobe Experience Cloud 통합
 
 {{ee-feature}}
-
-{{$include /help/_includes/admin-unified-experience-beta-note.md}}
 
 Admin Unified Experience 확장을 활성화하여 Adobe Commerce 프로젝트를 Experience Cloud과 통합합니다. 통합이 활성화되면 관리자는 Adobe Experience Cloud에서 Commerce 프로젝트에 액세스할 수 있습니다.
 
