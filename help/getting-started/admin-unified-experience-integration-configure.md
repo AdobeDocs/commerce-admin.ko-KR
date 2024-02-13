@@ -6,9 +6,9 @@ hidefromtoc: false
 feature: Integration
 role: Admin, Leader
 exl-id: b2522d25-8255-4219-98b5-4b764430dea2
-source-git-commit: a4e4dec2dc7a6ba2c065e0fa571f3ff0aaecd847
+source-git-commit: 8278d725a7377b865c118b86a57702cd2be43238
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Experience Cloud 통합을 구성하기 전에 프로젝트 및 상거래 애플
      bin/magento admin:adobe-ims:status
      ```
 
-   모듈이 활성화되지 않은 경우 [ims 통합 프로젝트에 대한 조직 및 자격 증명을 사용하여 활성화](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module). 자격 증명이 없으면 [Adobe 지원 티켓 제출](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+   모듈이 활성화되지 않은 경우 [ims 통합 프로젝트에 대한 조직 및 자격 증명을 사용하여 활성화](../getting-started/adobe-ims-config.md#step-3-enable-the-adminadobeims-module).
 
 1. 관리자 사용자가 Adobe ID을 사용하여 Commerce 관리자에 로그인할 수 있는지 확인합니다.
 
