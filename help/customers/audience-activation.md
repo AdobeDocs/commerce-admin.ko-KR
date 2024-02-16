@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 2eacc773f96540691decaf1ca798328bc51a5d70
+source-git-commit: db8344ab8890c20bb0b3c7d25da95b6007858d6a
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,15 @@ _2023년 5월 30일_
 ![신규](../assets/new.svg) - 을(를) 업데이트함 [Real-Time CDP 대상 대시보드](#real-time-cdp-audiences-dashboard) Adobe Commerce 인스턴스 내에서 활성 대상을 정렬, 검색 및 필터링할 수 있는 기능을 포함합니다.
 
 +++
+
+### 2.2.0-Beta1
+
+[!BADGE 호환성]{type=Informative tooltip="호환성"}
+
+_2024년 2월 16일_
+
+![신규](../assets/new.svg) - Beta에 참여하는 경우 `composer.json` 파일의 루트 레벨은 다음과 같습니다. ` "minimum-stability": "beta"`.
+![신규](../assets/new.svg) - (**베타**) 만드는 기능이 추가되었습니다. [관련 제품 규칙](../merchandising-promotions/product-related-rule-create.md) 대상자가 정보를 제공합니다.
 
 ### 2.1.0
 
@@ -147,11 +156,7 @@ composer require magento/audiences
 
 1. 확장 **[!UICONTROL Services]** 및 선택 **[!UICONTROL [!DNL Data Connection]]**.
 
-1. 다음에서 [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#send-historical-order-data) 안내서에서 1단계를 수행합니다. **Adobe Developer 콘솔에서 프로젝트 만들기**, 및 2: **구성 파일 다운로드**. 그 결과는에 복사하여 붙여넣는 파일입니다. **[!UICONTROL [!DNL Data Connection]]** 구성 페이지:
-
-   ![Real-Time CDP 대상 관리자 구성](./assets/epc-admin-config.png){width="700" zoomable="yes"}
-
-1. 클릭 **구성 저장**.
+1. [추가](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) 서비스 계정 및 자격 증명 세부 정보.
 
 ## Commerce에서 Real-Time CDP 대상을 사용하는 위치
 
@@ -159,6 +164,7 @@ composer require magento/audiences
 
 - [장바구니 가격 규칙 만들기](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) 대상자가 정보 제공
 - [동적 블록 만들기](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 대상자가 정보 제공
+- [(**베타**) 관련 제품 규칙 만들기](../merchandising-promotions/product-related-rule-create.md) 대상자가 정보 제공
 
 ## Real-Time CDP 대상 대시보드
 
@@ -187,11 +193,11 @@ composer require magento/audiences
 
 ## 헤드리스 지원
 
-AEM 및 PWA과 같은 Headless Adobe Commerce 인스턴스에서 대상을 활성화하여 대상을 기반으로 하는 장바구니 가격 규칙이나 동적 블록을 표시할 수 있습니다.
+AEM 및 PWA과 같은 Headless Adobe Commerce 인스턴스에서 대상을 활성화하여 장바구니 가격 규칙, 관련 제품 규칙 또는 대상을 기반으로 하는 동적 블록을 표시할 수 있습니다.
 
-### 장바구니 가격 규칙
+### 장바구니 가격 규칙 및 관련 제품 규칙
 
-장바구니 가격 규칙의 경우, 헤드리스 매장은 다음을 통해 Experience Platform과 커뮤니케이션합니다. [Commerce integration framework(CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). 프레임워크는 GraphQL을 사용하여 구현된 서버측 API를 제공합니다. 쇼핑객 세그먼트와 같은 대상 정보는 라는 GraphQL 헤더 매개 변수를 통해 Commerce로 전달됩니다. `aep-segments-membership`.
+장바구니 가격 규칙 및 관련 제품 규칙의 경우, 헤드리스 매장은 다음을 통해 Experience Platform과 커뮤니케이션합니다. [Commerce integration framework(CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). 프레임워크는 GraphQL을 사용하여 구현된 서버측 API를 제공합니다. 쇼핑객 세그먼트와 같은 대상 정보는 라는 GraphQL 헤더 매개 변수를 통해 Commerce로 전달됩니다. `aep-segments-membership`.
 
 전반적인 아키텍처는 다음과 같습니다.
 
@@ -323,4 +329,35 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 }
 ```
 
-데이터가 검색되면 이를 사용하여 대상자에게 정보를 제공할 수 있습니다 [장바구니 가격 규칙](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) 및 [동적 블록](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) Commerce 앱에서
+데이터가 검색되면 이를 사용하여 대상자에게 정보를 제공할 수 있습니다 [장바구니 가격 규칙](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [동적 블록](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 및  [관련 제품 규칙](../merchandising-promotions/product-related-rule-create.md) Commerce 앱에서
+
+## 대상은 Commerce에 표시되지 않습니다.
+
+Real-Time CDP 대상이 Commerce에 표시되지 않는 이유는 다음과 같습니다.
+
+- 에서 잘못된 인증 유형이 선택됨 **데이터 연결** 구성 페이지
+- 생성된 토큰에 대한 권한이 충분하지 않음
+
+다음 두 섹션에서는 두 경우 중 하나의 문제를 해결하는 방법을 설명합니다.
+
+### 구성에서 잘못된 인증 유형 선택됨
+
+1. 상거래 인스턴스를 엽니다.
+1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. 확장 **[!UICONTROL Services]** 및 선택 **[!UICONTROL [!DNL Data Connection]]**.
+1. 에 지정한 서버 간 인증 방법을 확인합니다. **[!UICONTROL Authentication Type]** 필드가 올바릅니다. Adobe은 다음을 권장합니다. **OAuth**. JWT는 더 이상 사용되지 않습니다. [자세히 알아보기](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+
+### 생성된 토큰에 대한 권한이 충분하지 않음
+
+이 문제는 생성된 토큰에 대한 API 권한이 충분하지 않기 때문에 발생할 수 있습니다. 토큰에 올바른 권한이 있는지 확인하려면 다음을 수행하십시오.
+
+1. 조직의 Adobe Experience Platform 시스템 관리자를 식별합니다.
+1. 사용할 프로젝트 및 자격 증명을 찾습니다.
+1. 기술 계정 이메일을 확인합니다. 예를 들면 다음과 같습니다. `fe3c9476-1234-1234-abcd-2a51a785009a@techacct.adobe.com`.
+1. 시스템 관리자가 Adobe Experience Platform을 시작하고 로 이동하도록 합니다. **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
+1. 위의 기술 계정 이메일을 사용하여 수정할 자격 증명을 검색합니다.
+1. 자격 증명을 연 다음 를 선택합니다 **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
+1. 추가 **프로덕션 모든 액세스**.
+1. 클릭 **[!UICONTROL Save]**.
+1. [재생성](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) 콘솔의 액세스 토큰입니다.
+1. 토큰이 다음을 사용하여 유효한 응답을 제공하는지 확인 [Target 연결 API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).

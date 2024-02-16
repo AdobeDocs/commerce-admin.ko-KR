@@ -3,9 +3,9 @@ title: 관련 제품 규칙
 description: 관련 제품 규칙과 이러한 규칙을 사용하여 관련 제품, 상향 판매 및 교차 판매를 고객에게 동적으로 표시하는 방법에 대해 알아봅니다.
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-source-git-commit: 91e6c63f1f6f16b957366f9d5cc651f9eded31c8
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -132,3 +132,12 @@ ht-degree: 0%
 | [!UICONTROL Weighted Random] | 우선 순위가 높은 규칙에 속한 제품이 우선 순위가 낮은 규칙에 속한 제품보다 출현 확률이 높도록 제품을 무작위화한다. 그런 다음 구성 가능한 최대 한도로 제품이 축소되고 우선 순위별로 다시 그룹화됩니다. 이 모드에서는 남은 슬롯이 더 높은 우선 순위의 규칙의 제품으로 채워질 수 있더라도 낮은 우선 순위의 제품이 때때로 나타날 수 있습니다 |
 
 {style="table-layout:auto"}
+
+## Real-Time CDP 대상을 사용하여 관련 제품 규칙 알림
+
+>[!NOTE]
+>
+>이 기능은 Beta 버전입니다. Beta 프로그램에 참여하려면 다음 대상에게 요청을 전송하십시오. [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+
+방법 알아보기 [활성화](../customers/audience-activation.md) Real-Time CDP 대상자를 Adobe Commerce 인스턴스로 가져와서 관련 제품 규칙을 알립니다.

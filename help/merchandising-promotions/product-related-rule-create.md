@@ -3,9 +3,9 @@ title: 관련 제품 규칙 만들기
 description: 관련 제품, 상향 판매 및 교차 판매를 표시하기 위해 트리거할 수 있는 관련 제품 규칙을 만드는 방법을 알아봅니다.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 8f5a5fb6c277086e5f70221e4a6a5ae1b9e1abfe
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,10 @@ ht-degree: 0%
    - 대상 **[!UICONTROL Result Limit]**&#x200B;결과 목록에 표시할 레코드 수를 입력합니다. 최대 숫자는 20입니다.
 
    - 규칙이 특정 [고객 세그먼트](../customers/customer-segments.md), 설정됨 **[!UICONTROL Customer Segments]** 끝 `Specified` 목록에서 고객 세그먼트를 선택합니다.
+
+   - (**베타**) 규칙이 특정 대상에 적용되는 경우 [Real-Time CDP 대상](../customers/audience-activation.md), 설정됨 **[!UICONTROL Real-Time CDP Audience]** 끝 `Specified` 목록에서 Real-Time CDP 대상자를 선택합니다. 이 기능은 Beta 버전입니다. Beta 프로그램에 참여하려면 다음 대상에게 요청을 전송하십시오. [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+     ![관련 제품 규칙 - Real-Time CDP 대상](./assets/rtcdp-related-products.png){width="500"}
 
 1. 왼쪽 패널에서 을 선택합니다 **[!UICONTROL Products to Match]** 에 대해 원하는 대로 조건을 빌드합니다. [카탈로그 가격 규칙](price-rules-catalog.md).
 
