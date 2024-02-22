@@ -5,9 +5,9 @@ breadcrumb-title: 관리 시스템 안내서
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: c7ba2f0e75a730a8beb235b07fced8367bb87462
+source-git-commit: b8a49b1e1525c5af4e159bc2bd899aadc97b78c6
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '173'
 ht-degree: 2%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 2%
       - [다운로드 가능한 제품 가져오기](data-transfer-downloadable-products.md)
       - [계층 가격 데이터 가져오기](data-import-price-tier.md)
    - [예약된 가져오기 및 내보내기](data-scheduled-import-export.md)
+   - [데이터 관리 대시보드](data-dashboard.md)
 - 작업 로그 {#action-logs}
    - [개요](action-log.md)
    - [작업 로그 보고서](action-log-report.md)
