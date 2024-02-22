@@ -3,10 +3,10 @@ title: ID를 사용하여 Commerce 관리자 통합 구성
 description: Adobe Commerce Admin 사용자 계정 로그인을 Adobe ID과 통합하려면 이 선택적 절차를 따르십시오.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 20b2560ce2b8071c740907292544519f8b1c3ddf
+source-git-commit: 0c79449ca05056d7a14242bbc859cb1bd4dc526e
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 1%
+source-wordcount: '755'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,8 @@ Commerce 관리자 사용자는 로그인하려면 Adobe ID으로 계정을 만�
 
 * 에서 Adobe 조직 ID 가져오기 [Adobe Admin Console](https://adminconsole.adobe.com/)
 * 에서 새 프로젝트, IMS API 키 및 암호를 생성합니다. [Adobe Developer 콘솔](https://developer.adobe.com/)
-* 활성화 `AdminAdobeIms` 모듈
-* Adobe Admin Console에서 Adobe Commerce 사용자를 구성합니다.
+* Adobe Admin Console에서 Adobe Commerce 사용자 구성
+* 활성화 `AdminAdobeIms` 모듈.
 
 통합이 성공하려면 모든 Adobe Commerce 사용자에게 동일한 이름과 기본 이메일 주소를 사용하는 관리자 사용자 계정이 있어야 합니다. 일치하는 관리자 사용자 계정이 없는 경우 필요한 권한(일반적으로 관리자 역할이 할당됨)이 있는 사용자는 수동으로 이동해야 합니다 [관리자 계정 만들기](../systems/permissions-users-all.md#create-a-user) (이름 및 이메일이 동일한 경우)
 
@@ -69,7 +69,29 @@ Commerce 관리자 사용자는 로그인하려면 Adobe ID으로 계정을 만�
 1. 클릭 **[!UICONTROL Save configured API]**.
 1. 다음을 복사합니다. [!UICONTROL Client ID] 및 [!UICONTROL Client Secret] 생성된 프로젝트의 키입니다.
 
-### 3단계: AdminAdobeIms 모듈 활성화
+### 3단계: Adobe Admin Console에서 Adobe Commerce 사용자 구성
+
+통합을 활성화하기 전에 각 Adobe Commerce 관리자 계정에 해당 Adobe IMS 계정이 있는지 확인하십시오. Adobe ID을 사용하여 로그인하려면 Adobe Commerce 사용자가 특정 Adobe 조직에 속해 있어야 합니다.
+
+>[!TIP]
+>
+>CSV 파일에서 사용자 정보를 업로드하여 여러 사용자 계정을 만들 수 있습니다. 다음을 참조하십시오 [여러 사용자 관리](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+
+1. 다음에서 [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html), 다음으로 이동 **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
+
+1. 클릭 **[!UICONTROL Add User]**.
+
+1. 사용자의 이메일 주소를 입력합니다.
+
+   해당하는 경우 권장 ID 유형이 자동으로 채워집니다. 이 설정을 조직의 구매 계획을 기반으로 하는 목록의 제품 ID 중 하나로 변경할 수 있습니다.
+
+   한 번에 최대 10명의 사용자를 추가할 수 있습니다. 더 추가하려면 변경 내용을 저장한 후 이전 단계를 반복합니다.
+
+1. 클릭 **[!UICONTROL Save]**.
+
+사용자가 추가되고에 표시됩니다. [!UICONTROL Users] 목록을 표시합니다.
+
+### 4단계: AdminAdobeIms 모듈 활성화
 
 다음 `AdminAdobeIms` 모듈은 Adobe Commerce/Adobe IMS 통합을 담당합니다. 새 프로젝트를 설정하고 조직 ID, 클라이언트 ID 및 클라이언트 암호를 복사한 후 `AdminAdobeIms` 모듈.
 
@@ -83,21 +105,3 @@ Commerce 관리자 사용자는 로그인하려면 Adobe ID으로 계정을 만�
 Adobe Commerce에 활성화 성공 또는 실패 여부를 나타내는 메시지가 표시됩니다.
 
 이 기능을 활성화하면 다른 Adobe Commerce 사용자 계정을 Adobe IMS 계정으로 전환할 수 있습니다. Adobe ID을 사용하여 로그인하려면 Adobe Commerce 사용자가 구성된 Adobe 조직에 속해 있어야 합니다.
-
-### 4단계: Adobe Admin Console에서 Adobe Commerce 사용자 구성
-
-이 기능을 활성화하면 다른 Adobe Commerce 사용자 계정을 Adobe IMS 계정으로 전환할 수 있습니다. Adobe ID을 사용하여 로그인하려면 Adobe Commerce 사용자가 하나 이상의 Adobe 조직에 속해 있어야 합니다.
-
-1. 다음에서 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html), 다음으로 이동 **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
-
-1. 클릭 **[!UICONTROL Add User]**.
-
-1. 사용자의 이메일 주소를 입력합니다.
-
-   해당하는 경우 권장 ID 유형이 자동으로 채워집니다. 이 설정을 조직의 구매 계획을 기반으로 하는 목록의 제품 ID 중 하나로 변경할 수 있습니다.
-
-   한 번에 최대 10명의 사용자를 추가할 수 있습니다. 더 추가하려면 변경 내용을 저장한 후 이전 단계를 반복합니다.
-
-1. 클릭 **[!UICONTROL Save]**.
-
-사용자가 추가되고에 표시됩니다. [!UICONTROL Users] 목록을 표시합니다.
