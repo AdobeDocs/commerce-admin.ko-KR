@@ -2,9 +2,9 @@
 user-guide-title: 고객 관리 안내서
 breadcrumb-title: 고객 관리
 feature: Customers
-source-git-commit: 093df1c806443dee29e604cc4229aaa9304dbec4
+source-git-commit: 142c01f1bc5b1292ee2001c5dd7235e5b592b7cb
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '122'
 ht-degree: 2%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 2%
 + 고객 관리 도구 {#customers-menu}
    + [고객 목록](customers-all.md)
    + [지금 온라인](now-online.md)
+   + [규모에 맞는 개인화](personalize-scale.md)
 + 고객 계정 {#customer-accounts}
    + [계정 범위](customer-account-scope.md)
    + 계정 옵션 {#configure}

@@ -4,9 +4,9 @@ description: 구성을 포함하여 Adobe Commerce 및 Magento Open Source 관�
 seo-title: Adobe Commerce Customer Management Guide
 seo-description: Describes how to use the customer management features in Adobe Commerce or Magento Open Source.
 exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
-source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
+source-git-commit: 3f0d03ce1bfaa445c654949b69765092582d4643
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ ht-degree: 0%
 | [소개](customers-introduction.md) | 상거래 관리에서 고객 관리 기능 사용에 대한 개요입니다. |
 | 고객 관리 도구 | 사용 방법 알아보기 [[!UICONTROL Customers] 격자](customers-all.md) 및 [[!UICONTROL Now Online] 기능](now-online.md) 를 사용하여 스토어 고객을 관리할 수 있습니다. |
 | 고객 계정 | 다음 항목에서 상점 내 등록 고객에게 최적의 경험을 제공하는 방법을 알아보십시오. [로그인](login-landing-page.md) 끝 [암호 저장](password-reset.md), 및 [쇼핑객 지원 제공](login-as-customer.md). |
-| [[!DNL Audience Activation]](audience-activation.md) | 새로운 기능에 대해 알아보기 [!DNL Audience Activation] Adobe Commerce에서 Real-Time CDP 대상을 활성화하여 장바구니에서 고유한 오퍼를 만들 수 있는 확장입니다. |
+| [규모에 맞는 개인화](personalize-scale.md) | 즉각적인 컨텍스트 및 이전에 관찰된 행동을 기반으로 모든 고객 접점에 대한 쇼핑 경험을 개인화하는 데 사용할 수 있는 기능에 대해 알아봅니다. |
+| [[!DNL Audience Activation]](audience-activation.md) | 에 대해 알아보기 [!DNL Audience Activation] Adobe Commerce에서 Real-Time CDP 대상을 활성화하여 장바구니, 동적 블록 및 관련 제품의 고유 오퍼를 알릴 수 있는 확장입니다. |
 | [고객 그룹](customer-groups.md) | 고객 그룹을 사용하여 그룹에 할당된 고객과 해당 그룹과 연관된 세금 분류에 사용할 수 있는 할인을 결정하는 방법을 알아봅니다. |
 | [고객 세그먼트](customer-segments.md) | 다양한 속성을 기반으로 특정 고객에게 콘텐츠와 프로모션을 동적으로 표시하는 데 사용할 수 있는 고객 세그먼트를 정의합니다. |
 
