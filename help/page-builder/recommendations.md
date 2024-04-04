@@ -3,20 +3,20 @@ title: 컨텐츠 추가 - 제품 Recommendations
 description: 에 권장 사항 목록을 추가하는 데 사용되는 Product Recommendations 콘텐츠 유형에 대해 알아봅니다. [!DNL Page Builder] 스테이지.
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 13d00168e1253a7d2698b898caa30d9ca2ad3800
+source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # 컨텐츠 추가 - 제품 Recommendations
 
-사용 _제품 Recommendations_ 기존 활성 콘텐츠를 추가할 콘텐츠 유형 [추천 단위](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) (으)로 [[!DNL Page Builder] 단계](workspace.md#stage) CMS 페이지, 블록 또는 동적 블록의 경우.
+사용 _제품 Recommendations_ 기존 활성 콘텐츠를 추가할 콘텐츠 유형 [추천 단위](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) (으)로 [[!DNL Page Builder] 단계](workspace.md#stage) CMS 페이지, 블록 또는 동적 블록의 경우.
 
 >[!NOTE]
 >
->다음 [!DNL Page Builder] _제품 Recommendations_ 컨텐츠 유형은 Adobe Commerce 2.4.4 이상에서 지원되며 다음에서 사용할 수 있습니다. [제품 Recommendations 메타패키지 버전 3.0.x 이상](https://marketplace.magento.com/magento-product-recommendations.html). 추가하려면 [!DNL Page Builder] 제품 Recommendations 지원, [설치 정보 보기](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html#pbsupport). **이 컨텐츠 유형은 Magento Open Source에 사용할 수 없습니다.**
+>다음 [!DNL Page Builder] _제품 Recommendations_ 컨텐츠 유형은 Adobe Commerce 2.4.4 이상에서 지원되며 다음에서 사용할 수 있습니다. [제품 Recommendations 메타패키지 버전 3.0.x 이상](https://commercemarketplace.adobe.com/magento-product-recommendations.html). 추가하려면 [!DNL Page Builder] 제품 Recommendations 지원, [설치 정보 보기](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **이 컨텐츠 유형은 Magento Open Source에 사용할 수 없습니다.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 기존 추천 단위 추가
 
-1. 이미 가지고 있는지 확인하십시오. [추천 단위를 만들었습니다.](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) 대상: [!DNL Page Builder] 페이지 유형.
+1. 이미 가지고 있는지 확인하십시오. [추천 단위를 만들었습니다.](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) 대상: [!DNL Page Builder] 페이지 유형.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ ht-degree: 0%
 1. 다음 중 하나를 수행합니다.
 
    - 클릭 **[!UICONTROL Edit Product Recommendation]**.
-   - 빈 컨테이너에 마우스를 가져다 대고 도구 상자를 표시한 다음 _설정_ (![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘.
+   - 빈 컨테이너에 마우스를 가져다 대고 도구 상자를 표시한 다음 _설정_ (![설정 아이콘](./assets/pb-icon-settings.png)) 아이콘.
 
    ![제품 추천 편집](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ## 추천 단위 설정 편집
 
-1. 권장 사항 단위 컨테이너에 마우스를 가져다 대고 도구 상자를 표시한 다음 _설정_ (![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘.
+1. 권장 사항 단위 컨테이너에 마우스를 가져다 대고 도구 상자를 표시한 다음 _설정_ (![설정 아이콘](./assets/pb-icon-settings.png)) 아이콘.
 
    ![권장 사항 도구 상자](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
@@ -94,11 +94,11 @@ ht-degree: 0%
 
 ## 추천 단위 복제
 
-1. 권장 사항 단위 컨테이너에 마우스를 가져다 대고 도구 상자를 표시한 다음 _복제_ ( ![인스턴스 복제](./assets/pb-icon-duplicate.png){width="20"} ) 아이콘을 클릭합니다.
+1. 권장 사항 단위 컨테이너에 마우스를 가져다 대고 도구 상자를 표시한 다음 _복제_ (![중복 아이콘](./assets/pb-icon-duplicate.png)) 아이콘을 클릭합니다.
 
    복제본이 원본 바로 아래에 나타납니다.
 
-1. 복제된 추천 단위를 새 위치로 이동하려면 컨테이너를 마우스로 가리킨 다음 _이동_ ( ![이동 아이콘](./assets/pb-icon-move.png){width="20"} ) 아이콘을 클릭합니다.
+1. 복제된 추천 단위를 새 위치로 이동하려면 컨테이너를 마우스로 가리킨 다음 _이동_ (![이동 아이콘](./assets/pb-icon-move.png)) 아이콘을 클릭합니다.
 
 1. 빨간색 지침이 새 위치에 나타날 때까지 추천 단위를 선택하고 드래그합니다.
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 ## 스테이지에서 추천 단위 제거
 
-1. 추천 단위 컨테이너 위로 마우스를 가져간 후 _제거_ ( ![제거 아이콘](./assets/pb-icon-remove.png){width="20"} ) 아이콘을 클릭합니다.
+1. 추천 단위 컨테이너 위로 마우스를 가져간 후 _제거_ ( ![제거 아이콘](./assets/pb-icon-remove.png)) 아이콘을 클릭합니다.
 
 1. 확인을 묻는 메시지가 나타나면 **[!UICONTROL OK]**.
 

@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: db8344ab8890c20bb0b3c7d25da95b6007858d6a
+source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _2023년 5월 30일_
 ![신규](../assets/new.svg) - 을(를) 업데이트함 [Real-Time CDP 대상 대시보드](#real-time-cdp-audiences-dashboard) Adobe Commerce 인스턴스 내에서 활성 대상을 정렬, 검색 및 필터링할 수 있는 기능을 포함합니다.
 
 +++
+
+### 2.1.1
+
+[!BADGE 호환성]{type=Informative tooltip="호환성"}
+
+_2024년 4월 4일_
+
+![신규](../assets/new.svg) - PHP 8.3에 대한 지원을 추가했습니다.
 
 ### 2.2.0-Beta1
 
@@ -295,7 +303,10 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 
 ## Adobe Experience Platform Mobile SDK를 사용하여 대상자 검색
 
-Adobe Experience Platform Mobile SDK를 사용하여 Real-Time CDP 대상을 검색하려면 먼저 다음과 같이 하십시오. [모바일 상거래 사이트에 대한 SDK 설치 및 구성](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+Adobe Experience Platform Mobile SDK를 사용하여 Real-Time CDP 대상을 검색할 수 있습니다.
+
+1. [설치](#install-the-extension) Audience Activation 확장.
+1. [모바일 상거래 사이트에 대한 SDK 설치 및 구성](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
