@@ -3,9 +3,9 @@ title: 개별 고객 계정 만들기
 description: 방문자는 쉽게 개별 고객 계정을 만들어 구매를 관리할 수 있습니다.
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 feature: Customers, Storefront
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 저장소 관리자는 [새 계정 옵션](../customers/account-options-new.md) 등록된 계정이 유효한지 확인하는 데 도움이 되는 확인 이메일을 새로 등록된 고객에게 보냅니다.
 
-{{beta-updates}}
+>[!NOTE]
+>
+>버전 2.4.7부터 고객은 브라우저에 관계없이 이메일 확인 후 계정에 로그인하려면 이메일 및 암호를 다시 입력해야 합니다.
 
 ## 상점 첫 화면에서 계정 만들기
 

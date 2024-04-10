@@ -3,10 +3,10 @@ title: 계층화된 탐색
 description: 계층화된 탐색을 통해 구매자가 범주, 가격 범위 또는 기타 사용 가능한 속성에 따라 제품을 쉽게 찾을 수 있는 방법에 대해 알아봅니다.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 1%
+source-wordcount: '1303'
+ht-degree: 0%
 
 ---
 
@@ -59,6 +59,10 @@ _예: 결과 없이 표시된 필터링 가능한 견본 값_
    ![Storefront 속성](./assets/attribute-storefront-properties.png){width="600" zoomable="yes"}
 
 1. 레이어 탐색에 포함할 각 속성에 대해 이 단계를 반복합니다.
+
+>[!NOTE]
+>
+>다음의 경우 _[!UICONTROL Use in Search]_설정이 로 설정되어 있습니다. `No`,_[!UICONTROL Use in Search Results Layered Navigation]_ 설정이 표시되지 않고 제품 속성이 다음으로 검색에 사용되지 않음 [!UICONTROL Use in Layered Navigation] 값을 설정하는 중입니다.
 
 >[!NOTE]
 >
@@ -124,15 +128,15 @@ _예: 결과 없이 표시된 필터링 가능한 견본 값_
 
 | 단계별 가격 10 | 100씩 단계적으로 가격 |
 |----------|--------|
-| $20.00 - $29.99 (1) | $0.00 - $99.99 (4) |
-| $30.00 - $39.99 (2) | $100 - $199.99 (5) |
-| $70.00 - $79.99 (1) | $400.00 - $499.99 (2) |
-| $100.00 - $109.99 (1) | 700.00달러 이상(1) |
-| $120.00 - $129.99 (2) |   |
-| $150.00 - $159.99 (1) |   |
-| $180.00 - $189.99 (1) |   |
-| $420.00 - $429.99 (1) |   |
-| $440.00 - $449.99 (1) |   |
+| US$20.00 - US$29.99 (1) | US$0.00 - $99.99 (4) |
+| US$30.00 - US$39.99 (2) | 100달러 - 199.99달러(5) |
+| US$70.00 - US$79.99 (1) | US$400.00 - US$499.99 (2) |
+| US$100.00 - US$109.99 (1) | 700.00달러 이상(1) |
+| US$120.00 - US$129.99 (2) |   |
+| US$150.00 - US$159.99 (1) |   |
+| US$180.00 - US$189.99 (1) |   |
+| US$420.00 - US$429.99 (1) |   |
+| US$440.00 - US$449.99 (1) |   |
 | 710.00달러 이상(1) |   |
 
 {style="table-layout:auto"}

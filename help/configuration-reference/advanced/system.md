@@ -4,9 +4,9 @@ description: 에서 구성 설정을 검토합니다. [!UICONTROL Advanced] &gt;
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 3a113d162f13c659ee52ae3cbff2c7a3873d3857
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1664'
 ht-degree: 1%
 
 ---
@@ -178,8 +178,6 @@ ht-degree: 1%
 
 ## [!UICONTROL Full Page Cache]
 
-{{beta2-patches-updates}}
-
 ![고급 구성 - 전체 페이지 캐시](./assets/system-full-page-cache.png)<!-- zoom -->
 
 이러한 설정 변경에 대한 자세한 내용은 [전체 페이지 캐싱](../../systems/cache-management.md#full-page-caching) 다음에서 _관리 시스템 안내서_.
@@ -190,11 +188,12 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | 글로벌 | 전체 페이지 캐시를 관리하는 데 사용할 응용 프로그램을 결정합니다. 옵션: <br/>**`Built-in Application`**- 프로덕션 환경에는 권장되지 않습니다.<br/>**`Varnish Caching`** - 프로덕션 환경에 권장됩니다. |
 | [!UICONTROL TTL for public content] | 글로벌 | 공개 콘텐츠 캐시의 라이프타임(초)을 결정합니다. 기본값: `120` |
+| [!UICONTROL Handles param size] | 글로벌 | 의 최대 수를 지정합니다. [레이아웃 핸들](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) 을(를) 처리하려면 [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP 엔드포인트. 크기를 제한하면 보안과 성능을 향상시킬 수 있습니다. 기본값: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | 글로벌 | 구성 파일을 생성하기 위해 바니시 구성을 제거할 수 있는 IP 주소를 지정합니다. 여러 항목은 쉼표로 구분하십시오. 기본값: `localhost` |
 | [!UICONTROL Backend host] | 글로벌 | 구성 파일을 생성하는 백엔드 호스트를 지정합니다. 기본값: `localhost` |
 | [!UICONTROL Backend port] | 글로벌 | 구성 파일을 생성하는 데 사용되는 백엔드 포트를 지정합니다. 기본값: `8080` |
-| [!UICONTROL Grace period] | 글로벌 | 구성 파일을 생성하기 위한 유예 기간(초)을 지정합니다. 기본값: `300` |
+| [!UICONTROL Grace period] | 글로벌 | 백엔드가 응답하지 않는 경우 Vannish가 오래된 콘텐츠를 제공하는 기간을 결정합니다. 기본값: `300` |
 | **[!UICONTROL Export Configuration]** |  |  |
 | [!UICONTROL Export VCL for Varnish 4] | 글로벌 | 내보내기 `varnish.vcl` 버전 4용 파일입니다. |
 | [!UICONTROL Export VCL for Varnish 5] | 글로벌 | 내보내기 `varnish.vcl` 버전 5용 파일입니다. |

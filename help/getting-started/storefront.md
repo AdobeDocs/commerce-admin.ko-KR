@@ -3,9 +3,9 @@ title: 가게 앞이 뭐죠?
 description: 스토어에서 고객에게 쇼핑 경험을 지원하기 위해 제공할 수 있는 페이지 및 기능 요소에 대해 알아봅니다.
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 3b359ed43e81a2771a372c8e3c7557853b3eecad
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,7 @@ Adobe Commerce 또는 Magento Open Source 구현 내에서 상점 전면은 상�
 1. 배송 정보
 
    체크아웃 프로세스의 첫 단계는 고객이 배송 주소 정보를 완성하고 배송 방법을 선택하는 것입니다. 고객이 계정을 보유한 경우 배송 주소가 자동으로 입력되지만 필요한 경우 변경할 수 있습니다.
+게스트 고객이 이전에 등록한 것으로 인식된 이메일 주소를 입력하면 [!UICONTROL Enable Guest Checkout Login] 저장소 구성의 필드가 (으)로 설정됨 `Yes` (참조 [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) 다음에서 _구성 참조 안내서_). 그러나 이 설정은 인증되지 않은 사용자에게 고객 정보를 노출할 수 있습니다.
 
    ![Storefront 체크아웃 페이지 예](./assets/storefront-checkout-shipping-full.png){width="700"}
 

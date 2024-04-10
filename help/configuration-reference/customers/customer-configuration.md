@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers]  &gt; [!UICONTROL Customer Configuration]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] 상거래 관리자의 페이지입니다.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1890'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ ht-degree: 0%
 
 ## [!UICONTROL Create New Account Options]
 
-{{beta-updates}}
-
 ![새 계정 만들기 옵션](./assets/customer-configuration-create-new-account-options.png)<!-- zoom -->
 
 ![새 계정 옵션 생성(VAT 필드)](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
@@ -55,11 +53,11 @@ ht-degree: 0%
 | [!UICONTROL Default Group] | 스토어 뷰 | 계정이 생성될 때 지정된 초기 고객 그룹을 식별합니다. |
 | [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | 글로벌 | (현재 구성 범위가 로 설정된 경우에만 사용 가능 `Default Group`.) VAT ID를 기반으로 한 고객 그룹의 자동 변경을 기본적으로 사용할지 또는 사용안함으로 설정할지 선택합니다. 이 설정은 제품 수준에서 재정의할 수 있습니다. 설정은 다음과 같은 상황에서 시스템 동작에 영향을 줍니다. <br/> - 고객 기본 주소 또는 전체 기본 주소의 VAT ID입니다. <br/> - 이전에 저장된 주소가 없는 등록된 고객 또는 체크아웃 중에 등록한 고객의 경우 체크아웃 중에 고객 그룹 변경이 에뮬레이트되었습니다. <br/>자동 그룹 변경이 사용으로 설정된 경우 첫 번째 경우 고객 그룹이 자동으로 변경되고 두 번째 경우 일시적으로 에뮬레이트된 고객 그룹이 고객에게 지정됩니다. 자동 그룹 변경이 비활성화된 경우 관리자가 수동으로 변경하지 않는 한 할당된 고객 그룹은 변경되지 않습니다. |
 | [!UICONTROL Show VAT Number on Storefront] | 웹 사이트 | VAT 번호가 스토어의 고객에게 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` <br/> 일반 비B2B 고객 계정에만 영향을 줍니다. 회사 계정에는 별도의 VAT 번호 필드가 있습니다. |
-| [!UICONTROL Default Email Domain] | 스토어 뷰 | 스토어의 기본 이메일 도메인을 식별합니다. For example: `mystore.com` |
+| [!UICONTROL Default Email Domain] | 스토어 뷰 | 스토어의 기본 이메일 도메인을 식별합니다. 예: `mystore.com` |
 | [!UICONTROL Default Welcome Email] | 스토어 뷰 | 기본값으로 사용되는 이메일 템플릿을 식별합니다 _시작_ 이메일. |
 | [!UICONTROL Default Welcome Email Without Password] | 스토어 뷰 | 아직 암호가 할당되지 않은 관리자가 만든 새 고객 계정에 사용되는 대체 시작 이메일 템플릿입니다. |
 | [!UICONTROL Email Sender] | 스토어 뷰 | 환영 전자 메일의 발신자로 표시되는 스토어 연락처를 식별합니다. |
-| [!UICONTROL Require Emails Confirmation] | 웹 사이트 | 계정 만들기 요청에 고객의 확인이 필요한지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Require Emails Confirmation] | 웹 사이트 | 계정 만들기 요청에 고객의 확인이 필요한지 여부를 결정합니다. 옵션: `Yes` / `No`. <br/><br/> _**참고:**_ 버전 2.4.7부터 고객은 브라우저에 관계없이 이메일 확인 후 계정에 로그인하려면 이메일 및 암호를 다시 입력해야 합니다. |
 | [!UICONTROL Confirmation Link Email] | 스토어 뷰 | 확인 이메일에 사용되는 이메일 템플릿을 식별합니다. 기본 템플릿: `New account confirmation key` |
 | [!UICONTROL Welcome Email] | 스토어 뷰 | 계정이 확인된 후 보내는 환영 메시지에 사용되는 이메일 템플릿을 식별합니다. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | 글로벌 | VAT ID 번호를 입력하고 저장하는 데 사용되는 필드가 상점 첫 화면에서 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |

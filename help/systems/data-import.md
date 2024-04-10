@@ -3,9 +3,9 @@ title: 데이터 가져오기
 description: 데이터 가져오기 지침과 데이터 가져오기 작업을 사용하는 방법에 대해 알아봅니다.
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 1c1327dbda76283ae28f761d1e523e049e0e492f
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ ht-degree: 0%
 
 - 모든 행이 잘못된 경우 파일을 가져올 수 없습니다.
 - 존재하지 않는 서비스 데이터나 복잡한 데이터 이름은 가져오기 파일에 지정됩니다(예: `_<non-existing name>` 제목.
+
+Adobe Commerce의 가져오기 프로세스는 BOM(바이트 순서 표시)을 사용하는 UTF-8로 인코딩된 파일을 제대로 인식하지 못할 수 있습니다. BOM이 포함된 파일은 가져오기 프로세스 중에 문제나 실패를 초래할 수 있습니다.
 
 ## 가져오기 작업
 
@@ -139,7 +141,7 @@ ht-degree: 0%
 
 1. 대상 **[!UICONTROL Images File Directory]**&#x200B;에 업로드된 이미지가 저장되는 Commerce 서버의 위치에 대한 상대 경로를 입력합니다.
 
-   For example: `product_images`.
+   예: `product_images`.
 
    >[!NOTE]
    >

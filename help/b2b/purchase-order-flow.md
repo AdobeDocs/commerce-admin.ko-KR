@@ -3,9 +3,9 @@ title: 회사의 구매 주문
 description: 기업이 지출을 추적하고 제어할 수 있도록 하는 구매 주문 워크플로우에 대해 알아봅니다.
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 역할과 순서에 따라 회사 사용자는 몇 가지 승인 규칙이 적용될 수 있습니다. 그리고 온라인이나 오프라인 결제수단을 이용하느냐에 따라 그 흐름이 조금씩 다르다. 회사 관리자는 승인 규칙을 무시하고 자동으로 주문을 생성할 수 있습니다. 승인 프로세스 중 온라인 결제 세부 정보를 저장하는 것은 보안 위험이므로 이러한 세부 정보는 승인 후 추가된 다음 구매 발주가 실제 주문으로 전환됩니다.
 
 ![구매 주문 플로우](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>구매 주문의 하나 이상의 제품이 현재 비활성화되어 있거나 재고가 없는 경우 주문을 할 수 없습니다.
 
 회사에 대한 구매 주문 워크플로우는 다음 몇 가지 방법으로 달라질 수 있습니다.
 

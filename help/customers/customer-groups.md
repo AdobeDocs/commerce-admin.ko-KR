@@ -3,9 +3,9 @@ title: 고객 그룹
 description: 고객 그룹을 사용하여 그룹에 지정된 고객 및 그룹과 연관된 세금 분류에 사용할 수 있는 할인을 결정합니다.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 805ceef0fe67c1ed2a4fbd06e6f02d9ad252ecef
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ ht-degree: 0%
 1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Apply Filters]**.
 
 ## 고객 그룹 만들기
+
+>[!NOTE]
+>
+>모든 웹 사이트에 대한 액세스 권한이 없는 관리자 사용자(&#39;사용자 지정&#39;이 있는 역할이 할당됨) [!UICONTROL Role Scope])은 고객 그룹을 생성, 수정 또는 삭제할 수 없습니다.
 
 1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]**.
 

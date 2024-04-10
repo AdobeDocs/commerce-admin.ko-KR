@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
-description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] 상거래 관리자의 페이지입니다.
+description: 에서 구성 설정 검토 [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] 상거래 관리자의 페이지입니다.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '3812'
+source-wordcount: '3773'
 ht-degree: 0%
 
 ---
@@ -106,28 +106,25 @@ ht-degree: 0%
 
 {{ups-api}}
 
-{{beta2-updates}}
+![UPS REST 계정 설정](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
 ![UPS XML 계정 설정](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS XML Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
+<!-- [UPS REST Account Settings](https://docs.magento.com/user-guide/shipping/ups.html) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Enabled for Checkout] | 웹 사이트 | 체크아웃 중에 배송 방법으로 고객이 UPS를 사용할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Enabled for RMA] | 웹 사이트 | 고객이 RMA의 배송 방법으로 UPS를 사용할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL UPS Type] | 스토어 뷰 | UPS 배송 시스템에 연결하는 데 사용되는 방법을 지정합니다. 옵션: <br/>**`United Parcel Service XML`**- (기본값) 스토어에서 데이터가 포함된 XML 파일을 UPS에 요청으로 보냅니다.<br/>**`United Parcel Service`** - 스토어에서 키-값 쌍을 요청으로 UPS에 보냅니다. <br/><br/>**_참고:_**표준 유나이티드 택배 서비스 유형은 Commerce에서 더 이상 사용되지 않도록 예약되어 있습니다. 새 구성의 경우 [!UICONTROL United Parcel Service XML] 유형. |
 | _[!UICONTROL UPS Account Settings]_ |  |  |
 | [!UICONTROL Live Account] | 스토어 뷰 | United Parcel Service 계정이 라이브임을 지정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Gateway URL] | 웹 사이트 | 동적 배송 속도를 검색하기 위해 UPS 시스템에 연결되는 URL입니다. UPS에서 HTTP에 대한 지원을 중단하고 있습니다. 기본값: `https://www.ups.com/using/services/rave/qcostcgi.cgi` |
 | [!UICONTROL Title] | 스토어 뷰 | 체크아웃 중에 이 배송 방법에 사용되는 이름입니다. |
-| _[!UICONTROL UPS XML Account Settings]_ |  |  |
-| [!UICONTROL Access License Number] | 웹 사이트 | UPS 발송자 계정 액세스 라이선스 번호. |
-| [!UICONTROL Gateway XML URL] | 웹 사이트 | UPS XML 서비스의 경우 XML 데이터를 전송하는 데 필요한 다음 URL을 표시합니다. 게이트웨이 XML URL, 추적 XML URL, 전달 확인 XML URL, 전달 승인 XML URL |
+| _[!UICONTROL UPS REST Account Settings]_ |  |  |
+| [!UICONTROL Gateway URL] | 웹 사이트 | UPS REST 서비스의 경우 에는 JSON 데이터를 전송하는 데 필요한 게이트웨이 URL, 추적 URL, 배송 URL의 URL이 표시됩니다 |
 | [!UICONTROL Mode] | 웹 사이트 | UPS 시스템으로 전송되는 데이터에 사용되는 전송 모드를 결정합니다. 옵션: <br/>**`Development`**- UPS는 상거래 서버에서 받은 데이터가 SSL을 통해 전송되는지 확인하지 않습니다.<br/>**`Live`** - UPS는 상거래 서버에서 받은 데이터가 SSL(Secure Socket Layer)을 통해 전송되는지 확인합니다. |
-| 사용자 ID | 웹 사이트 | UPS 발송자 계정 사용자 ID. |
-| [!UICONTROL Origin of the Shipment] | 웹 사이트 | (UPS XML만 해당) 제품 선적이 시작된 국가 또는 지역. |
-| [!UICONTROL Password] | 스토어 뷰 | UPS 배송자 계정 암호입니다. |
+| 사용자 ID | 웹 사이트 | UPS 발송자 계정 클라이언트 ID. |
+| [!UICONTROL Origin of the Shipment] | 웹 사이트 | (UPS REST만 해당) 제품 선적이 시작된 국가 또는 지역. |
+| [!UICONTROL Password] | 스토어 뷰 | UPS 발송자 계정 클라이언트 암호. |
 
 {style="table-layout:auto"}
 
@@ -138,12 +135,12 @@ ht-degree: 0%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | _[!UICONTROL UPS Negotiated Rate Settings]_ |  |  |
-| [!UICONTROL Enable Negotiated Rates] | 웹 사이트 | (UPS XML만 해당) UPS와의 계약에 따라 특별 요금을 활성화/비활성화합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Negotiated Rates] | 웹 사이트 | (UPS REST만 해당) UPS와의 계약에 따라 특별 요금을 활성화/비활성화합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Packages Request Type] | 웹 사이트 | 여러 패키지가 있는 배송에 대한 중량을 계산하는 방법을 결정합니다. 옵션: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
-| [!UICONTROL Shipper Number] | 웹 사이트 | (UPS XML만 해당) 협상된 비율을 사용하려면 6자의 UPS 배송자 번호가 필요합니다. |
-| [!UICONTROL Container] | 웹 사이트 | 주문 납품을 포장하는 데 사용되는 컨테이너 유형을 설정합니다. 옵션: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
+| [!UICONTROL Shipper Number] | 웹 사이트 | (UPS REST만 해당) 협상된 비율을 사용하려면 6자의 UPS 배송자 번호가 필요합니다. |
+| [!UICONTROL Container] | 웹 사이트 | 납품을 포장하는 데 사용되는 컨테이너 유형을 설정합니다. 옵션: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
 | [!UICONTROL Weight Unit] | 웹 사이트 | 스토어의 제품 중량에 대한 기본 측정 단위를 설정합니다. 다음을 참조하십시오 [차원 가중치](../../stores-purchase/carriers.md#dimensional-weight) 추가 정보. |
-| [!UICONTROL Tracking XML URL] | 웹 사이트 | (UPS XML만 해당) 패키지를 추적하는 데 사용되는 UPS URL입니다. |
+| [!UICONTROL Tracking URL] | 웹 사이트 | (UPS REST만 해당) 패키지를 추적하는 데 사용되는 UPS URL입니다. |
 | [!UICONTROL Destination Type] | 웹 사이트 | 기본 발송 대상 유형을 설정합니다. 옵션: `Business` / `Residential` |
 | [!UICONTROL Maximum Package Weight] | 웹 사이트 | UPS에서 지정한 대로 패키지를 지정할 수 있는 최대 가중치를 설정합니다. 주문한 제품이 최대 패키지 중량을 초과하면 이 배송 옵션을 이용할 수 없습니다. 에 따르면 [UPS.com](https://www.ups.com/us/en/global.page), 패키지는 70kg(150파운드)을 초과할 수 없습니다. 최대 중량을 확인하려면 배송 담당자에게 문의하십시오. |
 | [!UICONTROL Pickup Method] | 웹 사이트 | UPS 픽업 방법을 설정합니다. 옵션: `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter` |
@@ -185,8 +182,6 @@ ht-degree: 0%
 
 ### [!UICONTROL USPS]
 
-{{beta2-updates}}
-
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | 체크아웃이 활성화됨 | 웹 사이트 | 체크아웃 중에 고객이 USPS를 배송 방법으로 사용할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
@@ -208,7 +203,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL USPS packaging Settings]_ |  |  |
 | [!UICONTROL Packages Request Type] | 웹 사이트 | 여러 패키지가 있는 배송에 대한 중량을 계산하는 방법을 결정합니다. 옵션: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
-| [!UICONTROL Container] | 웹 사이트 | 주문 납품을 포장하는 데 사용되는 컨테이너 유형을 설정합니다. 옵션: `Variable` / `Flat Rate Box` / `Flat Rate Envelope` / `Rectangular` / 직사각형이 아닌 |
+| [!UICONTROL Container] | 웹 사이트 | 납품을 포장하는 데 사용되는 컨테이너 유형을 설정합니다. 옵션: `Variable` / `Flat Rate Box` / `Flat Rate Envelope` / `Rectangular` / 직사각형이 아닌 |
 | [!UICONTROL Size] | 웹 사이트 | 크기 옵션을 일반 배송 패키지 크기로 설정합니다. 이 옵션은 배송비 계산에 영향을 줍니다. 옵션: `Regular` / `Large` / `Oversize` |
 | [!UICONTROL Machinable] | 웹 사이트 | 패키지를 컴퓨터에서 처리할 수 있는지 여부를 지정합니다. 이 옵션은 배송비 계산에 영향을 줍니다. |
 | [!UICONTROL Maximum Package Weight] | 웹 사이트 | USPS에서 지정하는 대로 패키지를 지정할 수 있는 최대 가중치를 설정합니다. 주문한 제품이 최대 패키지 중량을 초과하면 이 배송 옵션을 이용할 수 없습니다. |
@@ -258,60 +253,56 @@ ht-degree: 0%
 
 ### [!UICONTROL FedEx]
 
-{{beta2-updates}}
-
-![FedEx 계정 설정](./assets/delivery-methods-fedex-account-settings.png)<!-- zoom -->
-
 <!-- [FedEx Account Settings](https://docs.magento.com/user-guide/shipping/fedex.html) -->
 
+#### FedEx 계정 설정
+
+![FedEx 계정 설정](./assets/delivery-methods-fedex-account-settings.png){width="600" zoomable="yes"}
+
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
-|--- |--- |--- |
-| _[!UICONTROL FedEx Account Settings]_ |  |  |
+|-------|------ |-----------------------------------------------------------------------------|
 | [!UICONTROL Enabled for Checkout] | 웹 사이트 | 고객이 체크아웃 중에 FedEx를 배송 방법으로 사용할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Title] | 스토어 뷰 | 이 배송 옵션의 제목은 장바구니 체크아웃에 표시되는 것과 같습니다. |
 | [!UICONTROL Account ID] | 웹 사이트 | FedEx 계정 ID입니다. |
-| [!UICONTROL Meter Number] | 웹 사이트 | FedEx 미터 번호 |
-| [!UICONTROL Key] | 웹 사이트 | FedEx 계정 키입니다. |
-| [!UICONTROL Password] | 웹 사이트 | FedEx 계정 암호입니다. |
+| [!UICONTROL Api Key] | 웹 사이트 | FedEx 계정 API 키. |
+| [!UICONTROL Secret Key] | 웹 사이트 | FedEx 계정 API 비밀 키. |
 | [!UICONTROL Sandbox Mode] | 웹 사이트 | 테스트 환경에서 FedEx 트랜잭션을 실행하려면 샌드박스 모드 를 로 설정합니다. `Yes`. 옵션: `Yes` / `No`. |
 | [!UICONTROL Web-Services URL] | 웹 사이트 | 필요한 URL은 샌드박스 모드 설정에 따라 다릅니다. 옵션: <br/>**`Production`**- 스토어가 라이브 상태일 때 FedEx 웹 서비스에 액세스하기 위한 URL.<br/>**`Sandbox`** - FedEx 웹 서비스의 테스트 환경에 액세스할 수 있는 URL |
 
 {style="table-layout:auto"}
 
-![FedEx 패키지](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
+#### FedEx 패키징 설정
 
-<!-- [FedEx Packaging](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx 패키지](./assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| _[!UICONTROL FedEx Packaging Settings]_ |  |  |
+| [!UICONTROL Pickup Type] | 웹 사이트 | 목록에서 픽업 방법을 선택합니다. <br/>**`DropOff at Fedex Location`**- (기본값) 현지 FedEx 스테이션에서 출하를 중단함을 나타냅니다.<br/>**`Contact Fedex to Schedule`** - FedEx에 연락하여 픽업을 요청함을 나타냅니다. <br/>**`Use Scheduled Pickup`**- 납품이 정규 스케줄 픽업의 일부로 픽업됨을 나타냅니다.<br/>**`On Call`** - FedEx를 호출하여 픽업이 예약되었음을 나타냅니다. <br/>**`Package Return Program`**- FedEx Ground Package Returns Program에서 선적을 선택함을 나타냅니다.<br/>**`Regular Stop`** - 납품이 일반 픽업 스케줄에 따라 픽업됨을 나타냅니다. <br/>**`Tag`**- 배송 픽업이 Express 태그 또는 Ground Call 태그 픽업 요청에 따라 다르다는 것을 나타냅니다. 이는 반송 레이블에만 적용됩니다. |
 | [!UICONTROL Packages Request Type] | 웹 사이트 | 여러 패키지가 있는 배송에 대한 중량을 계산하는 방법을 결정합니다. 옵션: `Divide to equal weight (one request)` / `Use origin weight (multiple requests)` |
 | [!UICONTROL Packaging] | 웹 사이트 | 목록에서 스토어에서 주문한 제품을 패키지하는 데 일반적으로 사용하는 컨테이너 유형을 선택합니다. |
-| [!UICONTROL Dropoff] | 웹 사이트 | 목록에서 픽업 방법을 선택합니다. <br/>**`Regular Pickup`**- (기본값) 출하량이 많은 경우 일반 픽업을 정렬하는 것이 비용 효율적입니다.<br/>**`Request Courier`** - FedEx 택배사에 전화를 걸어 배송물을 수령하도록 요청해야 합니다. <br/>**`Drop Box`**- 현지 FedEx 드롭오프에서 배송을 드롭해야 합니다.<br/>**`Business Service Center`** - 현지 FedEx 비즈니스 서비스 센터에서 발송을 중단해야 합니다. <br/>**`Station`**- 현지 FedEx 역에서 선적을 취소해야 합니다. |
+| [!UICONTROL Weight Unit] | 웹 사이트 | 패키지 가중치에 사용되는 단위입니다. 옵션: `Pounds` (기본값) / `Kilograms` |
 | [!UICONTROL Maximum Package Weight] | 웹 사이트 | FedEx의 기본값은 150파운드입니다. 지원되는 최대 무게에 대해서는 운송 회사에 문의하십시오. FedEx에 특별한 약정이 없는 한 기본값을 사용하는 것이 좋습니다. |
 
 {style="table-layout:auto"}
 
-![FedEx 취급 수수료](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
+#### FedEx 취급 수수료 설정
 
-<!-- [FedEx Handling Fee](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx 취급 수수료](./assets/delivery-methods-fedex-handling-fee.png){width="600" zoomable="yes"}
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| _[!UICONTROL FedEx Handling Fee Settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | 웹 사이트 | 취급 수수료를 계산하는 데 사용되는 방법을 결정합니다. 옵션: `Fixed Fee` / `Percentage` <br/><br/>**_참고:_**처리 요금은 선택 사항이며 FedEx 배송 비용에 추가되는 추가 비용으로 표시됩니다. |
 | [!UICONTROL Handling Applied] | 웹 사이트 | 취급 수수료를 적용하는 방법을 결정합니다. 옵션: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | 웹 사이트 | 금액을 계산하는 데 사용되는 방법에 따라 처리 수수료로 청구되는 금액을 지정합니다. 요금이 고정 요금을 기준으로 하는 경우 다음과 같이 금액을 소수로 입력합니다. `4.90`. 처리 수수료가 주문의 백분율을 기준으로 하는 경우 백분율로 금액을 입력합니다. 예를 들어 주문의 6%를 부과하려면 값을 다음과 같이 입력합니다. `.06`. |
 
 {style="table-layout:auto"}
 
-![FedEx 게재 방법](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
+#### FedEx 게재 방법
 
-<!-- [FedEx Delivery Methods](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx 게재 방법](./assets/delivery-methods-fedex-delivery-methods.png){width="600" zoomable="yes"}
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| _[!UICONTROL FedEx delivery methods]_ |  |  |
 | [!UICONTROL Residential Delivery] | 웹 사이트 | B2C(Business-to-Consumer) 또는 B2B(Business-to-Business)를 판매하는지 여부에 따라 다음 중 하나로 설정합니다. <br/>**`Yes`**- B2C 게재용<br/>**`No`** - B2B 게재용 |
 | [!UICONTROL Allowed Methods] | 웹 사이트 | 목록에서 지원하는 운송 방법을 선택합니다. 방법은 FedEx 계정, 배송 빈도 및 크기, 해외 배송 허용 여부에 따라 다릅니다. 상인으로서, 당신은 지상 운송만 제공하기로 결정할 수 있습니다. |
 | [!UICONTROL Hub ID] | 웹 사이트 | 와 함께 사용되는 FedEx에서 제공한 ID [!DNL Smart Post] 메서드를 사용합니다. |
@@ -322,13 +313,12 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-![FedEx 적용 국가](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
+#### FedEx 적용 국가 설정
 
-<!-- [FedEx Applicable Countries](https://docs.magento.com/user-guide/shipping/fedex.html) -->
+![FedEx 적용 국가](./assets/delivery-methods-fedex-applicable-countries.png){width="600" zoomable="yes"}
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| _[!UICONTROL FedEx Applicable Countries]_ |  |  |
 | [!UICONTROL Ship to Applicable Countries] | 웹 사이트 | 고객이 FedEx로 배송할 수 있는 국가를 나타냅니다. 옵션: <br/>**`All Allowed Countries`**- 모든 고객의 고객 [국가](../../getting-started/store-details.md#country-options) 스토어 구성에 지정된 은(는) 이 배송 방법을 사용할 수 있습니다.<br/>**`Specific Countries`** - 이 옵션을 선택한 후 [!UICONTROL Ship to Specific Countries] 목록이 나타납니다. 목록에서 이 배송 방법을 사용할 수 있는 각 국가를 선택하십시오. |
 | [!UICONTROL Ship to Specific Countries] | 웹 사이트 | 고객이 FedEx로 배송할 수 있는 특정 국가를 나타냅니다. |
 | [!UICONTROL Debug] | 웹 사이트 | 시스템이 디버깅을 위해 스토어와 FedEx 간의 데이터 전송 로그를 유지하는지 확인합니다. 추적 및 기록해야 하는 문제가 없는 경우 이 옵션을 로 설정해야 합니다. `No`. |
@@ -379,7 +369,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL DHL allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | 웹 사이트 | 목록에서 지원하는 각 운송 방법을 선택합니다. |
-| [!UICONTROL Ready Time] | 웹 사이트 | 주문이 제출된 후 패키지를 픽업할 준비 시간(단위: 시간)을 지정합니다. |
+| [!UICONTROL Ready Time] | 웹 사이트 | 주문이 제출된 후 패키지를 가져올 수 있는 시간(시간)을 지정합니다. |
 | [!UICONTROL Displayed Error Message] | 스토어 뷰 | 이 메시지는 어떤 이유로든 DHL을 사용할 수 없게 되면 나타납니다. 기본 메시지를 사용하거나 직접 메시지를 입력할 수 있습니다. |
 | [!UICONTROL Free Method] |  | 이 배송 방법은 일반 무료 배송 방법과 유사하지만, DHL 배송 옵션 내에 기재되어 있으며 DHL 배송으로 식별됩니다. 목록에서 무료 배송 오퍼에 사용할 배송 방법을 선택합니다. |
 | [!UICONTROL Free Shipping with Minimum Order Amount] | 웹 사이트 | 다음 중 하나로 설정합니다. <br/>**`Enable`**- 최소 금액을 충족하는 주문에 대해 무료 DHL 배송을 허용합니다.<br/>**`Disable`** - 최소 주문과 함께 무료 DHL 배송을 제공하지 않습니다. |

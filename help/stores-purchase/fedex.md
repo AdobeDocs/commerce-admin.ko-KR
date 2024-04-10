@@ -3,9 +3,9 @@ title: 페덱스
 description: FedEx를 상점의 배송 운송업체로 설정하는 방법에 대해 알아보십시오.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ A [FedEx 머천트 계정][1] 및 FedEx 웹 서비스 프로덕션 액세스에 
 
 ## 2단계: 스토어에 대해 FedEx 활성화
 
-{{beta2-updates}}
-
 1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. 왼쪽 패널에서 를 확장합니다. **[!UICONTROL Sales]** 및 선택 **[!UICONTROL Delivery Methods]**.
@@ -45,9 +43,8 @@ A [FedEx 머천트 계정][1] 및 FedEx 웹 서비스 프로덕션 액세스에 
 1. FedEx 계정에서 다음 정보를 입력합니다.
 
    - **[!UICONTROL Account ID]**
-   - **[!UICONTROL Meter Number]**
-   - **[!UICONTROL Key]**
-   - **[!UICONTROL Password]**
+   - **[!UICONTROL Api Key]**
+   - **[!UICONTROL Secret Key]**
 
 1. FedEx 샌드박스를 설정하고 테스트 환경에서 작업하려는 경우 을 설정합니다. **[!UICONTROL Sandbox Mode]** 끝 `Yes`.
 
@@ -59,24 +56,22 @@ A [FedEx 머천트 계정][1] 및 FedEx 웹 서비스 프로덕션 액세스에 
 
 ## 3단계: 패키지 설명 및 취급 수수료
 
-1. 다음 항목 선택 **[!UICONTROL Packages Request Type]** 주문을 복수 납품으로 분할할 때 사용자의 환경설정을 가장 잘 설명하는 옵션:
+1. 설정 **[!UICONTROL Pickup Type]** 배송에 사용되는 픽업 방법에 대해 설명합니다.
+
+   - `DropOff at Fedex Location` - (기본값) 현지 FedEx 스테이션에서 출하를 중단함을 나타냅니다.
+   - `Contact Fedex to Schedule` - FedEx에 연락하여 픽업을 요청함을 나타냅니다.
+   - `Use Scheduled Pickup` - 납품이 정규 스케줄 픽업의 일부로 픽업됨을 나타냅니다.
+   - `On Call` - FedEx를 호출하여 픽업이 예약되었음을 나타냅니다.
+   - `Package Return Program` - FedEx Ground Package Returns Program에서 선적을 선택함을 나타냅니다.
+   - `Regular Stop` - 납품이 일반 픽업 스케줄에 따라 픽업됨을 나타냅니다.
+   - `Tag` - 배송 픽업이 Express 태그 또는 Ground Call 태그 픽업 요청에 따라 다르다는 것을 나타냅니다. 이는 반송 레이블에만 적용됩니다.
+
+1. 대상 **[!UICONTROL Packages Request Type]**&#x200B;을 클릭하고 주문을 여러 선적으로 분할할 때 기본 설정을 가장 잘 설명하는 요청 유형을 선택합니다.
 
    - `Divide to equal weight (one request)`
    - `Use origin weight (few requests)`
 
-1. 유형 선택 **[!UICONTROL Packaging]** 일반적으로 스토어에서 제품을 배송하는 데 사용됩니다.
-
-1. 설정 **[!UICONTROL Dropoff]** 게재에 사용되는 픽업 방법.
-
-   - `Regular Pickup` - 배송 물량이 많다면, 일반 픽업을 위해 FedEx와 함께 준비하는 것이 비용 효과적일 수 있습니다.
-
-   - `Request Courier` - FedEx 택배사에 전화를 걸어 배송물을 수령하도록 요청해야 합니다.
-
-   - `Drop Box` - 가까운 FedEx 드롭오프에서 발송을 드롭해야 합니다.
-
-   - `Business Service Center` - 현지 FedEx 비즈니스 서비스 센터에서 발송을 중단해야 합니다.
-
-   - `Station` - 현지 FedEx 역에서 선적을 취소해야 합니다.
+1. 대상 **[!UICONTROL Packaging]**&#x200B;에서 일반적으로 스토어에서 제품을 배송하는 데 사용하는 FedEx 패키지 유형을 선택합니다.
 
 1. 설정 **[!UICONTROL Weight Unit]** 로케일에서 사용되는 측정 단위입니다.
 

@@ -3,9 +3,9 @@ title: Storefront 주문 관리
 description: 고객이 Commerce 상점 첫 화면에서 주문 내역을 보고 관리하는 방법을 알아봅니다.
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c13a4b730ed70ed4829cc20b13c2723137dcbb3a
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -124,3 +124,51 @@ ht-degree: 0%
 >[!TIP]
 >
 >장바구니가 비어 있지 않고 고객이 클릭하는 경우 **[!UICONTROL Reorder]** (다음에서) [!UICONTROL My Orders] 또는 [!UICONTROL Order View] page), 기존 제품은 추가된 재주문 제품과 함께 장바구니에 남아 있습니다.
+
+## 주문 취소
+
+다음과 같은 경우 고객이 취소 를 사용할 수 있습니다. [_취소 허용_](cancel-allow.md) 구성 옵션이 활성화되어 있습니다.
+
+고객은 다음 세 페이지에서 특정 주문에 대한 취소 기능을 시작할 수 있습니다.
+
+- 내 주문 페이지
+- 주문 보기 페이지
+- 내 계정 페이지
+
+다음 _[!UICONTROL Cancel Order]_링크는_[!UICONTROL Reorder]_ 링크를 클릭합니다. 주문을 취소할 수 없는 경우 링크가 표시되지 않습니다.
+
+![내 주문 페이지에서 링크 취소](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
+
+취소를 수행하려면 고객이 다음을 수행합니다.
+
+1. 클릭수 **[!UICONTROL Cancel Order]**
+
+1. 취소 이유 제공
+
+   ![주문 이유 취소](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
+
+   다음에서 취소 이유를 사용자 지정할 수 있습니다. [_취소 허용_](cancel-allow.md) 페이지를 가리키도록 업데이트하는 중입니다.
+
+1. 클릭수 **[!UICONTROL Confirm]**
+
+   ![내 주문 페이지에서 취소](./assets/cancel-order.png){width="700" zoomable="yes"}
+
+   취소 후 포함된 주문 수 _[!UICONTROL Pending]_상태, 다음으로 변경_[!UICONTROL Canceled]_ 상태, 포함된 주문 _[!UICONTROL Processing]_상태, 다음으로 변경_[!UICONTROL Closed]_ 상태 및 환불이 처리됩니다.
+
+   취소가 완료되면 고객에게 이메일이 전송됩니다.
+
+   ![주문 이메일 취소](./assets/cancel-order-email.png){width="700" zoomable="yes"}
+
+   고객의 주문 내역에 취소 정보가 추가됩니다. 주문 메모 및 설명 기록 탭에 나타납니다.
+
+   ![주문 메모 취소](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
+
+   ![댓글 내역 취소](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
+
+   어떤 이유로 주문이 취소할 수 없는 상태로 변경되고 고객이 페이지를 새로 고치지 않은 경우 주문을 취소할 수 있는 링크가 여전히 나타납니다. 그러나 취소하려고 하면 오류 메시지가 표시됩니다.
+
+   ![주문 취소 오류 메시지](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
+
+   페이지를 새로 고치면 주문이 이미 완료된 것을 알 수 있으므로 취소가 작동하지 않았습니다.
+
+   ![새로 고침 후 주문 취소](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}

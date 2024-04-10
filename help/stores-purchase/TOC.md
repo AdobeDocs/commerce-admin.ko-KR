@@ -5,9 +5,9 @@ breadcrumb-title: 저장 및 구매 경험
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 3eb659825e6bc5db1828c2362ee68893b4d1405b
+source-git-commit: 3dad65e528716a459839ee7995b38850bf6feca8
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '314'
 ht-degree: 3%
 
 ---
@@ -71,6 +71,7 @@ ht-degree: 3%
    + [제품 비교](product-compare.md)
    + [최근에 본 항목 또는 비교한 항목](products-viewed-compared.md)
    + [재주문 허용](reorders-allow.md)
+   + [주문 취소 허용](cancel-allow.md)
 + 결제 {#payments}
    + [개요](payments.md)
    + PayPal 결제 솔루션 {#paypal}

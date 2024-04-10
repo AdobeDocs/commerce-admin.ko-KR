@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL General] &gt; [!UICONTROL General] 상거래 관리자의 페이지입니다.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,6 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Enable Single-Store Mode] | 글로벌 | 단일 스토어 설치에 대해 활성화된 경우 는 구성 범위 상자 및 관련 필드 레이블 옵션을 숨깁니다. `Yes` / `No` <br/>**_참고:_**둘 이상의 보기가 있는 저장소의 경우 단일 스토어 모드가 무시됩니다. |
+| [!UICONTROL Enable Single-Store Mode] | 글로벌 | 단일 스토어 설치에 대해 활성화된 경우 는 구성 범위 상자 및 관련 필드 레이블 옵션을 숨깁니다. `Yes` / `No` <br/>**_참고:_**둘 이상의 보기가 있는 저장소의 경우 단일 스토어 모드가 무시됩니다.<br/> 단일 스토어 모드를 활성화하면 모든 카탈로그 및 제품 스토어 특정 데이터가 기본 스토어 보기에서 모든 스토어 보기 범위로 복사됩니다. 스토어에 하나의 스토어 뷰만 있는 경우 카탈로그 및 제품 데이터만 복사됩니다. 저장소에 비활성화된 저장소와 활성화된 저장소가 한 개 있는 경우 카탈로그 및 제품 데이터가 복사되지 않습니다.<br/> 단일 저장소 모드를 활성화하면 컨텐츠별 데이터에 대한 storeview별 구성 설정이 무시됩니다. 대신 전역 수준 범위에 정의된 구성 설정을 사용하여 관리 UI와 상점 간 일관성을 보장합니다. |
 
 {style="table-layout:auto"}

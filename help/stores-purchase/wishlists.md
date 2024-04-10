@@ -3,9 +3,9 @@ title: 위시리스트
 description: 위시리스트와 쇼핑 경험에 추가하고 더 많은 판매를 촉진하는 방법에 대해 알아보십시오.
 exl-id: 42c73566-0e32-4639-9fa2-d504fa161ebc
 feature: Customers, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 9fd909c5ae6d8641bf402456d94facda4a33722d
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![Example storefront - 내 위시리스트](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
-여러 옵션이 있는 제품을 위시리스트에 추가하면 고객이 선택한 모든 옵션이 위시리스트 항목 설명에 포함됩니다. 예를 들어 고객이 세 가지 색상으로 동일한 신발 쌍을 추가하면 각 쌍이 별도의 위시리스트 항목으로 나타납니다. 그러나 고객이 동일한 제품을 위시리스트에 여러 번 추가하면 제품은 한 번만 표시되지만 제품이 추가된 횟수를 반영하는 업데이트된 수량이 표시됩니다.
+여러 옵션이 있는 제품을 위시리스트에 추가하면 고객이 선택한 모든 옵션이 위시리스트 항목 설명에 포함됩니다. 예를 들어 고객이 세 가지 색상으로 동일한 신발 쌍을 추가하면 각 쌍이 별도의 위시리스트 항목으로 나타납니다. 그러나 고객이 동일한 제품을 위시리스트에 여러 번 추가하면 제품은 한 번만 표시되지만 제품 페이지에서 수량이 선택되어 있습니다.
 
 ## 관리자의 위시리스트 지원
 

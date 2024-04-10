@@ -3,10 +3,10 @@ title: 장바구니 관리
 description: 관리자로부터 직접 고객 장바구니를 지원하는 방법을 알아봅니다.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 1%
+source-wordcount: '658'
+ht-degree: 0%
 
 ---
 
@@ -159,7 +159,7 @@ ht-degree: 1%
 
 1. 클릭 **[!UICONTROL Add selections to my cart]**.
 
-1. 가능한 경우 쿠폰 코드 적용:
+1. 가능한 경우 하나 이상의 쿠폰 코드를 적용합니다.
 
    - 대상 **[!UICONTROL Apply Coupon Code]**&#x200B;올바른 쿠폰 코드를 입력합니다.
 

@@ -3,9 +3,9 @@ title: 카탈로그 검색 구성
 description: 스토어에 대한 카탈로그 검색을 구성하는 방법에 대해 알아봅니다.
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >(으)로 인해 [!DNL Elasticsearch 7] 2023년 8월 지원 종료 발표에서는 모든 Adobe Commerce 고객이 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것이 좋습니다. 제품 업그레이드 중 검색 엔진 마이그레이션에 대한 자세한 내용은 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) 다음에서 _업그레이드 안내서_.
-
-{{beta2-updates}}
 
 ### 1단계: 일반 검색 옵션 구성
 

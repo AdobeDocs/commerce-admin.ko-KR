@@ -3,7 +3,7 @@ title: 미국 우편 서비스(USPS)
 description: USPS를 상점의 배송 운송업체로 설정하는 방법에 대해 알아봅니다.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%
@@ -21,8 +21,6 @@ ht-degree: 0%
 을 열 수도 있습니다. [USPS 웹 도구][1] 계정입니다. 등록 프로세스를 완료하면 사용자 ID와 USPS 테스트 서버에 대한 URL을 받게 됩니다. USPS 웹 도구에 대한 자세한 내용은 [기술 설명서][2].
 
 ## 2단계: 스토어에 대해 USPS 활성화
-
-{{beta2-updates}}
 
 1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

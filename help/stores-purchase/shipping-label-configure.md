@@ -3,9 +3,9 @@ title: 배송 레이블 구성
 description: 배송 레이블을 생성하기 위한 스토어를 구성하는 방법을 알아봅니다.
 exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
 feature: Shipping/Delivery, Orders
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -58,8 +58,6 @@ USPS와 FedEx로 국제적으로 출하되는 모든 제품에 제조국이 필�
 1. 클릭 **[!UICONTROL Save]**.
 
 ## 2단계 저장소 정보 확인
-
-{{beta2-updates}}
 
 1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

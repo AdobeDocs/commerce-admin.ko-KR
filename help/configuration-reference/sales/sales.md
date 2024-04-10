@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Sales] 상거래 관리자의 페이지입니다.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1168'
 ht-degree: 1%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 1%
 # [!UICONTROL Sales] > [!UICONTROL Sales]
 
 {{config}}
-
-{{beta-updates}}
 
 ## [!UICONTROL General]
 
@@ -157,6 +155,18 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Multicoupon Settings]
+
+{{ee-feature}}
+
+![멀티채널 설정](./assets/sales-multicoupon-settings.png)<!-- zoom -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Maximum number of coupons per order] | 웹 사이트 | 주문당 허용되는 최대 쿠폰 수를 결정합니다. |
+
+{style="table-layout:auto"}
+
 ## [!UICONTROL Order by SKU Settings]
 
 {{ee-feature}}
@@ -184,6 +194,19 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 스토어 뷰 | Braintree과 같은 결제 방법에 자격 증명 모음이 활성화된 경우 스토어 보기에 대해 즉시 구매를 활성화합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Button Text] | 스토어 뷰 | 즉시 구매 단추에 나타나는 텍스트를 지정합니다. 기본 텍스트는 입니다. `Instant Purchase`. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Rate Limiting]
+
+![속도 제한](assets/sales-rate-limiting.png)<!-- zoom -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--------------------------------------------------------|--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable rate limiting for placing orders] | 스토어 뷰 | 스토어 보기에서 주문을 하는 데 속도 제한이 사용되는지 여부를 결정합니다(기본값은 임). `No`). 옵션: `Yes` / `No`. |
+| [!UICONTROL Requests limit per authenticated customer] | 스토어 뷰 | 인증된 고객이 해당 기간 동안 수행할 수 있는 구매 요청 수입니다. 기본 제한은 입니다. `10`. |
+| [!UICONTROL Requests limit per guest] | 스토어 뷰 | 인증되지 않은 고객이 지정된 기간 동안 수행할 수 있는 구매 요청 수입니다. 기본값은 입니다. `50`. |
+| [!UICONTROL Counter resets in a ...] | 스토어 뷰 | 인증된/인증되지 않은 고객이 특정 수의 구매 요청을 할 수 있는 기간(기본값: `Minute`). 옵션: `Minute` / `Hour` /`Day` |
 
 {style="table-layout:auto"}
 

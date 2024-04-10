@@ -3,9 +3,9 @@ title: 제품에 속성 추가
 description: 카탈로그의 제품에 속성을 추가하는 방법을 알아봅니다.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,17 @@ ht-degree: 0%
 
    - `Filterable (no results)` - 계층화된 탐색에는 제품 일치가 0인 제품을 포함하여 사용 가능한 모든 속성 값과 해당 제품 수에 대한 필터가 포함됩니다. 속성 값이 견본이면 값이 필터로 표시되지만 무시됩니다.
 
-1. 검색 결과 페이지의 레이어 탐색에서 를 사용하려면 다음을 설정합니다. **[!UICONTROL Use in Search Results Navigation]** 끝 `Yes` 숫자를 입력합니다. **[!UICONTROL Position]** 필드.
+   >[!NOTE]
+   >
+   >다음의 경우 _[!UICONTROL Use in Search]_설정이 로 설정되어 있습니다. `No`,_[!UICONTROL Use in Search Results Layered Navigation]_ 설정이 표시되지 않고 제품 속성이 다음으로 검색에 사용되지 않음 [!UICONTROL Use in Layered Navigation] 값을 설정하는 중입니다.
+
+1. 검색 결과 페이지의 레이어 탐색에서 속성을 사용하려면 을 설정합니다 **[!UICONTROL Use in Search Results Layered Navigation]** 끝 `Yes` 숫자를 입력합니다. **[!UICONTROL Position]** 필드.
 
    위치 번호는 계층화된 탐색 블록 내에서 속성의 상대적 위치를 나타낸다.
+
+   >[!NOTE]
+   >
+   >다음 _[!UICONTROL Position]_필드는 기본적으로 흐리게 표시되며, 이 설정을 수정하려면 먼저 속성을 저장해야 합니다.
 
 1. 가격 규칙에서 속성을 사용하려면 을 설정합니다. **[!UICONTROL Use for Promo Rule Conditions]** 끝 `Yes`.
 

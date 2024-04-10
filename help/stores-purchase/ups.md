@@ -3,9 +3,9 @@ title: UPS(United Parcel Service)
 description: UPS를 상점의 배송 운송업체로 설정하는 방법에 대해 알아보십시오.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,6 @@ United Parcel Service(UPS)는 220개 이상의 국가에 육로 및 항공으로
 
 ## 2단계: 스토어에 대해 UPS 활성화
 
-{{beta2-updates}}
-
 1. 다음에서 _관리 사이드바_&#x200B;로 이동합니다. **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**, 선택 **[!UICONTROL Delivery Methods]**.
@@ -36,34 +34,33 @@ United Parcel Service(UPS)는 220개 이상의 국가에 육로 및 항공으로
 
 1. 설정 **[!UICONTROL Enabled for Checkout]** 끝 `Yes`.
 
-1. UPS XML 계정(기본값)의 경우 다음을 설정합니다. **[!UICONTROL UPS Type]** 끝 `United Parcel Service XML` 다음을 수행합니다.
+1. UPS REST 계정(기본값)의 경우 다음을 수행합니다.
 
-   - UPS 자격 증명을 입력하십시오. **[!UICONTROL User ID]**, **[!UICONTROL Access License Number]** (16자리 UPS 계정 `Access Key`), 및 **[!UICONTROL Password]**
+   - UPS 자격 증명: UPS ClientID 를 입력합니다. **[!UICONTROL User ID]**, UPS 클라이언트 암호 **[!UICONTROL Password]**
 
    - 설정 **[!UICONTROL Mode]** 끝 `Live` 보안 연결을 통해 UPS 배송 시스템으로 데이터를 전송합니다. (개발 모드에서는 보안 연결을 통해 데이터를 전송하지 않습니다.)
 
-   - 확인 **[!UICONTROL Gateway XML URL]** XML 파일로 요청을 보내는 데 필요합니다.
+   - 확인 **[!UICONTROL Gateway URL]** 요청을 보내는 데 필요합니다. 테스트 모드에는 샌드박스 URL을 사용하고 라이브 요청에는 프로덕션 URL을 사용합니다.
+
+   - 확인 **[!UICONTROL Tracking URL]** 추적 정보를 가져오는 데 필요합니다. 테스트 모드에는 샌드박스 URL을 사용하고 라이브 요청에는 프로덕션 URL을 사용합니다.
 
    - 설정 **[!UICONTROL Origin of the Shipment]** 배송이 시작되는 지역으로 이동합니다.
 
    - UPS와 특별 요금이 있는 경우 다음을 설정하십시오. **[!UICONTROL Enable Negotiated Rates]** 끝 `Yes` 6자리 입력 **[!UICONTROL Shipper Number]** UPS에서 귀하에게 할당했습니다.
-
-1. 표준 UPS 계정의 경우 다음을 설정합니다 **[!UICONTROL UPS Type]** 끝 `United Parcel Service` 다음을 수행합니다.
-
-   >[!NOTE]
-   >
-   >표준 유나이티드 택배 서비스 유형은 사용이 중단될 예정입니다. 새 구성의 경우 기본값을 사용해야 합니다.  `United Parcel Service XML` 유형. 을 생성하려면 XML 유형도 필요합니다. [배송 레이블](shipping-labels.md).
 
    - 설정 **[!UICONTROL Live Account]** 다음 중 하나를 수행합니다.
 
       - `Yes` - 프로덕션 모드에서 UPS를 실행하고 고객에게 배송 방법으로 UPS를 제공합니다.
       - `No` - 테스트 모드에서 UPS를 실행합니다.
 
-   - 다음에서 **[!UICONTROL Gateway URL]** 필드에 UPS 배송 요율을 계산하는 데 사용되는 URL을 입력합니다.
+   >[!NOTE]
+   >
+   >표준 유나이티드 택배 서비스 유형은 사용이 중단될 예정입니다. 새 구성의 경우 기본값을 사용합니다. `United Parcel Service REST` 유형. 를 생성하려면 REST 유형도 필요합니다. [배송 레이블](shipping-labels.md).<br/>
+   >2.4.7 릴리스의 경우, **[!UICONTROL UPS Type]**  은(는) 다음 이유로 제거됩니다. `UPS` 및 `UPS XML` 유형이 사용 중단에 예약되어 있고 `UPS REST` 는 기본값입니다. 기본 Adobe Commerce 통합에서 사용하는 통합 택배 서비스(UPS) API는 현재 OAuth 2.0 보안 모델을 지원하지 않으므로 일시적으로 더 이상 사용되지 않습니다.
 
-     >[!IMPORTANT]
-     >
-     >UPS에서 현재 기본값(시스템 값)에 사용되는 HTTP에 대한 지원을 중단하고 있습니다. 지우기 **[!UICONTROL Use system value]** 확인란을 선택하고 HTTPS를 사용하도록 URL을 수정합니다. 예: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
+   >[!IMPORTANT]
+   >
+   >UPS에서 현재 기본값(시스템 값)에 사용되는 HTTP에 대한 지원을 중단하고 있습니다. 지우기 **[!UICONTROL Use system value]** 확인란을 선택하고 HTTPS를 사용하도록 URL을 수정합니다. 예: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
 
 1. 대상 **[!UICONTROL Title]**&#x200B;을 클릭하고 체크아웃 중에 표시할 배송 옵션의 이름을 입력합니다.
 

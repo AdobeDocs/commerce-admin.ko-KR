@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Br
 description: 다음에 대한 구성 설정을 검토합니다. [!UICONTROL Braintree] 다음에 대한 섹션 [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] 상거래 관리자의 페이지입니다.
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: 5488a0a991f497059ea39fbbc8a08fd8f546e1ac
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2603'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,6 @@ ht-degree: 0%
 >Commerce 2.4.0으로 업그레이드하고 이전 2.3.x 버전에서 권장 Commerce Marketplace 확장 기능을 사용하지 않는 경우 다중 주소 기능이 2.4.0 버전의 Braintree에서 작동하지 않습니다. 쇼핑객이 선택할 때 _여러 주소에 게재_ 에서 Braintree 결제 방법이 나타나지 않습니다. 이전에 2.3.x에 대해 권장된 Commerce Marketplace 확장에 이 다중 주소 문제가 있습니다.
 
 {{config}}
-
-{{beta2-updates}}
 
 ## [!UICONTROL Basic Braintree Settings]
 
@@ -54,6 +52,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Vault Title] | 웹 사이트 | 고객 카드 정보가 저장된 자격 증명 모음을 식별하는 참조용 설명 제목입니다. |
 | [!UICONTROL Merchant Account ID] | 웹 사이트 | 이 웹 사이트의 Braintree 거래와 연결할 판매자 계정 ID입니다. 비워 두면 Braintree 계정의 기본 머천트 계정이 사용됩니다. |
+| [!UICONTROL Enable Checkout Express Payments] | 웹 사이트 | PayPal, PayLater, Apple Pay 및 Google Pay를 포함하여 체크아웃 프로세스가 시작될 때 빠른 결제 옵션을 통해 체크아웃 경험을 제공합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Skip Fraud Checks on Admin Orders] | 웹 사이트 | 트랜잭션을 평가의 일부로 보낼 수 없습니다. [!DNL Advanced Fraud Tools] (으)로 설정된 경우에만 관리자를 통해 주문한 주문에 대해 확인 `Yes`.<br/>옵션: `Yes` / `No` |
 | [!UICONTROL Bypass Fraud Protection Threshold] | 웹 사이트 | `Advanced Fraud Protection` 임계값이 충족되거나 초과되면 검사를 건너뜁니다. 이 필드를 비워 두면 이 옵션이 비활성화됩니다. |
 | [!UICONTROL Debug] | 웹 사이트 | Braintree 시스템과 저장소 간의 통신이 로그 파일에 기록되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
@@ -68,7 +67,7 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Enable Webhook] | 웹 사이트 | 사기 방지를 위한 웹후크 기능, ACH 결제 및 로컬 결제 방법을 활성화합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Webhook] | 웹 사이트 | 사기 보호, ACH 결제, 로컬 결제 방법 및 분쟁에 대해 웹후크 기능을 사용할 수 있도록 합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Fraud Protection URL] | 웹 사이트 | 이 URL을 Braintree 계정에 다음으로 추가 [!UICONTROL Webhook Destination URL]. **이 URL은 안전하고 공개적으로 액세스할 수 있어야 합니다.** |
 | [!UICONTROL Fraud Protection Approve Order Status] | 웹 사이트 | Braintree이 사기 방지를 승인하면 선택한 주문 상태가 상거래 주문에 지정됩니다. 이 상태는 ACH 결제 방법이 사용되는 주문의 상태와 다음으로 이동하는 시기를 업데이트하는 데 사용됩니다. `SETTLED` Braintree. |
 | [!UICONTROL Fraud Protection Reject Order Status] | 웹 사이트 | Braintree이 사기 방지를 거부하면 선택한 주문 상태가 상거래 주문에 지정됩니다. 이 상태는 ACH 결제 방법이 사용되는 주문의 상태 및 시기를 업데이트하는 데 사용됩니다. `SETTLEMENT` 은(는) `DECLINED` Braintree. |
@@ -94,6 +93,7 @@ ht-degree: 0%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Enabled ACH Direct Debit] | 웹 사이트 | 다음 여부를 결정합니다. [!DNL ACH Direct Debit] Braintree을 통한 결제 방법으로 포함됩니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Vault for ACH Direct Debit] | 웹 사이트 | 고객은 나중에 사용하기 위해 일회용 ACH 직불 결제 방법을 저장/저장할 수 있습니다. 결제 세부 사항이 저장되면 고객은 데이터를 다시 입력하거나 결제 정보를 다시 인증하지 않고도 ACH 직불 결제 방법을 사용할 수 있습니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Sort Order] | 웹 사이트 | 다음 순서를 결정합니다. [!DNL ACH Direct Debit] 체크아웃하는 동안 다른 결제 방법과 함께 나열됩니다. |
 
 {style="table-layout:auto"}
@@ -105,6 +105,7 @@ ht-degree: 0%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Enable ApplePay through Braintree] | 웹 사이트 | Apple 페이가 Braintree을 통한 결제 수단으로 포함되는지 여부를 결정합니다. 옵션: `Yes` / `No` <br/><br/> 도메인은 다음과 같아야 합니다. [Braintree 계정에서 먼저 확인됨](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3). |
+| [!UICONTROL Enable Vault for ApplePay] | 웹 사이트 | 고객은 향후 사용을 위해 Apple 결제 방법을 저장/저장할 수 있습니다. 결제 세부 사항이 저장되면 고객은 데이터를 다시 입력하거나 결제 정보를 다시 인증하지 않고도 Apple 페이를 사용할 수 있습니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Payment Action] | 웹 사이트 | 결제가 처리될 때 Braintree이 취하는 조치를 결정합니다. 옵션: <br/>**`Authorize`**- 고객 카드의 자금이 승인되지만 고객 계정에서 이체되지 않습니다. 주문이 스토어 관리자에서 생성됩니다. 나중에 판매를 캡처하고 송장을 생성할 수 있습니다.<br/>**`Intent Sale`** - 고객 카드의 자금은 Braintree이 승인하고 캡처하며 매장 관리자에서 주문 및 청구서가 생성됩니다. **_참고:_** 이 은(는) `Authorize and Capture` 2.3.x 및 이전 릴리스에서. |
 | [!UICONTROL Merchant Name] | 스토어 뷰 | ApplePay 팝업에 고객에게 표시되는 레이블입니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 시 Apple Pay가 다른 결제 방법과 함께 나열되는 순서를 결정합니다. |
@@ -119,6 +120,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled Local Payment Methods] | 웹 사이트 | Braintree을 통해 로컬 결제 방법을 결제 방법으로 포함할지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Title] | 웹 사이트 | 체크아웃 결제 방법 섹션에 표시되는 레이블입니다. 기본값: `Local Payments` |
+| [!UICONTROL Fallback Button Text] | 웹 사이트 | 고객을 웹 사이트로 다시 안내하는 대체 Braintree 페이지에 나타나는 단추에 사용할 텍스트를 입력합니다. 기본값: `Complete Checkout` |
+| [!UICONTROL Redirect on Fail] | 웹 사이트 | 로컬 결제 방법 트랜잭션이 취소되거나 실패하거나 오류가 발생할 때 고객을 리디렉션해야 하는 URL을 지정합니다. 체크아웃 결제 페이지여야 합니다(예: `https://www.domain.com/checkout#payment`). |
 | [!UICONTROL Allowed Payment Method] | 웹 사이트 | 사용할 로컬 결제 방법을 선택합니다. 옵션: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (아직 지원되지 않음) |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 시 로컬 결제 방법이 다른 결제 방법과 함께 나열되는 순서를 결정합니다. |
 
@@ -135,6 +138,7 @@ ht-degree: 0%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Enabled GooglePay through Braintree] | 웹 사이트 | 다음 여부를 결정합니다. [!DNL Google Pay] Braintree을 통한 결제 수단으로 결제가 포함되어 있다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Vault for GooglePay] | 웹 사이트 | 고객은 향후 사용을 위해 Google 결제 방법을 저장/저장할 수 있습니다. 결제 세부 사항이 저장되면 고객은 데이터를 다시 입력하거나 결제 정보를 다시 인증하지 않고도 Google 페이를 사용할 수 있습니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Payment Action] | 웹 사이트 | 결제가 처리될 때 Braintree이 취하는 조치를 결정합니다. 옵션: <br/>**`Authorize`**- 고객 카드의 자금이 승인되지만 고객 계정에서 이체되지 않습니다. 주문이 스토어 관리자에서 생성됩니다. 나중에 판매를 캡처하고 송장을 생성할 수 있습니다.<br/>**`Intent Sale`** - 고객 카드의 자금은 Braintree이 승인하고 캡처하며 매장 관리자에서 주문 및 청구서가 생성됩니다. **_참고:_** 이 은(는) `Authorize and Capture` 2.3.x 및 이전 릴리스에서. |
 | [!UICONTROL Button Color] | 웹 사이트 | 의 색상을 결정합니다. [!DNL Google Pay] 단추를 클릭합니다. 옵션: `White` / `Black` |
 | [!UICONTROL Merchant ID] | 스토어 뷰 | Google에서 제공한 ID를 여기에 입력해야 합니다. |
@@ -150,6 +154,7 @@ ht-degree: 0%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Enable Venmo through Braintree] | 웹 사이트 | 다음 여부를 결정합니다. [!DNL Venmo] Braintree을 통한 결제 방법으로 포함됩니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Vault for Venmo] | 웹 사이트 | 고객은 향후 사용을 위해 Venmo 결제 방법을 저장/저장할 수 있습니다. 결제 내역이 저장되면 고객은 데이터를 다시 입력하거나 결제 정보를 재인증하지 않고도 벤모 결제 방식을 사용할 수 있다. 옵션: `Yes` / `No` |
 | [!UICONTROL Payment Action] | 웹 사이트 | 결제가 처리될 때 Braintree이 취하는 조치를 결정합니다. 옵션: <br/>**`Authorize`**- 고객 카드의 자금이 승인되지만 고객 계정에서 이체되지 않습니다. 주문이 스토어 관리자에서 생성됩니다. 나중에 판매를 캡처하고 송장을 생성할 수 있습니다.<br/>**`Intent Sale`** - 고객 카드의 자금은 Braintree이 승인하고 캡처하며 매장 관리자에서 주문 및 청구서가 생성됩니다. **_참고:_** 이 은(는)  _승인 및 캡처_ 2.3.x 및 이전 릴리스에서. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 시 Venmo가 다른 결제 방법과 함께 나열되는 순서를 결정합니다. |
 
@@ -166,6 +171,7 @@ ht-degree: 0%
 | [!UICONTROL Enable PayPal PayLater through Braintree] | 웹 사이트 | PayPal PayLater가 Braintree을 통해 결제 수단으로 포함되는지 여부를 결정합니다. 옵션: `Yes` / `No`. 이 필드는 다음 경우에 표시됩니다. `Enable PayPal through Braintree` 이(가) (으)로 설정됨 `Yes` |
 | [!UICONTROL Title] | 스토어 뷰 | 체크아웃 중에 고객에게 Braintree을 통해 PayPal을 식별하는 레이블입니다. 기본값: `PayPal` |
 | [!UICONTROL Vault Enabled] | 웹 사이트 | 활성화하면 은 고객 결제 정보를 위한 안전한 저장소를 제공하므로 고객은 구매 시마다 자신의 PayPal 정보를 다시 입력할 필요가 없습니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Send Cart Line Items for PayPal] | 웹 사이트 | 라인 항목(주문 항목)을 PayPal에 기프트 카드, 품목 선물 포장, 주문 선물 포장, 스토어 크레딧, 배송 및 세금과 함께 라인 항목으로 보냅니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 시 PayPal through Braintree이 다른 결제 방법과 함께 나열되는 순서를 결정하는 숫자입니다. |
 | [!UICONTROL Override Merchant Name] | 스토어 뷰 | 각 스토어 조회수에 대해 판매자를 식별하는 데 사용할 수 있는 대체 이름. |
 | [!UICONTROL Payment Action] | 웹 사이트 | 지불이 처리될 때 Braintree을 통해 PayPal이 취하는 조치를 결정합니다. 옵션: <br/>**`Authorize`**- 고객 카드의 자금이 승인되지만 고객 계정에서 이체되지 않습니다. 주문이 스토어 관리자에서 생성됩니다. 나중에 판매를 캡처하고 송장을 생성할 수 있습니다.<br/>**`Authorize and Capture`** - 고객 카드의 자금은 Braintree을 통해 PayPal에 의해 승인되고 캡처되며, 주문 및 송장은 매장 관리자에서 생성됩니다. |
@@ -176,6 +182,10 @@ ht-degree: 0%
 | [!UICONTROL Display on Shopping Cart] | 웹 사이트 | PayPal 단추가 [미니 카트](../../stores-purchase/cart-configuration.md#mini-cart) 및 [장바구니](../../stores-purchase/cart.md) 페이지를 가리키도록 업데이트하는 중입니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}
+
+>[!NOTE]
+>
+>다음 중 하나 **[!DNL PayPal Credit]** 또는 **[!DNL PayPal PayLater]** 활성화할 수 있습니다. 두 메서드를 동시에 활성화할 수 없습니다.
 
 ### [!UICONTROL Styling]
 
@@ -205,9 +215,13 @@ ht-degree: 0%
 | [!UICONTROL Button Label] | 웹 사이트 | PayPal 단추의 레이블을 결정합니다. 옵션: `Paypal` / `Checkout` / `Buy Now` / `Pay` |
 | [!UICONTROL Color] | 웹 사이트 | PayPal 단추의 색상을 결정합니다. 옵션: `Blue` / `Black` / `Gold` / `Silver` |
 | [!UICONTROL Shape] | 웹 사이트 | PayPal 단추의 모양을 결정합니다. 옵션: `Pill` / `Rectangle` |
-| [!UICONTROL Size] | 웹 사이트 | PayPal 단추의 크기를 결정합니다. 옵션: `Medium` / `Large` / `Responsive` |
+| [!UICONTROL Size(Deprecated)] | 웹 사이트 | PayPal 단추의 크기를 결정합니다. 옵션: `Medium` / `Large` / `Responsive` |
 
 {style="table-layout:auto"}
+
+>[!NOTE]
+>
+>다음 **[!DNL Size(Deprecated)]** 구성 필드는 더 이상 사용되지 않으며 PayPal 단추 스타일에 사용되지 않습니다.
 
 **[!UICONTROL PayLater Messaging]**
 
@@ -252,7 +266,7 @@ ht-degree: 0%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Name] | 스토어 뷰 | 이름 설명자에는 별표(*)로 구분된 두 부분이 있습니다. 설명자의 첫 번째 부분은 회사 또는 DBA를 식별하고 두 번째 부분은 제품을 식별합니다. 예: `company*myproduct`  <br/><br/>설명자의 회사 및 제품 부분의 길이는 최대 22자의 조합 길이에 대해 다음과 같은 방법으로 할당할 수 있습니다. <br/>**`Option 1`**- 회사는 3자여야 하며 제품은 최대 18자까지 사용할 수 있습니다.<br/>**`Option 2`** - 회사는 7자여야 하며 / 제품은 최대 14자까지 사용할 수 있습니다. <br/>**`Option 3`**- 회사는 12자여야 하며 제품은 최대 9자까지 사용할 수 있습니다. |
-| [!UICONTROL Phone] | 스토어 뷰 | 전화 설명자 길이는 10~14자여야 하며 숫자, 대시, 괄호 및 마침표만 포함할 수 있습니다. For example: `9999999999` `(999) 999-9999` `999.999.9999` |
-| [!UICONTROL URL] | 스토어 뷰 | URL 설명자는 도메인 이름을 나타내며 최대 13자까지 사용할 수 있습니다. For example: `company.com` |
+| [!UICONTROL Phone] | 스토어 뷰 | 전화 설명자 길이는 10~14자여야 하며 숫자, 대시, 괄호 및 마침표만 포함할 수 있습니다. 예: `9999999999` `(999) 999-9999` `999.999.9999` |
+| [!UICONTROL URL] | 스토어 뷰 | URL 설명자는 도메인 이름을 나타내며 최대 13자까지 사용할 수 있습니다. 예: `company.com` |
 
 {style="table-layout:auto"}

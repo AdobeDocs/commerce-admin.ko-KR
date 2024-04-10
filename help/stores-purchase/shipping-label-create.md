@@ -3,9 +3,9 @@ title: 배송 레이블 및 패키지 만들기
 description: 항목을 주문으로 패키징하고 배송 레이블을 만드는 방법을 알아봅니다.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1889'
 ht-degree: 0%
 
 ---
@@ -77,8 +77,6 @@ ht-degree: 0%
 ### FedEx 구성
 
 FedEx는 국내외에서 선박을 운항합니다. 미국 이외의 지역에 위치한 상점에서는 국제 배송에 대해서만 FedEx 레이블을 만들 수 있습니다.
-
-{{beta2-updates}}
 
 1. 에서 계속 **[!UICONTROL Delivery Methods]** 구성, 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL FedEx]** 섹션.
 

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Checkout]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Checkout] 상거래 관리자의 페이지입니다.
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Checkout Options]
 
->[!NOTE]
->
->[!BADGE 2.4.6-p1]{type=Informative tooltip="2.4.6-p1의 업데이트"}[!BADGE 2.4.7-베타1]{type=Informative tooltip="2.4.7-Beta1 업데이트"}[2.4.7-베타2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-7.html) 및 [2.4.6-p3](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html) 설명된 기능에 대한 보안 개선 사항을 제공하는 릴리스입니다. 또는 이러한 릴리스 버전을 사용하는 경우 릴리스 정보를 검토하십시오.
-
 ![체크아웃 옵션](./assets/checkout-checkout-options.png)<!-- zoom -->
 
 <!--[Checkout Options](https://docs.magento.com/user-guide/sales/checkout-options.html) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
-|--- |--- |--- |
+|------------------------------------------------------------------|--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable Guest Checkout Login] | 스토어 뷰 | 이메일 주소가 이미 고객 계정과 연결되어 있는 경우 인증되지 않은 사용자(상점 및 API)가 쿼리할 수 있도록 하려면 이 설정을 활성화하십시오. 입력한 이메일 주소가 고객 계정에 이미 등록되어 있지만 인증되지 않은 사용자에게 정보를 노출하는 대가로 제공되는 경우 로그인 프롬프트를 표시하여 게스트의 체크아웃 워크플로우를 개선하는 데 사용할 수 있습니다.  옵션: `Yes` / `No` |
 | [!UICONTROL Enable Onepage Checkout] | 스토어 뷰 | 다음 여부를 결정합니다. [한 페이지 체크아웃](../../stores-purchase/checkout-process.md#checkout-options) 는 기본 체크아웃 형식입니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Allow Guest Checkout] | 스토어 뷰 | 게스트가 다음을 진행할 수 있는지 여부를 결정합니다. [등록하지 않고 체크아웃](../../stores-purchase/checkout-guest.md) 스토어에 있는 계정입니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Enable Terms and Conditions] | 스토어 뷰 | 고객이 다음에 동의해야 하는지 여부를 결정합니다. [약관](../../stores-purchase/terms-and-conditions.md) 구매 전 판매. 옵션: `Yes` / `No` |
