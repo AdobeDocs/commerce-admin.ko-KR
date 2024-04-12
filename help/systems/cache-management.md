@@ -3,16 +3,16 @@ title: 캐시 관리
 description: 사이트의 성능을 개선하는 쉬운 방법을 제공하는 캐시 관리 도구를 사용하는 방법에 대해 알아봅니다.
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-source-git-commit: add2259bf326d7812999e3e7d4724af10f7497c0
+source-git-commit: fdf04be69754d0209772d9ceb244e3808f3b61d3
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
 
 # 캐시 관리
 
-Adobe Commerce 및 Magento Open Source 캐시 관리 시스템은 사이트의 성능을 개선하는 쉬운 방법을 제공합니다. 캐시를 새로 고쳐야 할 때마다 작업 영역 상단에 (으)로 연결된 알림이 표시됩니다. [!UICONTROL Cache Management] 캐시를 보고 새로 고칠 수 있는 페이지입니다.
+Adobe Commerce 및 Magento Open Source 캐시 관리 시스템은 사이트의 성능을 개선하는 쉬운 방법을 제공합니다. 캐시에 새로 고침이 필요할 때마다 알림에 대한 링크가 표시됩니다 [!UICONTROL Cache Management] 새로 고침을 완료할 페이지입니다.
 
 ![제품 속성 저장 - 캐시 메시지 업데이트](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
@@ -40,12 +40,12 @@ Adobe Commerce 캐싱에 대한 추가 기술 정보는 [캐시 개요](https://
 - 확장/모듈을 설치한 후 항상 캐시를 플러시합니다. 확장을 하나 이상 설치한 다음 캐시를 플러시할 수 있습니다.
 - Commerce를 설치한 후 캐시를 플러시합니다. 새로 설치하는 경우 색인을 다시 지정해야 합니다.
 - Open Source 또는 Commerce 버전을 다른 버전으로 업그레이드한 후 캐시를 플러시합니다.
-- 캐시를 플러시할 때는 캐시 유형을 고려하고 피크 시간이 아닌 동안 플러시를 예약하십시오. 예를 들어, 늦은 밤이나 이른 아침과 같이 적은 수의 고객이 사이트에 액세스할 수 있는 시간을 선택합니다. 피크 시간 동안 일부 캐시 유형을 지우면 관리자의 로드가 증가하고 완료될 때까지 사이트가 다운될 수 있습니다.
-- 날짜 [리인덱싱](index-management.md)플러시 캐시를 수행할 필요도 없습니다.
+- 캐시를 플러시할 때는 캐시 유형을 고려하고 피크 시간이 아닌 동안 플러시를 예약하십시오. 예를 들어 늦은 밤이나 이른 아침과 같이 사이트를 사용하는 고객이 적은 시간을 선택합니다. 최대 수요 동안 캐시 유형을 지우면 관리자의 로드가 증가하고 작업이 완료될 때까지 사이트가 다운될 수 있습니다.
+- 날짜 [리인덱싱](index-management.md), 캐시를 플러시할 필요가 없습니다.
 
 ## 캐시 관리 역할 리소스
 
-특정 캐시 유지 관리 작업에 대한 액세스는 캐시를 보고, 전환하고, 플러시하는 옵션을 포함하여 역할별로 사용자에게 할당할 수 있습니다. Adobe은 관리자 수준 사용자에 대해서만 플러시 작업을 활성화할 것을 권장합니다. 모든 캐시 관리 기능에 대한 액세스 권한을 제공하면 상점 성능에 영향을 줄 수 있습니다.
+캐시를 보고, 전환하고, 플러시하는 옵션을 포함하여 역할별로 사용자에게 특정 캐시 유지 관리 작업에 대한 액세스 권한을 할당할 수 있습니다. Adobe은 관리자 수준 사용자에 대해서만 플러시 작업을 활성화할 것을 권장합니다. 모든 캐시 관리 기능에 대한 액세스 권한을 제공하면 상점 성능에 영향을 줄 수 있습니다.
 
 ![역할 리소스 - 캐시 관리](./assets/permissions-role-resources-cache-management.png){width="600" zoomable="yes"}
 
@@ -80,7 +80,7 @@ Adobe Commerce 캐싱에 대한 추가 기술 정보는 [캐시 개요](https://
    - `Select All`
    - `Select Visible`
 
-1. 작업에서 타겟팅할 각 캐시의 확인란을 선택합니다.
+1. 새로 고칠 각 캐시에 대한 확인란을 선택합니다.
 
 1. 설정 **[!UICONTROL Actions]** 끝 `Refresh` 및 클릭 **[!UICONTROL Submit]**.
 
@@ -94,7 +94,7 @@ Adobe Commerce 캐싱에 대한 추가 기술 정보는 [캐시 개요](https://
 
 ## JavaScript/CSS 캐시 플러시
 
-1. 아래 _[!UICONTROL Additional Cache Management]_, 클릭&#x200B;**[!UICONTROL Flush JavaScript/CSS Cache]**단일 파일로 병합된 모든 JavaScript 및 CSS 파일을 지웁니다.
+1. 아래 _[!UICONTROL Additional Cache Management]_를 클릭하고, 를 클릭하여 단일 파일로 병합된 Javascript 및 CSS 파일을 지웁니다.**[!UICONTROL Flush JavaScript/CSS Cache]**.
 
    다음 `The JavaScript/CSS cache has been cleaned` 작업 영역 상단에 메시지가 표시됩니다.
 
@@ -102,7 +102,7 @@ Adobe Commerce 캐싱에 대한 추가 기술 정보는 [캐시 개요](https://
 
 ## 명령줄을 사용하여 플러시
 
-Commerce 애플리케이션 서버에 액세스할 수 있는 시스템 관리자 및 개발자도 Commerce CLI를 사용하여 명령줄에서 캐시 및 캐시 구성을 관리할 수 있습니다. 다음을 참조하십시오 [캐시 관리](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#:~:text=You%20can%20also%20clean%20and,bin%2Fmagento%20cache%3Aclean%20.) 다음에서 _구성 안내서_.{:target=&quot;_blank&quot;}.
+Commerce 애플리케이션 서버에 액세스할 수 있는 시스템 관리자 및 개발자도 Commerce CLI를 사용하여 명령줄에서 캐시 및 캐시 구성을 관리할 수 있습니다. 다음을 참조하십시오 [캐시 관리](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target=&quot;_blank&quot;} _구성 안내서_.
 
 ## 컨트롤
 
@@ -134,7 +134,7 @@ Commerce 애플리케이션 서버에 액세스할 수 있는 시스템 관리�
 
 - `%CACHE_TYPE_TAG%` 캐시 유형 범위 지정에 사용할 고유 태그를 정의합니다.
 
-개발자와 시스템 통합자는 Adobe Commerce을 사용자 정의하거나 통합(예: GraphQL API를 사용한 통합 개발)할 때 이러한 값을 사용하여 캐싱을 구성하고 관리합니다. 다음 `cache type id` Commerce CLI를 사용하여 애플리케이션 서버 명령줄에서 캐시를 관리하는 데에도 사용됩니다. 예를 들면 다음과 같습니다 ` bin/magento cache:status config` 구성 캐시의 현재 상태를 표시합니다.
+개발자와 시스템 통합자는 Adobe Commerce을 사용자 정의하거나 통합(예: GraphQL API를 사용한 통합 개발)할 때 이러한 값을 사용하여 캐싱을 구성하고 관리합니다. 다음 `cache type id` Commerce CLI를 사용하여 application server 명령줄에서 캐시를 관리하는 데에도 사용됩니다. 예를 들어, ` bin/magento cache:status config` 구성 캐시의 현재 상태를 표시합니다.
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Commerce 애플리케이션 서버에 액세스할 수 있는 시스템 관리�
 | `Database DDL operations` | 데이터베이스 스키마. 필요한 경우 Commerce가 이 캐시를 자동으로 정리하지만 서드파티 개발자는 캐시의 모든 세그먼트에 데이터를 배치할 수 있습니다. 데이터베이스 스키마를 사용자 지정 변경한 후 이 캐시 유형을 정리하거나 플러시합니다. 즉, Commerce가 자체적으로 만들지 않는 업데이트입니다. 데이터베이스 스키마를 자동으로 업데이트하는 한 가지 방법은 magento 설정을 사용하는 것입니다:db-schema:upgrade 명령. | `DB_DDL` | `db_ddl` |
 | [!UICONTROL Compiled Config] | 코드 컴파일 결과. | `COMPILED_CONFIG` | `compiled_config` |
 | [!UICONTROL Webhooks Response Cache] | 웹후크 요청에 대한 응답을 캐시합니다. 자세한 내용은 [Webhooks 안내서](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) Commerce 개발자 설명서에서 참조하십시오. | `WEBHOOKS_RESPONSE` | `webhooks_response` |
-| [!UICONTROL EAV types and attributes] | EAV 속성과 관련된 메타데이터에 대한 엔티티 유형 선언 캐시(예: 스토어 레이블, 관련 PHP 코드에 대한 링크, 속성 렌더링, 검색 설정 등). 일반적으로 이 캐시 유형을 정리하거나 플러시할 필요가 없습니다. | `EAV` | `eav` |
+| [!UICONTROL EAV types and attributes] | EAV(엔티티 속성 값) 속성과 관련된 메타데이터에 대한 엔티티 유형 선언을 캐시합니다. 속성에는 스토어 레이블, 관련 PHP 코드에 대한 링크, 속성 렌더링, 검색 설정 등이 포함됩니다. 일반적으로 이 캐시 유형을 정리하거나 플러시할 필요가 없습니다. | `EAV` | `eav` |
 | [!UICONTROL Customer Notification] | 사용자 인터페이스에 표시되는 임시 알림입니다. | `CUSTOMER_NOTIFICATION` | `customer_notification` |
 | [!UICONTROL GraphQL Query Resolver Results] | 고객, CMS 페이지, CMS 블록 및 제품 미디어 갤러리 엔터티를 위한 GraphQL 쿼리 확인자의 결과를 캐시합니다. GraphQL 성능을 향상시키기 위해 이 캐시를 활성화 상태로 유지합니다. | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
 | [!UICONTROL Integrations Configuration] | 통합 구성 파일입니다. 통합을 변경하거나 추가한 후 이 캐시를 지우거나 플러시합니다. | `INTEGRATION` | `config_integration` |
@@ -178,8 +178,8 @@ Adobe Commerce 및 Magento Open Source은 서버에서 전체 페이지 캐싱�
 캐시된 콘텐츠를 사용하여 유사한 유형의 방문에서 요청을 처리할 수 있습니다. 따라서 일반 방문자에게 표시되는 페이지는 고객에게 표시되는 페이지와 다를 수 있습니다. 캐싱을 위해 각 방문은 다음 세 가지 유형 중 하나입니다.
 
 - `Non-sessioned` - 비방문 기간 동안 쇼핑객은 페이지를 보지만 스토어와 상호 작용하지 않습니다. 시스템은 본 각 페이지의 콘텐츠를 캐시하고 다른 비세션 쇼핑객에게 제공합니다.
-- `Sessioned` - 세션 방문 중에 제품 비교나 장바구니에 제품 추가와 같은 활동을 통해 스토어와 상호 작용하는 쇼핑객에게는 세션 ID가 지정됩니다. 세션 중에 생성된 캐시된 페이지는 세션 중에 해당 쇼핑객만 사용됩니다.
-- `Customer` - 계정에 로그인한 상태에서 스토어 및 쇼핑에 계정을 등록한 사용자를 위해 고객 세션이 생성됩니다. 세션 중에 고객에게 할당된 고객 그룹을 기반으로 하는 특별 오퍼, 프로모션 및 가격을 제공할 수 있습니다.
+- `Sessioned` - 세션 방문 중에 스토어와 상호 작용하는 쇼핑객에게는 세션 ID가 지정됩니다. 상호 작용에는 제품 비교나 장바구니에 제품 추가와 같은 활동이 포함됩니다. 세션 중에 생성된 캐시된 페이지는 세션 중에 해당 쇼핑객만 사용됩니다.
+- `Customer` - 고객 세션은 등록된 계정을 사용하여 로그인하고 쇼핑하는 고객을 위해 생성됩니다. 세션 중에 고객에게 할당된 고객 그룹에 따라 특별 오퍼, 프로모션 및 가격을 제공할 수 있습니다.
 
 기술 정보는 다음을 참조하십시오. [바니시 구성 및 사용](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target=&quot;_blank&quot;} 및 [상거래 페이지 및 기본 캐시에 Redis 사용](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target=&quot;_blank&quot;} _구성 안내서_.
 
