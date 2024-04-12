@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] 상거래 관리자의 페이지입니다.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 8ce1bca0a14b838c843c66e48a2c1cd895bb1340
+source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3146'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | 스토어 뷰 | 그리드 보기에서 기본적으로 페이지당 표시되는 제품 수를 결정합니다. |
 | [!UICONTROL Products per Page on List Allowed Values] | 스토어 뷰 | 목록 보기에 표시되는 제품의 수를 결정합니다. 옵션을 선택하려면 쉼표로 구분된 여러 값을 입력하십시오. |
 | [!UICONTROL Products per Page on List Default Value] | 스토어 뷰 | 목록 보기에서 기본적으로 페이지당 표시되는 제품 수를 결정합니다. |
-| 제품 목록 정렬 기준 | 스토어 뷰 | 검색 결과 목록의 정렬 순서를 결정합니다. 범주의 디스플레이 설정 및 다음과 같이 설정된 사용 가능한 속성에 의해 옵션 선택이 결정됩니다. `Used for Sorting in Product Listing`. 기본값은 로 설정되어 있습니다. `Use All Available Attributes` 및 에는 일반적으로 최상의 가치, 이름, 가격이 포함됩니다 |
+| 제품 목록 정렬 기준 | 스토어 뷰 | 검색 결과 목록의 정렬 순서를 결정합니다. 범주의 디스플레이 설정 및 다음과 같이 설정된 사용 가능한 속성에 의해 옵션 선택이 결정됩니다. `Used for Sorting in Product Listing`. 기본값은 로 설정되어 있습니다. `Use All Available Attributes` 및 에는 일반적으로 최상의 가치, 이름, 가격이 포함됩니다. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Allow All Products per Page] | 스토어 뷰 | 로 설정된 경우 `Yes`, 다음을 포함 `ALL` 옵션은 &quot;페이지당 표시&quot; 컨트롤에 표시됩니다. |
 | [!UICONTROL Remember Category Pagination] | 글로벌 | 로 설정된 경우 `Yes`, 고객이 한 카테고리에서 다른 카테고리로 탐색함에 따라 현재 카테고리 페이지 매김 값이 저장됩니다. [제품 목록](../../catalog/navigation-product-listings.md). 값을 저장하면 더 많은 캐시 저장소를 사용하며 검색 엔진이 페이지를 인덱싱하는 방식에 영향을 줄 수 있습니다. 옵션: `Yes` / `No` (기본값) |
 | [!UICONTROL Use Flat Catalog Category] | 글로벌 | 를 활성화합니다. [플랫 범주 구조](../../catalog/catalog-flat.md) (권장되지 않음). 옵션: `Yes` / `No` |

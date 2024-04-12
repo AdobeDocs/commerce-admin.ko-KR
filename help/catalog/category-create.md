@@ -3,9 +3,9 @@ title: 범주 만들기
 description: 구성에 설정된 최대 메뉴 깊이에 따라 필요한 만큼 추가 하위 범주를 만들 수 있습니다.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 1. 범주 페이지에 _`Filter by Attribute`_레이어 탐색 섹션, 세트&#x200B;**[!UICONTROL Anchor]**끝 `Yes`.
 
-1. 의 경우 **[!UICONTROL Available Product Listing Sort By]** 고객이 목록을 정렬할 때 사용할 수 있는 값 중 하나 이상을 선택합니다.
+1. 의 경우 **[!UICONTROL Available Product Listing Sort By]** 고객이 목록을 정렬할 때 사용할 수 있는 값 중 하나 이상을 선택합니다. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
    기본적으로 사용 가능한 모든 값이 포함됩니다. 선택 취소 **[!UICONTROL Use All]** 확인란을 선택하여 선택 항목을 변경합니다. 예를 들어, 값은 다음을 포함할 수 있습니다.
 
@@ -122,7 +122,7 @@ ht-degree: 0%
    - `Product Name`
    - `Price`
 
-1. 범주에 대한 기본 정렬 순서를 설정하려면 다음을 선택합니다. **[!UICONTROL Default Product Listing Sort By]** 값.
+1. 범주에 대한 기본 정렬 순서를 설정하려면 다음을 선택합니다. **[!UICONTROL Default Product Listing Sort By]** 값. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
 
 1. 기본 레이어 탐색을 변경하려면 [가격 단계](navigation-layered.md#configure-price-navigation) 을(를) 설정하고 다음을 수행합니다.
 
