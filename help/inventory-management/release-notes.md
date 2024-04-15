@@ -3,9 +3,9 @@ title: '''[!DNL Inventory Management] 릴리스 정보'
 description: 모든 항목에 대한 자세한 내용은 릴리스 정보 를 참조하십시오 [!DNL Inventory Management] 릴리스.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: 01d8a1d50f574330f3ce7e8bf03a018f0079f5db
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3445'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 0%
 [!DNL Inventory Management] 는 기여자에게 공개되는 Magento Open Source 커뮤니티 엔지니어링 특별 프로젝트입니다. 참가하고 기여하려면 다음을 참조하십시오. [GitHub 프로젝트](https://github.com/magento/inventory) 저장소 및 [wiki](https://github.com/magento/inventory/wiki) 시작합니다. 프로젝트에 대해 논의하려면 [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) 채널 ([자가 등록](https://opensource.magento.com/slack)).
 
 [릴리스 일정](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} 지원되는 릴리스 및 호환되는 릴리스에 대해 알아보십시오.
+
+## v1.2.7
+
+[!DNL Inventory Management] 1.2.7 릴리스 노트는 [core 2.4.7 릴리스 노트](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
@@ -108,17 +112,17 @@ ht-degree: 0%
 
 Inventory management 1.2.4 (모듈 버전: `magento/inventory-metapackage = 1.2.4`)는 버전 2.4.4에서 지원되며 Adobe Commerce 버전 2.4.0, 클라우드 인프라의 Adobe Commerce 및 Magento Open Source 코드 베이스와 호환됩니다.
 
-![해결된 문제](../assets/fix.svg) 이제 Commerce는 관리 제품 목록 보기에 모든 제품에 대해 정확한 판매 가능 수량 값을 표시합니다. 이전에는 특수 문자가 포함된 SKU가 있는 재고 제품의 판매 가능 수량에 대해 빈 값이 표시되었습니다. <!--- MC-41936-->
+![해결된 문제](../assets/fix.svg) 이제 Commerce에 관리 제품 목록 보기에 모든 제품에 대한 정확한 판매 가능 수량 값이 표시됩니다. 이전에는 특수 문자가 포함된 SKU가 있는 재고 제품의 판매 가능 수량에 대해 빈 값이 표시되었습니다. <!--- MC-41936-->
 
 ![해결된 문제](../assets/fix.svg) 많은(약 10,000개) 인벤토리 소스가 있는 배포에서 제품을 장바구니에 추가하는 것과 같은 장바구니 및 체크아웃 작업의 성능이 향상되었습니다. <!--- MC-42570-->
 
-![해결된 문제](../assets/fix.svg) 다음 `bin/magento inventory:reservation:list-inconsistencies` 이제 명령은 데이터베이스에서 예약이 누락되고 캐시가 지워진 경우에도 부분 선적이 있는 주문을 올바르게 처리합니다. 이전에는 사전 지워진 캐시로 이 명령을 실행할 때 Commerce에 다음 오류가 표시되었습니다. `Area code is not set`. <!--- MC-42142-->
+![해결된 문제](../assets/fix.svg) 다음 `bin/magento inventory:reservation:list-inconsistencies` 이제 명령은 데이터베이스에서 예약이 누락되고 캐시가 지워진 경우에도 부분 선적이 있는 주문을 올바르게 처리합니다. 이전에는 미리 지운 캐시로 이 명령을 실행할 때 Commerce에 다음 오류가 표시되었습니다. `Area code is not set`. <!--- MC-42142-->
 
 ![해결된 문제](../assets/fix.svg) 그룹화된 제품 하위 제품의 증분 색인화로 인해 하위 항목이 공유될 때 다른 그룹화된 제품이 더 이상 잘못 색인화되지 않습니다. <!--- MC-41963-->
 
 ![해결된 문제](../assets/fix.svg) 이제 API로 카테고리에서 제품을 제거한 후 상점 카테고리 페이지에 올바른 제품 수가 표시됩니다. 이전에는 리인덱싱이 발생할 때까지 카테고리 페이지 제품 수가 올바르지 않았습니다. <!--- MC-42287-->
 
-![해결된 문제](../assets/fix.svg) 이제 다음과 같은 경우에 대변 메모를 생성할 때 구성 가능한 제품을 재고로 반품할 수 있습니다. **[!UICONTROL Manage Stock]** 옵션이 비활성화되었습니다. 이전에는 Commerce에 **주식으로 돌아가기** 이 옵션이 비활성화되었을 때 대변 메모 작성 페이지의 확인란입니다. <!--- MC-42002-->
+![해결된 문제](../assets/fix.svg) 이제 다음과 같은 경우에 대변 메모를 생성할 때 구성 가능한 제품을 재고로 반품할 수 있습니다. **[!UICONTROL Manage Stock]** 옵션이 비활성화되었습니다. 이전에는 Commerce에서 **주식으로 돌아가기** 이 옵션이 비활성화되었을 때 대변 메모 작성 페이지의 확인란입니다. <!--- MC-42002-->
 
 ![해결된 문제](../assets/fix.svg) 1만 개 초과 재고품 관리가 개선되었습니다. 이전에는 성능 문제로 인해 판매자가 웹 사이트를 시작하기 전에 관리자에서 재고를 편집할 수 없었던 경우가 있었습니다. <!--- MC-42643-->
 
