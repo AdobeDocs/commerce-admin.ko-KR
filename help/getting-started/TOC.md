@@ -5,10 +5,10 @@ breadcrumb-title: 시작
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
+source-git-commit: 5c9d61ae16576b3298336b94c9b4101c78c05976
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '208'
+ht-degree: 1%
 
 ---
 
@@ -16,9 +16,10 @@ ht-degree: 0%
 # Adobe Commerce 시작 안내서 {#start}
 
 + [Adobe Commerce 시작 안내서](guide-overview.md)
++ [Adobe Commerce란?](about.md)
 + [릴리스 정보](about-this-release.md)
 + [로그인 자격 증명 및 URL](login-urls.md)
-+ 상거래 계정 {#commerce-account}
++ Commerce 계정 {#commerce-account}
    + [계정 만들기 및 액세스](commerce-account-create.md)
    + [계정 보안](commerce-account-secure.md)
    + [계정 공유](commerce-account-share.md)
