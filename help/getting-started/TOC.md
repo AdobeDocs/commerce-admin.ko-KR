@@ -5,9 +5,9 @@ breadcrumb-title: 시작
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 5c9d61ae16576b3298336b94c9b4101c78c05976
+source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 1%
 
 + [Adobe Commerce 시작 안내서](guide-overview.md)
 + [Adobe Commerce란?](about.md)
-+ [릴리스 정보](about-this-release.md)
 + [로그인 자격 증명 및 URL](login-urls.md)
 + Commerce 계정 {#commerce-account}
    + [계정 만들기 및 액세스](commerce-account-create.md)

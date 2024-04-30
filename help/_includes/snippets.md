@@ -1,9 +1,9 @@
 ---
 title: 코드 조각
 description: 특정 에디션에 적용되는 기능이나 페이지를 참고하기 위해 노트 및 시각적 요소를 재사용함
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe ID이 있고 Adobe Commerce 및 Adobe 비즈니스 제품에 간소화된 로그인을 원하는 Adobe Commerce 판매자는 Commerce 관리자 인증을 Adobe IMS 인증 워크플로와 통합할 수 있습니다. Commerce 스토어에 대해 이 통합이 활성화되면 각 관리 사용자는 로그인하기 위해 상거래 계정 자격 증명이 아닌 Adobe 자격 증명을 사용해야 합니다. 다음을 참조하십시오 [Adobe IMS와 Adobe Commerce 통합 개요](/help/getting-started/adobe-ims-integration-overview.md).
+>Adobe ID을 보유하고 있으며 Adobe Commerce 및 Adobe 비즈니스 제품에 간소화된 로그인을 원하는 Adobe Commerce 판매자는 Commerce 관리자 인증을 Adobe IMS 인증 워크플로와 통합할 수 있습니다. Commerce 스토어에 대해 이 통합이 활성화되면 각 관리 사용자는 로그인하기 위해 Commerce 계정 자격 증명이 아닌 Adobe 자격 증명을 사용해야 합니다. 다음을 참조하십시오 [Adobe IMS와 Adobe Commerce 통합 개요](/help/getting-started/adobe-ims-integration-overview.md).
 
 ## GTag API 참고 {#gtag-api-note}
 
@@ -75,10 +75,10 @@ ht-degree: 0%
 
 | 설명서 리소스 | 설명 |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4 Merchant 설명서](../landing/home.md) | Adobe Commerce 및 Magento Open Source 모두를 위한 판매자 중심 설명서 |
+| [Adobe Commerce 2.4 Merchant 설명서](../landing/home.md) | Adobe Commerce에 대한 판매자 중심 설명서 |
 | [Adobe Commerce 설명서를 위한 서비스](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | 판매자가 비즈니스의 주요 구성 요소를 스토어와 통합하는 데 도움이 되는 서비스 컬렉션을 지원하는 설명서입니다. |
 | [클라우드 인프라의 Commerce 안내서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 관리되고 자동화된 호스팅 클라우드 플랫폼에서의 Adobe Commerce 배포에 대한 단계별 절차. |
-| [Adobe Commerce 2.4 운영 안내서](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Adobe Commerce 및 Magento Open Source 플랫폼에 배포된 프로젝트를 개발, 배포 및 유지 관리하기 위한 개념, 프로세스, 도구 및 모범 사례에 대한 시스템 설명서입니다. |
-| [Adobe Commerce 2.4 개발자 설명서](https://developer.adobe.com/commerce/docs) | Adobe Commerce 또는 Magento Open Source을 빌드하고 사용자 지정하는 데 사용되는 개발자 중심의 설명서 |
+| [Adobe Commerce 2.4 운영 안내서](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Adobe Commerce 프로젝트 개발, 배포 및 유지 관리를 위한 개념, 프로세스, 도구 및 모범 사례에 대한 시스템 설명서입니다. |
+| [Adobe Commerce 2.4 개발자 설명서](https://developer.adobe.com/commerce/docs) | Adobe Commerce을 사용자 정의하고 서드파티 시스템과 통합하는 데 사용되는 개발자 중심의 설명서 |
 
 {style="table-layout:auto"}
