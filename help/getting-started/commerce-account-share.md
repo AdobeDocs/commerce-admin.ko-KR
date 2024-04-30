@@ -3,9 +3,9 @@ title: 공유 [!DNL Commerce] account
 description: 에 제한된 액세스 권한을 부여하는 방법 알아보기 [!DNL Commerce] 기타 계정 [!DNL Commerce] 계정 보유자입니다.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 8d4c37f512030c907d26b0210ddaad11ce605dfe
+source-git-commit: 5886f0605312dc06360051188ffce983281a3ccd
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 시작하기 전에 [!DNL Commerce] 계정 **새 공유 액세스 피부여자**:
 
    - 사용자는 account.adobe.com에서 계정에 이미 등록하고 account.magento.com을 통해 로그인해야 합니다.
-   - 다음 `Account ID` 의 왼쪽 위 모서리에 표시됩니다. _[!UICONTROL Magento]_탭, 바로 위&#x200B;**로그아웃**링크를 클릭합니다.
+   - 다음 `MAGE ID/Account ID (MAG00XXXXXXX)` 의 왼쪽 위 모서리에 표시됩니다. _[!UICONTROL Magento]_탭, 바로 위&#x200B;**로그아웃**링크를 클릭합니다.
    - 다음 `Email` 계정과 연결된 주소.
 
 1. 에 로그인 [[!DNL Commerce] account](commerce-account-create.md).
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 ## 공유 액세스 취소
 
-1. 상거래 계정에 로그인합니다.
+1. Commerce 계정에 로그인합니다.
 
 1. 왼쪽 탐색 패널에서 을 클릭합니다. **[!UICONTROL Shared Access]**.
 
