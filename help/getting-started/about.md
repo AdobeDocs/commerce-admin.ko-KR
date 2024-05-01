@@ -2,13 +2,13 @@
 title: Adobe Commerce 소개
 description: Adobe Commerce은 엔터프라이즈 전자 상거래 플랫폼입니다. 전 세계 전자 상거래 팀의 성장을 이끄는 최신 기능을 살펴보십시오.
 mini-toc-levels: 1
-source-git-commit: f3bba921f180f0338722d0e29fef1c6f260837de
+exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
+source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
 workflow-type: tm+mt
-source-wordcount: '3323'
+source-wordcount: '3326'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Commerce란?
 
@@ -34,6 +34,8 @@ Adobe의 비전은 경험 주도, 데이터 기반, 기술 지원 상거래 플�
 - [데이터 기반](#data-powered-commerce). Adobe Commerce은 마케팅 기술 스택 전체에서 원활한 데이터 공유를 제공하여 자사 상거래 데이터를 사용할 수 있도록 지원하므로 모든 접점 및 채널에서 경험을 개인화할 수 있습니다.
 
 - [기술 지원](#tech-enabled-commerce). Adobe Commerce은 전자 상거래 기능을 더 빠르게 실행하고, 타사 시스템 간에 데이터를 쉽게 공유하며, 통합 및 사용자 지정에 대한 소유 비용을 절감하도록 설계된 구성 가능한 전자 상거래 플랫폼입니다.
+
+![Adobe Commerce 인포그래픽](assets/about-commerce.png)
 
 ## 경험 주도 Commerce
 
