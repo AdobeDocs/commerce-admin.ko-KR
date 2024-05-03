@@ -3,9 +3,9 @@ title: 페이지 작업 영역 컨트롤
 description: 콘텐츠 페이지를 찾고 업데이트하는 데 사용되는 작업 영역 도구에 대해 알아봅니다.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 | 열 | 설명 |
 |--- |--- |
-| [!UICONTROL Custom design from/to] | 선택한 디자인이 제품 페이지에 적용되는 시작 및 종료 날짜를 지정합니다 |
+| [!UICONTROL Custom design from/to] | 선택한 디자인이 페이지에 적용되는 시작 및 종료 날짜를 지정합니다. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source 전용). |
 | [!UICONTROL Custom Theme] | 페이지에 사용자 지정 테마 적용 |
 | [!UICONTROL Custom Layout] | 페이지의 사용자 지정 레이아웃 결정 |
 | [!UICONTROL Meta Title] | 페이지의 메타 제목 |
@@ -111,7 +111,7 @@ ht-degree: 0%
 | [!UICONTROL Store View] | 스토어 보기를 기반으로 검색을 필터링합니다. 옵션: `All available` / `Store Views` |
 | [!UICONTROL Layout] | 페이지 레이아웃을 기준으로 검색을 필터링합니다. 옵션: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Status] | 페이지 상태에서 검색을 필터링합니다. 옵션: `Disabled` / `Published` |
-| [!UICONTROL Custom design from / to] | 선택한 디자인이 제품 페이지에 적용되면 시작 및 종료 날짜별로 검색을 필터링합니다 |
+| [!UICONTROL Custom design from / to] | 선택한 디자인이 페이지에 적용되면 시작 및 종료 날짜별로 검색을 필터링합니다. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source 전용). |
 | [!UICONTROL Asset] | 페이지 제목 자산별로 검색을 필터링합니다. |
 | [!UICONTROL Custom Layout] | 사용자 지정 레이아웃을 기반으로 검색을 필터링합니다. 옵션: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
 | [!UICONTROL Custom Theme] | 사용자 지정 테마를 기반으로 검색을 필터링합니다. 기본 옵션: `Magento Blank` / `Magento Luma` |
@@ -199,6 +199,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 페이지 변경 사항은 일정에 따라 적용하고 다른 콘텐츠 변경 사항과 그룹화할 수 있습니다. 페이지에 대한 예약된 변경 내용을 기반으로 캠페인을 만들거나 기존 캠페인에 변경 내용을 적용할 수 있습니다. 자세한 내용은 [컨텐츠 스테이징](content-staging.md).
+
+>[!NOTE]
+>
+>다음 [!UICONTROL Custom Design Update] 탭에서 제거됨 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce은 페이지에서 바로 수정할 수 없습니다. 이러한 활성화를 위해 예약된 업데이트를 만들어야 합니다.
 
 >[!NOTE]
 >

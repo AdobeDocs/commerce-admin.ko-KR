@@ -3,9 +3,9 @@ title: 카탈로그 가격 규칙에 대한 예약된 변경 사항
 description: 캠페인의 일부로 일정에 카탈로그 가격 규칙을 적용하고 다른 콘텐츠 변경 사항과 그룹화하는 방법을 알아봅니다.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 새 가격 규칙을 저장하거나 업데이트하면 페이지 상단에 예약된 변경 상자가 나타납니다. 카탈로그 가격 규칙은 캠페인의 일부로 일정에 따라 적용하고 다른 콘텐츠 변경 사항과 그룹화할 수 있습니다. 가격 규칙에 대한 예약된 변경 사항을 기반으로 캠페인을 생성하거나 변경 사항을 기존 캠페인에 적용할 수 있습니다.
+
+>[!NOTE]
+>
+>다음 [!UICONTROL From] 및 [!UICONTROL To] 다음에서 필드가 제거됨: ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce 및 는 카탈로그 가격 규칙에서 직접 수정할 수 없습니다. 이러한 활성화를 위해 예약된 업데이트를 만들어야 합니다.
 
 >[!NOTE]
 >

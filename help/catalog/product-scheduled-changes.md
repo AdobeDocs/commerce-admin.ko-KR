@@ -3,9 +3,9 @@ title: 예약된 제품 업데이트
 description: 캠페인 및 프로모션 프로그램을 지원하도록 제품 목록에 대한 변경 사항을 예약하는 방법을 알아봅니다.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 1e809696ee6d623d162226628329ed53e8f71511
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 제품 업데이트는 일정에 따라 적용하고 다른 콘텐츠 변경 사항과 그룹화할 수 있습니다. 다음을 사용할 수 있습니다. [콘텐츠 스테이징](../content-design/content-staging.md) 제품에 대해 예약된 변경 사항을 기반으로 캠페인을 만들거나 기존 캠페인에 변경 사항을 적용합니다.
+
+>[!NOTE]
+>
+>다음 [!UICONTROL Set Product as New From] 및 [!UICONTROL To] 필드 및 [!UICONTROL Schedule Design Update] 탭에서 제거됨 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce은 제품에서 바로 수정할 수 없습니다. 이러한 활성화를 위해 예약된 업데이트를 만들어야 합니다.
 
 >[!NOTE]
 >

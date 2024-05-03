@@ -3,9 +3,9 @@ title: 범주에 대해 예약된 변경 사항
 description: 마케팅 캠페인 및 스토어 프로모션을 지원하기 위해 카테고리 변경을 예약하는 방법을 알아봅니다.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 범주 업데이트는 일정에 따라 적용하고 다른 콘텐츠 변경 사항과 그룹화할 수 있습니다. 범주에 대한 예약된 변경 사항을 기반으로 캠페인을 생성하거나 기존 캠페인에 변경 사항을 적용할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [컨텐츠 스테이징](../content-design/content-staging.md).
+
+>[!NOTE]
+>
+>다음 [!UICONTROL Schedule Design Update] 탭에서 제거됨 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce 및 는 카테고리에서 바로 수정할 수 없습니다. 이러한 활성화를 위해 예약된 업데이트를 만들어야 합니다.
 
 >[!NOTE]
 >
