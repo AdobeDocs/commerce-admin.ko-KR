@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Sales] 상거래 관리자의 페이지입니다.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 9827b08e5b0123f84c87cbac672ce9bbec86f511
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1186'
 ht-degree: 1%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 1%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Maximum number of coupons per order] | 웹 사이트 | 주문당 허용되는 최대 쿠폰 수를 결정합니다. |
+| [!UICONTROL Maximum number of coupons per order] | 웹 사이트 | 주문당 허용되는 최대 쿠폰 수를 결정합니다. 이 기능은 관리, GraphQL 및 REST API에서만 사용할 수 있습니다. And it is **_사용할 수 없음_** 상점 앞에서. |
 
 {style="table-layout:auto"}
 
