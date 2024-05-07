@@ -3,9 +3,9 @@ title: Adobe Commerce의 HIPAA 준비
 description: Adobe Commerce HIPAA 준비 모듈을 추가하고 HIPAA 의무를 준수할 수 있는 추가 기능 및 기능을 얻는 방법에 대해 알아봅니다.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 3364a07b4c79a60ed813bf669a04711b69dae6f9
+source-git-commit: c21c8b76e37e617885bae3492801b45093a6b5a5
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -182,7 +182,7 @@ Adobe Commerce에 제공되는 SaaS 서비스 중 HIPAA 준비 오퍼링에서 �
 ### 기본적으로 게스트 체크아웃을 비활성화했습니다.
 
 - 게스트 체크아웃은 로깅, 액세스 제어, PHI 위생 및 계보 등을 포함하여 HIPAA의 다양한 측면에 대한 잠재적 위험을 제공합니다.
-- 게스트 체크아웃은 HIPAA 준비 모듈에서 기본적으로 비활성화되어 있지만, 상인은 위험을 감수하고 활성화할 수 있습니다.
+- 게스트 체크아웃은 HIPAA 준비 모듈에서 기본적으로 비활성화되어 있지만, 판매자는 위험을 감수하고 활성화할 수 있습니다.
 
 ### 기본적으로 뉴스레터 기능이 비활성화됨
 
@@ -191,3 +191,7 @@ Adobe Commerce에 제공되는 SaaS 서비스 중 HIPAA 준비 오퍼링에서 �
 ### 기본적으로 고급 보고 서비스 설정을 비활성화했습니다.
 
 고급 보고 서비스 설정은 PHI가 분석 및 보고에 사용되지 않도록 하기 위해 기본적으로 비활성화되지만, 판매자가 위험을 감수하고 활성화할 수 있습니다.
+
+### 기본적으로 Sendgrid 서비스를 사용하지 않도록 설정됨
+
+애플리케이션이 HIPAA를 준수하지 않으므로 Sendgrid 서비스는 기본적으로 비활성화됩니다. 가맹점은 발송그리드가 활성화되도록 지원요청서를 제출할 수 있지만, 서비스 이용에 따른 위험을 감수하겠다는 점을 인정해야 한다.
