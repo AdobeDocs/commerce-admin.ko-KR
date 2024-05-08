@@ -3,9 +3,9 @@ title: 장바구니 가격 규칙 만들기
 description: 장바구니 또는 제품 속성을 기반으로 장바구니 가격 규칙을 만드는 방법을 알아봅니다.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
+source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '3302'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ Real-Time CDP을 기반으로 장바구니 가격 규칙에 대한 조건을 설
    | `Name` | 대상 이름(예: ) `Orders over $50` |
    | `Description` | 대상자에 대한 설명(예: ) `People who placed an order over $50 in the last month.`. |
    | `Source` | 대상이 어디에서 왔는지를 나타냅니다. 예: `Experience Platform`. |
-   | `Website` | 대상자를 포함하는 데이터 스트림에 연결한 웹 사이트를 나타냅니다. 다음을 통해 상거래 인스턴스를 Experience Platform에 연결할 때 이 링크를 만듭니다. [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) 확장명. |
+   | `Website` | 대상자를 포함하는 데이터 스트림에 연결한 웹 사이트를 나타냅니다. 다음을 통해 Commerce 인스턴스를 Experience Platform에 연결할 때 이 링크를 만듭니다. [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) 확장명. |
 
    {style="table-layout:auto"}
 
@@ -328,7 +328,7 @@ Real-Time CDP을 기반으로 장바구니 가격 규칙에 대한 조건을 설
 
 1. 규칙이 올바르게 작동하는지 테스트합니다.
 
-   가격 규칙은 매일 밤 다른 시스템 규칙과 함께 자동으로 처리됩니다. 가격 규칙을 만들 때 시스템에 들어갈 충분한 시간을 허용합니다. 또한 규칙이 올바르게 작동하는지 테스트합니다. 새로운 규칙이 추가되면 Commerce는 가격과 그에 따른 우선 순위를 다시 계산합니다.
+   가격 규칙은 매일 밤 다른 시스템 규칙과 함께 자동으로 처리됩니다. 가격 규칙을 만들 때 시스템에 들어갈 충분한 시간을 허용합니다. 또한 규칙이 올바르게 작동하는지 테스트합니다. 새로운 규칙이 추가되면 Commerce은 이에 따라 가격과 우선 순위를 다시 계산합니다.
 
 ## 장바구니 가격 규칙 데모
 
@@ -360,6 +360,31 @@ Real-Time CDP을 기반으로 장바구니 가격 규칙에 대한 조건을 설
 ### [!UICONTROL Conditions]
 
 장바구니 가격 규칙이 실행되기 전에 충족해야 하는 조건을 지정합니다. 비워 두면 장바구니에 있는 모든 제품에 규칙이 적용됩니다. 조건은 장바구니와 제품 속성의 조합을 기반으로 할 수 있습니다. 그러나 [사용자 정의 가능한 옵션](../catalog/settings-advanced-custom-options.md) 장바구니 가격 규칙 조건에서 참조할 수 없습니다.
+
+| 필드 | 설명 |
+|--- |--- |
+| [!UICONTROL **장바구니 항목 속성**] |  |
+| [!UICONTROL Price in cart] | 제품 가격. 장바구니 조건의 제품 가격이 충족되는 경우 규칙이 적용됩니다. |
+| [!UICONTROL Quantity in cart] | 제품 수량. 장바구니 조건의 제품 수량이 충족되는 경우 규칙이 적용됩니다. |
+| [!UICONTROL Row total in cart] | 제품 행 합계. 장바구니 조건의 제품 행 합계가 충족되는 경우 규칙이 적용됩니다. |
+| [!UICONTROL **제품 속성**] |  |
+| [!UICONTROL Attribute Set] | 제품 속성 집합. 제품이 제품 속성 조건을 충족하면 규칙이 적용됩니다. |
+| [!UICONTROL Category] | 제품 범주. 제품 자체 또는 하위 제품 중 하나가 범주 조건을 충족하면 규칙이 적용됩니다. |
+| [!UICONTROL Category (Children Only)] | 하위 제품 범주. 이 규칙은 제품 하위 항목만 범주 조건을 충족하는 경우(제품 자체가 여기에서 확인되지 않음) 적용됩니다. |
+| [!UICONTROL Category (Parent Only)] | 상위 제품 범주. 이 규칙은 제품 자체만 범주 조건을 충족하는 경우 적용됩니다(하위 제품은 여기에서 확인하지 않음). |
+| [!UICONTROL **장바구니 속성**] |  |
+| [!UICONTROL Subtotal (Excl. Tax)] | 장바구니 소계(세금 제외). 장바구니가 소계(세금 제외) 조건을 충족하면 규칙이 적용됩니다. |
+| [!UICONTROL Subtotal (Incl. Tax)] | 장바구니 소계(세금 포함). 장바구니가 소계(세금 포함) 조건을 충족하면 규칙이 적용됩니다. |
+| [!UICONTROL Subtotal] | 장바구니 소계. 장바구니가 소계 조건을 충족하면 규칙이 적용됩니다. 이 확인서에서는 현재 세금 설정에 따라 세금을 포함하거나 제외합니다. |
+| [!UICONTROL Total Items Quantity] | 장바구니에 있는 모든 제품의 총 수량입니다. 장바구니가 총 품목 수량 조건을 충족하면 규칙이 적용됩니다. |
+| [!UICONTROL Total Weight] | 장바구니에 있는 모든 제품의 총 무게입니다. 장바구니가 총 중량 조건을 충족하는 경우 규칙이 적용됩니다. |
+| [!UICONTROL Payment Method] | 체크아웃 시 선택한 결제 방법. 이 규칙은 결제 방법 조건이 충족되는 경우에 적용됩니다. |
+| [!UICONTROL Shipping Method] | 체크아웃 시 배송 방법을 선택했습니다. 배송 방법 조건이 충족되는 경우 규칙이 적용됩니다. |
+| [!UICONTROL Shipping Postcode] | 배송 주소 우편 번호. 배송 주소가 우편 번호 조건을 충족하면 규칙이 적용됩니다. |
+| [!UICONTROL Shipping Region] | 배송 주소 영역. 배송 주소가 지역 조건을 충족하면 규칙이 적용됩니다. |
+| [!UICONTROL Shipping State/Province] | 배송 주소 시/도. 배송 주소가 시/도 조건을 충족하면 규칙이 적용됩니다. |
+| [!UICONTROL Shipping Country] | 배송 주소 국가. 배송 주소가 국가 조건을 충족하면 규칙이 적용됩니다. |
+| [!UICONTROL Customer Segment] | 이 규칙은 등록된 고객 또는 게스트 고객이 고객 세그먼트 조건을 충족하는 경우 적용됩니다. |
 
 ### [!UICONTROL Actions]
 
