@@ -3,9 +3,9 @@ title: Adobe의 확장
 description: Adobe에서 발표한 Adobe Commerce 및 Magento Open Source 확장에 대한 정보를 검토하십시오.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: c22ad5c3220f14588131d6b29a88dab3c5347681
+source-git-commit: 6414a7aea7dcbe0f2379ed74455518220a1fbd64
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Adobe Commerce 또는 Magento Open Source과 함께 자동으로 설치되는 �
 
 ### Braintree
 
-PayPal과 Gene Commerce는 Commerce 2.4.x 스토어에 대한 공식 Braintree 확장을 함께 개발했습니다. 전환을 유도하도록 설계된 향상된 체크아웃 경험을 제공하는 이 업데이트에는 쇼핑 중과 체크아웃 중에 소비자에게 관련 PayLater 메시지와 버튼을 자동으로 표시하는 PayLater 옵션이 포함됩니다.
+PayPal과 Gene Commerce은 Commerce 2.4.x 스토어의 공식 Braintree 확장 프로그램을 함께 개발했습니다. 전환을 유도하도록 설계된 향상된 체크아웃 경험을 제공하는 이 업데이트에는 쇼핑 중과 체크아웃 중에 소비자에게 관련 PayLater 메시지와 버튼을 자동으로 표시하는 PayLater 옵션이 포함됩니다.
 
 이 확장은 기본적으로 설치되지만 [Braintree 계정](https://www.braintreepayments.com/) 저장소에 대해 활성화할 수 있도록 관리자에서의 구성. Braintree을 사용하여 트랜잭션을 처리할 때 적용되는 요금을 결정하려면 [Braintree 가격](https://www.braintreepayments.com/braintree-pricing).
 
@@ -83,18 +83,13 @@ Google reCAPTCHA는 표준 CAPTCHA에서 사용할 수 있는 것보다 상점 �
 
 [!DNL Payment services] for Adobe Commerce and Magento Open Source은 결제 관리 프로세스를 간소화하고 고객에게 결제 방법을 제공할 수 있는 완전히 통합된 결제 솔루션입니다. Adobe Commerce 관리자 내에서 모든 결제 및 거래 데이터를 안전하게 조정 - 원활한 체크아웃을 제공하면서 주문과 결제를 한 곳에서 관리할 수 있습니다. 다음을 참조하십시오. [[!DNL Payment Services] 사용 안내서](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) 추가 정보.
 
-### [!DNL Quick Checkout]
-
-[!DNL Quick Checkout] for Adobe Commerce은 일회성 게스트 구매자를 단골 계정 소유자로 전환하도록 설계된 원활한 체크아웃 경험을 제공합니다.
-다음을 참조하십시오. [[!DNL Quick Checkout] 사용 안내서](https://experienceleague.adobe.com/docs/commerce-merchant-services/quick-checkout/overview.html) 추가 정보.
-
 ### [!DNL Store Fulfillment]
 
 Adobe Commerce 및 Magento Open Source을 위한 스토어 이행 기능을 통해 우수한 온라인 구매, 매장 픽업(BOPIS) 고객 경험을 제공할 수 있으며, 모바일 디바이스를 통해 구현되는 포괄적인 이행 워크플로를 제공하여 직원의 생산성을 극대화합니다. 다음을 참조하십시오. [[!DNL Store Fulfillment] 사용 안내서](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html) 추가 정보.
 
 ### [!DNL Amazon Sales Channel]
 
-다음 [!DNL Amazon Sales Channel] Adobe Commerce용 를 사용하면 Amazon Seller Central 목록 데이터베이스를 [!DNL Commerce] 제품 카탈로그 및 Commerce 관리에서 Amazon 목록 및 판매를 관리합니다. 다음을 참조하십시오. [[!DNL Amazon Sales] 안내서 사용 안내서](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) 추가 정보.
+다음 [!DNL Amazon Sales Channel] Adobe Commerce용 를 사용하면 Amazon Seller Central 목록 데이터베이스를 [!DNL Commerce] 제품 카탈로그 및 Commerce Admin에서 Amazon 목록 및 판매를 관리합니다. 다음을 참조하십시오. [[!DNL Amazon Sales] 안내서 사용 안내서](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) 추가 정보.
 
 ### [!DNL Channel Manager]
 
