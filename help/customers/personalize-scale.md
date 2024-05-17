@@ -2,7 +2,8 @@
 title: 규모에 맞는 개인화
 description: Adobe Commerce에서 쇼핑객을 위한 개인화된 경험을 만들 수 있는 기능을 알아봅니다.
 feature: Customers, Storefront, Personalization
-source-git-commit: a4eeda918adcb74ad5e7008b80eff703fa15e878
+exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
+source-git-commit: 5f40c98324c3033cdeb8a11e89a71497ced890b8
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 0%
@@ -107,30 +108,30 @@ Commerce의 고객 및 주문 컨텍스트 데이터는 다음과 같은 유형�
 
 다음 두 섹션에서는 이 데이터를 사용하여에서 개인화된 경험을 만드는 방법을 알아봅니다 [Adobe Experience Platform](#using-commerce-data-in-adobe-experience-platform) 및 [기본 Commerce 기능](#using-commerce-data-in-native-commerce-features).
 
-## Adobe Experience Platform에서 상거래 데이터 사용
+## Adobe Experience Platform에서 Commerce 데이터 사용
 
-모든 채널에서 쇼핑객을 위한 개인화된 경험을 만들려면 를 사용하여 상거래 데이터를 Experience Platform Edge Network로 보내십시오. [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) 확장명.
+모든 채널에서 쇼핑객을 위한 개인화된 경험을 만들려면 다음을 사용하여 Commerce 데이터를 Experience Platform Edge Network으로 보내십시오. [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) 확장명.
 
 ![데이터가 Experience Platform 에지로 이동하는 방법](assets/commerce-edge.png){width="700" zoomable="yes"}
 
 위의 이미지에서 상점, 백오피스 및 고객 프로필 데이터는 SDK, API 및 소스 커넥터를 사용하여 Experience Platform Edge로 전송됩니다. 확장이 데이터 공유 복잡성을 처리하므로 이러한 부분이 어떻게 작동하는지 완전히 이해할 필요는 없습니다. 이벤트 데이터가 에지에 있으면 해당 데이터를 다른 Experience Platform 애플리케이션으로 가져올 수 있습니다.
 
-다음 표에서는 사용 가능한 일부 Experience Platform 애플리케이션과 이러한 애플리케이션이 상거래 데이터를 사용하는 방법을 중점적으로 보여 줍니다.
+다음 표에서는 사용 가능한 Experience Platform 애플리케이션 중 일부와 해당 애플리케이션이 Commerce 데이터를 사용하는 방법을 강조 표시합니다.
 
-| 경험 | 애플리케이션 | 상거래 데이터 사용 방법 |
+| 경험 | 애플리케이션 | Commerce 데이터 사용 방법 |
 |---|---|---|
 | **사이트 콘텐츠** | [Adobe [!DNL Real-Time CDP]](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview) | Adobe Commerce 데이터는 여러 소스(ERP, CRM, CMS, POS)의 데이터를 단일 프로필로 연결하는 Real-Time CDP을 통해 통합 고객 프로필을 향상시킵니다. Real-Time CDP은 규칙 기반 세그먼트와 AI 기반 세그먼트를 모두 만들어 마케팅 솔루션 세트에서 사용할 수도 있습니다. Real-Time CDP 대상을 사용하여 콘텐츠 블록, 프로모션 및 관련 제품 규칙을 개인화할 수도 있습니다. 다음을 참조하십시오 [[!DNL Audience Activation]](../customers/audience-activation.md) 자세히 알아보십시오&#x200B;. |
-|  | [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro) | Adobe Commerce 데이터는 Adobe에서 활성화할 수 있습니다. [!DNL Target] 동적 랜딩 페이지 테스트, 최적화 및 생성을 위해. 전송된 상거래 데이터를 기반으로 설명, 사양, 검토 및 권장 제품과 같이, 콘텐츠가 페이지에 표시되는 순서를 개인화할 수 있습니다. |
+|  | [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro) | Adobe Commerce 데이터는 Adobe에서 활성화할 수 있습니다. [!DNL Target] 동적 랜딩 페이지 테스트, 최적화 및 생성을 위해. 전송된 Commerce 데이터를 기반으로 설명, 사양, 검토 및 권장 제품과 같이, 콘텐츠가 페이지에 표시되는 순서를 개인화할 수 있습니다. |
 | **오퍼 및 캠페인** | [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started) | Adobe Commerce 행동 및 백 오피스 데이터는 이메일 여정, SMS, 푸시 알림 등을 포함하여 개인화된 옴니채널 캠페인에 대한 트리거 역할을 할 수 있습니다&#x200B;. |
-| **측정** | [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview) 및 [고객 [!DNL Journey Analytics]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) | Commerce가 상점 및 백오피스 데이터를 모두 고객에게 전송 [!DNL Journey Analytics] (및 Adobe에 대한 storefront 데이터만 해당) [!DNL Analytics])를 사용하여 매출, 상품 및 프로모션과 같은 Adobe Commerce Intelligence의 기본 지표 이상의 풍부한 분석을 수행할 수 있습니다&#x200B;. |
+| **측정** | [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview) 및 [고객 [!DNL Journey Analytics]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) | Commerce은 상점 및 백오피스 데이터를 모두 고객에게 보냅니다. [!DNL Journey Analytics] (및 Adobe에 대한 storefront 데이터만 해당) [!DNL Analytics])를 사용하여 매출, 상품 및 프로모션과 같은 Adobe Commerce Intelligence의 기본 지표 이상의 풍부한 분석을 수행할 수 있습니다&#x200B;. |
 
-상거래 데이터를 Experience Platform에 보내는 방법에 대한 자세한 내용은 [데이터 연결](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
+Commerce 데이터를 Experience Platform에 전송하는 방법에 대한 자세한 내용은 [데이터 연결](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
 
-## 기본 Commerce 기능에서 상거래 데이터 사용
+## 기본 Commerce 기능에서 Commerce 데이터 사용
 
-다음 섹션에서는 제품 Recommendations 및 라이브 검색과 같은 기본 Commerce 기능을 사용하여 개인화된 쇼핑 경험을 만드는 방법에 대해 알아봅니다. 다음 기능에 대해서도 학습하게 됩니다. [!DNL Audience Activation]: 언급된 대로 Real-Time CDP라는 Experience Platform에서 사용할 수 있는 제품의 데이터를 사용합니다 [이전에](#using-commerce-data-in-adobe-experience-platform). Real-Time CDP은 Commerce의 기반이 아니지만 를 통해 해당 정보를 Commerce에 수집할 수 있습니다. [[!DNL Audience Activation]](../customers/audience-activation.md) 확장명.
+다음 섹션에서는 제품 Recommendations 및 라이브 검색과 같은 기본 Commerce 기능을 사용하여 개인화된 쇼핑 경험을 만드는 방법을 알아봅니다. 다음 기능에 대해서도 학습하게 됩니다. [!DNL Audience Activation]: 언급된 대로 Real-Time CDP라는 Experience Platform에서 사용할 수 있는 제품의 데이터를 사용합니다 [이전에](#using-commerce-data-in-adobe-experience-platform). Real-Time CDP은 Commerce이 원산지가 아니지만 를 통해 Commerce에 정보를 수집할 수 있습니다. [[!DNL Audience Activation]](../customers/audience-activation.md) 확장명.
 
-다음 표에서는 Commerce 고객 및 주문 컨텍스트 데이터를 실행 가능한 통찰력으로 변환하는 데 사용할 수 있는 Commerce 기능을 강조 표시합니다.
+다음 표에서는 Commerce 고객 및 주문 컨텍스트 데이터를 실행 가능한 통찰력으로 만드는 데 사용할 수 있는 Commerce 기능을 강조 표시합니다.
 
 | 경험 | 기능 | 설명 |
 |---|---|---|

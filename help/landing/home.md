@@ -7,8 +7,8 @@ breadcrumb-title: 판매자 설명서
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 source-git-commit: e64045a84f79a204450e6da71bcf9f7f72882403
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 1%
+source-wordcount: '1184'
+ht-degree: 0%
 
 ---
 
@@ -119,16 +119,16 @@ Magento Open Source은 Adobe이 Adobe Commerce에 공식적으로 기여하고 �
 
 >[!TIP]
 >
->다음을 검토할 수도 있습니다. [Commerce Services 설명서의 새로운 기능](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) 및 [운영 안내서의 새로운 기능](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
+>다음을 검토할 수도 있습니다. [Commerce 서비스 설명서의 새로운 기능](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) 및 [운영 안내서의 새로운 기능](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new).
 
 | 설명 | 유형 | 날짜 |
 | ----------- | ---- | ---- |
 | **1.4.0 B2B 릴리스** - Adobe Commerce 릴리스 노트에 대한 B2B는 변경 사항 및 추가 사항에 대해 설명합니다. [1.4.0 릴리스](../b2b/release-notes.md#b2b-v140). | 업데이트 | 06/13/23 |
 | **1.4.0 B2B 릴리스** - [구매자에 대한 견적 시작](../b2b/sales-rep-initiates-quote.md) 이제 주제가 다음에 포함됩니다. _Adobe Commerce용 B2B 안내서_. 판매자가 협상 프로세스를 시작하기 위해 특정 구매자에 대한 견적을 생성하는 방법에 대해 설명합니다. | 신규 | 06/13/23 |
 | **1.4.0 B2B 릴리스** - [견적 협상](../b2b/quote-price-negotiation.md), [협상 가능한 견적](../b2b/quotes.md), 및 [B2B 기능 활성화](../b2b/enable-basic-features.md) 판매자가 시작한 견적 및 기본 기능에 대한 변경 사항을 반영하도록 항목이 업데이트됩니다. | 업데이트 | 06/13/23 |
-| **2.2.0 Adobe IMS 통합 릴리스** - [Adobe ID과의 Commerce Admin Integration 비활성화](../getting-started/adobe-ims-disable.md) 이제 주제가 다음에 포함됩니다. _시작 안내서_. Adobe IMS와 Adobe Commerce Admin 통합을 사용하지 않도록 설정하는 선택적 절차에 대해 설명합니다. | 신규 | 06/13/23 |
+| **2.2.0 Adobe IMS 통합 릴리스** - [Adobe ID과 Commerce Admin Integration 비활성화](../getting-started/adobe-ims-disable.md) 이제 주제가 다음에 포함됩니다. _시작 안내서_. Adobe IMS와 Adobe Commerce Admin 통합을 사용하지 않도록 설정하는 선택적 절차에 대해 설명합니다. | 신규 | 06/13/23 |
 | **2.2.0 Adobe IMS 통합 릴리스** - 의 변경 사항 [Adobe Identity Management 서비스(IMS) 통합 개요](../getting-started/adobe-ims-integration-overview.md) 및 [Adobe ID과 Commerce Admin Integration 구성](../getting-started/adobe-ims-config.md) 업데이트된 기능을 반영하는 항목입니다. | 업데이트 | 06/13/23 |
-| **[!DNL Audience Activation]** - 신규 및 업데이트 및 향상된 정보가 [[!DNL Audience Activation]](../customers/audience-activation.md) 을(를) 반영할 주제 [!DNL Experience Platform Connector] 구성 UI 및 장바구니 가격 규칙 및 동적 블록과 함께 headless Commerce 인스턴스를 사용하는 방법. | 업데이트 | 06/13/23 |
+| **[!DNL Audience Activation]** - 신규 및 업데이트 및 향상된 정보가 [[!DNL Audience Activation]](../customers/audience-activation.md) 을(를) 반영할 주제 [!DNL Experience Platform Connector] 구성 UI 및 장바구니 가격 규칙 및 동적 블록과 함께 headless Commerce 인스턴스를 사용하는 방법 | 업데이트 | 06/13/23 |
 | **UPS API 사용 중단** - 을(를) 업데이트함 [UPS(United Parcel Service)](../stores-purchase/ups.md) 주제 및 [게재 방법](../configuration-reference/sales/delivery-methods.md#ups) 새 API 키 생성을 위한 UPS API의 일시적인 사용 중단을 반영하는 구성 참조 페이지 | 업데이트 | 06/08/23 |
 | **2.4.6 릴리스** - 을(를) 업데이트함 [제품 목록](../catalog/products-list.md) 및 [관리자 구성 참조](../configuration-reference/advanced/admin.md) 큰 카탈로그의 성능을 향상시키는 데 사용할 수 있는 제품 표시 제한 사항에 대한 정보를 포함하는 주제입니다. | 업데이트 | 03/14/23 |
 | **2.4.6 릴리스** - 을(를) 업데이트함 [고객 세그먼트 만들기 및 삭제](../customers/customer-segment-create.md) 및 [고객 구성 참조](../configuration-reference/customers/customer-configuration.md) 항목은 세그먼트의 실시간 유효성 검사에 대한 정보를 포함합니다. | 업데이트 | 03/14/23 |
@@ -138,7 +138,7 @@ Magento Open Source은 Adobe이 Adobe Commerce에 공식적으로 기여하고 �
 | **2.4.6 릴리스** - 을(를) 업데이트함 [Inventory management 릴리스 노트](../inventory-management/release-notes.md) 최신 번들 확장 버전(v1.2.6)에 포함된 수정 사항을 설명하는 목록으로 표시합니다. | 업데이트 | 03/14/23 |
 | **2.4.6 릴리스** - 을(를) 업데이트함 [B2B 릴리스 노트](../b2b/release-notes.md) 최신 확장 버전(v1.3.5)에 포함된 수정 사항을 설명하는 목록과 함께. | 업데이트 | 03/14/23 |
 | **새 주제** - 이(가) 을(를) 추가함 [대상자 활성화](../getting-started/commerce-account-transfer.md) 다음에 대한 주제 _고객 관리 안내서_: Adobe Commerce에서 Real-Time CDP 대상 활성화에 대한 자세한 정보를 제공합니다. | 신규 | 03/13/23 |
-| **새 주제** - 이(가) 을(를) 추가함 [상거래 계정 양도](../getting-started/commerce-account-transfer.md) 다음에 대한 주제 _시작 안내서_. | 신규 | 02/27/23 |
+| **새 주제** - 이(가) 을(를) 추가함 [Commerce 계정 양도](../getting-started/commerce-account-transfer.md) 다음에 대한 주제 _시작 안내서_. | 신규 | 202/27/23 |
 
 {style="table-layout:auto"}
 

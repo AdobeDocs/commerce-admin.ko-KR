@@ -1,15 +1,15 @@
 ---
-title: 상거래 머천다이징 및 프로모션 소개
+title: Commerce 머천다이징 및 프로모션 소개
 description: 타깃팅된 프로모션 및 고객 참여 기회를 만들기 위한 Commerce 도구에 대해 알아봅니다.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
 
-# 상거래 머천다이징 및 프로모션 소개
+# Commerce 머천다이징 및 프로모션 소개
 
 프로모션을 타겟팅하고 고객 참여를 위한 기회를 창출하며 구매자를 구매자로 전환합니다. 구매 후 활동을 지원하고 재방문 고객에게 특별 할인을 제공하여 고객 관계를 관리합니다. SEO 이니셔티브를 지원하는 모범 사례 및 기법을 알아보십시오.
 

@@ -5,7 +5,7 @@ mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
 workflow-type: tm+mt
-source-wordcount: '3326'
+source-wordcount: '3322'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Adobe의 비전은 경험 주도, 데이터 기반, 기술 지원 상거래 플�
 이 새로운 고성능 상점은 다음과 같은 여러 Adobe Commerce 판매자에 의해 이미 성공적으로 시범 운영되었습니다. [처녀형](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world), HanesBrands의 속성. 그 결과는 스스로 증명한다. Maidenform 페이지는 Google Lighthouse 점수를 일관되게 전달합니다. [100 및 핵심 웹 바이탈 결과](https://treo.sh/sitespeed/www.maidenform.com) 업계 평균보다 훨씬 높다.
 
 ![사이트 속도 결과](assets/maidenform-site.png){width=&quot;50%&quot; align=center}
-![핵심 웹 바이탈 차트](assets/maidenform-site-stats.png){zoomable=&quot;yes&quot;}
+![핵심 웹 바이탈 차트](assets/maidenform-site-stats.png){zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
@@ -186,7 +186,7 @@ Adobe Commerce은 라이브 검색, 제품 Recommendations, 카탈로그 서비�
 
 Adobe은 또한 마케터가 Commerce 데이터를 분석하고 개인화를 위한 기회를 식별하는 데 도움이 되도록 Adobe Experience Platform에 Commerce 관련 대시보드를 추가하고 있습니다.
 
-![포기한 장바구니 캠페인의 다이어그램](assets/use-case-playbook.png){zoomable=&quot;yes&quot;}
+![포기한 장바구니 캠페인의 다이어그램](assets/use-case-playbook.png){zoomable="yes"}
 
 #### Real-time CDP Adobe의 대상을 사용하여 개인화 활성화
 
