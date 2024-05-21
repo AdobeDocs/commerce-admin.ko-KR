@@ -1,11 +1,11 @@
 ---
 title: Adobe Commerce의 HIPAA 준비
-description: Adobe Commerce HIPAA 준비 모듈을 추가하고 HIPAA 의무를 준수할 수 있는 추가 기능 및 기능을 얻는 방법에 대해 알아봅니다.
+description: Adobe Commerce HIPAA 지원 확장을 추가하고 HIPAA 의무를 준수할 수 있는 추가 기능 및 기능을 얻는 방법에 대해 알아봅니다.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 7e132d66523feba579baf0bae14e1de9de4d6591
+source-git-commit: b7ce092f843992b1e4d0ca23981c70d854ded5f9
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1570'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,13 @@ HIPAA(Health Insurance Portability and Accountability Act)는 미국의 주요 �
 
 ## Adobe Commerce HIPAA 지원
 
-Adobe Commerce HIPAA-Ready에는 상인이 각각의 HIPAA 의무를 준수할 수 있는 추가 기능 및 기능이 있습니다.
+Adobe Commerce HIPAA 지원 확장은 Adobe Commerce 설치에 상인이 각각의 HIPAA 의무를 준수할 수 있는 추가 기능 및 기능을 추가합니다.
 
-Adobe Commerce HIPAA 지원 은 Adobe Commerce 확장, `magento/hipaa-ee` 클라우드 인프라의 Adobe Commerce 또는 Adobe Managed Services 프로젝트에 사용할 수 있습니다. Adobe Commerce HIPAA 준비 설치 프로세스는 HIPAA 요구 사항을 준수하기 위해 일부 기본 서비스 및 기능을 비활성화합니다. 다음을 참조하십시오 [비활성화된 서비스 및 기능](#disabled-services-and-features).
+Adobe Commerce HIPAA 지원 확장, `magento/hipaa-ee` 는 클라우드 인프라의 Adobe Commerce 또는 Managed Services 프로젝트 Adobe에 사용할 수 있습니다. Adobe Commerce HIPAA 준비 설치 프로세스는 HIPAA 요구 사항을 준수하기 위해 일부 기본 서비스 및 기능을 비활성화합니다. 다음을 참조하십시오 [비활성화된 서비스 및 기능](#disabled-services-and-features).
+
+>[!NOTE]
+>
+>HIPAA 지원 기능 액세스는 Adobe Commerce용 의료 서비스 추가 기능을 구입한 판매자만 사용할 수 있습니다.
 
 *이러한 자료는 정보 제공 목적으로만 작성되었습니다. 이 정보의 제공은 수취인에게 어떠한 계약상의 권리나 다른 권리에 대한 자격을 부여하지 않는다. 제공된 날짜 현재 정보의 정확성을 보장하기 위해 노력했지만, 그러한 정보가 정확하고 완전하다는 표현은 하지 않습니다. Adobe은 법률 또는 Adobe의 제품이 변경될 때 이 정보를 업데이트할 의무가 없습니다. 또한 본 문서는 Adobe의 서면 동의 없이 의도한 수신자 이외의 당사자에게 배포되지 않습니다.*
 
@@ -39,15 +43,16 @@ Adobe Commerce은 버전 2.4.6-p3 이상(베타 버전 없음)의 Adobe Commerce
 
 ## 설치
 
-최신 버전의 Adobe의 HIPAA 준비 서비스 확장(`magento/hipaa-ee`) Adobe Commerce 버전 2.4.6-p3 이상을 실행 중인 인스턴스에서 확장은 다음에서 작성기 메타패키지로 전달됩니다. [repo.magento.com](https://repo.magento.com) 리포지토리.
+**전제 조건**
 
 >[!BEGINSHADEBOX]
 
-**전제 조건**
-
-다음에 대한 액세스 권한이 있어야 합니다. [repo.magento.com](https://repo.magento.com) 확장을 설치합니다. 키 생성 및 필요한 권한 획득에 대한 자세한 내용은 [인증 키 받기](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+- Adobe이 HIPAA 준비 확장에 액세스할 수 있도록 Adobe Commerce 계정을 프로비저닝했습니다.
+- 액세스 대상: [repo.magento.com](https://repo.magento.com) 확장을 설치합니다. 키 생성 및 필요한 권한 획득에 대한 자세한 내용은 [인증 키 받기](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
 >[!ENDSHADEBOX]
+
+최신 버전의 Adobe의 HIPAA 준비 서비스 확장(`magento/hipaa-ee`) Adobe Commerce 버전 2.4.6-p3 이상을 실행 중인 인스턴스에서 확장은 다음에서 작성기 메타패키지로 전달됩니다. [repo.magento.com](https://repo.magento.com) 리포지토리. 메타패키지에는 Adobe Commerce 인스턴스에 대해 HIPAA 기능을 활성화하는 모듈 컬렉션이 포함되어 있습니다.
 
 1. 로컬 워크스테이션에서 Adobe Commerce on cloud infrastructure 프로젝트의 프로젝트 디렉터리로 변경합니다.
 
@@ -120,7 +125,7 @@ Adobe Commerce은 버전 2.4.6-p3 이상(베타 버전 없음)의 Adobe Commerce
 
 ## HIPAA 준비를 위한 기능 개선 사항
 
-다음 `magento/hipaa-ee` 패키지는 기본 Commerce 제품에 대한 몇 가지 변경 사항 및 개선 사항을 도입했습니다. 다음 섹션은 이러한 변경 사항과 기본 제품을 변경하는 방법에 대한 세부 정보를 제공합니다.
+다음 `magento/hipaa-ee` 확장 프로그램은 기본 Commerce 제품에 대한 몇 가지 변경 사항 및 개선 사항을 도입했습니다. 다음 섹션은 이러한 변경 사항과 기본 제품을 변경하는 방법에 대한 세부 정보를 제공합니다.
 
 ### 작업 로그
 
@@ -210,7 +215,7 @@ HIPAA 요구 사항을 준수하기 위해 Adobe Commerce에서 지원하는 일
    - App Builder
    - 카탈로그 서비스
 
-- **[SendGrid 서비스](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—애플리케이션이 HIPAA를 준수하지 않으므로 이 서비스는 기본적으로 비활성화됩니다. 가맹점은 발송그리드를 활성화하기 위해 지원요청서를 제출할 수 있지만, 서비스 이용에 대한 위험을 감수하고 있다는 점을 인정해야 한다.
+- **[SendGrid 서비스](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—애플리케이션이 HIPAA를 준수하지 않으므로 이 서비스는 기본적으로 비활성화됩니다.
 
 ### 기본적으로 비활성화된 기능
 
