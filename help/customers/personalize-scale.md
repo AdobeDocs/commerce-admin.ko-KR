@@ -1,146 +1,105 @@
 ---
-title: 규모에 맞는 개인화
-description: Adobe Commerce에서 쇼핑객을 위한 개인화된 경험을 만들 수 있는 기능을 알아봅니다.
+title: 규모에 맞게 매력적이고 개인화된 경험 만들기
+description: Adobe의 기능 알아보기 [!DNL Commerce] 을(를) 통해 쇼핑객을 위한 개인화된 경험을 만들 수 있습니다.
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 5f40c98324c3033cdeb8a11e89a71497ced890b8
+source-git-commit: 1a63af10d76cb9d17a992e8822e99d50bcdfa84e
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1630'
 ht-degree: 0%
 
 ---
 
-# 규모에 맞는 개인화
+# 규모에 맞게 매력적이고 개인화된 경험 만들기
 
-규모&#x200B;의 개인화를 통해 즉각적인 컨텍스트 및 이전에 관찰된 행동을 기반으로 모든 고객 접점에 대한 쇼핑 경험을 개인화할 수 있습니다. 매번 가장 관련성이 높고 개인화된 경험을 제시하는 것이 목표다.
+Adobe [!DNL Commerce] 은 모든 고객 접점을 개인화하여 쇼핑객 참여, 전환 및 매출을 높일 수 있는 강력한 툴킷을 제공합니다.
 
-개인화된 쇼핑 경험을 제공할 때의 이점을 이해하려면 [_규모에 맞게 개인화 시작하기_](https://business.adobe.com/resources/reports/getting-started-with-personalization-at-scale.html) 보고서.
+이 문서에서는 다음을 학습합니다.
 
-개인화된 쇼핑 경험을 만들려면 고객 컨텍스트를 이해하는 데 필요한 데이터 유형에 대해 알아두어야 합니다. 여기에서 해당 데이터를 사용하여 개인화된 쇼핑 경험을 만드는 데 필요한 고객 인사이트를 여는 Adobe Commerce 기능에 대해 알아봅니다.
+- 개인화란?
+- 개인화를 달성하는 데 필요한 데이터는 무엇입니까?
+- Adobe 방법 [!DNL Commerce] 개인화 잠금 해제
+- 사용 가능한 개인화 사용 사례
 
-다음 이미지는 쇼핑 경험을 개인화하는 데 포함된 개념을 보여 줍니다.
+## 개인화란?
 
-![개인화 파이프라인 구축](assets/personalization-journey.png){width="700" zoomable="yes"}
+개인화는 각 고객의 고유한 요구 사항, 컨텍스트 및 선호도를 충족하도록 각 고객의 구매 경험을 맞춤화하는 것을 의미합니다. 개인화는 사이트의 콘텐츠에만 국한되거나 가장 적합한 제품을 추천하는 것이 아니라 다음을 포함하여 고객 여정 전반에 걸쳐 모든 접점을 포함합니다.
 
-이 문서에서는 위의 각 개념에 대해 보다 자세히 설명합니다.
+- **캠페인 및 커뮤니케이션** - 캠페인 및 커뮤니케이션을 통해 관련성이 높고 일관된 메시지 전달
+- **제품 검색** - 적절한 시기에 적절한 고객에게 적합한 제품 표시
+- **프로모션 및 오퍼** - 각 고객이 전환하도록 유도하는 프로모션 및 오퍼 타기팅
+- **컨텐츠 경험** - 사이트 콘텐츠를 맞춤화하여 각 고객 및 해당 여정과 밀접한 관련이 있음을 느낌
 
-## 쇼핑 경험을 개인화하는 방법
+![개인화 유형](assets/types-personalization.png){width="700" zoomable="yes"}
 
-성공적인 개인화는 고객 컨텍스트에서 시작됩니다. 이 섹션에서는 고객 컨텍스트를 구축하는 데 도움이 되는 데이터 유형에 대해 알아봅니다.
+일부 소규모 고객에게는 이러한 유형의 개인화된 경험을 달성할 수 있는 것처럼 보일 수 있지만, 모든 접점 및 채널에서 수천 또는 수백만의 고객을 대상으로 실시간으로 개인화하는 것은 모두 불가능하다고 느낄 수 있습니다. 다음 섹션에서 Adobe 방법을 알아봅니다 [!DNL Commerce] Adobe Experience Cloud이 도움을 줄 수 있습니다.
 
-### Storefront 데이터
+## 개인화를 달성하는 데 필요한 데이터는 무엇입니까?
 
-행동 또는 브라우저 데이터라고도 하는 상점 데이터는 쇼핑객이 귀하의 사이트와 상호 작용하는 방법에 대한 통찰력을 보여줄 수 있습니다. For example:
+효과적인 개인화를 위해서는 고객의 경험을 수정하는 데 사용할 수 있는 고객에 대한 정보를 제공하는 컨텍스트 또는 신호가 필요합니다. 다음 표는 다양한 데이터 유형과 Adobe 중인 역할을 제공합니다 [!DNL Commerce] 는 해당 데이터의 수집 및 활성화를 지원합니다.
 
-- 쇼핑객들이 가장 관심 있는 제품 및 카테고리는 무엇입니까?
-- 내 쇼핑객들이 가장 많이 참여하는 검색 쿼리는 무엇입니까?
-- 쇼핑객들이 장바구니에 상품을 추가했다가 포기하는 건가요?
-- 쇼핑객이 데스크탑 또는 모바일 브라우저를 사용하고 있습니까?
+| 데이터 유형 | Storefront 데이터(행동 이벤트) | 백오피스 데이터(서버측 이벤트) | 고객 프로필 및 세그먼트 데이터 |
+|---|---|---|---|
+| **정의** | 고객이 사이트에서 수행하는 클릭 또는 작업입니다. | 각 주문(과거 및 현재)의 라이프사이클 및 세부 정보에 대한 정보. | 구매자가 누구이며 어떤 세그먼트에 해당하는지 지정합니다. |
+| **Adobe Commerce에 의해 캡처된 이벤트** | [pageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#pageview)<br>[제품 페이지 보기](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)<br>[searchRequestSent](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#searchrequestsent)<br>[searchResponseReceived](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#searchresponsereceived)<br>[추가 장바구니](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#addtocart)<br>[openCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#opencart)<br>[로그인](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#signin)<br>[로그아웃](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#signout)<br>[startCheck](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#startcheckout)<br>[completeCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#completecheckout)<br>[createRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#createrequisitionlist)<br>[addToRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#addtorequisitionlist)<br>[removeFromRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#removefromrequisitionlist) | **주문 상태**:<br>[주문](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#orderplaced)<br>[orderItemsReturnInitiated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#orderitemsreturnedinitiated)<br>[orderItemsShipped](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#orderitemsshipped)<br>[orderCanceled](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#ordercancelled)<br>[**주문 내역**](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/connect-data#send-historical-order-data):<br>- SKU, 이름, 가격 수량, 할인<br>- 제품 범주<br>- 결제 금액, 유형, 통화<br>- 배송 방법 및 금액<br>- 환불 ID, 금액, 통화<br>- 반환 이유, 조건, 해결 방법<br>- 주소<br>- 이메일 | [**프로필 레코드**](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-profilerecord): (이름, 성별, 주소, 충성도 상태, 전화 번호, 이메일 주소)<br>**계정 상태**:<br>[accountCreated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#accountcreated)<br>[계정 업데이트됨](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#accountupdated)<br>[accountDeleted](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#accountdeleted) |
 
-다음 Storefront 이벤트는 이러한 질문에 답변하는 데 도움이 될 수 있는 데이터를 캡처합니다.
+이 부자, 퍼스트 파티 [!DNL Commerce] 데이터를 사용하면 각 쇼핑객의 경험을 타겟팅하고 개인화할 준비가 된 것입니다. 다음 섹션에서 다음 방법을 알아봅니다 [!DNL Commerce] 및 Adobe Experience Cloud을 사용하면 개인화된 경험과 활성화할 수 있는 사용 사례를 만들 수 있습니다.
 
-- [pageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [searchRequestSent](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [searchResponseReceived](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [제품 페이지 보기](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [추가 장바구니](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [openCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [로그인](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [로그아웃](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [startCheck](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [completeCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [createRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [addToRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [removeFromRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
+## Adobe 방법 [!DNL Commerce] 개인화에 권한을 부여하시겠습니까?
 
-### 백오피스 데이터
-
-서버측 데이터라고도 하는 백오피스 데이터는 주문 수명 주기에 대한 통찰력을 보여줄 수 있습니다. For example:
-
-- 계절에 따라 더 자주 구매하는 상품이 있나요?
-- 쇼핑객들이 반품하고 있나요?
-- 라이프타임 고객 가치를 계산하려면 어떻게 해야 합니까?
-
-다음 백오피스 이벤트는 이러한 질문에 답변하는 데 도움이 될 수 있는 데이터를 캡처합니다.
-
-- [주문](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [orderItemsReturnInitiated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [orderItemsShipped](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [orderCanceled](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-
-### 고객 프로필 및 세그먼트 데이터
-
-고객 프로필 데이터는 구매자가 누구이며 어떤 세그먼트에 해당되는지에 대한 인사이트를 보여줄 수 있습니다. For example:
-
-- 이름
-- 성별
-- 주소
-- 충성도 상태
-- 전화 번호
-- 이메일 주소
-- 충성도 상태
-- 전화 번호
-- 이메일 주소
-- 업그레이드 가능 여부
-- 크로스 채널 쇼핑객
-- 신제품 전망
-- 골드, 실버 또는 브론즈 로열티 멤버
-
-다음 프로필 이벤트는 이러한 질문에 답변하는 데 도움이 될 수 있는 데이터를 캡처합니다.
-
-- [프로필 레코드](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-profilerecord)
-- [accountCreated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [계정 업데이트됨](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [accountDeleted](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-
-상점, 백오피스 및 프로필 데이터는 Commerce 고객 및 주문 컨텍스트의 기초를 형성하므로 고객이 보고 구매하는 제품이 무엇인지 알 수 있습니다. 그런 다음 고객의 관심사를 타겟팅하고 경험을 개인화할 수 있습니다. 다음 섹션에서는 쇼핑객과 참여할 수 있는 개인화된 경험 유형에 대해 알아봅니다.
-
-## 개인화된 경험 유형
-
-Commerce의 고객 및 주문 컨텍스트 데이터는 다음과 같은 유형의 개인화된 경험을 제공합니다.
-
-| 경험 | 설명 |
-|---|---|
-| **제품 검색** | 다음과 같은 머천다이징 서비스를 포함합니다. [SaaS로 배포](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas). 이것은 행동 데이터, 제품 속성 및 재고 수준을 사용하여 검색 결과, 제품 권장 사항 및 검색 페이지에서 제품 검색을 자동으로 개인화할 수 있는 기능입니다. 이러한 기능은 모두 [ADOBE SENSEI AI](https://business.adobe.com/products/sensei/adobe-sensei.html). |
-| **사이트 콘텐츠** | 사이트를 탐색하는 현재 고객을 기반으로 개인화된 동적 콘텐츠 블록을 배포하는 기능을 나타냅니다. |
-| **오퍼 및 캠페인** | 세그먼트 데이터를 기반으로 개인화된 홍보 콘텐츠를 배포할 수 있습니다. |
-| **측정** | 데이터 인텔리전스를 사용하여 매출, 채널 및 상품 성과, 프로모션 등을 포함하여 비즈니스를 더 잘 이해합니다. |
-
-다음 두 섹션에서는 이 데이터를 사용하여에서 개인화된 경험을 만드는 방법을 알아봅니다 [Adobe Experience Platform](#using-commerce-data-in-adobe-experience-platform) 및 [기본 Commerce 기능](#using-commerce-data-in-native-commerce-features).
-
-## Adobe Experience Platform에서 Commerce 데이터 사용
-
-모든 채널에서 쇼핑객을 위한 개인화된 경험을 만들려면 다음을 사용하여 Commerce 데이터를 Experience Platform Edge Network으로 보내십시오. [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) 확장명.
+Adobe [!DNL Commerce] 데이터 공유를 사용하면 이전 테이블의 데이터 유형을 수집하고 다른 Adobe Experience Cloud 제품에 공유하여 통합 고객 프로필 및 대상, 개인화된 캠페인, 풍부한 분석 및 통찰력을 강화할 수 있습니다.
 
 ![데이터가 Experience Platform 에지로 이동하는 방법](assets/commerce-edge.png){width="700" zoomable="yes"}
 
-위의 이미지에서 상점, 백오피스 및 고객 프로필 데이터는 SDK, API 및 소스 커넥터를 사용하여 Experience Platform Edge로 전송됩니다. 확장이 데이터 공유 복잡성을 처리하므로 이러한 부분이 어떻게 작동하는지 완전히 이해할 필요는 없습니다. 이벤트 데이터가 에지에 있으면 해당 데이터를 다른 Experience Platform 애플리케이션으로 가져올 수 있습니다.
+Adobe [!DNL Commerce] 데이터 공유에는 두 가지 주요 구성 요소가 포함됩니다.
 
-다음 표에서는 사용 가능한 Experience Platform 애플리케이션 중 일부와 해당 애플리케이션이 Commerce 데이터를 사용하는 방법을 강조 표시합니다.
+1. [데이터 연결](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview): Adobe에서 상점, 백오피스 및 고객 프로필 데이터 공유 [!DNL Commerce] 을 Adobe Experience Cloud 애플리케이션 전반에서 사용할 수 있도록 Adobe Experience Platform edge network에 제공:
 
-| 경험 | 애플리케이션 | Commerce 데이터 사용 방법 |
-|---|---|---|
-| **사이트 콘텐츠** | [Adobe [!DNL Real-Time CDP]](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview) | Adobe Commerce 데이터는 여러 소스(ERP, CRM, CMS, POS)의 데이터를 단일 프로필로 연결하는 Real-Time CDP을 통해 통합 고객 프로필을 향상시킵니다. Real-Time CDP은 규칙 기반 세그먼트와 AI 기반 세그먼트를 모두 만들어 마케팅 솔루션 세트에서 사용할 수도 있습니다. Real-Time CDP 대상을 사용하여 콘텐츠 블록, 프로모션 및 관련 제품 규칙을 개인화할 수도 있습니다. 다음을 참조하십시오 [[!DNL Audience Activation]](../customers/audience-activation.md) 자세히 알아보십시오&#x200B;. |
-|  | [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro) | Adobe Commerce 데이터는 Adobe에서 활성화할 수 있습니다. [!DNL Target] 동적 랜딩 페이지 테스트, 최적화 및 생성을 위해. 전송된 Commerce 데이터를 기반으로 설명, 사양, 검토 및 권장 제품과 같이, 콘텐츠가 페이지에 표시되는 순서를 개인화할 수 있습니다. |
-| **오퍼 및 캠페인** | [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started) | Adobe Commerce 행동 및 백 오피스 데이터는 이메일 여정, SMS, 푸시 알림 등을 포함하여 개인화된 옴니채널 캠페인에 대한 트리거 역할을 할 수 있습니다&#x200B;. |
-| **측정** | [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview) 및 [고객 [!DNL Journey Analytics]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) | Commerce은 상점 및 백오피스 데이터를 모두 고객에게 보냅니다. [!DNL Journey Analytics] (및 Adobe에 대한 storefront 데이터만 해당) [!DNL Analytics])를 사용하여 매출, 상품 및 프로모션과 같은 Adobe Commerce Intelligence의 기본 지표 이상의 풍부한 분석을 수행할 수 있습니다&#x200B;. |
+   - [Adobe [!DNL Real-Time CDP]](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview): 여러 소스(ERP, CRM, POS)의 고객 데이터를 통합 프로필에 결합하고 규칙 기반 또는 AI 기반 세그먼트를 만듭니다.
+   - [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started): 이메일 여정, SMS, 푸시 알림 등을 포함하여 개인화된 옴니채널 캠페인을 시작합니다.
+   - [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) 및 [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview): 고객 및 비즈니스에 대한 통찰력을 얻으십시오.
+   - [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro): 콘텐츠, 권장 제품, 오퍼, 탐색 등을 테스트하고 최적화합니다.
 
-Commerce 데이터를 Experience Platform에 전송하는 방법에 대한 자세한 내용은 [데이터 연결](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
+1. [[!DNL Audience Activation]](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation): 사용 [!DNL Real-Time CDP] Adobe에서 다이내믹 콘텐츠 블록, 프로모션 및 관련 제품 규칙을 개인화할 대상 [!DNL Commerce] 사이트.
 
-## 기본 Commerce 기능에서 Commerce 데이터 사용
+### 즉시 사용 가능한 개인화: 기본 Adobe 시작 [!DNL Commerce] 기능
 
-다음 섹션에서는 제품 Recommendations 및 라이브 검색과 같은 기본 Commerce 기능을 사용하여 개인화된 쇼핑 경험을 만드는 방법을 알아봅니다. 다음 기능에 대해서도 학습하게 됩니다. [!DNL Audience Activation]: 언급된 대로 Real-Time CDP라는 Experience Platform에서 사용할 수 있는 제품의 데이터를 사용합니다 [이전에](#using-commerce-data-in-adobe-experience-platform). Real-Time CDP은 Commerce이 원산지가 아니지만 를 통해 Commerce에 정보를 수집할 수 있습니다. [[!DNL Audience Activation]](../customers/audience-activation.md) 확장명.
+Adobe [!DNL Commerce] 는 기본 제공 기능으로 강력한 개인화를 제공합니다. 다음 표에서는 [!DNL Commerce] 개인화 여정을 시작하기 위해 즉시 활성화할 수 있는 기능입니다.
 
-다음 표에서는 Commerce 고객 및 주문 컨텍스트 데이터를 실행 가능한 통찰력으로 만드는 데 사용할 수 있는 Commerce 기능을 강조 표시합니다.
+| 범주 | 기능 |
+|---|---|
+| 개인화된 제품 검색 | [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview): AI 기반 검색을 통해 구매자의 현장 행동 행동 작업 및 관심도를 기반으로 검색 결과를 개인화하고 최적화합니다.<br>[지능형 카테고리 머천다이징](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch): 쇼핑객의 현장 행동 및 관심도를 기반으로 카테고리 페이지에서 AI 기반 제품 순위를 지정합니다.<br>[제품 Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview): 쇼핑객 행동, 트렌드 및 선호도를 기반으로 한 AI 기반 제품 추천.<br>[관련 제품 규칙](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules): 사용자 지정 규칙을 정의하여 카탈로그의 제품을 표시하여 교차 판매 및 상향 판매를 유도합니다. |
+| 개인화된 사이트 콘텐츠 | [다이내믹 콘텐츠 블록](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks): Adobe Commerce의 고객 세그먼트를 기반으로 개인화된 콘텐츠 블록(예: 배너)을 표시합니다. |
+| 개인화된 오퍼 및 프로모션 | [장바구니 가격 규칙](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart): Adobe의 고객 세그먼트를 포함한 조건 세트를 기준으로 장바구니의 항목에 할인을 적용합니다 [!DNL Commerce]. |
+| 인사이트 및 측정 | [Adobe [!DNL Commerce] 인텔리전스](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started): 개인화 전략이 어떻게 작동하는지 이해하고 시간이 지남에 따라 개선됩니다. |
 
-| 경험 | 기능 | 설명 |
-|---|---|---|
-| **제품 검색** | [라이브 검색](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview) | AI 등급 알고리즘을 사용하여 쇼핑객의 현장 행동 행동을 기반으로 검색 결과를 개인화하고 최적화하여 검색 관련성과 전환을 향상시킵니다. |
-|  | [제품 Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) | 쇼핑객 행동, 트렌드, 제품 유사성 등을 기반으로 AI 기반 제품 권장 사항을 표시합니다. Adobe Commerce 카탈로그와 결합하면 제품 추천은 매우 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다. |
-|  | [카테고리 머천다이징](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch) | 라이브 검색 관리자에서 액세스하는 카테고리 머천다이징은 AI를 사용하여 각 카테고리 페이지의 제품 시퀀스를 자동으로 재분류하여 모든 구매자의 관련성과 전환을 향상시킵니다. AI 기반 규칙을 만들고 관리하여 구매자 작업 및 관심도에 따라 카테고리 페이지의 제품 순서를 자동으로 재지정할 수 있습니다. |
-| **사이트 콘텐츠** | [기본 Commerce 기능에서 제공하는 동적 블록](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | 가격 규칙 및 고객 세그먼트에 구성된 논리를 기반으로 개인화된 사이트 콘텐츠를 제공할 수 있습니다. |
-|  | [Real-Time CDP 대상자가 알려주는 동적 블록](../customers/audience-activation.md) | 판매자가 Real-Time CDP에 구성된 대상을 기반으로 개인화된 사이트 콘텐츠를 제공할 수 있습니다. |
-| **오퍼 및 캠페인** | [장바구니 가격 규칙](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart) | 조건 세트에 따라 장바구니의 항목에 할인을 적용할 수 있습니다. |
-|  | [기본 Commerce 기능에서 제공하는 동적 블록](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | Commerce에 기본적으로 구성된 고객 세그먼트를 기반으로 개인화된 배너 프로모션을 표시할 수 있습니다. |
-|  | [Real-Time CDP 대상자가 알려주는 동적 블록](../customers/audience-activation.md) | Real-Time CDP에 구성된 대상을 기반으로 개인화된 프로모션을 표시할 수 있습니다. |
-| **측정** | [Adobe Commerce 인텔리전스](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) | (이전의 Magento Business Intelligence)는 데이터 기반 결정을 내리고 명확하고 정보에 입각한 조치를 취하는 데 도움이 되는 모범 사례 인사이트를 제공하는 클라우드 플랫폼입니다. Adobe Commerce Intelligence는 데이터를 분석하여 주문 증가, 고객 행동 및 홍보 전략의 효과에 대한 질문에 답변할 수 있도록 지원합니다. |
+## 주요 개인화 사용 사례
+
+Adobe [!DNL Commerce] 고객은 기본 기능을 사용하고 있으며 다양한 사용 사례를 위해 Adobe Experience Cloud에 데이터를 공유하고 있습니다. 다음 섹션에서는 주요 사용 사례를 중점적으로 설명하고 Adobe을 사용하여 이들 사례를 구현하는 방법을 설명합니다 [!DNL Commerce] 또는 [!DNL Commerce] 플러스 Experience Cloud 앱.
+
+### 개인화된 캠페인 및 커뮤니케이션
+
+| 사용 사례 | 솔루션 |
+|---|---|
+| **포기한 장바구니 및 찾아보기** - 고객이 높은 참여도를 보인 후 장바구니 또는 탐색 세션을 중단하는 경우 개인화된 재참여 이메일 또는 알림을 제공합니다. | **Adobe [!DNL Commerce] 전용**:<br>[이메일 미리 알림](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules)<br>**Adobe [!DNL Commerce] Adobe Journey Optimizer 사용**:<br>[!DNL Commerce] 데이터는 옴니채널 포기 여정의 트리거 역할을 합니다. 고객 속성, 포기한 항목, 기타 쇼핑 행동 및 과거 구매를 기반으로 해당 여정을 개인화합니다.<br>Adobe Journey Optimizer 및 Real-Time CDP이 포함된 Commerce: 높은 포기 비율 대상을 만드는 등 통합 고객 프로필과 중앙 관리 대상을 기반으로 포기 캠페인을 사용자 지정합니다. |
+| **중앙 집중식 대상자 만들기** - 현장 행동, 과거 구매, 프로필 속성, 카테고리 관심도, 충성도 상태, 고객 가치 등을 기반으로 규칙 기반 또는 AI 기반 대상자를 만듭니다. | **Adobe [!DNL Commerce] 전용**:<br>다음과 같은 경우 고객 프로필 정보 수집 [!DNL Commerce] 고객이 계정을 만듭니다. 규칙 기반 만들기 [고객 세그먼트](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segments) 및 고객 그룹을 통해 콘텐츠와 프로모션을 개인화할 수 있습니다.<br>**Adobe [!DNL Commerce] Adobe Real-Time CDP 사용**:<br> [통합 프로필](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) 다양한 데이터 소스 및 채널에서 사용할 수 있습니다. |
+| **쇼핑객 행동을 기반으로 개인화된 이메일/SMS 오퍼** - 과거 구매 및 구매자 행동에 따라 타겟팅된 이메일을 통해 고객에게 개인화된 오퍼를 보냅니다. 예를 들어 고객이 보거나 참여한 제품 또는 범주에 대한 오퍼를 보냅니다. | **Adobe [!DNL Commerce] 전용**:<br>마케팅 자동화 솔루션에 사용할 데이터를 내보냅니다.<br>**Adobe [!DNL Commerce] Adobe Journey Optimizer 및 Real-Time CDP 사용**:<br>[!DNL Commerce] 데이터는 이메일 또는 SMS 오퍼의 트리거 역할을 하며 를 기반으로 개인화할 수 있는 신호(쇼핑객 행동)를 제공합니다. Real-Time CDP이 필요하지 않지만, 일반적으로 이러한 오퍼와 캠페인은 Real-Time CDP 내에서 만들고 관리하는 대상을 중심으로 만들어집니다. |
+| **교차 또는 상향 판매 호환 제품/브랜드** - 고객이 호환되는 제품 또는 브랜드를 구매하거나 다른 제품 또는 브랜드에 대한 높은 선호도를 나타내는 경우, 교차 판매 전환을 유도하기 위해 캠페인(이메일/SMS)을 보냅니다. | **Adobe [!DNL Commerce] 전용**:<br>Adobe 사용 [!DNL Commerce] [제품 Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) 사이트에서 특정 제품을 추천합니다. 다음을 사용할 수도 있습니다. [관련 제품 규칙](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) 다른 제품을 제안합니다.<br>**[!DNL Commerce] 포함 [!DNL Target]**:<br>Adobe [!DNL Target] 에는 카테고리 친화성과 같은 강력한 기능을 갖춘 제품 추천 엔진이 내장되어 있습니다. 이 값은 교차 또는 상향 판매에 사용할 수 있습니다.<br>**[!DNL Commerce] Adobe Journey Optimizer 사용**:<br>사용 [!DNL Target] 또는 [!DNL Commerce] 추천할 제품을 결정한 다음 Adobe Journey Optimizer을 통해 게재합니다. |
+
+### 개인화된 사이트 경험
+
+| 사용 사례 | 솔루션 |
+|---|---|
+| **개인화된 사이트 콘텐츠** - 제품 탐색 및 카테고리 관심도와 같은 쇼핑객 작업을 기반으로 사이트 배너 및 기타 페이지 콘텐츠를 개인화합니다. A/B 테스트 또는 비즈니스 목표 결과에 따라 최적 콘텐츠를 배포합니다. | **Adobe [!DNL Commerce] 전용**:<br>세그먼트별 배포 [다이내믹 콘텐츠 블록](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] Real-Time CDP 사용&#x200B;**:<br>사용 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) Real-Time CDP에서 프로필 및 대상을 중앙에서 관리하면서 실시간 작업 및 통합 고객 프로필 데이터에 응답하는 대상별 다이내믹 콘텐츠 블록을 배포합니다.<br>**[!DNL Commerce] 포함[!DNL Target]**:<br>Adobe을 사용하여 콘텐츠, 탐색 항목, 전체 페이지 레이아웃 등을 포함하여 사이트 경험의 모든 부분을 개인화합니다 [!DNL Commerce] Adobe의 데이터 [!DNL Target]. A/B 테스트 컨텐츠에서 각 고객에 대해 우수성이 검증된 컨텐츠를 자동으로 선택하고 배포합니다.<br>**[!DNL Commerce] AEM Assets 사용&#x200B;**:<br>모든 콘텐츠를 Adobe Experience Manager Assets에 저장합니다. Adobe Commerce 내에서 해당 콘텐츠에 기본적으로 액세스합니다. GenAI를 사용하여 다양한 세그먼트나 대상자를 개인화할 수 있는 콘텐츠 변형을 만들 수 있습니다. |
+| **비헤이비어에 기반한 개인화된 온사이트 오퍼** - 제품 검색 및 카테고리 관심도와 같은 쇼핑객 작업을 기반으로 프로모션을 개인화합니다. A/B 테스트 또는 비즈니스 목표에 따라 다음 최상의 오퍼를 배포합니다. | **Adobe [!DNL Commerce] 전용**:<br>세그먼트별 카탈로그 배포 및 [장바구니 가격 규칙](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart).<br>**Adobe [!DNL Commerce] Real-Time CDP 사용**:<br>사용 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) Real-Time CDP에서 프로필/대상을 중앙에서 관리하면서 대상별 오퍼를 배포합니다.<br>**Commerce 포함[!DNL Target]**: Adobe Commerce에 배포된 오퍼를 안내하기 위해 offer decisioning을 사용하여 배포할 오퍼를 결정하고, A/B 테스트를 수행하거나 비즈니스 목표를 설정합니다. |
+
+### Analytics 및 인사이트
+
+| 사용 사례 | 솔루션 |
+|---|---|
+| **채널별 고객 행동** - 고객이 각 채널(웹, 대면, 앱 등)에 어떻게 참여하여 각 채널의 마케팅 전략에 영향을 미치는지에 대한 뉘앙스를 이해하고, 쇼핑객 단계와 고객 경험의 취약점을 이해합니다. | **Adobe [!DNL Commerce] 전용**:<br>[Adobe [!DNL Commerce] 인텔리전스](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) 는 디지털에 풍부한 분석을 제공합니다. [!DNL Commerce] 채널 간(단, 채널 간 또는 고객 여정의 더 광범위한 부분은 제외)<br>**Adobe [!DNL Commerce] Customer Journey Analytics 포함**:<br>[!DNL Commerce] 데이터 피드 데이터 대시보드 를 통해 고객 경험의 모든 단계(채널 간)에 대한 풍부한 세부 정보를 얻을 수 있습니다. 모든 접점과 광범위한 단계를 이해하여 고객이 이탈할 수 있는 고객 여정의 취약점을 식별합니다. |
+| **구매 트렌드** - 특정 기간(예: 장바구니 분석, 제품 분석)에 대한 구매 행동을 파악하여 트렌드, 계절성을 파악하고, 기존 구매 패턴을 기반으로 마케팅을 최적화합니다. | **Adobe [!DNL Commerce] 전용**:<br>[Adobe [!DNL Commerce] 인텔리전스](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) 는 디지털에 풍부한 분석을 제공합니다. [!DNL Commerce] 채널 간(단, 채널 간 또는 고객 여정의 더 광범위한 부분은 제외)<br>**Adobe [!DNL Commerce] Customer Journey Analytics 포함**:<br>[!DNL Commerce] 데이터 피드 데이터 대시보드 를 통해 고객 경험의 모든 단계(채널 간)에 대한 풍부한 세부 정보를 얻을 수 있습니다. 모든 접점과 광범위한 단계를 이해하여 고객이 이탈할 수 있는 고객 여정의 취약점을 식별합니다. |
+
+## 예제 사용 사례
+
+Adobe Journey Optimizer을 사용하여 다음을 수행하는 방법에 대해 알아봅니다. [포기한 장바구니 이메일 보내기](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
