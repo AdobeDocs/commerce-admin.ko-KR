@@ -1,12 +1,12 @@
 ---
 title: 소개 [!DNL B2B for Adobe Commerce]
-description: 통합 B2B 기능을 사용하여 회사인 고객의 요구 사항을 충족하는 방법을 알아봅니다.
+description: 기업 고객의 요구 사항을 충족하기 위해 통합 B2B 기능을 사용하는 방법에 대해 알아보십시오.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
 source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

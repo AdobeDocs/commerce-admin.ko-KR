@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce 시작 안내서
-description: Adobe Commerce을 처음 사용하는 가맹점을 위한 포괄적인 정보입니다.
+description: Adobe Commerce를 처음 접하는 판매자를 위한 종합 정보입니다.
 seo-title: Adobe Commerce Getting Started Guide
 seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
@@ -8,7 +8,7 @@ recommendations: noCatalog
 source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce 소개
-description: Adobe Commerce은 엔터프라이즈 전자 상거래 플랫폼입니다. 전 세계 전자 상거래 팀의 성장을 이끄는 최신 기능을 살펴보십시오.
+description: Adobe Commerce는 기업 전자 상거래 플랫폼입니다. 전 세계적으로 전자 상거래 팀의 성장을 주도하는 최신 기능을 읽어보십시오.
 mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
