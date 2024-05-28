@@ -4,9 +4,9 @@ description: 향상된 보안 검사를 실행하고 각 Adobe Commerce 및 Mage
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 1f3173d17cc43227f7d44637f1ef0b62606cd0fd
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,15 @@ ht-degree: 0%
 - 사이트의 진행 상황을 추적 및 모니터링하는 기간별 보안 보고서에 액세스합니다.
 - 모든 권장 작업과 함께 성공 및 실패한 검사를 표시하는 검사 보고서에 액세스합니다.
 
-보안 검색 도구는 의 대시보드에서 무료로 사용할 수 있습니다. [상거래 계정](../getting-started/commerce-account-create.md). 기술 정보는 다음을 참조하십시오. [보안 검색 도구 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) 다음에서 _클라우드 인프라의 Commerce 안내서_.
+보안 검색 도구는 의 대시보드에서 무료로 사용할 수 있습니다. [Commerce/Magento 계정](../getting-started/commerce-account-create.md). 기술 정보는 다음을 참조하십시오. [보안 검색 도구 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) 다음에서 _Commerce on Cloud Infrastructure 안내서_.
 
 ![보안 검색 도구](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## 보안 검사 실행
 
-1. Commerce 홈 페이지로 이동하여 [상거래 계정](../getting-started/commerce-account-create.md) 다음을 수행합니다.
+1. Commerce 홈페이지에서 [Commerce/Magento 계정](../getting-started/commerce-account-create.md).
+
+1. Security scan 도구에 대한 약관을 검토하고 동의합니다.
 
    - 왼쪽 패널에서 을 선택합니다 **[!UICONTROL Security Scan]**.
    - 클릭 **[!UICONTROL Go to Security Scan]**.
@@ -37,13 +39,13 @@ ht-degree: 0%
 
 1. 다음에서 _[!UICONTROL Monitored Websites]_페이지, 클릭&#x200B;**[!UICONTROL +Add Site]**.
 
-   도메인이 다른 사이트가 여러 개 있는 경우 각 도메인에 대해 별도의 검사를 구성해야 합니다.
+   여러 사이트가 있고 도메인이 다른 경우 각 도메인에 대해 별도의 검사를 구성합니다.
 
    ![모니터링되는 사이트](./assets/monitored-website.png){width="600" zoomable="yes"}
 
 1. 확인 코드를 추가하여 사이트 도메인의 소유권을 확인하려면 다음 중 하나를 수행하십시오.
 
-   **상거래 상점**:
+   **Commerce 상점**:
 
    - 다음을 입력합니다. **[!UICONTROL Site URL]** 및 **[!UICONTROL Site Name]**.
    - 클릭 **[!UICONTROL Generate Confirmation Code]**.
@@ -102,7 +104,7 @@ ht-degree: 0%
 
         빌드 프로세스가 완료되면 변경 사항이 PWA 저장소 전면에 배포됩니다.
 
-1. (으)로 돌아가기 _[!UICONTROL Security Scan]_상거래 계정에서 페이지를 방문한 다음&#x200B;**[!UICONTROL Verify Confirmation Code]**도메인의 소유권을 설정하기 위해
+1. (으)로 돌아가기 _[!UICONTROL Security Scan]_Commerce 페이지를 만든 다음&#x200B;**[!UICONTROL Verify Confirmation Code]**을 클릭하여 도메인의 소유권을 설정합니다.
 
 1. 확인이 성공하면 을(를) 구성합니다 **[!UICONTROL Set Automatic Security Scan]** 다음 유형 중 하나에 대한 옵션:
 
