@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 다음 [!DNL Audience Activation] 확장을 사용하면 Adobe Commerce에서 Real-Time CDP 대상을 활성화하여 장바구니에서 고유한 오퍼를 만들 수 있습니다. 이러한 오퍼와 인센티브에는 다음과 같은 일반적인 전자 상거래 머천다이징 기술이 포함됩니다. _2개 구입 1개 무료_, 영웅 배너는 해당 고객에 맞게 조정되었으며 다양한 오퍼를 통해 제품 가격을 수정했습니다. Real-Time CDP에 구축된 대상은 ERP(전사적 자원 관리), CRM(고객 관계 관리), POS(판매 지점), 마케팅 시스템과 같은 다양한 엔터프라이즈 시스템의 데이터를 기반으로 합니다. 고객 세그먼트 정보는 지속적으로 새로 고쳐지기 때문에 고객은 스토어에서 쇼핑할 때 세그먼트와 연결 및 연결 해제될 수 있습니다.
 
-Luma 상점 첫 화면에서 대상자를 활성화하거나 [headless](#headless-support) 가게 앞이야 Luma 상점 첫 화면에서 대상 정보(세그먼트 멤버십)는 상거래 측의 쿠키에 저장됩니다. 헤드리스 상점 첫 화면에서 대상 정보는 GraphQL API 헤더에 이라는 매개 변수로 전달됩니다. `aep-segments-membership`.
+Luma 상점 첫 화면에서 대상자를 활성화하거나 [headless](#headless-support) 가게 앞이야 Luma 상점 첫 화면에서 대상 정보(세그먼트 멤버십)는 Commerce 측의 쿠키에 저장됩니다. 헤드리스 상점 첫 화면에서 대상 정보는 GraphQL API 헤더에 이라는 매개 변수로 전달됩니다. `aep-segments-membership`.
 
 ## 릴리스 정보
 
@@ -158,7 +158,7 @@ composer require magento/audiences
 
    >[!NOTE]
    >
-   >데이터 스트림 ID를 지정할 때 [특정 웹 사이트에 연결](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) 다음에서 [!DNL Data Connection] 확장명. 상거래 스토어에 여러 웹 사이트가 있는 경우 [대상 만들기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) Real-Time CDP의 각 웹 사이트에 대해 서로 다른 데이터 스트림 ID를 사용하십시오.
+   >데이터 스트림 ID를 지정할 때 [특정 웹 사이트에 연결](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) 다음에서 [!DNL Data Connection] 확장명. Commerce 스토어에 여러 웹 사이트가 있는 경우 [대상 만들기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) Real-Time CDP의 각 웹 사이트에 대해 서로 다른 데이터 스트림 ID를 사용하십시오.
 
 1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -174,6 +174,8 @@ composer require magento/audiences
 - [동적 블록 만들기](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 대상자가 정보 제공
 - [(**베타**) 관련 제품 규칙 만들기](../merchandising-promotions/product-related-rule-create.md) 대상자가 정보 제공
 
+내보내는 방법에 대한 완전한 엔드 투 엔드 사용 사례 [!DNL Commerce] 데이터를 Real-Time CDP에 업로드하고 대상을 작성한 다음 해당 대상을 활성화하여 [!DNL Commerce], 참조 [다음을 사용하여 Real-Time CDP에서 대상 만들기 [!DNL Commerce] 이벤트 데이터](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+
 ## Real-Time CDP 대상 대시보드
 
 모두 볼 수 있습니다 [활성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) 를 사용하여 Adobe Commerce 인스턴스 내에서 개인화할 수 있는 대상자 **Real-Time CDP 대상** 대시보드입니다.
@@ -187,7 +189,7 @@ composer require magento/audiences
 | 열 | 설명 |
 |--- |--- |
 | `Hide filters` | 대시보드에 적용할 수 있는 필터를 표시하거나 숨길 수 있습니다. 현재 적용할 수 있는 유일한 필터는 다음과 같습니다. `Last updated`. 이 필터를 사용하면 대상이 마지막으로 업데이트된 시간을 기준으로 대상의 날짜 범위를 선택할 수 있습니다. |
-| `Search` | 상거래 인스턴스에서 활성 대상을 검색할 수 있도록 해줍니다. |
+| `Search` | Commerce 인스턴스에서 활성 대상을 검색할 수 있도록 해 줍니다. |
 | `Name` | Real-Time CDP에서 대상에게 지정된 이름입니다. |
 | `Origin` | 대상이 어디에서 왔는지를 나타냅니다. 예: `Experience Platform`. |
 | `Websites` | 대상을 사용하도록 구성된 웹 사이트를 나타냅니다. |
@@ -205,7 +207,7 @@ AEM 및 PWA과 같은 Headless Adobe Commerce 인스턴스에서 대상을 활�
 
 ### 장바구니 가격 규칙 및 관련 제품 규칙
 
-장바구니 가격 규칙 및 관련 제품 규칙의 경우, 헤드리스 매장은 다음을 통해 Experience Platform과 커뮤니케이션합니다. [Commerce integration framework(CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). 프레임워크는 GraphQL을 사용하여 구현된 서버측 API를 제공합니다. 쇼핑객 세그먼트와 같은 대상 정보는 라는 GraphQL 헤더 매개 변수를 통해 Commerce로 전달됩니다. `aep-segments-membership`.
+장바구니 가격 규칙 및 관련 제품 규칙의 경우, 헤드리스 매장은 다음을 통해 Experience Platform과 커뮤니케이션합니다. [Commerce integration framework(CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). 프레임워크는 GraphQL을 사용하여 구현된 서버측 API를 제공합니다. 쇼핑객 세그먼트와 같은 대상 정보는 라는 GraphQL 헤더 매개 변수를 통해 Commerce으로 전달됩니다. `aep-segments-membership`.
 
 전반적인 아키텍처는 다음과 같습니다.
 
@@ -215,7 +217,7 @@ AEM 및 PWA과 같은 Headless Adobe Commerce 인스턴스에서 대상을 활�
 
 SDK에서 이러한 세그먼트 멤버십을 캡처하려면 다음을 참조하십시오. [코드 조각](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
 
-검색되면 해당 세그먼트를 GraphQL 헤더 내의 Commerce에 전달할 수 있습니다. For example:
+검색되면 해당 세그먼트를 GraphQL 헤더 내에서 Commerce에 전달할 수 있습니다. For example:
 
 ```bash
 curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-segments-membership: urlencoded_list_of_segments' -H 'Content-Type: application/json' --data-binary '{"query":"query {\ncustomer {\nfirstname\nlastname\nemail\n}\n}"}'
@@ -306,7 +308,7 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 Adobe Experience Platform Mobile SDK를 사용하여 Real-Time CDP 대상을 검색할 수 있습니다.
 
 1. [설치](#install-the-extension) Audience Activation 확장.
-1. [모바일 상거래 사이트에 대한 SDK 설치 및 구성](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+1. [모바일 Commerce 사이트에 대한 SDK 설치 및 구성](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
@@ -340,9 +342,9 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 }
 ```
 
-데이터가 검색되면 이를 사용하여 대상자에게 정보를 제공할 수 있습니다 [장바구니 가격 규칙](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [동적 블록](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 및  [관련 제품 규칙](../merchandising-promotions/product-related-rule-create.md) Commerce 앱에서
+데이터가 검색되면 이를 사용하여 대상자에게 정보를 제공할 수 있습니다 [장바구니 가격 규칙](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [동적 블록](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 및  [관련 제품 규칙](../merchandising-promotions/product-related-rule-create.md) Commerce 앱에서.
 
-## 대상은 Commerce에 표시되지 않습니다.
+## 대상이 Commerce에 표시되지 않음
 
 Real-Time CDP 대상이 Commerce에 표시되지 않는 이유는 다음과 같습니다.
 
@@ -353,7 +355,7 @@ Real-Time CDP 대상이 Commerce에 표시되지 않는 이유는 다음과 같�
 
 ### 구성에서 잘못된 인증 유형 선택됨
 
-1. 상거래 인스턴스를 엽니다.
+1. Commerce 인스턴스를 엽니다.
 1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 1. 확장 **[!UICONTROL Services]** 및 선택 **[!UICONTROL [!DNL Data Connection]]**.
 1. 에 지정한 서버 간 인증 방법을 확인합니다. **[!UICONTROL Authentication Type]** 필드가 올바릅니다. Adobe은 다음을 권장합니다. **OAuth**. JWT는 더 이상 사용되지 않습니다. [자세히 알아보기](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).

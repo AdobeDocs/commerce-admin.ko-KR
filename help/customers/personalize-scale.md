@@ -3,9 +3,9 @@ title: 규모에 맞게 매력적이고 개인화된 경험 만들기
 description: Adobe의 기능 알아보기 [!DNL Commerce] 을(를) 통해 쇼핑객을 위한 개인화된 경험을 만들 수 있습니다.
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 1a63af10d76cb9d17a992e8822e99d50bcdfa84e
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -102,4 +102,5 @@ Adobe [!DNL Commerce] 고객은 기본 기능을 사용하고 있으며 다양�
 
 ## 예제 사용 사례
 
-Adobe Journey Optimizer을 사용하여 다음을 수행하는 방법에 대해 알아봅니다. [포기한 장바구니 이메일 보내기](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
+- Adobe Journey Optimizer을 사용하여 다음을 수행하는 방법에 대해 알아봅니다. [포기한 장바구니 이메일 보내기](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
+- 방법 알아보기 [Real-Time CDP에서 대상 만들기](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience) Adobe에서 장바구니 가격 규칙을 알리려면 [!DNL Commerce].
