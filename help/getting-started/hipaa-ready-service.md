@@ -1,12 +1,12 @@
 ---
 title: Adobe Commerce의 HIPAA 준비
-description: Adobe Commerce HIPAA 지원 확장을 추가하고 HIPAA 의무를 준수할 수 있는 추가 기능 및 기능을 얻는 방법에 대해 알아봅니다.
+description: Adobe Commerce HIPAA 지원 확장 기능을 추가하여 HIPAA 규정 준수를 지원할 수 있는 추가 기능을 사용하는 방법에 대해 알아봅니다.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
 source-git-commit: b7ce092f843992b1e4d0ca23981c70d854ded5f9
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
