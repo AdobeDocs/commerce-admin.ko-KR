@@ -3,9 +3,9 @@ title: 가격 범위
 description: 전역 또는 웹 사이트 수준에서 적용되도록 구성할 수 있는 제품 가격에 사용되는 범위에 대해 알아봅니다.
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 서로 다른 요인이 한 장소에서 같은 제품의 가격에 영향을 줄 수 있고 다른 장소에서 영향을 줄 수 없습니다. 예를 들어 제품에 대한 추가 배포 비용과 특정 상점에서 판매되는 제품의 가격에 영향을 주는 기타 고려 사항이 있을 수 있습니다. 다음 다이어그램은 기본 통화가 웹 사이트 수준으로 설정된 다중 사이트 설치를 보여 줍니다. 각 웹 사이트와 연관된 스토어 및 스토어 보기는 웹 사이트 수준에서 설정된 제품 가격을 반영합니다.
 
-![Adobe Commerce용 B2B](../assets/b2b.svg) 공유 카탈로그를 사용하는 경우 다음을 참조하십시오. [공유 카탈로그 가격 및 구조 설정](../b2b/catalog-shared-pricing-structure.md) 다음에서 _Adobe Commerce용 B2B 안내서_.
+![Adobe Commerce](../assets/b2b.svg) 공유 카탈로그를 사용하는 경우 다음을 참조하십시오. [공유 카탈로그 가격 및 구조 설정](../b2b/catalog-shared-pricing-structure.md) 다음에서 _Adobe Commerce B2B 안내서_.
 
 ![가격 범위 다이어그램](./assets/catalog-price-scope.svg){width="550"}
 

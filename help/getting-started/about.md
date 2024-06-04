@@ -3,9 +3,9 @@ title: Adobe Commerce 소개
 description: Adobe Commerce는 기업 전자 상거래 플랫폼입니다. 전 세계적으로 전자 상거래 팀의 성장을 주도하는 최신 기능을 읽어보십시오.
 mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
-source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '3322'
+source-wordcount: '3320'
 ht-degree: 0%
 
 ---
@@ -99,8 +99,8 @@ Adobe Commerce의 강력한 기본 제공 견적 도구를 기반으로 B2B 판�
 >[!TIP]
 >B2B Commerce 기능에 대해 자세히 알아보려면 다음 설명서를 참조하십시오.
 >
->- [Adobe Commerce용 B2B 사용 안내서](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
->- [Adobe Commerce용 B2B 개발자 안내서](https://developer.adobe.com/commerce/webapi/rest/b2b/)
+>- [Adobe Commerce B2B 사용 안내서](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
+>- [Adobe Commerce B2B 개발자 안내서](https://developer.adobe.com/commerce/webapi/rest/b2b/)
 
 ### Adobe Commerce용 결제 서비스
 

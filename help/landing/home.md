@@ -5,9 +5,9 @@ seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: 판매자 설명서
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: e64045a84f79a204450e6da71bcf9f7f72882403
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -43,8 +43,8 @@ Magento Open Source은 Adobe이 Adobe Commerce에 공식적으로 기여하고 �
   </tr>
 <tr>
   <td valign="top">
-      <img alt="Adobe Commerce용 B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html"><strong>Adobe Commerce용 B2B</strong></a>
+      <img alt="Adobe Commerce" src="./assets/icon-building.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html"><strong>Adobe Commerce</strong></a>
     <div><em>이 기능 세트는 복잡한 조직 구조와 다양한 역할 및 구매 권한 수준을 가진 여러 직원을 가진 고객이 주로 회사인 판매자(판매자)의 요구 사항을 충족하도록 설계되었습니다.</em>
     <br></div>
   </td>
@@ -123,8 +123,8 @@ Magento Open Source은 Adobe이 Adobe Commerce에 공식적으로 기여하고 �
 
 | 설명 | 유형 | 날짜 |
 | ----------- | ---- | ---- |
-| **1.4.0 B2B 릴리스** - Adobe Commerce 릴리스 노트에 대한 B2B는 변경 사항 및 추가 사항에 대해 설명합니다. [1.4.0 릴리스](../b2b/release-notes.md#b2b-v140). | 업데이트 | 06/13/23 |
-| **1.4.0 B2B 릴리스** - [구매자에 대한 견적 시작](../b2b/sales-rep-initiates-quote.md) 이제 주제가 다음에 포함됩니다. _Adobe Commerce용 B2B 안내서_. 판매자가 협상 프로세스를 시작하기 위해 특정 구매자에 대한 견적을 생성하는 방법에 대해 설명합니다. | 신규 | 06/13/23 |
+| **1.4.0 B2B 릴리스** - Adobe Commerce B2B 릴리스 노트는 다음에 대한 변경 사항 및 추가 사항을 설명합니다. [1.4.0 릴리스](../b2b/release-notes.md#b2b-v140). | 업데이트 | 06/13/23 |
+| **1.4.0 B2B 릴리스** - [구매자에 대한 견적 시작](../b2b/sales-rep-initiates-quote.md) 이제 주제가 다음에 포함됩니다. _Adobe Commerce B2B 안내서_. 판매자가 협상 프로세스를 시작하기 위해 특정 구매자에 대한 견적을 생성하는 방법에 대해 설명합니다. | 신규 | 06/13/23 |
 | **1.4.0 B2B 릴리스** - [견적 협상](../b2b/quote-price-negotiation.md), [협상 가능한 견적](../b2b/quotes.md), 및 [B2B 기능 활성화](../b2b/enable-basic-features.md) 판매자가 시작한 견적 및 기본 기능에 대한 변경 사항을 반영하도록 항목이 업데이트됩니다. | 업데이트 | 06/13/23 |
 | **2.2.0 Adobe IMS 통합 릴리스** - [Adobe ID과 Commerce Admin Integration 비활성화](../getting-started/adobe-ims-disable.md) 이제 주제가 다음에 포함됩니다. _시작 안내서_. Adobe IMS와 Adobe Commerce Admin 통합을 사용하지 않도록 설정하는 선택적 절차에 대해 설명합니다. | 신규 | 06/13/23 |
 | **2.2.0 Adobe IMS 통합 릴리스** - 의 변경 사항 [Adobe Identity Management 서비스(IMS) 통합 개요](../getting-started/adobe-ims-integration-overview.md) 및 [Adobe ID과 Commerce Admin Integration 구성](../getting-started/adobe-ims-config.md) 업데이트된 기능을 반영하는 항목입니다. | 업데이트 | 06/13/23 |

@@ -3,9 +3,9 @@ title: 그룹 가격 책정
 description: 그룹 가격을 사용하여 스토어의 고객 그룹에 따라 할인된 항목의 가격을 설정하는 방법에 대해 알아봅니다.
 exl-id: bc5be23f-64eb-47c3-beda-01168abfbf96
 feature: Catalog Management, Products, Customers
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 다음에서 _[!UICONTROL Customer Group Price]_섹션, 클릭&#x200B;**[!UICONTROL Add]**.
 
-   스토어에 다음이 포함된 경우 [Adobe Commerce용 B2B](../b2b/introduction.md) 및 이(가) [공유 카탈로그](../b2b/catalog-shared.md) 활성화됨, 이 섹션에는 레이블이 지정됩니다. _[!UICONTROL Catalog and Tier Price]_.
+   스토어에 다음이 포함된 경우 [Adobe Commerce](../b2b/introduction.md) 및 이(가) [공유 카탈로그](../b2b/catalog-shared.md) 활성화됨, 이 섹션에는 레이블이 지정됩니다. _[!UICONTROL Catalog and Tier Price]_.
 
    ![고급 가격 책정](./assets/product-price-group.png){width="600" zoomable="yes"}
 

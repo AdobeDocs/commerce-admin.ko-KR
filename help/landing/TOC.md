@@ -3,10 +3,10 @@ user-guide-title: Adobe Commerce 판매자 설명서
 user-guide-description: 관리자 권한으로 작업하는 Adobe Commerce 및 Magento Open Source 판매자를 위한 설명서 및 리소스입니다.
 title: Adobe Commerce 판매자 설명서
 feature: Admin Workspace
-source-git-commit: 2cd6c06478e35b68db55c49f99e8bfa898ef6c2b
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 20%
+source-wordcount: '70'
+ht-degree: 38%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 - [Adobe Commerce 판매자 설명서](home.md)
 - [시작](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)
-- [Adobe Commerce용 B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html)
+- [Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html)
 - [카탈로그 관리](https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html)
 - [[!DNL Inventory Management]](https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html)
 - [머천다이징 및 프로모션](https://experienceleague.adobe.com/docs/commerce-admin/marketing/guide-overview.html)

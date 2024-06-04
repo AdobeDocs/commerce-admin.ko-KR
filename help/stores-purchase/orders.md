@@ -3,9 +3,9 @@ title: 주문 수
 description: 관리자에서 주문을 찾는 데 사용되는 주문 작업 공간 및 검색 기능에 대해 알아봅니다.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Method] | 주문에 사용할 결제 방법. |
 | [!UICONTROL Total Refunded] | 주문에서 고객에게 환불될 금액이 있습니다. |
 | [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce만 해당) 주문 후 고객의 스토어 크레딧으로 환불되는 모든 금액입니다. |
-| [!UICONTROL Company Name] | ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B와 함께 사용 가능) [회사](../b2b/account-companies.md) 누가 주문을 했는지. |
+| [!UICONTROL Company Name] | ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B에서 사용 가능) [회사](../b2b/account-companies.md) 누가 주문을 했는지. |
 
 {style="table-layout:auto"}
 
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 ## 리소스 문제 해결
 
-주문 문제 해결에 대한 도움말을 보려면 다음 Commerce 지원 기술 자료 문서를 참조하십시오.
+주문 문제 해결에 대한 도움말은 다음 Commerce 지원 기술 자료 문서를 참조하십시오.
 
 - [주문 표시 오류](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
 - [PayPal 중복 주문 10415 오류](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)

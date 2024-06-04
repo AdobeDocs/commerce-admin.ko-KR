@@ -3,9 +3,9 @@ title: 대변 메모
 description: 대변 메모와 이를 사용하여 부분 또는 전체 환불을 발행하는 방법에 대해 알아봅니다.
 exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 feature: Orders, Invoices, Returns
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ A _대변 메모_ 는 전체 또는 부분 환불을 위해 고객이 지불해�
 
 - 계정 대변—대변 계정을 사용하여 지급한 주문은 계정 대변으로 환불될 수 있습니다.
    - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce 전용) [스토어 크레딧](../customers/store-credit-using.md)
-   - ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B와 함께 사용 가능) [계정입금](../b2b/enable-basic-features.md#configure-payment-on-account) (오프라인 메서드)
-   - ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B와 함께 사용 가능) [회사 신용](../b2b/credit-company.md)
+   - ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B와 함께 사용 가능) [계정입금](../b2b/enable-basic-features.md#configure-payment-on-account) (오프라인 메서드)
+   - ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B와 함께 사용 가능) [회사 신용](../b2b/credit-company.md)
 - [온라인 환불](payments.md#online-payment-methods)—PayPal 또는 Braintree과 같은 결제 게이트웨이를 통해 신용카드로 결제된 주문은 결제 프로세서를 통해 온라인으로 환불됩니다.
 - [오프라인 환불](payments.md#offline-payment-methods)—배달 시 현금으로 지불되는 주문([대구](cash-on-delivery.md)) 또는 [수표 또는 우편환](check-money-order.md) 오프라인에서 환불됩니다.
 

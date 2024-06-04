@@ -3,7 +3,7 @@ title: 이메일 템플릿
 description: 이메일 템플릿과 이를 사용하여 고객에 대한 커뮤니케이션을 지원하고 브랜드를 강화하는 방법에 대해 알아봅니다.
 exl-id: dfe28c77-607e-41e4-b872-3a07bcd67962
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Commerce에는 스토어 작업 중에 발생하는 다양한 이벤트에 의해 트리거되는 반응형 이메일 템플릿 세트가 포함되어 있습니다. 각 템플릿은 모든 화면 크기에 맞게 최적화되며, 태블릿과 모바일 장치뿐만 아니라 데스크탑에서도 볼 수 있습니다. 고객 활동, 판매, 제품 알림, 관리자 작업 및 시스템 메시지와 관련된 다양한 준비된 이메일 템플릿이 있습니다 [사용자 지정](email-template-custom.md) 브랜드를 반영하기 위해
 
-상거래 이메일은 HTML 및 일반 텍스트 이메일 클라이언트가 렌더링할 수 있습니다. 이메일이 렌더링되는 방식에 따라 클라이언트 간에 약간의 차이가 있을 수 있습니다.
+Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 렌더링할 수 있습니다. 이메일이 렌더링되는 방식에 따라 클라이언트 간에 약간의 차이가 있을 수 있습니다.
 
 ## 이메일 로고 준비
 
@@ -98,7 +98,7 @@ Commerce에는 스토어 작업 중에 발생하는 다양한 이벤트에 의�
 
 ### [!DNL Magento_Company]
 
-![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B에서만 사용 가능)
+![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B에서만 사용 가능)
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
@@ -121,7 +121,7 @@ Commerce에는 스토어 작업 중에 발생하는 다양한 이벤트에 의�
 
 ### [!DNL Magento_CompanyCredit]
 
-![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B에서만 사용 가능)
+![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B에서만 사용 가능)
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
@@ -233,7 +233,7 @@ Commerce에는 스토어 작업 중에 발생하는 다양한 이벤트에 의�
 
 ### [!DNL Magento_NegotiableQuote]
 
-![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B에서만 사용 가능)
+![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B에서만 사용 가능)
 
 | 템플릿 | 구성 경로 |
 |--- |--- |

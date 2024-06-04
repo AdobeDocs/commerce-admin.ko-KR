@@ -3,9 +3,9 @@ title: 제품 목록
 description: 에 대해 알아보십시오.[!UICONTROL Products]제품을 만들고 기존 제품을 편집할 수 있는 관리자의 _ 페이지입니다.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 카탈로그의 모든 제품은 _[!UICONTROL Products]_제품을 만들고 기존 제품을 편집할 수 있는 관리자 페이지. 다중 사이트 설치의 경우 각 웹 사이트는 동일한 카탈로그에서 판매될 다양한 제품을 제공할 수 있습니다.
 
-다음 _[!UICONTROL Products]_목록에는 카탈로그의 모든 제품이 포함되어 있으며, 제품을 사용할 수 있는 웹 사이트와 현재 판매가 활성화된 경우 이를 나타냅니다. 를 사용하는 Adobe Commerce 설치용 B2B [공유 카탈로그](../b2b/catalog-shared.md) 활성화된 경우, 그리드에는 공유 카탈로그에서 대체 할인 가격이 있는 제품을 나타내는 열이 포함됩니다.
+다음 _[!UICONTROL Products]_목록에는 카탈로그의 모든 제품이 포함되어 있으며, 제품을 사용할 수 있는 웹 사이트와 현재 판매가 활성화된 경우 이를 나타냅니다. Adobe Commerce B2B 설치 [공유 카탈로그](../b2b/catalog-shared.md) 활성화된 경우, 그리드에는 공유 카탈로그에서 대체 할인 가격이 있는 제품을 나타내는 열이 포함됩니다.
 
 목록 페이지를 페이지별로 찾아보거나 특정 제품을 검색할 수 있습니다. 표준 사용 [컨트롤](../getting-started/admin-grid-controls.md) 목록 정렬 및 필터링, 적용 [작업](../getting-started/admin-actions-control.md) (으)로 가져왔습니다.
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 | [!UICONTROL Status] | 제품의 상태를 나타냅니다. 옵션: `Enabled` 및 `Disabled` |
 | [!UICONTROL Websites] | 제품을 사용할 수 있는 웹 사이트를 나타냅니다. |
 | [!UICONTROL Action] | 제품을 편집 모드로 엽니다. |
-| [!UICONTROL Shared Catalog] | ![Adobe Commerce용 B2B](../assets/b2b.svg) (사용 가능 대상 [Adobe Commerce용 B2B](./b2b/../introduction.md) 에만 해당) 제품에 대한 사용자 지정 가격 책정이 포함된 공유 카탈로그를 나타냅니다. |
+| [!UICONTROL Shared Catalog] | ![Adobe Commerce](../assets/b2b.svg) (사용 가능 대상 [Adobe Commerce](./b2b/../introduction.md) 에만 해당) 제품에 대한 사용자 지정 가격 책정이 포함된 공유 카탈로그를 나타냅니다. |
 
 {style="table-layout:auto"}
 

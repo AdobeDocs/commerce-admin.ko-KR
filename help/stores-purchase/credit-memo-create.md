@@ -3,9 +3,9 @@ title: 대변 메모 발행
 description: 송장이 발행된 주문에 대한 대변 메모를 생성하고 인쇄하는 방법에 대해 알아봅니다.
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 대변 메모를 인쇄하려면 먼저 다음에 대해 대변 메모를 생성해야 합니다 [인보이스 발행 주문](invoices.md#create-an-invoice). 결제 방법에 따라 개설된 대변 메모에서 온라인 및 오프라인 환불(부분 또는 전체)을 모두 발행할 수 있습니다.
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce만 해당) 환불은 스토어 크레딧에 적용할 수 있습니다.
-- ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B와 함께 사용 가능) 환불은 회사 크레딧에 적용할 수 있습니다.
+- ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B와 함께 사용 가능) 환불은 회사 크레딧에 적용할 수 있습니다.
 - 신용카드로 구매한 물품은 온라인 또는 오프라인에서 환불이 가능하다.
 - 수표나 금전 주문으로 구입한 물품은 오프라인에서 환불해야 합니다.
 
@@ -108,13 +108,13 @@ ht-degree: 0%
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce만 해당) 금액을 고객의 스토어 크레딧으로 환급하려면 다음을 선택합니다. **[!UICONTROL Refund to Store Credit]** 확인란.
 
-   - ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B와 함께 사용 가능) 고객의 회사 크레딧으로 금액을 환급하려면 다음을 선택합니다. **[!UICONTROL Refund to Company Credit]** 확인란.
+   - ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B와 함께 사용 가능) 고객의 회사 크레딧으로 금액을 환급하려면 다음을 선택합니다. **[!UICONTROL Refund to Company Credit]** 확인란.
 
    - 오프라인 환불을 발급하려면 다음을 클릭하십시오. **[!UICONTROL Refund Offline]**.
 
    - 온라인 환불을 하려면 다음을 클릭하십시오. **[!UICONTROL Refund]**.
 
-   - ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B와 함께 사용 가능) 구매가 회사 크레딧으로 지불된 경우 **[!UICONTROL Refund to Company Credit]**.
+   - ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B에서 사용 가능) 구매가 회사 크레딧으로 지불된 경우 **[!UICONTROL Refund to Company Credit]**.
 
    다음을 참조하십시오 [대변 메모](credit-memos.md) 오프라인 및 온라인 환불에 대한 자세한 내용은 를 참조하십시오.
 
@@ -195,7 +195,7 @@ ht-degree: 0%
 | [!UICONTROL Customer Name] | 주문을 한 고객 또는 구매자의 이름. 고객 이름은 고객 프로필에 연결됩니다. |
 | [!UICONTROL Email] | 고객 또는 구매자의 이메일 주소. 이메일 주소가 연결되어 새 이메일 메시지를 열 수 있습니다. |
 | [!UICONTROL Customer Group] | 고객이 할당된 고객 그룹 또는 공유 카탈로그의 이름. |
-| [!UICONTROL Company Name] | ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B와 함께 사용 가능) 구매자와 연결된 회사 이름으로, 주문을 대리하는 회사입니다. 회사 이름이 회사 프로필에 연결됩니다. |
+| [!UICONTROL Company Name] | ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B와 함께 사용 가능) 구매자와 연결된 회사 이름으로, 주문을 대행하는 회사입니다. 회사 이름이 회사 프로필에 연결됩니다. |
 
 {style="table-layout:auto"}
 
@@ -222,7 +222,7 @@ ht-degree: 0%
 | 필드 | 설명 |
 |--- |--- |
 | [!UICONTROL Product] | 제품 이름, SKU 및 옵션(해당되는 경우). |
-| [!UICONTROL Price] | 항목의 구매 가격. Adobe Commerce용 B2B의 경우, 이 값은 적용 가능한 경우 공유 카탈로그의 항목에 적용된 할인을 반영합니다. |
+| [!UICONTROL Price] | 항목의 구매 가격. Adobe Commerce B2B의 경우, 이 값은 적용 가능한 경우 공유 카탈로그의 항목에 적용된 할인을 반영합니다. |
 | [!UICONTROL Qty] | 주문한 수량입니다. |
 | [!UICONTROL Return to Stock] | 반환된 항목이 재고로 반환되는지 여부를 나타내는 확인란입니다. |
 | [!UICONTROL Qty to Refund] | 제품의 반환되는 단위 수를 나타냅니다. |
@@ -254,7 +254,7 @@ ht-degree: 0%
 | [!UICONTROL Append Comments] | 메모가 대변 메모에 포함되는지 여부를 결정하는 확인란입니다. |
 | [!UICONTROL Email Copy of Credit Memo] | 대변 메모의 사본이 전자 메일로 전송되는지 여부를 결정하는 확인란입니다. |
 | [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce만 해당) 합계를 환불할지 여부를 결정하는 확인란입니다 [스토어 크레딧](../customers/store-credit-using.md). |
-| [!UICONTROL Subtotal] | ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B와 함께 사용 가능) 환불될 모든 라인 항목의 합계. |
+| [!UICONTROL Subtotal] | ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B와 함께 사용 가능) 환불될 모든 라인 항목의 합계. |
 
 {style="table-layout:auto"}
 
@@ -266,7 +266,7 @@ ht-degree: 0%
 |--- |--- |
 | **[!UICONTROL Refund]** | 최초 구매액이 결제 게이트웨이를 통해 신용카드로 결제된 경우 환불 금액은 결제 처리자가 관리한다. 환불을 관리하려면 결제 제공업체에서 제공한 설명서를 참조하십시오. |
 | **[!UICONTROL Refund Offline]** | 당초의 구매대금이 수표나 금전주문으로 지급된 것이라면, 환불 대금은 수표나 상품권, 현금처럼 점포가 있을 경우 직접 고객에게 지급된다. 대변 메모는 오프라인 거래의 기록 역할을 한다. |
-| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B와 함께 사용 가능) 구매가 회사 크레딧에 청구된 경우 환불은 [회사 계정](../b2b/credit-company.md). |
+| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B에서 사용 가능) 구매가 회사 크레딧에 청구된 경우 환불은 [회사 계정](../b2b/credit-company.md). |
 
 {style="table-layout:auto"}
 

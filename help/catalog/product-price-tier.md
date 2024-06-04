@@ -3,9 +3,9 @@ title: 계층 가격
 description: 제품 목록 또는 제품 페이지에서 계층 가격을 사용하여 수량 할인을 제공하는 방법에 대해 알아봅니다.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 스토어에 여러 웹 사이트가 있는 경우 **[!UICONTROL Website]** 계층 가격이 적용되는 대상.
 
-1. 필요한 경우 다음을 선택하여 가격 책정 계층의 가용성을 제한합니다. **[!UICONTROL Customer Group]** 또는 **[!UICONTROL Shared Catalog]** (![Adobe Commerce용 B2B](../assets/b2b.svg) 사용 가능 대상 [Adobe Commerce용 B2B](./b2b/../introduction.md) 만 해당).
+1. 필요한 경우 다음을 선택하여 가격 책정 계층의 가용성을 제한합니다. **[!UICONTROL Customer Group]** 또는 **[!UICONTROL Shared Catalog]** (![Adobe Commerce](../assets/b2b.svg) 사용 가능 대상 [Adobe Commerce](./b2b/../introduction.md) 만 해당).
 
 1. 대상 **[!UICONTROL Qty]**&#x200B;할인을 받기 위해 주문해야 하는 수량을 입력합니다.
 

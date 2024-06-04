@@ -2,9 +2,9 @@
 title: '[!UICONTROL Catalog] 메뉴'
 description: 사용 [!UICONTROL Catalog] 메뉴 를 사용하여 제품 생성, 범주 및 재고 관리 도구에 액세스할 수 있습니다.
 exl-id: cfb163d6-eccc-4ab9-bd19-37c611abbc78
-source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,6 @@ ht-degree: 0%
 
 ## [!UICONTROL Shared Catalogs]
 
-Adobe Commerce용 B2B가 설치되고 활성화된 스토어의 경우, [공유 카탈로그](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) 다른 회사에서 사용자 정의 가격을 사용할 수 있도록 하는 기능을 제공합니다.
+Adobe Commerce B2B가 설치되고 활성화된 스토어의 경우 [공유 카탈로그](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) 다른 회사에서 사용자 정의 가격을 사용할 수 있도록 하는 기능을 제공합니다.
 
 ![공유된 카탈로그 제품](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

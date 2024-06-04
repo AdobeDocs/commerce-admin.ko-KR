@@ -1,11 +1,11 @@
 ---
-user-guide-title: “[!DNL B2B for Adobe Commerce] 안내서”
+user-guide-title: “[!DNL Adobe Commerce B2B] 안내서”
 user-guide-description: Adobe Commerce에 사용할 수 있는 통합 B2B 기능을 사용하는 방법에 대해 알아봅니다.
-breadcrumb-title: "[!DNL B2B for Adobe Commerce]"
+breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 3b282f7ead80bb7b01046137c9c7127f92b8726c
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 6%
@@ -13,9 +13,9 @@ ht-degree: 6%
 ---
 
 
-# [!DNL B2B for Adobe Commerce] 안내서 {#b2b}
+# [!DNL Adobe Commerce B2B] 안내서 {#b2b}
 
-+ [[!DNL B2B for Adobe Commerce] 안내서](guide-overview.md)
++ [[!DNL Adobe Commerce B2B] 안내서](guide-overview.md)
 + [B2B 기능 소개](introduction.md)
 + [릴리스 정보](release-notes.md)
 + [설치](install.md)

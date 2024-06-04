@@ -3,9 +3,9 @@ title: 주문 워크플로우 및 처리
 description: 주문 워크플로우, 각 단계에 적용되는 상태 및 이 프로세스를 통해 주문을 이동하는 방법에 대해 알아봅니다.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1718'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 0%
 | [!UICONTROL Order Date] | 주문이 이루어진 날짜와 시간. |
 | [!UICONTROL Purchased From] | 주문이 이루어진 웹 사이트, 스토어 및 스토어 보기를 나타냅니다. |
 | [!UICONTROL Placed from IP] | 주문이 이루어진 컴퓨터의 IP 주소를 나타냅니다. |
-| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B에서 사용 가능) [인용](../b2b/quotes.md) 주문이 생성된 항목입니다(해당하는 경우). 견적명이 견적에 연결됩니다. |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B에서 사용 가능)는 다음을 나타냅니다. [인용](../b2b/quotes.md) 주문이 생성된 항목입니다(해당하는 경우). 견적명이 견적에 연결됩니다. |
 
 {style="table-layout:auto"}
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 | [!UICONTROL Customer Name] | 주문을 한 고객 또는 구매자의 이름. 고객 이름은 고객 프로필에 연결됩니다. |
 | [!UICONTROL Email] | 고객 또는 구매자의 이메일 주소. 이메일 주소가 연결되어 새 이메일 메시지를 열 수 있습니다. |
 | [!UICONTROL Customer Group] | 고객이 할당된 고객 그룹 또는 공유 카탈로그의 이름. |
-| [!UICONTROL Company Name] | ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce의 B2B와 함께 사용 가능) 구매자와 연관되어 있으며 주문을 대리한 회사의 이름입니다. 회사 이름은 [회사 프로필](../b2b/account-companies.md). |
+| [!UICONTROL Company Name] | ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B와 함께 사용 가능) 구매자와 연관된 회사 및 해당 주문을 대리한 회사의 이름입니다. 회사 이름은 [회사 프로필](../b2b/account-companies.md). |
 
 {style="table-layout:auto"}
 
@@ -220,9 +220,9 @@ ht-degree: 0%
 | [!UICONTROL Total Refunded] | 해당하는 경우 주문에서 환불된 총 금액. |
 | [!UICONTROL Total Due] | 기한이 도래하는 총 금액. |
 | [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce만 해당) 주문에 적용되는 사용 가능한 스토어 크레딧의 양입니다(해당하는 경우). |
-| [!UICONTROL Catalog Total Price] | ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B와 함께 사용 가능) 견적의 기준으로 사용되는 공유 카탈로그 또는 표준 카탈로그의 가격책정에 따라 세금 없이 견적에 포함된 품목의 총 가격입니다. 상점 표시 통화가 기준 통화와 다를 경우 값은 두 통화로 표시되며 상점 표시는 대괄호로 표시됩니다. |
-| [!UICONTROL Negotiated Discount] | ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce의 B2B에서 사용 가능) 구매자와 판매자 간에 협상된 견적의 결과인 할인입니다. 상점 표시 통화가 기준 통화와 다를 경우 값은 두 통화로 표시되며 상점 표시는 대괄호로 표시됩니다. |
-| [!UICONTROL Subtotal] | ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B와 함께 사용 가능) 카탈로그 총 가격에서 협상된 할인을 뺀 값입니다. |
+| [!UICONTROL Catalog Total Price] | ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B와 함께 사용 가능) 견적의 기준으로 사용되는 공유 카탈로그 또는 표준 카탈로그의 가격책정에 따라 세금 없이 견적에 포함된 품목의 총 가격입니다. 상점 표시 통화가 기준 통화와 다를 경우 값은 두 통화로 표시되며 상점 표시는 대괄호로 표시됩니다. |
+| [!UICONTROL Negotiated Discount] | ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B와 함께 사용 가능) 구매자와 판매자 간에 협상된 견적의 결과인 할인입니다. 상점 표시 통화가 기준 통화와 다를 경우 값은 두 통화로 표시되며 상점 표시는 대괄호로 표시됩니다. |
+| [!UICONTROL Subtotal] | ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B와 함께 사용 가능) 카탈로그 총 가격에서 협상된 할인을 뺀 값입니다. |
 
 {style="table-layout:auto"}
 

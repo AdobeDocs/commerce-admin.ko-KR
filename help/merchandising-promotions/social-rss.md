@@ -3,9 +3,9 @@ title: 소셜 미디어 및 RSS 피드
 description: 소셜 미디어 및 기타 RSS 피드 통합을 추가하여 브랜드 및 제품 인지도를 구축하는 방법에 대해 알아봅니다.
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,13 @@ ht-degree: 0%
 
 1. 설명을 입력하십시오. **[!UICONTROL Block Title]** 내부 참조용.
 
-   For example: `Facebook Like Button`.
+   예: `Facebook Like Button`.
 
 1. 고유 할당 **[!UICONTROL Identifier]** 모두 소문자를 사용하고 공백 대신 밑줄을 사용하여 블록을 전달합니다.
 
-   For example: `facebook_like_button`.
+   예: `facebook_like_button`.
 
-1. 상거래 인스턴스에 여러 스토어 보기가 있는 경우 각각 을 선택합니다 **[!UICONTROL Store View]** 블록을 사용할 수 있는 위치입니다.
+1. Commerce 인스턴스에 여러 스토어 보기가 있는 경우 각각 을 선택합니다 **[!UICONTROL Store View]** 블록을 사용할 수 있는 위치입니다.
 
 1. 콘텐츠 도구에 따라 코드 조각을 블록 콘텐츠에 추가합니다.
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 오른쪽 위 모서리에서 을(를) 클릭합니다. **[!UICONTROL Add Widget]** 다음을 수행합니다.
 
-   - ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B에서만 사용 가능) _설정_ 섹션, 설정 **[!UICONTROL Type]** 끝 `CMS Static Block` 및 클릭 **[!UICONTROL Continue]**.
+   - ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B에서만 사용 가능)에서 _설정_ 섹션, 설정 **[!UICONTROL Type]** 끝 `CMS Static Block` 및 클릭 **[!UICONTROL Continue]**.
 
    - 다음을 확인합니다. **[!UICONTROL Design Theme]** 이 현재 테마로 설정되어 있습니다.
 

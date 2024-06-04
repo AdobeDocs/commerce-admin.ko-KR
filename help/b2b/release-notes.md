@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL B2B for Adobe Commerce] 릴리스 정보'
-description: 의 변경 사항에 대한 자세한 내용은 릴리스 정보 를 참조하십시오. [!DNL B2B for Adobe Commerce] 확장 릴리스.
+title: '''[!DNL Adobe Commerce B2B] 릴리스 정보'
+description: 의 변경 사항에 대한 자세한 내용은 릴리스 정보 를 참조하십시오. [!DNL Adobe Commerce B2B] 릴리스.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
 workflow-type: tm+mt
-source-wordcount: '6937'
+source-wordcount: '6851'
 ht-degree: 0%
 
 ---
 
-# [!DNL B2B for Adobe Commerce] 릴리스 정보
+# [!DNL Adobe Commerce B2B] 릴리스 정보
 
 B2B 확장에 대한 이러한 릴리스 노트는 다음을 포함하여 Adobe이 릴리스 주기 동안 추가한 추가 및 수정 사항을 캡처합니다.
 
@@ -62,7 +62,7 @@ B2B v1.5.0 베타 릴리스에는 새로운 기능, 품질 개선 및 버그 수
 
 ![해결된 문제](../assets/fix.svg) <!--ACP2E-1825-->회사가 차단된 후에는 더 이상 회사와 연결된 사용자가 구매 발주를 수행할 수 없습니다. 이전에는 회사가 차단되면 회사와 연관된 사용자가 구매 주문을 할 수 있었습니다.
 
-![해결된 문제](../assets/fix.svg)<!--ACP2E-1933-->이제 회사 관리자는 상점 첫 화면에서 회사 사용자를 추가할 수 있습니다. 이전에는 관리자가 새 사용자를 추가하려고 할 때 Commerce에서 오류가 기록되었습니다. `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+![해결된 문제](../assets/fix.svg)<!--ACP2E-1933-->이제 회사 관리자는 상점 첫 화면에서 회사 사용자를 추가할 수 있습니다. 이전에는 Commerce에서 관리자가 새 사용자를 추가하려고 할 때 오류를 기록했습니다. `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
 ## B2B v1.4.2
 
@@ -114,7 +114,7 @@ B2B v1.4.1 릴리스에는 품질 개선 사항 및 버그 수정이 포함되�
 
 ![해결된 문제](../assets/fix.svg) <!--ACP2E-1429--> B2B 기능에 대한 저장 구성 설정에서 **[!UICONTROL Enable Shared Catalog direct products price assigning]** 이제 필드가 자동으로 비활성화됩니다. 상점에서는 다음과 같은 경우 숨겨집니다. **[!UICONTROL Enable Company]** 설정 또는 **[!UICONTROL Enable Shared Catalog]** 설정이 로 설정되어 있습니다. **[!UICONTROL No]**.
 
-![해결된 문제](../assets/fix.svg) <!--ACP2E-1683--> 상점에서 회사 계정을 만들 때 이제 Commerce가 회사 등록을 처리하기 전에 이메일 주소를 확인합니다. 이메일 주소가 올바르지 않으면 작업이 실패하고 계정 업데이트가 처리되지 않습니다. 기존에는 이메일 주소가 잘못돼 회사 계정 생성 요청이 실패해도 고객 계정이 생성됐다.
+![해결된 문제](../assets/fix.svg) <!--ACP2E-1683--> 상점 첫 화면에서 회사 계정을 만들 때 이제 Commerce이 회사 등록을 처리하기 전에 이메일 주소를 확인합니다. 이메일 주소가 올바르지 않으면 작업이 실패하고 계정 업데이트가 처리되지 않습니다. 기존에는 이메일 주소가 잘못돼 회사 계정 생성 요청이 실패해도 고객 계정이 생성됐다.
 
 ![해결된 문제](../assets/fix.svg) <!--ACP2E-1664--> 공유 카탈로그 및 가격 구조에 큰따옴표가 포함된 제품 SKU에서 더 이상 관리자의 오류가 발생하지 않습니다.
 
@@ -148,7 +148,7 @@ B2B 보안 패키지에 대한 수동 종속성을 추가하여 B2B 보안 패�
 
 >[!NOTE]
 >
->Commerce를 2.4.6에서 [최신 릴리스](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6)지원되는 B2B 1.3.5 패치 릴리스로 업데이트해야 합니다. 또는 B2B 확장을 버전 1.3.5에서 버전 1.4.0 이상으로 업그레이드하여 최신 기능을 받으십시오.
+>Commerce을 2.4.6에서 [최신 릴리스](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6)지원되는 B2B 1.3.5 패치 릴리스로 업데이트해야 합니다. 또는 B2B 확장을 버전 1.3.5에서 버전 1.4.0 이상으로 업그레이드하여 최신 기능을 받으십시오.
 
 ![신규](../assets/new.svg) Adobe Commerce 2.4.6에 대한 지원이 추가되었습니다.
 

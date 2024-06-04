@@ -3,9 +3,9 @@ title: 장바구니 구성
 description: 스토어에서 구매 경험을 지원하기 위해 구성할 수 있는 장바구니 기능에 대해 알아봅니다.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2445'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 ## 견적 라이프타임
 
-Adobe Commerce용 B2B를 설치하고 활성화하면 _따옴표_ 기능. 이 기능을 사용하면 승인된 구매자가 장바구니에서 요청을 제출하여 가격 협상 프로세스를 시작할 수 있습니다. 다음 _따옴표_ 그리드는 수신된 각 견적을 나열하고 구매자와 판매자 간의 통신 내역을 유지합니다. B2B 기능에 대한 자세한 내용은 [협상된 견적](../b2b/quotes.md) 다음에서 _Adobe Commerce용 B2B 사용 안내서_.
+Adobe Commerce B2B를 설치하고 활성화하면 _따옴표_ 기능. 이 기능을 사용하면 승인된 구매자가 장바구니에서 요청을 제출하여 가격 협상 프로세스를 시작할 수 있습니다. 다음 _따옴표_ 그리드는 수신된 각 견적을 나열하고 구매자와 판매자 간의 통신 내역을 유지합니다. B2B 기능에 대한 자세한 내용은 [협상된 견적](../b2b/quotes.md) 다음에서 _Adobe Commerce B2B 사용 안내서_.
 
 구성에서 장바구니 견적 라이프타임을 설정하여 가격이 유효한 기간을 결정할 수 있습니다. 예를 들어, 쇼핑객이 며칠 후 장바구니를 무인 상태로 두는 경우, 일부 품목의 견적 가격이 더 이상 동일하지 않을 수 있습니다. 기본적으로 견적 수명은 30일로 설정됩니다.
 

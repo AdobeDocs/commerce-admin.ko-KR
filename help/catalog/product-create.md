@@ -3,9 +3,9 @@ title: 제품 만들기
 description: 카탈로그에 대해 만들 수 있는 제품 유형에 대해 알아봅니다.
 exl-id: ff90bf8a-a64d-403f-bd09-5c8167a36f0b
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 | [[!UICONTROL Product in Websites]](settings-basic-websites.md) | 스토어 계층에 따라 제품을 사용할 수 있는 각 웹 사이트를 식별합니다. |
 | [[!UICONTROL Design]](settings-advanced-design.md) | 제품 페이지에 다른 테마를 적용하고, 열 레이아웃을 변경하고, 제품 옵션이 나타나는 위치를 결정하고, 사용자 지정 XML 코드를 입력하는 데 사용됩니다. |
 | [[!UICONTROL Gift options]](product-gift-options.md) | 제품 수준에서 체크아웃하는 동안 선물 메시지 옵션을 활성화하거나 비활성화하는 데 사용됩니다. |
-| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![Adobe Commerce용 B2B](../assets/b2b.svg) (사용 가능 대상 [Adobe Commerce용 B2B](../b2b/introduction.md) 만 해당) 다른 회사에 대해 사용자 지정 가격으로 공유 카탈로그를 유지 관리할 수 있습니다. |
+| [[!UICONTROL Product In Shared Catalogs]](../b2b/catalog-shared.md) | ![Adobe Commerce](../assets/b2b.svg) (사용 가능 대상 [Adobe Commerce](../b2b/introduction.md) 만 해당) 다른 회사에 대해 사용자 지정 가격으로 공유 카탈로그를 유지 관리할 수 있습니다. |
 | [[!UICONTROL Downloadable Information]](product-create-downloadable.md#step-5-complete-the-downloadable-information) | 제품 다운로드의 매개 변수를 정의하는 데 사용됩니다. |
 
 {style="table-layout:auto"}

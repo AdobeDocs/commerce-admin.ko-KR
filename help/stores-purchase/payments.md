@@ -3,9 +3,9 @@ title: 결제 개요
 description: Adobe Commerce 및 Magento Open Source에서 기본적으로 지원되는 결제 방법 및 서비스에 대해 알아봅니다.
 exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe Commerce 및 Magento Open Source에는 서드파티 결제 처리 회사�
 - [은행 송금 결제](bank-transfer.md)
 - [수표/우편환](check-money-order.md)
 - [구매 주문](purchase-order.md)
-- [계정입금](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B와 함께 사용 가능)
+- [계정입금](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B와 함께 사용 가능)
 
 ## 온라인 결제 방법
 
@@ -78,7 +78,7 @@ Adobe Commerce 및 Magento Open Source은 전 세계 모든 지역에서 판매�
 
 >[!NOTE]
 >
->보안 규정 준수를 위한 업데이트를 지원하기 위해 Signifyd 사기 방지 기능은 2.4.0 릴리스부터 Commerce에서 제거됩니다. 2.3.x 또는 이전 릴리스에서 Signifyd 통합을 사용한 경우 로 전환하는 것이 좋습니다. [Signifyd 사기 및 차지백 보호 확장](https://marketplace.magento.com/signifyd-module-connect.html){:target=&quot;_blank&quot;}. 공급업체 지침에 따라 확장에 대한 업데이트를 유지해야 합니다.
+>보안 규정 준수를 위한 업데이트를 지원하기 위해 2.4.0 릴리스부터 Commerce에서 Signifyd 사기 방지 기능이 제거됩니다. 2.3.x 또는 이전 릴리스에서 Signifyd 통합을 사용한 경우 로 전환하는 것이 좋습니다. [Signifyd 사기 및 차지백 보호 확장](https://marketplace.magento.com/signifyd-module-connect.html){:target=&quot;_blank&quot;}. 공급업체 지침에 따라 확장에 대한 업데이트를 유지해야 합니다.
 
 ## 리소스 문제 해결
 

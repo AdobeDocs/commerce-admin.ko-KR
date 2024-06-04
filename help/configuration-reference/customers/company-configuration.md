@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] 상거래 관리자의 페이지입니다.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce용 B2B를 설치하고 활성화하면 회사별 기능으로 구매 경험을 개인화할 수 있습니다. Adobe Commerce용 B2B는 B2B 및 B2C 모델을 모두 지원하는 통합 솔루션입니다. B2B 기능에 대한 자세한 내용은 [Adobe Commerce용 B2B 사용 안내서](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Adobe Commerce B2B를 설치하고 활성화하면 회사별 기능을 사용하여 구매 경험을 개인화할 수 있습니다. Adobe Commerce B2B는 B2B 및 B2C 모델을 모두 지원하는 통합 솔루션입니다. B2B 기능에 대한 자세한 내용은 [Adobe Commerce B2B 사용 안내서](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >
 >B2B 기능에 대한 이러한 구성 옵션에 대한 액세스는 [역할 리소스](../../systems/permissions-user-roles.md#role-resources). 이러한 역할 리소스는 관리자 사용자에게 할당된 사용자 역할에 대해 설정해야 합니다.
 
-이러한 설정 구성에 대한 자세한 내용은 [기본 B2B 기능 활성화](../../b2b/enable-basic-features.md) 다음에서 _Adobe Commerce용 B2B 사용 안내서_.
+이러한 설정 구성에 대한 자세한 내용은 [기본 B2B 기능 활성화](../../b2b/enable-basic-features.md) 다음에서 _Adobe Commerce B2B 사용 안내서_.
 
 ## [!UICONTROL General]
 

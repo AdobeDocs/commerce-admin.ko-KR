@@ -3,9 +3,9 @@ title: 체크아웃 시 주소 검색
 description: 스토어의 체크아웃 시 주소 검색을 포함하는 방법에 대해 알아봅니다.
 exl-id: 8153c456-0848-4bb4-8deb-8219323344ed
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 견적에 대해 잠긴 주소 검색
 
-![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B에서만 사용 가능)
+![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B에서만 사용 가능)
 
 주소 검색을 활성화하면 고객의 저장된 주소 수가 구성된 한도를 충족하거나 초과하는 견적에서 생성된 주문에 대한 체크아웃에도 영향을 줍니다. 견적이 완료되고 고객이 체크아웃을 진행하면 선택한 배송 주소만 표시됩니다. 배송 주소가 잠겨 있으며 견적에서만 변경할 수 있다는 메시지도 표시됩니다.
 

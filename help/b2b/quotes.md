@@ -3,9 +3,9 @@ title: 협상 가능한 견적
 description: 견적 워크플로우와 이 서비스를 회사 계정에 제공하는 방법에 대해 알아봅니다.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 협상 가능한 견적은 Adobe Commerce에 다음 구성 설정이 있는 경우에만 사용할 수 있습니다.
 
-- [Adobe Commerce용 B2B 확장이 설치되었습니다](install.md)
+- [Adobe Commerce B2B 확장이 설치됨](install.md)
 - [구성된 B2B 기능](enable-basic-features.md)
    - 회사 계정 활성화
    - B2B 견적 활성화
@@ -134,7 +134,7 @@ ht-degree: 0%
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Send] | 구매자의 문의에 대한 회신으로 업데이트된 견적을 보냅니다. 판매자가 구매자의 회신을 기다리는 경우 이 버튼이 비활성화됩니다. |
 | [!UICONTROL Back] | 로 돌아갑니다. _따옴표_ 변경 사항을 저장하지 않은 페이지입니다. |
-| [!UICONTROL Create Copy] | [!BADGE 1.5.0 베타 기능]{type=Informative url="/help/b2b/release-notes.md" tooltip="Beta 프로그램 참가자만 사용 가능"}`<original quote name> (copy)`. 에서 값을 편집하여 이름 변경 [!UICONTROL Name] 필드를 지정하고 견적을 초안으로 저장합니다. |
+| [!UICONTROL Create Copy] | [!BADGE 1.5.0 베타 기능]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Beta 프로그램 참가자만 사용할 수 있습니다.&quot;} 현재 견적을 복사하고 이름을 바꾸어 새 견적을 만듭니다. 새 견적이 열리면 기본 이름은 입니다. `<original quote name> (copy)`. 에서 값을 편집하여 이름 변경 [!UICONTROL Name] 필드를 지정하고 견적을 초안으로 저장합니다. |
 | [!UICONTROL Print] | 견적을 프린터로 보내거나 PDF 파일로 저장합니다. |
 | [!UICONTROL Create a copy] | (이)라는 이름의 견적의 사본을 만듭니다. `<original quote name> (copy)` 열고, 새 견적을 초안으로 저장하거나 구매자에게 보내기 전에 필요에 따라 이름을 변경하고 갱신합니다. |
 | [!UICONTROL Save as Draft] | 견적에 대한 변경 사항을 저장하지만 구매자에게 다시 보내지 않습니다. |

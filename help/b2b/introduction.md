@@ -1,18 +1,18 @@
 ---
-title: 소개 [!DNL B2B for Adobe Commerce]
+title: 소개 [!DNL Adobe Commerce B2B]
 description: 기업 고객의 요구 사항을 충족하기 위해 통합 B2B 기능을 사용하는 방법에 대해 알아보십시오.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
+source-git-commit: 8e4e070f41f7d3bf872e81c9805e7c24779b812d
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '813'
 ht-degree: 2%
 
 ---
 
-# 소개 [!DNL B2B for Adobe Commerce]
+# 소개 [!DNL Adobe Commerce B2B]
 
-B2B(Business to Business) 통합 기능은 기존의 비즈니스 대 소비자 모델과 달리 고객을 기업인 판매자(Adobe Commerce 가맹점)의 니즈를 충족할 수 있도록 설계됐다. 다양한 역할과 구매 권한 수준을 가진 여러 사용자와 복잡한 조직 구조를 가진 기업을 포용한다. 일반적인 B2B 고객은 소매점의 관리자 또는 회사를 대신하여 구매를 수행하는 구매자일 수 있습니다. 두 경우 모두 귀하의 비즈니스와 해당 비즈니스 간에 거래가 이루어집니다. 소비자에게 직접 제품을 판매할 수도 있습니다. [!DNL B2B for Adobe Commerce] 는 B2B 및 B2C 모델을 모두 지원하는 통합 솔루션입니다.
+B2B(Business to Business) 통합 기능은 기존의 비즈니스 대 소비자 모델과 달리 고객을 기업인 판매자(Adobe Commerce 가맹점)의 니즈를 충족할 수 있도록 설계됐다. 다양한 역할과 구매 권한 수준을 가진 여러 사용자와 복잡한 조직 구조를 가진 기업을 포용한다. 일반적인 B2B 고객은 소매점의 관리자 또는 회사를 대신하여 구매를 수행하는 구매자일 수 있습니다. 두 경우 모두 귀하의 비즈니스와 해당 비즈니스 간에 거래가 이루어집니다. 소비자에게 직접 제품을 판매할 수도 있습니다. [!DNL Adobe Commerce B2B] 는 B2B 및 B2C 모델을 모두 지원하는 통합 솔루션입니다.
 
 포함 [설치](install.md) 및 [지원](enable-basic-features.md) Adobe Commerce 스토어의 B2B 확장 기능 중 구매 경험은 고객별 카탈로그 및 가격 책정, 타겟팅된 콘텐츠 및 프로모션을 통해 개인화할 수 있습니다.
 

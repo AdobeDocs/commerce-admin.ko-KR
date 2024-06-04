@@ -4,9 +4,9 @@ description: 등록된 고객이 시작한 관리자 액세스 및 다양한 상
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Google reCAPTCHA는 관리자 및 상점 첫 페이지용으로 별도로 구성됩니다.
 
-- 관리자의 경우, Google reCAPTCHA는 [로그인](../getting-started/admin-signin.md) 사용자가 암호 재설정을 요청할 때 및 페이지입니다. 표준 Commerce [CAPTCHA](security-captcha.md) 또한 Google reCAPTCHA를 문제 없이 동시에 사용할 수 있습니다.
+- 관리자의 경우, Google reCAPTCHA는 [로그인](../getting-started/admin-signin.md) 사용자가 암호 재설정을 요청할 때 및 페이지입니다. 표준 Commerce인 경우 [CAPTCHA](security-captcha.md) 또한 Google reCAPTCHA를 문제 없이 동시에 사용할 수 있습니다.
 
 - 상점 앞의 경우 Google reCAPTCHA를 사용하여 [고객 계정](../customers/customer-sign-in.md)에서 메시지를 보냅니다. [연락처](../getting-started/store-details.md#contact-us-form) 페이지 및 기타 여러 상점 내 위치.
 
@@ -43,7 +43,7 @@ Google reCAPTCHA를 사용하려면 API 키 쌍이 필요합니다. 이 키들�
 
 1. 대상 **[!UICONTROL Label]**&#x200B;을 클릭하고 내부 참조용 키를 식별할 이름을 입력합니다.
 
-   Adobe Commerce 또는 Magento Open Source 설치에 사용되는 각 reCAPTCHA 유형에 하나의 키 세트가 필요합니다. For example: `Commerce Invisible`
+   Adobe Commerce 또는 Magento Open Source 설치에 사용되는 각 reCAPTCHA 유형에 하나의 키 세트가 필요합니다. 예: `Commerce Invisible`
 
 1. 대상 **[!UICONTROL reCAPTCHA type]**&#x200B;를 클릭하고 사용할 메서드를 선택합니다.
 
@@ -160,7 +160,7 @@ Google reCAPTCHA를 사용하려면 API 키 쌍이 필요합니다. 이 키들�
    - [!UICONTROL Enable for Forgot Password]
    - [!UICONTROL Enable for Create New Customer Account]
    - [!UICONTROL Enable for Edit Customer Account]
-   - [!UICONTROL Enable for Create New Company Account] ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B에서만 사용 가능)
+   - [!UICONTROL Enable for Create New Company Account] ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B에서만 사용 가능)
    - [!UICONTROL Enable for Contact Us]
    - [!UICONTROL Enable for Product Review]
    - [!UICONTROL Enable for Newsletter Subscription]

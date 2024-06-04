@@ -3,20 +3,20 @@ title: 색인 관리
 description: 리인덱싱을 트리거하는 작업과 모범 사례를 포함하여 인덱스 관리에 대해 알아봅니다.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 28b8e430336090666402f3f2868311ef98d9217d
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
 
 # 색인 관리
 
-Adobe Commerce 및 Magento Open Source은 하나 이상의 항목이 변경될 때마다 자동으로 다시 인덱싱합니다. 리인덱싱을 트리거하는 작업에는 가격 변경, 카탈로그 또는 장바구니 가격 규칙 만들기, 새 범주 추가 등이 포함됩니다. 성능을 최적화하기 위해 Commerce에서는 인덱서를 사용하여 데이터를 특수 테이블에 누적합니다. 데이터가 변경되면 인덱싱된 테이블을 업데이트하거나 다시 인덱싱해야 합니다. 상업은 백그라운드 프로세스로 다시 인덱싱되며 프로세스 중에는 저장소에 계속 액세스할 수 있습니다.
+Adobe Commerce 및 Magento Open Source은 하나 이상의 항목이 변경될 때마다 자동으로 다시 인덱싱합니다. 리인덱싱을 트리거하는 작업에는 가격 변경, 카탈로그 또는 장바구니 가격 규칙 만들기, 새 범주 추가 등이 포함됩니다. 성능을 최적화하기 위해 Commerce에서는 인덱서를 사용하여 데이터를 특수 테이블에 누적합니다. 데이터가 변경되면 인덱싱된 테이블을 업데이트하거나 다시 인덱싱해야 합니다. Commerce은 백그라운드 프로세스로 다시 인덱싱하며 프로세스 중에 스토어에 계속 액세스할 수 있습니다.
 
-데이터를 리인덱싱하면 처리 속도가 빨라지고 고객의 대기 시간이 줄어듭니다. 예를 들어 항목의 가격을 $4.99에서 $3.99로 변경하면 Commerce는 데이터를 다시 인덱싱하여 스토어에서 가격 변경을 표시합니다. 색인화가 없으면 Commerce는 장바구니 가격 규칙, 번들 가격, 할인, 계층 가격 등을 처리하는 모든 제품의 가격을 즉시 계산해야 합니다. 제품 가격을 로드하는 데 고객이 기다리는 시간보다 오래 걸릴 수 있습니다.
+데이터를 리인덱싱하면 처리 속도가 빨라지고 고객의 대기 시간이 줄어듭니다. 예를 들어 품목 가격을 $4.99에서 $3.99로 변경하면 Commerce은 데이터를 다시 인덱싱하여 스토어에서 가격 변경을 표시합니다. 색인화가 없으면 Commerce은 장바구니 가격 규칙, 번들 가격, 할인, 계층 가격 등을 처리하는 모든 제품의 가격을 즉시 계산해야 합니다. 제품 가격을 로드하는 데 고객이 기다리는 시간보다 오래 걸릴 수 있습니다.
 
-인덱서는 저장 시 업데이트 또는 예약 시 업데이트로 설정할 수 있습니다. 저장 시만 지원하는 고객 그리드를 제외하고 모든 색인이 두 옵션 중 하나를 사용할 수 있습니다. 저장 시 색인화하면 Commerce는 저장 작업에 대한 색인 재지정을 시작합니다. 색인 관리 페이지는 업데이트를 완료하고 1~2분 내에 색인 재지정 메시지가 나타나도록 캐시를 플러시합니다. 일정에서 리인덱싱하는 경우 일정에 따라 리인덱싱이 cron job으로 실행됩니다. 다음과 같은 경우 시스템 메시지가 나타납니다. [cron job](cron.md) 가 잘못된 인덱서를 업데이트하는 데는 사용할 수 없습니다. 색인 재지정 프로세스 중에는 저장소에 계속 액세스할 수 있습니다.
+인덱서는 저장 시 업데이트 또는 예약 시 업데이트로 설정할 수 있습니다. 저장 시만 지원하는 고객 그리드를 제외하고 모든 색인이 두 옵션 중 하나를 사용할 수 있습니다. 저장 시 색인화하면 Commerce은 저장 작업에 대한 색인 재지정을 시작합니다. 색인 관리 페이지는 업데이트를 완료하고 1~2분 내에 색인 재지정 메시지가 나타나도록 캐시를 플러시합니다. 일정에서 리인덱싱하는 경우 일정에 따라 리인덱싱이 cron job으로 실행됩니다. 다음과 같은 경우 시스템 메시지가 나타납니다. [cron job](cron.md) 가 잘못된 인덱서를 업데이트하는 데는 사용할 수 없습니다. 색인 재지정 프로세스 중에는 저장소에 계속 액세스할 수 있습니다.
 
 >[!NOTE]
 > Live Search, Catalog Service 또는 Product Recommendations을 사용하는 Adobe Commerce 판매자는 [SaaS 기반 가격 인덱서](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/index.html).
@@ -31,19 +31,19 @@ Adobe Commerce 및 Magento Open Source은 하나 이상의 항목이 변경될 �
 
 ## 리인덱싱 모범 사례
 
-리인덱싱과 캐싱은 Commerce에서 다른 용도로 사용됩니다. 인덱스는 데이터베이스 정보를 추적하여 검색 성능을 높이고, 상점에 대한 데이터 검색 속도를 향상시킵니다. [캐시](cache-management.md) 로드된 데이터, 이미지, 형식 등을 저장하여 storefront의 성능 로드 및 액세스를 향상시킵니다.
+리인덱싱과 캐싱은 Commerce에서 서로 다른 목적을 가지고 있습니다. 인덱스는 데이터베이스 정보를 추적하여 검색 성능을 높이고, 상점에 대한 데이터 검색 속도를 향상시킵니다. [캐시](cache-management.md) 로드된 데이터, 이미지, 형식 등을 저장하여 storefront의 성능 로드 및 액세스를 향상시킵니다.
 
-- 일반적으로 Commerce에서 데이터를 업데이트할 때 색인을 다시 지정해야 합니다.
+- 일반적으로 Commerce에서 데이터를 업데이트할 때 색인을 다시 지정할 수 있습니다.
 - 대형 스토어나 여러 스토어가 있는 경우 색인 재지정의 가능성으로 인해 카테고리 및 제품과 같은 색인을 예약된 크론 작업으로 설정할 수 있습니다. 피크 시간이 아닌 시간 동안 일정에 따라 색인 재지정을 설정할 수 있습니다.
 - 리인덱싱하는 경우 플러시 캐시도 수행할 필요가 없습니다.
-- 새 상거래 설치의 경우 캐시를 플러시하고 다시 인덱싱해야 합니다.
+- 새 Commerce 설치의 경우 캐시를 플러시하고 다시 인덱싱해야 합니다.
 - 캐시를 플러시하고 리인덱싱하는 경우 컴퓨터의 웹 브라우저 캐시가 플러시되지 않습니다. Storefront에 대한 업데이트를 완료한 후 브라우저 캐시를 지우십시오.
 
 ## 색인 모드 변경
 
 >[!IMPORTANT]
 >
->를 사용하는 스토어의 경우 [Adobe Commerce용 B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) Elasticsearch을 전체 텍스트(`catalogsearch_fulltext`) 인덱서: 일괄 권한을 변경하거나 &#39;permissions&#39; 인덱서가 &#39;Scheduled&#39; 모드에 있는 경우 전체 텍스트 인덱스를 다시 실행해야 합니다.
+>를 사용하는 스토어의 경우 [Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) Elasticsearch을 전체 텍스트(`catalogsearch_fulltext`) 인덱서: 일괄 권한을 변경하거나 &#39;permissions&#39; 인덱서가 &#39;Scheduled&#39; 모드에 있는 경우 전체 텍스트 인덱스를 다시 실행해야 합니다.
 
 1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -76,7 +76,7 @@ Adobe Commerce 및 Magento Open Source은 하나 이상의 항목이 변경될 �
 
 ## 명령줄을 사용하여 색인 재지정
 
-Commerce는 명령줄을 사용하여 추가 색인 재지정 옵션을 제공합니다. 자세한 내용 및 명령 옵션은 다음을 참조하십시오. [색인 재지정](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex)의 {:target=&quot;blank&quot;} _구성 안내서_.
+Commerce은 명령줄을 사용하여 추가 색인 재지정 옵션을 제공합니다. 자세한 내용 및 명령 옵션은 다음을 참조하십시오. [색인 재지정](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex)의 {:target=&quot;blank&quot;} _구성 안내서_.
 
 ## 인덱스 트리거 이벤트
 
@@ -103,8 +103,8 @@ Commerce는 명령줄을 사용하여 추가 색인 재지정 옵션을 제공�
 | 작업 | 결과 | 컨트롤 |
 | ------ | ------ | -------- |
 | 스토어, 새 고객 그룹 또는 나열된 작업 만들기 `Actions that Cause a Full Reindex` | 전체 색인 재지정 | 전체 리인덱싱은 Adobe Commerce 또는 Magento Open Source cron 작업에 의해 결정된 일정에 따라 수행됩니다. |
-| 항목 대량 로드(상거래 가져오기/내보내기, 직접 SQL 쿼리 및 데이터를 직접 추가, 변경 또는 삭제하는 기타 방법) | 부분 색인 재지정(변경된 항목만 색인 재지정) | 상거래 cron 작업에 의해 결정된 빈도입니다. |
-| 범위 변경(예: 글로벌에서 웹 사이트로) | 부분 색인 재지정(변경된 항목만 색인 재지정) | 상거래 cron 작업에 의해 결정된 빈도입니다. |
+| 항목 벌크 로드(Commerce 가져오기/내보내기, 직접 SQL 쿼리 및 데이터를 직접 추가, 변경 또는 삭제하는 기타 방법) | 부분 색인 재지정(변경된 항목만 색인 재지정) | Commerce cron 작업에 의해 결정된 빈도입니다. |
+| 범위 변경(예: 글로벌에서 웹 사이트로) | 부분 색인 재지정(변경된 항목만 색인 재지정) | Commerce cron 작업에 의해 결정된 빈도입니다. |
 
 {style="table-layout:auto"}
 

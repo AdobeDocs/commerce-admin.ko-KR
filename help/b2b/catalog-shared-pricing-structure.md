@@ -1,12 +1,12 @@
 ---
 title: 공유 카탈로그 가격 및 구조 설정
-description: Adobe Commerce용 B2B를 사용하여 공유 카탈로그의 가격 책정 및 구조를 설정하는 방법에 대해 알아봅니다.
+description: Adobe Commerce B2B를 사용하여 공유 카탈로그의 가격 및 구조를 설정하는 방법에 대해 알아봅니다.
 exl-id: 67caf56f-1b31-44bb-98dc-ea6ea7d8a4d5
 feature: B2B, Companies, Catalog Management
 role: Admin
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---

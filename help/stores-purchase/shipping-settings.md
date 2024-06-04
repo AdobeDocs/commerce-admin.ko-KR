@@ -3,9 +3,9 @@ title: 배송 설정
 description: 스토어에 대한 원산지 및 배송 정책을 정의하는 배송 설정을 구성하는 방법에 대해 알아봅니다.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -80,4 +80,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce의 B2B) 여러 배송 주소가 있는 주문의 경우 [계정입금](../b2b/enable-basic-features.md#configure-payment-on-account) 결제 방법은 활성화된 경우에도 체크아웃 중에는 사용할 수 없습니다.
+>![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B) 여러 배송 주소가 있는 주문의 경우 [계정입금](../b2b/enable-basic-features.md#configure-payment-on-account) 결제 방법은 활성화된 경우에도 체크아웃 중에는 사용할 수 없습니다.

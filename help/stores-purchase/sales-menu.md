@@ -1,10 +1,10 @@
 ---
 title: '[!UICONTROL Sales] 메뉴'
-description: 상거래 관리자에는 [!UICONTROL Sales] 메뉴 - 워크플로우에서 위치에 따라 주문 작업을 위한 도구에 액세스할 수 있습니다.
+description: Commerce 관리자에는 [!UICONTROL Sales] 메뉴 - 워크플로우에서 위치에 따라 주문 작업을 위한 도구에 액세스할 수 있습니다.
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Quotes]
 
-![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B와 함께 사용 가능)
+![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B와 함께 사용 가능)
 
 승인된 구매자는 [가격 협상](../b2b/quotes.md) 을(를) 전송하여 판매자와 함께 [요청](../b2b/quote-request.md) 장바구니에서.
 

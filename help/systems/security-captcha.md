@@ -4,9 +4,9 @@ description: 등록된 고객이 시작한 관리자 액세스 및 다양한 상
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ CAPTCHA는 컴퓨터(또는 &quot;보트&quot;)가 아닌 사람이 사이트와
 
 1. 오른쪽 상단에서 를 설정합니다. **[!UICONTROL Store View]** 끝 `Default`.
 
-   다음과 같은 경우 [범위](../getting-started/websites-stores-views.md#scope-settings) 상거래 설치에 여러 웹 사이트가 포함된 경우 CAPTCHA 구성을 적용할 웹 사이트를 선택합니다.
+   다음과 같은 경우 [범위](../getting-started/websites-stores-views.md#scope-settings) Commerce 설치에 여러 웹 사이트가 포함된 경우 CAPTCHA 구성을 적용할 웹 사이트를 선택합니다.
 
 1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL CAPTCHA]** 섹션.
 
@@ -100,7 +100,7 @@ CAPTCHA는 컴퓨터(또는 &quot;보트&quot;)가 아닌 사람이 사이트와
       - `Payflow Pro` (참조 [보안 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _기술 자료_ 기사)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) (Magento Open Source 전용)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce 전용)
-      - `Create company` ![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B에서만 사용 가능)
+      - `Create company` ![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B에서만 사용 가능)
 
    - 설정 **[!UICONTROL Displaying Mode]** 다음 중 하나를 수행합니다.
 

@@ -3,9 +3,9 @@ title: SKU별 주문
 description: SKU를 통한 고객 맞춤 오더를 지원하도록 스토어를 구성하는 방법에 대해 알아봅니다.
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ _SKU별 주문_ 다음 값: [위젯](../content-design/widgets.md) 모든 쇼핑
 
 1. 클릭 **[!UICONTROL Save Config]**.
 
-![Adobe Commerce용 B2B](../assets/b2b.svg) (B2B - Adobe Commerce 전용) _**SKU별 주문 기능을 활성화하려면 빠른 주문 기능을 비활성화합니다.**_
+![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B만 해당) _**SKU별 주문 기능을 활성화하려면 빠른 주문 기능을 비활성화합니다.**_
 
 1. 다음으로 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

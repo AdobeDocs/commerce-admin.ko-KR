@@ -4,9 +4,9 @@ description: 공유 카탈로그를 만들고 기존 공유 카탈로그를 복�
 exl-id: 969c352c-ff88-4902-8347-334ee8b79afb
 feature: B2B, Companies, Catalog Management
 role: Admin
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ ht-degree: 0%
 | 필드 | 설명 |
 |--- |--- |
 | [!UICONTROL Name] | 관리자 전체와 사용 가능한 고객 계정에서 공유 카탈로그를 식별합니다. 카탈로그 이름은 설명적이어야 하며 길이는 32자 이하여야 합니다. 이름이 같은 두 개의 공유 카탈로그를 가질 수 없습니다. 최대 문자 수: 32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]** - 지정된 특정 회사에만 사용할 수 있는 사용자 지정 가격 책정 카탈로그를 식별합니다.<br/>**[!UICONTROL Public]**- 모든 게스트 방문자 및 회사와 연관되지 않은 로그인 고객에게 사용할 수 있는 공유 카탈로그를 식별합니다. 다음과 같은 경우 기본 공개 공유 카탈로그가 만들어집니다. [!DNL B2B for Adobe Commerce] 이(가) 설치되었지만 저장소 관리자가 구성해야 합니다. 공개 공유 카탈로그는 한 번에 하나만 존재할 수 있습니다. |
+| [!UICONTROL Type] | **[!UICONTROL Custom]** - 지정된 특정 회사에만 사용할 수 있는 사용자 지정 가격 책정 카탈로그를 식별합니다.<br/>**[!UICONTROL Public]**- 모든 게스트 방문자 및 회사와 연관되지 않은 로그인 고객에게 사용할 수 있는 공유 카탈로그를 식별합니다. 다음과 같은 경우 기본 공개 공유 카탈로그가 만들어집니다. [!DNL Adobe Commerce B2B] 이(가) 설치되었지만 저장소 관리자가 구성해야 합니다. 공개 공유 카탈로그는 한 번에 하나만 존재할 수 있습니다. |
 | [!UICONTROL Customer Tax Class] | 카탈로그에서 구매한 항목에 사용할 세금 분류를 결정합니다. 옵션에는 사용 가능한 모든 세금 분류가 포함됩니다. |
 | [!UICONTROL Description] | 카탈로그 사용 방법에 대한 간단한 설명. |
 

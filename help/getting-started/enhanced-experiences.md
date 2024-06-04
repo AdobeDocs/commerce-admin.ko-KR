@@ -3,9 +3,9 @@ title: 향상된 Storefront 환경
 description: 고객 참여, 유지 및 충성도를 극대화하는 데 도움이 되도록 설계된 다양한 도구에 대해 알아봅니다.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: ecc1ae5a741cab915369eac619905728d1c61061
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Adobe Commerce 및 Magento Open Source은 쇼핑 경험을 조정하고 고객�
 
 - **자동화된 비즈니스 규칙** - 설정 [자동화된 비즈니스 규칙](../merchandising-promotions/price-rules-cart.md) 제품 관계를 정의하고 다양한 조건에 따라 할인을 트리거하는 가격 규칙을 사용합니다.
 
-- **통합 B2B 및 B2C** - 포함 [Adobe Commerce용 B2B](../b2b/introduction.md), B2C 및 B2B 고객을 모두 지원할 수 있습니다. 사용하기 쉬운 고객 포털을 통해 B2B 고객은 특정 역할과 권한을 가진 여러 계층의 구매자를 설정하고 견적 및 주문을 추적하고 구매 승인 규칙을 정의하고 온라인으로 크레딧을 관리할 수 있습니다.
+- **통합 B2B 및 B2C** - 포함 [Adobe Commerce](../b2b/introduction.md), B2C 및 B2B 고객을 모두 지원할 수 있습니다. 사용하기 쉬운 고객 포털을 통해 B2B 고객은 특정 역할과 권한을 가진 여러 계층의 구매자를 설정하고 견적 및 주문을 추적하고 구매 승인 규칙을 정의하고 온라인으로 크레딧을 관리할 수 있습니다.
 
 ## 구매 순간
 

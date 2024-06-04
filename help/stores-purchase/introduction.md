@@ -2,16 +2,16 @@
 title: 스토어 및 구매 경험 소개
 description: 온라인 스토어를 구성하고 관리하는 데 사용되는 기능과 고객을 위한 구매 환경에 대해 알아봅니다.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: a56509eeedbb30a1e9cacfd521ea4c18e0241d94
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
 
 # 스토어 및 구매 경험 소개
 
-Adobe Commerce 및 Magento Open Source은 온라인 스토어와 구매 경험을 구축하고 관리할 수 있는 포괄적인 기능 세트를 제공합니다. Commerce 인스턴스 내에서 웹 사이트, 스토어 및 뷰의 스토어 계층 구조를 관리할 수 있습니다. 제품 및 고객 그룹에 대한 세금 분류를 포함하여 여러 로케일에 대한 저장소를 실행하는 데 필요한 세금 및 통화 요금을 구성할 수도 있습니다.
+Adobe Commerce 및 Magento Open Source은 온라인 스토어와 구매 경험을 구축하고 관리할 수 있는 포괄적인 기능 세트를 제공합니다. Commerce 인스턴스 내에서 웹 사이트, 스토어 및 보기의 스토어 계층을 관리할 수 있습니다. 제품 및 고객 그룹에 대한 세금 분류를 포함하여 여러 로케일에 대한 저장소를 실행하는 데 필요한 세금 및 통화 요금을 구성할 수도 있습니다.
 
 ## 구조 저장
 
@@ -25,7 +25,7 @@ Adobe Commerce 및 Magento Open Source은 주문이 제출되기 전에 모든 �
 
 >[!TIP]
 >
->![Adobe Commerce용 B2B](../assets/b2b.svg) Adobe Commerce용 B2B를 설치하고 활성화하면 _빠른 주문_ 회사 계정과 연결된 고객의 경우. 이 기능은 주문하려는 제품의 이름이나 SKU를 알고 있는 경우 주문 프로세스를 몇 번의 클릭으로 줄입니다. 회사 계정에 대해 협상 가능한 견적에 대한 지원을 구성할 수도 있습니다. B2B 기능에 대한 자세한 내용은 [Adobe Commerce용 B2B 사용 안내서](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![Adobe Commerce](../assets/b2b.svg) Adobe Commerce B2B를 설치하고 활성화하면 다음을 구성할 수 있습니다. _빠른 주문_ 회사 계정과 연결된 고객의 경우. 이 기능은 주문하려는 제품의 이름이나 SKU를 알고 있는 경우 주문 프로세스를 몇 번의 클릭으로 줄입니다. 회사 계정에 대해 협상 가능한 견적에 대한 지원을 구성할 수도 있습니다. B2B 기능에 대한 자세한 내용은 [Adobe Commerce B2B 사용 안내서](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## 쇼핑 지원
 

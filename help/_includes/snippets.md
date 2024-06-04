@@ -1,9 +1,9 @@
 ---
 title: 코드 조각
 description: 특정 에디션에 적용되는 기능이나 페이지를 참고하기 위해 노트 및 시각적 요소를 재사용함
-source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 ## B2B 전용 기능 {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce용 B2B 기능" src="../assets/b2b.svg" width="20" height="20" /> 독점 기능은 다음에서만 사용할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Commerce용 B2B</a></td></tr>
+<tr><td><img alt="Adobe Commerce B2B 기능" src="../assets/b2b.svg" width="20" height="20" /> 독점 기능은 다음에서만 사용할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Commerce</a></td></tr>
 </table>
 
 ## CE 전용 기능 {#ce-feature}
@@ -77,7 +77,7 @@ ht-degree: 0%
 |----------------------- | ----------- |
 | [Adobe Commerce 2.4 Merchant 설명서](../landing/home.md) | Adobe Commerce에 대한 판매자 중심 설명서 |
 | [Adobe Commerce 설명서를 위한 서비스](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | 판매자가 비즈니스의 주요 구성 요소를 스토어와 통합하는 데 도움이 되는 서비스 컬렉션을 지원하는 설명서입니다. |
-| [클라우드 인프라의 Commerce 안내서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 관리되고 자동화된 호스팅 클라우드 플랫폼에서의 Adobe Commerce 배포에 대한 단계별 절차. |
+| [Commerce on Cloud Infrastructure 안내서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 관리되고 자동화된 호스팅 클라우드 플랫폼에서의 Adobe Commerce 배포에 대한 단계별 절차. |
 | [Adobe Commerce 2.4 운영 안내서](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Adobe Commerce 프로젝트 개발, 배포 및 유지 관리를 위한 개념, 프로세스, 도구 및 모범 사례에 대한 시스템 설명서입니다. |
 | [Adobe Commerce 2.4 개발자 설명서](https://developer.adobe.com/commerce/docs) | Adobe Commerce을 사용자 정의하고 서드파티 시스템과 통합하는 데 사용되는 개발자 중심의 설명서 |
 

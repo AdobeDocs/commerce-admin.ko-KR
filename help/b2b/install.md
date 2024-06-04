@@ -1,26 +1,26 @@
 ---
-title: 설치 [!DNL B2B for Adobe Commerce] 확장
-description: 설치 방법 알아보기 [!DNL B2B for Adobe Commerce] 메타패키지.
+title: 설치 [!DNL Adobe Commerce B2B] 확장
+description: 설치 방법 알아보기 [!DNL Adobe Commerce B2B] 메타패키지.
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: e57aa4e8919c2de5341c4b8363197d6380bbb0f6
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
 
-# 설치 [!DNL B2B for Adobe Commerce] 확장
+# 설치 [!DNL Adobe Commerce B2B] 확장
 
-Adobe Commerce용 B2B 확장 기능은 Adobe Commerce v2.2.0 이상에서만 사용할 수 있습니다. Adobe Commerce 설치 후 설치됩니다.
+Adobe Commerce B2B 확장 기능은 Adobe Commerce v2.2.0 이상에서만 사용할 수 있습니다. Adobe Commerce 설치 후 설치됩니다.
 
 배포된 Adobe Commerce 버전에서 지원되는 최신 버전의 B2B 확장을 설치합니다.
 
 >[!NOTE]
 >
->이러한 설치 지침은 온프레미스에 배포된 Adobe Commerce에 적용됩니다. 클라우드 인프라에 배포된 상거래 프로젝트용 B2B 확장을 설치하려면 다음을 참조하십시오. [Commerce Cloud 인프라 안내서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html).
+>이러한 설치 지침은 온프레미스에 배포된 Adobe Commerce에 적용됩니다. 클라우드 인프라에 배포된 Commerce 프로젝트용 B2B 확장을 설치하려면 다음을 참조하십시오. [Commerce Cloud 인프라 안내서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html).
 
 ## 요구 사항
 
@@ -81,7 +81,7 @@ B2B 확장을 설치하거나 업그레이드하기 전에 릴리스 정보에�
 
 ## 메시지 소비자
 
-Adobe Commerce 확장 기능용 B2B는 메시지 대기열 관리에 MySQL을 사용합니다. 다음 표에는 B2B 기능을 지원하는 메시지 소비자가 나와 있습니다. 확장을 설치한 후 Commerce 상점 앞에 필요한 B2B 기능에 대한 메시지 소비자를 시작합니다.
+Adobe Commerce B2B 확장은 메시지 대기열 관리에 MySQL을 사용합니다. 다음 표에는 B2B 기능을 지원하는 메시지 소비자가 나와 있습니다. 확장을 설치한 후 Commerce 스토어에 필요한 B2B 기능에 대한 메시지 소비자를 시작합니다.
 
 | 소비자 | 설명 |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -137,7 +137,7 @@ B2B 기능에 대한 비동기 작업을 활성화하려면 여러 메시지 소
 
 >[!TIP]
 >
->백그라운드에서 실행하려면 다음을 추가합니다 `&` 명령을 실행한 다음 프롬프트로 돌아가서 명령을 계속 실행합니다. For example: `bin/magento queue:consumers:start sharedCatalogUpdatePrice &`.
+>백그라운드에서 실행하려면 다음을 추가합니다 `&` 명령을 실행한 다음 프롬프트로 돌아가서 명령을 계속 실행합니다. 예: `bin/magento queue:consumers:start sharedCatalogUpdatePrice &`.
 
 자세한 내용은 [메시지 대기열 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) 다음에서 _구성 안내서_.
 
@@ -154,4 +154,4 @@ B2B 기능에 대한 비동기 작업을 활성화하려면 여러 메시지 소
 
 ## 관리자에서 B2B 기능 활성화
 
-Adobe Commerce용 B2B 확장을 설치하고 메시지 소비자를 시작한 후 다음을 수행해야 합니다 [관리자에서 B2B 기능 활성화](enable-basic-features.md).
+Adobe Commerce B2B 확장을 설치하고 메시지 소비자를 시작한 후 다음을 수행해야 합니다 [관리자에서 B2B 기능 활성화](enable-basic-features.md).

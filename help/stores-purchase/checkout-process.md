@@ -3,9 +3,9 @@ title: 체크아웃 프로세스 및 옵션
 description: Adobe Commerce 및 Magento Open Source 체크아웃 프로세스에서 트랜잭션을 완료하는 데 필요한 정보를 수집하고 체크아웃 페이지에서 프로세스의 각 단계를 고객을 안내하는 방법을 알아봅니다.
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ### 검토 및 지급 - 구매 발주
 
-![Adobe Commerce용 B2B](../assets/b2b.svg) (Adobe Commerce용 B2B에서만 사용 가능)
+![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B에서만 사용 가능)
 
 고객이 을 활성화한 회사와 연결된 경우 [구매 주문](../b2b/purchase-order-flow.md), 모든 주문은 구매 발주로 처리됩니다. 사용 가능한 결제 방법은 회사 계정 설정에 따라 결정됩니다.
 

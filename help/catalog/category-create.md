@@ -3,9 +3,9 @@ title: 범주 만들기
 description: 구성에 설정된 최대 메뉴 깊이에 따라 필요한 만큼 추가 하위 범주를 만들 수 있습니다.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ ht-degree: 0%
 
 1. 다음을 선택합니다. **[!UICONTROL Customer Group]** 카테고리 권한이 적용되는 위치입니다.
 
-   ![Adobe Commerce용 B2B](../assets/b2b.svg) ([Adobe Commerce용 B2B](../b2b/introduction.md) 필요한 경우 다음을 선택할 수 있습니다 **[!UICONTROL Shared Catalog]** 대신,
+   ![Adobe Commerce](../assets/b2b.svg) ([Adobe Commerce](../b2b/introduction.md) 필요한 경우 다음을 선택할 수 있습니다 **[!UICONTROL Shared Catalog]** 대신,
 
 1. 필요에 따라 다음 권한을 설정합니다.
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 
 1. 필요에 따라 디자인 설정을 지정합니다.
 
-   - ([Adobe Commerce용 B2B](../b2b/introduction.md) 전용) 상위 범주 디자인 설정을 이 범주에 적용하려면 다음을 설정합니다. **[!UICONTROL Use Parent Category Settings]** 끝 `Yes`.
+   - ([Adobe Commerce](../b2b/introduction.md) 전용) 상위 범주 디자인 설정을 이 범주에 적용하려면 다음을 설정합니다. **[!UICONTROL Use Parent Category Settings]** 끝 `Yes`.
 
    - 범주 페이지의 디자인을 변경하려면 **[!UICONTROL Theme]** 을(를) 적용합니다.
 

@@ -1,19 +1,19 @@
 ---
-title: '[!DNL B2B for Adobe Commerce] 안내서'
-description: 다음을 위한 포괄적인 정보 [!DNL B2B for Adobe Commerce] 설치 및 구성을 포함한 관리자
+title: '[!DNL Adobe Commerce B2B] 가이드'
+description: 다음을 위한 포괄적인 정보 [!DNL Adobe Commerce B2B] 설치 및 구성을 포함한 관리자
 breadcrumb-title: 안내서 개요
-seo-title: '[!DNL B2B for Adobe Commerce] Guide'
+seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: 4eb20fc8a52330976dd6f95ea45b9b32dc6fb1c1
+source-git-commit: b30790b252bcab38c4d0372d5d5bd0d5b6f41a07
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 1%
+source-wordcount: '335'
+ht-degree: 0%
 
 ---
 
-# Adobe Commerce용 B2B 안내서
+# Adobe Commerce B2B 안내서
 
 이 안내서는 Adobe Commerce 관리자를 위한 것입니다. 기능 구성 및 관리를 포함하여 이 모듈 설치 및 활성화에 대한 자세한 정보를 제공합니다. 그것은 핵심을 기본적으로 이해하는 것이라고 가정한다 [!DNL Commerce] 구성 및 기능을 사용할 수 있습니다.
 
@@ -26,10 +26,10 @@ ht-degree: 1%
 
 | 제목 | 설명 |
 | ------- | ----------- |
-| [소개](introduction.md) | 에서 사용할 수 있는 기능 [!DNL B2B for Adobe Commerce]? |
-| [릴리스 정보](release-notes.md) | 각각에 제공된 업데이트 검토 [!DNL B2B for Adobe Commerce] 모듈 릴리스. |
-| [설치](install.md) | 설치 [!DNL B2B for Adobe Commerce] 확장명. |
-| [기본 B2B 기능 활성화](enable-basic-features.md) | 설치 후 [!DNL B2B for Adobe Commerce]: 스토어에 대해 활성화할 기능을 활성화해야 합니다. |
+| [소개](introduction.md) | 에서 사용할 수 있는 기능 [!DNL Adobe Commerce B2B]? |
+| [릴리스 정보](release-notes.md) | 각각에 제공된 업데이트 검토 [!DNL Adobe Commerce B2B] 릴리스. |
+| [설치](install.md) | 설치 [!DNL Adobe Commerce B2B] 확장명. |
+| [기본 B2B 기능 활성화](enable-basic-features.md) | 설치 후 [!DNL Adobe Commerce B2B]: 스토어에 대해 활성화할 기능을 활성화해야 합니다. |
 | [회사 계정](account-companies.md) | 회사 계정과, 매장에서 B2B 구매자를 위한 지원을 제공하기 위한 기본 빌딩 블록을 제공하는 방법에 대해 알아봅니다. |
 | [회사 관리](manage-companies.md) | B2B Commerce 사이트 관리자가 회사 계층을 구축하여 동일한 비즈니스 기업에 속하는 여러 회사의 관리를 간소화하는 방법에 대해 알아봅니다. |
 | [공유 카탈로그](catalog-shared.md) | 공유 카탈로그를 사용하여 다양한 회사의 사용자 지정 가격으로 제어된 카탈로그를 유지 관리하는 방법에 대해 알아봅니다. |

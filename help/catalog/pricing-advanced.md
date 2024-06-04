@@ -3,9 +3,9 @@ title: 고급 가격 책정
 description: Adobe Commerce에서 사용할 수 있는 고급 가격 제어 기능에 대해 알아봅니다.
 exl-id: 0f353341-1b6b-4093-bba9-4a1b88323f8a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Adobe Commerce 및 Magento Open Source은 프로모션이나 제조업체의 최
 
 고급 가격 데이터는 제품 페이지와 동기화됩니다. 예를 들어 계층 가격 수량을 업데이트하면 시스템이 제품 페이지의 값을 업데이트합니다.
 
-![Adobe Commerce용 B2B](../assets/b2b.svg) (사용 가능 대상 [Adobe Commerce용 B2B](./b2b/../introduction.md) 전용) 공유 카탈로그를 사용하는 경우 고급 가격 책정 데이터가 제품 페이지 및 공유 카탈로그 모두와 동기화됩니다. 예를 들어 계층 가격 수량을 업데이트하면 공유 카탈로그 및 제품 페이지의 값이 업데이트됩니다. 공유 카탈로그에 표시된 모든 사용자 지정 가격책정은 고객 그룹 가격책정보다 우선합니다. 도 참조하십시오. [공유 카탈로그 가격 및 구조 설정](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) 다음에서 _Adobe Commerce용 B2B 안내서_.
+![Adobe Commerce](../assets/b2b.svg) (사용 가능 대상 [Adobe Commerce](./b2b/../introduction.md) 전용) 공유 카탈로그를 사용하는 경우 고급 가격 책정 데이터가 제품 페이지 및 공유 카탈로그 모두와 동기화됩니다. 예를 들어 계층 가격 수량을 업데이트하면 공유 카탈로그 및 제품 페이지의 값이 업데이트됩니다. 공유 카탈로그에 표시된 모든 사용자 지정 가격책정은 고객 그룹 가격책정보다 우선합니다. 도 참조하십시오. [공유 카탈로그 가격 및 구조 설정](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) 다음에서 _Adobe Commerce B2B 안내서_.
 
 ![고급 가격 책정](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 

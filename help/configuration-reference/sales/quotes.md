@@ -3,10 +3,10 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Quotes]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Quotes] 상거래 관리자의 페이지입니다.
 exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 feature: Configuration, Quotes
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 0%
+source-wordcount: '188'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce용 B2B를 설치하고 활성화하면 회사별 기능으로 구매 경험을 개인화할 수 있습니다. Adobe Commerce용 B2B는 B2B 및 B2C 모델을 모두 지원하는 통합 솔루션입니다. B2B 기능에 대한 자세한 내용은 [Adobe Commerce용 B2B 사용 안내서](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Adobe Commerce B2B를 설치하고 활성화하면 회사별 기능을 사용하여 구매 경험을 개인화할 수 있습니다. Adobe Commerce B2B는 B2B 및 B2C 모델을 모두 지원하는 통합 솔루션입니다. B2B 기능에 대한 자세한 내용은 [Adobe Commerce B2B 사용 안내서](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 {{config}}
 

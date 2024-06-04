@@ -4,9 +4,9 @@ description: Adobe Commerce, Magento Open Source 관리자 및 eCommerce 머천�
 seo-title: Adobe Commerce Catalog Management Guide
 seo-description: Describes how to use the product catalog features for Adobe Commerce and Magento Open Source.
 exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
-source-git-commit: 45a13c41bdb8a08b6b99790b6a47792219ed0bcd
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce용 B2B는 다양한 회사에 대한 사용자 지정 가격으로 제어된 공유 카탈로그를 유지 관리할 수 있는 기능을 제공합니다. 표준, 기본, 제품 카탈로그 외에도 가격 구조가 다른 두 가지 유형의 공유 카탈로그에 대한 고객 액세스를 제공합니다. 공유 카탈로그 기능에 대한 자세한 내용은 [Adobe Commerce용 B2B 사용 안내서](../b2b/catalog-shared.md).
+>Adobe Commerce B2B는 다양한 회사에 대한 사용자 지정 가격으로 제어된 공유 카탈로그를 유지 관리할 수 있는 기능을 제공합니다. 표준, 기본, 제품 카탈로그 외에도 가격 구조가 다른 두 가지 유형의 공유 카탈로그에 대한 고객 액세스를 제공합니다. 공유 카탈로그 기능에 대한 자세한 내용은 [Adobe Commerce B2B 사용 안내서](../b2b/catalog-shared.md).
 
 ## 사용 가능한 설명서
 
