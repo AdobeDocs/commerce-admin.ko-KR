@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
+source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -370,7 +370,7 @@ Real-Time CDP 대상이 Commerce에 표시되지 않는 이유는 다음과 같�
 1. 시스템 관리자가 Adobe Experience Platform을 시작하고 로 이동하도록 합니다. **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
 1. 위의 기술 계정 이메일을 사용하여 수정할 자격 증명을 검색합니다.
 1. 자격 증명을 연 다음 를 선택합니다 **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
-1. 추가 **프로덕션 모든 액세스**.
+1. 다음을 포함하는 역할 추가 **[!UICONTROL Manage destinations]** 권한.
 1. 클릭 **[!UICONTROL Save]**.
 1. [재생성](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) 콘솔의 액세스 토큰입니다.
 1. 토큰이 다음을 사용하여 유효한 응답을 제공하는지 확인 [Target 연결 API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).
