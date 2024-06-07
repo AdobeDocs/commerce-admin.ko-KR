@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: 에 대해 알아보기 [!DNL Commerce Marketplace]는 판매자에게 선별된 솔루션을 제공하고 자격을 갖춘 개발자에게 번창하는 비즈니스를 구축할 수 있는 도구, 플랫폼 및 주요 위치를 제공합니다.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 1a5a00493e9994343c7decc763f2decdd11192c7
+source-git-commit: 02e7c71fc47e6850371bfbdc1be50f65ec8015e9
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,14 @@ ht-degree: 0%
 
 다음 리소스는 새 채택자가 앱에 익숙해질 수 있는 시작점을 제공합니다.
 
-### Commerce 리소스:
+### Commerce 리소스
 
 - [Adobe Commerce에 대한 I/O 이벤트 설정](https://developer.adobe.com/commerce/extensibility/events/)
 - [Adobe Commerce에 대한 이벤트 구성](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
 - [관리 UI SDK 설정](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [확장을 앱으로 변환](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
-### App Builder 리소스:
+### App Builder 리소스
 
 - [Commerce App Builder 개요](https://developer.adobe.com/commerce/extensibility/app-development/)
 - [Adobe Developer App Builder용 API Mesh 설정](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
@@ -85,11 +85,55 @@ ht-degree: 0%
 
 ## 지원
 
-확장 설치 또는 사용에 대한 도움이 필요한 경우 확장과 함께 제공되는 설명서를 먼저 살펴보십시오. 질문에 대한 답변을 찾을 수 없는 경우 확장 목록에 있는 연락처 정보를 사용하여 개발자에게 직접 문의하십시오.
+확장 설치 또는 사용에 대한 도움이 필요한 경우 확장과 함께 제공되는 설명서를 먼저 살펴보십시오. 질문에 대한 답변을 찾을 수 없는 경우 확장 목록에 있는 연락처 정보를 사용하여 개발자에게 직접 문의하십시오. Marketplace에서 구입한 제품이 사용자의 요구 사항을 충족하지 못하는 경우 다음을 수행할 수 있습니다. [환불 요청](#refund-requests) 구입일로부터 25일 이내. Adobe은 모든 환불 요청을 검토하고 (승인된 경우) 적절한 환불을 발행합니다. Commerce Marketplace과 관련된 지원 문제는 다음을 참조하십시오. [[!DNL Marketplace] 도움말 센터][5].
 
-Commerce Marketplace 시 구입한 물건이 본인의 요구를 충족하지 못할 경우 구입일로부터 25일 이내에 환불을 요청할 수 있습니다. Adobe이 모든 환불 요청을 검토하고 승인된 경우 적절한 환불을 발행합니다.
+### 체크아웃 문제
 
-Commerce Marketplace과 관련된 지원 문제는 다음을 참조하십시오. [[!DNL Marketplace] 도움말 센터][5].
+계정 프로필의 주소 필드는 Marketplace 구매 시스템에서 확인 목적으로 작성해야 합니다.
+
+1. Marketplace 계정 프로필에 주소 필드를 추가합니다.
+1. 업데이트된 프로필을 저장합니다.
+1. 체크아웃을 계속합니다.
+
+### 로그인 문제
+
+로그인 문제는 일반적으로 MAGEID와 계정 데이터베이스의 이메일 주소 간 불일치와 관련되어 있습니다. 지원이 필요하면 Marketplace 지원에 문의하십시오.
+
+>[!INFO]
+>
+>앱 및 확장 구매는 다음이 될 수 없습니다. [전송됨](#purchase-transfers) 새 계정으로 이동합니다.
+
+### 오픈 소스 질문
+
+Marketplace 지원 팀이 관련 문제를 해결합니다. [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) 및 [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) sites만 해당. Magento Open Source에 대한 질문이 있을 경우 [커뮤니티 포럼](https://community.magento.com/) 또는 [파트너에게 문의](https://business.adobe.com/products/magento/partners.html) 누가 Magento Open Source을 도울 수 있습니까?
+
+### 환불 요청
+
+마켓플레이스 구매 시 환불을 요청하려면 계정에 로그인하고 다음 단계를 수행하십시오.
+
+1. 클릭 [!UICONTROL **내 프로필**] > [!UICONTROL **구매 내역**].
+1. 구매를 찾은 다음 을(를) 클릭합니다 [!UICONTROL **환불 요청**].
+1. 환불 주문 양식을 작성하십시오.
+
+환불 요청이 생성되면 마켓플레이스 지원에서 정보를 요청합니다. 환불 옵션은 구매일로부터 25일 동안 사용할 수 있습니다. 다음을 참조하십시오. [Marketplace 고객 계약](https://www.adobe.com/legal/terms/enterprise-licensing/magento-legacy-terms.html).
+
+### 주문 송장
+
+다음에서 주문 송장을 다운로드할 수 있습니다. [!UICONTROL **구매 내역**] Marketplace 계정에서 인보이스는 현재 Marketplace 요구 사항이 아니기 때문에 판매자의 부가가치세 또는 주소를 제공하지 않는다.
+
+Marketplace 구매를 위한 주문 송장을 다운로드하려면 Marketplace 계정에 로그인하고 다음 단계를 수행합니다.
+
+1. 클릭 [!UICONTROL **내 프로필**] > [!UICONTROL **구매 내역**].
+1. 구매를 찾습니다.
+1. 주문 오른쪽 상단의 프린터 아이콘을 클릭합니다.
+
+### 구매 이전
+
+Marketplace 지원 팀에서는 다른 계정으로 구매를 전송할 수 없습니다. 설치 및 배포 문제를 방지하려면 기본 Commerce 계정에서 모든 앱 및 확장을 구매해야 합니다. Adobe Commerce은 하나의 고유 식별자를 사용할 수 있습니다. Composer가 설치에 사용되므로 다음 중 한 세트만 [액세스 키](#create-an-access-key) 기본 계정에 연결된 을(를) 사용할 수 있습니다. 사용 가능한 유일한 솔루션은 [환불 요청](#refund-requests) Marketplace 구매 계정에서(Adobe Commerce 환불 정책에 의해 허용되는 경우).
+
+다음을 수행할 수 있습니다. [공유](commerce-account-share.md) 기본 계정을 통한 Commerce 인스턴스. 공유 액세스는 기본 계정의 하위 계정에 특별한 권한을 부여합니다. 공유 액세스 포인트는 기본 계정에서 생성됩니다. 기본 계정은 Commerce 권한 계정, 주 판매자 계정 또는 조직 내에서 공유되는 계정일 수 있습니다.
+
+이러한 특수 권한은 Adobe Commerce에 기본 권한과 동일한 수준의 액세스 권한을 부여하지만, Adobe Commerce Marketplace 또는 개발자 포털로 이월되지 않습니다. 즉, 마켓플레이스의 하위 계정에서 확장을 구입하는 것은 기본 계정과 공유할 수 없습니다. 공유 액세스는 단방향 거리입니다(기본 계정에서 하위 계정으로). 하위 계정이 기본으로 다시 공유하려고 할 때는 작동하지 않습니다.
 
 [1]: https://marketplace.magento.com/
 [2]: https://www.paypal.com/us/home
