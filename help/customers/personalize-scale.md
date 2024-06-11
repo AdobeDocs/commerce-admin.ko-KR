@@ -3,9 +3,9 @@ title: 규모에 맞게 매력적이고 개인화된 경험 만들기
 description: Adobe의 기능 알아보기 [!DNL Commerce] 을(를) 통해 쇼핑객을 위한 개인화된 경험을 만들 수 있습니다.
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
+source-git-commit: 728a1fdb413009a00377cd8205dde93cd4feadc8
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1808'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,22 @@ Adobe [!DNL Commerce] 데이터 공유에는 두 가지 주요 구성 요소가 
 
 1. [[!DNL Audience Activation]](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation): 사용 [!DNL Real-Time CDP] Adobe에서 다이내믹 콘텐츠 블록, 프로모션 및 관련 제품 규칙을 개인화할 대상 [!DNL Commerce] 사이트.
 
+### 모든 채널에서 규모에 맞게 개인화된 Storefront 경험
+
+Adobe [!DNL Commerce] 다음과 같은 고성능 상점을 활용할 수 있습니다. [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/)를 통해 AI 기능을 핵심으로 하고 속도를 기반으로 하여 모든 채널에 개인화된 경험을 제공할 수 있습니다.
+
+Edge Delivery Services을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
+
+- **개인화된 콘텐츠 제작**: 경험을 규모에 맞게 개인화하기 위해 문서 기반 작성, 생성 AI 텍스트 및 이미지 변형으로 기본 실험 사용. 에셋 및 생성 AI 콘텐츠 생성을 사용하여 규모에 맞게 제품 및 마케팅 이미지를 제작할 수 있습니다.
+
+- **변형 생성**: 콘텐츠 작성자가 생성 AI를 사용하여 대량의 개인화된 AI 기반 을 만들 수 있습니다 [텍스트 컨텐츠 및 이미지 변형](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/generative-ai/generate-variations) Adobe Firefly.
+
+- **Edge Delivery Services Storefront를 통해 배포**: 드롭 인 구성 요소에서 제공하는 Edge 및 Commerce 기능의 콘텐츠로, 대상자에 대해 맞춤형 구매 가능한 경험을 제작할 수 있습니다.
+
+- **Commerce 및 Adobe Experience Manager Assets**: 생성 AI 제품 자산 생성 및 규모에 따른 변형. 모든 채널에서 컨텐츠 전달을 만들고, 전달하고, 모니터링합니다.
+
+![드롭인: 제품 세부 사항 페이지](assets/drop-in.png){width="700" zoomable="yes"}
+
 ### 즉시 사용 가능한 개인화: 기본 Adobe 시작 [!DNL Commerce] 기능
 
 Adobe [!DNL Commerce] 는 기본 제공 기능으로 강력한 개인화를 제공합니다. 다음 표에서는 [!DNL Commerce] 개인화 여정을 시작하기 위해 즉시 활성화할 수 있는 기능입니다.
@@ -90,7 +106,7 @@ Adobe [!DNL Commerce] 고객은 기본 기능을 사용하고 있으며 다양�
 
 | 사용 사례 | 솔루션 |
 |---|---|
-| **개인화된 사이트 콘텐츠** - 제품 탐색 및 카테고리 관심도와 같은 쇼핑객 작업을 기반으로 사이트 배너 및 기타 페이지 콘텐츠를 개인화합니다. A/B 테스트 또는 비즈니스 목표 결과에 따라 최적 콘텐츠를 배포합니다. | **Adobe [!DNL Commerce] 전용**:<br>세그먼트별 배포 [다이내믹 콘텐츠 블록](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] Real-Time CDP 사용&#x200B;**:<br>사용 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) Real-Time CDP에서 프로필 및 대상을 중앙에서 관리하면서 실시간 작업 및 통합 고객 프로필 데이터에 응답하는 대상별 다이내믹 콘텐츠 블록을 배포합니다.<br>**[!DNL Commerce] 포함[!DNL Target]**:<br>Adobe을 사용하여 콘텐츠, 탐색 항목, 전체 페이지 레이아웃 등을 포함하여 사이트 경험의 모든 부분을 개인화합니다 [!DNL Commerce] Adobe의 데이터 [!DNL Target]. A/B 테스트 컨텐츠에서 각 고객에 대해 우수성이 검증된 컨텐츠를 자동으로 선택하고 배포합니다.<br>**[!DNL Commerce] AEM Assets 사용&#x200B;**:<br>모든 콘텐츠를 Adobe Experience Manager Assets에 저장합니다. Adobe Commerce 내에서 해당 콘텐츠에 기본적으로 액세스합니다. GenAI를 사용하여 다양한 세그먼트나 대상자를 개인화할 수 있는 콘텐츠 변형을 만들 수 있습니다. |
+| **개인화된 사이트 콘텐츠** - 제품 탐색 및 카테고리 관심도와 같은 쇼핑객 작업을 기반으로 사이트 배너 및 기타 페이지 콘텐츠를 개인화합니다. A/B 테스트 또는 비즈니스 목표 결과에 따라 최적 콘텐츠를 배포합니다. | **Adobe [!DNL Commerce] 전용**:<br>세그먼트별 배포 [다이내믹 콘텐츠 블록](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] Real-Time CDP 사용&#x200B;**:<br>사용 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) Real-Time CDP에서 프로필 및 대상을 중앙에서 관리하면서 실시간 작업 및 통합 고객 프로필 데이터에 응답하는 대상별 다이내믹 콘텐츠 블록을 배포합니다.<br>**[!DNL Commerce] 포함[!DNL Target]**:<br>Adobe을 사용하여 콘텐츠, 탐색 항목, 전체 페이지 레이아웃 등을 포함하여 사이트 경험의 모든 부분을 개인화합니다 [!DNL Commerce] Adobe의 데이터 [!DNL Target]. A/B 테스트 컨텐츠에서 각 고객에 대해 우수성이 검증된 컨텐츠를 자동으로 선택하고 배포합니다.<br>**[!DNL Commerce] AEM Assets 사용&#x200B;**:<br>모든 콘텐츠를 Adobe Experience Manager Assets에 저장합니다. Adobe Commerce 내에서 해당 콘텐츠에 기본적으로 액세스합니다. 생성 AI를 사용하여 다양한 세그먼트나 대상자를 개인화할 수 있는 콘텐츠 변형을 만듭니다. |
 | **비헤이비어에 기반한 개인화된 온사이트 오퍼** - 제품 검색 및 카테고리 관심도와 같은 쇼핑객 작업을 기반으로 프로모션을 개인화합니다. A/B 테스트 또는 비즈니스 목표에 따라 다음 최상의 오퍼를 배포합니다. | **Adobe [!DNL Commerce] 전용**:<br>세그먼트별 카탈로그 배포 및 [장바구니 가격 규칙](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart).<br>**Adobe [!DNL Commerce] Real-Time CDP 사용**:<br>사용 [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) Real-Time CDP에서 프로필/대상을 중앙에서 관리하면서 대상별 오퍼를 배포합니다.<br>**Commerce 포함[!DNL Target]**: Adobe Commerce에 배포된 오퍼를 안내하기 위해 offer decisioning을 사용하여 배포할 오퍼를 결정하고, A/B 테스트를 수행하거나 비즈니스 목표를 설정합니다. |
 
 ### Analytics 및 인사이트
