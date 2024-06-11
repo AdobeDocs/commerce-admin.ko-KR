@@ -4,9 +4,9 @@ description: 시스템 및 데이터의 보안을 보장하기 위한 이중 인
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: c391a3eef8be0dd45cc8a499b63bcb0fc32640aa
+source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,11 @@ Adobe Commerce은 여러 공급자의 2FA 메서드를 지원합니다. 일부�
 
 로그인 중에 일회용 암호(OTP)를 사용할 수 있는 기간을 변경하려면 **[!UICONTROL Use system value]** 확인란. 그런 다음 원하는 시간(초)을 입력합니다 **[!UICONTROL OTP Window]** 유효해야 합니다.
 
+![보안 구성 - Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+
 >[!NOTE]
 >
->Adobe Commerce 2.4.7 이상에서는 OTP 창 구성 설정이 관리자의 OTP(일회성 암호)가 만료된 후 시스템이 수락한 시간(초)을 제어합니다. 이 값은 30초 미만이어야 합니다. 시스템 기본 설정은 입니다. `1`.<br><br> 버전 2.4.6에서 OTP 창 설정은 유효한 과거 및 미래의 OTP 코드 수를 결정합니다. 값 `1` 는 현재 OTP 코드와 과거의 한 코드 및 미래의 한 코드가 주어진 시점에 유효한 상태를 유지함을 나타냅니다.
+>Adobe Commerce 2.4.7 이상에서는 OTP 창 구성 설정이 관리자의 OTP(일회성 암호)가 만료된 후 시스템이 수락한 시간(초)을 제어합니다. 이 값은 30초 미만이어야 합니다. 시스템 기본 설정은 입니다. `29`.<br><br> 버전 2.4.6에서 OTP 창 설정은 유효한 과거 및 미래의 OTP 코드 수를 결정합니다. 값 `1` 는 현재 OTP 코드와 과거의 한 코드 및 미래의 한 코드가 주어진 시점에 유효한 상태를 유지함을 나타냅니다.
 
 ### [!DNL Duo Security]
 

@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: 에서 구성 설정을 검토합니다. [!UICONTROL Security] &gt; [!UICONTROL 2FA] 상거래 관리자의 페이지입니다.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | 글로벌 | Google Authenticator에서 생성한 각 일회용 암호(OTP)의 수명(초)입니다. 기본값: `30` |
+| [!UICONTROL OTP Window] | 글로벌 | 만료된 후 시스템이 관리자의 OTP(일회성 암호)를 수락하는 시간(초)을 결정합니다. 단일 OTP의 수명(일반적으로 30초)보다 높을 수 없습니다. 기본값: `29` |
 
 {style="table-layout:auto"}
 
