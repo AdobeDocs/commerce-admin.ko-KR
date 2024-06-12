@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
+source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _2023년 5월 30일_
 ![신규](../assets/new.svg) - 을(를) 업데이트함 [Real-Time CDP 대상 대시보드](#real-time-cdp-audiences-dashboard) Adobe Commerce 인스턴스 내에서 활성 대상을 정렬, 검색 및 필터링할 수 있는 기능을 포함합니다.
 
 +++
+
+### 2.2.0
+
+[!BADGE 호환성]{type=Informative tooltip="호환성"}
+
+_2024년 6월 12일_
+
+![신규](../assets/new.svg) - 용 GA 릴리스 [관련 제품 규칙](../merchandising-promotions/product-related-rule-create.md) 대상자가 정보를 제공합니다.
 
 ### 2.1.1
 
@@ -172,9 +180,11 @@ composer require magento/audiences
 
 - [장바구니 가격 규칙 만들기](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) 대상자가 정보 제공
 - [동적 블록 만들기](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) 대상자가 정보 제공
-- [(**베타**) 관련 제품 규칙 만들기](../merchandising-promotions/product-related-rule-create.md) 대상자가 정보 제공
+- [관련 제품 규칙 만들기](../merchandising-promotions/product-related-rule-create.md) 대상자가 정보 제공
 
-내보내는 방법에 대한 완전한 엔드 투 엔드 사용 사례 [!DNL Commerce] 데이터를 Real-Time CDP에 업로드하고 대상을 작성한 다음 해당 대상을 활성화하여 [!DNL Commerce], 참조 [다음을 사용하여 Real-Time CDP에서 대상 만들기 [!DNL Commerce] 이벤트 데이터](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>[!TIP]
+>
+>내보내는 방법에 대한 완전한 엔드 투 엔드 사용 사례 [!DNL Commerce] 데이터를 Real-Time CDP에 업로드하고 대상을 작성한 다음 해당 대상을 활성화하여 [!DNL Commerce], 참조 [다음을 사용하여 Real-Time CDP에서 대상 만들기 [!DNL Commerce] 이벤트 데이터](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Real-Time CDP 대상 대시보드
 
@@ -195,6 +205,7 @@ composer require magento/audiences
 | `Websites` | 대상을 사용하도록 구성된 웹 사이트를 나타냅니다. |
 | `Dynamic Blocks` | 대상을 사용하도록 구성된 동적 블록을 나타냅니다. |
 | `Cart Price Rules` | 대상자를 사용하도록 구성된 장바구니 가격 규칙을 나타냅니다. |
+| `Related Product Rules` | 대상을 사용하도록 구성된 관련 제품 규칙을 나타냅니다. |
 | `Last updated` | Real-Time CDP에서 대상이 수정된 시기를 나타냅니다. |
 | `Sync now` | Real-Time CDP에서 새 대상자 또는 업데이트된 대상자를 검색합니다. |
 | `Customize table` | 다음을 표시하거나 숨길 수 있습니다. `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, 및 `Last updated` 열. |
