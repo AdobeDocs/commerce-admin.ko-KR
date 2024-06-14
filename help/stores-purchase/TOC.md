@@ -5,9 +5,9 @@ breadcrumb-title: 저장 및 구매 경험
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 3dad65e528716a459839ee7995b38850bf6feca8
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '319'
 ht-degree: 3%
 
 ---
@@ -131,3 +131,5 @@ ht-degree: 3%
       + [배송 레이블 개요](shipping-labels.md)
       + [배송 레이블 구성](shipping-label-configure.md)
       + [배송 레이블 만들기](shipping-label-create.md)
++ [판매자 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

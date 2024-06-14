@@ -5,9 +5,9 @@ breadcrumb-title: 관리 시스템 안내서
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: b8a49b1e1525c5af4e159bc2bd899aadc97b78c6
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '178'
 ht-degree: 2%
 
 ---
@@ -77,3 +77,6 @@ ht-degree: 2%
    - [세션 관리](security-session-management.md)
    - [브라우저 기능 감지](security-browser-capabilities-detection.md)
    - [보안 문제 보고](security-issue-reporting.md)
+- [판매자 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+
+

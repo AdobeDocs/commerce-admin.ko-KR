@@ -4,10 +4,10 @@ user-guide-description: 사용 방법 알아보기 [!DNL Inventory Management] �
 breadcrumb-title: "[!DNL Inventory Management]"
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 10%
+source-wordcount: '137'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 10%
    - [주문 및 예약 상태](order-status.md)
    - [제품 유형](product-types.md)
 - 시작 {#get-started}
-   - [상거래 업그레이드](migrate.md)
+   - [Commerce 업그레이드](migrate.md)
    - [설치 및 업데이트](install-update.md)
    - [판매자 소싱](merchant-sourcing.md)
    - [인벤토리 확장 및 재구성](expand-restructure.md)
@@ -58,3 +58,5 @@ ht-degree: 10%
    - [개요](shipments.md)
    - [배송 만들기](shipments-create.md)
 - [CLI 참조](cli.md)
+- [판매자 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

@@ -4,10 +4,10 @@ user-guide-description: Adobe Commerce 및 Magento Open Source 관리자와 전�
 breadcrumb-title: 카탈로그 관리
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 0%
+source-wordcount: '242'
+ht-degree: 1%
 
 ---
 
@@ -99,3 +99,5 @@ ht-degree: 0%
       + [속성 만들기 및 삭제](attribute-product-create.md)
       + [벌크 업데이트](bulk-product-attribute-update.md)
       + [속성 집합](attribute-sets.md)
++ [판매자 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+
