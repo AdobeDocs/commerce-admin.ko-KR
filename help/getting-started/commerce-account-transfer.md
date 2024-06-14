@@ -1,20 +1,20 @@
 ---
-title: 상거래 계정 양도
-description: 상거래 계정을 다른 소유자 또는 이메일 주소로 전송하는 방법에 대해 알아봅니다.
+title: Commerce 계정 양도
+description: Commerce 계정을 다른 소유자 또는 이메일 주소로 전송하는 방법을 알아봅니다.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: dd8ccda17b0ef83cb4b0ce130fdc9315026733b1
+source-git-commit: 59a88468dabfd1042b664f658225de2504b66b1b
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 1%
+source-wordcount: '986'
+ht-degree: 0%
 
 ---
 
-# 상거래 계정 양도
+# Commerce 계정 양도
 
 비즈니스 책임이 변경되면 기존 Commerce 계정의 소유권을 새 담당자 또는 다른 이메일 주소로 이전해야 할 수 있습니다. 이 전송을 수행하려면 계정과 연결된 기본 사용자 이메일을 변경해야 합니다.
 
-다음 정보는 상거래(MAGEID) 계정을 전송하는 프로세스를 설명합니다. 클라우드 계정(클라우드 프로젝트) 소유권에 대한 변경 사항은 포함되지 않습니다. 클라우드 프로젝트 액세스에 대한 자세한 내용은 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 다음에서 _클라우드 인프라의 Commerce 안내서_.
+다음 정보는 MAGEID(Commerce) 계정을 전송하는 프로세스를 설명합니다. 클라우드 계정(클라우드 프로젝트 또는 New Relic) 소유권에 대한 변경 사항은 포함되지 않습니다. 클라우드 프로젝트 액세스에 대한 자세한 내용은 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 다음에서 _Commerce on Cloud Infrastructure 안내서_.
 
 ## 전송 유형 식별
 
@@ -30,11 +30,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Adobe Commerce이 다른 Adobe 솔루션과 계속 통합됨에 따라 이제 Commerce 계정(MAGEID)에 Adobe 로그인이 필요합니다. 이 Adobe ID은 Commerce 계정에 연결된 동일한 이메일 주소를 사용합니다.
+>Adobe Commerce이 다른 Adobe 솔루션과 계속 통합됨에 따라 이제 Commerce 계정(MAGEID)에 Adobe 로그인이 필요합니다. 이 Adobe ID은 Commerce 계정에 연결된 것과 동일한 이메일 주소를 사용합니다.
 
 >[!NOTE]
 >
->현재 또는 새 소유자에게 다른 Adobe 제품/서비스와 연결된 Adobe 로그인 계정이 있는 경우 [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) 상거래 계정을 다른 Adobe ID으로 전송하는 방법에 대한 지원이 필요합니다.
+>현재 또는 새 소유자에게 다른 Adobe 제품/서비스와 연결된 Adobe 로그인 계정이 있는 경우 [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) Commerce 계정을 다른 Adobe ID으로 전송하는 데 도움이 됩니다.
 
 ## 새로운 Adobe ID 및 이메일 변경
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 이 전송 유형을 사용하려면 먼저 연결된 Adobe ID을 만든 다음 해당 계정을 새 소유자의 이메일 주소로 변경해야 합니다.
 
-1. 다음으로 이동 [상거래 계정](https://account.magento.com/customer/account/login/).
+1. 다음으로 이동 [Commerce 계정](https://account.magento.com/customer/account/login/).
 
 1. 클릭 **[!UICONTROL Sign in with Adobe ID]**.
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 1. 클릭 **[!UICONTROL Continue]**.
 
-   이렇게 하면 Adobe ID이 만들어지고 현재 상거래 계정(MAGEID)에 연결됩니다. 이 계정 링크를 사용하면 _[!UICONTROL Email]_필드는 모든 변경에서 차단됩니다. 연관된 이메일 주소는 Adobe ID 계정에서 관리합니다.
+   이렇게 하면 Adobe ID이 만들어지고 현재 Commerce 계정(MAGEID)에 연결됩니다. 이 계정 링크를 사용하면 _[!UICONTROL Email]_필드는 모든 변경에서 차단됩니다. 연관된 이메일 주소는 Adobe ID 계정에서 관리합니다.
 
 1. 다음으로 이동 [account.adobe.com](https://account.adobe.com/).
 
