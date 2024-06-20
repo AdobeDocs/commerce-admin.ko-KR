@@ -3,9 +3,9 @@ title: 데이터 관리 대시보드
 description: 용 데이터 스트림에 대한 인사이트에 액세스하는 방법 알아보기 [!DNL Catalog Service], [!DNL Live Search], 및 [!DNL Product Recommendation]s.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: 13f47c8dccb98a721924df716ae0793db6889f3a
+source-git-commit: e883a678885aefaf832cece431e458c5d7741c40
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ Commerce 데이터베이스에서 제품을 업데이트하면 시스템 구성�
 >동기화를 완료하는 데 걸리는 시간은 카탈로그 크기 및 업데이트된 데이터의 볼륨에 따라 다릅니다.
 
 처리된 제품 수가 업데이트된 제품 수와 일치하면 동기화가 완료되었음을 나타냅니다.
+
+>[!NOTE]
+>
+>Adobe은 또한 개발자와 시스템 통합자가 Commerce SaaS 서비스의 동기화 작업을 관리 및 추적하고 오류를 해결하는 데 사용할 수 있는 명령줄 인터페이스와 시스템 로그를 제공합니다. 자세한 내용은 [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ### 동기화된 제품 목록
 
