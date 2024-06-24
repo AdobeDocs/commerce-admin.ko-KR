@@ -3,9 +3,9 @@ title: 고객 보고서
 description: Adobe Commerce 및 Magento Open Source에서 사용할 수 있는 고객 보고서는 지정된 기간 또는 날짜 범위 동안의 고객 활동에 대한 통찰력을 제공합니다.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -41,8 +41,8 @@ ht-degree: 1%
 | [!UICONTROL Interval] | 주문 총 간격, 기준 `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | 주문한 고객의 이름입니다. |
 | [!UICONTROL Orders] | 지정된 간격에 대한 주문 수. |
-| [!UICONTROL Average] | 평균 주문 수량입니다. |
-| [!UICONTROL Total] | 해당 기간에 대한 모든 주문의 합계. |
+| [!UICONTROL Average] | 평균 주문 수량입니다. 이 금액은 항상 제품 가격에 대해 계산됩니다 **세금 제외** 카탈로그 제품 가격이더라도 주문 소계 및 주문 총계에는 세금이 포함됩니다. 결과적으로 보고서에 표시된 금액은 주문 합계에 세금이 포함된 경우 주문 세부 사항에 표시된 금액과 다릅니다. |
+| [!UICONTROL Total] | 해당 기간에 대한 모든 주문의 합계. 이 금액은 항상 제품 가격에 대해 계산됩니다 **세금 제외** 카탈로그 제품 가격이더라도 주문 소계 및 주문 총계에는 세금이 포함됩니다. 결과적으로 보고서에 표시된 합계는 주문 합계에 세금이 포함된 경우 주문 세부 사항에 표시된 금액과 다릅니다. |
 
 {style="table-layout:auto"}
 
@@ -73,8 +73,8 @@ ht-degree: 1%
 | [!UICONTROL Interval] | 주문 수 간격, 기준 `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | 주문한 고객. |
 | [!UICONTROL Orders] | 지정된 간격에 대한 주문 수. |
-| [!UICONTROL Average] | 평균 주문 수량입니다. |
-| [!UICONTROL Total] | 해당 기간에 대한 모든 주문의 합계. |
+| [!UICONTROL Average] | 평균 주문 수량입니다. 이 금액은 항상 제품 가격에 대해 계산됩니다 **세금 제외** 카탈로그 제품 가격이더라도 주문 소계 및 주문 총계에는 세금이 포함됩니다. 결과적으로 보고서에 표시된 금액은 주문 합계에 세금이 포함된 경우 주문 세부 사항에 표시된 금액과 다릅니다. |
+| [!UICONTROL Total] | 해당 기간에 대한 모든 주문의 합계. 이 금액은 항상 제품 가격에 대해 계산됩니다 **세금 제외** 카탈로그 제품 가격이더라도 주문 소계 및 주문 총계에는 세금이 포함됩니다. 결과적으로 보고서에 표시된 합계는 주문 합계에 작업이 포함된 경우 주문 세부 사항에 표시된 금액과 다릅니다. |
 
 {style="table-layout:auto"}
 
