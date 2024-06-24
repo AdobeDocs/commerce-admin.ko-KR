@@ -3,9 +3,9 @@ title: 공유 [!DNL Commerce] account
 description: 에 제한된 액세스 권한을 부여하는 방법 알아보기 [!DNL Commerce] 기타 계정 [!DNL Commerce] 계정 보유자입니다.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 1bf75814ed292a4623b934910026f9fb127058be
+source-git-commit: ec634ebedd43b8bbc6b4a3e5079035b055740f2d
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ ht-degree: 0%
    새 사용자 정보가 _[!UICONTROL Manage Permissions]_공유 계정 액세스에 대한 지침이 포함된 전자 메일 초대장이 새 사용자에게 전송됩니다.
 
    ![공유 액세스에 대한 권한 관리](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>에 대한 액세스 권한을 공유할 필요는 없습니다. _[!UICONTROL Security Tool]_- MAGE ID를 가진 모든 사용자는 자신의 계정으로 보안 검색 도구를 설정할 수 있습니다. 이 고객은 사이트 변경 및 도메인 소유권 확인 중 하나를 사용하는 데 필요한 권한만 있으면 됩니다 [필수 메서드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)).
 
 ## 공유 계정 액세스
 
