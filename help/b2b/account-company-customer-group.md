@@ -4,9 +4,9 @@ description: Adobe Commerce 스토어의 회사 계정에 고객 그룹을 할�
 exl-id: fba3c17e-95df-4e9e-84b8-67409c6da72d
 feature: B2B, Companies, Configuration, Customers
 role: Admin, User
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: a5a8da076d6cd91eb6c3e573fec5b3fb9d2d3341
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ ht-degree: 0%
    >다음 [!UICONTROL Customer Group] 구성에서 공유 카탈로그가 비활성화된 경우에도 목록에는 모든 기존 공유 카탈로그가 포함됩니다.
 
    회사에 할당된 고객 그룹을 변경하면 모든 회사 구성원의 프로필이 업데이트됩니다.
+
+   >[!NOTE]
+   >
+   >회사 그룹을 변경한 후, 회사 사용자는 로그아웃하고 Storefront에 로그인하여 카탈로그에서 새로운 가격을 확인해야 합니다.
 
    ![고객 그룹 또는 공유 카탈로그 변경](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
