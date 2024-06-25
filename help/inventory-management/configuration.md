@@ -1,16 +1,16 @@
 ---
-title: "Configure [!DNL Inventory Management]"
+title: "구성 [!DNL Inventory Management]"
 description: 의 구성에 대해 알아보기 [!DNL Inventory Management] 소스 가용성, 상점 제품 및 주문 선적을 결정하는 옵션.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
 
-# Configure [!DNL Inventory Management]
+# 구성 [!DNL Inventory Management]
 
 다음 [!DNL Inventory Management] 모듈은 제품 및 글로벌 수준에서 재고 구성 설정을 지원하며 소스 가용성, 상점 제품 및 주문 배송에 영향을 주는 추가 설정도 제공합니다. 구성 설정은 다음에 적용됩니다.
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL Allow Multiple Boxes for Shipping] | 제품의 부품을 별도로 배송할 수 있는지 여부를 결정합니다. 이 옵션은 다음과 같은 경우에 표시됩니다. **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | 미납주문 허용 여부를 나타냅니다. 지정된 출처를 기준으로 재고 레벨에서 계산되는 출처 레벨에 지정됩니다. 미납주문을 허용하도록 설정된 경우 재고 부족 임계값에 대해 음수 값 설정(참조) [미납 주문 구성](backorders.md))를 사용하는 것이 좋습니다. 옵션:<br />**[!UICONTROL No Backorders]**: 제품이 품절되었을 때 미납주문을 승인하지 않습니다.<br />**[!UICONTROL Allow Qty Below 0]**: 수량이 0 아래로 떨어질 때 미납주문을 수락합니다.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: 수량이 영(0) 아래로 떨어질 때 미납주문을 수락하지만 고객에게 주문을 계속 진행할 수 있음을 알립니다. |
 | [!UICONTROL Notify for Quantity Below] | 재고 부족을 경고하는 미달 수량 통지를 트리거하는 수량을 설정합니다. 이 금액은 재고 수량이 아니라 판매 수량에 따라 차감됩니다. |
-| [!UICONTROL Enable Qty Increments] | 제품이 수량 단위로 판매될 수 있는지 여부를 결정합니다. 활성화된 경우 증분 단계에서 구매해야 하는 제품의 수량을 입력합니다. |
+| [!UICONTROL Enable Qty Increments] | 제품이 수량 단위로 판매될 수 있는지 여부를 결정합니다. 활성화된 경우 증분 단계에서 구매해야 하는 제품의 수량을 입력합니다. 증분 은 단일 제품으로 구매해야 하는 제품 항목 수를 구성, 그룹화 및 번들 제품의 하위 항목으로 설정합니다. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management] 은 이 값을 사용하지 않습니다. 반품 또는 대변 메모를 완료하면 제품 수량이 영향을 받는 출처 수량으로 자동 반환됩니다. 다음을 참조하십시오 [제품 옵션 구성](product-options.md). |
 
 ## 구성 폴백 및 상속

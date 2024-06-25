@@ -3,9 +3,9 @@ title: "구성 [!DNL Inventory Management] 제품 옵션"
 description: 구성 방법 알아보기 [!DNL Inventory Management] 제품 구성 옵션.
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
-source-git-commit: ccd93a54b6fa23a7a54fb423f8232c72cd8fe027
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,8 @@ ht-degree: 0%
 
    예를 들어, 6개 단위로 판매되는 품목의 수량은 6, 12, 18 등으로 구매할 수 있습니다.
 
+   **[!UICONTROL Qty Increments]** 필드는 구성, 그룹화 및 번들 제품의 하위 항목으로서 단일 제품으로 구매해야 하는 제품 항목의 수를 설정합니다.
+
 1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Done]** 그런 다음 **[!UICONTROL Save]**.
 
 ### 필드 설명
@@ -113,7 +115,7 @@ ht-degree: 0%
 | [!UICONTROL Qty Uses Decimals] | 글로벌 | 고객이 주문 수량을 입력할 때 정수가 아닌 소수점 값을 사용할 수 있는지 여부를 결정합니다. 옵션:<br />`Yes` - 값을 정수가 아닌 소수로 입력할 수 있습니다. 소수점 이하 자리수는 중량, 부피 또는 길이로 판매되는 제품에 적합합니다.<br />`No` - 수량 값을 정수로 입력해야 합니다. |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | 글로벌 | 제품의 부품을 별도로 배송할 수 있는지 여부를 결정합니다. 이 옵션은 다음과 같은 경우에 표시됩니다. **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | 글로벌 | 미납주문 관리 방법을 결정합니다. 미납주문은 주문의 처리 상태를 변경하지 않습니다. 상품은 재고가 있는지 여부와 관계없이 주문 즉시 펀드가 승인 또는 포착된다. 제품은 출시될 때 발송됩니다. 활성화된 경우 재고 부족 임계값에 대해 음수를 입력하는 것이 좋습니다. 옵션:<br/>`No Backorders` - 제품이 품절되었을 때 미납주문을 수락하지 않습니다.<br />`Allow Qty Below 0` - 수량이 영(0) 아래로 떨어질 때 미납주문을 수락합니다.<br />`Allow Qty Below 0 and Notify Customer` - 수량이 영(0) 미만으로 떨어질 때 미납주문을 수락하지만 고객에게 주문을 계속 진행할 수 있음을 알립니다. |
-| [!UICONTROL Enable Qty Increments] | 글로벌 | 제품이 수량 단위로 판매될 수 있는지 여부를 결정합니다. |
+| [!UICONTROL Enable Qty Increments] | 글로벌 | 제품이 수량 단위로 판매될 수 있는지 여부를 결정합니다. 증분 은 단일 제품으로 구매해야 하는 제품 항목 수를 구성, 그룹화 및 번들 제품의 하위 항목으로 설정합니다. |
 
 >[!NOTE]
 >
