@@ -3,7 +3,7 @@ title: 데이터 관리 대시보드
 description: 용 데이터 스트림에 대한 인사이트에 액세스하는 방법 알아보기 [!DNL Catalog Service], [!DNL Live Search], 및 [!DNL Product Recommendation]s.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: e883a678885aefaf832cece431e458c5d7741c40
+source-git-commit: 4495a27b57c04c6f9c37b2c5237b5f2233cc8532
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 대상자
 
-데이터 관리 대시보드는 을 사용하는 모든 Commerce 가맹점에서 추가 비용 없이 사용할 수 있습니다. [[!DNL Product Recommendations]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview), 또는 [[!DNL Catalog Service]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) 활성 라이선스 포함.
+데이터 관리 대시보드는 을 사용하는 모든 Commerce 가맹점에서 추가 비용 없이 사용할 수 있습니다. [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview), 또는 [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) 활성 라이선스 포함.
 
 데이터 관리 대시보드는 다음 위치에 있습니다. *시스템* > 데이터 전송 > *데이터 관리 대시보드*.
 
