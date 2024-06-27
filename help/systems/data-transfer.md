@@ -3,9 +3,9 @@ title: 데이터 전송
 description: 데이터 유효성 검사를 포함한 데이터 전송 지원에 대해 알아봅니다.
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 feature: System, Data Import/Export
-source-git-commit: ae3bb3463df13c30ce34739bb6e476d3f7422671
+source-git-commit: b89d6b08d0559dc769a8c51570696f033f23c7f3
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,10 @@ ht-degree: 0%
 
 예를 들어 재고에 새 제품을 추가하고, 제품 데이터 및 고급 가격 데이터를 업데이트하고, 기존 제품 세트를 새 제품으로 바꿀 수 있습니다. 가져오기 및 내보내기 도구를 사용하면 관리자에서 여러 작업을 수행하는 대신 데이터를 내보내고 스프레드시트에서 편집한 다음 다시 스토어로 가져올 수 있으므로 대규모 제품 카탈로그를 보다 효율적으로 관리할 수 있습니다.
 
-가져오기 및 내보내기 도구 외에도 Adobe Commerce에는 다음과 같은 프로세스가 있습니다 [SaaS 데이터 내보내기](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) Commerce 서버에서 SaaS 서비스로 제품 데이터를 내보냅니다. SaaS 데이터 내보내기는 다음을 포함한 Commerce SaaS 서비스와 통합됩니다. [제품 Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [라이브 검색](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), [카탈로그 서비스](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview), 및 [SaaS 가격 인덱싱](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/price-indexer/price-indexing).
+
+>[!NOTE]
+>
+>Adobe Commerce은 또한 SaaS 데이터 내보내기를 지원하여 제품 데이터를 Commerce 서버에서 SaaS 서비스로 전송합니다. SaaS 데이터 내보내기는 다음을 포함한 Commerce SaaS 서비스와 통합됩니다. [제품 Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [라이브 검색](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview), 및 [카탈로그 서비스](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). 자세한 내용은 [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ## 데이터 유효성 검사
 
