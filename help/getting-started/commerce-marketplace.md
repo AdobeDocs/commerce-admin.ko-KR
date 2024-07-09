@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: 에 대해 알아보기 [!DNL Commerce Marketplace]는 판매자에게 선별된 솔루션을 제공하고 자격을 갖춘 개발자에게 번창하는 비즈니스를 구축할 수 있는 도구, 플랫폼 및 주요 위치를 제공합니다.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 02e7c71fc47e6850371bfbdc1be50f65ec8015e9
+source-git-commit: 20e1439810891b0d19cda62cc2646701ec5a778c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 ## 지원
 
-확장 설치 또는 사용에 대한 도움이 필요한 경우 확장과 함께 제공되는 설명서를 먼저 살펴보십시오. 질문에 대한 답변을 찾을 수 없는 경우 확장 목록에 있는 연락처 정보를 사용하여 개발자에게 직접 문의하십시오. Marketplace에서 구입한 제품이 사용자의 요구 사항을 충족하지 못하는 경우 다음을 수행할 수 있습니다. [환불 요청](#refund-requests) 구입일로부터 25일 이내. Adobe은 모든 환불 요청을 검토하고 (승인된 경우) 적절한 환불을 발행합니다. Commerce Marketplace과 관련된 지원 문제는 다음을 참조하십시오. [[!DNL Marketplace] 도움말 센터][5].
+확장 설치 또는 사용에 대한 도움이 필요한 경우 확장과 함께 제공되는 설명서를 먼저 살펴보십시오. 질문에 대한 답변을 찾을 수 없는 경우 확장 목록에 있는 연락처 정보를 사용하여 개발자에게 직접 문의하십시오. Marketplace에서 구입한 제품이 사용자의 요구 사항을 충족하지 못하는 경우 다음을 수행할 수 있습니다. [환불 요청](#refund-requests) 구입일로부터 25일 이내. Adobe은 모든 환불 요청을 검토하고 (승인된 경우) 적절한 환불을 발행합니다. Commerce Marketplace 관련 문제는 다음으로 문의하십시오. [지원](mailto:commercemarketplacesupport@adobe.com).
 
 ### 체크아웃 문제
 
@@ -139,5 +139,4 @@ Marketplace 지원 팀에서는 다른 계정으로 구매를 전송할 수 없�
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[5]: https://marketplacesupport.magento.com/hc/en-us
 [6]: https://business.adobe.com/products/magento/magento-commerce.html
