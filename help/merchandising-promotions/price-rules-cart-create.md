@@ -3,9 +3,9 @@ title: 장바구니 가격 규칙 만들기
 description: 장바구니 또는 제품 속성을 기반으로 장바구니 가격 규칙을 만드는 방법을 알아봅니다.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
+source-git-commit: 6ac8d41de0f97767296216f8239311bc6fbf168e
 workflow-type: tm+mt
-source-wordcount: '3302'
+source-wordcount: '3320'
 ht-degree: 0%
 
 ---
@@ -393,7 +393,7 @@ Real-Time CDP을 기반으로 장바구니 가격 규칙에 대한 조건을 설
 | [!UICONTROL Apply] | 구매에 적용되는 계산 유형을 결정합니다. 옵션: <br/>**[!UICONTROL Percent of product price discount]**- 원래 가격에서 백분율을 뺀 품목 할인 예: Enter `10` 위치: _[!UICONTROL Discount Amount]_(원래 가격보다 10% 낮은 업데이트된 가격)<br/>**[!UICONTROL Fixed amount discount]**- 장바구니에 있는 각 적격 품목의 원래 가격에서 고정 금액을 차감하여 품목을 할인합니다. 예: Enter `10` 위치:_[!UICONTROL Discount Amount]_ 원래 가격보다 10달러 낮은 업데이트된 가격. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- 장바구니 소계에서 고정 금액을 빼서 전체 장바구니를 할인합니다. 예: Enter `10` 위치: _[!UICONTROL Discount Amount]_장바구니 소계에서 $10를 뺍니다. 기본적으로 할인율은 장바구니 소계에만 적용됩니다. 소계 및 배송에 별도로 할인을 적용하려면 다음을 참조하십시오._배송 금액에 적용&#x200B;_.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- 고객이 구매해야 하는 수량을 정의하여 무료로 수량을 받습니다. (다음_[!UICONTROL Discount Amount]_ Y임) |
 | [!UICONTROL Discount Amount] | (필수) 제공된 할인 금액. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | 동일한 구매에서 할인을 적용할 수 있는 최대 제품 수를 설정합니다. |
-| [!UICONTROL Discount Qty Step (Buy X)] | 표시되는 제품 수를 설정합니다. `X` 다음 기간: `Buy X Get Y Free` 프로모션입니다. |
+| [!UICONTROL Discount Qty Step (Buy X)] | 표시되는 제품 수를 설정합니다. `X` 다음 기간: `Buy X Get Y Free` 프로모션입니다. 또한 적용할 장바구니에 묶음으로 얼마나 많은 제품을 추가해야 하는지 정의합니다 `Fixed amount discount` 및 `Percent of product price discount` 프로모션. |
 | [!UICONTROL Apply to Shipping Amount] | 할인이 소계 및 배송 금액에 별도로 적용되는지 여부를 결정합니다. 그렇지 않으면 소계에만 적용됩니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Discard Subsequent Rules] | 이 장바구니 가격 규칙이 일치할 때 낮은 우선 순위 규칙(1이 가장 높은 우선 순위임)을 제품에 적용할 수 있는지 여부를 결정합니다. 동일한 제품에 여러 할인을 적용하지 않으려면 이 옵션을 활성화합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Free Shipping] | 판촉에 무료 배송이 포함되는지 여부와 포함된다면 어떤 품목에 대해 해당되는지 여부를 결정합니다. 옵션: <br/>**[!UICONTROL No]**- 현재 규칙에서는 무료 배송이 불가능합니다.<br/>**[!UICONTROL For matching items only]** - 장바구니에 있는 규칙과 일치하는 특정 품목에만 무료 배송이 가능합니다. <br/>**[!UICONTROL For shipment with matching items]**- 장바구니에 있는 모든 품목에 대해 무료 배송이 가능합니다. 다음 [무료 배송](../stores-purchase/shipping-free.md) 이 옵션을 사용하려면 게재 방법을 활성화해야 합니다. |
