@@ -1,24 +1,24 @@
 ---
 title: 제품 목록
-description: 에 대해 알아보십시오.[!UICONTROL Products]제품을 만들고 기존 제품을 편집할 수 있는 관리자의 _ 페이지입니다.
+description: 제품을 만들고 기존 제품을 편집할 수 있는 관리자의 _[!UICONTROL Products]_ 페이지에 대해 알아봅니다.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # 제품 목록
 
-카탈로그의 모든 제품은 _[!UICONTROL Products]_제품을 만들고 기존 제품을 편집할 수 있는 관리자 페이지. 다중 사이트 설치의 경우 각 웹 사이트는 동일한 카탈로그에서 판매될 다양한 제품을 제공할 수 있습니다.
+관리자의 _[!UICONTROL Products]_페이지에서 카탈로그의 모든 제품에 액세스할 수 있습니다. 이 페이지에서 제품을 만들고 기존 제품을 편집할 수 있습니다. 다중 사이트 설치의 경우 각 웹 사이트는 동일한 카탈로그에서 판매될 다양한 제품을 제공할 수 있습니다.
 
-다음 _[!UICONTROL Products]_목록에는 카탈로그의 모든 제품이 포함되어 있으며, 제품을 사용할 수 있는 웹 사이트와 현재 판매가 활성화된 경우 이를 나타냅니다. Adobe Commerce B2B 설치 [공유 카탈로그](../b2b/catalog-shared.md) 활성화된 경우, 그리드에는 공유 카탈로그에서 대체 할인 가격이 있는 제품을 나타내는 열이 포함됩니다.
+_[!UICONTROL Products]_목록에는 카탈로그에 있는 모든 제품이 포함되어 있으며 이러한 제품을 사용할 수 있는 웹 사이트 및 현재 판매가 활성화되어 있는 경우 해당 웹 사이트를 나타냅니다. [공유 카탈로그](../b2b/catalog-shared.md)가 활성화된 Adobe Commerce B2B 설치에서 그리드에는 공유 카탈로그에 대체 할인 가격이 있는 제품을 나타내는 열이 포함되어 있습니다.
 
-목록 페이지를 페이지별로 찾아보거나 특정 제품을 검색할 수 있습니다. 표준 사용 [컨트롤](../getting-started/admin-grid-controls.md) 목록 정렬 및 필터링, 적용 [작업](../getting-started/admin-actions-control.md) (으)로 가져왔습니다.
+목록 페이지를 페이지별로 찾아보거나 특정 제품을 검색할 수 있습니다. 표준 [컨트롤](../getting-started/admin-grid-controls.md)을 사용하여 목록을 정렬 및 필터링하고 선택한 제품에 [작업](../getting-started/admin-actions-control.md)을(를) 적용하세요.
 
-![제품 격자](./assets/products-grid.png){width="700" zoomable="yes"}
+![제품 표](./assets/products-grid.png){width="700" zoomable="yes"}
 
 ## 제품 표시 제한
 
@@ -34,23 +34,23 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->제품 그리드를 제한하지 않으려면 필터를 보다 정확하게 사용하여 _[!UICONTROL Records Limit]_필드.
+>제품 그리드를 제한하지 않으려면 필터를 더 정확하게 사용하여 _[!UICONTROL Records Limit]_필드에 지정된 개수보다 적은 항목이 있는 컬렉션을 만드십시오.
 
-**_제품 표시 제한을 구성하려면_**
+**_제품 표시 제한을 구성하려면:_**
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 확장 **[!UICONTROL Advanced]** 및 선택 **[!UICONTROL Admin]**.
+1. **[!UICONTROL Advanced]**&#x200B;을(를) 확장하고 **[!UICONTROL Admin]**&#x200B;을(를) 선택합니다.
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL Admin Grids]** 섹션을 참조하고 다음을 수행합니다.
+1. **[!UICONTROL Admin Grids]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
-   - 설정 **[!UICONTROL Limit Number of Products in Grid]** 끝 `Yes`.
+   - **[!UICONTROL Limit Number of Products in Grid]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
-   - (선택 사항) **[!UICONTROL Records Limit]** 그리드의 제품 수를 특정 값으로 제한하는 필드입니다. 기본 최소값은 입니다. `20000`.
+   - (선택 사항) 그리드의 제품 수를 특정 값으로 제한하려면 **[!UICONTROL Records Limit]** 필드에 값을 입력합니다. 기본 최소값은 `20000`입니다.
 
    ![관리 그리드 구성 설정](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 ## 페이지 컨트롤
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 | 열 | 설명 |
 |--- |--- |
-| (확인란) | 여러 레코드를 선택하여 작업에 적용합니다. 선택한 각 레코드의 첫 번째 열에 있는 확인란이 표시됩니다. 옵션: <br/>**[!UICONTROL Select All]**- 현재 필터 설정과 일치하는 찾은 모든 레코드를 선택합니다.<br/>**[!UICONTROL Select All on This Page]** - 현재 페이지에 있는 레코드 중 필터 설정과 일치하는 레코드만 선택합니다. |
+| (확인란) | 여러 레코드를 선택하여 작업에 적용합니다. 선택한 각 레코드의 첫 번째 열에 있는 확인란이 표시됩니다. 옵션: <br/>**[!UICONTROL Select All]**- 현재 필터 설정과 일치하는 모든 레코드를 선택합니다.<br/>**[!UICONTROL Select All on This Page]** - 필터 설정과 일치하는 현재 페이지에 있는 레코드만 선택합니다. |
 | [!UICONTROL ID] | 새 제품을 처음 저장할 때 할당되는 고유한 순차적 번호입니다. |
 | [!UICONTROL Thumbnail] | 기본 제품 이미지의 썸네일을 표시합니다. |
 | [!UICONTROL Name] | 제품 이름입니다. |
@@ -83,8 +83,9 @@ ht-degree: 0%
 | [!UICONTROL Visibility] | 카탈로그에서 제품이 표시되는 위치를 나타냅니다. 옵션: `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search` |
 | [!UICONTROL Status] | 제품의 상태를 나타냅니다. 옵션: `Enabled` 및 `Disabled` |
 | [!UICONTROL Websites] | 제품을 사용할 수 있는 웹 사이트를 나타냅니다. |
+| [!UICONTROL Remote Media URL] | 제품 미디어 자산이 [Commerce용 AEM Assets 통합](../content-design/aem-assets.md)을 사용하여 관리되는 경우 이 필드에는 자산이 보관되는 중앙 저장소인 AEM Assets Digital Asset Management Store에서 Commerce 자산을 볼 수 있는 URL이 표시됩니다. 이 필드는 AEM Assets 통합이 활성화된 경우에만 표시됩니다. |
 | [!UICONTROL Action] | 제품을 편집 모드로 엽니다. |
-| [!UICONTROL Shared Catalog] | ![Adobe Commerce](../assets/b2b.svg) (사용 가능 대상 [Adobe Commerce](./b2b/../introduction.md) 에만 해당) 제품에 대한 사용자 지정 가격 책정이 포함된 공유 카탈로그를 나타냅니다. |
+| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg)([Adobe Commerce B2B](./b2b/../introduction.md)에서만 사용 가능) 제품에 대한 사용자 지정 가격 책정이 포함된 공유 카탈로그를 나타냅니다. |
 
 {style="table-layout:auto"}
 

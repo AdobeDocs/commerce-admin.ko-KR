@@ -3,10 +3,10 @@ user-guide-title: 콘텐츠 및 디자인 안내서
 user-guide-description: Adobe Commerce, Magento Open Source 관리자 및 전자 상거래 마케터를 위한 콘텐츠 및 디자인 기능에 대한 포괄적인 정보입니다.
 breadcrumb-title: 컨텐츠 및 디자인
 feature: CMS, Page Content
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 4%
+source-wordcount: '232'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 - [콘텐츠 및 디자인 안내서](guide-overview.md)
 - [콘텐츠 및 디자인 소개](introduction.md)
 - [콘텐츠 메뉴](content-menu.md)
-- 디자인 {#design}
+- {#design} 디자인
    - [디자인 구성](configuration.md)
    - 테마 {#themes}
       - [개요](themes.md)
@@ -28,8 +28,8 @@ ht-degree: 4%
       - [개요](page-layout.md)
       - [Storefront 레이아웃 예](page-layout-examples.md)
       - [레이아웃 업데이트](layout-updates.md)
-- 컨텐츠 요소 {#elements}
-   - 페이지 {#pages}
+- 콘텐츠 요소 {#elements}
+   - {#pages}페이지
       - [개요](pages.md)
       - [페이지 작업 영역 컨트롤](pages-workspace.md)
       - [페이지 추가 및 제거](page-add.md)
@@ -58,11 +58,18 @@ ht-degree: 4%
    - [위젯 삽입](editor-widget.md)
    - [변수 삽입](editor-insert-variable.md)
 - 미디어 {#media}
-   - 미디어 스토리지 {#storage}
+   - 미디어 저장소 {#storage}
       - [개요](media-storage.md)
       - [미디어 데이터베이스 사용](media-storage-database.md)
       - [컨텐츠 전달 네트워크 사용](media-storage-content-delivery-network.md)
       - [Dynamic Media URL](catalog-urls-dynamic-media.md)
+   - Experience Manager Assets {#aem-assets}
+      - [Assets 통합](aem-assets.md)
+      - {#onboarding} 온보딩
+         - [AEM Assets 구성](aem-assets-configure-aem.md)
+         - [Adobe Commerce 구성](aem-assets-configure-commerce.md)
+         - [동기화 서비스 설정](aem-assets-setup-synchronization.md)
+      - [AEM Assets 사용](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Adobe Stock 통합](adobe-stock.md)
       - [Adobe Stock 이미지 사용](adobe-stock-manage.md)
@@ -73,7 +80,7 @@ ht-degree: 4%
       - [자산 관리](media-gallery-asset-management.md)
       - [폴더 관리](media-gallery-folder-management.md)
       - [이미지 최적화](media-gallery-image-optimization.md)
-- 컨텐츠 스테이징 {#staging}
+- 콘텐츠 스테이징 {#staging}
    - [개요](content-staging.md)
    - [업데이트 예약](content-staging-scheduled-update.md)
    - [스테이징 대시보드](content-staging-dashboard.md)
