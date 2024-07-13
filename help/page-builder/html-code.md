@@ -1,18 +1,18 @@
 ---
 title: 요소 - HTML 코드
-description: 에서 HTML, CSS 및 JavaScript 코드 조각을 추가하는 데 사용되는 HTML 코드 콘텐츠 유형에 대해 알아봅니다. [!DNL Page Builder] 스테이지.
+description: ' [!DNL Page Builder] 스테이지에서 HTML, CSS 및 JavaScript 코드 조각을 추가하는 데 사용되는 HTML 코드 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
 source-git-commit: 556394327a6eff9282acb09bdd16777dd3fee360
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
 
 # 요소 - HTML 코드
 
-사용 _HTML 코드_ HTML, CSS 및 JavaScript 코드 스니펫을 추가할 콘텐츠 유형 [[!DNL Page Builder] 단계](workspace.md#stage). 예를 들어 사용자 지정 HTML을 추가하고 페이지의 요소에 적용할 수 있는 CSS 클래스를 선언할 수 있습니다. 또는 서드파티 공급자로부터 받은 로고, 버튼 또는 배너에 대한 코드 조각을 추가할 수 있습니다.
+_HTML 코드_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](workspace.md#stage)에서 HTML, CSS 및 JavaScript 코드의 코드 조각을 추가하십시오. 예를 들어 사용자 지정 HTML을 추가하고 페이지의 요소에 적용할 수 있는 CSS 클래스를 선언할 수 있습니다. 또는 서드파티 공급자로부터 받은 로고, 버튼 또는 배너에 대한 코드 조각을 추가할 수 있습니다.
 
 ## HTML 코드 도구 상자
 
@@ -31,20 +31,20 @@ ht-degree: 0%
 
 ## HTML 코드 추가
 
-다음 예제에서는 를 포함하는 방법을 보여 줍니다 [Google 글꼴][1] 현재 스타일시트를 재정의하는 사용자 지정 제목 클래스를 코딩하고 선언합니다.
+다음 예제에서는 [Google Font][1] 코드를 포함하고 현재 스타일시트를 재정의하는 사용자 지정 제목 클래스를 선언하는 방법을 보여 줍니다.
 
 ### 1단계: Google 글꼴 선택
 
-1. 다음 방문: [Google 글꼴][1] 사이트에서 사용할 글꼴 모음을 선택합니다.
+1. [Google 글꼴][1] 사이트를 방문하여 사용할 글꼴 모음을 선택하십시오.
 
-1. 에 포함할 생성된 코드를 복사합니다. `<head>` 섹션에 붙여 넣어 일시적으로 텍스트 편집기에 붙여 넣습니다.
+1. 페이지의 `<head>` 섹션에 포함할 생성된 코드를 복사하여 임시로 텍스트 편집기에 붙여 넣습니다.
 
    - 글꼴 코드 포함
    - CSS 규칙
 
-1. 각 제목 클래스에 font-family 규칙을 추가하여 제목 클래스를 `<style>` 태그에 가깝게 배치하십시오.
+1. 각 제목 클래스에 font-family 규칙을 추가하여 제목 클래스를 `<style>` 태그로 묶습니다.
 
-   이 코드는에 붙여넣어집니다. [!DNL Page Builder].
+   이 코드는 [!DNL Page Builder]에 붙여 넣습니다.
 
    ```html
    <style>
@@ -56,19 +56,19 @@ ht-degree: 0%
 
 ### 2단계: 페이지에 코드 추가
 
-1. 다음에서 _관리자_ 상점의 사이드바 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. 스토어의 _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**(으)로 이동합니다.
 
 1. 글꼴을 사용할 수 있는 페이지를 찾아 편집 모드로 엽니다.
 
-1. 아래로 스크롤하고 를 확장합니다. **[!UICONTROL Content]** 섹션.
+1. 아래로 스크롤하여 **[!UICONTROL Content]** 섹션을 확장합니다.
 
-1. 다음에서 [!DNL Page Builder] 패널, 확장 **[!UICONTROL Elements]** 을(를) 끌어서 놓습니다. **[!UICONTROL HTML Code]** 스테이지에서 행, 열 또는 탭 세트에 대한 자리 표시자
+1. [!DNL Page Builder] 패널에서 **[!UICONTROL Elements]**&#x200B;을(를) 확장하고 **[!UICONTROL HTML Code]** 자리 표시자를 스테이지의 행, 열 또는 탭 집합으로 드래그합니다.
 
    빨간색 가이드라인을 사용하여 행, 열 또는 탭 집합에서 다른 콘텐츠 컨테이너 앞 또는 뒤에 구분선을 배치합니다.
 
-   ![HTML 코드 자리 표시자를 스테이지로 드래그](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
+   ![HTML 코드 자리 표시자를 스테이지로 드래그하는 중](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. HTML 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ), 아이콘
+1. HTML 컨테이너 위로 마우스를 가져가면 도구 상자를 표시하고 _설정_(![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ), 아이콘을 선택합니다.
 
 1. 텍스트 상자에 준비한 포함 Google 글꼴 코드와 스타일 선언을 붙여넣습니다.
 
@@ -76,31 +76,31 @@ ht-degree: 0%
 
    ![HTML 코드 및 스타일](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. 필요에 따라 나머지 설정을 업데이트합니다( 참조) [HTML 코드 설정 변경](#html-settings) 을 참조하십시오.
+1. 나머지 설정을 필요에 따라 업데이트하십시오(자세한 내용은 [HTML 코드 설정 변경](#html-settings)을 참조하십시오).
 
-1. 오른쪽 위 모서리에서 을(를) 클릭합니다. **[!UICONTROL Save]** 설정을 적용하고 로 돌아가려면 [!DNL Page Builder] 작업 영역.
+1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
    브라우저를 통해 페이지를 보면 새 글꼴이 렌더링됩니다.
 
 ### 3단계: 페이지 미리보기
 
-1. 다음에서 _[!UICONTROL Currently Active]_섹션, 설정&#x200B;**[!UICONTROL Enable Page]**끝 `Yes`.
+1. _[!UICONTROL Currently Active]_섹션에서&#x200B;**[!UICONTROL Enable Page]**을(를) `Yes`(으)로 설정합니다.
 
-   ![페이지 활성화](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
+   ![페이지 사용](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
-1. 오른쪽 위 모서리에서 **[!UICONTROL Save]** 화살표 및 선택 **[!UICONTROL Save & Close]**.
+1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
-1. 그리드에서 페이지를 찾아 다음을 선택합니다. **[!UICONTROL View]** 다음에서 _[!UICONTROL Actions]_열.
+1. 그리드에서 페이지를 찾은 다음 _[!UICONTROL Actions]_열에서&#x200B;**[!UICONTROL View]**을(를) 선택합니다.
 
-   ![새 글꼴 패밀리로 페이지 제목 미리 보기](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
+   ![새 글꼴 패밀리로 페이지 머리글을 미리 봅니다](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
 ## HTML 코드 설정 변경 {#html-settings}
 
-1. HTML 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘.
+1. 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택하려면 HTML 컨테이너 위로 마우스를 가져갑니다.
 
 1. 텍스트 상자에서 필요에 따라 코드를 편집합니다.
 
-   HTML, CSS 및 JavaScript 코드가 지원됩니다. 에 속한 코드 조각 `<head>` 페이지의 섹션은 여기에 입력할 수 있습니다.
+   HTML, CSS 및 JavaScript 코드가 지원됩니다. 페이지의 `<head>` 섹션에 속하는 코드 조각은 여기에 입력할 수 있습니다.
 
    또한 편집기는 코드에 특수 요소를 삽입하는 단추도 제공합니다.
 
@@ -110,9 +110,9 @@ ht-degree: 0%
    | 이미지 삽입... | HTML 텍스트 상자의 커서 위치에 업로드된 이미지 또는 갤러리의 이미지를 삽입하려면 를 클릭합니다. |
    | 변수 삽입... | 를 클릭하여 HTML 텍스트 상자의 커서 위치에 변수를 삽입합니다. |
 
-1. 업데이트 _[!UICONTROL Advanced]_필요에 따라 설정합니다.
+1. 필요에 따라 _[!UICONTROL Advanced]_설정을 업데이트합니다.
 
-   - 상위 컨테이너 내의 코드 위치를 제어하려면 **[!UICONTROL Alignment]**:
+   - 상위 컨테이너 내에서 코드 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하십시오.
 
      | 옵션 | 설명 |
      | ------ | ----------- |
@@ -123,9 +123,9 @@ ht-degree: 0%
 
      다음 예제에서는 렌더링된 코드 블록에 가운데 정렬을 사용하도록 옵션을 설정합니다.
 
-     ![가운데 맞춤이 있는 구분선](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
+     ![가운데 맞춤이 있는 분할선](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
 
-   - 설정 **[!UICONTROL Border]** 코드 컨테이너의 네 면 모두에 적용된 스타일:
+   - 코드 컨테이너의 네 면 모두에 적용되는 **[!UICONTROL Border]** 스타일을 설정합니다.
 
      | 옵션 | 설명 |
      | ------ | ----------- |
@@ -140,7 +140,7 @@ ht-degree: 0%
      | `Inset` | 컨테이너 테두리는 인세트 선으로 표시됩니다. |
      | `Outset` | 컨테이너 테두리는 외곽선으로 표시됩니다. |
 
-   - 테두리 스타일을 설정할 때 `None`테두리 표시 옵션을 완료합니다.
+   - `None` 이외의 테두리 스타일을 설정하는 경우 테두리 표시 옵션을 완료하십시오.
 
      | 옵션 | 설명 |
      | ------ |------------ |
@@ -150,11 +150,11 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - (선택 사항) 다음 이름을 지정합니다 **[!UICONTROL CSS classes]** 현재 스타일 시트에서 컨테이너에 적용
+   - (선택 사항) 컨테이너에 적용할 현재 스타일 시트의 **[!UICONTROL CSS classes]** 이름을 지정합니다.
 
      여러 클래스 이름은 공백으로 구분합니다.
 
-   - 다음에 대한 값을 픽셀 단위로 입력하십시오. **[!UICONTROL Margins and Padding]** 코드 컨테이너의 외부 여백 및 내부 패딩을 결정합니다.
+   - 코드 컨테이너의 외부 여백과 내부 패딩을 확인하려면 **[!UICONTROL Margins and Padding]**&#x200B;의 값을 픽셀 단위로 입력하십시오.
 
      다이어그램에 해당 값을 입력합니다.
 

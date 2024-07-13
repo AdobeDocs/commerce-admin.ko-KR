@@ -1,24 +1,24 @@
 ---
 title: 요소 - 분할자
-description: 에서 콘텐츠 섹션 사이에 시각적 중단으로 규칙을 추가하는 데 사용되는 분할기 콘텐츠 유형에 대해 알아봅니다. [!DNL Page Builder] 스테이지.
+description: ' [!DNL Page Builder] 단계의 콘텐츠 섹션 사이에 시각적 구분으로 규칙을 추가하는 데 사용되는 분할기 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
 # 요소 - 분할자
 
-사용 _분할자_ 콘텐츠 유형 : 의 콘텐츠 섹션 사이에 시각적 중단으로 규칙을 추가합니다. [[!DNL Page Builder] 단계](workspace.md#stage). 구분선의 선 색상, 두께 및 너비를 지정할 수 있습니다. 또한 컨테이너 테두리의 정렬, 여백 및 패딩 설정, 서식을 제어할 수 있습니다. 기본적으로 구분선은 패딩을 허용하면서 컨테이너의 전체 너비를 확장하는 헤어라인 규칙입니다.
+_분할기_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](workspace.md#stage)에서 콘텐츠 섹션 사이에 시각적 구분으로 규칙을 추가합니다. 구분선의 선 색상, 두께 및 너비를 지정할 수 있습니다. 또한 컨테이너 테두리의 정렬, 여백 및 패딩 설정, 서식을 제어할 수 있습니다. 기본적으로 구분선은 패딩을 허용하면서 컨테이너의 전체 너비를 확장하는 헤어라인 규칙입니다.
 
 ![테두리가 없는 컨테이너의 기본 구분선](./assets/pb-elements-divider-default.png){width="500" zoomable="yes"}
 
 대부분의 구분선 컨테이너는 보이지 않지만 다음 예제에서는 구분선, 패딩 및 컨테이너 간의 관계를 볼 수 있도록 컨테이너를 빨간색 파선 테두리로 표시합니다. 구분선 위쪽과 아래쪽에 있는 패딩을 조정하여 요소 간의 간격을 제어할 수 있습니다.
 
-![파선 테두리가 있는 컨테이너의 패딩이 있는 구분선](./assets/pb-elements-divider-default-border-dashed.png){width="500" zoomable="yes"}
+![파선 테두리가 있는 컨테이너에 패딩이 있는 구분선](./assets/pb-elements-divider-default-border-dashed.png){width="500" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -40,42 +40,42 @@ ht-degree: 0%
 
 ## 구분선 추가
 
-1. 다음에서 [!DNL Page Builder] 패널, 확장 **[!UICONTROL Elements]** 드래그 **[!UICONTROL Divider]** 스테이지에서 행, 열 또는 탭 세트에 대한 자리 표시자
+1. [!DNL Page Builder] 패널에서 **[!UICONTROL Elements]**&#x200B;을(를) 확장하고 **[!UICONTROL Divider]** 자리 표시자를 스테이지의 행, 열 또는 탭 집합으로 드래그합니다.
 
    스테이지의 다른 콘텐츠 컨테이너 앞 또는 뒤에 구분선을 배치하려면 빨간색 지침을 참조하여 참조하십시오.
 
-   ![구분선을 스테이지로 드래그](./assets/pb-elements-divider-drag.png){width="600" zoomable="yes"}
+   ![분할자를 스테이지로 드래그](./assets/pb-elements-divider-drag.png){width="600" zoomable="yes"}
 
    다음 예제에서는 구분선이 새 텍스트 섹션의 시작 부분을 표시합니다.
 
-   ![텍스트 섹션을 구분하는 구분선](./assets/pb-elements-dividers-multiple-text-row.png){width="500" zoomable="yes"}
+   ![텍스트의 구역을 구분하는 구분선](./assets/pb-elements-dividers-multiple-text-row.png){width="500" zoomable="yes"}
 
 1. 새 구분선의 설정을 지정하려면 다음 절차를 따르십시오.
 
 ## 구분선 설정 변경
 
-1. 구분선 컨테이너 위로 마우스를 가져가면 도구 상자를 표시하고 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘.
+1. 구분선 컨테이너 위로 마우스를 가져가면 도구 상자를 표시하고 _설정_(![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
-   ![구분선 도구 상자](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
+   ![분할기 도구 상자](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
 
-1. 구분선 변경 **[!UICONTROL Line Color]** 다음 방법 중 하나를 사용합니다.
+1. 다음 방법 중 하나를 사용하여 구분선 **[!UICONTROL Line Color]**&#x200B;을(를) 변경합니다.
 
-   - 유효한 을(를) 입력하십시오 [HTML 색상 이름][1]. For example, `Teal`.
-   - 16진수 색상 값을 입력합니다. For example, `#008080`.
+   - 올바른 [HTML 색상 이름][1]을(를) 입력하십시오. 예: `Teal`.
+   - 16진수 색상 값을 입력합니다. 예: `#008080`.
 
-   완료되면 다음을 클릭하십시오. **[!UICONTROL Apply]**.
+   완료되면 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
-   ![선 색상 설정](./assets/pb-elements-divider-settings-line-color.png){width="600" zoomable="yes"}
+   ![선 색 설정](./assets/pb-elements-divider-settings-line-color.png){width="600" zoomable="yes"}
 
-1. 다음을 입력합니다. **[!UICONTROL Line Thickness]** 픽셀 단위.
+1. **[!UICONTROL Line Thickness]**&#x200B;을(를) 픽셀 단위로 입력하십시오.
 
-1. 측정 단위를 나타내려면 다음을 입력합니다. **[!UICONTROL Line Width]** 뒤에 다음 중 하나가 옵니다. `px` 또는 `%`.
+1. 측정 단위를 나타내려면 **[!UICONTROL Line Width]** 다음에 `px` 또는 `%`을(를) 입력하십시오.
 
-   ![선 색상, 두께 및 폭 설정](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
+   ![선 색, 두께 및 폭 설정](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. 업데이트 _[!UICONTROL Advanced]_필요에 따라 설정합니다.
+1. 필요에 따라 _[!UICONTROL Advanced]_설정을 업데이트합니다.
 
-   - 상위 컨테이너 내의 구분선 위치를 제어하려면 **[!UICONTROL Alignment]**:
+   - 부모 컨테이너 내의 구분선 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하세요.
 
      | 옵션 | 설명 |
      | ------ | ----------- |
@@ -88,9 +88,9 @@ ht-degree: 0%
 
      다음 예제에서는 구분선에 가운데 정렬을 사용하도록 옵션을 설정합니다.
 
-     ![가운데 맞춤이 있는 구분선](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
+     ![가운데 맞춤이 있는 분할선](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
 
-   - 설정 **[!UICONTROL Border]** 구분선 컨테이너의 네 면 모두에 적용된 스타일:
+   - 구분선 컨테이너의 네 면 모두에 적용된 **[!UICONTROL Border]** 스타일을 설정합니다.
 
      | 옵션 | 설명 |
      | ------ | ----------- |
@@ -107,7 +107,7 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - 테두리 스타일을 설정할 때 `None`테두리 표시 옵션을 완료합니다.
+   - `None` 이외의 테두리 스타일을 설정하는 경우 테두리 표시 옵션을 완료하십시오.
 
      | 옵션 | 설명 |
      | ------ |------------ |
@@ -117,11 +117,11 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - (선택 사항) 다음 이름을 지정합니다 **[!UICONTROL CSS classes]** 현재 스타일 시트에서 컨테이너에 적용
+   - (선택 사항) 컨테이너에 적용할 현재 스타일 시트의 **[!UICONTROL CSS classes]** 이름을 지정합니다.
 
      여러 클래스 이름은 공백으로 구분합니다.
 
-   - 다음에 대한 값을 픽셀 단위로 입력하십시오. **[!UICONTROL Margins and Padding]** 구분선 컨테이너의 외부 여백 및 내부 패딩을 결정할 수 있습니다.
+   - 분할기 컨테이너의 외부 여백과 내부 패딩을 확인하려면 **[!UICONTROL Margins and Padding]**&#x200B;에 대한 값을 픽셀 단위로 입력하십시오.
 
      다이어그램에 해당 값을 입력합니다.
 
@@ -132,21 +132,21 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]** 설정을 적용하고 로 돌아가려면 [!DNL Page Builder] 작업 영역.
+1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
-   ![행의 가운데에 있는 구분선](./assets/pb-elements-divider-settings-2px-centered.png){width="500" zoomable="yes"}
+   ![행의 가운데에 분할선](./assets/pb-elements-divider-settings-2px-centered.png){width="500" zoomable="yes"}
 
 ## 분할자 복제
 
 특정 설정이 있는 서식이 지정된 구분자의 경우 새 자리 표시자로 다시 시작하는 것보다 중복을 만드는 것이 더 효율적입니다.
 
-1. 구분선 컨테이너 위로 마우스를 가져가면 도구 상자를 표시하고 _복제_ ( ![중복 아이콘](./assets/pb-icon-duplicate.png){width="20"} ) 아이콘.
+1. 구분선 컨테이너에 마우스를 가져다 대고 도구 상자를 표시한 다음 _복제_( ![복제 아이콘](./assets/pb-icon-duplicate.png){width="20"}) 아이콘을 선택합니다.
 
    원본 바로 아래에 중복 구분선 컨테이너가 나타납니다.
 
-   ![중복된 구분선](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
+   ![중복된 분할자](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
 
-1. 새 구분선 컨테이너 위로 마우스를 가져가면 도구 상자를 표시하고 _이동_ ( ![이동 아이콘](./assets/pb-icon-move.png){width="20"} ) 아이콘.
+1. 도구 상자를 표시하고 _이동_( ![이동 아이콘](./assets/pb-icon-move.png){width="20"} ) 아이콘을 선택하려면 새 구분선 컨테이너 위로 마우스를 가져갑니다.
 
    ![구분선 이동](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
 

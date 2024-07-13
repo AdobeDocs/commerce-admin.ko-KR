@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 이동 경로 추적
 
-A _이동 경로_ 는 고객이 스토어의 다른 페이지와 관련하여 현재 있는 위치를 보여 주는 링크 세트입니다. 이동 경로의 링크를 클릭하여 이전 페이지로 돌아갈 수 있습니다.
+_이동 경로_&#x200B;은(는) 고객이 저장소의 다른 페이지와 관련하여 현재 있는 위치를 보여 주는 링크 집합입니다. 이동 경로의 링크를 클릭하여 이전 페이지로 돌아갈 수 있습니다.
 
 이동 경로는 콘텐츠 페이지 및 카탈로그 페이지에 나타나도록 구성할 수 있습니다. 이동 경로의 형식과 위치는 테마에 따라 다르지만 일반적으로 헤더 바로 아래에 있습니다. 기본적으로 이동 경로 기록이 CMS 페이지에 표시됩니다.
 
-![상점 앞에 표시되는 탐색 표시 추적](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
+![상점 앞에 표시되는 이동 경로](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
 
 ## 빵가루의 일반적인 종류
 
@@ -46,20 +46,20 @@ A _이동 경로_ 는 고객이 스토어의 다른 페이지와 관련하여 �
 
 ## CMS 페이지에서 이동 경로 추가/제거
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 아래의 왼쪽 패널에서 _[!UICONTROL General]_, 선택&#x200B;**[!UICONTROL Web]**.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**을(를) 선택합니다.
 
    ![CMS 페이지에 대한 탐색 표시](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
-1. 확장 _[!UICONTROL Default Pages]_섹션.
+1. _[!UICONTROL Default Pages]_섹션을 확장합니다.
 
-1. 선택 취소 **[!UICONTROL Use system value]** 확인란.
+1. **[!UICONTROL Use system value]** 확인란의 선택을 취소합니다.
 
-1. 설정 **[!UICONTROL Show Breadcrumbs for CMS Pages]** 끝 `No` 또는 `Yes`.
+1. **[!UICONTROL Show Breadcrumbs for CMS Pages]**&#x200B;을(를) `No` 또는 `Yes`(으)로 설정합니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]
 >
->상위 카테고리가 있는 경우 이동 경로 추적에 표시되지 않고 하위 카테고리 페이지에 표시됩니다. `Browsing Category`= `Deny` [범주 권한](category-permissions.md) 설정.
+>상위 범주가 `Browsing Category`= `Deny` [범주 권한](category-permissions.md) 설정이 있는 경우 하위 범주 페이지의 이동 경로 추적에 상위 범주가 표시되지 않습니다.

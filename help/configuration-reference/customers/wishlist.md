@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Wish List]'
-description: 에서 구성 설정을 검토합니다. [!UICONTROL Customers] &gt; [!UICONTROL Wish List] 상거래 관리자의 페이지입니다.
+description: Commerce 관리자의 [!UICONTROL Customers] &gt; [!UICONTROL Wish List] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 1%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 스토어 뷰 | 스토어에 대한 위시리스트 모듈을 활성화합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Show in Sidebar] | 스토어 뷰 | 사이드바에서 위시리스트의 가시성을 지정합니다. <br/>옵션: `Yes` / `No` |
-| [!UICONTROL Enable Multiple Wish Lists] | 스토어 뷰 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) (으)로 설정된 경우 `Yes`을 통해 고객은 여러 위시 목록을 만들고 유지 관리할 수 있습니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Number of Multiple Wish Lists] | 스토어 뷰 | ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce만 해당) 여러 개의 위시리스트가 활성화된 경우, 은 고객이 계정과 연결할 수 있는 최대 위시리스트 수를 결정합니다. |
+| [!UICONTROL Enable Multiple Wish Lists] | 스토어 뷰 | ![Adobe Commerce](../../assets/adobe-logo.svg)(Adobe Commerce만 해당) `Yes`(으)로 설정하면 고객이 여러 위시리스트를 만들고 유지 관리할 수 있습니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Number of Multiple Wish Lists] | 스토어 뷰 | ![Adobe Commerce](../../assets/adobe-logo.svg)(Adobe Commerce만 해당) 여러 개의 위시리스트를 사용하는 경우 은 고객이 계정과 연결할 수 있는 최대 위시리스트 수를 결정합니다. |
 
 {style="table-layout:auto"}
 

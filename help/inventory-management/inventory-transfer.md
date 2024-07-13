@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이 옵션을 사용하면 하나 이상의 제품, 재고를 이전할 출처 및 수량을 입고할 목적지 출처를 선택할 수 있습니다.
 
-- 재고 수량, 출처 품목 상태(재고/재고 부족) 및 선택한 출처에 대한 통지 수량이 제품별로 이동됩니다.
+- 재고 수량, Source 품목 상태(재고 중/재고 부족) 및 선택한 출처에 대한 통지 수량이 제품별로 이동됩니다.
 
 - 제품에 해당 소스가 없는 경우 건너뜁니다.
 
@@ -30,26 +30,26 @@ ht-degree: 0%
 
 {{$include /help/_includes/unassign-source.md}}
 
-![다른 출처로 재고 이전](assets/inventory-bulk-transfer-source.gif)
+![다른 원본으로 인벤토리 전송](assets/inventory-bulk-transfer-source.gif)
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
 1. 소스를 수정할 제품을 선택합니다.
 
    제품을 찾아보거나 검색하여 찾고 전송할 확인란을 선택합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL Actions]** 맨 위에 있는 메뉴 **[!UICONTROL Transfer Inventory to Source]**.
+1. 맨 위에 있는 **[!UICONTROL Actions]** 메뉴를 클릭하고 **[!UICONTROL Transfer Inventory to Source]**&#x200B;을(를) 선택합니다.
 
-1. 클릭 **[!UICONTROL OK]** 확인 대화 상자에서 확인할 수 있습니다.
+1. 확인 대화 상자에서 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
-1. 제품을 새 대상으로 이전하려면 출처를 선택합니다(_[!UICONTROL from]_) 소스.
+1. 제품을 새 대상으로 전송하려면 원본(_[!UICONTROL from]_) 원본을 선택하세요.
 
-1. 제품을 새 대상으로 전송하려면 대상(_[!UICONTROL to]_) 소스.
+1. 제품을 새 대상으로 전송하려면 대상(_[!UICONTROL to]_) 원본을 선택하십시오.
 
-1. 제품에서 소스를 제거하려면 선택적 확인란을 선택합니다 **[!UICONTROL Unassign from origin source after transfer]**.
+1. 제품에서 원본을 제거하려면 선택적 확인란 **[!UICONTROL Unassign from origin source after transfer]**&#x200B;을(를) 선택하십시오.
 
    ![전송할 원본 및 대상 선택](assets/inventory-bulk-transfer-summary.png){width="600" zoomable="yes"}
 
-1. 클릭 **[!UICONTROL Transfer Inventory]**.
+1. **[!UICONTROL Transfer Inventory]**&#x200B;을(를) 클릭합니다.
 
    모든 제품 수량은 출처 출처에서 공제되어 목적지 출처에 추가됩니다. 수량 및 판매 가능 수량이 자동으로 업데이트됩니다.

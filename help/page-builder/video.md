@@ -1,20 +1,20 @@
 ---
 title: 미디어 - 비디오
-description: YouTube 또는 Vimeo에서 호스팅되는 비디오를 [!DNL Page Builder] 스테이지.
+description: YouTube 또는 Vimeo에서 호스팅되는 비디오를  [!DNL Page Builder] 스테이지에 추가하는 데 사용되는 비디오 콘텐츠 유형에 대해 알아봅니다.
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
 source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
 
 # 미디어 - 비디오
 
-사용 _비디오_ 호스팅된 비디오를 추가할 콘텐츠 유형 [YouTube][1] 또는 [Vimeo][2] (으)로 [[!DNL Page Builder] 단계](workspace.md#stage). 페이지나 블록 또는 제품 및 카테고리 설명에 비디오를 쉽게 포함할 수 있습니다.
+_Video_ 콘텐츠 형식을 사용하여 [YouTube][1] 또는 [Vimeo][2]에서 호스팅되는 비디오를 [[!DNL Page Builder] 단계](workspace.md#stage)에 추가하십시오. 페이지나 블록 또는 제품 및 카테고리 설명에 비디오를 쉽게 포함할 수 있습니다.
 
-![상점 홈 페이지의 비디오](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
+![상점 홈 페이지의 동영상](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | 이동 | ![이동 아이콘](./assets/pb-icon-move.png){width="25"} | 비디오를 스테이지의 다른 위치로 이동합니다. |
 | (레이블) | [!UICONTROL Video] | 현재 콘텐츠 컨테이너를 비디오로 식별합니다. 이미지 컨테이너 위로 마우스를 가져가면 도구 상자를 볼 수 있습니다. |
-| 설정 | ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} | 다음을 엽니다. _[!UICONTROL Edit Video]_비디오 및 컨테이너의 속성을 변경할 수 있는 페이지. |
+| 설정 | ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} | 비디오 및 컨테이너의 속성을 변경할 수 있는 _[!UICONTROL Edit Video]_페이지를 엽니다. |
 | 숨기기 | ![아이콘 숨기기](./assets/pb-icon-hide.png){width="25"} | 현재 비디오를 숨깁니다. |
 | 표시 | ![아이콘 표시](./assets/pb-icon-show.png){width="25"} | 숨겨진 비디오를 표시합니다. |
 | 복제 | ![중복 아이콘](./assets/pb-icon-duplicate.png){width="25"} | 비디오를 복사합니다. |
@@ -38,66 +38,66 @@ ht-degree: 0%
 
 ## 비디오 추가
 
-1. 시작하기 전에 [YouTube][1] 또는 [Vimeo][2] 포함할 비디오를 편집하고 링크를 복사합니다.
+1. 시작하기 전에 포함할 [YouTube][1] 또는 [Vimeo][2] 비디오로 이동한 다음 링크를 복사합니다.
 
-   또는 직접 링크를 유효한 비디오 파일로 복사할 수도 있습니다. 다음을 참조하십시오 [기본 비디오 설정](#basic-video-settings) 를 참조하십시오.
+   또는 직접 링크를 유효한 비디오 파일로 복사할 수도 있습니다. 올바른 링크는 [기본 비디오 설정](#basic-video-settings)을 참조하세요.
 
-1. 다음에서 [!DNL Commerce] 책임자, (으)로 돌아가기 [!DNL Page Builder] 비디오를 추가할 작업 영역입니다.
+1. [!DNL Commerce] 관리자의 경우 비디오를 추가하려는 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
-1. 다음에서 [!DNL Page Builder] 패널, 확장 **[!UICONTROL Media]** 드래그 **[!UICONTROL Video]** 자리 표시자가 스테이지에 표시됩니다.
+1. [!DNL Page Builder] 패널에서 **[!UICONTROL Media]**&#x200B;을(를) 확장하고 **[!UICONTROL Video]** 자리 표시자를 스테이지로 드래그합니다.
 
    ![비디오 자리 표시자를 스테이지로 드래그](./assets/pb-media-video-drag.png){width="600" zoomable="yes"}
 
-1. 비디오 컨테이너에 마우스를 가져다 대고 도구 상자를 표시한 다음 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘.
+1. 비디오 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
-1. 대상 **[!UICONTROL Video URL]**&#x200B;을 클릭하고 복사한 비디오의 URL을 붙여넣습니다.
+1. **[!UICONTROL Video URL]**&#x200B;의 경우 복사한 비디오의 URL을 붙여넣습니다.
 
-   의 URL [!DNL Page Builder] 이 예제에서 사용되는 비디오는 다음과 같습니다. `https://www.youtube.com/watch?v=Y0KNS7C5dZA`.
+   이 예제에 사용된 [!DNL Page Builder] 비디오의 URL은 `https://www.youtube.com/watch?v=Y0KNS7C5dZA`입니다.
 
-1. 을(를) 제한하려면 **[!UICONTROL Maximum Width]** 비디오의 최대 폭을 픽셀 단위로 입력합니다.
+1. 비디오의 **[!UICONTROL Maximum Width]**&#x200B;을(를) 제한하려면 최대 너비를 픽셀 단위로 입력하십시오.
 
    비어 있는 경우 비디오가 컨테이너에서 허용하는 만큼 너비가 넓어 여백과 패딩을 허용합니다.
 
-1. 오른쪽 위 모서리에서 을(를) 클릭합니다. **[!UICONTROL Save]** 설정을 적용하고 로 돌아가려면 [!DNL Page Builder] 작업 영역.
+1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
 ## 비디오 설정 변경
 
-1. 비디오 컨테이너에 마우스를 가져다 대고 도구 상자를 표시한 다음 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘.
+1. 비디오 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
 1. 다음 섹션에 따라 설정을 수정합니다.
 
    - [기본](#basic-video-settings)
    - [고급](#advanced)
 
-1. 오른쪽 위 모서리에서 을(를) 클릭합니다. **[!UICONTROL Save]** 설정을 적용하고 로 돌아가려면 [!DNL Page Builder] 작업 영역.
+1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
 ### 기본 비디오 설정
 
-1. 현재 비디오를 변경하려면 **[!UICONTROL Video URL]**.
+1. 현재 비디오를 변경하려면 **[!UICONTROL Video URL]**&#x200B;을(를) 업데이트하세요.
 
    올바른 비디오 URL을 입력하십시오. 유효한 비디오 URL은 다음에 대한 링크일 수 있습니다.
 
    - YouTube 비디오: `https://youtu.be/CoDhMRUUjeI`
    - Vimeo 비디오: `https://vimeo.com/190156113`
-   - 유효한 비디오 파일(`.mp4` 권장): `https://myvideos.com/spiral.mp4`
+   - 올바른 비디오 파일(`.mp4`개 권장): `https://myvideos.com/spiral.mp4`
 
-1. 상점 전면의 비디오에 허용되는 너비를 변경하려면 새 값을 입력하십시오 **[!UICONTROL Maximum Width]** 픽셀 단위.
+1. 상점 앞 비디오에 허용되는 너비를 변경하려면 새 **[!UICONTROL Maximum Width]**&#x200B;을(를) 픽셀 단위로 입력하십시오.
 
    비어 있는 경우 비디오가 컨테이너의 전체 너비를 확장하므로 여백과 패딩에 대한 허용이 줄어듭니다.
 
-1. 페이지가 로드된 후 비디오를 자동으로 시작하려면 을 설정합니다 **[!UICONTROL Autoplay]** 끝 `Yes`.
+1. 페이지가 로드된 후 비디오를 자동으로 시작하려면 **[!UICONTROL Autoplay]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
-   자동 재생이 로 설정된 경우 `Yes`, 정책에 따라 재생 시 비디오가 음소거됩니다. 그러나 이 설정을 사용하더라도 모바일 장치에서는 비디오를 자동으로 재생할 수 없습니다. 이러한 정책에 대한 자세한 내용은 다음 개발자 리소스를 참조하십시오.
+   자동 재생이 `Yes`(으)로 설정된 경우 정책에 따라 재생 시 비디오가 음소거됩니다. 그러나 이 설정을 사용하더라도 모바일 장치에서는 비디오를 자동으로 재생할 수 없습니다. 이러한 정책에 대한 자세한 내용은 다음 개발자 리소스를 참조하십시오.
 
    - [Vimeo의 자동 재생 정책](https://vimeo.zendesk.com/hc/en-us/articles/115004485728-Autoplaying-and-looping-embedded-videos)
    - [Google(Chrome/YouTube)의 자동 재생 정책](https://developer.chrome.com/blog/autoplay/)
    - [로컬 비디오에 대한 자동 재생 정책](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
 
-   자동 재생이 로 설정된 경우 `No`, 비디오는 사용자의 요청에 따라서만 재생됩니다.
+   자동 재생이 `No`(으)로 설정되어 있으면 사용자의 요구에만 비디오가 재생됩니다.
 
 ### [!UICONTROL Advanced]
 
-1. 컨테이너 내에서 비디오의 가로 위치를 제어하려면 **[!UICONTROL Alignment]**:
+1. 컨테이너 내에서 비디오의 가로 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하세요.
 
    | 옵션 | 설명 |
    | ------ | ----------- |
@@ -108,7 +108,7 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-- 설정 **[!UICONTROL Border]** 비디오 컨테이너의 네 면 모두에 적용되는 스타일:
+- 비디오 컨테이너의 네 면 모두에 적용되는 **[!UICONTROL Border]** 스타일을 설정합니다.
 
   | 옵션 | 설명 |
   | ------ | ----------- |
@@ -125,7 +125,7 @@ ht-degree: 0%
 
   {style="table-layout:auto"}
 
-- 테두리 스타일을 설정할 때 `None`테두리 표시 옵션을 완료합니다.
+- `None` 이외의 테두리 스타일을 설정하는 경우 테두리 표시 옵션을 완료하십시오.
 
   ![테두리 색상](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
@@ -137,11 +137,11 @@ ht-degree: 0%
 
   {style="table-layout:auto"}
 
-- (선택 사항) 다음 이름을 지정합니다 **[!UICONTROL CSS classes]** 현재 스타일 시트에서 비디오 컨테이너에 적용할 수 있습니다.
+- (선택 사항) 비디오 컨테이너에 적용할 현재 스타일 시트의 **[!UICONTROL CSS classes]** 이름을 지정합니다.
 
   여러 클래스 이름은 공백으로 구분합니다.
 
-- 다음에 대한 값을 픽셀 단위로 입력하십시오. **[!UICONTROL Margins and Padding]** 비디오 컨테이너의 외부 여백 및 내부 패딩을 지정합니다.
+- **[!UICONTROL Margins and Padding]**&#x200B;에 대한 값을 픽셀 단위로 입력하여 비디오 컨테이너의 외부 여백과 내부 패딩을 지정합니다.
 
   비디오 컨테이너 다이어그램에 해당하는 각 값을 입력합니다.
 
@@ -154,19 +154,19 @@ ht-degree: 0%
 
 ## 비디오 이동
 
-1. 비디오 컨테이너에 마우스를 가져다 대고 도구 상자를 표시한 다음 _이동_ ( ![이동 아이콘](./assets/pb-icon-move.png){width="20"} ) 아이콘.
+1. 비디오 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _이동_( ![이동 아이콘](./assets/pb-icon-move.png){width="20"} ) 아이콘을 선택합니다.
 
    ![비디오 이동](./assets/pb-media-video-toolbox-move-col1.png){width="500" zoomable="yes"}
 
 1. 비디오를 선택하고 빨간색 지침 바로 아래의 새 위치로 드래그합니다.
 
-   ![빨간색 지침을 사용하여 비디오 배치](./assets/pb-media-video-toolbox-move-col2.png){width="500" zoomable="yes"}
+   ![빨간색 지침을 사용하여 비디오를 배치합니다](./assets/pb-media-video-toolbox-move-col2.png){width="500" zoomable="yes"}
 
 ## 스테이지에서 비디오 제거
 
-1. 비디오 컨테이너에 마우스를 가져다 대고 도구 상자를 표시한 다음 _제거_ (![제거 아이콘](./assets/pb-icon-remove.png)) 아이콘.
+1. 비디오 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _제거_(![제거 아이콘](./assets/pb-icon-remove.png)) 아이콘을 선택합니다.
 
-1. 확인을 묻는 메시지가 나타나면 **[!UICONTROL OK]**.
+1. 확인 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
 [1]: https://www.youtube.com/
 [2]: https://vimeo.com/

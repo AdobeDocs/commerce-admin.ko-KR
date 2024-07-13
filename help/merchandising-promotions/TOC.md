@@ -18,7 +18,7 @@ ht-degree: 1%
 - [머천다이징 및 프로모션 소개](introduction.md)
 - [마케팅 메뉴](marketing-menu.md)
 - 머천다이징 {#merchandising}
-   - Visual Merchandiser {#visual-merch}
+   - 시각적 머천다이저 {#visual-merch}
       - [Visual Merchandiser 개요](visual-merchandiser.md)
       - [머천다이징에 대한 범주 규칙](category-product-rules.md)
       - [스마트 속성 구성](smart-attributes-configure.md)
@@ -37,7 +37,7 @@ ht-degree: 1%
       - [고객 제품 리뷰](product-reviews.md)
       - [리뷰 중재](product-reviews-moderate.md)
 - 프로모션 {#promotions}
-   - 개인 영업 및 이벤트 {#events}
+   - 비공개 영업 및 이벤트 {#events}
       - [이벤트 개요](events-private-sales.md)
       - [이벤트 구성](event-configure.md)
       - [이벤트 만들기](event-create.md)
@@ -67,14 +67,14 @@ ht-degree: 1%
       - [뉴스레터 전송](newsletter-queue.md)
       - [구독자 관리](newsletter-subscribers.md)
    - [소셜 미디어 및 RSS 피드](social-rss.md)
-   - 이메일 알림 메시지 {#email-reminders}
+   - 전자 메일 미리 알림 {#email-reminders}
       - [이메일 미리 알림 활성화](email-reminder-rules.md)
       - [이메일 미리 알림 만들기](email-reminder-rules-create.md)
 - 검색 엔진 최적화 {#seo}
    - [SEO 개요 및 우수 사례](seo-overview.md)
    - [메타데이터](meta-data.md)
    - [사이트 맵](sitemap-xml.md)
-   - URL 재작성 {#url-rewrites}
+   - URL이 {#url-rewrites}을(를) 재작성합니다.
       - [개요 및 구성](url-rewrite.md)
       - [범주 재작성](url-rewrite-category.md)
       - [제품 재작성](url-rewrite-product.md)

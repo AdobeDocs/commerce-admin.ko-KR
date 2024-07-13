@@ -4,7 +4,7 @@ description: 저장소 페이지의 기본 부분에 대한 기본값을 구성�
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ ht-degree: 0%
 
 ## HTML 헤드
 
-HTML 헤드 섹션의 설정은 `<head>` HTML 태그로 지정할 수 있으며, 각 스토어 보기에 대해 구성할 수 있습니다. 페이지 제목, 설명 및 키워드에 대한 메타데이터 외에도 섹션에는 favicon 및 기타 스크립트에 대한 링크가 포함되어 있습니다. 검색 엔진 로봇에 대한 지침 및 스토어 데모 알림의 표시도 이 섹션에서 구성됩니다.
+HTML 헤드 섹션의 설정은 HTML 페이지의 `<head>` 태그에 해당하며 각 스토어 보기에 대해 구성할 수 있습니다. 페이지 제목, 설명 및 키워드에 대한 메타데이터 외에도 섹션에는 favicon 및 기타 스크립트에 대한 링크가 포함되어 있습니다. 검색 엔진 로봇에 대한 지침 및 스토어 데모 알림의 표시도 이 섹션에서 구성됩니다.
 
 ### HTML 헤드 구성
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 구성할 스토어 보기를 찾아 다음을 클릭합니다. **[!UICONTROL Edit]** 다음에서 _[!UICONTROL Action]_열.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
-1. 아래 _기타 설정_, 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL HTML Head]** 섹션.
+1. _기타 설정_&#x200B;에서 **[!UICONTROL HTML Head]** 섹션의 ![확장 선택기](../assets/icon-display-expand.png)을 확장합니다.
 
    ![HTML 헤드 구성 설정](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
-1. 업데이트 [파비콘](../getting-started/storefront-branding.md#add-a-favicon) 필요한 경우.
+1. 필요한 경우 [favicon](../getting-started/storefront-branding.md#add-a-favicon)을 업데이트하십시오.
 
 1. 필요에 따라 페이지 제목 설정을 업데이트합니다.
 
@@ -48,11 +48,11 @@ HTML 헤드 섹션의 설정은 `<head>` HTML 태그로 지정할 수 있으며,
    - **[!UICONTROL Default Meta Description]**
    - **[!UICONTROL Default Meta Keywords]**
 
-1. 원하는 항목 입력 **[!UICONTROL Scripts and Style Sheets]** 필요한 경우.
+1. 필요에 따라 **[!UICONTROL Scripts and Style Sheets]**&#x200B;을(를) 입력합니다.
 
-1. 활성화 또는 비활성화 [데모 스토어 알림](../getting-started/storefront-branding.md#set-the-store-demo-notice) 필요한 경우.
+1. 필요한 경우 [데모 스토어 알림](../getting-started/storefront-branding.md#set-the-store-demo-notice)을 활성화하거나 비활성화합니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Configuration]**.
+1. 완료되면 **[!UICONTROL Save Configuration]**&#x200B;을(를) 클릭합니다.
 
 ### HTML 헤드 필드 설명
 
@@ -64,7 +64,7 @@ HTML 헤드 섹션의 설정은 `<head>` HTML 태그로 지정할 수 있으며,
 | [!UICONTROL Page Title Suffix] | 스토어 뷰 | 제목 뒤에 접미사를 추가하여 두 부분 또는 세 부분 제목을 만들 수 있습니다. 주 제목의 텍스트와 구분하기 위해 접두어 끝에 세로 막대 또는 콜론을 구분 기호로 사용할 수 있습니다. |
 | [!UICONTROL Default Meta Description] | 스토어 뷰 | 설명은 검색 엔진 목록에 대한 사이트 요약을 제공하며 길이는 160자를 초과할 수 없습니다. |
 | [!UICONTROL Default Meta Keywords] | 스토어 뷰 | 저장소를 설명하는 일련의 키워드로서, 각각 쉼표로 구분됩니다. |
-| [!UICONTROL Scripts and Style Sheets] | 스토어 뷰 | 닫기 전에 HTML에 포함해야 하는 스크립트를 포함합니다. `<head>` 태그에 가깝게 배치하십시오. 예를 들어, 앞에 배치해야 하는 모든 서드파티 JavaScript `<body>` 태그를 여기에 입력할 수 있습니다. |
+| [!UICONTROL Scripts and Style Sheets] | 스토어 뷰 | `<head>` 태그를 닫기 전에 HTML에 포함해야 하는 스크립트를 포함합니다. 예를 들어 `<body>` 태그 앞에 배치해야 하는 모든 서드파티 JavaScript을 여기에 입력할 수 있습니다. |
 | [!UICONTROL Display Demo Store Notice] | 스토어 뷰 | 페이지 상단에 있는 데모 스토어 알림 표시를 제어합니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -77,18 +77,18 @@ HTML 헤드 섹션의 설정은 `<head>` HTML 태그로 지정할 수 있으며,
 
 ### 헤더 구성
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 구성할 스토어 보기를 찾아 다음을 클릭합니다. **[!UICONTROL Edit]** 다음에서 _[!UICONTROL Action]_열.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
-1. 아래 _기타 설정_, 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL Header]** 섹션.
+1. _기타 설정_&#x200B;에서 **[!UICONTROL Header]** 섹션의 ![확장 선택기](../assets/icon-display-expand.png)을 확장합니다.
 
 1. 스토어 보기에 필요한 변경 작업을 수행합니다.
 
    - [로고](../getting-started/storefront-branding.md#upload-your-logo) 설정
    - [환영 메시지](../getting-started/storefront-branding.md#change-the-welcome-message) 설정
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Configuration]**.
+1. 완료되면 **[!UICONTROL Save Configuration]**&#x200B;을(를) 클릭합니다.
 
 ### 헤더 필드 설명
 
@@ -99,34 +99,34 @@ HTML 헤드 섹션의 설정은 `<head>` HTML 태그로 지정할 수 있으며,
 | [!UICONTROL Logo Attribute Height] | 스토어 뷰 | 로고 이미지의 높이(픽셀 단위)입니다. |
 | [!UICONTROL Welcome Text] | 스토어 뷰 | 시작 메시지는 페이지 헤더에 표시되며 로그인한 고객의 이름이 포함됩니다. |
 | [!UICONTROL Logo Image Alt] | 스토어 뷰 | 로고와 연결된 대체 텍스트입니다. |
-| [!UICONTROL Translate Title] | 스토어 뷰 | 다음 여부를 결정합니다. `Page Title` 또는 `Meta Title` 번역해야 합니다. |
+| [!UICONTROL Translate Title] | 스토어 뷰 | `Page Title` 또는 `Meta Title`을(를) 변환할지 여부를 결정합니다. |
 
 {style="table-layout:auto"}
 
 ## 바닥글
 
-바닥글 구성 섹션에서 [저작권 공지](../getting-started/storefront-branding.md#change-the-copyright-notice) 을 눌러 페이지를 닫고 닫기 전에 배치해야 하는 기타 스크립트를 입력합니다 `<body>` 태그에 가깝게 배치하십시오.
+바닥글 구성 섹션에서는 페이지 하단에 나타나는 [저작권 공지](../getting-started/storefront-branding.md#change-the-copyright-notice)를 업데이트하고, 닫는 `<body>` 태그 앞에 배치해야 하는 기타 스크립트를 입력할 수 있습니다.
 
 ![바닥글 구성 설정](./assets/configuration-footer.png){width="400" zoomable="yes"}
 
 ### 바닥글 구성
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 구성할 스토어 보기를 찾아 다음을 클릭합니다. **[!UICONTROL Edit]** 다음에서 _[!UICONTROL Action]_열.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
-1. 아래 _기타 설정_, 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL Footer]** 섹션.
+1. _기타 설정_&#x200B;에서 **[!UICONTROL Footer]** 섹션의 ![확장 선택기](../assets/icon-display-expand.png)을 확장합니다.
 
-1. 필요한 변경 작업을 수행합니다. **[!UICONTROL Copyright]** 및 **[!UICONTROL Miscellaneous HTML]** 설정.
+1. **[!UICONTROL Copyright]** 및 **[!UICONTROL Miscellaneous HTML]** 설정에 필요한 변경 작업을 수행합니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Configuration]**.
+1. 완료되면 **[!UICONTROL Save Configuration]**&#x200B;을(를) 클릭합니다.
 
 ## 바닥글 필드 설명
 
 | 필드 | 범위 | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Miscellaneous HTML] | 스토어 뷰 | 닫기 직전에 배치해야 하는 서버에 기타 스크립트를 업로드할 수 있는 입력 상자입니다. `<body>` 태그에 가깝게 배치하십시오. |
-| [!UICONTROL Copyright] | 스토어 뷰 | 각 페이지의 맨 아래에 표시되는 저작권 선언문입니다. 저작권 기호를 포함하려면 HTML 문자 엔티티를 사용합니다 `\&copy;` 다음과 같이: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` 샘플 저작권 공지를 반드시 자신의 것으로 교체하십시오. |
+| [!UICONTROL Miscellaneous HTML] | 스토어 뷰 | 닫기 `<body>` 태그 바로 앞에 배치해야 하는 서버에 기타 스크립트를 업로드할 수 있는 입력 상자입니다. |
+| [!UICONTROL Copyright] | 스토어 뷰 | 각 페이지의 맨 아래에 표시되는 저작권 선언문입니다. 저작권 기호를 포함하려면 다음과 같이 HTML 문자 엔터티 `\&copy;`을(를) 사용합니다. `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` 샘플 저작권 알림을 자신의 것으로 바꾸십시오. |
 | [!UICONTROL Display Report Bugs Link] | 스토어 뷰 | 버그 보고서 링크(일부 테마에 대해 지원됨)의 활성화 또는 비활성화 여부를 결정합니다. |
 
 {style="table-layout:auto"}

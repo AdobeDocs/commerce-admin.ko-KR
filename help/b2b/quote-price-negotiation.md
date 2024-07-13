@@ -5,18 +5,18 @@ exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
 source-git-commit: 734290b9d609a173186325b418cd92cbf41b0efb
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
 
 # 견적 협상
 
-If [B2B 견적 사용](configure-quotes.md) 구성에서 가격 협상은 회사나 영업 사원으로부터 권한을 부여받은 구매자에 의해 개시될 수 있다.
+구성에서 [B2B 견적이 활성화](configure-quotes.md)된 경우, 가격 협상은 회사의 승인된 구매자 또는 영업 사원이 시작할 수 있습니다.
 
-구매자는 다음을 기준으로 가격 협상 프로세스를 시작합니다. [견적 요청](quote-request.md) 장바구니에서. 영업 사원은 다음 방법으로 협상을 시작할 수 있습니다. [구매자에 대한 초안 견적 생성](sales-rep-initiates-quote.md)을 클릭하여 견적을 초기 주문 품목과 가격책정으로 업데이트한 다음 구매자에게 보냅니다.
+구매자는 장바구니에서 [견적을 요청](quote-request.md)하여 가격 협상 프로세스를 시작합니다. 영업 사원은 [구매자에 대한 초안 견적을 만들고](sales-rep-initiates-quote.md)초기 주문 품목 및 가격책정을 통해 견적을 업데이트하여 구매자에게 보내면서 협상을 시작할 수 있습니다.
 
-가격 협상이 시작되면 견적이 [따옴표](quotes.md) 그리드. 구매자와 판매자 간의 모든 협상은 전자 메일로 이루어지며 견적의 상세 보기에서 시작 및 추적됩니다.
+가격 협상이 시작되면 견적이 [견적](quotes.md) 그리드에 나열됩니다. 구매자와 판매자 간의 모든 협상은 전자 메일로 이루어지며 견적의 상세 보기에서 시작 및 추적됩니다.
 
 협상 프로세스 중에 판매자는 관리자로부터 다음 작업을 수행할 수 있습니다.
 
@@ -27,99 +27,100 @@ If [B2B 견적 사용](configure-quotes.md) 구성에서 가격 협상은 회사
 - 댓글 추가
 - 업데이트된 견적을 구매자에게 보내거나 초안으로 저장
 
-구매자는 다음과 같은 방법으로 상점에서 견적 협상 프로세스를 관리합니다. [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md). 검토를 위해 견적이 열려 있는 동안 구매자 계정에서 견적의 상태가 다음으로 설정됩니다. `Pending`. 구매자는 견적이 거부되었거나 만료된 경우에도 견적을 변경하고 재실행할 수 있습니다.
+구매자는 [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)을(를) 사용하여 상점에서 견적 협상 프로세스를 관리합니다. 검토를 위해 견적이 열려 있는 동안 구매자 계정에서 견적의 상태가 `Pending`(으)로 설정되어 있습니다. 구매자는 견적이 거부되었거나 만료된 경우에도 견적을 변경하고 재실행할 수 있습니다.
 
 ## 1단계: 요청 보기
 
-1. 관리 사이드바에서 다음 위치로 이동하십시오. **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**.
+1. 관리 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**(으)로 이동합니다.
 
-   새 요청이에 표시됨 _[!UICONTROL Quotes]_그리드.
+   새 요청이 _[!UICONTROL Quotes]_표에 나타납니다.
 
-1. 다음에서 _작업_ 열, 클릭 **[!UICONTROL View]**.
+1. _작업_ 열에서 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 
    ![새 견적](./assets/quote-grid-new.png){width="700" zoomable="yes"}
 
 ## 2단계: 견적 수정
 
-1. 아래 _[!UICONTROL Quote & Account Information]_를 클릭하고_&#x200B;캘린더&#x200B;_(![달력 아이콘](../assets/icon-calendar.png)) 아이콘.
+1. _[!UICONTROL Quote & Account Information]_에서_&#x200B;달력&#x200B;_(![달력 아이콘](../assets/icon-calendar.png)) 아이콘을 클릭합니다.
 
    ![견적 및 계정 정보](./assets/quote-details-account-information.png){width="575" zoomable="yes"}
 
-1. 선택 **[!UICONTROL Expiration Date]** 견적에 사용됩니다.
+1. 견적에 대해 **[!UICONTROL Expiration Date]**&#x200B;을(를) 선택하십시오.
 
-1. 아래로 스크롤하여 _[!UICONTROL Quote Totals]_섹션 및 업데이트&#x200B;**[!UICONTROL Negotiated Price]**필요한 경우.
+1. _[!UICONTROL Quote Totals]_섹션까지 아래로 스크롤하고 필요에 따라&#x200B;**[!UICONTROL Negotiated Price]**을(를) 업데이트합니다.
 
    ![협상 가격 업데이트](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
    구매자가 견적의 품목 수량을 변경하면 견적의 상단에 품목 목록이 변경되었음을 나타내는 통지가 표시되며 협상된 가격을 갱신해야 합니다.
 
-   ![견적 변경 공지](./assets/quote-change-notice.png){width="600" zoomable="yes"}
+   ![견적 변경 알림](./assets/quote-change-notice.png){width="600" zoomable="yes"}
 
 ### 견적에 새 제품 추가
 
-1. 클릭 **[!UICONTROL Add Products by SKU]**.
+1. **[!UICONTROL Add Products by SKU]**&#x200B;을(를) 클릭합니다.
 
-1. 다음을 입력합니다. **[!UICONTROL SKU]** 및 **[!UICONTROL Qty]** 추가됩니다.
+1. 추가할 **[!UICONTROL SKU]** 및 **[!UICONTROL Qty]**&#x200B;을(를) 입력하십시오.
 
    ![SKU로 견적에 추가](./assets/quote-details-add-by-sku.png){width="600" zoomable="yes"}
 
 ### 라인 항목 업데이트 적용
 
-에서 라인 항목 변경 사항 적용 _[!UICONTROL Items Quoted]_필요한 경우 섹션으로 이동합니다.
+필요한 경우 _[!UICONTROL Items Quoted]_섹션에서 라인 항목 변경 내용을 적용합니다.
 
 ![라인 항목 업데이트 적용](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
-- 변경 **[!UICONTROL Quantity]** 제안된 가격으로 구매해야 합니다.
+- 제안된 가격으로 구매해야 하는 **[!UICONTROL Quantity]**&#x200B;을(를) 변경합니다.
 
-- 선택 **[!UICONTROL Configure]** 및 제품 옵션을 변경합니다.
+- **[!UICONTROL Configure]**&#x200B;을(를) 선택하고 제품 옵션을 변경합니다.
 
-  다음 [!UICONTROL Configure] 옵션은 구성 가능한 제품의 라인 항목에서만 사용할 수 있습니다.
+  [!UICONTROL Configure] 옵션은 구성 가능한 제품의 라인 항목에서만 사용할 수 있습니다.
 
-- 다음에서 **[!UICONTROL Action]** 메뉴에서 항목을 업데이트할 작업을 선택합니다.
-   - **할인 품목** 할인율을 퍼센트, 고정 금액 또는 기본 가격책정으로 적용합니다.
-선택적으로 추가 할인을 방지하기 위해 할인 금액을 잠글 수 있습니다. 할인이 잠기지 않으면 라인 품목 할인과 견적 레벨 할인이 모두 제품 가격에 적용됩니다.
-   - **구매자에게 메모 남기기** 품목에 대한 추가 정보를 구매자에게 제공하다
-   - **제거** 견적에서 품목을 제거합니다.
+- **[!UICONTROL Action]** 메뉴에서 항목을 업데이트할 동작을 선택하십시오.
+   - **할인 항목**(백분율, 고정 금액 또는 기본 가격)로 할인을 적용합니다.
+선택적으로 추가 할인을 방지하기 위해 할인 금액을 잠글 수 있습니다. 할인이 잠겨있지 않으면,
+라인 품목 할인과 견적 레벨 할인은 모두 제품 가격에 적용됩니다.
+   - **구매자에게 메모를 남기기** 구매자에게 항목에 대한 추가 정보를 제공하기 위해
+   - 견적에 있는 항목을 제거하려면 **제거**&#x200B;하십시오.
 
 ### 변경 사항 적용 및 업데이트
 
-- 변경 사항을 적용하려면 **[!UICONTROL Add to Quote]**.
+- 변경 내용을 적용하려면 **[!UICONTROL Add to Quote]**&#x200B;을(를) 클릭합니다.
 
-- 견적을 갱신하려면 **[!UICONTROL Recalculate the Quote]**.
+- 견적을 업데이트하려면 **[!UICONTROL Recalculate the Quote]**&#x200B;을(를) 클릭합니다.
 
-- 변경 사항을 적용하고 견적을 공유 카탈로그 및 가격 규칙에 갱신하려면 **[!UICONTROL Update Prices]** 그런 다음 을 클릭합니다. **[!UICONTROL Proceed]** 업데이트를 확인합니다.
+- 변경 사항을 적용하고 견적을 공유 카탈로그 및 가격 규칙에 업데이트하려면 **[!UICONTROL Update Prices]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Proceed]**&#x200B;을(를) 클릭하여 업데이트를 확인합니다.
 
-  ![인용된 항목](./assets/quote-detail-items-quoted.png){width="600" zoomable="yes"}
+  ![개 항목 견적](./assets/quote-detail-items-quoted.png){width="600" zoomable="yes"}
 
 ### 배송 정보 업데이트
 
-1. 구매자가 다음을 포함하는 경우 _배송처_ quote 의 주소에서 다음 클릭: **[!UICONTROL Get shipping methods and rates]**.
+1. 구매자가 견적에 _배송처_ 주소를 포함하는 경우 **[!UICONTROL Get shipping methods and rates]**&#x200B;을(를) 클릭합니다.
 
 1. 사용 가능한 옵션에서 배송 방법을 선택합니다.
 
-1. 입력 **[!UICONTROL Proposed Shipping Price]**.
+1. **[!UICONTROL Proposed Shipping Price]** 입력.
 
-   다음 _[!UICONTROL Quote Totals]_제안된 배송 가격을 반영하도록 업데이트되었습니다.
+   제안된 배송 가격을 반영하도록 _[!UICONTROL Quote Totals]_이(가) 업데이트됩니다.
 
 ### 지원 문서 첨부
 
-1. 아래 _댓글 추가_ 상자, 클릭 **[!UICONTROL Attach file]**.
+1. _댓글 추가_ 상자에서 **[!UICONTROL Attach file]**&#x200B;을(를) 클릭합니다.
 
-   기본적으로, [첨부 파일](../configuration-reference/sales/quotes.md) DOC, DOCX, XLS, XLSX, PDF, TXT, JPG 또는 JPEG, PNG 파일 형식에서 최대 2MB까지 가능합니다.
+   기본적으로 [첨부된 파일](../configuration-reference/sales/quotes.md)은(는) DOC, DOCX, XLS, XLSX, PDF, TXT, JPG 또는 JPEG, PNG 파일 형식 중 최대 2MB일 수 있습니다.
 
 1. 디렉토리에서 파일을 선택합니다.
 
 ## 3단계: 견적 수준 정보 업데이트 및 회신 보내기
 
-1. 다음에서 _[!UICONTROL Negotiation]_다음에 대한 섹션_[!UICONTROL Comments]_ 탭에서 회신을 입력합니다. **[!UICONTROL Add your comment]** 섹션.
+1. _[!UICONTROL Comments]_탭의_[!UICONTROL Negotiation]_ 섹션에서 **[!UICONTROL Add your comment]** 섹션에 회신을 입력합니다.
 
-1. 지원 문서를 포함하려면 **[!UICONTROL Attach file]** 디렉토리에서 파일을 선택합니다.
+1. 지원 문서를 포함하려면 **[!UICONTROL Attach file]**&#x200B;을(를) 클릭하고 디렉터리에서 파일을 선택하십시오.
 
    첨부 파일에 허용되는 최대 파일 크기는 2MB입니다.
 
 1. 견적에 대해 전체적으로 할인을 적용하려면
 
-   - 아래 _[!UICONTROL Quote Totals]_다음에서_[!UICONTROL Negotiated Price]_ 섹션에서 다음 할인 유형 중 하나를 선택합니다.
+   - _[!UICONTROL Negotiated Price]_섹션의_[!UICONTROL Quote Totals]_&#x200B;에서 다음 할인 유형 중 하나를 선택하십시오.
 
       - `Percentage Discount`
       - `Amount Discount`
@@ -127,13 +128,13 @@ If [B2B 견적 사용](configure-quotes.md) 구성에서 가격 협상은 회사
 
    - 퍼센트 또는 고정 가격으로 금액을 입력합니다.
 
-     ![협상 주석](./assets/quote-detail-negotiation-comments.png){width="600" zoomable="yes"}
+     ![협상 의견](./assets/quote-detail-negotiation-comments.png){width="600" zoomable="yes"}
 
 1. 견적을 보내거나 저장합니다.
 
-   - 견적을 구매자에게 다시 보낼 준비가 되면 **[!UICONTROL Send]**.
+   - 견적을 구매자에게 다시 보낼 준비가 되면 **[!UICONTROL Send]**&#x200B;을(를) 클릭합니다.
 
-   - 견적을 나중에 계속 작업하려면 다음을 클릭하십시오. **[!UICONTROL Save as Draft]**.
+   - 나중에 견적을 계속 작업하려면 **[!UICONTROL Save as Draft]**&#x200B;을(를) 클릭합니다.
 
 ## 4단계: 견적 후속 작업
 
@@ -149,9 +150,9 @@ If [B2B 견적 사용](configure-quotes.md) 구성에서 가격 협상은 회사
 
 | 단추 | 설명 |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | 로 돌아갑니다. _[!UICONTROL Quotes]_변경 사항을 저장하지 않은 페이지입니다. |
+| [!UICONTROL Back] | 변경 내용을 저장하지 않고 _[!UICONTROL Quotes]_페이지로 돌아갑니다. |
 | [!UICONTROL Print] | 견적을 프린터로 보내거나 PDF 파일로 저장합니다. |
-| [!UICONTROL Create Copy] | [!BADGE 1.5.0 베타 기능]{type=Informative url="/help/b2b/release-notes.md" tooltip="Beta 프로그램 참가자만 사용 가능"}`(copy)` 원래 이름에 추가됩니다. 새 견적을 편집하여 이름을 변경합니다. [!UICONTROL Name] 필드. 새 견적을 초안으로 저장하거나 고객에게 전송하여 처리합니다. |
+| [!UICONTROL Create Copy] | [!BADGE 1.5.0 베타 기능]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Beta 프로그램 참가자만 사용할 수 있습니다&quot;} 원래 이름에 `(copy)`이(가) 추가된 현재 견적의 복사본을 만들고 엽니다. [!UICONTROL Name] 필드를 편집하여 새 견적의 이름을 바꾸십시오. 새 견적을 초안으로 저장하거나 고객에게 전송하여 처리합니다. |
 | [!UICONTROL Save as Draft] | 견적에 대한 변경 사항을 저장하되 구매자에게 다시 보내지 않습니다. |
 | [!UICONTROL Decline] | 가격 협상 요청은 초기 문의 시 또는 진행 중인 협상 중에 거부됩니다. 견적이 거절되었을 때, 판매자는 결정을 설명하기 위해 주석을 추가해야 한다. 견적이 거부되면 모든 협상된 가격이 원래 값으로 재설정됩니다. 판매자가 구매자의 답변을 기다리는 동안에는 이 버튼이 비활성화됩니다. |
 | [!UICONTROL Send] | 구매자의 문의에 대한 회신으로 업데이트된 견적을 보냅니다. 판매자가 구매자의 회신을 기다리는 경우 이 버튼이 비활성화됩니다. |
@@ -166,15 +167,15 @@ If [B2B 견적 사용](configure-quotes.md) 구성에서 가격 협상은 회사
 
 | 필드 | 설명 |
 |-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Name] | 견적 요청에 할당한 이름 [구매자](account-company-roles-permissions.md). |
-| [!UICONTROL Status] | 견적의 현재 상태를 나타냅니다. 견적의 상태는 구매자 또는 판매자 측의 조치에 의해서만 변경될 수 있습니다. 다음 항목도 참조하십시오. [상태 설정](quotes.md) 관리자 및 [구매자 계정](account-dashboard-my-quotes.md). |
+| [!UICONTROL Name] | [구매자](account-company-roles-permissions.md)가 견적 요청에 할당한 이름. |
+| [!UICONTROL Status] | 견적의 현재 상태를 나타냅니다. 견적의 상태는 구매자 또는 판매자 측의 조치에 의해서만 변경될 수 있습니다. 관리자와 [구매자 계정](account-dashboard-my-quotes.md)에서 [상태 설정](quotes.md)도 확인하세요. |
 | [!UICONTROL Created] | 구매자가 견적에 대한 요청을 처음 제출한 날짜와 시간. |
 | [!UICONTROL Created By] | 견적에 대한 요청을 제출한 회사 구매자의 이름과 성. |
-| [!UICONTROL Expiration Date] | 현재 견적이 유효한 마지막 날을 나타냅니다. 기본 만료 일자는 구매자가 견적에 대한 요청을 제출한 후 30일로 구성에서 설정됩니다. <br/><br/>판매자는 다른 날짜( MMM DD YYYY )를 입력하거나 달력에서 날짜를 선택하여 기본 만료 날짜를 대체할 수 있습니다. 필드를 비워 두면 견적이 만료되지 않습니다. <br/><br/>공개 견적의 경우 판매자는 [이메일 알림](../systems/email-templates.md) 견적 만료까지 48시간 소요 구매자는 만료일 24시간 전에 알림을 받습니다. <br/><br/>견적의 상태가 다음으로 변경됨: _만료됨_ 그리고 구매자는 견적을 더 이상 변경할 수 없습니다. 견적에서 제안된 가격은 카탈로그의 원래 값으로 되돌아갑니다. <br/><br/>견적이 만료되도록 설정되어 있을 때 판매자가 검토하기 위해 견적이 열려 있는 경우 구성에 설정된 범위에 따라 만료 날짜가 재설정됩니다. <br/><br/>만료일은 _견적 및 계정_ 검토 프로세스 중에 편집할 수 있는 섹션입니다. |
-| [!UICONTROL Company] | 의 법적 이름 [회사](account-companies.md) 구매자가 나타내는 값. |
-| [!UICONTROL Company Admin Email] | 의 이메일 주소 [회사 관리자](account-company-admin.md). |
-| [!UICONTROL Sales Rep] | 다음 [영업 담당자](account-company-manage.md) 판매자에서 일하는 사람은 회사 계정에 할당된 기본 연락처입니다. |
-| [!UICONTROL Shared Catalog (or Customer Group)] | 다음 [공유된 카탈로그](catalog-shared.md) 또는 [고객 그룹](account-company-customer-group.md) 회사가 지정되는 대상. 견적에는 회사에 할당된 공유 카탈로그의 사용자 지정 가격이 포함될 수 있습니다. |
+| [!UICONTROL Expiration Date] | 현재 견적이 유효한 마지막 날을 나타냅니다. 기본 만료 일자는 구매자가 견적에 대한 요청을 제출한 후 30일로 구성에서 설정됩니다. <br/><br/>판매자가 다른 날짜(MMM DD YYYY )를 입력하거나 달력에서 날짜를 선택하여 기본 만료 날짜를 재정의할 수 있습니다. 필드를 비워 두면 견적이 만료되지 않습니다. <br/><br/>공개 견적의 경우 판매자는 견적이 만료되도록 예약되기 48시간 전에 [이메일 알림](../systems/email-templates.md)을 받습니다. 구매자는 만료일 24시간 전에 알림을 받습니다. <br/><br/>견적의 상태가 _만료됨_(으)로 변경되며 구매자는 견적을 더 이상 변경할 수 없습니다. 견적에서 제안된 가격은 카탈로그의 원래 값으로 되돌아갑니다. <br/><br/>견적이 만료되도록 설정되어 있을 때 판매자가 검토할 수 있도록 견적이 열려 있으면 구성에 설정된 범위에 따라 만료 날짜가 재설정됩니다. <br/><br/>만료 날짜는 _견적 및 계정_ 섹션에서 검토 프로세스 중에 편집할 수 있는 유일한 필드입니다. |
+| [!UICONTROL Company] | 구매자가 나타내는 [회사](account-companies.md)의 법적 이름. |
+| [!UICONTROL Company Admin Email] | [회사 관리자](account-company-admin.md)의 전자 메일 주소입니다. |
+| [!UICONTROL Sales Rep] | 판매자에서 근무하며 회사 계정에 할당된 기본 연락처인 [영업 담당자](account-company-manage.md). |
+| [!UICONTROL Shared Catalog (or Customer Group)] | 회사가 할당된 [공유 카탈로그](catalog-shared.md) 또는 [고객 그룹](account-company-customer-group.md). 견적에는 회사에 할당된 공유 카탈로그의 사용자 지정 가격이 포함될 수 있습니다. |
 
 {style="table-layout:auto"}
 
@@ -214,7 +215,7 @@ If [B2B 견적 사용](configure-quotes.md) 구성에서 가격 협상은 회사
 | 필드 | 설명 |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Shipping Address] | 구매자 계정에 지정된 배송 주소를 표시합니다. 구매자가 요청을 실행하기 전에 주소를 지정하지 않은 경우 배송 주소는 비어 있습니다. |
-| [!UICONTROL Shipping Method & Price] | 구매자가 다음을 포함하는 경우 운송 방법 및 단가 가져오기 링크가 나타납니다. _배송처_ 견적의 주소. |
+| [!UICONTROL Shipping Method & Price] | 구매자가 견적에 _배송처_ 주소를 포함하는 경우 배송 방법 및 요금 가져오기 링크가 나타납니다. |
 
 {style="table-layout:auto"}
 
@@ -222,7 +223,7 @@ If [B2B 견적 사용](configure-quotes.md) 구성에서 가격 협상은 회사
 
 | 필드 | 설명 |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Comments] | 협상 섹션의 주석 탭은 구매자에게 견적에 대한 메시지를 입력하는 데 사용됩니다. <br/>**[!UICONTROL Add your comment]**- 주석은 협상 프로세스 중에 구매자와 소통하는 데 사용됩니다. Quote에서 제공되는 할인 또는 Quote Request 가 거부되는 이유를 설명하려면 Comments 를 사용합니다.<br/>**[!UICONTROL Attach file]** - 의 최대 파일 크기 및 지원되는 파일 유형 [첨부 파일](configure-quotes.md) 구성에 의해 결정됩니다. 기본적으로 첨부된 파일은 최대 2MB이며 DOC, DOCX, XLS, XLSX, PDF, TXT, JPG 또는 JPEG, PNG 파일 형식 중 하나가 될 수 있습니다. |
+| [!UICONTROL Comments] | 협상 섹션의 주석 탭은 구매자에게 견적에 대한 메시지를 입력하는 데 사용됩니다. <br/>**[!UICONTROL Add your comment]**- 댓글은 협상 프로세스 중에 구매자와 통신하는 데 사용됩니다. Quote에서 제공되는 할인 또는 Quote Request 가 거부되는 이유를 설명하려면 Comments 를 사용합니다.<br/>**[!UICONTROL Attach file]** - [첨부 파일](configure-quotes.md)에 대한 최대 파일 크기 및 지원되는 파일 형식은 구성에 따라 결정됩니다. 기본적으로 첨부된 파일은 최대 2MB이며 DOC, DOCX, XLS, XLSX, PDF, TXT, JPG 또는 JPEG, PNG 파일 형식 중 하나가 될 수 있습니다. |
 | [!UICONTROL History Log] | 이 탭에는 날짜, 견적 상태 및 의견이 포함된 견적의 전체 내역이 표시됩니다. |
 
 {style="table-layout:auto"}
@@ -232,11 +233,11 @@ If [B2B 견적 사용](configure-quotes.md) 구성에서 가격 협상은 회사
 | 필드 | 설명 |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Total Cost] | 견적에 포함된 품목의 판매자에 대한 총 비용. |
-| [!UICONTROL Catalog Total Price  (Incl./Excl. Tax)] | 견적의 기준으로 사용되는 공유된 카탈로그 또는 기본 카탈로그의 가격에 따른 견적에 포함된 품목의 총 가격(세금 미포함). 섹션을 확장하여 다음에 따라 계산에 사용되는 값을 표시합니다. [소계 표시](../configuration-reference/sales/tax.md) 를 설정하는 중입니다. 옵션: <br/>**[!UICONTROL Subtotal (Excl. Tax)]**- 예상 세금이 없는 카탈로그 총 가격.<br/>**[!UICONTROL Subtotal (Incl. Tax)]** - 예상 세금이 없는 카탈로그 총 가격. <br/>**[!UICONTROL Estimated Tax]**- 카탈로그 총 가격에 적용될 것으로 예상되는 세액 |
-| 협상 가격 | 구매자에게 제공되는 할인은 다음 중 하나를 기준으로 할 수 있습니다. <br/>**[!UICONTROL Percentage Discount]**- 할인율<br/>**[!UICONTROL Amount Discount]** - 고정 금액으로서의 할인. <br/>**[!UICONTROL Proposed Price]**- 판매자가 제시한 가격.<p>견적의 모든 품목에 잠긴 품목 할인이 있는 경우 [!UICONTROL Negotiated Price] 추가 할인을 적용할 수 없으므로 섹션을 사용할 수 없습니다.</p><p>제품에 잠기지 않은 라인 품목 할인이 있는 경우 라인 품목 할인과 견적 레벨 할인이 모두 제품 가격에 적용됩니다.</p> |
-| [!UICONTROL Quote Subtotal (Incl./Excl. Tax)] | 견적에 포함된 각 라인 품목의 총 제안 가격(세금에 따라) [세금 계산](../configuration-reference/sales/tax.md) 구성 내 설정. |
+| [!UICONTROL Catalog Total Price  (Incl./Excl. Tax)] | 견적의 기준으로 사용되는 공유된 카탈로그 또는 기본 카탈로그의 가격에 따른 견적에 포함된 품목의 총 가격(세금 미포함). 구성의 [하위 합계 표시](../configuration-reference/sales/tax.md) 설정에 따라 계산에 사용된 값을 표시하려면 섹션을 확장합니다. 옵션: <br/>**[!UICONTROL Subtotal (Excl. Tax)]**- 예상 세금을 제외한 카탈로그 총 가격.<br/>**[!UICONTROL Subtotal (Incl. Tax)]** - 예상 세금이 없는 카탈로그 총 가격. <br/>**[!UICONTROL Estimated Tax]**- 카탈로그 총 가격에 적용될 것으로 예상되는 세액. |
+| 협상 가격 | 구매자에게 제공되는 할인은 다음 중 하나를 기반으로 할 수 있습니다. <br/>**[!UICONTROL Percentage Discount]**- 할인율(백분율).<br/>**[!UICONTROL Amount Discount]** - 고정 금액으로서의 할인. <br/>**[!UICONTROL Proposed Price]**- 판매자가 제안한 가격.<p>견적의 모든 항목에 잠긴 항목 할인이 있는 경우 추가 할인을 적용할 수 없으므로 [!UICONTROL Negotiated Price] 섹션이 비활성화됩니다.</p><p>제품에 잠기지 않은 라인 품목 할인이 있는 경우 라인 품목 할인과 견적 레벨 할인이 모두 제품 가격에 적용됩니다.</p> |
+| [!UICONTROL Quote Subtotal (Incl./Excl. Tax)] | 구성의 [세금 계산](../configuration-reference/sales/tax.md) 설정에 따라 세금이 부과되거나 부과되지 않은 견적의 각 라인 항목에 대한 총 제안 가격. |
 | [!UICONTROL Shipping & Handling] | 견적의 운송 정보 섹션에 있는 제안된 운송 가격 필드에 판매자가 입력한 금액. 해당 필드가 비어 있는 경우 금액은 선택한 배송 방법을 기반으로 합니다. |
-| [!UICONTROL Estimated Tax] | 구성에 지정된 대로 납부할 것으로 예상되는 세액 [디스플레이 설정](../configuration-reference/sales/tax.md). |
+| [!UICONTROL Estimated Tax] | [디스플레이 설정](../configuration-reference/sales/tax.md) 구성에 지정된 대로 납부해야 할 것으로 예상되는 세액입니다. |
 | [!UICONTROL Quote Grand Total (Incl. Tax)] | 견적 하단에 협상 가격, 예상 세금 및 제안된 배송 및 처리가 포함된 최종 합계입니다. |
 
 {style="table-layout:auto"}

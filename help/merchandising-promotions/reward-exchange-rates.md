@@ -5,7 +5,7 @@ exl-id: 4850d853-fb86-4f64-bfee-47915ea028e2
 feature: Rewards, Promotions/Events, Customers
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -32,47 +32,47 @@ ht-degree: 0%
 
 ![보상 환율](./assets/reward-exchange-rates.png){width="700" zoomable="yes"}
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**(으)로 이동합니다.
 
-1. 오른쪽 위 모서리에서 을(를) 클릭합니다. **[!UICONTROL Add New Rate]**.
+1. 오른쪽 상단에서 **[!UICONTROL Add New Rate]**&#x200B;을(를) 클릭합니다.
 
-1. 다음에서 **[!UICONTROL Reward Exchange Rate Information]** 섹션에서 다음을 수행합니다.
+1. **[!UICONTROL Reward Exchange Rate Information]** 섹션에서 다음을 수행합니다.
 
    ![보상 환율 - 정보](./assets/reward-exchange-rate-new.png){width="600" zoomable="yes"}
 
-   - 설정 **[!UICONTROL Website]** 보상 환율이 적용되는 사이트에 적용됩니다.
+   - 보상 환율이 적용되는 사이트로 **[!UICONTROL Website]**&#x200B;을(를) 설정합니다.
 
-   - 설정 **[!UICONTROL Customer Group]** 보상 환율이 적용되는 그룹에 적용됩니다.
+   - 보상 환율이 적용되는 그룹에 **[!UICONTROL Customer Group]**&#x200B;을(를) 설정합니다.
 
-   - 설정 **[!UICONTROL Direction]** 다음 중 하나를 수행합니다.
+   - **[!UICONTROL Direction]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
       - `Points to Currency`
       - `Currency to Points`
 
    어느 방향 설정이든 금액은 웹 사이트의 기본 통화로 표시됩니다.
 
-1. 다음을 입력합니다. **[!UICONTROL Rate]** 에 따른 값 _[!UICONTROL Direction]_설정.
+1. _[!UICONTROL Direction]_설정에 따라&#x200B;**[!UICONTROL Rate]**값을 입력하십시오.
 
    | 방향 | 비율 설정 |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | 첫 번째 _[!UICONTROL Rate]_필드에 포인트 수를 입력합니다. 초_[!UICONTROL Rate]_ 필드에 포인트의 통화 값을 입력합니다. |
-   | [!UICONTROL Currency to Points] | 첫 번째  _[!UICONTROL Rate]_필드에 통화 값을 입력합니다. 초_[!UICONTROL Rate]_ 필드에 통화 값으로 표현되는 포인트 수를 입력합니다. |
+   | [!UICONTROL Points to Currency] | 첫 번째 _[!UICONTROL Rate]_필드에 포인트 수를 입력합니다. 두 번째_[!UICONTROL Rate]_ 필드에 포인트의 통화 값을 입력합니다. |
+   | [!UICONTROL Currency to Points] | 첫 _[!UICONTROL Rate]_필드에 통화 값을 입력합니다. 두 번째_[!UICONTROL Rate]_ 필드에 통화 값으로 표현되는 포인트 수를 입력합니다. |
 
    포인트를 통화로 변환할 때 포인트 수를 나눌 수 없습니다. 예를 들어 10포인트가 $2.00로 변환되면 10씩 그룹으로 나누어 포인트를 상환해야 합니다. 따라서 25포인트는 4.00달러에 상환되며 고객의 잔액에는 5포인트가 남아 있습니다.
 
-   두 가지 모두에 대해 변환을 설정하는 것이 좋습니다 `Points to Currency` 및 `Currency to Points`.
+   `Points to Currency`과(와) `Currency to Points` 모두에 대해 변환을 설정하는 것이 좋습니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]**.
+1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 보상 환율 삭제
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Reward Exchange Rates]**(으)로 이동합니다.
 
 1. 삭제할 보상 환율을 찾아 편집 모드로 엽니다.
 
-1. 메뉴 모음에서 를 클릭합니다. **[!UICONTROL Delete]**.
+1. 메뉴 모음에서 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
-1. 작업을 확인하려면 다음을 클릭합니다. **[!UICONTROL OK]**.
+1. 작업을 확인하려면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
 ## 필드 설명
 
@@ -80,4 +80,4 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Website] | 보상 비율이 적용되는 웹 사이트입니다. |
 | [!UICONTROL Customer Group] | 보상 비율이 적용되는 고객 그룹입니다. |
-| [!UICONTROL Direction] | 환율이 정의하는 거래 유형을 결정합니다. 옵션: <br/>**[!UICONTROL Points to Currency]**- 주문 금액에 대한 크레딧으로 적용할 수 있는 포인트 수를 정의합니다. 첫 번째 _[!UICONTROL Rate]_필드에 포인트 수를 입력합니다. 초_[!UICONTROL Rate]_ 필드에 포인트의 통화 값을 입력합니다.<br/>**[!UICONTROL Currency to Points]** - 고객 점수를 획득할 수 있는 주문 금액을 정의합니다. 첫 번째  _[!UICONTROL Rate]_필드에 통화 값을 입력합니다. 초_[!UICONTROL Rate]_ 필드에 통화 값으로 표현되는 포인트 수를 입력합니다. |
+| [!UICONTROL Direction] | 환율이 정의하는 거래 유형을 결정합니다. 옵션: <br/>**[!UICONTROL Points to Currency]**- 주문 금액에 대한 크레딧으로 적용할 수 있는 포인트 수를 정의합니다. 첫 번째 _[!UICONTROL Rate]_필드에 포인트 수를 입력합니다. 두 번째_[!UICONTROL Rate]_ 필드에 포인트의 통화 값을 입력합니다.<br/>**[!UICONTROL Currency to Points]** - 고객 점수를 획득할 수 있는 주문 양을 정의합니다. 첫 _[!UICONTROL Rate]_필드에 통화 값을 입력합니다. 두 번째_[!UICONTROL Rate]_ 필드에 통화 값으로 표현되는 포인트 수를 입력합니다. |

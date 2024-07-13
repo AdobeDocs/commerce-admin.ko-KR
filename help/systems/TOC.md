@@ -35,14 +35,14 @@ ht-degree: 2%
 - 데이터 전송 {#data-transfer}
    - [개요](data-transfer.md)
    - [CSV 파일](data-csv.md)
-   - 가져오기 {#import}
+   - {#import} 가져오기
       - [가져오기 프로세스](data-import.md)
       - [제품 이미지](data-import-product-images.md)
    - [내보내기](data-export.md)
    - [제품 데이터 속성 참조](data-attributes-product.md)
    - [고객 데이터 속성 참조](data-attributes-customer.md)
    - [세율 데이터 업데이트](data-transfer-tax-rates.md)
-   - 예 {#examples}
+   - 예제 {#examples}
       - [번들 제품 가져오기](data-transfer-bundle-products.md)
       - [구성 가능한 제품 가져오기](data-transfer-configurable-products.md)
       - [다운로드 가능한 제품 가져오기](data-transfer-downloadable-products.md)

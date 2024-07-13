@@ -16,23 +16,23 @@ ht-degree: 0%
 
 저장소 신용 구성은 자동 환불, 고객 계정의 사용 가능한 신용 표시 및 고객에게 발송되는 통지에 사용되는 이메일 템플릿을 제어합니다.
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널에서 를 확장합니다. **[!UICONTROL Customers]** 및 선택 **[!UICONTROL Customer Configuration]**.
+1. 왼쪽 패널에서 **[!UICONTROL Customers]**&#x200B;을(를) 확장하고 **[!UICONTROL Customer Configuration]**&#x200B;을(를) 선택합니다.
 
-1. 확장 **[!UICONTROL Store Credit Options]** 섹션.
+1. **[!UICONTROL Store Credit Options]** 섹션을 확장합니다.
 
-   ![저장소 크레딧 옵션](../configuration-reference/customers/assets/customer-configuration-store-credit-options.png){width="600" zoomable="yes"}
+   ![크레딧 옵션 저장](../configuration-reference/customers/assets/customer-configuration-store-credit-options.png){width="600" zoomable="yes"}
 
-1. 설정 **[!UICONTROL Enable Store Credit Functionality]** 끝 `Yes`.
+1. **[!UICONTROL Enable Store Credit Functionality]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
 1. 기본 설정에 따라 다음을 설정하십시오.
 
    * **[!UICONTROL Show Store Credit History to Customers]**
    * **[!UICONTROL Refund Store Credit Automatically]**
 
-1. 설정 **[!UICONTROL Store Credit Update Email Sender]** 고객에게 전송된 이메일 알림의 발신자로 표시되는 스토어 id입니다.
+1. 고객에게 보낸 전자 메일 알림의 보낸 사람으로 표시되는 스토어 ID로 **[!UICONTROL Store Credit Update Email Sender]**&#x200B;을(를) 설정합니다.
 
-1. 설정 **[!UICONTROL Store Credit Update Email Template]** (고객에게 전송된 이메일 알림에 사용되는 템플릿)으로 복제됩니다.
+1. 고객에게 보낸 전자 메일 알림에 사용되는 템플릿으로 **[!UICONTROL Store Credit Update Email Template]**&#x200B;을(를) 설정합니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.

@@ -5,8 +5,8 @@ exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 2%
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 2%
 
 제품 가용성 및 구성 설정에 따라 카테고리 및 검색 결과 목록에 대해 다음과 같은 표시 옵션을 사용할 수 있습니다.
 
-![범주 페이지의 품절 메시지](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
+범주 페이지의 ![재고 부족 메시지](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
 
 ### 예제 1: &quot;재고 부족&quot; 메시지가 있는 제품 표시
 

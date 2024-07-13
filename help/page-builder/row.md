@@ -1,24 +1,24 @@
 ---
 title: 레이아웃 - 행
-description: 에서 행을 추가하는 데 사용되는 행 콘텐츠 유형에 대해 알아봅니다. [!DNL Page Builder] 스테이지.
+description: ' [!DNL Page Builder] 스테이지에서 행을 추가하는 데 사용되는 Row 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
 source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
 
 # 레이아웃 - 행
 
-사용 _행_ 에 행을 추가할 콘텐츠 유형 [[!DNL Page Builder] 단계](workspace.md#stage).
+_Row_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.md#stage)에 행을 추가하십시오.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## 행 도구 상자
 
-행 컨테이너를 마우스로 가리키면 행 도구 상자가 나타납니다. 도구 상자에는 행 이동, 숨기기, 복제, 편집 또는 제거 옵션이 포함되어 있습니다. 설정을 선택하면 행의 모양, 배경 및 레이아웃이 결정됩니다. 추가 콘텐츠 요소를 다음에서 행으로 끌 수 있습니다. [!DNL Page Builder] 왼쪽 패널입니다.
+행 컨테이너를 마우스로 가리키면 행 도구 상자가 나타납니다. 도구 상자에는 행 이동, 숨기기, 복제, 편집 또는 제거 옵션이 포함되어 있습니다. 설정을 선택하면 행의 모양, 배경 및 레이아웃이 결정됩니다. 추가 콘텐츠 요소를 왼쪽의 [!DNL Page Builder] 패널에서 행으로 끌 수 있습니다.
 
 ![행 도구 상자](./assets/pb-layout-page-add-content-row-tools.png){width="600" zoomable="yes"}
 
@@ -38,9 +38,9 @@ ht-degree: 0%
 
 ## 행 추가
 
-1. 다음에서 [!DNL Page Builder] 패널 아래 _[!UICONTROL Layout]_, 새 항목 드래그&#x200B;**[!UICONTROL Row]**첫 번째 줄 바로 아래에 있는 무대로.
+1. _[!UICONTROL Layout]_아래의 [!DNL Page Builder] 패널에서 새&#x200B;**[!UICONTROL Row]**을(를) 첫 번째 행 바로 아래에 있는 단계로 드래그합니다.
 
-1. 행의 서식을 지정하려면 행 컨테이너 위로 마우스를 가져가면 도구 상자가 표시되고 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘.
+1. 행의 서식을 지정하려면 행 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _설정_(![설정 아이콘](./assets/pb-icon-settings.png){width="20"}) 아이콘을 선택합니다.
 
    사용 가능한 설정 완료에 대한 자세한 내용을 보려면 다음 섹션을 사용하십시오.
 
@@ -48,17 +48,17 @@ ht-degree: 0%
 
 ## 행 설정 변경
 
-1. 행 컨테이너 위로 마우스를 가져가면 도구 상자가 표시되고 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘.
+1. 행 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
    ![행 도구 상자](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
 
 1. 사용 가능한 설정 업데이트에 대한 자세한 내용을 보려면 다음 섹션을 사용하십시오.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]** 설정을 적용하고 로 돌아가려면 [!DNL Page Builder] 작업 영역.
+1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
 ## 모양
 
-사용 _모양_ 콘텐츠가 행에 표시되는 방식을 결정하는 설정입니다.
+_모양_ 설정을 사용하여 콘텐츠가 행에 표시되는 방식을 결정합니다.
 
 ![모양 설정](./assets/pb-row-layout.png){width="600" zoomable="yes"}
 
@@ -68,15 +68,15 @@ ht-degree: 0%
   | ------ | ----------- |
   | [!UICONTROL Contained] | 배경색 또는 이미지는 테마로 정의된 최대 페이지 너비로 제한됩니다. |
   | [!UICONTROL Full Width] | 테마에 의해 정의된 최대 페이지 너비로 콘텐츠를 제한합니다. 배경색 및/또는 이미지는 제한되지 않으며, 행의 전체 폭을 확장합니다. |
-  | [!UICONTROL Full Bleed] | 컨텐츠 및 배경 이미지 및/또는 색상은 제한되지 않으며 행의 전체 폭을 확장합니다. 전체 도련은 [테마](../content-design/themes.md) 레이아웃을 지원합니다. |
+  | [!UICONTROL Full Bleed] | 컨텐츠 및 배경 이미지 및/또는 색상은 제한되지 않으며 행의 전체 폭을 확장합니다. 전체 도련은 레이아웃을 지원하는 [테마](../content-design/themes.md)에서만 사용할 수 있습니다. |
 
   {style="table-layout:auto"}
 
-- 다음을 입력합니다. **[!UICONTROL Minimum Height]** 행을 위해. 이 값은 유효한 CSS 단위가 있는 숫자일 수 있습니다(예: `100px`, `50%`, `50em`, `100vh`) 또는 계산(예: `100vh - 237px`).
+- 행의 **[!UICONTROL Minimum Height]**&#x200B;을(를) 입력하십시오. 이 값은 유효한 CSS 단위(예: `100px`, `50%`, `50em`, `100vh`) 또는 계산(예: `100vh - 237px`)이 있는 숫자일 수 있습니다.
 
   예를 들어 페이지의 전체 높이를 늘리기 위해 행의 최소 높이를 설정할 수 있으므로 전체 페이지 배경 이미지 및 비디오에 대한 매력적인 옵션을 제공합니다.
 
-- 선택 **[!UICONTROL Vertical Alignment]** 을 설정하여 행에 추가된 모든 콘텐츠 컨테이너(위쪽, 가운데 또는 아래쪽)를 정렬합니다.
+- **[!UICONTROL Vertical Alignment]** 설정을 선택하여 행에 추가된 모든 콘텐츠 컨테이너(위쪽, 가운데 또는 아래쪽)를 정렬합니다.
 
 ## 배경
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 
 다음 세 가지 방법 중 하나로 값을 설정할 수 있습니다.
 
-- 사전 정의된 색상 이름(예: `White`
-- 색상에 대한 16진수 색상 값, 예: `#ffffff`
-- 색상의 rgba 값(예: 불투명도 백분율 포함) `rgba(255, 255, 255, 0.75)`
+- 미리 정의된 색상 이름(예: `White`)
+- 색상에 대한 16진수 색상 값(예: `#ffffff`)
+- 불투명도 비율이 있는 색상의 rgba 값(예: `rgba(255, 255, 255, 0.75)`)
 
-색상을 선택하려면 왼쪽 색상 견본을 클릭합니다. _색상 없음_ 상자.
+색상을 선택하려면 _색상 없음_ 상자의 왼쪽에 있는 견본을 클릭합니다.
 
 ![색상 견본 선택](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
@@ -104,21 +104,21 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Page Builder] 또는에서 투명도 레이어를 지원합니다. _알파 채널_&#x200B;다양한 불투명도를 갖는 배경을 만드는 데 사용할 수 있는 배경 이미지에서 입니다.
+>[!DNL Page Builder]은(는) 불투명도가 다양한 배경을 만드는 데 사용할 수 있는 배경 이미지에서 투명도 레이어 또는 _알파 채널_&#x200B;도 지원합니다.
 
 ### [!UICONTROL Background Type]
 
-배경 유형은 이미지 또는 비디오일 수 있습니다. [!DNL Page Builder] 기본값은 입니다. `Image` 및 에는 다양한 이미지 설정이 표시됩니다. 다음을 선택하는 경우 `Video`, [!DNL Page Builder] 이미지 설정을 비디오 설정으로 바꿉니다. 두 배경 유형은 다음과 같이 설명되어 있습니다.
+배경 유형은 이미지 또는 비디오일 수 있습니다. [!DNL Page Builder]은(는) 기본적으로 `Image`이고 다양한 이미지 설정을 표시합니다. `Video`을(를) 선택하면 [!DNL Page Builder]에서 이미지 설정을 비디오 설정으로 바꿉니다. 두 배경 유형은 다음과 같이 설명되어 있습니다.
 
-![배경 유형](./assets/pb-background-type.png){width="200"}
+![백그라운드 유형](./assets/pb-background-type.png){width="200"}
 
 ### 이미지 유형 설정
 
-다음을 설정하는 경우 _[!UICONTROL Background Type]_끝 `Image`배경 이미지 표시를 정의하려면 다음 설정을 사용합니다.
+_[!UICONTROL Background Type]_을(를) `Image`(으)로 설정하는 경우 다음 설정을 사용하여 배경 이미지 표시를 정의합니다.
 
 ![배경 이미지](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
-- **[!UICONTROL Background Image]** - 필요한 경우 제공된 도구를 사용하여 행에 적용할 배경 이미지를 선택합니다.
+- **[!UICONTROL Background Image]** - 필요한 경우 제공된 도구를 사용하여 행에 적용할 배경 이미지를 선택하십시오.
 
   | 옵션 | 설명 |
   | ------ | ----------- |
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 - **[!UICONTROL Background Mobile Image]** - 필요한 경우 동일한 도구를 사용하여 모바일 장치에서 표시하는 데 사용할 다른 배경 이미지를 선택하십시오.
 
-- **[!UICONTROL Background Size]** - 이 옵션을 설정하여 행의 너비를 기준으로 배경 이미지 크기 조절 방법을 결정합니다.
+- **[!UICONTROL Background Size]** - 이 옵션을 설정하여 행의 너비와 관련하여 배경 이미지의 크기 조절 방법을 결정합니다.
 
   | 옵션 | 설명 |
   | ------ | ----------- |
@@ -142,7 +142,7 @@ ht-degree: 0%
 
   ![배경 크기](./assets/pb-layout-row-settings-background-size-cover.png){width="250"}
 
-- **[!UICONTROL Background Position]** - 이 옵션을 설정하여 배경 이미지가 행을 기준으로 고정되는 방식을 결정합니다.
+- **[!UICONTROL Background Position]** - 이 옵션을 설정하여 배경 이미지가 행을 기준으로 고정되는 방법을 결정합니다.
 
   | 고정점 | 위치 |
   | ------ | ----------- |
@@ -154,7 +154,7 @@ ht-degree: 0%
 
   고정점은 지정된 배경 위치의 행에 이미지를 첨부하는 누름 핀과 같습니다.
 
-- **[!UICONTROL Background Attachment]** - 첨부 파일 유형을 설정하여 스크롤 페이지와 관련하여 배경 이미지가 이동하는 방식을 결정합니다.
+- **[!UICONTROL Background Attachment]** - 스크롤 페이지와 관련하여 배경 이미지가 어떻게 이동하는지 확인하려면 첨부 파일 형식을 설정하십시오.
 
   | 옵션 | 설명 |
   | ------ | ----------- |
@@ -163,27 +163,27 @@ ht-degree: 0%
 
   {style="table-layout:auto"}
 
-- **[!UICONTROL Background Repeat]** - 다음으로 설정 `Yes` 배경 이미지를 반복하여 행의 사용 가능한 공간을 채웁니다.
+- **[!UICONTROL Background Repeat]** - `Yes`(으)로 설정하여 배경 이미지를 반복하여 행의 사용 가능한 공간을 채웁니다.
 
 ### 비디오 유형 설정
 
-다음을 설정하는 경우 _배경 유형_ 끝 `Video`배경 이미지 표시를 정의하려면 다음 설정을 사용합니다.
+_배경 유형_&#x200B;을(를) `Video`(으)로 설정하는 경우 다음 설정을 사용하여 배경 이미지 표시를 정의합니다.
 
 - **[!UICONTROL Video URL]** - 올바른 비디오 URL을 입력하십시오. 유효한 비디오 URL은 다음에 대한 링크일 수 있습니다.
 
    - YouTube 비디오: `https://youtu.be/CoDhMRUUjeI`
    - Vimeo 비디오: `https://vimeo.com/190156113`
-   - 유효한 비디오 파일(`.mp4` 권장): `https://myvideos.com/spiral.mp4`
+   - 올바른 비디오 파일(`.mp4`개 권장): `https://myvideos.com/spiral.mp4`
 
   ![배경 비디오 URL](./assets/pb-video-url.png){width="300"}
 
-- **[!UICONTROL Overlay Color]** - 투명한 색조를 비디오에 적용할 색상을 선택합니다.
+- **[!UICONTROL Overlay Color]** - 비디오에 투명 색조를 적용할 색상을 선택합니다.
 
-- **[!UICONTROL Infinite Loop]** - 다음으로 설정 `No` 비디오를 한 번 재생하고 중지합니다. 이 옵션이 로 설정된 경우 `Yes` (기본값) 비디오가 무한 루프로 반복됩니다.
+- **[!UICONTROL Infinite Loop]** - 비디오를 한 번 재생하고 중지하려면 `No`(으)로 설정합니다. 이 옵션이 `Yes`(기본값)으로 설정되면 비디오가 무한 루프로 반복됩니다.
 
-- **[!UICONTROL Lazy Load]** - 다음으로 설정 `No` 표시되지 않더라도 페이지에서 비디오를 로드할 수 있습니다. 이 옵션이 로 설정된 경우 `Yes` (기본값) 비디오가 화면에 표시될 때만 소스에서 로드됩니다.
+- **[!UICONTROL Lazy Load]** - 표시되지 않더라도 페이지에서 비디오를 로드하려면 `No`(으)로 설정합니다. 이 옵션을 `Yes`(기본값)로 설정하면 화면에 표시되는 경우에만 원본에서 비디오가 로드됩니다.
 
-- **[!UICONTROL Play Only When Visible]** - 다음으로 설정 `No` 비디오 로드 직후에 비디오 재생이 시작되도록 합니다. 이 옵션이 로 설정된 경우 `Yes` (기본값) 비디오가 표시될 때만 재생이 시작됩니다.
+- **[!UICONTROL Play Only When Visible]** - 표시 여부에 관계없이 비디오가 로드된 후 바로 재생을 시작하려면 `No`(으)로 설정합니다. 이 옵션이 `Yes`(기본값)으로 설정되면 비디오가 표시될 때만 재생됩니다.
 
 - **[!UICONTROL Fallback Image]** - 필요한 경우 비디오가 로드되기 전에 화면에 표시할 이미지를 지정하고 비디오가 어떤 이유로 로드되지 않는 경우 지정합니다.
 
@@ -191,14 +191,14 @@ ht-degree: 0%
 
 페이지 스크롤과 관련하여 스크롤하는 배경 이미지 또는 비디오의 속도를 제어하려면 다음 옵션을 사용합니다. 배경은 몰입감을 만들기 위해 더 천천히 스크롤하도록 설정할 수 있습니다.
 
-- 설정 **시차 배경 활성화** 끝 `Yes`.
-- 다음을 입력합니다. **시차 속도** 다음 범위의 10진수 값으로 `-1.0` 및 `2.0`.
+- **시차 배경 사용**&#x200B;을(를) `Yes`(으)로 설정합니다.
+- **시차 속도**&#x200B;를 `-1.0`에서 `2.0` 사이의 10진수 값으로 입력하십시오.
 
 ![시차 배경 설정](./assets/pb-settings-parallax-background.png){width="600" zoomable="yes"}
 
 ## 고급
 
-- 행에 추가되는 콘텐츠 컨테이너의 가로 위치를 제어하려면 **[!UICONTROL Alignment]**:
+- 행에 추가되는 콘텐츠 컨테이너의 가로 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택합니다.
 
   | 옵션 | 설명 |
   | ------ | ----------- |
@@ -209,7 +209,7 @@ ht-degree: 0%
 
   {style="table-layout:auto"}
 
-- 설정 **[!UICONTROL Border]** 행 컨테이너의 네 면에 모두 적용되는 스타일:
+- 행 컨테이너의 네 면 모두에 적용되는 **[!UICONTROL Border]** 스타일을 설정합니다.
 
   | 옵션 | 설명 |
   | ------ | ----------- |
@@ -226,7 +226,7 @@ ht-degree: 0%
 
   {style="table-layout:auto"}
 
-- 테두리 스타일을 설정할 때 `None`테두리 표시 옵션을 완료합니다.
+- `None` 이외의 테두리 스타일을 설정하는 경우 테두리 표시 옵션을 완료하십시오.
 
   ![테두리 색상](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
@@ -242,11 +242,11 @@ ht-degree: 0%
 
   ![테두리 반경이 15인 행](./assets/pb-settings-border-radius-15.png){width="500"}
 
-- (선택 사항) 다음 이름을 지정합니다 **[!UICONTROL CSS classes]** 행 컨테이너에 적용할 현재 스타일 시트에서 가져옵니다.
+- (선택 사항) 행 컨테이너에 적용할 현재 스타일 시트의 **[!UICONTROL CSS classes]** 이름을 지정합니다.
 
   여러 클래스 이름은 공백으로 구분합니다.
 
-- 다음에 대한 값을 픽셀 단위로 입력하십시오. **[!UICONTROL Margins and Padding]** 을 클릭하여 행의 바깥쪽 여백과 안쪽 여백을 지정합니다.
+- **[!UICONTROL Margins and Padding]**&#x200B;에 대한 값을 픽셀 단위로 입력하여 행의 바깥쪽 여백과 안쪽 여백을 지정합니다.
 
   행 컨테이너 다이어그램에 해당하는 각 값을 입력합니다.
 

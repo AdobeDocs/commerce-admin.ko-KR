@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings]'
-description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] 상거래 관리자의 페이지입니다.
+description: Commerce 관리자의 [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] 페이지에서 구성 설정을 검토하십시오.
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 {{config}}
 
-이러한 설정 변경에 대한 자세한 내용은 [배송 설정](../../stores-purchase/shipping-settings.md) 다음에서 _경험 저장 및 구매 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _저장 및 구매 경험 안내서_&#x200B;에서 [배송 설정](../../stores-purchase/shipping-settings.md)을 참조하세요.
 
 ## [!UICONTROL Origin]
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## [!UICONTROL Shipping Policy Parameters]
 
-![배송 정책 매개 변수](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
+![전달 정책 매개 변수](./assets/shipping-settings-shipping-policy-parameters.png)<!-- zoom -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

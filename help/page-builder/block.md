@@ -1,6 +1,6 @@
 ---
 title: 콘텐츠 추가 - 차단
-description: 재사용 가능한 블록을 블록에 추가하는 데 사용되는 블록 콘텐츠 유형에 대해 알아봅니다. [!DNL Page Builder] 스테이지.
+description: ' [!DNL Page Builder] 스테이지에 재사용 가능한 블록을 추가하는 데 사용되는 블록 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 콘텐츠 추가 - 차단
 
-사용 _차단_ 기존 활성 콘텐츠를 추가할 콘텐츠 유형 [차단](../content-design/blocks.md) (으)로 [[!DNL Page Builder] 단계](workspace.md#stage). 다음 예제에서 첫 번째 열에는 페이지의 사이드 메뉴가 있는 블록이 포함되어 있습니다. 두 번째 열에는 이미지가 포함됩니다.
+_블록_ 콘텐츠 형식을 사용하여 기존의 활성 [블록](../content-design/blocks.md)을(를) [[!DNL Page Builder] 단계](workspace.md#stage)에 추가하십시오. 다음 예제에서 첫 번째 열에는 페이지의 사이드 메뉴가 있는 블록이 포함되어 있습니다. 두 번째 열에는 이미지가 포함됩니다.
 
 ![사이드 메뉴로 차단](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
 
@@ -35,19 +35,19 @@ ht-degree: 0%
 
 ## 기존 블록 추가
 
-1. 다음 위치로 이동 [!DNL Page Builder] 대상 페이지, 블록, 동적 블록, 제품 또는 카테고리의 작업 영역.
+1. 대상 페이지, 블록, 동적 블록, 제품 또는 범주의 [!DNL Page Builder] 작업 영역으로 이동합니다.
 
-1. 다음에서 [!DNL Page Builder] 패널, 확장 **[!UICONTROL Add Content]** 드래그 **[!UICONTROL Block]** 자리 표시자가 스테이지에 표시됩니다.
+1. [!DNL Page Builder] 패널에서 **[!UICONTROL Add Content]**&#x200B;을(를) 확장하고 **[!UICONTROL Block]** 자리 표시자를 스테이지로 드래그합니다.
 
    ![블록을 스테이지로 드래그](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
 
-1. 빈 블록 컨테이너에 마우스를 가져다 대고 도구 상자를 표시하고 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} ) 아이콘.
+1. 빈 블록 컨테이너에 마우스를 가져다 대고 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} ) 아이콘을 선택합니다.
 
-1. 클릭 **[!UICONTROL Select Block]**.
+1. **[!UICONTROL Select Block]**&#x200B;을(를) 클릭합니다.
 
    ![블록 선택](./assets/pb-add-content-block-select.png){width="200"}
 
-1. 추가할 블록의 행에서 **[!UICONTROL Select]** 마지막 열에서
+1. 추가할 블록의 행에서 마지막 열의 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
 
    ![선택한 블록](./assets/pb-add-content-block-selected.png){width="600" zoomable="yes"}
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 1. 이 페이지 끝에 있는 필드 설명을 참조하여 필요에 따라 나머지 설정을 완료합니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]** 설정을 적용하고 로 돌아가려면 [!DNL Page Builder] 작업 영역.
+1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
 ### 고급 설정
 
-1. 상위 컨테이너 내에서 블록의 위치를 제어하려면 **[!UICONTROL Alignment]**:
+1. 부모 컨테이너 내에서 블록의 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하세요.
 
    | 옵션 | 설명 |
    | ------ | ----------- |
@@ -72,7 +72,7 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. 설정 **[!UICONTROL Border]** 블록 컨테이너의 네 면에 모두 적용되는 스타일:
+1. 블록 컨테이너의 네 면에 모두 적용되는 **[!UICONTROL Border]** 스타일을 설정합니다.
 
    | 옵션 | 설명 |
    | ------ | ----------- |
@@ -89,7 +89,7 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. 테두리 스타일을 설정할 때 `None`테두리 표시 옵션을 완료합니다.
+1. `None` 이외의 테두리 스타일을 설정하는 경우 테두리 표시 옵션을 완료하십시오.
 
    | 옵션 | 설명 |
    | ------ |------------ |
@@ -99,11 +99,11 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. (선택 사항) 다음 이름을 지정합니다 **[!UICONTROL CSS classes]** 현재 스타일 시트에서 컨테이너에 적용
+1. (선택 사항) 컨테이너에 적용할 현재 스타일 시트의 **[!UICONTROL CSS classes]** 이름을 지정합니다.
 
    여러 클래스 이름은 공백으로 구분합니다.
 
-1. 다음에 대한 값을 픽셀 단위로 입력하십시오. **[!UICONTROL Margins and Padding]** 블록 컨테이너의 외부 여백 및 내부 패딩을 결정할 수 있습니다.
+1. 블록 컨테이너의 외부 여백과 내부 패딩을 확인하려면 **[!UICONTROL Margins and Padding]**&#x200B;에 대한 값을 픽셀 단위로 입력하십시오.
 
    다이어그램에 해당 값을 입력합니다.
 
@@ -116,26 +116,26 @@ ht-degree: 0%
 
 ## 블록 설정 편집
 
-1. 블록 컨테이너 위로 마우스를 가져간 다음 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} ) 아이콘을 클릭합니다.
+1. 블록 컨테이너 위로 마우스를 가져간 후 도구 상자에서 _설정_(![설정 아이콘](./assets/pb-icon-settings.png){width="25"}) 아이콘을 선택합니다.
 
    ![도구 상자 차단](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
 
-1. 다른 블록을 선택하려면 **[!UICONTROL Select Block]**.
+1. 다른 블록을 선택하려면 **[!UICONTROL Select Block]**&#x200B;을(를) 클릭하십시오.
 
-   - 활성 블록 목록에서 **[!UICONTROL Select]** 추가할 블록입니다.
-   - 클릭 **[!UICONTROL Add Selected]**.
+   - 활성 블록 목록에서 추가할 블록을 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
+   - **[!UICONTROL Add Selected]**&#x200B;을(를) 클릭합니다.
 
 1. 이 페이지 끝에 있는 필드 설명을 참조하여 필요에 따라 나머지 설정을 업데이트합니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]** 설정을 적용하고 로 돌아가려면 [!DNL Page Builder] 작업 영역.
+1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
 ## 블록 복제
 
-1. 블록 컨테이너에 마우스를 가져다 대고 도구 상자를 표시한 다음 _복제_ (![중복 아이콘](./assets/pb-icon-duplicate.png)) 아이콘.
+1. 블록 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _복제_(![복제 아이콘](./assets/pb-icon-duplicate.png)) 아이콘을 선택합니다.
 
    복제본이 원본 바로 아래에 나타납니다.
 
-1. 새 블록을 새 위치로 이동하려면 컨테이너를 마우스로 가리킨 다음 _이동_ (![이동 아이콘](./assets/pb-icon-move.png))을 클릭하여 제품에서 사용할 수 있습니다.
+1. 새 블록을 새 위치로 이동하려면 컨테이너를 마우스로 가리킨 다음 도구 상자에서 _이동_(![이동 아이콘](./assets/pb-icon-move.png))을 클릭합니다.
 
 1. 새 위치에 빨간색 지침이 나타날 때까지 블록을 선택하고 드래그합니다.
 
@@ -143,6 +143,6 @@ ht-degree: 0%
 
 ## 스테이지에서 블록 제거
 
-1. 블록 컨테이너에 마우스를 가져다 대고 도구 상자를 표시한 다음 _제거_ (![제거 아이콘](./assets/pb-icon-remove.png)) 아이콘.
+1. 블록 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _제거_(![제거 아이콘](./assets/pb-icon-remove.png)) 아이콘을 선택합니다.
 
-1. 확인을 묻는 메시지가 나타나면 **[!UICONTROL OK]**.
+1. 확인 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.

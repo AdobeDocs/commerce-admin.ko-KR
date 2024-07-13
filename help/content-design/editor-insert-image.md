@@ -4,7 +4,7 @@ description: WYSIWYG 편집기를 사용하면 미디어 스토리지에서 이�
 exl-id: 591830c9-6dba-4738-a6e7-cf5f93b3c319
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -13,25 +13,25 @@ ht-degree: 0%
 
 편집기에서 다음 세 가지 소스 유형을 사용하여 이미지를 삽입할 수 있습니다.
 
-- 업로드된 이미지 추가 [미디어 스토리지](media-storage.md)
+- [미디어 저장소](media-storage.md)에 업로드된 이미지 추가
 - 다른 서버에 있는 이미지에 대한 링크
 - Adobe Stock 통합을 사용하여 Adobe Stock 에셋을 검색하고 사용합니다
 
-![미디어 스토리지](./assets/media-storage.png){width="650" zoomable="yes"}
+![미디어 저장소](./assets/media-storage.png){width="650" zoomable="yes"}
 
 1. 편집 모드로 페이지, 블록 또는 동적 블록을 엽니다.
 
-1. 로 이동 _[!UICONTROL Content]_를 클릭하고 편집기를 지원하는 요소를 클릭합니다.
+1. _[!UICONTROL Content]_섹션으로 이동하여 편집기를 지원하는 요소를 클릭합니다.
 
 1. 이미지를 표시할 위치에 커서를 놓습니다.
 
-1. 편집기 도구 모음에서 _이미지 삽입_ 아이콘.
+1. 편집기 도구 모음에서 _이미지 삽입_ 아이콘을 클릭합니다.
 
    ![이미지 삽입 아이콘](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   이 작업을 수행하면 _[!UICONTROL Insert/edit image]_대화 상자.
+   이 작업은 _[!UICONTROL Insert/edit image]_대화 상자를 엽니다.
 
-1. 대상 **소스**&#x200B;를 클릭하고 _검색_ 아이콘을 클릭하고 사용할 이미지 에셋의 위치와 일치하는 메서드를 사용합니다.
+1. **Source**&#x200B;의 경우 _검색_ 아이콘을 클릭하고 사용할 이미지 에셋의 위치와 일치하는 메서드를 사용하십시오.
 
    ![검색 아이콘 선택](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
@@ -39,36 +39,36 @@ ht-degree: 0%
 
       - 트리에서 새 이미지 파일을 추가할 폴더를 선택합니다.
 
-      - 클릭 **[!UICONTROL Choose Files]**.
+      - **[!UICONTROL Choose Files]**&#x200B;을(를) 클릭합니다.
 
       - 이미지 파일을 찾아 선택합니다.
 
-      - 새 파일의 썸네일을 클릭하고 **[!UICONTROL Add Selected]**.
+      - 새 파일의 축소판을 클릭하고 **[!UICONTROL Add Selected]**&#x200B;을(를) 클릭합니다.
 
-   - **기존 자산 선택**: 이 방법을 사용하여 미디어 스토리지/갤러리에서 기존 이미지 에셋을 선택합니다.
+   - **기존 에셋 선택**: 이 메서드를 사용하여 미디어 저장소/갤러리에서 기존 이미지 에셋을 선택합니다.
 
       - 트리를 사용하여 이미지로 이동합니다.
 
-      - 썸네일을 클릭하고 **[!UICONTROL Add Selected]**.
+      - 썸네일을 클릭하고 **[!UICONTROL Add Selected]**&#x200B;을(를) 클릭합니다.
 
    - **Adobe Stock 이미지 검색 및 선택**: 이 메서드를 사용하여 Adobe Stock에서 이미지를 찾습니다.
 
      >[!NOTE]
      >
-     >이 메서드는 [Adobe Stock 통합](adobe-stock.md) 관리자용으로 구성되었습니다.
+     >이 메서드를 사용하려면 관리자에 대해 [Adobe Stock 통합](adobe-stock.md)이(가) 구성되어 있어야 합니다.
 
-      - 클릭 **[!UICONTROL Search Adobe Stock]** 이미지를 검색합니다.
+      - **[!UICONTROL Search Adobe Stock]**&#x200B;을(를) 클릭하고 이미지를 검색합니다.
 
       - 미리 보기 또는 라이선스가 부여된 이미지를 갤러리에 저장합니다.
 
-        다음을 참조하십시오 [Adobe Stock 이미지 사용](adobe-stock-manage.md) 작업에 대한 자세한 내용 [Adobe Stock](https://stock.adobe.com) 에셋.
+        [Adobe Stock](https://stock.adobe.com) 자산 작업에 대한 자세한 내용은 [Adobe Stock 이미지 사용](adobe-stock-manage.md)을 참조하세요.
 
-      - 갤러리에서 에셋 썸네일을 선택하고 **[!UICONTROL Add Selected]**.
+      - 갤러리에서 자산 축소판을 선택하고 **[!UICONTROL Add Selected]**&#x200B;을(를) 클릭합니다.
 
-1. 대상 **[!UICONTROL Image Description]**&#x200B;이미지에 대한 간단한 설명을 입력합니다.
+1. **[!UICONTROL Image Description]**&#x200B;의 경우 이미지에 대한 간단한 설명을 입력하십시오.
 
-1. 너비와 높이 입력 **[!UICONTROL Dimensions]**: 페이지에서 이미지를 렌더링하기 위해 픽셀 단위.
+1. 페이지에서 이미지를 렌더링하려면 너비 및 높이 **[!UICONTROL Dimensions]**&#x200B;을(를) 픽셀 단위로 입력하십시오.
 
-   유지 **[!UICONTROL Constrain proportions]** 이미지의 종횡비를 자동으로 유지하려면 선택한 확인란입니다.
+   이미지의 종횡비를 자동으로 유지하려면 선택한 **[!UICONTROL Constrain proportions]** 확인란을 유지하십시오.
 
-1. 클릭 **[!UICONTROL Insert]** 을 클릭하여 프로세스를 완료합니다.
+1. 프로세스를 완료하려면 **[!UICONTROL Insert]**&#x200B;을(를) 클릭하십시오.

@@ -5,7 +5,7 @@ exl-id: 48193621-731d-4640-8ea8-5b201915cdf1
 feature: Gift, Storefront, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -24,47 +24,47 @@ Adobe Commerce에는 브랜드에 맞게 사용자 지정할 수 있는 이러�
 
 ## 1단계. 선물 등록 활성화
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널에서 를 확장합니다. **[!UICONTROL Customers]** 및 선택 **[!UICONTROL Gift Registry]**
+1. 왼쪽 패널에서 **[!UICONTROL Customers]**&#x200B;을(를) 확장하고 **[!UICONTROL Gift Registry]**&#x200B;을(를) 선택합니다.
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL General Options]** 섹션을 참조하고 다음을 수행합니다.
+1. **[!UICONTROL General Options]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
-   ![고객 구성 - 선물 등록 일반](../configuration-reference/customers/assets/gift-registry-general-options.png){width="600" zoomable="yes"}
+   ![고객 구성 - 선물 레지스트리 일반](../configuration-reference/customers/assets/gift-registry-general-options.png){width="600" zoomable="yes"}
 
-   - 선물 레지스트리는 기본적으로 활성화되어 있습니다. 필요한 경우 다음을 설정합니다. **[!UICONTROL Enable Gift Registry]** 끝 `Yes`.
+   - 선물 레지스트리는 기본적으로 활성화되어 있습니다. 필요한 경우 **[!UICONTROL Enable Gift Registry]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
-   - 대상 **[!UICONTROL Maximum Registrants]**(으)로 선물 등록 이벤트에 참여할 수 있는 최대 사용자 수를 입력합니다.
+   - **[!UICONTROL Maximum Registrants]**&#x200B;의 경우 선물 등록 이벤트에 참여하도록 초대할 수 있는 최대 인원을 입력하십시오.
 
 ## 2단계. 이메일 알림 구성
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL Owner Notification]** 섹션을 참조하고 다음을 수행합니다.
+1. **[!UICONTROL Owner Notification]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
    ![고객 구성 - 선물 레지스트리 소유자 알림](../configuration-reference/customers/assets/gift-registry-owner-notification.png){width="600" zoomable="yes"}
 
-   - 다음을 선택합니다. **[!UICONTROL Email Template]** 는 레지스트리가 생성될 때 선물 레지스트리 소유자에게 알립니다.
+   - 등록을 만들 때 선물 레지스트리 소유자에게 알리는 **[!UICONTROL Email Template]**&#x200B;을(를) 선택하십시오.
 
-   - 다음을 선택합니다. [저장소 연락처](../getting-started/store-details.md#store-email-addresses) (으)로 표시되는 **[!UICONTROL Email Sender]** 메시지의 일부입니다.
+   - 메시지의 **[!UICONTROL Email Sender]**(으)로 표시되는 [연락처 저장](../getting-started/store-details.md#store-email-addresses)을(를) 선택하십시오.
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL Gift Registry Sharing]** 섹션을 참조하고 다음을 수행합니다.
+1. **[!UICONTROL Gift Registry Sharing]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
    ![고객 구성 - 선물 레지스트리 공유](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png){width="600" zoomable="yes"}
 
-   - 다음을 선택합니다. **[!UICONTROL Email Template]** 는 레지스트리가 선물 레지스트리 수신자와 공유되면 알림을 보냅니다.
+   - 레지스트리를 받는 사람과 공유할 때 선물 레지스트리 받는 사람에게 알리는 **[!UICONTROL Email Template]**&#x200B;을(를) 선택하십시오.
 
-   - 다음으로 표시되는 스토어 ID 선택 **[!UICONTROL Email Sender]** 메시지의 일부입니다.
+   - 메시지의 **[!UICONTROL Email Sender]**(으)로 표시되는 스토어 식별을 선택합니다.
 
-   - 대상 **[!UICONTROL Maximum Sent Emails Threshold]**&#x200B;한 번에 보낼 수 있는 최대 이메일 수를 입력합니다.
+   - **[!UICONTROL Maximum Sent Emails Threshold]**&#x200B;의 경우 한 번에 보낼 수 있는 최대 전자 메일 수를 입력합니다.
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL Gift Registry Update]** 섹션을 참조하고 다음을 수행합니다.
+1. **[!UICONTROL Gift Registry Update]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
    ![고객 구성 - 선물 레지스트리 업데이트](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png){width="600" zoomable="yes"}
 
-   - 다음을 선택합니다. **[!UICONTROL Email Template]** 는 선물 레지스트리 소유자에게 레지스트리의 변경 사항을 알립니다.
+   - 레지스트리에 대한 변경 내용을 선물 레지스트리 소유자에게 알리는 **[!UICONTROL Email Template]**&#x200B;을(를) 선택하십시오.
 
-   - 다음으로 표시되는 스토어 ID 선택 **[!UICONTROL Email Sender]** 메시지의 일부입니다.
+   - 메시지의 **[!UICONTROL Email Sender]**(으)로 표시되는 스토어 식별을 선택합니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 1. 메시지가 표시되면 캐시를 업데이트합니다.
 

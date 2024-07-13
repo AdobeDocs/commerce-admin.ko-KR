@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL Reports]'
-description: 에서 구성 설정을 검토합니다. [!UICONTROL General] &gt; [!UICONTROL Reports] 상거래 관리자의 페이지입니다.
+description: Commerce 관리자의 [!UICONTROL General] &gt; [!UICONTROL Reports] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 feature: Configuration, Admin Workspace, Reporting
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf

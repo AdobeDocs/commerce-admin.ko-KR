@@ -14,7 +14,7 @@ ht-degree: 0%
 
 이메일 템플릿은 스토어에서 전송되는 자동화된 메시지의 레이아웃, 콘텐츠 및 형식을 정의합니다. 각 트랜잭션 이메일은 특정 유형의 트랜잭션 또는 이벤트와 연결되므로 트랜잭션 이메일이라고 합니다.
 
-Commerce에는 스토어 작업 중에 발생하는 다양한 이벤트에 의해 트리거되는 반응형 이메일 템플릿 세트가 포함되어 있습니다. 각 템플릿은 모든 화면 크기에 맞게 최적화되며, 태블릿과 모바일 장치뿐만 아니라 데스크탑에서도 볼 수 있습니다. 고객 활동, 판매, 제품 알림, 관리자 작업 및 시스템 메시지와 관련된 다양한 준비된 이메일 템플릿이 있습니다 [사용자 지정](email-template-custom.md) 브랜드를 반영하기 위해
+Commerce에는 스토어 작업 중에 발생하는 다양한 이벤트에 의해 트리거되는 반응형 이메일 템플릿 세트가 포함되어 있습니다. 각 템플릿은 모든 화면 크기에 맞게 최적화되며, 태블릿과 모바일 장치뿐만 아니라 데스크탑에서도 볼 수 있습니다. 고객 활동, 판매, 제품 알림, 관리자 작업 및 시스템 메시지와 관련된 다양한 전자 메일 서식 파일을 준비하여 브랜드를 반영하도록 [사용자 지정](email-template-custom.md)할 수 있습니다.
 
 Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 렌더링할 수 있습니다. 이메일이 렌더링되는 방식에 따라 클라이언트 간에 약간의 차이가 있을 수 있습니다.
 
@@ -43,37 +43,37 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 ## 이메일 템플릿 구성
 
-구성은 기본 헤더 템플릿에 표시되는 로고와 모든 사용자 지정 항목을 결정합니다 [머리글](email-template-custom.md#header-template) 및 [꼬리말](email-template-custom.md#footer-template) 스토어에서 보낸 트랜잭션 이메일 메시지에 사용할 템플릿입니다.
+구성은 기본 머리글 템플릿에 나타나는 로고와 스토어에서 보낸 트랜잭션 전자 메일 메시지에 사용할 사용자 지정 [머리글](email-template-custom.md#header-template) 및 [바닥글](email-template-custom.md#footer-template) 템플릿을 결정합니다.
 
-![트랜잭션 이메일 디자인](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
+![트랜잭션 전자 메일 디자인](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
-구성 설정에 대한 자세한 목록이 필요하면 를 참조하십시오. [_트랜잭션 이메일_](../content-design/configuration.md) 다음에서 _콘텐츠 및 디자인 안내서_.
+구성 설정의 자세한 목록을 보려면 _콘텐츠 및 디자인 가이드_&#x200B;에서 [_트랜잭션 전자 메일_](../content-design/configuration.md)&#x200B;을 참조하세요.
 
 ## 1단계. 로고 업로드
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 구성할 스토어 보기를 찾아 다음을 클릭합니다. **[!UICONTROL Edit]** 다음에서 _[!UICONTROL Action]_열.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
-1. 아래 _[!UICONTROL Other Settings]_, 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음&#x200B;**[!UICONTROL Transactional Emails]**섹션.
+1. _[!UICONTROL Other Settings]_에서&#x200B;**[!UICONTROL Transactional Emails]**섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
-1. 준비한 항목을 업로드하려면 **[!UICONTROL Logo Image]**, 클릭 **[!UICONTROL Upload]** 시스템에서 파일을 선택합니다.
+1. 준비된 **[!UICONTROL Logo Image]**&#x200B;을(를) 업로드하려면 **[!UICONTROL Upload]**&#x200B;을(를) 클릭하고 시스템에서 파일을 선택하십시오.
 
-1. 대상 **[!UICONTROL Logo Image Alt]**&#x200B;이미지를 식별할 대체 텍스트를 입력합니다.
+1. **[!UICONTROL Logo Image Alt]**&#x200B;의 경우 이미지를 식별할 대체 텍스트를 입력하십시오.
 
-1. 다음을 입력합니다. **[!UICONTROL Logo Width]** 및 **[!UICONTROL Logo Height]** 픽셀 단위.
+1. **[!UICONTROL Logo Width]** 및 **[!UICONTROL Logo Height]**&#x200B;을(를) 픽셀로 입력하십시오.
 
-   각 값을 숫자(다음 포함 안 함)로 입력하십시오. `px` 약어입니다. 이 값은 실제 이미지 크기가 아니라 헤더에 있는 로고의 표시 차원을 참조합니다.
+   `px` 약어 없이 각 값을 숫자로 입력하십시오. 이 값은 실제 이미지 크기가 아니라 헤더에 있는 로고의 표시 차원을 참조합니다.
 
 ## 2단계. 머리글 및 바닥글 템플릿 선택
 
-스토어 또는 다른 스토어에 대한 사용자 지정 머리글 및 바닥글 템플릿이 있는 경우 각각에 사용할 템플릿을 [범위](../getting-started/websites-stores-views.md#scope-settings) 을 참조하십시오. 그렇지 않으면 기본 템플릿이 사용됩니다. 자세한 내용은 다음을 참조하십시오. [이메일 템플릿 맞춤화](email-template-custom.md).
+저장소 또는 다른 저장소에 대한 사용자 지정 머리글 및 바닥글 템플릿이 있는 경우 구성의 [범위](../getting-started/websites-stores-views.md#scope-settings)에 따라 각 저장소에 사용할 템플릿을 지정할 수 있습니다. 그렇지 않으면 기본 템플릿이 사용됩니다. 자세한 내용은 [전자 메일 템플릿 사용자 지정](email-template-custom.md)을 참조하세요.
 
-1. 다음을 선택합니다. **[!UICONTROL Header Template]** 모든 트랜잭션 이메일 메시지에 사용됩니다.
+1. 모든 트랜잭션 전자 메일 메시지에 사용할 **[!UICONTROL Header Template]**&#x200B;을(를) 선택하십시오.
 
-1. 다음을 선택합니다. **[!UICONTROL Footer Template]** 모든 트랜잭션 이메일 메시지에 사용됩니다.
+1. 모든 트랜잭션 전자 메일 메시지에 사용할 **[!UICONTROL Footer Template]**&#x200B;을(를) 선택하십시오.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 ## 이메일 템플릿 목록
 
@@ -98,7 +98,7 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 ### [!DNL Magento_Company]
 
-![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B에서만 사용 가능)
+![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B에서만 사용 가능)
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
@@ -121,7 +121,7 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 ### [!DNL Magento_CompanyCredit]
 
-![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B에서만 사용 가능)
+![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B에서만 사용 가능)
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
@@ -147,12 +147,12 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 |--- |--- |
 | `Change Email` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**섹션:** [!UICONTROL Account Information Options]<br/>**필드:** [!UICONTROL Change Email Template] |
 | 이메일 및 암호 변경 | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**섹션:** [!UICONTROL Account Information Options]<br/>**필드:** [!UICONTROL Change Email and Password Template] |
-| `Forgot Password` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**섹션:** [!UICONTROL Password Options]<br/>**필드:** 이메일 템플릿 잊음 |
+| `Forgot Password` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**섹션:** [!UICONTROL Password Options]<br/>**필드:** 전자 메일 서식 파일 찾기 |
 | `New Account` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**섹션:** [!UICONTROL Create New Account Options]<br/>**필드:** 기본 환영 전자 메일 |
 | `New Account (Magento/luma)` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**섹션:** [!UICONTROL Create New Account Options]<br/>**필드:** 기본 환영 전자 메일 |
-| `New Account Confirmation Key` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**섹션:** [!UICONTROL Create New Account Options]<br/>**필드:** 확인 링크 이메일 |
-| `New Account Confirmed` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**섹션:** [!UICONTROL Create New Account Options]<br/>**필드:** 환영 전자 메일 |
-| `New Account Without Password` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**섹션:** [!UICONTROL Create New Account Options]<br/>**필드:** 암호 없는 기본 환영 이메일 |
+| `New Account Confirmation Key` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**섹션:** [!UICONTROL Create New Account Options]<br/>**필드:** 확인 링크 전자 메일 |
+| `New Account Confirmed` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**섹션:** [!UICONTROL Create New Account Options]<br/>**필드:** 시작 전자 메일 |
+| `New Account Without Password` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**섹션:** [!UICONTROL Create New Account Options]<br/>**필드:** 암호 없는 기본 환영 전자 메일 |
 | `Remind Password` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**섹션:** [!UICONTROL Password Options]<br/>**필드:** 이메일 템플릿 미리 알림 |
 | `Reset Password` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**섹션:** [!UICONTROL Password Options] <br/>**필드:** 암호 재설정 템플릿 |
 
@@ -160,7 +160,7 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 ### [!DNL Magento_CustomerBalance]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce 전용)
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용)
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
@@ -188,7 +188,7 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 ### [!UICONTROL Magento_GiftCard]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce 전용)
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용)
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
@@ -233,7 +233,7 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 ### [!DNL Magento_NegotiableQuote]
 
-![Adobe Commerce](../assets/b2b.svg) (Adobe Commerce B2B에서만 사용 가능)
+![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B에서만 사용 가능)
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
@@ -284,7 +284,7 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 ### [!DNL Magento_Reminder]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce 전용)
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용)
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
@@ -294,7 +294,7 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 ### [!DNL Magento_Reward]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce 전용)
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용)
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
@@ -305,7 +305,7 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 ### [!DNL Magento_Rma]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce 전용)
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용)
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
@@ -360,7 +360,7 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 ### [!DNL Magento_ScheduledImportExport]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce 전용)
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용)
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
@@ -374,7 +374,7 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
-| `Send Product Link to Friend` | **페이지:** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**섹션:** [!UICONTROL Email Templates]<br/>**필드:** [!UICONTROL Select Email Template] |
+| `Send Product Link to Friend` | **페이지:** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**섹션:** [!UICONTROL Email Templates]<br/>**필드:** [!UICONTROL Select Email Template] |
 
 {style="table-layout:auto"}
 

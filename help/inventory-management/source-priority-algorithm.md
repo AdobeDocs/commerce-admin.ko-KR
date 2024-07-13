@@ -1,5 +1,5 @@
 ---
-title: 소스 우선 순위 알고리즘 구성
+title: Source 우선 순위 알고리즘 구성
 description: 추천하기 위해 재고에서 할당된 소스의 순서에 사용되는 소스 우선 순위를 구성하는 방법에 대해 알아보십시오.
 exl-id: 7b25212d-0cd0-4280-be23-c67f06db900a
 feature: Inventory, Shipping/Delivery
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# 소스 우선 순위 알고리즘 구성
+# Source 우선 순위 알고리즘 구성
 
 사용자 정의 재고에는 상점 전면을 통해 사용 가능한 제품 재고를 판매하고 배송할 지정된 소스 목록이 포함됩니다. 이 알고리즘은 스톡에 할당된 소스의 순서를 사용하여 권장 사항을 제공합니다.
 
@@ -24,25 +24,25 @@ ht-degree: 0%
 
 - 목록에 있는 경우 비활성화된 소스를 건너뜁니다.
 
-구성하려면 주문 이행을 위해 해당 소스를 맨 위에서 아래로 정렬합니다. 출처선택알고리즘(SSA)에서는 출고 및 재고 공제를 결정할 때 이 순서를 이용한 알고리즘 우선순위를 제공한다. 다음을 참조하십시오 [재고에 대한 소스 우선 순위 지정](stocks-prioritize-sources.md).
+구성하려면 주문 이행을 위해 해당 소스를 맨 위에서 아래로 정렬합니다. Source 선택 알고리즘(SSA)은 선적 및 재고 공제를 결정할 때 이 순서를 사용하는 알고리즘 우선 순위를 제공합니다. [재고 소스 우선 순위 지정](stocks-prioritize-sources.md)을 참조하십시오.
 
 ## 소스의 우선 순위 구성
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**(으)로 이동합니다.
 
-1. 편집 모드에서 스톡을 열고 다음으로 이동 _[!UICONTROL Sources]_영역입니다.
+1. 편집 모드에서 스토리를 열고 _[!UICONTROL Sources]_영역으로 이동합니다.
 
-1. 클릭 **[!UICONTROL Assign Sources]**.
+1. **[!UICONTROL Assign Sources]**&#x200B;을(를) 클릭합니다.
 
-1. 다음에서 _[!UICONTROL Assign Sources]_필요한 소스에 대한 확인란을 선택하고&#x200B;**[!UICONTROL Done]**재고에 출처를 지정합니다.
+1. _[!UICONTROL Assign Sources]_보기에서 필요한 원본의 확인란을 선택한 다음&#x200B;**[!UICONTROL Done]**을(를) 클릭하여 원본에 원본을 할당합니다.
 
 >[!NOTE]
 >
->사용 시 [거리 우선 순위](distance-priority-algorithm.md) 경로 및 데이터가 선택한 항목에 대해 반환되지 않는 경우 운송 알고리즘 [계산 모드](distance-priority-algorithm.md) (운전, 자전거 또는 도보) 배송의 경우 SSA는 기본적으로 소스 우선 순위 사용으로 설정됩니다.
+>배송에 [거리 우선 순위](distance-priority-algorithm.md) 알고리즘을 사용할 때, 선택한 배송 [계산 모드](distance-priority-algorithm.md)(주행, 자전거 타기 또는 걷기)에 대해 경로와 데이터가 반환되지 않는 경우, SSA는 기본적으로 Source 우선 순위를 사용합니다.
 
-![우선 순위 지정 후 소스 순서](assets/inventory-stock-priority-after.png)
+![우선 순위 지정 후 Source 순서](assets/inventory-stock-priority-after.png)
 
 | 아이콘 | 설명 |
 |----------------------------------------------|----------------------------------------------------------------|
-| ![아이콘을 드래그하여 놓아 우선 순위 설정](assets/icon-drag-and-drop-action.png) | 우선 순위에 따라 소스를 드래그하여 놓는 데 사용합니다. |
-| ![소스 할당을 취소하려면 클릭 아이콘](assets/icon-delete-action.png) | 재고에 출처 지정을 취소합니다. |
+| ![우선 순위를 설정할 아이콘을 끌어서 놓기](assets/icon-drag-and-drop-action.png) | 우선 순위에 따라 소스를 드래그하여 놓는 데 사용합니다. |
+| ![소스 할당을 취소하려면 아이콘을 클릭합니다](assets/icon-delete-action.png) | 재고에 출처 지정을 취소합니다. |

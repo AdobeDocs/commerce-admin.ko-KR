@@ -5,7 +5,7 @@ exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->다음을 참조하십시오 [Commerce Marketplace](../getting-started/commerce-marketplace.md) 상거래 설치를 위한 추가 배송 서비스입니다.
+>Commerce 설치에 대한 추가 배송 서비스는 [Commerce Marketplace](../getting-started/commerce-marketplace.md)를 참조하십시오.
 
 고객에게 다양한 운송 회사를 제공하기 전에 다음 단계를 완료해야 합니다.
 
-- 구성 [배송 설정](shipping-settings.md) 스토어의 출처를 설정합니다.
+- 스토어의 원본 지점을 설정하려면 [배송 설정](shipping-settings.md)을 구성하세요.
 
 - 제공할 각 통신사 서비스에 대한 설정을 구성합니다.
 
-   - [**UPS**](ups.md)  - UPS(United Parcel Service)는 220개 이상의 국가에 육로 및 항공으로 국내 및 국제 배송 서비스를 제공합니다.
-   - [**USPS**](usps.md) - 미국 우편 서비스 (USPS)는 미국 정부의 독립 우편 서비스입니다. USPS는 육로와 항공으로 국내 및 국제 배송 서비스를 제공합니다.
-   - [**페덱스**](fedex.md) - FedEx는 220여 개국에 육로와 항공으로 국내 및 국제 배송 서비스를 제공합니다.
-   - [**DHL**](dhl.md) - DHL은 편지, 물품, 정보의 관리 및 전송을 위한 통합된 국제 서비스와 맞춤형 고객 중심 솔루션을 제공합니다.
+   - [**UPS**](ups.md) - UPS(United Parcel Service)는 220개 이상의 국가에 육상 및 항공으로 국내 및 국제 배송 서비스를 제공합니다.
+   - [**USPS**](usps.md) - 미국 우편 서비스(USPS)는 미국 정부의 독립 우편 서비스입니다. USPS는 육로와 항공으로 국내 및 국제 배송 서비스를 제공합니다.
+   - [**FedEx**](fedex.md) - FedEx는 220개 이상의 국가에 육로 및 항공으로 국내 및 국제 배송 서비스를 제공합니다.
+   - [**DHL**](dhl.md) - DHL은 편지, 물품, 정보의 관리 및 전송을 위한 통합 국제 서비스와 맞춤형 고객 중심 솔루션을 제공합니다.
 
 ## 차원 가중치
 

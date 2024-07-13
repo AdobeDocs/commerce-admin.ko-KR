@@ -14,21 +14,21 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-다음 [보상 점수](rewards-loyalty.md) 고객 계정의 섹션은 고객이 획득한 보상 포인트의 현재 잔액과 보상 포인트 잔액의 내역을 보여 줍니다.
+고객 계정의 [보상 포인트](rewards-loyalty.md) 섹션은 고객이 획득한 보상 포인트의 현재 잔액과 보상 포인트 잔액의 내역을 보여 줍니다.
 
-![보상 점수](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
+![보상 포인트](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
 
 ## 체크아웃 중 보상 포인트 사용
 
-If [보상 환율](reward-exchange-rates.md) 포함 `Points to Currency` direction이 구성되면 고객은 체크아웃 중에 보상 포인트를 사용할 수 있습니다.
+`Points to Currency` 방향의 [보상 환율](reward-exchange-rates.md)이(가) 구성된 경우 고객은 체크아웃 중에 보상 포인트를 사용할 수 있습니다.
 
 1. 필요한 모든 제품을 장바구니에 추가한 후 고객이 체크아웃으로 이동합니다.
 
-1. 필요한 모든 배송 정보를 입력하고 다음으로 이동 _검토 및 결제_ 단계.
+1. 필요한 배송 정보를 모두 입력하고 _검토 및 결제_ 단계로 이동합니다.
 
-1. 다음에서 _[!UICONTROL Reward points]_섹션에서 사용 가능한 포인트의 수와 해당 통화 값을 확인합니다.
+1. _[!UICONTROL Reward points]_섹션에서 사용 가능한 포인트의 수와 통화 값을 확인합니다.
 
-1. 클릭수 **[!UICONTROL Use reward points]**.
+1. **[!UICONTROL Use reward points]**&#x200B;을(를) 클릭합니다.
 
 ![체크아웃 시 보상 포인트](./assets/reward-points-on-checkout.png){width="700" zoomable="yes"}
 

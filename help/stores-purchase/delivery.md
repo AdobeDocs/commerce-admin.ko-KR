@@ -5,18 +5,18 @@ exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
 # 배송 및 배송
 
-고객에게 여러 가지 배송 방법을 선택할 수 있는 매장이 단일 방법을 사용하는 매장보다 전환율이 높다는 연구 결과가 나왔다. 다양한 배송 방법과 배송 운송업체를 설정할 수 있습니다. 다음 [배송 설정](shipping-settings.md) 사용자의 상점이나 창고에서 발송된 모든 배송에 대한 출발지와 여러 주소로 배송된 주문을 관리하는 데 대한 사용자 선호도를 설정합니다. 쉽게 만들 수 있습니다. [배송 레이블](shipping-labels.md) 스토어 관리자의 신규 및 기존 주문의 경우. 선적이 생성되거나 이후에 레이블을 생성할 수 있습니다. 배송 레이블은 PDF 형식으로 저장되고 컴퓨터로 다운로드됩니다.
+고객에게 여러 가지 배송 방법을 선택할 수 있는 매장이 단일 방법을 사용하는 매장보다 전환율이 높다는 연구 결과가 나왔다. 다양한 배송 방법과 배송 운송업체를 설정할 수 있습니다. [배송 설정](shipping-settings.md)은(는) 사용자의 상점이나 창고에서 만든 모든 배송에 대한 출처와 여러 주소로 배송된 주문을 관리하는 기본 설정을 설정합니다. 매장 관리자로부터 새 주문과 기존 주문에 대한 [배송 레이블](shipping-labels.md)을 쉽게 만들 수 있습니다. 선적이 생성되거나 이후에 레이블을 생성할 수 있습니다. 배송 레이블은 PDF 형식으로 저장되고 컴퓨터로 다운로드됩니다.
 
 >[!NOTE]
 >
->Temando의 종료로 인해 [!DNL Magento Shipping] 는 2.4.0에서 제거됩니다. Commerce의 새로운 배송 구현에 대한 자세한 상태 정보 및 권장 사항은 다음을 참조하십시오. [제품 정보](https://business.adobe.com/products/magento/shipping.html){:target=&quot;_blank&quot;} 페이지입니다.
+>Temando의 종료로 인해 [!DNL Magento Shipping]에 대한 지원이 2.4.0에서 제거되었습니다. Commerce의 새로운 배송 구현에 대한 자세한 상태 정보 및 권장 사항은 [제품 정보](https://business.adobe.com/products/magento/shipping.html){:target=&quot;_blank&quot;} 페이지를 참조하십시오.
 
 ## 기본 게재 방법
 
@@ -30,11 +30,11 @@ Adobe Commerce과 Magento Open Source은 다양한 배송 방법과 배송 운�
 
 * [매장 내 게재](shipping-in-store-delivery.md)
 
-  을 사용하는 경우 [Inventory management](../inventory-management/introduction.md), 소스를 설정하여 고객을 위한 매장 내 전달 옵션을 제공할 수도 있습니다.
+  [Inventory management](../inventory-management/introduction.md)을(를) 사용하는 경우 소스를 설정하여 고객을 위한 매장 내 배달 옵션을 제공할 수도 있습니다.
 
 ## 운송 회사
 
-하나 이상의 상업 계정이 있는 경우 [지원되는 통신사](carriers.md), 실시간 배송비, 패키지 추적 및 레이블의 편리함을 고객에게 제공할 수 있습니다. 내장 캐리어 통합에는 UPS, USPS, DHL 및 FedEx가 포함됩니다.
+하나 이상의 [지원되는 통신사](carriers.md)를 사용하는 상업용 계정이 있는 경우 고객에게 실시간 배송비, 패키지 추적 및 레이블의 편리함을 제공할 수 있습니다. 내장 캐리어 통합에는 UPS, USPS, DHL 및 FedEx가 포함됩니다.
 
 ## 배송 및 배송 방법 데모
 

@@ -34,12 +34,12 @@ ht-degree: 6%
       + [회사 사용자 계정](account-company-users.md)
       + [회사 역할 및 권한](account-company-roles-permissions.md)
       + [회사 구조 정의](account-company-structure.md)
-+ 회사 경영 {#company-management}
++ 회사 관리 {#company-management}
    + [개요](manage-companies.md)
    + [회사 계층 관리](assign-companies.md)
 + 공유된 카탈로그 {#shared-catalogs}
    + [개요](catalog-shared.md)
-   + 공유 카탈로그 정의 {#define}
+   + 공유 카탈로그 {#define} 정의
       + [공유 카탈로그 만들기](catalog-shared-create.md)
       + [공유 카탈로그에 제품 추가](catalog-shared-product-add.md)
       + [카탈로그 가격 및 구조 설정](catalog-shared-pricing-structure.md)

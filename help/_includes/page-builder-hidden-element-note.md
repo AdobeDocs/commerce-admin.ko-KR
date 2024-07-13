@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Page Builder] 숨겨진 요소"
+title: "[!DNL Page Builder]개의 숨겨진 요소"
 description: 숨겨진 요소에 대한 참고 재사용
 source-git-commit: d8eddb226843fe72449f1001bf4bbc8d545f3a6d
 workflow-type: tm+mt
@@ -8,7 +8,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Page Builder] 숨겨진 요소
+# [!DNL Page Builder]개의 숨겨진 요소
 
 >[!NOTE]
 >

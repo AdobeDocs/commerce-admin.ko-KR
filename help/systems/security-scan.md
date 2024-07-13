@@ -22,22 +22,22 @@ ht-degree: 0%
 - 사이트의 진행 상황을 추적 및 모니터링하는 기간별 보안 보고서에 액세스합니다.
 - 모든 권장 작업과 함께 성공 및 실패한 검사를 표시하는 검사 보고서에 액세스합니다.
 
-보안 검색 도구는 의 대시보드에서 무료로 사용할 수 있습니다. [Commerce/Magento 계정](../getting-started/commerce-account-create.md). 기술 정보는 다음을 참조하십시오. [보안 검색 도구 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) 다음에서 _Commerce on Cloud Infrastructure 안내서_.
+보안 검색 도구는 [Commerce/Magento 계정](../getting-started/commerce-account-create.md)의 대시보드에서 무료로 사용할 수 있습니다. 자세한 내용은 _Commerce on Cloud Infrastructure Guide_&#x200B;에서 [보안 검색 도구 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool)을 참조하십시오.
 
-![보안 검색 도구](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+![보안 검사 도구](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## 보안 검사 실행
 
-1. Commerce 홈페이지에서 [Commerce/Magento 계정](../getting-started/commerce-account-create.md).
+1. Commerce 홈페이지에서 [Commerce/Magento 계정](../getting-started/commerce-account-create.md)에 로그인합니다.
 
 1. Security scan 도구에 대한 약관을 검토하고 동의합니다.
 
-   - 왼쪽 패널에서 을 선택합니다 **[!UICONTROL Security Scan]**.
-   - 클릭 **[!UICONTROL Go to Security Scan]**.
-   - 읽기 **[!UICONTROL Terms and Conditions]**.
-   - 클릭 **[!UICONTROL Agree]** 계속합니다.
+   - 왼쪽 패널에서 **[!UICONTROL Security Scan]**&#x200B;을(를) 선택합니다.
+   - **[!UICONTROL Go to Security Scan]**&#x200B;을(를) 클릭합니다.
+   - **[!UICONTROL Terms and Conditions]**&#x200B;을(를) 읽습니다.
+   - 계속하려면 **[!UICONTROL Agree]**&#x200B;을(를) 클릭하십시오.
 
-1. 다음에서 _[!UICONTROL Monitored Websites]_페이지, 클릭&#x200B;**[!UICONTROL +Add Site]**.
+1. _[!UICONTROL Monitored Websites]_페이지에서&#x200B;**[!UICONTROL +Add Site]**을(를) 클릭합니다.
 
    여러 사이트가 있고 도메인이 다른 경우 각 도메인에 대해 별도의 검사를 구성합니다.
 
@@ -47,36 +47,36 @@ ht-degree: 0%
 
    **Commerce 상점**:
 
-   - 다음을 입력합니다. **[!UICONTROL Site URL]** 및 **[!UICONTROL Site Name]**.
-   - 클릭 **[!UICONTROL Generate Confirmation Code]**.
-   - 클릭 **복사** 클립보드에 확인 코드를 복사합니다.
+   - **[!UICONTROL Site URL]** 및 **[!UICONTROL Site Name]**&#x200B;을(를) 입력하십시오.
+   - **[!UICONTROL Generate Confirmation Code]**&#x200B;을(를) 클릭합니다.
+   - 확인 코드를 클립보드에 복사하려면 **복사**&#x200B;를 클릭하십시오.
 
      ![확인 코드 생성](./assets/scan-site1.png){width="400" zoomable="yes"}
 
    - 저장소 관리자에 전체 관리자 권한이 있는 사용자로 로그인하고 다음을 수행합니다.
 
-      - 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
-      - 목록에서 사이트를 찾은 다음 **[!UICONTROL Edit]**.
-      - 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL HTML Head]** 섹션.
-      - 아래로 스크롤하여 **[!UICONTROL Scripts and Style Sheets]** 기존 코드의 끝에 있는 텍스트 상자를 클릭하고 확인 코드를 텍스트 상자에 붙여 넣습니다.
+      - _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+      - 목록에서 사이트를 찾은 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+      - **[!UICONTROL HTML Head]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+      - **[!UICONTROL Scripts and Style Sheets]**(으)로 스크롤하여 기존 코드의 끝에 있는 텍스트 상자를 클릭하고 확인 코드를 텍스트 상자에 붙여 넣습니다.
 
         ![스크립트 및 스타일 시트](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
-      - 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Configuration]**.
+      - 완료되면 **[!UICONTROL Save Configuration]**&#x200B;을(를) 클릭합니다.
 
    **PWA 상점**:
 
-   - 다음을 입력합니다. **[!UICONTROL Site URL]** 및 **[!UICONTROL Site Name]**.
+   - **[!UICONTROL Site URL]** 및 **[!UICONTROL Site Name]**&#x200B;을(를) 입력하십시오.
 
-   - 대상 **[!UICONTROL Confirmation Code]**, 을(를) 선택합니다. `META Tag` 옵션을 선택한 다음 **[!UICONTROL Generate Code]**.
+   - **[!UICONTROL Confirmation Code]**&#x200B;에 대해 `META Tag` 옵션을 선택한 다음 **[!UICONTROL Generate Code]**&#x200B;을(를) 클릭합니다.
 
-   - 클릭 **[!UICONTROL Copy]** 생성된 확인 코드 META Tag 를 클립보드에 복사합니다.
+   - 생성된 확인 코드 META Tag를 클립보드에 복사하려면 **[!UICONTROL Copy]**&#x200B;을(를) 클릭합니다.
 
      ![확인 코드 생성](./assets/scan-site2.png){width="400" zoomable="yes"}
 
    - PWA Studio 상점 프로젝트 디렉토리로 이동하여 다음을 수행합니다.
 
-      - PWA Studio 프로젝트 디렉터리에서 `packages > venia-concept > template.html`.
+      - PWA Studio 프로젝트 디렉터리에서 `packages > venia-concept > template.html`(으)로 이동합니다.
       - 복사된 확인 코드(생성된 META 태그)를 HTML 헤드에 추가하고 변경 사항을 저장합니다.
 
         ![확인 코드 복사](./assets/code-pwa.png){width="600" zoomable="yes"}
@@ -88,7 +88,7 @@ ht-degree: 0%
         yarn build
         ```
 
-      - *클라우드 프로젝트에서*, 만들기 `pwa` storefront 프로젝트 내 콘텐츠 폴더 및 복사 `dist` 폴더를 삭제합니다.
+      - *클라우드 프로젝트에서*&#x200B;을(를) `pwa` 폴더를 만들고 Storefront 프로젝트의 `dist` 폴더 내에 콘텐츠를 복사하세요.
 
         ```sh
         mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
@@ -104,29 +104,29 @@ ht-degree: 0%
 
         빌드 프로세스가 완료되면 변경 사항이 PWA 저장소 전면에 배포됩니다.
 
-1. (으)로 돌아가기 _[!UICONTROL Security Scan]_Commerce 페이지를 만든 다음&#x200B;**[!UICONTROL Verify Confirmation Code]**을 클릭하여 도메인의 소유권을 설정합니다.
+1. Commerce 계정의 _[!UICONTROL Security Scan]_페이지로 돌아가서&#x200B;**[!UICONTROL Verify Confirmation Code]**을(를) 클릭하여 도메인의 소유권을 설정합니다.
 
-1. 확인이 성공하면 을(를) 구성합니다 **[!UICONTROL Set Automatic Security Scan]** 다음 유형 중 하나에 대한 옵션:
+1. 확인 후 다음 유형 중 하나에 대해 **[!UICONTROL Set Automatic Security Scan]** 옵션을 구성합니다.
 
-   **매주 스캔(권장)**:
+   **주별 검사(권장)**:
 
-   - 다음을 선택합니다. **[!UICONTROL Week Day]**, **[!UICONTROL Time]**, 및 **[!UICONTROL Time Zone]** 매주 스캔을 해야 합니다.
+   - 매주 검사할 **[!UICONTROL Week Day]**, **[!UICONTROL Time]** 및 **[!UICONTROL Time Zone]**&#x200B;을(를) 선택하십시오.
    - 기본적으로 스캔은 매주 토요일 자정(UTC)에 시작되고 일요일 초까지 계속되도록 예약되어 있습니다.
 
-     ![매주 스캔](./assets/scan-weekly.png){width="500" zoomable="yes"}
+     ![주별 검사](./assets/scan-weekly.png){width="500" zoomable="yes"}
 
-   **매일 스캔**:
+   **매일 검사**:
 
-   - 다음을 선택합니다. **[!UICONTROL Time]**, 및 **[!UICONTROL Time Zone]** 스캔은 매일 실시해야 합니다.
+   - 매일 검사할 **[!UICONTROL Time]** 및 **[!UICONTROL Time Zone]**&#x200B;을(를) 선택하십시오.
    - 기본적으로 검색은 매일 자정(UTC)에 시작되도록 예약되어 있습니다.
 
-     ![매일 스캔](./assets/scan-daily.png){width="500" zoomable="yes"}
+     ![매일 검사](./assets/scan-daily.png){width="500" zoomable="yes"}
 
-1. 다음을 입력합니다. **[!UICONTROL Email Address]** 완료된 검사 및 보안 업데이트에 대한 알림을 받을 위치입니다.
+1. 완료된 검사 및 보안 업데이트에 대한 알림을 받을 **[!UICONTROL Email Address]**&#x200B;을(를) 입력하십시오.
 
-   ![이메일 주소](./assets/scan-notification-email.png){width="400" zoomable="yes"}
+   ![전자 메일 주소](./assets/scan-notification-email.png){width="400" zoomable="yes"}
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Submit]**.
+1. 완료되면 **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
    도메인의 소유권이 확인되면 사이트가 Commerce 계정의 모니터링되는 웹 사이트 목록에 표시됩니다.
 

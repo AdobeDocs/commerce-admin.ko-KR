@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->애니메이션 GIF 이미지의 최적화는 지원되지 않습니다. 이러한 이미지들은 이미지 최적화 프로세스 후에 이들의 애니메이션을 잃을 수 있다. 이를 방지하려면 애니메이션 GIF 이미지 크기가 [[!UICONTROL Media Gallery Image Optimization] 구성 설정](../content-design/media-gallery-image-optimization.md).
+>애니메이션 GIF 이미지의 최적화는 지원되지 않습니다. 이러한 이미지들은 이미지 최적화 프로세스 후에 이들의 애니메이션을 잃을 수 있다. 이를 방지하려면 애니메이션 GIF 이미지 크기가 [[!UICONTROL Media Gallery Image Optimization] 구성 설정에 정의된 최대 너비 및 높이](../content-design/media-gallery-image-optimization.md) 미만인지 확인하십시오.

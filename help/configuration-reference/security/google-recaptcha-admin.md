@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel]'
-description: 에서 구성 설정을 검토합니다. [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] 상거래 관리자의 페이지입니다.
+description: Commerce 관리자의 [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] 페이지에서 구성 설정을 검토하십시오.
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Google reCAPTCHA를 구성하려면 먼저 다음을 확인해야 합니다. `PHP.ini` 파일에는 다음 설정이 포함되어 있습니다. `allow_url_fopen = 1`. 이 경우 개발자 지원이 필요할 수 있습니다. 다음을 참조하십시오 [필수 PHP 설정](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) 다음에서 _설치 안내서_.
+>Google reCAPTCHA를 구성하려면 `PHP.ini` 파일에 다음 설정이 포함되어 있는지 확인해야 합니다. `allow_url_fopen = 1`. 이 경우 개발자 지원이 필요할 수 있습니다. _설치 안내서_&#x200B;의 [필수 PHP 설정](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html)을 참조하세요.
 
 {{config}}
 
-이러한 설정 변경에 대한 자세한 내용은 [Google recaptcha](../../systems/security-google-recaptcha.md) 다음에서 _관리 시스템 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [Google reCAPTCHA](../../systems/security-google-recaptcha.md)을(를) 참조하십시오.
 
 ## [!UICONTROL reCAPTCHA v2 ("I am not a robot")]
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 |--|--|--|
 | [!UICONTROL Google API Website Key] | 글로벌 | Google reCAPTCHA 계정을 등록할 때 생성되는 웹 사이트 키입니다. |
 | [!UICONTROL Google API Secret Key] | 글로벌 | Google reCAPTCHA 계정과 연결된 비밀 키. |
-| [!UICONTROL Size] | 글로벌 | 로그인 중에 표시되는 Google reCAPTCHA 상자의 크기입니다. 옵션: `Normal` (기본값) / `Compact` |
-| [!UICONTROL Theme] | 글로벌 | Google reCAPTCHA 상자의 스타일을 결정합니다. 옵션: `Light Theme` (기본값) / `Dark Theme` |
-| [!UICONTROL Language Code] | 글로벌 | A [문자 코드](https://developers.google.com/recaptcha/docs/language) Google reCAPTCHA 텍스트 및 메시징에 사용되는 언어를 지정합니다. |
+| [!UICONTROL Size] | 글로벌 | 로그인 중에 표시되는 Google reCAPTCHA 상자의 크기입니다. 옵션: `Normal`(기본값) / `Compact` |
+| [!UICONTROL Theme] | 글로벌 | Google reCAPTCHA 상자의 스타일을 결정합니다. 옵션: `Light Theme`(기본값) / `Dark Theme` |
+| [!UICONTROL Language Code] | 글로벌 | Google reCAPTCHA 텍스트 및 메시징에 사용되는 언어를 지정하는 [2자 코드](https://developers.google.com/recaptcha/docs/language). |
 
 {style="table-layout:auto"}
 
@@ -43,8 +43,8 @@ ht-degree: 0%
 | [!UICONTROL Google API Website Key] | 글로벌 | Google reCAPTCHA 계정을 등록할 때 생성되는 웹 사이트 키입니다. |
 | [!UICONTROL Google API Secret Key] | 글로벌 | Google reCAPTCHA 계정과 연결된 비밀 키. |
 | [!UICONTROL Invisible Badge Position] | 글로벌 | 각 페이지에서 보이지 않는 reCAPTCHA 배지의 위치입니다. 옵션: `Inline` / `Bottom Right` / `Bottom Left` |
-| [!UICONTROL Theme] | 글로벌 | Google reCAPTCHA 상자의 스타일을 결정합니다. 옵션: `Light Theme` (기본값) / `Dark Theme` |
-| [!UICONTROL Language Code] | 글로벌 | A [문자 코드](https://developers.google.com/recaptcha/docs/language) Google reCAPTCHA 텍스트 및 메시징에 사용되는 언어를 지정합니다. |
+| [!UICONTROL Theme] | 글로벌 | Google reCAPTCHA 상자의 스타일을 결정합니다. 옵션: `Light Theme`(기본값) / `Dark Theme` |
+| [!UICONTROL Language Code] | 글로벌 | Google reCAPTCHA 텍스트 및 메시징에 사용되는 언어를 지정하는 [2자 코드](https://developers.google.com/recaptcha/docs/language). |
 
 {style="table-layout:auto"}
 
@@ -58,8 +58,8 @@ ht-degree: 0%
 | [!UICONTROL Google API Secret Key] | 글로벌 | Google reCAPTCHA 계정과 연결된 비밀 키. |
 | [!UICONTROL Minimum Score Threshold] | 글로벌 | 사용자 상호 작용을 잠재적 위험으로 식별하는 최소 점수입니다. 여기서 1.0은 일반적인 사용자 상호 작용이고 0.0은 봇일 수 있습니다. 기본값: `0.5` |
 | [!UICONTROL Invisible Badge Position] | 글로벌 | 각 페이지에서 보이지 않는 reCAPTCHA 배지의 위치입니다. 옵션: `Inline` / `Bottom Right` / `Bottom Left` |
-| [!UICONTROL Theme] | 글로벌 | Google reCAPTCHA 상자의 스타일을 결정합니다. 옵션: `Light Theme` (기본값) / `Dark Theme` |
-| [!UICONTROL Language Code] | 글로벌 | A [문자 코드](https://developers.google.com/recaptcha/docs/language) Google reCAPTCHA 텍스트 및 메시징에 사용되는 언어를 지정합니다. |
+| [!UICONTROL Theme] | 글로벌 | Google reCAPTCHA 상자의 스타일을 결정합니다. 옵션: `Light Theme`(기본값) / `Dark Theme` |
+| [!UICONTROL Language Code] | 글로벌 | Google reCAPTCHA 텍스트 및 메시징에 사용되는 언어를 지정하는 [2자 코드](https://developers.google.com/recaptcha/docs/language). |
 
 {style="table-layout:auto"}
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Admin Panel]
 
-![관리 패널](./assets/recaptcha-admin-panel.png)<!-- zoom -->
+![관리자 패널](./assets/recaptcha-admin-panel.png)<!-- zoom -->
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--|--|--|
-| [!UICONTROL Enable for Login] | 글로벌 | 다음에 대해 사용할 수 있는 reCAPTCHA 형식을 결정합니다. [관리자 로그인](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). 옵션:<br/>**`No`**- (기본값) 관리자 로그인의 유효성을 검사하지 않습니다.<br />**`reCAPTCHA v2 ("I am not a robot")`** - 사용자가 다음을 선택해야 합니다. _난 로봇이 아니야_ 확인란.<br />**`Invisible reCAPTCHA v2`**- 점수를 기반으로 상호 작용하지 않고 백그라운드에서 사용자 행동을 확인합니다.<br/>**`Invisible reCAPTCHA v3`** - (권장) 상호 작용 점수를 기반으로 백그라운드에서 사용자 행동을 확인합니다. |
-| [!UICONTROL Enable for Forgot Password] | 글로벌 | 요청을 위해 사용할 수 있는 reCAPTCHA의 유형을 결정합니다. [관리자 암호 재설정](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). 옵션:<br/>**`No`**- (기본값) 암호 재설정 요청의 유효성을 검사하지 않습니다.<br />**`reCAPTCHA v2 ("I am not a robot")`** - 사용자가 다음을 선택해야 합니다. _난 로봇이 아니야_ 확인란.<br />**`Invisible reCAPTCHA v2`**- 점수를 기반으로 상호 작용하지 않고 백그라운드에서 사용자 행동을 확인합니다.<br/>**`Invisible reCaptcha v3`** - (권장) 상호 작용 점수를 기반으로 백그라운드에서 사용자 행동을 확인합니다. |
+| [!UICONTROL Enable for Login] | 글로벌 | [관리자 로그인](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html)에 사용할 수 있는 reCAPTCHA의 유형을 결정합니다. 옵션:<br/>**`No`**- (기본값) 관리자 로그인의 유효성을 검사하지 않습니다.<br />**`reCAPTCHA v2 ("I am not a robot")`** - 사용자가 _로봇이 아닙니다_ 확인란을 선택해야 합니다.<br />**`Invisible reCAPTCHA v2`**- 점수를 기반으로 상호 작용하지 않고 백그라운드에서 사용자 동작을 확인합니다.<br/>**`Invisible reCAPTCHA v3`** - (권장) 상호 작용 점수를 기반으로 백그라운드에서 사용자 동작을 확인합니다. |
+| [!UICONTROL Enable for Forgot Password] | 글로벌 | [관리자 암호 재설정](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password)을 요청할 수 있는 reCAPTCHA의 유형을 결정합니다. 옵션:<br/>**`No`**- (기본값) 암호 재설정 요청의 유효성을 검사하지 않습니다.<br />**`reCAPTCHA v2 ("I am not a robot")`** - 사용자가 _로봇이 아닙니다_ 확인란을 선택해야 합니다.<br />**`Invisible reCAPTCHA v2`**- 점수를 기반으로 상호 작용하지 않고 백그라운드에서 사용자 동작을 확인합니다.<br/>**`Invisible reCaptcha v3`** - (권장) 상호 작용 점수를 기반으로 백그라운드에서 사용자 동작을 확인합니다. |
 
 {style="table-layout:auto"}

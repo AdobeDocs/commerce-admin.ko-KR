@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs]'
-description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] 상거래 관리자의 페이지입니다.
+description: Commerce 관리자의 [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] 페이지에서 구성 설정을 검토하십시오.
 exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 feature: Configuration, Orders
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf

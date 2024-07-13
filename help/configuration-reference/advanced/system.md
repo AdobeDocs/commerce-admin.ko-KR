@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Advanced] &gt; [!UICONTROL System]'
-description: 에서 구성 설정을 검토합니다. [!UICONTROL Advanced] &gt; [!UICONTROL System] 상거래 관리자의 페이지입니다.
+description: Commerce 관리자의 [!UICONTROL Advanced] &gt; [!UICONTROL System] 페이지에서 구성 설정을 검토하십시오.
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 ![고급 구성 - Cron(예약된 작업)](./assets/system-cron.png)<!-- zoom -->
 
-이러한 구성 설정 변경에 대한 자세한 내용은 [크론(예약된 작업)](../../systems/cron.md).
+이러한 구성 설정 변경에 대한 자세한 내용은 [Cron(예약된 작업)](../../systems/cron.md)을 참조하십시오.
 
 ### [!UICONTROL index]
 
-![고급 구성 - Cron 그룹: 색인](./assets/system-cron-group-index.png)<!-- zoom -->
+![고급 구성 - 크론 그룹: 인덱스](./assets/system-cron-group-index.png)<!-- zoom -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -61,10 +61,10 @@ ht-degree: 1%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Successful Messages Lifetime] | 글로벌 | 성공한 메시지의 라이프타임(분)을 결정합니다. 정리를 건너뛰려면 0을 입력합니다. 기본값: `10080` (7일) |
-| [!UICONTROL New Messages Lifetime] | 글로벌 | 새 메시지의 라이프타임(분)을 결정합니다. 정리를 건너뛰려면 0을 입력합니다. 기본값: `10080` (7일) |
-| [!UICONTROL Failed Messages Lifetime] | 글로벌 | 실패한 메시지의 라이프타임(분)을 결정합니다. 정리를 건너뛰려면 0을 입력합니다. 기본값: `10080` (7일) |
-| [!UICONTROL Retry Messages in Progress After] | 글로벌 | 시스템이 다시 시도하기 전에 진행 중인 메시지를 기다리는 시간을 결정합니다. 기본값: `1440` (24시간) |
+| [!UICONTROL Successful Messages Lifetime] | 글로벌 | 성공한 메시지의 라이프타임(분)을 결정합니다. 정리를 건너뛰려면 0을 입력합니다. 기본값: `10080`(7일) |
+| [!UICONTROL New Messages Lifetime] | 글로벌 | 새 메시지의 라이프타임(분)을 결정합니다. 정리를 건너뛰려면 0을 입력합니다. 기본값: `10080`(7일) |
+| [!UICONTROL Failed Messages Lifetime] | 글로벌 | 실패한 메시지의 라이프타임(분)을 결정합니다. 정리를 건너뛰려면 0을 입력합니다. 기본값: `10080`(7일) |
+| [!UICONTROL Retry Messages in Progress After] | 글로벌 | 시스템이 다시 시도하기 전에 진행 중인 메시지를 기다리는 시간을 결정합니다. 기본값: `1440`(24시간) |
 
 {style="table-layout:auto"}
 
@@ -72,11 +72,11 @@ ht-degree: 1%
 
 ![고급 구성 - 메일 전송 설정](./assets/system-mail-sending-settings.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [이메일 커뮤니케이션 구성](../../systems/email-communications.md) 다음에서 _관리 시스템 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [전자 메일 통신 구성](../../systems/email-communications.md)을 참조하십시오.
 
 >[!IMPORTANT]
 >
->**보안 알림** 모든 판매자는 최근에 식별된 잠재적인 원격 코드 실행 악용으로부터 보호하기 위해 메일 전송 구성을 즉시 설정하는 것이 좋습니다. 이 문제가 해결될 때까지 사용을 피하는 것이 좋습니다 [!DNL Sendmail] 이메일 통신용. 다음에서 [!UICONTROL Mail Sending Settings], 다음을 확인합니다. [!UICONTROL Set Return Path] 이(가) (으)로 설정됨 `No`.
+>**보안 알림** 최근에 식별된 잠재적인 원격 코드 실행 악용으로부터 보호하기 위해 모든 판매자가 메일 전송 구성을 즉시 설정하는 것이 좋습니다. 이 문제가 해결될 때까지 전자 메일 통신에 [!DNL Sendmail]을(를) 사용하지 않는 것이 좋습니다. [!UICONTROL Mail Sending Settings]에서 [!UICONTROL Set Return Path]이(가) `No`(으)로 설정되어 있는지 확인하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -107,11 +107,11 @@ ht-degree: 1%
 
 ![고급 구성 - 통화](./assets/system-currency.png)<!-- zoom -->
 
-이 설정을 변경하는 방법에 대한 자세한 내용은 [통화 구성](../../stores-purchase/currency-configuration.md) 다음에서 _경험 저장 및 구매 안내서_.
+이 설정을 변경하는 방법에 대한 자세한 내용은 _저장 및 구매 경험 안내서_&#x200B;에서 [통화 구성](../../stores-purchase/currency-configuration.md)을 참조하세요.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Installed Currencies] | 글로벌 | Commerce 설치에 현재 사용할 수 있는 통화를 나타냅니다. 옵션에는 설치된 통화가 선택된 사용 가능한 모든 통화가 포함됩니다. |
+| [!UICONTROL Installed Currencies] | 글로벌 | 현재 Commerce 설치에 사용할 수 있는 통화를 나타냅니다. 옵션에는 설치된 통화가 선택된 사용 가능한 모든 통화가 포함됩니다. |
 
 {style="table-layout:auto"}
 
@@ -119,12 +119,12 @@ ht-degree: 1%
 
 ![고급 구성 - 보안](./assets/system-security.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [세션 관리](../../systems/security-session-management.md) 다음에서 _관리 시스템 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [세션 관리](../../systems/security-session-management.md)를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Max Session Size in Admin] | 글로벌 | 최대 세션 크기를 바이트 단위로 제한합니다. 사용 `0` 비활성화합니다. |
-| [!UICONTROL Max Session Size in Storefront] | 글로벌 | 최대 세션 크기를 바이트 단위로 제한합니다. 사용 `0` 비활성화합니다. |
+| [!UICONTROL Max Session Size in Admin] | 글로벌 | 최대 세션 크기를 바이트 단위로 제한합니다. `0`을(를) 사용하여 비활성화하십시오. |
+| [!UICONTROL Max Session Size in Storefront] | 글로벌 | 최대 세션 크기를 바이트 단위로 제한합니다. `0`을(를) 사용하여 비활성화하십시오. |
 
 {style="table-layout:auto"}
 
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 ![고급 구성 - 알림](./assets/system-notifications.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [시스템 알림](../../systems/notifications.md) 다음에서 _관리 시스템 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [시스템 알림](../../systems/notifications.md)을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -148,16 +148,16 @@ ht-degree: 1%
 
 {{$include /help/_includes/backups-note.md}}
 
-이러한 설정 변경에 대한 자세한 내용은 [시스템 백업](../../systems/backups.md) 다음에서 _관리 시스템 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [시스템 백업](../../systems/backups.md)을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | 글로벌 | Commerce 인스턴스에서 백업을 허용하는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | 글로벌 | (다음의 경우에 표시됨) _[!UICONTROL Enable Backup]_이(가) (으)로 설정됨 `Yes`.) 상거래 인스턴스가 정기적인 일정에 따라 자동으로 백업되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | 글로벌 | (다음의 경우에 표시됨) _[!UICONTROL Enable Scheduled Backup]_이(가) (으)로 설정됨 `Yes`.) 백업에 포함된 상거래 인스턴스 요소를 결정합니다. 옵션: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | 글로벌 | (다음의 경우에 표시됨) [!UICONTROL Enable Scheduled Backup] 이(가) (으)로 설정됨 `Yes`.) 스케줄 지정 백업이 시작되는 시간, 분, 초를 지정합니다. |
-| [!UICONTROL Frequency] | 글로벌 | (다음의 경우에 표시됨) [!UICONTROL Enable Scheduled Backup] 이(가) (으)로 설정됨 `Yes`.) 스케줄 지정 백업이 수행되는 빈도를 결정합니다. 옵션: `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | 글로벌 | (다음의 경우에 표시됨) [!UICONTROL Enable Scheduled Backup] 이(가) (으)로 설정됨 `Yes`.) 예약된 백업 중에 저장소가 유지 관리 모드에 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | 글로벌 | (_[!UICONTROL Enable Backup]_이(가) `Yes`(으)로 설정된 경우 표시됩니다.) Commerce 인스턴스가 정기적으로 자동 백업되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | 글로벌 | (_[!UICONTROL Enable Scheduled Backup]_이(가) `Yes`(으)로 설정된 경우 표시됩니다.) 백업에 포함된 Commerce 인스턴스 요소를 결정합니다. 옵션: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | 글로벌 | ([!UICONTROL Enable Scheduled Backup]이(가) `Yes`(으)로 설정된 경우 표시됩니다.) 스케줄 지정 백업이 시작되는 시간, 분, 초를 지정합니다. |
+| [!UICONTROL Frequency] | 글로벌 | ([!UICONTROL Enable Scheduled Backup]이(가) `Yes`(으)로 설정된 경우 표시됩니다.) 스케줄 지정 백업이 수행되는 빈도를 결정합니다. 옵션: `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | 글로벌 | ([!UICONTROL Enable Scheduled Backup]이(가) `Yes`(으)로 설정된 경우 표시됩니다.) 예약된 백업 중에 저장소가 유지 관리 모드에 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -167,7 +167,7 @@ ht-degree: 1%
 
 ![고급 구성 - 관리 작업 로그 보관](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [작업 로그 아카이브](../../systems/action-log-archive.md) 다음에서 _관리 시스템 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [작업 로그 보관](../../systems/action-log-archive.md)을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -180,7 +180,7 @@ ht-degree: 1%
 
 ![고급 구성 - 전체 페이지 캐시](./assets/system-full-page-cache.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [전체 페이지 캐싱](../../systems/cache-management.md#full-page-caching) 다음에서 _관리 시스템 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [전체 페이지 캐싱](../../systems/cache-management.md#full-page-caching)을 참조하십시오.
 
 ![고급 구성 - 바니시 구성](./assets/system-full-page-cache-varnish.png)<!-- zoom -->
 
@@ -188,24 +188,24 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | 글로벌 | 전체 페이지 캐시를 관리하는 데 사용할 응용 프로그램을 결정합니다. 옵션: <br/>**`Built-in Application`**- 프로덕션 환경에는 권장되지 않습니다.<br/>**`Varnish Caching`** - 프로덕션 환경에 권장됩니다. |
 | [!UICONTROL TTL for public content] | 글로벌 | 공개 콘텐츠 캐시의 라이프타임(초)을 결정합니다. 기본값: `120` |
-| [!UICONTROL Handles param size] | 글로벌 | 의 최대 수를 지정합니다. [레이아웃 핸들](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) 을(를) 처리하려면 [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP 엔드포인트. 크기를 제한하면 보안과 성능을 향상시킬 수 있습니다. 기본값: `100` |
+| [!UICONTROL Handles param size] | 글로벌 | [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP 끝점에서 처리할 최대 [레이아웃 핸들](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) 수를 지정합니다. 크기를 제한하면 보안과 성능을 향상시킬 수 있습니다. 기본값: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | 글로벌 | 구성 파일을 생성하기 위해 바니시 구성을 제거할 수 있는 IP 주소를 지정합니다. 여러 항목은 쉼표로 구분하십시오. 기본값: `localhost` |
 | [!UICONTROL Backend host] | 글로벌 | 구성 파일을 생성하는 백엔드 호스트를 지정합니다. 기본값: `localhost` |
 | [!UICONTROL Backend port] | 글로벌 | 구성 파일을 생성하는 데 사용되는 백엔드 포트를 지정합니다. 기본값: `8080` |
 | [!UICONTROL Grace period] | 글로벌 | 백엔드가 응답하지 않는 경우 Vannish가 오래된 콘텐츠를 제공하는 기간을 결정합니다. 기본값: `300` |
 | **[!UICONTROL Export Configuration]** |  |  |
-| [!UICONTROL Export VCL for Varnish 4] | 글로벌 | 내보내기 `varnish.vcl` 버전 4용 파일입니다. |
-| [!UICONTROL Export VCL for Varnish 5] | 글로벌 | 내보내기 `varnish.vcl` 버전 5용 파일입니다. |
-| [!UICONTROL Export VCL for Varnish 6] | 글로벌 | 내보내기 `varnish.vcl` 버전 6용 파일입니다. |
+| [!UICONTROL Export VCL for Varnish 4] | 글로벌 | 버전 4의 `varnish.vcl` 파일을 내보냅니다. |
+| [!UICONTROL Export VCL for Varnish 5] | 글로벌 | 버전 5의 `varnish.vcl` 파일을 내보냅니다. |
+| [!UICONTROL Export VCL for Varnish 6] | 글로벌 | 버전 6의 `varnish.vcl` 파일을 내보냅니다. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Storage Configuration for Media]
 
-![고급 구성 - 미디어 스토리지 구성 - 파일 시스템](./assets/system-storage-config-media.png)<!-- zoom -->
+![고급 구성 - 미디어 - 파일 시스템에 대한 저장소 구성](./assets/system-storage-config-media.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [미디어 데이터베이스 사용](../../content-design/media-storage-database.md) 다음에서 _콘텐츠 및 디자인 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _콘텐츠 및 디자인 가이드_&#x200B;에서 [미디어 데이터베이스 사용](../../content-design/media-storage-database.md)을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -214,7 +214,7 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
-![고급 구성 - 미디어 스토리지 구성 - 데이터베이스](./assets/database-storage-deprecated.png)<!-- zoom -->
+![고급 구성 - 미디어 - 데이터베이스에 대한 저장소 구성](./assets/database-storage-deprecated.png)<!-- zoom -->
 
 >[!IMPORTANT]
 >
@@ -235,11 +235,11 @@ ht-degree: 1%
 
 ![고급 구성 - 일괄 작업](./assets/system-bulk-actions.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [대량 작업](../../systems/action-log-bulk-actions.md) 다음에서 _관리 시스템 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [일괄 작업](../../systems/action-log-bulk-actions.md)을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Days Saved in Log] | 글로벌 | 대량 작업이 다음에서 유지되는 일 수를 결정합니다. _대량 작업 로그_ 보관. 기본값: `60` |
+| [!UICONTROL Days Saved in Log] | 글로벌 | 일괄 작업이 _일괄 작업 로그_ 보관 파일에 보관되는 일 수를 결정합니다. 기본값: `60` |
 
 {style="table-layout:auto"}
 
@@ -247,9 +247,9 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-![고급 구성 - 예약된 가져오기/내보내기 파일 내역 정리](./assets/system-schedule-history-cleaning.png)<!-- zoom -->
+![고급 구성 - 예약된 가져오기/내보내기 파일 기록 정리](./assets/system-schedule-history-cleaning.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [예약된 가져오기 및 내보내기](../../systems/data-scheduled-import-export.md) 다음에서 _관리 시스템 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [예약된 가져오기 및 내보내기](../../systems/data-scheduled-import-export.md)를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -259,7 +259,7 @@ ht-degree: 1%
 | [!UICONTROL Start Time] | 글로벌 | 가져오기/내보내기 기록 파일 정리의 시간, 분, 초를 지정합니다. |
 | [!UICONTROL Frequency] | 글로벌 | 가져오기/내보내기 기록 파일을 정리하는 빈도를 결정합니다. 옵션: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Error Email Recipient] | 글로벌 | 파일 가져오기/내보내기 기록을 정리하는 동안 오류가 발생할 경우 알림을 받을 사람의 이메일 주소입니다. 여러 주소는 쉼표로 구분합니다. |
-| [!UICONTROL Error Email Sender] | 글로벌 | 알림을 보낸 사람으로 표시되는 스토어 연락처를 식별합니다. 기본 발신자: `General Contact` |
+| [!UICONTROL Error Email Sender] | 글로벌 | 알림을 보낸 사람으로 표시되는 스토어 연락처를 식별합니다. 기본 보낸 사람: `General Contact` |
 | [!UICONTROL Error Email Template] | 글로벌 | 가져오기/내보내기 파일 정리 오류 알림에 사용되는 이메일 템플릿을 식별합니다. 기본 템플릿: `File History Clean Failed` |
 
 {style="table-layout:auto"}
@@ -273,7 +273,7 @@ ht-degree: 1%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Quality] | 글로벌 | 크기 조정된 이미지의 JPG 품질을 결정합니다. 품질이 낮을수록 파일 크기가 줄어듭니다. 고품질로 파일 크기를 줄이려면 80~90%를 사용하십시오. 기본값: `80` |
-| [!UICONTROL Enable Frontend Resize] | 글로벌 | 이 설정을 활성화하여 Commerce에서 다음에 대해 업로드할 수 있는 대형 이미지 크기를 조정할 수 있습니다. _제품 세부 사항_ 페이지를 가리키도록 업데이트하는 중입니다. Commerce는 파일을 업로드하기 전에 JavaScript를 사용하여 이미지 파일의 크기를 조정합니다. 이미지 크기를 조정할 때 [최대 폭] 또는 [최대 높이]의 가장 큰 크기를 초과하지 않는 정확한 비율을 유지합니다. 기본값: `Yes` |
+| [!UICONTROL Enable Frontend Resize] | 글로벌 | 이 설정을 사용하면 _제품 세부 정보_ 페이지에 대해 업로드할 수 있는 큰 크기의 Commerce 이미지 크기를 조정할 수 있습니다. Commerce은 파일을 업로드하기 전에 JavaScript을 사용하여 이미지 파일의 크기를 조정합니다. 이미지 크기를 조정할 때 [최대 폭] 또는 [최대 높이]의 가장 큰 크기를 초과하지 않는 정확한 비율을 유지합니다. 기본값: `Yes` |
 | [!UICONTROL Maximum Width] | 글로벌 | 이미지의 최대 픽셀 너비를 결정합니다. 이미지 크기를 조정할 때 이 너비를 초과하지 않습니다. 기본값: `1920` |
 | [!UICONTROL Maximum Height] | 글로벌 | 이미지의 최대 픽셀 높이를 결정합니다. 이미지 크기를 조정할 때 이 높이를 초과하지 않습니다. 기본값: `1200` |
 
@@ -305,7 +305,7 @@ ht-degree: 1%
 
 ![고급 구성 - Adobe Stock 통합](./assets/system-adobe-stock-integration.png)<!-- zoom -->
 
-이러한 설정 구성에 대한 자세한 내용은 [Adobe Stock 통합](../../content-design/adobe-stock.md) 다음에서 _콘텐츠 및 디자인 안내서_.
+이러한 설정 구성에 대한 자세한 내용은 _콘텐츠 및 디자인 가이드_&#x200B;에서 [Adobe Stock 통합](../../content-design/adobe-stock.md)을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

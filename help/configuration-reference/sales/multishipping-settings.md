@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings]'
-description: 에서 구성 설정을 검토합니다. [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] 상거래 관리자의 페이지입니다.
+description: Commerce 관리자의 [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 {{config}}
 
-스토어에 대해 이러한 다중 배송 설정을 구성하는 방법에 대한 자세한 내용은 [여러 주소](../../stores-purchase/shipping-settings.md#multiple-addresses).
+스토어에 대해 이러한 다중 배송 설정을 구성하는 방법에 대한 자세한 내용은 [여러 주소](../../stores-purchase/shipping-settings.md#multiple-addresses)를 참조하십시오.
 
 ## [!UICONTROL Options]
 
@@ -31,4 +31,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->![Adobe Commerce](../../assets/b2b.svg) (Adobe Commerce B2B에서만 사용 가능) 여러 배송 주소가 있는 주문의 경우 [계정입금](../../b2b/enable-basic-features.md#configure-payment-on-account) 결제 방법은 활성화된 경우에도 체크아웃 중에는 사용할 수 없습니다.
+>![Adobe Commerce B2B](../../assets/b2b.svg)(Adobe Commerce B2B에서만 사용 가능) 배송 주소가 여러 개인 주문의 경우 [계정에서 결제](../../b2b/enable-basic-features.md#configure-payment-on-account) 결제 방법이 활성화되어 있더라도 체크아웃 중에는 사용할 수 없습니다.

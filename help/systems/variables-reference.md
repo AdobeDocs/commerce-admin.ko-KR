@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 변수 참조
 
-가장 [이메일 템플릿](email-template-custom.md) 의 섹션 있음 [사전 정의된 변수](variables-predefined.md) 템플릿에만 해당됩니다. 다음 목록에는 자주 사용되는 이메일 템플릿과 관련 변수의 예가 포함되어 있습니다.
+대부분의 [전자 메일 템플릿](email-template-custom.md)에는 해당 템플릿에 해당하는 [미리 정의된 변수](variables-predefined.md) 섹션이 있습니다. 다음 목록에는 자주 사용되는 이메일 템플릿과 관련 변수의 예가 포함되어 있습니다.
 
 ## 이메일 템플릿 변수
 

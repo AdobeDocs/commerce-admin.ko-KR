@@ -18,67 +18,67 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->타깃팅된 규칙에서 사용할 속성의 경우 [_[!UICONTROL Use for Promo Rule Conditions]_](../catalog/product-attributes.md) 속성을 다음으로 설정해야 합니다. `Yes`.
+>특성을 대상 규칙에 사용하려면 [_[!UICONTROL Use for Promo Rule Conditions]_](../catalog/product-attributes.md) 속성을 `Yes`(으)로 설정해야 합니다.
 
 >[!NOTE]
 >
->다음 `All Store Views` 범위 값은 항상 다음 모두에 사용됩니다. [!UICONTROL Products to Match] 및 [!UICONTROL Products to Display] 모든 제품 속성에 대한 조건. 이는 제품 속성이 서로 다른 스토어 조회수 및 웹 사이트에 대해 서로 다른 값을 갖는 경우에도 적용됩니다.
+>`All Store Views` 범위 값은 항상 모든 제품 특성에 대한 [!UICONTROL Products to Match] 및 [!UICONTROL Products to Display] 조건에 모두 사용됩니다. 이는 제품 속성이 서로 다른 스토어 조회수 및 웹 사이트에 대해 서로 다른 값을 갖는 경우에도 적용됩니다.
 
 ## 관련 제품 규칙 만들기
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**(으)로 이동합니다.
 
-1. 오른쪽 위 모서리에서 을(를) 클릭합니다. **[!UICONTROL Add Rule]**.
+1. 오른쪽 상단에서 **[!UICONTROL Add Rule]**&#x200B;을(를) 클릭합니다.
 
    ![관련 제품 규칙 - 정보](./assets/catalog-related-products-rule-information.png){width="600" zoomable="yes"}
 
-1. 다음을 완료합니다. **[!UICONTROL Rule Information]** 다음과 같이:
+1. 다음과 같이 **[!UICONTROL Rule Information]**&#x200B;을(를) 완료합니다.
 
-   - 입력 **[!UICONTROL Rule Name]** 관리자 작업 시 규칙을 식별합니다.
+   - 관리자에서 작업할 때 규칙을 식별할 **[!UICONTROL Rule Name]**&#x200B;을(를) 입력하십시오.
 
-   - 대상 **[!UICONTROL Priority]**&#x200B;다른 규칙의 결과가 동일한 위치를 대상으로 할 때 페이지에 결과가 표시되는 순서를 결정하는 숫자를 입력합니다. 숫자 `1` 은(는) 최우선 순위입니다.
+   - **[!UICONTROL Priority]**&#x200B;에 대해 다른 규칙의 결과가 동일한 위치를 대상으로 할 때 페이지에 결과가 나타나는 순서를 결정하는 숫자를 입력합니다. `1` 번호는 최우선 순위입니다.
 
-   - 규칙을 활성화하려면 다음을 설정하십시오. **[!UICONTROL Status]** 끝 `Active`.
+   - 규칙을 사용하려면 **[!UICONTROL Status]**&#x200B;을(를) `Active`(으)로 설정하십시오.
 
-   - 설정 **[!UICONTROL Apply To]** 다음 중 하나를 수행합니다.
+   - **[!UICONTROL Apply To]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
       - `Related Products`
       - `Up-sells`
       - `Cross-sells`
 
-   - 특정 시간 범위 동안 규칙을 활성화하려면 **[!UICONTROL From]** 및 **[!UICONTROL To]** 날짜.
+   - 특정 시간 범위 동안 규칙을 활성화하려면 **[!UICONTROL From]** 및 **[!UICONTROL To]** 날짜를 입력하십시오.
 
-   - 대상 **[!UICONTROL Result Limit]**&#x200B;결과 목록에 표시할 레코드 수를 입력합니다. 최대 숫자는 20입니다.
+   - **[!UICONTROL Result Limit]**&#x200B;의 경우 결과 목록에 표시할 레코드 수를 입력하십시오. 최대 숫자는 20입니다.
 
-   - 규칙이 특정 [고객 세그먼트](../customers/customer-segments.md), 설정됨 **[!UICONTROL Customer Segments]** 끝 `Specified` 목록에서 고객 세그먼트를 선택합니다.
+   - 규칙이 특정 [고객 세그먼트](../customers/customer-segments.md)에 적용되는 경우 **[!UICONTROL Customer Segments]**&#x200B;을(를) `Specified`(으)로 설정하고 목록에서 고객 세그먼트를 선택하십시오.
 
-   - 규칙이 특정 [Real-Time CDP 대상](../customers/audience-activation.md), 설정됨 **[!UICONTROL Real-Time CDP Audience]** 끝 `Specified` 목록에서 Real-Time CDP 대상자를 선택합니다. 이 기능은 Beta 버전입니다. Beta 프로그램에 참여하려면 다음 대상에게 요청을 전송하십시오. [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - 규칙이 특정 [Real-Time CDP 대상](../customers/audience-activation.md)에 적용되는 경우 **[!UICONTROL Real-Time CDP Audience]**&#x200B;을(를) `Specified`(으)로 설정하고 목록에서 Real-Time CDP 대상을 선택하십시오. 이 기능은 Beta 버전입니다. Beta 프로그램에 참여하려면 [dataconnection@adobe.com](mailto:dataconnection@adobe.com)(으)로 요청을 보내십시오.
 
      ![관련 제품 규칙 - Real-Time CDP 대상](./assets/rtcdp-related-products.png){width="500"}
 
-1. 왼쪽 패널에서 을 선택합니다 **[!UICONTROL Products to Match]** 에 대해 원하는 대로 조건을 빌드합니다. [카탈로그 가격 규칙](price-rules-catalog.md).
+1. 왼쪽 패널에서 **[!UICONTROL Products to Match]**&#x200B;을(를) 선택하고 [카탈로그 가격 규칙](price-rules-catalog.md)과 같은 조건을 만듭니다.
 
    ![관련 제품 규칙 - 일치하는 제품](./assets/catalog-related-products-match.png){width="500"}
 
-1. 왼쪽 패널에서 을 선택합니다 **[!UICONTROL Products to Display]** 에 대해 원하는 대로 결과 조건을 빌드합니다. [카탈로그 가격 규칙](price-rules-catalog.md).
+1. 왼쪽 패널에서 **[!UICONTROL Products to Display]**&#x200B;을(를) 선택하고 [카탈로그 가격 규칙](price-rules-catalog.md)과 같은 결과 조건을 만듭니다.
 
    ![관련 제품 규칙 - 표시할 제품](./assets/catalog-related-products-to-display.png){width="500"}
 
    표시된 결과에 포함할 제품을 설명하는 조건을 완료합니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]**.
+1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 관련 제품 규칙 삭제
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Related Product Rules]**(으)로 이동합니다.
 
 1. 삭제할 관련 제품 규칙을 찾습니다.
 
 1. 규칙을 클릭하여 세부 정보 페이지를 엽니다.
 
-1. 오른쪽 위 모서리에서 **[!UICONTROL Delete]**.
+1. 오른쪽 상단 모서리에서 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
-1. 작업을 확인하려면 다음을 클릭합니다. **[!UICONTROL OK]**.
+1. 작업을 확인하려면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
 ## 관련 제품 규칙 데모
 

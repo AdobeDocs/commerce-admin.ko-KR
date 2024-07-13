@@ -16,13 +16,13 @@ ht-degree: 1%
 
 ## [!UICONTROL Order Total Report]
 
-다음 [!UICONTROL Order Total Report] 지정된 시간 간격 또는 날짜 범위에 대한 고객 주문을 표시합니다. 이 보고서에는 고객당 주문 수, 평균 주문 금액 및 총 금액이 포함됩니다.
+[!UICONTROL Order Total Report]은(는) 지정된 시간 간격 또는 날짜 범위에 대한 고객 주문을 표시합니다. 이 보고서에는 고객당 주문 수, 평균 주문 금액 및 총 금액이 포함됩니다.
 
-다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
+_관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**(으)로 이동합니다.
 
-![주문 총계 보고서](./assets/customers-order-total.png){width="600"}
+![전체 보고서 주문](./assets/customers-order-total.png){width="600"}
 
-### 작업 영역 컨트롤
+### Workspace 컨트롤
 
 | 제어 | 설명 |
 |--- |--- |
@@ -38,23 +38,23 @@ ht-degree: 1%
 
 | 열 | 설명 |
 |--- |--- |
-| [!UICONTROL Interval] | 주문 총 간격, 기준 `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | `Month` / `Day` / `Year`별 주문 총 간격입니다. |
 | [!UICONTROL Customer] | 주문한 고객의 이름입니다. |
 | [!UICONTROL Orders] | 지정된 간격에 대한 주문 수. |
-| [!UICONTROL Average] | 평균 주문 수량입니다. 이 금액은 항상 제품 가격에 대해 계산됩니다 **세금 제외** 카탈로그 제품 가격이더라도 주문 소계 및 주문 총계에는 세금이 포함됩니다. 결과적으로 보고서에 표시된 금액은 주문 합계에 세금이 포함된 경우 주문 세부 사항에 표시된 금액과 다릅니다. |
-| [!UICONTROL Total] | 해당 기간에 대한 모든 주문의 합계. 이 금액은 항상 제품 가격에 대해 계산됩니다 **세금 제외** 카탈로그 제품 가격이더라도 주문 소계 및 주문 총계에는 세금이 포함됩니다. 결과적으로 보고서에 표시된 합계는 주문 합계에 세금이 포함된 경우 주문 세부 사항에 표시된 금액과 다릅니다. |
+| [!UICONTROL Average] | 평균 주문 수량입니다. 이 금액은 카탈로그 제품 가격, 주문 소계 및 주문 합계에 세금이 포함된 경우에도 제품 가격 **세금 제외**&#x200B;에 대해 항상 계산됩니다. 결과적으로 보고서에 표시된 금액은 주문 합계에 세금이 포함된 경우 주문 세부 사항에 표시된 금액과 다릅니다. |
+| [!UICONTROL Total] | 해당 기간에 대한 모든 주문의 합계. 이 금액은 카탈로그 제품 가격, 주문 소계 및 주문 합계에 세금이 포함된 경우에도 제품 가격 **세금 제외**&#x200B;에 대해 항상 계산됩니다. 결과적으로 보고서에 표시된 합계는 주문 합계에 세금이 포함된 경우 주문 세부 사항에 표시된 금액과 다릅니다. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Count Report]
 
-다음 [!UICONTROL Order Count Report] 지정된 시간 간격 또는 날짜 범위 동안 고객당 주문 수를 표시합니다. 이 보고서에는 고객당 주문 수, 평균 주문 금액 및 총 금액이 포함됩니다.
+[!UICONTROL Order Count Report]은(는) 지정된 시간 간격 또는 날짜 범위 동안 고객당 주문 수를 표시합니다. 이 보고서에는 고객당 주문 수, 평균 주문 금액 및 총 금액이 포함됩니다.
 
-다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
+_관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**(으)로 이동합니다.
 
 ![주문 수 보고서](./assets/customer-order-count.png){width="600"}
 
-### 작업 영역 컨트롤
+### Workspace 컨트롤
 
 | 제어 | 설명 |
 |--- |--- |
@@ -70,23 +70,23 @@ ht-degree: 1%
 
 | 열 | 설명 |
 |--- |--- |
-| [!UICONTROL Interval] | 주문 수 간격, 기준 `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | `Month` / `Day` / `Year`까지 주문 수 간격입니다. |
 | [!UICONTROL Customer] | 주문한 고객. |
 | [!UICONTROL Orders] | 지정된 간격에 대한 주문 수. |
-| [!UICONTROL Average] | 평균 주문 수량입니다. 이 금액은 항상 제품 가격에 대해 계산됩니다 **세금 제외** 카탈로그 제품 가격이더라도 주문 소계 및 주문 총계에는 세금이 포함됩니다. 결과적으로 보고서에 표시된 금액은 주문 합계에 세금이 포함된 경우 주문 세부 사항에 표시된 금액과 다릅니다. |
-| [!UICONTROL Total] | 해당 기간에 대한 모든 주문의 합계. 이 금액은 항상 제품 가격에 대해 계산됩니다 **세금 제외** 카탈로그 제품 가격이더라도 주문 소계 및 주문 총계에는 세금이 포함됩니다. 결과적으로 보고서에 표시된 합계는 주문 합계에 작업이 포함된 경우 주문 세부 사항에 표시된 금액과 다릅니다. |
+| [!UICONTROL Average] | 평균 주문 수량입니다. 이 금액은 카탈로그 제품 가격, 주문 소계 및 주문 합계에 세금이 포함된 경우에도 제품 가격 **세금 제외**&#x200B;에 대해 항상 계산됩니다. 결과적으로 보고서에 표시된 금액은 주문 합계에 세금이 포함된 경우 주문 세부 사항에 표시된 금액과 다릅니다. |
+| [!UICONTROL Total] | 해당 기간에 대한 모든 주문의 합계. 이 금액은 카탈로그 제품 가격, 주문 소계 및 주문 합계에 세금이 포함된 경우에도 제품 가격 **세금 제외**&#x200B;에 대해 항상 계산됩니다. 결과적으로 보고서에 표시된 합계는 주문 합계에 작업이 포함된 경우 주문 세부 사항에 표시된 금액과 다릅니다. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL New Accounts Report]
 
-다음 [!UICONTROL New Accounts Report] 지정된 시간 간격 또는 날짜 범위 동안 연 새 고객 계정 수를 표시합니다.
+[!UICONTROL New Accounts Report]은(는) 지정된 시간 간격 또는 날짜 범위 동안 연 새 고객 계정의 수를 표시합니다.
 
-다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
+_관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**(으)로 이동합니다.
 
 ![새 계정 보고서](./assets/customers-new-accounts.png){width="600"}
 
-### 작업 영역 컨트롤
+### Workspace 컨트롤
 
 | 제어 | 설명 |
 |--- |--- |
@@ -109,15 +109,15 @@ ht-degree: 1%
 
 ## [!UICONTROL Customer Wish List Report]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce 전용)
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용)
 
-다음 [!UICONTROL Customer Wish List Report] 는 고객 위시리스트에 대한 정보를 제공합니다.
+[!UICONTROL Customer Wish List Report]은(는) 고객 위시리스트에 대한 정보를 제공합니다.
 
-다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
+_관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**(으)로 이동합니다.
 
 ![위시리스트 보고서](./assets/customer-wish-list.png){width="600"}
 
-### 작업 영역 컨트롤
+### Workspace 컨트롤
 
 | 제어 | 설명 |
 |--- |--- |
@@ -149,15 +149,15 @@ ht-degree: 1%
 
 ## [!UICONTROL Customer Segment Report]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce 전용)
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용)
 
-다음 [!UICONTROL Customer Segment Report] 는 각 세그먼트의 고객 수에 대한 정보를 제공합니다.
+[!UICONTROL Customer Segment Report]은(는) 각 세그먼트의 고객 수에 대한 정보를 제공합니다.
 
-다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
+_관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**(으)로 이동합니다.
 
 ![세그먼트 보고서](./assets/customers-segments.png){width="600"}
 
-### 작업 영역 컨트롤
+### Workspace 컨트롤
 
 | 제어 | 설명 |
 |--- |--- |

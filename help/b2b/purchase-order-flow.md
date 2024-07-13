@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 회사의 구매 주문
 
-구매 주문 (PO)은 기업이 지출을 추적하고 제어하는 일반적인 방법입니다. [구매 주문](../stores-purchase/purchase-order.md) 는 Adobe Commerce 및 Magento Open Source에서 지원되는 표준 오프라인 결제 방법 중 하나입니다. Adobe Commerce의 B2B가 설치되고 [_구매 주문 활성화_](account-company-manage.md#advanced-settings) 가 회사 계정에 대해 활성화되고, 모든 주문은 자동으로 구매 주문(PO)으로 생성됩니다. 필요한 회사 사용자 [권한](account-company-roles-permissions.md) 자신이 생성한 PO와 하위 사용자가 생성한 PO를 생성, 편집 및 삭제할 수 있습니다.
+구매 주문 (PO)은 기업이 지출을 추적하고 제어하는 일반적인 방법입니다. [구매 주문](../stores-purchase/purchase-order.md)은(는) Adobe Commerce 및 Magento Open Source에서 지원되는 표준 오프라인 결제 방법 중 하나입니다. Adobe Commerce의 B2B가 설치되고 회사 계정에 대해 [_구매 주문 사용_](account-company-manage.md#advanced-settings)&#x200B;이 활성화되면 모든 주문은 자동으로 PO(구매 주문)로 만들어집니다. 필요한 [권한](account-company-roles-permissions.md)을(를) 가진 회사 사용자는 자신이 만든 PO와 하위 사용자가 만든 PO를 만들고 편집하고 삭제할 수 있습니다.
 
 ## 구매 주문 플로우
 
 역할과 순서에 따라 회사 사용자는 몇 가지 승인 규칙이 적용될 수 있습니다. 그리고 온라인이나 오프라인 결제수단을 이용하느냐에 따라 그 흐름이 조금씩 다르다. 회사 관리자는 승인 규칙을 무시하고 자동으로 주문을 생성할 수 있습니다. 승인 프로세스 중 온라인 결제 세부 정보를 저장하는 것은 보안 위험이므로 이러한 세부 정보는 승인 후 추가된 다음 구매 발주가 실제 주문으로 전환됩니다.
 
-![구매 주문 플로우](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
+![구매 주문 흐름](./assets/purchase-order-flow.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >기본적으로 `Purchase order has been submitted for approval` 승인 규칙이 설정되지 않은 경우에도 메시지는 항상 회사 사용자에게 표시됩니다. 승인 프로세스가 필요하지 않으면 회사 사용자는 자동으로 주문이 생성 및 승인되었음을 알리는 이메일을 수신합니다.
+  >기본적으로 `Purchase order has been submitted for approval` 메시지는 승인 규칙이 설정되지 않은 경우에도 회사 사용자에게 항상 표시됩니다. 승인 프로세스가 필요하지 않으면 회사 사용자는 자동으로 주문이 생성 및 승인되었음을 알리는 이메일을 수신합니다.
 
 - 회사 관리자가 승인 규칙을 정의한 경우 사용자는 승인 프로세스를 거칩니다.
 - 구매 발주를 생성할 때 오프라인 결제 세부 정보를 입력합니다.
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->구매 발주 생성 _스냅샷_ 주문 생성 시점의 품목 가격, 할인 및 배송비. PO가 생성된 후 품목 가격이 변경되면 최초 가격이 사용됩니다.
+>구매 주문은 주문이 생성된 시점의 품목 가격, 할인 및 배송료의 _스냅숏_&#x200B;을 만듭니다. PO가 생성된 후 품목 가격이 변경되면 최초 가격이 사용됩니다.
 
 ### 기본 워크플로우 예
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 - 1,000달러 이상의 주문은 관리자와 회사 관리자의 승인이 필요합니다.
 - 고유 SKU가 30개 이상인 주문은 회사 관리자의 승인이 필요합니다.
 
-회사에 대해 이러한 규칙이 적용되면, 회사 사용자는 주문이 $100 미만일 때 즉시 주문을 완료할 수 있습니다. 승인 규칙 정의에 대해 알아보려면 다음을 참조하십시오. [승인 규칙](account-dashboard-approval-rules.md)
+회사에 대해 이러한 규칙이 적용되면, 회사 사용자는 주문이 $100 미만일 때 즉시 주문을 완료할 수 있습니다. 승인 규칙 정의를 알아보려면 [승인 규칙](account-dashboard-approval-rules.md)을 참조하세요.
 
 ### 스토어 사용자 유형
 
@@ -71,23 +71,23 @@ ht-degree: 0%
 
 ## [!UICONTROL My Purchase Orders]
 
-회사에 대해 구매 발주를 사용할 수 있는 경우 **[!UICONTROL My Purchase Orders]** 회사 사용자 계정에 로그인한 고객의 왼쪽 패널에 항목이 표시됩니다. 서로 다른 구매 주문 목록과 기능을 제공하는 세 가지 탭이 있습니다.
+회사에 대해 구매 발주를 사용하도록 설정하면 회사 사용자 계정에 로그인한 고객의 왼쪽 패널에 **[!UICONTROL My Purchase Orders]** 항목이 표시됩니다. 서로 다른 구매 주문 목록과 기능을 제공하는 세 가지 탭이 있습니다.
 
-- **[!UICONTROL My Purchase Orders]**: 고객이 생성한 PO.
-- **[!UICONTROL Company Purchase Orders]**: 회사 내 하위 사용자가 만든 PO(회사 구조 및 역할에 따라 다름)
-- **[!UICONTROL Requires My Approval]**: (지정된 승인자에 대해 표시됨) 고객의 승인을 기다리고 있는 PO입니다. 카운터는 승인 대기 중인 주문 수를 보여 줍니다.
+- **[!UICONTROL My Purchase Orders]**: 고객이 만든 PO입니다.
+- **[!UICONTROL Company Purchase Orders]**: 회사 내 하위 사용자가 만든 PO(회사 구조 및 역할에 따라 다름).
+- **[!UICONTROL Requires My Approval]**: (지정된 승인자에 대해 표시) 고객의 승인을 기다리는 PO입니다. 카운터는 승인 대기 중인 주문 수를 보여 줍니다.
 
 ![내 구매 주문](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 
-상점 첫 화면에서 회사 사용자가 사용할 수 있는 지원되는 구매 주문 기능에 대한 자세한 내용은 [내 구매 주문](account-dashboard-my-purchase-orders.md).
+상점에서 회사 사용자가 사용할 수 있는 지원되는 구매 주문 기능에 대한 자세한 내용은 [내 구매 주문](account-dashboard-my-purchase-orders.md)을 참조하세요.
 
 ## 오프라인 및 온라인 결제 방법
 
-결제 방법에 따라 워크플로가 달라질 수 있습니다. Adobe Commerce 결제 방법에 대한 자세한 내용은 [결제 방법](../stores-purchase/payments.md) 다음에서 _영업 및 구매 경험 안내서_.
+결제 방법에 따라 워크플로가 달라질 수 있습니다. Adobe Commerce 결제 방법에 대한 자세한 내용은 _판매 및 구매 경험 안내서_&#x200B;에서 [결제 방법](../stores-purchase/payments.md)을 참조하세요.
 
 >[!IMPORTANT]
 >
->구매 주문에서는 _컨텍스트 내_ 체크아웃 환경. _컨텍스트에서 벗어나_ 체크아웃은 일반적인 체크아웃 흐름을 무시하므로 지원되지 않습니다. 일반적으로, _컨텍스트 내_ 은 고객이 프로세스를 완료하기 위해 상거래 사이트에 머무른다는 의미입니다. _컨텍스트에서 벗어나_ 은 고객이 다른 사이트로 이동하여 구매를 완료하는 때입니다.
+>구매 주문에서는 _컨텍스트 내_ 체크아웃 경험을 사용해야 합니다. _컨텍스트 밖_ 체크 아웃은 일반적인 체크 아웃 흐름을 무시하므로 지원되지 않습니다. 일반적으로 _컨텍스트 내_&#x200B;은(는) 고객이 프로세스를 완료하기 위해 상거래 사이트에 머무르는 것을 의미합니다. _컨텍스트 밖_&#x200B;은(는) 구매를 완료하기 위해 고객이 다른 사이트로 이동하는 경우입니다.
 
 ### 온라인 결제
 

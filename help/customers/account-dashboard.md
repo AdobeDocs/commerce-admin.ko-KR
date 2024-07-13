@@ -14,13 +14,13 @@ ht-degree: 0%
 
 고객은 계정 대시보드에서 자신의 정보와 활동을 관리 및 모니터링할 수 있습니다. 고객은 재주문, 주문 추적, 배송 주소 및 결제 방법, 제품 리뷰, 뉴스레터 구독 등을 관리할 수 있습니다.
 
-![상점의 계정 대시보드](assets/customer-account-dashboard.png){width="700" zoomable="yes"}
+![상점 첫 화면의 계정 대시보드](assets/customer-account-dashboard.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
-> Adobe Commerce B2B를 설치하고 활성화하면 회사별 기능을 사용하여 구매 경험을 개인화할 수 있습니다. 회사와 연계된 고객에 대해 B2B 계정 대시보드 옵션(구매 발주, 구매요청 목록 및 협상된 견적)의 전체 범위를 사용할 수 있습니다. B2B 기능에 대한 자세한 내용은 [Adobe Commerce B2B 사용 안내서](../b2b/introduction.md).
+> Adobe Commerce B2B를 설치하고 활성화하면 회사별 기능을 사용하여 구매 경험을 개인화할 수 있습니다. 회사와 연계된 고객에 대해 B2B 계정 대시보드 옵션(구매 발주, 구매요청 목록 및 협상된 견적)의 전체 범위를 사용할 수 있습니다. B2B 기능에 대한 자세한 내용은 [Adobe Commerce B2B 사용 안내서](../b2b/introduction.md)를 참조하십시오.
 
-![상점 첫 화면의 회사 계정 대시보드](assets/company-admin-account-dashboard.png){width="700" zoomable="yes"}
+상점 첫 화면의 ![회사 계정 대시보드](assets/company-admin-account-dashboard.png){width="700" zoomable="yes"}
 
 ## 계정 대시보드 측 탐색
 
@@ -44,14 +44,14 @@ ht-degree: 0%
 | ![Adobe Commerce](../assets/adobe-logo.svg) [**[!UICONTROL Reward Points]**](../merchandising-promotions/rewards-loyalty.md) | 고객이 획득한 구매 시 적용할 수 있는 모든 보상 포인트를 나열합니다. |
 | ![Adobe Commerce](../assets/adobe-logo.svg) [**[!UICONTROL Gift Registry]**](../merchandising-promotions/gift-registries.md) | 선물 목록을 나열 및 유지 관리하고 새 선물 목록을 추가하는 데 사용됩니다. |
 | ![Adobe Commerce](../assets/adobe-logo.svg) [**[!UICONTROL My Invitations]**](../merchandising-promotions/invitations.md) | 고객이 예약 이벤트에 대해 만들고 보낸 모든 초대를 나열합니다. |
-| ![Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL My Purchase Orders]**](../b2b/account-dashboard-my-purchase-orders.md) | (회사만 해당) 고객이 제출하거나 제어하는 모든 구매 발주를 상세 정보에 대한 링크와 함께 나열합니다. |
-| ![Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL My Quotes]**](../b2b/account-dashboard-my-quotes.md) | (회사만 해당) 고객이 제출한 모든 견적을 상세 정보에 연결된 링크와 함께 나열합니다. |
-| ![Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL My Requisition Lists]**](../b2b/account-dashboard-requisition-lists-manage.md) | (회사만) 고객이 생성한 모든 구매요청 목록을 관리합니다. |
-| ![Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Company Profile]**](../b2b/account-company-manage.md#update-a-company-profile) | (회사 전용) 지정된 회사 관리자는 회사 이름과 주소, 회사 관리자 연락처 정보 및 결제 정보를 포함한 회사 정보를 관리할 수 있습니다. |
-| ![Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | (회사만 해당) 현재 미결 잔액, 사용 가능한 크레딧, 계정에 할당된 크레딧 한도를 표시한 다음 미결 송장 목록을 표시합니다. 회사 크레딧 섹션은 다음과 같은 경우에만 대시보드에 표시됩니다. [계정입금](../b2b/enable-basic-features.md#configure-payment-on-account) 가 구성에서 활성화됩니다. |
-| ![Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Company Structure]**](../b2b/account-company-structure.md) | (회사만 해당) 회사 관리자가 회사의 비즈니스 구조를 정의하는 데 사용합니다. |
-| ![Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Company Users]**](../b2b/account-company-users.md) | (회사만 해당) 회사 관리자가 회사 구매자의 사용자 계정을 생성하는 데 사용합니다. |
-| ![Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Roles and Permissions]**](../b2b/account-company-roles-permissions.md) | (회사만 해당) 회사 관리자가 다양한 수준의 권한을 가진 회사 사용자의 역할을 정의하는 데 사용됩니다. |
-| ![Adobe Commerce](../assets/b2b.svg) [**[!UICONTROL Approval Rules]**](../b2b/account-dashboard-approval-rules.md) | (회사만 해당) 구매 발주에 대한 승인 규칙을 정의하는 데 사용됩니다. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Purchase Orders]**](../b2b/account-dashboard-my-purchase-orders.md) | (회사만 해당) 고객이 제출하거나 제어하는 모든 구매 발주를 상세 정보에 대한 링크와 함께 나열합니다. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Quotes]**](../b2b/account-dashboard-my-quotes.md) | (회사만 해당) 고객이 제출한 모든 견적을 상세 정보에 연결된 링크와 함께 나열합니다. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Requisition Lists]**](../b2b/account-dashboard-requisition-lists-manage.md) | (회사만) 고객이 생성한 모든 구매요청 목록을 관리합니다. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Profile]**](../b2b/account-company-manage.md#update-a-company-profile) | (회사 전용) 지정된 회사 관리자는 회사 이름과 주소, 회사 관리자 연락처 정보 및 결제 정보를 포함한 회사 정보를 관리할 수 있습니다. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | (회사만 해당) 현재 미결 잔액, 사용 가능한 크레딧, 계정에 할당된 크레딧 한도를 표시한 다음 미결 송장 목록을 표시합니다. 구성에서 [계정 결제](../b2b/enable-basic-features.md#configure-payment-on-account)를 사용하도록 설정한 경우에만 회사 신용 섹션이 대시보드에 표시됩니다. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Structure]**](../b2b/account-company-structure.md) | (회사만 해당) 회사 관리자가 회사의 비즈니스 구조를 정의하는 데 사용합니다. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Users]**](../b2b/account-company-users.md) | (회사만 해당) 회사 관리자가 회사 구매자의 사용자 계정을 생성하는 데 사용합니다. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Roles and Permissions]**](../b2b/account-company-roles-permissions.md) | (회사만 해당) 회사 관리자가 다양한 수준의 권한을 가진 회사 사용자의 역할을 정의하는 데 사용됩니다. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Approval Rules]**](../b2b/account-dashboard-approval-rules.md) | (회사만 해당) 구매 발주에 대한 승인 규칙을 정의하는 데 사용됩니다. |
 
 {style="table-layout:auto"}

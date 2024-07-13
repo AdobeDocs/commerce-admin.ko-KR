@@ -15,19 +15,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->삭제 [stock](stocks-manage.md) 판매 채널에 대한 판매 가능 수량 및 미처리 주문에 영향을 줄 수 있습니다. 판매 채널을 계속 사용하는 경우 판매 채널을 다른 기존 또는 신규 재고에 추가합니다.
+>[재고](stocks-manage.md)를 삭제하면 판매 채널에 대한 판매 가능 수량 및 처리되지 않은 주문에 영향을 줄 수 있습니다. 판매 채널을 계속 사용하는 경우 판매 채널을 다른 기존 또는 신규 재고에 추가합니다.
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**(으)로 이동합니다.
 
 1. 삭제할 하나 이상의 재고를 선택합니다.
 
    삭제하려는 주식의 확인란을 찾아보거나 검색하고 선택합니다.
 
-1. 다음에서 **[!UICONTROL Actions]** 메뉴, 선택 **[!UICONTROL Delete]**.
+1. **[!UICONTROL Actions]** 메뉴에서 **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다.
 
-   ![작업 메뉴에서 삭제 를 선택합니다](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
+   ![작업 메뉴에서 삭제 선택](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
 
-1. 확인 대화 상자에서 **[!UICONTROL OK]**.
+1. 확인 대화 상자에서 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
    재고가 삭제되고 할당된 판매 채널이 매핑되지 않습니다.
 

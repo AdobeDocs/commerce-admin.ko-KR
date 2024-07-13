@@ -1,6 +1,6 @@
 ---
 title: 데이터 관리 대시보드
-description: 용 데이터 스트림에 대한 인사이트에 액세스하는 방법 알아보기 [!DNL Catalog Service], [!DNL Live Search], 및 [!DNL Product Recommendation]s.
+description: ' [!DNL Catalog Service], [!DNL Live Search] 및 [!DNL Product Recommendation]의 데이터 스트림에 대한 인사이트에 액세스하는 방법에 대해 알아봅니다.'
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
 source-git-commit: 4495a27b57c04c6f9c37b2c5237b5f2233cc8532
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ## 대상자
 
-데이터 관리 대시보드는 을 사용하는 모든 Commerce 가맹점에서 추가 비용 없이 사용할 수 있습니다. [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview), 또는 [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) 활성 라이선스 포함.
+활성 라이선스가 있는 [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview) 또는 [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview)을(를) 사용하는 모든 Commerce 가맹점에서 추가 비용 없이 데이터 관리 대시보드를 사용할 수 있습니다.
 
-데이터 관리 대시보드는 다음 위치에 있습니다. *시스템* > 데이터 전송 > *데이터 관리 대시보드*.
+데이터 관리 대시보드는 *시스템* > 데이터 전송 > *데이터 관리 대시보드*&#x200B;에 있습니다.
 
 ![데이터 관리 대시보드](assets/data-management-dashboard.png)
 
@@ -27,17 +27,17 @@ ht-degree: 0%
 | 필드 | 설명 |
 |--- |--- |
 | 범위 | 동기화된 데이터에 대한 특정 웹 사이트입니다. |
-| [!DNL Product Recommendations] | 동기화 상태, 동기화된 제품 수 및 [표시 가능](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) 에 대해 동기화된 제품 [!DNL Product Recommendations]. |
-| [!DNL Live Search] | 동기화 상태, 동기화된 제품 수 및 [표시 가능](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) 에 대해 동기화된 제품 [!DNL Live Search]. |
-| [!DNL Catalog Service] | 동기화 상태, 동기화된 제품 수 및 동기화된 제품 테이블을 표시합니다. [!DNL Catalog Service]. |
-| 설정 | 대화 상자를 열어 다음과 같은 작업을 수행할 수 있습니다 [카탈로그 데이터 수동 재동기화](#resync-catalog-data). |
-| 동기화 상태 | 지난 3시간 내에 Commerce 데이터베이스에서 SaaS 서비스로 전송된 제품 수를 표시합니다. 카탈로그를 자주 업데이트하지 않는 경우 이 값은 0인 경우가 많습니다. 동기화가 진행 중이면 **[!UICONTROL Refresh]** 업데이트된 수를 가져오려면 . |
-| 제품 수 | 서비스에 사용할 수 있는 총 카탈로그 제품 수를 반영합니다. 다음 [!DNL Product Recommendations] 및 [!DNL Live Search] 대시보드에 다음의 총 수가 표시됨 _표시 가능_ 제품. [!DNL Catalog Service] 은 표시 가능으로 제품을 필터링하지 않으므로 두 가지가 모두 있는 경우 [!DNL Catalog Service] 및 [!DNL Live Search] 또는 [!DNL Product Recommendations] 설치되면 두 대시보드에서 제품 수에 대한 두 개의 다른 값을 표시할 수 있습니다. |
-| 동기화된 제품 | 핵심 Commerce 인덱스의 제품에 대한 세부 정보를 제공합니다. 기본적으로 이 테이블은 &#39;최근 업데이트&#39;별로 정렬됩니다. 특정 제품을 찾으려면 다음을 사용하십시오. **[!UICONTROL Search by SKU]** 필드. 표시할 열을 제어하려면 **[!UICONTROL Customize Table]** 테이블 오른쪽에 있습니다. |
+| [!DNL Product Recommendations] | 동기화 상태, 동기화된 제품 수 및 [!DNL Product Recommendations]에 대해 [표시 가능](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) 동기화된 제품 테이블을 표시합니다. |
+| [!DNL Live Search] | 동기화 상태, 동기화된 제품 수 및 [!DNL Live Search]에 대해 [표시 가능](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) 동기화된 제품 테이블을 표시합니다. |
+| [!DNL Catalog Service] | [!DNL Catalog Service]에 대해 동기화 상태, 동기화된 제품 수 및 동기화된 제품 테이블을 표시합니다. |
+| 설정 | [카탈로그 데이터를 수동으로 다시 동기화](#resync-catalog-data)할 수 있는 대화 상자를 엽니다. |
+| 동기화 상태 | 지난 3시간 내에 Commerce 데이터베이스에서 SaaS 서비스로 전송된 제품 수를 표시합니다. 카탈로그를 자주 업데이트하지 않는 경우 이 값은 0인 경우가 많습니다. 동기화가 진행 중이면 **[!UICONTROL Refresh]**&#x200B;을(를) 클릭하여 업데이트된 개수를 가져옵니다. |
+| 제품 수 | 서비스에 사용할 수 있는 총 카탈로그 제품 수를 반영합니다. [!DNL Product Recommendations] 및 [!DNL Live Search] 대시보드에는 총 _표시 가능_ 제품 수가 표시됩니다. [!DNL Catalog Service]은(는) 표시 가능한 제품별로 제품을 필터링하지 않으므로 [!DNL Catalog Service]과(와) [!DNL Live Search] 또는 [!DNL Product Recommendations]이(가) 모두 설치되어 있는 경우 두 대시보드에서 제품 수에 대한 두 개의 다른 값을 표시할 수 있습니다. |
+| 동기화된 제품 | 핵심 Commerce 인덱스의 제품에 대한 세부 정보를 제공합니다. 기본적으로 이 테이블은 &#39;최근 업데이트&#39;별로 정렬됩니다. 특정 제품을 찾으려면 **[!UICONTROL Search by SKU]** 필드를 사용하십시오. 표시할 열을 제어하려면 표 오른쪽의 **[!UICONTROL Customize Table]**&#x200B;을(를) 클릭합니다. |
 
 ## 데이터 관리 대시보드 사용
 
-Commerce 데이터베이스에서 제품을 업데이트하면 시스템 구성에 따라 제품 데이터가 SaaS 서비스로 전송됩니다. 동기화 프로세스가 시작되면 **제품 수** SaaS 서비스로 전송된 제품 수를 나타냅니다.
+Commerce 데이터베이스에서 제품을 업데이트하면 시스템 구성에 따라 제품 데이터가 SaaS 서비스로 전송됩니다. 동기화 프로세스가 시작되면 **제품 수**&#x200B;는 SaaS 서비스로 보낸 제품 수를 나타냅니다.
 
 >[!IMPORTANT]
 >
@@ -47,19 +47,19 @@ Commerce 데이터베이스에서 제품을 업데이트하면 시스템 구성�
 
 >[!NOTE]
 >
->Adobe은 또한 개발자와 시스템 통합자가 Commerce SaaS 서비스의 동기화 작업을 관리 및 추적하고 오류를 해결하는 데 사용할 수 있는 명령줄 인터페이스와 시스템 로그를 제공합니다. 자세한 내용은 [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe은 또한 개발자와 시스템 통합자가 Commerce SaaS 서비스의 동기화 작업을 관리 및 추적하고 오류를 해결하는 데 사용할 수 있는 명령줄 인터페이스와 시스템 로그를 제공합니다. 자세한 내용은 [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)를 참조하십시오.
 
 ### 동기화된 제품 목록
 
 동기화된 제품에 대한 세부 정보를 보려면 표에서 제품을 클릭합니다.
 
-![Syncd 제품 세부 사항](assets/sync-product-detail.png)
+![제품 세부 정보 동기화](assets/sync-product-detail.png)
 
 ### 카탈로그 데이터 재동기화
 
-Commerce SaaS 서비스가 항상 최신 제품 정보로 업데이트되도록 하려면 다음을 수행해야 합니다 [일정 구현](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) 카탈로그 데이터를 동기화합니다.
+Commerce SaaS 서비스가 항상 최신 제품 정보를 제공하도록 하려면 카탈로그 데이터를 동기화하기 위해 [일정을 구현](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex)해야 합니다.
 
-할 수 있을 때 [수동 시작](#manually-resync-catalog) Commerce 데이터베이스에서 SaaS 서비스로 카탈로그 데이터를 재동기화하면 하드웨어 리소스의 로드를 늘릴 수 있으므로 권장되지 않습니다. 그러나 다음 시나리오에서는 카탈로그를 수동으로 다시 동기화해야 할 수 있습니다.
+Commerce 데이터베이스에서 SaaS 서비스로 카탈로그 데이터 재동기화를 [수동으로 시작](#manually-resync-catalog)할 수 있지만 하드웨어 리소스의 로드를 늘릴 수 있으므로 권장되지 않습니다. 그러나 다음 시나리오에서는 카탈로그를 수동으로 다시 동기화해야 할 수 있습니다.
 
 - 새 제품 추가, 제품 세부 사항 업데이트 또는 범주 수정과 같이 제품 카탈로그에 중요한 변경 사항이 적용될 때마다
 
@@ -73,6 +73,6 @@ Commerce SaaS 서비스가 항상 최신 제품 정보로 업데이트되도록 
 
 #### 수동으로 카탈로그 재동기화
 
-카탈로그 데이터를 다시 동기화해야 하는 경우 **[!UICONTROL Settings]** 페이지 오른쪽에 재동기화를 시작할 수 있는 대화 상자가 표시됩니다. 카탈로그 데이터를 다시 동기화하면 서비스가 Commerce 데이터베이스의 데이터를 SaaS 서비스로 다시 가져옵니다.
+카탈로그 데이터를 다시 동기화해야 하는 경우 페이지 오른쪽의 **[!UICONTROL Settings]**&#x200B;을(를) 클릭하여 다시 동기화를 시작할 수 있는 대화 상자를 표시합니다. 카탈로그 데이터를 다시 동기화하면 서비스가 Commerce 데이터베이스의 데이터를 SaaS 서비스로 다시 가져옵니다.
 
 ![수동으로 제품 동기화](assets/resync-data.png)

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 범주 이동
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**(으)로 이동합니다.
 
 1. 범주를 이동하려면 범주를 트리의 새 위치로 드래그 앤 드롭합니다.
 
@@ -28,8 +28,8 @@ ht-degree: 0%
 
    삭제된 카테고리는 복원할 수 없으므로 계속하기 전에 올바른 카테고리를 선택했는지 확인하십시오.
 
-1. 클릭 **[!UICONTROL Delete Category]**.
+1. **[!UICONTROL Delete Category]**&#x200B;을(를) 클릭합니다.
 
-1. 확인을 묻는 메시지가 나타나면 **[!UICONTROL OK]**.
+1. 확인 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
-다음을 수행할 수도 있습니다. [이벤트 업데이트](../merchandising-promotions/event-create.md#create-and-update-events) 다음 중 하나의 카테고리와 연결됨: **[!UICONTROL Events]** 페이지 또는 **[!UICONTROL Category]** 페이지를 가리키도록 업데이트하는 중입니다.
+**[!UICONTROL Events]** 페이지 또는 **[!UICONTROL Category]** 페이지에서 범주와 연결된 이벤트를 [업데이트](../merchandising-promotions/event-create.md#create-and-update-events)할 수도 있습니다.

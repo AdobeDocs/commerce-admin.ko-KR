@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector]'
-description: 에서 구성 설정을 검토합니다. [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] 상거래 관리자의 페이지입니다.
+description: Commerce 관리자의 [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 1%
+source-wordcount: '198'
+ht-degree: 2%
 
 ---
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-스토어를 Adobe Commerce 서비스에 연결하는 방법은 다음을 참조하십시오. [상거래 서비스](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
+스토어를 Adobe Commerce 서비스에 연결하는 방법은 [Commerce 서비스](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html)를 참조하세요.
 
 {{config}}
 
@@ -44,8 +44,8 @@ ht-degree: 1%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Project] | 글로벌 | 모든 SaaS 데이터 공간을 그룹화하는 SaaS 프로젝트의 이름입니다. A _프로젝트 만들기_ SaaS 프로젝트가 없는 경우 버튼이 표시됩니다. |
-| [!UICONTROL Data Space] | 글로벌 | 지정된 SaaS 프로젝트의 SaaS 데이터 공간을 나열합니다. SaaS 데이터 공간 수는 다음에 따라 다릅니다. [상거래 라이선스](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html):<br />Adobe Commerce - 프로덕션 데이터 공간 1개, 테스트 데이터 공간 2개,<br />Magento Open Source - 프로덕션 데이터 공간 1개, 테스트 데이터 공간 없음 |
+| [!UICONTROL Project] | 글로벌 | 모든 SaaS 데이터 공간을 그룹화하는 SaaS 프로젝트의 이름입니다. SaaS 프로젝트가 없는 경우 _프로젝트 만들기_ 단추가 표시됩니다. |
+| [!UICONTROL Data Space] | 글로벌 | 지정된 SaaS 프로젝트의 SaaS 데이터 공간을 나열합니다. SaaS 데이터 공간 수는 [Commerce 라이선스](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html)에 따라 다릅니다.<br />Adobe Commerce - 프로덕션 데이터 공간 1개; 테스트 데이터 공간 2개;<br />Magento Open Source - 프로덕션 데이터 공간 1개; 테스트 데이터 공간 없음 |
 
 {style="table-layout:auto"}
 

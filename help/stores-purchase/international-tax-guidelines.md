@@ -5,7 +5,7 @@ exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 | 옵션 | 권장 설정 |
 |--- |--- |
-| [!UICONTROL Enable FPT] | `No`, 캘리포니아 제외. |
+| [!UICONTROL Enable FPT] | `No`(캘리포니아 제외). |
 
 {style="table-layout:auto"}
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 | 세금 계산 | 항목에서 |
 | 택배? | 예 |
 | 할인 적용 | 세전, 세금을 포함한 가격 할인. |
-| 댓글 | B2B 상인이 보다 간단한 부가가치세 공급망 고려사항을 제공할 수 있도록 하였다. 행에 대한 세금 계산도 유효합니다. 그러나 과세 관할에 문의하십시오. 설정은 상인이 공급망에 있고, 판매된 재화가 다른 공급업체가 부가 가치세 리베이트 등을 위해 사용된다고 가정합니다. 이러한 정의는 리베이트 발생 속도를 높이기 위한 항목별 조세를 쉽게 식별할 수 있도록 한다. <br/><br/>**_참고:_**일부 관할권에서는 현재 Commerce에서 지원하지 않는 다른 반올림 전략이 필요하며 일부 관할권에서는 품목 또는 행 레벨 세금을 허용하지 않습니다. |
+| 댓글 | B2B 상인이 보다 간단한 부가가치세 공급망 고려사항을 제공할 수 있도록 하였다. 행에 대한 세금 계산도 유효합니다. 그러나 과세 관할에 문의하십시오. 설정은 상인이 공급망에 있고, 판매된 재화가 다른 공급업체가 부가 가치세 리베이트 등을 위해 사용된다고 가정합니다. 이러한 정의는 리베이트 발생 속도를 높이기 위한 항목별 조세를 쉽게 식별할 수 있도록 한다. <br/><br/>**_참고:_**일부 관할권에서는 현재 Commerce에서 지원하지 않는 다른 반올림 전략이 필요하며 일부 관할권에서는 항목 또는 행 수준 세금을 허용하지 않습니다. |
 
 {style="table-layout:auto"}
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->GST/PST 주(Montreal)에 있는 판매자는 하나의 세금 규칙을 만들고 결합된 세액을 표시해야 합니다. 질문이 있으시면 자격을 갖춘 세무서에 문의하십시오. 특정 주의 세금 요건에 대한 자세한 내용은 다음을 참조하십시오. [레베누 퀘벡][1], [서스캐처원 정부][2], 및 [공급업체에 대한 매니토바 정보][3]
+>GST/PST 주(Montreal)에 있는 판매자는 하나의 세금 규칙을 만들고 결합된 세액을 표시해야 합니다. 질문이 있으시면 자격을 갖춘 세무서에 문의하십시오. 특정 주의 세금 요구 사항에 대한 자세한 내용은 다음을 참조하십시오. [Revenu Québec][1], [Saskatchewan의 정부][2] 및 [공급업체에 대한 매니토바 정보][3]
 
 | 세금 옵션 | 추천 |
 |--- |--- |
@@ -160,11 +160,11 @@ ht-degree: 0%
 
 ### 1단계: 세금 계산 설정 완료
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 다중 사이트 구성의 경우 다음을 설정합니다. **[!UICONTROL Store View]** 을(를) 구성 타겟인 웹 사이트 및 스토어에 추가합니다.
+1. 다중 사이트 구성의 경우 **[!UICONTROL Store View]**&#x200B;을(를) 구성 대상인 웹 사이트 및 저장소에 설정합니다.
 
-1. 왼쪽 패널에서 를 확장합니다. **[!UICONTROL Sales]** 및 선택 **[!UICONTROL Tax]**.
+1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Tax]**&#x200B;을(를) 선택합니다.
 
 1. 를 클릭하여 페이지의 각 섹션을 확장하고 다음 설정을 완료합니다.
 
@@ -178,7 +178,7 @@ ht-degree: 0%
 | [!UICONTROL Shipping Prices] | `Excluding Tax` |
 | [!UICONTROL Apply Customer Tax] | `After Discount` |
 | [!UICONTROL Apply Discount on Prices] | `Excluding Tax` |
-| [!UICONTROL Apply Tax On] | `Custom Price` (가능한 경우) |
+| [!UICONTROL Apply Tax On] | `Custom Price`(가능한 경우) |
 
 {style="table-layout:auto"}
 
@@ -186,7 +186,7 @@ ht-degree: 0%
 
 | 필드 | 권장 설정 |
 |--- |--- |
-| [!UICONTROL Tax Class for Shipping] | `Shipping` (배송에는 세금이 부과됨) |
+| [!UICONTROL Tax Class for Shipping] | `Shipping`(배송에는 세금이 부과됨) |
 
 {style="table-layout:auto"}
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Default Country] | `Canada` |
 | [!UICONTROL Default State] | (적절한 경우) |
-| [!UICONTROL Default Postal Code] | `*` (별표) |
+| [!UICONTROL Default Postal Code] | `*`(별표) |
 
 {style="table-layout:auto"}
 
@@ -232,9 +232,9 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Tax Identifier] | `Canada-GST` |
 | [!UICONTROL Country] | `Canada` |
-| [!UICONTROL State] | `*` (별표) |
+| [!UICONTROL State] | `*`(별표) |
 | [!UICONTROL Zip/Post is Range] | `No` |
-| [!UICONTROL Zip/Post Code] | `*` (별표) |
+| [!UICONTROL Zip/Post Code] | `*`(별표) |
 | [!UICONTROL Rate Percent] | `5.0000` |
 
 {style="table-layout:auto"}
@@ -251,14 +251,14 @@ ht-degree: 0%
 | [!UICONTROL Country] | `Canada` |
 | [!UICONTROL State] | `Saskatchewan` |
 | [!UICONTROL Zip/Post is Range] | `No` |
-| [!UICONTROL Zip/Post Code] | `*` (별표) |
+| [!UICONTROL Zip/Post Code] | `*`(별표) |
 | [!UICONTROL Rate Percent] | `5.0000` |
 
 {style="table-layout:auto"}
 
 ### 4단계: GST 세금 규칙 생성
 
-세금을 합산하지 않고 계산된 세금을 GST 및 PST에 대한 개별 라인 항목으로 올바르게 표시하려면 각 규칙에 대해 다른 우선순위를 설정하고 을 선택합니다. **소계만 계산** 확인란. 각 세금은 별도의 라인 항목으로 표시되지만 세액은 복리로 표시되지 않습니다.
+세금을 합산하지 않고 계산된 세금을 GST 및 PST에 대한 개별 라인 항목으로 올바르게 표시하려면 각 규칙에 대해 다른 우선 순위를 설정하고 **소계만 계산** 확인란을 선택하십시오. 각 세금은 별도의 라인 항목으로 표시되지만 세액은 복리로 표시되지 않습니다.
 
 #### 세금 규칙 정보
 
@@ -276,7 +276,7 @@ ht-degree: 0%
 
 ### 단계 5: Saskatchewan에 대한 PST 세금 규칙 만들기
 
-이 세금 규칙의 경우 우선순위를 0으로 설정하고 다음을 선택합니다. **소계만 계산** 확인란. 각 세금은 별도의 라인 항목으로 표시되지만 세액은 복리로 표시되지 않습니다.
+이 세금 규칙의 경우 우선 순위를 0으로 설정하고 **소계만 계산** 확인란을 선택하십시오. 각 세금은 별도의 라인 항목으로 표시되지만 세액은 복리로 표시되지 않습니다.
 
 #### 세금 규칙 정보
 
@@ -294,7 +294,7 @@ ht-degree: 0%
 
 ### 6단계: 결과 저장 및 테스트
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 1. 상점으로 돌아가서 샘플 주문을 만들어 결과를 테스트합니다.
 
@@ -324,10 +324,10 @@ ht-degree: 0%
 
 | 세율 | 설정 |
 |--- |--- |
-| 프랑스-StandardVAT | 국가: 프랑스 <br/>시/도/지역: * <br/>ZIP/우편 번호: * <br/>비율: 20% |
-| 프랑스-부가가치세 | 국가: 프랑스 <br/>시/도/지역: * <br/>ZIP/우편 번호: * <br/>비율: 5% |
-| 독일-StandardVAT | 국가: 독일 <br/>시/도/지역: * <br/>ZIP/우편 번호: * 요금: 19% |
-| 독일 - VAT 절감 | 국가: 독일 <br/>시/도/지역: * <br/>ZIP/우편 번호: * <br/>비율: 7% |
+| 프랑스-StandardVAT | 국가: 프랑스 <br/>주/지역: * <br/>우편 번호: * <br/>환율: 20% |
+| 프랑스-부가가치세 | 국가: 프랑스 <br/>주/지역: * <br/>우편 번호: * <br/>환율: 5% |
+| 독일-StandardVAT | 국가: 독일 <br/>주/지역: * <br/>우편 번호: * 요금: 19% |
+| 독일 - VAT 절감 | 국가: 독일 <br/>주/지역: * <br/>우편 번호: * <br/>환율: 7% |
 
 {style="table-layout:auto"}
 
@@ -337,32 +337,32 @@ ht-degree: 0%
 
 | 세금 규칙 | 설정 |
 |--- |--- |
-| 소매-프랑스-StandardVAT | 고객 분류: 소매 고객 <br/>세금 분류: VAT-표준 <br/>세율: 프랑스-표준VAT <br/>우선 순위: 0 <br/>정렬 순서: 0 |
-| 소매-프랑스-부가가치세 | 고객 분류: 소매 고객 <br/>세금 분류: VAT 감소 <br/>세율: 프랑스-부가가치세 <br/>우선 순위: 0 <br/>정렬 순서: 0 |
-| 소매-독일-StandardVAT | 고객 분류: 소매 고객 <br/>세금 분류: VAT-표준 <br/>세율: 독일-표준VAT <br/>우선 순위: 0 <br/>정렬 순서: 0 |
-| 소매-독일-VAT | 고객 분류: 소매 고객 <br/>세금 분류: VAT 감소 <br/>세율: 독일 - VAT <br/>우선 순위: 0 <br/>정렬 순서: 0 |
+| 소매-프랑스-StandardVAT | 고객 분류: 소매 고객 <br/>세금 분류: VAT-Standard <br/>세율: France-StandardVAT <br/>우선 순위: 0 <br/>정렬 순서: 0 |
+| 소매-프랑스-부가가치세 | 고객 분류: 소매 고객 <br/>세금 분류: VAT 감면 <br/>세율: 프랑스-VAT <br/>우선 순위: 0 <br/>정렬 순서: 0 |
+| 소매-독일-StandardVAT | 고객 분류: 소매 고객 <br/>세금 분류: VAT-Standard <br/>세율: 독일-StandardVAT <br/>우선 순위: 0 <br/>정렬 순서: 0 |
+| 소매-독일-VAT | 고객 분류: 소매 고객 <br/>세금 분류: VAT-Reduced <br/>세율: Germany-ReducedVAT <br/>우선순위: 0 <br/>정렬 순서: 0 |
 
 {style="table-layout:auto"}
 
 ### 4단계: 독일에 대한 스토어 뷰 설정
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**(으)로 이동합니다.
 
-1. 기본 웹 사이트 아래에 스토어 보기를 만듭니다. **[!UICONTROL Germany]**.
+1. 기본 웹 사이트에서 **[!UICONTROL Germany]**&#x200B;에 대한 스토어 보기를 만듭니다.
 
 1. 그런 다음 다음을 수행합니다.
 
-   - 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+   - _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-   - 왼쪽 상단 모서리에서 을(를) 설정합니다. **[!UICONTROL Default Config]** 프랑스 상점에서요.
+   - 왼쪽 상단 모서리에서 **[!UICONTROL Default Config]**&#x200B;을(를) 프랑스 상점으로 설정합니다.
 
-   - 일반 페이지에서 를 확장합니다. ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL Countries Options]** 섹션 및 기본 국가를 다음으로 설정 `France`.
+   - 일반 페이지에서 **[!UICONTROL Countries Options]** 섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 기본 국가를 `France`(으)로 설정합니다.
 
    - 필요에 따라 로케일 옵션을 완료합니다.
 
-1. 왼쪽 상단 모서리에서 독일어를 선택합니다 **[!UICONTROL Store View]**.
+1. 왼쪽 상단 모서리에서 독일어 **[!UICONTROL Store View]**&#x200B;을(를) 선택합니다.
 
-1. 다음에서 _일반_ 페이지, 확장 ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]** 기본 국가를 다음으로 설정 `Germany`.
+1. _일반_ 페이지에서 ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Countries Options]**&#x200B;을(를) 확장하고 기본 국가를 `Germany`(으)로 설정합니다.
 
 1. 필요에 따라 로케일 옵션을 완료합니다.
 
@@ -373,7 +373,7 @@ ht-degree: 0%
 | 필드 | 권장 설정 |
 |--- |--- |
 | [[!UICONTROL Tax Classes]](../configuration-reference/sales/tax.md#tax-classes) |  |
-| [!UICONTROL Tax Class for Shipping] | `Shipping` (배송에는 세금이 부과됨) |
+| [!UICONTROL Tax Class for Shipping] | `Shipping`(배송에는 세금이 부과됨) |
 | [[!UICONTROL Calculation Settings]](../configuration-reference/sales/tax.md#calculation-settings) |  |
 | [!UICONTROL Tax Calculation Method Based On] | `Total` |
 | [!UICONTROL Tax Calculation Based On] | `Shipping Address` |
@@ -385,7 +385,7 @@ ht-degree: 0%
 | [[!UICONTROL Default Tax Destination Calculation]](../configuration-reference/sales/tax.md#default-tax-destination-calculation) |  |
 | [!UICONTROL Default Country] | `France` |
 | [!UICONTROL Default State] |  |
-| [!UICONTROL Default Postal Code] | `*` (별표) |
+| [!UICONTROL Default Postal Code] | `*`(별표) |
 | [[!UICONTROL Fixed Product taxes]](../configuration-reference/sales/tax.md#fixed-product-taxes) |  |
 | [!UICONTROL Enable FPT] | `Yes` |
 | [!UICONTROL All FPT Display Settings] | `Including FPT and FPT description` |
@@ -397,27 +397,27 @@ ht-degree: 0%
 
 ### 6단계: 독일에 대한 세금 설정 구성
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 오른쪽 상단에서 를 설정합니다. **[!UICONTROL Store View]** 독일 상점을 보려면 **[!UICONTROL OK]** 확인할 수 있습니다.
+1. 오른쪽 상단 모서리에서 독일어 스토어에 대한 보기에 **[!UICONTROL Store View]**&#x200B;을(를) 설정하고 **[!UICONTROL OK]**&#x200B;을(를) 클릭하여 확인합니다.
 
-1. 왼쪽 패널에서 를 확장합니다. **[!UICONTROL Sales]** 및 선택 **[!UICONTROL Tax]**.
+1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Tax]**&#x200B;을(를) 선택합니다.
 
-1. 다음에서 **[!UICONTROL Default Tax Destination Calculation]** 섹션에서 다음을 수행합니다.
+1. **[!UICONTROL Default Tax Destination Calculation]** 섹션에서 다음을 수행합니다.
 
-   - 지우기 **[!UICONTROL Use Website]** 각 필드 뒤에 있는 확인란,
+   - 각 필드 뒤에 있는 **[!UICONTROL Use Website]** 확인란의 선택을 취소합니다.
 
-   - 사이트의 배송 설정을 일치시키려면 [원점](shipping-settings.md#point-of-origin), 다음 값을 업데이트합니다.
+   - 사이트의 배송 설정 [원본 지점](shipping-settings.md#point-of-origin)과(와) 일치시키려면 다음 값을 업데이트하십시오.
 
       - 기본 국가
       - 기본 상태
-      - 기본 게시물 코드
+      - 기본 Post 코드
 
      이 설정을 사용하면 제품 가격에 세금이 포함된 경우 세금이 올바르게 계산됩니다.
 
      ![기본 세금 대상 계산](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 [1]: https://www.revenuquebec.ca/en/businesses/
 [2]: https://www.saskatchewan.ca/finance

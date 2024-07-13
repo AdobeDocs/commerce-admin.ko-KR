@@ -1,6 +1,6 @@
 ---
 user-guide-title: Adobe Commerce 시작 안내서
-user-guide-description: Adobe Commerce 또는 Magento Open Source을 처음 사용하는 경우 [!DNL Commerce] 에코시스템에 따라 고객 여정에 따라 스토어를 탐색하고 주요 기능에 대해 알아보십시오.
+user-guide-description: Adobe Commerce 또는 Magento Open Source을 처음 사용하는 경우  [!DNL Commerce] 에코시스템의 리소스를 검색하고 고객 여정에 따라 스토어를 탐색하며 주요 기능에 대해 알아보십시오.
 breadcrumb-title: 시작
 role: Admin, Leader, User
 feature: Admin Workspace
@@ -23,9 +23,9 @@ ht-degree: 1%
    + [계정 보안](commerce-account-secure.md)
    + [계정 공유](commerce-account-share.md)
    + [계정 양도](commerce-account-transfer.md)
-+ 사이트 규정 준수 {#compliance}
++ 사이트 준수 {#compliance}
    + [Adobe Commerce의 HIPAA 준비](hipaa-ready-service.md)
-   + 개인 정보 보호 {#privacy}
+   + 개인 정보 {#privacy}
       + [개인정보 처리방침 저장](privacy-policy.md)
       + [CCPA 규정 준수](compliance-ccpa.md)
       + [GDPR 준수](compliance-gdpr.md)
@@ -46,14 +46,14 @@ ht-degree: 1%
       + [통합 구성](admin-unified-experience-integration-configure.md)
       + [Experience Cloud 통합 관리](admin-unified-experience-integration-manage.md)
       + [릴리스 정보](admin-unified-experience-release-notes.md)
-   + 관리 도구 및 작업 공간 {#tools}
-      + [작업 영역](admin-workspace.md)
+   + 관리 도구 및 작업 영역 {#tools}
+      + [Workspace](admin-workspace.md)
       + [관리 사이드바](admin-menu.md)
       + [대시보드](admin-dashboard.md)
       + [메시지 받은 편지함](admin-message-inbox.md)
       + [그리드 컨트롤](admin-grid-controls.md)
       + [작업 제어](admin-actions-control.md)
-+ 상점 앞 {#storefront}
++ 상점 {#storefront}
    + [가게 앞이 뭐죠?](storefront.md)
    + [향상된 스토어 경험](enhanced-experiences.md)
 + 기본 설정 및 구성 {#setup}
@@ -61,7 +61,7 @@ ht-degree: 1%
    + [세부 정보 저장](store-details.md)
    + [상점 첫 브랜딩](storefront-branding.md)
    + [사전 실행 검사 목록](prelaunch-checklist.md)
-+ 표준 보고  {#reporting}
++ 표준 보고 {#reporting}
    + [보고서 메뉴](reports-menu.md)
    + [마케팅 보고서](marketing-reports.md)
    + [보고서 검토](review-reports.md)

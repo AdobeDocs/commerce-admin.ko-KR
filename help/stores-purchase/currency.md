@@ -5,14 +5,14 @@ exl-id: 5255fb63-a615-4b05-8b00-5c5a089cbb2d
 feature: Currency, Storefront
 source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
 # 통화
 
-Adobe Commerce은 전 세계 200여 개국의 통화를 수락할 수 있는 기능을 제공합니다. 스토어에서 여러 통화를 지원하는 경우 _통화 선택기_ 통화 환율이 다음 헤더에 표시됩니다. [업데이트됨](currency-update.md).
+Adobe Commerce은 전 세계 200여 개국의 통화를 수락할 수 있는 기능을 제공합니다. 스토어에서 여러 통화를 지원하는 경우 통화 환율이 [업데이트](currency-update.md)된 후 _통화 선택기_&#x200B;가 헤더에 표시됩니다.
 
 >[!NOTE]
 >
@@ -20,4 +20,4 @@ Adobe Commerce은 전 세계 200여 개국의 통화를 수락할 수 있는 기
 
 통화 기호는 제품 가격 및 주문 및 송장과 같은 판매 문서에 나타납니다. 필요에 따라 통화 기호를 사용자 정의하고 각 상점 또는 뷰에 대해 별도로 가격 표시를 설정할 수도 있습니다.
 
-![예 storefront - 통화 선택기](./assets/storefront-currency-chooser.png){width="700" zoomable="yes"}
+![Example storefront - 통화 선택기](./assets/storefront-currency-chooser.png){width="700" zoomable="yes"}

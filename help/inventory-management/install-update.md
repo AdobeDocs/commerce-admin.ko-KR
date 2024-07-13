@@ -1,35 +1,35 @@
 ---
-title: "설치, 업데이트 및 제거 [!DNL Inventory Management]"
-description: 관리 방법 알아보기 [!DNL Inventory Management] 메타패키지.
+title: " [!DNL Inventory Management] 설치, 업데이트 및 제거"
+description: ' [!DNL Inventory Management] 메타패키지를 관리하는 방법을 알아봅니다.'
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
 source-git-commit: d6c81da4b4e0674d6699e9781921ccb2160b9983
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
 
-# 설치, 업데이트 및 제거 [!DNL Inventory Management]
+# [!DNL Inventory Management] 설치, 업데이트 및 제거
 
-[!DNL Inventory Management] 모듈은 단일 및 다중 소스 판매자가 판매 채널에 대한 제품 수량 및 재고를 관리할 수 있도록 모든 재고 기능 및 옵션을 제공합니다. 이러한 기능은 Adobe Commerce 및 Magento Open Source 2.4.x 릴리스에서 사용할 수 있습니다.
+[!DNL Inventory Management] 모듈은 단일 및 다중 소스 판매자가 판매 채널의 제품 수량과 재고를 관리할 수 있도록 모든 재고 기능과 옵션을 제공합니다. 이러한 기능은 Adobe Commerce 및 Magento Open Source 2.4.x 릴리스에서 사용할 수 있습니다.
 
-이러한 기능과 확장은 의 일부로 개발되었습니다. [인벤토리 프로젝트](https://github.com/magento/inventory) Magento Open Source 커뮤니티 엔지니어링 프로그램을 통해
+이러한 기능과 확장은 Magento Open Source 커뮤니티 엔지니어링 프로그램을 통해 [인벤토리 프로젝트](https://github.com/magento/inventory)의 일부로 개발되었습니다.
 
-[!DNL Inventory Management] 모든 기능이 기본적으로 활성화되어 있는 Adobe Commerce 및 Magento Open Source의 2.3.x 및 2.4.x 릴리스에 설치합니다. 이러한 재고 기능을 활성화하는 데 추가 단계가 필요하지 않습니다. v2.1.x 또는 2.2.x에서 업그레이드하려면 추가 단계가 필요할 수 있습니다. 다음을 참조하십시오 [Inventory management 업그레이드](#upgrade-inventory-management).
+[!DNL Inventory Management]은(는) 기본적으로 모든 기능이 활성화된 Adobe Commerce 및 Magento Open Source의 2.3.x 및 2.4.x 릴리스에 설치됩니다. 이러한 재고 기능을 활성화하는 데 추가 단계가 필요하지 않습니다. v2.1.x 또는 2.2.x에서 업그레이드하려면 추가 단계가 필요할 수 있습니다. [Inventory management 업그레이드](#upgrade-inventory-management)를 참조하십시오.
 
-에 따라 설치 [온프레미스 설치 빠른 시작](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"} 권장됩니다. 메타패키지로 설치하여 모두 받기 [!DNL Inventory Management] 모듈.
+[빠른 시작 온-프레미스 설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"}에 따른 설치가 권장됩니다. 모든 [!DNL Inventory Management] 모듈을 받으려면 메타패키지로 설치하십시오.
 
-의 다음 줄 `composer.json` 메타패키지 설치 [!DNL Inventory Management]:
+`composer.json` 메타패키지에 있는 다음 줄은 [!DNL Inventory Management]을(를) 설치합니다.
 
 ```json
         magento/inventory-composer-metapackage = 1.1.3
 ```
 
-의 목록 [!DNL Inventory Management] 메타패키지 버전, 참조: [릴리스 정보](release-notes.md).
+[!DNL Inventory Management] 메타패키지 버전 목록을 보려면 [릴리스 정보](release-notes.md)를 참조하세요.
 
-다음 [!DNL Inventory Management] 설치 프로세스는에 모든 모듈을 추가합니다. `<Magento_installation_directory>/app/etc/config.php` 파일. A `1` 값은 해당 모듈이 활성화되었음을 나타냅니다. 다음 모듈 목록이 추가됩니다.
+[!DNL Inventory Management] 설치 프로세스는 모든 모듈을 `<Magento_installation_directory>/app/etc/config.php` 파일에 추가합니다. `1` 값은 해당 모듈이 활성화되었음을 나타냅니다. 다음 모듈 목록이 추가됩니다.
 
 ```php
         'Magento_Inventory' => 1,
@@ -81,26 +81,26 @@ ht-degree: 0%
         'Magento_InventoryGraphQl' => 1,
 ```
 
-## 사용 [!DNL Inventory Management] 기능
+## [!DNL Inventory Management]개 기능 사용
 
-설치, 업그레이드 또는 업데이트 시 _[!UICONTROL Manage Stock]_관리자의 옵션은 기본적으로 활성화되어 있습니다. 이 옵션을 사용하면 인벤토리 추적 및 관리를 사용할 수 있지만 모듈 상태에는 영향을 주지 않습니다. 모듈을 비활성화하려면 다음 섹션을 참조하십시오.
+설치, 업그레이드 또는 업데이트 시 Admin의 _[!UICONTROL Manage Stock]_옵션이 기본적으로 사용됩니다. 이 옵션을 사용하면 인벤토리 추적 및 관리를 사용할 수 있지만 모듈 상태에는 영향을 주지 않습니다. 모듈을 비활성화하려면 다음 섹션을 참조하십시오.
 
-구성에 대한 자세한 내용은 [Inventory management 구성](configuration.md).
+구성에 대한 자세한 내용은 [Inventory management 구성](configuration.md)을 참조하십시오.
 
 ## Inventory management 비활성화
 
 >[!IMPORTANT]
 >
->기본값 사용 [!DNL Inventory Management] 모듈을 사용하는 것이 좋습니다. 대안 [!DNL CatalogInventory] 모듈: 비활성화된 시스템에 사용됨 [!DNL Inventory Management] 모듈 은 이제 더 이상 사용되지 않습니다. 비활성화 [!DNL Inventory Management] 모듈은 불안정한 시스템을 유발하여 다양한 문제를 일으킬 수 있습니다.
+>기본 [!DNL Inventory Management] 모듈을 사용하는 것이 좋습니다. [!DNL Inventory Management] 모듈이 비활성화된 시스템에 사용되는 대체 [!DNL CatalogInventory] 모듈이 이제 더 이상 사용되지 않습니다. [!DNL Inventory Management] 모듈을 사용하지 않도록 설정하면 시스템이 불안정해지고 여러 가지 문제가 발생할 수 있습니다.
 
-을(를) 비활성화할 수 있습니다. [!DNL Inventory Management] 모듈:
+[!DNL Inventory Management] 모듈을 사용하지 않도록 설정하여 다음을 수행할 수 있습니다.
 
 * 2.0.x, 2.1.x, 2.2.x 또는 2.3.x에서 2.4.x로 마이그레이션하는 상인의 업그레이드 프로세스 속도를 높입니다.
 * 사용자 지정 또는 서드파티 재고 및 주문 관리 시스템 모듈을 사용합니다.
 
-다음을 참조하십시오. [모듈 활성화 또는 비활성화](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) 페이지의 _설치 안내서_ 적용 가능한 모듈을 비활성화하는 방법에 대한 정보입니다.
+해당 모듈을 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 _설치 안내서_&#x200B;의 [모듈 사용 또는 사용 안 함](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) 페이지를 참조하십시오.
 
-완료되면 시스템에서 모듈 및 값 목록을 제공합니다. `<Magento_installation_directory>/app/etc/config.php`, 다음으로 시작:
+완료되면 시스템은 `<Magento_installation_directory>/app/etc/config.php`에 다음과 같이 시작하는 모듈 및 값 목록을 제공합니다.
 
 ```php
    'Magento_Inventory' => 0,
@@ -111,15 +111,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->OMS 커넥터 모듈이 설치되어 있는 경우 `Magento_InventoryMessageBus` 모듈(커넥터 모듈). OMS에서 커넥터를 사용해야 합니다.
+>OMS 커넥터 모듈이 설치되어 있는 경우 커넥터 모듈인 `Magento_InventoryMessageBus` 모듈을 비활성화하지 않도록 하십시오. OMS에서 커넥터를 사용해야 합니다.
 
 ## Inventory management 제거
 
 >[!IMPORTANT]
 >
->기본값 사용 [!DNL Inventory Management] 모듈을 사용하는 것이 좋습니다. 대안 [!DNL CatalogInventory] 모듈 : 제거된 시스템에 사용됨 [!DNL Inventory Management] 모듈 은 이제 더 이상 사용되지 않습니다. 제거 [!DNL Inventory Management] 모듈은 불안정한 시스템을 유발하여 다양한 문제를 일으킬 수 있습니다.
+>기본 [!DNL Inventory Management] 모듈을 사용하는 것이 좋습니다. [!DNL Inventory Management] 모듈이 제거된 시스템에 사용되는 대체 [!DNL CatalogInventory] 모듈이 이제 더 이상 사용되지 않습니다. [!DNL Inventory Management] 모듈을 제거하면 시스템이 불안정해지고 다양한 문제가 발생할 수 있습니다.
 
-를 사용하지 않기로 선택한 경우 [!DNL Inventory Management] 이 기능을 사용하면 이러한 모듈을 제거(제거)할 수 있습니다. 작성기 파일을 통해 모든 모듈을 제거하려면 다음을 추가합니다. `composer.json`:
+[!DNL Inventory Management] 기능을 사용하지 않도록 선택하면 이러한 모듈을 제거(제거)할 수 있습니다. 작성기 파일을 통해 모든 모듈을 제거하려면 `composer.json`에 다음을 추가하십시오.
 
 ```
 "replace": {
@@ -203,17 +203,17 @@ ht-degree: 0%
 
 ### 이전 [!DNL Commerce] 버전
 
-기존 2.1.x, 2.2.x 또는 2.3.x 설치를 Adobe Commerce 또는 Magento Open Source 2.4.x로 업그레이드하거나 업데이트하는 경우, [!DNL Inventory Management] 모듈은 기본적으로 비활성화되어 있습니다. 이 기본 설정은 역으로 호환되지 않는 업그레이드를 방지하고 OMS(Order Management)를 더 잘 지원하기 위한 예방 조치입니다.
+기존 2.1.x, 2.2.x 또는 2.3.x 설치를 Adobe Commerce 또는 Magento Open Source 2.4.x로 업그레이드하거나 업데이트하는 경우 기본적으로 [!DNL Inventory Management] 모듈이 비활성화됩니다. 이 기본 설정은 역으로 호환되지 않는 업그레이드를 방지하고 OMS(Order Management)를 더 잘 지원하기 위한 예방 조치입니다.
 
 >[!NOTE]
 >
->Order Management에서 다음을 지원하지 않음 [!DNL Inventory Management]. 업그레이드 시 [!DNL Inventory Management] 모듈이 OMS 및 를 허용하도록 비활성화되었습니다. [!DNL Commerce] 2.3.x를 사용하면 원활하게 작업할 수 있습니다.
+>Order Management은 [!DNL Inventory Management]을(를) 지원하지 않습니다. 업그레이드할 때 [!DNL Inventory Management] 모듈이 비활성화되어 OMS 및 [!DNL Commerce] 2.3.x가 원활하게 작동할 수 있습니다.
 
 
-활성화하려면 [!DNL Inventory Management] 모듈:
+[!DNL Inventory Management] 모듈을 사용하려면:
 
-1. 편집 `<Commerce_installation_directory>/app/etc/config.php` 파일.
-1. 에서 모든 인벤토리 모듈 수정 `0` 끝 `1` 활성화하려면 다음을 수행하십시오.
+1. `<Commerce_installation_directory>/app/etc/config.php` 파일을 편집합니다.
+1. 활성화하려면 모든 인벤토리 모듈을 `0`에서 `1`(으)로 수정하십시오.
 1. 데이터베이스 업데이트:
 
    ```bash
@@ -226,11 +226,11 @@ ht-degree: 0%
    bin/magento cache:clean
    ```
 
-를 사용하는 것이 좋습니다. [예약 불일치 명령](cli.md) 업그레이드 후. 업그레이드할 때 모든 제품이 기본 재고에 추가됩니다. 대기 중인 주문이 있는 경우 명령은 판매 가능 수량 및 판매 및 주문 이행에 대한 예약을 올바르게 갱신합니다.
+업그레이드한 후 [예약 불일치 명령](cli.md)을 사용하는 것이 좋습니다. 업그레이드할 때 모든 제품이 기본 재고에 추가됩니다. 대기 중인 주문이 있는 경우 명령은 판매 가능 수량 및 판매 및 주문 이행에 대한 예약을 올바르게 갱신합니다.
 
 ### 이전 [!DNL Inventory Management] 버전
 
-의 이전 릴리스에서 업그레이드할 때 [!DNL Inventory Management] 최신 버전으로 업그레이드하려면 일반 확장 업그레이드 단계를 따르십시오.
+[!DNL Inventory Management]의 이전 릴리스에서 최신 버전으로 업그레이드할 때는 일반적인 확장 업그레이드 단계를 따르십시오.
 
 최신 버전의 경우 다음과 같이 메타 패키지 버전을 업데이트합니다.
 
@@ -238,7 +238,7 @@ ht-degree: 0%
         magento/inventory-composer-metapackage = 1.1.3
 ```
 
-상거래 업그레이드에 대한 자세한 내용은 다음 안내서를 참조하십시오.
+Commerce 업그레이드에 대한 자세한 내용은 다음 안내서를 참조하십시오.
 
 * [Commerce 업데이트 안내서](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
-* [모듈 활성화 또는 비활성화](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}
+* [모듈 사용 또는 사용 안 함](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}

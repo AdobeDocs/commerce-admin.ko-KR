@@ -5,7 +5,7 @@ exl-id: 869d79ca-688a-4032-a95c-c66ebf7f2775
 feature: Invoices
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -24,31 +24,31 @@ ht-degree: 0%
 
 **_로고를 업데이트하려면:_**
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널에서 를 확장합니다. **[!UICONTROL Sales]** 및 선택 **[!UICONTROL Sales]** 밑에.
+1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Sales]**&#x200B;을(를) 선택합니다.
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL Invoice and Packing Slip Design]** 섹션을 참조하고 다음을 수행합니다.
+1. **[!UICONTROL Invoice and Packing Slip Design]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
-   ![판매 구성 - 판매 송장 및 포장 명세서 설계](../configuration-reference/sales/assets/sales-invoice-packing-slip-design.png){width="600" zoomable="yes"}
+   ![판매 구성 - 판매 송장 및 포장 명세서 디자인](../configuration-reference/sales/assets/sales-invoice-packing-slip-design.png){width="600" zoomable="yes"}
 
-   - 업로드 **[!UICONTROL Logo for PDF Print-outs]**, 클릭 **[!UICONTROL Choose File]**&#x200B;을(를) 클릭하고 준비한 로고를 찾은 다음 **[!UICONTROL Open]**.
+   - **[!UICONTROL Logo for PDF Print-outs]**&#x200B;을(를) 업로드하려면 **[!UICONTROL Choose File]**&#x200B;을(를) 클릭하고 미리 준비한 로고를 찾은 다음 **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
 
-   - 업로드 **[!UICONTROL Logo for HTML Print View]**, 클릭 **[!UICONTROL Choose File]**&#x200B;을(를) 클릭하고 준비한 로고를 찾은 다음 **[!UICONTROL Open]**.
+   - **[!UICONTROL Logo for HTML Print View]**&#x200B;을(를) 업로드하려면 **[!UICONTROL Choose File]**&#x200B;을(를) 클릭하고 미리 준비한 로고를 찾은 다음 **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
 
    - 송장 및 포장 명세서에 표시할 주소를 입력합니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
    참고로 업로드된 이미지의 썸네일은 각 필드 앞에 나타난다. 축소판이 왜곡되어 나타나더라도 걱정하지 마십시오. 인보이스 상의 로고 비중은 정확합니다.
 
 ### 이미지 바꾸기
 
-1. 클릭 **[!UICONTROL Choose File]** 다른 로고 파일을 선택하십시오.
+1. **[!UICONTROL Choose File]**&#x200B;을(를) 클릭하고 다른 로고 파일을 선택하십시오.
 
-1. 다음 항목 선택 **[!UICONTROL Delete Image]** 바꿀 이미지에 대한 확인란입니다.
+1. 바꿀 이미지에 대한 **[!UICONTROL Delete Image]** 확인란을 선택하십시오.
 
-1. 클릭 **[!UICONTROL Save Config]**.
+1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 ### 이미지 형식
 
@@ -69,32 +69,32 @@ ht-degree: 0%
 
 주문 ID와 고객 IP 주소는 주문과 함께 제공되는 영업 문서의 헤더에 포함될 수 있습니다. 기본적으로 주문 ID와 고객 IP 주소는 모두 송장, 선적 포장 명세서 및 대변 메모의 헤더에 나타납니다.
 
-![영업 구성 - PDF 출력](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
+![판매 구성 - PDF 출력](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
 
 **_주문 ID 설정을 변경하려면:_**
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널에서 를 확장합니다. **[!UICONTROL Sales]** 및 선택 **[!UICONTROL PDF Print-outs]**.
+1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL PDF Print-outs]**&#x200B;을(를) 선택합니다.
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **인보이스** 섹션.
+1. **송장** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
-1. 설정 **[!UICONTROL Display Order ID in Header]** 당신의 취향에 따라.
+1. 기본 설정에 따라 **[!UICONTROL Display Order ID in Header]**&#x200B;을(를) 설정합니다.
 
-1. 다음에 대해 반복 **[!UICONTROL Shipment]** 및 **[!UICONTROL Credit Memo]** 섹션.
+1. **[!UICONTROL Shipment]** 및 **[!UICONTROL Credit Memo]** 섹션에 대해 반복합니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 **_고객 IP 주소 설정을 변경하려면:_**
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널에서 를 확장합니다. **[!UICONTROL Sales]** 및 선택 **[!UICONTROL Sales]** 밑에.
+1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Sales]**&#x200B;을(를) 선택합니다.
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL General]** 섹션.
+1. **[!UICONTROL General]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![판매 구성 - 일반 판매 설정](../configuration-reference/sales/assets/sales-general.png){width="600" zoomable="yes"}
 
-1. 설정 **[!UICONTROL Hide Customer IP]** 원하는 대로 사용하십시오.
+1. **[!UICONTROL Hide Customer IP]**&#x200B;을(를) 기본 설정으로 설정합니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.

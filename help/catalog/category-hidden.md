@@ -16,14 +16,14 @@ ht-degree: 0%
 
 ## 숨겨진 범주 만들기
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**(으)로 이동합니다.
 
 1. 범주 트리에서 숨길 범주를 선택하고 다음을 수행합니다.
 
-   - 설정 **[!UICONTROL Is Active]** 끝 `Yes`.
-   - 설정 **[!UICONTROL Include in Menu]** 끝 `No`.
+   - **[!UICONTROL Is Active]**&#x200B;을(를) `Yes`(으)로 설정합니다.
+   - **[!UICONTROL Include in Menu]**&#x200B;을(를) `No`(으)로 설정합니다.
 
-1. 다음에서 **[!UICONTROL Display Settings]** 섹션, 설정 **[!UICONTROL Anchor]** 끝 `No`.
+1. **[!UICONTROL Display Settings]** 섹션에서 **[!UICONTROL Anchor]**&#x200B;을(를) `No`(으)로 설정합니다.
 
    ![숨겨진 범주](./assets/hidden-categories.png){width="600" zoomable="yes"}
 
@@ -35,9 +35,9 @@ ht-degree: 0%
    >
    >카테고리가 숨겨져 있지만 그 아래에 하위 카테고리를 만들어 활성화할 수 있습니다.
 
-   - 설정 **[!UICONTROL Enable Category]** 끝 `Yes`.
-   - 다음에서 **[!UICONTROL Display Settings]** 섹션, 설정 **[!UICONTROL Anchor]** 끝 `Yes`.
+   - **[!UICONTROL Enable Category]**&#x200B;을(를) `Yes`(으)로 설정합니다.
+   - **[!UICONTROL Display Settings]** 섹션에서 **[!UICONTROL Anchor]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
    이제 활성 카테고리로 상점의 다른 위치에서 해당 카테고리에 연결할 수 있지만 메뉴에 나타나지 않습니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]**.
+1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.

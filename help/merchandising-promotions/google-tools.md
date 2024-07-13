@@ -5,7 +5,7 @@ exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 스토어 구성은 다음의 Google 도구와 통합되어 콘텐츠를 최적화하고, 트래픽을 분석하고, 카탈로그를 쇼핑 집선 및 마켓플레이스에 연결하는 데 도움이 됩니다.
 
-- [Google Analytics](google-analytics.md) - 사용 _Google 유니버설 애널리틱스_ 를 사용하여 추적을 위한 추가 사용자 지정 차원 및 지표를 정의하고 오프라인 및 모바일 앱 상호 작용을 지원하며 진행 중인 업데이트에 액세스할 수 있습니다.
+- [Google Analytics](google-analytics.md) - _Google Universal Analytics_&#x200B;를 사용하여 추적을 위한 추가 사용자 지정 차원 및 지표를 정의하고 오프라인 및 모바일 앱 상호 작용과 지속적인 업데이트에 액세스할 수 있습니다.
 
 - [Google 콘텐츠 실험](google-content-experiments.md) - Google Analytics 콘텐츠 실험을 사용하여 제품, 카테고리 또는 콘텐츠 페이지에 대한 A/B 테스트를 설정합니다.
 
-- [Google 태그 관리자](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce만 해당) Google 태그 관리자를 사용하여 마케팅 캠페인 이벤트와 관련된 많은 태그를 관리합니다.
+- [Google 태그 관리자](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용) Google 태그 관리자를 사용하여 마케팅 캠페인 이벤트와 관련된 여러 태그를 관리합니다.
 
 - [Google AdWords](google-adwords.md) - Google AdWords 캠페인을 만들고 스토어에 대한 전환을 추적합니다.
 
@@ -26,15 +26,15 @@ ht-degree: 0%
 
 ## Google 개인 정보 설정
 
-다음과 같은 개인 정보 보호 규정을 준수해야 하는 경우 [GDPR](../getting-started/compliance-gdpr.md) 또는 [CCPA](../getting-started/compliance-ccpa.md), 개인 정보 보호 요구 사항을 충족하도록 Google 도구의 기본 설정을 변경합니다. 다음 단계에 따라 고객 데이터 사용이 지속적으로 준수되도록 하십시오.
+비즈니스가 [GDPR](../getting-started/compliance-gdpr.md) 또는 [CCPA](../getting-started/compliance-ccpa.md)와 같은 개인 정보 보호 규정을 준수해야 하는 경우 개인 정보 보호 요구 사항을 충족하도록 Google 도구의 기본 설정을 변경하십시오. 다음 단계에 따라 고객 데이터 사용이 지속적으로 준수되도록 하십시오.
 
 ### 1단계: Google 설정 업데이트
 
-1. [로그인][1]{: target=&quot;_blank&quot;}(을)를 회사 Google Analytics 계정에 추가합니다.
+1. 회사 Google Analytics 계정에 [로그인][1]{: target=&quot;_blank&quot;}.
 
-1. 왼쪽 사이드바 하단에서 **[!UICONTROL Admin]**&#x200B;을 클릭한 다음 편집할 계정으로 이동합니다(해당하는 경우).
+1. 왼쪽 사이드바 아래에서 **[!UICONTROL Admin]**&#x200B;을(를) 선택한 다음 편집할 계정으로 이동합니다(해당하는 경우).
 
-1. 다음에서 **[!UICONTROL Account]** 열, 클릭 **[!UICONTROL Account Settings]**.
+1. **[!UICONTROL Account]** 열에서 **[!UICONTROL Account Settings]**&#x200B;을(를) 클릭합니다.
 
 1. 개인 정보 보호 규정 요구 사항을 충족하기 위해 데이터 공유를 끕니다.
 
@@ -45,22 +45,22 @@ ht-degree: 0%
    - 기술 지원
    - 계정 전문가
 
-1. 수락 _데이터 처리 수정 사항_.
+1. _데이터 처리 수정_&#x200B;에 동의합니다.
 
-   Google 광고 데이터 처리 약관은 Google에서 데이터를 처리하는 방법과 GDPR의 적용을 받는 비즈니스의 데이터 보안을 보장하기 위해 취하는 조치를 설명합니다. 또한 법인과 연락처 정보에 대한 기록이 개정과 함께 유지됩니다. 종료 [자세히 알아보기][2]{: target=&quot;_blank&quot;} 페이지 상단의 메시지에서 링크를 클릭합니다.
+   Google 광고 데이터 처리 약관은 Google에서 데이터를 처리하는 방법과 GDPR의 적용을 받는 비즈니스의 데이터 보안을 보장하기 위해 취하는 조치를 설명합니다. 또한 법인과 연락처 정보에 대한 기록이 개정과 함께 유지됩니다. [자세히 알아보기][2]{: target=&quot;_blank&quot;}하려면 페이지 맨 위에 있는 메시지의 링크를 클릭하십시오.
 
-   - 페이지를 아래로 스크롤하여 **[!UICONTROL Data Processing Amendment]**.
-   - 클릭 **[!UICONTROL Review Amendment]** 을(를) 읽으려면 _Google 광고 데이터 처리 용어_.
-   - 클릭 **[!UICONTROL Accept]**.
-   - 클릭 **[!UICONTROL Save]**.
+   - 페이지를 아래로 스크롤하여 **[!UICONTROL Data Processing Amendment]**(으)로 이동합니다.
+   - _Google 광고 데이터 처리 용어_&#x200B;를 읽으려면 **[!UICONTROL Review Amendment]**&#x200B;을(를) 클릭하십시오.
+   - **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
+   - **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-1. 다음을 완료합니다. _DPA 관리_ 세부 정보.
+1. _DPA 관리_ 세부 정보를 완료합니다.
 
-   - 클릭 **[!UICONTROL Manage DPA Details]** 연락처 및 조직의 법인을 편집할 수 있는 DPA 관리 페이지를 엽니다.
+   - 연락처 및 조직의 엔터티를 편집할 수 있는 DPA 관리 페이지를 열려면 **[!UICONTROL Manage DPA Details]**&#x200B;을(를) 클릭하십시오.
 
-   - 다음에서 **[!UICONTROL Legal Entities]** 섹션에서 _편집_ ( ![Google 편집 아이콘](./assets/google-icon-edit.png) ) 아이콘을 클릭하고 조직에 등록된 이름을 한 개 이상 추가합니다. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]**.
+   - **[!UICONTROL Legal Entities]** 섹션에서 _편집_( ![Google 편집 아이콘](./assets/google-icon-edit.png) ) 아이콘을 클릭하고 조직에 등록된 이름을 하나 이상 추가합니다. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   - 다음에서 **연락처** 섹션에서 _추가_ ( ![Google 추가 아이콘](./assets/google-icon-add.png) ) 아이콘을 클릭하고 첫 번째 연락처에 대한 정보를 입력합니다. 그런 다음 적용 가능한 각 역할의 확인란을 선택하고 **[!UICONTROL Add]**.
+   - **연락처** 섹션에서 _추가_( ![Google 추가 아이콘](./assets/google-icon-add.png)) 아이콘을 클릭하고 첫 번째 연락처에 대한 정보를 입력합니다. 그런 다음 적용 가능한 각 역할의 확인란을 선택하고 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
       - 기본 담당자 - (통지 이메일 주소) 통지를 발송하는 담당자입니다.
       - 데이터 보호 관리자 - (해당되는 경우) 개인정보 보호 규정 준수를 용이하게 하도록 지정된 사람.
@@ -70,11 +70,11 @@ ht-degree: 0%
 
 ### 2단계: Google JS 라이브러리 수정
 
-Google은 Google 제품에 따라 웹 사이트 사용을 측정하기 위해 세 개의 JavaScript 라이브러리를 지원합니다. `gtag.js`, `analytics.js`, 및 `ga.js`. 개인 정보 보호 요구 사항을 충족하기 위해 표준 코드를 다음과 같이 수정할 수 있습니다.
+Google에서는 Google 제품에 따라 웹 사이트 사용량을 측정하기 위해 `gtag.js`, `analytics.js` 및 `ga.js` JavaScript 라이브러리 세 개를 지원합니다. 개인 정보 보호 요구 사항을 충족하기 위해 표준 코드를 다음과 같이 수정할 수 있습니다.
 
 #### IP 주소 익명화
 
-에서 사용하는 IP 주소를 익명화하려면 **_Google 유니버설 애널리틱스_**, 다음 코드 조각을 `analytics.js` 웹 서버의 라이브러리:
+**_Google Universal Analytics_**&#x200B;에서 사용하는 IP 주소를 익명화하려면 웹 서버의 `analytics.js` 라이브러리에 다음 코드 조각을 추가하십시오.
 
 analytics.js
 
@@ -82,9 +82,9 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-자세한 내용은 [Analytics.js 필드 참조][3]{: target=&quot;_blank&quot;}(Google 도움말)
+자세한 내용은 Google 도움말의 [Analytics.js 필드 참조][3]{: target=&quot;_blank&quot;}를 참조하십시오.
 
-기존 을 사용하는 경우 `ga.js` library에서 다음 코드 조각을 추가합니다.
+기존 `ga.js` 라이브러리를 사용하는 경우 다음 코드 조각을 추가합니다.
 
 ga.js
 
@@ -92,7 +92,7 @@ ga.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-에서 사용하는 IP 주소를 익명화하려면 **_Google 태그 관리자_**, 를 설정합니다. `anonymize_ip` 매개 변수 `true` 다음에서 `gtag.js` 웹 서버에 있는 라이브러리입니다.
+**_Google 태그 관리자_**&#x200B;에서 사용하는 IP 주소를 익명으로 처리하려면 웹 서버의 `gtag.js` 라이브러리에서 `anonymize_ip` 매개 변수를 `true`(으)로 설정하십시오.
 
 gtag.js
 
@@ -100,11 +100,11 @@ gtag.js
 : `gtag('event', 'your_event', { 'anonymize_ip': true })`
 ```
 
-자세한 내용은 다음을 참조하십시오. [Analytics에서의 IP 익명화][4] Google 도움말에서 참조할 수 있습니다.
+자세한 내용은 Google 도움말의 [Analytics에서 IP 익명화][4]를 참조하십시오.
 
 #### SSL 강제 적용
 
-모든 Google 데이터가 SSL(Secure Socket Layer)을 통해 전송되도록 하려면 다음에 다음 코드 조각을 추가합니다. `analytics.js` 웹 서버에 있는 라이브러리입니다.
+SSL(Secure Socket Layer)을 통해 모든 Google 데이터를 강제로 전송하려면 웹 서버의 `analytics.js` 라이브러리에 다음 코드 조각을 추가하십시오.
 
 analytics.js
 
@@ -114,7 +114,7 @@ analytics.js
 
 ### 3단계: 개인정보 처리방침 업데이트
 
-업데이트 [개인정보 처리방침](../getting-started/privacy-policy.md) 귀사를 명시하려면:
+[개인정보 처리방침](../getting-started/privacy-policy.md)을 업데이트하여 회사 상태 표시:
 
 - Google Analytics 사용
 - 개인 정보를 숨기기 위해 IP 주소 마스크

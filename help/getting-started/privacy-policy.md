@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 개인정보 처리방침 저장
 
-스토어에 자체 정보로 업데이트해야 하는 샘플 개인정보 처리방침이 포함되어 있습니다. 귀하의 개인정보 처리방침은 귀사에서 수집하는 정보의 유형과 그 사용 방법을 설명해야 합니다. 또한 의 파일 이름도 나열해야 합니다. [쿠키](compliance-cookie-law.md#default-cookies) 그것은 당신의 가게를 방문하는 사람들의 컴퓨터에 놓여져 있습니다. 타사 확장 및 추가 기능과 연결된 모든 추가 쿠키가 목록에 포함되어야 합니다.
+스토어에 자체 정보로 업데이트해야 하는 샘플 개인정보 처리방침이 포함되어 있습니다. 귀하의 개인정보 처리방침은 귀사에서 수집하는 정보의 유형과 그 사용 방법을 설명해야 합니다. 또한 스토어를 방문한 사람들의 컴퓨터에 있는 [쿠키](compliance-cookie-law.md#default-cookies)의 파일 이름을 나열해야 합니다. 타사 확장 및 추가 기능과 연결된 모든 추가 쿠키가 목록에 포함되어야 합니다.
 
 ## 개인 데이터
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 정보가 적용되는 개인의 신원이 직접적 또는 간접적 방법으로 합리적으로 추론될 수 있도록 하는 정보의 표현. PII는 개인을 직접 식별하는 정보(이름, 주소, 주민등록번호 또는 기타 식별 번호 등)로 정의됩니다. 기관이 다른 데이터 요소로 특정 개인을 식별하고자 하는 정보(간접 식별)이기도 하다. 이러한 데이터 요소에는 성별, 인종, 생년월일, 지리적 표시기 및 기타 설명자의 조합이 포함될 수 있습니다. 또한, 특정 개인의 물리적 또는 온라인 접촉을 허용하는 정보는 개인 식별 정보와 동일합니다. 이 정보는 종이, 전자 또는 기타 매체 중 어느 하나로 유지될 수 있다.
 
-![Storefront 예 - 개인정보 처리방침](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
+![Example storefront - 개인정보 처리방침](./assets/storefront-privacy-policy.png){width="600" zoomable="yes"}
 
 ## 개인정보 처리방침 편집
 
@@ -34,18 +34,18 @@ ht-degree: 0%
 >
 >Luma 샘플 데이터에는 사용하기 위해 수정할 수 있는 샘플 개인정보 처리방침이 포함되어 있습니다.
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**(으)로 이동합니다.
 
-1. 그리드에서 다음을 찾습니다. **[!UICONTROL Privacy Policy]**. 그런 다음 _[!UICONTROL Action]_열, 클릭&#x200B;**[!UICONTROL Select]**및 선택&#x200B;**[!UICONTROL Edit]**.
+1. 그리드에서 **[!UICONTROL Privacy Policy]**&#x200B;을(를) 찾습니다. 그런 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Select]**을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**을(를) 선택합니다.
 
    >[!NOTE]
    >
-   >개인정보 처리방침 페이지의 URL 키를 변경하는 경우 [사용자 정의 URL 재작성](../merchandising-promotions/url-rewrite-custom.md) 트래픽을 새 URL 키로 리디렉션합니다. 그렇지 않으면 바닥글에 있는 링크가 반환됩니다 `404 Page Not Found`.
+   >개인정보 처리방침 페이지의 URL 키를 변경하는 경우 트래픽을 새 URL 키로 리디렉션하려면 [사용자 지정 URL 다시 작성](../merchandising-promotions/url-rewrite-custom.md)도 만들어야 합니다. 그렇지 않으면 바닥글의 링크가 `404 Page Not Found`을(를) 반환합니다.
 
-1. 확장 **[!UICONTROL Content]** 섹션에 내용을 추가하고 필요에 따라 내용을 변경합니다.
+1. **[!UICONTROL Content]** 섹션을 확장하고 필요한 내용 변경을 수행합니다.
 
-   페이지 콘텐츠 도구 사용에 대한 자세한 내용은 을 참조하십시오. [콘텐츠 완료](../content-design/page-add.md#step-2-complete-the-content) 다음에서 _콘텐츠 및 디자인 안내서_.
+   페이지 콘텐츠 도구 사용에 대한 자세한 내용은 _콘텐츠 및 디자인 가이드_&#x200B;에서 [콘텐츠 완료](../content-design/page-add.md#step-2-complete-the-content)를 참조하세요.
 
    ![개인정보 처리방침 페이지 - 콘텐츠 편집](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Page]**.
+1. 완료되면 **[!UICONTROL Save Page]**&#x200B;을(를) 클릭합니다.

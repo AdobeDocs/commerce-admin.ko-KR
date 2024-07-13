@@ -1,6 +1,6 @@
 ---
 title: 요소 - 제목
-description: H1부터 H6까지의 제목 수준으로 텍스트 컨테이너를 추가하는 데 사용되는 제목 콘텐츠 유형에 대해 알아봅니다. [!DNL Page Builder] 스테이지.
+description: 제목 수준이 H1부터 H6까지 있는 텍스트 컨테이너를  [!DNL Page Builder] 단계까지 추가하는 데 사용되는 제목 콘텐츠 유형에 대해 알아봅니다.
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # 요소 - 제목
 
-제목 수준은 콘텐츠를 구성하고 검색 엔진이 각 페이지를 색인화하는 데 도움이 되는 계층을 설정합니다. 사용 _제목_ 의 콘텐츠 유형 [[!DNL Page Builder] 단계](workspace.md#stage) 제목 수준이 H1부터 H6까지 있는 텍스트 컨테이너를 스테이지에 추가합니다. 머리글은 현재 테마와 연결된 스타일시트에 따라 서식이 지정됩니다.
+제목 수준은 콘텐츠를 구성하고 검색 엔진이 각 페이지를 색인화하는 데 도움이 되는 계층을 설정합니다. [[!DNL Page Builder] 단계](workspace.md#stage)에서 _제목_ 콘텐츠 형식을 사용하여 H1부터 H6까지의 제목 수준이 있는 텍스트 컨테이너를 단계에 추가하십시오. 머리글은 현재 테마와 연결된 스타일시트에 따라 서식이 지정됩니다.
 
-다음 [컨텐츠 제목](workspace.md) 의 필드 _[!UICONTROL Content]_섹션은 페이지 맨 위에 H1 제목을 추가하는 데 사용할 수 있습니다. 그러나 필드는 이전의 레거시입니다 [!DNL Commerce] 이전 콘텐츠를 지원하기 위해 버전 및 가 제공됩니다. 이 필드는 을 사용하지 않습니다. [!DNL Page Builder]의 고급 기능입니다. 컨텐츠 제목 필드를 비워 두고 을(를) 사용하는 것이 좋습니다. [!DNL Page Builder] 제목 콘텐츠 유형 : 페이지에 원하는 수준의 제목을 추가합니다.
+_[!UICONTROL Content]_섹션의 [콘텐츠 제목](workspace.md) 필드를 사용하여 H1 제목을 페이지 맨 위에 추가할 수 있습니다. 그러나 이 필드는 이전 [!DNL Commerce] 버전의 레거시이며 이전 콘텐츠를 지원하기 위해 제공됩니다. 이 필드에서는 [!DNL Page Builder]의 고급 기능을 사용하지 않습니다. 콘텐츠 제목 필드를 비워 두고 [!DNL Page Builder] 제목 콘텐츠 형식을 사용하여 모든 수준의 제목을 페이지에 추가하는 것이 좋습니다.
 
 다음 예제에서는 Luma 테마로 서식을 지정할 때 컨텐츠 제목과 제목 컨텐츠 유형이 어떻게 표시되는지 보여줍니다.
 
-![상점 첫 화면의 컨텐츠 제목 및 제목 수준](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
+![상점 첫 화면의 콘텐츠 제목 및 제목 수준](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
-에서 제목을 드래그할 수 있습니다. _요소_ 의 섹션 [!DNL Page Builder] 패널을 스테이지의 행, 열 또는 탭 세트에 매핑합니다. 제목 수준과 맞춤은 스테이지의 편집기 도구 모음에서 제어하거나 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 제어.
+[!DNL Page Builder] 패널의 _요소_ 섹션에서 머리글을 스테이지의 행, 열 또는 탭 집합으로 드래그할 수 있습니다. 제목 수준과 맞춤은 스테이지의 편집기 도구 모음에서 제어하거나 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 컨트롤을 사용하여 제어할 수 있습니다.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -50,11 +50,11 @@ ht-degree: 0%
 
 ## 제목 추가
 
-1. 다음에서 [!DNL Page Builder] 패널, 확장 **[!UICONTROL Elements]** 드래그 **[!UICONTROL Heading]** 스테이지에서 행, 열 또는 탭 세트에 대한 자리 표시자
+1. [!DNL Page Builder] 패널에서 **[!UICONTROL Elements]**&#x200B;을(를) 확장하고 **[!UICONTROL Heading]** 자리 표시자를 스테이지의 행, 열 또는 탭 집합으로 드래그합니다.
 
-   ![스테이지로 제목 드래그](./assets/pb-elements-heading-drag.png){width="600" zoomable="yes"}
+   ![제목을 스테이지로 드래그](./assets/pb-elements-heading-drag.png){width="600" zoomable="yes"}
 
-1. 편집기에서 `Edit Heading Text` 자리 표시자.
+1. 편집기에서 `Edit Heading Text` 자리 표시자 위에 머리글 텍스트를 입력합니다.
 
    기본적으로 제목 텍스트에는 레벨 2(H2) 제목 유형이 지정됩니다.
 
@@ -66,17 +66,17 @@ ht-degree: 0%
 
 ## 헤더 설정 편집
 
-1. 제목 컨테이너 위로 마우스를 가져가면 도구 상자를 표시하고 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘.
+1. 제목 컨테이너 위로 마우스를 가져가면 도구 상자를 표시하고 _설정_(![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
    ![제목 도구 상자](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
 
-1. 제목 콘텐츠 업데이트(**[!UICONTROL Heading Type]** 및 **[!UICONTROL Heading Text]**&#x200B;필요한 경우 ).
+1. 필요한 경우 제목 콘텐츠(**[!UICONTROL Heading Type]** 및 **[!UICONTROL Heading Text]**)를 업데이트합니다.
 
    머리글 편집기에서 이 콘텐츠를 업데이트할 수도 있습니다.
 
-1. 업데이트 _[!UICONTROL Advanced]_필요에 따라 설정합니다.
+1. 필요에 따라 _[!UICONTROL Advanced]_설정을 업데이트합니다.
 
-   - 상위 컨테이너 내의 제목 위치를 제어하려면 **[!UICONTROL Alignment]**:
+   - 상위 컨테이너 내의 머리글 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하세요.
 
      | 옵션 | 설명 |
      | ------ | ----------- |
@@ -87,7 +87,7 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - 설정 **[!UICONTROL Border]** 제목 컨테이너의 네 면 모두에 적용된 스타일:
+   - 제목 컨테이너의 네 면 모두에 적용되는 **[!UICONTROL Border]** 스타일을 설정합니다.
 
      | 옵션 | 설명 |
      | ------ | ----------- |
@@ -104,7 +104,7 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - 테두리 스타일을 설정할 때 `None`테두리 표시 옵션을 완료합니다.
+   - `None` 이외의 테두리 스타일을 설정하는 경우 테두리 표시 옵션을 완료하십시오.
 
      | 옵션 | 설명 |
      | ------ |------------ |
@@ -114,11 +114,11 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - (선택 사항) 다음 이름을 지정합니다 **[!UICONTROL CSS classes]** 현재 스타일 시트에서 컨테이너에 적용
+   - (선택 사항) 컨테이너에 적용할 현재 스타일 시트의 **[!UICONTROL CSS classes]** 이름을 지정합니다.
 
      여러 클래스 이름은 공백으로 구분합니다.
 
-   - 다음에 대한 값을 픽셀 단위로 입력하십시오. **[!UICONTROL Margins and Padding]** 제목 컨테이너의 외부 여백과 내부 패딩을 결정합니다.
+   - **[!UICONTROL Margins and Padding]**&#x200B;에 대한 값을 픽셀 단위로 입력하여 머리글 컨테이너의 외부 여백과 내부 패딩을 결정합니다.
 
      다이어그램에 해당 값을 입력합니다.
 
@@ -129,19 +129,19 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]** 설정을 적용하고 로 돌아가려면 [!DNL Page Builder] 작업 영역.
+1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
 ## 제목 복제
 
 특정 설정이 있는 서식이 지정된 머리글의 경우 새 자리 표시자로 다시 시작하는 것보다 머리글을 복제하는 것이 더 효율적입니다.
 
-1. 제목 컨테이너 위로 마우스를 가져가면 도구 상자를 표시하고 _복제_ ( ![중복 아이콘](./assets/pb-icon-duplicate.png){width="20"} ) 아이콘.
+1. 제목 컨테이너 위로 마우스를 가져가면 도구 상자를 표시하고 _복제_(![복제 아이콘](./assets/pb-icon-duplicate.png){width="20"}) 아이콘을 선택합니다.
 
    복제본이 원본 바로 아래에 나타납니다.
 
    ![제목 컨테이너 복제](./assets/pb-elements-heading-duplicate.png){width="500" zoomable="yes"}
 
-1. 새 제목 컨테이너 위로 마우스를 가져가면 도구 상자를 표시하고 _이동_ ( ![이동 아이콘](./assets/pb-icon-move.png){width="20"} ) 아이콘.
+1. 새 제목 컨테이너 위로 마우스를 가져가면 도구 상자를 표시하고 _이동_( ![이동 아이콘](./assets/pb-icon-move.png){width="20"} ) 아이콘을 선택합니다.
 
    ![제목 이동](./assets/pb-elements-heading-move.png){width="500" zoomable="yes"}
 
@@ -149,7 +149,7 @@ ht-degree: 0%
 
    머리글이 이동하는 동안 각 컨테이너의 위쪽 및 아래쪽 테두리가 파선으로 표시됩니다.
 
-   ![복제된 제목을 위치로 이동](./assets/pb-elements-heading-move-guideline.png){width="500" zoomable="yes"}
+   ![중복된 제목을 위치로 이동](./assets/pb-elements-heading-move-guideline.png){width="500" zoomable="yes"}
 
 1. 제목 수준을 변경하려면 제목 텍스트를 클릭하고 편집기 도구 모음에서 새 수준을 선택합니다.
 

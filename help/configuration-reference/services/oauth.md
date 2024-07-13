@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Services] &gt; [!UICONTROL OAuth]'
-description: 에서 구성 설정을 검토합니다. [!UICONTROL Services] &gt; [!UICONTROL OAuth] 상거래 관리자의 페이지입니다.
+description: Commerce 관리자의 [!UICONTROL Services] &gt; [!UICONTROL OAuth] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 984793e0-6ac9-443b-b234-e0cea717dada
 feature: Configuration, Security
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -27,15 +27,15 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->전달자 고객 및 관리자 API 토큰 라이프타임 및 암호화 알고리즘은 [JWT 인증](magento-web-api.md#jwt-authentication) 구성 설정.
+>전달자 고객 및 관리자 API 토큰 수명 및 암호화 알고리즘은 [JWT 인증](magento-web-api.md#jwt-authentication) 구성 설정에 의해 제어됩니다.
 
 ## [!UICONTROL Cleanup Settings]
 
-![정리 설정](./assets/oauth-cleanup.png)<!-- zoom -->
+![설정 정리](./assets/oauth-cleanup.png)<!-- zoom -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Cleanup Probability] | 글로벌 | 정리를 시작하기 전 OAuth 요청 횟수를 지정합니다. 입력 안 함 `0` 정리를 비활성화합니다. |
+| [!UICONTROL Cleanup Probability] | 글로벌 | 정리를 시작하기 전 OAuth 요청 횟수를 지정합니다. 정리를 비활성화하려면 `0`을(를) 입력하지 마십시오. |
 | [!UICONTROL Enable WSDL Cache] | 글로벌 | 항목이 정리되기 전 항목의 보존 기간을 분 단위로 결정합니다. |
 
 {style="table-layout:auto"}

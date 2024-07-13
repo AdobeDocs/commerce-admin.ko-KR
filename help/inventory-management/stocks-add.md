@@ -5,7 +5,7 @@ exl-id: d0032ed7-c0d6-4654-b182-43a165e7dcf6
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 1%
 
 ## 재고 재고 추가
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stock]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stock]**(으)로 이동합니다.
 
-1. 클릭 **[!UICONTROL Add New Stock]**.
+1. **[!UICONTROL Add New Stock]**&#x200B;을(를) 클릭합니다.
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL General]** 섹션에 고유한 값을 입력하십시오. **[!UICONTROL Name]** 새 재고를 식별합니다.
+1. **[!UICONTROL General]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)을(를) 확장하고 고유한 **[!UICONTROL Name]**&#x200B;을(를) 입력하여 새 재고를 식별합니다.
 
-   ![일반 스톡 옵션](assets/inventory-stock-general.png){width="350" zoomable="yes"}
+   ![일반 주식 옵션](assets/inventory-stock-general.png){width="350" zoomable="yes"}
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL Sales Channels]** 섹션을 선택하고 **[!UICONTROL Websites]** 이 재고를 사용할 수 있는 곳.
+1. **[!UICONTROL Sales Channels]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 이 재고를 사용할 수 있는 **[!UICONTROL Websites]**&#x200B;을(를) 선택합니다.
 
    다중 사이트 설치의 경우 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 각 웹 사이트를 클릭합니다.
 
@@ -39,11 +39,11 @@ ht-degree: 1%
 
    ![주식에 대한 Sales Channel 옵션](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL Sources]** 섹션에 추가하고 기본값 이외의 모든 스톡에 대해 다음 작업을 수행합니다.
+1. **[!UICONTROL Sources]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 기본값을 제외한 모든 스톡에 대해 다음 작업을 수행합니다.
 
-   - 클릭 **[!UICONTROL Assign Sources]**.
+   - **[!UICONTROL Assign Sources]**&#x200B;을(를) 클릭합니다.
 
-   ![지정된 소스](assets/inventory-stock-sources.png){width="350" zoomable="yes"}
+   ![할당된 원본](assets/inventory-stock-sources.png){width="350" zoomable="yes"}
 
    - 재고에 지정할 모든 출처의 체크박스를 선택합니다.
 
@@ -51,28 +51,28 @@ ht-degree: 1%
    >
    >동일한 출처를 여러 주식에 지정할 경우 해당 출처에 지정된 제품이 초과 판매될 수 있습니다.
 
-   - 클릭 **[!UICONTROL Done]**.
+   - **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
      추가된 소스는 할당된 소스에 표시됩니다.
 
-     ![재고에 출처 지정](assets/inventory-assign-sources.png){width="600" zoomable="yes"}
+     ![Stock에 소스 할당](assets/inventory-assign-sources.png){width="600" zoomable="yes"}
 
-1. 사용 ![정렬 아이콘](assets/icon-sort.png) 소스를 맨 위(첫 번째)에서 맨 아래(마지막)의 우선 순위로 끌어다 놓습니다.
+1. ![정렬 아이콘](assets/icon-sort.png)을 사용하여 소스를 맨 위(첫 번째)에서 맨 아래(마지막)로 우선 순위에 놓습니다.
 
    출고 지시 시 출처 주문이 중요합니다.
 
-   ![지정된 소스 예](assets/inventory-stock-priority-after.png){width="600" zoomable="yes"}
+   ![할당된 원본 예제](assets/inventory-stock-priority-after.png){width="600" zoomable="yes"}
 
-1. 다음에서 _[!UICONTROL Save]_(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png)) 메뉴, 선택&#x200B;**[!UICONTROL Save & Close]**.
+1. _[!UICONTROL Save]_(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png)) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
 
 ## 필드 설명
 
 | 필드 | 설명 |
 |--|--|
 | **[!UICONTROL General]** | |
-| [!UICONTROL Name] | 재고 이름. For example: `UK Stock`, `US Stock` |
+| [!UICONTROL Name] | 재고 이름. 예: `UK Stock`, `US Stock` |
 | **[!UICONTROL Sales Channels]** | |
-| [!UICONTROL Websites] | 다음을 정의합니다 [범위](../getting-started/websites-stores-views.md#scope-settings) 특정 웹 사이트에 재고를 할당하여 재고의 일부를 다음과 같이 _판매 채널_. 종목당 하나 이상의 웹 사이트를 선택합니다. 각 웹 사이트는 하나의 주식에만 할당할 수 있습니다. |
+| [!UICONTROL Websites] | 특정 웹 사이트에 주식을 _판매 채널_(으)로 할당하여 주식의 [범위](../getting-started/websites-stores-views.md#scope-settings)를 정의합니다. 종목당 하나 이상의 웹 사이트를 선택합니다. 각 웹 사이트는 하나의 주식에만 할당할 수 있습니다. |
 | **[!UICONTROL Sources]** | |
 | [!UICONTROL Assign Sources] | 이 재고에 재고 출처를 지정합니다. 사용자 지정 소스를 기본 스톡에 할당할 수 없습니다. |
-| [!UICONTROL Assigned Sources] | 지정된 소스 목록. 다음을 사용하여 소스 드래그 앤 드롭 ![정렬 아이콘](assets/icon-sort.png) 주문 이행 및 배송을 위해 우선 순위가 지정된 주문으로.<br/><br/>**[!UICONTROL Code]**- 소스에 대한 고유 코드 ID.<br/>**[!UICONTROL Name]** - 소스에 대한 이름 설명입니다.<br/>**[!UICONTROL Unassign]**- 다음을 사용하여 스톡에서 지정된 소스 제거 ![휴지통 아이콘](../assets/icon-delete-trashcan-solid.png). |
+| [!UICONTROL Assigned Sources] | 지정된 소스 목록. ![정렬 아이콘](assets/icon-sort.png)을 사용하여 주문 이행 및 배송을 위한 우선 순위가 지정된 순서로 소스를 끌어다 놓습니다.<br/><br/>**[!UICONTROL Code]**- 원본의 고유 코드 ID입니다.<br/>**[!UICONTROL Name]** - 소스의 이름 설명입니다.<br/>**[!UICONTROL Unassign]**- ![휴지통 아이콘](../assets/icon-delete-trashcan-solid.png)을 사용하여 지정된 원본을 저장소에서 제거합니다. |

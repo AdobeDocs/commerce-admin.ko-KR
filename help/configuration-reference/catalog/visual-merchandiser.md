@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser]'
-description: 에서 구성 설정을 검토합니다. [!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser] 상거래 관리자의 페이지입니다.
+description: Commerce 관리자의 [!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
 feature: Configuration, Merchandising
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf

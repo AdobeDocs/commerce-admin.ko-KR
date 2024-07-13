@@ -1,6 +1,6 @@
 ---
 user-guide-title: 구성 참조 안내서
-user-guide-description: 이 안내서는 의 _Admin_ 사이드바에서 액세스하는 모든 저장소 구성 설정에 대한 참조 정보를 제공합니다**[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+user-guide-description: 이 안내서에서는 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**의 _Admin_ 사이드바에서 액세스하는 모든 저장소 구성 설정에 대한 참조 정보를 제공합니다.
 breadcrumb-title: 구성 참조
 hide: false
 role: Admin, Developer, User
@@ -52,7 +52,7 @@ ht-degree: 1%
    - [프로모션](./customers/promotions.md)
    - [선물 등록](./customers/gift-registry.md)
    - [지속적인 장바구니](./customers/persistent-shopping-cart.md)
-- 판매 {#sales}
+- 영업 {#sales}
    - [판매](./sales/sales.md)
    - [영업 이메일](./sales/sales-emails.md)
    - [따옴표](./sales/quotes.md)

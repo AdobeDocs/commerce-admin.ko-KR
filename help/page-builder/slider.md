@@ -1,26 +1,26 @@
 ---
 title: 미디어 - 슬라이더
-description: 에 이미지 슬라이드쇼를 추가하는 데 사용되는 Slider 콘텐츠 유형에 대해 알아봅니다. [!DNL Page Builder] 스테이지.
+description: ' [!DNL Page Builder] 스테이지에 이미지 슬라이드 쇼를 추가하는 데 사용되는 Slider 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
 source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
 workflow-type: tm+mt
-source-wordcount: '3799'
+source-wordcount: '3810'
 ht-degree: 0%
 
 ---
 
 # 미디어 - 슬라이더
 
-사용 _슬라이더_ 에 이미지 슬라이드쇼를 추가하는 콘텐츠 유형 [[!DNL Page Builder] 단계](workspace.md#stage). 갤러리나 제품 카탈로그에서 새로운 이미지를 업로드하거나 기존 이미지를 선택할 수 있습니다. 슬라이더는 자동으로 재생되도록 설정하거나 탐색 단추를 사용하여 수동으로 제어할 수 있습니다. 슬라이더를 특정 프로모션과 연결하려면 다음을 참조하십시오. [동적 블록](dynamic-block.md).
+_Slider_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.md#stage)에 이미지 슬라이드 쇼를 추가하십시오. 갤러리나 제품 카탈로그에서 새로운 이미지를 업로드하거나 기존 이미지를 선택할 수 있습니다. 슬라이더는 자동으로 재생되도록 설정하거나 탐색 단추를 사용하여 수동으로 제어할 수 있습니다. 슬라이더를 특정 프로모션과 연결하려면 [동적 블록](dynamic-block.md)을(를) 참조하십시오.
 
-![상점 첫 화면의 미디어 슬라이더](./assets/pb-media-slider-buy3-get1free-storefront.png){width="700" zoomable="yes"}
+![저장소의 미디어 슬라이더](./assets/pb-media-slider-buy3-get1free-storefront.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## 툴박스
 
-Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드와 하나 이상의 슬라이드가 들어 있는 슬라이더 컨테이너를 추가하고 편집합니다. 각 슬라이드에는 슬라이드를 디자인하는 데 사용하는 도구 상자가 있습니다. [!DNL Page Builder] 스테이지.
+Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드와 하나 이상의 슬라이드가 들어 있는 슬라이더 컨테이너를 추가하고 편집합니다. 각 슬라이드에는 [!DNL Page Builder] 단계에서 슬라이드를 디자인하는 데 사용하는 도구 상자가 있습니다.
 
 ## 개별 슬라이드 도구 상자
 
@@ -30,7 +30,7 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 |--- |--- |--- |
 | 이동 | ![이동 아이콘](./assets/pb-icon-move.png){width="25"} | 슬라이드를 슬라이더의 다른 위치로 이동합니다. |
 | (레이블) | 슬라이드 번호 | 현재 슬라이드의 수를 식별합니다. |
-| 설정 | ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} | 다음을 엽니다. _[!UICONTROL Edit Slide]_현재 슬라이드의 속성을 변경할 수 있는 페이지입니다. |
+| 설정 | ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} | 현재 슬라이드의 속성을 변경할 수 있는 _[!UICONTROL Edit Slide]_페이지를 엽니다. |
 | 복제 | ![중복 아이콘](./assets/pb-icon-duplicate.png){width="25"} | 현재 슬라이드를 복사합니다. |
 | 제거 | ![제거 아이콘](./assets/pb-icon-remove.png){width="25"} | 슬라이더에서 현재 슬라이드를 삭제합니다. |
 
@@ -42,7 +42,7 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 |--- |--- |--- |
 | 이동 | ![이동 아이콘](./assets/pb-icon-move.png){width="25"} | 슬라이더를 스테이지의 다른 위치로 이동합니다. |
 | (레이블) | [!UICONTROL Slider] | 슬라이더 컨테이너를 식별합니다. |
-| 설정 | ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} | 다음을 엽니다. _[!UICONTROL Edit Slider]_비디오 및 컨테이너의 속성을 변경할 수 있는 페이지. |
+| 설정 | ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} | 비디오 및 컨테이너의 속성을 변경할 수 있는 _[!UICONTROL Edit Slider]_페이지를 엽니다. |
 | 숨기기 | ![아이콘 숨기기](./assets/pb-icon-hide.png){width="25"} | 현재 슬라이더를 숨깁니다. |
 | 표시 | ![아이콘 표시](./assets/pb-icon-show.png){width="25"} | 숨겨진 슬라이더를 표시합니다. |
 | 복제 | ![중복 아이콘](./assets/pb-icon-duplicate.png){width="25"} | 슬라이더를 복사합니다. |
@@ -54,21 +54,21 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
 ## 개별 슬라이드 추가
 
-1. 슬라이더를 배치할 페이지, 블록 또는 동적 블록을 열고 **[!UICONTROL Content]** 섹션.
+1. 슬라이더를 배치할 페이지, 블록 또는 동적 블록을 열고 **[!UICONTROL Content]** 섹션을 확장합니다.
 
-1. 다음에서 [!DNL Page Builder] 패널, 확장 **[!UICONTROL Media]** 드래그 **[!UICONTROL Slider]** 스테이지의 행, 열 또는 탭에 대한 자리 표시자
+1. [!DNL Page Builder] 패널에서 **[!UICONTROL Media]**&#x200B;을(를) 확장하고 **[!UICONTROL Slider]** 자리 표시자를 스테이지의 행, 열 또는 탭으로 드래그합니다.
 
-   다음 예제에서는 행의 배경색이 노란색(`#fffd16`).
+   다음 예제에서는 행의 배경색이 노란색(`#fffd16`)입니다.
 
    ![슬라이더를 스테이지로 드래그](./assets/pb-media-slider-drag-row.png){width="600" zoomable="yes"}
 
    슬라이더 컨테이너는 단 하나의 빈 슬라이드로 스테이지에 표시됩니다.
 
-1. 슬라이더 컨테이너를 클릭하여 [텍스트 편집기](../content-design/editor.md) 첫 번째 슬라이드의 내용을 입력합니다.
+1. 슬라이더 컨테이너를 클릭하여 [텍스트 편집기](../content-design/editor.md)를 표시하고 첫 번째 슬라이드의 내용을 입력합니다.
 
-   를 사용하여 보다 복잡한 배너 콘텐츠를 포함할 수도 있습니다. [콘텐츠](#content) 설정.
+   [콘텐츠](#content) 설정을 사용하여 보다 복잡한 배너 콘텐츠를 포함할 수도 있습니다.
 
-1. 슬라이더 하단에 있는 탐색 점을 클릭하여 개별 슬라이드의 도구 상자를 표시하고 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘.
+1. 슬라이더 하단에 있는 탐색 점을 클릭하여 개별 슬라이드의 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
    슬라이더에는 두 개의 도구 상자가 있습니다. 맨 아래에 있는 슬라이드 도구 상자를 사용하고 있는지 확인합니다.
 
@@ -80,7 +80,7 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
    - [[!UICONTROL Search Engine Optimization]](#seo)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]** 설정을 적용하고 로 돌아가려면 [!DNL Page Builder] 작업 영역.
+1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
 ## 슬라이드 추가
 
@@ -92,11 +92,11 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
 필요한 설정으로 이미 구성된 슬라이드를 복제하여 시간을 절약할 수 있습니다.
 
-1. 슬라이드 아래에 있는 탐색 점을 클릭하여 도구 상자를 표시하고 _복제_ ( ![중복 아이콘](./assets/pb-icon-duplicate.png){width="20"} ) 아이콘.
+1. 슬라이드 아래 탐색 점을 클릭하여 도구 상자를 표시하고 _복제_(![복제 아이콘](./assets/pb-icon-duplicate.png){width="20"} ) 아이콘을 선택합니다.
 
    ![슬라이드 복제](./assets/pb-media-slider-duplicate-slide.png){width="500" zoomable="yes"}
 
-1. 새 슬라이드 및 의 탐색 점을 클릭하여 도구 상자를 표시하고 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘.
+1. 새 슬라이드의 탐색 점을 클릭하고 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
 1. 필요에 따라 다음 섹션에 따라 설정을 수정합니다.
 
@@ -105,11 +105,11 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
    - [[!UICONTROL Content]](#content)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]** 설정을 적용하고 로 돌아가려면 [!DNL Page Builder] 작업 영역.
+1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
 ### 방법 2: 새 빈 슬라이드 추가
 
-1. 상단의 슬라이더 컨테이너 위로 마우스를 가져가면 도구 상자를 표시하고 _추가_ ( ![추가 아이콘](./assets/pb-icon-add.png){width="20"} ) 아이콘.
+1. 상단의 슬라이더 컨테이너 위로 마우스를 가져가면 도구 상자를 표시하고 _추가_( ![추가 아이콘](./assets/pb-icon-add.png){width="20"}) 아이콘을 선택합니다.
 
    ![빈 슬라이드 추가](./assets/pb-media-slider-toolbox-add.png){width="500" zoomable="yes"}
 
@@ -117,7 +117,7 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
    ![도구 상자가 있는 새 슬라이드](./assets/pb-media-slider-slide2-toolbox.png){width="500" zoomable="yes"}
 
-1. 새 슬라이드 및 의 탐색 점을 클릭하여 도구 상자를 표시하고 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘.
+1. 새 슬라이드의 탐색 점을 클릭하고 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
 1. 필요에 따라 다음 섹션에 따라 설정을 수정합니다.
 
@@ -126,31 +126,31 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
    - [[!UICONTROL Content]](#content)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]** 오른쪽 위 모서리에서 을 닫습니다. _[!UICONTROL Edit Slide]_페이지를 가리키도록 업데이트하는 중입니다.
+1. 완료되면 오른쪽 상단의 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 _[!UICONTROL Edit Slide]_페이지를 닫습니다.
 
 ### 슬라이드에 위젯 추가
 
-다음을 추가할 수 있습니다. [위젯 유형](../content-design/widgets.md#widget-types) 을(를) 의 슬라이드에 [!DNL Page Builder] 다음 단계를 사용하여 스테이징합니다.
+다음 단계를 사용하여 [!DNL Page Builder] 단계의 슬라이드에 [위젯 유형](../content-design/widgets.md#widget-types)을(를) 추가할 수 있습니다.
 
-1. [위젯 만들기](../content-design/widget-create.md) 슬라이드에서 보고 싶은 내용입니다.
+1. 슬라이드에 표시할 [위젯을 만듭니다](../content-design/widget-create.md).
 
-1. 슬라이더를 배치할 페이지, 블록 또는 동적 블록을 열고 **[!UICONTROL Content]** 섹션.
+1. 슬라이더를 배치할 페이지, 블록 또는 동적 블록을 열고 **[!UICONTROL Content]** 섹션을 확장합니다.
 
-1. 다음에서 [!DNL Page Builder] 패널, 확장 **[!UICONTROL Media]** 드래그 **[!UICONTROL Slider]** 스테이지의 행, 열 또는 탭에 대한 자리 표시자
+1. [!DNL Page Builder] 패널에서 **[!UICONTROL Media]**&#x200B;을(를) 확장하고 **[!UICONTROL Slider]** 자리 표시자를 스테이지의 행, 열 또는 탭으로 드래그합니다.
 
-1. 슬라이더 컨테이너를 클릭하여 [텍스트 편집기](../content-design/editor.md) 도구 모음을 클릭하고 _위젯 삽입_ ( ![위젯 아이콘 삽입](./assets/editor-btn-insert-widget.png){width="20"} ) 아이콘.
+1. 슬라이더 컨테이너를 클릭하여 [텍스트 편집기](../content-design/editor.md) 도구 모음을 표시하고 _위젯 삽입_( ![위젯 삽입 아이콘](./assets/editor-btn-insert-widget.png){width="20"} ) 아이콘을 클릭합니다.
 
-1. 다음 항목 선택 **[!UICONTROL Widget Type]** 넌 필요해.
+1. 필요한 **[!UICONTROL Widget Type]**&#x200B;을(를) 선택하십시오.
 
 1. 위젯 유형에 따라 다르게 설정을 지정합니다
 
    ![슬라이드에 위젯 삽입의 예](./assets/insert-widget-to-slide-page.png){width="600" zoomable="yes"}
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Insert Widget]** 오른쪽 상단 모서리입니다.
+1. 완료되면 오른쪽 상단의 **[!UICONTROL Insert Widget]**&#x200B;을(를) 클릭합니다.
 
 1. 필요에 따라 다른 설정을 수정합니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]** 오른쪽 상단 모서리입니다.
+1. 완료되면 오른쪽 상단의 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    ![슬라이드에 삽입된 위젯의 예](./assets/inserting-widget-on-slide.png){width="600" zoomable="yes"}
 
@@ -165,18 +165,18 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 | 옵션 | 예제 설정 |
 |--- |--- |
 | [!UICONTROL Appearance] | `Collage Right` |
-| [!UICONTROL Background Color] | `#ffffff` (흰색) |
+| [!UICONTROL Background Color] | `#ffffff`(흰색) |
 | [!UICONTROL Background Image] | 이 슬라이드의 이미지는 제품 페이지에서 저장되었으며 갤러리에 업로드되었습니다. |
 | [!UICONTROL Mobile Background Image] | 모바일 배경 이미지는 10픽셀 정사각형인 투명 이미지입니다. 모바일에 빈 이미지를 사용하면 표준 배경 이미지가 보이지 않는 이미지로 효과적으로 교체됩니다. |
 | [!UICONTROL Background Size] | `Auto` |
-| [!UICONTROL Message Text] | `Minerva LumaTech&trade; V-Tee` (가운데 정렬) 삽입된 이미지를 40%로 비율 조정(가운데 정렬) |
+| [!UICONTROL Message Text] | 삽입 이미지가 40%로 조정된 `Minerva LumaTech&trade; V-Tee`(가운데 정렬)(가운데 정렬) |
 | [!UICONTROL Link] | `Product` |
 | [!UICONTROL Show Button] | `Always` |
 | [!UICONTROL Button Text] | `Buy Now` |
 | [!UICONTROL Show Overlay] | `Never Show` |
-| [!UICONTROL Alignment] | `Center` (단추를 정렬하려면) |
+| [!UICONTROL Alignment] | `Center`(단추를 정렬하기 위해) |
 | [!UICONTROL Border] | `Solid` |
-| [!UICONTROL Border Color] | `#000000` (검정) |
+| [!UICONTROL Border Color] | `#000000`(검정) |
 | [!UICONTROL Border Width] | `1 px` |
 
 {style="table-layout:auto"}
@@ -185,9 +185,9 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
 1. 스테이지에서 슬라이더 표시를 변경하고 변경할 슬라이드를 봅니다.
 
-1. 개별 슬라이드 도구 상자에서 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 클릭하고 필요에 따라 다음 섹션에 따라 설정을 완료합니다.
+1. 개별 슬라이드 도구 상자에서 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"}) 아이콘을 선택하고 필요에 따라 다음 섹션에 따라 설정을 완료합니다.
 
-1. 오른쪽 위 모서리에서 을(를) 클릭합니다. **[!UICONTROL Save]** 설정을 적용하고 로 돌아가려면 [!DNL Page Builder] 작업 영역.
+1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
 ### [!UICONTROL Appearance]
 
@@ -204,15 +204,15 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
    ![슬라이드 위치](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
 
-1. 다음을 입력합니다. **[!UICONTROL Slide Name]**.
+1. **[!UICONTROL Slide Name]** 입력.
 
    편집 모드로 작업하는 경우 슬라이드 이름이 탐색 점 위에 도구 설명으로 나타납니다. 슬라이드 이름이 상점 앞에 표시되지 않습니다.
 
    ![탐색의 슬라이드 이름](./assets/pb-media-slider-name-buy3-get1free.png){width="500" zoomable="yes"}
 
-1. 다음을 입력합니다. **[!UICONTROL Minimum Height]** 슬라이드에 사용됩니다.
+1. 슬라이드의 **[!UICONTROL Minimum Height]**&#x200B;을(를) 입력하십시오.
 
-   최소 높이는 유효한 CSS 단위가 있는 숫자일 수 있습니다(예: `100px`, `50%`, `50em`, `100vh`) 또는 계산(예: `100vh - 237px`).
+   최소 높이는 유효한 CSS 단위(예: `100px`, `50%`, `50em`, `100vh`) 또는 계산(예: `100vh - 237px`)이 있는 숫자일 수 있습니다.
 
    예를 들어, 페이지의 전체 높이를 포함하도록 슬라이드의 최소 높이를 설정한 다음 배경 이미지와 비디오를 사용하여 매력적인 디자인 옵션을 선택할 수 있습니다.
 
@@ -232,11 +232,11 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
 다음 세 가지 방법 중 하나로 값을 설정할 수 있습니다.
 
-- 사전 정의된 색상 이름(예: `White`
-- 색상에 대한 16진수 색상 값, 예: `#ffffff`
-- 색상의 rgba 값(예: 불투명도 백분율 포함) `rgba(255, 255, 255, 0.75)`
+- 미리 정의된 색상 이름(예: `White`)
+- 색상에 대한 16진수 색상 값(예: `#ffffff`)
+- 불투명도 비율이 있는 색상의 rgba 값(예: `rgba(255, 255, 255, 0.75)`)
 
-색상을 선택하려면 왼쪽 색상 견본을 클릭합니다. _색상 없음_ 상자.
+색상을 선택하려면 _색상 없음_ 상자의 왼쪽에 있는 견본을 클릭합니다.
 
 ![색상 견본 선택](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
@@ -246,21 +246,21 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
 >[!NOTE]
 >
->[!DNL Page Builder] 또는에서 투명도 레이어를 지원합니다. _알파 채널_&#x200B;다양한 불투명도를 갖는 배경을 만드는 데 사용할 수 있는 배경 이미지에서 입니다.
+>[!DNL Page Builder]은(는) 불투명도가 다양한 배경을 만드는 데 사용할 수 있는 배경 이미지에서 투명도 레이어 또는 _알파 채널_&#x200B;도 지원합니다.
 
 ### [!UICONTROL Background Type]
 
-배경 유형은 이미지 또는 비디오일 수 있습니다. [!DNL Page Builder] 기본값은 입니다. `Image` 및 에는 다양한 이미지 설정이 표시됩니다. 다음을 선택하는 경우 `Video`, [!DNL Page Builder] 이미지 설정을 비디오 설정으로 바꿉니다. 두 배경 유형 설정은 다음 섹션에 설명되어 있습니다.
+배경 유형은 이미지 또는 비디오일 수 있습니다. [!DNL Page Builder]은(는) 기본적으로 `Image`이고 다양한 이미지 설정을 표시합니다. `Video`을(를) 선택하면 [!DNL Page Builder]에서 이미지 설정을 비디오 설정으로 바꿉니다. 두 배경 유형 설정은 다음 섹션에 설명되어 있습니다.
 
-![배경 유형](./assets/pb-background-type.png){width="400"}
+![백그라운드 유형](./assets/pb-background-type.png){width="400"}
 
 ### 이미지 유형 설정
 
-다음을 설정하는 경우 _[!UICONTROL Background Type]_끝 `Image`배경 이미지 표시를 정의하려면 다음 설정을 사용합니다.
+_[!UICONTROL Background Type]_을(를) `Image`(으)로 설정하는 경우 다음 설정을 사용하여 배경 이미지 표시를 정의합니다.
 
 ![배경 이미지가 있는 배너](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
-- **[!UICONTROL Background Image]** - 필요한 경우 제공된 도구를 사용하여 배너에 적용할 배경 이미지를 선택합니다.
+- **[!UICONTROL Background Image]** - 필요한 경우 제공된 도구를 사용하여 배너에 적용할 배경 이미지를 선택하십시오.
 
   | 도구 | 설명 |
   | ---- | ----------- |
@@ -272,7 +272,7 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
 - **[!UICONTROL Background Mobile Image]** - 필요한 경우 동일한 도구를 사용하여 모바일 장치에서 표시하는 데 사용할 다른 배경 이미지를 선택하십시오.
 
-- **[!UICONTROL Background Size]** - 배너의 너비를 기준으로 배경 이미지의 배율을 어떻게 조정할지 선택합니다.
+- **[!UICONTROL Background Size]** - 배너의 너비를 기준으로 배경 이미지의 크기 조정 방법 선택:
 
   | 옵션 | 설명 |
   | ------ | ----------- |
@@ -296,33 +296,33 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
   기준점은 지정된 배경 위치에서 배너에 이미지를 첨부하는 누름 핀과 같습니다.
 
-- **[!UICONTROL Background Repeat]** - 배경 이미지를 반복하여 공백을 채우려면 이 설정을 변경합니다. `Yes`.
+- **[!UICONTROL Background Repeat]** - 배경 이미지를 반복하여 공백을 채우려면 이 설정 `Yes`을(를) 변경하십시오.
 
 ### 비디오 유형 설정
 
-다음을 설정하는 경우 _배경 유형_ 끝 `Video`배경 이미지 표시를 정의하려면 다음 설정을 사용합니다.
+_배경 유형_&#x200B;을(를) `Video`(으)로 설정하는 경우 다음 설정을 사용하여 배경 이미지 표시를 정의합니다.
 
 - **[!UICONTROL Video URL]** - 올바른 비디오 URL을 입력하십시오. 유효한 비디오 URL은 다음에 대한 링크일 수 있습니다.
 
    - YouTube 비디오: `https://youtu.be/CoDhMRUUjeI`
    - Vimeo 비디오: `https://vimeo.com/190156113`
-   - 유효한 비디오 파일(`.mp4` 권장): `https://myvideos.com/spiral.mp4`
+   - 올바른 비디오 파일(`.mp4`개 권장): `https://myvideos.com/spiral.mp4`
 
   ![배경 비디오 URL](./assets/pb-video-url.png){width="500"}
 
-- **[!UICONTROL Overlay Color]** - 투명한 색조를 비디오에 적용할 색상을 선택합니다.
+- **[!UICONTROL Overlay Color]** - 비디오에 투명 색조를 적용할 색상을 선택합니다.
 
-- **[!UICONTROL Infinite Loop]** - 다음으로 설정 `No` 비디오를 한 번 재생하고 중지합니다. 이 옵션이 로 설정된 경우 `Yes` (기본값) 비디오가 무한 루프로 반복됩니다.
+- **[!UICONTROL Infinite Loop]** - 비디오를 한 번 재생하고 중지하려면 `No`(으)로 설정합니다. 이 옵션이 `Yes`(기본값)으로 설정되면 비디오가 무한 루프로 반복됩니다.
 
-- **[!UICONTROL Lazy Load]** - 다음으로 설정 `No` 표시되지 않더라도 페이지에서 비디오를 로드할 수 있습니다. 이 옵션이 로 설정된 경우 `Yes` (기본값) 비디오가 화면에 표시될 때만 소스에서 로드됩니다.
+- **[!UICONTROL Lazy Load]** - 표시되지 않더라도 페이지에서 비디오를 로드하려면 `No`(으)로 설정합니다. 이 옵션을 `Yes`(기본값)로 설정하면 화면에 표시되는 경우에만 원본에서 비디오가 로드됩니다.
 
-- **[!UICONTROL Play Only When Visible]** - 다음으로 설정 `No` 비디오 로드 직후에 비디오 재생이 시작되도록 합니다. 이 옵션이 로 설정된 경우 `Yes` (기본값) 비디오가 표시될 때만 재생이 시작됩니다.
+- **[!UICONTROL Play Only When Visible]** - 표시 여부에 관계없이 비디오가 로드된 후 바로 재생을 시작하려면 `No`(으)로 설정합니다. 이 옵션이 `Yes`(기본값)으로 설정되면 비디오가 표시될 때만 재생됩니다.
 
 - **[!UICONTROL Fallback Image]** - 필요한 경우 비디오가 로드되기 전에 화면에 표시할 이미지를 지정하고 비디오가 어떤 이유로 로드되지 않는 경우 지정합니다.
 
 ## [!UICONTROL Content]
 
-스테이지에서 직접 또는 설정을 변경할 때 슬라이드 내용을 수정할 수 있습니다. 이 설정은 슬라이드 링크, 단추 및 오버레이와 같은 보다 복잡한 콘텐츠 기능을 제공합니다. 콘텐츠의 위치는 [모양](#appearance) 배치 설정입니다.
+스테이지에서 직접 또는 설정을 변경할 때 슬라이드 내용을 수정할 수 있습니다. 이 설정은 슬라이드 링크, 단추 및 오버레이와 같은 보다 복잡한 콘텐츠 기능을 제공합니다. 콘텐츠의 위치는 [Appearance](#appearance) 배치 설정을 반영합니다.
 
 ### 스테이지의 간단한 콘텐츠
 
@@ -332,27 +332,27 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
 1. 편집기 도구 모음을 사용하여 텍스트를 입력하고 서식을 지정할 수 있을 뿐만 아니라 링크, 이미지 및 위젯과 같은 요소를 삽입할 수 있습니다.
 
-   ![서식 있는 텍스트가 있는 스테이지](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="500" zoomable="yes"}
+   ![서식이 지정된 텍스트를 포함하는 단계](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="500" zoomable="yes"}
 
 ### 설정의 복잡한 콘텐츠
 
-1. 슬라이더 하단에 있는 탐색 점을 클릭하여 개별 슬라이드의 도구 상자를 표시하고 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘.
+1. 슬라이더 하단에 있는 탐색 점을 클릭하여 개별 슬라이드의 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
-1. 다음에서 _[!UICONTROL Content]_섹션에서 다음을 입력합니다.**[!UICONTROL Message Text]**슬라이드와 함께 표시할 수 있습니다.
+1. _[!UICONTROL Content]_섹션에서 슬라이드와 함께 표시할&#x200B;**[!UICONTROL Message Text]**을(를) 입력합니다.
 
-1. 아래로 스크롤하여 _[!UICONTROL Content]_섹션 및 사용&#x200B;**[!UICONTROL Message Text]**편집기: 배너 텍스트를 입력하고 서식을 지정합니다.
+1. _[!UICONTROL Content]_섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Message Text]**편집기를 사용하여 배너 텍스트를 입력하고 서식을 지정합니다.
 
    텍스트 링크, 이미지 및 위젯과 같은 요소를 삽입할 수도 있습니다.
 
 1. 편집기 도구 모음을 사용하여 필요에 따라 텍스트 서식을 지정합니다.
 
-   이 예제의 첫 번째 슬라이드에는 배경 이미지가 있지만 메시지 텍스트는 없습니다. 다음 `Buy 3 Get 1 Free` 슬라이더 위의 텍스트는 텍스트 컨테이너에 있습니다(나중에 추가됨).
+   이 예제의 첫 번째 슬라이드에는 배경 이미지가 있지만 메시지 텍스트는 없습니다. 슬라이더 위에 있는 `Buy 3 Get 1 Free` 텍스트는 텍스트 컨테이너에 있습니다(나중에 추가됨).
 
-1. 필요한 경우 **[!UICONTROL Link]** 슬라이드에 사용됩니다.
+1. 필요한 경우 슬라이드에 대해 **[!UICONTROL Link]**&#x200B;을(를) 지정하십시오.
 
    링크는 고객이 슬라이드 영역을 클릭할 때 나타나는 대상 페이지입니다. 다음 세 가지 링크 유형 중 하나를 사용할 수 있습니다.
 
-   - **[!UICONTROL URL]** - 상대 URL 또는 정규화된 URL에 대한 링크입니다.
+   - **[!UICONTROL URL]** - 상대 URL 또는 정규화된 URL에 연결된 링크입니다.
 
    - **[!UICONTROL Product]** - 제품 이름 또는 SKU를 기반으로 대상 페이지를 식별합니다. 부분 또는 전체 이름을 기반으로 이름으로 제품을 검색합니다. 검색 결과 목록에서 제품을 선택합니다.
 
@@ -367,24 +367,24 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
      ![연결할 페이지 선택](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
 
    <div class="bs-callout-info" markdown="1">
-   2.4.1 릴리스부터 [!DNL Page Builder] 은 더 이상 상점 첫 화면의 표시 문제로 인해 중첩된 텍스트 내에서 슬라이드 및 링크 연결을 지원하지 않습니다. 에서 링크를 사용하는 경우[!UICONTROL Message Text]_, _을(를) 구성할 수 없습니다.[!UICONTROL Link]_ 옵션. 전체 슬라이드에 하나의 링크를 사용하려는 경우 텍스트에서 모든 링크를 제거할 수 있습니다.
+   2.4.1 릴리스부터 [!DNL Page Builder]은(는) 상점에서의 표시 문제로 인해 더 이상 중첩 텍스트 내에서 슬라이드 및 링크 연결을 지원하지 않습니다. _[!UICONTROL Message Text]_에서 링크를 사용하는 경우 _[!UICONTROL Link]_ 옵션을 구성할 수 없습니다. 전체 슬라이드에 하나의 링크를 사용하려는 경우 텍스트에서 모든 링크를 제거할 수 있습니다.
 
    ![링크 구성이 차단됨](./assets/pb-nested-link-blocked.png){width="300"}
    </div>
 
-   방문자가 상점에서 멀리 이동하는 것을 방지하려면 **[!UICONTROL Open in new tab]** 확인란. 확인란의 선택을 취소하면 연결된 대상이 동일한 브라우저 탭에서 열리고, 이를 통해 방문자가 스토어에서 멀리 떨어진 곳으로 효과적으로 이동할 수 있습니다.
+   방문자가 상점에서 나가지 않도록 하려면 **[!UICONTROL Open in new tab]** 확인란을 선택하십시오. 확인란의 선택을 취소하면 연결된 대상이 동일한 브라우저 탭에서 열리고, 이를 통해 방문자가 스토어에서 멀리 떨어진 곳으로 효과적으로 이동할 수 있습니다.
 
 1. 필요한 경우 고객에게 링크를 따라가라는 메시지를 표시하는 버튼을 추가합니다.
 
-   슬라이드 _모양_ 위치는 텍스트 아래에 단일 링크 또는 단추를 배치합니다. 추가하려는 링크 또는 버튼의 속성을 완료합니다.
+   슬라이드 _모양_ 위치는 텍스트 아래에 하나의 링크나 단추를 배치합니다. 추가하려는 링크 또는 버튼의 속성을 완료합니다.
 
    ![슬라이드 모양 - 오른쪽 콜라주](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >를 추가하여 여러 버튼이나 링크를 사용할 수도 있습니다. [차단](block.md) 배너로. 충돌을 방지하려면 모든 링크 또는 단추를 별도의 블록에 두고 링크 또는 단추를 배너에 바로 추가하지 마십시오.
+   >배너에 [block](block.md)을(를) 추가하여 여러 단추 또는 링크를 사용할 수도 있습니다. 충돌을 방지하려면 모든 링크 또는 단추를 별도의 블록에 두고 링크 또는 단추를 배너에 바로 추가하지 마십시오.
 
-   - 설정 **[!UICONTROL Show Button]** 다음 중 하나를 수행합니다.
+   - **[!UICONTROL Show Button]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
      | 옵션 | 설명 |
      | ------ | ----------- |
@@ -394,9 +394,9 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
      {style="table-layout:auto"}
 
-   - 다음을 입력합니다. **[!UICONTROL Button Text]** 단추를 표시합니다.
+   - 단추에 표시할 **[!UICONTROL Button Text]**&#x200B;을(를) 입력하십시오.
 
-   - 설정 **[!UICONTROL Button Type]** 다음 중 하나를 수행합니다.
+   - **[!UICONTROL Button Type]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
      | 옵션 | 설명 |
      | ------ | ----------- |
@@ -408,7 +408,7 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
      현재 테마의 단추 스타일에 따라 단추 형식이 결정됩니다. 일반적으로 기본 단추는 보조 단추보다 배경색이 더 두드러집니다.
 
-1. 설정 **[!UICONTROL Show Overlay]** 다음 중 하나를 수행합니다.
+1. **[!UICONTROL Show Overlay]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    | 옵션 | 설명 |
    | ------ | ----------- |
@@ -422,10 +422,10 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
    ![슬라이드 오버레이 설정](./assets/pb-media-slider-overlay-settings.png){width="600" zoomable="yes"}
 
-   오버레이를 표시하도록 선택한 경우 **[!UICONTROL Overlay Color]**:
+   오버레이를 표시하도록 선택한 경우 **[!UICONTROL Overlay Color]**&#x200B;을(를) 설정합니다.
 
-   - 다음을 클릭합니다. _색상 없음_ 색상 견본을 선택하고 색상 견본을 선택합니다.
-   - 다음에서 **[!UICONTROL Color]** 필드에 올바른 색상 이름 또는 16진수 값을 입력합니다.
+   - _색상 없음_ 견본을 클릭하고 견본을 선택합니다.
+   - **[!UICONTROL Color]** 필드에 올바른 색상 이름 또는 16진수 값을 입력하십시오.
 
    ![슬라이드 오버레이 색상](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
@@ -434,17 +434,17 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
 이러한 설정에 대한 텍스트는 검색 엔진에 표시되며 페이지 색인 지정 방식을 개선합니다.
 
-- 대상 **[!UICONTROL Alternative Text]**, 다음을 입력합니다. _alt_ 표시할 디지털 접근성 도구에 대한 텍스트 설명입니다.
+- **[!UICONTROL Alternative Text]**&#x200B;에 표시할 디지털 접근성 도구에 대한 _대체_ 텍스트 설명을 입력하십시오.
 
-  대체 텍스트를 사용하는 것은 접근성 모범 사례이며 일부 로케일에서 법률에 의해 필수입니다. HTML에서 `alt` 속성이 의 하위 집합임 `image` 태그: `<image title="tooltip" alt="description" src="image.jpg">`.
+  대체 텍스트를 사용하는 것은 접근성 모범 사례이며 일부 로케일에서 법률에 의해 필수입니다. HTML에서 `alt` 특성은 `image` 태그의 하위 집합입니다. `<image title="tooltip" alt="description" src="image.jpg">`.
 
-- 대상 **[!UICONTROL Title Attribute]**&#x200B;마우스를 올려 놓으면 툴팁으로 표시할 텍스트를 입력합니다.
+- **[!UICONTROL Title Attribute]**&#x200B;의 경우 마우스를 올려 놓을 때 툴팁으로 표시할 텍스트를 입력하십시오.
 
-  검색 엔진에서 이미지를 인덱싱하는 방식을 개선하기 위해 설명하는 키워드가 풍부한 제목을 선택하는 것이 좋습니다. HTML에서 `title` 속성이 의 하위 집합임 `image` 태그: `<image title="tooltip" alt="description" src="image.jpg">`.
+  검색 엔진에서 이미지를 인덱싱하는 방식을 개선하기 위해 설명하는 키워드가 풍부한 제목을 선택하는 것이 좋습니다. HTML에서 `title` 특성은 `image` 태그의 하위 집합입니다. `<image title="tooltip" alt="description" src="image.jpg">`.
 
 ## [!UICONTROL Advanced]
 
-1. 슬라이드에 추가된 콘텐츠의 가로 위치를 제어하려면 **[!UICONTROL Alignment]**:
+1. 슬라이드에 추가된 콘텐츠의 가로 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택합니다.
 
    | 옵션 | 설명 |
    | ------ | ----------- |
@@ -455,7 +455,7 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
    {style="table-layout:auto"}
 
-1. 설정 **[!UICONTROL Border]** 슬라이드의 네 면에 모두 적용되는 스타일:
+1. 슬라이드의 네 면에 모두 적용되는 **[!UICONTROL Border]** 스타일을 설정합니다.
 
    | 옵션 | 설명 |
    | ------ | ----------- |
@@ -472,7 +472,7 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
    {style="table-layout:auto"}
 
-1. 테두리 스타일을 설정할 때 `None`테두리 표시 옵션을 완료합니다.
+1. `None` 이외의 테두리 스타일을 설정하는 경우 테두리 표시 옵션을 완료하십시오.
 
    ![테두리 색상](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
@@ -484,11 +484,11 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
    {style="table-layout:auto"}
 
-1. (선택 사항) 다음 이름을 지정합니다 **[!UICONTROL CSS classes]** 현재 스타일 시트에서 슬라이드에 적용합니다.
+1. (선택 사항) 슬라이드에 적용할 현재 스타일 시트의 **[!UICONTROL CSS classes]** 이름을 지정합니다.
 
    여러 클래스 이름은 공백으로 구분합니다.
 
-1. 다음에 대한 값을 픽셀 단위로 입력하십시오. **[!UICONTROL Margins and Padding]** 슬라이드의 외부 여백 및 내부 패딩을 지정합니다.
+1. **[!UICONTROL Margins and Padding]**&#x200B;에 대한 값을 픽셀 단위로 입력하여 슬라이드의 외부 여백과 내부 패딩을 지정합니다.
 
    슬라이드 다이어그램에 해당하는 각 값을 입력합니다.
 
@@ -501,13 +501,13 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
 ## 슬라이더 제목 추가
 
-슬라이더 위에 제목을 추가하려면 [텍스트 콘텐츠 유형] 슬라이더 위에 있습니다. 그런 다음 필요에 따라 텍스트 서식을 지정합니다.
+슬라이더 위에 제목을 추가하려면 슬라이더 위에 [텍스트 콘텐츠 형식]을 추가하기만 하면 됩니다. 그런 다음 필요에 따라 텍스트 서식을 지정합니다.
 
-1. 다음에서 [!DNL Page Builder] 패널, 확장 **[!UICONTROL Elements]** 드래그 **텍스트** 스테이지에서 행, 열 또는 탭 세트에 대한 자리 표시자
+1. [!DNL Page Builder] 패널에서 **[!UICONTROL Elements]**&#x200B;을(를) 확장하고 **Text** 자리 표시자를 스테이지의 행, 열 또는 탭 집합으로 드래그합니다.
 
    드래그하면 빨간색 지침이 슬라이더 위에 있는 삽입점을 표시합니다.
 
-   ![슬라이더 위로 텍스트 자리 표시자 드래그](./assets/pb-media-slider-elements-text-drag.png){width="600" zoomable="yes"}
+   ![슬라이더 위에 텍스트 자리 표시자를 드래그](./assets/pb-media-slider-elements-text-drag.png){width="600" zoomable="yes"}
 
 1. 편집기를 사용하여 필요에 따라 텍스트 서식을 지정합니다.
 
@@ -515,47 +515,47 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
 ## 슬라이더 설정 변경
 
-1. 슬라이더 컨테이너 위로 마우스를 가져가면 기본 도구 상자를 표시하고 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘.
+1. 슬라이더 컨테이너 위로 마우스를 가져가 기본 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
    ![슬라이더 도구 상자](./assets/pb-media-slider-tee-shirts-main-toolbox.png){width="500" zoomable="yes"}
 
-1. 다음을 입력합니다. **[!UICONTROL Minimum Height]** 슬라이드에 사용됩니다.
+1. 슬라이드의 **[!UICONTROL Minimum Height]**&#x200B;을(를) 입력하십시오.
 
-   최소 높이는 유효한 CSS 단위가 있는 숫자일 수 있습니다(예: `100px`, `50%`, `50em`, `100vh`) 또는 계산(예: `100vh - 237px`).
+   최소 높이는 유효한 CSS 단위(예: `100px`, `50%`, `50em`, `100vh`) 또는 계산(예: `100vh - 237px`)이 있는 숫자일 수 있습니다.
 
    예를 들어 슬라이더의 최소 높이를 설정하여 페이지의 전체 높이를 늘릴 수 있으므로 전체 페이지 배경 이미지 및 비디오에 대한 매력적인 옵션을 제공합니다.
 
    ![슬라이더 최소 높이](./assets/pb-media-slider-settings-minimum-height.png){width="400"}
 
-1. 페이지가 로드될 때 슬라이더를 시작하려면 을 설정합니다 **[!UICONTROL Autoplay]** 끝 `Yes` 및 설정 **[!UICONTROL Autoplay Speed]** 슬라이드 간 지연 시간(밀리초)입니다.
+1. 페이지가 로드될 때 슬라이더를 시작하려면 **[!UICONTROL Autoplay]**&#x200B;을(를) `Yes`(으)로 설정하고 슬라이드 사이의 지연 시간(밀리초)으로 **[!UICONTROL Autoplay Speed]**&#x200B;을(를) 설정합니다.
 
-   기본적으로 속도는 4초인 4000ms로 설정되어 있습니다. 자동 재생을 다음으로 설정하면 `No`에서는 첫 번째 슬라이드가 기본적으로 표시되며, 고객은 슬라이드 탐색(점 또는 화살표)을 클릭하여 다음 슬라이드를 순서대로 표시해야 합니다.
+   기본적으로 속도는 4초인 4000ms로 설정되어 있습니다. 자동 재생을 `No`(으)로 설정하면 첫 번째 슬라이드가 기본적으로 나타나며 고객은 슬라이드 탐색(점 또는 화살표)을 클릭하여 다음 슬라이드를 순서대로 표시해야 합니다.
 
    ![슬라이더 자동 재생 설정](./assets/pb-media-slider-settings-autoplay.png){width="600" zoomable="yes"}
 
-1. 한 슬라이드에서 다음 슬라이드로 원활하게 전환하려면 을 설정합니다 **[!UICONTROL Fade]** 끝 `Yes`.
+1. 한 슬라이드에서 다음 슬라이드로 원활하게 전환하려면 **[!UICONTROL Fade]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
    페이드를 사용하면 슬라이드가 제자리에 있는 것처럼 보이지만, 콘텐츠는 하나에서 다음으로 매끄럽게 변경됩니다. 페이드를 사용하지 않으면 한 슬라이드에서 다음 슬라이드로 수평 이동이 표시됩니다.
 
    ![슬라이더 페이드 및 무한 루프 설정](./assets/pb-media-slider-settings-fade-infinite-loop.png){width="600" zoomable="yes"}
 
-1. 페이지가 열려 있는 동안 슬라이드 쇼를 무한정 반복하려면 을 설정합니다. **[!UICONTROL Infinite Loop]** 끝 `Yes`.
+1. 페이지가 열려 있는 동안 슬라이드 쇼를 무한정 반복하려면 **[!UICONTROL Infinite Loop]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
 1. 슬라이더에 대한 탐색 컨트롤의 유형을 선택하려면 다음을 수행하십시오.
 
-   - 포함할 항목 _다음_ 및 _이전_ 각 슬라이드의 왼쪽 및 오른쪽 화살표, 설정 **[!UICONTROL Show Arrows]** 끝 `Yes`.
+   - 각 슬라이드의 왼쪽과 오른쪽에 _다음_ 및 _이전_ 화살표를 포함하려면 **[!UICONTROL Show Arrows]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
-   - 슬라이더 아래에 탐색 점 세트를 포함하려면 를 설정합니다 **[!UICONTROL Show Dots]** 끝 `Yes`.
+   - 슬라이더 아래에 탐색 점 집합을 포함하려면 **[!UICONTROL Show Dots]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
-   ![슬라이더에 화살표 및 점 표시](./assets/pb-media-slider-settings-show-arrows-dots.png){width="600" zoomable="yes"}
+   ![슬라이더에 화살표와 점을 표시](./assets/pb-media-slider-settings-show-arrows-dots.png){width="600" zoomable="yes"}
 
-1. 다음을 완료합니다. [고급](#slider-advanced) 필요에 따라 슬라이더 설정.
+1. 필요에 따라 [고급](#slider-advanced) 슬라이더 설정을 완료합니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]** 설정을 적용하고 로 돌아가려면 [!DNL Page Builder] 작업 영역.
+1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
 ### 고급 - 슬라이더 {#slider-advanced}
 
-1. 상위 슬라이더 컨테이너 내의 슬라이드 위치를 제어하려면 **[!UICONTROL Alignment]**:
+1. 상위 슬라이더 컨테이너 내의 슬라이드 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하십시오.
 
    | 옵션 | 설명 |
    | ------ | ----------- |
@@ -566,7 +566,7 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
    {style="table-layout:auto"}
 
-1. 설정 **[!UICONTROL Border]** 슬라이더 컨테이너의 네 면에 모두 적용되는 스타일:
+1. 슬라이더 컨테이너의 네 면에 모두 적용되는 **[!UICONTROL Border]** 스타일을 설정합니다.
 
    | 옵션 | 설명 |
    | ------ | ----------- |
@@ -583,7 +583,7 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
    {style="table-layout:auto"}
 
-1. 테두리 스타일을 설정할 때 `None`테두리 표시 옵션을 완료합니다.
+1. `None` 이외의 테두리 스타일을 설정하는 경우 테두리 표시 옵션을 완료하십시오.
 
    | 옵션 | 설명 |
    | ------ |------------ |
@@ -593,11 +593,11 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
    {style="table-layout:auto"}
 
-1. (선택 사항) 다음 이름을 지정합니다 **[!UICONTROL CSS classes]** 현재 스타일 시트에서 슬라이더 컨테이너에 적용합니다.
+1. (선택 사항) 슬라이더 컨테이너에 적용할 현재 스타일 시트의 **[!UICONTROL CSS classes]** 이름을 지정합니다.
 
    여러 클래스 이름은 공백으로 구분합니다.
 
-1. 다음에 대한 값을 픽셀 단위로 입력하십시오. **[!UICONTROL Margins and Padding]** 을 클릭하여 슬라이더 컨테이너의 외부 여백 및 내부 패딩을 확인합니다.
+1. 슬라이더 컨테이너의 외부 여백과 내부 패딩을 확인하려면 **[!UICONTROL Margins and Padding]**&#x200B;에 대한 값을 픽셀 단위로 입력하십시오.
 
    다이어그램에 해당 값을 입력합니다.
 
@@ -610,11 +610,11 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
 ## 슬라이더 테스트
 
-1. 슬라이더를 포함한 페이지를 열고 을 설정합니다. **[!UICONTROL Enable Page]** 끝 `Yes`.
+1. 슬라이더를 포함한 페이지를 열고 **[!UICONTROL Enable Page]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
-1. 오른쪽 위 모서리에서 **[!UICONTROL Save]** 화살표 및 선택 **[!UICONTROL Save & Close]**.
+1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
-1. 에서 페이지 찾기 _페이지_ 그리드 및 선택 **[!UICONTROL View]** 다음에서 _[!UICONTROL Action]_열.
+1. _페이지_ 그리드에서 페이지를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL View]**을(를) 선택합니다.
 
    ![슬라이더 미리 보기 - 표준 보기](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
 

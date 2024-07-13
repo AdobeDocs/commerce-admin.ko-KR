@@ -1,12 +1,12 @@
 ---
 title: '[!UICONTROL Advanced] &gt; [!UICONTROL Developer]'
-description: 에서 구성 설정을 검토합니다. [!UICONTROL Advanced] &gt; [!UICONTROL Developer] 상거래 관리자의 페이지입니다.
+description: Commerce 관리자의 [!UICONTROL Advanced] &gt; [!UICONTROL Developer] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -17,17 +17,17 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이러한 구성 설정은에서 사용할 수 있습니다. [개발자 모드](../../systems/developer-tools.md#operation-modes) 만 해당.
+>이러한 구성 설정은 [개발자 모드](../../systems/developer-tools.md#operation-modes)에서만 사용할 수 있습니다.
 
 ## [!UICONTROL Frontend Development Workflow]
 
 ![프론트엔드 개발 워크플로](./assets/developer-frontend-development-workflow.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [프론트엔드 개발 워크플로](../../systems/developer-tools.md#frontend-development-workflow) 다음에서 _관리 시스템 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;의 [프론트엔드 개발 워크플로](../../systems/developer-tools.md#frontend-development-workflow)를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Workflow Type] | 글로벌 | 개발 중에 클라이언트측에서 컴파일 수가 줄어드는지 아니면 서버측에서 컴파일 수가 줄어드는지 여부를 결정합니다. 옵션: <br/>**`Client side less compilation`**- 기본 less.js 라이브러리를 사용하여 브라우저에서 컴파일이 수행됩니다.<br/>**`Server side less compilation`** - 컴파일은 Less PHP 라이브러리를 사용하여 서버에서 발생합니다. 프로덕션 기본 모드입니다. |
+| [!UICONTROL Workflow Type] | 글로벌 | 개발 중에 클라이언트측에서 컴파일 수가 줄어드는지 아니면 서버측에서 컴파일 수가 줄어드는지 여부를 결정합니다. 옵션: <br/>**`Client side less compilation`**- 네이티브 less.js 라이브러리를 사용하여 브라우저에서 컴파일을 수행합니다.<br/>**`Server side less compilation`** - Less PHP 라이브러리를 사용하여 서버에서 컴파일이 수행됩니다. 프로덕션 기본 모드입니다. |
 
 {style="table-layout:auto"}
 
@@ -35,11 +35,11 @@ ht-degree: 1%
 
 ![개발자 클라이언트 제한 사항](./assets/developer-developer-client-restrictions.png)<!-- zoom -->
 
-이 설정을 변경하는 방법에 대한 자세한 내용은 [클라이언트 제한 사항](../../systems/developer-tools.md#client-restrictions) 다음에서 _관리 시스템 안내서_.
+이 설정을 변경하는 방법에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;의 [클라이언트 제한](../../systems/developer-tools.md#client-restrictions)을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Allow IPs (comma separated)] | 스토어 뷰 | 스토어의 개발자 도구를 방해하지 않고 라이브 사이트에서 사용할 수 있는 허용 목록에 추가하다 를 만듭니다. 개발자 도구를 사용할 때 사이트에 대한 모든 변경 사항(예: _인라인 번역_&#x200B;는 허용 목록에 추가하다의 IP 주소에서만 볼 수 있습니다. |
+| [!UICONTROL Allow IPs (comma separated)] | 스토어 뷰 | 스토어의 개발자 도구를 방해하지 않고 라이브 사이트에서 사용할 수 있는 허용 목록에 추가하다 를 만듭니다. 개발자 도구(예: _인라인 번역_)를 사용할 때 사이트에 대한 모든 변경 내용은 허용 목록에 추가하다의 IP 주소에서만 볼 수 있습니다. |
 
 {style="table-layout:auto"}
 
@@ -47,11 +47,11 @@ ht-degree: 1%
 
 ![템플릿 설정](./assets/developer-template-settings.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [리소스 파일 최적화 중](../../systems/developer-tools.md#optimizing-resource-files) 다음에서 _관리 시스템 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [리소스 파일 최적화](../../systems/developer-tools.md#optimizing-resource-files)를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Allow Symlinks] | 스토어 뷰 | 활성화 중 [심볼 링크](https://en.wikipedia.org/wiki/Symbolic_link) 는 사이트를 보안 위험에 노출할 수 있으며 프로덕션 스토어에는 권장되지 않습니다. |
+| [!UICONTROL Allow Symlinks] | 스토어 뷰 | [심볼 링크](https://en.wikipedia.org/wiki/Symbolic_link)를 사용하면 사이트가 보안 위험에 노출될 수 있으므로 프로덕션 스토어에는 사용하지 않는 것이 좋습니다. |
 | [!UICONTROL Minify Html] | 스토어 뷰 | 저장소 템플릿에 대한 HTML이 최소화되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 ![디버그](./assets/developer-debug.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [템플릿 경로 힌트](../../systems/developer-tools.md#template-path-hints) 다음에서 _관리 시스템 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [템플릿 경로 힌트](../../systems/developer-tools.md#template-path-hints)를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 ![인라인 번역](./assets/developer-translate-inline.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [인라인 번역](../../systems/developer-tools.md#translate-inline) 다음에서 _관리 시스템 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [인라인 번역](../../systems/developer-tools.md#translate-inline)을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -87,15 +87,15 @@ ht-degree: 1%
 
 ![JavaScript 설정](./assets/developer-javascript-settings.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [리소스 파일 최적화 중](../../systems/developer-tools.md#optimizing-resource-files) 다음에서 _관리 시스템 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [리소스 파일 최적화](../../systems/developer-tools.md#optimizing-resource-files)를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Merge JavaScript Files] | 스토어 뷰 | 여러 JavaScript 파일을 단일 파일로 병합하여 페이지 로드 시간을 개선합니다. |
+| [!UICONTROL Merge JavaScript Files] | 스토어 뷰 | 여러 JavaScript 파일을 단일 파일로 병합하여 페이지 로드 시간을 단축합니다. |
 | [!UICONTROL Enable JavaScript Bundling] | 스토어 뷰 | 여러 JavaScript 파일을 하나의 파일에 번들로 제공할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Minify JavaScript Files] | 스토어 뷰 | 불필요한 문자, 공백 및 들여쓰기를 제거하여 코드의 크기를 줄입니다. |
 | [!UICONTROL Move JS code to the bottom of the page] | 글로벌 | 활성화되면 JS 코드를 페이지 맨 아래로 이동합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Translation Strategy] | 글로벌 | 시스템에서 사용하는 변환 방법을 결정합니다. 옵션: <br/>**`Dictionary`**- 상점 첫 화면에서 번역.<br/>**`Embedded`** - 관리자 측에서의 번역. |
+| [!UICONTROL Translation Strategy] | 글로벌 | 시스템에서 사용하는 변환 방법을 결정합니다. 옵션: <br/>**`Dictionary`**- 상점 쪽의 번역.<br/>**`Embedded`** - 관리자 쪽의 번역. |
 | [!UICONTROL Log JS Errors to Session Storage] | 글로벌 | 활성화된 경우 보고용 기능 테스트에서 사용할 수 있습니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Log JS Errors to Session Storage Key] | 글로벌 | 수집된 js 오류를 검색하는 데 사용되는 키를 식별합니다. |
 
@@ -105,13 +105,13 @@ ht-degree: 1%
 
 ![CSS 설정](./assets/developer-css-settings.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [리소스 파일 최적화 중](../../systems/developer-tools.md#optimizing-resource-files) 다음에서 _관리 시스템 안내서_.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [리소스 파일 최적화](../../systems/developer-tools.md#optimizing-resource-files)를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Merge CSS Files] | 스토어 뷰 | 여러 CSS 파일을 단일 파일로 병합하여 페이지 로드 시간을 개선합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Minify CSS Files] | 스토어 뷰 | 불필요한 문자, 공백 및 들여쓰기를 제거하여 코드의 크기를 줄입니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Use CSS critical path] | 글로벌 | 다음 _CSS 중요 경로_ 에서 축소된 중요한 CSS 인라인을 제공합니다. `<head>` 비동기적으로 로드되는 모든 중요하지 않은 스타일을 지웁니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Use CSS critical path] | 글로벌 | _CSS 중요 경로_&#x200B;은(는) 축소된 중요 CSS 인라인을 `<head>`에서 제공하며 비동기적으로 로드되는 모든 중요하지 않은 스타일을 지연합니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -121,7 +121,7 @@ ht-degree: 1%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | 글로벌 | 이미지를 렌더링하는 데 사용할 어댑터를 지정합니다. 어댑터 설정을 변경한 후 카탈로그 이미지 캐시를 플러시합니다. 옵션: `PHP GD2` / `ImageMagick` <br/><br/>**_참고:_**ICO 파일 형식은 ImageMagick 어댑터에서만 지원됩니다. |
+| [!UICONTROL Image Adapter] | 글로벌 | 이미지를 렌더링하는 데 사용할 어댑터를 지정합니다. 어댑터 설정을 변경한 후 카탈로그 이미지 캐시를 플러시합니다. 옵션: `PHP GD2` / `ImageMagick` <br/><br/>**_참고:_**ICO 파일 형식은 ImageMagik 어댑터에서만 지원됩니다. |
 
 {style="table-layout:auto"}
 
@@ -147,10 +147,10 @@ ht-degree: 1%
 
 ## [!UICONTROL Grid Settings]
 
-![그리드 설정](./assets/developer-grid-settings.png)<!-- zoom -->
+![눈금 설정](./assets/developer-grid-settings.png)<!-- zoom -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Asynchronous Indexing|Global] | 주문, 송장, 선적 및 대변 메모와 같은 주문 처리 시스템 개체가 그리드에 추가되고 다시 색인화되는 시기를 결정합니다. 비동기 인덱싱을 사용하여 저장 작업 중에 데이터가 잠기지 않도록 하고 처리 시간을 줄일 수 있습니다. 옵션: <br/>**`Disable`**- (기본값) 주문 관련 엔티티가 다양한 시간에 그리드에 추가됩니다. 저장됨.<br/>**`Enable`** - 주문 관련 엔티티는 예약된 cron 작업 중에만 그리드에 추가됩니다. Cron은 1분에 한 번 실행되도록 구성해야 합니다. |
+| [!UICONTROL Asynchronous Indexing|Global] | 주문, 송장, 선적 및 대변 메모와 같은 주문 처리 시스템 개체가 그리드에 추가되고 다시 색인화되는 시기를 결정합니다. 비동기 인덱싱을 사용하여 저장 작업 중에 데이터가 잠기지 않도록 하고 처리 시간을 줄일 수 있습니다. 옵션: <br/>**`Disable`**- (기본값) 주문 관련 엔터티가 다양한 시간에 그리드에 추가됩니다. 저장됨.<br/>**`Enable`** - 예약된 cron 작업 중에만 주문 관련 엔터티가 그리드에 추가됩니다. Cron은 1분에 한 번 실행되도록 구성해야 합니다. |
 
 {style="table-layout:auto"}

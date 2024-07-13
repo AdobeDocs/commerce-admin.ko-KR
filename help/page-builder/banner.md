@@ -1,22 +1,22 @@
 ---
 title: 미디어 - 배너
-description: 에서 대화형 구성 요소를 추가하는 데 사용되는 배너 콘텐츠 유형에 대해 알아봅니다. [!DNL Page Builder] 스테이지.
+description: ' [!DNL Page Builder] 스테이지에서 일러스트레이션된 대화형 구성 요소를 추가하는 데 사용되는 배너 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: 287d866c-8a63-4531-8c1b-40d560a07947
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2302'
 ht-degree: 0%
 
 ---
 
 # 미디어 - 배너
 
-사용 _배너_ 콘텐츠 유형 : 의 작업 및 버튼에 대한 호출로 사용자를 유도하는 표시된 대화형 구성 요소 [[!DNL Page Builder] 단계](workspace.md#stage).
+_배너_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](workspace.md#stage)에서 작업 및 단추에 대한 호출을 사용자에게 허용하는 그림 같은 대화형 구성 요소를 추가하십시오.
 
 >[!NOTE]
 >
->이전에는 _배너_ 콘텐츠 메뉴의 옵션은 이제 입니다. [동적 블록](../content-design/dynamic-blocks.md).
+>이전에 콘텐츠 메뉴의 _배너_ 옵션이었던 것이 이제 [동적 블록](../content-design/dynamic-blocks.md)입니다.
 
 ![상점 홈 페이지의 배너](./assets/pb-banner-homepage.png){width="700" zoomable="yes"}
 
@@ -46,19 +46,19 @@ ht-degree: 0%
 
 ## 배너 추가
 
-1. 다음에서 [!DNL Page Builder] 패널, 확장 **[!UICONTROL Media]** 드래그 **[!UICONTROL Banner]** 자리 표시자가 스테이지에 표시됩니다.
+1. [!DNL Page Builder] 패널에서 **[!UICONTROL Media]**&#x200B;을(를) 확장하고 **[!UICONTROL Banner]** 자리 표시자를 스테이지로 드래그합니다.
 
-   ![배너 콘텐츠 유형을 스테이지로 드래그](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
+   ![배너 콘텐츠 형식을 스테이지로 드래그](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   다음 _[!UICONTROL Upload Image]_및_[!UICONTROL Select from Gallery]_ 배너 콘텐츠를 스테이지에서 바로 빠르게 변경할 수 있는 버튼이 포함되어 있습니다. 에서 콘텐츠를 변경할 수도 있습니다 _[!UICONTROL Edit Banner]_페이지를 가리키도록 업데이트하는 중입니다.
+   _[!UICONTROL Upload Image]_및_[!UICONTROL Select from Gallery]_ 버튼이 포함되어 있으므로 스테이지에서 직접 배너 콘텐츠를 빠르게 변경할 수 있습니다. _[!UICONTROL Edit Banner]_페이지에서 내용을 변경할 수도 있습니다.
 
-1. 배너 자리 표시자를 클릭하여 [텍스트 편집기](../content-design/editor.md) 배너에 대한 컨텐츠를 입력합니다.
+1. 배너 자리 표시자를 클릭하여 [텍스트 편집기](../content-design/editor.md)를 표시하고 배너의 콘텐츠를 입력합니다.
 
-   를 사용하여 보다 복잡한 배너 콘텐츠를 포함할 수도 있습니다. [콘텐츠](#content) 설정.
+   [콘텐츠](#content) 설정을 사용하여 보다 복잡한 배너 콘텐츠를 포함할 수도 있습니다.
 
 ## 배너 설정 변경
 
-1. 배너 컨테이너 위로 마우스를 가져가면 도구 상자가 표시되고 _설정_ (![설정 아이콘](./assets/pb-icon-settings.png)) 아이콘.
+1. 도구 상자를 표시하고 _설정_(![설정 아이콘](./assets/pb-icon-settings.png)) 아이콘을 선택하려면 배너 컨테이너 위로 마우스를 가져갑니다.
 
 1. 사용 가능한 설정 업데이트에 대한 자세한 내용을 보려면 다음 섹션을 사용하십시오.
 
@@ -67,9 +67,9 @@ ht-degree: 0%
    - [[!UICONTROL Background]](#background)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]** 오른쪽 위 모서리에서 을 닫습니다. _[!UICONTROL Edit Banner]_페이지를 가리키도록 업데이트하는 중입니다.
+1. 완료되면 오른쪽 상단의 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 _[!UICONTROL Edit Banner]_페이지를 닫습니다.
 
-1. 오른쪽 위 모서리에서 을(를) 클릭합니다. **[!UICONTROL Save]** 설정을 적용하고 로 돌아가려면 [!DNL Page Builder] 작업 영역.
+1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
 ## [!UICONTROL Appearance]
 
@@ -88,9 +88,9 @@ ht-degree: 0%
 
   ![모양 - 오른쪽 콜라주](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
-- (선택 사항) **[!UICONTROL Minimum Height]** 행을 위해.
+- (선택 사항) 행의 **[!UICONTROL Minimum Height]**&#x200B;을(를) 입력합니다.
 
-  최소 높이는 유효한 CSS 단위가 있는 숫자일 수 있습니다(예: `100px`, `50%`, `50em`, `100vh`) 또는 계산(예: `100vh - 237px`).
+  최소 높이는 유효한 CSS 단위(예: `100px`, `50%`, `50em`, `100vh`) 또는 계산(예: `100vh - 237px`)이 있는 숫자일 수 있습니다.
 
   예를 들어 배너의 최소 높이를 설정하여 페이지의 전체 높이를 늘리므로 전체 페이지 배경 이미지와 비디오에 대한 매력적인 옵션을 사용할 수 있습니다.
 
@@ -106,11 +106,11 @@ ht-degree: 0%
 
 다음 세 가지 방법 중 하나로 값을 설정할 수 있습니다.
 
-- 사전 정의된 색상 이름(예: `White`
-- 색상에 대한 16진수 색상 값, 예: `#ffffff`
-- 색상의 rgba 값(예: 불투명도 백분율 포함) `rgba(255, 255, 255, 0.75)`
+- 미리 정의된 색상 이름(예: `White`)
+- 색상에 대한 16진수 색상 값(예: `#ffffff`)
+- 불투명도 비율이 있는 색상의 rgba 값(예: `rgba(255, 255, 255, 0.75)`)
 
-색상을 선택하려면 왼쪽 색상 견본을 클릭합니다. _색상 없음_ 상자.
+색상을 선택하려면 _색상 없음_ 상자의 왼쪽에 있는 견본을 클릭합니다.
 
 ![색상 견본 선택](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
@@ -120,21 +120,21 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Page Builder] 또는에서 투명도 레이어를 지원합니다. _알파 채널_&#x200B;다양한 불투명도를 갖는 배경을 만드는 데 사용할 수 있는 배경 이미지에서 입니다.
+>[!DNL Page Builder]은(는) 불투명도가 다양한 배경을 만드는 데 사용할 수 있는 배경 이미지에서 투명도 레이어 또는 _알파 채널_&#x200B;도 지원합니다.
 
 ### [!UICONTROL Background Type]
 
-배경 유형은 이미지 또는 비디오일 수 있습니다. [!DNL Page Builder] 기본값은 입니다. `Image` 및 에는 다양한 이미지 설정이 표시됩니다. 다음을 선택하는 경우 `Video`, [!DNL Page Builder] 이미지 설정을 비디오 설정으로 바꿉니다. 두 배경 유형 설정은 다음 섹션에 설명되어 있습니다.
+배경 유형은 이미지 또는 비디오일 수 있습니다. [!DNL Page Builder]은(는) 기본적으로 `Image`이고 다양한 이미지 설정을 표시합니다. `Video`을(를) 선택하면 [!DNL Page Builder]에서 이미지 설정을 비디오 설정으로 바꿉니다. 두 배경 유형 설정은 다음 섹션에 설명되어 있습니다.
 
-![배경 유형](./assets/pb-background-type.png){width="200"}
+![백그라운드 유형](./assets/pb-background-type.png){width="200"}
 
 ### 이미지 유형 설정
 
-다음을 설정하는 경우 _배경 유형_ 끝 `Image`배경 이미지 표시를 정의하려면 다음 설정을 사용합니다.
+_배경 유형_&#x200B;을(를) `Image`(으)로 설정하는 경우 다음 설정을 사용하여 배경 이미지 표시를 정의합니다.
 
 ![배경 이미지가 있는 배너](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
-- **[!UICONTROL Background Image]** - 필요한 경우 제공된 도구를 사용하여 배너에 적용할 배경 이미지를 선택합니다.
+- **[!UICONTROL Background Image]** - 필요한 경우 제공된 도구를 사용하여 배너에 적용할 배경 이미지를 선택하십시오.
 
   | 도구 | 설명 |
   | ---- | ----------- |
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 - **[!UICONTROL Background Mobile Image]** - 필요한 경우 동일한 도구를 사용하여 모바일 장치에서 표시하는 데 사용할 다른 배경 이미지를 선택하십시오.
 
-- **[!UICONTROL Background Size]** - 이 옵션을 설정하여 배너의 너비를 기준으로 배경 이미지의 크기를 조정하는 방법을 결정합니다.
+- **[!UICONTROL Background Size]** - 배너의 너비와 관련하여 배경 이미지의 크기를 조정하는 방법을 결정하려면 이 옵션을 설정하십시오.
 
   | 옵션 | 설명 |
   | ------ | ----------- |
@@ -158,7 +158,7 @@ ht-degree: 0%
 
   ![배경 크기](./assets/pb-layout-row-settings-background-size-cover.png){width="200"}
 
-- **[!UICONTROL Background Position]** - 이 옵션을 설정하여 배너를 기준으로 배경 이미지가 고정되는 방법을 결정합니다.
+- **[!UICONTROL Background Position]** - 배너를 기준으로 배경 이미지가 고정되는 방법을 결정하려면 이 옵션을 설정하십시오.
 
   | 앵커 | 위치 |
   | ------ | ----------- |
@@ -170,7 +170,7 @@ ht-degree: 0%
 
   기준점은 지정된 배경 위치에서 배너에 이미지를 첨부하는 누름 핀과 같습니다.
 
-- **[!UICONTROL Background Attachment]** - 첨부 파일 유형을 설정하여 스크롤 페이지와 관련하여 배경 이미지가 이동하는 방식을 결정합니다.
+- **[!UICONTROL Background Attachment]** - 스크롤 페이지와 관련하여 배경 이미지가 어떻게 이동하는지 확인하려면 첨부 파일 형식을 설정하십시오.
 
   | 옵션 | 설명 |
   | ------ | ----------- |
@@ -179,33 +179,33 @@ ht-degree: 0%
 
   {style="table-layout:auto"}
 
-- **[!UICONTROL Background Repeat]** - 배경 이미지를 반복하여 공백을 채우려면 이 설정을 변경합니다. `Yes`.
+- **[!UICONTROL Background Repeat]** - 배경 이미지를 반복하여 공백을 채우려면 이 설정 `Yes`을(를) 변경하십시오.
 
 ### 비디오 유형 설정
 
-다음을 설정하는 경우 _[!UICONTROL Background Type]_끝 `Video`배경 이미지 표시를 정의하려면 다음 설정을 사용합니다.
+_[!UICONTROL Background Type]_을(를) `Video`(으)로 설정하는 경우 다음 설정을 사용하여 배경 이미지 표시를 정의합니다.
 
 - **[!UICONTROL Video URL]** - 올바른 비디오 URL을 입력하십시오. 유효한 비디오 URL은 다음에 대한 링크일 수 있습니다.
 
    - YouTube 비디오: `https://youtu.be/CoDhMRUUjeI`
    - Vimeo 비디오: `https://vimeo.com/190156113`
-   - 유효한 비디오 파일(`.mp4` 권장): `https://myvideos.com/spiral.mp4`
+   - 올바른 비디오 파일(`.mp4`개 권장): `https://myvideos.com/spiral.mp4`
 
   ![배경 비디오 URL](./assets/pb-video-url.png){width="200"}
 
-- **[!UICONTROL Overlay Color]** - 투명한 색조를 비디오에 적용할 색상을 선택합니다.
+- **[!UICONTROL Overlay Color]** - 비디오에 투명 색조를 적용할 색상을 선택합니다.
 
-- **[!UICONTROL Infinite Loop]** - 다음으로 설정 `No` 비디오를 한 번 재생하고 중지합니다. 로 설정된 경우 `Yes` (기본값) 비디오가 무한 루프로 반복됩니다.
+- **[!UICONTROL Infinite Loop]** - 비디오를 한 번 재생하고 중지하려면 `No`(으)로 설정합니다. `Yes`(기본값)으로 설정하면 비디오가 무한 루프로 반복됩니다.
 
-- **[!UICONTROL Lazy Load]** - 다음으로 설정 `No` 표시되지 않더라도 페이지에서 비디오를 로드할 수 있습니다. 로 설정된 경우 `Yes` (기본값) 비디오가 화면에 표시될 때만 소스에서 로드됩니다.
+- **[!UICONTROL Lazy Load]** - 표시되지 않더라도 페이지에서 비디오를 로드하려면 `No`(으)로 설정합니다. `Yes`(기본값)으로 설정하면 화면에 표시되는 경우에만 원본에서 비디오가 로드됩니다.
 
-- **[!UICONTROL Play Only When Visible]** - 다음으로 설정 `No` 비디오 로드 직후에 비디오 재생이 시작되도록 합니다. 로 설정된 경우 `Yes` (기본값) 비디오가 표시될 때만 재생이 시작됩니다.
+- **[!UICONTROL Play Only When Visible]** - 표시 여부에 관계없이 비디오가 로드된 후 바로 재생을 시작하려면 `No`(으)로 설정합니다. `Yes`(기본값)으로 설정하면 표시되는 경우에만 비디오 재생이 시작됩니다.
 
 - **[!UICONTROL Fallback Image]** - 필요한 경우 비디오가 로드되기 전에 화면에 표시할 이미지를 지정하고 비디오가 어떤 이유로 로드되지 않는 경우 지정합니다.
 
 ## [!UICONTROL Content]
 
-스테이지에서 직접 또는 설정을 변경할 때 배너 콘텐츠를 수정할 수 있습니다. 이 설정은 배너 링크 및 버튼, 오버레이와 같은 보다 복잡한 콘텐츠 기능을 제공합니다. 콘텐츠의 위치는 [모양](#appearance) 배치 설정입니다.
+스테이지에서 직접 또는 설정을 변경할 때 배너 콘텐츠를 수정할 수 있습니다. 이 설정은 배너 링크 및 버튼, 오버레이와 같은 보다 복잡한 콘텐츠 기능을 제공합니다. 콘텐츠의 위치는 [Appearance](#appearance) 배치 설정을 반영합니다.
 
 ### 스테이지의 간단한 콘텐츠
 
@@ -217,30 +217,30 @@ ht-degree: 0%
 
 1. 편집기 도구 모음을 사용하여 텍스트를 입력하고 서식을 지정할 수 있을 뿐만 아니라 링크, 이미지 및 위젯과 같은 요소를 삽입할 수 있습니다.
 
-   ![서식 있는 텍스트가 있는 스테이지](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
+   ![서식이 지정된 텍스트를 포함하는 단계](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
 
 ### 설정의 복잡한 콘텐츠
 
-1. 배너 컨테이너 위로 마우스를 가져가면 도구 상자가 표시되고 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} ) 아이콘.
+1. 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} ) 아이콘을 선택하려면 배너 컨테이너 위로 마우스를 가져갑니다.
 
-1. 아래로 스크롤하여 _[!UICONTROL Content]_섹션 및 사용&#x200B;**[!UICONTROL Message Text]**편집기: 배너 텍스트를 입력하고 서식을 지정합니다.
+1. _[!UICONTROL Content]_섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Message Text]**편집기를 사용하여 배너 텍스트를 입력하고 서식을 지정합니다.
 
    텍스트 링크, 이미지 및 위젯과 같은 요소를 삽입할 수도 있습니다.
 
    ![메시지 텍스트 편집기](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
-1. 필요한 경우 **[!UICONTROL Link]** 배너용입니다.
+1. 필요한 경우 배너에 대해 **[!UICONTROL Link]**&#x200B;을(를) 지정하십시오.
 
    링크는 고객이 배너 단추 또는 영역을 클릭할 때 나타나는 대상 페이지입니다. 다음 세 가지 링크 유형 중 하나를 사용할 수 있습니다.
 
-   - **[!UICONTROL URL]** - 상대 URL 또는 정규화된 URL에 대한 링크입니다.
+   - **[!UICONTROL URL]** - 상대 URL 또는 정규화된 URL에 연결된 링크입니다.
    - **[!UICONTROL Product]** - 제품 이름 또는 SKU를 기반으로 대상 페이지를 식별합니다. 부분 또는 전체 이름을 기반으로 이름으로 제품을 검색합니다. 검색 결과 목록에서 제품을 선택합니다.
    - **[!UICONTROL Category]** - 대상 페이지를 범주 트리에서 특정 범주 또는 하위 범주로 식별합니다. 부분 이름 또는 전체 이름을 기반으로 범주를 검색합니다. 표시된 트리의 확장된 섹션에서 범주를 선택합니다.
    - **[!UICONTROL Page]** - 대상 페이지를 특정 콘텐츠 페이지로 식별합니다. 부분 이름 또는 전체 이름을 기반으로 페이지를 검색합니다. 검색 결과 목록에서 페이지를 선택합니다.
 
    >[!NOTE]
    >
-   >2.4.1 릴리스부터 [!DNL Page Builder] 은 더 이상 상점 전면의 표시 문제로 인해 배너 및 중첩된 텍스트 내의 링크 연결을 지원하지 않습니다. 에서 링크를 사용하는 경우 _[!UICONTROL Message Text]_, 를 구성할 수 없습니다._[!UICONTROL Link]_ 옵션을 선택합니다. 전체 배너에 대해 단일 링크를 사용하려는 경우 텍스트에서 모든 링크를 제거할 수 있습니다.<br/>
+   >2.4.1 릴리스부터 [!DNL Page Builder]은(는) 상점에서의 표시 문제로 인해 더 이상 배너 및 중첩된 텍스트 내의 링크 연결을 지원하지 않습니다. _[!UICONTROL Message Text]_에서 링크를 사용하는 경우_[!UICONTROL Link]_ 옵션을 구성할 수 없습니다. 전체 배너에 대해 하나의 링크를 사용하려는 경우 텍스트에서 모든 링크를 제거할 수 있습니다.<br/>
    >
    >![링크 구성이 차단됨](./assets/pb-nested-link-blocked.png){width="200"}
 
@@ -249,13 +249,13 @@ ht-degree: 0%
 
    배너 모양 설정은 텍스트 아래에 단일 링크 또는 단추를 배치합니다. 추가하려는 링크 또는 버튼의 속성을 완료합니다.
 
-   ![텍스트 및 단추(또는 링크)가 있는 모양](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
+   ![텍스트 및 단추가 있는 모양(또는 링크)](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >를 추가하여 여러 버튼이나 링크를 사용할 수도 있습니다. [차단](block.md) 배너로. 충돌을 방지하려면 모든 링크 또는 단추를 별도의 블록에 두고 링크 또는 단추를 배너에 바로 추가하지 마십시오.
+   >배너에 [block](block.md)을(를) 추가하여 여러 단추 또는 링크를 사용할 수도 있습니다. 충돌을 방지하려면 모든 링크 또는 단추를 별도의 블록에 두고 링크 또는 단추를 배너에 바로 추가하지 마십시오.
 
-   - 설정 **[!UICONTROL Show Button]** 다음 중 하나를 수행합니다.
+   - **[!UICONTROL Show Button]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
      | 옵션 | 설명 |
      | ------ | ----------- |
@@ -265,9 +265,9 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - 다음을 입력합니다. **[!UICONTROL Button Text]** 단추를 클릭합니다.
+   - 단추에 표시할 **[!UICONTROL Button Text]**&#x200B;을(를) 입력하십시오.
 
-   - 설정 **[!UICONTROL Button Type]** 다음 중 하나를 수행합니다.
+   - **[!UICONTROL Button Type]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
      | 옵션 | 설명 |
      | ------ | ----------- |
@@ -279,7 +279,7 @@ ht-degree: 0%
 
      현재 테마의 단추 스타일에 따라 단추 형식이 결정됩니다. 일반적으로 기본 단추는 보조 단추보다 배경색이 더 두드러집니다.
 
-1. 설정 **[!UICONTROL Show Overlay]** 다음 중 하나를 수행합니다.
+1. **[!UICONTROL Show Overlay]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    | 옵션 | 설명 |
    | ------ | ----------- |
@@ -289,35 +289,35 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-   오버레이를 사용하여 로 정의된 활성 콘텐츠 영역에 배경색을 적용할 수 있습니다. [!UICONTROL Appearance] 설정. 배너 배경 이미지는 배너의 전체 너비에 대해 계속 표시됩니다.
+   오버레이를 사용하여 [!UICONTROL Appearance] 설정으로 정의된 활성 콘텐츠 영역에 배경색을 적용할 수 있습니다. 배너 배경 이미지는 배너의 전체 너비에 대해 계속 표시됩니다.
 
-   오버레이를 표시하도록 선택한 경우 **[!UICONTROL Overlay Color]**:
+   오버레이를 표시하도록 선택한 경우 **[!UICONTROL Overlay Color]**&#x200B;을(를) 설정합니다.
 
-   - 다음을 클릭합니다. **색상 없음** 색상 견본을 선택하고 색상 견본을 선택합니다.
-   - 다음에서 **색상 없음** 필드에 올바른 색상 이름 또는 16진수 값을 입력합니다.
+   - **색상 없음** 견본을 클릭하고 견본을 선택합니다.
+   - **색상 없음** 필드에 올바른 색상 이름 또는 16진수 값을 입력하십시오.
 
    ![오버레이 색상](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
-1. 오른쪽 위 모서리에서 을(를) 클릭합니다. **[!UICONTROL Save]** 설정을 적용하고 로 돌아가려면 [!DNL Page Builder] 작업 영역.
+1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
-   ![문자 메시지와 버튼이 포함된 배너](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
+   ![문자 메시지와 단추가 있는 배너](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
 
 
 ## [!UICONTROL Search Engine Optimization] {#seo}
 
 이러한 설정에 대한 텍스트는 검색 엔진에 표시되며 페이지 색인 지정 방식을 개선합니다.
 
-- 대상 **[!UICONTROL Alternative Text]**, 다음을 입력합니다. _alt_ 표시할 디지털 접근성 도구에 대한 텍스트 설명입니다.
+- **[!UICONTROL Alternative Text]**&#x200B;에 표시할 디지털 접근성 도구에 대한 _대체_ 텍스트 설명을 입력하십시오.
 
-  대체 텍스트를 사용하는 것은 접근성 모범 사례이며 일부 로케일에서 법률에 의해 필수입니다. HTML에서 `alt` 속성이 의 하위 집합임 `image` 태그: `<image title="tooltip" alt="description" src="image.jpg">`.
+  대체 텍스트를 사용하는 것은 접근성 모범 사례이며 일부 로케일에서 법률에 의해 필수입니다. HTML에서 `alt` 특성은 `image` 태그의 하위 집합입니다. `<image title="tooltip" alt="description" src="image.jpg">`.
 
-- 대상 **[!UICONTROL Title Attribute]**&#x200B;마우스를 올려 놓으면 툴팁으로 표시할 텍스트를 입력합니다.
+- **[!UICONTROL Title Attribute]**&#x200B;의 경우 마우스를 올려 놓을 때 툴팁으로 표시할 텍스트를 입력하십시오.
 
-  검색 엔진에서 이미지를 인덱싱하는 방식을 개선하기 위해 설명하는 키워드가 풍부한 제목을 선택하는 것이 좋습니다. HTML에서 `title` 속성이 의 하위 집합임 `image` 태그: `<image title="tooltip" alt="description" src="image.jpg">`.
+  검색 엔진에서 이미지를 인덱싱하는 방식을 개선하기 위해 설명하는 키워드가 풍부한 제목을 선택하는 것이 좋습니다. HTML에서 `title` 특성은 `image` 태그의 하위 집합입니다. `<image title="tooltip" alt="description" src="image.jpg">`.
 
 ## [!UICONTROL Advanced]
 
-1. 배너에 추가된 콘텐츠 컨테이너의 가로 위치를 제어하려면 **[!UICONTROL Alignment]**:
+1. 배너에 추가된 콘텐츠 컨테이너의 가로 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하세요.
 
    | 옵션 | 설명 |
    | ------ | ----------- |
@@ -328,7 +328,7 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. 설정 **[!UICONTROL Border]** 배너 컨테이너의 네 면에 적용된 스타일:
+1. 배너 컨테이너의 네 면 모두에 적용되는 **[!UICONTROL Border]** 스타일을 설정합니다.
 
    | 옵션 | 설명 |
    | ------ | ----------- |
@@ -345,21 +345,21 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. 테두리 스타일을 설정할 때 `None`테두리 표시 옵션을 완료합니다.
+1. `None` 이외의 테두리 스타일을 설정하는 경우 테두리 표시 옵션을 완료하십시오.
 
-   - **[!UICONTROL Border Color]** - 색상 견본을 선택하거나 색상 선택기를 클릭하거나 유효한 색상 이름 또는 이에 해당하는 16진수 값을 입력하여 색상을 지정합니다.
+   - **[!UICONTROL Border Color]** - 견본을 선택하거나, 색상 선택기를 클릭하거나, 올바른 색상 이름 또는 이에 해당하는 16진수 값을 입력하여 색상을 지정합니다.
 
      ![테두리 색상](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Border Width]** - 테두리 라인 너비의 픽셀 수를 입력합니다.
 
-   - **[!UICONTROL Border Radius]** - 픽셀 수를 입력하여 테두리의 각 모서리를 둥글게 하는 데 사용되는 반경의 크기를 정의합니다.
+   - **[!UICONTROL Border Radius]** - 테두리의 각 모퉁이를 둥글게 만드는 데 사용되는 반경의 크기를 정의할 픽셀 수를 입력합니다.
 
-1. (선택 사항) 다음 이름을 지정합니다 **[!UICONTROL CSS classes]** 를 추가합니다.
+1. (선택 사항) 배너 컨테이너에 적용할 현재 스타일 시트의 **[!UICONTROL CSS classes]** 이름을 지정합니다.
 
    여러 클래스 이름은 공백으로 구분합니다.
 
-1. 다음에 대한 값을 픽셀 단위로 입력하십시오. **[!UICONTROL Margins and Padding]** 를 클릭하여 배너의 외부 여백과 내부 패딩을 지정합니다.
+1. **[!UICONTROL Margins and Padding]**&#x200B;에 대한 값을 픽셀 단위로 입력하여 배너의 외부 여백과 내부 패딩을 지정합니다.
 
    배너 컨테이너 다이어그램에 해당하는 각 값을 입력합니다.
 

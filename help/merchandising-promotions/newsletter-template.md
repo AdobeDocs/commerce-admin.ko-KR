@@ -18,67 +18,67 @@ ht-degree: 0%
 
 ## 뉴스레터 템플릿 만들기
 
-1. 관리 사이드바에서 다음 위치로 이동하십시오. **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
+1. 관리 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**(으)로 이동합니다.
 
-1. 템플릿을 추가하려면 **[!UICONTROL Add New Template]**.
+1. 템플릿을 추가하려면 **[!UICONTROL Add New Template]**&#x200B;을(를) 클릭합니다.
 
 1. 템플릿 설정을 완료합니다.
 
-   - 대상 **[!UICONTROL Template Name]**&#x200B;내부 참조의 이름을 입력합니다.
+   - **[!UICONTROL Template Name]**&#x200B;의 경우 내부 참조에 사용할 이름을 입력하십시오.
 
-   - 대상 **[!UICONTROL Template Subject]**, 뉴스레터의 목적을 설명합니다.
+   - **[!UICONTROL Template Subject]**&#x200B;의 경우 뉴스레터의 목적을 설명하십시오.
 
-   - 대상 **[!UICONTROL Sender Name]**&#x200B;뉴스레터 발송자로 나타날 사람의 이름을 입력합니다.
+   - **[!UICONTROL Sender Name]**&#x200B;의 경우 뉴스레터 발송자로 표시할 사람의 이름을 입력하십시오.
 
-   - 대상 **[!UICONTROL Sender Email]**&#x200B;뉴스레터를 보낸 사람의 이메일 주소를 입력합니다.
+   - **[!UICONTROL Sender Email]**&#x200B;의 경우 뉴스레터를 보낸 사람의 전자 메일 주소를 입력하십시오.
 
    ![뉴스레터 템플릿 정보](./assets/newsletter-template-information2.png){width="600" zoomable="yes"}
 
-   - 대상 **[!UICONTROL Template Content]**, 클릭 **[!UICONTROL Show / Hide Editor]** 를 클릭하여 WYSIWYG 편집기를 표시하고 필요에 따라 콘텐츠를 업데이트합니다.
+   - **[!UICONTROL Template Content]**&#x200B;의 경우 **[!UICONTROL Show / Hide Editor]**&#x200B;을(를) 클릭하여 WYSIWYG 편집기를 표시하고 필요에 따라 콘텐츠를 업데이트합니다.
 
-     자세한 내용은 다음을 참조하십시오. [편집기 사용](../content-design/editor.md).
+     자세한 내용은 [편집기 사용](../content-design/editor.md)을 참조하세요.
 
      >[!NOTE]
      >
      >템플릿 컨텐츠 하단에 있는 구독 취소 링크를 제거하지 마십시오. 일부 관할권에서는 해당 연결이 법률로 요구되기도 한다.
 
-   - 대상 **[!UICONTROL Template Styles]**&#x200B;를 클릭하고, 콘텐츠 형식을 지정하는 데 필요한 CSS 선언을 입력합니다.
+   - **[!UICONTROL Template Styles]**&#x200B;의 경우 콘텐츠 형식을 지정하는 데 필요한 CSS 선언을 입력하십시오.
 
-1. 클릭 **[!UICONTROL Preview Template]** 를 클릭하여 모양을 확인하고 필요한 변경 작업을 수행합니다.
+1. **[!UICONTROL Preview Template]**&#x200B;을(를) 클릭하여 모양을 확인하고 필요한 변경 작업을 수행합니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Template]**.
+1. 완료되면 **[!UICONTROL Save Template]**&#x200B;을(를) 클릭합니다.
 
-   템플릿을 저장한 후, **[!UICONTROL Save As]** 은 다음에 템플릿을 편집할 때 표시됩니다. 원본을 덮어쓰지 않고 템플릿의 변형을 저장하는 데 사용할 수 있습니다.
+   템플릿을 저장한 후 다음에 템플릿을 편집할 때 **[!UICONTROL Save As]**&#x200B;이(가) 나타납니다. 원본을 덮어쓰지 않고 템플릿의 변형을 저장하는 데 사용할 수 있습니다.
 
 ## 템플릿을 일반 텍스트로 변환
 
-1. 페이지 맨 위에서 을 클릭합니다. **[!UICONTROL Convert to Plain Text]** 및 클릭 **[!UICONTROL OK]** 메시지가 표시되면
+1. 페이지 맨 위에서 **[!UICONTROL Convert to Plain Text]**&#x200B;을(를) 클릭하고 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
-1. 템플릿의 일반 텍스트 버전을 미리 보려면 **[!UICONTROL Preview Template]**.
+1. 템플릿의 일반 텍스트 버전을 미리 보려면 **[!UICONTROL Preview Template]**&#x200B;을(를) 클릭합니다.
 
    미리보기가 새 브라우저 탭에서 열립니다.
 
-1. 일반 텍스트 버전을 저장하려면 **[!UICONTROL Save Template]**.
+1. 일반 텍스트 버전을 저장하려면 **[!UICONTROL Save Template]**&#x200B;을(를) 클릭합니다.
 
 ## HTML 복원
 
-1. 페이지 맨 위에서 을 클릭합니다. **[!UICONTROL Return HTML Version]**.  
+1. 페이지 맨 위에서 **[!UICONTROL Return HTML Version]**&#x200B;을(를) 클릭합니다.  
 
-1. 템플릿의 HTML 버전을 미리 보려면 **[!UICONTROL Preview Template]**.
+1. 템플릿의 HTML 버전을 미리 보려면 **[!UICONTROL Preview Template]**&#x200B;을(를) 클릭하십시오.
 
    미리보기가 새 브라우저 탭에서 열립니다.
 
-1. HTML 버전을 저장하려면 **[!UICONTROL Save Template]**.
+1. HTML 버전을 저장하려면 **[!UICONTROL Save Template]**&#x200B;을(를) 클릭합니다.
 
 ## 뉴스레터 템플릿 삭제
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**(으)로 이동합니다.
 
 1. 삭제할 뉴스레터 템플릿을 찾아 편집 모드로 엽니다.
 
 1. 메뉴 모음에서 **[!UICONTROL Delete Template]** 단추를 클릭합니다.
 
-1. 작업을 확인하려면 다음을 클릭합니다. **[!UICONTROL OK]**.
+1. 작업을 확인하려면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
 ## 그리드 열
 

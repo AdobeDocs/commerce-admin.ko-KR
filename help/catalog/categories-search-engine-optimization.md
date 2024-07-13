@@ -1,18 +1,18 @@
 ---
 title: 카테고리 - 검색 엔진 최적화 설정
-description: 사용에 대해 알아보기 [!UICONTROL Search Engine Optimization] 검색 엔진이 범주를 색인화하는 데 사용하는 URL 키 및 메타데이터 필드를 정의하는 설정입니다.
+description: '[!UICONTROL Search Engine Optimization] 설정을 사용하여 검색 엔진에서 범주를 색인화하는 데 사용하는 URL 키와 메타데이터 필드를 정의하는 방법에 대해 알아봅니다.'
 exl-id: 6c8af01d-d2aa-4c13-af76-663c47cbe38c
 feature: Catalog Management, Categories, Search
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
 # 카테고리 - 검색 엔진 최적화 설정
 
-다음 _[!UICONTROL Search Engine Optimization]_section은 [URL 키](catalog-urls.md) 및 [메타데이터](../merchandising-promotions/meta-data.md) 검색 엔진이 범주를 색인화하는 데 사용하는 필드입니다. 일부 검색 엔진은 메타 키워드를 무시하지만 다른 검색 엔진은 메타 키워드를 계속 사용합니다. 현재 SEO 우수 사례는 메타 제목과 메타 설명 둘 다에 고가치 키워드를 통합하는 것입니다.
+_[!UICONTROL Search Engine Optimization]_섹션은 검색 엔진이 범주를 색인화하는 데 사용하는 [URL 키](catalog-urls.md) 및 [메타데이터](../merchandising-promotions/meta-data.md) 필드를 지정합니다. 일부 검색 엔진은 메타 키워드를 무시하지만 다른 검색 엔진은 메타 키워드를 계속 사용합니다. 현재 SEO 우수 사례는 메타 제목과 메타 설명 둘 다에 고가치 키워드를 통합하는 것입니다.
 
 ![검색 엔진 최적화](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 

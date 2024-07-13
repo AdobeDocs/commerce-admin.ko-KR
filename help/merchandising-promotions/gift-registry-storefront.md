@@ -14,15 +14,15 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-다음 [선물 등록](gift-registries.md) 고객 계정의 섹션에는 고객의 현재 선물 등록기 및 관련 이벤트가 나열됩니다. 고객은 현재 레지스트리를 관리하고 새 레지스트리를 추가할 수 있습니다.
+고객 계정의 [선물 등록](gift-registries.md) 섹션에는 고객의 현재 선물 등록 및 관련 이벤트가 나열됩니다. 고객은 현재 레지스트리를 관리하고 새 레지스트리를 추가할 수 있습니다.
 
-![선물 등록](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
+![선물 레지스트리](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
 
 ## 선물 등록 정보
 
 고객은 계정에서 선물 등록기를 만들고 관리할 수 있습니다. 각 레지스트리 유형과 관련된 모든 정보는 고객 계정에서 사용할 수 있습니다.
 
-![예 storefront - 선물 등록 정보](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
+![Example storefront - 선물 등록 정보](./assets/gift-registry-create-baby-storefront.png){width="700" zoomable="yes"}
 
 | 섹션 | 설명 |
 |--- |--- |
@@ -40,11 +40,11 @@ ht-degree: 0%
 
 ## 선물 레지스트리 만들기
 
-1. 고객이 선택 **[!UICONTROL Gift Registry]** 계정 대시보드에서 을 참조하십시오.
+1. 고객이 계정 대시보드에서 **[!UICONTROL Gift Registry]**&#x200B;을(를) 선택합니다.
 
-1. 다음에서 _선물 등록_ 페이지, 클릭 수 **[!UICONTROL Add New]**.
+1. _선물 레지스트리_ 페이지에서 **[!UICONTROL Add New]**&#x200B;을(를) 클릭합니다.
 
-1. 선택 **[!UICONTROL Gift Registry Type]**, 예:
+1. 다음과 같은 **[!UICONTROL Gift Registry Type]**&#x200B;을(를) 선택합니다.
 
    - 생일
 
@@ -52,58 +52,58 @@ ht-degree: 0%
 
    - 웨딩
 
-1. 클릭수 **[!UICONTROL Next]**.
+1. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-1. 필요한 정보를 입력하고 클릭합니다. **[!UICONTROL Save]**.
+1. 필요한 정보를 입력하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 레지스트리에 제품 추가
 
 1. 고객이 기프트 등록 이벤트에 추가할 제품을 엽니다.
 
-1. 클릭수 **[!UICONTROL Add to Cart]**.
+1. **[!UICONTROL Add to Cart]**&#x200B;을(를) 클릭합니다.
 
-1. 클릭수 **[!UICONTROL View and Edit Cart]** 미니 장바구니에서.
+1. 미니 장바구니에서 **[!UICONTROL View and Edit Cart]**&#x200B;을(를) 클릭합니다.
 
-1. 장바구니 페이지에서 원하는 이벤트를 선택하고 클릭/탭합니다. **[!UICONTROL Add All To Gift Registry]**.
+1. 장바구니 페이지에서 원하는 이벤트를 선택하고 **[!UICONTROL Add All To Gift Registry]**&#x200B;을(를) 클릭/탭합니다.
 
    항목이 선택한 이벤트의 선물 레지스트리에 추가됩니다.
 
 ## 선물 레지스트리 공유
 
-1. 계정 대시보드에서 로 이동합니다. **[!UICONTROL Gift Registry]**.
+1. 계정 대시보드에서 고객이 **[!UICONTROL Gift Registry]**(으)로 이동합니다.
 
-1. 관리할 레지스트리 이벤트를 찾고 클릭합니다. **[!UICONTROL Share]**.
+1. 관리할 레지스트리 이벤트를 찾아 **[!UICONTROL Share]**&#x200B;을(를) 클릭합니다.
 
-1. 필요한 정보를 입력하고 클릭합니다. **[!UICONTROL Share Gift Registry]**.
+1. 필요한 정보를 입력하고 **[!UICONTROL Share Gift Registry]**&#x200B;을(를) 클릭합니다.
 
 ## 선물 레지스트리 편집
 
-1. 계정 대시보드에서 로 이동합니다. **[!UICONTROL Gift Registry]**.
+1. 계정 대시보드에서 고객이 **[!UICONTROL Gift Registry]**(으)로 이동합니다.
 
-1. 관리할 레지스트리 이벤트를 찾고 클릭합니다. **[!UICONTROL Edit]**.
+1. 관리할 레지스트리 이벤트를 찾아 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. 필요에 따라 옵션을 변경합니다.
 
-1. 필요한 옵션 및 클릭 수를 편집합니다. **[!UICONTROL Save]**.
+1. 필요한 옵션을 편집하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 선물 등록 항목 관리
 
-1. 계정 대시보드에서 로 이동합니다. **[!UICONTROL Gift Registry]**.
+1. 계정 대시보드에서 고객이 **[!UICONTROL Gift Registry]**(으)로 이동합니다.
 
-   ![선물 등록 항목 관리](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
+   ![선물 레지스트리 항목 관리](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
 
-1. 레지스트리 이벤트를 찾고 관리할 항목을 선택한 다음 클릭합니다. **[!DNL Manage Items]**.
+1. 레지스트리 이벤트를 찾고 관리할 항목을 선택한 다음 **[!DNL Manage Items]**&#x200B;을(를) 클릭합니다.
 
-1. 다음과 같은 필수 옵션을 변경합니다. **[!UICONTROL Note]** 및 **[!UICONTROL Qty]**.
+1. **[!UICONTROL Note]** 및 **[!UICONTROL Qty]**&#x200B;과(와) 같은 필수 옵션을 변경합니다.
 
-1. 필요한 경우 확인란을 선택하고 을 클릭하여 선물 레지스트리에서 항목을 제거합니다. **[!UICONTROL Delete]**.
+1. 필요한 경우 확인란을 선택하고 **[!UICONTROL Delete]**&#x200B;을(를) 클릭하여 선물 레지스트리에서 항목을 제거합니다.
 
-1. 클릭수 **[!UICONTROL Update Gift Registry]** 변경 내용을 저장합니다.
+1. 변경 내용을 저장하려면 **[!UICONTROL Update Gift Registry]**&#x200B;을(를) 클릭합니다.
 
 ## 선물 레지스트리 삭제
 
-1. 계정 대시보드에서 로 이동합니다. **[!UICONTROL Gift Registry]**.
+1. 계정 대시보드에서 고객이 **[!UICONTROL Gift Registry]**(으)로 이동합니다.
 
-1. 관리할 레지스트리 이벤트를 찾고 클릭합니다. **[!UICONTROL Delete]**.
+1. 관리할 레지스트리 이벤트를 찾아 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
-1. 클릭수 **[!UICONTROL OK]** 확인할 수 있습니다.
+1. **[!UICONTROL OK]**&#x200B;을(를) 클릭하여 확인합니다.

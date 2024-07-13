@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 반환
 
-A _반송된 상품 승인_ (RMA)는 교환 또는 환불을 위해 품목을 반품하도록 요청하는 고객에게 부여될 수 있습니다. 일반적으로 고객은 가맹점에 연락하여 환불을 요청합니다. 승인된 경우, 반품 제품을 식별하기 위해 고유한 RMA 번호가 지정됩니다. 구성에서 모든 제품에 대해 RMA를 활성화하거나 특정 제품에 대해서만 RMA를 허용할 수 있습니다. 다음 _[!UICONTROL Returns]_그리드는 현재 반품된 상품 요청(RMA)을 나열하며 새로운 반품 요청을 입력하는 데 사용됩니다.
+_반품된 상품 승인_(RMA)은 교환 또는 환불을 위해 품목을 반품하도록 요청하는 고객에게 부여될 수 있습니다. 일반적으로 고객은 가맹점에 연락하여 환불을 요청합니다. 승인된 경우, 반품 제품을 식별하기 위해 고유한 RMA 번호가 지정됩니다. 구성에서 모든 제품에 대해 RMA를 활성화하거나 특정 제품에 대해서만 RMA를 허용할 수 있습니다. _[!UICONTROL Returns]_그리드는 현재 반품된 제품 요청(RMA)을 나열하며 새 반품된 요청을 입력하는 데 사용됩니다.
 
-![그리드 반환](./assets/return.png){width="600" zoomable="yes"}
+![그리드를 반환합니다](./assets/return.png){width="600" zoomable="yes"}
 
 RMA는 단순, 그룹화, 구성 및 번들 제품 유형에 대해 발급할 수 있습니다. 단, 가상 상품, 다운로드 가능 상품, 기프트 카드 등에는 RMA를 사용할 수 없다.
 
@@ -29,19 +29,19 @@ RMA는 단순, 그룹화, 구성 및 번들 제품 유형에 대해 발급할 �
 | [!UICONTROL Ordered] | 주문이 이루어진 날짜와 시간 |
 | [!UICONTROL Customer] | 주문을 한 고객 또는 구매자의 이름 |
 | [!UICONTROL Status] | 반환 상태. 옵션: `Pending` / `Authorized` / `Partially Authorized` / `Approved` / `Rejected` / `Processed and Closed` / `Closed` |
-| [!UICONTROL Action] | **[!UICONTROL View]** 편집 모드에서 반환을 엽니다. |
+| [!UICONTROL Action] | **[!UICONTROL View]**&#x200B;이(가) 편집 모드에서 반환을 엽니다. |
 
 {style="table-layout:auto"}
 
 ## RMA 및 반품 워크플로우
 
-1. **요청 수신** - 경우 [활성화됨](rma-configure.md#enable-rmas-for-your-store) 상점의 경우 등록 고객과 게스트 모두 RMA를 요청할 수 있습니다. 다음을 수행할 수도 있습니다. [책임자에서 RMA 요청 제출](#create-a-return-request-in-the-admin).
+1. **요청 받기** - 상점에 대해 [활성화](rma-configure.md#enable-rmas-for-your-store)된 경우 등록된 고객과 게스트 모두 RMA를 요청할 수 있습니다. [책임자에서 RMA 요청을 제출](#create-a-return-request-in-the-admin)할 수도 있습니다.
 
-2. **RMA 발행됨** - 요청을 고려한 후에는 요청을 일부, 전체 또는 취소하거나 승인할 수 있습니다. 귀하가 반품을 승인하고 반품 배송에 대한 지불에 동의하는 경우, 지원되는 운송업자와 함께 관리자로부터 선적 주문을 생성할 수 있습니다.
+2. **발급된 RMA** - 요청을 고려한 후 요청을 부분, 전체 또는 취소하거나 승인할 수 있습니다. 귀하가 반품을 승인하고 반품 배송에 대한 지불에 동의하는 경우, 지원되는 운송업자와 함께 관리자로부터 선적 주문을 생성할 수 있습니다.
 
-3. **상품 입고 및 제품 반품 처리됨** - 다음 순서도는 반품 프로세스를 완료하기 위한 운영 순서에 대해 설명합니다.
+3. **제품 입고 및 제품 반품이 처리됨** - 다음 순서도는 반품 프로세스를 완료하기 위한 운영 순서에 대해 설명합니다.
 
-   ![제품 반환 워크플로우](./assets/workflow-customer-returns.png){width="500"}
+   ![제품 반환 워크플로](./assets/workflow-customer-returns.png){width="500"}
 
 ## RMA 상태
 
@@ -64,45 +64,45 @@ RMA는 단순, 그룹화, 구성 및 번들 제품 유형에 대해 발급할 �
 
 ## 책임자에서 반환 요청 만들기
 
-판매자는 관리자로부터 고객을 대신하여 반환 요청을 생성할 수 있습니다. 고객은 다음을 수행할 수 있습니다. [반환 요청 만들기](rma-customer-experience.md) Adobe Commerce 매장 앞에요.
+판매자는 관리자로부터 고객을 대신하여 반환 요청을 생성할 수 있습니다. 고객은 Adobe Commerce 스토어에 대해 [반환 요청을 만들 수 있습니다](rma-customer-experience.md).
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Returns]**(으)로 이동합니다.
 
-1. 클릭 **[!UICONTROL New Return Request]**.
+1. **[!UICONTROL New Return Request]**&#x200B;을(를) 클릭합니다.
 
-1. 반환 요청을 만들려면 `Complete` 상태.
+1. 반환 요청을 만들려면 `Complete` 상태의 주문을 클릭합니다.
 
-1. 아래 _[!UICONTROL Return Information]_섹션에서&#x200B;**[!UICONTROL Return Items]**탭.
+1. _[!UICONTROL Return Information]_섹션에서&#x200B;**[!UICONTROL Return Items]**탭을 선택합니다.
 
-1. 반환할 항목을 추가하려면 **[!UICONTROL Add Items]**.
+1. 반환할 항목을 추가하려면 **[!UICONTROL Add Items]**&#x200B;을(를) 클릭하십시오.
 
-1. 필요한 제품에 대한 확인란을 선택하고 **[!UICONTROL Add Selected Product to returns]**.
+1. 필요한 제품에 대한 확인란을 선택하고 **[!UICONTROL Add Selected Product to returns]**&#x200B;을(를) 클릭합니다.
 
-1. 대상 **[!UICONTROL Requested]**&#x200B;를 클릭하고 반환할 항목 수를 입력합니다.
+1. **[!UICONTROL Requested]**&#x200B;에 대해 반환할 항목 수를 입력하십시오.
 
-1. 설정 **[!UICONTROL Return Reason]** 다음 중 하나를 수행합니다.
+1. **[!UICONTROL Return Reason]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `Wrong Color`
    - `Wrong Size`
    - `Out of Service`
    - `Other`
 
-   반환 이유가 나열된 선택 사항과 다른 경우, 다음을 선택하면 사용자 이름을 입력할 수 있습니다. `Other` 옵션을 선택합니다.
+   반환된 이유가 나열된 선택 사항과 다른 경우 `Other` 옵션을 선택하면 직접 입력할 수 있습니다.
 
-1. 설정 **[!UICONTROL Item Condition]** 다음 중 하나를 수행합니다.
+1. **[!UICONTROL Item Condition]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `Unopened`
    - `Opened`
    - `Damaged`
 
-1. 설정 **[!UICONTROL Resolution]** 다음 중 하나를 수행합니다.
+1. **[!UICONTROL Resolution]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `Exchange`
    - `Refund`
    - `Store Credit`
 
-1. 반환을 생성하려면 다음을 클릭합니다. **[!UICONTROL Submit Returns]**.
+1. 반환을 만들려면 **[!UICONTROL Submit Returns]**&#x200B;을(를) 클릭합니다.
 
-   ![요청된 RMA 항목](./assets/return-item-request.png){width="600" zoomable="yes"}
+   ![요청한 RMA 항목](./assets/return-item-request.png){width="600" zoomable="yes"}
 
-   새로 제출된 RMA 요청이 **[!UICONTROL Returns]** 이 포함된 페이지 `Pending` 상태.
+   새로 제출된 RMA 요청이 **[!UICONTROL Returns]** 페이지에 `Pending` 상태로 나타납니다.

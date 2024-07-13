@@ -1,20 +1,20 @@
 ---
 title: 미디어 - 맵
-description: 다음에서 맵을 추가하는 데 사용되는 맵 콘텐츠 유형에 대해 알아봅니다. [!DNL Google Maps] 플랫폼으로 이동 [!DNL Page Builder] 스테이지.
+description: ' [!DNL Google Maps] Platform에서  [!DNL Page Builder] Stage로 맵을 추가하는 데 사용되는 맵 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
 
 # 미디어 - 맵
 
-사용 _맵_ 맵을 추가할 콘텐츠 유형 [[!DNL Google Maps] 플랫폼][1] (으)로 [[!DNL Page Builder] 단계](workspace.md#stage). 예를 들어 블록에 맵을 추가한 다음 블록을 [정보](../content-design/pages.md#about-us) 및 [연락처](../getting-started/store-details.md#contact-us-form) 페이지.
+_맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [[!DNL Page Builder] 단계](workspace.md#stage)로의 맵을 추가하십시오. 예를 들어, 블록에 맵을 추가한 다음 [정보](../content-design/pages.md#about-us) 및 [연락처](../getting-started/store-details.md#contact-us-form) 페이지에 블록을 추가할 수 있습니다.
 
-을 최대한 활용하려면 [!DNL Google Maps] 플랫폼, 맵을 사용자 지정하고, 스토어 위치를 강조 표시하고, Google을 사용할 수 있습니다. [위치][2] 저장소에 대한 다양한 정보를 모두 추가하려면 [!DNL Google Maps].
+[!DNL Google Maps] 플랫폼을 최대한 활용하려면 맵을 사용자 지정하고, 스토어 위치를 강조 표시하고, Google [위치][2]를 사용하여 스토어에 대한 풍부한 정보를 모든 [!DNL Google Maps]에 추가할 수 있습니다.
 
 ## Google 맵 포함의 이점
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 물리적 스토어 체인이 있는 경우 사이트에 Google 맵을 추가하면 강조 표시된 항목의 형태로 브랜드 인지도와 신뢰성을 높이는 데 도움이 됩니다.
 
-![예제 storefront - 위치를 사용한 맵](./assets/pb-media-maps-storefront.png){width="700" zoomable="yes"}
+![Example storefront - 위치를 사용한 맵](./assets/pb-media-maps-storefront.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -48,87 +48,87 @@ ht-degree: 0%
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
 
-## 구성 [!DNL Google Maps] 관리자용
+## 책임자에 대해 [!DNL Google Maps] 구성
 
-맵을 추가하기 전에 먼저 [account][3] 의 무료 체험판을 위하여 [!DNL Google Maps] 플랫폼. 무료 체험은 12개월 동안 지속되며 300달러의 크레딧이 포함됩니다. 크레딧을 소진하면 Google에서 귀하의 허가 없이 귀하의 계정에 청구하지 않습니다.
+맵을 추가하기 전에 먼저 [!DNL Google Maps] 플랫폼의 무료 평가판을 위해 [계정][3]을(를) 열어야 합니다. 무료 체험은 12개월 동안 지속되며 300달러의 크레딧이 포함됩니다. 크레딧을 소진하면 Google에서 귀하의 허가 없이 귀하의 계정에 청구하지 않습니다.
 
-### 1단계: 가져오기 [!DNL Google Maps] API 키
+### 1단계: [!DNL Google Maps] API 키 가져오기
 
-이미 다음 항목이 있는지 여부에 따라 [!DNL Google Maps] 키, 다음 절차 중 하나를 사용하여 구성에 필요한 API 키를 가져옵니다. 을(를) 설정하려면 [!DNL Google Maps] 키. 계정에 대한 결제를 활성화할 수 있는 권한이 있는 사이트 관리자여야 합니다. 을(를) 설정할 준비가 되지 않았다면 [!DNL Google Maps] Platform 계정에서 이 단계를 건너뛰고 지금은 자리 표시자 맵을 사용할 수 있습니다.
+이미 [!DNL Google Maps] 키가 있는지 여부에 따라 다음 절차 중 하나를 사용하여 구성에 필요한 API 키를 가져옵니다. [!DNL Google Maps] 키를 설정하려면 계정에 대한 결제를 사용하도록 승인된 사이트 관리자여야 합니다. [!DNL Google Maps] Platform 계정을 설정할 준비가 되지 않았다면 이 단계를 건너뛰고 지금은 자리 표시자 맵을 사용할 수 있습니다.
 
-1. 로 이동 [Google 클라우드 플랫폼 콘솔](https://cloud.google.com/console/google/maps-apis/overview).
+1. [Google Cloud Platform Console](https://cloud.google.com/console/google/maps-apis/overview)(으)로 이동합니다.
 
 1. 프로젝트 드롭다운을 클릭하고 API 키를 추가할 프로젝트를 선택하거나 만듭니다.
 
-1. API 자격 증명을 구성하려면 다음을 수행합니다. [지침][4] 다음에서 [!DNL Google Maps] 설명서를 참조하십시오.
+1. API 자격 증명을 구성하려면 [!DNL Google Maps] 설명서의 [지침][4]을(를) 따르십시오.
 
 1. API 키를 클립보드에 복사합니다.
 
-### 2단계: 구성 [!DNL Google Maps] 위치: [!DNL Commerce]
+### 2단계: [!DNL Commerce]에서 [!DNL Google Maps] 구성
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 아래의 왼쪽 패널에서 _[!UICONTROL General]_, 선택&#x200B;**[!UICONTROL Content Management]**.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
+1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을 확장합니다.
 
    ![고급 콘텐츠 도구](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
-   콘텐츠 관리 고급 도구 구성 옵션에 대한 자세한 내용은 [구성 참조 안내서](../configuration-reference/general/content-management.md).
+   콘텐츠 관리 고급 도구 구성 옵션에 대한 자세한 내용은 [구성 참조 안내서](../configuration-reference/general/content-management.md)를 참조하십시오.
 
-1. 대상 **[!UICONTROL Google Maps API Key]** 1단계에서 복사한 키를 붙여넣습니다.
+1. **[!UICONTROL Google Maps API Key]**&#x200B;의 경우 1단계에서 복사한 키를 붙여넣습니다.
 
-1. 클릭 **[!UICONTROL Test Key]**.
+1. **[!UICONTROL Test Key]**&#x200B;을(를) 클릭합니다.
 
-   키에 문제가 있는 경우 [!DNL Google Maps] 플랫폼 사이트로 이동하여 문제를 해결하십시오. 그런 다음 다시 시도하십시오.
+   키에 문제가 있는 경우 [!DNL Google Maps] 플랫폼 사이트로 돌아가 문제를 해결하십시오. 그런 다음 다시 시도하십시오.
 
-1. 키를 확인한 후 **[!UICONTROL Save Config]**.
+1. 키를 확인한 후 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 ## 스테이지에 맵 추가
 
-1. 페이지, 블록 또는 동적 블록을 열고 [!DNL Page Builder] 작업 영역.
+1. [!DNL Page Builder] 작업 영역에 대한 페이지, 차단 또는 동적 블록을 엽니다.
 
-1. 다음에서 [!DNL Page Builder] 패널, 확장 **[!UICONTROL Media]** 드래그 **[!UICONTROL Map]** 자리 표시자가 스테이지에 표시됩니다.
+1. [!DNL Page Builder] 패널에서 **[!UICONTROL Media]**&#x200B;을(를) 확장하고 **[!UICONTROL Map]** 자리 표시자를 스테이지로 드래그합니다.
 
-   ![스테이지로 맵 드래그](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
+   ![맵을 스테이지로 드래그](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
 
-   If [!DNL Google Maps] 플랫폼이 스토어에 대해 구성되면 스토어 위치에 대한 맵이 표시됩니다.
+   스토어에 대해 [!DNL Google Maps] 플랫폼이 구성된 경우 스토어 위치에 대한 맵이 나타납니다.
 
    ![[!DNL Google Maps]](./assets/pb-tutorial2-google-map.png){width="600" zoomable="yes"}
 
-   If [!DNL Google Maps] 스토어에 대해 플랫폼이 아직 구성되지 않았습니다. 대신 자리 표시자 맵이 표시됩니다.
+   스토어에 대해 [!DNL Google Maps] 플랫폼이 아직 구성되지 않은 경우 대신 자리 표시자 맵이 나타납니다.
 
    ![[!DNL Google Maps] 자리 표시자](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
 
 ## 사용자 정의 맵 위치 추가
 
-1. 맵 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘.
+1. 맵 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
-1. 의 오른쪽 위 모서리에서 _[!UICONTROL Edit Map]_페이지, 클릭&#x200B;**[!UICONTROL Add Location]**.
+1. _[!UICONTROL Edit Map]_페이지의 오른쪽 상단 모서리에서&#x200B;**[!UICONTROL Add Location]**을(를) 클릭합니다.
 
-1. 다음을 입력합니다. **[!UICONTROL Location Name]** 지도에서 pin과 연결하려고 합니다.
+1. 지도에서 PIN과 연결할 **[!UICONTROL Location Name]**&#x200B;을(를) 입력하십시오.
 
 1. 사용자 지정 위치에 사용할 위치 좌표를 수집합니다.
 
-   또는 **[!UICONTROL Position]** 상자에서 표시된 맵의 핀을 드래그할 수 있습니다.
+   또는 **[!UICONTROL Position]** 상자에서 표시된 맵의 핀을 끌 수 있습니다.
 
-   필요한 경우 [[!DNL Google Maps]][5] 새 브라우저 창에서 다음 방법 중 하나를 사용하여 좌표를 가져옵니다.
+   필요한 경우 새 브라우저 창에서 [[!DNL Google Maps]][5](으)로 이동하여 다음 방법 중 하나를 사용하여 좌표를 가져옵니다.
 
-   ![맵 좌표](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
+   ![좌표 매핑](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
 
-   **방법 1:** URL에서 복사
+   **메서드 1:** URL에서 복사
 
-   - 왼쪽 상단 모서리에서 **[!UICONTROL Search]** 상자를 클릭하고 _검색_ ( ![검색 아이콘](../assets/icon-magnify-search.png){width="20"} ) 아이콘.
+   - 왼쪽 상단 모서리에서 **[!UICONTROL Search]** 상자에 주소를 입력하고 _검색_( ![검색 아이콘](../assets/icon-magnify-search.png){width="20"} ) 아이콘을 클릭합니다.
 
    - URL에서 좌표를 복사하여 메모장에 붙여넣습니다.
 
-   **방법 2:** &quot;여기 뭐가 있지?&quot;에서 복사해
+   **메서드 2:** &quot;여기 있는 항목&quot;에서 복사
 
-   - 지도에서 위치를 표시하는 빨간색 핀을 마우스 오른쪽 단추로 클릭하고 를 선택합니다 **[!UICONTROL What's here?]** 메뉴에서 을 클릭합니다.
+   - 맵에서 위치를 표시하는 빨간색 핀을 마우스 오른쪽 단추로 클릭하고 메뉴에서 **[!UICONTROL What's here?]**&#x200B;을(를) 선택합니다.
 
    - 표시된 레이블에서 좌표를 포함한 텍스트를 복사하여 메모장에 붙여넣습니다.
 
-1. 각 필드에 쉼표 없이 숫자를 입력합니다. **[!UICONTROL Coordinates]** 상자.
+1. 각 **[!UICONTROL Coordinates]** 상자에 쉼표 없이 숫자를 입력하십시오.
 
    나머지 정보 중 맵에 사용할 수 있는 만큼만 입력할 수도 있습니다.
 
@@ -146,47 +146,47 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]**.
+1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   새 위치는 맵과 의 맵 위치 그리드에 나타납니다. _[!UICONTROL Edit Map]_페이지를 가리키도록 업데이트하는 중입니다.
+   새 위치는 맵과 _[!UICONTROL Edit Map]_페이지의 맵 위치 그리드에 나타납니다.
 
    ![[!DNL Page Builder] - 위치 그리드 매핑](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
 ## 맵 스타일 지정 {#styling}
 
-사용 [!DNL Google Maps] 미리 정의된 6개의 테마 중 하나를 적용하거나 사용자 지정 테마를 만드는 플랫폼 스타일 지정 마법사 맵 스타일 속성 또는 스타일이 지정된 맵에 대한 링크를 사용하여 JSON 파일을 생성할 수 있습니다.
+미리 정의된 6개의 테마 중 하나를 적용하거나 사용자 지정 테마를 만들려면 [!DNL Google Maps] 플랫폼 스타일 지정 마법사를 사용하십시오. 맵 스타일 속성 또는 스타일이 지정된 맵에 대한 링크를 사용하여 JSON 파일을 생성할 수 있습니다.
 
 ### 맵 스타일 변경
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 아래의 왼쪽 패널에서 _[!UICONTROL General]_, 선택&#x200B;**[!UICONTROL Content Management]**.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
+1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을 확장합니다.
 
-1. 아래 **[!UICONTROL Google Maps Style]** 텍스트 상자에서 [맵 스타일 만들기][6].
+1. **[!UICONTROL Google Maps Style]** 텍스트 상자에서 [맵 스타일 만들기][6]를 클릭합니다.
 
-   이 작업을 수행하면 [[!DNL Google Maps] 플랫폼 스타일 마법사][6] 에 대한 스타일을 정의할 수 있는 별도의 탭에서 [!DNL Google Maps] 플랫폼 프로젝트.
+   이 작업은 별도의 탭에서 [[!DNL Google Maps] 플랫폼 스타일 지정 마법사][6]를 엽니다. 이 탭에서 [!DNL Google Maps] 플랫폼 프로젝트의 스타일을 정의할 수 있습니다.
 
-1. 클릭 **[!UICONTROL Create a Style]** 제공된 지침을 따르십시오.
+1. **[!UICONTROL Create a Style]**&#x200B;을(를) 클릭하고 제공된 지침을 따릅니다.
 
-   완료되면 다음을 클릭하십시오. **[!UICONTROL Finish]**.
+   완료되면 **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
-1. 완료된 스타일을 JSON 코드 또는 URL로 내보내 [!DNL Commerce] 구성.
+1. 완료된 스타일을 [!DNL Commerce] 구성에 추가할 수 있도록 JSON 코드 또는 URL로 내보냅니다.
 
-   - **JSON**: 생성된 JSON 코드가 있는 상자 아래에서 **[!UICONTROL Copy JSON]**.
+   - **JSON**: 생성된 JSON 코드가 있는 상자 아래에서 **[!UICONTROL Copy JSON]**&#x200B;을(를) 클릭합니다.
 
-   - **[!UICONTROL URL]**: 생성된 URL이 있는 상자 아래에서 **[!UICONTROL Copy URL]**.
+   - **[!UICONTROL URL]**: 생성된 URL이 있는 상자 아래에서 **[!UICONTROL Copy URL]**&#x200B;을(를) 클릭합니다.
 
-1. 관리 브라우저 탭으로 돌아가서 생성된 코드 또는 URL을 **Google 맵 스타일** 상자.
+1. 관리자 브라우저 탭으로 돌아가서 생성된 코드 또는 URL을 **Google 맵 스타일** 상자에 붙여 넣습니다.
 
-   URL을 사용하는 경우 `YOUR_API_KEY` 을(를) 사용한 자리 표시자 [!DNL Google Maps] API 키. 이 URL은 스타일이 지정된 Google 맵에 연결됩니다.
+   URL을 사용하는 경우 `YOUR_API_KEY` 자리 표시자를 [!DNL Google Maps] API 키로 바꾸십시오. 이 URL은 스타일이 지정된 Google 맵에 연결됩니다.
 
-1. 오른쪽 위 모서리에서 을(를) 클릭합니다. **[!UICONTROL Save Config]**.
+1. 오른쪽 상단에서 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 ### 맵 설정 변경
 
-1. 맵 컨테이너 위로 마우스를 가져가면 도구 상자가 표시되고 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘.
+1. 맵 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
 1. 필요에 따라 기본 설정을 변경합니다.
 
@@ -197,9 +197,9 @@ ht-degree: 0%
 
    {style="table-layout:auto"}
 
-1. 수정 _[!UICONTROL Advanced]_필요한 경우 설정:
+1. 필요에 따라 _[!UICONTROL Advanced]_설정을 수정합니다.
 
-   - 컨테이너에 추가된 맵 콘텐츠의 가로 위치를 제어하려면 **[!UICONTROL Alignment]**:
+   - 컨테이너에 추가된 맵 콘텐츠의 가로 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택합니다.
 
      | 옵션 | 설명 |
      | ------ | ----------- |
@@ -210,7 +210,7 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - 설정 **[!UICONTROL Border]** 맵 컨테이너의 네 면에 적용된 스타일:
+   - 맵 컨테이너의 네 면 모두에 적용된 **[!UICONTROL Border]** 스타일을 설정합니다.
 
      | 옵션 | 설명 |
      | ------ | ----------- |
@@ -227,7 +227,7 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - 테두리 스타일을 설정할 때 `None`테두리 표시 옵션을 완료합니다.
+   - `None` 이외의 테두리 스타일을 설정하는 경우 테두리 표시 옵션을 완료하십시오.
 
      ![테두리 색상](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
@@ -239,11 +239,11 @@ ht-degree: 0%
 
      {style="table-layout:auto"}
 
-   - (선택 사항) 다음 이름을 지정합니다 **[!UICONTROL CSS classes]** 맵 컨테이너에 적용할 현재 스타일 시트에서 가져옵니다.
+   - (선택 사항) 맵 컨테이너에 적용할 현재 스타일 시트의 **[!UICONTROL CSS classes]** 이름을 지정합니다.
 
      여러 클래스 이름은 공백으로 구분합니다.
 
-   - 다음에 대한 값을 픽셀 단위로 입력하십시오. **[!UICONTROL Margins and Padding]** 를 클릭하여 맵 컨테이너의 외부 여백 및 내부 패딩을 지정합니다.
+   - **[!UICONTROL Margins and Padding]**&#x200B;에 대한 값을 픽셀 단위로 입력하여 맵 컨테이너의 외부 여백과 내부 패딩을 지정합니다.
 
      맵 컨테이너 다이어그램에 해당하는 각 값을 입력합니다.
 
@@ -258,31 +258,31 @@ ht-degree: 0%
      >
      >맵 콘텐츠 유형에는 패딩을 사용할 수 없습니다.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save]** 설정을 적용하고 로 돌아가려면 [!DNL Page Builder] 작업 영역.
+1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
 ### 격자 크기 변경
 
-그리드 크기는 와 관련된 맵의 크기를 결정합니다. [열](column.md) 다음에 있음 [!DNL Page Builder] 스테이지. 기본적으로 맵은 너비가 12열이며 최대 16열입니다.
+눈금 크기는 [!DNL Page Builder] 단계의 [열](column.md)과(와) 관련된 맵의 크기를 결정합니다. 기본적으로 맵은 너비가 12열이며 최대 16열입니다.
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 아래의 왼쪽 패널에서 _[!UICONTROL General]_, 선택&#x200B;**[!UICONTROL Content Management]**.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
+1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을 확장합니다.
 
 1. 필요에 따라 격자선 옵션을 업데이트합니다.
 
    >[!NOTE]
    >
-   >필요한 경우 **[!UICONTROL Use system value]** 확인란을 선택하여 이 설정을 수정합니다.
+   >필요한 경우 **[!UICONTROL Use system value]** 확인란의 선택을 취소하여 이러한 설정을 수정합니다.
 
-   - 대상 **[!UICONTROL Default Column Grid Size]**&#x200B;그리드의 기본 크기에 대한 새 값을 입력합니다.
+   - **[!UICONTROL Default Column Grid Size]**&#x200B;에 그리드의 기본 크기에 대한 새 값을 입력하십시오.
 
-   - 대상 **[!UICONTROL Maximum Column Grid Size]**&#x200B;기본 최대 격자 크기에 대한 새 값을 입력합니다.
+   - **[!UICONTROL Maximum Column Grid Size]**&#x200B;에 기본 최대 눈금 크기에 대한 새 값을 입력하십시오.
 
    ![열 격자 크기 설정](./assets/pb-configure-advanced-content-tools-grid-size.png){width="600" zoomable="yes"}
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 [1]: https://cloud.google.com/maps-platform/
 [2]: https://cloud.google.com/maps-platform/places/

@@ -19,24 +19,24 @@ ht-degree: 0%
 
 회사 관리는 복잡한 조직 구조를 가진 회사의 업무 운영을 간소화합니다. 관리자는 지정된 상위 회사에 회사를 할당하여 B2B 조직을 미러링하는 회사 계층을 구축할 수 있습니다. 이 할당을 통해 상위 회사 관리자가 조직 내의 회사를 보고 관리할 수 있습니다.
 
-에서 회사 관리 작업 시작 *[!UICONTROL Companies]* 보기. 관리에서 로 이동합니다.  **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+*[!UICONTROL Companies]* 보기에서 회사 관리 작업을 시작합니다. 관리자의 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**(으)로 이동합니다.
 
-![B2B 회사 관리 그리드](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+![B2B 회사 표 관리](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-다음에서 *[!UICONTROL Companies grid]*, *[!UICONTROL Company Type]* 회사가 조직의 일부로 관리되는지 또는 별도의 회사로 관리되는지 여부를 나타냅니다.
+*[!UICONTROL Companies grid]*&#x200B;에서 *[!UICONTROL Company Type]* 열은 회사가 조직의 일부로 관리되는지 아니면 별도의 회사로 관리되는지를 나타냅니다.
 
-- `Parent` 하나 이상의 지정된 회사가 있는 비즈니스 조직입니다. 상위 회사는 다른 회사의 하위 회사로 할당할 수 없습니다.
+- `Parent`은(는) 하나 이상의 회사가 할당된 비즈니스 조직입니다. 상위 회사는 다른 회사의 하위 회사로 할당할 수 없습니다.
 
-- `Child` 는 조직에 지정된 회사입니다. 회사는 하나의 모회사에만 할당할 수 있습니다.
+- `Child`은(는) 조직에 할당된 회사입니다. 회사는 하나의 모회사에만 할당할 수 있습니다.
 
-- `Company` 는 단일 회사를 나타냅니다. 단일 회사는 모회사로 만들거나 기존 모회사에 할당하여 조직에 속할 수 있습니다.
+- `Company`은(는) 단일 회사를 나타냅니다. 단일 회사는 모회사로 만들거나 기존 모회사에 할당하여 조직에 속할 수 있습니다.
 
-상위 또는 하위 회사를 편집할 때 다음을 확장합니다. *[!UICONTROL Company Hierarchy]* 조직의 모든 회사를 봅니다. A `Current` 편집 중인 회사를 나타내는 플래그입니다.
+상위 또는 하위 회사를 편집할 때 *[!UICONTROL Company Hierarchy]*&#x200B;을(를) 확장하여 조직의 모든 회사를 봅니다. `Current` 플래그는 편집 중인 회사를 나타냅니다.
 
 ![B2B 회사 계층 구조 표](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
 
-## 보기 및 구성 [!UICONTROL Company Hierarchy]
+## [!UICONTROL Company Hierarchy] 보기 및 구성
 
 초기 회사 생성 시 [!UICONTROL Company Hierarchy] 그리드가 비어 있습니다. 회사가 단일 회사인 경우에도 공허하다.
 
@@ -47,4 +47,4 @@ ht-degree: 0%
 - 새 상위 조직을 만들거나 기존 상위 조직을 업데이트하여 회사 계층을 구축합니다.
 - 회사를 추가하거나 제거할 기존 조직을 관리합니다.
 
-자세한 내용은 [회사 계층 관리](assign-companies.md).
+자세한 내용은 [회사 계층 구조 관리](assign-companies.md)를 참조하십시오.

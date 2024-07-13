@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Services] &gt; [!UICONTROL Magento Web API]'
-description: 에서 구성 설정을 검토합니다. [!UICONTROL Services] &gt; [!UICONTROL Magento Web API] 상거래 관리자의 페이지입니다.
+description: Commerce 관리자의 [!UICONTROL Services] &gt; [!UICONTROL Magento Web API] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 9e9857e7-6f5c-4273-9e82-c861e627827a
 feature: Configuration, Integration
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Enable Input Limits] | 스토어 뷰 | GraphQL 호출에 입력 제한을 사용할 수 있는지 여부를 결정합니다. 기본값: `No`. |
-| [!UICONTROL Maximum Page Size] | 스토어 뷰 | GraphQL 응답에서 페이지가 매겨진 검색 결과에 허용된 최대 항목 수를 설정합니다. 이 옵션은 다음과 같은 경우에는 사용할 수 없습니다. _입력 제한 활성화_ = `No`. |
+| [!UICONTROL Maximum Page Size] | 스토어 뷰 | GraphQL 응답에서 페이지가 매겨진 검색 결과에 허용된 최대 항목 수를 설정합니다. _입력 제한 사용_ = `No`인 경우에는 이 옵션을 사용할 수 없습니다. |
 
 {style="table-layout:auto"}
 
@@ -44,8 +44,8 @@ ht-degree: 1%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Enable Input Limits] | 스토어 뷰 | 웹 API 호출에 입력 제한을 사용할 수 있는지 여부를 결정합니다. 기본값: `No`. |
-| 입력 목록 제한 | 스토어 뷰 | 웹 API 요청의 엔티티 배열 속성에 허용되는 최대 항목 수를 설정합니다. 이 옵션은 다음과 같은 경우에는 사용할 수 없습니다. _입력 제한 활성화_ = `No`. |
-| [!UICONTROL Maximum Page Size] | 스토어 뷰 | 웹 API 응답에서 페이지가 매겨진 검색 결과에 허용되는 최대 항목 수를 설정합니다. 이 옵션은 다음과 같은 경우에는 사용할 수 없습니다. _입력 제한 활성화_ = `No`. |
+| 입력 목록 제한 | 스토어 뷰 | 웹 API 요청의 엔티티 배열 속성에 허용되는 최대 항목 수를 설정합니다. _입력 제한 사용_ = `No`인 경우에는 이 옵션을 사용할 수 없습니다. |
+| [!UICONTROL Maximum Page Size] | 스토어 뷰 | 웹 API 응답에서 페이지가 매겨진 검색 결과에 허용되는 최대 항목 수를 설정합니다. _입력 제한 사용_ = `No`인 경우에는 이 옵션을 사용할 수 없습니다. |
 | [!UICONTROL Default Page Size] | 스토어 뷰 | 웹 API 응답에서 페이지가 매겨진 검색 결과의 기본 항목 수를 설정합니다. |
 
 {style="table-layout:auto"}

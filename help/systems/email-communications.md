@@ -12,27 +12,27 @@ ht-degree: 0%
 
 # 이메일 커뮤니케이션 구성
 
-다음 _메일 전송 설정_ 반환된 이메일을 라우팅하거나 특정 주소로 이메일에 회신할 수 있습니다. 저장소가 SMTP 또는 Windows 서버에서 실행 중인 경우 호스트 및 포트 설정을 확인할 수 있습니다.
+_메일 전송 설정_&#x200B;을 통해 반환된 전자 메일 또는 전자 메일에 회신하는 기능을 특정 주소로 라우팅할 수 있습니다. 저장소가 SMTP 또는 Windows 서버에서 실행 중인 경우 호스트 및 포트 설정을 확인할 수 있습니다.
 
 >[!IMPORTANT]
 >
->**보안 알림** 모든 판매자는 최근에 식별된 잠재적인 원격 코드 실행 악용으로부터 보호하기 위해 메일 전송 구성을 즉시 설정해야 합니다. 이 문제가 해결될 때까지 사용을 피하는 것이 좋습니다 [!DNL Sendmail] 이메일 통신용. 다음에서 _[!UICONTROL Mail Sending Settings]_, 다음을 확인합니다._[!UICONTROL Set Return Path]_ 이(가) (으)로 설정됨 `No`.
+>**보안 알림** 모든 판매자는 최근에 식별된 잠재적인 원격 코드 실행 악용으로부터 보호하기 위해 메일 전송 구성을 즉시 설정해야 합니다. 이 문제가 해결될 때까지 전자 메일 통신에 [!DNL Sendmail]을(를) 사용하지 않는 것이 좋습니다. _[!UICONTROL Mail Sending Settings]_에서_[!UICONTROL Set Return Path]_&#x200B;이(가) `No`(으)로 설정되어 있는지 확인하십시오.
 
-구성 설정에 대한 자세한 목록이 필요하면 를 참조하십시오. [_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md) 다음에서 _구성 참조_.
+구성 설정의 자세한 목록을 보려면 _구성 참조_&#x200B;의 [_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md)을(를) 참조하십시오.
 
 ## 이메일 커뮤니케이션 구성
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널에서 를 확장합니다. **[!UICONTROL Advanced]** 및 선택 **[!UICONTROL System]**.
+1. 왼쪽 패널에서 **[!UICONTROL Advanced]**&#x200B;을(를) 확장하고 **[!UICONTROL System]**&#x200B;을(를) 선택합니다.
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL Mail Sending Settings]** 섹션을 참조하고 다음을 수행합니다.
+1. **[!UICONTROL Mail Sending Settings]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
    ![고급 구성 - 메일 전송 설정](../configuration-reference/advanced/assets/system-mail-sending-settings.png){width="600" zoomable="yes"}
 
-   - 필요한 경우 다음을 설정합니다. **[!UICONTROL Disable Email Communications]** 끝 `No`.
+   - 필요한 경우 **[!UICONTROL Disable Email Communications]**&#x200B;을(를) `No`(으)로 설정합니다.
 
-   - 대상 **[!UICONTROL Transport]**&#x200B;저장소에서 전자 메일 통신에 대한 전송 유형을 선택합니다. `Sendmail` 또는 `SMTP`
+   - **[!UICONTROL Transport]**&#x200B;의 경우 스토어에서 전자 메일 통신에 대한 전송 형식을 선택하십시오. `Sendmail` 또는 `SMTP`
 
    - SMTP 또는 Windows 서버에서 실행 중인 경우 다음 설정을 확인하십시오.
 
@@ -40,29 +40,29 @@ ht-degree: 0%
 
       - **[!UICONTROL Port (25)]** - `25` 또는 기타
 
-   - 대상 **[!UICONTROL Set Return Path]**, 다음 옵션 중 하나를 선택합니다.
+   - **[!UICONTROL Set Return Path]**&#x200B;의 경우 다음 옵션 중 하나를 선택하십시오.
 
-      - `No` - (권장 보안 조치) 루트가 기본 스토어 이메일 주소로 이메일을 반환했습니다.
-      - `Yes` - 루트가 기본 스토어 이메일 주소로 이메일을 반환했습니다.
-      - `Specified` - 경로에 지정된 이메일 주소로 반송됨 **[!UICONTROL Return Path Email]**.
+      - `No` - (권장 보안 조치) 경로에서 기본 스토어 이메일 주소로 이메일을 반환했습니다.
+      - `Yes` - 경로가 기본 스토어 전자 메일 주소로 전자 메일을 반환했습니다.
+      - `Specified` - 경로가 **[!UICONTROL Return Path Email]**&#x200B;에 지정된 전자 메일 주소로 전자 메일을 반환했습니다.
 
    - SMTP 서버에서 실행 중인 경우 연결을 구성합니다.
 
       - **[!UICONTROL Username]** - SMTP 서버의 로그인 사용자 이름을 입력합니다.
       - **[!UICONTROL Password]** - SMTP 서버 로그인의 암호를 입력합니다.
-      - **[!UICONTROL Auth]** - SMTP 서버 연결에 대한 인증 유형 선택: `NONE` , `PLAIN`, 또는 `LOGIN`
-      - **[!UICONTROL SSL]** - 서버 보안 인증서에 대한 확인 유형을 선택합니다. `SSL` 또는 `TLS`
+      - **[!UICONTROL Auth]** - SMTP 서버 연결에 대한 인증 유형 선택: `NONE`, `PLAIN` 또는 `LOGIN`
+      - **[!UICONTROL SSL]** - 서버 보안 인증서에 대한 확인 유형 선택: `SSL` 또는 `TLS`
 
      ![고급 구성 - 메일 전송 설정](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png){width="600" zoomable="yes"}
 
-1. 왼쪽 패널에서 를 확장합니다. **[!UICONTROL Sales]** 및 선택 **[!UICONTROL Sales Emails]**.
+1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Sales Emails]**&#x200B;을(를) 선택합니다.
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL General Settings]** 섹션.
+1. **[!UICONTROL General Settings]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
-1. 설정 **[!UICONTROL Asynchronous sending]** 끝 `Enable`.
+1. **[!UICONTROL Asynchronous sending]**&#x200B;을(를) `Enable`(으)로 설정합니다.
 
-   ![판매 구성 - 이메일 일반 설정](../configuration-reference/sales/assets/sales-emails-general-settings.png){width="600" zoomable="yes"}
+   ![판매 구성 - 전자 메일 일반 설정](../configuration-reference/sales/assets/sales-emails-general-settings.png){width="600" zoomable="yes"}
 
-   구성 설정에 대한 자세한 목록이 필요하면 를 참조하십시오. [_일반 설정_](../configuration-reference/sales/sales-emails.md) 다음에서 _구성 참조_.
+   구성 설정의 자세한 목록을 보려면 _구성 참조_&#x200B;에서 [_일반 설정_](../configuration-reference/sales/sales-emails.md)&#x200B;을 참조하십시오.
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.

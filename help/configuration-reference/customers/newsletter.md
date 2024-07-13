@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
-description: 에서 구성 설정을 검토합니다. [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] 상거래 관리자의 페이지입니다.
+description: Commerce 관리자의 [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] 페이지에서 구성 설정을 검토하십시오.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->뉴스레터는 고객에게 뉴스, 할인 및 기타 마케팅 이메일을 보낼 수 있는 마케팅 수단의 일부입니다. 등록된 고객은 자신의 구독에서 구독을 관리할 수 있습니다. [계정 대시보드](../../customers/account-dashboard-my-account.md).
+>뉴스레터는 고객에게 뉴스, 할인 및 기타 마케팅 이메일을 보낼 수 있는 마케팅 수단의 일부입니다. 등록된 고객은 [계정 대시보드](../../customers/account-dashboard-my-account.md)에서 구독을 관리할 수 있습니다.
 
 ## [!UICONTROL General Options]
 

@@ -12,35 +12,35 @@ ht-degree: 0%
 
 # 카탈로그 검색 구성
 
-카탈로그 검색 구성에는 두 가지 변형이 있습니다. 첫 번째 메서드는 다음과 같은 경우에 사용할 수 있는 설정을 설명합니다 [라이브 검색](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) 이(가) 설치되었습니다. 두 번째 방법은 를 사용하는 기본 Adobe Commerce에 대한 구성 설정을 설명합니다. [Elasticsearch][1]{:target=&quot;_blank&quot;}.
+카탈로그 검색 구성에는 두 가지 변형이 있습니다. 첫 번째 메서드는 [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)을(를) 설치할 때 사용할 수 있는 설정을 설명합니다. 두 번째 방법은 [Elasticsearch][1]{:target=&quot;_blank&quot;}을 사용하는 기본 Adobe Commerce에 대한 구성 설정을 설명합니다.
 
-## 방법 1: Adobe Commerce [!DNL Live Search]
+## 방법 1: [!DNL Live Search]이(가) 있는 Adobe Commerce
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널에서 를 확장합니다. **[!UICONTROL Catalog]** 및 선택 **[!UICONTROL Catalog]** 밑에.
+1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Catalog]**&#x200B;을(를) 선택합니다.
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL Catalog Search]** 섹션.
+1. **[!UICONTROL Catalog Search]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
-   ![라이브 검색에 대한 카탈로그 검색](../configuration-reference/catalog/assets/catalog-search-live-search.png){width="600" zoomable="yes"}
+   ![실시간 검색에 대한 카탈로그 검색](../configuration-reference/catalog/assets/catalog-search-live-search.png){width="600" zoomable="yes"}
 
-   이러한 옵션에 대한 자세한 목록은 다음을 참조하십시오. [라이브 검색이 포함된 Adobe Commerce](../configuration-reference/catalog/catalog.md#adobe-commerce-with-live-search) 다음에서 _구성 참조_.
+   이러한 옵션에 대한 자세한 목록이 필요하면 _구성 참조_&#x200B;에서 [Live Search가 있는 Adobe Commerce](../configuration-reference/catalog/catalog.md#adobe-commerce-with-live-search)을(를) 참조하십시오.
 
-1. 검색 쿼리 텍스트의 길이 및 단어 수를 제한하려면 **[!UICONTROL Minimal Query Length]** 및 **[!UICONTROL Maximum Query Length]**.
+1. 검색 쿼리 텍스트의 길이 및 단어 수를 제한하려면 **[!UICONTROL Minimal Query Length]** 및 **[!UICONTROL Maximum Query Length]**&#x200B;에 대한 값을 설정하십시오.
 
-1. 더 빠른 응답을 위해 캐시할 방문 빈도가 높은 검색 결과의 양을 제한하려면 **[!UICONTROL Number of top search results to cache]**.
+1. 더 빠른 응답을 위해 캐시할 인기 검색 결과의 양을 제한하려면 **[!UICONTROL Number of top search results to cache]**&#x200B;의 양을 설정하십시오.
 
-   기본값은 입니다. `100`. 값 입력 `0` 을(를) 두 번째로 입력하면 모든 검색어와 결과를 캐시합니다.
+   기본값은 `100`입니다. `0` 값을 입력하면 두 번째로 입력한 검색어와 결과가 모두 캐시됩니다.
 
-1. 반환된 결과에 사용할 수 있는 최대 라인 수를 변경하려면 [상점 앞의 팝오버](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html), 다른 을(를) 입력합니다 **[!UICONTROL Autocomplete Limit]** 값.
+1. [storefront pop over](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html)에서 반환된 결과를 사용할 수 있는 최대 줄 수를 변경하려면 다른 **[!UICONTROL Autocomplete Limit]** 값을 입력하십시오.
 
-   라인 수를 제한하면 검색 성능이 향상되고 반환된 목록의 크기가 줄어듭니다. 기본값은 입니다. `8` 줄.
+   라인 수를 제한하면 검색 성능이 향상되고 반환된 목록의 크기가 줄어듭니다. 기본값은 `8`줄입니다.
 
-## 방법 2: Elasticsearch과 상거래
+## 방법 2: Elasticsearch이 있는 Commerce
 
 >[!IMPORTANT]
 >
->(으)로 인해 [!DNL Elasticsearch 7] 2023년 8월 지원 종료 발표에서는 모든 Adobe Commerce 고객이 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것이 좋습니다. 제품 업그레이드 중 검색 엔진 마이그레이션에 대한 자세한 내용은 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) 다음에서 _업그레이드 안내서_.
+>2023년 8월의 [!DNL Elasticsearch 7] 지원 종료 발표로 인해 모든 Adobe Commerce 고객은 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것이 좋습니다. 제품을 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)을 참조하십시오.
 
 ### 1단계: 일반 검색 옵션 구성
 
@@ -48,63 +48,63 @@ ht-degree: 0%
 >
 >Elasticsearch을 사용하면 접미사에 의한 검색이 기본적으로 지원되지 않습니다. 예를 들어 키워드에 SKU의 끝 부분만 포함된 경우 SKU로 검색하면 예상 결과가 반환되지 않을 수 있습니다.
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널에서 를 확장합니다. **[!UICONTROL Catalog]** 및 선택 **[!UICONTROL Catalog]** 밑에.
+1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Catalog]**&#x200B;을(를) 선택합니다.
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL Catalog Search]** 섹션.
+1. **[!UICONTROL Catalog Search]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![Elasticsearch 설정](../configuration-reference/catalog/assets/catalog-search-elasticsearch.png){width="600" zoomable="yes"}
 
-   이러한 옵션에 대한 자세한 내용은 [Elasticsearch 포함 Adobe Commerce](../configuration-reference/catalog/catalog.md#adobe-commerce-with-elasticsearch) 다음에서 _구성 참조_.
+   이러한 옵션에 대한 자세한 내용은 _구성 참조_&#x200B;에서 [Elasticsearch이 있는 Adobe Commerce](../configuration-reference/catalog/catalog.md#adobe-commerce-with-elasticsearch)을(를) 참조하십시오.
 
-1. 검색 쿼리 텍스트의 길이 및 단어 수를 제한하려면 **[!UICONTROL Minimal Query Length]** 및 **[!UICONTROL Maximum Query Length]**.
+1. 검색 쿼리 텍스트의 길이 및 단어 수를 제한하려면 **[!UICONTROL Minimal Query Length]** 및 **[!UICONTROL Maximum Query Length]**&#x200B;에 대한 값을 설정하십시오.
 
    >[!IMPORTANT]
    >
-   >이 최소 및 최대 범위에 대해 설정된 값은 Elasticsearch 검색 엔진 구성의 해당 범위 세트와 호환되어야 합니다. 예를 들어 이러한 값을 로 설정하면 `2` 및 `300` Commerce에서 검색 엔진에서 해당 값을 업데이트합니다.
+   >이 최소 및 최대 범위에 대해 설정된 값은 Elasticsearch 검색 엔진 구성의 해당 범위 세트와 호환되어야 합니다. 예를 들어 Commerce에서 이러한 값을 `2` 및 `300`(으)로 설정하는 경우 검색 엔진에서 해당 값을 업데이트합니다.
 
-1. 더 빠른 응답을 위해 캐시할 방문 빈도가 높은 검색 결과의 양을 제한하려면 **[!UICONTROL Number of top search results to cache]**.
+1. 더 빠른 응답을 위해 캐시할 인기 검색 결과의 양을 제한하려면 **[!UICONTROL Number of top search results to cache]**&#x200B;의 양을 설정하십시오.
 
-   기본값은 입니다. `100`. 값 입력 `0` 을(를) 두 번째로 입력하면 모든 검색어와 결과를 캐시합니다.
+   기본값은 `100`입니다. `0` 값을 입력하면 두 번째로 입력한 검색어와 결과가 모두 캐시됩니다.
 
-1. 제품 EAV 인덱서를 활성화하거나 비활성화하려면 **[!UICONTROL Enable EAV Indexer]**.
+1. Product EAV 인덱서를 활성화하거나 비활성화하려면 **[!UICONTROL Enable EAV Indexer]**&#x200B;을(를) 설정합니다.
 
    이 기능은 색인 생성 속도를 향상시키고 타사 확장에서 색인을 사용하지 못하도록 제한합니다.
 
-1. 검색 자동 완성에 대해 표시할 최대 검색 결과 수를 제한하려면 다음에 대한 금액을 설정합니다. **[!UICONTROL Autocomplete Limit]**.
+1. 검색 자동 완성에 대해 표시할 최대 검색 결과 수를 제한하려면 **[!UICONTROL Autocomplete Limit]**&#x200B;의 양을 설정하십시오.
 
-   이 양을 제한하면 검색 성능이 향상되고 표시된 목록 크기가 줄어듭니다. 기본값은 입니다. `8`.
+   이 양을 제한하면 검색 성능이 향상되고 표시된 목록 크기가 줄어듭니다. 기본값은 `8`입니다.
 
 ### 2단계: Elasticsearch 연결 구성
 
 >[!IMPORTANT]
 >
->다음 **[!UICONTROL Search Engine]**, **[!UICONTROL Elasticsearch Server Hostname]**, **[!UICONTROL Elasticsearch Server Port]**, **[!UICONTROL Elasticsearch Index Prefix]**, **[!UICONTROL Enable Elasticsearch HTTP Auth]**, 및 **[!UICONTROL Elasticsearch Server Timeout]** Commerce가 설치되거나 업그레이드될 때 필드가 구성되었습니다. 이러한 값은 Elasticsearch을 업그레이드하거나 수정할 때만 변경해야 합니다.
+>Commerce을 설치하거나 업그레이드할 때 **[!UICONTROL Search Engine]**, **[!UICONTROL Elasticsearch Server Hostname]**, **[!UICONTROL Elasticsearch Server Port]**, **[!UICONTROL Elasticsearch Index Prefix]**, **[!UICONTROL Enable Elasticsearch HTTP Auth]** 및 **[!UICONTROL Elasticsearch Server Timeout]** 필드가 구성되었습니다. 이러한 값은 Elasticsearch을 업그레이드하거나 수정할 때만 변경해야 합니다.
 
-1. 대상 **[!UICONTROL Search Engine]**, 기본값을 사용합니다. `Elasticsearch 7`.
+1. **[!UICONTROL Search Engine]**&#x200B;의 경우 기본값 `Elasticsearch 7`을(를) 사용합니다.
 
    Elasticsearch 7.6.x는 모든 Commerce 설치에 필요합니다.
 
-1. 대상 **[!UICONTROL Elasticsearch Server Hostname]**, Commerce 설치 시 구성된 기본값을 사용합니다.
+1. **[!UICONTROL Elasticsearch Server Hostname]**&#x200B;의 경우 Commerce 설치 시 구성된 기본값을 사용합니다.
 
-   이 예제에서 기본값은 입니다. `elasticsearch.internal`.
+   이 예제에서 기본값은 `elasticsearch.internal`입니다.
 
-1. 대상 **[!UICONTROL Elasticsearch Server Port]**, Commerce 설치 시 구성된 기본값을 사용합니다.
+1. **[!UICONTROL Elasticsearch Server Port]**&#x200B;의 경우 Commerce 설치 시 구성된 기본값을 사용합니다.
 
-   이 예제에서 기본값은 입니다. `9200`.
+   이 예제에서 기본값은 `9200`입니다.
 
-1. 대상 **[!UICONTROL Elasticsearch Index Prefix]**&#x200B;를 클릭하고 접두사를 입력하여 Elasticsearch 색인을 식별합니다.
+1. **[!UICONTROL Elasticsearch Index Prefix]**&#x200B;의 경우 Elasticsearch 인덱스를 식별할 접두사를 입력하십시오.
 
-   기본값은 입니다. `magento2`.
+   기본값은 `magento2`입니다.
 
-1. HTTP 인증을 사용하여 Elasticsearch 서버에 액세스할 사용자 이름과 암호를 묻는 메시지를 표시하려면 다음을 설정합니다. **[!UICONTROL Enable Elasticsearch HTTP Auth]** 끝 `Yes`.
+1. HTTP 인증을 사용하여 Elasticsearch 서버에 액세스할 사용자 이름과 암호를 묻는 메시지를 표시하려면 **[!UICONTROL Enable Elasticsearch HTTP Auth]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
-1. 대상 **[!UICONTROL Elasticsearch Server Timeout]**&#x200B;시스템 시간이 초과되기 전 시간(초)을 입력합니다.
+1. **[!UICONTROL Elasticsearch Server Timeout]**&#x200B;에 대해 시스템 시간이 초과되기 전 시간(초)을 입력합니다.
 
-   기본값은 입니다. `15`.
+   기본값은 `15`입니다.
 
-1. 구성을 확인하려면 다음을 클릭하십시오. **[!UICONTROL Test Connection]**.
+1. 구성을 확인하려면 **[!UICONTROL Test Connection]**&#x200B;을(를) 클릭합니다.
 
 ### 3단계: 제안 및 권장 사항 구성
 
@@ -112,23 +112,23 @@ ht-degree: 0%
 >
 >검색 제안 및 권장 사항은 서버 성능에 영향을 줄 수 있습니다.
 
-1. 권장 사항을 제공하려면 다음을 설정하십시오. **[!UICONTROL Enable Search Recommendations]** 끝 `Yes` 다음을 수행합니다.
+1. 권장 사항을 제공하려면 **[!UICONTROL Enable Search Recommendations]**&#x200B;을(를) `Yes`(으)로 설정하고 다음을 수행하십시오.
 
-   - 대상 **[!UICONTROL Search Recommendation Count]**, 오퍼할 권장 사항 수를 입력합니다.
+   - **[!UICONTROL Search Recommendation Count]**&#x200B;에 대해 제공할 권장 사항 수를 입력하십시오.
 
-   - 각 권장 사항에 대해 발견된 결과 수를 표시하려면 다음을 설정합니다. **[!UICONTROL Show Results Count for Each Recommendation]** 끝 `Yes`.
+   - 각 권장 사항에 대해 검색된 결과 수를 표시하려면 **[!UICONTROL Show Results Count for Each Recommendation]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
-1. 설정 **[!UICONTROL Enable Search Suggestions]** 끝 `Yes` 다음을 수행합니다.
+1. **[!UICONTROL Enable Search Suggestions]**&#x200B;을(를) `Yes`(으)로 설정하고 다음을 수행합니다.
 
-   - 대상 **[!UICONTROL Search Suggestions Count]**&#x200B;을(를) 제안할 검색 제안 수를 입력합니다.
+   - **[!UICONTROL Search Suggestions Count]**&#x200B;에 제공할 검색 제안 횟수를 입력하십시오.
 
-   - 각 제안에 대해 발견된 결과 수를 표시하려면 다음을 설정합니다. **[!UICONTROL Show Results for Each Suggestion]** 끝 `Yes`.
+   - 각 제안에 대해 검색된 결과 수를 표시하려면 **[!UICONTROL Show Results for Each Suggestion]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
 ### 4단계: 일치시킬 최소 용어 구성
 
-검색어 반환을 위해 검색 결과가 일치해야 하는 쿼리의 최소 용어 수를 제어하려면 다음 값을 지정합니다 **[!UICONTROL Minimum Terms to Match]**. 이 값을 지정하면 쇼핑객의 최적의 결과 관련성을 확보할 수 있습니다. 허용되는 값 목록은 다음을 참조하십시오 [minimum_should_match 매개 변수](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html) Elasticsearch 설명서에서 확인할 수 있습니다.
+검색어 반환을 위해 검색 결과가 일치해야 하는 쿼리의 최소 용어 수를 제어하려면 **[!UICONTROL Minimum Terms to Match]**&#x200B;에 대한 값을 지정하십시오. 이 값을 지정하면 쇼핑객의 최적의 결과 관련성을 확보할 수 있습니다. 허용되는 값 목록은 Elasticsearch 설명서에서 [minimum_should_match 매개 변수](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html)을(를) 참조하십시오.
 
-완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 [1]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html
 [2]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/search/overview-search.html

@@ -37,4 +37,4 @@ ht-degree: 0%
 
 3열 레이아웃에는 2개의 측면 열이 있는 기본 컨텐츠 영역이 있습니다. 왼쪽 사이드바와 기본 콘텐츠 열은 함께 감싸지고 왼쪽으로 단위로서 이동합니다. 다른 쪽 사이드바는 오른쪽으로 떠있다.
 
-![3개 열의 예](./assets/page-layout-3-col.png){width="700" zoomable="yes"}
+![세 열의 예](./assets/page-layout-3-col.png){width="700" zoomable="yes"}

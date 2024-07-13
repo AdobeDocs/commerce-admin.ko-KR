@@ -5,14 +5,14 @@ exl-id: 28949cfc-2c96-4d0a-a35b-b37b3aa2d1e9
 feature: Customers, Configuration
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
 
 # 고객 이름 및 주소 옵션
 
-다음 _이름 및 주소 옵션_ 고객이 다음을 만들 때 이름 및 주소 양식에 포함할 필드 확인 [account](../customers/account-create.md) 스토어와 함께.
+_이름 및 주소 옵션_&#x200B;은(는) 고객이 스토어로 [계정](../customers/account-create.md)을(를) 만들 때 이름 및 주소 양식에 포함할 필드를 결정합니다.
 
 ![고객 계정 등록 양식](assets/storefront-customer-account-address-book.png){width="500" zoomable="yes"}
 
@@ -24,46 +24,46 @@ ht-degree: 0%
 
 ### 1단계: 구성 범위 설정
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널에서 를 확장합니다. **[!UICONTROL Customers]** 및 선택 **[!UICONTROL Customer Configuration]**.
+1. 왼쪽 패널에서 **[!UICONTROL Customers]**&#x200B;을(를) 확장하고 **[!UICONTROL Customer Configuration]**&#x200B;을(를) 선택합니다.
 
-1. 확장 **[!UICONTROL Name and Address Options]** 섹션.
+1. **[!UICONTROL Name and Address Options]** 섹션을 확장합니다.
 
    >[!INFO]
    >
-   >이름 및 주소 옵션의 범위는 `website` 레벨.
+   >이름 및 주소 옵션의 범위는 `website` 수준에서 적용됩니다.
 
 1. 페이지 맨 위로 스크롤하고 구성 범위를 다음 중 하나로 설정합니다.
 
    - `Default Config`
-   - `Main Website` (또는 다중 사이트 설치를 위한 특정 사이트)
+   - `Main Website`(또는 다중 사이트 설치용 특정 사이트)
 
    >[!INFO]
    >
-   >다음 _[!UICONTROL Name and Address Options]_범위를 로 설정하면 섹션이 표시되지 않습니다. `Default Store View`.
+   >범위가 `Default Store View`(으)로 설정되어 있으면 _[!UICONTROL Name and Address Options]_섹션이 표시되지 않습니다.
 
    ![구성 범위](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 
 ### 2단계: 이름 및 주소 옵션 구성
 
-1. (으)로 돌아가기 [!UICONTROL _이름 및 주소 옵션_] 고객 구성 페이지의 섹션에 자세히 설명되어 있습니다.
+1. 고객 구성 페이지의 [!UICONTROL _이름 및 주소 옵션_] 섹션으로 돌아갑니다.
 
    >[!INFO]
    >
-   > 를 사용하지 않는 경우 `Default config` 범위 설정이므로 `Use Default` 값을 변경하기 전에 각 필드에 대한 확인란입니다.
+   > `Default config` 범위 설정을 사용하지 않는 경우 값을 변경하기 전에 각 필드에 대한 `Use Default` 확인란의 선택을 취소해야 합니다.
 
    ![이름 및 주소 옵션](../configuration-reference/customers/assets/customer-configuration-name-address-options-ee.png){width="600" zoomable="yes"}
 
-1. 대상 **[!UICONTROL Prefix Dropdown Options]**&#x200B;목록에 표시할 각 접두사를 세미콜론으로 구분하여 입력합니다.
+1. **[!UICONTROL Prefix Dropdown Options]**&#x200B;의 경우 목록에 표시할 각 접두사를 세미콜론으로 구분하여 입력하십시오.
 
    >[!IMPORTANT]
    >
    >목록의 맨 위에 빈 값을 표시하려면 첫 번째 값 앞에 세미콜론을 넣습니다.
 
-1. 대상 **[!UICONTROL Suffix Dropdown Options]**&#x200B;목록에 표시할 각 접미사를 세미콜론으로 구분하여 입력합니다.
+1. **[!UICONTROL Suffix Dropdown Options]**&#x200B;의 경우 목록에 표시할 각 접미사를 세미콜론으로 구분하여 입력합니다.
 
-1. 고객 양식에 다음 필드를 포함하려면 각각의 값을 로 설정합니다. `Optional` 또는 `Required`, 필요한 경우.
+1. 고객 양식에 다음 필드를 포함하려면 필요에 따라 각 값을 `Optional` 또는 `Required`(으)로 설정하십시오.
 
    - **[!UICONTROL Show Telephone]**
    - **[!UICONTROL Show Company]**
@@ -71,9 +71,9 @@ ht-degree: 0%
 
 ### 3단계: 저장 및 새로 고침
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
-1. 페이지 맨 위에 있는 메시지에서 **[!UICONTROL Cache Management]** 및 [새로 고침](../systems/cache-management.md) 각 잘못된 캐시.
+1. 페이지 맨 위에 있는 메시지에서 **[!UICONTROL Cache Management]** 및 [새로 고침](../systems/cache-management.md)을 클릭합니다.
 
 ## Magento Open Source에 대한 이름 및 주소 옵션 구성
 
@@ -83,63 +83,63 @@ ht-degree: 0%
 
 ### 1단계: 구성 범위 설정
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널에서 를 확장합니다. **[!UICONTROL Customers]** 및 선택 **[!UICONTROL Customer Configuration]**.
+1. 왼쪽 패널에서 **[!UICONTROL Customers]**&#x200B;을(를) 확장하고 **[!UICONTROL Customer Configuration]**&#x200B;을(를) 선택합니다.
 
-1. 확장 **[!UICONTROL Name and Address Options]** 섹션.
+1. **[!UICONTROL Name and Address Options]** 섹션을 확장합니다.
 
    >[!IMPORTANT]
    >
-   > 이름 및 주소 옵션의 범위는 `website` 레벨.
+   > 이름 및 주소 옵션의 범위는 `website` 수준에서 적용됩니다.
 
    ![이름 및 주소 옵션](../configuration-reference/customers/assets/customer-configuration-name-address-options-ce.png){width="600" zoomable="yes"}
 
 1. 페이지 맨 위로 스크롤하여 구성 범위를 다음 중 하나로 설정합니다.
 
    - `Default Config`
-   - `Main Website` (또는 다중 사이트 설치를 위한 특정 사이트)
+   - `Main Website`(또는 다중 사이트 설치용 특정 사이트)
 
    >[!NOTE]
    >
-   >다음 _이름 및 주소 옵션_ 범위를 로 설정하면 섹션이 표시되지 않습니다. `Default Store View`.
+   >범위가 `Default Store View`(으)로 설정되어 있으면 _이름 및 주소 옵션_ 섹션이 표시되지 않습니다.
 
    ![구성 범위](assets/configuration-scope.png){width="600" zoomable="yes"}
 
 ### 2단계: 이름 및 주소 옵션 구성
 
-1. (으)로 돌아가기 [!UICONTROL _이름 및 주소 옵션_] 고객 구성 페이지의 섹션에 자세히 설명되어 있습니다.
+1. 고객 구성 페이지의 [!UICONTROL _이름 및 주소 옵션_] 섹션으로 돌아갑니다.
 
    >[!INFO]
    >
-   >를 사용하지 않는 경우 `Default config` 범위 설정이므로 `Use Default` 값을 변경하기 전에 각 필드에 대한 확인란입니다.
+   >`Default config` 범위 설정을 사용하지 않는 경우 값을 변경하기 전에 각 필드에 대한 `Use Default` 확인란의 선택을 취소해야 합니다.
 
-1. 대상 **상세 주소의 줄 수**, 1에서 4 사이의 숫자를 입력합니다.
+1. **일반 주소의 줄 수**&#x200B;에 대해 1에서 4까지의 숫자를 입력하세요.
 
    >[!WARNING]
    >
    >기본적으로 상세 주소는 세 줄입니다.
 
-1. 접두사(예: Mr 또는 Ms)를 이름의 일부로 포함하려면 다음을 설정합니다 **접두사 표시** 끝 `Yes`.
+1. Mr 또는 Ms와 같은 접두사를 이름의 일부로 포함하려면 **접두사 표시**&#x200B;를 `Yes`(으)로 설정하십시오.
 
-   ![고객 등록 양식 접두사](assets/storefront-customer-account-prefix.png){width="600" zoomable="yes"}
+   ![고객 등록 양식에 접두사](assets/storefront-customer-account-prefix.png){width="600" zoomable="yes"}
 
    >[!INFO]
    >
-   >대상 **접두사 드롭다운 옵션**&#x200B;목록에 표시할 각 접두사를 세미콜론으로 구분하여 입력합니다. 첫 번째 값 앞에 세미콜론을 배치하여 목록의 맨 위에 빈 값을 표시할 수 있습니다.
+   >**접두사 드롭다운 옵션**&#x200B;의 경우 목록에 표시할 각 접두사를 세미콜론으로 구분하여 입력하십시오. 첫 번째 값 앞에 세미콜론을 배치하여 목록의 맨 위에 빈 값을 표시할 수 있습니다.
 
-1. 고객의 중간 이름 또는 이니셜에 대한 선택적 필드를 포함하려면 다음을 설정하십시오. **[!UICONTROL Show Middle Name (initial)]** 끝 `Yes`.
+1. 고객의 중간 이름 또는 이니셜에 대한 선택적 필드를 포함하려면 **[!UICONTROL Show Middle Name (initial)]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
-1. 접미사(예: Jr.) 포함 또는 Sr.) 고객 이름 뒤에 를 설정합니다. **[!UICONTROL Show Suffix]** 다음 중 하나를 수행합니다.
+1. 접미사(예: Jr.) 포함 또는 Sr.) 고객 이름 뒤에 **[!UICONTROL Show Suffix]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `Optional`
    - `Required`
 
    >[!INFO]
    >
-   >대상 **접미사 드롭다운 옵션**&#x200B;목록에 표시할 각 접미사를 세미콜론으로 구분하여 입력합니다. 첫 번째 값 앞에 세미콜론을 배치하여 목록의 맨 위에 빈 값을 표시할 수 있습니다.
+   >**접미사 드롭다운 옵션**&#x200B;의 경우 목록에 표시할 각 접미사를 세미콜론으로 구분하여 입력하십시오. 첫 번째 값 앞에 세미콜론을 배치하여 목록의 맨 위에 빈 값을 표시할 수 있습니다.
 
-1. 생년월일을 포함하려면 다음을 설정하십시오. **[!UICONTROL Show Date of Birth]** 다음 중 하나를 수행합니다.
+1. 생년월일을 포함하려면 **[!UICONTROL Show Date of Birth]**&#x200B;을(를) 다음 중 하나로 설정하십시오.
 
    - `Optional`
    - `Required`
@@ -152,19 +152,19 @@ ht-degree: 0%
 
    ![고객 등록 양식의 생년월일](assets/storefront-customer-account-date-of-birth.png){width="600" zoomable="yes"}
 
-1. 고객이 세금을 입력할 수 있도록 허용 [VAT](../stores-purchase/vat.md) 숫자, 설정 **[!UICONTROL Show Tax/VAT Number]** 다음 중 하나를 수행합니다.
+1. 고객이 세금 또는 [VAT](../stores-purchase/vat.md) 번호를 입력할 수 있도록 하려면 **[!UICONTROL Show Tax/VAT Number]**&#x200B;을(를) 다음 중 하나로 설정하십시오.
 
    - `Optional`
    - `Required`
 
-1. 고객 양식에 성별 필드를 포함하려면 다음을 설정하십시오. **[!UICONTROL Show Gender]** 다음 중 하나를 수행합니다.
+1. 고객 양식에 성별 필드를 포함하려면 **[!UICONTROL Show Gender]**&#x200B;을(를) 다음 중 하나로 설정하십시오.
 
    - `Optional`
    - `Required`
 
    ![고객 등록 양식의 성별 옵션](assets/storefront-customer-account-gender.png){width="600" zoomable="yes"}
 
-1. 고객 양식에 다음 필드를 포함하려면 각각의 값을 로 설정합니다. `Optional` 또는 `Required`, 필요한 경우.
+1. 고객 양식에 다음 필드를 포함하려면 필요에 따라 각 값을 `Optional` 또는 `Required`(으)로 설정하십시오.
 
    - **[!UICONTROL Show Telephone]**
    - **[!UICONTROL Show Company]**
@@ -172,6 +172,6 @@ ht-degree: 0%
 
 ### 3단계: 저장 및 새로 고침
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
-1. 페이지 맨 위에 있는 메시지에서 **[!UICONTROL Cache Management]** 및 [새로 고침](../systems/cache-management.md) 각 잘못된 캐시.
+1. 페이지 맨 위에 있는 메시지에서 **[!UICONTROL Cache Management]** 및 [새로 고침](../systems/cache-management.md)을 클릭합니다.

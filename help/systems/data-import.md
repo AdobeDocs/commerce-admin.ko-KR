@@ -44,7 +44,7 @@ ht-degree: 0%
 ### 잘못된 파일
 
 - 모든 행이 잘못된 경우 파일을 가져올 수 없습니다.
-- 존재하지 않는 서비스 데이터나 복잡한 데이터 이름은 가져오기 파일에 지정됩니다(예: `_<non-existing name>` 제목.
+- 존재하지 않는 서비스 데이터나 복잡한 데이터 이름이 가져오기 파일에 지정됩니다(예: `_<non-existing name>` 머리글이 있는 열).
 
 Adobe Commerce의 가져오기 프로세스는 BOM(바이트 순서 표시)을 사용하는 UTF-8로 인코딩된 파일을 제대로 인식하지 못할 수 있습니다. BOM이 포함된 파일은 가져오기 프로세스 중에 문제나 실패를 초래할 수 있습니다.
 
@@ -52,17 +52,17 @@ Adobe Commerce의 가져오기 프로세스는 BOM(바이트 순서 표시)을 �
 
 | 작업 | 설명 |
 | --------- | ----------- |
-| 추가/업데이트 | 새 제품 데이터가 데이터베이스의 기존 항목에 대한 기존 제품 데이터에 추가됩니다. 을 제외한 모든 필드 `sku` 를 업데이트할 수 있습니다.<br><br>임포트 데이터에 지정된 신규 세금 분류는 자동으로 생성됩니다.<br><br>가져오기 파일에 지정된 새 제품 범주가 자동으로 만들어집니다.<br><br>가져오기 파일에 지정된 새 SKU는 자동으로 만들어집니다&#x200B;<br><br>**_참고:_**제품의 경우 가져오기를 통해 SKU를 제외한 모든 필드를 업데이트할 수 있습니다.<br><br>**_중요 사항:_** 웹 사이트 또는 범주와 같은 여러 필드 값은 _추가/업데이트_ 가져오기 동작. 이러한 필드는 CSV 파일에 나열되지 않으면 가져오기 후 데이터베이스에 유지됩니다. |
-| 바꾸기 | 기존 제품 데이터가 새 데이터로 교체됩니다.<br><br>**_중요 사항:_**기존 제품 데이터가 지워지고 시스템의 모든 참조가 손실되므로 데이터를 바꿀 때 주의하십시오.<br><br>가져오기 데이터의 SKU가 기존 엔티티의 SKU와 일치하는 경우 SKU를 포함한 모든 필드가 삭제되고 CSV 데이터를 사용하여 새 레코드가 만들어집니다. CSV 파일이 데이터베이스에 없는 SKU를 참조하는 경우 오류가 발생합니다. 데이터를 확인하여 오류를 표시할 수 있습니다. |
-| 삭제 | 데이터베이스에 있는 가져오기 데이터의 모든 엔티티는 데이터베이스에서 삭제됩니다.<br><br>삭제는 SKU를 제외하고 가져오기 데이터의 모든 열을 무시합니다. 데이터의 다른 모든 속성을 무시할 수 있습니다.<br><br>CSV 파일이 데이터베이스에 없는 SKU를 참조하는 경우 오류가 발생합니다. 데이터를 확인하여 오류를 표시할 수 있습니다. |
+| 추가/업데이트 | 새 제품 데이터가 데이터베이스의 기존 항목에 대한 기존 제품 데이터에 추가됩니다. `sku`을(를) 제외한 모든 필드를 업데이트할 수 있습니다.<br><br>가져오기 데이터에 지정된 새 세금 클래스가 자동으로 만들어집니다.<br><br>가져오기 파일에 지정된 새 제품 범주가 자동으로 만들어집니다.<br><br>가져오기 파일에 지정된 새 SKU가 자동으로 만들어집니다&#x200B;<br><br>**_참고:_**제품의 경우 가져오기를 통해 SKU를 제외한 모든 필드를 업데이트할 수 있습니다.<br><br>**_중요:_** 웹 사이트 또는 범주와 같은 여러 필드 값은 _추가/업데이트_ 가져오기 동작을 사용하여 제거할 수 없습니다. 이러한 필드는 CSV 파일에 나열되지 않으면 가져오기 후 데이터베이스에 유지됩니다. |
+| 바꾸기 | 기존 제품 데이터가 새 데이터로 교체됩니다.<br><br>**_중요:_**기존 제품 데이터가 지워지고 시스템의 모든 참조가 손실되므로 데이터를 바꿀 때 주의하십시오.<br><br>가져오기 데이터의 SKU가 기존 엔터티의 SKU와 일치하는 경우 SKU를 포함한 모든 필드가 삭제되고 CSV 데이터를 사용하여 새 레코드가 만들어집니다. CSV 파일이 데이터베이스에 없는 SKU를 참조하는 경우 오류가 발생합니다. 데이터를 확인하여 오류를 표시할 수 있습니다. |
+| 삭제 | 데이터베이스에 있는 가져오기 데이터의 모든 엔티티는 데이터베이스에서 삭제됩니다.<br><br>삭제 작업은 SKU를 제외하고 가져오기 데이터의 모든 열을 무시합니다. 데이터의 다른 모든 속성을 무시할 수 있습니다.<br><br>CSV 파일이 데이터베이스에 없는 SKU를 참조하는 경우 오류가 발생합니다. 데이터를 확인하여 오류를 표시할 수 있습니다. |
 
 {style="table-layout:auto"}
 
 ## 가져오기 프로세스
 
-가져오기 파일의 크기는 의 설정에 따라 결정됩니다. `php.ini` 서버에 있는 파일입니다. 에 대한 시스템 메시지 _가져오기_ 페이지는 현재 크기 제한을 나타냅니다. 기본 크기는 2MB입니다.
+가져오기 파일의 크기는 서버의 `php.ini` 파일에 있는 설정에 따라 결정됩니다. _가져오기_ 페이지의 시스템 메시지는 현재 크기 제한을 나타냅니다. 기본 크기는 2MB입니다.
 
-등호, 보다 큼 및 보다 작음 기호, 작은따옴표와 큰따옴표, 백슬래시, 파이프 및 앰퍼샌드 기호와 같은 특수 문자는 데이터 전송 중에 문제를 일으킬 수 있습니다. 이러한 특수 문자가 올바르게 해석되도록 다음과 같이 표시할 수 있습니다. _이스케이프 시퀀스_. 예를 들어 데이터에 와 같은 텍스트 문자열이 포함된 경우 `code="str"`, `code="str2"`를 사용하여 텍스트를 큰따옴표로 묶도록 선택하면 원래 큰따옴표가 데이터의 일부로 인식됩니다. 시스템에 큰따옴표 집합이 나타나면 큰따옴표 바깥쪽 집합이 실제 데이터를 둘러싸고 있음을 인식합니다.
+등호, 보다 큼 및 보다 작음 기호, 작은따옴표와 큰따옴표, 백슬래시, 파이프 및 앰퍼샌드 기호와 같은 특수 문자는 데이터 전송 중에 문제를 일으킬 수 있습니다. 이러한 특수 문자가 올바르게 해석되도록 하려면 _이스케이프 시퀀스_(으)로 표시할 수 있습니다. 예를 들어 데이터에 `code="str"`, `code="str2"`과(와) 같은 텍스트 문자열이 포함된 경우 텍스트를 큰따옴표로 묶도록 선택하면 원래 큰따옴표가 데이터의 일부로 인식됩니다. 시스템에 큰따옴표 집합이 나타나면 큰따옴표 바깥쪽 집합이 실제 데이터를 둘러싸고 있음을 인식합니다.
 
 제품 데이터를 가져올 때 새 제품 데이터가 데이터베이스의 기존 제품 데이터 항목에 추가됩니다. 가져오기를 통해 SKU를 제외한 모든 필드를 업데이트할 수 있습니다. 기존의 모든 제품 데이터가 가져온 새 데이터로 대체됩니다. 데이터를 바꿀 때 주의하십시오. 기존의 모든 제품 데이터가 지워지고 시스템의 모든 참조가 손실됩니다.
 
@@ -70,9 +70,9 @@ Adobe Commerce의 가져오기 프로세스는 BOM(바이트 순서 표시)을 �
 
 ### 1단계: 데이터 준비
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**(으)로 이동합니다.
 
-1. 아래 _가져오기 설정_, 설정됨 **[!UICONTROL Entity Type]** 다음 중 하나를 수행합니다.
+1. _설정 가져오기_&#x200B;에서 **[!UICONTROL Entity Type]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `Advanced Pricing`
    - `Products`
@@ -82,7 +82,7 @@ Adobe Commerce의 가져오기 프로세스는 BOM(바이트 순서 표시)을 �
    - `Customer Addresses`
    - `Stock Sources`
 
-1. 클릭 **[!UICONTROL Download Sample File]**.
+1. **[!UICONTROL Download Sample File]**&#x200B;을(를) 클릭합니다.
 
 1. 웹 브라우저의 다운로드 위치에서 내보내기 파일을 찾아 파일을 엽니다.
 
@@ -98,7 +98,7 @@ Adobe Commerce의 가져오기 프로세스는 BOM(바이트 순서 표시)을 �
 
 1. 가져오기 데이터에 제품 이미지에 대한 경로가 포함된 경우 이미지 파일이 적절한 위치에 업로드되었는지 확인하십시오.
 
-   상거래 서버의 기본 위치는 다음과 같습니다. `pub/media/import`.
+   Commerce 서버의 기본 위치는 `pub/media/import`입니다.
 
    이미지가 외부 서버에 있는 경우 이미지가 포함된 디렉토리에 대한 전체 URL이 있는지 확인합니다.
 
@@ -106,9 +106,9 @@ Adobe Commerce의 가져오기 프로세스는 BOM(바이트 순서 표시)을 �
 
 ![데이터 가져오기 동작](./assets/data-import-import-behavior.png){width="600" zoomable="yes"}
 
-1. 설정 **[!UICONTROL Import Behavior]** 다음 중 하나를 수행합니다.
+1. **[!UICONTROL Import Behavior]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-   - `Add/Update` (제품의 경우 가져오기를 통해 SKU를 제외한 모든 필드를 업데이트할 수 있습니다.)
+   - `Add/Update`(제품의 경우 가져오기를 통해 SKU를 제외한 모든 필드를 업데이트할 수 있습니다.)
    - `Replace`
    - `Delete`
 
@@ -117,49 +117,49 @@ Adobe Commerce의 가져오기 프로세스는 BOM(바이트 순서 표시)을 �
    - `Stop on Error`
    - `Skip error entries`
 
-1. 대상 **[!UICONTROL Allowed Errors Count]**&#x200B;가져오기를 취소하기 전에 발생할 수 있는 오류 수를 입력합니다.
+1. **[!UICONTROL Allowed Errors Count]**&#x200B;에 가져오기를 취소하기 전에 발생할 수 있는 오류 수를 입력하십시오.
 
    기본값은 10입니다.
 
-1. 쉼표()의 기본값을 사용합니다.`,`에 대한 ) **[!UICONTROL Field separator]**.
+1. **[!UICONTROL Field separator]**&#x200B;에 대해 쉼표(`,`)의 기본값을 사용합니다.
 
-1. 쉼표()의 기본값을 사용합니다.`,`에 대한 ) **[!UICONTROL Multiple value separator]**.
+1. **[!UICONTROL Multiple value separator]**&#x200B;에 대해 쉼표(`,`)의 기본값을 사용합니다.
 
    CSV 파일에서 쉼표가 기본 구분 기호입니다. 다른 문자를 사용하려면 CSV 파일의 데이터가 지정한 문자와 일치하는지 확인하십시오.
 
-1. 기본값 수락 `_EMPTY_VALUE_` 대상 **[!UICONTROL Empty attribute value constant]**.
+1. **[!UICONTROL Empty attribute value constant]**&#x200B;의 기본값 `_EMPTY_VALUE_`을(를) 수락합니다.
 
-1. 데이터에서 로 찾을 수 있는 특수 문자를 묶으려면 _이스케이프 시퀀스_&#x200B;를 선택하고 **[!UICONTROL Fields Enclosure]** 확인란.
+1. 데이터에서 _이스케이프 시퀀스_(으)로 찾을 수 있는 특수 문자를 묶으려면 **[!UICONTROL Fields Enclosure]** 확인란을 선택하십시오.
 
 ### 3단계: 가져오기 파일 식별
 
 ![데이터 가져오기 파일](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 
-1. 클릭 **[!UICONTROL Choose File]** 가져올 파일을 선택합니다.
+1. 가져올 파일을 선택하려면 **[!UICONTROL Choose File]**&#x200B;을(를) 클릭하십시오.
 
-1. 가져오려고 준비한 CSV 파일을 찾아 클릭합니다. **[!UICONTROL Open]**.
+1. 가져오려고 준비한 CSV 파일을 찾아 **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
 
-1. 대상 **[!UICONTROL Images File Directory]**&#x200B;에 업로드된 이미지가 저장되는 Commerce 서버의 위치에 대한 상대 경로를 입력합니다.
+1. **[!UICONTROL Images File Directory]**&#x200B;의 경우 업로드된 이미지가 저장된 Commerce 서버의 위치에 대한 상대 경로를 입력하십시오.
 
    예: `product_images`.
 
    >[!NOTE]
    >
-   >Adobe Commerce 및 Magento Open Source 시작 `2.3.2` 릴리스,에 지정된 경로 _[!UICONTROL Images File Directory]_이미지 기본 디렉토리로 가져오기 위해 를 연결합니다. `<Magento-root-folder>/var/import/images`. 예를 들어 `product_images` 의 파일 `<Magento-root-directory>/var/import/images/product_images` 폴더를 삭제합니다. 이미지 가져오기 기본 디렉토리는 `\Magento\ImportExport\etc\config.xml` 파일. 원격 스토리지 모듈이 활성화된 경우 파일을 `<remote-storage-root-directory>/var/import/images/product_images` 폴더를 삭제합니다.
+   >Adobe Commerce 및 Magento Open Source `2.3.2` 릴리스부터 _[!UICONTROL Images File Directory]_에 지정된 경로가 이미지 기본 디렉터리로 가져오기 위해 연결됩니다. `<Magento-root-folder>/var/import/images`. 예를 들어 `product_images` 파일을 `<Magento-root-directory>/var/import/images/product_images` 폴더에 배치합니다. `\Magento\ImportExport\etc\config.xml` 파일에서 이미지 가져오기 기본 디렉터리를 구성할 수 있습니다. 원격 저장소 모듈을 사용하도록 설정한 경우 `<remote-storage-root-directory>/var/import/images/product_images` 폴더로 파일을 가져옵니다.
 
-   제품 이미지 가져오기에 대한 자세한 내용은 [제품 이미지 가져오기](data-import-product-images.md).
+   제품 이미지 가져오기에 대한 자세한 내용은 [제품 이미지 가져오기](data-import-product-images.md)를 참조하세요.
 
 ### 4단계: 가져오기 데이터 확인
 
-1. 오른쪽 위 모서리에서 을(를) 클릭합니다. **[!UICONTROL Check Data]**.
+1. 오른쪽 상단에서 **[!UICONTROL Check Data]**&#x200B;을(를) 클릭합니다.
 
 1. 유효성 검사 프로세스가 완료될 때까지 잠시 기다립니다.
 
    가져오기 데이터가 유효한 경우 다음과 같은 메시지가 나타납니다.
 
-   ![성공 메시지 - 파일이 유효합니다.](./assets/data-import-validation-message.png){width="600"}
+   ![성공 메시지 - 파일이 유효합니다](./assets/data-import-validation-message.png){width="600"}
 
-1. 파일이 유효하면 **[!UICONTROL Import]**.
+1. 파일이 올바른 경우 **[!UICONTROL Import]**&#x200B;을(를) 클릭합니다.
 
    그렇지 않으면 메시지에 나열된 데이터의 각 문제를 수정한 다음 파일을 다시 가져오십시오.
 
@@ -173,17 +173,17 @@ Adobe Commerce의 가져오기 프로세스는 BOM(바이트 순서 표시)을 �
 
 ## 가져오기 기록
 
-Commerce는 시작 날짜 및 시간, 사용자, 실행 시간 및 가져온 파일에 대한 링크를 포함하여 스토어로 가져온 데이터의 레코드를 유지 관리합니다. 다음 _실행 시간_ 는 가져오기 프로세스의 기간입니다.
+Commerce은 시작 날짜 및 시간, 사용자, 실행 시간 및 가져온 파일에 대한 링크를 포함하여 스토어로 가져온 데이터의 레코드를 유지 관리합니다. _실행 시간_&#x200B;은(는) 가져오기 프로세스의 기간입니다.
 
-**_가져오기 기록을 보려면 다음과 같이 하십시오._**
+**_가져오기 기록을 보려면:_**
 
-다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**.
+_관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**(으)로 이동합니다.
 
 ![데이터 가져오기 기록](./assets/data-import-history.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->기본적으로 가져오기 기록 파일은 `<Magento-root-directory>/var/import_history` 폴더를 삭제합니다. 원격 스토리지 모듈이 활성화된 경우 가져오기 기록 파일은 `<remote-storage-root-directory>/import_export/import_history` 폴더를 삭제합니다.
+>기본적으로 가져오기 기록 파일은 `<Magento-root-directory>/var/import_history` 폴더에 있습니다. 원격 저장소 모듈을 사용하도록 설정한 경우 가져오기 기록 파일이 `<remote-storage-root-directory>/import_export/import_history` 폴더에 있습니다.
 
 | 필드 | 설명 |
 |--- |--- |
@@ -197,4 +197,4 @@ Commerce는 시작 날짜 및 시간, 사용자, 실행 시간 및 가져온 파
 
 {style="table-layout:auto"}
 
-다운로드하려면 _가져옴/오류_ 파일, 클릭 **[!UICONTROL Download]**.
+_가져온/오류_ 파일을 다운로드하려면 **[!UICONTROL Download]**&#x200B;을(를) 클릭하십시오.

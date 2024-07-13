@@ -5,7 +5,7 @@ exl-id: a767ee80-7b6e-4acd-9772-2f8adcf3233e
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -32,14 +32,14 @@ ht-degree: 1%
 
 ![고객 데이터로 드릴다운](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
 
-최신 데이터를 확보하려면 세그먼트 데이터를 새로 고쳐야 합니다. 세그먼트 데이터를 사용할 수 없거나 오래된 경우 **[!UICONTROL Refresh Segment Data]** 을 클릭합니다.
+최신 데이터를 확보하려면 세그먼트 데이터를 새로 고쳐야 합니다. 세그먼트 데이터를 사용할 수 없거나 오래된 경우 단추 모음에서 **[!UICONTROL Refresh Segment Data]**&#x200B;을(를) 클릭하여 업데이트합니다.
 
-1. 대상 **[!UICONTROL Export to]**&#x200B;내보내기 형식을 선택합니다.
+1. **[!UICONTROL Export to]**&#x200B;의 경우 내보내기 형식을 선택하십시오.
 
    * CSV - 일반 텍스트 데이터를 포함하는 쉼표로 구분된 값 파일입니다.
    * Excel XML - XML 기반의 스프레드시트 데이터 형식입니다.
 
-1. 클릭 **[!UICONTROL Export]**.
+1. **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
 
    | 열 | 설명 |
    |--- |--- |

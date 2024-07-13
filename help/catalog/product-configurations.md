@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 제품 설정 - [!UICONTROL Configurations]
 
-다음 _[!UICONTROL Configurations]_섹션에는 제품의 기존 변형이 나열되어 있으며 구성 가능한 제품 유형과 함께 사용할 변형을 생성하는 데 사용할 수 있습니다. 자세한 내용은 [구성 가능한 제품](product-create-configurable.md).
+_[!UICONTROL Configurations]_섹션은 제품의 기존 변형을 나열하며 구성 가능한 제품 형식과 함께 사용할 변형을 생성하는 데 사용할 수 있습니다. 자세한 내용은 [구성 가능한 제품](product-create-configurable.md)을 참조하세요.
 
 ![구성 섹션](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -30,6 +30,6 @@ ht-degree: 0%
 | [!UICONTROL Weight] | 제품 무게 |
 | [!UICONTROL Status] | 제품 상태 **[!UICONTROL Enabled]** / **[!UICONTROL Disabled]** |
 | [!UICONTROL Attributes] | 제품을 설명하는 데 사용되는 속성 세트입니다 |
-| [!UICONTROL Actions] | 선택한 제품에 적용할 수 있는 모든 작업을 나열합니다. 작업:<br /> **[!UICONTROL Choose a different Product]** - 현재 제품을 제거하고 새 선택 항목으로 바꿉니다.<br /> **[!UICONTROL Disable Product]** / **[!UICONTROL Enable Product]** - 선택한 제품을 비활성화하거나 활성화합니다.<br /> **[!UICONTROL Remove Product]** - 현재 구성에서 선택한 제품을 제거합니다. |
+| [!UICONTROL Actions] | 선택한 제품에 적용할 수 있는 모든 작업을 나열합니다. 작업:<br /> **[!UICONTROL Choose a different Product]** - 현재 제품을 제거하고 새 선택 항목으로 바꿉니다.<br /> **[!UICONTROL Disable Product]** / **[!UICONTROL Enable Product]** - 선택한 제품을 사용하지 않거나 사용하도록 설정합니다.<br /> **[!UICONTROL Remove Product]** - 현재 구성에서 선택한 제품을 제거합니다. |
 
 {style="table-layout:auto"}

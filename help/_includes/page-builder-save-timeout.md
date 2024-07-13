@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->에 중요한 변경 작업을 수행하는 경우 [!DNL Page Builder] 콘텐츠, 다음을 늘리는 것이 좋습니다. [관리 세션 수명](../systems/security-admin.md) 작업하는 동안 세션 시간이 초과되는 것을 방지하기 위해
+>[!DNL Page Builder] 콘텐츠를 크게 변경하는 경우 작업하는 동안 세션이 시간 초과되지 않도록 [관리 세션 수명](../systems/security-admin.md)을(를) 늘리는 것이 좋습니다.

@@ -27,15 +27,15 @@ ht-degree: 0%
 
 ![관리자 및 사용자 계정이 있는 회사 구조](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
 
-상인의 경우 전체 회사 구조가 다음에 반영됩니다. _회사_ 및 _고객_ 관리자 내의 그리드. 회사 그리드는 상태에 관계없이 모든 회사를 나열합니다. 다음 예제는 두 회사에 대한 계정을 보여 줍니다. _ACME_ 회사 및 _Vendelay_ 회사.
+판매자의 경우 전체 회사 구조가 관리자 내의 _회사_ 및 _고객_ 그리드에 반영됩니다. 회사 그리드는 상태에 관계없이 모든 회사를 나열합니다. 다음 예제에서는 _ACME_ 회사와 _Vendelay_ 회사 두 회사의 계정을 보여 줍니다.
 
-![회사 그리드](./assets/companies-grid.png){width="700" zoomable="yes"}
+![회사 표](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-다음 예제는 [!UICONTROL Customers] 이러한 회사의 초기 회사 관리자 계정이 있는 그리드.
+다음 예제에서는 이러한 회사의 초기 회사 관리자 계정이 있는 [!UICONTROL Customers] 표를 보여 줍니다.
 
-![회사 관리자 계정으로 고객 그리드](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+회사 관리자 계정이 있는 ![고객 그리드](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-계정을 만든 후 회사 관리자는 의 회사 구조를 정의해야 합니다. [팀](account-company-structure.md), 다음을 설정합니다. [회사 사용자](account-company-users.md), 및 설정 [역할 및 권한](account-company-roles-permissions.md) 각.
+계정을 만든 후 회사 관리자는 [팀](account-company-structure.md)의 회사 구조를 정의하고 [회사 사용자](account-company-users.md)를 설정하고 각각에 대해 [역할 및 권한](account-company-roles-permissions.md)을 설정해야 합니다.
 
 ## 회사 구조 아이콘
 
@@ -54,23 +54,23 @@ ht-degree: 0%
 
 기업 계좌의 구조는 단순하고 평평하거나 기업의 하부 분할, 사업부별로 팀이 다른 복잡한 조직 등 구매 조직을 반영해야 한다.
 
-저장소가 다음과 같은 경우 [구성됨](enable-basic-features.md) 회사가 자체 계정을 관리할 수 있도록 하려면 계정 승인 후 회사 관리자가 완료해야 하는 첫 번째 작업 중 하나가 회사 구조 설정입니다. 회사 계정에서 회사 구조는 회사 관리자가 맨 위에 있는 트리로 표현된다.
+회사가 자신의 계정을 관리할 수 있도록 스토어가 [configured](enable-basic-features.md)인 경우, 회사 구조 설정은 계정이 승인된 후 회사 관리자가 완료해야 하는 첫 번째 작업 중 하나입니다. 회사 계정에서 회사 구조는 회사 관리자가 맨 위에 있는 트리로 표현된다.
 
 ![팀이 있는 회사 구조](./assets/company-structure-teams-diagram.svg){width="450"}
 
 1. 회사 관리자가 계정에 로그인합니다.
 
-1. 왼쪽 패널에서 을 선택합니다 **[!UICONTROL Company Structure]**.
+1. 왼쪽 패널에서 **[!UICONTROL Company Structure]**&#x200B;을(를) 선택합니다.
 
-1. 아래 **[!UICONTROL Business Structure]**, 클릭 수 **[!UICONTROL Add Team]** 및 은 다음을 수행합니다.
+1. **[!UICONTROL Business Structure]**&#x200B;에서 **[!UICONTROL Add Team]**&#x200B;을(를) 클릭하고 다음을 수행합니다.
 
-   - 다음을 입력합니다. **[!UICONTROL Team Title]** 및 **[!UICONTROL Description]**.
+   - **[!UICONTROL Team Title]** 및 **[!UICONTROL Description]**&#x200B;을(를) 입력합니다.
 
      팀 제목 은 회사 내의 팀, 사무실 또는 사업부와 같이 회사의 구조를 나타내는 모든 것일 수 있습니다
 
      ![팀 추가](./assets/company-structure-add-team.png){width="700" zoomable="yes"}
 
-   - 완료되면 클릭 수 **[!UICONTROL Save]**.
+   - 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    - 필요한 만큼 팀을 만듭니다.
 
@@ -78,17 +78,17 @@ ht-degree: 0%
 
 1. 팀 계층을 만들려면 다음을 수행합니다.
 
-   - 상위 팀을 선택하고 **[!UICONTROL Add Team]**.
+   - 상위 팀을 선택하고 **[!UICONTROL Add Team]**&#x200B;을(를) 클릭합니다.
 
      ![사업부가 있는 회사 구조](./assets/company-structure-northwest-division.png){width="600" zoomable="yes"}
 
-   - 다음을 입력합니다. **[!UICONTROL Team Title]** 및 **[!UICONTROL Description]**.
+   - **[!UICONTROL Team Title]** 및 **[!UICONTROL Description]**&#x200B;을(를) 입력합니다.
 
-   - 클릭수 **[!UICONTROL Save]**.
+   - **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 1. 이러한 단계를 반복하여 팀이나 사업부 및 하위 사업부를 필요한 수만큼 만듭니다.
 
-   ![사업부 및 사업부가 있는 회사 구조](./assets/company-structure-divisions.png){width="600" zoomable="yes"}
+   ![사업부 및 하위 사업부가 있는 회사 구조](./assets/company-structure-divisions.png){width="600" zoomable="yes"}
 
 ## 팀 이동
 
@@ -106,21 +106,21 @@ ht-degree: 0%
 
 1. 회사 관리자가 삭제할 팀을 선택합니다.
 
-1. 클릭수 **[!UICONTROL Delete Selected]**.
+1. **[!UICONTROL Delete Selected]**&#x200B;을(를) 클릭합니다.
 
-1. 확인 메시지가 표시되면 **[!UICONTROL Delete]**.
+1. 확인 메시지가 표시되면 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
 ## 팀 구조 확장 또는 축소
 
 회사 관리자가 회사 구조를 사용하여 작업할 때 트리를 축소하거나 확장할 수 있습니다.
 
-- 클릭수 **[!UICONTROL Collapse All]** 또는 **[!UICONTROL Expand All]**.
+- **[!UICONTROL Collapse All]** 또는 **[!UICONTROL Expand All]**&#x200B;을(를) 클릭합니다.
 
-- 클릭수 ![확장된 아이콘](../assets/icon-display-collapse.png) 팀을 축소하거나 ![축소된 아이콘](../assets/icon-display-expand.png) 팀을 확장합니다.
+- 팀을 축소하려면 ![확장 아이콘](../assets/icon-display-collapse.png)을 클릭하고 팀을 확장하려면 ![축소된 아이콘](../assets/icon-display-expand.png)을 클릭합니다.
 
 ## 팀에 사용자 할당
 
-팀 및 사용자를 다음에 처음 추가할 때 [회사 구조](account-company-structure.md), 회사 관리자 아래에 동일한 수준에 배치됩니다.
+팀과 사용자가 [회사 구조](account-company-structure.md)에 처음 추가되면 회사 관리자 아래에 동일한 수준으로 배치됩니다.
 
 ![사용자 및 팀이 있는 회사 구조](./assets/company-users-added.png){width="700" zoomable="yes"}
 
@@ -133,8 +133,8 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-1. 왼쪽 패널에서 회사 관리자는 **[!UICONTROL Company Structure]**.
+1. 왼쪽 패널에서 회사 관리자가 **[!UICONTROL Company Structure]**&#x200B;을(를) 선택합니다.
 
-1. 기존 팀에 사용자를 할당하려면 을(를) 드래그합니다.![이동 아이콘](../assets/icon-move.png)) 적절한 팀 아래의 사용자입니다.
+1. 기존 팀에 사용자를 할당하려면 해당 팀 아래로 사용자를 드래그(![이동 아이콘](../assets/icon-move.png))합니다.
 
    ![팀 할당](./assets/company-structure-teams-users-assigned.png){width="700" zoomable="yes"}

@@ -16,40 +16,40 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Views Report]
 
-다음 [!UICONTROL Product Views Report] 시간 간격 또는 날짜 범위 동안 본 제품을 표시합니다. 이 보고서에는 제품 이름, 가격 및 보기 수가 포함됩니다.
+[!UICONTROL Product Views Report]은(는) 시간 간격 또는 날짜 범위 동안 본 제품을 표시합니다. 이 보고서에는 제품 이름, 가격 및 보기 수가 포함됩니다.
 
-다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Views]**.
+_관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Views]**(으)로 이동합니다.
 
 ![제품 보기 보고서](./assets/product-views.png){width="600"}
 
 ## [!UICONTROL Bestsellers Report]
 
-다음 [!UICONTROL Bestsellers Report] 시간 또는 날짜 범위 동안 5개의 최상위 판매 5개를 표시합니다. 이 보고서에는 제품명, 가격 및 주문 수량이 포함됩니다.
+[!UICONTROL Bestsellers Report]은(는) 시간 또는 날짜 범위 동안 가장 많이 판매되는 5개를 표시합니다. 이 보고서에는 제품명, 가격 및 주문 수량이 포함됩니다.
 
-다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Bestsellers]**.
+_관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Bestsellers]**(으)로 이동합니다.
 
 ![베스트셀러 보고서](./assets/bestsellers.png){width="600"}
 
 ## [!UICONTROL Low Stock Report]
 
-다음 [!UICONTROL Low Stock Report] 재고 수준이 지정된 범위 내에 있는 모든 제품을 나열합니다. 포함 [[!DNL Inventory Management]](../inventory-management/introduction.md) 사용가능으로 설정하면, 보고서는 나열된 출처 코드와 함께 출처당 낮은 재고 금액을 포함합니다.
+[!UICONTROL Low Stock Report]은(는) 재고 수준이 지정된 범위 내에 있는 모든 제품을 나열합니다. [[!DNL Inventory Management]](../inventory-management/introduction.md)을(를) 사용하도록 설정한 경우 보고서에 나열된 원본 코드와 함께 소스당 낮은 재고 재고량이 포함됩니다.
 
-다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Low Stock]**.
+_관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Low Stock]**(으)로 이동합니다.
 
 ![낮은 재고 보고서](./assets/low-stock.png){width="600"}
 
 ## [!UICONTROL Ordered Products Report]
 
-다음 [!UICONTROL Ordered Products Report] 지정된 시간 간격 또는 날짜 범위 동안 주문된 모든 제품을 나열합니다. 이 보고서에는 주문된 제품명과 수량이 포함되어 있습니다.
+[!UICONTROL Ordered Products Report]은(는) 지정된 시간 간격 또는 날짜 범위 동안 주문된 모든 제품을 나열합니다. 이 보고서에는 주문된 제품명과 수량이 포함되어 있습니다.
 
-다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Ordered]**.
+_관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Ordered]**(으)로 이동합니다.
 
 ![주문 제품 보고서](./assets/products-ordered.png){width="600"}
 
 ## [!UICONTROL Downloads Report]
 
-다음 [!UICONTROL Downloads Report] 지정된 시간 간격 또는 날짜 범위 동안의 모든 다운로드를 나열합니다. 이 보고서에는 제품 이름, 다운로드 링크 및 SKU와 구매 및 다운로드 수가 포함됩니다.
+[!UICONTROL Downloads Report]은(는) 지정된 시간 간격 또는 날짜 범위 동안의 모든 다운로드를 나열합니다. 이 보고서에는 제품 이름, 다운로드 링크 및 SKU와 구매 및 다운로드 수가 포함됩니다.
 
-다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Downloaded]**.
+_관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Products]_>**[!UICONTROL Downloaded]**(으)로 이동합니다.
 
-![다운로드 보고서](./assets/downloads.png){width="600"}
+![보고서 다운로드](./assets/downloads.png){width="600"}

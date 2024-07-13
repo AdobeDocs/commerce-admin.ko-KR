@@ -14,37 +14,37 @@ ht-degree: 0%
 
 기본 고객 계정 정보에는 사용자 이름, 이메일 주소 및 암호가 포함되며 상점 전면의 고객 계정 대시보드에서 유지 관리할 수 있습니다.
 
-![상점 첫 화면의 계정 정보](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
+![상점 정보](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
 
-계정의 사이드바에서 고객이 선택할 수 있습니다. **[!UICONTROL Account Information]** 계정 정보를 업데이트하려면 다음 중 하나를 수행하십시오.
+계정의 사이드바에서 고객은 **[!UICONTROL Account Information]**&#x200B;을(를) 선택하고 다음 중 하나를 수행하여 계정 정보를 업데이트할 수 있습니다.
 
 ## 계정 이름의 이름 업데이트
 
-계정 이름을 업데이트하기 위해 고객은 **[!UICONTROL First Name]** 및 **[!UICONTROL Last Name]** 필요에 따라 필드를 선택합니다.
+계정 이름을 업데이트하기 위해 고객은 필요에 따라 **[!UICONTROL First Name]** 및 **[!UICONTROL Last Name]** 필드의 값을 변경합니다.
 
 >[!INFO]
 >
->다음과 같은 경우 추가 필드가 이름의 일부로 나타납니다. [고객 구성](../configuration-reference/customers/customer-configuration.md) 접두사, 중간 이니셜 및 접미사를 포함합니다.
+>[고객 구성](../configuration-reference/customers/customer-configuration.md)에 접두사, 중간 이니셜 및 접미사가 포함된 경우 추가 필드가 이름의 일부로 나타납니다.
 
 ## 이메일 주소 변경
 
-1. 고객이 다음을 선택합니다 **[!UICONTROL Change Email]** 확인란.
+1. 고객이 **[!UICONTROL Change Email]** 확인란을 선택합니다.
 
-1. 새 항목 입력 **[!UICONTROL Email]** 주소.
+1. 새 **[!UICONTROL Email]** 주소를 입력합니다.
 
-1. 입력 **[!UICONTROL Current Password]**.
+1. **[!UICONTROL Current Password]**&#x200B;을(를) 입력합니다.
 
-   ![이메일 주소 변경](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
+   ![전자 메일 주소 변경](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
 
-1. 클릭수 **[!UICONTROL Save]**.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 암호 변경
 
-1. 고객이 다음을 선택합니다 **[!UICONTROL Change Password]** 확인란.
+1. 고객이 **[!UICONTROL Change Password]** 확인란을 선택합니다.
 
-1. 입력 **[!UICONTROL Current Password]**.
+1. **[!UICONTROL Current Password]**&#x200B;을(를) 입력합니다.
 
-1. 입력 **[!UICONTROL New Password]**.
+1. **[!UICONTROL New Password]**&#x200B;을(를) 입력합니다.
 
    >[!INFO]
    >

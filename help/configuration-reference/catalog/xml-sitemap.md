@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
-description: 에서 구성 설정을 검토합니다. [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] 상거래 관리자의 페이지입니다.
+description: Commerce 관리자의 [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -23,7 +23,7 @@ ht-degree: 2%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | 스토어 뷰 | 사이트 맵 범주를 업데이트하는 빈도를 결정합니다. 옵션: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | 스토어 뷰 | 다음 사이의 값 `0.0` 및 `1.0` 다른 콘텐츠와 관련하여 카테고리 사이트맵 업데이트의 우선 순위를 결정합니다. 0(`0.0`)의 우선 순위가 가장 낮습니다. |
+| [!UICONTROL Priority] | 스토어 뷰 | `0.0`에서 `1.0` 사이의 값으로, 다른 콘텐츠와 관련하여 범주 사이트 맵 업데이트의 우선 순위를 결정합니다. 0(`0.0`)의 우선 순위가 가장 낮습니다. |
 
 {style="table-layout:auto"}
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | 스토어 뷰 | 사이트 맵 제품을 업데이트하는 빈도를 결정합니다. 옵션: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | 스토어 뷰 | 다음 사이의 값 `0.0` 및 `1.0` 다른 콘텐츠와 관련하여 제품 사이트 맵 업데이트의 우선 순위를 결정합니다. 0(`0.0`)의 우선 순위가 가장 낮습니다. |
+| [!UICONTROL Priority] | 스토어 뷰 | 다른 콘텐츠와 관련하여 제품 사이트 맵 업데이트의 우선 순위를 결정하는 `0.0`에서 `1.0` 사이의 값입니다. 0(`0.0`)의 우선 순위가 가장 낮습니다. |
 | [!UICONTROL Add Images into Sitemap] | 스토어 뷰 | 사이트 맵에 이미지가 포함되는 범위를 결정합니다. 옵션: `None` / `Base Only` / `All` |
 
 {style="table-layout:auto"}
@@ -50,7 +50,7 @@ ht-degree: 2%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | 스토어 뷰 | 사이트 맵 CMS 페이지의 업데이트 빈도를 결정합니다. 옵션: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | 스토어 뷰 | 다음 사이의 값 `0.0` 및 `1.0` 다른 콘텐츠와 관련된 CMS 페이지 사이트맵 업데이트의 우선 순위를 결정합니다. 0(`0.0`)의 우선 순위가 가장 낮습니다. |
+| [!UICONTROL Priority] | 스토어 뷰 | 다른 콘텐츠와 관련하여 CMS 페이지 사이트 맵 업데이트의 우선 순위를 결정하는 값은 `0.0`에서 `1.0` 사이입니다. 0(`0.0`)의 우선 순위가 가장 낮습니다. |
 
 {style="table-layout:auto"}
 
@@ -59,7 +59,7 @@ ht-degree: 2%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | 스토어 뷰 | 저장소 URL의 업데이트 빈도를 결정합니다. 옵션: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | 스토어 뷰 | 다음 사이의 값 `0.0` 및 `1.0` 다른 콘텐츠와 관련된 스토어 URL 업데이트의 우선 순위를 결정합니다. 0(`0.0`)의 우선 순위가 가장 낮습니다. |
+| [!UICONTROL Priority] | 스토어 뷰 | 다른 콘텐츠와 관련하여 스토어 URL 업데이트의 우선 순위를 결정하는 `0.0`에서 `1.0` 사이의 값입니다. 0(`0.0`)의 우선 순위가 가장 낮습니다. |
 
 {style="table-layout:auto"}
 

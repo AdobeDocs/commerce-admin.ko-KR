@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 시스템 백업
 
-Adobe Commerce 및 Magento Open Source을 사용하면 파일 시스템, 데이터베이스 및 미디어 파일과 같은 시스템의 여러 부분을 백업하고 자동으로 롤백할 수 있습니다. 각 백업에 대한 레코드가 _백업_ 페이지를 가리키도록 업데이트하는 중입니다. 목록에서 레코드를 삭제하면 보관된 파일도 삭제됩니다. 데이터베이스 백업 파일은 GZ 형식을 사용하여 압축됩니다. 시스템 백업과 데이터베이스 및 미디어 백업의 경우 TGZ 형식이 사용됩니다. 확장 및 업데이트를 설치하기 전에 백업 도구에 대한 액세스를 제한하고 백업하는 것이 좋습니다.
+Adobe Commerce 및 Magento Open Source을 사용하면 파일 시스템, 데이터베이스 및 미디어 파일과 같은 시스템의 여러 부분을 백업하고 자동으로 롤백할 수 있습니다. 각 백업에 대한 레코드가 _백업_ 페이지의 그리드에 나타납니다. 목록에서 레코드를 삭제하면 보관된 파일도 삭제됩니다. 데이터베이스 백업 파일은 GZ 형식을 사용하여 압축됩니다. 시스템 백업과 데이터베이스 및 미디어 백업의 경우 TGZ 형식이 사용됩니다. 확장 및 업데이트를 설치하기 전에 백업 도구에 대한 액세스를 제한하고 백업하는 것이 좋습니다.
 
-- **백업 도구에 대한 액세스를 제한합니다.** 구성을 통해 백업 및 롤백 관리 도구에 대한 액세스를 제한할 수 있습니다. [사용자 역할](permissions-user-roles.md) 백업 및 롤백 리소스. 액세스를 제한하려면 해당 확인란을 선택하지 않은 상태로 둡니다. 리소스를 롤백하기 위한 액세스 권한을 부여하려면 백업 리소스에도 액세스 권한을 부여해야 합니다.
+- **백업 도구에 대한 액세스를 제한합니다.** 백업 및 롤백 리소스에 대해 [사용자 역할](permissions-user-roles.md)을(를) 구성하여 백업 및 롤백 관리 도구에 대한 액세스를 제한할 수 있습니다. 액세스를 제한하려면 해당 확인란을 선택하지 않은 상태로 둡니다. 리소스를 롤백하기 위한 액세스 권한을 부여하려면 백업 리소스에도 액세스 권한을 부여해야 합니다.
 
 - **확장 및 업데이트를 설치하기 전에 백업하십시오.** 확장을 설치하거나 업데이트하기 전에 항상 백업을 수행하십시오.
 
@@ -22,29 +22,29 @@ Adobe Commerce 및 Magento Open Source을 사용하면 파일 시스템, 데이�
 
 ## 백업 활성화 및 예약
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널에서 를 확장합니다. **[!UICONTROL Advanced]** 및 선택 **[!UICONTROL System]**.
+1. 왼쪽 패널에서 **[!UICONTROL Advanced]**&#x200B;을(를) 확장하고 **[!UICONTROL System]**&#x200B;을(를) 선택합니다.
 
-1. 확장 ![확장 선택기](../assets/icon-display-expand.png) 다음 **[!UICONTROL Backup Settings]**.
+1. **[!UICONTROL Backup Settings]**&#x200B;에서 ![확장 선택기](../assets/icon-display-expand.png)을 확장합니다.
 
-1. 설정 **[!UICONTROL Enabled Schedule Backup]** 끝 `Yes`.
+1. **[!UICONTROL Enabled Schedule Backup]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
 1. 자동 손짓을 예약하려면 예약 옵션을 설정합니다.
 
-   - 설정 **[!UICONTROL Enabled Schedule Backup]** 끝 `Yes`.
-   - 설정 **[!UICONTROL Scheduled Backup Type]** 예약된 간격으로 실행할 백업 유형에 대해 설명합니다.
-   - 설정 **[!UICONTROL Start Time]** 백업 작업을 실행할 시간으로 설정합니다.
-   - 설정 **[!UICONTROL Frequency]** 끝 `Daily`, `Weekly`, 또는 `Monthly`.
-   - 설정 **[!UICONTROL Maintenance Mode]** 끝 `Yes`.
+   - **[!UICONTROL Enabled Schedule Backup]**&#x200B;을(를) `Yes`(으)로 설정합니다.
+   - 예약된 간격으로 실행할 백업 유형으로 **[!UICONTROL Scheduled Backup Type]**&#x200B;을(를) 설정하십시오.
+   - 백업 작업을 실행하려면 **[!UICONTROL Start Time]**&#x200B;을(를) 시간으로 설정하십시오.
+   - **[!UICONTROL Frequency]**&#x200B;을(를) `Daily`, `Weekly` 또는 `Monthly`(으)로 설정합니다.
+   - **[!UICONTROL Maintenance Mode]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
    ![고급 구성 - 백업](../configuration-reference/advanced/assets/system-scheduled-backup-settings.png){width="600" zoomable="yes"}
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 ## 백업 만들기
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Backups]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Backups]**(으)로 이동합니다.
 
 1. 오른쪽 상단 모서리에서 작성할 백업 유형을 클릭합니다.
 
@@ -54,13 +54,13 @@ Adobe Commerce 및 Magento Open Source을 사용하면 파일 시스템, 데이�
 
    - **[!UICONTROL Database Backup]** - 데이터베이스의 백업을 만듭니다.
 
-   ![시스템 툴 - 백업](./assets/tools-backups.png){width="600" zoomable="yes"}
+   ![시스템 도구 - 백업](./assets/tools-backups.png){width="600" zoomable="yes"}
 
 1. 백업 중에 저장소를 유지 관리 모드로 전환하려면 확인란을 선택합니다.
 
    백업이 완료되면 유지 관리 모드가 자동으로 꺼집니다.
 
-1. 시스템 백업의 경우 **[!UICONTROL Include Media folder to System Backup]** 미디어 폴더를 포함하는 확인란입니다.
+1. 시스템 백업의 경우 미디어 폴더를 포함하려면 **[!UICONTROL Include Media folder to System Backup]** 확인란을 선택하십시오.
 
 1. 메시지가 표시되면 작업을 확인합니다.
 

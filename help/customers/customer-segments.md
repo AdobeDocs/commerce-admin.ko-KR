@@ -4,7 +4,7 @@ description: 고객 세그먼트를 사용하면 특정 고객에게 콘텐츠�
 exl-id: b254a6ac-cb0b-46c1-9ef7-ffc97360a98e
 source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 고객 세그먼트를 사용하면 다양한 속성에 따라 특정 고객에게 콘텐츠 및 프로모션을 동적으로 표시할 수 있습니다. 고객 주소, 주문 내역 및 장바구니 콘텐츠 등이 그 예입니다. 장바구니 가격 규칙을 사용하여 타겟팅된 세그먼트를 기반으로 마케팅 이니셔티브를 최적화할 수 있습니다. 보고서를 생성하고 타겟팅된 고객 목록을 내보낼 수도 있습니다. 고객 세그먼트 정보는 지속적으로 새로 고쳐지기 때문에 고객은 스토어에서 쇼핑할 때 세그먼트와 연결 및 연결 해제될 수 있습니다.
 
-의 차이점을 더 잘 이해하려면 [고객 그룹](../customers/customer-groups.md) 및 고객 세그먼트, 사용된 위치:
+[고객 그룹](../customers/customer-groups.md)과(와) 고객 세그먼트의 차이점을 더 잘 이해하려면 사용된 위치를 참고하십시오.
 
 |  | 고객 세그먼트 | 고객 그룹 |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 고객 세그먼트 속성
 
-고객 세그먼트 속성은 장바구니 및 카탈로그 가격 규칙과 유사한 방식으로 정의됩니다. 고객 세그먼트 조건에서 사용할 속성의 경우 _[!UICONTROL Use in Customer Segment]_[속성](attribute-properties.md#) 은(는) 로 설정되어야 합니다. `Yes`. 고객 세그먼트 조건은 다음 유형의 속성을 통합할 수 있습니다.
+고객 세그먼트 속성은 장바구니 및 카탈로그 가격 규칙과 유사한 방식으로 정의됩니다. 특성을 고객 세그먼트 조건에 사용하려면 _[!UICONTROL Use in Customer Segment]_[property](attribute-properties.md#)을(를) `Yes`(으)로 설정해야 합니다. 고객 세그먼트 조건은 다음 유형의 속성을 통합할 수 있습니다.
 
 | 속성 | 설명 |
 |---|---|
@@ -42,9 +42,9 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-다음을 참조하십시오 [고객 세그먼트 만들기 및 삭제](../customers/customer-segment-create.md) 고객 세그먼트 정의에 대한 자세한 내용을 보려면 .
+고객 세그먼트 정의에 대한 자세한 내용은 [고객 세그먼트 만들기 및 삭제](../customers/customer-segment-create.md)를 참조하십시오.
 
 ## eBook
 
-- **고객 세그멘테이션** — 가져오기 [eBook](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) 수익 및 전반적인 고객 만족도를 높이는 방법을 알아봅니다.
-- **세그먼테이션 전술** — 가져오기 [eBook](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) 를 사용하면 메시지 및 프로모션의 타겟팅을 개선하여 고객과 의미 있는 대화를 나눌 수 있습니다.
+- **고객 세분화** — [eBook](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html)을(를) 통해 수익 및 전반적인 고객 만족도를 높이는 방법을 알아보세요.
+- **세그먼테이션 전략** — [eBook](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html)을 통해 메시지 및 프로모션의 타겟팅을 개선하여 고객과 의미 있는 대화를 나눌 수 있습니다.

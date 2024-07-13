@@ -6,49 +6,49 @@ role: Admin
 feature: Configuration, Security
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 1%
+source-wordcount: '269'
+ht-degree: 0%
 
 ---
 
 # 보안 문제 보고
 
-다음 `security.txt` 파일에는 보안 연구자가 사이트에 대한 보안 문제를 보고하는 데 사용할 수 있는 연락처 정보 및 보안 관련 링크가 포함되어 있습니다. 보안 정보가 시간이 지남에 따라 변경되는 경우 `security.txt` 파일이 최신 상태입니다.
+`security.txt` 파일에는 보안 연구자가 사이트에 대한 보안 문제를 보고하는 데 사용할 수 있는 연락처 정보 및 보안 관련 링크가 포함되어 있습니다. 보안 정보가 시간이 지남에 따라 변경되는 경우 `security.txt` 파일의 정보가 최신 상태인지 확인하십시오.
 
 **_security.txt를 구성하려면:_**
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 아래의 왼쪽 패널에서 _[!UICONTROL Security]_, 클릭&#x200B;**[!UICONTROL Security.txt]**.
+1. _[!UICONTROL Security]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Security.txt]**을(를) 클릭합니다.
 
-1. 다음에서 _[!UICONTROL General]_섹션, 설정&#x200B;**[!UICONTROL Enable]**끝 `Yes`.
+1. _[!UICONTROL General]_섹션에서&#x200B;**[!UICONTROL Enable]**을(를) `Yes`(으)로 설정합니다.
 
    ![일반 보안 구성](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
-1. 아래 _[!UICONTROL Contact Information]_를 클릭하고 다음을 입력합니다.
+1. _[!UICONTROL Contact Information]_에서 다음을 입력하십시오.
 
    - 스토어에 대한 보안 문제를 관리하는 사람의 이메일 주소 및 전화번호.
 
-   - 스토어 URL **[!UICONTROL Contact Page]**. 이 페이지는 저장소 보안 연락처 목록이거나 _연락처_ 페이지를 가리키도록 업데이트하는 중입니다.
+   - 저장소 **[!UICONTROL Contact Page]**&#x200B;의 URL입니다. 이 페이지는 저장소 보안 연락처 목록이거나 _연락처_ 페이지일 수 있습니다.
 
    ![연락처 정보 구성](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
-1. 아래 _[!UICONTROL Other Information]_를 클릭하고 다음을 입력합니다.
+1. _[!UICONTROL Other Information]_에서 다음을 입력하십시오.
 
-   - 공개 URL **[!UICONTROL Encryption]** 키. For example: `https://example.com/pgp-key.txt`
+   - 공개 **[!UICONTROL Encryption]** 키의 URL. 예: `https://example.com/pgp-key.txt`
 
-   - 의 URL **[!UICONTROL Acknowledgments]** 보안 연구원이 스토어를 대신하여 노력한 공로를 인정받는 페이지입니다.
+   - 보안 연구원이 스토어를 대신하여 노력한 공로를 인정받는 **[!UICONTROL Acknowledgments]** 페이지의 URL입니다.
 
-   - 사용자 **[!UICONTROL Preferred Languages]** 보안 관련 커뮤니케이션. 표준 2문자 입력 [언어 코드](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) 지원되는 각 언어에 대해 쉼표로 구분합니다. 예를 들어, 영어, 스페인어 및 프랑스어를 지정하려면 `en, es, fr`. 지정한 모든 언어는 표시 순서에 관계없이 우선 순위가 동일합니다.
+   - 보안 관련 통신용 **[!UICONTROL Preferred Languages]**&#x200B;입니다. 지원되는 각 언어에 대한 표준 두 문자 [언어 코드](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)을(를) 쉼표로 구분하여 입력하십시오. 예를들어, 영어, 스페인어, 프랑스어를 지정하려면 `en, es, fr`을(를) 입력합니다. 지정한 모든 언어는 표시 순서에 관계없이 우선 순위가 동일합니다.
 
-   - 의 URL **[!UICONTROL Hiring]** 스토어의 보안 관련 취업 기회를 나열하는 페이지입니다.
+   - 스토어의 보안 관련 취업 기회를 나열하는 **[!UICONTROL Hiring]** 페이지의 URL입니다.
 
-   - 보안 URL **[!UICONTROL Policy]** 페이지를 가리키도록 업데이트하는 중입니다.
+   - 보안 **[!UICONTROL Policy]** 페이지의 URL.
 
-   - 디지털 URL **[!UICONTROL Signature]** 서버에 저장된 파일입니다. For example: `https://mystore.com/.well-known/security.txt.sig`
+   - 서버에 저장된 디지털 **[!UICONTROL Signature]** 파일의 URL. 예: `https://mystore.com/.well-known/security.txt.sig`
 
-   서버의 CLI(명령줄 인터페이스)에서 디지털 서명을 설정해야 합니다. 자세한 내용은 다음을 참조하십시오. [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) GitHub에서.
+   서버의 CLI(명령줄 인터페이스)에서 디지털 서명을 설정해야 합니다. 자세한 내용은 GitHub에서 [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md)를 참조하세요.
 
    ![기타 정보](../configuration-reference/security/assets/txt-other-info.png){width="600" zoomable="yes"}
 
-1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Config]**.
+1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
