@@ -2,9 +2,9 @@
 title: Commerce용 Experience Manager Assets 통합
 description: Experience Manager Assets을  [!DNL Commerce] 인스턴스와 통합하여 스토어에서 사용할 수 있는 수많은 미디어 자산에 액세스하는 방법에 대해 알아봅니다.
 feature: CMS, Media, Configuration, Integration
-source-git-commit: fafe8d46931cc00e58d0888639fd8e739a170f8a
+source-git-commit: 8588973f265c6bd3dfdd41e574f27f653cc9da0e
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,6 @@ Commerce과 Adobe Experience Manager(AEM) Assets 간의 통합은 AEM as a Digit
    - **동적 업데이트**-자산 관리 시스템의 최신 변경 내용으로 제품 이미지를 최신 상태로 유지합니다. 이러한 자동 업데이트를 통해 상거래 상점 전면에는 항상 최신 제품 정보가 있습니다.
    - **효율적인 카탈로그 관리**-자산 정리 및 새로 고침을 자동화하여 제품 카탈로그를 간편하게 유지 관리할 수 있습니다.
 
-## 통합을 활성화할 때 변경되는 사항
-
-제품 목록 - 새 필드 [!UICONTROL Remote Media URL]
-
-제품 세부 사항 페이지 - 변경 사항 없음. 단, 표시된 자산은 AEM DAM에서 가져옵니다.
-
-
 ## Commerce 및 Experience Manager Assets 통합
 
 >[!BEGINSHADEBOX]
@@ -51,12 +44,10 @@ Commerce과 Adobe Experience Manager(AEM) Assets 간의 통합은 AEM as a Digit
 
 >[!ENDSHADEBOX]
 
+다음 작업을 완료하여 Experience Manager Assets과의 Commerce 통합을 활성화합니다.
 
-Experience Manager Assets과 Commerce 통합을 활성화하는 3단계 프로세스입니다.
+1. [Commerce 에셋을 관리하도록 Experience Manager Assets 프로젝트 구성](aem-assets-configure-aem.md)
 
-1. [Commerce 자산을 관리하도록 Experience Manager Assets 프로젝트를 구성](aem-assets-configure-aem.md).
-
-1. [Experience Manager Assets 통합 확장 설치 및 Adobe Commerce 구성](aem-assets-configure-aem.md)
+1. [Experience Manager Assets 통합 확장 설치 및 Adobe Commerce 구성](aem-assets-configure-commerce.md)
 
 1. [동기화 서비스 설정](aem-assets-setup-synchronization.md)
-

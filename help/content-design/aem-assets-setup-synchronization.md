@@ -2,7 +2,7 @@
 title: 동기화 서비스 설정
 description: "Adobe Commerce 및 Experience Manager Assets 프로젝트를 Assets 규칙 엔진 서비스와 연결하여 이 두 시스템 간에 에셋 동기화를 활성화하는 방법에 대해 알아봅니다."
 feature: CMS, Media
-source-git-commit: 9d7b1b58b472a99196213e5ab109142bc57b1692
+source-git-commit: 939fa5caeeb7a8913457c3492484362a1d3471be
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -45,8 +45,8 @@ Commerce 프로젝트 환경 및 AEM Assets 프로젝트 환경을 Commerce SaaS
 | 필수 데이터 | Source | 찾을 수 있는 위치 |
 | ---------- | ------ | ------------- |
 | Magento 계정의 API 키 | Commerce | 스테이징 또는 프로덕션을 사용 중인 Commerce 환경에 대한 공개 API 키를 제공합니다. [관리]의 [Commerce Service Connector 설정](aem-assets-configure-commerce.md#configure-the-commerce-services-connector) 페이지 또는 [!UICONTROL API Portal] 섹션의 [!UICONTROL My Account] 페이지에서 프로덕션 및 스테이징 환경에 대한 API 키를 찾을 수 있습니다. |
-| Commerce SaaS 프로젝트 식별자 <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Commerce 관리자 | 이러한 값은 연결할 Commerce 환경 및 SaaS 데이터 공간과 프로젝트를 식별합니다. 값은 [Commerce 서비스 커넥터 SaaS 식별자 구성]에서 가져옵니다.(aem-assets-configure-commerce.md#configure-the-commerce-services-connector). |
-| AEM `programId`<br>`environmentId` | [AEM Assets 작성 환경](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | AEM Sites 페이지를 열고 **[!UICONTROL Assets]**&#x200B;을(를) 선택합니다.  URL에서 프로젝트 및 환경 ID를 복사합니다. `https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/` |
+| Commerce SaaS 프로젝트 식별자 <ul><li>`magento-environment-Id`</li><li>`Project ID`</li></ul> | Commerce 관리자 | 이러한 값은 연결할 Commerce 환경 및 SaaS 데이터 공간과 프로젝트를 식별합니다. 값은 [Commerce 서비스 커넥터 SaaS 식별자 구성](aem-assets-configure-commerce.md#configure-the-commerce-services-connector)에서 가져옵니다. |
+| AEM `programId` 및<br>`environmentId` | [AEM Assets 작성 환경](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) | AEM Sites 페이지를 열고 **[!UICONTROL Assets]**&#x200B;을(를) 선택합니다.  URL <br>`https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/`에서 프로젝트 및 환경 ID 복사 |
 | baseURL | Commerce 상점 | Commerce 상점 첫 화면의 [기본 URL](../stores-purchase/store-urls.md). |
 | API 액세스에 대한 OAuth 자격 증명 | Commerce 관리자 | 이러한 자격 증명은 Commerce [Assets 통합에 대한 구성 설정](aem-assets-configure-commerce.md#experience-manager-assets-integration-for-adobe-commerce-10-release)에서 찾을 수 있습니다. |
 
