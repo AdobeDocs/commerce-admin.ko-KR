@@ -3,9 +3,9 @@ title: 제품 목록
 description: 제품을 만들고 기존 제품을 편집할 수 있는 관리자의 _[!UICONTROL Products]_ 페이지에 대해 알아봅니다.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
+source-git-commit: 8bb91b80f8ba957676c654e984deb5704b777612
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,6 @@ _[!UICONTROL Products]_목록에는 카탈로그에 있는 모든 제품이 포�
 | [!UICONTROL Visibility] | 카탈로그에서 제품이 표시되는 위치를 나타냅니다. 옵션: `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search` |
 | [!UICONTROL Status] | 제품의 상태를 나타냅니다. 옵션: `Enabled` 및 `Disabled` |
 | [!UICONTROL Websites] | 제품을 사용할 수 있는 웹 사이트를 나타냅니다. |
-| [!UICONTROL Remote Media URL] | 제품 미디어 자산이 [Commerce용 AEM Assets 통합](../content-design/aem-assets.md)을 사용하여 관리되는 경우 이 필드에는 자산이 보관되는 중앙 저장소인 AEM Assets Digital Asset Management Store에서 Commerce 자산을 볼 수 있는 URL이 표시됩니다. 이 필드는 AEM Assets 통합이 활성화된 경우에만 표시됩니다. |
 | [!UICONTROL Action] | 제품을 편집 모드로 엽니다. |
 | [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg)([Adobe Commerce B2B](./b2b/../introduction.md)에서만 사용 가능) 제품에 대한 사용자 지정 가격 책정이 포함된 공유 카탈로그를 나타냅니다. |
 
