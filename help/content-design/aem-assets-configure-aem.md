@@ -2,9 +2,9 @@
 title: Experience Manager Assets 구성
 description: Commerce용 AEM Assets 통합을 사용하여 Adobe Commerce과 Experience Manager Assets 프로젝트 간에 에셋을 동기화하는 데 필요한 에셋 메타데이터를 추가합니다.
 feature: CMS, Media, Integration
-source-git-commit: f04648a41fc16154d5f10278f810114d707b670c
+source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -114,4 +114,4 @@ Commerce 자산이 처음으로 게시되면 메타데이터가 매핑됩니다.
 에셋 매핑을 시작하려면 먼저 다음 작업을 완료하십시오.
 
 - [Commerce용 AEM Assets 통합 설치 및 구성](aem-assets-configure-commerce.md)
-- [동기화 서비스를 설정하여 Adobe Commerce 프로젝트 환경과 AEM Assets 프로젝트 환경 간에 에셋을 전송합니다](aem-assets-setup-synchronization.md)
+- [에셋 동기화를 활성화하여 Adobe Commerce 프로젝트 환경과 AEM Assets 프로젝트 환경 간에 에셋을 전송합니다](aem-assets-setup-synchronization.md)

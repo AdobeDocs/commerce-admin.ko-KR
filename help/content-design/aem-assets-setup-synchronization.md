@@ -1,10 +1,10 @@
 ---
-title: 동기화 서비스 설정
+title: 자산 동기화 활성화
 description: "Adobe Commerce 및 Experience Manager Assets 프로젝트를 Assets 규칙 엔진 서비스와 연결하여 이 두 시스템 간에 에셋 동기화를 활성화하는 방법에 대해 알아봅니다."
 feature: CMS, Media
-source-git-commit: 939fa5caeeb7a8913457c3492484362a1d3471be
+source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---

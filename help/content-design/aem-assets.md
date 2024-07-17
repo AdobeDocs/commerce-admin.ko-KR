@@ -2,9 +2,9 @@
 title: Commerce용 Experience Manager Assets 통합
 description: Experience Manager Assets을  [!DNL Commerce] 인스턴스와 통합하여 스토어에서 사용할 수 있는 수많은 미디어 자산에 액세스하는 방법에 대해 알아봅니다.
 feature: CMS, Media, Configuration, Integration
-source-git-commit: 8588973f265c6bd3dfdd41e574f27f653cc9da0e
+source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -50,4 +50,4 @@ Commerce과 Adobe Experience Manager(AEM) Assets 간의 통합은 AEM as a Digit
 
 1. [Experience Manager Assets 통합 확장 설치 및 Adobe Commerce 구성](aem-assets-configure-commerce.md)
 
-1. [동기화 서비스 설정](aem-assets-setup-synchronization.md)
+1. [자산 동기화 활성화](aem-assets-setup-synchronization.md)
