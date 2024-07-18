@@ -3,9 +3,9 @@ title: 카탈로그 검색 개요
 description: 고객이 상점에서 제품을 찾는 데 사용할 수 있는 빠른 검색 및 고급 검색 도구에 대해 알아봅니다.
 exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 65d295694e13be2e0a0de29b8b396faa9f2c9cd4
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html)이(가) 설치되면 검색 상자가 &quot;입력할 때 검색&quot;을 반환하여 팝업이 나타납니다.
+>[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)이(가) 설치되고 [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover) 위젯이 활성화되면 검색 상자가 &quot;입력한 대로 검색&quot;을 반환하여 팝업이 표시됩니다.
 
 스토어 헤더의 검색 상자는 방문자가 카탈로그에서 제품을 찾을 수 있도록 도와줍니다. 검색 텍스트는 전체 또는 부분 제품 이름 또는 제품을 설명하는 다른 단어 또는 구문일 수 있습니다. 사람들이 제품을 찾는 데 사용하는 검색어는 관리자로부터 관리할 수 있습니다.
 
