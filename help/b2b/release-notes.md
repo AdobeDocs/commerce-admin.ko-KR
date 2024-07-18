@@ -3,7 +3,7 @@ title: '[!DNL Adobe Commerce B2B] 릴리스 노트'
 description: ' [!DNL Adobe Commerce B2B] 릴리스의 변경 내용에 대한 정보는 릴리스 정보를 검토하십시오.'
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 35402eda770e59cc2862b204e6e54b55190ded13
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '6867'
 ht-degree: 0%
@@ -131,7 +131,7 @@ B2B v1.4.1 릴리스에는 품질 개선 사항 및 버그 수정이 포함되�
 
 [Adobe Commerce 버전 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html)에서 B2B 1.4.0을 설치하거나 업그레이드하는 경우 다음 오류가 발생합니다.
 
-```terminal
+```
 Your requirements could not be resolved to an installable set of packages.
 
   Problem 1

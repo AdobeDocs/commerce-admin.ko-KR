@@ -3,7 +3,7 @@ title: 제품 이미지 가져오기
 description: 각 이미지의 경로 및 파일 이름을 사용하여 제품 이미지를 가져오는 방법을 알아봅니다.
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Commerce은 알파벳순으로 구성된 제품 이미지에 대한 고유한 �
 
 1. Commerce 서버에서 `var/import/images` 폴더 또는 하위 폴더(예: `var/import/images/product_images`)에 이미지 파일을 업로드합니다. 제품 이미지를 가져오기 위한 기본 루트 폴더입니다.
 
-   ```terminal
+   ```
    <Magento root folder>/var/import/images
    ```
 
@@ -50,7 +50,7 @@ Commerce은 알파벳순으로 구성된 제품 이미지에 대한 고유한 �
 
 1. 가져올 파일을 선택한 후 **[!UICONTROL Images File Directory]** 다음에 상대 경로를 입력하십시오.
 
-   ```terminal
+   ```
    var/import/images
    ```
 
@@ -68,7 +68,7 @@ Commerce은 알파벳순으로 구성된 제품 이미지에 대한 고유한 �
 
 1. CSV 데이터에서 이미지 유형(`base_image`, `small_image`, `thumbnail_image` 또는 `additional_images`)별로 올바른 열에 각 이미지 파일의 전체 URL을 입력합니다.
 
-   ```terminal
+   ```
    https://example.com/images/image.jpg
    ```
 
@@ -78,7 +78,7 @@ Commerce은 알파벳순으로 구성된 제품 이미지에 대한 고유한 �
 
 1. 원격 저장소 모듈에서 `var/import/images` 폴더 또는 하위 폴더(예: `var/import/images/product_images`)에 이미지 파일을 업로드합니다. 제품 이미지를 가져오기 위한 기본 루트 폴더입니다.
 
-   ```terminal
+   ```bash
    <remote-storage-root-folder>/var/import/images
    ```
 
@@ -100,7 +100,7 @@ Commerce은 알파벳순으로 구성된 제품 이미지에 대한 고유한 �
 
 1. 가져올 파일을 선택한 후 **[!UICONTROL Images File Directory]** 다음에 상대 경로를 입력하십시오.
 
-   ```terminal
+   ```
    var/import/images/product_images
    ```
 

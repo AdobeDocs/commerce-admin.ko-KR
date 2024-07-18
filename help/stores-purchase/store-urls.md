@@ -3,7 +3,7 @@ title: URL 저장
 description: 스토어 URL과 기본 URL 및 스토어 코드를 구성하는 방법에 대해 알아봅니다.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: 555c54e9a980aa181e0b4380412ad027d80ee10f
+source-git-commit: c7839f0a86be4459ba7f555fd2d2e748d81c4ebb
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 0%
@@ -222,7 +222,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
    - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.**[!UICONTROL Flush Magento Cache]**을(를) 클릭합니다.
    - 서버에서 다음을 실행합니다.
 
-     ```terminal
+     ```bash
      php bin/magento cache:flush
      ```
 
@@ -234,7 +234,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 CLI `setup:config:set` 명령을 사용하여 관리 경로를 변경할 수 있습니다. 다음 예제에서는 `--backend-frontname` 옵션을 사용하여 Commerce 루트에서 새 관리 경로로 경로를 변경합니다.
 
-```terminal
+```bash
 bin/magento setup:config:set --backend-frontname="backend_front_name"
 ```
 
@@ -246,13 +246,13 @@ bin/magento setup:config:set --backend-frontname="backend_front_name"
 
 1. 기본 관리자 URL로 되돌리려면 다음 명령을 실행합니다.
 
-   ```terminal
+   ```bash
    php bin/magento config:set admin/url/use_custom 0
    ```
 
 1. 기본 관리 경로(메서드 2에 설명된 대로 `app/etc/env.php`에 설정됨)로 되돌리려면 이 명령을 실행합니다.
 
-   ```terminal
+   ```bash
    php bin/magento config:set admin/url/use_custom_path 0
    ```
 
@@ -261,7 +261,7 @@ bin/magento setup:config:set --backend-frontname="backend_front_name"
    - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.**[!UICONTROL Flush Magento Cache]**을(를) 클릭합니다.
    - 서버에서 다음을 실행합니다.
 
-     ```terminal
+     ```bash
      php bin/magento cache:flush
      ```
 
