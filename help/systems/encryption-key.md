@@ -4,9 +4,9 @@ description: 보안을 개선하기 위해 정기적으로 변경되어야 하�
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 21be3c7a56cb72d685b2b3605bc27266e8e55f37
+source-git-commit: 2469b3853d074f7a7adfe822b645e41d1420259a
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,33 @@ Adobe Commerce과 Magento Open Source은 암호 및 기타 민감한 데이터�
 
 자세한 내용은 _설치 가이드_&#x200B;의 [고급 온-프레미스 설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html)를 참조하십시오.
 
-## 1단계: 파일을 쓰기 가능 상태로 만들기
+>[!IMPORTANT]
+>
+>다음 지침에 따라 암호화 키를 변경하기 전에 다음 파일에 쓸 수 있는지 확인하십시오. `[your store]/app/etc/env.php`
 
-암호화 키를 변경하려면 다음 파일에 쓸 수 있는지 확인하십시오. `[your store]/app/etc/env.php`
+**암호화 키를 변경하려면:**
 
-## 2단계: 암호화 키 변경
+다음 지침은 터미널에 액세스해야 합니다.
+
+1. [유지 관리 모드](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode)를 사용하도록 설정합니다.
+
+   ```bash
+   bin/magento maintenance:enable
+   ```
+
+1. cron 작업을 비활성화합니다.
+
+   _클라우드 인프라 프로젝트:_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:disable
+   ```
+
+   _온-프레미스 프로젝트_
+
+   ```bash
+   crontab -e
+   ```
 
 1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**(으)로 이동합니다.
 
@@ -36,6 +58,40 @@ Adobe Commerce과 Magento Open Source은 암호 및 기타 민감한 데이터�
 
 1. **[!UICONTROL Change Encryption Key]**&#x200B;을(를) 클릭합니다.
 
-1. 새 키를 안전한 위치에 기록하십시오.
+   >[!NOTE]
+   >
+   >새 키를 안전한 위치에 기록하십시오. 파일에 문제가 발생하는 경우 데이터를 해독해야 합니다.
 
-   파일에 문제가 발생하는 경우 데이터를 해독해야 합니다.
+1. 캐시를 플러시합니다.
+
+   _클라우드 인프라 프로젝트:_
+
+   ```bash
+   magento-cloud cc
+   ```
+
+   _온-프레미스 프로젝트:_
+
+   ```bash
+   bin/magento cache:flush
+   ```
+
+1. 크론 작업을 활성화합니다.
+
+   _클라우드 인프라 프로젝트:_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:enable
+   ```
+
+   _온-프레미스 프로젝트:_
+
+   ```bash
+   crontab -e
+   ```
+
+1. 유지 관리 모드를 비활성화합니다.
+
+   ```bash
+   bin/magento maintenance:disable
+   ```
