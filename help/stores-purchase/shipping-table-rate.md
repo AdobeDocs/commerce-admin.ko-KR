@@ -3,9 +3,9 @@ title: 테이블 요금 배송
 description: 스토어에 대한 테이블 레이트 배송 옵션을 설정하는 방법에 대해 알아보십시오.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 0f368e87275a85e3801e6770b8985184e2071384
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -117,6 +117,7 @@ _테이블 속도_ 배달 방법은 다음을 포함한 조건의 조합을 기�
    - 모든 범주에서 가능한 모든 값을 나타내는 와일드카드로 별표(*)를 사용합니다.
    - _[!UICONTROL Country]_열에는 각 행에 대해 [올바른 3자 코드][1]가 있어야 합니다.
    - 특정 위치가 목록의 맨 위에 있고 와일드카드 위치가 맨 아래에 있도록 데이터를 _[!UICONTROL Region/State]_(으)로 정렬합니다. 이 방법을 사용하면 먼저 절대값이 있는 규칙을 처리하고 나중에 와일드카드 값을 처리합니다.
+   - 우편 번호 범위는 지원되지 않습니다. 영역/상태 내의 모든 코드를 허용하려면 별표(*)를 사용하거나 _[!UICONTROL Zip/Postal Code]_열에서 특정 위치에 대한 단일 코드를 지정합니다.
    - _[!UICONTROL Weight (and above)]_열의 값은 최대 소수 네 자리를 가질 수 있습니다(예: `2.5075`). 데이터에서 소수점 이하 자리 수를 더 많이 사용하면 가져오기가 실패합니다.
 
    ![가중치와 대상(오스트레일리아)](./assets/table-rates-weight-destination-csv.png){width="500"}
