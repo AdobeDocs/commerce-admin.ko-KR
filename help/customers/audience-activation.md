@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
+source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -359,10 +359,34 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 
 Real-Time CDP 대상이 Commerce에 표시되지 않는 이유는 다음과 같습니다.
 
+- 잘못된 연결
 - **데이터 연결** 구성 페이지에서 잘못된 인증 유형을 선택했습니다.
 - 생성된 토큰에 대한 권한이 충분하지 않음
 
-다음 두 섹션에서는 두 경우 중 하나의 문제를 해결하는 방법을 설명합니다.
+다음 섹션에서는 이러한 문제를 해결하는 방법을 설명합니다.
+
+### 연결 유효성 검사
+
+자격 증명과 Adobe Experience Platform의 응답을 확인하려면 다음 명령을 실행합니다.
+
+```bash
+bin/magento audiences:config:status
+```
+
+이 명령은 연결 상태를 반환합니다. 자세한 정보를 제공하려면 `-v` 플래그를 추가하십시오.
+
+```
+./bin/magento audiences:config:status -v  
+```
+
+For example:
+
+```
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| Client ID                        | Client secret | Technical account ID                        | Technical account email                                 | Sandbox name |
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| 1234bd57fac8497d8933327c535347d8 | *****         | 12341E116638D6B00A495C80@techacct.adobe.com | 12345-b95b-4894-a41c-a4130d26bd80@techacct.adobe.com | dev          |
+```
 
 ### 구성에서 잘못된 인증 유형 선택됨
 
