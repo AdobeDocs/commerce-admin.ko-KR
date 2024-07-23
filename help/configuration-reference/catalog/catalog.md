@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Commerce 관리자의 [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] 페이지에서 구성 설정을 검토하십시오.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
+source-git-commit: 24dd1850bd14d8a8bba5d5b2adfc69ffce942837
 workflow-type: tm+mt
-source-wordcount: '3146'
+source-wordcount: '3233'
 ht-degree: 0%
 
 ---
@@ -235,7 +235,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-카탈로그 검색 구성에는 [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)을(를) 설치할 때 사용할 수 있는 설정과 기본 Adobe Commerce에서 사용할 수 있는 설정의 두 가지 변형이 있습니다. 설치에 대한 지침을 따르십시오.
+Adobe Commerce에서 지원하는 [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) 또는 타사 검색 엔진 서비스를 사용하여 카탈로그 검색을 구성할 수 있습니다. 설치에 대한 지침을 따르십시오.
 
 ### [!DNL Live Search](으)로 Adobe Commerce
 
@@ -254,43 +254,40 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-### Elasticsearch 포함 Adobe Commerce
+### 타사 검색 엔진
 
-Elasticsearch이 있는 기본 Adobe Commerce에는 다음 구성 설정이 포함되어 있습니다.
-
-![카탈로그 검색 - Elasticsearch](./assets/catalog-search-elasticsearch.png)<!-- zoom -->
-
-<!-- [Catalog Search](https://docs.magento.com/user-guide/catalog/search-configuration.html) -->
+Adobe Commerce은 OpenSearch 및 Elasticsearch을 지원합니다. Adobe Commerce 버전 2.3.7-p3, 2.4.3-p2 및 2.4.4 이상 버전은 OpenSearch 서비스를 지원합니다. Elasticsearch 7.11 이상은 클라우드 인프라 프로젝트의 Adobe Commerce에서 지원되지 않습니다. Elasticsearch은 온-프레미스 설치에서 계속 지원됩니다.
 
 >[!IMPORTANT]
 >
->2023년 8월의 Elasticsearch 7 지원 종료 발표로 인해 모든 Adobe Commerce 고객은 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것이 좋습니다. 제품을 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)을 참조하십시오.
+>- 2023년 8월에 대한 Elasticsearch 7 지원 종료 발표로 인해 Adobe은 모든 Adobe Commerce 고객을 OpenSearch 2.x 검색 엔진으로 마이그레이션할 것을 권장합니다. 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)을 참조하십시오.
+>- 버전 2.4.4 및 2.4.3-p2에서는 Elasticsearch 레이블이 지정된 모든 필드가 OpenSearch에도 적용됩니다. 버전 2.4.6에서 Elasticsearch 8.x에 대한 지원이 도입되었을 때 Elasticsearch 구성과 OpenSearch 구성을 구별하기 위해 새 레이블이 만들어졌습니다. 그러나 두 구성 옵션은 동일합니다.
+
+![카탈로그 검색 구성 옵션](./assets/catalog-search-opensearch.png){zoomable="yes"}
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Minimal Query Length] | 스토어 뷰 | 카탈로그 검색에 허용되는 최소 문자 수입니다. 이 옵션에 대해 설정된 값은 Elasticsearch 검색 엔진 구성에 있는 해당 범위 세트와 호환되어야 합니다. 예를 들어, Adobe Commerce에서 이 값을 `2`(으)로 설정하는 경우 검색 엔진에서 값을 업데이트합니다. |
-| [!UICONTROL Maximum Query Length] | 스토어 뷰 | 카탈로그 검색에 허용되는 최대 문자 수. 이 옵션에 대해 설정된 값은 Elasticsearch 검색 엔진 구성에 있는 해당 범위 세트와 호환되어야 합니다. 예를 들어, Adobe Commerce에서 이 값을 300으로 설정하면 검색 엔진에서 값을 업데이트합니다. |
+| [!UICONTROL Minimal Query Length] | 스토어 뷰 | 카탈로그 검색에 허용되는 최소 문자 수입니다. 이 옵션의 값 집합은 OpenSearch 또는 Elasticsearch 구성에 있는 해당 범위 집합과 호환되어야 합니다. 예를 들어, Adobe Commerce에서 이 값을 `2`(으)로 설정하는 경우 검색 엔진 구성에서도 값을 업데이트해야 합니다. 기본값: `3` |
+| [!UICONTROL Maximum Query Length] | 스토어 뷰 | 카탈로그 검색에 허용되는 최대 문자 수. 이 옵션에 대해 설정된 값은 OpenSearch 또는 Elasticsearch 구성에 있는 해당 범위 세트와 호환되어야 합니다. 예를 들어, Adobe Commerce에서 이 값을 `300`(으)로 설정하는 경우 검색 엔진 구성에서 값을 업데이트해야 합니다. 기본값: `128` |
 | [!UICONTROL Number of top search results to cache] | 스토어 뷰 | 더 빠른 응답을 위해 캐시할 인기 검색어 및 결과 수. `0` 값을 입력하면 두 번째로 입력한 검색어와 결과가 모두 캐시됩니다. 기본값: `100` |
-| [!UICONTROL Enable EAV Indexer] | 글로벌 | 제품 EAV 인덱서를 사용할지 여부를 결정합니다. 이 기능은 색인 생성 속도를 향상시키고 타사 확장에서 색인을 사용하지 못하도록 제한합니다. 이 옵션은 Elasticsearch 또는 Elasticsearch 5.0 이상의 검색 엔진에만 표시됩니다. 기본 옵션: `Yes` 사용 |
+| [!UICONTROL Enable EAV Indexer] | 글로벌 | 제품 EAV 인덱서의 사용 여부를 결정합니다. 이 기능은 색인 생성 속도를 향상시키고 타사 확장에서 색인을 사용하지 못하도록 제한합니다. 기본 옵션: `Yes` 사용 |
 | [!UICONTROL Autocomplete Limit] | 스토어 뷰 | 검색 자동 완성을 위해 검색 필드 아래에 표시할 최대 검색 쿼리 수입니다. 이 양을 제한하면 검색 성능이 향상되고 표시된 목록 크기가 줄어듭니다. 기본값: `8` |
-| 검색 엔진 | 글로벌 | 카탈로그 데이터 요청을 처리하는 데 필요한 검색 엔진을 식별합니다. Elasticsearch 7.6.x는 모든 Adobe Commerce 설치에 필요합니다. 옵션: `Elasticsearch 7` |
-| [!UICONTROL Elasticsearch Server Hostname] | 글로벌 | Elasticsearch 서버의 이름을 지정합니다. 기본값: `elasticsearch.internal` |
-| [!UICONTROL Elasticsearch Server Port] | 글로벌 | Elasticsearch에서 사용하는 서버 포트의 번호를 지정합니다. 기본값: `9200` |
-| [!UICONTROL Elasticsearch Index Prefix] | 글로벌 | Elasticsearch 인덱스를 식별하는 접두사를 지정합니다. 기본값: `magento2` |
-| [!UICONTROL Enable Elasticsearch HTTP Auth] | 글로벌 | 활성화된 경우 은 HTTP 인증을 사용하여 Elasticsearch 서버에 액세스하기 전에 사용자 이름과 암호를 묻습니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Elasticsearch HTTP Username] | 글로벌 | _Elasticsearch HTTP 인증 사용_&#x200B;이(가) `Yes`(으)로 설정된 경우 Elasticsearch HTTP 인증을 위한 사용자 이름을 지정합니다. |
-| [!UICONTROL Elasticsearch HTTP Password] | 글로벌 | _Elasticsearch HTTP 인증 사용_&#x200B;이(가) `Yes`(으)로 설정된 경우 Elasticsearch HTTP 인증을 위한 암호를 지정합니다. |
-| [!UICONTROL Elasticsearch Server Timeout] | 글로벌 | 서버 제한 시간(초)을 결정합니다. 기본값: `15` |
-| [!UICONTROL Test Connection] |  | Elasticsearch 연결을 확인합니다. |
+| 검색 엔진 | 글로벌 | 카탈로그 데이터 요청을 처리하는 데 필요한 검색 엔진을 식별합니다. 검색 엔진 구성 옵션은 OpenSearch와 Elasticsearch 모두에 대해 동일합니다. 옵션: `OpenSearch` 또는 `Elasticsearch` |
+| [!UICONTROL OpenSearch Server Hostname] | 글로벌 | OpenSearch 또는 Elasticsearch 호스트 서버의 이름을 지정합니다. |
+| [!UICONTROL OpenSearch Server Port] | 글로벌 | OpenSearch 또는 Elasticsearch에서 사용하는 서버 포트의 번호를 지정합니다. 기본값: `9200` |
+| [!UICONTROL OpenSearch Index Prefix] | 글로벌 | OpenSearch 또는 Elasticsearch 인덱스를 식별하는 접두사를 지정합니다. 기본값: `magento2` |
+| [!UICONTROL Enable OpenSearch HTTP Auth] | 글로벌 | 활성화된 경우 는 HTTP 인증을 사용하여 OpenSearch 또는 Elasticsearch 서버에 액세스하기 전에 사용자 이름과 암호를 묻습니다. 옵션: `Yes` / `No` |
+| [!UICONTROL OpenSearch HTTP Username] | 글로벌 | _Elasticsearch HTTP 인증 사용_&#x200B;이(가) `Yes`(으)로 설정된 경우 OpenSearch 또는 Elasticsearch HTTP 인증의 사용자 이름을 지정합니다. |
+| [!UICONTROL OpenSearch HTTP Password] | 글로벌 | _Elasticsearch HTTP 인증 사용_&#x200B;이(가) `Yes`(으)로 설정된 경우 OpenSearch 또는 Elasticsearch HTTP 인증의 암호를 지정합니다. |
+| [!UICONTROL OpenSearch Server Timeout] | 글로벌 | OpenSearch 또는 Elasticsearch 서버에 대한 요청이 시간 초과되기 전 시간(초)을 결정합니다. 기본값: `15` |
+| [!UICONTROL Test Connection] |  | OpenSearch 또는 Elasticsearch 연결을 확인합니다. |
 | [!UICONTROL Enable Search Recommendations] | 스토어 뷰 | 검색 결과가 반환되지 않고 검색 결과 페이지의 `Related search terms` 섹션에 나타날 때 검색 권장 사항이 제공되는지 여부를 결정합니다. 옵션: `Yes` / `No` <br/>예로 설정하면 _[!UICONTROL Search Recommendations Count]_및_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;에 대한 추가 옵션이 표시됩니다. |
 | [!UICONTROL Search Recommendations Count] | 스토어 뷰 | 권장 사항으로 제공된 검색어의 수를 지정합니다. 기본적으로 5개를 넘지 않도록 표시됩니다. |
 | [!UICONTROL Show Results Count for Each Recommendation] | 스토어 뷰 | `Yes`(으)로 설정하면 제안된 검색 권장 사항에 대해 검색된 제품 수가 대괄호 안에 표시됩니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | 스토어 뷰 | 일반적인 철자 오류에 대한 검색 제안이 표시되는지 여부를 결정합니다. 활성화하면 결과를 반환하지 않고 **검색 결과** 페이지의 `Did you mean` 섹션 아래에 표시되는 모든 요청에 대해 검색 제안이 제공됩니다. 검색 제안은 검색 성능에 영향을 줄 수 있습니다. `Yes`(으)로 설정된 경우 검색 사용 Recommendations 및 관련 필드에 대한 추가 옵션이 표시됩니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | 스토어 뷰 | 제공되는 검색 제안 수를 결정합니다. 예: `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | 스토어 뷰 | 각 제안에 대한 검색 결과 수를 표시할지 여부를 결정합니다. 테마에 따라 숫자는 제안 후 대괄호 안에 나타납니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Minimum Terms to Match] | 스토어 뷰 | 검색 결과가 반환되기 위해 일치해야 하는 쿼리의 용어 수에 해당하는 값을 지정합니다. 따라서 쇼핑객에게 최적의 결과 관련성이 보장됩니다. 비율 값은 숫자와 관련이 있으며 필요한 경우 내림차순 처리하여 쿼리에서 일치시킬 최소 용어 수로 사용합니다. 값은 음수 또는 양의 정수, 음수 또는 양의 퍼센트, 두 가지의 조합 또는 다중 조합일 수 있다. 자세한 내용은 Elasticsearch 설명서에서 [minimum_should_match 매개 변수](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html)을(를) 참조하십시오. |
-
-{style="table-layout:auto"}
+| [!UICONTROL Minimum Terms to Match] | 스토어 뷰 | 검색 결과가 반환되기 위해 일치해야 하는 쿼리의 용어 수에 해당하는 값을 지정합니다. 따라서 쇼핑객에게 최적의 결과 관련성이 보장됩니다. 비율 값은 숫자와 관련이 있으며 필요한 경우 내림차순 처리하여 쿼리에서 일치시킬 최소 용어 수로 사용합니다. 값은 음수 또는 양의 정수, 음수 또는 양의 퍼센트, 두 가지의 조합 또는 다중 조합일 수 있다. 자세한 내용은 OpenSearch 설명서의 [minimum_should_match 매개 변수](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/)을 참조하세요. |
 
 ## [!UICONTROL Downloadable Product Options]
 
