@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Commerce B2B] 메타패키지를 설치하는 방법�
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
+source-git-commit: 97717f367e2709c6b940ef16dec788027704799e
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,12 @@ Adobe Commerce B2B 확장 `magento/extension-b2b`은(는) 지원되는 모든 Ad
 ## 요구 사항
 
 - [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html), 지원되는 모든 버전
-- PHP 8.1 / 8.2 / 8.3
+- PHP 8.1 및 8.2
 - [!DNL Composer]
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B 버전 1.4.2+는 PHP 8.3과 호환되지 않습니다. Commerce 인스턴스를 Commerce 버전 2.4.7+로 업그레이드하는 경우 인스턴스에 설치된 PHP 버전이 PHP 8.2인지 확인하여 B2B 1.4.2+와의 호환성을 유지합니다.
 
 ## 지원되는 플랫폼
 

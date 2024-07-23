@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] 릴리스 노트'
 description: ' [!DNL Adobe Commerce B2B] 릴리스의 변경 내용에 대한 정보는 릴리스 정보를 검토하십시오.'
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
+source-git-commit: ce05d8bdcff783ed2aae78c3bea7470819af5b4d
 workflow-type: tm+mt
-source-wordcount: '6867'
+source-wordcount: '6904'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,10 @@ B2B v1.5.0 베타 릴리스에는 새로운 기능, 품질 개선 및 버그 수
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 ![새로운 기능](../assets/new.svg) Adobe Commerce 2.4.7-p1+ 및 2.4.6-p6+ 보안 패치 릴리스와 호환성이 추가되었습니다.
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B 버전 1.4.2+는 PHP 8.2와 호환됩니다. Commerce 인스턴스를 버전 2.4.7+로 업그레이드하는 경우 인스턴스가 PHP 버전 8.2를 사용하여 Adobe Commerce B2B 릴리스와의 호환성을 유지하는지 확인하십시오.
 
 
 ## B2B v1.4.2
