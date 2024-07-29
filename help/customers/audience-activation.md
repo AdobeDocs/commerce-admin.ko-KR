@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
+source-git-commit: 0690430d3c6ac6a58a2ef98045148de8ad6a4bad
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1546'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _2023년 5월 30일_
 ![새로 만들기](../assets/new.svg) - Adobe Commerce 인스턴스 내에서 활성 대상을 정렬, 검색 및 필터링하는 기능을 포함하도록 [Real-Time CDP 대상 대시보드](#real-time-cdp-audiences-dashboard)를 업데이트했습니다.
 
 +++
+
+### 2.3.0
+
+[!BADGE 호환성]{type=Informative tooltip="호환성"}
+
+_2024년 7월 29일_
+
+![새로 만들기](../assets/new.svg) - 명령줄 구문을 추가했으므로 [자격 증명을 테스트](#validate-the-connection)하여 Adobe Experience Platform에서 대상 데이터를 가져오기 위해 자격 증명을 업데이트해야 하는지 확인할 수 있습니다.
 
 ### 2.2.0
 
