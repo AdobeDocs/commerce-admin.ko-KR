@@ -4,14 +4,18 @@ description: 보안을 개선하기 위해 정기적으로 변경되어야 하�
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 2469b3853d074f7a7adfe822b645e41d1420259a
+source-git-commit: cbe4cfd59b1cacbac22a01ca96617f52bcdd7d3a
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
 # 암호화 키
+
+>[!NOTE]
+>
+>이 단계를 완료하려고 했지만 문제가 있는 경우 [암호화 키 순환 문제 해결: CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) 기술 자료 문서를 참조하십시오.
 
 Adobe Commerce과 Magento Open Source은 암호 및 기타 민감한 데이터를 보호하기 위해 암호화 키를 사용합니다. 업계 표준 [!DNL ChaCha20-Poly1305] 알고리즘은 암호화가 필요한 모든 데이터를 암호화하기 위해 256비트 키와 함께 사용됩니다. 여기에는 신용 카드 데이터 및 통합(결제 및 배송 모듈) 암호가 포함됩니다. 또한 강력한 보안 해시 알고리즘(SHA-256)을 사용하여 암호 해독이 필요하지 않은 모든 데이터를 해시합니다.
 
