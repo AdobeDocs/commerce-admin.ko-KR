@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] 릴리스 노트'
 description: ' [!DNL Adobe Commerce B2B] 릴리스의 변경 내용에 대한 정보는 릴리스 정보를 검토하십시오.'
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: ce05d8bdcff783ed2aae78c3bea7470819af5b4d
+source-git-commit: 5e9aaa4ff59b34a1ff76083eeae82f87e457f23b
 workflow-type: tm+mt
-source-wordcount: '6904'
+source-wordcount: '6967'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ B2B v1.5.0 베타 릴리스에는 새로운 기능, 품질 개선 및 버그 수
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B 버전 1.4.2+는 PHP 8.2와 호환됩니다. Commerce 인스턴스를 버전 2.4.7+로 업그레이드하는 경우 인스턴스가 PHP 버전 8.2를 사용하여 Adobe Commerce B2B 릴리스와의 호환성을 유지하는지 확인하십시오.
+>Adobe Commerce B2B 버전 1.4.2+는 PHP 8.2와 호환됩니다. Commerce 인스턴스를 버전 2.4.7+로 업그레이드하는 경우 인스턴스가 PHP 버전 8.2를 사용하여 Adobe Commerce B2B 릴리스와의 호환성을 유지하는지 확인하십시오. 또한 B2B 1.4.2+는 현재 [GraphQL 응용 프로그램 서버](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원하지 않습니다.
 
 
 ## B2B v1.4.2
@@ -81,9 +81,13 @@ B2B v1.5.0 베타 릴리스에는 새로운 기능, 품질 개선 및 버그 수
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
-B2B v1.4.2 릴리스에는 품질 개선 사항 및 버그 수정이 포함되어 있습니다
+B2B v1.4.2 릴리스에는 품질 개선 사항 및 버그 수정이 포함되어 있습니다.
 
 ![해결된 문제](../assets/fix.svg) <!--B2B-2897-->판매자가 구매자 회사와 연결된 공유 카탈로그에서 사용할 수 없는 제품 SKU가 포함된 구매자 견적을 만드는 경우 오류 메시지 `The SKU you entered is not available in the shared catalog. Please check the SKU and try again`이(가) 표시됩니다.  판매자는 사용할 수 없는 제품을 제거할 때까지 견적을 저장할 수 없습니다. 이전에는 견적이 사용할 수 없는 SKU와 함께 저장되었으며, 상점 첫 화면에서 견적이 로드되지 않았습니다.
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B 버전 1.4.2+는 PHP 8.2와 호환됩니다. Commerce 인스턴스를 버전 2.4.7+로 업그레이드하는 경우 인스턴스가 PHP 버전 8.2를 사용하여 Adobe Commerce B2B 릴리스와의 호환성을 유지하는지 확인하십시오. 또한 B2B 1.4.2+는 현재 [GraphQL 응용 프로그램 서버](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원하지 않습니다.
 
 ## B2B v1.4.1
 
