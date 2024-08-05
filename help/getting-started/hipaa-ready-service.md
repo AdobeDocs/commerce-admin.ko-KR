@@ -3,9 +3,9 @@ title: Adobe Commerce의 HIPAA 준비
 description: Adobe Commerce HIPAA 지원 확장 기능을 추가하여 HIPAA 규정 준수를 지원할 수 있는 추가 기능을 사용하는 방법에 대해 알아봅니다.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: b7ce092f843992b1e4d0ca23981c70d854ded5f9
+source-git-commit: bce0e581e89139875e09b671038a21976eccebca
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1568'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 1%
 
 **건강보험 양도 및 책임에 관한 법률(HIPAA)**
 
-HIPAA(Health Insurance Portability and Accountability Act)는 미국의 주요 연방 의료 개인정보 보호법이며 미국 보건복지부(HHS)에서 시행하고 있습니다. HIPAA는 _적용 엔터티_(의료 서비스 공급자, 보험사 및 결제 서비스 등) 및 _비즈니스 연결_(적용 엔터티에 서비스를 제공하는 엔터티 등)에 적용됩니다. HIPAA 요구 사항은 개인 정보 보호 규칙, 보안 규칙 및 위반 알림 규칙의 세 가지 규칙에 따라 설정됩니다. Adobe은 특정 제품에 대해 비즈니스 동료 역할을 하며, Adobe은 이를 &quot;HIPAA 준비 서비스&quot;로 분류합니다. HIPAA에서 규제되는 데이터는 _보호 상태 정보_ 또는 PHI라고 합니다. PHI는 (1) 의료 제공자, 의료 계획 또는 의료 정보 교환소가 생성 또는 수신하는 건강 정보의 하위 집합이며, (2) 개인의 과거, 현재 또는 미래의 신체적 또는 정신적 건강 또는 상태, 개인에 대한 의료 서비스 제공 또는 개인에 대한 의료 서비스 제공에 대한 과거, 현재 또는 미래 지불에 관한 것이고, (3) 개인을 식별하거나 해당 정보가 개인을 식별하는 데 사용될 수 있다고 믿을 수 있는 합리적인 근거가 있는 것입니다. HIPAA 개인 정보 보호 및 보안 규칙은 피보험 기업이 비즈니스 관련 계약 또는 BAA의 형태로 비즈니스 관계자로부터 서면 보증을 받도록 요구하여 비즈니스 관련자가 피보험 기업의 ʼ PHI의 개인 정보 보호 및 보안을 보호하도록 요구합니다. 자세한 내용은 Adobe 트러스트 센터에서 [HIPAA 및 제품 및 서비스 Adobe](https://www.adobe.com/trust/compliance/hipaa-ready.html)을 참조하세요.
+HIPAA(Health Insurance Portability and Accountability Act)는 미국의 주요 연방 의료 개인 정보 보호법이며 미국 보건복지부(HHS)에서 시행합니다. HIPAA는 적용 대상&#x200B;_(예: 의료 서비스 제공자, 보험사 및 정보 센터) 및_&#x200B;비즈니스 어소시에이트&#x200B;_(예: 대상 기관에 서비스를 제공하는 기관)에 적용됩니다_. HIPAA 요구 사항은 개인 정보 보호 규칙, 보안 규칙 및 위반 알림 규칙의 세 가지 개별 규칙에 따라 설정됩니다. Adobe Systems는 Adobe Systems가 &quot;HIPAA-Ready 서비스&quot;로 분류하는 특정 제품에 대한 비즈니스 어소시에이트 역할을 합니다. HIPAA에 따라 규제되는 데이터를 보호된 건강 정보&#x200B;_또는 PHI라고_&#x200B;합니다. PHI는 (1) 의료 서비스 제공자, 건강 보험 또는 의료 정보 센터에서 생성하거나 수신하고, (2) 개인의 과거, 현재 또는 미래의 신체적 또는 정신적 건강 또는 상태, 개인에 대한 의료 서비스 제공, 또는 개인에 대한 의료 서비스 제공에 대한 과거, 현재 또는 미래의 지불과 관련된 건강 정보의 하위 집합입니다.  (3) 개인을 식별하거나 정보가 개인을 식별하는 데 사용될 수 있다고 믿을 만한 합리적인 근거가 있는 경우. HIPAA 개인 정보 보호 및 보안 규칙에 따라 적용 주체는 비즈니스 어소시에이트 계약(BAA)의 형태로 비즈니스 어소시에이트로부터 서면 보증을 받아야 하며, 이는 비즈니스 어소시에이트가 해당 엔터티의 PHI의 개인 정보 보호 및 보안을 보호하도록 요구합니다. 자세한 내용은 Adobe Systems Trust Center의 HIPAA 및 Adobe Systems Products and Services](https://www.adobe.com/trust/compliance/hipaa-ready.html)를 참조하십시오[.
 
 >[!ENDSHADEBOX]
 
-## Adobe Commerce HIPAA 지원
+## Adobe Systems Commerce HIPAA 지원
 
 Adobe Commerce HIPAA 지원 확장은 Adobe Commerce 설치에 상인이 각각의 HIPAA 의무를 준수할 수 있는 추가 기능 및 기능을 추가합니다.
 
@@ -90,7 +90,7 @@ Adobe Commerce 버전 2.4.6-p3 이상을 실행 중인 인스턴스에 최신 �
 
 ### 설치 확인
 
-업데이트를 배포한 후 `Hipaa*` 확장이 설치되어 있는지 확인하십시오
+업데이트가 배포된 후 extensiion이 `Hipaa*` 설치되어 있는지 확인합니다
 
 1. SSH를 사용하여 원격 클라우드 환경에 로그인합니다.
 
@@ -98,7 +98,7 @@ Adobe Commerce 버전 2.4.6-p3 이상을 실행 중인 인스턴스에 최신 �
    magento-cloud ssh
    ```
 
-1. 명령줄에서 Adobe Commerce CLI를 사용하여 모듈 상태를 확인합니다.
+1. 명령줄에서 Adobe Systems Commerce CLI를 사용하여 모듈 상태를 확인합니다.
 
    ```shell
    bin/magento module:status
@@ -161,15 +161,15 @@ _작업 로그_ 보고서 표(**[!UICONTROL System]** > 작업 로그 > 보고�
 
 ### 가져오기 및 내보내기 기능
 
-가져오기 및 내보내기 기능의 개선 사항은 관리 경험을 개선하고 사용자 작업에 대한 더 나은 가시성을 제공하는 데 중점을 둡니다.
+가져오기 및 내보내기 기능에 대한 향상된 기능은 관리 경험 환경을 개선하고 사용자 작업에 대한 더 나은 가시성을 제공하는 데 중점을 둡니다.
 
 >[!NOTE]
 >
->이러한 ***향상된 기능은 가져오기 및 내보내기 코어 논리를 변경하지 않습니다***. 오히려 기능을 확장하여 보다 포괄적인 로깅 및 향상된 데이터 속성을 제공합니다. 수입과 수출의 기본 기능은 변함이 없습니다. 사용자는 중단 없이 기존 기능 및 워크플로를 계속 사용할 수 있습니다.
+>이러한 ***향상된 기능은 가져오기 및 내보내기 핵심 논리***&#x200B;를 변경하지 않고 기능을 확장하여 보다 포괄적인 로깅 및 향상된 데이터 기여도 분석 제공합니다. 가져오기 및 내보내기의 기본 기능은 변경되지 않습니다. 사용자는 기존 기능과 워크플로우를 중단 없이 계속 사용할 수 있습니다.
 
-#### 관리 작업 로깅
+#### 관리 조치 로깅
 
-가져오기 및 내보내기 기능의 주요 개선 사항 중 하나는 관리 작업의 로깅 향상입니다. 이 향상된 기능은 데이터 가져오기 및 내보내기와 관련된 활동을 자세히 분석하는 기능을 도입하여 추적 및 감사 기능을 개선하는 데 기여합니다. 다음 작업이 기록되고 **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**표에 반영됩니다.
+가져오기 및 내보내기 기능의 주요 개선 사항 중 하나는 관리 작업의 향상된 로깅 기능입니다. 이 향상된 기능은 데이터 가져오기 및 내보내기와 관련된 활동을 자세히 분석하는 기능을 도입하여 추적 및 감사 기능을 개선하는 데 기여합니다. 이제 다음 작업이 기록되고 > _[!UICONTROL Action Logs]_> 그리드에 반영됩니다&#x200B;**[!UICONTROL System].[!UICONTROL Report]**
 
 | 유형 | 작업 |
 | ---- | ------- |
@@ -210,10 +210,9 @@ HIPAA 요구 사항을 준수하기 위해 Adobe Commerce에서 지원하는 일
 
 - **Adobe Commerce 서비스**—HIPAA 준비 제공 서비스에서는 Adobe Commerce 서비스 또는 확장성 서비스를 사용할 수 없습니다. 이러한 서비스에는 다음이 포함되지만 이에 국한되지 않습니다.
 
-   - 라이브 검색
-   - API 메쉬
-   - App Builder
-   - 카탈로그 서비스
+   - 실시간 검색
+   - API 메시
+   - 앱 빌더
 
 - **[SendGrid 서비스](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—응용 프로그램이 HIPAA를 준수하지 않으므로 이 서비스는 기본적으로 사용하지 않도록 설정됩니다.
 
