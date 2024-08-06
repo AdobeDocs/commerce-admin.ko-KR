@@ -4,9 +4,9 @@ description: 회사 계정, 기본 결제 및 배송 방법, 구매 주문 및 �
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 feature: B2B, Configuration
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: 7e36d0b7c9b414cb072118b87cd903b3374bb9de
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '1630'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ ht-degree: 0%
 B2B [!DNL Quick Order] 및 [!DNL Requisition List] 기능은 독립적으로 활성화 및 비활성화할 수 있습니다.
 
 ## B2B 기능 구성
+
+Adobe Commerce B2B 기능을 구성하는 옵션은 [Adobe Commerce B2B 확장이 설치된](install.md) Commerce 프로젝트에서만 사용할 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
