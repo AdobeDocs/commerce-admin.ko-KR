@@ -1,8 +1,9 @@
 ---
 title: Experience Manager Assets 통합 설치 및 구성
-description: " [!DNL AEM Assets Integration for Adobe Commerce]을(를) 설치하고 구성하는 방법에 대해 알아봅니다."
+description: ' [!DNL AEM Assets Integration for Adobe Commerce]을(를) 설치하고 구성하는 방법에 대해 알아봅니다.'
 feature: CMS, Media
-source-git-commit: 65a4339f0f6d4e9eb280ce90d6173caf671fde0f
+exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
+source-git-commit: da98c253d0d3f773551c7b58b5eedbb1db622ac6
 workflow-type: tm+mt
 source-wordcount: '1261'
 ht-degree: 0%
