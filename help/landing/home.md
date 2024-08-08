@@ -5,9 +5,9 @@ seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: 판매자 설명서
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: c9dfc5385a008619a5ab1eceeec93df2c00df059
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,3 @@ Magento Open Source은 Adobe이 Adobe Commerce에 공식적으로 기여하고 �
 | **새 주제** - [Commerce 계정 전송](../getting-started/commerce-account-transfer.md) 주제를 _시작 안내서_&#x200B;에 추가했습니다. | 신규 | 202/27/23 |
 
 {style="table-layout:auto"}
-
-## 2.3.x 설명서
-
-확장 지원 계약을 체결한 Adobe Commerce 2.3 고객은 [Adobe Commerce 2.3 사용 안내서](https://docs.magento.com/user-guide/v2.3/)를 `docs.magento.com` 도메인에서 사용할 수 있습니다.
