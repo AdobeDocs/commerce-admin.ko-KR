@@ -1,11 +1,11 @@
 ---
 title: Experience Manager Assets 통합 설치 및 구성
-description: ' [!DNL AEM Assets Integration for Adobe Commerce]을(를) 설치하고 구성하는 방법에 대해 알아봅니다.'
+description: Adobe Commerce 인스턴스에서  [!DNL AEM Assets Integration for Adobe Commerce] 을(를) 설치하고 구성하는 방법을 알아봅니다.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: da98c253d0d3f773551c7b58b5eedbb1db622ac6
+source-git-commit: c9dd925faf8396251a79b8326b11187ede61d2a7
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,11 @@ ht-degree: 0%
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-확장을 Commerce 애플리케이션에 추가하고, Commerce SaaS 서비스에 연결하고, 이벤트 서비스를 Adobe I/O 하고, Commerce SaaS에 연결하여 Commerce용 AEM Assets 통합을 설치하고 구성합니다.
+`aem-assets-integration` PHP 확장을 설치하여 Commerce용 AEM Assets 통합을 사용하도록 Commerce 환경을 준비합니다. 그런 다음 관리 구성을 업데이트하여 Adobe Commerce과 AEM Assets 간에 통신 및 워크플로우를 가능하게 합니다.
 
 ## 시스템 요구 사항
+
+Commerce용 AEM Assets 통합에는 다음과 같은 시스템 및 구성 요구 사항이 있습니다.
 
 **소프트웨어 요구 사항**
 
@@ -46,13 +48,15 @@ ht-degree: 0%
 
 **필수 구성 요소**
 
-- 확장을 설치하려면 [repo.magento.com](https://repo.magento.com/admin/dashboard)에 액세스하세요. 키를 생성하고 필요한 권한을 얻으려면 [인증 키 가져오기](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오. 클라우드 설치의 경우 [클라우드 인프라의 Commerce 안내서](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)를 참조하십시오.
+- 확장을 설치하려면 [repo.magento.com](https://repo.magento.com/admin/dashboard)에 액세스하세요.
+
+  키를 생성하고 필요한 권한을 얻으려면 [인증 키 가져오기](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오. 클라우드 설치의 경우 [클라우드 인프라의 Commerce 안내서](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)를 참조하십시오.
 
 - Adobe Commerce 애플리케이션 서버의 명령줄에 액세스합니다.
 
 >[!ENDSHADEBOX]
 
-Adobe Commerce 2.4.4 이상을 실행하는 Adobe Commerce에 최신 버전의 AEM Assets 통합 확장(`aem-assets-integration`)을 설치합니다. AEM Asset 통합은 [repo.magento.com](https://repo.magento.com/admin/dashboard) 리포지토리에서 작성기 메타패키지로 제공됩니다.
+Adobe Commerce 2.4.5 이상 버전의 Adobe Commerce 인스턴스에 최신 버전의 AEM Assets 통합 확장(`aem-assets-integration`)을 설치합니다. AEM Asset 통합은 [repo.magento.com](https://repo.magento.com/admin/dashboard) 리포지토리에서 작성기 메타패키지로 제공됩니다.
 
 >[!BEGINTABS]
 
@@ -124,9 +128,9 @@ Adobe Commerce 2.4.4 이상을 실행하는 Adobe Commerce에 최신 버전의 A
    bin/magento cache:clean
    ```
 
-   >[!TIP]
-   >
-   >경우에 따라, 특히 프로덕션에 배포 시 시간이 걸릴 수 있으므로 컴파일된 코드를 지우지 않는 것이 좋습니다. 변경하기 전에 시스템을 백업해야 합니다.
+>[!TIP]
+>
+>프로덕션에 배포 시 시간을 절약하기 위해 컴파일된 코드를 지우지 않는 것이 좋습니다. 변경하기 전에 항상 시스템을 백업하십시오.
 
 >[!ENDTABS]
 
@@ -162,81 +166,29 @@ AEM Assets 통합은 Adobe I/O 이벤트 서비스를 사용하여 Commerce 인�
    - [Adobe Commerce 온-프레미스에 대한 RabbitMQ 설정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
    - [클라우드 인프라에서 Adobe Commerce에 대한 RabbitMQ 설정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
 
+- Commerce 버전 2.4.5의 프로젝트의 경우 [Adobe I/O 모듈을 설치](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce)해야 합니다. Commerce 버전 2.4.6 이상에서는 이러한 모듈이 자동으로 로드됩니다.
+
 >[!ENDSHADEBOX]
-
->[!NOTE]
->
->Commerce의 Adobe I/O 이벤트에 대한 자세한 내용은 Adobe Developer 사이트에서 [Commerce의 이벤트 Adobe I/O](https://developer.adobe.com/commerce/extensibility/events/) 설명서를 참조하십시오.
-
-설정하려면 다음 단계가 필요합니다.
-
-1. 애플리케이션 서버와 관리자에서 Adobe I/O 이벤트를 구성하여 Commerce 이벤트 프레임워크를 활성화합니다.
-1. Assets 규칙 엔진 서비스 API를 사용하여 연결을 구성하여 Adobe Commerce과 AEM Assets 간의 데이터 동기화를 활성화합니다.
-1. 관리자에서 AEM Assets 통합을 활성화합니다.
 
 ### Commerce 이벤트 프레임워크 활성화
 
-Commerce 프로젝트가 배포된 환경에 대한 지침을 사용하여 Commerce 이벤트 프레임워크를 활성화합니다.
+Commerce 관리에서 이벤트 프레임워크를 활성화합니다.
 
->[!BEGINTABS]
+1. 책임자에서 **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **이벤트 Adobe I/O**(으)로 이동합니다.
 
->[!TAB 클라우드 인프라]
+1. **[!UICONTROL Commerce events]** 확장.
 
-1. [!DNL Store Settings Configuration] 메뉴에서 Adobe I/O 이벤트 서비스를 사용하도록 설정합니다.
+1. **[!UICONTROL Enabled]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
-   1. 책임자에서 **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **이벤트 Adobe I/O**(으)로 이동합니다.
+   ![Adobe I/O 이벤트 Commerce 관리 구성 - Commerce 이벤트 사용](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
-   1. **[!UICONTROL Commerce events]** 확장.
-
-   1. **[!UICONTROL Enabled]**&#x200B;을(를) `Yes`(으)로 설정합니다.
-
-      ![Adobe I/O 이벤트 Commerce 관리 구성 - Commerce 이벤트 사용](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
-
-      >[!NOTE]
-      >
-      >[cron을 사용](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration)하여 Commerce이 API 끝점에 이벤트를 전송하여 통합을 위한 통신 및 워크플로를 관리할 수 있도록 합니다.
-
-1. 클라우드 프로젝트 구성을 업데이트합니다.
-
-   1. 작업 저장소에 `app/etc/config.php` 파일 추가:
-
-   ```shell
-   git add app/etc/config.php
-   ```
-
-   1. `composer info magento/ece-tools` 명령을 실행하여 ece-tools 버전을 확인합니다. 버전이 `2002.1.13`보다 작은 경우 [최신 버전으로 업데이트](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)하십시오.
-
-   1. `.magento.env.yaml` 파일에서 이벤트 사용:
-
-      ```yaml
-      stage:
-         global:
-            ENABLE_EVENTING: true
-      ```
-
-   1. 업데이트된 파일을 커밋하고 클라우드 환경으로 푸시합니다.
-
->[!TAB 온-프레미스]
-
-1. [!DNL Store Settings Configuration] 메뉴에서 Adobe I/O 이벤트 서비스를 사용하도록 설정합니다.
-
-   1. 책임자에서 **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **이벤트 Adobe I/O**(으)로 이동합니다.
-
-   1. **[!UICONTROL Commerce events]** 확장.
-
-   1. **[!UICONTROL Enabled]**&#x200B;을(를) `Yes`(으)로 설정합니다.
-
-      ![Adobe I/O 이벤트 Commerce 관리 구성 - Commerce 이벤트 사용](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
-
-      >[!NOTE]
-      >
-      >Commerce에서 AEM assets와 Commerce 간의 통신 및 워크플로를 관리하기 위해 이벤트를 전송할 수 있도록 [cron 작업을 사용](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration)합니다.
-
->[!ENDTABS]
+   >[!NOTE]
+   >
+   >[cron 작업이 활성화되었는지 확인](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Commerce에서 AEM Assets과 Commerce 간의 통신 및 워크플로를 관리하려면 크론 작업이 필요합니다.
 
 ## API 액세스에 대한 인증 자격 증명 가져오기
 
-Commerce용 AEM Assets 통합에는 Commerce 인스턴스에 대한 API 액세스를 허용하기 위한 OAuth 인증 자격 증명이 필요합니다. 테넌트 온보딩 중에 Assets 규칙 엔진 서비스에 Commerce 프로젝트를 등록하고 Adobe Commerce과 AEM Assets 간에 에셋을 관리하기 위한 API 요청을 제출하려면 이러한 자격 증명이 필요합니다.
+Commerce용 AEM Assets 통합에는 Commerce 인스턴스에 대한 API 액세스를 허용하기 위한 OAuth 인증 자격 증명이 필요합니다. AEM Assets 통합을 사용하여 에셋을 관리할 때 API 요청을 인증하는 데 이러한 자격 증명이 필요합니다.
 
 Commerce 인스턴스에 통합을 추가하고 활성화하여 자격 증명을 생성합니다.
 
@@ -256,11 +208,11 @@ Commerce 인스턴스에 통합을 추가하고 활성화하여 자격 증명을
 
 1. API 리소스를 구성합니다.
 
-   1. 왼쪽 패널에서 **[!UICONTROL API]**을(를) 클릭합니다.
-E
+   1. 왼쪽 패널에서 **[!UICONTROL API]**&#x200B;을(를) 클릭합니다.
+
    1. 외부 미디어 리소스 **[!UICONTROL Catalog > Inventory > Products > External Media]**&#x200B;을(를) 선택하십시오.
 
-   ![API 리소스에 대한 관리자 통합 구성](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
+      ![API 리소스에 대한 관리자 통합 구성](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -272,12 +224,13 @@ E
 
    ![Assets 통합을 위해 Commerce 구성 활성화](assets/aem-activate-commerce-integration.png){width="600" zoomable="yes"}
 
-1. 나중에 사용할 수 있도록 소비자 키 및 액세스 토큰에 대한 자격 증명을 저장합니다.
+1. API를 사용하려는 경우 소비자 키 및 액세스 토큰에 대한 자격 증명을 저장하여 API 클라이언트에서 인증을 구성합니다.
 
-API 요청을 인증하기 위한 ![OAuth 자격 증명](./assets/aem-commerce-integration-credentials.png){width="600" zoomable="yes"}
+   API 요청을 인증하기 위한 ![OAuth 자격 증명](./assets/aem-commerce-integration-credentials.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]
 >
 >Adobe Commerce API를 사용하여 인증 자격 증명을 생성할 수도 있습니다. 이 프로세스에 대한 자세한 내용과 Adobe Commerce의 OAuth 기반 인증에 대한 자세한 내용은 Adobe Developer 설명서의 [OAuth 기반 인증](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)을 참조하십시오.
+
