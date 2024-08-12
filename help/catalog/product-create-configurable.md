@@ -3,9 +3,9 @@ title: 구성 가능한 제품
 description: 쇼핑객에게 다양한 선택 항목을 제공하는 구성 가능한 제품을 만드는 방법을 알아봅니다.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2506'
 ht-degree: 0%
 
 ---
@@ -377,6 +377,8 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 - 구성 가능한 제품에 대한 [재고 상태](../inventory-management/sources-stocks.md)는 반수동으로 제어되는 설정입니다. 제품 이용가능성을 직접 나타내는 단순한 제품의 재고 상태와는 다르다. 구성 가능한 제품의 경우 재고 상태는 다중 기준 재고 상태 계산의 일부입니다.
 
 - 구성 가능한 하위 제품은 사용자 지정 옵션이 없는 **간단한 제품 또는 가상 제품일 수 있습니다**. 사용자 지정 하위 제품을 가상화하려면 각 제품에 대한 **[!UICONTROL Weight]** 설정에 대해 `Тhis item has no weight`을(를) 선택해야 합니다.
+
+- 모든 하위 제품은 모든 웹 사이트, 스토어 및 스토어 보기에 대해 구성 가능한 제품 **_전역적으로_**&#x200B;에서 동시에 할당되고 할당이 해제됩니다.
 
 - 구성 가능한 제품은 카탈로그에 자체 가격이 없습니다. 구성 가능한 제품 가격은 해당 [!UICONTROL In Stock] 하위 제품에서 파생되었습니다.
 

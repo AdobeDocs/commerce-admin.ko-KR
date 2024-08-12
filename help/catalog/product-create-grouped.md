@@ -3,9 +3,9 @@ title: 그룹화된 제품
 description: 그룹으로 표시되는 간단한 독립 실행형 제품으로 구성된 그룹화된 제품을 만드는 방법을 알아봅니다.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,8 @@ ht-degree: 0%
 ## 기억해야 할 사항
 
 - 그룹화된 제품은 기본적으로 간단한 관련 제품의 컬렉션입니다.
+
+- 모든 하위 제품은 모든 웹 사이트, 스토어 및 스토어 보기에 대해 그룹화된 제품 **_전역적으로_**&#x200B;에서 동시에 할당되고 할당이 해제됩니다.
 
 - 그룹화된 하위 제품은 간단하거나 다운로드할 수 있거나 가상 제품 **[!UICONTROL without custom options]**&#x200B;일 수 있습니다.
 

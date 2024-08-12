@@ -3,9 +3,9 @@ title: 번들 제품
 description: 쇼핑객이 스토어에서 사용자 지정된 제품을 작성할 수 있는 번들 제품을 만드는 방법을 알아봅니다.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -274,6 +274,8 @@ _[!UICONTROL Bundle Items]_섹션은 번들 제품 형식에 항목을 추가하
 ## 기억해야 할 사항
 
 ![확인란](../assets/checkbox.png) 고객은 제품을 _직접 작성_&#x200B;할 수 있습니다.
+
+![확인란](../assets/checkbox.png) 모든 하위 제품은 모든 웹 사이트, 스토어 및 스토어 보기에 대해 번들 제품 **_전역적으로_**&#x200B;에서 동시에 할당되거나 할당이 해제됩니다.
 
 ![Checkbox](../assets/checkbox.png) 번들 항목은 사용자 지정 옵션이 없는 단순 또는 가상 제품일 수 있습니다.
 
