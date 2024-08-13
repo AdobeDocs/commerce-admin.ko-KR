@@ -4,7 +4,7 @@ description: 시스템 및 데이터의 보안을 보장하기 위한 이중 인
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Adobe Commerce은 여러 공급자의 2FA 메서드를 지원합니다. 일부�
 
    여러 메서드를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 항목을 클릭합니다.
 
-1. 필요한 각 2FA 메서드에 대한 설정을 완료합니다.
+1. 필요한 각 2FA 메서드에 대해 [설정](../configuration-reference/security/2fa.md)을(를) 완료합니다.
 
    ![보안 구성 - 2FA](../configuration-reference/security/assets/2fa-general.png){width="600" zoomable="yes"}
 

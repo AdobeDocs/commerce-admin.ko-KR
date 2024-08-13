@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Commerce 관리자의 [!UICONTROL Security] &gt; [!UICONTROL 2FA] 페이지에서 구성 설정을 검토하십시오.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '310'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Providers to use] | 글로벌 | 필요한 2단계 인증 방법을 나타냅니다. 공급자를 두 개 이상 선택하는 경우 각 사용자는 다음에 로그인할 때 각 2FA 메서드를 구성해야 합니다. |
 | [!UICONTROL Configuration Email URL for Web API] | 글로벌 | 사용자 지정 구현의 경우 처음 로그인할 때 _관리자_ 사용자에게 전송되는 대체 전자 메일 구성 링크의 URL입니다. 전자 메일 템플릿에서 자리 표시자 `:tfat`을 사용하여 토큰이 삽입된 위치를 지정하십시오. |
+| [!UICONTROL Retry attempt limit for Two-Factor Authentication] | 글로벌 | 계정이 일시적으로 비활성화되기 전에 관리자가 [!DNL one-time password (OTP)]을(를) 입력할 수 있는 횟수를 결정합니다. 기본값: `10` |
+| [!UICONTROL Two-Factor Authentication lockout time (seconds)] | 글로벌 | 계정이 일시적으로 비활성화되기 전에 관리자가 [!DNL one-time password (OTP)] 입력을 대기할 수 있는 시간(초)을 결정합니다. 기본값: `300` |
 
 {style="table-layout:auto"}
 
@@ -37,7 +39,7 @@ ht-degree: 1%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | 글로벌 | 만료된 후 시스템이 관리자의 OTP(일회성 암호)를 수락하는 시간(초)을 결정합니다. 단일 OTP의 수명(일반적으로 30초)보다 높을 수 없습니다. 기본값: `29` |
+| [!UICONTROL OTP Window] | 글로벌 | 만료된 후 시스템에서 관리자 [!DNL one-time-password (OTP)]을(를) 수락하는 시간(초)을 결정합니다. 단일 OTP의 수명(일반적으로 30초)보다 높을 수 없습니다. 기본값: `29` |
 
 {style="table-layout:auto"}
 
