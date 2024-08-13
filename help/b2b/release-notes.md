@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] 릴리스 노트'
 description: ' [!DNL Adobe Commerce B2B] 릴리스의 변경 내용에 대한 정보는 릴리스 정보를 검토하십시오.'
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 5e9aaa4ff59b34a1ff76083eeae82f87e457f23b
+source-git-commit: d717a16f3ca20e51b002c6de19c696e090553052
 workflow-type: tm+mt
-source-wordcount: '6967'
+source-wordcount: '7033'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,20 @@ B2B v1.5.0 베타 릴리스에는 새로운 기능, 품질 개선 및 버그 수
 ![해결된 문제](../assets/fix.svg) <!--ACP2E-1825-->회사가 차단된 후에는 더 이상 회사와 연결된 사용자가 구매 주문을 할 수 없습니다. 이전에는 회사가 차단되면 회사와 연관된 사용자가 구매 주문을 할 수 있었습니다.
 
 ![해결된 문제](../assets/fix.svg)<!--ACP2E-1933-->회사 관리자는 이제 상점에서 회사 사용자를 추가할 수 있습니다. 이전에는 관리자가 새 사용자 `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`을(를) 추가하려고 할 때 Commerce에서 오류가 기록되었습니다.
+
+## B2B v1.4.2-p2
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+
+![새로운 기능](../assets/new.svg) Adobe Commerce 2.4.7-p2+ 및 2.4.6-p7+ 보안 패치 릴리스와 호환성이 추가되었습니다. B2B 1.4.2-p2 릴리스에는 다음이 적용되지 않습니다
+[GraphQL 응용 프로그램 서버](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원합니다.
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B 버전 1.4.2+는 PHP 8.2와 호환됩니다. Commerce 인스턴스를 버전 2.4.7+로 업그레이드하는 경우 인스턴스가 PHP 버전 8.2를 사용하여 Adobe Commerce B2B 릴리스와의 호환성을 유지하는지 확인하십시오.
+
+
+https://wiki.corp.adobe.com/display/3DI/How+to+Create+and+Update+a+New+HelpX+Page#HowtoCreateandUpdateaNewHelpXPage-LinkstoupdateHelpXdocumentation:
 
 ## B2B v1.4.2-p1
 
