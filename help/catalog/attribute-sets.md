@@ -3,9 +3,9 @@ title: 속성 집합
 description: 속성을 그룹으로 구성하여 제품 레코드에서 표시되는 위치를 결정하는 방법을 알아봅니다.
 exl-id: de0c5fa2-158c-44ff-b84d-e4904ed8aa7d
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 43550b9370f4ed4b631ae7773324ed0913718a79
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
    - 페이지의 중앙에는 현재 선택된 속성 그룹이 나열됩니다.
    - 오른쪽 열에는 현재 속성 집합에 할당되지 않은 속성 선택 항목이 나열됩니다.
 
-1. 집합에 특성을 추가하려면 **[!UICONTROL Unassigned Attributes]** 목록의 특성을 **[!UICONTROL Groups]** 열의 적절한 폴더로 끕니다.
+1. 집합에 특성을 추가하려면 **[!UICONTROL Unassigned Attributes]** 목록의 특성을 **[!UICONTROL Groups]** 열의 적절한 폴더로 끕니다. 집합에서 특성을 제거하려면 특성을 **[!UICONTROL Unassigned Attributes]** 목록으로 끕니다.
 
    >[!NOTE]
    >
@@ -58,6 +58,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Unassigned Attributes]**&#x200B;을(를) 새 그룹으로 드래그합니다.
    - 다른 그룹의 속성을 새 그룹으로 드래그합니다.
+   - 불필요한 특성을 **[!UICONTROL Unassigned Attributes]**(으)로 끌어옵니다.
 
    새 그룹은 속성 세트를 기반으로 하는 모든 제품에서 속성의 섹션이 됩니다.
 
