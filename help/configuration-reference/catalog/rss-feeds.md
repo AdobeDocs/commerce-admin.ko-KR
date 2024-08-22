@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
 description: Commerce 관리자의 [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 239295ada2bdb3b94d9654b960a31ad8e102f93e
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 2%
 | [!UICONTROL Enable RSS] | 스토어 뷰 | 고객이 스토어에서 RSS 피드를 받을 수 있도록 합니다. |
 
 {style="table-layout:auto"}
+
+사용하도록 설정한 후 RSS 피드를 사용하는 방법에 대한 자세한 내용은 [소셜 미디어 및 RSS 피드](../../merchandising-promotions/social-rss.md)를 참조하십시오.
 
 ## [!UICONTROL Wish List]
 
