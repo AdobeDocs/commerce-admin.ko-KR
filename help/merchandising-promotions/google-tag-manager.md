@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: ' [!DNL Google Tag Manager] 을(를) 사용하여 Adobe Commerce 사이트의 마케팅 캠페인 이벤트와 관련된 많은 태그(코드 조각)를 관리하는 방법을 알아봅니다.'
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: be426ca16fb7a72ebeda4a2f92c0f0062a9acc62
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-[!DNL Google Tag Manager]을(를) 사용하면 마케팅 캠페인 이벤트와 관련된 많은 태그(코드 조각)를 관리할 수 있습니다. [!DNL Google Tag Manager]에서는 사이트에 추적 태그를 추가하여 대상자를 측정하거나 검색 엔진 마케팅 이니셔티브를 개인화, 리타겟팅 또는 수행할 수 있습니다.
+[!DNL Google Tag Manager]은(는) 마케팅 캠페인 이벤트와 관련된 다양한 태그(코드 조각)를 효율적으로 관리하고 배포하는 데 도움이 되는 강력한 도구입니다. [!DNL Google Tag Manager]에서는 사이트에 추적 태그를 추가하여 대상자를 측정하거나 검색 엔진 마케팅 이니셔티브를 개인화, 리타겟팅 또는 수행할 수 있습니다.
 
 [!DNL Google Tag Manager]은(는) 데이터와 이벤트를 [!DNL Google Analytics], Enhanced Ecommerce 및 다른 서드파티 분석 솔루션으로 직접 전송하여 사이트, 제품 및 프로모션의 성과를 명확하게 파악합니다.
 
@@ -137,24 +137,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >각 컨테이너는 하나의 웹 사이트와 연결되어 있으며 계정당 하나의 컨테이너만 있으면 됩니다. 다중 사이트 Commerce 인스턴스가 있는 경우 별도의 컨테이너가 필요합니다.
-
-## 4단계. Adobe Commerce 스토어에 GTM 코드 추가
-
-1. GTM 코드를 복사하려면 **[!UICONTROL Admin]** > **[!UICONTROL Install Google Tag Manager]**(으)로 이동합니다.
-
-   두 개의 GTM 코드 조각을 Commerce 사이트에 추가할 수 있습니다. 하나는 `<head>` 태그에 대한 것이고 다른 하나는 `<body>` 태그에 대한 것입니다.
-
-1. Commerce 관리자에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동하여 편집 모드로 스토어 보기를 엽니다.
-
-1. _[!UICONTROL Other Settings]_에서&#x200B;**[!UICONTROL HTML Head]**을(를) 확장하고 `<head>` 태그에 대해 GTM에서 복사한 코드를&#x200B;**[!UICONTROL Scripts and Style Sheets]**필드에 붙여넣습니다.
-
-   ![HTML 헤드에 코드 삽입](./assets/head-tag.png){width="600" zoomable="yes"}
-
-1. **[!UICONTROL Footer]**&#x200B;을(를) 확장하고 `<body>`의 GTM 코드를 **[!UICONTROL Miscellaneous HTML]** 필드에 붙여 넣습니다.
-
-   ![바닥글에 코드 삽입](./assets/footer-tag-section.png){width="600" zoomable="yes"}
-
-1. 완료되면 **[!UICONTROL Save Configuration]**&#x200B;을(를) 클릭합니다.
 
 ## 필드 설명
 

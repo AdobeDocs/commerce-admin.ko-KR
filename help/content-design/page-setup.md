@@ -2,9 +2,9 @@
 title: 페이지 설정
 description: 저장소 페이지의 기본 부분에 대한 기본값을 구성하는 방법에 대해 알아봅니다.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ HTML 헤드 섹션의 설정은 HTML 페이지의 `<head>` 태그에 해당하�
    - **[!UICONTROL Default Meta Keywords]**
 
 1. 필요에 따라 **[!UICONTROL Scripts and Style Sheets]**&#x200B;을(를) 입력합니다.
+
+   >[!NOTE]
+   >
+   >[!UICONTROL Scripts and Style Sheets] 필드에 입력한 모든 JavaScript은 CSP(콘텐츠 보안 정책) 설정에서 화이트리스트에 추가되어야 합니다. 그렇지 않으면 체크아웃 페이지에서 실행되지 않습니다. 자세한 내용은 [콘텐츠 보안 정책](https://developer.adobe.com/commerce/php/development/security/content-security-policies)을 참조하세요.
+
 
 1. 필요한 경우 [데모 스토어 알림](../getting-started/storefront-branding.md#set-the-store-demo-notice)을 활성화하거나 비활성화합니다.
 
@@ -118,6 +123,10 @@ HTML 헤드 섹션의 설정은 HTML 페이지의 `<head>` 태그에 해당하�
 1. _기타 설정_&#x200B;에서 **[!UICONTROL Footer]** 섹션의 ![확장 선택기](../assets/icon-display-expand.png)을 확장합니다.
 
 1. **[!UICONTROL Copyright]** 및 **[!UICONTROL Miscellaneous HTML]** 설정에 필요한 변경 작업을 수행합니다.
+
+   >[!NOTE]
+   >
+   >[!UICONTROL Miscellaneous HTML] 필드에 입력한 모든 JavaScript은 CSP(콘텐츠 보안 정책) 설정에서 화이트리스트에 추가되어야 합니다. 그렇지 않으면 체크아웃 페이지에서 실행되지 않습니다. 자세한 내용은 [콘텐츠 보안 정책](https://developer.adobe.com/commerce/php/development/security/content-security-policies)을 참조하세요.
 
 1. 완료되면 **[!UICONTROL Save Configuration]**&#x200B;을(를) 클릭합니다.
 
