@@ -3,9 +3,9 @@ title: 장바구니 가격 규칙 만들기
 description: 장바구니 또는 제품 속성을 기반으로 장바구니 가격 규칙을 만드는 방법을 알아봅니다.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7058e08de0de72999b3baf7762126be4e9040dba
+source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3379'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >우선 순위가 동일한 장바구니 가격 규칙은 결합된 할인을 생성하지 않습니다. 각 규칙은 일치하는 제품에 하나씩 개별적으로 적용됩니다.
+   >우선 순위가 동일한 장바구니 가격 규칙은 결합된 할인을 생성하지 않습니다. 각 규칙(쿠폰)은 데이터베이스의 장바구니 가격 규칙 ID에 따라 일치하는 제품에 개별적으로 적용됩니다. 할인이 적용되는 순서를 제어하기 위해, Adobe은 추가된 각 장바구니 가격 규칙에 대해 다른 우선 순위를 설정할 것을 권장합니다.
 
 1. 게시된 [RSS 피드](social-rss.md#rss-feeds)에 규칙을 적용하려면 **RSS 피드에서 공개**&#x200B;를 `Yes`(으)로 설정하십시오.
 

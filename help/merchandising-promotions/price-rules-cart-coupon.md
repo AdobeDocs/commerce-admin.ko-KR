@@ -3,9 +3,9 @@ title: 쿠폰 코드
 description: 조건 세트가 충족될 때 장바구니 가격 규칙과 함께 쿠폰 코드를 사용하여 할인을 적용하는 방법에 대해 알아봅니다.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7407df02ca62e36b4dd60dba418eae3e6aa34491
+source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
 workflow-type: tm+mt
-source-wordcount: '1839'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 0%
 쿠폰 코드는 이메일로 전송하거나 뉴스레터, 카탈로그 및 광고에 포함할 수 있습니다. 쿠폰 코드 목록을 내보내고 상업용 프린터로 보낼 수 있습니다. 또한 소비자가 스마트폰으로 스캔할 수 있는 빠른 응답 코드로 매장 내 쿠폰을 만들 수도 있습니다. QR 코드는 프로모션에 대한 자세한 정보가 포함된 사이트의 페이지에 연결할 수 있습니다.
 
 Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수 있습니다. 가맹점에서도 쇼핑 도우미를 활용해 여러 쿠폰을 신청할 수 있다.
+
+>[!NOTE]
+>
+>우선 순위가 동일한 장바구니 가격 규칙은 결합된 할인을 생성하지 않습니다. 각 규칙(쿠폰)은 데이터베이스의 장바구니 가격 규칙 ID에 따라 일치하는 제품에 개별적으로 적용됩니다. 할인이 적용되는 순서를 제어하기 위해, Adobe은 추가된 각 장바구니 가격 규칙에 대해 다른 우선 순위를 설정할 것을 권장합니다.
 
 ## 쿠폰 코드 구성
 
