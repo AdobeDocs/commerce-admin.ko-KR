@@ -3,9 +3,9 @@ title: 예약된 제품 업데이트
 description: 캠페인 및 프로모션 프로그램을 지원하도록 제품 목록에 대한 변경 사항을 예약하는 방법을 알아봅니다.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,10 @@ ht-degree: 0%
 1. 페이지 상단의 _[!UICONTROL Scheduled Changes]_상자에서&#x200B;**[!UICONTROL View/Edit]**을(를) 클릭합니다.
 
 1. 예약된 업데이트에 필요한 변경 작업을 수행합니다.
+
+>[!NOTE]
+>
+>캠페인이 둘 이상의 제품에 연결된 경우 [콘텐츠 스테이징 대시보드](../content-design/content-staging-dashboard.md)에서만 캠페인을 편집할 수 있습니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 

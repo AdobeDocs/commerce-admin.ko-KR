@@ -3,9 +3,9 @@ title: 카탈로그 가격 규칙에 대한 예약된 변경 사항
 description: 캠페인의 일부로 일정에 카탈로그 가격 규칙을 적용하고 다른 콘텐츠 변경 사항과 그룹화하는 방법을 알아봅니다.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ ht-degree: 0%
 1. 페이지 상단의 **[!UICONTROL Scheduled Changes]** 상자에서 **[!UICONTROL View/Edit]**&#x200B;을(를) 클릭합니다.
 
 1. 예약된 업데이트에 필요한 변경 작업을 수행합니다.
+
+   >[!NOTE]
+   >
+   >캠페인이 둘 이상의 카탈로그 가격 규칙에 연결되어 있는 경우 [콘텐츠 스테이징 대시보드](../content-design/content-staging-dashboard.md)에서만 캠페인을 편집할 수 있습니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 

@@ -3,9 +3,9 @@ title: 장바구니 가격 규칙에 대한 예약된 변경 사항
 description: 캠페인의 일부로 일정에 따라 장바구니 가격 규칙을 적용하고 다른 콘텐츠 변경 사항과 그룹화하는 방법을 알아봅니다.
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ ht-degree: 0%
 >모든 예약된 업데이트가 연속적으로 적용됩니다. 즉, 모든 엔티티는 한 시점에서 하나의 예약된 업데이트만 가질 수 있습니다. 모든 예약된 업데이트는 해당 시간대 내의 모든 스토어 보기에 적용됩니다. 따라서 엔티티는 서로 다른 스토어 보기에 대해 동시에 서로 다른 예약된 업데이트를 가질 수 없습니다. 현재 예약된 업데이트의 영향을 받지 않는 모든 스토어 뷰 내의 모든 엔티티 속성 값은 이전 예약된 업데이트가 아닌 기본값에서 가져옵니다.
 
 동일한 캠페인에서 여러 개의 가격 규칙이 실행되는 경우 가격 규칙의 _[!UICONTROL Priority]_설정에 따라 우선 순위가 결정됩니다. 자세한 내용은 [콘텐츠 스테이징](../content-design/content-staging.md)을 참조하세요.
+
+>[!NOTE]
+>
+>캠페인이 둘 이상의 장바구니 가격 규칙에 연결된 경우 [콘텐츠 스테이징 대시보드](../content-design/content-staging-dashboard.md)에서만 캠페인을 편집할 수 있습니다.
 
 다음 주의 사항에 유의하십시오.
 

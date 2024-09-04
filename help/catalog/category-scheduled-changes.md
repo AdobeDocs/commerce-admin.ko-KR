@@ -3,9 +3,9 @@ title: 범주에 대해 예약된 변경 사항
 description: 마케팅 캠페인 및 스토어 프로모션을 지원하기 위해 카테고리 변경을 예약하는 방법을 알아봅니다.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -69,3 +69,7 @@ ht-degree: 0%
 1. 예약된 업데이트에 필요한 사항을 변경합니다.
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+   >[!NOTE]
+   >
+   >캠페인이 둘 이상의 범주에 연결된 경우 [콘텐츠 스테이징 대시보드](../content-design/content-staging-dashboard.md)에서만 캠페인을 편집할 수 있습니다.
