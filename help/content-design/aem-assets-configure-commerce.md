@@ -3,9 +3,9 @@ title: Experience Manager Assets 통합 설치 및 구성
 description: Adobe Commerce 인스턴스에서  [!DNL AEM Assets Integration for Adobe Commerce] 을(를) 설치하고 구성하는 방법을 알아봅니다.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: c9dd925faf8396251a79b8326b11187ede61d2a7
+source-git-commit: 5e3de8e9b99c864e5650c59998e518861ca106f5
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -144,13 +144,13 @@ Commerce 서비스 커넥터를 사용하면 Commerce 인스턴스, Asset Rule E
 
 Adobe Commerce 인스턴스와 AEM Assets 통합을 활성화하는 서비스 간에 데이터를 전송하려면 다음과 같이 Commerce 서비스 커넥터를 구성합니다.
 
-- 인증을 위해 프로덕션 및 샌드박스 API 키로 Commerce 인스턴스를 구성합니다.
-- 보안 클라우드 저장소에 대한 데이터 공간(SaaS 식별자)을 지정하십시오.
-- AEM Assets에 액세스하는 데 사용하는 것과 동일한 IMS 조직에 로그인하여 데이터 세트와 Adobe Experience Platform 간의 연결을 설정하십시오.
+- 인증을 위한 프로덕션 및 샌드박스 API 키.
+- 보안 클라우드 스토리지를 위한 데이터 공간(SaaS 식별자)을 설정합니다.
+- Commerce 및 AEM Assets 환경이 프로비저닝되는 IMS 조직 ID를 제공합니다.
 
 자세한 지침은 [Commerce 서비스 커넥터](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid)를 참조하십시오.
 
-Commerce 서비스 커넥터를 구성하면 시스템에서 SaaS 프로젝트 및 데이터베이스 ID를 생성합니다. 테넌트 온보딩 프로세스 중에 이러한 ID가 필요합니다.
+Commerce 서비스 커넥터를 구성하면 시스템이 Commerce 서비스의 보안 클라우드 스토리지 환경을 식별하는 SaaS 프로젝트 및 데이터베이스 ID를 생성하고 관리자 구성에 ID를 표시합니다. 이러한 값은 자산 동기화를 위한 온보딩 프로세스를 완료하는 데 필요합니다.
 
 AEM Assets 통합을 위한 ![SaaS 프로젝트 및 데이터 공간 ID](assets/aem-saas-project-config.png){width="600" zoomable="yes"}
 
@@ -165,8 +165,11 @@ AEM Assets 통합은 Adobe I/O 이벤트 서비스를 사용하여 Commerce 인�
 - RabbitMQ이 활성화되어 있고 이벤트를 수신하는지 확인합니다.
    - [Adobe Commerce 온-프레미스에 대한 RabbitMQ 설정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
    - [클라우드 인프라에서 Adobe Commerce에 대한 RabbitMQ 설정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+   - [cron 작업이 활성화되었는지 확인](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). AEM Assets 통합을 위한 통신 및 워크플로에 Cron 작업이 필요합니다.
 
-- Commerce 버전 2.4.5의 프로젝트의 경우 [Adobe I/O 모듈을 설치](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce)해야 합니다. Commerce 버전 2.4.6 이상에서는 이러한 모듈이 자동으로 로드됩니다.
+>[!NOTE]
+>
+> Commerce 버전 2.4.5의 프로젝트의 경우 [Adobe I/O 모듈을 설치](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce)해야 합니다. Commerce 버전 2.4.6 이상에서는 이러한 모듈이 자동으로 로드됩니다. Commerce용 AEM Assets 통합의 경우 모듈만 설치하면 됩니다. App Builder 설정은 필요하지 않습니다.
 
 >[!ENDSHADEBOX]
 
@@ -182,9 +185,7 @@ Commerce 관리에서 이벤트 프레임워크를 활성화합니다.
 
    ![Adobe I/O 이벤트 Commerce 관리 구성 - Commerce 이벤트 사용](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
-   >[!NOTE]
-   >
-   >[cron 작업이 활성화되었는지 확인](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Commerce에서 AEM Assets과 Commerce 간의 통신 및 워크플로를 관리하려면 크론 작업이 필요합니다.
+1. **[!UICONTROL Merchant ID]**&#x200B;에 판매자 회사 이름을 입력하고 **[!UICONTROL Environment ID]** 필드에 환경 이름을 입력하십시오. 이러한 값을 설정할 때는 영숫자와 밑줄만 사용하십시오.
 
 ## API 액세스에 대한 인증 자격 증명 가져오기
 
@@ -233,4 +234,3 @@ Commerce 인스턴스에 통합을 추가하고 활성화하여 자격 증명을
 >[!NOTE]
 >
 >Adobe Commerce API를 사용하여 인증 자격 증명을 생성할 수도 있습니다. 이 프로세스에 대한 자세한 내용과 Adobe Commerce의 OAuth 기반 인증에 대한 자세한 내용은 Adobe Developer 설명서의 [OAuth 기반 인증](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)을 참조하십시오.
-
