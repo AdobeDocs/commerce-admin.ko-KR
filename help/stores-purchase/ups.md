@@ -3,9 +3,9 @@ title: UPS(United Parcel Service)
 description: UPS를 상점의 배송 운송업체로 설정하는 방법에 대해 알아보십시오.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ United Parcel Service(UPS)는 220개 이상의 국가에 육로 및 항공으로
 
    - 보안 연결을 통해 UPS 배송 시스템에 데이터를 보내려면 **[!UICONTROL Mode]**&#x200B;을(를) `Live`(으)로 설정하십시오. (개발 모드에서는 보안 연결을 통해 데이터를 전송하지 않습니다.)
 
-   - 요청을 보내는 데 필요한 **[!UICONTROL Gateway URL]**&#x200B;을(를) 확인하십시오. 테스트 모드에는 샌드박스 URL을 사용하고 라이브 요청에는 프로덕션 URL을 사용합니다.
+   - 요청을 보내는 데 필요한 **[!UICONTROL Gateway URL]**&#x200B;을(를) 확인하십시오. 테스트 모드에는 샌드박스 URL(`https://wwwcie.ups.com/`)을 사용하고 라이브 요청에는 프로덕션 URL(`https://onlinetools.ups.com`)을 사용합니다. 지정된 호스트가 있는 각 요청에 대해 각 끝점을 사용해야 합니다.
 
-   - 추적 정보를 가져오는 데 필요한 **[!UICONTROL Tracking URL]**&#x200B;을(를) 확인하십시오. 테스트 모드에는 샌드박스 URL을 사용하고 라이브 요청에는 프로덕션 URL을 사용합니다.
+   - 추적 정보를 가져오는 데 필요한 **[!UICONTROL Tracking URL]**&#x200B;을(를) 확인하십시오. 테스트 모드에는 샌드박스 URL(`https://wwwcie.ups.com/`)을 사용하고 라이브 요청에는 프로덕션 URL(`https://onlinetools.ups.com`)을 사용합니다. 지정된 호스트가 있는 각 요청에 대해 각 끝점을 사용해야 합니다.
 
    - **[!UICONTROL Origin of the Shipment]**&#x200B;을(를) 배송이 시작된 지역으로 설정합니다.
 
@@ -50,8 +50,8 @@ United Parcel Service(UPS)는 220개 이상의 국가에 육로 및 항공으로
 
    - **[!UICONTROL Live Account]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Yes` - 프로덕션 모드에서 UPS를 실행하고 고객에게 배송 방법으로 UPS를 제공합니다.
-      - `No` - 테스트 모드에서 UPS를 실행합니다.
+      - `Yes` - 프로덕션 모드에서 UPS를 실행하고 고객에게 배송 방법으로 UPS를 제공합니다. 게이트웨이 URL 및 추적 URL에서 올바른 끝점을 사용해야 합니다.
+      - `No` - 테스트 모드에서 UPS를 실행합니다. 게이트웨이 URL 및 추적 URL에서 올바른 끝점을 사용해야 합니다.
 
    >[!NOTE]
    >

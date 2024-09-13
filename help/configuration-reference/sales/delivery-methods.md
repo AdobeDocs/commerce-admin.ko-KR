@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Commerce 관리자의 [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 8e80e6f33ede2f49f320394905b9d1a964cf8331
 workflow-type: tm+mt
-source-wordcount: '3773'
+source-wordcount: '3792'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 0%
 | [!UICONTROL Live Account] | 스토어 뷰 | United Parcel Service 계정이 라이브임을 지정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Title] | 스토어 뷰 | 체크아웃 중에 이 배송 방법에 사용되는 이름입니다. |
 | _[!UICONTROL UPS REST Account Settings]_ |  |  |
-| [!UICONTROL Gateway URL] | 웹 사이트 | UPS REST 서비스의 경우 에는 JSON 데이터를 전송하는 데 필요한 게이트웨이 URL, 추적 URL, 배송 URL의 URL이 표시됩니다 |
+| [!UICONTROL Gateway URL] | 웹 사이트 | UPS REST 서비스의 경우 에는 JSON 데이터를 전송하는 데 필요한 게이트웨이 URL, 추적 URL, 배송 URL의 URL이 표시됩니다. 라이브 계정 설정에 따라 샌드박스 또는 프로덕션 엔드포인트를 사용합니다. |
 | [!UICONTROL Mode] | 웹 사이트 | UPS 시스템으로 전송되는 데이터에 사용되는 전송 모드를 결정합니다. 옵션: <br/>**`Development`**- UPS는 Commerce 서버에서 받은 데이터가 SSL을 통해 전송되는지 확인하지 않습니다.<br/>**`Live`** - UPS는 Commerce 서버에서 받은 데이터가 SSL(Secure Socket Layer)을 통해 전송되는지 확인합니다. |
 | 사용자 ID | 웹 사이트 | UPS 발송자 계정 클라이언트 ID. |
 | [!UICONTROL Origin of the Shipment] | 웹 사이트 | (UPS REST만 해당) 제품 선적이 시작된 국가 또는 지역. |
@@ -140,7 +140,7 @@ ht-degree: 0%
 | [!UICONTROL Shipper Number] | 웹 사이트 | (UPS REST만 해당) 협상된 비율을 사용하려면 6자의 UPS 배송자 번호가 필요합니다. |
 | [!UICONTROL Container] | 웹 사이트 | 납품을 포장하는 데 사용되는 컨테이너 유형을 설정합니다. 옵션: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
 | [!UICONTROL Weight Unit] | 웹 사이트 | 스토어의 제품 중량에 대한 기본 측정 단위를 설정합니다. 자세한 내용은 [차원 가중치](../../stores-purchase/carriers.md#dimensional-weight)를 참조하십시오. |
-| [!UICONTROL Tracking URL] | 웹 사이트 | (UPS REST만 해당) 패키지를 추적하는 데 사용되는 UPS URL입니다. |
+| [!UICONTROL Tracking URL] | 웹 사이트 | (UPS REST만 해당) 패키지를 추적하는 데 사용되는 UPS URL입니다. 프로덕션에 `https://onlinetools.ups.com/api/track`을(를) 사용하거나 샌드박스 설정에 `https://wwwcie.ups.com/api/track`을(를) 사용합니다. |
 | [!UICONTROL Destination Type] | 웹 사이트 | 기본 발송 대상 유형을 설정합니다. 옵션: `Business` / `Residential` |
 | [!UICONTROL Maximum Package Weight] | 웹 사이트 | UPS에서 지정한 대로 패키지를 지정할 수 있는 최대 가중치를 설정합니다. 주문한 제품이 최대 패키지 중량을 초과하면 이 배송 옵션을 이용할 수 없습니다. [UPS.com](https://www.ups.com/us/en/global.page)에 따르면, 패키지는 70kg(150파운드)을 초과할 수 없습니다. 최대 중량을 확인하려면 운송업체에 문의하십시오. |
 | [!UICONTROL Pickup Method] | 웹 사이트 | UPS 픽업 방법을 설정합니다. 옵션: `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter` |
