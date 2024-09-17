@@ -3,9 +3,9 @@ title: 카탈로그 가격 규칙 만들기
 description: 조건 세트가 충족될 때마다 특정 제품에 할인을 적용하는 카탈로그 가격 규칙을 만드는 방법을 알아봅니다.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 0f26e981a1ba5bffb1acdeeb4320415772826aba
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >동일한 카탈로그 제품이 두 개 이상의 가격 규칙에 설정된 조건을 충족하면 _[!UICONTROL Priority]_설정이 중요합니다. 우선 순위 설정이 가장 높은 규칙(1이 가장 높음)이 제품에 대해 활성화됩니다.
+   >동일한 카탈로그 제품이 두 개 이상의 가격 규칙에 설정된 조건을 충족하면 _[!UICONTROL Priority]_설정이 중요합니다. 우선 순위 설정이 가장 높은 규칙(가장 높은 우선 순위에서 가장 낮은 우선 순위는 0,1,2,3...)이 제품에 대해 활성화됩니다.
 
 ## 2단계: 조건 정의
 
@@ -236,7 +236,7 @@ ht-degree: 0%
 | [!UICONTROL Description] | 규칙에 대한 설명은 규칙의 목적을 포함하고 규칙의 사용 방법을 설명해야 합니다. |
 | [!UICONTROL Websites] | (필수) 규칙을 사용할 수 있는 웹 사이트를 식별합니다. |
 | [!UICONTROL Customer Groups] | (필수) 규칙이 적용되는 고객 그룹을 식별합니다. |
-| [!UICONTROL Priority] | 다른 규칙과 관련한 이 규칙의 우선 순위를 나타내는 숫자입니다. 가장 높은 우선순위는 1번입니다. |
+| [!UICONTROL Priority] | 다른 규칙과 관련한 이 규칙의 우선 순위를 나타내는 숫자입니다. 높은 우선 순위에서 낮은 우선 순위는 `0,1,2,3...`입니다. |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 저장소에서 규칙이 활성화되어 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 가격 규칙이 적용되는 첫 날을 지정합니다. 비워 두면 가격 규칙이 저장될 때 적용됩니다. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 가격 규칙이 적용되는 마지막 날을 지정합니다. 비워 두면 가격 규칙은 무기한 계속됩니다. |

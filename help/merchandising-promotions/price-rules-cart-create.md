@@ -3,9 +3,9 @@ title: 장바구니 가격 규칙 만들기
 description: 장바구니 또는 제품 속성을 기반으로 장바구니 가격 규칙을 만드는 방법을 알아봅니다.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
+source-git-commit: 83f341c59ab9517a076eaaba71f4988e21abf826
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3386'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >두 장바구니 규칙/쿠폰 코드가 동일한 제품에 동시에 유효한 경우 우선순위 설정이 중요합니다. 우선 순위가 가장 높은 규칙(`1`이 가장 높은)은 장바구니 작업을 제어합니다. _작업 정의_ 단계에서 _후속 가격 규칙 삭제_&#x200B;를 참조하십시오.
+   >_[!UICONTROL Priority]_설정은 두 장바구니 규칙이나 쿠폰 코드가 같은 제품에 동시에 유효한 경우에 중요합니다. 장바구니 작업을 제어하는 설정이 가장 높은 [!UICONTROL Priority] 규칙입니다.  가장 높은 우선 순위에서 가장 낮은 우선 순위는 `0,1,2,3...`입니다._[&#x200B;작업 정의&#x200B;](#step-3-define-the-actions)_단계에서_&#x200B;후속 가격 규칙 삭제&#x200B;_를 참조하십시오.
 
    >[!NOTE]
    >
@@ -350,7 +350,7 @@ Real-Time CDP [대상자](../customers/audience-activation.md)를 기반으로 �
 | [!UICONTROL Coupon] | (필수) 쿠폰이 규칙과 연결되어 있는지 여부를 나타냅니다. 옵션: <br/>**[!UICONTROL No Coupon]**- 규칙과 연결된 쿠폰이 없습니다.<br/>**[!UICONTROL Specific Coupon]** - 특정 쿠폰이 규칙과 연결되어 있습니다. <br/>**[!UICONTROL Coupon Code]**- 메시지가 표시되면 고객이 입력해야 하는 쿠폰 코드를 입력하여 프로모션을 활용합니다.<br/>**[!UICONTROL Use Auto Generation]** - 프로모션과 함께 사용할 수 있는 여러 쿠폰 코드를 자동으로 생성하려면 확인란을 선택하십시오. <br/>**[!UICONTROL Auto]**- 생성할 쿠폰 코드의 형식을 정의하는 _[!UICONTROL Manage Coupon Codes]_섹션을 표시합니다. |
 | [!UICONTROL Uses per Coupon] | 쿠폰 코드를 사용할 수 있는 횟수를 결정합니다. 제한이 없는 경우 필드를 비워 둡니다. |
 | [!UICONTROL Uses per Customer] | 선택한 고객 그룹에 속하는 등록된 동일한 고객이 장바구니 가격 규칙을 사용할 수 있는 횟수를 결정합니다. NOT LOGGED IN 고객 그룹의 멤버인 게스트 쇼핑객이나 계정에 로그인하지 않고 쇼핑하는 고객에게는 적용되지 않습니다. 제한을 두지 않으려면 비워 둡니다. |
-| [!UICONTROL Priority] | 다른 규칙과 관련한 이 규칙의 우선 순위를 나타내는 숫자입니다. 가장 높은 우선 순위는 `1`입니다. |
+| [!UICONTROL Priority] | 다른 규칙과 관련한 이 규칙의 우선 순위를 나타내는 숫자입니다. 높은 우선 순위에서 낮은 우선 순위는 `0,1,2,3...`입니다. |
 | [!UICONTROL Public in RSS Feed] | 스토어의 공개 RSS 피드에 프로모션이 포함되어 있는지 여부를 결정합니다. 옵션:  `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 쿠폰을 사용할 수 있는 첫 번째 날짜입니다. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 쿠폰을 사용할 수 있는 마지막 날짜입니다. |
