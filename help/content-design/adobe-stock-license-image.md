@@ -3,9 +3,9 @@ title: Adobe Stock 이미지에 라이센스 부여
 description: 법적 액세스 권한을 확보하고 Adobe Stock 워터마크를 제거하려면 Adobe Stock 이미지에 라이선스를 부여하십시오.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: ee619d6a46948a714789dfbc275735df8669cdcb
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 0%
 
 새 [[!DNL Media Gallery]](media-gallery.md)은(는) Adobe Stock과 직접 통합되므로 갤러리 페이지에서 직접 이미지에 라이선스를 부여하기가 쉽습니다.
 
-## 전제 조건
+>[!BEGINSHADEBOX]
 
-이 기능을 사용하려면 [Adobe Stock 통합][adobe-stock-integration] 모듈과 구성이 필요합니다. [Adobe Stock][adobe-stock] 이미지에 라이선스를 부여하려면 유료 Adobe Stock 플랜과 [Adobe 계정][adobe-signin]이 필요합니다.
+**전제 조건**
+
+Adobe Stock 라이선스 기능은 [Adobe Stock 통합][adobe-stock-integration]이 설치 및 구성된 경우에만 사용할 수 있습니다. [Adobe Stock][adobe-stock] 이미지에 라이선스를 부여하려면 유료 Adobe Stock 플랜과 [Adobe 계정][adobe-signin]이 필요합니다.
+
+>[!ENDSHADEBOX]
 
 ## 새 [!DNL Media Gallery]에서 이미지 라이선스 부여
 
