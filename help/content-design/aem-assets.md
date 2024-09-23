@@ -2,18 +2,19 @@
 title: Commerce용 Experience Manager Assets 통합
 description: Experience Manager Assets을  [!DNL Commerce] 인스턴스와 통합하여 스토어에서 사용할 수 있는 수많은 미디어 자산에 액세스하는 방법에 대해 알아봅니다.
 feature: CMS, Media, Configuration, Integration
-source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
+exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
+source-git-commit: 98181692df99ab4beaa232f1662a29b16a053210
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
-# Commerce용 Experience Manager Assets 통합
+# Commerce용 고급 에셋 관리
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-Commerce과 Adobe Experience Manager(AEM) Assets 간의 통합은 AEM as a Digital Asset Management(DAM) 시스템의 강력한 기능과 Adobe Commerce을 결합하여 eCommerce 경험을 향상시킵니다. 이 통합은 AEM의 강력한 에셋 관리 기능을 활용하여 상거래 상점 전반에서 에셋을 원활하고 확장 가능하며 효율적으로 관리하고 제공할 수 있습니다.
+Commerce용 Advanced Asset Management는 AEM as a Digital Asset Management(DAM) 시스템의 강력한 기능을 Adobe Commerce과 결합하여 전자 상거래 경험을 향상시킵니다. Commerce 프로젝트를 AEM의 강력한 자산 관리 환경에 연결하여 이러한 기능을 제공함으로써 상거래 상점 전반에서 자산을 원활하고 확장 가능하며 효율적으로 관리 및 제공할 수 있습니다.
 
 **주요 기능**
 
@@ -28,26 +29,7 @@ Commerce과 Adobe Experience Manager(AEM) Assets 간의 통합은 AEM as a Digit
 - **자동화된 자산 일치**-통합에는 SKU 또는 다른 주요 특성을 기반으로 AEM의 자산을 Adobe Commerce의 제품과 자동으로 일치시키는 규칙 엔진 서비스가 포함되어 있습니다. 이 서비스는 최신 제품 에셋 및 변형을 전자 상거래 상점 맨 앞에서도 항상 사용할 수 있도록 합니다. 또한 에셋을 관리하는 데 필요한 수작업이 줄어들어 보다 전략적인 활동에 시간을 할애할 수 있습니다.
 
 - **간소화된 프로세스**
+
    - **Commerce 관리자에서 통합을 활성화하고 구성**-관리자와 개발자는 익숙한 도구 및 프로세스를 사용하여 Adobe Commerce에서 통합을 설치하고 구성할 수 있습니다.
    - **동적 업데이트**-자산 관리 시스템의 최신 변경 내용으로 제품 이미지를 최신 상태로 유지합니다. 이러한 자동 업데이트를 통해 상거래 상점 전면에는 항상 최신 제품 정보가 있습니다.
    - **효율적인 카탈로그 관리**-자산 정리 및 새로 고침을 자동화하여 제품 카탈로그를 간편하게 유지 관리할 수 있습니다.
-
-## Commerce 및 Experience Manager Assets 통합
-
->[!BEGINSHADEBOX]
-
-**필수 구성 요소**
-
-- Adobe Commerce은 할당된 조직 ID를 사용하여 Adobe ID과 [Commerce Admin 통합](/help/getting-started/adobe-ims-config.md)을 통해 구성해야 합니다.
-- Experience Manager Assets은 동일한 조직 ID에 제품으로 할당되어야 합니다.
-- 통합을 구성하는 사용자는 Adobe Commerce 및 Experience Manager Assets에 액세스하려면 관리 권한이 있는 동일한 조직의 계정이 있어야 합니다.
-
->[!ENDSHADEBOX]
-
-다음 작업을 완료하여 Experience Manager Assets과의 Commerce 통합을 활성화합니다.
-
-1. [Commerce 에셋을 관리하도록 Experience Manager Assets 프로젝트 구성](aem-assets-configure-aem.md)
-
-1. [Experience Manager Assets 통합 확장 설치 및 Adobe Commerce 구성](aem-assets-configure-commerce.md)
-
-1. [자산 동기화 활성화](aem-assets-setup-synchronization.md)

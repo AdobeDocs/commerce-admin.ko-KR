@@ -3,10 +3,10 @@ user-guide-title: 콘텐츠 및 디자인 안내서
 user-guide-description: Adobe Commerce, Magento Open Source 관리자 및 전자 상거래 마케터를 위한 콘텐츠 및 디자인 기능에 대한 포괄적인 정보입니다.
 breadcrumb-title: 컨텐츠 및 디자인
 feature: CMS, Page Content
-source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
+source-git-commit: ea1532d326d3e787ba36cb98ced708f2bc2776e4
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '238'
+ht-degree: 4%
 
 ---
 
@@ -57,19 +57,11 @@ ht-degree: 3%
    - [이미지 삽입](editor-insert-image.md)
    - [위젯 삽입](editor-widget.md)
    - [변수 삽입](editor-insert-variable.md)
-- 미디어 {#media}
    - 미디어 저장소 {#storage}
       - [개요](media-storage.md)
       - [미디어 데이터베이스 사용](media-storage-database.md)
       - [컨텐츠 전달 네트워크 사용](media-storage-content-delivery-network.md)
       - [Dynamic Media URL](catalog-urls-dynamic-media.md)
-   - Experience Manager Assets {#aem-assets}
-      - [Assets 통합](aem-assets.md)
-      - {#onboarding} 온보딩
-         - [AEM Assets 구성](aem-assets-configure-aem.md)
-         - [Adobe Commerce 구성](aem-assets-configure-commerce.md)
-         - [자산 동기화 활성화](aem-assets-setup-synchronization.md)
-      - [AEM Assets 사용](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Adobe Stock 통합](adobe-stock.md)
       - [Adobe Stock 이미지 사용](adobe-stock-manage.md)
@@ -80,6 +72,15 @@ ht-degree: 3%
       - [자산 관리](media-gallery-asset-management.md)
       - [폴더 관리](media-gallery-folder-management.md)
       - [이미지 최적화](media-gallery-image-optimization.md)
+- 고급 자산 관리 {#aem-assets}
+   - [Commerce용 AEM Assets 통합](aem-assets.md)
+   - {#onboarding} 통합 설정
+      - [개요](aem-assets-setup.md)
+      - [AEM Assets 구성](aem-assets-configure-aem.md)
+      - [Adobe Commerce 구성](aem-assets-configure-commerce.md)
+      - [자산 동기화 활성화](aem-assets-setup-synchronization.md)
+   - [AEM Assets 사용](aem-assets-manage.md)
+- 미디어 {#media}
 - 콘텐츠 스테이징 {#staging}
    - [개요](content-staging.md)
    - [업데이트 예약](content-staging-scheduled-update.md)
@@ -87,4 +88,3 @@ ht-degree: 3%
    - [캠페인 항목 추가](content-staging-add-item.md)
    - [캠페인 미리 보기](content-staging-preview.md)
 - [판매자 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
-
