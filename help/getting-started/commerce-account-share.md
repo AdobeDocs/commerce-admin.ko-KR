@@ -3,9 +3,9 @@ title: ' [!DNL Commerce] 계정 공유'
 description: 다른 [!DNL Commerce] 계정 소유자의  [!DNL Commerce] 계정에 제한된 액세스 권한을 부여하는 방법을 알아보세요.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: ec634ebedd43b8bbc6b4a3e5079035b055740f2d
+source-git-commit: 8f8cb141c79b8b5a57363faf7ec5c8f2e75bb473
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,11 @@ ht-degree: 0%
    계정의 왼쪽 탐색 패널에 새 _[!UICONTROL Shared with me]_탭이 있습니다. 오른쪽 상단의_[!UICONTROL Switch Accounts]_ 컨트롤에는 `My Account`에 대한 옵션과 공유 계정 이름이 있습니다.
 
    ![나와 공유](./assets/shared-with-me.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >   _[!UICONTROL Switch Accounts]_컨트롤이 표시되지 않으면 기본 계정 소유자에게 연락하여 올바른 [계정 정보](#set-up-a-shared-account)를 입력했는지 확인하십시오.
+
 
 1. 공유 계정에 액세스하려면 **[!UICONTROL Switch Accounts]**&#x200B;을(를) 공유 계정의 이름으로 설정하십시오.
 
