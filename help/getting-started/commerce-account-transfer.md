@@ -3,7 +3,7 @@ title: Commerce 계정 양도
 description: Commerce 계정을 다른 소유자 또는 이메일 주소로 전송하는 방법을 알아봅니다.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 03a16730eebe3979157bc9eb847ac2b232d938bf
+source-git-commit: 5c7fbeaa0f09cb106c3105e3c36871df7e1bc368
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -69,6 +69,8 @@ ht-degree: 0%
 1. 새 이메일 주소로 전송된 확인 코드를 입력합니다.
 
 1. **[!UICONTROL Verify]**&#x200B;을(를) 클릭합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## 이메일 변경
 
