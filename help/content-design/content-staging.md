@@ -3,9 +3,9 @@ title: 컨텐츠 스테이징
 description: 콘텐츠 스테이징은 비즈니스 팀이 관리자로부터 직접 스토어에 대한 광범위한 콘텐츠 업데이트를 쉽게 만들고, 미리 보고, 예약할 수 있도록 합니다.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: d4c5cac590bff290e81c1c8fa55a5ca7b4d9a017
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,10 @@ _campaign_ 용어는 예약된 변경 내용 또는 스테이징 대시보드에
 1. **기준 콘텐츠 복원**
 
    모든 캠페인에 종료 날짜가 있는 경우 모든 활성 캠페인이 종료될 때마다 기준선 컨텐츠가 복원됩니다.
+
+   >[!NOTE]
+   >
+   >활성 캠페인이 종료 날짜 없이 처음 만들어지는 경우 나중에 종료 날짜를 포함하도록 캠페인을 편집할 수 없습니다. 이러한 경우 중복 캠페인을 만들고 필요한 종료 날짜를 입력해야 합니다.
 
 >[!NOTE]
 >

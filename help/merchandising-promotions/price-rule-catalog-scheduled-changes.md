@@ -3,9 +3,9 @@ title: 카탈로그 가격 규칙에 대한 예약된 변경 사항
 description: 캠페인의 일부로 일정에 카탈로그 가격 규칙을 적용하고 다른 콘텐츠 변경 사항과 그룹화하는 방법을 알아봅니다.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 11f8fcba70491f9dcb6c20d14b406fba4b14cab4
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->가격 규칙이 포함된 캠페인을 처음에 종료 날짜 없이 만든 경우 종료 날짜를 포함하도록 캠페인을 나중에 편집할 수 없습니다. 캠페인을 만들 때 종료 날짜를 추가하거나 기존 캠페인의 중복 버전을 만들고 필요에 따라 종료 날짜를 중복에 추가하는 것이 좋습니다.
+>활성 캠페인이 종료 날짜 없이 처음 만들어지는 경우 나중에 종료 날짜를 포함하도록 캠페인을 편집할 수 없습니다. 이러한 경우 중복 캠페인을 만들고 필요한 종료 날짜를 입력해야 합니다.
 
 ![카탈로그 가격 규칙 - 예약된 변경 내용](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
 

@@ -3,9 +3,9 @@ title: 컨텐츠 스테이징 대시보드
 description: 컨텐츠 스테이징 대시보드를 사용하여 모든 활성 및 예정된 캠페인에 대한 개요에 액세스합니다.
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->가격 규칙이 포함된 캠페인을 처음에 종료 날짜 없이 만든 경우 종료 날짜를 포함하도록 캠페인을 나중에 편집할 수 없습니다. 이러한 경우 중복 캠페인을 만들고 필요한 종료 날짜를 입력해야 합니다.
+>활성 캠페인이 종료 날짜 없이 처음 만들어지는 경우 나중에 종료 날짜를 포함하도록 캠페인을 편집할 수 없습니다. 이러한 경우 중복 캠페인을 만들고 필요한 종료 날짜를 입력해야 합니다.
 
 ![캠페인 세부 정보](./assets/content-staging-dashboard-view-edit.png){width="600" zoomable="yes"}
 
