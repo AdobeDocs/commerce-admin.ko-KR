@@ -1,6 +1,6 @@
 ---
 title: Commerce 머천다이징 및 프로모션 소개
-description: 타겟팅된 프로모션 및 고객 참여 기회 창출을 위한 Commerce 도구에 대해 알아봅니다.
+description: 타기팅된 프로모션 및 고객 참여 기회 창출을 위한 Commerce 도구에 대해 알아봅니다.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
