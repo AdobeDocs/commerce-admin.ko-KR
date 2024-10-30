@@ -4,9 +4,9 @@ description: 회사 관리자가 회사 사용자에게 적용할 수 있는 역
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
 feature: B2B, Companies, Roles/Permissions
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: bad59798a1a6d97826dc421fe8614ef511e067bd
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -89,40 +89,9 @@ ht-degree: 0%
 
 ## 역할 권한
 
-- 모두
-   - 판매
-      - 체크아웃 허용(주문)
-         - 계정입금 방법 사용
-      - 주문 보기
-         - 하위 사용자의 주문 보기
-- 따옴표
-   - 보기
-      - 요청, 편집, 삭제
-      - 견적을 사용한 체크아웃
-      - 하위 사용자의 견적 보기
-- 주문 승인
-   - 내 구매 주문 보기
-      - 하위 항목에 대한 보기
-      - 모든 회사에 대한 보기
-   - 이 역할 내에서 생성된 PO 자동 승인
-   - 다른 승인 없이 구매 발주 승인
-   - 승인 규칙 보기
-      - 만들기, 편집 및 삭제
-- 회사 프로필
-   - 계정 정보(보기)
-      - 편집
-   - 법적 주소
-      - 편집
-   - 연락처(보기)
-   - 결제 정보(조회)
-   - 배송 정보(조회)
-- 회사 사용자 관리
-   - 역할 및 권한 보기
-      - 역할 및 권한 관리
-   - 사용자 및 팀 보기
-      - 사용자 및 팀 관리
-- 회사 신용
-   - 보기
+회사 관리자는 [!UICONTROL Edit action]을(를) 선택한 다음 **역할 권한** 목록에서 권한을 선택하거나 제거하여 역할에 대한 권한 구성을 업데이트할 수 있습니다.
+
+![역할 및 권한 목록](./assets/role-permissions-list.png){width="700" zoomable="yes"}
 
 ## 회사 사용자에게 역할 할당
 

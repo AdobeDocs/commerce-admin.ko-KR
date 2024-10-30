@@ -3,9 +3,9 @@ title: ' [!DNL Adobe Commerce B2B] 소개'
 description: 기업 고객의 요구 사항을 충족하기 위해 통합 B2B 기능을 사용하는 방법에 대해 알아봅니다.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: 8e4e070f41f7d3bf872e81c9805e7c24779b812d
+source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '803'
 ht-degree: 2%
 
 ---
@@ -29,8 +29,6 @@ Adobe Commerce 스토어의 B2B 확장 [설치](install.md) 및 [지원](enable-
 >사용하도록 설정하면 스토어에서 _계좌 결제_ 옵션을 회사에 제공할 수 있습니다. 이는 회사 크레딧 라인에서 구매하는 것을 의미합니다. 판매자로서 회사 계정에 대한 크레딧을 할당하고 회사에 대한 크레딧 설정 및 크레딧 상환을 관리할 수 있습니다.
 
 ## 회사 경영
-
-[!BADGE 1.5.0-베타]{type=Informative url="/help/b2b/release-notes.md" tooltip="Beta 프로그램 참가자만 사용 가능"}
 
 판매자 관리자는 회사 관리를 통해 복잡한 운영 모델을 통해 B2B 조직의 관리 및 관리를 간소화할 수 있습니다.
 

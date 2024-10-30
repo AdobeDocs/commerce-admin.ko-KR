@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] 릴리스 노트'
 description: ' [!DNL Adobe Commerce B2B] 릴리스의 변경 내용에 대한 정보는 릴리스 정보를 검토하십시오.'
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: a63af8ac948422e4c6dd64408eaa48252b771d7f
+source-git-commit: b3892e2b34aae1579472f3562e479267cca2dce3
 workflow-type: tm+mt
-source-wordcount: '7198'
+source-wordcount: '7776'
 ht-degree: 0%
 
 ---
@@ -22,47 +22,84 @@ B2B 확장에 대한 이러한 릴리스 노트는 다음을 포함하여 Adobe�
 >
 >사용 가능한 Adobe Commerce 릴리스에서 지원되는 B2B Commerce 확장 버전에 대한 정보는 [제품 가용성](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html)을 참조하십시오.
 
-## B2B 1.5.0-베타
 
-{{$include /help/_includes/b2b-beta-note.md}}
+## B2B 1.5.0
 
-*2023년 11월 13일*
+*2024년 10월 30일*
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+Adobe Commerce 버전 2.4.8-beta1, 2.4.7 - 2.4.7-p2, 2.4.6 - 2.4.6-p7과 호환
 
-B2B v1.5.0 베타 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 포함되어 있습니다.
+B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 포함되어 있습니다.
 
-견적 기능에 대한 ![새로운 기능](../assets/new.svg) 개선으로 구매자와 판매자가 견적과 견적 협상을 보다 효과적으로 관리할 수 있습니다.
+### 회사 관리
 
-- **견적을 초안으로 저장**<!--B2B-2566-->—장바구니에서 [견적 요청](quote-request.md)을 만들 때 구매자는 이제 [!UICONTROL Request a Quote] 양식에서 **[!UICONTROL Save as Draft]**&#x200B;을(를) 선택하여 견적을 초안으로 저장할 수 있습니다.
+![새로 만들기](../assets/new.svg) **회사 관리**<!--B2B-2901-->—이제 판매자는 지정된 상위 회사에 회사를 할당하여 Adobe Commerce 회사를 계층적 조직으로 보고 관리할 수 있습니다. 회사가 상위에 할당된 경우 상위 회사 관리자가 회사 계정을 관리할 수 있습니다. 승인된 관리자 사용자만 회사 할당을 추가하고 관리할 수 있습니다. 자세한 내용은 [회사 계층 구조 관리](manage-company-hierarchy.md)를 참조하십시오.
 
-  초안 견적에 만료일이 없습니다. 구매자는 계정 대시보드의 [!UICONTROL My Quotes] 섹션에서 초안 견적을 검토하고 업데이트할 수 있습니다.
+- 관리자의 *[!UICONTROL Company Account]* 페이지에 있는 새 *[!UICONTROL Company Hierarchy]* 섹션에서 회사 할당을 추가하고 관리합니다.
 
-- **견적 이름 바꾸기**<!--B2B-2596--> - 이제 구매자는 **[!UICONTROL Rename]** 옵션을 선택하여 [견적 세부 정보](account-dashboard-my-quotes.md#quote-actions) 페이지에서 견적 이름을 변경할 수 있습니다. 이 옵션은 승인된 구매자가 견적을 편집할 때 사용할 수 있습니다. 이름 변경 이벤트는 Quote 내역 로그에 기록됩니다.
+- 새 *[!UICONTROL Company Type]* 설정을 기준으로 회사를 정렬 및 필터링합니다. 회사 격자에서 *[!UICONTROL Company Type]* 열은 회사가 개별 회사인지 조직 계층 구조(상위 또는 하위)의 일부인지 여부를 나타냅니다.
 
-- **견적 복제**<!--B2B-2701--> - 구매자와 판매자가 기존 견적을 복사하여 새 견적을 만들 수 있습니다. 책임자 또는 [Storefront](account-dashboard-my-quotes.md#quote-actions)의 [견적 세부 정보 보기](quote-price-negotiation.md#button-bar)에서 **[!UICONTROL Create Copy]**&#x200B;을(를) 선택하여 견적 세부 정보 보기에서 복사본을 만듭니다.
+![새로 만들기](../assets/new.svg) **회사 구성을 규모에 맞게 관리**<!--B2B-2849-->—이제 *[!UICONTROL Companies]* 또는 *[!UICONTROL Company Hierarchy]* 그리드에서 회사를 관리할 때 사용할 수 있는 *[!UICONTROL Change company setting]* 일괄 작업을 사용하여 선택한 회사에 대한 회사 구성 설정을 빠르게 변경합니다. 예를 들어 회사 그룹에 대한 새 공유 카탈로그를 만드는 경우 각 회사를 개별적으로 편집하는 대신 단일 작업으로 공유 카탈로그 구성을 변경할 수 있습니다.
 
-- **라인 항목 할인 잠금**<!--B2B-2597--> - 견적 협상 중에 판매자는 할인을 적용할 때 보다 유연하게 라인 항목 할인 잠금을 사용할 수 있습니다. 예를 들어, 판매자는 품목에 특별 라인 품목 할인을 적용하고 추가 할인을 방지하기 위해 품목을 잠글 수 있습니다. 품목이 잠기면 견적 레벨 할인이 적용될 때 품목 가격을 갱신할 수 없습니다. [구매자를 위한 견적 시작](sales-rep-initiates-quote.md)을 참조하세요.
+![새로 만들기](../assets/new.svg) API 개발자는 새 Company Relations REST API 끝점 `/V1/company/{parentId}/relations`을(를) 사용하여 회사 할당을 만들고 보고 제거할 수 있습니다. *웹 API 개발자 안내서*&#x200B;에서 [회사 개체 관리](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/)를 참조하십시오.
 
-![새로 만들기&#x200B;](../assets/new.svg)**회사 관리**<!--B2B-2901-->—이제 상인은 지정된 상위 회사에 회사를 할당하여 Adobe Commerce 회사를 계층적 조직으로 보고 관리할 수 있습니다. 회사가 상위에 할당된 경우 상위 회사 관리자가 회사 계정을 관리할 수 있습니다. 승인된 관리자 사용자만 회사 할당을 추가하고 관리할 수 있습니다. 자세한 내용은 [회사 계층 구조 관리](assign-companies.md)를 참조하십시오.
+### 회사 계정
 
-- 회사 페이지에서 새 **[!UICONTROL Company Type]** 필드가 상위 및 하위 회사를 식별합니다. 판매자는 회사 유형별로 회사 보기를 필터링하고 라인 항목이나 대량 작업을 사용하여 회사를 관리할 수 있습니다.
+![새로 만들기](../assets/new.svg)<!--B2B-2828--> **여러 회사 할당**—사용자를 여러 회사에 할당하여 회사 사용자의 회사 계정 액세스를 단순화합니다. 예를 들어 구매자가 여러 회사 사이트에서 주문하는 경우 단일 계정을 생성하고 구매자가 근무하는 모든 회사를 해당 계정에 지정합니다. 그러면 구매자가 한 번 로그인을 하고, 점포에서 회사를 선택하여 회사 계정 간에 전환할 수 있다.
 
-- 판매자는 [!UICONTROL Company Account] 페이지의 새 **[!UICONTROL Company Hierarchy]** 섹션에서 회사 할당을 추가하고 관리할 수 있습니다.
+>[!NOTE]
+>
+>회사 사용자를 여러 회사에 지정할 수 있지만 한 회사에 대해서만 회사 관리자가 될 수 있습니다.
 
-- API 개발자는 새 회사 관계 REST API 끝점 `/V1/company/{parentId}/relations`을(를) 사용하여 회사 할당을 만들고, 보고, 제거할 수 있습니다. *웹 API 개발자 안내서*&#x200B;에서 [회사 개체 관리](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/)를 참조하십시오.
+![새로 만들기](../assets/new.svg) <!--B2B-2747--> **회사 범위 선택기** - 여러 회사에 할당된 회사 사용자가 상점 앞에서 회사를 변경할 수 있는 기능을 제공합니다. 범위가 전환되면 데이터가 업데이트되어 새 회사 컨텍스트를 기반으로 정보가 표시됩니다. 예를 들어 새 회사가 다른 공유 카탈로그를 사용하는 경우 회사 사용자에게 새 공유 카탈로그를 기반으로 하는 제품, 가격 및 기타 정보가 표시됩니다. 주문, 견적, 견적 템플릿 관련 콘텐츠도 선택한 회사의 컨텍스트를 기반으로 업데이트됩니다.
 
-![해결된 문제](../assets/fix.svg)<!--ACP2E-1984-->관리자의 [견적] 세부 정보 보기에서 **[!UICONTROL Print]** 단추를 클릭하는 가맹점은 이제 견적을 PDF으로 저장하라는 메시지가 표시됩니다. 이전에는 판매자가 견적 세부 정보가 포함된 페이지로 리디렉션되었습니다.
+>[!NOTE]
+>
+>회사 사용자가 장바구니에 품목이 있는 회사를 전환하는 경우, 새 회사 컨텍스트를 기반으로 제품 분류, 가격 및 프로모션 할인을 반영하도록 장바구니를 업데이트합니다.
 
-![해결된 문제](../assets/fix.svg) <!--ACP2E-1742-->이전에는 고객 견적을 0%로 보내고 수량을 변경할 때 관리자가 예외를 발생시켰지만 수량을 저장했습니다. 이 수정 사항이 적용되면 메시지와 함께 `0 percentage`에 대한 적절한 예외가 발생합니다.
+![해결된 문제](../assets/fix.svg)<!--ACP2E-1933--> 회사 관리자는 이제 상점에서 회사 사용자를 추가할 수 있습니다. 이전에는 관리자가 새 사용자 `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`을(를) 추가하려고 할 때 Commerce에서 오류가 기록되었습니다.
 
-![해결된 문제](../assets/fix.svg) <!--ACP2E-1742-->견적 협상 중에 판매자는 이제 협상된 견적 할인 필드에 `0%` 할인을 지정하고 구매자에게 견적을 다시 보낼 수 있습니다. 이전에는 판매자가 0% 할인을 입력하고 견적을 구매자에게 다시 보낸 경우 관리자가 `Exception occurred during quote sending` 오류 메시지를 반환했습니다.
+### 견적 및 견적 템플리트
 
-![문제 해결](../assets/fix.svg) <!--ACP2E-2097-->이제 Recaptcha V3이 상점 앞에서 체크아웃하도록 구성된 경우 B2B 견적에 대한 체크아웃 프로세스 중에 ReCaptcha 유효성 검사가 올바르게 작동합니다. 이전에는 `recaptcha validation failed, please try again` 오류 메시지와 함께 유효성 검사가 실패했습니다.
+견적 기능을 개선하면 구매자와 판매자가 견적 및 견적 협상을 보다 효과적으로 관리할 수 있습니다.
+
+![신규](../assets/new.svg) **견적 템플릿**—<!--B2B-3367-->구매자와 판매자는 이제 재사용 가능하고 사용자 지정 가능한 견적 템플릿을 만들어 견적 프로세스를 간소화할 수 있습니다. 견적 템플리트를 사용하면 견적 협상 프로세스를 한 번 완료할 수 있으며, 구매자는 각 주문에 대해 견적 협상 프로세스를 거치지 않고 반복 주문에 대해 사전 승인된 연계 견적을 생성할 수 있습니다. 견적 템플리트는 다음과 같은 고급 기능을 추가하여 기존 견적 기능을 확장합니다.
+
+- **주문 임계값**&#x200B;을 통해 판매자는 최소 및 최대 주문 약정을 설정하여 구매자가 합의된 구매 수량을 준수하도록 할 수 있습니다.
+- **최소 및 최대 품목 주문 수량을 설정**&#x200B;하면 구매자는 새로운 템플릿 또는 추가 협상 없이도 연결된 견적의 주문 수량을 조정할 수 있는 유연성을 얻을 수 있습니다.
+- **생성된 주문 및 완료된 주문과 연결된 견적 수를 추적하여** 협상된 계약의 이행에 대한 통찰력을 얻으십시오.
+- **연결된 견적**&#x200B;은(는) 구매자가 견적 템플릿에서 협상된 조건에 따라 반복 주문을 제출하기 위해 활성 견적 템플릿에서 생성한 사전 승인된 견적입니다.
+
+![새로 만들기](../assets/new.svg) **기존 견적 기능 개선**
+
+- **업데이트된 상거래 ACL(액세스 제어 목록) 규칙을** 사용하면 B2B 관리자와 감독자가 하위 사용자의 견적 및 견적 템플릿을 관리 할 수 있습니다. 별도의 규칙은 보기, 편집 및 삭제 액세스에 대한 세분화된 구성을 지원합니다.
+
+- **초안**<!--B2B-2566-->&#x200B;으로 견적 저장 - 장바구니에서 견적 요청](quote-request.md)을 생성할 [때 구매자는 판매자와 견적 협상 프로세스를 시작하기 전에 견적을 검토하고 업데이트할 수 있도록 견적을 초안으로 저장할 수 있습니다. 초안 견적에는 만료 날짜가 없습니다. 구매자는 계정 대시보드의 [!UICONTROL My Quotes] 섹션에서 초안 견적을 검토하고 업데이트할 수 있습니다.
+
+- **견적**<!--B2B-2596--> 이름 바꾸기 - 구매자는 **[!UICONTROL Rename]** 이제 옵션을 선택하여 견적 상세 정보](account-dashboard-my-quotes.md#quote-actions) 페이지 페이지에서 [견적 이름을 변경할 수 있습니다. 이 옵션은 승인된 구매자가 견적을 편집할 때 사용할 수 있습니다. 이름 변경 이벤트는 견적 내역 로그에 기록됩니다.
+
+- **견적 복제**<!--B2B-2701--> - 구매자와 판매자가 기존 견적을 복사하여 새 견적을 만들 수 있습니다. 복사본은 Admin(관리) 또는 Storefront(상점)](account-dashboard-my-quotes.md#quote-actions)의 Quote detail(견적 세부 정보 보기)을 선택하여 **[!UICONTROL Create Copy]** [Quote detail view(견적 세부 정보 보기](quote-price-negotiation.md#button-bar))에서 [만들어집니다.
+
+- **견적 품목을 요청 목록**<!--B2B-2755-->&#x200B;으로 이동 - 이제 구매자는 견적 협상 프로세스에 제품을 포함하지 않기로 결정한 경우 견적에서 제품을 제거하고 요청 목록에 저장할 수 있는 유연성을 갖게 됩니다.
+
+- **견적**<!--B2B-2881-->&#x200B;에서 여러 제품 제거 - 제품 수가 많은 견적에서 구매자는 이제 여러 제품을 선택하고 견적 상세 정보 페이지 의 컨트롤에서 *[!UICONTROL Actions]* 옵션을 사용하여 *[!UICONTROL Remove]* 견적에서 여러 제품을 제거할 수 있습니다. 이전 릴리스에서는 구매자가 한 번에 하나씩 제품을 삭제해야 했습니다.
+
+- **품목 할인 잠금**<!--B2B-2597-->—견적 협상 중에 판매자는 견적 협상 프로세스 중에 할인을 적용할 때 유연성을 높이기 위해 라인 항목 할인 잠금을 사용할 수 있습니다. 예를 들어 판매자는 항목에 특별 라인 항목 할인을 적용하고 추가 할인을 방지하기 위해 항목을 잠글 수 있습니다. 품목이 잠기면 견적 레벨 할인이 적용될 때 품목 가격을 갱신할 수 없습니다. [구매자를 위한 견적 시작](sales-rep-initiates-quote.md)을 참조하세요.
+
+![해결된 문제](../assets/fix.svg) **기존 견적 기능에 대한 수정 사항**
+
+- 관리자의 Quote 세부 정보 보기에서 *[!UICONTROL Print]* 단추를 클릭하면 이제 Quote 를 PDF으로 저장하라는 메시지가 표시됩니다. 이전에는 판매자가 견적 세부 정보가 포함된 페이지로 리디렉션되었습니다. <!--ACP2E-1984-->
+
+- 이전에는 `0` 비율로 고객 견적을 보내고 수량을 변경할 때 관리자가 예외를 발생시켰지만 수량을 저장했습니다. 이 수정 사항이 적용되면 메시지와 함께 `0 percentage`에 대한 적절한 예외가 발생합니다. <!--ACP2E-1742-->
+
+- 견적 협상 중에 판매자는 이제 협상된 견적 견적 할인 필드에 할인을 `0%` 지정하고 견적을 구매자에게 다시 보낼 수 있습니다. 이전에는 판매자가 0% 할인을 입력하고 구매자에게 견적을 다시 보내면 관리자가 오류 메시지를 반환했습니다 `Exception occurred during quote sending` . <!--ACP2E-1742-->
+
+- ReCaptcha V3가 상점 결제에 대해 구성된 경우 이제 B2B 견적에 대한 체크아웃 프로세스 중에 ReCaptcha 유효성 검사가 올바르게 작동합니다. 이전에는 `recaptcha validation failed, please try again` 오류 메시지와 함께 유효성 검사가 실패했습니다.  <!--ACP2E-2097-->
+
+### 구매 주문
 
 ![해결된 문제](../assets/fix.svg) <!--ACP2E-1825-->회사가 차단된 후에는 더 이상 회사와 연결된 사용자가 구매 주문을 할 수 없습니다. 이전에는 회사가 차단되면 회사와 연관된 사용자가 구매 주문을 할 수 있었습니다.
-
-![해결된 문제](../assets/fix.svg)<!--ACP2E-1933-->회사 관리자는 이제 상점에서 회사 사용자를 추가할 수 있습니다. 이전에는 관리자가 새 사용자 `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`을(를) 추가하려고 할 때 Commerce에서 오류가 기록되었습니다.
 
 ## B2B v1.4.2-p3
 
@@ -128,21 +165,21 @@ B2B v1.4.1 릴리스에는 품질 개선 사항 및 버그 수정이 포함되�
 
 ![해결된 문제](../assets/fix.svg) <!--ACP2E-1943-->제품 순서가 잘못된 상태가 이제 상점 앞에 올바르게 표시됩니다. 이전에는 배송 가능한 제품이 미납주문으로 잘못 식별되었습니다.
 
-![문제가 해결되었습니다](../assets/fix.svg) <!--ACP2E-1862-->회사 등록 양식에 고객 파일 형식 특성이 포함된 경우, 이제 회사를 만든 후 등록 프로세스 중에 업로드된 파일이 회사 관리자의 계정 정보에 포함됩니다. 이전에는 첨부 파일이 없습니다.
+![해결된 문제](../assets/fix.svg) <!--ACP2E-1862-->회사 등록 양식에 고객 파일 유형 속성이 포함된 경우 등록 프로세스 중에 업로드된 파일은 이제 회사가 생성된 후 회사 관리자의 계정 정보에 포함됩니다. 이전에는 첨부 파일이 누락되었습니다.
 
-![해결된 문제](../assets/fix.svg) <!--ACP2E-1793-->이제 구성 가능한 제품에 대한 견본 선택기가 구매요청 목록 항목 구성 페이지에 예상대로 표시됩니다. 이전에는 견본 선택기가 구매요청 목록 품목 구성 페이지에 드롭다운 필드로 표시되었습니다.
+![해결된 문제](../assets/fix.svg)<!--ACP2E-1793-->: 구성 가능한 제품에 대한 견본 선택기 이제 요청 목록 항목 구성 페이지에 예상대로 표시됩니다. 이전에는 견본 선택기이 요청 목록 항목 구성 페이지에서 드롭다운 필드로 표시되었습니다.
 
-![해결된 문제](../assets/fix.svg) <!--ACP2E-1968-->회사 세부 정보를 반환하기 위해 [회사 GraphQL 쿼리](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure)를 사용할 때 이제 결과가 오류 없이 성공적으로 반환됩니다.
+![해결된 문제](../assets/fix.svg) <!--ACP2E-1968-->회사 GraphQL 쿼리를](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure) 사용하여 [회사 세부 정보를 반환할 때 이제 결과가 오류 없이 성공적으로 반환됩니다.
 
 ## B2B v1.4.0
 
 *2023년 6월 13일*
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}[Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Adobe Commerce 2.4.7-beta1과 호환
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}[Adobe Systems Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Adobe Systems Commerce 2.4.7-beta1과(와)호환 가능
 
-이 릴리스에는 B2B 협상 가능 견적 및 여러 버그 수정에 대한 새로운 기능 및 개선 사항이 포함되어 있습니다.
+이 릴리스에는 B2B 협상 가능 견적 및 여러 버그 수정에 대한 새로운 기능과 개선 사항이 포함되어 있습니다.
 
-![새로 만들기](../assets/new.svg) Adobe Commerce 2.4.7-beta1과의 호환성을 추가했습니다.
+![](../assets/new.svg) 새로 만들기 Adobe Systems Commerce 2.4.7-beta1과의 호환성을 추가했습니다.
 
 ![새로 만들기](../assets/new.svg) **판매자가 시작한 견적** - 이제 판매자가 관리자의 견적 및 고객 그리드에서 직접 구매자에 대한 견적을 시작할 수 있습니다. 이 기능은 견적 프로세스를 간소화하고 고객의 복잡성을 줄여 줍니다. 고객이 주문을 시작하지 않은 경우 판매자가 고객을 대신하여 신속하게 견적을 생성하고 협상 프로세스를 시작할 수 있습니다. 이전에는 구매자나 판매자가 고객으로 로그인한 경우에만 상점 앞에서만 견적을 작성할 수 있었습니다.
 
@@ -150,7 +187,7 @@ B2B v1.4.1 릴리스에는 품질 개선 사항 및 버그 수정이 포함되�
 
 ![해결된 문제](../assets/fix.svg) 이제 구매 주문 옵션이 활성화되고 PayPal 결제 옵션으로 만든 가상 견적이 선택되면 Adobe Commerce에서 결제 중에 올바른 세부 정보를 표시합니다. 이전에는 이러한 조건에서 합계가 0으로 표시되었습니다.
 
-![문제 해결](../assets/fix.svg) <!--ACP2E-1504--> 신용 한도가 999를 초과하는 회사를 저장하려고 하면 유효성 검사 오류가 더 이상 발생하지 않습니다. 이전에는 회사 신용 한도가 999보다 큰 경우 Adobe 커머스에서 쉼표 구분 기호를 삽입했습니다. 이로 인해 유효성 검사 오류가 발생하여 업데이트가 저장되지 않았습니다.
+![문제 해결](../assets/fix.svg) <!--ACP2E-1504--> 신용 한도가 999를 초과하는 회사를 저장하려고 하면 유효성 검사 오류가 더 이상 발생하지 않습니다. 이전에는 회사 신용 한도가 999보다 큰 경우 Adobe Systems 상거래에서 쉼표 구분 기호를 삽입하여 유효성 검사 오류가 발생하여 업데이트가 저장되지 않았습니다.
 
 ![문제 해결](../assets/fix.svg) <!--ACP2E-1474--> 이제 협상 가능한 견적을 주문하면 선택한 배송 주소가 변경되지 않습니다. 이전에는 주문 시 선택한 배송 주소가 기본 배송 주소로 변경되었습니다.
 
@@ -230,23 +267,23 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![해결된 문제](../assets/fix.svg) <!--- ACP2E-2456--> 이제 쿼리 중인 범주에 명시적으로 설정된 범주 권한이 없을 때 범주 쿼리가 저장소 구성 설정에 따라 제품 가격을 반환합니다.
 
-![해결된 문제](../assets/fix.svg) <!--- ACP2E-6829--> 이제 승인된 견적 요청으로 구매를 완료할 때 **[!UICONTROL Place Order]** 단추가 예상대로 작동합니다. 협상 가능한 견적 `negotiableQuoteCheckoutSessionPlugin` 플러그 인의 문제가 해결되었습니다.
+![해결된 문제](../assets/fix.svg) <!--- ACP2E-6829--> 이제 승인된 견적 요청으로 구매를 완료할 때 버튼이 **[!UICONTROL Place Order]** 예상대로 작동합니다. 협상 가능한 견적 `negotiableQuoteCheckoutSessionPlugin` 플러그인 관련 문제가 해결되었습니다.
 
 ## B2B v1.3.4-p10
 
 *2024년 10월 9일*
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원]{type=Informative tooltip="지원"}
 
 ![새로 만들기](../assets/new.svg) Adobe Commerce 2.4.5-p10에 대한 지원이 추가되었습니다.
 
-![해결된 문제](../assets/fix.svg) [보안 게시판 APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg): 보안 공지 APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)에 [설명된 보안 픽스가 포함되어 있습니다.
 
 ## B2B v1.3.4
 
 *2022년 8월 9일*
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원]{type=Informative tooltip="지원"}
 
 ![새로 만들기](../assets/new.svg) Adobe Commerce 2.4.5에 대한 지원이 추가되었습니다.
 
@@ -256,7 +293,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![문제 해결](../assets/fix.svg) <!--- ACP2E-322-->구성 가능한 제품은 이제 **[!UICONTROL Move out of stock to the bottom]** 설정을 사용할 때 재고가 업데이트된 후 제품 목록의 마지막 위치로 이동됩니다. 이제 Elasticsearch 색인 정렬 순서가 관리자가 사용할 수 있는 정렬 순서를 따르도록 새 사용자 지정 데이터베이스 쿼리가 구현됩니다. 이전에는 이 설정을 활성화할 때 구성 가능한 제품 및 해당 하위 제품이 목록의 맨 아래로 이동되지 않았습니다.
 
-![해결된 문제](../assets/fix.svg) <!--- ACP2E-308-->이제 구매 주문 전자 메일에 다중 사이트 배포에 있는 각 웹 사이트의 전자 메일 전송 설정이 적용됩니다. **[!UICONTROL Disable Email Communications]** 설정에 대한 검사가 전자 메일 큐의 사용자 지정 논리에 추가됩니다. 이전에는 Adobe Commerce이 보조 웹 사이트에 대한 이메일 전송 설정을 준수하지 않았습니다.
+![해결된 문제](../assets/fix.svg)<!--- ACP2E-308-->: 이제 구매 주문 이메일은 다중 사이트 배포 시 각 웹 사이트의 이메일 전송 설정을 준수합니다. **[!UICONTROL Disable Email Communications]** 설정에 대한 검사가 전자 메일 큐의 사용자 지정 논리에 추가됩니다. 이전에는 Adobe Commerce이 보조 웹 사이트에 대한 이메일 전송 설정을 준수하지 않았습니다.
 
 ![해결된 문제](../assets/fix.svg) <!--- ACP2E-302-->명확성을 위해 빠른 주문 페이지의 SKU 필드 제목이 변경되었습니다.
 
@@ -322,17 +359,17 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![해결된 문제](../assets/fix.svg) <!--- ACP2E-130--> 내 계정 페이지의 내 위시리스트 블록이 회사 관리자 및 회사 사용자의 필요에 따라 표시됩니다.
 
-![해결된 문제](../assets/fix.svg) <!--- ACP2E-133--> 빠른 주문 오류가 더 이상 장바구니에 표시되지 않습니다. 이전에는 카탈로그에서 SKU를 찾을 수 없을 때 Adobe Commerce에서 이 오류를 장바구니에 표시했습니다. `The SKU was not found in the catalog`.
+![해결된 문제](../assets/fix.svg)<!--- ACP2E-133-->: 빠른 주문 오류가 더 이상 장바구니 상자에 표시되지 않습니다. 이전에는 Adobe Systems Commerce가 카탈로그  `The SKU was not found in the catalog`에서 SKU를 찾을 수 없을 때 장바구니에 이 오류를 표시했습니다.
 
-![해결된 문제](../assets/fix.svg) <!--- ACP2E-194--> 공유 카탈로그 저장 작업이 더 빨리 실행되도록 최적화되었습니다. 이전에는 많은 고객 그룹과 공유 카탈로그를 저장하는 데 몇 분이 걸릴 수 있었습니다.
+![해결된 문제](../assets/fix.svg)<!--- ACP2E-194-->: 공유 카탈로그 저장 작업을 더 빠르게 실행하도록 최적화했습니다. 이전에는 많은 고객 그룹이 있는 공유 카탈로그를 저장하는 데 몇 분이 걸렸습니다.
 
-![해결된 문제](../assets/fix.svg) <!--- MC-42240--> 이제 Adobe Commerce은 상위 범주가 삭제되면 `sharedcatalog_category_permissions` 테이블에서 모든 하위 범주 권한을 삭제합니다. 이전에는 상위 범주 데이터만 제거되었습니다.
+![해결된 문제](../assets/fix.svg)<!--- MC-42240-->: 상위 카테고리가 삭제되면 Adobe Systems Commerce가 테이블에서 `sharedcatalog_category_permissions` 모든 하위 카테고리 권한을 삭제합니다. 이전에는 상위 범주 데이터만 제거되었습니다.
 
 ## B2B v1.3.2
 
 *2022년 8월 29일*
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+[!BADGE 지원]{type=Informative tooltip="지원됨"}
 
 ![새로 만들기](../assets/new.svg) Adobe Commerce 2.4.3에 대한 지원이 추가되었습니다.
 

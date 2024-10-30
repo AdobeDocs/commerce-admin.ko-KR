@@ -3,7 +3,7 @@ title: 회사 계정
 description: Adobe Commerce 스토어에서 관리하는 회사 계정을 통해 동일한 회사에 속하는 여러 구매자를 단일 회사 계정에 연결할 수 있는 방법을 알아봅니다.
 exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 feature: B2B, Companies, Configuration
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -12,7 +12,11 @@ ht-degree: 0%
 
 # 회사 계정
 
-스토어에 B2B 회사 계정을 통합할 때, 회사에서 조직의 사용자 역할에 따라 유연한 권한으로 여러 하위 계정을 만들 수 있으므로 기업 쇼핑 경험을 단순화할 수 있습니다. 기업에 따라 매장 관리자는 판촉 행사 및 가격을 자신의 요구에 맞게 조정할 수 있으며, 쇼핑객의 요구에 맞는 고도로 맞춤화된 오퍼를 만들고 주문을 늘릴 수 있습니다. 표준 [개인](../customers/account-create.md)에 회사 계정 연결을 추가하면 고객은 회사에 대해 정의된 특정 구매 워크플로우를 사용할 수 있습니다.
+스토어에 B2B 회사 계정을 통합할 때, 회사에서 조직의 사용자 역할에 따라 유연한 권한으로 여러 하위 계정을 만들 수 있으므로 기업 쇼핑 경험을 단순화할 수 있습니다.
+
+기업에 따라 매장 관리자는 판촉 행사 및 가격을 자신의 요구에 맞게 조정할 수 있으며, 쇼핑객의 요구에 맞는 고도로 맞춤화된 오퍼를 만들고 주문을 늘릴 수 있습니다.
+
+표준 [개인](../customers/account-create.md)에 회사 계정 연결을 추가하면 고객은 회사에 대해 정의된 특정 구매 워크플로우를 사용할 수 있습니다.
 
 회사 계정의 장점:
 
@@ -34,7 +38,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL Compan
 
 ![회사 표](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-[!UICONTROL Companies] 그리드는 상태와 관계없이 모든 회사를 나열합니다. 표시된 예에서는 &quot;ACME&quot; 회사와 &quot;Vandelay&quot; 회사, 이렇게 두 회사의 계정을 보여 줍니다.
+[!UICONTROL Companies] 그리드는 상태와 관계없이 모든 회사를 나열합니다. 회사 목록은 회사가 [회사 계층](manage-company-hierarchy.md)과 연결되어 있는지 여부를 나타내며 회사, 회사 관리자 및 기타 정보에 대한 [자세한 정보](/help/b2b/account-company-manage.md#company-options-and-columns)를 제공합니다. [관리 눈금 컨트롤](../getting-started/admin-grid-controls.md)을(를) 사용하여 필터, 열 보기 옵션 등을 설정하여 보기를 사용자 지정합니다.
 
 ## 회사 관리자
 
@@ -42,7 +46,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL Compan
 
 회사 관리자 계정이 있는 ![고객 그리드](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-회사 관리자로서 역할을 수행하는 사람이 회사 내에서 여러 역할을 하게 될 가능성이 있다. 회사 관리자에 대해 별도의 이메일 주소를 입력하면 초기 회사 구조에 회사 관리자와 회사 관리자 이름에 개별 사용자 계정이 포함됩니다. 이러한 경우 회사 관리자는 회사 또는 개인 사용자로 계정에 로그인할 수 있습니다.
+각 회사에는 계정 이메일 주소와 관리자의 이름과 성으로 식별되는 단일 회사 관리자가 있습니다. 관리자는 다른 회사에 사용자로 할당될 수 있지만 한 회사에 대해서만 관리자가 될 수 있습니다.
 
 계정을 만든 후 회사 관리자는 [팀](account-company-structure.md)의 회사 구조를 정의하고 [회사 사용자](account-company-users.md)를 설정하고 각각에 대해 [역할 및 권한](account-company-roles-permissions.md)을 설정합니다.
 
@@ -58,7 +62,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL Compan
 
 1. 지침에 따라 [!UICONTROL **링크**]&#x200B;를 클릭하여 암호를 설정합니다.
 
-1. 해당 계정의 [!UICONTROL **새 암호**]&#x200B;를 입력하고 다시 확인하여 확인하십시오.
+1. 계정에 대한 [!UICONTROL **새 암호**] 및 암호 확인을 입력합니다.
 
    암호에는 다음 문자 유형 중 최소 세 가지 이상이 포함되어야 합니다.
 

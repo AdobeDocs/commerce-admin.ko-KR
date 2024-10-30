@@ -4,9 +4,9 @@ description: 회사 계정, 기본 결제 및 배송 방법, 구매 주문 및 �
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 feature: B2B, Configuration
 role: Admin
-source-git-commit: 7e36d0b7c9b414cb072118b87cd903b3374bb9de
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 고객 회사에 대한 지원을 활성화하면 추가 B2B 기능이 자동으로 활성화됩니다.
 
-- [!DNL Shared Catalog]
+- [[!DNL Shared Catalog]](catalog-shared.md)
 
   다양한 회사에 대한 사용자 지정 가격 구성을 지원하며 모든 스토어에 대해 카테고리 권한을 활성화합니다.
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
   공유 카탈로그에 지정된 제품만 가격 인덱스에 저장하여 사이트 성능을 개선합니다. 이 기능을 활성화하는 것은 여러 공유 카탈로그가 있는 판매자가 다른 회사에 대한 사용자 지정 가격을 관리하는 모범 사례입니다.
 
-- [!DNL B2B Quotes]
+- [[!DNL B2B Quotes]](quotes.md)
 
   판매자와 회사 구매자가 가격을 협상할 수 있는 기능을 제공합니다.
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 이러한 기능에 대한 구성 설정은 [!DNL Enable Company]이(가) `Yes`(으)로 설정된 경우에만 표시됩니다.
 
-B2B [!DNL Quick Order] 및 [!DNL Requisition List] 기능은 독립적으로 활성화 및 비활성화할 수 있습니다.
+B2B [[!DNL Quick Order]](quick-order.md) 및 [[!DNL Requisition List]](requisition-lists.md) 기능은 독립적으로 활성화 및 비활성화할 수 있습니다.
 
 ## B2B 기능 구성
 
@@ -52,6 +52,8 @@ Adobe Commerce B2B 기능을 구성하는 옵션은 [Adobe Commerce B2B 확장�
    - 고객이 자신의 회사 계정을 관리하고 **[!UICONTROL Enable Company]**&#x200B;을(를) `Yes`(으)로 설정하여 추가 B2B 기능에 대한 지원을 사용하도록 허용합니다.
 
      회사 지원을 활성화하면 공유 카탈로그, B2B 견적, B2B 결제 방법 및 B2B 운송 방법이 자동으로 활성화됩니다.
+
+     ![B2B 구성 - 회사 기능](assets/b2b-additional-features.png){width="600"}
 
    - 고객과 게스트가 SKU 또는 제품 이름을 기반으로 빠르게 주문하도록 하려면 **[!UICONTROL Enable Quick Order]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 

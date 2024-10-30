@@ -4,9 +4,9 @@ description: 회사 계정과 연결된 고객이 견적에 대한 요청을 제
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
+source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,6 @@ ht-degree: 0%
 1. 견적을 생성하고 처리합니다.
 
    - **[!UICONTROL Request a Quote]**&#x200B;을(를) 선택하여 판매자에게 견적을 보냅니다.
-   - [!BADGE 1.5.0 베타 기능]{type=Informative url="/help/b2b/release-notes.md" tooltip="Beta 프로그램 참가자만 사용 가능"}**[!UICONTROL Save as Draft]**.
+   - **[!UICONTROL Save as Draft]**&#x200B;을(를) 선택하여 견적을 초안으로 저장합니다.
 
      구매자가 견적을 초안으로 저장하면 `Draft` 상태의 [!UICONTROL My Quotes]에서 견적을 사용할 수 있습니다. 초안 견적은 구매자가 검토를 위해 보낼 때까지 판매자에게 표시되지 않습니다.

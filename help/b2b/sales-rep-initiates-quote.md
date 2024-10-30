@@ -4,9 +4,9 @@ description: 판매자가 협상 프로세스를 시작하기 위해 특정 구�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
+source-git-commit: 69396421bae610ff02b12054bdea2278a8c0efe5
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,19 @@ ht-degree: 0%
 - 구매자를 위한 초기 오퍼를 생성할 수 있도록 영업 담당자가 품목, 관련 할인 및 메모를 추가할 때까지 초안 견적을 제출할 수 없습니다.
 - 판매자는 Quotes 또는 Customer Grid에서 Quote 를 생성할 수 있습니다.
 
-영업 사원은 구매자에게 견적을 전송하여 협상 프로세스를 시작합니다. [견적 협상](quote-price-negotiation.md)을 참조하세요.
+영업 사원은 구매자에게 견적을 전송하여 협상 프로세스를 시작합니다. 견적](quote-price-negotiation.md) 협상을 참조하십시오[.
 
-## 영업 담당자 견적 생성 경험
+## 영업 담당자 견적 작성 경험
 
-Sales Rep 는 Quote 또는 Customer Grid에서 Quote 를 생성할 수 있습니다.
+영업 담당자는 견적 또는 고객 그리드에서 견적을 작성할 수 있습니다.
 
 >[!NOTE]
 >
->판매자가 구매자를 위한 견적을 만드는 비디오 데모를 보려면 _Commerce 비디오 및 Tutorials_&#x200B;에서 [영업 담당자 견적 시작](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html)을 참조하십시오.
+>판매자가 구매자[를 위해 견적을 작성하는 비디오 데모는 상거래 비디오 및 자습서&#x200B;_에서 영업 담당자가 견적을](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html)_&#x200B;시작합니다.
 
-### Quote 그리드에서 Quote 작성
+### 견적 표에서 견적 만들기
 
-1. 영업 담당자는 견적을 관리하기 위해 [영업 작업 권한](../systems/permissions.md)이 있는 관리자로 관리자에 로그인합니다.
+1. 영업 담당자는 견적을 관리 할 수있는 영업 운영 권한이](../systems/permissions.md) 있는 [관리자로 관리자에 로그인합니다.
 
 1. 관리에서 **[!UICONTROL Sales]**&#x200B;을(를) 선택하여 [!UICONTROL Quotes] 그리드로 이동한 다음 **[!UICONTROL Quotes]**&#x200B;을(를) 선택합니다.
 
@@ -39,9 +39,9 @@ Sales Rep 는 Quote 또는 Customer Grid에서 Quote 를 생성할 수 있습니
 
    - 따옴표 그리드에서 **[!UICONTROL Create New Quote]**&#x200B;을(를) 선택합니다.
 
-     ![판매자가 관리자의 구매자 견적을 시작하는 중](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
+     ![관리자로부터 구매자 견적을 시작하는 셀러](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
 
-   - [!UICONTROL Create New Quote] 페이지에서 견적을 만들 고객(회사 구매자)을 선택합니다.
+   - [!UICONTROL Create New Quote] 페이지 에서 고객(회사 구매자)을 선택하여 견적을 생성합니다.
 
      ![새 견적에 대해 고객 선택](./assets/quote-draft-from-admin-select-buyer.png){width="700" zoomable="yes"}
 
@@ -63,17 +63,23 @@ Sales Rep 는 Quote 또는 Customer Grid에서 Quote 를 생성할 수 있습니
 
 1. 필요에 따라 제품에 라인 항목 할인을 적용합니다.
 
-   - [!UICONTROL Select] 작업 메뉴에서 **[!UICONTROL Discount Item]**&#x200B;을(를) 선택합니다.
+   - [작업] [!UICONTROL Select] 메뉴에서 을 선택합니다 **[!UICONTROL Discount Item]**.
 
-   - [!UICONTROL Discount Line item] 양식에서 **[!UICONTROL Discount Type]**&#x200B;을(를) 선택합니다.
+   - 양식에서 [!UICONTROL Discount Line item] 을 선택합니다 **[!UICONTROL Discount Type]**.
 
-     ![견적에 라인 항목 할인 적용](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
+     ![견적에 적용 라인 항목 할인](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
-   - [!UICONTROL Discount] 필드에 할인 유형의 값을 입력합니다. 예를 들어 퍼센트 할인을 선택한 경우 10을 입력하여 라인 품목에 10% 할인을 적용합니다.
+   - [!UICONTROL Discount] 필드에 할인 유형 값을 입력합니다. 예를 들어 할인율을 선택한 경우 10을 입력하면 라인 항목 10% 할인이 적용됩니다.
 
-   - [!BADGE 1.5.0 베타 기능]{type=Informative url="/help/b2b/release-notes.md" tooltip="Beta 프로그램 참가자만 사용 가능"}
+   - 선택적으로, 제품 가격이 견적 수준에서 적용된 할인에 의해 더 이상 감소하지 않도록 라인 항목 할인 값을 잠급니다.
 
      변경을 확인한 후 제품 격자의 라인 항목 속성이 업데이트되어 적용된 할인 금액이 표시됩니다. 할인이 잠기면 잠금 아이콘이 표시됩니다.
+
+   영업 사원은 견적의 특정 라인 항목에서 할인을 요청할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >라인 항목 할인의 작동 방식에 대한 비디오 데모는 _Commerce 비디오 및 Tutorials_&#x200B;의 [영업 담당자가 견적 라인 항목에 할인을 적용합니다](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html)를 참조하십시오.
 
 1. 필요에 따라 견적 수준 할인 적용:
 
@@ -90,6 +96,14 @@ Sales Rep 는 Quote 또는 Customer Grid에서 Quote 를 생성할 수 있습니
    ![판매자가 구매자에 대한 정보를 추가합니다](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
    기본적으로 [첨부된 파일](configure-quotes.md)은(는) DOC, DOCX, XLS, XLSX, PDF, TXT, JPG 또는 JPEG, PNG 파일 형식 중 하나로 최대 2MB입니다.
+
+1. 협상 중에 배송 주소를 추가하십시오.
+
+   영업 담당자는 구매자가 견적에 배송 주소를 추가한 후 배송 및 배송을 선택할 수 있습니다.
+
+   배송 옵션은 결제 시 잠겨 있습니다.
+
+   자세한 내용은 내 견적을](account-dashboard-my-quotes.md#adding-a-shipping-address) 참조하세요[.
 
 1. 견적을 처리합니다.
 

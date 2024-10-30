@@ -4,9 +4,9 @@ description: Adobe Commerce 관리 및 상점 첫 화면에서 회사 계정 만
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
+source-git-commit: 30c988ac7d4108ae85980498472d96363107212c
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1750'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이 메서드를 지원하려면(고객이 상점 앞에서 회사를 등록할 수 있도록 허용) **[!UICONTROL Allow Company Registration from the Storefront]**&#x200B;이(가) `Yes`(으)로 설정되도록 [B2B 기능](enable-basic-features.md)이(가) 구성되어 있는지 확인하십시오.
+>이 방법을 지원하려면(고객이 상점 앞에서 회사를 등록할 수 있도록 허용) [B2B 기능](enable-basic-features.md)이 사용하도록 설정되어 있는지 확인하십시오.
 
 1. storefront 헤더의 오른쪽 상단 모서리에서 고객이 **[!UICONTROL Create an Account]**&#x200B;을(를) 클릭하고 **[!UICONTROL Create New Company Account]**&#x200B;을(를) 선택합니다.
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >방문자가 등록된 사용자 계정에 로그인하면 _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**(으)로 이동하여 회사 계정을 만들 수 있습니다. 회사 계정이 생성되면 고객의 계정이 기본 연락처로 할당됩니다. 그렇지 않으면 고객이 비밀번호를 설정할 이메일을 수신하게 됩니다.
+   >방문자가 등록된 사용자 계정에 로그인하면 _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**(으)로 이동하여 회사 계정을 만들 수 있습니다.
 
 1. _[!UICONTROL Company Information]_섹션에서 고객은 다음을 수행합니다.
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    ![회사 정보](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Legal Address]_섹션의 필수 필드를 완료합니다.
+1. 섹션의 필수 필드를 완료합니다 _[!UICONTROL Legal Address]_.
 
    - **[!UICONTROL Street Address]**
    - **[!UICONTROL City]**
@@ -78,17 +78,17 @@ ht-degree: 0%
 
    판매자가 회사 계정 만들기 요청을 승인하면 회사 관리자에게 전자 메일 알림이 전송됩니다.
 
-   ![환영 전자 메일 예제](./assets/company-admin-welcome-email.png){width="500"}
+   ![예제 시작 이메일](./assets/company-admin-welcome-email.png){width="500"}
 
-   암호를 설정하면 회사 관리자가 계정에 [로그인](../customers/customer-sign-in.md)할 수 있습니다.
+   암호 설정하면 회사 관리자가 계정 로그인할](../customers/customer-sign-in.md) 수 있습니다[.
 
-## 방법 2: 판매자가 관리자에서 계정을 만듭니다.
+## 방법 2: 판매자가 관리자로부터 계정 생성
 
-관리자로부터 회사를 만드는 프로세스는 기본적으로 상점 첫 방문과 동일하지만 추가 필드가 있습니다.
+관리자에서 회사를 만드는 프로세스는 기본적으로 상점에서 만드는 프로세스와 동일하지만 추가 필드가 있습니다.
 
-![관리자로부터 새 회사 추가](./assets/company-add-new.png){width="700" zoomable="yes"}
+![관리자에서 새 회사 추가](./assets/company-add-new.png){width="700" zoomable="yes"}
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 >**[!UICONTROL Companies]**&#x200B;로 이동합니다 **[!UICONTROL Customers]** .
 
 1. **[!UICONTROL Add New Company]**&#x200B;을(를) 클릭하고 다음을 수행합니다.
 
@@ -194,9 +194,9 @@ ht-degree: 0%
 
    판매자가 회사 계정 생성 요청을 승인하면 회사 관리자의 이메일 주소로 이메일 알림이 전송됩니다.
 
-   암호를 설정하면 회사 관리자가 계정에 [로그인](../customers/customer-sign-in.md)할 수 있습니다.
+   암호 설정하면 회사 관리자가 계정 로그인할](../customers/customer-sign-in.md) 수 있습니다[.
 
-## 단추 막대
+## 버튼 막대
 
 | 단추 | 설명 |
 |---------------------------|------------------------------------------------------------------|
@@ -212,9 +212,9 @@ ht-degree: 0%
 | 필드 | 설명 |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | 회사 이름은 회사 계정을 처음 만들 때 입력되며, 전체 법적 이름의 약식 버전일 수 있습니다. |
-| [!UICONTROL Status] | (관리자만) 회사 계정의 현재 상태를 나타냅니다. 옵션: <br/>**[!UICONTROL Active]**- 스토어 관리자가 회사 계정을 승인했습니다. 회사 관리자 및 관련 회원은 상점에서 계정에 로그인하여 구매할 수 있습니다.<br/>**[!UICONTROL Pending Approval]** - 회사 계정 열기 요청이 제출되었지만 저장소 관리자가 아직 승인하지 않았습니다. <br/>**[!UICONTROL Rejected]**- 회사 계정 열기 요청이 제출되었지만 스토어 관리자가 승인하지 않았습니다. 요청을 제출하는 데 사용된 초기 로그인 자격 증명이 차단됩니다.<br/>**&#x200B;차단됨&#x200B;**- 회사 구성원은 로그인하여 카탈로그에 액세스할 수 있지만 구입할 수 없습니다. 스토어 관리자가 상태가 좋지 않은 회사 계정을 차단할 수 있습니다. 계정의 블록은 언제든지 저장소 관리자가 제거할 수 있습니다. |
-| [!UICONTROL Company Email] | 회사 계정과 연결된 이메일 주소. |
-| [!UICONTROL Sales Representative] | (관리자만) 회사 계정의 기본 연락처인 관리자 사용자입니다. |
+| [!UICONTROL Status] | (관리자만) 회사 계정의 현재 상태를 나타냅니다. 옵션: <br/>**[!UICONTROL Active]**- 스토어 관리자가 회사 계정을 승인했습니다. 회사 관리자 및 연결된 구성원은 상점에서 계정 로그인하여 구매할 수 있습니다.<br/>**[!UICONTROL Pending Approval]** - 회사 계정 개설 요청이 제출되었지만 아직 스토어 관리자가 승인하지 않았습니다. <br/>**[!UICONTROL Rejected]**- 회사 계정 개설 요청이 제출되었지만 스토어 관리자가 승인하지 않았습니다. 요청을 제출하는 데 사용된 초기 로그인 자격 증명이 차단됩니다.<br/>**&#x200B;차단됨&#x200B;**- 회사 구성원은 로그인하여 카탈로그에 접근할 수 있지만 구매할 수 없습니다. 스토어 관리자가 양호한 상태가 아닌 회사 계정을 차단할 수 있습니다. 계정 차단은 스토어 관리자가 언제든지 제거할 수 있습니다. |
+| [!UICONTROL Company Email] | 회사 계정과 연결된 이메일 계정. |
+| [!UICONTROL Sales Representative] | (관리자만) 회사 계정의 기본 연락처인 관리 사용자. |
 
 {style="table-layout:auto"}
 
@@ -234,11 +234,11 @@ ht-degree: 0%
 | 필드 | 설명 |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company ID] | 회사의 ID 번호입니다. |
-| [!UICONTROL Company Name] | 회사의 전체 이름. <br/>편집 중인 회사 줄에 `current company indicator`이(가) 나타납니다. |
-| [!UICONTROL Company Email] | 회사 계정과 연결된 이메일 주소. |
-| [!UICONTROL Phone Number] | 회사의 기본 전화번호. |
-| [!UICONTROL Country] | 회사를 등록하여 비즈니스를 수행하는 국가. |
-| [!UICONTROL State/Province] | 회사가 등록되어 사업을 수행하는 주 또는 시/도입니다. |
+| [!UICONTROL Company Name] | 회사의 전체 이름. <br/>편집 중인 회사 라인에 A `current company indicator` 가 나타납니다. |
+| [!UICONTROL Company Email] | 회사 계정과 연결된 이메일 계정. |
+| [!UICONTROL Phone Number] | 회사의 기본 전화 번호입니다. |
+| [!UICONTROL Country] | 사업을 수행하기 위해 회사가 등록된 국가입니다. |
+| [!UICONTROL State/Province] | 사업을 수행하기 위해 회사가 등록된 주 또는 지방입니다. |
 | [!UICONTROL City] | 비즈니스를 수행하기 위해 회사가 등록된 도시입니다. |
 | [!UICONTROL Group/Shared Catalog] | (관리자만) 회사에 할당된 [고객 그룹](../customers/customer-groups.md) 또는 [공유 카탈로그](catalog-shared.md)를 나타냅니다. |
 | [!UICONTROL Company Admin] | 회사 관리자의 전체 이름. |
@@ -272,13 +272,13 @@ ht-degree: 0%
 | [!UICONTROL Last Name] | 회사 관리자의 성. |
 | [!UICONTROL Suffix] | 해당되는 경우 회사 관리자의 이름과 연결된 접미사(예: `Jr.`, `Sr.` 또는 `III.`)입니다. 구성에 따라 입력 필드는 텍스트 필드 또는 목록일 수 있습니다. |
 | [!UICONTROL Gender] | 회사 관리자의 성별. 옵션: `Male` / `Female` / `Not Specified` |
-| [!UICONTROL Send Welcome Email From] | 시작 이메일을 전송할 스토어 보기. |
+| [!UICONTROL Send Welcome Email From] | 시작 이메일을 보낼 스토어 보기입니다. |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Company Credit]
 
-| 필드 | 설명 |
+| 밭 | 설명 |
 |-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Credit Currency] | (관리자만) 회사 크레딧 구매에 대해 스토어에서 수락하는 통화입니다. |
 | [!UICONTROL Credit Limit] | (관리자만) 회사 계정에 대한 크레딧 제한입니다. |
@@ -289,7 +289,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Advanced Settings]
 
-| 필드 | 설명 |
+| 밭 | 설명 |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Customer Group] | (관리자만) 회사에 할당된 [고객 그룹](../customers/customer-groups.md) 또는 [공유 카탈로그](catalog-shared.md)를 나타냅니다. |
 | [!UICONTROL Allow Quotes] | (관리자만) 회사 구성원이 회사를 대신하여 협상 가능한 견적을 준비하고 제출할 수 있는지 여부를 결정합니다. |
@@ -297,6 +297,6 @@ ht-degree: 0%
 | 해당 결제 방법 | (관리자만) 회사 구매에 사용할 수 있는 결제 방법을 나타냅니다. 옵션: `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
 | [!UICONTROL Payment Methods] | (관리자만) 특정 결제 방법이 활성화되면 활성화됩니다. 회사 계정에 여러 결제 방법을 사용할 수 있도록 하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 옵션을 선택합니다. |
 | [!UICONTROL Applicable Shipping Methods] | (관리자만) 회사 구매에 사용할 수 있는 배송 방법을 나타냅니다. 옵션: `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |
-| [!UICONTROL Shipping Methods] | (관리자만) 특정 배송 방법이 활성화되면 활성화됩니다. 회사 계정에 여러 결제 방법을 사용할 수 있도록 하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 옵션을 선택합니다. |
+| [!UICONTROL Shipping Methods] | (관리자만) 특정 배송 방법이 활성화된 경우 활성화됩니다. 회사 계정에서 여러 결제 수단을 사용할 수 있도록 하려면 Ctrl 키(PC) 또는 명령 키(Mac)를 누른 상태에서 각 옵션을 선택합니다. |
 
 {style="table-layout:auto"}

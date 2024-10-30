@@ -4,9 +4,9 @@ description: 회사 구조와 회사 관리자가 비즈니스 워크플로 및 
 exl-id: 4724b208-b6ac-4de5-9a4c-bc4d68402506
 feature: B2B, Companies
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -17,25 +17,23 @@ ht-degree: 0%
 
 ![사업부가 있는 회사 구조](./assets/company-structure-diagram.svg){width="500"}
 
-회사 관리자의 계정 대시보드에서 회사 구조는 트리로 표시되며 처음에는 회사 관리자로만 구성됩니다.
+상점가의 회사 관리자 계정 대시보드에서 회사 구조는 트리로 표시되며 처음에는 회사 관리자로만 구성됩니다.
 
-![회사 관리자가 있는 회사 구조](./assets/company-structure-tree-admin.png){width="600" zoomable="yes"}
+![회사 관리자가 있는 회사 구조](./assets/company-structure-tree-admin.png){width="700" zoomable="yes"}
 
-계정을 만들고 승인하면 회사 관리자가 회사 이메일 주소를 사용하거나 다른 이메일 주소를 할당할 수 있습니다.
-
-회사 관리자로서 역할을 수행하는 사람이 회사 내에서 여러 역할을 하게 될 가능성이 있다. 회사 관리자에 대해 별도의 이메일 주소를 입력하면 초기 회사 구조에 회사 관리자와 회사 관리자 이름에 개별 사용자 계정이 포함됩니다. 이러한 경우 회사 관리자는 회사 또는 개인 사용자로 계정에 로그인할 수 있습니다.
-
-![관리자 및 사용자 계정이 있는 회사 구조](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
-
-판매자의 경우 전체 회사 구조가 관리자 내의 _회사_ 및 _고객_ 그리드에 반영됩니다. 회사 그리드는 상태에 관계없이 모든 회사를 나열합니다. 다음 예제에서는 _ACME_ 회사와 _Vendelay_ 회사 두 회사의 계정을 보여 줍니다.
+판매자의 경우 전체 회사 구조가 관리자 내의 _회사_ 및 _고객_ 그리드에 반영됩니다. 회사 그리드는 상태에 관계없이 모든 회사를 나열합니다.
 
 ![회사 표](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-다음 예제에서는 이러한 회사의 초기 회사 관리자 계정이 있는 [!UICONTROL Customers] 표를 보여 줍니다.
+다음 예제에서는 각 회사의 초기 회사 관리자 계정이 있는 [!UICONTROL Customers] 표를 보여 줍니다.
 
 회사 관리자 계정이 있는 ![고객 그리드](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-계정을 만든 후 회사 관리자는 [팀](account-company-structure.md)의 회사 구조를 정의하고 [회사 사용자](account-company-users.md)를 설정하고 각각에 대해 [역할 및 권한](account-company-roles-permissions.md)을 설정해야 합니다.
+계정을 만든 후 회사 관리자는 [팀](account-company-structure.md)과(와) 함께 회사 구조를 정의하고 [회사 사용자](account-company-users.md)를 설정하고 각각에 대해 [역할 및 권한](account-company-roles-permissions.md)을 설정할 수 있습니다.
+
+>[!NOTE]
+>
+>회사 사용자가 추가되면 회사 사용자는 회사 관리자의 하위 조직인 루트 회사 구조에 처음 추가됩니다. 회사 관리자가 회사 내에서 여러 역할을 수행하는 경우 각 역할에 대해 서로 다른 이메일 주소로 별도의 회사 사용자 계정을 만듭니다.
 
 ## 회사 구조 아이콘
 
@@ -74,9 +72,7 @@ ht-degree: 0%
 
    - 필요한 만큼 팀을 만듭니다.
 
-     ![팀이 있는 회사 구조](./assets/company-structure-teams.png){width="600" zoomable="yes"}
-
-1. 팀 계층을 만들려면 다음을 수행합니다.
+1. 팀 계층을 만들려면 관리자는 다음을 수행합니다.
 
    - 상위 팀을 선택하고 **[!UICONTROL Add Team]**&#x200B;을(를) 클릭합니다.
 
@@ -129,7 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Collapse All / Expand All] | 비즈니스 구조 트리 축소 또는 확장 |
 | [!UICONTROL Add User] | 현재 팀 아래에 사용자 만들기 |
 | [!UICONTROL Add Team] | 팀 만들기 |
-| [!UICONTROL Edit Selected / Delete Selected] | 비즈니스 트리에서 사용자를 편집하거나 제거합니다. |
+| [!UICONTROL Edit Selected / Remove from Structure] | 사용자 정보를 편집하거나 비즈니스 트리에서 사용자를 제거합니다. 자세한 내용은 [회사 사용자 계정 관리](account-company-users.md)를 참조하십시오. |
 
 {style="table-layout:auto"}
 

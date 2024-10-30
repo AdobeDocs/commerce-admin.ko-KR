@@ -3,9 +3,9 @@ title: '[!UICONTROL My Quotes]'
 description: 계정 대시보드에서 사용할 수 있는 견적의 고객 환경에 대해 알아봅니다.
 exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 feature: B2B, Companies, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 6cf53c7caf37c24be473afecfba829595c14cb8c
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -19,30 +19,44 @@ ht-degree: 0%
 
 구매자는 장바구니에서 견적에 대해 [요청을 제출](quote-request.md)하여 프로세스를 시작합니다. [협상 프로세스](quote-price-negotiation.md) 중에 구매자와 판매자 간에 전자 메일이 교환됩니다. 구매자의 경우 [!UICONTROL My Quotes] 페이지는 협상 프로세스 동안 구매자와 판매자 간의 모든 커뮤니케이션의 중심점입니다. 판매자가 제시한 협상 가격을 수락한 구매자는 견적서에서 바로 체크아웃 페이지로 진행할 수 있다. 협상된 견적에 추가 할인을 추가할 수 없습니다.
 
-구매자는 견적을 협상할 때 다음 조치를 완료할 수 있습니다.
+견적을 협상할 때 구매자는 견적을 관리하거나 견적 상세내역을 갱신할 수 있는 몇 가지 옵션을 제공합니다.
 
-* 품목 가격책정 및 갱신 검토
-* [!UICONTROL Comments] 및 [!UICONTROL History] 섹션에서 협상 프로세스 추적
-* 견적을 수정하여 항목 제거
-* 라인 품목 및 견적 레벨에서 메모를 추가하여 판매자와 소통 및 협상
-* 검토를 위해 판매자에게 견적 보내기
-* 조건이 수락될 경우 견적을 주문으로 변환
-* 견적 닫기
-* 견적 삭제
-* [!BADGE 1.5.0 베타 기능]{type=Informative url="/help/b2b/release-notes.md" tooltip="Beta 프로그램 참가자만 사용 가능"}
+* 견적 관리와 관련된 작업:
+
+   * 견적의 사본 만들기
+   * 견적 닫기
+   * 견적 삭제
+   * 견적 이름 바꾸기
+   * 견적 인쇄
+   * 템플릿 만들기
+
+* 견적 상세내역 갱신 조치:
+
+   * 품목 가격책정 및 갱신 검토
+   * [!UICONTROL Comments] 및 [!UICONTROL History] 섹션에서 협상 프로세스 추적
+   * 견적을 수정하여 항목 제거
+   * 라인 품목 및 견적 레벨에서 메모를 추가하여 판매자와 소통 및 협상
+   * 배송 주소 추가
+   * 라인 품목을 구매요청 목록으로 이동
+   * 조건이 수락될 경우 견적을 주문으로 변환
+
+* 협상 중 일반 조치:
+
+   * 검토를 위해 판매자에게 견적 보내기
+   * 체크아웃 진행
 
 다음 예제는 구매자가 업데이트하여 검토를 위해 판매자에게 다시 보낸 견적을 보여 줍니다.
 
 
-![견적의 구매자 보기](./assets/account-dashboard-my-quote-detail.png){width="700" zoomable="yes"}
+![견적의 구매자 보기](./assets/account-dashboard-my-quote-detailed.png){width="700" zoomable="yes"}
 
 `Updated` 상태의 견적은 판매자가 견적을 반환할 때까지 잠깁니다.
 
 ## 따옴표 표시
 
-역할에 필요한 [권한](account-company-roles-permissions.md)을 통해 회사 계정과 연결된 고객은 [하위 사용자](account-company-structure.md)가 요청한 견적을 볼 수 있습니다. 회사 관리자는 회사 계정에 대한 모든 견적을 볼 수 있습니다.
+역할에 필요한 [권한](account-company-roles-permissions.md)을 통해 회사 계정과 연결된 구매자는 [하위 사용자](account-company-structure.md)가 요청한 견적을 볼 수 있습니다. 회사 관리자는 회사 계정에 대한 모든 견적을 볼 수 있습니다.
 
-1. 고객은 상점 앞에 있는 자신의 계정에 로그인합니다.
+1. 구매자는 상점 앞에 있는 그들의 계정에 로그인한다.
 
 1. 왼쪽 탐색에서 **[!UICONTROL My Quotes]**&#x200B;을(를) 클릭합니다.
 
@@ -52,15 +66,89 @@ ht-degree: 0%
 
 ## 견적 보기
 
-1. 고객이 계정에 로그인합니다.
+1. 구매자는 자신의 계정에 로그인합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL My Quotes]**&#x200B;을(를) 선택합니다.
 
 1. 목록에서 견적을 찾고 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL View]**을(를) 클릭합니다.
 
+## 견적 복사
+
+1. 구매자는 상점 앞에서 회사 계정에 로그인합니다.
+
+1. 왼쪽 패널에서 **[!UICONTROL My Quotes]**&#x200B;을(를) 선택합니다.
+
+1. 목록에서 원하는 견적을 찾아 액세스한 다음 원래 견적에서 **[!UICONTROL Create Copy]**&#x200B;을(를) 클릭합니다.
+
+## 템플릿 만들기
+
+1. 구매자는 자신의 계정에 로그인합니다.
+
+1. 왼쪽 패널에서 **[!UICONTROL My Quote Templates]**&#x200B;을(를) 선택합니다.
+
+1. **[!UICONTROL My Quotes]** 목록에서 견적을 찾고 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Create Quote Template]**을(를) 클릭합니다.
+
+## 견적에서 구매요청 목록으로 라인 항목 이동
+
+1. 구매자는 자신의 계정에 로그인합니다.
+
+1. 왼쪽 패널에서 **[!UICONTROL My Quotes]**&#x200B;을(를) 선택합니다.
+
+1. 목록에서 원하는 견적을 찾아 액세스합니다.
+
+1. 라인 항목을 선택합니다.
+
+1. _[!UICONTROL Actions]_드롭다운에서&#x200B;**[!UICONTROL Move to Requisition list]**을(를) 클릭합니다.
+
+1. 선택한 품목을 이동할 기존 구매요청 목록을 선택합니다.
+
+1. **[!UICONTROL Move item]**&#x200B;을(를) 클릭합니다.
+
+이 프로세스에 대한 자세한 내용은 [구매요청 목록에 제품 추가](requisition-lists.md)를 참조하십시오.
+
+>[!NOTE]
+>
+> 품목을 이동할 때 신규 구매요청 목록을 생성할 수 없습니다. 기존 구매요청 목록으로만 품목을 이동할 수 있습니다.
+
+## 라인 항목을 새 견적으로 이동
+
+1. 구매자는 자신의 계정에 로그인합니다.
+
+1. 왼쪽 패널에서 **[!UICONTROL My Quotes]**&#x200B;을(를) 선택합니다.
+
+1. 목록에서 원하는 견적을 찾아 액세스합니다.
+
+1. 라인 항목을 선택합니다.
+
+1. _[!UICONTROL Actions]_드롭다운에서&#x200B;**[!UICONTROL Move item to new quote]**을(를) 클릭합니다.
+
+1. 모달에서 새 따옴표의 이름을 지정합니다.
+
+1. **[!UICONTROL Move to quote]**&#x200B;을(를) 선택하여 선택한 항목을 새 견적으로 이동합니다.
+
+>[!NOTE]
+>
+> 여러 항목을 선택할 때 모달이 **[!UICONTROL Move selected items to new quote]**(으)로 표시됩니다.
+
+## 배송 주소 추가
+
+1. 구매자는 자신의 계정에 로그인합니다.
+
+1. 왼쪽 패널에서 **[!UICONTROL My Quotes]**&#x200B;을(를) 선택합니다.
+
+1. 원하는 견적을 선택합니다.
+
+1. **[!UICONTROL Shipping Information]** 섹션에서 **[!UICONTROL Add New Address]**&#x200B;을(를) 클릭합니다.
+
+1. 새 주소의 세부 정보를 입력합니다.
+
+1. **[!UICONTROL Save Address]**&#x200B;을(를) 클릭합니다.
+
+구매자가 주소를 추가하면 판매자는 배송 및 배송 옵션을 제공합니다. 이러한 업데이트는 협상된 견적 가격에 영향을 줄 수 있습니다. 체크아웃 시 배송 옵션이 잠겨 있습니다.
+
 ## 견적 인쇄
 
-1. _[!UICONTROL Items Quoted]_섹션의 오른쪽에 있는 열린 인용구에서 고객이&#x200B;**[!UICONTROL Print]**을(를) 클릭합니다.
+1. _[!UICONTROL Items Quoted]_섹션의 오른쪽에 있는 열린 인용구에서 구매자가&#x200B;**[!UICONTROL Print]**을(를) 클릭합니다.
 
 1. **[!UICONTROL Destination]**&#x200B;을(를) 프린터 또는 PDF으로 확인합니다.
 
@@ -82,9 +170,10 @@ ht-degree: 0%
 
 | 작업 | 설명 |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 이름 바꾸기 | [!BADGE 1.5.0 베타 기능]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Beta 프로그램 참가자만 사용 가능&quot;} 따옴표 이름을 변경합니다 |
-| 복사본 만들기 | [!BADGE 1.5.0 베타 기능]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Beta 프로그램 참가자만 사용할 수 있습니다&quot;} 구매자는 현재 견적을 복사하고 이름을 바꾸어 새 견적을 만들 수 있습니다. |
+| 이름 바꾸기 | 견적명 변경 |
+| 복사본 만들기 | 구매자는 현재 견적을 복사하고 이름을 변경하여 견적을 생성할 수 있습니다. |
 | 견적 닫기 | 구매자가 견적을 마감하면 다시 열 수 없습니다. 필요한 경우 구매자는 [!UICONTROL Create Copy] 작업을 사용하여 다시 만들 수 있습니다. 견적 상태가 `Draft`인 경우 이 옵션을 사용할 수 없습니다. |
+| 템플릿 만들기 | 현재 견적을 기반으로 견적 템플리트를 생성합니다. 견적 템플리트는 구매자와 판매자가 여러 견적에 적용할 수 있는 계약 및 가격 조건에 동의할 수 있도록 함으로써 견적 협상을 간소화합니다.  계약 시 구매자는 견적 요청(RFQ) 프로세스를 다시 시작하는 대신 후속 주문에 대해 템플릿에서 사전 승인된 연결 견적을 생성할 수 있습니다. |
 | 견적 삭제 | 구매자가 견적을 삭제하면 시스템에서 삭제되며 더 이상 사용할 수 없습니다. |
 | 인쇄 | 견적을 PDF, 파일로 저장하거나 구성된 프린터로 인쇄하기 위한 인쇄 양식을 엽니다. |
 

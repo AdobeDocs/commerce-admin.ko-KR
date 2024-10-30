@@ -5,9 +5,9 @@ breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: c88e5be54ac4af04302abbb25cc3f7db7b6b2606
+source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '161'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 6%
       + [회사 구조 정의](account-company-structure.md)
 + 회사 관리 {#company-management}
    + [개요](manage-companies.md)
-   + [회사 계층 관리](assign-companies.md)
+   + [회사 계층 관리](manage-company-hierarchy.md)
 + 공유된 카탈로그 {#shared-catalogs}
    + [개요](catalog-shared.md)
    + 공유 카탈로그 {#define} 정의
@@ -56,7 +56,11 @@ ht-degree: 6%
    + [견적 요청](quote-request.md)
    + [구매자에 대한 견적 시작](sales-rep-initiates-quote.md)
    + [견적 협상](quote-price-negotiation.md)
+   + [견적 템플릿 만들기](quote-templates.md)
    + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
++ 견적 템플릿 {#templates}
+   + [사용 사례 및 워크플로](quote-templates-overview.md)
+   + [[!UICONTROL My Quote Templates]](account-dashboard-my-quote-templates.md)
 + 구매요청 목록 {#requisition-lists}
    + [개요](requisition-lists.md)
    + [최대 목록 구성](configure-requisition-lists.md)

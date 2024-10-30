@@ -3,22 +3,26 @@ title: 회사 계정 관리
 description: 회사 페이지와 그리드에서 사용할 수 있는 도구를 사용하여 Adobe Commerce 스토어의 회사 계정을 관리하는 방법을 알아봅니다.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: fa8083570a4637c4bf67f7657ef9d0d48f962c50
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2706'
 ht-degree: 0%
 
 ---
 
 # 회사 계정 관리
 
-_[!UICONTROL Companies]_페이지에는 상태와 관계없이 모든 현재 회사 계정이 나열됩니다. 승인 보류 중인 요청이 목록 맨 위에 표시됩니다. 표준 [작업 공간 컨트롤](../getting-started/admin-workspace.md)을(를) 사용하여 목록을 필터링하고, [열 레이아웃](../getting-started/admin-grid-controls.md)을(를) 변경하고, 보기를 저장하거나, 데이터를 내보낼 수 있습니다.
-
-표 위의 _[!UICONTROL Actions]_컨트롤은 여러 회사 레코드에 작업을 적용하는 데 사용할 수 있습니다. 예를 들어 각 개별 회사 요청을 승인하는 대신 여러 요청을 선택하고 한 번의 작업으로 계정을 활성화할 수 있습니다. 사용 가능한 작업은 관리자 사용자 계정에 할당된 역할의 [권한](../systems/permissions.md)에 따라 다릅니다.
-
-_[!UICONTROL Search]_함수를 사용하여 키워드별로&#x200B;**회사**그리드에서 회사를 찾습니다.**회사 이름**및&#x200B;**상위**열의 검색 인덱스 키워드입니다.**회사 유형**별로 필터링하여 단일 회사, 상위 회사 또는 하위 회사만 표시할 수 있습니다.
+_[!UICONTROL Companies]_페이지에는 상태와 관계없이 모든 현재 회사 계정이 나열됩니다. 승인 보류 중인 요청이 목록 맨 위에 표시됩니다.
 
 ![회사 표](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+
+*[!UICONTROL Columns]* 컨트롤을 사용하여 그리드에 표시되는 열을 사용자 지정합니다. 검색 및 필터 기능을 사용하여 보기에 표시되는 회사를 사용자 지정합니다.
+
+- _[!UICONTROL Search]_을(를) 사용하여&#x200B;**회사**그리드에서 회사를 찾으십시오.**회사 이름**및&#x200B;**상위**열을 인덱싱합니다.
+
+- [!UICONTROL Filter]을(를) 사용하여 특정 기준을 충족하는 레코드를 포함하도록 보기를 사용자 지정합니다. 예를 들어 B2B 사이트가 단일 회사 계정과 [회사 계층](manage-companies.md)을 모두 관리하도록 구성된 경우 `[!UICONTROL Company Type - Company]`을(를) 기준으로 필터링하여 단일 회사만 표시하거나 `[!UICONTROL Company Type - Parent]`을(를) 기준으로 필터링하여 각 계층에 대한 상위 회사만 표시할 수 있습니다.
+
+표 위에 있는 _[!UICONTROL Actions]_컨트롤을 사용하여 여러 회사 레코드에 작업을 적용합니다. 예를 들어 각 개별 회사 요청을 승인하는 대신 여러 요청을 선택하여 한 번의 작업으로 계정을 활성화할 수 있습니다. 사용 가능한 작업은 관리자 사용자 계정에 할당된 역할의 [권한](../systems/permissions.md)에 따라 다릅니다.
 
 ## 회사 역할 리소스
 
@@ -29,15 +33,23 @@ _[!UICONTROL Search]_함수를 사용하여 키워드별로&#x200B;**회사**그
 - 정산 환급 적용
 - 회사 보기
 
-이러한 역할 리소스는 관리자 사용자 계정에 할당된 [사용자 역할](../systems/permissions-user-roles.md)에 대해 설정해야 합니다.
+관리자 사용자 계정에 할당된 [사용자 역할](../systems/permissions-user-roles.md)에 대해 이러한 역할 리소스를 설정해야 합니다.
 
-## 작업 적용
+## 회사 그리드에서 회사 계정 관리
 
-다음 작업은 단일 또는 여러 레코드에 적용할 수 있습니다.
+*[!UICONTROL Companies]* 페이지를 열려면 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**&#x200B;을(를) 선택하여 [관리] 메뉴에서 회사의 사용자 계정을 보고 관리합니다.
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**(으)로 이동합니다.
+개별적으로 또는 그룹으로 계정을 관리할 수 있습니다.
 
-1. 그리드의 첫 번째 열에서 업데이트할 각 레코드의 확인란을 선택하고 적용할 작업에 대한 지침을 따릅니다.
+- 회사 계정 레코드에 대한 **[!UICONTROL Action]** 열에서 **[!UICONTROL Edit]**&#x200B;을(를) 선택하여 개별 회사 계정에 대한 구성 설정을 보거나 변경합니다.
+
+  ![선택한 회사에 적용할 작업 선택](assets/companies-change-settings-edit-selection.png){width="675" zoomable="yes"}
+
+- 그리드 위의 [!UICONTROL Actions]** 컨트롤에서 사용할 수 있는 옵션을 사용하여 선택한 회사 계정 그룹을 보거나 변경합니다.
+
+  ![선택한 회사에 적용할 작업 선택](assets/companies-change-settings-mass-action-selection.png){width="675" zoomable="yes"}
+
+각 작업을 적용하는 방법에 대한 지침은 다음 섹션을 참조하십시오.
 
 ### 회사 계정 활성화
 
@@ -90,6 +102,30 @@ _[!UICONTROL Search]_함수를 사용하여 키워드별로&#x200B;**회사**그
 
 1. 확인 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
+### 회사 설정 변경
+
+*회사 격자*&#x200B;에서 선택한 여러 회사에 동일한 설정을 적용하려면 [고급 설정](account-company-create.md#advanced-settings) 구성을 업데이트하십시오.
+
+>[!NOTE]
+>
+>[회사 계층 보기](manage-company-hierarchy.md#change-company-settings)에서 상위 및 연결된 하위 회사가 있는 회사 조직의 고급 설정 구성을 관리합니다.
+
+1. **[!UICONTROL Actions]** 컨트롤에서 **[!UICONTROL Change company settings]**&#x200B;을(를) 선택합니다.
+
+   *[!UICONTROL Change company settings]* 폼에서 초기 구성 설정이 기본값으로 설정됩니다.
+
+1. 변경할 각 구성 설정에 대해 **[!UICONTROL Change]** 확인란을 선택하여 설정을 사용하도록 설정합니다. 그런 다음 필요에 따라 설정을 업데이트합니다.
+
+   ![여러 회사에 대한 회사 설정 변경](assets/companies-change-advanced-settings-action.png){width="675" zoomable="yes"}
+
+1. 구성 설정을 업데이트한 후 **[!UICONTROL Apply Changes]**&#x200B;을(를) 선택합니다.
+
+1. 메시지가 표시되면 **[!UICONTROL Change settings]**&#x200B;을(를) 선택하여 선택한 회사에 대한 구성을 업데이트합니다.
+
+>[!TIP]
+>
+>회사 계정 레코드에 대한 **[!UICONTROL Action]** 열에서 **[!UICONTROL Edit]**&#x200B;을(를) 선택하여 단일 회사에 대한 고급 설정 구성을 변경할 수 있습니다.
+
 ### 신용 통화 전환
 
 선택된 회사의 계좌에 있는 대변은 선택된 통화의 현재 환율로 변환됩니다.
@@ -114,7 +150,7 @@ _[!UICONTROL Search]_함수를 사용하여 키워드별로&#x200B;**회사**그
 
    업데이트할 수 있는 각 값이 텍스트 상자에 나타납니다.
 
-   ![회사 계정의 빠른 편집](./assets/companies-grid-quick-edit.png){width="700" zoomable="yes"}
+   ![회사 계정의 빠른 편집](./assets/companies-grid-quick-edit.png){width="675" zoomable="yes"}
 
 1. 필요에 따라 다음 값 중 하나를 업데이트합니다.
 
@@ -134,7 +170,7 @@ _[!UICONTROL Search]_함수를 사용하여 키워드별로&#x200B;**회사**그
 
 1. 회사 정보에 필요한 사항을 변경합니다.
 
-필드 설명은 [회사 계정 만들기](account-company-create.md)를 참조하세요.
+   필드 설명은 [회사 계정 만들기](account-company-create.md)를 참조하세요.
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -176,13 +212,11 @@ _[!UICONTROL Search]_함수를 사용하여 키워드별로&#x200B;**회사**그
 
 ## 회사 경영
 
-[!BADGE 1.5.0-베타]{type=Informative url="/help/b2b/release-notes.md" tooltip="Beta 프로그램 참가자만 사용 가능"}
-
 회사를 만든 후 적절한 권한이 있는 관리자는 [!UICONTROL Company Hierarchy] 섹션을 사용하여 지정된 상위 회사를 편집하고 관련 회사를 할당하여 상위 회사 조직을 만들 수 있습니다.
 
 회사가 계층에 추가된 경우 [!UICONTROL Company Hierarchy] 그리드에 상위 회사와 할당된 모든 회사가 그리드에 표시됩니다.
 
-자세한 내용은 [회사 계층 구조 관리](assign-companies.md)를 참조하십시오.
+자세한 내용은 [회사 계층 구조 관리](manage-company-hierarchy.md)를 참조하십시오.
 
 ## 회사 옵션 및 열
 
@@ -191,11 +225,12 @@ _[!UICONTROL Search]_함수를 사용하여 키워드별로&#x200B;**회사**그
 ### 작업 제어 옵션
 
 | 옵션 | 설명 |
-|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active] | 선택한 모든 회사 레코드의 상태를 `Active`(으)로 설정합니다. 회사 관리자는 상점에서 자신의 계정에 액세스하고 회사를 관리할 수 있도록 암호를 설정하는 지침을 받습니다. |
 | [!UICONTROL Block] | 상태가 좋지 않은 회사 계정을 제한하고 계정을 보존합니다. 회사 구성원은 로그인하여 카탈로그에 액세스할 수 있지만 회사를 대신하여 주문을 할 수 없습니다. |
 | [!UICONTROL Delete] | 선택한 회사 계정을 삭제합니다. 삭제된 회사와 연결된 사용자 계정의 상태가 `Inactive`(으)로 설정되어 있고 회사 ID가 사용자 계정의 프로필에서 제거됩니다. 회사 활동 및 거래에 대한 정보는 시스템에 유지됩니다. |
 | [!UICONTROL Edit] | 선택한 회사 레코드의 일부 값을 그리드에서 편집할 수 있습니다. 기본적으로 회사 이름, 회사 이메일 및 전화번호 값은 빠른 편집에 사용할 수 있습니다. |
+| [!UICONTROL Change company settings] | *회사 설정 변경* 양식을 열어 [고급 설정](account-company-create.md#advanced-settings) 구성을 업데이트하고 선택한 회사에 변경 내용을 적용합니다. |
 | [!UICONTROL Convert Credit] | 지정된 통화의 환율에 따라 선택한 회사의 계정에 대한 대변을 변환합니다. |
 
 {style="table-layout:auto"}
@@ -250,7 +285,6 @@ _[!UICONTROL Search]_함수를 사용하여 키워드별로&#x200B;**회사**그
 | 단추 | 설명 |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back] | 변경 사항을 저장하지 않고 회사 페이지로 돌아갑니다. |
-| [!UICONTROL Login as Customer] | 관리자 사용자가 [상점에 고객으로 로그인](../customers/login-as-customer.md)하고 주문을 도울 수 있습니다. |
 | [!DNL Delete Company] | 회사 계정을 삭제합니다. 회사와 연결된 사용자 계정의 상태가 `Inactive`(으)로 설정되어 있고 회사 ID가 사용자 계정의 프로필에서 제거됩니다. 회사 활동 및 거래에 대한 정보는 시스템에 유지됩니다. |
 | [!DNL Reset] | 변경 내용이 저장되지 않은 모든 필드로 원래 값을 복원합니다. |
 | [!DNL Reimburse Balance] | 관리자가 스토어 크레딧에서 PO 번호로 참조된 잔액을 상환할 수 있습니다. |
@@ -278,19 +312,10 @@ _[!UICONTROL Search]_함수를 사용하여 키워드별로&#x200B;**회사**그
 | [!UICONTROL VAT / TAX ID] | 세금 신고 목적으로 회사에 할당된 세금 또는 [부가가치세](../stores-purchase/vat.md) 번호입니다. |
 | [!UICONTROL Reseller ID] | 세금 보고 목적으로 회사에 지정된 재판매 번호. |
 | [!UICONTROL Comment] | 회사 계정에 대한 이러한 참고는 참조용이며 관리자만 볼 수 있습니다. |
-| **[!UICONTROL Legal Address]** |                                                                                                                            |
-| [!UICONTROL Street Address] | 회사가 사업을 하기 위해 등록한 거리 주소. |
-| [!UICONTROL City] | 비즈니스를 수행하기 위해 회사가 등록된 도시입니다. |
-| [!UICONTROL Country] | 회사를 등록하여 비즈니스를 수행하는 국가. |
-| [!UICONTROL State/Province] | 회사가 등록되어 사업을 수행하는 주 또는 시/도입니다. |
-| [!UICONTROL ZIP/Postal Code] | 회사가 등록되어 비즈니스를 수행하는 ZIP 또는 우편 번호입니다. |
-| [!UICONTROL Phone Number] | 회사의 기본 전화번호. |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Company Hierarchy]
-
-[!BADGE 1.5.0-베타]{type=Informative url="/help/b2b/release-notes.md" tooltip="Beta 프로그램 참가자만 사용 가능"}
 
 | 열 | 설명 |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -306,10 +331,24 @@ _[!UICONTROL Search]_함수를 사용하여 키워드별로&#x200B;**회사**그
 
 {style="table-layout:auto"}
 
+#### [!UICONTROL Legal Address]
+
+| 열 | 설명 |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Street Address] | 회사가 사업을 하기 위해 등록한 거리 주소. |
+| [!UICONTROL City] | 비즈니스를 수행하기 위해 회사가 등록된 도시입니다. |
+| [!UICONTROL Country] | 회사를 등록하여 비즈니스를 수행하는 국가. |
+| [!UICONTROL State/Province] | 회사가 등록되어 사업을 수행하는 주 또는 시/도입니다. |
+| [!UICONTROL ZIP/Postal Code] | 회사가 등록되어 비즈니스를 수행하는 ZIP 또는 우편 번호입니다. |
+| [!UICONTROL Phone Number] | 회사의 기본 전화번호. |
+
+{style="table-layout:auto"}
+
 #### [!UICONTROL Company Admin]
 
 | 필드 | 설명 |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Website] | 회사 계정에 대해 [웹 사이트 범위](../getting-started/websites-stores-views.md)를 설정합니다. 기본값은 *[!UICONTROL Main Website]*&#x200B;입니다. |
 | [!UICONTROL Job Title] | 회사 계정을 관리하는 회사 관리자의 제목입니다. |
 | [!UICONTROL Email] | 회사 관리자의 이메일 주소는 회사 이메일 주소와 같을 수 있습니다. 다른 이메일 주소를 입력하면 회사 계정 외에 회사 관리자를 위한 별도의 개인 계정이 만들어집니다. |
 | [!UICONTROL Prefix] | 해당하는 경우 회사 관리자의 이름과 연결된 접두사입니다(예: `Mr.`, `Ms.`, `Mrs.` 또는 `Dr.`). 구성에 따라 입력 필드는 텍스트 필드 또는 목록일 수 있습니다. |
@@ -318,6 +357,7 @@ _[!UICONTROL Search]_함수를 사용하여 키워드별로&#x200B;**회사**그
 | [!UICONTROL Last Name] | 회사 관리자의 성. |
 | [!UICONTROL Suffix] | 해당되는 경우 회사 관리자의 이름과 연결된 접미사(예: `Jr.`, `Sr.` 또는 `III`)입니다. 구성에 따라 입력 필드는 텍스트 필드 또는 목록일 수 있습니다. |
 | [!UICONTROL Gender] | 회사 관리자의 성별. 옵션: `Male` / `Female` / `Not Specified` |
+| [!UICONTROL Send Welcome Email From] | *[!UICONTROL Default Store View]*&#x200B;을(를) 사용하지 않으려면 새 회사 관리자에게 환영 이메일을 보낼 때 사용할 저장소 보기를 설정하십시오. |
 
 {style="table-layout:auto"}
 
