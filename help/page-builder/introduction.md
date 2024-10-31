@@ -2,9 +2,9 @@
 title: ' [!DNL Page Builder] 소개'
 description: Adobe Commerce 및 Magento Open Source에서 컨텐츠를 쉽게 만들 수 있는  [!DNL Page Builder] 도구에 대해 알아봅니다.
 exl-id: 2f71f910-4141-4fe5-bc0f-b891daeb8334
-source-git-commit: 43e71a77c3f4a4b92406bae03d27d3ec3c2359ba
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 연습 연습에서는 2.4.x 릴리스 줄의 [!DNL Page Builder] 작업 영역에 대한 중요한 변경 사항을 반영하도록 업데이트됩니다. 이전 Adobe Commerce 릴리스를 사용하는 경우 [[!DNL Commerce] 2.3 사용 안내서](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html)에 포함된 [!DNL Page Builder] 연습 연습을 사용하십시오.
+>이 연습 연습에서는 2.4.x 릴리스 줄의 [!DNL Page Builder] 작업 영역에 대한 중요한 변경 사항을 반영하도록 업데이트됩니다.
 
 ## 페이지 빌더 데모
 

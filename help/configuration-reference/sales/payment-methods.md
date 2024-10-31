@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Commerce 관리자의 [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![판매자 위치](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://docs.magento.com/user-guide/payment/merchant-location.html) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->일부 결제 통합 및 번들 확장은 2.4.x 릴리스에서 제거되었으며 Commerce Marketplace으로 이동되었습니다. 최신 공식 결제 통합 확장 기능은 [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;}에서 확인할 수 있습니다.
+>일부 결제 통합 및 번들 확장은 2.4.x 릴리스에서 제거되었으며 Commerce Marketplace으로 이동되었습니다. [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}에서 최신 공식 결제 통합 확장을 찾을 수 있습니다.
 ><br/>
 >**Amazon Pay** 및 **Klarna**: Adobe Commerce 및 Magento Open Source 릴리스 2.4.0 - 2.4.3에는 이러한 공급업체에서 개발한 확장이 포함되어 있습니다. 2.4.4 릴리스부터 이러한 확장은 더 이상 핵심 릴리스와 번들로 제공되지 않으며 Commerce Marketplace에서 설치하고 업데이트해야 합니다. Marketplace에서는 확장 개발자가 제공하는 현재 설명서에 대한 액세스도 제공합니다.
 ><br/>
 >이러한 번들 확장을 사용 및 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 `composer.json` 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [업그레이드 모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)을 참조하십시오.<br/>
 ><br/>
->**Worldpay**, **Eway**, **CyberSource** 및 **Authorize.Net**: 이러한 결제 통합에서 안전하게 전환하는 방법에 대한 자세한 내용은 [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;}를 참조하십시오.
+>**Worldpay**, **Eway**, **CyberSource** 및 **Authorize.Net**: 이러한 결제 통합에서 안전하게 전환하는 방법에 대한 자세한 내용은 [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}를 참조하십시오.
 
 ## 기타 PayPal 메서드
 
@@ -71,7 +71,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 
 ![주문 확인/금액](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
-<!-- [Check / Money Order](https://docs.magento.com/user-guide/payment/check-money-order.html) -->
+<!-- [Check / Money Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -92,7 +92,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 
 ![은행 계좌 이체 결제](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
-<!-- [Bank Transfer Payment](https://docs.magento.com/user-guide/payment/bank-transfer.html) -->
+<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -113,7 +113,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 
 ![계정 결제](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://docs.magento.com/user-guide/payment/payment-on-account.html) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

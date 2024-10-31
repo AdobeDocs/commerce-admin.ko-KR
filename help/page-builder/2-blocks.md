@@ -3,9 +3,9 @@ title: '[!DNL Page Builder] 연습 2부: 블록'
 description: ' [!DNL Page Builder]을(를) 사용할 때 단순 블록과 동적 블록의 차이점을 알아봅니다.'
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
-source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2054'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 연습 연습에서는 2.4.1 릴리스의 [!DNL Page Builder] 작업 영역에 대한 최근 변경 사항을 반영하도록 업데이트됩니다. 이전 Adobe Commerce 릴리스를 사용하는 경우 [[!DNL Commerce] 2.3 사용 안내서](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html)에 포함된 [!DNL Page Builder] 연습을 사용하십시오.
+>이 연습 연습에서는 2.4.1 릴리스의 [!DNL Page Builder] 작업 영역에 대한 최근 변경 사항을 반영하도록 업데이트됩니다.
 
 ## 1부: 간단한 블록 만들기
 

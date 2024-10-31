@@ -3,9 +3,9 @@ title: '[!DNL Page Builder] 연습 1부: 단순 페이지'
 description: 샘플 파일을 사용하고 단계를 따라  [!DNL Page Builder] 인터페이스에서 간단한 페이지를 만드십시오.
 exl-id: 2c146241-675f-4d23-9513-1722d5dd3357
 feature: Page Builder, Page Content
-source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '3334'
+source-wordcount: '3314'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 연습 연습에서는 2.4.1 릴리스의 [!DNL Page Builder] 작업 영역에 대한 최근 변경 사항을 반영하도록 업데이트됩니다. 이전 Adobe Commerce 릴리스를 사용하는 경우 [[!DNL Commerce] 2.3 사용 안내서](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html)에 포함된 [!DNL Page Builder] 연습 연습을 사용하십시오.
+>이 연습 연습에서는 2.4.1 릴리스의 [!DNL Page Builder] 작업 영역에 대한 최근 변경 사항을 반영하도록 업데이트됩니다.
 
 ## 시작하기 전에
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 필요한 컨텐츠 관리 구성 설정을 확인합니다.
 
-- [WYSIWYG 옵션](../content-design/editor.md#configure-the-editor) 구성에서 WYSIWYG 편집기를 사용할 수 있습니다.
+- WYSIWYG 편집기는 [WYSIWYG 옵션](../content-design/editor.md#configure-the-editor) 구성에서 사용할 수 있습니다.
 
 - [!DNL Page Builder]은(는) [고급 콘텐츠 도구](setup.md) 구성에서 사용할 수 있습니다.
 

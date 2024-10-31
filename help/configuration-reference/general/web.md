@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
 description: Commerce 관리자의 [!UICONTROL General] &gt; [!UICONTROL Web] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![웹 > 일반 옵션](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 필드 | 범위 | 설명 |
 |  ---  |  ---  |  ---  |
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![웹 > 검색 엔진 최적화](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://docs.magento.com/user-guide/marketing/url-rewrite.html) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ![웹 > 기본 URL](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ![웹 > 기본 URL(보안)](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -79,16 +79,16 @@ ht-degree: 0%
 
 ![웹 > 기본 페이지](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://docs.magento.com/user-guide/cms/pages-default.html) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Default Web URL] | 스토어 뷰 | 기본 URL과 연결된 랜딩 페이지를 나타냅니다. Commerce CMS(콘텐츠 관리 시스템)의 페이지를 나타내도록 기본적으로 &quot;cms&quot;로 설정되어 있습니다. 블로그와 같은 다른 유형의 랜딩 페이지를 사용할 수도 있습니다. 예를 들어, 서버에 블로그가 `magento/blog`에 설치된 경우 &quot;blog&quot; 폴더의 이름을 페이지 선택에 대한 상대 경로로 입력할 수 있습니다. |
-| [!UICONTROL CMS Home Page] | 스토어 뷰 | 스토어의 홈 페이지를 선택하려면 목록에서 CMS 페이지를 선택하면 됩니다. 기본적으로 CMS 홈 페이지에는 스토어에 사용할 수 있는 전체 CMS 페이지가 나열됩니다. |
+| [!UICONTROL Default Web URL] | 스토어 뷰 | 기본 URL과 연결된 랜딩 페이지를 나타냅니다. Commerce 콘텐츠 관리 시스템(CMS)의 페이지를 나타내기 위해 기본적으로 &quot;cms&quot;로 설정되어 있습니다. 블로그와 같은 다른 유형의 랜딩 페이지를 사용할 수도 있습니다. 예를 들어, 서버에 블로그가 `magento/blog`에 설치된 경우 &quot;blog&quot; 폴더의 이름을 페이지 선택에 대한 상대 경로로 입력할 수 있습니다. |
+| [!UICONTROL CMS Home Page] | 스토어 뷰 | 스토어의 홈 페이지를 선택하려면 목록에서 CMS 페이지를 선택하면 됩니다. 기본적으로 CMS 홈 페이지에는 스토어에 사용할 수 있는 CMS 페이지의 전체 목록이 있습니다. |
 | [!UICONTROL Default No-route URL] | 스토어 뷰 | `404 Page not Found` 오류가 발생할 때 표시할 기본 페이지의 URL을 포함합니다. 기본값은 `cms/noroute/index`입니다. |
 | [!UICONTROL CMS No Route Page] | 스토어 뷰 | 404 페이지를 찾을 수 없음 오류가 발생할 때 표시할 특정 CMS 페이지를 식별합니다. 기본 페이지는 404 찾을 수 없음 입니다. |
 | [!UICONTROL CMS No Cookies Page] | 스토어 뷰 | 브라우저에 대해 쿠키가 활성화되지 않은 경우 나타나는 특정 CMS 페이지를 식별합니다. 이 페이지에서는 쿠키가 사용되는 이유와 각 브라우저에 대해 쿠키를 활성화하는 방법을 설명합니다. 기본 페이지는 쿠키 활성화 입니다. |
-| [!UICONTROL Show Breadcrumbs for CMS Pages] | 스토어 뷰 | 카탈로그의 모든 CMS 페이지에 탐색 표시 추적이 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Show Breadcrumbs for CMS Pages] | 스토어 뷰 | 이동 경로 추적이 카탈로그의 모든 CMS 페이지에 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -96,13 +96,13 @@ ht-degree: 0%
 
 ![기본 레이아웃](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://docs.magento.com/user-guide/design/page-layout.html) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Default Product Layout] | 글로벌 | 제품 페이지에 기본적으로 사용되는 [레이아웃](../../content-design/page-layout.md)을(를) 결정합니다. 옵션: <br/>**`No layout updates`**- 기본적으로 제품 페이지에 대해 레이아웃 업데이트를 사용할 수 없습니다.<br/>**`Empty`** - 기본적으로 은 제품 페이지에 빈 레이아웃을 사용합니다. <br/>**`1 column`**- 기본적으로 은 제품 페이지에 대해 단일 열 레이아웃을 사용합니다.<br/>**`2 columns with left bar`** - 기본적으로 에서는 제품 페이지의 왼쪽에 사이드바가 있는 2열 레이아웃을 사용합니다. <br/>**`2 columns with right bar`**- 기본적으로 제품 페이지의 오른쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`3 columns`** - 기본적으로 은 제품 페이지의 왼쪽과 오른쪽에 사이드바가 있는 3열 레이아웃을 사용합니다.<br/>**`Page -- Full Width`**- ([!DNL Page Builder] 필요) 기본적으로 제품 페이지의 페이지 — 전체 너비 레이아웃을 사용합니다.<br/>**`Category - Full Width`** - ([!DNL Page Builder] 필요) 기본적으로 제품 페이지에 대해 범주 - 전체 너비 레이아웃을 사용합니다. <br/>**`Product - Full Width`**- ([!DNL Page Builder] 필요) 기본적으로 제품 페이지의 제품 - 전체 너비 레이아웃을 사용합니다. |
 | [!UICONTROL Default Category Layout] | 글로벌 | 범주 페이지에 기본적으로 사용되는 [레이아웃](../../content-design/page-layout.md)을 결정합니다. 옵션: <br/>**`No layout updates`**- 기본적으로 범주 페이지에는 레이아웃 업데이트를 사용할 수 없습니다.<br/>**`Empty`** - 기본적으로, 범주 페이지에 빈 레이아웃을 사용합니다. <br/>**`1 column`**- 기본적으로 범주 페이지에 대해 단일 열 레이아웃을 사용합니다.<br/>**`2 columns with left bar`** - 기본적으로, 범주 페이지의 경우 왼쪽에 사이드바가 있는 2열 레이아웃을 사용합니다. <br/>**`2 columns with right bar`**- 기본적으로 범주 페이지의 오른쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`3 columns`** - 기본적으로 은 범주 페이지의 왼쪽과 오른쪽에 사이드바가 있는 3열 레이아웃을 사용합니다.<br/>**`Page - Full Width`**- ([!DNL Page Builder] 필요) 기본적으로 범주 페이지에 대한 페이지 - 전체 너비 레이아웃을 사용합니다.<br/>**`Category - Full Width`** - ([!DNL Page Builder] 필요) 기본적으로 범주 페이지의 범주 - 전체 너비 레이아웃을 사용합니다. <br/>**`Product - Full Width`**- ([!DNL Page Builder] 필요) 기본적으로 범주 페이지에 대해 제품 - 전체 너비 레이아웃을 사용합니다. |
-| 기본 페이지 레이아웃 | 글로벌 | CMS 페이지에 기본적으로 사용되는 [레이아웃](../../content-design/page-layout.md)을(를) 결정합니다. 옵션: <br/>**`No layout updates`**- 기본적으로 CMS 페이지에 대해 레이아웃 업데이트를 사용할 수 없습니다.<br/>**`Empty`** - 기본적으로 CMS 페이지에 대해 빈 레이아웃을 사용합니다. <br/>**`1 column`**- 기본적으로 CMS 페이지에 대해 단일 열 레이아웃을 사용합니다.<br/>**`2 columns with left bar`** - 기본적으로 CMS 페이지의 왼쪽에 사이드바가 있는 두 열 레이아웃을 사용합니다.<br/>**`2 columns with right bar`**- 기본적으로 CMS 페이지의 오른쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`3 columns`** - 기본적으로 CMS 페이지의 왼쪽 및 오른쪽에 사이드바가 있는 3열 레이아웃을 사용합니다.<br/>**`Page - Full Width`**- ([!UICONTROL Page Builder] 필요) 기본적으로 CMS 페이지에 대한 페이지 - 전체 너비 레이아웃을 사용합니다.<br/>**`Category - Full Width`** - ([!UICONTROL Page Builder] 필요) 기본적으로 CMS 페이지에 대한 범주 - 전체 너비 레이아웃을 사용합니다. <br/>**`Product - Full Width`**- ([!DNL Page Builder] 필요) 기본적으로 CMS 페이지에 대한 제품 - 전체 너비 레이아웃을 사용합니다. |
+| 기본 페이지 레이아웃 | 글로벌 | CMS 페이지에 기본적으로 사용되는 [레이아웃](../../content-design/page-layout.md)을(를) 결정합니다. 옵션: <br/>**`No layout updates`**- 기본적으로 CMS 페이지에 대해 레이아웃 업데이트를 사용할 수 없습니다.<br/>**`Empty`** - 기본적으로 은(는) CMS 페이지에 대해 빈 레이아웃을 사용합니다. <br/>**`1 column`**- 기본적으로 은(는) CMS 페이지에 대해 단일 열 레이아웃을 사용합니다.<br/>**`2 columns with left bar`** - 기본적으로 은(는) CMS 페이지의 왼쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`2 columns with right bar`**- 기본적으로 은(는) CMS 페이지의 오른쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`3 columns`** - 기본적으로 은 CMS 페이지의 왼쪽과 오른쪽에 사이드바가 있는 3열 레이아웃을 사용합니다.<br/>**`Page - Full Width`**- ([!UICONTROL Page Builder] 필요) 기본적으로 CMS 페이지에 대한 페이지 - 전체 너비 레이아웃을 사용합니다.<br/>**`Category - Full Width`** - ([!UICONTROL Page Builder] 필요) 기본적으로 CMS 페이지에 대해 범주 - 전체 너비 레이아웃을 사용합니다. <br/>**`Product - Full Width`**- ([!DNL Page Builder] 필요) 기본적으로 CMS 페이지에 대한 제품 - 전체 너비 레이아웃을 사용합니다. |
 
 {style="table-layout:auto"}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![웹 > 기본 쿠키 설정](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://docs.magento.com/user-guide/stores/compliance-cookie-law.html) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ![웹 > 세션 유효성 검사](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://docs.magento.com/user-guide/stores/security-session-validation.html) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 ![웹 > 브라우저 기능 검색](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://docs.magento.com/user-guide/stores/security-browser-capabilities-detection.html) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

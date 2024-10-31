@@ -3,7 +3,7 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
 description: Commerce 관리자의 [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] 페이지에서 구성 설정을 검토하십시오.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![구독 옵션](./assets/newsletter-subscription-options.png)<!-- zoom -->
 
-<!-- [Subscription Options](https://docs.magento.com/user-guide/marketing/newsletter-configuration.html) -->
+<!-- [Subscription Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

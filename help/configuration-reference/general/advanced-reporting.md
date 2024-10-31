@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Advanced Reporting]'
 description: Commerce 관리자의 [!UICONTROL General] &gt; [!UICONTROL Advanced Reporting] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 3f6311c8-3849-4608-8f2c-64359bd3edbc
 feature: Configuration, Commerce Intelligence
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '92'
 ht-degree: 1%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_은(는) [Adobe Commerce Intelligence][1]{:target=&quot;_blank&quot;}에서 제공하는 클라우드 기반 서비스입니다. 자세한 내용은_&#x200B;시작 안내서&#x200B;_에서 [고급 보고][2]{:target=&quot;_blank&quot;}를 참조하십시오.
+_[!DNL Advanced Reporting]_은(는) [Adobe Commerce Intelligence][1]{:target="_blank"}에서 제공하는 클라우드 기반 서비스입니다. 자세한 내용은_&#x200B;시작 안내서&#x200B;_의 [고급 보고][2]{:target="_blank"}를 참조하십시오.
 
 ![고급 보고](./assets/advanced-reporting.png)<!-- zoom -->
 
-<!-- [Advanced Reporting](https://docs.magento.com/user-guide/reports/advanced-reporting.html) -->
+<!-- [Advanced Reporting](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
