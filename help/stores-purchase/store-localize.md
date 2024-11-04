@@ -3,9 +3,9 @@ title: 로컬라이제이션 저장
 description: 스토어 또는 스토어 보기를 현지화하는 방법에 대해 알아봅니다.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 248c60b20d8554fc73f94cfd249ac3fd7b677f62
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 스토어 전체의 페이지에 하드 코딩된 것으로 보이는 대부분의 텍스트는 보기의 로케일을 변경하여 즉시 다른 언어로 변경할 수 있습니다. 로케일을 변경해도 실제로 텍스트가 단어 단위로 번역되지는 않지만 스토어 전체에 사용되는 인터페이스 텍스트를 제공하는 다른 번역 표를 참조합니다. 변경할 수 있는 텍스트에는 탐색 제목, 레이블, 단추 및 링크(예: _내 장바구니_ 및 _내 계정_)가 포함됩니다. [인라인 번역](../configuration-reference/advanced/developer.md) 도구를 사용하여 인터페이스의 텍스트를 터치할 수도 있습니다.
 
-언어 팩은 Commerce Marketplace의 [번역 및 지역화][1]{:target=&quot;_blank&quot;}에서 찾을 수 있습니다. 새로운 확장 기능은 Marketplace에 지속적으로 추가되므로 자주 다시 확인하십시오.
+언어 팩은 Commerce Marketplace의 [번역 및 지역화][1]{:target="_blank"}에서 찾을 수 있습니다. 새로운 확장 기능은 Marketplace에 지속적으로 추가되므로 자주 다시 확인하십시오.
 
 ## 1단계: 언어 팩 설치
 
@@ -46,11 +46,9 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 상단 모서리에서 구성을 적용할 특정 보기로 **[!UICONTROL Store View]**&#x200B;을(를) 설정합니다.
+1. **[!UICONTROL Scope]** 드롭다운에서 구성할 저장소 보기를 선택하고 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
-1. 범위 전환을 확인하는 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
-
-1. **[!UICONTROL Locale Options]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. *[!UICONTROL General]* 구성 페이지에서 **[!UICONTROL Locale Options]** 섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. **[!UICONTROL Use Website]** 확인란의 선택을 취소하고 보기에 할당할 언어로 **[!UICONTROL Locale]**&#x200B;을(를) 설정합니다.
 
