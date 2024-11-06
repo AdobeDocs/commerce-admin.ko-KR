@@ -4,9 +4,9 @@ description: 회사 사용자 계정과 연결된 회사 계정 내에서 작동
 exl-id: 36b55f61-e579-4eb8-8f67-0156221d378e
 feature: B2B, Companies, User Account, Storefront
 role: Admin, User
-source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
+source-git-commit: 9c16d7a3909598328cc42bbcbf39fc14ae6a9eb9
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
    - 나머지 필드에 사용자 정보를 추가합니다.
       - **[!UICONTROL First Name]** 및 **[!UICONTROL Last Name]**
       - **[!UICONTROL Email]**
-      - **[!UICONTROL Phone Number]**
+      - **[!UICONTROL Work Phone Number]**
 
    기본적으로 계정의 **[!UICONTROL Status]**&#x200B;은(는) `Active`입니다.
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->회사 사용자 계정을 편집하고 프로필에 직책 및 전화번호와 같은 필수 계정 정보가 없는 경우 Commerce 사이트 관리자가 계정을 추가했음을 나타냅니다. 상점 첫 화면에서 이러한 계정을 편집할 수 없습니다. 정보를 업데이트하거나 계정 상태를 변경하려면 사이트 관리자에게 문의하십시오.
+>회사 사용자 계정을 편집한 후 프로필에 직책 및 회사 전화번호와 같은 필수 계정 정보가 없는 경우 Commerce 사이트 관리자가 계정을 추가했음을 나타냅니다. 상점 첫 화면에서 이러한 계정을 편집할 수 없습니다. 정보를 업데이트하거나 계정 상태를 변경하려면 사이트 관리자에게 문의하십시오.
 
 ### 활성 계정 비활성화 또는 삭제
 
@@ -120,13 +120,13 @@ ht-degree: 0%
 ## 회사 사용자 계정 프로필 필드 설명
 
 | 필드 | 설명 |
-|--------------|---------------|
+|--------------------------------|---------------|
 | [!UICONTROL Job Title] | 회사 사용자의 직함입니다. |
 | [!UICONTROL User Role] | 회사 사용자에게 할당된 [역할](account-company-roles-permissions.md)입니다. 옵션: `Default User`/(기타 역할) |
 | [!UICONTROL First Name] | 회사 사용자의 이름입니다. |
 | [!UICONTROL Last Name] | 회사 사용자의 성. |
 | [!UICONTROL Email] | 회사 사용자의 이메일 주소입니다. |
-| [!UICONTROL Phone Number] | 회사 사용자의 전화번호. |
+| [!UICONTROL Work Phone Number] | 회사 사용자의 회사 전화번호. |
 | [!UICONTROL Status] | 회사 사용자 계정의 상태입니다. 옵션: `Active` / `Inactive` |
 
 {style="table-layout:auto"}
