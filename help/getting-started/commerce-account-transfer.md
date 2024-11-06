@@ -3,9 +3,9 @@ title: Commerce 계정 양도
 description: Commerce 계정을 다른 소유자 또는 이메일 주소로 전송하는 방법을 알아봅니다.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 5c7fbeaa0f09cb106c3105e3c36871df7e1bc368
+source-git-commit: 00994f506056bf5504df758a44a7cd56f590750d
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -31,10 +31,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Adobe Commerce이 다른 Adobe 솔루션과 계속 통합됨에 따라 이제 Commerce 계정(MAGEID)에 Adobe 로그인이 필요합니다. 이 Adobe ID은 Commerce 계정에 연결된 것과 동일한 이메일 주소를 사용합니다.
-
->[!NOTE]
->
->현재 또는 새 소유자에게 다른 Adobe 제품/서비스와 연결된 Adobe 로그인 계정이 있는 경우 [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)을 열어 Commerce 계정을 다른 Adobe ID으로 전송할 수 있습니다.
 
 ## 새로운 Adobe ID 및 이메일 변경
 
