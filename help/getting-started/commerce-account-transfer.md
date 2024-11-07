@@ -3,9 +3,9 @@ title: Commerce 계정 양도
 description: Commerce 계정을 다른 소유자 또는 이메일 주소로 전송하는 방법을 알아봅니다.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 00994f506056bf5504df758a44a7cd56f590750d
+source-git-commit: 89637c8f2c4ff725499c27ebe0feb91bf3f9a0ef
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -158,6 +158,6 @@ ht-degree: 0%
 
 1. **[!UICONTROL Verify]**&#x200B;을(를) 클릭합니다.
 
-1. 계정 소유자의 전자 메일 주소를 업데이트했음을 지원 팀에 알리려면 **지원 요청을 제출**&#x200B;하십시오. 이전 계정 소유자의 이메일 주소를 요청에 포함하십시오.
-
-[Commerce Marketplace](https://commercemarketplace.adobe.com/) 프로필에서 전자 메일 주소를 업데이트하는 등 지원부에서 수행해야 하는 추가 단계가 있습니다.
+>[!IMPORTANT]
+>
+>지원 요청을 제출하여 계정 소유자의 이메일 주소를 업데이트했음을 지원 팀에 알립니다. 팀은 [Commerce Marketplace](https://commercemarketplace.adobe.com/) 프로필의 전자 메일 주소 업데이트와 같은 업데이트를 완료하려면 추가 단계를 수행해야 합니다. 이전 계정 소유자의 이메일 주소를 요청에 포함하십시오.
