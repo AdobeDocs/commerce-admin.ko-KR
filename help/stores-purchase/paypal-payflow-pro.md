@@ -3,9 +3,9 @@ title: Paypal Payflow Pro
 description: 스토어에서 온라인 결제 솔루션으로 PayPal Payflow Pro를 설정하는 방법에 대해 알아봅니다.
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
@@ -136,8 +136,8 @@ ht-degree: 0%
 1. PayPal 판매자 계정에 로그인하는 데 사용하는 다음 자격 증명 중 하나를 입력하십시오.
 
    - **[!UICONTROL Partner]** - PayPal 파트너 ID입니다.
-   - **[!UICONTROL User]** - PayPal 계정에 설정된 다른 사용자의 ID입니다.
-   - **[!UICONTROL Vendor]** - PayPal 사용자 로그인 이름입니다.
+   - **[!UICONTROL User]** - 계정에 한 명 이상의 추가 사용자를 설정하는 경우 이 값은 트랜잭션을 처리할 권한이 있는 사용자의 ID입니다. 그러나 추가 사용자를 설정하지 않은 경우 **[!UICONTROL USER]**&#x200B;의 값은 **[!UICONTROL Vendor]**&#x200B;과(와) 같습니다.
+   - **[!UICONTROL Vendor]** - 계정에 등록할 때 만든 판매자 로그인 ID입니다.
 
 1. PayPal 계정과 연결된 **[!UICONTROL Password]**&#x200B;을(를) 입력하십시오.
 
