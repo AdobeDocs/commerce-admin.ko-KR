@@ -3,7 +3,7 @@ title: '[!DNL Commerce]개 업그레이드'
 description: Adobe Commerce 및 Magento Open Source 업그레이드가 카탈로그 및 [!DNL Inventory Management] 구성에 어떻게 영향을 주는지 알아보세요.
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 392d8550741fe6fca3ea1301575c9ebb5e2483bd
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -72,5 +72,5 @@ MCOM은 고급 옴니채널 주문 관리, 글로벌 인벤토리 및 다중 소
 
 자세한 내용은 [설치 및 업데이트](install-update.md)를 참조하세요.
 
-[1]: https://omsdocs.magento.com/
-[2]: https://omsdocs.magento.com/en/getting-started/feature-list/
+[1]: https://commerce-docs.github.io/oms-documentation-archive/
+[2]: https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/
