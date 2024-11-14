@@ -3,9 +3,9 @@ title: 배송 및 배송
 description: 고객에게 제공할 수 있는 다양한 배송 방법 및 배송 안내인에 대한 지원에 대해 알아보십시오.
 exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Temando의 종료로 인해 [!DNL Magento Shipping]에 대한 지원이 2.4.0에서 제거되었습니다. Commerce의 새로운 배송 구현에 대한 자세한 상태 정보 및 권장 사항은 [제품 정보](https://business.adobe.com/products/magento/shipping.html){:target=&quot;_blank&quot;} 페이지를 참조하십시오.
+>Temando의 종료로 인해 [!DNL Magento Shipping]에 대한 지원이 2.4.0에서 제거되었습니다. Commerce의 새로운 배송 구현에 대한 자세한 상태 정보 및 권장 사항은 [제품 정보](https://business.adobe.com/products/magento/shipping.html){:target="_blank"} 페이지를 참조하십시오.
 
 ## 기본 게재 방법
 
@@ -40,4 +40,4 @@ Adobe Commerce과 Magento Open Source은 다양한 배송 방법과 배송 운�
 
 이 비디오를 통해 배송 및 배송 방법에 대해 알아볼 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)

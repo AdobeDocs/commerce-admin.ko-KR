@@ -3,7 +3,7 @@ title: 사용자 역할
 description: 사용자 역할 및 관리 기능에 대한 액세스를 관리하기 위한 관련 권한을 만드는 방법을 알아봅니다.
 exl-id: a70f74d4-72b4-4639-a67d-9fc13df65924
 feature: Admin Workspace, Roles/Permissions, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 0%
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 이 비디오를 통해 사용자 역할 관리에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
 
 ## 역할 리소스
 

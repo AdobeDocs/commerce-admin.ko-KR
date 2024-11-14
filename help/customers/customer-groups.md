@@ -3,7 +3,7 @@ title: 고객 그룹
 description: 고객 그룹을 사용하여 그룹에 지정된 고객 및 그룹과 연관된 세금 분류에 사용할 수 있는 할인을 결정합니다.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: c2fd228311a4b990be9c1409d2cdd2b5677fe2af
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -110,4 +110,4 @@ ht-degree: 0%
 
 이 데모를 시청하여 고객 그룹을 만드는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)

@@ -3,7 +3,7 @@ title: 세금 규칙
 description: 제품 분류, 고객 분류 및 세율을 사용하여 세금 규칙을 정의하는 방법을 알아봅니다.
 exl-id: 38d65998-7769-49ce-9814-e65df9d77bba
 feature: Taxes, Currency
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -96,4 +96,4 @@ ht-degree: 0%
 
 이 비디오를 통해 통화 및 세금 규칙 관리에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)

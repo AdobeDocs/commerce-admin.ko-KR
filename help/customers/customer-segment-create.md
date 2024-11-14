@@ -3,7 +3,7 @@ title: 고객 세그먼트 만들기 및 삭제
 description: 고객은 고객 계정 대시보드에서 주문과 관련된 환불 정보를 볼 수 있습니다.
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
-source-git-commit: 8d5cd6fa586feb5e44819755245814bff7678d34
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 0%
@@ -196,4 +196,4 @@ _**[!UICONTROL Matched Customers]눈금&#x200B;**_
 
 고객 세그먼트 만들기에 대한 시연은 이 비디오 를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)

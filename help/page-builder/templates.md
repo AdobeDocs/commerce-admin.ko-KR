@@ -3,7 +3,7 @@ title: '[!DNL Page Builder] 템플릿'
 description: 기존  [!DNL Page Builder] 콘텐츠를 템플릿으로 저장한 다음 해당 템플릿을 다른 영역에 적용하는 방법에 대해 알아봅니다.
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
-source-git-commit: 06c8864e35dc37997bc26720ee9a95aff97f7987
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -91,4 +91,4 @@ _템플릿 적용_ 그리드와 _템플릿_ 페이지 그리드는 템플릿 그
 
 이 비디오를 통해 페이지 빌더 콘텐츠 템플릿에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)

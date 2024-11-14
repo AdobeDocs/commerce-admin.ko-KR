@@ -3,7 +3,7 @@ title: 회사 계정 관리
 description: 회사 페이지와 그리드에서 사용할 수 있는 도구를 사용하여 Adobe Commerce 스토어의 회사 계정을 관리하는 방법을 알아봅니다.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: d930c2294f0313cfa36d81c8a153b3cb35183f85
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '2726'
 ht-degree: 0%
@@ -208,7 +208,7 @@ _[!UICONTROL Companies]_페이지에는 상태와 관계없이 모든 현재 회
 
 다음 비디오를 통해 회사 계정 관리에 대해 알아볼 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## 회사 경영
 

@@ -2,7 +2,7 @@
 title: 재고 및 소스
 description: 제품, 소스 및 재고 간의 관계에 대해 알아봅니다.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -65,4 +65,4 @@ Sales Channel은 웹 사이트, 스토어 보기, B2B 고객 그룹 등을 포�
 
 이 비디오를 통해 Inventory management 소스 및 재고에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)

@@ -2,7 +2,7 @@
 title: 위젯 만들기 및 관리
 description: 스토어 간 콘텐츠를 자동으로 업데이트하는 위젯을 만들고 관리하는 방법을 알아봅니다.
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 위젯을 만드는 방법에 대해 알아보려면 이 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12&learn=on)
 
 ## 위젯 편집
 

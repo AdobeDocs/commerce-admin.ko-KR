@@ -3,7 +3,7 @@ title: 메타데이터
 description: 검색 엔진이 Commerce 사이트를 색인화하는 방법을 개선하기 위해 키워드가 풍부한 메타데이터를 입력할 수 있는 방법에 대해 알아봅니다.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
@@ -93,6 +93,6 @@ URL에서 카테고리를 생략하거나 표준 메타 태그를 사용하여 �
 
 SEO 메타데이터 관리에 대해 알아보려면 이 비디오 를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
 
 [1]: https://schema.org/

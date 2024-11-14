@@ -3,7 +3,7 @@ title: 레이아웃 - 열
 description: ' [!DNL Page Builder] 스테이지에서 페이지를 여러 열로 나누는 데 사용되는 열 콘텐츠 형식에 대해 알아봅니다.'
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 63b620f2af106108c672a9a91cb66923c5231c53
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 0%
@@ -26,7 +26,7 @@ _Column_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.
 
 이 비디오를 통해 [!DNL Columns] 컨테이너를 사용하여 페이지 레이아웃을 구체화하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
 
 ## 열 도구 상자
 
