@@ -2,13 +2,13 @@
 title: '[!UICONTROL My Quote Templates]'
 description: 상점 계정 대시보드에서 사용할 수 있는 견적 템플릿에 대한 고객 경험에 대해 알아봅니다.
 feature: B2B, Companies, Quotes
-source-git-commit: c2cb4db24effa764996b0fb77fbda67727392efe
+exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
+source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
 
 ---
-
 
 # [!UICONTROL My Quote Templates]
 
@@ -114,7 +114,3 @@ ht-degree: 0%
 견적 템플릿 페이지에서 **[!UICONTROL Cancel Quote Template]**&#x200B;을(를) 클릭합니다.
 
 견적 템플릿이 취소되어 견적 상태가 `Closed`(으)로 변경됩니다. 닫힌 따옴표는 *[!UICONTROL Inactive]*&#x200B;개의 따옴표 목록에 남아 있으며, 관리자의 _[!UICONTROL Quote Templates]_표에 남아 있습니다.
-
-
-
-
