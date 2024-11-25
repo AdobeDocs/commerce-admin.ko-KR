@@ -4,9 +4,9 @@ description: 마이그레이션 및 구성을 포함하여 Adobe Commerce 및 Ma
 seo-title: Adobe Commerce Inventory Management Guide
 seo-description: Describes how to use the [!DNL Inventory Management] module in Adobe Commerce or Magento Open Source.
 exl-id: 8013bc13-b057-4ad7-bbed-ee00c2f6e4eb
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,5 @@ ht-degree: 0%
 
 이 안내서에서 다루지 않는 정보가 필요하거나 질문이 있는 경우 다음 리소스를 사용하십시오.
 
-- [대량 예약 불일치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-30112-magento-patch-large-number-reservation-inconsistencies.html)
-- [인벤토리 불일치 문제](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-33281-magento-patch-inventory-inconsistency-issues.html)
-- [취소선 인벤토리가 없는 견본은 &quot;0&quot;에 도달함](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-17/mdva-34850-swatches-not-strike-through-inventory-reaches-0.html)
 - 인벤토리 설치 후 [재고 상태가 잘못됨](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html)
 - [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)—추가 지원을 받으려면 티켓을 제출하세요.

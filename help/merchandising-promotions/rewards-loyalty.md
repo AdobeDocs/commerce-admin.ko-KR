@@ -3,9 +3,9 @@ title: 보상 및 충성도 프로그램
 description: 고객 참여를 유도하고 고객 충성도를 홍보하는 데 사용할 수 있는 보상 포인트 시스템에 대해 알아봅니다.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 3376b6f4fd558f7dd10133beeabf87e7228776a1
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1389'
 ht-degree: 0%
 
 ---
@@ -187,5 +187,4 @@ Adobe Commerce의 _보상 포인트_ 시스템을 사용하면 고객 참여를 
 
 보상 포인트 문제를 해결하는 데 대한 도움말을 보려면 다음 Commerce 지원 기술 문서를 참조하십시오.
 
-- [일부 주문의 충성도 포인트](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31295-magento-patch-loyalty-points-on-partial-orders.html)
 - [404 오류 - 다중 배송 체크아웃 시 보상 포인트 제거](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)

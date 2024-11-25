@@ -3,9 +3,9 @@ title: 세부 정보 저장
 description: 스토어에 대한 기본 정보를 업데이트하는 방법을 알아봅니다.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1780'
 ht-degree: 0%
 
 ---
@@ -170,7 +170,6 @@ _[!UICONTROL Store Information]_섹션은 판매 문서 및 기타 통신에 나
 국가 구성 문제를 해결하는 데 대한 도움말을 보려면 다음 [!DNL Commerce] 지원 기술 문서를 참조하십시오.
 
 - [국가를 추가하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
-- [제공된 countryId가 없습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.html)
 
 ## [!UICONTROL Merchant Location]
 
@@ -256,7 +255,7 @@ _[!UICONTROL Store Information]_섹션은 판매 문서 및 기타 통신에 나
 
 매장 바닥글에 있는 _연락처_ 링크를 사용하면 고객이 쉽게 연락할 수 있습니다. 고객은 양식을 작성하여 스토어에 메시지를 보낼 수 있습니다. 표준 [!DNL Commerce] 설치 시 기본 _연락처_ 양식이 표시됩니다. 양식을 제출하면 감사 메시지가 나타납니다
 
-기본 Contact Us 양식이 CMS 페이지가 아닌 코드에서 직접 렌더링됨을 이해하는 것이 중요합니다.
+기본 연락처 양식이 CMS 페이지가 아닌 코드에서 직접 렌더링된다는 것을 이해하는 것이 중요합니다.
 
 ![기본 연락처 페이지](./assets/page-contact-us-default.png){width="700"}
 
@@ -324,7 +323,7 @@ Luma 샘플 데이터에는 스토어에 대해 사용자 지정할 수 있는 _
 
 >[!IMPORTANT]
 >
->2.4.0 릴리스부터 연락처 양식은 더 이상 CMS 블록 또는 CMS 페이지 내에서 를 호출할 수 없습니다. 연락처 양식의 모든 사용자 지정은 레이아웃 xml 또는 사용자 지정 테마 템플릿을 사용하여 수행해야 합니다.
+>2.4.0 릴리스부터 연락처 양식은 더 이상 CMS 블록 또는 CMS 페이지 내에서 호출할 수 없습니다. 연락처 양식의 모든 사용자 지정은 레이아웃 xml 또는 사용자 지정 테마 템플릿을 사용하여 수행해야 합니다.
 
 기본적으로 쇼핑객은 상점 첫 페이지의 바닥글에 있는 _연락처 링크_&#x200B;를 사용하여 연락처 양식에 액세스합니다. 연락처 페이지 사용자 지정에 대한 자세한 내용은 [프론트엔드 개발자 안내서][theme-guide]를 참조하세요.
 

@@ -3,9 +3,9 @@ title: 주문 수
 description: 관리자에서 주문을 찾는 데 사용되는 주문 작업 공간 및 검색 기능에 대해 알아봅니다.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -188,7 +188,4 @@ Orders 작업 영역에서는 현재 주문을 모두 나열하며, 기존 주�
 주문 문제 해결에 대한 도움말은 다음 Commerce 지원 기술 자료 문서를 참조하십시오.
 
 - [주문 표시 오류](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
-- [PayPal 중복 주문 10415 오류](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)
-- [새 주문이 보관 파일로 전송됨](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.html)
 - [Admin의 주문 그리드에 주문이 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)
-- [주문 상태 - REST API를 통해 잘못된 배송이 생성됨](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-7/mdva-30972-magento-patch-order-status-incorrect-shipment-created-via-rest-api.html)

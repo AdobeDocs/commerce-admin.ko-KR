@@ -3,9 +3,9 @@ title: 인보이스
 description: 주문 처리 및 고객 서비스 작업을 지원하기 위해 송장을 만들고 인쇄하는 방법에 대해 알아봅니다.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -148,15 +148,5 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
    ![여러 송장 인쇄](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 인보이스는 프린터로 보내거나 저장할 수 있는 단일 PDF 파일에 저장됩니다.
-
-## 리소스 문제 해결
-
-송장 문제 해결에 대한 도움말은 다음 _Commerce 지원 기술 자료_ 문서를 참조하십시오.
-
-- [가상 및 간단한 번들 제품에 대해 송장을 작성할 수 없음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
-- [스토어 크레딧 정보가 없는 인보이스](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)
-- [세금이 100% 할인된 송장에 표시됨](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-22/mdva-35773-tax-appears-on-invoice-with-100-discount.html)
-- [주문 송장이 자동으로 전송되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-13/mdva-32545-magento-patch-order-invoices-don-t-send-automatically.html)
-
 
 [1]: https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader 가져오기"

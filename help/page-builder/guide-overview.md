@@ -4,9 +4,9 @@ description: Adobe Commerce 및 Magento Open Source 관리자를 위한  [!DNL P
 seo-title: Adobe Commerce [!DNL Page Builder] User Guide
 seo-description: Describes how to use the [!DNL Page Builder] module in Adobe Commerce or Magento Open Source.
 exl-id: 983ef3a8-b803-40ff-a9f5-07eb895df31c
-source-git-commit: fa4030d391fc9a3b21cf8fb6f681df9e9165157d
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,3 @@ Adobe Commerce 및 Magento Open Source의 핵심 기능은 다루지 않습니�
 [!DNL Page Builder] 문제를 해결하는 데 대한 도움말을 보려면 다음 [!DNL Commerce] 지원 기술 문서를 참조하십시오.
 
 - [DotDigital을 저장할 때 빈 페이지 [!DNL Page Builder] 양식을 저장](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html)
-- [[!DNL Page Builder] 미디어 갤러리를 로드하지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-12/mdva-32133-magento-patch-page-builder-doesn-t-load-media-gallery.html)
-- [[!DNL Page Builder] 미리 보기는 사이트 간 제품 가격 차이](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-16/mdva-33453-page-builder-preview-breaks-product-price-differs-across-sites.html)
-- [용어 페이지를 저장할 수 없습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-19/mdva-33614-magento-patch-can-t-save-terms-page.html)

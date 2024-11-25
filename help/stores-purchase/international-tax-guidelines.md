@@ -3,9 +3,9 @@ title: 나라별 세금 지침
 description: 국가에 따라 권장된 세금 설정을 검토합니다.
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->GST/PST 주(Montreal)에 있는 판매자는 하나의 세금 규칙을 만들고 결합된 세액을 표시해야 합니다. 질문이 있으시면 자격을 갖춘 세무서에 문의하십시오. 특정 주의 세금 요구 사항에 대한 자세한 내용은 다음을 참조하십시오. [Revenu Québec][1], [Saskatchewan의 정부][2] 및 [공급업체에 대한 매니토바 정보][3]
+>GST/PST 주(Montreal)에 있는 판매자는 하나의 세금 규칙을 만들고 결합된 세액을 표시해야 합니다. 질문이 있으시면 자격을 갖춘 세무서에 문의하십시오.
 
 | 세금 옵션 | 추천 |
 |--- |--- |
@@ -411,14 +411,10 @@ ht-degree: 0%
 
       - 기본 국가
       - 기본 상태
-      - 기본 Post 코드
+      - 기본 게시물 코드
 
      이 설정을 사용하면 제품 가격에 세금이 포함된 경우 세금이 올바르게 계산됩니다.
 
      ![기본 세금 대상 계산](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
-
-[1]: https://www.revenuquebec.ca/en/businesses/
-[2]: https://www.saskatchewan.ca/finance
-[3]: https://www.gov.mb.ca/finance/taxation/bulletins/004.pdf

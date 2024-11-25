@@ -3,7 +3,8 @@ title: Commerce SaaS 서비스
 description: Commerce 상점 기능을 확장하는 데 사용할 수 있는 Commerce SaaS 서비스에 대해 알아봅니다
 seo-title: Commerce Services
 seo-description: Get an overview of available services that help Adobe Commerce merchants extend storefront capabilities to support key components of their business.
-source-git-commit: ab886855f087186bb1598ab4a780f49c15757c16
+exl-id: 2e673eb2-a90b-491a-b320-e9bd089d19f2
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Adobe은 판매자가 비즈니스의 주요 구성 요소를 지원하는 데 �
 
 ![검색](../landing/assets/icon-magnify.svg){width="40"}**[실시간 검색](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)**—B2C 구매자에게 보다 스마트하고 빠르며 관련성이 높은 결과를 제공하는 AI 기반 검색 도구를 구현합니다.
 
-![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[제품 Recommendations](https://experienceleague.adobe.com/en/en/docs/commerce-merchant-services/product-recommendations/overview)**- 쇼핑객 행동, 인기 있는 트렌드, 제품 유사성 등을 기반으로 AI 기반 권장 사항을 추가합니다.
+![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[제품 Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)**- 쇼핑객 행동, 인기 있는 트렌드, 제품 유사성 등을 기반으로 AI 기반 권장 사항을 추가합니다.
 
 ![연결된 서비스에 대한 카탈로그 데이터](../landing/assets/icon-data-book.svg){width="40"}**[카탈로그 서비스](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/overview)**—성능을 향상시키고, 확장성을 개선하고, 전환을 늘리는 동시에 고객에게 최적화된 제품 환경을 제공합니다.
 

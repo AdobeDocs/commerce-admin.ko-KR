@@ -3,9 +3,9 @@ title: 페덱스
 description: FedEx를 상점의 배송 운송업체로 설정하는 방법에 대해 알아보십시오.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ FedEx는 세계 최대 규모의 운송 서비스 회사 중 하나로 여러 �
 
 ## 1단계: FedEx 웹 서비스 프로덕션에 등록
 
-[FedEx 판매자 계정][1] 및 FedEx 웹 서비스 프로덕션 액세스에 대한 등록이 필요합니다. FedEx 계정을 만든 후 프로덕션 계정 정보 페이지를 읽은 다음 페이지 하단의 _프로덕션 키 가져오기_ 링크를 클릭하여 등록하고 키를 가져옵니다.
+FedEx Web Services Production Access에 대한 FedEx 판매자 계정 및 등록이 필요합니다. FedEx 계정을 만든 후 프로덕션 계정 정보 페이지를 읽은 다음 페이지 하단의 _프로덕션 키 가져오기_ 링크를 클릭하여 등록하고 키를 가져옵니다.
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ FedEx는 세계 최대 규모의 운송 서비스 회사 중 하나로 여러 �
    - 국내 옵션-익스프레스 세이버, 그라운드, 퍼스트, 오버나이트, 택배, 스탠다드 오버나이트
    - 국제 옵션-국제 경제, 국제 경제 화물, 국제 우선, 국제 지역, 국제, 국제 우선
    - 우선 순위 옵션-운송비, 우선 순위 익일
-   - Smart Post-If 제공 Smart Post 메서드(**Hub ID** 입력)
+   - Smart Post 메서드를 제공하는 Smart Post-If(**허브 ID** 입력)
    - 운송비 옵션-운송비, 국내 운송비
 
 1. FedEx를 통해 [무료 배송](shipping-free.md) 옵션을 제공하려면 무료 배송 옵션을 설정하십시오.
@@ -159,5 +159,3 @@ FedEx는 세계 최대 규모의 운송 서비스 회사 중 하나로 여러 �
 >[!NOTE]
 >
 >Commerce은 운송료를 계산할 때 항상 FedEx에 전체 주문 가격을 선언합니다. 이 동작은 변경할 수 없습니다.
-
-[1]: https://www.fedex.com/login/web/jsp/contactInfo1.jsp

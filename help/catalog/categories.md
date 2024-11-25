@@ -3,9 +3,9 @@ title: 카테고리 개요
 description: 스토어에 제품을 추가하기 전에 카탈로그의 기본 범주 구조를 정의합니다.
 exl-id: 818c012a-ad46-458f-83e5-5873bc996758
 feature: Catalog Management, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,3 @@ ht-degree: 0%
 
 - [범주의 변경 내용이 저장되지 않습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
 - Fastly가 활성화된 하위 페이지에 [기본 메뉴(범주)가 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
-- [범주의 제품 누락, 관련 색인 지정](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-30977-magento-patch-missing-products-from-categories-indexing-related.html)
-- [특정 범주의 메모리가 부족합니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-19/mdva-31307-magento-patch-out-of-memory-on-certain-categories.html)
-- [제품 및 범주가 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-18/mdva-34695-magento-patch-products-and-categories-not-displaying.html)

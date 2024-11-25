@@ -3,9 +3,9 @@ title: 카탈로그 가격 규칙
 description: 정의된 조건 집합을 기준으로 할인된 가격으로 구매자에게 제품을 제공하는 데 사용할 수 있는 카탈로그 가격 규칙에 대해 알아봅니다.
 exl-id: 8da95076-d724-41f6-b3ca-e61ff1906b72
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -48,12 +48,3 @@ ht-degree: 0%
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 규칙 상태(`Active` 또는 `Inactive`)를 기준으로 목록을 필터링하려면 이 옵션을 사용합니다. |
 
 {style="table-layout:auto"}
-
-## 리소스 문제 해결
-
-카탈로그 가격 규칙 문제를 해결하는 데 대한 도움말은 다음 Commerce 지원 기술 문서를 참조하십시오.
-
-- [404 카탈로그 가격 규칙 일정 업데이트가 수행된 후 저장소 전면에 오류가 발생했습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/404-error-on-store-front-once-catalog-price-rule-schedules-update-is-performed.html)
-- [관련 제품 및 대상 규칙을 사용하여 제품 페이지의 성능이 향상되었습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-31791-magento-patch-improvement-for-product-page-with-related-products-and-target-rules.html)
-- [카탈로그 가격 규칙이 작동하지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-24201-magento-patch-catalog-price-rules-don-t-work.html)
-- [GraphQL 가격 계산](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-33975-magento-patch-graphql-price-calculations.html)

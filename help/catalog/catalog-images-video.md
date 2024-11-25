@@ -3,9 +3,9 @@ title: 카탈로그 이미지 및 비디오
 description: 디지털 미디어를 사용하여 카탈로그 제품 페이지를 개선하고 고객에게 시각화를 제공하는 방법에 대해 알아봅니다.
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,6 @@ ht-degree: 0%
 이미지 및 비디오 문제를 해결하는 데 대한 도움말을 보려면 다음 Commerce 지원 기술 문서를 참조하십시오.
 
 - [설치 후 이미지 및 스타일 시트가 로드되지 않고 텍스트만 표시되며 그래픽은 표시되지 않습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-- [REST API를 통한 제품 이미지 관리 문제](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-5/mdva-28763-magento-patch-issues-with-managing-product-images-via-rest-api.html)
-- [제품 가져오기 .csv 이미지 복제됨](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
+mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
 - [제품 편집 이미지 역할에도 불구하고 제품 이미지가 표시되지 않습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
 - [배포 후 스토어 이미지가 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)

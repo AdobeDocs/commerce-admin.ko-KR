@@ -2,7 +2,7 @@
 title: Adobe Commerce용 '[!DNL AR Viewer]'
 description: ' [!DNL AR Viewer] 이(가) Adobe Commerce 인스턴스에 어떤 이점을 줄 수 있는지, 그리고 확장을 성공적으로 온보딩하고 설정하는 방법에 대해 알아봅니다.'
 exl-id: 9f9f3ff3-2402-4f70-9fc7-031dd2bb3916
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 안내서의 정보는 Adobe Commerce의 [!DNL AR Viewer]에 대한 온보딩 경험에 대한 개요와 [!DNL AR Viewer]이(가) 사용자에게 어떤 이점을 제공하는지, 그리고 해당 여정에 따라 따라야 할 모범 사례를 제공합니다.
 
-Pixar에서 개발한 [USD(Universal Scene Description)](https://www.pixar.com/usd){target=_blank}은(는) 매우 다양한 에셋, 소스 및 애니메이션으로 구성될 수 있는 3D 장면을 강력하고 확장 가능한 방식으로 교환하는 동시에 고도의 공동 작업 워크플로우를 개발할 수 있는 최초의 오픈 소스 소프트웨어입니다. 이 USD는 `.USDZ`개 파일 내에서 사용됩니다. 이 `.USDZ` 파일은 AR 및 3D 콘텐츠를 사용자의 장치에 전달합니다.
+Pixar에서 개발한 [USD(Universal Scene Description)](https://openusd.org/release/index.html){target=_blank}은(는) 매우 다양한 에셋, 소스 및 애니메이션으로 구성될 수 있는 3D 장면을 강력하고 확장 가능한 방식으로 교환하는 동시에 고도의 공동 작업 워크플로우를 개발할 수 있는 최초의 오픈 소스 소프트웨어입니다. 이 USD는 `.USDZ`개 파일 내에서 사용됩니다. 이 `.USDZ` 파일은 AR 및 3D 콘텐츠를 사용자의 장치에 전달합니다.
 
 >[!NOTE]
 >

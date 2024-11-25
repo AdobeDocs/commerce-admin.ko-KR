@@ -3,9 +3,9 @@ title: 데이터 내보내기
 description: 데이터 내보내기 필터 및 속성과 스토어에서 데이터를 내보내는 방법에 대해 알아봅니다.
 exl-id: 80e7a2fc-beaa-416e-a00f-a3cad5055975
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -93,5 +93,3 @@ SKU와 같이 특정 값이 있는 레코드만 포함하려면 필터 필드에
 데이터 내보내기 문제를 해결하는 데 대한 도움말을 보려면 다음 Commerce 지원 기술 문서를 참조하십시오.
 
 - [내보낸 제품 .csv 파일이 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
-- [제품 내보내기 파일이 관리자에 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-31168-magento-patch-product-export-file-does-not-show-in-admin.html)
-- [CSV 형식으로 주문을 내보내는 중 문제](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31242-magento-patch-issue-in-exporting-orders-in-csv-format.html)

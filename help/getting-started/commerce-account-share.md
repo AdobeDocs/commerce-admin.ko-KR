@@ -3,7 +3,7 @@ title: ' [!DNL Commerce] 계정 공유'
 description: 다른 [!DNL Commerce] 계정 소유자의  [!DNL Commerce] 계정에 제한된 액세스 권한을 부여하는 방법을 알아보세요.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 8f8cb141c79b8b5a57363faf7ec5c8f2e75bb473
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -91,11 +91,11 @@ ht-degree: 0%
 
    ![지원](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   공유 계정의 [Adobe Commerce 도움말 센터](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html)를 사용하여 문서 및 문제 해결 정보를 검색하고 알려진 문제에 대한 패치를 찾고 지원 티켓을 만들 수 있습니다.
+   공유 계정의 [Adobe Commerce 도움말 센터](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)를 사용하여 문서 및 문제 해결 정보를 검색하고 알려진 문제에 대한 패치를 찾고 지원 티켓을 만들 수 있습니다.
 
    >[!NOTE]
    >
-   >공유 액세스 권한을 받은 후 사용자는 [[!DNL Commerce] 계정](https://account.magento.com/customer/account/login)에 로그인하고 _공유 액세스_(으)로 이동한 후 **[!UICONTROL Support]** 탭을 클릭해야 합니다. 이 작업은 `SSO` 호출을 통해 [Adobe Commerce 지원 기술 자료](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html)가 제대로 구성되었는지 확인하기 위해서만 필요합니다.
+   >공유 액세스 권한을 받은 후 사용자는 [[!DNL Commerce] 계정](https://account.magento.com/customer/account/login)에 로그인하고 _공유 액세스_(으)로 이동한 후 **[!UICONTROL Support]** 탭을 클릭해야 합니다. 이 작업은 `SSO` 호출을 통해 [Adobe Commerce 지원 기술 자료](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)가 제대로 구성되었는지 확인하기 위해서만 필요합니다.
 
 1. 자신의 계정으로 돌아가려면 브라우저 컨트롤에서 **뒤로**&#x200B;를 클릭하고 **[!UICONTROL Switch Accounts]**&#x200B;을(를) `My Account`(으)로 설정합니다.
 
@@ -113,11 +113,11 @@ ht-degree: 0%
    > 
    > 이 경우 계정 소유자에게 공유 액세스 계정을 수정하여 계정 권한을 지우도록 요청하십시오. 해당 업데이트 후에는 사용자가 계정 리소스에 액세스할 수 없습니다.
    >
-   > 또한 사용자가 프로젝트에서 제거되어 더 이상 이메일 알림을 받지 않도록 하십시오. [이전 팀원이 Adobe Commerce 클라우드 알림 이메일을 받습니다](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+   > 또한 사용자가 프로젝트에서 제거되어 더 이상 이메일 알림을 받지 않도록 하십시오. [이전 팀원이 Adobe Commerce 클라우드 알림 이메일을 받습니다](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. 확인 메시지가 표시되면 **[!UICONTROL Delete User]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]
 >
->이 인터페이스에서 공유 이름이 _MAG에서 클라우드 공유 액세스[XYZ]_&#x200B;인 사용자를 삭제할 수 없습니다. [Cloud 프로젝트를 통해 공유 액세스 권한을 부여받은 사용자를 삭제하는 방법](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users)을 참조하세요.
+>이 인터페이스에서 공유 이름이 _MAG에서 클라우드 공유 액세스[XYZ]_&#x200B;인 사용자를 삭제할 수 없습니다. [Cloud 프로젝트를 통해 공유 액세스 권한을 부여받은 사용자를 삭제하는 방법](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)을 참조하세요.
