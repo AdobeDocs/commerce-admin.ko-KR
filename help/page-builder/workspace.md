@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Page Builder] Workspace
 
-[[!DNL Page Builder] 이(가) 활성화](setup.md)되면 _[!UICONTROL Content]_섹션 및 콘텐츠 만들기 프로세스가 수정되어 CMS [페이지](../content-design/page-add.md), [제품](../catalog/product-content.md) 및 [범주](../catalog/categories-content-settings.md) 페이지, [블록](../content-design/block-add.md) 및 [동적 블록](../content-design/dynamic-blocks.md)용 고급 [!DNL Page Builder] 도구를 사용합니다. 이 섹션에는_&#x200B;콘텐츠 제목&#x200B;_필드, 콘텐츠 미리 보기 및 전체 화면 [!DNL Page Builder] 작업 영역에 대한 쉬운 액세스 권한이 포함됩니다.
+[[!DNL Page Builder] 이(가) 활성화](setup.md)되면 _[!UICONTROL Content]_섹션 및 콘텐츠 만들기 프로세스가 수정되어 CMS [페이지](../content-design/page-add.md), [제품](../catalog/product-content.md) 및 [범주](../catalog/categories-content-settings.md) 페이지, [블록](../content-design/block-add.md) 및 [동적 블록](../content-design/dynamic-blocks.md)에 대한 고급 [!DNL Page Builder] 도구를 사용합니다. 이 섹션에는_&#x200B;콘텐츠 제목&#x200B;_필드, 콘텐츠 미리 보기 및 전체 화면 [!DNL Page Builder] 작업 영역에 대한 쉬운 액세스 권한이 포함됩니다.
 
 [!DNL Page Builder] 미리 보기가 있는 ![콘텐츠 섹션](./assets/pb-content-preview.png){width="700" zoomable="yes"}
 
@@ -44,7 +44,7 @@ _[!UICONTROL Content]_섹션을 확장하고 [!DNL Page Builder](으)로 만든 
 
 >[!NOTE]
 >
->2.4.1 릴리스부터 콘텐츠 편집은 이제 [!DNL Page Builder]에서 제어하는 모든 영역(CMS 페이지, 제품 및 카테고리 페이지, 블록 및 동적 블록)에 대해서만 전체 화면으로 제공됩니다. 전체 화면 편집은 콘텐츠에 중점을 두며 상점의 사용자 경험과 더 잘 일치하는 보기를 제공합니다.
+>2.4.1 릴리스부터 콘텐츠 편집은 이제 [!DNL Page Builder]에 의해 제어되는 모든 영역(CMS 페이지, 제품 및 카테고리 페이지, 블록 및 동적 블록)에 대해서만 전체 화면으로 제공됩니다. 전체 화면 편집은 콘텐츠에 중점을 두며 상점의 사용자 경험과 더 잘 일치하는 보기를 제공합니다.
 
 ![페이지 콘텐츠로 스테이징](./assets/pb-workspace-simple-page.png){width="600" zoomable="yes"}
 

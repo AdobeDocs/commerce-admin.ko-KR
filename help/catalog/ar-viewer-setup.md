@@ -1,5 +1,5 @@
 ---
-title: Adobe Commerce 설치용 '[!DNL AR Viewer]'
+title: Adobe Commerce 설정용 [!DNL AR Viewer]
 description: 제품 목록의  [!DNL AR Viewer] 확장을 사용하여 3D 모델 자산을 관리하는 방법에 대해 알아봅니다.
 exl-id: e3f081ff-b994-4842-a1f3-613012d33a9c
 source-git-commit: f84667a7bbc93504499279d77967796bcd11791c

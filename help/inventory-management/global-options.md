@@ -1,5 +1,5 @@
 ---
-title: " [!DNL Inventory Management] 전역 옵션 구성"
+title: ' [!DNL Inventory Management] 전역 옵션 구성'
 description: 웹 사이트의 제품 및 재고에 대한 기본 [!DNL Inventory Management] 구성 옵션을 구성하는 방법에 대해 알아봅니다.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration

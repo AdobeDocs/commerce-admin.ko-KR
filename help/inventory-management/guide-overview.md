@@ -1,5 +1,5 @@
 ---
-title: 'Inventory management 안내서 [!DNL Inventory Management] 안내서'
+title: Inventory management 안내서 [!DNL Inventory Management] 안내서
 description: 마이그레이션 및 구성을 포함하여 Adobe Commerce 및 Magento Open Source 관리자를 위한  [!DNL Inventory Management] 에 대한 포괄적인 정보입니다.
 seo-title: Adobe Commerce Inventory Management Guide
 seo-description: Describes how to use the [!DNL Inventory Management] module in Adobe Commerce or Magento Open Source.

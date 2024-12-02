@@ -1,7 +1,7 @@
 ---
-user-guide-title: "[!DNL Inventory Management] 사용 안내서"
+user-guide-title: '[!DNL Inventory Management] 사용 안내서'
 user-guide-description: ' [!DNL Inventory Management] 기능을 사용하여 판매 수량을 관리하고 납품을 완료 [!DNL Commerce] 하는 방법에 대해 알아봅니다.'
-breadcrumb-title: "[!DNL Inventory Management]"
+breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
 source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8

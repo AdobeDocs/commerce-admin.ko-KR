@@ -1,5 +1,5 @@
 ---
-title: " [!DNL Inventory Management] 구성"
+title: ' [!DNL Inventory Management] 구성'
 description: 소스 가용성, 상점 제품 및 주문 선적을 결정하는  [!DNL Inventory Management] 옵션 구성에 대해 알아봅니다.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration

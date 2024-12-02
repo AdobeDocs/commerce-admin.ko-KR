@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Adobe Commerce B2B] 릴리스 노트'
+title: '[!DNL Adobe Commerce B2B] 릴리스 정보'
 description: ' [!DNL Adobe Commerce B2B] 릴리스의 변경 내용에 대한 정보는 릴리스 정보를 검토하십시오.'
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes

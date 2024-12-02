@@ -1,5 +1,5 @@
 ---
-title: " [!DNL Inventory Management] 설치, 업데이트 및 제거"
+title: ' [!DNL Inventory Management] 설치, 업데이트 및 제거'
 description: ' [!DNL Inventory Management] 메타패키지를 관리하는 방법을 알아봅니다.'
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced

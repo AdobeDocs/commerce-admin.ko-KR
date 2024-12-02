@@ -77,7 +77,7 @@ ht-degree: 0%
 | [!UICONTROL CVV Entry is Editable] | 웹 사이트 | CVV를 입력한 후 고객이 CVV를 편집할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Require CVV Entry] | 웹 사이트 | 고객이 신용 카드 뒷면에서 CVV 코드를 입력해야 하는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Send Email Confirmation] | 웹 사이트 | 고객이 결제 확인 이메일을 받는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL URL Method for Cancel URL and Return URL] | 웹 사이트 | 트랜잭션 중에 PayPal 서버와 정보를 교환하는 데 사용할 방법을 결정합니다. 옵션: <br/>**`GET`**- 프로세스의 결과인 정보를 검색합니다. (기본 방법입니다.)<br/>**`POST`** - 양식에 입력한 데이터와 같은 데이터 블록을 데이터 처리 프로세스에 보냅니다. |
+| [!UICONTROL URL Method for Cancel URL and Return URL] | 웹 사이트 | 트랜잭션 중에 PayPal 서버와 정보를 교환하는 데 사용할 방법을 결정합니다. 옵션: <br/>**`GET`**- 프로세스의 결과인 정보를 검색합니다. (기본 메서드입니다.)<br/>**`POST`** - 양식에 입력한 데이터와 같은 데이터 블록을 데이터 처리 프로세스에 보냅니다. |
 
 {style="table-layout:auto"}
 

@@ -56,7 +56,7 @@ ht-degree: 1%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Allow Anonymous Guest Access] | 글로벌 | 게스트가 SOAP 및 REST API 모두에서 CMS, 카탈로그에 익명으로 액세스하고 리소스를 저장할 수 있는지 확인합니다. 기본적으로 익명 게스트 액세스는 허용되지 않습니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Allow Anonymous Guest Access] | 글로벌 | 게스트가 CMS, 카탈로그에 익명으로 액세스하고 SOAP 및 REST API에서 리소스를 저장할 수 있는지 확인합니다. 기본적으로 익명 게스트 액세스는 허용되지 않습니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}
 

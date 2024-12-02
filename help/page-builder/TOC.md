@@ -1,14 +1,14 @@
 ---
-user-guide-title: "[!DNL Page Builder] 사용 안내서"
+user-guide-title: '[!DNL Page Builder] 사용 안내서'
 user-guide-description: ' [!DNL Page Builder] 기능을 사용하여 시각적 스토리텔링을 강화하고 고객 참여도와 충성도를 높이는 사용자 지정 레이아웃으로 콘텐츠가 풍부한 페이지를 만드는 방법에 대해 알아봅니다.'
-breadcrumb-title: "[!DNL Page Builder]"
+breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
 source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 

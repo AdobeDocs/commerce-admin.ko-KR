@@ -1,7 +1,7 @@
 ---
-user-guide-title: “[!DNL Adobe Commerce B2B] 안내서”
+user-guide-title: '[!DNL Adobe Commerce B2B] 안내서'
 user-guide-description: Adobe Commerce에 사용할 수 있는 통합 B2B 기능을 사용하는 방법에 대해 알아봅니다.
-breadcrumb-title: "[!DNL Adobe Commerce B2B]"
+breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay

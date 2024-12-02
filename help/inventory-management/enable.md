@@ -1,5 +1,5 @@
 ---
-title: " [!DNL Inventory Management] 사용"
+title: ' [!DNL Inventory Management] 사용'
 description: 글로벌 스토어 또는 제품 수준에서  [!DNL Inventory Management] 을(를) 사용하도록 설정하는 방법에 대해 알아봅니다.
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
 feature: Inventory, Configuration

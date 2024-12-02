@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Commerce Intelligence] 도구'
+title: '[!DNL Commerce Intelligence]개 도구'
 description: Adobe Commerce 및 Magento Open Source 판매자가 Commerce Intelligence 도구를 사용하여 건전한 비즈니스 의사 결정에 사용되는 통찰력을 얻는 방법에 대해 알아봅니다.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
 source-git-commit: 78bcac16713f9ec87faf7029732972db73216e79
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개
 
 [!DNL Advanced Reporting]이(가) Adobe Commerce 및 Magento Open Source에 포함되어 있습니다. 이 기능을 사용하면 비즈니스 요구 사항에 맞는 개인화된 대시보드를 사용하여 제품, 주문 및 고객 데이터를 기반으로 하는 동적 보고서 세트에 액세스할 수 있습니다. [!DNL Advanced Reporting]이(가) 분석에 [!DNL Commerce Intelligence]을(를) 사용하는 동안 [!DNL Advanced Reporting]을(를) 사용하기 위해 Commerce Intelligence 계정이 필요하지 않습니다.
 
-기술 정보는 개발자 설명서에서 [[!DNL Advanced Reporting]][2]{:target=&quot;_blank&quot;} 항목을 참조하십시오.
+기술 정보는 개발자 설명서에서 [[!DNL Advanced Reporting]][2]{:target="_blank"} 항목을 참조하십시오.
 
 >[!NOTE]
 >

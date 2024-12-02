@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Page Builder] 설치'
+title: '[!DNL Page Builder] 설정'
 description: Adobe Commerce 및 Magento Open Source 관리에서  [!DNL Page Builder] 기능 구성에 대해 알아봅니다.
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 feature: Page Builder, Configuration
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Page Builder] 설정
 
-구성에서 사용하도록 설정한 경우 [!DNL Page Builder]은(는) CMS 페이지, 블록 및 동적 블록에 대한 기본 콘텐츠 만들기 도구입니다. 또한 _[!UICONTROL Enable Advanced CMS]_단추는 범주 및 제품에 대한 옵션으로 [!DNL Page Builder]을(를) 제공합니다. 제품, 카테고리 및 CMS 페이지에 사용할 기본 [페이지 레이아웃](../content-design/page-layout.md)을 선택할 수도 있습니다. [!DNL Page Builder]은(는) WYSIWYG [editor](../content-design/editor.md)을(를) 사용하는 뉴스레터 콘텐츠에 사용할 수 없습니다.
+구성에서 사용하도록 설정된 경우 [!DNL Page Builder]은(는) CMS 페이지, 블록 및 동적 블록에 대한 기본 콘텐츠 만들기 도구입니다. 또한 _[!UICONTROL Enable Advanced CMS]_단추는 범주 및 제품에 대한 옵션으로 [!DNL Page Builder]을(를) 제공합니다. 제품, 카테고리 및 CMS 페이지에 사용할 기본 [페이지 레이아웃](../content-design/page-layout.md)을 선택할 수도 있습니다. [!DNL Page Builder]은(는) WYSIWYG [editor](../content-design/editor.md)을(를) 사용하는 뉴스레터 콘텐츠에 사용할 수 없습니다.
 
 >[!NOTE]
 >

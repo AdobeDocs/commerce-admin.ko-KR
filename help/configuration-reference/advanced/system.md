@@ -153,11 +153,11 @@ ht-degree: 1%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | 글로벌 | Commerce 인스턴스에서 백업을 허용하는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | 글로벌 | (_[!UICONTROL Enable Backup]_이(가) `Yes`(으)로 설정된 경우 표시됩니다.) Commerce 인스턴스가 정기적으로 자동 백업되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | 글로벌 | (_[!UICONTROL Enable Scheduled Backup]_이(가) `Yes`(으)로 설정된 경우 표시됩니다.) 백업에 포함된 Commerce 인스턴스 요소를 결정합니다. 옵션: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | 글로벌 | ([!UICONTROL Enable Scheduled Backup]이(가) `Yes`(으)로 설정된 경우 표시됩니다.) 스케줄 지정 백업이 시작되는 시간, 분, 초를 지정합니다. |
-| [!UICONTROL Frequency] | 글로벌 | ([!UICONTROL Enable Scheduled Backup]이(가) `Yes`(으)로 설정된 경우 표시됩니다.) 스케줄 지정 백업이 수행되는 빈도를 결정합니다. 옵션: `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | 글로벌 | ([!UICONTROL Enable Scheduled Backup]이(가) `Yes`(으)로 설정된 경우 표시됩니다.) 예약된 백업 중에 저장소가 유지 관리 모드에 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | 글로벌 | (_[!UICONTROL Enable Backup]_이(가) `Yes`(으)로 설정되면 표시됩니다.) Commerce 인스턴스가 정기적으로 자동으로 백업되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | 글로벌 | (_[!UICONTROL Enable Scheduled Backup]_이(가) `Yes`(으)로 설정된 경우 표시됩니다.) 백업에 포함된 Commerce 인스턴스의 요소를 결정합니다. 옵션: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | 글로벌 | ([!UICONTROL Enable Scheduled Backup]이(가) `Yes`(으)로 설정되면 표시됩니다.) 예약된 백업이 시작되는 시간, 분, 초를 지정합니다. |
+| [!UICONTROL Frequency] | 글로벌 | ([!UICONTROL Enable Scheduled Backup]이(가) `Yes`(으)로 설정되어 있을 때 표시됩니다.) 예약된 백업이 수행되는 빈도를 결정합니다. 옵션: `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | 글로벌 | ([!UICONTROL Enable Scheduled Backup]이(가) `Yes`(으)로 설정되면 표시됩니다.) 예약된 백업 동안 저장소가 유지 관리 모드에 있는지 여부를 확인합니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}
 

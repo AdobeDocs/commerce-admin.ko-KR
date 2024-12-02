@@ -190,7 +190,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;을(를) `Page Builder`(으)로 설정합니다.
 
-   사용자 지정 특성을 만들 때 응용 프로그램에 가장 적합한 편집기를 `Page Builder` 또는 표준 WYSIWYG `Text Editor` 중 하나로 지정할 수 있습니다.
+   사용자 지정 특성을 만들 때 응용 프로그램에 가장 적합한 편집기를 `Page Builder` 또는 표준 WYSIWYG `Text Editor`(으)로 지정할 수 있습니다.
 
    ![[!DNL Page Builder] 입력 형식](./assets/pb-attribute-page-builder.png){width="600" zoomable="yes"}
 

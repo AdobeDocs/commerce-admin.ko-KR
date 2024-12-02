@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Inventory Management] 릴리스 노트'
+title: '[!DNL Inventory Management] 릴리스 정보'
 description: 모든 [!DNL Inventory Management] 릴리스에 대한 정보는 릴리스 정보를 검토하십시오.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes

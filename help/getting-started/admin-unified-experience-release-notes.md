@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Admin Unified Experience for Adobe Commerce] 릴리스 노트'
+title: '[!DNL Admin Unified Experience for Adobe Commerce] 릴리스 정보'
 description: Commerce용  [!DNL Admin Unified Experience] 확장의 최신 릴리스에 대한 정보는 릴리스 정보를 검토하십시오.
 exl-id: f8a16c63-13f9-4429-a1cd-2293bc465f9f
 source-git-commit: b198c4864e6ad6c20633a3f5483067c55c4e997b
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

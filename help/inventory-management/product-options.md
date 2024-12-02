@@ -1,5 +1,5 @@
 ---
-title: " [!DNL Inventory Management] 제품 옵션 구성"
+title: ' [!DNL Inventory Management] 제품 옵션 구성'
 description: ' [!DNL Inventory Management] 제품 구성 옵션을 구성하는 방법을 알아봅니다.'
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products

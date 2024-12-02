@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Page Builder] 템플릿'
+title: 템플릿 [!DNL Page Builder]개
 description: 기존  [!DNL Page Builder] 콘텐츠를 템플릿으로 저장한 다음 해당 템플릿을 다른 영역에 적용하는 방법에 대해 알아봅니다.
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content

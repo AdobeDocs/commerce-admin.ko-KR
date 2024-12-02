@@ -1,5 +1,5 @@
 ---
-title: " [!DNL Inventory Management] 미납주문 구성"
+title: ' [!DNL Inventory Management] 미납 주문 구성'
 description: 품절 제품 판매를 지원하기 위해 미납주문을 구성하는 방법에 대해 알아봅니다.
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
 feature: Inventory, Orders
