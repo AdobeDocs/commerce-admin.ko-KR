@@ -3,9 +3,9 @@ title: Adobe Commerce의 HIPAA 준비
 description: Adobe Commerce HIPAA 지원 확장 기능을 추가하여 HIPAA 규정 준수를 지원할 수 있는 추가 기능을 사용하는 방법에 대해 알아봅니다.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: c74d05e4a26f46f1aca5d82936a4bb61f8764084
+source-git-commit: cbcdaf8f5c531ba10a95e9455a5ebc28bd61c3b5
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1597'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Adobe Commerce은 버전 2.4.6-p3 - 2.4.6-p8이 있는 Adobe Commerce Managed Se
 
 >[!ENDSHADEBOX]
 
-Adobe Commerce 버전 2.4.6-p3 이상을 실행 중인 인스턴스에 최신 버전의 Adobe HIPAA 지원 서비스 확장(`magento/hipaa-ee`)을 설치합니다. 확장은 [repo.magento.com](https://repo.magento.com) 리포지토리에서 작성기 메타패키지로 전달됩니다. 메타패키지에는 Adobe Commerce 인스턴스에 대해 HIPAA 기능을 활성화하는 모듈 컬렉션이 포함되어 있습니다.
+Adobe Commerce 버전 2.4.6-p3 - 2.4.6-p8을 실행하는 인스턴스에 최신 버전의 Adobe HIPAA 지원 서비스 확장(`magento/hipaa-ee`)을 설치합니다. 확장은 [repo.magento.com](https://repo.magento.com) 리포지토리에서 작성기 메타패키지로 전달됩니다. 메타패키지에는 Adobe Commerce 인스턴스에 대해 HIPAA 기능을 활성화하는 모듈 컬렉션이 포함되어 있습니다.
 
 1. 로컬 워크스테이션에서 Adobe Commerce on cloud infrastructure 프로젝트의 프로젝트 디렉터리로 변경합니다.
 
