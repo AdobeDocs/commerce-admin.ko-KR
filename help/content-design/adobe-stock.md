@@ -3,7 +3,7 @@ title: Adobe Stock 통합
 description: Adobe Stock을  [!DNL Commerce] 인스턴스와 통합하여 스토어에서 사용할 수 있는 수많은 미디어 자산에 액세스합니다.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-source-git-commit: 6666073a48741cb494f408a61401f46fc20cedc4
+source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ![Adobe Stock 검색 결과](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
-Adobe Stock 서비스는 기업에게 모든 광고 프로젝트를 위해 고품질로 큐레이팅된 로열티가 없는 수백만 장의 사진, 벡터, 일러스트레이션, 비디오, 템플릿 및 3D 자산에 대한 액세스를 제공합니다. [!DNL Commerce]명의 사용자가 Adobe Stock 에셋을 빠르게 찾고, 미리 보고, 라이선스를 제공할 수 있습니다. 사용자는 관리 작업 영역을 종료하지 않고도 [미디어 저장소][media-storage]에 저장할 수도 있습니다.
+Adobe Stock 서비스는 기업에게 모든 광고 프로젝트를 위해 고품질로 큐레이팅된 로열티가 없는 수백만 장의 사진, 벡터, 일러스트레이션, 비디오, 템플릿 및 3D 자산에 대한 액세스를 제공합니다. [!DNL Commerce]명의 사용자가 Adobe Stock 에셋을 빠르게 찾고, 미리 보고, 라이선스를 제공할 수 있습니다. 사용자는 관리 작업 영역을 종료하지 않고도 [미디어 저장소](./media-storage.md)에 저장할 수도 있습니다.
 
 ## 전제 조건
 
@@ -97,6 +97,5 @@ Adobe Commerce에 대한 Adobe Stock 통합 구성은 두 단계 프로세스입
 
 [adobe-stock]: https://stock.adobe.com
 [adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
-[media-storage]: media-storage.md
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration
