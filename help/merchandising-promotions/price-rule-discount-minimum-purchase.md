@@ -3,14 +3,14 @@ title: 장바구니 가격 규칙 예 - 최소 제품 가격이 포함된 할인
 description: 장바구니 가격 규칙을 사용하여 최소 제품 가격으로 할인을 제공하는 예를 검토하십시오.
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 6bc76c76bc7a17e115696911cc2499075d35c541
+source-git-commit: 2a370dc38b54ee668513bc738b7e8c99f660deae
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# 장바구니 가격 규칙 예 - 최소 구매와 함께 할인
+# 장바구니 가격 규칙 예 - 최소 제품 가격이 포함된 할인
 
 장바구니 가격 규칙을 사용하여 장바구니에서 최소 제품 가격을 기반으로 퍼센트 할인을 제공할 수 있습니다. 다음 예에서는 지정된 범주에서 $30.00를 초과하는 제품 1개를 장바구니에 추가하면 전체 장바구니에 있는 모든 제품에 10% 할인이 적용됩니다. 할인 형식은 다음과 같습니다.
 
