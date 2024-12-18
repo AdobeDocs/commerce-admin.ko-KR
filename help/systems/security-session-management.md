@@ -4,9 +4,9 @@ description: 관리 및 상점 보안을 위해 세션 관리를 구성하는 �
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: aabbf6d37a2c7fa730e1f3673edfb414685008b6
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -104,25 +104,7 @@ Adobe Commerce 및 Magento Open Source을 사용하면 가능한 세션 고정 �
 
 1. **[!UICONTROL Admin]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Security]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
-
-1. **[!UICONTROL Admin Session Lifetime (seconds)]**&#x200B;에 시간이 초과되기 전에 세션이 활성 상태로 유지되는 시간(초)을 입력합니다.
-
-   ![고급 구성 - 관리자 보안 설정](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
-
-1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.## 관리자 세션 수명
-
-보안 조치로서 _관리자_&#x200B;는 처음에는 키보드 비활동이 900초(15분) 후에 시간 초과로 설정됩니다. 작업 스타일에 맞게 세션 수명을 조정할 수 있습니다.
-
-**_관리자 세션 수명을 조정하려면:_**
-
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
-
-1. 아래로 스크롤하여 왼쪽 패널에서 **[!UICONTROL Advanced]**&#x200B;을(를) 확장합니다.
-
-1. **[!UICONTROL Admin]**&#x200B;을(를) 클릭합니다.
-
-1. _보안_ 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. **[!UICONTROL Security]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. **[!UICONTROL Admin Session Lifetime (seconds)]**&#x200B;에 시간이 초과되기 전에 세션이 활성 상태로 유지되는 시간(초)을 입력합니다.
 
