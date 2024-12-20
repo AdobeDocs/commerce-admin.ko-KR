@@ -3,7 +3,7 @@ title: 장바구니 가격 규칙 예 - 최소 제품 가격이 포함된 할인
 description: 장바구니 가격 규칙을 사용하여 최소 제품 가격으로 할인을 제공하는 예를 검토하십시오.
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 2a370dc38b54ee668513bc738b7e8c99f660deae
+source-git-commit: 1a784e894e02090cfa3bc9edc47149b35d935e8e
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -75,5 +75,4 @@ ht-degree: 0%
 {{new-price-rule}}
 
 1. 규칙이 완료되면 **[!UICONTROL Save Rule]**&#x200B;을(를) 클릭합니다.
-
 1. 규칙이 올바르게 작동하는지 테스트합니다.
