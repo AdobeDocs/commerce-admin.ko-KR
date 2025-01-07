@@ -3,9 +3,9 @@ title: 관리자 계정
 description: 관리자 계정과 2단계 인증을 사용하여 관리자에 로그인하는 방법에 대해 알아봅니다.
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: 54fdc97156c602337c983de5fddfafd7c50a67e1
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -157,3 +157,21 @@ _[!UICONTROL Sign In]_페이지에 로그아웃되었다는 메시지가 표시�
 1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 [1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US
+
+## 관리자에 대한 보안 액세스 유지
+
+관리자의 보안을 보장하려면 관리자 액세스 권한이 있는 사용자 및 역할에 대해 정기적인 감사를 수행하십시오.
+
+또한 [관리 기본 URL 구성을 업데이트](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url)하여 기본 `/admin` 끝점을 사용자 지정 경로로 변경하는 것이 좋습니다. 사용자 지정 경로를 구성하면 다음과 같은 보안 이점이 있습니다.
+
+**향상된 보안**: 기본 &quot;관리자&quot; 경로는 널리 알려져 있으며 악의적인 행위자가 무차별 강제 공격을 시도하는 경우가 많습니다. 고유한 사용자 지정 값으로 변경함으로써 무단 액세스 시도 위험을 크게 줄일 수 있습니다.
+
+**취약성 감소**: 자동화된 봇은 취약성을 활용하기 위해 &quot;admin&quot;과 같은 일반적인 경로를 자주 검색합니다. 사용자 지정 경로를 사용하면 이러한 봇이 관리자 로그인 페이지를 찾기 어려워져 공격 가능성이 줄어듭니다.
+
+**개인 정보 보호 개선**: 사용자 지정 관리자 경로는 추가 계층의 무명 계층을 추가하므로 잠재적 공격자가 관리자 로그인 페이지를 식별하고 타깃팅하는 것이 더 어려워집니다.
+
+**모범 사례 준수**: 관리 경로 사용자 지정과 같은 다음 보안 모범 사례는 전자 상거래 사이트 및 고객 데이터를 보호하는 사전 예방적 접근 방식을 보여 줍니다.
+
+>[!NOTE]
+>
+>위반이 의심되는 경우 알 수 없는 모든 관리자 사용자를 제거하고 모든 관리자 암호를 재설정하고 [보안 작업 계획](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security)을 검토하여 추가 단계를 검토하십시오.
