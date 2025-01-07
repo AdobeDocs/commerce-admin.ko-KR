@@ -3,9 +3,9 @@ title: Commerce 계정 양도
 description: Commerce 계정을 다른 소유자 또는 이메일 주소로 전송하는 방법을 알아봅니다.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 89637c8f2c4ff725499c27ebe0feb91bf3f9a0ef
+source-git-commit: e436bbe8f4c2ed913489df22fdc3915d37d9185a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 | 전송 유형 | 현재 소유자 | 새 소유자 |
 | ------------- | ------------- | --------- |
 | [새 Adobe ID 및 전자 메일 변경](#new-adobe-id-and-email-change) | Adobe 로그인 계정으로 **_연결되지 않음_**&#x200B;인 MAGEID가 있습니다. | MAGEID가 없으며 Adobe 로그인 계정에 연결되어 있지 않습니다. |
-| [전자 메일 변경](#email-change) | 연결된 다른 Adobe 제품/서비스가 없는 Adobe 로그인 계정으로 **_연결_**&#x200B;된 MAGEID가 있습니다. | MAGEID가 없으며 Adobe 로그인 계정에 연결되어 있지 않습니다. |
-| [Adobe ID 스위치](#adobe-id-account-switch) | 연결된 다른 Adobe 제품/서비스가 없는 Adobe 로그인 계정으로 **_연결_**&#x200B;된 MAGEID가 있습니다. | 에는 MAGEID가 있으며 연결된 다른 Adobe 제품/서비스가 없는 Adobe 로그인 계정에 연결되어 있습니다. |
+| [전자 메일 변경](#email-change) | Adobe 로그인 계정을 사용하여 **_연결_**&#x200B;된 MAGEID가 있습니다. | MAGEID가 없으며 Adobe 로그인 계정에 연결되어 있지 않습니다. |
+| [Adobe ID 스위치](#adobe-id-account-switch) | Adobe 로그인 계정을 사용하여 **_연결_**&#x200B;된 MAGEID가 있습니다. | 에는 MAGEID가 있으며 연결된 다른 Adobe 제품/서비스가 없는 Adobe 로그인 계정에 연결되어 있습니다. |
 
 {style="table-layout:auto"}
 
