@@ -3,9 +3,9 @@ title: Experience Manager Assets 통합 설치 및 구성
 description: Adobe Commerce 인스턴스에서  [!DNL AEM Assets Integration for Adobe Commerce] 을(를) 설치하고 구성하는 방법을 알아봅니다.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 5e3de8e9b99c864e5650c59998e518861ca106f5
+source-git-commit: 521dd5c333e5753211127567532508156fbda5b4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,13 @@ Commerce용 AEM Assets 통합에는 다음과 같은 시스템 및 구성 요구
 
 **구성 요구 사항**
 
-- [Adobe IMS 인증](/help/getting-started/adobe-ims-config.md)을 사용하도록 Adobe Commerce을 구성해야 합니다.
 - 계정 프로비저닝 및 권한
    - [Commerce 클라우드 프로젝트 관리자](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - 필요한 확장을 설치하고 관리자 또는 명령줄에서 Commerce 응용 프로그램 서버를 구성합니다.
    - [Commerce 관리자](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - 저장소 구성을 업데이트하고 Commerce 사용자 계정을 관리합니다.
+
+>[!TIP]
+>
+> Adobe Commerce은 [Adobe IMS 인증](/help/getting-started/adobe-ims-config.md)을 사용하도록 구성할 수 있습니다.
 
 ## 구성 개요
 
@@ -186,6 +189,44 @@ Commerce 관리에서 이벤트 프레임워크를 활성화합니다.
    ![Adobe I/O 이벤트 Commerce 관리 구성 - Commerce 이벤트 사용](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Merchant ID]**&#x200B;에 판매자 회사 이름을 입력하고 **[!UICONTROL Environment ID]** 필드에 환경 이름을 입력하십시오. 이러한 값을 설정할 때는 영숫자와 밑줄만 사용하십시오.
+
+>[!BEGINSHADEBOX]
+
+**차단 요청에 대한 사용자 지정 VCL 구성**
+
+사용자 지정 VCL 코드 조각을 사용하여 알 수 없는 들어오는 요청을 차단하는 경우 Commerce 서비스용 AEM Assets 통합에서 들어오는 연결을 허용하도록 HTTP 헤더 `X-Ims-Org-Idheader`을(를) 포함해야 할 수 있습니다.
+
+>[!TIP]
+>
+> Fastly CDN 모듈을 사용하여 차단하려는 IP 주소 목록과 함께 Edge ACL을 만들 수 있습니다.
+
+다음 사용자 지정 VCL 코드 조각 코드(JSON 형식)는 `X-Ims-Org-Id` 요청 헤더가 있는 예를 보여 줍니다.
+
+```json
+{
+  "name": "blockbyuseragent",
+  "dynamic": "0",
+  "type": "recv",
+  "priority": "5",
+  "content": "if ( req.http.X-ims-org ~ \"<YOUR-IMS-ORG>\" ) {error 405 \"Not allowed\";}"
+}
+```
+
+이 예제를 기반으로 코드 조각을 만들기 전에 값을 검토하여 변경해야 하는지 여부를 결정합니다.
+
+- `name`: VCL 코드 조각의 이름입니다. 이 예제에서는 `blockbyuseragent` 이름을 사용했습니다.
+
+- `dynamic`: 코드 조각 버전을 설정합니다. 이 예제에서는 `0`을(를) 사용했습니다. 자세한 데이터 모델 정보는 [Fastly VCL 코드 조각](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/)을 참조하십시오.
+
+- `type`: 생성된 VCL 코드에서 코드 조각의 위치를 결정하는 VCL 코드 조각의 형식을 지정합니다. 이 예제에서는 `recv`을(를) 사용했습니다. 코드 조각 유형 목록에 대해서는 [Fastly VCL 코드 조각 참조](https://docs.fastly.com/api/config#api-section-snippet)를 참조하십시오.
+
+- `priority`: VCL 코드 조각이 실행되는 시기를 결정합니다. 이 예제에서는 우선 순위 `5`을(를) 사용하여 관리자 요청이 허용된 IP 주소에서 오는지 여부를 즉시 실행하고 확인합니다.
+
+- `content`: 실행할 VCL 코드 조각으로, 클라이언트 IP 주소를 확인합니다. IP가 Edge ACL에 있으면 전체 웹 사이트에 대해 `405 Not allowed` 오류로 인해 액세스가 차단됩니다. 다른 모든 클라이언트 IP 주소는 액세스가 허용됩니다.
+
+VCL 코드 조각을 사용하여 수신 요청을 차단하는 방법에 대한 자세한 내용은 _Commerce on Cloud Infrastructure Guide_&#x200B;의 [차단 요청에 대한 사용자 지정 VCL](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)을(를) 참조하십시오.
+
+>[!ENDSHADEBOX]
 
 ## API 액세스에 대한 인증 자격 증명 가져오기
 
