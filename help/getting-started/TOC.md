@@ -5,9 +5,9 @@ breadcrumb-title: 시작
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 1%
    + [계정 공유](commerce-account-share.md)
    + [계정 양도](commerce-account-transfer.md)
 + 사이트 준수 {#compliance}
-   + [Adobe Commerce의 HIPAA 준비](hipaa-ready-service.md)
+   + Adobe Commerce{#hipaa-ready-service}의 HIPAA 준비
+      + [개요](hipaa/overview.md)
+      + [운영 지침](hipaa/operations.md)
    + 개인 정보 {#privacy}
       + [개인정보 처리방침 저장](privacy-policy.md)
       + [CCPA 규정 준수](compliance-ccpa.md)
