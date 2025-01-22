@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] 릴리스 정보'
 description: ' [!DNL Adobe Commerce B2B] 릴리스의 변경 내용에 대한 정보는 릴리스 정보를 검토하십시오.'
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: ad2acb61acc3e7ace3421f51987939394f5d8cbe
+source-git-commit: 0b7200331b9b7aa59636a0ff6fd6b98194054a32
 workflow-type: tm+mt
-source-wordcount: '7801'
+source-wordcount: '7820'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ B2B 확장에 대한 이러한 릴리스 노트는 다음을 포함하여 Adobe�
 *2024년 10월 30일*
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"}
-Adobe Commerce 버전 2.4.8-beta1, 2.4.7 - 2.4.7-p2, 2.4.6 - 2.4.6-p7과 호환
+Adobe Commerce 버전 2.4.8-beta1, 2.4.7 ~ 2.4.7-p2, 2.4.6 ~ 2.4.6-p7과 호환됩니다.
+
+Adobe Commerce B2B 버전 1.5.0은 PHP 8.3과도 호환되며 [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원합니다.
 
 B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 포함되어 있습니다.
 
