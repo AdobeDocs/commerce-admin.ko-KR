@@ -3,7 +3,7 @@ title: Experience Manager Assets 통합 설치 및 구성
 description: Adobe Commerce 인스턴스에서  [!DNL AEM Assets Integration for Adobe Commerce] 을(를) 설치하고 구성하는 방법을 알아봅니다.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 521dd5c333e5753211127567532508156fbda5b4
+source-git-commit: a2b9fc6584b9d8a57f24d87a9b5ebcdc2f29cbae
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -28,8 +28,10 @@ Commerce용 AEM Assets 통합에는 다음과 같은 시스템 및 구성 요구
 
 **구성 요구 사항**
 
-- 계정 프로비저닝 및 권한
+- 계정 프로비저닝 및 권한:
+
    - [Commerce 클라우드 프로젝트 관리자](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - 필요한 확장을 설치하고 관리자 또는 명령줄에서 Commerce 응용 프로그램 서버를 구성합니다.
+
    - [Commerce 관리자](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - 저장소 구성을 업데이트하고 Commerce 사용자 계정을 관리합니다.
 
 >[!TIP]
