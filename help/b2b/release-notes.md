@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] 릴리스 정보'
 description: ' [!DNL Adobe Commerce B2B] 릴리스의 변경 내용에 대한 정보는 릴리스 정보를 검토하십시오.'
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 0b7200331b9b7aa59636a0ff6fd6b98194054a32
+source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
 workflow-type: tm+mt
-source-wordcount: '7820'
+source-wordcount: '7879'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,7 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 ![새로 만들기](../assets/new.svg) <!--B2B-2747--> **회사 범위 선택기** - 여러 회사에 할당된 회사 사용자가 상점 앞에서 회사를 변경할 수 있는 기능을 제공합니다. 범위가 전환되면 데이터가 업데이트되어 새 회사 컨텍스트를 기반으로 정보가 표시됩니다. 예를 들어 새 회사가 다른 공유 카탈로그를 사용하는 경우 회사 사용자에게 새 공유 카탈로그를 기반으로 하는 제품, 가격 및 기타 정보가 표시됩니다. 주문, 견적, 견적 템플릿 관련 콘텐츠도 선택한 회사의 컨텍스트를 기반으로 업데이트됩니다.
 
 >[!NOTE]
->
->회사 사용자가 장바구니에 품목이 있는 회사를 전환하는 경우, 새 회사 컨텍스트를 기반으로 제품 분류, 가격 및 프로모션 할인을 반영하도록 장바구니를 업데이트합니다.
+>장바구니 콘텐츠는 현재 고객이 선택한 항목을 반영합니다. 고객이 활성 장바구니를 가지고 있고 다른 회사를 선택하는 경우, 새 회사 컨텍스트를 기반으로 제품 분류, 가격 및 프로모션 할인을 반영하도록 장바구니를 업데이트하라는 메시지가 표시됩니다. 새 회사와 연결된 카탈로그에서 사용할 수 없는 제품은 장바구니에서 제거됩니다. 제품에 다른 가격이나 가용성이 있는 경우 장바구니가 업데이트되어 선택한 회사의 컨텍스트에서 사용 가능한 데이터를 반영합니다.<!--B2B-4222-->
 
 ![해결된 문제](../assets/fix.svg)<!--ACP2E-1933--> 회사 관리자는 이제 상점에서 회사 사용자를 추가할 수 있습니다. 이전에는 관리자가 새 사용자 `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`을(를) 추가하려고 할 때 Commerce에서 오류가 기록되었습니다.
 
