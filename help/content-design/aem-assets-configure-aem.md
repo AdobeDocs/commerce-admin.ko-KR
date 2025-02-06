@@ -3,7 +3,7 @@ title: Experience Manager Assets 구성
 description: Commerce용 AEM Assets 통합을 사용하여 Adobe Commerce과 Experience Manager Assets 프로젝트 간에 에셋을 동기화하는 데 필요한 에셋 메타데이터를 추가합니다.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: 8a150c79c2e15ce5bd2cb2037f94c94f90b7a1df
+source-git-commit: 6b0c8054e86ae697025626ad2eb575d633003578
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Experience Manager Assets 구성
-
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
 Commerce 에셋을 식별하고 관리하도록 환경 구성을 업데이트하고 Assets 메타데이터를 구성하여 Commerce 에셋을 관리하도록 AEM as a Cloud Service 환경을 준비합니다.
 

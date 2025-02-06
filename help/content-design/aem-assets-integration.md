@@ -3,7 +3,7 @@ title: Commerce용 Experience Manager Assets 통합
 description: Experience Manager Assets을  [!DNL Commerce] 인스턴스와 통합하여 스토어에서 사용할 수 있는 수많은 미디어 자산에 액세스하는 방법에 대해 알아봅니다.
 feature: CMS, Media, Configuration, Integration
 exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
-source-git-commit: 102f39faada1b303ce5736c9f31bcc673e9e7720
+source-git-commit: b6f95cd23bbeb5200f31a23d7ff9216b0c21a53c
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
@@ -11,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Commerce용 Experience Manager Assets 통합
-
-{{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
 Commerce용 Experience Manager Assets 통합은 AEM as a DAM(디지털 에셋 관리) 시스템의 강력한 기능을 Adobe Commerce과 결합하여 전자 상거래 경험을 향상시킵니다. Commerce 프로젝트를 AEM의 강력한 자산 관리 환경에 연결하여 이러한 기능을 제공함으로써 상거래 상점 전반에서 자산을 원활하고 확장 가능하며 효율적으로 관리 및 제공할 수 있습니다.
 
