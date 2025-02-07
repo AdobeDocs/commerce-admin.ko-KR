@@ -3,9 +3,9 @@ title: AEM Assets 사용
 description: AEM Assets을 사용하여 스토어 미디어 에셋을 관리합니다.
 feature: CMS, Media
 exl-id: 55144019-8ba2-4392-b5dd-216e2ee9daf2
-source-git-commit: b6f95cd23bbeb5200f31a23d7ff9216b0c21a53c
+source-git-commit: 304669de832224bc6a0c97fc9ab1f72e29cad4cd
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -23,3 +23,19 @@ AEM Assets에서 에셋을 편집한 후 에셋을 승인하고 재처리하여 
 - [디지털 자산 재처리](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
 - [자산 승인](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+
+## 범주 관리
+
+AEM Assets 통합을 활성화하고 구성하면 카탈로그 범주 컨텐츠에 자산을 추가할 수 있습니다.
+
+1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**(으)로 이동합니다.
+
+1. **[!UICONTROL Content]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)을 확장합니다.
+
+   ![범주 콘텐츠](./assets/aem-assets-manage-categories.png){width="600" zoomable="yes"}
+
+1. 페이지 맨 위에 **[!UICONTROL Category Image]**&#x200B;을(를) 표시하려면 **[!UICONTROL Select from Assets]**&#x200B;을(를) 클릭하여 AEM Assets 폴더의 이미지를 사용합니다.
+
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭하고 계속합니다.
+
+   범주를 만드는 방법에 대한 자세한 내용은 [범주 콘텐츠 완료](../catalog/category-create.md#step-3-complete-the-category-content)를 참조하십시오.

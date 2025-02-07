@@ -3,9 +3,9 @@ title: 범주 만들기
 description: 구성에 설정된 최대 메뉴 깊이에 따라 필요한 만큼 추가 하위 범주를 만들 수 있습니다.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 6f83e90ed6bacd9e132d5caa01942f0ea90eb4b0
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -86,9 +86,11 @@ ht-degree: 0%
 
    - 미디어 저장소의 이미지를 사용하려면 **[!UICONTROL Select from Gallery]**&#x200B;을(를) 클릭하고 범주를 나타낼 이미지를 선택하십시오.
 
+   미디어 갤러리 내에서 **[!UICONTROL Search Adobe Stock]**&#x200B;을(를) 클릭하여 [Adobe Stock 통합](../content-design/adobe-stock.md)을(를) 사용하여 적절한 이미지를 찾을 수도 있습니다.
+
    >[!NOTE]
    >
-   >미디어 갤러리 내에서 **[!UICONTROL Search Adobe Stock]**&#x200B;을(를) 클릭하여 [Adobe Stock 통합](../content-design/adobe-stock.md)을(를) 사용하여 적절한 이미지를 찾을 수도 있습니다.
+   > AEM Assets을 활성화한 경우 자세한 내용은 [범주 관리](../content-design/aem-assets-manage.md)를 참조하십시오.
 
 1. **[!UICONTROL Description]**&#x200B;의 경우 범주 랜딩 페이지에 표시할 텍스트나 다른 내용을 입력하십시오.
 
