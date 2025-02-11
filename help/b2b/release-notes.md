@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] 릴리스 정보'
 description: ' [!DNL Adobe Commerce B2B] 릴리스의 변경 내용에 대한 정보는 릴리스 정보를 검토하십시오.'
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
+source-git-commit: 2d98c6c5de28ea2103e1299aea5cc886d866c6e0
 workflow-type: tm+mt
-source-wordcount: '7879'
+source-wordcount: '8177'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,34 @@ B2B 확장에 대한 이러한 릴리스 노트는 다음을 포함하여 Adobe�
 >
 >사용 가능한 Adobe Commerce 릴리스에서 지원되는 B2B Commerce 확장 버전에 대한 정보는 [제품 가용성](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html)을 참조하십시오.
 
+## B2B 1.5.1
+
+*2025년 2월 11일*
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+Adobe Commerce 버전 2.4.8-beta1에서 2.4.8-beta2, 2.4.7에서 2.4.7-p3, 2.4.6에서 2.4.9-p8과 호환
+
+B2B v1.5.1 릴리스에는 품질 개선 사항 및 버그 수정이 포함되어 있습니다.
+
+### 회사
+
+![해결된 문제](../assets/fix.svg)<!-- B2B-4422 --> 고객이 Quote Details 페이지에서 회사를 전환하려고 하면 이제 시스템에서 고객을 *Access Denied* 페이지로 리디렉션하여 한 회사에 대해 만든 견적을 다른 회사의 가격으로 주문하는 데 사용할 수 없도록 합니다. 이전에는 한 회사에 대한 가격으로 견적을 만든 다음 다른 회사로 전환하여 다른 가격으로 주문할 수 있었습니다.
+
+### 라인 항목 할인
+
+![문제 해결](../assets/fix.svg)<!-- B2B-2938 --> 견적 다시 계산 시나리오에서 관찰된 성능 저하를 해결하여 시스템 효율성을 개선했습니다. 이전에는 모든 장바구니 라인 항목에 두 개의 새 엔티티가 추가되어 데이터베이스 요청이 눈에 띄게 증가했으며, 이로 인해 성능이 저하되었습니다.
+
+### 협상 가능한 견적
+
+![문제 해결](../assets/fix.svg)<!-- B2B-3820 --> 이제 JavaScript 유효성 검사가 Luma Storefront 견적 템플릿 페이지의 *[!UICONTROL min/max qty]* 필드에 적용될 때 시스템이 UI 요소의 위치를 유지합니다. 이전에는 이러한 필드에 JavaScript 유효성 검사를 적용하면 페이지의 다른 UI 요소가 이동했습니다.
+
+### 장바구니
+
+![해결된 문제](../assets/fix.svg)<!-- B2B-4222 --> 여러 회사 계정을 관리하는 사용자의 쇼핑 환경을 간소화하기 위해 고안된 새로운 장바구니 관리 시스템을 도입했습니다. 새 시스템은 고객 계정이 아닌 개별 회사와 장바구니를 연결하여 다음과 같은 기능을 지원함으로써 쇼핑 경험을 간소화하고 워크플로를 개선합니다.
+
+- **회사별 장바구니:** - 이제 장바구니가 회사별 가격 및 제품 옵션을 지원하기 위해 개별 회사에 연결됩니다.
+- **원활한 전환**—사용자는 각 회사 장바구니의 내용에 영향을 주지 않고 다른 회사 계정 간에 쉽게 전환할 수 있습니다.
+- **컨텍스트 기반 무결성**—모든 장바구니 세부 정보가 각 회사의 컨텍스트 내에 남아 있어 일관되고 안정적인 쇼핑 경험을 제공합니다.
 
 ## B2B 1.5.0
 
@@ -94,7 +122,7 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 ![해결된 문제](../assets/fix.svg) **기존 견적 기능에 대한 수정 사항**
 
-- 관리자의 Quote 세부 정보 보기에서 *[!UICONTROL Print]* 단추를 클릭하면 이제 Quote 를 PDF으로 저장하라는 메시지가 표시됩니다. 이전에는 판매자가 견적 세부 정보가 포함된 페이지로 리디렉션되었습니다. <!--ACP2E-1984-->
+- 관리자의 견적 세부 정보 보기에서 *[!UICONTROL Print]* 단추를 클릭하면 이제 견적을 PDF으로 저장하라는 메시지가 표시됩니다. 이전에는 판매자가 견적 세부 정보가 포함된 페이지로 리디렉션되었습니다. <!--ACP2E-1984-->
 
 - 이전에는 `0` 비율로 고객 견적을 보내고 수량을 변경할 때 관리자가 예외를 발생시켰지만 수량을 저장했습니다. 이 수정 사항이 적용되면 메시지와 함께 `0 percentage`에 대한 적절한 예외가 발생합니다. <!--ACP2E-1742-->
 
@@ -192,7 +220,7 @@ B2B v1.4.1 릴리스에는 품질 개선 사항 및 버그 수정이 포함되�
 
 ![해결된 문제](../assets/fix.svg) 이제 구매 주문 옵션이 활성화되고 PayPal 결제 옵션으로 만든 가상 견적이 선택되면 Adobe Commerce에서 결제 중에 올바른 세부 정보를 표시합니다. 이전에는 이러한 조건에서 합계가 0으로 표시되었습니다.
 
-![문제 해결](../assets/fix.svg) <!--ACP2E-1504--> 신용 한도가 999를 초과하는 회사를 저장하려고 하면 유효성 검사 오류가 더 이상 발생하지 않습니다. 이전에는 회사 신용 한도가 999보다 큰 경우 Adobe 커머스에서 쉼표 구분 기호를 삽입했습니다. 이로 인해 유효성 검사 오류가 발생하여 업데이트가 저장되지 않았습니다.
+![문제 해결](../assets/fix.svg) <!--ACP2E-1504--> 신용 한도가 999를 초과하는 회사를 저장하려고 하면 유효성 검사 오류가 더 이상 발생하지 않습니다. 이전에는 회사 신용 한도가 999보다 큰 경우 Adobe commerce에서 쉼표 구분 기호를 삽입했습니다. 이로 인해 유효성 검사 오류가 발생하여 업데이트가 저장되지 않았습니다.
 
 ![문제 해결](../assets/fix.svg) <!--ACP2E-1474--> 이제 협상 가능한 견적을 주문하면 선택한 배송 주소가 변경되지 않습니다. 이전에는 주문 시 선택한 배송 주소가 기본 배송 주소로 변경되었습니다.
 
@@ -296,7 +324,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![해결된 문제](../assets/fix.svg) <!--- ACP2E-406-->이제 **[!UICONTROL Enable Cross Border Trade]** 세금 계산 설정을 사용하면 Adobe Commerce에서 협상 가능한 견적의 총계를 올바르게 계산합니다.
 
-![문제 해결](../assets/fix.svg) <!--- ACP2E-322-->구성 가능한 제품은 이제 **[!UICONTROL Move out of stock to the bottom]** 설정을 사용할 때 재고가 업데이트된 후 제품 목록의 마지막 위치로 이동됩니다. 이제 Elasticsearch 색인 정렬 순서가 관리자가 사용할 수 있는 정렬 순서를 따르도록 새 사용자 지정 데이터베이스 쿼리가 구현됩니다. 이전에는 이 설정을 활성화할 때 구성 가능한 제품 및 해당 하위 제품이 목록의 맨 아래로 이동되지 않았습니다.
+![문제 해결](../assets/fix.svg) <!--- ACP2E-322-->구성 가능한 제품은 이제 **[!UICONTROL Move out of stock to the bottom]** 설정을 사용할 때 재고가 업데이트된 후 제품 목록의 마지막 위치로 이동됩니다. 이제 새 사용자 지정 데이터베이스 쿼리가 구현되어 Elasticsearch 색인 정렬 순서가 관리자가 사용 가능한 정렬 순서를 따르도록 합니다. 이전에는 이 설정을 활성화할 때 구성 가능한 제품 및 해당 하위 제품이 목록의 맨 아래로 이동되지 않았습니다.
 
 ![해결된 문제](../assets/fix.svg) <!--- ACP2E-308-->이제 구매 주문 전자 메일에 다중 사이트 배포에 있는 각 웹 사이트의 전자 메일 전송 설정이 적용됩니다. **[!UICONTROL Disable Email Communications]** 설정에 대한 검사가 전자 메일 큐의 사용자 지정 논리에 추가됩니다. 이전에는 Adobe Commerce이 보조 웹 사이트에 대한 이메일 전송 설정을 준수하지 않았습니다.
 
@@ -328,7 +356,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![해결된 문제](../assets/fix.svg) <!--- MC-41985--> 회사 역할이 100,000개 이상인 배포에서 Adobe Commerce 2.3.x에서 Adobe Commerce 2.4.x로 업그레이드하는 데 필요한 시간이 크게 단축되었습니다.
 
-![해결된 문제](../assets/fix.svg) <!--- MC-42153--> 이제 **[!UICONTROL Payment on Account]** 결제 방법을 사용할 수 있는 경우 POST `V1/order/:orderId/invoice` 요청에서 부분 송장 만들기를 지원합니다. 이전에는 Adobe Commerce에서 다음 오류가 발생했습니다. `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
+![해결된 문제](../assets/fix.svg) <!--- MC-42153--> **[!UICONTROL Payment on Account]** 결제 방법을 사용하도록 설정하면 POST `V1/order/:orderId/invoice` 요청에서 부분 송장 만들기를 지원합니다. 이전에는 Adobe Commerce에서 다음 오류가 발생했습니다. `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
 
 ![해결된 문제](../assets/fix.svg) <!--- MC-41975--> 이제 고객의 장바구니에 다른 제품이 포함되어 있을 때 PayPal Payflow Pro가 B2B 협상 가능 견적에 대해 예상대로 작동합니다. 이제 Adobe Commerce이 주문을 성공적으로 처리하고 예상대로 고객에게 이메일을 전송합니다. 이전에는 Adobe Commerce에서 치명적인 오류가 발생했으며 값이 0인 확인 이메일을 고객에게 보냈습니다.
 
@@ -632,7 +660,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![새](../assets/new.svg) 고객으로 로그인은 이제 Adobe Commerce에 기본적으로 포함됩니다. 이 기능을 사용하면 사이트 직원이 고객으로 로그인하여 고객이 본 것을 확인할 수 있도록 지원할 수 있습니다.
 
-![해결된 문제](../assets/fix.svg) 특성 집계가 이제 Elasticsearch이 있는 계층화된 탐색에서 올바르게 작동합니다.
+![해결된 문제](../assets/fix.svg) 특성 집계가 이제 Elasticsearch에서 계층화된 탐색에 대해 올바르게 작동합니다.
 
 ![해결된 문제](../assets/fix.svg) 특수 문자별 주문 검색이 현재 제대로 작동합니다.
 
