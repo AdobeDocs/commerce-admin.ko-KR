@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] 릴리스 정보'
 description: ' [!DNL Adobe Commerce B2B] 릴리스의 변경 내용에 대한 정보는 릴리스 정보를 검토하십시오.'
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 2d98c6c5de28ea2103e1299aea5cc886d866c6e0
+source-git-commit: f91d3b669fcb6112510b9845535c4373a05ce8fe
 workflow-type: tm+mt
-source-wordcount: '8177'
+source-wordcount: '8313'
 ht-degree: 0%
 
 ---
@@ -134,6 +134,21 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 ![해결된 문제](../assets/fix.svg) <!--ACP2E-1825-->회사가 차단된 후에는 더 이상 회사와 연결된 사용자가 구매 주문을 할 수 없습니다. 이전에는 회사가 차단되면 회사와 연관된 사용자가 구매 주문을 할 수 있었습니다.
 
+## B2B v1.4.2-p4
+
+*2025년 2월 11일*
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+
+![새로운 기능](../assets/new.svg) Adobe Commerce 2.4.7-p4+ 및 2.4.6-p9+ 보안 패치 릴리스와 호환성이 추가되었습니다.
+
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B 버전 1.4.2+는 PHP 8.2와 호환됩니다. Commerce 인스턴스를 버전 2.4.7+로 업그레이드하는 경우 인스턴스가 PHP 버전 8.2를 사용하여 Adobe Commerce B2B 릴리스와의 호환성을 유지하는지 확인하십시오. 또한 B2B 1.4.2+ 릴리스는 [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원하지 않습니다.
+
+
 ## B2B v1.4.2-p3
 
 *2024년 10월 8일*
@@ -248,6 +263,16 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [안정성 태그](https://getcomposer.org/doc/04-schema.md#package-links)가 있는 B2B 보안 패키지에 대한 수동 종속성을 추가하여 B2B 보안 패키지에 대한 수동 종속성을 추가하여 이 문제를 해결할 수 있습니다. 자세한 지침은 [Adobe Commerce 기술 자료](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html)를 참조하세요.
 
+## B2B v1.3.5-p9
+
+*2025년 2월 11일*
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+
+![새로 만들기](../assets/new.svg) Adobe Commerce 2.4.6-p9 보안 패치 릴리스와 호환성이 추가되었습니다.
+
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+
 ## B2B v1.3.5-p8
 
 *2024년 10월 8일*
@@ -301,6 +326,16 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 ![해결된 문제](../assets/fix.svg) <!--- ACP2E-2456--> 이제 쿼리 중인 범주에 명시적으로 설정된 범주 권한이 없을 때 범주 쿼리가 저장소 구성 설정에 따라 제품 가격을 반환합니다.
 
 ![해결된 문제](../assets/fix.svg) <!--- ACP2E-6829--> 이제 승인된 견적 요청으로 구매를 완료할 때 **[!UICONTROL Place Order]** 단추가 예상대로 작동합니다. 협상 가능한 견적 `negotiableQuoteCheckoutSessionPlugin` 플러그 인의 문제가 해결되었습니다.
+
+## B2B v1.3.4-p11
+
+*2025년 2월 11일*
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+
+![새로 만들기](../assets/new.svg) Adobe Commerce 2.4.5-p11에 대한 지원이 추가되었습니다.
+
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.3.4-p10
 
