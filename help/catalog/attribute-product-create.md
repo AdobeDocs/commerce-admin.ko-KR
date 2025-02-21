@@ -3,9 +3,9 @@ title: 제품 속성 만들기 및 삭제
 description: 카탈로그에 있는 제품의 특정 특성을 설명하는 데 사용되는 제품 특성을 만들고 제거하는 방법에 대해 알아봅니다.
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3768fc8896dd353e5cc29b4fe82862d6653d6348
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
    | 속성 | 설명 |
    |--- |--- |
    | `Text Field` | 텍스트를 위한 한 줄 입력 필드입니다. |
-   | `Text Area` | 제품 설명과 같은 텍스트 단락을 입력하기 위한 여러 줄 입력 필드입니다. WYSIWYG 편집기를 사용하여 HTML 태그로 텍스트 서식을 지정하거나 텍스트에 태그를 직접 입력할 수 있습니다. |
+   | `Text Area` | 제품 설명과 같은 텍스트 단락을 입력하기 위한 여러 줄 입력 필드입니다. WYSIWYG 편집기 를 사용하여 HTML 태그로 텍스트 서식을 지정하거나 텍스트에 태그를 직접 입력할 수 있습니다. |
    | `Text Editor` | 속성 위치에서 완전히 작동하는 텍스트 편집기입니다. |
    | 날짜 | [기본 설정 형식](attributes-input-types.md#date-and-time-options) 및 [시간대](../getting-started/store-details.md#locale-options)로 날짜 값을 표시합니다. 날짜 값은 목록 또는 달력(![달력 아이콘](../assets/icon-calendar.png))에서 선택할 수 있습니다. <br/><br/>**_참고:_**시스템 구성에 따라_관리자&#x200B;_사용자는 필드에 날짜를 직접 입력하거나 일정 또는 목록에서 날짜를 선택할 수 있습니다. 날짜 및 시간 값 지정에 대한 자세한 내용은 [날짜 및 시간 옵션](attributes-input-types.md#date-and-time-options)을 참조하세요. |
    | `Yes/No` | `Yes` 및 `No`의 사전 정의된 옵션이 있는 드롭다운 목록을 표시합니다. |
@@ -63,6 +63,10 @@ ht-degree: 0%
 ## 2단계: 고급 속성 설명(필요한 경우)
 
 1. 고유한 **[!UICONTROL Attribute Code]**&#x200B;을(를) 소문자 및 공백 없이 입력하십시오.
+
+   >[!NOTE]
+   >
+   >[!UICONTROL Attribute Code] 필드의 `type` 값은 사용하지 않는 것이 좋습니다. `type` 값이 시스템 용도로 예약되어 있기 때문에 오류가 발생할 수 있습니다.
 
    ![제품 특성 - 고급 속성](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
