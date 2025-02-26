@@ -3,9 +3,9 @@ title: 제품 데이터 속성 참조
 description: 제품 데이터 가져오기 및 내보내기 작업을 수행할 때 이 제품 데이터 속성 참조를 사용합니다.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: c1f797da417bfdf24b537f8c59f954df58dac11a
+source-git-commit: 976efad9fb4bb53f6f102fde534001d254cd3b9c
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2496'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 |--- |--- |
 | `sku` | (필수) 재고 유지 단위는 재고를 추적하는 데 사용되는 고유한 영숫자 식별자입니다. SKU는 최대 64자까지 사용할 수 있습니다. 예: `sku123`<br/>**_참고:_**SKU가 64자를 초과하면 가져오기가 실패합니다. |
 | `store_view_code` | 제품을 사용할 수 있는 특정 스토어 보기를 식별합니다. 비어 있는 경우 기본 스토어 보기에서 제품을 사용할 수 있습니다. 예: `storeview1`, `english`, `spanish` |
-| `attribute_set_code` | 제품 유형에 따라 제품을 특정 속성 세트 또는 제품 템플릿에 할당합니다. 제품이 만들어지면 속성 세트를 변경할 수 없습니다. 예: `default` |
+| `attribute_set_code` | 제품 유형에 따라 제품을 특정 속성 세트 또는 제품 템플릿에 할당합니다. 예를 들어 `default`<br><br>제품을 만든 후에는 가져오기 기능을 사용하여 특성 집합을 변경할 수 없습니다. 그러나 관리자에서 속성 세트를 변경하고 제품을 다시 내보내 CSV 파일 을 업데이트할 수 있습니다. |
 | `product_type` | 제품 유형을 나타냅니다. 값:<br/>`simple` — 일반적으로 단일 단위로 판매되거나 고정 수량으로 판매되는 유형 품목.<br/>`grouped` — 세트로 판매되는 별도의 제품 그룹입니다.<br/>`configurable` — 구매하기 전에 고객이 선택해야 하는 여러 옵션이 있는 제품입니다. 개별 SKU를 사용하는 개별 제품을 나타내므로 각 변형 세트에 대해 인벤토리를 관리할 수 있습니다. 예를 들어 구성 가능한 제품에 대한 색상 및 크기의 조합은 카탈로그의 특정 SKU와 연결됩니다.<br/>`virtual` — 배송이 필요하지 않고 재고에 보관되지 않는 유형의 제품이 아닙니다. 서비스, 멤버십 및 구독이 이러한 예입니다.<br/>`bundle` — 함께 판매되는 간단한 제품의 사용자 지정 가능한 제품 세트입니다. |
 | `categories` | 제품에 할당된 각 카테고리를 나타냅니다. 슬래시로 범주와 하위 범주를 구분합니다. 여러 범주 경로를 나타내려면 파이프 \| 로 각 경로를 구분합니다 기호. 예: `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | 제품을 사용할 수 있는 각 웹 사이트의 웹 사이트 코드. 단일 제품을 여러 웹 사이트에 할당하거나 하나로 제한할 수 있습니다. 여러 웹 사이트를 지정하는 경우 쉼표로, 공백 없이 각각 구분하십시오. 예: `base` 또는 `base,website2` |

@@ -4,9 +4,9 @@ description: 관리 사용자 계정을 만들고 역할을 할당하여 관리 
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: ad75c77ada34c4d66b1a58a666edadd44d054e17
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 스토어를 처음 설치하면 전체 관리 액세스 권한을 제공하는 로그인 자격 증명으로 기본 관리자 계정이 만들어집니다. 가장 좋은 방법은 전체 관리자 액세스 권한을 가진 다른 사용자 계정을 만드는 것입니다. 그렇게 하면 일상적인 관리 활동에 대해 하나의 계정을 사용하고 다른 계정을 &quot;슈퍼 관리자&quot; 계정으로 예약할 수 있습니다. 이 기능은 일반 자격 증명을 잊어버렸거나 자격 증명을 사용할 수 없게 된 경우 유용합니다.
 
-팀이나 서비스 공급자에 액세스 권한이 필요한 다른 사용자가 있는 경우 각각에 대해 별도의 사용자 계정을 만들고 비즈니스 요구 사항에 따라 제한된 액세스 권한을 할당할 수 있습니다. 관리자가 액세스할 수 있는 웹 사이트 또는 스토어를 제한하려면 먼저 범위가 제한된 [역할을 만들고](permissions-user-roles.md) 필요한 리소스만 선택해야 합니다. 그런 다음 특정 사용자 계정에 역할을 할당할 수 있습니다. 제한된 역할에 할당된 관리자는 역할과 연결된 웹 사이트 또는 스토어에 대한 데이터만 보고 변경할 수 있지만 전역 설정이나 데이터는 변경할 수 없습니다.
+다른 팀원이나 서비스 공급자가 액세스 권한이 필요한 경우 해당 사용자의 개별 사용자 계정을 만들고 특정 비즈니스 요구 사항에 따라 제한된 액세스 권한을 할당할 수 있습니다. 관리자가 액세스할 수 있는 웹 사이트 또는 스토어를 제한하려면 먼저 범위가 제한된 [역할을 만들고](permissions-user-roles.md) 필요한 리소스만 선택해야 합니다. 그런 다음 특정 사용자 계정에 역할을 할당할 수 있습니다. 제한된 역할에 할당된 관리자는 역할과 연결된 웹 사이트 또는 스토어에 대한 데이터만 보고 변경할 수 있지만 전역 설정이나 데이터는 변경할 수 없습니다.
 
 >[!NOTE]
 >
->Adobe ID을 보유하고 있으며 Adobe Commerce 및 Adobe 비즈니스 제품에 간소화된 로그인을 원하는 Adobe Commerce 판매자는 Commerce 인증을 Adobe IMS 인증 워크플로와 통합할 수 있습니다. Commerce 스토어에 대해 이 통합이 활성화되면 각 관리자는 로그인하기 위해 Adobe 자격 증명(Commerce 자격 증명이 아님)을 사용해야 합니다. [IMS(Identity Management 서비스) 통합 Adobe 개요](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html)를 참조하십시오.
+>Adobe ID을 보유하고 있으며 Adobe Commerce 및 Adobe 비즈니스 제품에 간소화된 로그인을 원하는 Adobe Commerce 판매자는 Commerce 인증을 Adobe IMS 인증 워크플로와 통합할 수 있습니다. Commerce 스토어에 대해 이 통합이 활성화되면 각 관리자는 Commerce 자격 증명이 아닌 Adobe 자격 증명을 사용하여 로그인해야 합니다. [Adobe IMS(Identity Management 서비스) 통합 개요](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html)를 참조하세요.
 
 일시적인 사용자 또는 역할의 경우 사용자 계정의 만료 날짜를 설정할 수도 있습니다.
 

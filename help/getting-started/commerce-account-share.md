@@ -3,9 +3,9 @@ title: ' [!DNL Commerce] 계정 공유'
 description: 다른 [!DNL Commerce] 계정 소유자의  [!DNL Commerce] 계정에 제한된 액세스 권한을 부여하는 방법을 알아보세요.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: e7d76a7fa9ba8d8b8ee1ce122f7ca61e2aa317c6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->공유 액세스 권한이 있는 사용자가 수행한 모든 작업은 기본 계정 소유자의 단독 책임입니다. Adobe은 귀하의 계정에 대한 액세스 권한을 공유한 사용자가 수행한 모든 작업에 대해 책임을 지지 않습니다.
+>공유 액세스 권한이 있는 사용자가 수행한 모든 작업은 기본 계정 소유자의 단독 책임입니다. Adobe은 계정에 대한 액세스 권한을 공유한 사용자가 수행한 모든 작업에 대해 책임을 지지 않습니다.
 
 ![공유 액세스 설정](./assets/shared-access.png){width="600" zoomable="yes"}
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 시작하기 전에 **새 공유 액세스 피부여자**&#x200B;의 [!DNL Commerce] 계정에서 다음 정보를 가져옵니다.
 
-   - 사용자는 account.adobe.com에서 계정에 이미 등록하고 account.magento.com을 통해 로그인해야 합니다.
+   - 사용자는 account.adobe.com에서 계정에 이미 등록하고 account.magento.com을 통해 로그인해야 합니다. 자세한 내용은 [Commerce 계정 만들기](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)를 참조하십시오.
    - `MAGE ID/Account ID (MAG00XXXXXXX)`은(는) _[!UICONTROL Magento]_탭의 왼쪽 위,**로그아웃**링크 바로 위에 표시됩니다.
    - 계정과 연결된 `Email` 주소입니다.
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    - 공유 계정을 식별하려면 **[!UICONTROL Share Name]**&#x200B;을(를) 입력하십시오. 이 이름은 내부 참조용이며 귀하와 귀하의 계정을 공유하는 사람에게만 표시됩니다.
 
-     가장 좋은 방법은 조직 이름을 [!UICONTROL Share Name](으)로 사용하는 것입니다. `CLOUD SHARED ACCESS FROM MAG XYX`(으)로 시작하는 이름을 사용하지 마십시오.
+     가장 좋은 방법은 조직 이름을 [!UICONTROL Share Name]&#x200B;(으)로 사용하는 것입니다. `CLOUD SHARED ACCESS FROM MAG XYX`(으)로 시작하는 이름을 사용하지 마십시오.
    - 새 사용자와 개인 연락처 정보를 공유하려면 **[!UICONTROL Your Email]** 및 **[!UICONTROL Your Phone]**&#x200B;을(를) 입력하십시오.
 
 1. _[!UICONTROL Grant Account Permissions]_에서 공유할 각 [!DNL Commerce] 제품 및 서비스의 확인란을 선택합니다.
