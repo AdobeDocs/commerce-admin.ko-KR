@@ -1,11 +1,11 @@
 ---
 user-guide-title: 콘텐츠 및 디자인 안내서
-user-guide-description: Adobe Commerce, Magento Open Source 관리자 및 전자 상거래 마케터를 위한 콘텐츠 및 디자인 기능에 대한 포괄적인 정보입니다.
+user-guide-description: Adobe Commerce 및 Magento Open Source 관리자와 전자 상거래 마케터를 위한 콘텐츠 및 디자인 기능에 대한 포괄적인 정보입니다.
 breadcrumb-title: 컨텐츠 및 디자인
 feature: CMS, Page Content
-source-git-commit: 102f39faada1b303ce5736c9f31bcc673e9e7720
+source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '244'
 ht-degree: 4%
 
 ---
@@ -72,14 +72,16 @@ ht-degree: 4%
       - [자산 관리](media-gallery-asset-management.md)
       - [폴더 관리](media-gallery-folder-management.md)
       - [이미지 최적화](media-gallery-image-optimization.md)
-- AEM Assets {#aem-asset-management}을(를) 사용한 자산 관리
-   - [Commerce용 AEM Assets 통합](aem-assets-integration.md)
-   - {#onboarding} 통합 설정
-      - [개요](aem-assets-setup.md)
+- Commerce {#aem-asset-management}에 대한 AEM Assets 통합
+   - [통합 개요](aem-assets-integration.md)
+   - [릴리스 정보](aem-assets-release-notes.md)
+   - {#onboarding} 시작
+      - [AEM Assets 설정](aem-assets-onboard.md)
       - [AEM Assets 구성](aem-assets-configure-aem.md)
       - [Adobe Commerce 구성](aem-assets-configure-commerce.md)
       - [자산 동기화 활성화](aem-assets-setup-synchronization.md)
-   - [에셋 관리](aem-assets-manage.md)
+   - 자산 관리 {#manage}
+      - [Commerce과 함께 AEM Assets 사용](aem-assets-manage.md)
 - 미디어 {#media}
 - 콘텐츠 스테이징 {#staging}
    - [개요](content-staging.md)

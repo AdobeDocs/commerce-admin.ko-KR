@@ -3,9 +3,9 @@ title: AEM Assets 사용
 description: AEM Assets을 사용하여 스토어 미디어 에셋을 관리합니다.
 feature: CMS, Media
 exl-id: 55144019-8ba2-4392-b5dd-216e2ee9daf2
-source-git-commit: 304669de832224bc6a0c97fc9ab1f72e29cad4cd
+source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ AEM Assets에서 에셋을 편집한 후 에셋을 승인하고 재처리하여 
 
 - [자산 승인](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
-## 범주 관리
+## 범주 콘텐츠에 자산 추가
 
 AEM Assets 통합을 활성화하고 구성하면 카탈로그 범주 컨텐츠에 자산을 추가할 수 있습니다.
 
