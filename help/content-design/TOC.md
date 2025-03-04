@@ -3,9 +3,9 @@ user-guide-title: 콘텐츠 및 디자인 안내서
 user-guide-description: Adobe Commerce 및 Magento Open Source 관리자와 전자 상거래 마케터를 위한 콘텐츠 및 디자인 기능에 대한 포괄적인 정보입니다.
 breadcrumb-title: 컨텐츠 및 디자인
 feature: CMS, Page Content
-source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
+source-git-commit: 499354ba72da9170ff43ddf762785efcec8a7f64
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '248'
 ht-degree: 4%
 
 ---
@@ -80,6 +80,7 @@ ht-degree: 4%
       - [AEM Assets 구성](aem-assets-configure-aem.md)
       - [Adobe Commerce 구성](aem-assets-configure-commerce.md)
       - [자산 동기화 활성화](aem-assets-setup-synchronization.md)
+      - [로그 보기 및 관리](aem-assets-log-files.md)
    - 자산 관리 {#manage}
       - [Commerce과 함께 AEM Assets 사용](aem-assets-manage.md)
 - 미디어 {#media}

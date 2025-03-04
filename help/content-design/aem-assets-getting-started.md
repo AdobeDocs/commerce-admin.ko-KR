@@ -1,17 +1,18 @@
 ---
 title: Commerce용 AEM Assets 통합 설정
-description: ' [!DNL Commerce] 인스턴스로 Experience Manager Assets을 온보딩하여 스토어에서 사용할 수 있는 수많은 미디어 자산에 액세스하는 방법에 대해 알아봅니다.'
+description: 스토어에 대한 Commerce 에셋을 관리하기 위해 Experience Manager Assets 환경을 설정하고 구성하는 방법에 대해 알아봅니다.
 feature: CMS, Media, Configuration
-source-git-commit: c109edc9d9277baafd61da1df0f1917f07089353
+exl-id: 699f517e-1545-4c22-aa8d-9c8d60d352af
+source-git-commit: 934473c5124002b3b0b1bee2da47afff468406dc
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
 
 # Commerce용 AEM Assets 통합 설정
 
-AEM Assets 통합을 설정하려면 관리 액세스 권한이 있어야 애플리케이션 및 환경 구성을 사용자 정의할 수 있습니다.
+Commerce용 Adobe Experience Manager Assets 통합을 설정하려면 관리 액세스 권한이 있어야 애플리케이션 및 환경 구성을 사용자 정의할 수 있습니다.
 
 - AEM Assets as a Cloud Service 환경이 프로비저닝되는 Cloud Manager 프로그램에 대한 관리 액세스 권한.
 
@@ -21,7 +22,7 @@ AEM Assets 통합을 설정하려면 관리 액세스 권한이 있어야 애플
 
 이러한 통합을 활용하려면 기업은 다음 요구 사항을 충족해야 합니다.
 
-- Adobe Commerce, AEM Assets 및 [AEM Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media)에 대한 활성 라이선스입니다.
+- Adobe Commerce, Adobe Experience Manager Assets 및 [AEM Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media)에 대한 활성 라이선스입니다.
 
 - Adobe Commerce 2.4.5+
 
@@ -38,14 +39,14 @@ AEM Assets 통합을 설정하려면 관리 액세스 권한이 있어야 애플
 
 - **공식 Adobe 솔루션** - Adobe에서 개발, 유지 관리 및 완전히 지원하여 안정성과 향후 플랫폼 개선 사항과의 정렬을 보장합니다.
 
-- **Adobe 관리 지원 모델** - 지원 및 문제 해결은 Adobe에서 직접 처리하므로 안심하고 문제를 해결할 수 있습니다.
+- **Adobe 관리 지원 모델**—Adobe은 지원 및 문제 해결을 처리하므로 안심하고 문제를 해결할 수 있습니다.
 
 ## 다음 단계
 
 Experience Manager Assets과 Commerce 통합을 활성화하는 3단계 프로세스입니다.
 
-1. [AEM 에셋을 관리하도록 Adobe Commerce 에셋 프로젝트를 구성](aem-assets-configure-aem.md).
+1. [Adobe Experience Manager 에셋을 관리하도록 Adobe Commerce 에셋 프로젝트를 구성](aem-assets-configure-aem.md).
 
-1. [AEM 자산 통합 확장을 설치하고 Adobe Commerce을 구성](aem-assets-configure-aem.md)합니다.
+1. [Commerce 확장을 위한 Adobe Experience Manager Assets 통합을 설치하고 Adobe Commerce을 구성합니다](aem-assets-configure-aem.md).
 
 1. [자산 동기화 사용](aem-assets-setup-synchronization.md).
