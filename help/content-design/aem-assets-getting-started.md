@@ -3,9 +3,9 @@ title: Commerce용 AEM Assets 통합 설정
 description: 스토어에 대한 Commerce 에셋을 관리하기 위해 Experience Manager Assets 환경을 설정하고 구성하는 방법에 대해 알아봅니다.
 feature: CMS, Media, Configuration
 exl-id: 699f517e-1545-4c22-aa8d-9c8d60d352af
-source-git-commit: 934473c5124002b3b0b1bee2da47afff468406dc
+source-git-commit: 98c40c779e1fe705cf1bd47331537bc7b7235921
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,8 @@ Commerce용 Adobe Experience Manager Assets 통합을 설정하려면 관리 액
 
 Experience Manager Assets과 Commerce 통합을 활성화하는 3단계 프로세스입니다.
 
-1. [Adobe Experience Manager 에셋을 관리하도록 Adobe Commerce 에셋 프로젝트를 구성](aem-assets-configure-aem.md).
+1. [AEM Assets 패키지 설치](aem-assets-configure-aem.md).
 
-1. [Commerce 확장을 위한 Adobe Experience Manager Assets 통합을 설치하고 Adobe Commerce을 구성합니다](aem-assets-configure-aem.md).
+1. [Adobe Commerce 패키지 설치](aem-assets-configure-aem.md).
 
-1. [자산 동기화 사용](aem-assets-setup-synchronization.md).
+1. [통합 자산을 구성합니다](aem-assets-setup-synchronization.md).

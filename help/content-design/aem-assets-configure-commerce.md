@@ -1,22 +1,24 @@
 ---
-title: Experience Manager Assets 통합 설치 및 구성
-description: Adobe Commerce 인스턴스에서  [!DNL AEM Assets Integration for Adobe Commerce] 을(를) 설치하고 구성하는 방법을 알아봅니다.
+title: Adobe Commerce 패키지 설치
+description: Adobe Commerce 인스턴스에  [!DNL AEM Assets Integration for Adobe Commerce] 확장 및 을 설치하는 방법을 알아봅니다.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: bdfff57ed5bbf2ae460c382d9cfbaef0ebcaa2e8
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
 
-# Commerce용 AEM Assets 통합 설치 및 구성
+# Adobe Commerce 패키지 설치
 
-`aem-assets-integration` PHP 확장을 설치하여 Commerce용 AEM Assets 통합을 사용하도록 Commerce 환경을 준비합니다. 그런 다음 관리 구성을 업데이트하여 Adobe Commerce과 AEM Assets 간에 통신 및 워크플로우를 가능하게 합니다.
+AEM Assets Integration for Commerce 확장(`aem-assets-integration`)을 사용하면 Adobe Commerce과 Adobe Experience Manager Assets 간에 자산을 동기화할 수 있습니다. 확장은 두 플랫폼 모두에서 제품 이미지, 비디오 및 기타 미디어 에셋을 비롯한 에셋을 관리하기 위한 도구 및 서비스 세트를 제공합니다.
+
+`aem-assets-integration` PHP 확장을 설치하여 Commerce 환경에 이 확장을 추가합니다. 또한 Commerce용 Adobe I/O Events을 활성화하고 Adobe Commerce과 Adobe Experience Manager Assets 간의 통신 및 워크플로에 필요한 자격 증명을 생성해야 합니다.
 
 ## 시스템 요구 사항
 
-Commerce용 AEM Assets 통합에는 다음과 같은 시스템 및 구성 요구 사항이 있습니다.
+Commerce 확장을 위한 AEM Assets 통합에는 다음과 같은 시스템 및 구성 요구 사항이 있습니다.
 
 **소프트웨어 요구 사항**
 
@@ -24,38 +26,32 @@ Commerce용 AEM Assets 통합에는 다음과 같은 시스템 및 구성 요구
 - PHP 8.1, 8.2, 8.3
 - 작성기: 2.x
 
-**구성 요구 사항**
+**액세스 요구 사항**
 
-- 계정 프로비저닝 및 권한:
+통합을 설정하려면 다음 역할과 권한이 필요합니다.
 
-   - [Commerce 클라우드 프로젝트 관리자](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - 필요한 확장을 설치하고 관리자 또는 명령줄에서 Commerce 응용 프로그램 서버를 구성합니다.
+- [Commerce 클라우드 프로젝트 관리자](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - 필요한 확장을 설치하고 관리자 또는 명령줄에서 Commerce 응용 프로그램 서버를 구성합니다.
 
-   - [Commerce 관리자](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - 저장소 구성을 업데이트하고 Commerce 사용자 계정을 관리합니다.
+   - 확장을 설치하려면 [repo.magento.com](https://repo.magento.com/admin/dashboard)에 액세스하세요.
+
+     키를 생성하고 필요한 권한을 얻으려면 [인증 키 가져오기](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오. 클라우드 설치의 경우 [클라우드 인프라의 Commerce 안내서](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)를 참조하십시오.
+
+- [Commerce 관리자](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - 저장소 구성을 업데이트하고 Commerce 사용자 계정을 관리합니다.
 
 >[!TIP]
 >
 > Adobe Commerce은 [Adobe IMS 인증](/help/getting-started/adobe-ims-config.md)을 사용하도록 구성할 수 있습니다.
 
-## 구성 워크플로
+## 설치 및 구성 워크플로
 
-다음 작업을 완료하여 통합을 활성화합니다.
+Adobe Commerce 패키지를 설치하고 다음 작업을 완료하여 Commerce 환경을 준비합니다.
 
-1. [AEM Assets 통합 확장(`aem-assets-integration`)을 설치합니다](#install-the-aem-assets-integration-extension).
+1. [Commerce용 AEM Assets 통합 확장 설치(`aem-assets-integration`)](#install-the-aem-assets-integration-extension).
 1. [Commerce 서비스 커넥터를 구성](#configure-the-commerce-services-connector)하여 Adobe Commerce 인스턴스와 Adobe Commerce 및 AEM Assets 간에 데이터를 전송할 수 있는 서비스에 연결합니다.
 1. [Commerce용 Adobe I/O Events 구성](#configure-adobe-io-events-for-commerce)
 1. [API 액세스에 대한 인증 자격 증명 가져오기](#get-authentication-credentials-for-api-access)
 
 ## `aem-assets-integration` 확장 설치
-
-확장을 설치하려면 다음 권한이 필요합니다.
-
-- 확장을 설치하려면 [repo.magento.com](https://repo.magento.com/admin/dashboard)에 액세스하세요.
-
-  키를 생성하고 필요한 권한을 얻으려면 [인증 키 가져오기](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오. 클라우드 설치의 경우 [클라우드 인프라의 Commerce 안내서](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)를 참조하십시오.
-
-- Adobe Commerce 애플리케이션 서버의 명령줄에 액세스합니다.
-
-### Commerce 환경에 확장 추가
 
 Adobe Commerce 2.4.5 이상 버전의 Adobe Commerce 인스턴스에 최신 버전의 AEM Assets 통합 확장(`aem-assets-integration`)을 설치합니다. AEM 자산 통합은 [repo.magento.com](https://repo.magento.com/admin/dashboard) 리포지토리에서 작성기 메타패키지로 제공됩니다.
 
@@ -159,7 +155,7 @@ Adobe Commerce 인스턴스와 AEM Assets 통합을 사용하는 서비스 간�
 
 AEM Assets 통합은 Adobe I/O Events 서비스를 사용하여 Commerce 인스턴스와 Experience Cloud 간에 사용자 지정 이벤트 데이터를 보냅니다. 이벤트 데이터는 AEM Assets 통합을 위한 워크플로를 조정하는 데 사용됩니다.
 
-Adobe I/O 이벤트를 구성하기 전에 Commerce 프로젝트에 대한 RabbitMQ 및 cron 작업 구성을 확인하십시오.
+Adobe I/O Events을 구성하기 전에 Commerce 프로젝트에 대한 RabbitMQ 및 cron 작업 구성을 확인하십시오.
 
 - RabbitMQ가 활성화되어 있고 이벤트를 수신하는지 확인합니다.
    - [Adobe Commerce 온-프레미스에 대한 RabbitMQ 설정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
@@ -174,6 +170,10 @@ Adobe I/O 이벤트를 구성하기 전에 Commerce 프로젝트에 대한 Rabbi
 ### Commerce 이벤트 프레임워크 활성화
 
 Commerce 관리에서 이벤트 프레임워크를 활성화합니다.
+
+>[!NOTE]
+>
+>App Builder 설정은 사용자 지정 일치 전략을 사용하여 Commerce과 AEM Assets 간에 자산을 동기화하려는 경우에만 필요합니다.
 
 1. 책임자에서 **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O Events**(으)로 이동합니다.
 
@@ -209,13 +209,13 @@ Commerce 관리에서 이벤트 프레임워크를 활성화합니다.
 
 이 예제를 기반으로 코드 조각을 만들기 전에 값을 검토하여 변경해야 하는지 여부를 결정합니다.
 
-- `name`: VCL 코드 조각의 이름입니다. 이 예제에서는 `blockbyuseragent` 이름을 사용했습니다.
+- `name`: VCL 코드 조각의 이름입니다. 이 예제에서는 `blockbyuseragent` 이름을 사용합니다.
 
-- `dynamic`: 코드 조각 버전을 설정합니다. 이 예제에서는 `0`을(를) 사용했습니다. 자세한 데이터 모델 정보는 [Fastly VCL 코드 조각](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/)을 참조하십시오.
+- `dynamic`: 코드 조각 버전을 설정합니다. 이 예제에서는 `0`을(를) 사용합니다. 자세한 데이터 모델 정보는 [Fastly VCL 코드 조각](https://www.fastly.com/documentation/reference/api/vcl-services/snippet/)을 참조하십시오.
 
-- `type`: 생성된 VCL 코드에서 코드 조각의 위치를 결정하는 VCL 코드 조각의 형식을 지정합니다. 이 예제에서는 `recv`을(를) 사용했습니다. 코드 조각 유형 목록에 대해서는 [Fastly VCL 코드 조각 참조](https://docs.fastly.com/api/config#api-section-snippet)를 참조하십시오.
+- `type`: 생성된 VCL 코드에서 코드 조각의 위치를 결정하는 VCL 코드 조각의 형식을 지정합니다. 이 예제에서는 `recv`을(를) 사용합니다. 코드 조각 형식 목록은 [Fastly VCL 코드 조각 참조](https://www.fastly.com/documentation/reference/api/#api-section-snippet)를 참조하십시오.
 
-- `priority`: VCL 코드 조각이 실행되는 시기를 결정합니다. 이 예제에서는 우선 순위 `5`을(를) 사용하여 관리자 요청이 허용된 IP 주소에서 오는지 여부를 즉시 실행하고 확인합니다.
+- `priority`: VCL 코드 조각이 실행되는 시기를 결정합니다. 이 예제에서는 우선 순위 `5`을(를) 사용하여 즉시 실행하고 허용된 IP 주소에서 관리자 요청이 오고 있는지 확인합니다.
 
 - `content`: 실행할 VCL 코드 조각으로, 클라이언트 IP 주소를 확인합니다. IP가 Edge ACL에 있으면 전체 웹 사이트에 대해 `405 Not allowed` 오류로 인해 액세스가 차단됩니다. 다른 모든 클라이언트 IP 주소는 액세스가 허용됩니다.
 
@@ -253,7 +253,7 @@ Commerce 인스턴스에 통합을 추가하고 활성화하여 자격 증명을
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-### 자격 증명 생성
+### OAuth 자격 증명 생성
 
 통합 페이지에서 Assets 통합을 위해 **활성화**&#x200B;를 클릭하여 OAuth 인증 자격 증명을 생성합니다. Commerce 프로젝트를 Assets 규칙 엔진 서비스에 등록하고 API 요청을 제출하여 Adobe Commerce과 AEM Assets 간에 에셋을 관리하려면 이러한 자격 증명이 필요합니다.
 
@@ -273,4 +273,4 @@ Commerce 인스턴스에 통합을 추가하고 활성화하여 자격 증명을
 
 ## 다음 단계
 
-[에셋 동기화를 활성화하여 Adobe Commerce 프로젝트 환경과 AEM Assets 프로젝트 환경 간에 에셋을 전송합니다](aem-assets-setup-synchronization.md)
+[Adobe Commerce 및 AEM Assets 프로젝트 환경을 연결하고 에셋 동기화를 위한 일치 전략을 선택합니다](aem-assets-setup-synchronization.md)

@@ -1,20 +1,20 @@
 ---
-title: Experience Manager Assets 구성
+title: Commerce용 AEM Assets 패키지 설치
 description: Commerce용 AEM Assets 통합을 사용하여 Adobe Commerce과 Experience Manager Assets 프로젝트 간에 에셋을 동기화하는 데 필요한 에셋 메타데이터를 추가합니다.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
 
-# Experience Manager Assets 구성
+# AEM Assets 패키지 설치
 
-AEM as a Cloud Service 환경 구성을 업데이트하고 AEM Assets 작성 환경에서 메타데이터를 구성하여 Commerce 에셋을 관리하도록 AEM Assets을 설정합니다.
+Adobe은 Experience Manager Assets as a Cloud Service 환경 구성에 Commerce 네임스페이스 및 메타데이터 스키마 리소스를 추가하기 위해 프로젝트 템플릿 `commerce-assets`을(를) 제공합니다. 이 템플릿을 Maven 패키지로 환경에 배포합니다. 그런 다음 AEM Assets 작성 환경에서 Commerce 메타데이터를 구성하여 설정을 완료합니다.
 
-Adobe은 AEM 프로젝트 템플릿을 제공하여 AEM Assets as a Cloud Service 환경 구성에 네임스페이스 및 메타데이터 스키마 리소스를 추가합니다. 템플릿은 다음을 추가합니다.
+템플릿은 AEM Assets 작성 환경에 다음 리소스를 추가합니다.
 
 - Commerce 관련 속성을 식별하기 위한 [사용자 지정 네임스페이스](https://github.com/ankumalh/assets-commerce/blob/main/ui.config/jcr_root/apps/commerce/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~commerce-namespaces.cfg.json), `Commerce`입니다.
 
@@ -31,7 +31,7 @@ Adobe은 AEM 프로젝트 템플릿을 제공하여 AEM Assets as a Cloud Servic
 - 초기 에셋 동기화를 지원하기 위해 [샘플 Commerce 에셋이 태그되고 승인되었습니다](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml) `equipment_6.jpg`. 승인된 Commerce 자산만 AEM Assets에서 Adobe Commerce으로 동기화할 수 있습니다.
 
 >[!NOTE]
->Commerce-Assets AEM 프로젝트 템플릿에 대한 자세한 내용은 [추가 정보](https://github.com/ankumalh/assets-commerce)를 참조하십시오.
+>`commerce-assets` AEM 프로젝트 템플릿에 대한 자세한 내용은 [추가 정보](https://github.com/ankumalh/assets-commerce)를 참조하십시오.
 
 이 AEM 프로젝트를 사용하여 환경 구성을 업데이트하려면 다음 리소스와 권한이 필요합니다.
 
@@ -41,7 +41,7 @@ Adobe은 AEM 프로젝트 템플릿을 제공하여 AEM Assets as a Cloud Servic
 
 - [AEM 프로젝트 구조](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) 및 Cloud Manager을 사용하여 사용자 지정 콘텐츠 패키지를 배포하는 방법을 이해합니다.
 
-## AEM Assets 환경 구성 업데이트 및 배포
+## `commerce-assets` 패키지 설치
 
 1. 필요한 경우 Cloud Manager에서 AEM Assets 프로젝트에 대한 프로덕션 및 스테이징 환경을 만듭니다.
 
@@ -51,14 +51,13 @@ Adobe은 AEM 프로젝트 템플릿을 제공하여 AEM Assets as a Cloud Servic
 
 1. [로컬 AEM 개발 환경](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview)에서 사용자 지정 코드를 AEM Assets 환경 구성에 Maven 패키지로 설치하거나 코드를 기존 프로젝트 구성에 수동으로 복사합니다.
 
-1. 변경 사항을 커밋하고 로컬 개발 분기를 Cloud Manager git 저장소로 푸시합니다.
+1. 변경 사항을 커밋하고 로컬 개발 분기를 Cloud Manager Git 저장소로 푸시합니다.
 
 1. Cloud Manager에서 [코드를 배포하여 AEM 환경을 업데이트합니다](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/deploy-code#deploying-code-with-cloud-manager).
 
 ## 메타데이터 프로필 구성
 
-AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce 에셋 메타데이터에 대한 기본값을 설정합니다. 그런 다음 새 프로필을에 적용합니다.
-AEM Asset 폴더를 통해 이러한 기본값을 자동으로 사용할 수 있습니다. 이 구성은 수동 단계를 줄여 자산 처리를 간소화합니다.
+AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce 에셋 메타데이터에 대한 기본값을 설정합니다. 그런 다음 AEM 자산 폴더에 새 프로필을 적용하여 이러한 기본값을 자동으로 사용합니다. 이 구성은 수동 단계를 줄여 자산 처리를 간소화합니다.
 
 1. Adobe Experience Manager 작업 영역에서 Adobe Experience Manager 아이콘을 클릭하여 AEM Assets용 작성자 컨텐츠 관리 작업 영역으로 이동합니다.
 
@@ -90,7 +89,7 @@ AEM Asset 폴더를 통해 이러한 기본값을 자동으로 사용할 수 있
 
    1. [!UICONTROL  Metadata Profiles] 페이지에서 Commerce 통합 프로필을 선택합니다.
 
-   1. 작업 메뉴에서 **[!UICONTROL Apply Metadata Profiles to Folder(s)]**&#x200B;을(를) 선택합니다.
+   1. 작업 메뉴에서 **[!UICONTROL Apply Metadata Profiles to Folders]**&#x200B;을(를) 선택합니다.
 
    1. Commerce 자산이 포함된 폴더를 선택합니다.
 
@@ -104,4 +103,4 @@ AEM Asset 폴더를 통해 이러한 기본값을 자동으로 사용할 수 있
 
 ## 다음 단계
 
-[Adobe Commerce용 AEM Assets 통합 설치 및 구성](aem-assets-configure-commerce.md)
+[Adobe Commerce 패키지 설치](aem-assets-configure-commerce.md)
