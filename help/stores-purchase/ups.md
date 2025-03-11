@@ -3,9 +3,9 @@ title: UPS(United Parcel Service)
 description: UPS를 상점의 배송 운송업체로 설정하는 방법에 대해 알아보십시오.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
+source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,15 @@ United Parcel Service(UPS)는 220개 이상의 국가에 육로 및 항공으로
 
 ## 1단계: UPS 배송 계정 열기
 
-이 배송 방법을 고객에게 제공하려면 먼저 UPS로 계정을 개설해야 합니다.
+이 배송 방법을 고객에게 제공하려면 먼저 UPS 계정을 개설하고 애플리케이션을 완료하여 배송자 계정 번호를 얻어야 합니다. [무료 UPS 계정 열기](https://www.ups.com/us/en/business-solutions/open-an-account)를 참조하세요.
 
-## 2단계: 스토어에 대해 UPS 활성화
+## 2단계: UPS OAUTH 자격 증명 획득
+
+UPS 통합을 사용하려면 [UPS API 시작 안내서](https://developer.ups.com/get-started)의 단계에 따라 API 자격 증명(클라이언트 ID 및 클라이언트 암호)을 얻으십시오. 자격 증명을 받으려면 UPS 애플리케이션을 만들어야 합니다.
+
+관리자에서 UPS 설정을 구성할 때는 `username` 및 `password`에 대한 자격 증명 값을 사용하십시오.
+
+## 3단계: 스토어에 대해 UPS 활성화
 
 1. _관리 사이드바_&#x200B;에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
@@ -36,7 +42,7 @@ United Parcel Service(UPS)는 220개 이상의 국가에 육로 및 항공으로
 
 1. UPS REST 계정(기본값)의 경우 다음을 수행합니다.
 
-   - UPS 자격 증명을 입력하십시오. UPS 클라이언트 ID는 **[!UICONTROL User ID]**, UPS 클라이언트 암호는 **[!UICONTROL Password]**
+   - UPS 자격 증명을 입력하십시오. UPS 클라이언트 ID는 **[!UICONTROL User ID]**, UPS 클라이언트 암호는 **[!UICONTROL Password]**.
 
    - 보안 연결을 통해 UPS 배송 시스템에 데이터를 보내려면 **[!UICONTROL Mode]**&#x200B;을(를) `Live`(으)로 설정하십시오. (개발 모드에서는 보안 연결을 통해 데이터를 전송하지 않습니다.)
 
@@ -116,7 +122,7 @@ United Parcel Service(UPS)는 220개 이상의 국가에 육로 및 항공으로
 
    ![컨테이너 설명](./assets/ups2.png){width="600" zoomable="yes"}
 
-## 4단계: 취급 수수료 설정
+## 5단계: 취급 수수료 설정
 
 처리 요금은 선택 사항이며 UPS 배송 비용에 추가되는 추가 비용으로 표시됩니다. 처리 수수료를 포함하려면 다음을 수행하십시오.
 
@@ -136,7 +142,7 @@ United Parcel Service(UPS)는 220개 이상의 국가에 육로 및 항공으로
 
    ![수수료 처리](./assets/ups3.png){width="600" zoomable="yes"}
 
-## 5단계: 허용된 방법 및 적용 가능한 국가 지정
+## 6단계: 허용된 방법 및 적용 가능한 국가 지정
 
 1. **[!UICONTROL Allowed Methods]**&#x200B;의 경우 고객이 사용할 수 있는 각 UPS 배송 방법을 선택하십시오.
 
@@ -174,7 +180,7 @@ United Parcel Service(UPS)는 220개 이상의 국가에 육로 및 항공으로
 
 1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
-## 단계 6: 운송 출처 주소 설정
+## 7단계: 운송 출처 주소 설정
 
 1. [저장소 정보](../getting-started/store-details.md#store-information)가 완료되었는지 확인하세요.
 
