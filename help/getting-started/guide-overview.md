@@ -1,26 +1,25 @@
 ---
-title: Adobe Commerce 시작 안내서
-description: Adobe Commerce를 처음 접하는 판매자를 위한 종합 정보입니다.
-seo-title: Adobe Commerce Getting Started Guide
-seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
+title: Adobe Commerce 관리 시작 안내서
+description: Adobe Commerce 관리자를 처음 사용하는 판매자를 위한 포괄적인 정보입니다.
+seo-title: Adobe Commerce Admin Getting Started Guide
+seo-description: Describes basic Admin tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
 recommendations: noCatalog
-source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
+source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 4%
+source-wordcount: '254'
+ht-degree: 0%
 
 ---
 
 # Adobe Commerce 시작 안내서
 
-이 안내서는 Adobe Commerce을 처음 사용하는 판매자 및 시스템 관리자를 위한 것입니다. 해당 관점에서 플랫폼에 대한 개요를 제공하고 기능 저장소를 사용할 수 있는 기본 기능에 대한 몇 가지 자세한 정보를 제공합니다.
+이 안내서는 Adobe Commerce 관리자를 처음 사용하는 판매자와 시스템 관리자를 위한 것입니다. 해당 관점에서 플랫폼에 대한 개요를 제공하고 기능 저장소를 사용할 수 있는 기본 기능에 대한 몇 가지 자세한 정보를 제공합니다.
 
 이 안내서에서는 다음 주제를 다룹니다.
 
 | 제목 | 설명 |
 | ------- | ----------- |
-| [Commerce 정보](about.md) | 최신 Adobe Commerce 릴리스에 대해 알아봅니다. |
 | [로그인 자격 증명 및 URL](login-urls.md) | 관리자 및 상점 첫 화면에 대한 액세스 권한을 얻는 데 사용되는 [!DNL Commerce] URL 및 계정 자격 증명에 대해 알아봅니다. |
 | [[!DNL Commerce] 계정](commerce-account-create.md) | 구입한 제품 및 서비스를 관리하는 [!DNL Commerce] 계정에 대해 알아봅니다. |
 | [관리자](admin.md) | 판매자가 제품 및 프로모션을 설정하고 주문을 관리하며 기타 관리 작업을 수행하는 위치인 [!DNL Commerce] 관리자에 대해 알아봅니다. |
