@@ -3,7 +3,7 @@ title: 즉시 구매
 description: 즉시 구매 와 등록된 고객 계정에 대해 신속한 체크아웃을 제공하는 방법에 대해 알아봅니다.
 exl-id: f299f364-d7e3-4567-8c7b-955129011a19
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -28,8 +28,8 @@ _즉시 구매_&#x200B;를 통해 고객은 계정에 저장된 정보를 사용
 
   다음 결제 방법을 사용하여 저장된 신용 카드 정보에 안전하게 액세스할 수 있습니다.
 
-   - [Braintree 신용 카드](braintree.md)(3D 보안이 활성화된 경우 즉시 구매를 Braintree 신용 카드와 함께 사용할 수 없음)
-   - [PayPal 사용 Braintree](braintree.md)
+   - [Braintree 신용 카드](braintree.md)(3D 보안이 활성화된 경우 즉시 구매는 Braintree 신용 카드와 함께 사용할 수 없음)
+   - [PayPal이 활성화된 Braintree](braintree.md)
    - [Paypal Payflow Pro](paypal-payflow-pro.md)
 
 ## 상점 첫 화면에서 즉시 구매
@@ -52,12 +52,12 @@ _즉시 구매_&#x200B;를 통해 고객은 계정에 저장된 정보를 사용
 
 ### 2단계: 결제 방법 자격 증명 모음 구성
 
-Adobe Commerce 및 Magento Open Source용 Braintree 또는 결제 서비스와 함께 즉시 구매를 사용할 수 있습니다. 구매자가 즉시 구매 기능을 사용하려면 먼저 보관을 활성화해야 합니다.
+Braintree 또는 Adobe Commerce 및 Magento Open Source용 결제 서비스와 함께 즉시 구매를 사용할 수 있습니다. 구매자가 즉시 구매 기능을 사용하려면 먼저 보관을 활성화해야 합니다.
 
 결제 방법을 구성하고 Braintree 또는 결제 서비스에 대한 저장 기능을 활성화하는 방법에 대해 알아봅니다.
 
 - [Braintree](braintree.md)
-- [결제 서비스 설명서](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
+- [결제 서비스 설명서](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
 
 ### 3단계: 즉시 구매 활성화
 

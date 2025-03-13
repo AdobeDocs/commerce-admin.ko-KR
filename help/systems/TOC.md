@@ -5,10 +5,10 @@ breadcrumb-title: 관리 시스템 안내서
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 2%
+source-wordcount: '179'
+ht-degree: 3%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 2%
    - [개요](action-log.md)
    - [작업 로그 보고서](action-log-report.md)
    - [로그 아카이브](action-log-archive.md)
-   - [대량 작업](action-log-bulk-actions.md)
+   - [일괄 액션](action-log-bulk-actions.md)
 - 시스템 도구 및 설정 {#tools}
    - [캐시 관리](cache-management.md)
    - [색인 관리](index-management.md)
@@ -77,6 +77,6 @@ ht-degree: 2%
    - [세션 관리](security-session-management.md)
    - [브라우저 기능 감지](security-browser-capabilities-detection.md)
    - [보안 문제 보고](security-issue-reporting.md)
-- [판매자 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 

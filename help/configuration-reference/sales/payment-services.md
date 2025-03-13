@@ -3,7 +3,7 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Pa
 description: Commerce 관리자의 [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] 페이지에서 [!UICONTROL Payment Services] 섹션의 구성 설정을 검토하십시오.
 exl-id: 255b7bd8-1d32-4393-9eba-43dc7754c752
 feature: Configuration, Payments
-source-git-commit: bf166c1debd7f10a4d988d231a1a47f32c4cea9e
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 
 
-결제 서비스는 강력하고 안전한 결제 처리를 위해 샌드박스 테스트 및 간단한 설정을 포함한 턴키 셀프서비스 솔루션을 제공합니다. 자세한 내용은 [_결제 서비스 사용 안내서_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)를 참조하세요.
+결제 서비스는 강력하고 안전한 결제 처리를 위해 샌드박스 테스트 및 간단한 설정을 포함한 턴키 셀프서비스 솔루션을 제공합니다. 자세한 내용은 [_결제 서비스 사용 안내서_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)를 참조하세요.
 
 결제 서비스에 대한 구성 설정에 액세스하려면 _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**(으)로 이동한 후 **[!UICONTROL Settings]**&#x200B;을(를) 클릭하십시오.
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[설정](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/settings.html) 대신 레거시 구성을 사용하려면 [레거시 구성](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html)을 참조하십시오.
+>[설정](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html) 대신 레거시 구성을 사용하려면 [레거시 구성](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html)을 참조하십시오.
 
 ## [!UICONTROL General]
 
@@ -46,10 +46,10 @@ ht-degree: 0%
 |---|---|---|
 | [!UICONTROL Title] | 스토어 뷰 | 체크아웃 중에 결제 방법 보기에서 이 결제 방법의 제목으로 표시할 텍스트를 추가합니다. |
 | [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](payment-methods.md#payment-actions). 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL 3DS Secure authentication] | 웹 사이트 | [3DS 보안 인증을 사용하거나 사용하지 않도록 설정](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security-compliance/security.html#3ds). 옵션: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
+| [!UICONTROL 3DS Secure authentication] | 웹 사이트 | [3DS 보안 인증을 사용하거나 사용하지 않도록 설정](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html#3ds). 옵션: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | 웹 사이트 | 신용 카드 필드가 체크아웃 페이지에 표시되도록 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Vault enabled] | 스토어 뷰 | [신용 카드 보관](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html)을 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | 스토어 뷰 | 보관된 결제 방법을 사용하여 [ 관리자 ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html)에서 고객에 대한 주문을 완료하는 기능을 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Vault enabled] | 스토어 뷰 | [신용 카드 보관](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html)을 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | 스토어 뷰 | 보관된 결제 방법을 사용하여 [ 관리자 ](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html)에서 고객에 대한 주문을 완료하는 기능을 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | 웹 사이트 | 디버그 모드를 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}

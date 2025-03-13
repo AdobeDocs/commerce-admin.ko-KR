@@ -3,7 +3,7 @@ title: ' [!DNL Adobe Commerce B2B] 소개'
 description: 기업 고객의 요구 사항을 충족하기 위해 통합 B2B 기능을 사용하는 방법에 대해 알아봅니다.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 2%
@@ -40,9 +40,9 @@ Adobe Commerce 스토어의 B2B 확장 [설치](install.md) 및 [지원](enable-
 
 Adobe Commerce용 서비스는 Adobe Commerce 및 Magento Open Source에 확장 기능을 제공하는 호스팅 서비스입니다. B2B 워크플로를 지원하는 서비스는 다음과 같습니다.
 
-* [카탈로그 서비스](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html)
-* [실시간 검색](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
-* [제품 Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)
+* [카탈로그 서비스](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
+* [실시간 검색](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)
+* [제품 추천](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
 
 ## 공유된 카탈로그
 

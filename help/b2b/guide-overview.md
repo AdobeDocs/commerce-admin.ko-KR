@@ -6,16 +6,16 @@ seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: b30790b252bcab38c4d0372d5d5bd0d5b6f41a07
+source-git-commit: 19594a9dd1a8eb0b18bb372d049428e68c1328a6
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '338'
 ht-degree: 1%
 
 ---
 
 # Adobe Commerce B2B 안내서
 
-이 안내서는 Adobe Commerce 관리자를 위한 것입니다. 기능 구성 및 관리를 포함하여 이 모듈 설치 및 활성화에 대한 자세한 정보를 제공합니다. 이는 핵심 [!DNL Commerce] 구성 및 기능에 대한 기본적인 이해를 전제로 합니다.
+이 안내서는 Adobe Commerce 관리자에서 작업 중인 관리자를 위한 것입니다. 기능 구성 및 관리를 포함하여 이 모듈 설치 및 활성화에 대한 자세한 정보를 제공합니다. 이는 핵심 [!DNL Commerce] 구성 및 기능에 대한 기본적인 이해를 전제로 합니다.
 
 스토어 관리자에는 두 가지 영역이 있습니다.
 

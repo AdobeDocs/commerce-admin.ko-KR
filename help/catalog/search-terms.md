@@ -3,7 +3,7 @@ title: 검색어 관리
 description: 철자가 틀리거나 대체 용어를 사용하여 고객을 리디렉션하기 위해 스토어에 대한 검색어를 관리하는 방법을 알아봅니다.
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
@@ -124,7 +124,7 @@ _[!UICONTROL Edit a Search Term]_페이지의&#x200B;**메서드 2:**
 
 Adobe Commerce은 두 가지 다른 동의어 관리 솔루션을 지원합니다.
 
-- 라이브 검색 [동의어](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms.html) 기능은 라이브 검색이 설치된 Adobe Commerce 설치에 사용할 수 있습니다.
+- 라이브 검색 [동의어](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html) 기능은 라이브 검색이 설치된 Adobe Commerce 설치에 사용할 수 있습니다.
 - 이 페이지에 설명된 표준 검색 동의어 기능 은 모든 Adobe Commerce 설치에 대해 즉시 사용할 수 있습니다.
 
 >[!NOTE]

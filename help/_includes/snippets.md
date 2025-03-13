@@ -1,9 +1,9 @@
 ---
 title: 코드 조각
 description: 특정 에디션에 적용되는 기능이나 페이지를 참고하기 위해 노트 및 시각적 요소를 재사용함
-source-git-commit: 192d46c4d7105210d4fdcf090f60d45a5a6e40bd
+source-git-commit: eae60b99d6721442c4bfcf1a8db6a06826463d9c
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -75,10 +75,10 @@ ht-degree: 0%
 
 | 설명서 리소스 | 설명 |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4 판매자 설명서](../landing/home.md) | Adobe Commerce에 대한 판매자 중심 설명서 |
-| [Adobe Commerce 설명서용 서비스](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | 판매자가 비즈니스의 주요 구성 요소를 스토어와 통합하는 데 도움이 되는 서비스 컬렉션을 지원하는 설명서입니다. |
+| [Adobe Commerce 2.4 관리 사용 안내서](../landing/home.md) | 관리자에서 작업하는 상인을 위한 설명서 및 리소스입니다. |
+| [Adobe Commerce 설명서용 서비스](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | 판매자가 비즈니스의 주요 구성 요소를 스토어와 통합하는 데 도움이 되는 머천다이징 서비스 컬렉션을 지원하는 설명서입니다. |
 | [Cloud Infrastructure의 Commerce 안내서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 관리되고 자동화된 호스팅 클라우드 플랫폼에서의 Adobe Commerce 배포에 대한 단계별 절차. |
-| [Adobe Commerce 2.4 Operational Guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Adobe Commerce 프로젝트 개발, 배포 및 유지 관리를 위한 개념, 프로세스, 도구 및 모범 사례에 대한 시스템 설명서입니다. |
-| [Adobe Commerce 2.4 개발자 설명서](https://developer.adobe.com/commerce/docs) | Adobe Commerce을 사용자 정의하고 서드파티 시스템과 통합하는 데 사용되는 개발자 중심의 설명서 |
+| [Adobe Commerce 2.4 Operational Guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Adobe Commerce on Cloud 및 온프레미스 프로젝트를 개발, 배포 및 유지 관리하기 위한 개념, 프로세스, 도구 및 모범 사례에 대한 시스템 설명서입니다. |
+| [Adobe Commerce 2.4 개발자 설명서](https://developer.adobe.com/commerce/docs) | Adobe Commerce을 사용자 정의하고 타사 시스템과 통합하는 데 사용되는 개발자 중심의 설명서입니다. |
 
 {style="table-layout:auto"}

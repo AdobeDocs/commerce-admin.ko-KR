@@ -1,22 +1,22 @@
 ---
-title: Adobe Commerce 판매자 설명서
+title: Adobe Commerce 관리 사용 안내서
 description: Adobe Commerce 제품 설명서 찾아보기
 seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
-breadcrumb-title: 판매자 설명서
+breadcrumb-title: 관리 사용 안내서
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: c9dfc5385a008619a5ab1eceeec93df2c00df059
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![판매자 설명서](./assets/banner-user-home.png) {#documentation}
+# <!-- use banner as heading -->![관리자 설명서](./assets/banner-user-home.png) {#documentation}
 
 세계 최고의 디지털 상거래 플랫폼인 차세대 플랫폼에 오신 것을 환영합니다. Adobe Commerce은 온라인 상인에게 온라인 스토어의 모양, 콘텐츠 및 기능에 대한 탁월한 유연성과 통제력을 제공합니다. 관리자는 강력한 마케팅, 검색 엔진 최적화 및 제품 관리 도구를 통해 고유한 비즈니스 요구 사항에 맞는 사이트를 만들 수 있습니다.
 
-판매자 설명서의 정보는 Adobe Commerce 또는 Magento Open Source 코드베이스에서 작업하는 비즈니스 사용자를 수용하도록 설계되었습니다. Adobe Commerce 또는 확장된 기능 세트에 배타적인 기능 및 기능에 대한 표기법이 있습니다.
+관리 사용 안내서의 정보는 Adobe Commerce 관리 또는 Magento Open Source 코드 베이스에서 작업 중인 비즈니스 사용자를 수용하도록 설계되었습니다. Adobe Commerce 또는 확장된 기능 세트에 배타적인 기능 및 기능에 대한 표기법이 있습니다.
 
 ## Adobe Commerce {#product-editions}
 
@@ -26,9 +26,9 @@ Adobe Commerce에 포함된 고급 기능 목록을 보려면 _릴리스 정보_
 
 ## Magento Open Source 코드 베이스
 
-Magento Open Source은 Adobe이 Adobe Commerce에 공식적으로 기여하고 호환성이 보장되는 코드 베이스입니다. 이 코드 베이스는 빠른 성장을 열망하는 소규모 비즈니스를 육성하고 개인 개발자에게 권한을 부여하기 위한 Adobe의 이니셔티브의 일부입니다.
+Magento Open Source은 Adobe이 Adobe Commerce에 공식적으로 기여하고 호환성이 보장되는 코드 베이스입니다. 이 코드 베이스는 빠른 성장을 열망하는 소규모 비즈니스를 육성하고 개인 개발자에게 권한을 부여하기 위한 Adobe 이니셔티브의 일부입니다.
 
-## 판매자 안내서
+## 관리 사용 안내서
 
 <table>
 <tr>
@@ -37,7 +37,7 @@ Magento Open Source은 Adobe이 Adobe Commerce에 공식적으로 기여하고 �
    <td valign="top">
    <a href="https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html"><strong>시작</strong></a>
     <div>
-    <em>대부분의 판매자가 Adobe Commerce 또는 Magento Open Source, 리소스 및 참조 정보를 처음 사용할 때 갖는 "이유, 위치 및 방법" 질문입니다. 이 안내서는 더 많은 고급 주제에 대한 발판이 됩니다.</em>
+    <em>리소스 및 참조 정보뿐만 아니라 대부분의 판매자가 관리자에게 처음 배울 때 갖는 "이유, 위치, 방법" 질문입니다. 이 안내서는 더 많은 고급 주제에 대한 발판이 됩니다.</em>
     <br> </div>
   </td>
   </tr>
@@ -115,11 +115,11 @@ Magento Open Source은 Adobe이 Adobe Commerce에 공식적으로 기여하고 �
 </tr>
 </table>
 
-## 판매자의 새로운 기능
+## 관리 사용 안내서의 새로운 기능
 
 >[!TIP]
 >
->[Commerce 서비스 설명서의 새로운 기능](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html#what%E2%80%99s-new) 및 [운영 안내서의 새로운 기능](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new)을 검토할 수도 있습니다.
+>[Commerce 서비스 설명서의 새로운 기능](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html#what%E2%80%99s-new) 및 [운영 안내서의 새로운 기능](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html#what%E2%80%99s-new)을 검토할 수도 있습니다.
 
 | 설명 | 유형 | 날짜 |
 | ----------- | ---- | ---- |
@@ -127,13 +127,13 @@ Magento Open Source은 Adobe이 Adobe Commerce에 공식적으로 기여하고 �
 | **1.4.0 B2B 릴리스** - [구매자에 대한 견적 시작](../b2b/sales-rep-initiates-quote.md) 주제가 이제 _Adobe Commerce B2B 안내서_&#x200B;에 포함되어 있습니다. 판매자가 협상 프로세스를 시작하기 위해 특정 구매자에 대한 견적을 생성하는 방법에 대해 설명합니다. | 신규 | 06/13/23 |
 | **1.4.0 B2B 릴리스** - [견적 협상](../b2b/quote-price-negotiation.md), [협상 가능한 견적](../b2b/quotes.md) 및 [B2B 기능 사용](../b2b/enable-basic-features.md) 주제가 판매자가 시작한 견적 및 기본 기능의 변경 사항을 반영하도록 업데이트됩니다. | 업데이트 | 06/13/23 |
 | **2.2.0 Adobe IMS 통합 릴리스** - [Adobe ID과 Commerce Admin Integration 비활성화](../getting-started/adobe-ims-disable.md) 주제가 이제 _시작 안내서_&#x200B;에 포함되어 있습니다. Adobe IMS와 Adobe Commerce Admin 통합을 사용하지 않도록 설정하는 선택적 절차에 대해 설명합니다. | 신규 | 06/13/23 |
-| **2.2.0 Adobe IMS 통합 릴리스** - [IMS(Identity Management 서비스) 통합 Adobe 개요](../getting-started/adobe-ims-integration-overview.md) 및 [Adobe ID과 Commerce Admin Integration 구성](../getting-started/adobe-ims-config.md) 주제의 변경 사항으로 업데이트된 기능을 반영합니다. | 업데이트 | 06/13/23 |
+| **2.2.0 Adobe IMS 통합 릴리스** - [Adobe IMS(Identity Management Service) 통합 개요](../getting-started/adobe-ims-integration-overview.md) 및 [Adobe ID과 Commerce Admin Integration 구성](../getting-started/adobe-ims-config.md) 주제의 변경 사항으로 업데이트된 기능을 반영합니다. | 업데이트 | 06/13/23 |
 | **[!DNL Audience Activation]** - [!DNL Experience Platform Connector] 구성 UI와 장바구니 가격 규칙 및 동적 블록과 함께 headless Commerce 인스턴스를 사용하는 방법을 반영하도록 [[!DNL Audience Activation]](../customers/audience-activation.md) 주제에 새로 추가되고 업데이트되고 개선된 정보가 포함되어 있습니다. | 업데이트 | 06/13/23 |
 | **UPS API 사용 중단** - 새 API 키를 생성하기 위해 UPS API의 임시 사용 중단을 반영하도록 [UPS(United Parcel Service)](../stores-purchase/ups.md) 항목 및 [배달 방법](../configuration-reference/sales/delivery-methods.md#ups) 구성 참조 페이지를 업데이트했습니다. | 업데이트 | 06/08/23 |
 | **2.4.6 릴리스** - 큰 카탈로그의 성능을 개선하는 데 사용할 수 있는 제품 표시 제한 사항에 대한 정보를 포함하도록 [제품 목록](../catalog/products-list.md) 및 [관리자 구성 참조](../configuration-reference/advanced/admin.md) 항목을 업데이트했습니다. | 업데이트 | 03/14/23 |
 | **2.4.6 릴리스** - 세그먼트에 대한 실시간 유효성 검사에 대한 정보를 포함하도록 [고객 세그먼트 만들기 및 삭제](../customers/customer-segment-create.md) 및 [고객 구성 참조](../configuration-reference/customers/customer-configuration.md) 항목을 업데이트했습니다. | 업데이트 | 03/14/23 |
 | **2.4.6 릴리스** - 번들 Braintree 통합에서 지원하는 업데이트된 및 새로운 결제 옵션을 반영하도록 [Braintree](../stores-purchase/braintree.md) 및 [Braintree 구성 참조](../configuration-reference/sales/braintree.md) 항목을 업데이트했습니다. | 업데이트 | 03/14/23 |
-| **2.4.6 릴리스** - 새 [!DNL Fixer API](APILayer) 옵션을 포함하도록 [통화 구성](../stores-purchase/currency-configuration.md) 및 [통화 설정 구성](../configuration-reference/general/currency-setup.md) 항목을 업데이트했습니다. | 업데이트 | 03/14/23 |
+| **2.4.6 릴리스** - 새 [!DNL Fixer API]&#x200B;(APILayer) 옵션을 포함하도록 [통화 구성](../stores-purchase/currency-configuration.md) 및 [통화 설정 구성](../configuration-reference/general/currency-setup.md) 항목을 업데이트했습니다. | 업데이트 | 03/14/23 |
 | **2.4.6 릴리스** - 전자 메일 통신에 대한 새 SMTP 옵션을 포함하도록 [전자 메일 통신 구성](../systems/email-communications.md) 및 [시스템 구성 참조](../configuration-reference/advanced/system.md#uicontrol-mail-sending-settings) 항목을 업데이트했습니다. | 업데이트 | 03/14/23 |
 | **2.4.6 릴리스** - 최신 번들 확장 버전(v1.2.6)에 포함된 수정 사항에 대한 설명 목록으로 [Inventory management 릴리스 정보](../inventory-management/release-notes.md)를 업데이트했습니다. | 업데이트 | 03/14/23 |
 | **2.4.6 릴리스** - 최신 확장 버전(v1.3.5)에 포함된 수정 사항에 대한 설명 목록으로 [B2B 릴리스 정보](../b2b/release-notes.md)를 업데이트했습니다. | 업데이트 | 03/14/23 |

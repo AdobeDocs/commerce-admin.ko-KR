@@ -2,16 +2,16 @@
 title: 관리 시스템 안내서
 description: Commerce 스토어를 보호하고 권한을 관리하는 최상의 보안 방법과 데이터를 가져오기 및 내보내고 통합 및 확장을 관리하고 일상적인 유지 관리를 수행하는 방법에 대해 알아봅니다.
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
-source-git-commit: 13f8858768b412d1ca2eb92e628331d9a45a347d
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce 관리 시스템 안내서
 
-이 안내서는 Adobe Commerce 및 Magento Open Source에서 일하는 시스템 관리자 및 통합자를 위한 것입니다. 전자 상거래 비즈니스를 위해 여러 조직 기능에서 활동을 지원하는 관리 보안, 유지 관리 작업 및 시스템 전체 리소스에 대한 자세한 정보를 제공합니다. 핵심 Commerce 구성 및 기능에 대한 기본적인 이해를 전제로 합니다.
+이 안내서는 Adobe Commerce 및 Magento Open Source 관리에서 작업하는 시스템 관리자 및 통합자를 위한 것입니다. 전자 상거래 비즈니스를 위해 여러 조직 기능에서 활동을 지원하는 관리 보안, 유지 관리 작업 및 시스템 전체 리소스에 대한 자세한 정보를 제공합니다. 핵심 Commerce 구성 및 기능에 대한 기본적인 이해를 전제로 합니다.
 
 이 안내서에서는 다음 주제를 다룹니다.
 

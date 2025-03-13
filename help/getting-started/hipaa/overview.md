@@ -3,7 +3,7 @@ title: Adobe Commerce의 HIPAA 준비
 description: Adobe Commerce HIPAA 지원 확장 기능을 추가하여 HIPAA 규정 준수를 지원할 수 있는 추가 기능을 사용하는 방법에 대해 알아봅니다.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '2300'
 ht-degree: 1%
@@ -56,7 +56,7 @@ Adobe Commerce 버전 2.4.6-p3 - 2.4.6-p8을 실행하는 인스턴스에 Adobe�
 
 >[!NOTE]
 >
->Experience Platform으로 전송되는 백오피스 이벤트 데이터가 HIPAA를 사용할 수 있도록 하려면 [데이터 연결 확장 안내서](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)를 참조하십시오.
+>Experience Platform으로 전송되는 백오피스 이벤트 데이터가 HIPAA를 사용할 수 있도록 하려면 [데이터 연결 확장 안내서](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)를 참조하십시오.
 
 1. 로컬 워크스테이션에서 Adobe Commerce on cloud infrastructure 프로젝트의 프로젝트 디렉터리로 변경합니다.
 
@@ -264,12 +264,12 @@ Adobe Commerce의 HIPAA 고객 검색 결과 제한 기능은 PHI(보호 상태 
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | 예 | 예 |
 | Adobe Developer App Builder용 [API Mesh](https://developer.adobe.com/graphql-mesh-gateway/) | 예 | 예 |
-| [SaaS 데이터 내보내기](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) | 예 | 예 |
-| [실시간 검색](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | 아니요 | 아니요 |
-| [제품 추천](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) | 아니요 | 아니요 |
-| [결제 서비스](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) | 아니요 | 아니요 |
-| [다시 Office 이벤트에 데이터 연결](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice) | 예 | 예 |
-| [데이터 연결 상점 이벤트](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#storefront-events) | 아니요 | 아니요 |
+| [SaaS 데이터 내보내기](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | 예 | 예 |
+| [실시간 검색](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | 아니요 | 아니요 |
+| [제품 추천](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | 아니요 | 아니요 |
+| [결제 서비스](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | 아니요 | 아니요 |
+| [다시 Office 이벤트에 데이터 연결](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | 예 | 예 |
+| [데이터 연결 상점 이벤트](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | 아니요 | 아니요 |
 | [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | 아니요 | 아니요 |
 
 ### 도구

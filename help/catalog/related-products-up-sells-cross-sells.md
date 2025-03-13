@@ -3,7 +3,7 @@ title: 제품 설정 - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 description: 제품의 경우 [!UICONTROL Related Products, Up-Sells, and Cross-Sells] 설정은 제품 페이지에서 추가 제품 선택을 강조 표시하는 간단한 프로모션 블록을 정의합니다.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -33,9 +33,9 @@ _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_섹션을 사용하여
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **Adobe Sensei에서 제공하는 제품 Recommendations**을(를) 사용하면 집계된 방문자 데이터를 심층 분석할 수 있는 인공 지능 및 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 단순화할 수 있습니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
+>![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **Adobe Sensei에서 제공하는 제품 권장 사항**을 사용하면 집계된 방문자 데이터를 심층 분석할 수 있는 인공 지능 및 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 단순화할 수 있습니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
 ><br/>
->수동으로 구성한 제품 권장 사항 및 상향 판매에 대한 대체 요소로 이 Adobe 개발 확장을 사용하는 방법에 대한 자세한 내용은 _[제품 Recommendations 안내서](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)_&#x200B;를 참조하십시오.
+>수동으로 구성한 제품 권장 사항 및 상향 판매에 대한 대안으로 이 Adobe 개발 확장을 사용하는 방법에 대한 자세한 내용은 _[제품 권장 사항 안내서](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_&#x200B;를 참조하십시오.
 
 ## 관련 제품
 

@@ -1,9 +1,9 @@
 ---
 title: 쿠키 법률 준수
-description: 많은 국가에서 쿠키의 사용에 관한 법률에 발맞추기 위해 Adobe Commerce 및 Magento Open Source은 상인에게 고객 동의를 얻는 방법을 선택합니다.
+description: Adobe Commerce 및 Magento Open Source은 쿠키 사용에 관한 여러 국가의 법률에 발맞추기 위해 상인에게 고객 동의를 얻는 방법 선택을 제공합니다.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 04e8fe7cf303f434bab748df447eef8ac1097196
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # 쿠키 법률 준수
 
-쿠키는 사이트를 방문하는 각 방문자의 컴퓨터에 저장되고 정보를 위한 임시 저장 위치로 사용되는 작은 파일입니다. 쿠키에 저장된 정보는 쇼핑 경험을 개인화하고, 방문자를 장바구니에 연결하며, 트래픽 패턴을 측정하고, 프로모션의 효과를 개선하는 데 사용됩니다. 많은 국가에서 쿠키의 사용에 관한 법률에 발맞추기 위해 Adobe Commerce 및 Magento Open Source은 상인에게 고객 동의를 얻는 방법을 선택합니다. Adobe Commerce 및 Magento Open Source의 기본 쿠키 목록은 [쿠키 참조](#default-cookies)를 참조하십시오.
+쿠키는 사이트를 방문하는 각 방문자의 컴퓨터에 저장되고 정보를 위한 임시 저장 위치로 사용되는 작은 파일입니다. 쿠키에 저장된 정보는 쇼핑 경험을 개인화하고, 방문자를 장바구니에 연결하며, 트래픽 패턴을 측정하고, 프로모션의 효과를 개선하는 데 사용됩니다. Adobe Commerce 및 Magento Open Source은 쿠키 사용에 관한 여러 국가의 법률에 발맞추기 위해 상인에게 고객 동의를 얻는 방법 선택을 제공합니다. Adobe Commerce 및 Magento Open Source의 기본 쿠키 목록은 [쿠키 참조](#default-cookies)를 참조하십시오.
 
 >[!NOTE]
 >
->[일반 데이터 보호 규정](compliance-gdpr.md)을 준수하도록 기본 [Google 개인 정보 보호 설정](../merchandising-promotions/google-tools.md#google-privacy-settings)을(를) 수정하는 경우 Google Analytics 쿠키 사용에 대한 사용자 동의를 얻을 필요가 없습니다.
+>[일반 데이터 보호 규정](compliance-gdpr.md)을 준수하도록 기본 [Google 개인 정보 설정](../merchandising-promotions/google-tools.md#google-privacy-settings)을(를) 수정하는 경우 Google Analytics 쿠키 사용에 대한 사용자 동의를 얻을 필요는 없습니다.
 
 ## 쿠키 제한 모드
 
 쿠키 제한 모드가 활성화되면 스토어 방문자는 모든 기능을 갖춘 작업에 쿠키가 필요하다는 알림을 받게 됩니다. 테마에 따라 메시지가 머리글 위, 바닥글 아래 또는 페이지의 다른 곳에 표시될 수 있습니다. 이 메시지는 자세한 내용을 보기 위해 개인정보 처리방침으로 연결되며, 방문자가 허용 단추를 클릭하여 동의할 것을 권장합니다. 동의가 부여되면 메시지가 사라집니다.
 
-[개인정보 처리방침](privacy-policy.md))에 상점 이름과 연락처 정보를 포함하고, 상점에서 사용하는 각 쿠키의 용도를 설명해야 합니다. 자세한 내용은 [쿠키 참조](#default-cookies)를 참조하세요.
+[개인정보 처리방침](privacy-policy.md))에는 스토어 이름과 연락처 정보가 포함되어야 하며, 스토어에서 사용하는 각 쿠키의 용도를 설명해야 합니다. 자세한 내용은 [쿠키 참조](#default-cookies)를 참조하세요.
 
 >[!NOTE]
 >
->개인정보 처리방침의 URL 키를 변경하는 경우, 사용자 지정 URL 재작성도 만들어 트래픽을 새 URL 키로 리디렉션해야 합니다. 그렇지 않으면 쿠키 제한 모드 메시지의 링크가 `404 Page Not Found`을(를) 반환합니다.
+>개인정보 처리방침의 URL 키를 변경하는 경우, 트래픽을 새 URL 키로 리디렉션하기 위해 사용자 지정 URL 재작성도 생성해야 합니다. 그렇지 않으면 쿠키 제한 모드 메시지의 링크가 `404 Page Not Found`을(를) 반환합니다.
 
 ![Example storefront - 쿠키 제한 알림](./assets/storefront-cookie-restriction-message.png){width="600"}
 
@@ -112,7 +112,7 @@ Adobe Commerce 및 Magento Open Source의 기본 쿠키는 판매자가 [GDPR](c
 
 #### `remove_from_cart`
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) 제품을 장바구니에서 제거한 시기를 Google Analytics이 알 수 있습니다.
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) 제품을 장바구니에서 제거한 시기를 Google Analytics에서 알 수 있습니다.
 
 #### `stf`
 
@@ -210,11 +210,11 @@ Admin Analytics 모듈에서 간접적으로 설정합니다. 방문자가 클�
 
 저장소의 관리 영역에서만 탭 기능 구현의 일부로 사용됩니다. 쇼핑객에게는 해당되지 않습니다.
 
-## 제품 Recommendations 쿠키
+## 제품 추천 쿠키
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객을 위한 제품 Recommendations에서 다음 쿠키를 사용합니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객을 위한 제품 권장 사항에서 다음 쿠키를 사용합니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
 
-- `mg_dnt`: 사이트에서 쿠키 동의를 관리할 사용자 지정 코드가 있는 경우 [Adobe Commerce 데이터 수집을 제한](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/developer/setting-cookie)할 수 있습니다.
+- `mg_dnt`: 사이트에서 쿠키 동의를 관리할 사용자 지정 코드가 있는 경우 [Adobe Commerce 데이터 수집을 제한](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)할 수 있습니다.
 - `user_allowed_save_cookie`: [쿠키 제한 모드](#cookie-restriction-mode)에 사용됩니다.
 - `authentication_flag`: 쇼핑객이 로그인했는지 또는 로그아웃했는지 여부를 나타냅니다. 이 쿠키는 `dataservices_customer_id` 쿠키와 동시에 업데이트됩니다.
 - `dataservices_customer_id`: 쇼핑객이 로그인했는지 또는 로그아웃했는지 여부를 나타냅니다. 이 쿠키에는 시스템에 있는 고객의 고유 ID가 포함되어 있습니다.
@@ -224,7 +224,7 @@ Admin Analytics 모듈에서 간접적으로 설정합니다. 방문자가 클�
 
 ## 추가 쿠키
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객에 대해 다음 쿠키가 설정됩니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객에 대해 다음 쿠키가 설정됩니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
 
 - `mg`: Snowploy JavaScript 추적기에서 설정합니다. 자세한 내용은 [Snowploy 설명서](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options)에서 확인할 수 있습니다.
 - `com.adobe.alloy.getTld`: 현재 웹 페이지의 호스트 이름을 고려할 때 이 도메인은 https://publicsuffix.org에 설명된 &quot;공용 접미사&quot;가 아닌 최상위 도메인입니다. 기본적으로 이 도메인은 쿠키를 허용할 수 있는 가장 상위 도메인입니다. 이 쿠키는 [Alloy Web SDK](https://github.com/adobe/alloy)의 일부입니다.

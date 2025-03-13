@@ -5,10 +5,10 @@ breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 6%
+source-wordcount: '81'
+ht-degree: 7%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 6%
    - [차단](block.md)
    - [동적 블록](dynamic-block.md)
    - [제품](products.md)
-   - [제품 Recommendations](recommendations.md)
+   - [제품 추천](recommendations.md)
 - [템플릿](templates.md)
-- [판매자 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -3,7 +3,7 @@ title: Adobe Commerce 패키지 설치
 description: Adobe Commerce 인스턴스에  [!DNL AEM Assets Integration for Adobe Commerce] 확장 및 을 설치하는 방법을 알아봅니다.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -135,7 +135,7 @@ Adobe Commerce 2.4.5 이상 버전의 Adobe Commerce 인스턴스에 최신 버�
 
 >[!NOTE]
 >
->Commerce 서비스 커넥터 설정은 [Adobe Commerce SaaS 서비스](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#availableservices)를 사용하는 데 필요한 일회성 프로세스입니다. 다른 서비스에 대한 커넥터를 이미 구성한 경우 **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**&#x200B;을(를) 선택하여 Commerce 관리에서 기존 구성을 볼 수 있습니다.
+>Commerce 서비스 커넥터 설정은 [Adobe Commerce SaaS 서비스](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#availableservices)를 사용하는 데 필요한 일회성 프로세스입니다. 다른 서비스에 대한 커넥터를 이미 구성한 경우 **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**&#x200B;을(를) 선택하여 Commerce 관리에서 기존 구성을 볼 수 있습니다.
 
 Adobe Commerce 인스턴스와 AEM Assets 통합을 사용하는 서비스 간에 데이터를 전송하려면 관리자로부터 Commerce 서비스 커넥터를 구성하십시오(**[!UICONTROL System]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**).
 
@@ -147,7 +147,7 @@ Adobe Commerce 인스턴스와 AEM Assets 통합을 사용하는 서비스 간�
 - 보안 클라우드 스토리지를 위한 데이터 공간 이름(SaaS 식별자)
 - Commerce 및 AEM Assets 환경이 프로비저닝된 IMS 조직 ID
 
-자세한 지침은 [Commerce 서비스 커넥터 구성 비디오](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs)를 시청하십시오. [Commerce 서비스 커넥터](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid) 설명서를 참조하십시오.
+자세한 지침은 [Commerce 서비스 커넥터 구성 비디오](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs)를 시청하십시오. [Commerce 서비스 커넥터](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid) 설명서를 참조하십시오.
 
 구성을 저장하면 시스템에서 환경에 대한 SaaS 프로젝트 및 데이터베이스 ID를 생성합니다. Adobe Commerce과 AEM Assets 간에 에셋 동기화를 활성화하는 데 이러한 값이 필요합니다.
 

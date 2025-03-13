@@ -1,26 +1,26 @@
 ---
-title: 컨텐츠 추가 - 제품 Recommendations
-description: 권장 사항 목록을  [!DNL Page Builder] 단계에 추가하는 데 사용되는 Product Recommendations 콘텐츠 유형에 대해 알아봅니다.
+title: 콘텐츠 추가 - 제품 권장 사항
+description: ' [!DNL Page Builder] 단계에 권장 사항 목록을 추가하는 데 사용되는 제품 권장 사항 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
-# 컨텐츠 추가 - 제품 Recommendations
+# 콘텐츠 추가 - 제품 권장 사항
 
-_Product Recommendations_ 콘텐츠 형식을 사용하여 CMS 페이지, 블록 또는 동적 블록의 [[!DNL Page Builder] 단계](workspace.md#stage)에 기존의 활성 [추천 단위](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create)을(를) 추가하십시오.
+_제품 권장 사항_ 콘텐츠 형식을 사용하여 CMS 페이지, 블록 또는 동적 블록의 [[!DNL Page Builder] 단계](workspace.md#stage)에 기존의 활성 [권장 사항 단위](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create)를 추가하십시오.
 
 >[!NOTE]
 >
->[!DNL Page Builder] _Product Recommendations_ 콘텐츠 형식은 Adobe Commerce 2.4.4 이상에서 지원되며 [Product Recommendations 메타패키지 버전 3.0.x 이상](https://commercemarketplace.adobe.com/magento-product-recommendations.html)에서 사용할 수 있습니다. 제품 Recommendations에 대한 [!DNL Page Builder] 지원을 추가하려면 [설치 정보를 참조하세요](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **이 콘텐츠 형식은 Magento Open Source에 사용할 수 없습니다.**
+>[!DNL Page Builder] _제품 권장 사항_ 콘텐츠 형식은 Adobe Commerce 2.4.4 이상에서 지원되며 [제품 권장 사항 메타패키지 버전 3.0.x 이상](https://commercemarketplace.adobe.com/magento-product-recommendations.html)에서 사용할 수 있습니다. 제품 권장 사항에 대한 [!DNL Page Builder] 지원을 추가하려면 [설치 정보를 참조하십시오](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure). **이 콘텐츠 형식은 Magento Open Source에서 사용할 수 없습니다.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
-## 제품 Recommendations 도구 상자
+## 제품 추천 도구 상자
 
 | 도구 | 아이콘 | 설명 |
 | --- | --| --- |
@@ -37,7 +37,7 @@ _Product Recommendations_ 콘텐츠 형식을 사용하여 CMS 페이지, 블록
 
 ## 기존 추천 단위 추가
 
-1. [!DNL Page Builder] 페이지 유형에 대해 이미 [추천 단위를 만들었습니다](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create).
+1. [!DNL Page Builder] 페이지 유형에 대해 이미 [추천 단위를 만들었습니다](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create).
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ _Product Recommendations_ 콘텐츠 형식을 사용하여 CMS 페이지, 블록
 
 ## 고급 설정
 
-1. 상위 컨테이너 내에서 Product Recommendations 장치의 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하십시오.
+1. 상위 컨테이너 내에서 제품 권장 사항 장치의 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하십시오.
 
    | 옵션 | 설명 |
    | ------ | ----------- |
@@ -123,7 +123,7 @@ _Product Recommendations_ 콘텐츠 형식을 사용하여 CMS 페이지, 블록
 
    {style="table-layout:auto"}
 
-1. Product Recommendations 장치의 네 면 모두에 적용되는 **[!UICONTROL Border]** 스타일을 설정합니다.
+1. 제품 추천 단원의 네 면에 모두 적용되는 **[!UICONTROL Border]** 스타일을 설정합니다.
 
    | 옵션 | 설명 |
    | ------ | ----------- |

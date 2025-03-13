@@ -3,16 +3,16 @@ title: 카탈로그 검색 구성
 description: 스토어에 대한 카탈로그 검색을 구성하는 방법에 대해 알아봅니다.
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-source-git-commit: 279f54d41264a081166cfda7d2216172ac22cd26
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # 카탈로그 검색 구성
 
-카탈로그 검색 구성에는 두 가지 변형이 있습니다. 첫 번째 메서드는 [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)을(를) 설치할 때 사용할 수 있는 설정을 설명합니다. 두 번째 메서드는 [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target=&quot;_blank&quot;}를 사용하는 기본 Adobe Commerce의 구성 설정을 설명합니다.
+카탈로그 검색 구성에는 두 가지 변형이 있습니다. 첫 번째 메서드는 [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)을(를) 설치할 때 사용할 수 있는 설정을 설명합니다. 두 번째 메서드는 [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}을(를) 사용하는 기본 Adobe Commerce의 구성 설정을 설명합니다.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    기본값은 `100`입니다. `0` 값을 입력하면 두 번째로 입력한 검색어와 결과가 모두 캐시됩니다.
 
-1. [storefront pop over](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html)에서 반환된 결과를 사용할 수 있는 최대 줄 수를 변경하려면 다른 **[!UICONTROL Autocomplete Limit]** 값을 입력하십시오.
+1. [storefront pop over](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html)에서 반환된 결과를 사용할 수 있는 최대 줄 수를 변경하려면 다른 **[!UICONTROL Autocomplete Limit]** 값을 입력하십시오.
 
    라인 수를 제한하면 검색 성능이 향상되고 반환된 목록의 크기가 줄어듭니다. 기본값은 `8`줄입니다.
 
@@ -45,13 +45,13 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >- 2023년 8월의 [!DNL Elasticsearch 7] 지원 종료 발표로 인해 모든 Adobe Commerce 고객은 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것이 좋습니다. 제품을 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)을 참조하십시오.
->- 버전 2.4.4 및 2.4.3-p2에서는 Elasticsearch 레이블이 지정된 모든 필드가 OpenSearch에도 적용됩니다. 버전 2.4.6에서 Elasticsearch 8.x에 대한 지원이 도입되었을 때 Elasticsearch 구성과 OpenSearch 구성을 구별하기 위해 새 레이블이 만들어졌습니다. 그러나 두 구성 옵션은 동일합니다.
+>- 버전 2.4.4 및 2.4.3-p2에서는 Elasticsearch이라는 레이블이 지정된 모든 필드가 OpenSearch에도 적용됩니다. Elasticsearch 8.x에 대한 지원이 버전 2.4.6에 도입되면 Elasticsearch 구성과 OpenSearch 구성을 구별하기 위해 새 레이블이 생성되었습니다. 그러나 두 구성 옵션은 동일합니다.
 
 ### 1단계: 일반 검색 옵션 구성
 
 >[!NOTE]
 >
->OpenSearch 및 Search를 사용하면 접미사에 의한 Elasticsearch을 즉시 사용할 수 없습니다. 예를 들어 키워드에 SKU의 끝 부분만 포함된 경우 SKU로 검색하면 예상 결과가 반환되지 않을 수 있습니다.
+>OpenSearch 및 Elasticsearch을 사용하면 접미사에 의한 검색이 기본적으로 지원되지 않습니다. 예를 들어 키워드에 SKU의 끝 부분만 포함된 경우 SKU로 검색하면 예상 결과가 반환되지 않을 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
    이 예제에서 기본값은 `9200`입니다.
 
-1. **[!UICONTROL OpenSearch Index Prefix]**&#x200B;의 경우 Elasticsearch 인덱스를 식별할 접두사를 입력하십시오.
+1. **[!UICONTROL OpenSearch Index Prefix]**&#x200B;의 경우 Elasticsearch 색인을 식별할 접두사를 입력하십시오.
 
    기본값은 `magento2`입니다.
 

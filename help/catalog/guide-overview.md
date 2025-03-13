@@ -1,19 +1,19 @@
 ---
 title: 카탈로그 관리 안내서
-description: Adobe Commerce, Magento Open Source 관리자 및 eCommerce 머천다이저를 위한 제품 카탈로그 기능에 대한 포괄적인 정보입니다.
+description: Adobe Commerce 및 Magento Open Source 관리자와 eCommerce 머천다이저를 위한 제품 카탈로그 기능에 대한 포괄적인 정보입니다.
 seo-title: Adobe Commerce Catalog Management Guide
 seo-description: Describes how to use the product catalog features for Adobe Commerce and Magento Open Source.
 exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce 카탈로그 관리 안내서
 
-이 안내서는 Adobe Commerce 및 Magento Open Source에서 일하는 제품 머천다이저 및 인벤토리 관리자를 대상으로 합니다. 카탈로그의 탐색 구조 구축을 포함하여 제품 카탈로그 기능에 대한 자세한 정보를 제공합니다. 이는 핵심 [!DNL Commerce] 구성 및 기능에 대한 기본적인 이해를 전제로 합니다.
+이 안내서는 Adobe Commerce 및 Magento Open Source 관리자에서 일하는 제품 머천다이저 및 인벤토리 관리자를 대상으로 합니다. 카탈로그의 탐색 구조 구축을 포함하여 제품 카탈로그 기능에 대한 자세한 정보를 제공합니다. 이는 핵심 [!DNL Commerce] 구성 및 기능에 대한 기본적인 이해를 전제로 합니다.
 
 이 안내서에서는 다음 주제를 다룹니다.
 

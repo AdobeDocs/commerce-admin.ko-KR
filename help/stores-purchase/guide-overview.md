@@ -1,18 +1,18 @@
 ---
 title: 경험 저장 및 구매 안내서
-description: Adobe Commerce 및 Magento Open Source 관리자에서 근무하는 고객 서비스 상담원 및 영업 관리자를 위한 매장 정의 및 판매 처리 기능에 대한 포괄적인 정보입니다.
+description: Adobe Commerce 및 Magento Open Source 관리에서 근무하는 고객 서비스 에이전트와 영업 관리자를 위한 스토어 정의 및 판매 처리 기능에 대한 포괄적인 정보입니다.
 exl-id: 01c075a5-d9ac-4edb-82de-35a52748b800
 recommendations: noCatalog
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce 스토어 및 구매 경험 안내서
 
-이 안내서는 Adobe Commerce 및 Magento Open Source에서 근무하는 고객 서비스 상담원과 영업 관리자를 대상으로 합니다. 고객을 지원하고 판매를 촉진하도록 장바구니를 구성하는 방법을 포함하여 주문 관리 및 구매 기능에 대한 자세한 정보를 제공합니다. 이는 핵심 [!DNL Commerce] 구성 및 기능에 대한 기본적인 이해를 전제로 합니다.
+이 안내서는 Adobe Commerce 및 Magento Open Source 관리자에서 일하는 고객 서비스 에이전트 및 영업 관리자를 대상으로 합니다. 고객을 지원하고 판매를 촉진하도록 장바구니를 구성하는 방법을 포함하여 주문 관리 및 구매 기능에 대한 자세한 정보를 제공합니다. 이는 핵심 [!DNL Commerce] 구성 및 기능에 대한 기본적인 이해를 전제로 합니다.
 
 이 안내서에서는 다음 주제를 다룹니다.
 

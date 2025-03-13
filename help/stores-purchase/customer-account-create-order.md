@@ -3,7 +3,7 @@ title: 주문 만들기
 description: Commerce 관리에서 고객에 대한 주문을 만드는 방법을 알아봅니다.
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->결제 서비스 확장을 설치하고 구성할 때 이 기능을 지원하는 결제 방법에 대한 자세한 내용은 [결제 서비스 안내서](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview)를 참조하십시오.
+>결제 서비스 확장을 설치하고 구성할 때 이 기능을 지원하는 결제 방법에 대한 자세한 내용은 [결제 서비스 안내서](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)를 참조하십시오.
 
 ## 3단계: 주문 실행
 

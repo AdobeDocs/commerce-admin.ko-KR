@@ -3,7 +3,7 @@ title: 제품 관계
 description: 타겟팅된 구매자에게 제품을 홍보하는 데 사용할 수 있는 제품 관계 유형에 대해 알아봅니다.
 exl-id: 180352dc-65bf-4264-8287-9bf30f368ca1
 feature: Merchandising, Products
-source-git-commit: f9d1f66f8fb8d5c00bfa298234ab22becec33f56
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
@@ -34,6 +34,6 @@ ht-degree: 0%
 
 ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) [관련 제품 규칙](product-related-rules.md)은(는) 고객에게 관련 제품, 상향 판매 및 교차 판매로 제공되는 제품 선택을 타깃팅할 수 있는 기능을 제공합니다.
 
-## Adobe Sensei 기반 Recommendations 제품
+## Adobe Sensei 기반의 제품 추천
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) [Adobe Sensei에서 제공하는 제품 Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html)은(는) 집계된 방문자 데이터를 심층 분석하기 위해 인공 지능 및 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 간소화합니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) [Adobe Sensei에서 제공하는 제품 권장 사항](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)은(는) 집계된 방문자 데이터를 심층 분석하는 데 인공 지능 및 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 간소화합니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.

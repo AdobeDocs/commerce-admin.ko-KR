@@ -5,9 +5,9 @@ breadcrumb-title: 구성 참조
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 1%
       - [PayPal 결제 표준](./sales/paypal-payments-standard.md)
       - [Paypal Payflow Pro](./sales/paypal-payflow-pro.md)
       - [PayPal 결제 링크](./sales/paypal-payflow-link.md)
-- [Sales Channel](./sales-channels.md)
+- [영업 채널](./sales-channels.md)
 - 서비스 {#services}
    - [웹 API](./services/magento-web-api.md)
    - [Commerce 서비스](./services/saas.md)
@@ -84,5 +84,5 @@ ht-degree: 1%
    - [관리자](./advanced/admin.md)
    - [시스템](./advanced/system.md)
    - [개발자](./advanced/developer.md)
-- [판매자 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

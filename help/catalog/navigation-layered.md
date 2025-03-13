@@ -3,7 +3,7 @@ title: 계층화된 탐색
 description: 계층화된 탐색을 통해 구매자가 범주, 가격 범위 또는 기타 사용 가능한 속성에 따라 제품을 쉽게 찾을 수 있는 방법에 대해 알아봅니다.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 섹션에 설명된 표준 계층화된 탐색은 [패싯](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html)을 사용하는 Live Search 필터링된 탐색과 다릅니다.
+>이 섹션에 설명된 표준 계층화된 탐색은 [패싯](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html)을 사용하는 Live Search 필터링된 탐색과 다릅니다.
 
 레이어 탐색을 사용하면 카테고리, 가격 범위 또는 기타 사용 가능한 속성에 따라 제품을 쉽게 찾을 수 있습니다. 계층 탐색은 일반적으로 검색 결과 및 카테고리 페이지의 왼쪽 열에 표시되며, 경우에 따라 홈 페이지에도 표시됩니다. 표준 탐색에는 범주 및 가격 범위의 _항목별 쇼핑_ 목록이 포함되어 있습니다. 제품 개수 및 가격 범위를 포함하여 계층화된 탐색 표시를 구성할 수 있습니다.
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 항목에서 설명하는 필터링 가능한 특성 요구 사항은 [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)와 다릅니다. 자세한 내용은 [패싯](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/facets/facets.html)을 참조하세요.
+>이 항목에서 설명하는 필터링 가능한 특성 요구 사항은 [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)와 다릅니다. 자세한 내용은 [패싯](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html)을 참조하세요.
 
 계층화된 탐색을 사용하여 범주별 또는 속성별로 제품을 검색할 수 있습니다. 예를 들어, 쇼핑객이 위쪽 탐색에서 남성/단편 범주를 선택하면 초기 결과에 해당 범주의 모든 제품이 포함됩니다. 특정 스타일, 기후, 색상, 재료, 패턴, 가격 또는 값의 조합을 선택하여 목록을 추가로 필터링할 수 있습니다. 필터링 가능한 속성은 각 속성 값을 나열하는 확장 섹션에 나타납니다. 옵션으로 일치하는 결과가 있는 제품 목록을 구성하여 일치하는 제품이 있거나 없는 제품을 포함할 수 있습니다.
 
@@ -112,7 +112,7 @@ _예: 결과 없이 표시된 필터링 가능한 견본 값_
 
 >[!NOTE]
 >
->이 항목에 설명된 가격 탐색 구성은 [실시간 검색](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)에 따라 다릅니다.
+>이 항목에 설명된 가격 탐색 구성은 [실시간 검색](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)에 따라 다릅니다.
 
 가격 탐색을 사용하여 계층화된 탐색에서 가격 범위별로 제품을 배포할 수 있습니다. 각 범위를 간격으로 분할할 수도 있습니다. 가격 탐색을 계산하는 방법에는 몇 가지가 있습니다.
 
@@ -201,7 +201,7 @@ _예: 결과 없이 표시된 필터링 가능한 견본 값_
 
 >[!NOTE]
 >
->이 페이지에 설명된 표준 구성은 [실시간 검색](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)에 따라 다릅니다.
+>이 페이지에 설명된 표준 구성은 [실시간 검색](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)에 따라 다릅니다.
 
 계층화된 탐색 구성은 각 속성 뒤에 제품 카운트가 괄호로 묶여 표시되는지 여부와 가격 탐색에 사용되는 단계 계산의 크기를 결정합니다.
 

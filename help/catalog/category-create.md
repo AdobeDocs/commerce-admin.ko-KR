@@ -3,7 +3,7 @@ title: 범주 만들기
 description: 구성에 설정된 최대 메뉴 깊이에 따라 필요한 만큼 추가 하위 범주를 만들 수 있습니다.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 6f83e90ed6bacd9e132d5caa01942f0ea90eb4b0
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 0%
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 1. 범주 페이지에 계층화된 탐색의 _`Filter by Attribute`_섹션을 포함하려면&#x200B;**[!UICONTROL Anchor]**을(를) `Yes`(으)로 설정하십시오.
 
-1. **[!UICONTROL Available Product Listing Sort By]** 옵션의 경우 고객이 목록을 정렬할 수 있도록 사용할 수 있는 값 중 하나 이상을 선택하십시오. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling)에 적용되지 않습니다.
+1. **[!UICONTROL Available Product Listing Sort By]** 옵션의 경우 고객이 목록을 정렬할 수 있도록 사용할 수 있는 값 중 하나 이상을 선택하십시오. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)에 적용되지 않습니다.
 
    기본적으로 사용 가능한 모든 값이 포함됩니다. 선택 내용을 변경하려면 **[!UICONTROL Use All]** 확인란의 선택을 취소하십시오. 예를 들어, 값은 다음을 포함할 수 있습니다.
 
@@ -124,7 +124,7 @@ ht-degree: 0%
    - `Product Name`
    - `Price`
 
-1. 범주의 기본 정렬 순서를 설정하려면 **[!UICONTROL Default Product Listing Sort By]** 값을 선택하십시오. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling)에 적용되지 않습니다.
+1. 범주의 기본 정렬 순서를 설정하려면 **[!UICONTROL Default Product Listing Sort By]** 값을 선택하십시오. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)에 적용되지 않습니다.
 
 1. 기본 계층화된 탐색 [가격 단계](navigation-layered.md#configure-price-navigation) 설정을 변경하려면 다음을 수행하십시오.
 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
    ![디자인 설정](./assets/category-design.png){width="600" zoomable="yes"}
 
-1. ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 특정 기간에 디자인 업데이트를 예약하려면 다음을 수행하십시오.
+1. ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 특정 기간에 디자인 업데이트를 예약하려면 다음을 수행하십시오.
 
    - _[!UICONTROL Schedule Design Update]_섹션을 확장합니다.
 

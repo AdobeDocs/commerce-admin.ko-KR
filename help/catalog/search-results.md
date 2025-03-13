@@ -3,7 +3,7 @@ title: 검색 결과
 description: 제품이 빠른 검색 상자 또는 고급 검색 양식에 입력한 검색 기준과 어떻게 일치하는지 구성하는 방법에 대해 알아봅니다.
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
-source-git-commit: 4b2e1dd87a39c9be1adc49d867e44d306a969854
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 페이지에서는 [실시간 검색](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html)과(와) 다를 수 있는 표준 검색 기능에 대해 설명합니다.
+>이 페이지에서는 [실시간 검색](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)과(와) 다를 수 있는 표준 검색 기능에 대해 설명합니다.
 
 _검색 결과_ 목록에는 빠른 검색 상자 또는 고급 검색 양식에 입력한 검색 조건과 일치하는 모든 제품이 포함됩니다. 카탈로그의 모든 제품 목록에는 기본적으로 동일한 컨트롤이 있습니다. 유일한 차이점은 하나는 검색 쿼리의 결과이고 다른 하나는 [탐색](navigation.md)의 결과입니다.
 

@@ -3,7 +3,7 @@ title: 장바구니 가격 규칙 만들기
 description: 장바구니 또는 제품 속성을 기반으로 장바구니 가격 규칙을 만드는 방법을 알아봅니다.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '3386'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
      ![장바구니 가격 규칙 - 쿠폰 설정](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
-   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) _일정_(![일정 아이콘](../assets/icon-calendar.png))을 사용하여 프로모션의 **[!UICONTROL From]** 및 **[!UICONTROL To]** 날짜 범위를 선택하십시오.
+   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) _일정_(![일정 아이콘](../assets/icon-calendar.png))을 사용하여 프로모션의 **[!UICONTROL From]** 및 **[!UICONTROL To]** 날짜 범위를 선택하십시오.
 
 1. 동시에 활성화된 다른 가격 규칙의 작업 설정과 관련하여 이 가격 규칙의 **[!UICONTROL Priority]**&#x200B;을(를) 정의할 숫자를 입력하십시오.
 
@@ -65,13 +65,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >우선 순위가 동일한 장바구니 가격 규칙은 결합된 할인을 생성하지 않습니다. 각 규칙(쿠폰)은 데이터베이스의 장바구니 가격 규칙 ID에 따라 일치하는 제품에 개별적으로 적용됩니다. 할인이 적용되는 순서를 제어하기 위해, Adobe은 추가된 각 장바구니 가격 규칙에 대해 다른 우선 순위를 설정할 것을 권장합니다.
+   >우선 순위가 동일한 장바구니 가격 규칙은 결합된 할인을 생성하지 않습니다. 각 규칙(쿠폰)은 데이터베이스의 장바구니 가격 규칙 ID에 따라 일치하는 제품에 개별적으로 적용됩니다. 할인이 적용되는 순서를 제어하기 위해 Adobe에서는 추가된 각 장바구니 가격 규칙에 대해 다른 우선 순위를 설정하는 것이 좋습니다.
 
 1. 게시된 [RSS 피드](social-rss.md#rss-feeds)에 규칙을 적용하려면 **RSS 피드에서 공개**&#x200B;를 `Yes`(으)로 설정하십시오.
 
 1. **[!UICONTROL Save and Continue Edit]**&#x200B;을(를) 클릭합니다.
 
-   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 규칙이 저장되면 장바구니 가격 규칙의 이름이 페이지 맨 위에 나타납니다.
+   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 규칙이 저장되면 장바구니 가격 규칙의 이름이 페이지 맨 위에 나타납니다.
 
    - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) 규칙이 저장되면 장바구니 가격 규칙의 이름과 [예약된 변경 사항](price-rule-cart-scheduled-changes.md) 상자가 페이지 맨 위에 나타납니다.
 
@@ -215,11 +215,11 @@ Real-Time CDP [대상자](../customers/audience-activation.md)를 기반으로 �
    | 옵션 | 설명 |
    |------|-----------|
    | `ID` | 관리자 내에서 사용되는 대상자의 내부 식별자입니다 |
-   | `Real-Time CDP Audience ID` | Experience Platform에서 대상을 만들 때의 대상자 고유 식별자 |
+   | `Real-Time CDP Audience ID` | Experience Platform에서 대상을 만들 때 대상의 고유 식별자 |
    | `Name` | 대상 이름(예: `Orders over $50`) |
    | `Description` | 대상자에 대한 설명(예: `People who placed an order over $50 in the last month.`). |
    | `Source` | 대상자가 있었던 위치(예: `Experience Platform`)를 나타냅니다. |
-   | `Website` | 대상자를 포함하는 데이터 스트림에 연결한 웹 사이트를 나타냅니다. [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) 확장을 통해 Commerce 인스턴스를 Experience Platform에 연결할 때 이 링크를 만듭니다. |
+   | `Website` | 대상자를 포함하는 데이터 스트림에 연결한 웹 사이트를 나타냅니다. [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html) 확장을 통해 Commerce 인스턴스를 Experience Platform에 연결할 때 이 링크를 만듭니다. |
 
    {style="table-layout:auto"}
 

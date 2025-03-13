@@ -1,22 +1,21 @@
 ---
-user-guide-title: Adobe Commerce 시작 안내서
-user-guide-description: Adobe Commerce 또는 Magento Open Source을 처음 사용하는 경우  [!DNL Commerce] 에코시스템의 리소스를 검색하고 고객 여정에 따라 스토어를 탐색하며 주요 기능에 대해 알아보십시오.
+user-guide-title: Adobe Commerce 관리 시작 안내서
+user-guide-description: Adobe Commerce 또는 Magento Open Source 관리자를 처음 사용하는 경우  [!DNL Commerce] 에코시스템의 리소스를 검색하고 고객 여정에 따라 스토어를 탐색하며 주요 관리 기능에 대해 알아보십시오.
 breadcrumb-title: 시작
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
+source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
 
 
-# Adobe Commerce 시작 안내서 {#start}
+# Adobe Commerce 관리 시작 안내서 {#start}
 
-+ [Adobe Commerce 시작 안내서](guide-overview.md)
-+ [Adobe Commerce란?](about.md)
++ [Adobe Commerce 관리 시작 안내서](guide-overview.md)
 + [로그인 자격 증명 및 URL](login-urls.md)
 + Commerce 계정 {#commerce-account}
    + [계정 만들기 및 액세스](commerce-account-create.md)
@@ -39,7 +38,7 @@ ht-degree: 1%
 + 관리자 {#admin}
    + [관리자란 무엇입니까?](admin.md)
    + [관리자 계정](admin-signin.md)
-   + Adobe Identity Management 서비스(IMS) 통합 {#ims}
+   + Adobe IMS(Identity Management 서비스) 통합 {#ims}
       + [IMS 통합 개요](adobe-ims-integration-overview.md)
       + [IMS와의 Admin 통합 구성](adobe-ims-config.md)
       + [IMS와의 Admin 통합 비활성화](adobe-ims-disable.md)
@@ -77,5 +76,5 @@ ht-degree: 1%
    + [에코시스템](resources.md)
    + [확장](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [판매자 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
