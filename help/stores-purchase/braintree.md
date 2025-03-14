@@ -3,16 +3,20 @@ title: Braintree
 description: 스토어에서 Braintree을 온라인 결제 솔루션으로 설정하는 방법에 대해 알아봅니다.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-source-git-commit: fcd08ea5d8c3bd498eb4beae41bdf2f078a89f55
+source-git-commit: da3d64b1d248635b8d13f8bb6e85c8ac661048c2
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2643'
 ht-degree: 0%
 
 ---
 
 # Braintree
 
-Braintree은 사기 행위 감지 및 PayPal 통합을 통해 완전히 사용자 지정 가능한 체크아웃 경험을 제공합니다. [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo 및 로컬 결제 방법을 지원합니다. Braintree은 거래가 Braintree 시스템에서 이루어지기 때문에 가맹점의 PCI 규정 준수 부담을 줄입니다. Braintree 결제 통합은 [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/)에서 개발되었습니다.
+>[!IMPORTANT]
+>
+>예기치 않은 카드 요금에 대한 도움이 필요한 경우 [구독 취소](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) 페이지를 방문하여 도움을 받으십시오.
+
+Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 가능한 체크아웃 경험을 제공합니다. [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo 및 로컬 결제 방법을 지원합니다. Braintree은 거래가 Braintree 시스템에서 이루어지기 때문에 가맹점의 PCI 규정 준수 부담을 줄입니다. Braintree Payments 통합은 [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/)에서 개발되었습니다.
 
 >[!NOTE]
 >
@@ -21,7 +25,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 완전히 사용�
 
 ## 1단계: Braintree 자격 증명 가져오기
 
-[결제 Braintree][1](으)로 이동하여 계정에 등록하십시오.
+[Braintree 결제][1]&#x200B;(으)로 이동하여 계정에 등록하십시오.
 
 ## 2단계: 기본 설정 완료
 
@@ -37,7 +41,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 완전히 사용�
 
    ![Braintree 구성](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Title]**&#x200B;의 경우 체크아웃 중에 Braintree을 결제 옵션으로 식별하는 제목을 입력하십시오.
+1. **[!UICONTROL Title]**&#x200B;의 경우 체크아웃 중에 결제 옵션으로 Braintree을 식별하는 제목을 입력하십시오.
 
 1. Braintree 트랜잭션에 대한 현재 운영 체제 **[!UICONTROL Environment]**&#x200B;을(를) `Sandbox` 또는 `Production`(으)로 설정
 
@@ -50,7 +54,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 완전히 사용�
    - `Authorize Only` - 구매를 승인하고 자금을 보류합니다. 판매자가 _회수_&#x200B;할 때까지 고객의 은행 계좌에서 금액이 인출되지 않습니다.|
    - `Intent Sale` - 구매 금액이 승인되어 고객 계정에서 즉시 인출됩니다. **_참고:_** 이 값은 2.3.x 및 이전 릴리스의 _승인 및 캡처_&#x200B;입니다.|
 
-1. Braintree 계정에서 **[!UICONTROL Sandbox Merchant ID / Merchant ID]**&#x200B;을(를) 입력하십시오.
+1. Braintree 계정의 **[!UICONTROL Sandbox Merchant ID / Merchant ID]**&#x200B;을(를) 입력하십시오.
 
 1. Braintree 계정에서 다음 자격 증명을 입력합니다.
 
@@ -77,9 +81,9 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 완전히 사용�
 
 1. **[!UICONTROL Vault Title]**&#x200B;의 경우 고객 카드 정보가 저장된 자격 증명 모음을 식별하는 참조를 설명하는 제목을 입력합니다.
 
-1. Braintree 계정에서 **[!UICONTROL Merchant Account ID]**&#x200B;을(를) 입력하십시오.
+1. Braintree 계정의 **[!UICONTROL Merchant Account ID]**&#x200B;을(를) 입력하십시오.
 
-   사용할 머천트 계정을 지정하지 않으면 Braintree은 기본 머천트 계정을 사용하여 거래를 처리합니다.
+   사용할 머천트 계정을 지정하지 않는 경우 Braintree은 기본 머천트 계정을 사용하여 거래를 처리합니다.
 
 1. PayPal, PayLater, Apple Pay 및 Google Pay를 포함하여 체크아웃 프로세스가 시작될 때 빠른 결제 옵션을 통해 더 빠른 체크아웃 환경을 제공하려면 **[!UICONTROL Enable Checkout Express Payments]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -97,15 +101,15 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 완전히 사용�
 
 1. 모든 결제 방법에 대해 장바구니 라인 항목을 보내려면 **[!UICONTROL Send Card Line Items]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
-1. **[!UICONTROL Credit Card Types]**&#x200B;의 경우 스토어에서 Braintree 결제로 사용할 수 있는 각 신용 카드를 선택하십시오.
+1. **[!UICONTROL Credit Card Types]**&#x200B;의 경우 스토어에서 Braintree을 통한 결제로 수락할 각 신용 카드를 선택하십시오.
 
    여러 카드 유형을 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 옵션을 클릭합니다.
 
-1. **[!UICONTROL Sort Order]**&#x200B;의 경우 체크아웃 중에 다른 결제 방법과 함께 나열할 때 Braintree이 표시되는 순서를 확인하려면 번호를 입력하십시오.
+1. **[!UICONTROL Sort Order]**&#x200B;의 경우 체크아웃 중에 다른 결제 방법과 함께 나열될 때 Braintree이 표시되는 순서를 확인하려면 번호를 입력하십시오.
 
 ## 4단계: Braintree 웹후크 설정 완료
 
-![웹 후크 설정 Braintree](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png){width="600" zoomable="yes"}
+![Braintree Webhooks 설정](../configuration-reference/sales/assets/payment-methods-braintree-webhooks-config.png){width="600" zoomable="yes"}
 
 1. 사기 방지, ACH 결제 및 로컬 결제 방법을 위해 웹후크 기능을 사용하려면 **[!UICONTROL Enable Webhook]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -119,7 +123,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 완전히 사용�
 
    선택한 주문 상태가 Commerce 주문에 할당됩니다.
 
-1. **[!UICONTROL Fraud Protection Reject Order Status]** 필드를 설정하여 Braintree에 의해 사기 행위 보호가 거부되는 시기를 확인합니다.
+1. **[!UICONTROL Fraud Protection Reject Order Status]** 필드를 설정하여 Braintree에서 사기 행위 보호를 거부하는 시기를 확인합니다.
 
    선택한 주문 상태가 Commerce 주문에 할당됩니다.
 
@@ -144,17 +148,17 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 완전히 사용�
 
 ![Braintree을 통해 ACH](../configuration-reference/sales/assets/payment-methods-braintree-ach-config.png){width="600" zoomable="yes"}
 
-1. ACH를 Braintree 결제 옵션으로 포함하려면 **[!UICONTROL Enable ACH Direct Debit]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+1. ACH를 Braintree의 결제 옵션으로 포함하려면 **[!UICONTROL Enable ACH Direct Debit]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
 1. 고객은 일회용 ACH 직불 결제 방법을 보관하고 나중에 사용할 수 있도록 저장할 수 있습니다. 저장하면 **[!UICONTROL Enable Vault for ACH Direct Debit]**&#x200B;을(를) `Yes`(으)로 설정한 경우 고객이 결제 정보를 다시 입력하거나 인증할 필요 없이 ACH 직불카드를 다시 사용할 수 있습니다.
 
-1. **[!UICONTROL Sort Order]**&#x200B;의 경우 체크아웃 중에 다른 결제 옵션과 함께 나열될 때 Braintree ACH 결제 옵션이 표시되는 순서를 결정하려면 숫자를 입력하십시오.
+1. **[!UICONTROL Sort Order]**&#x200B;의 경우 체크아웃 중에 다른 결제 옵션과 함께 나열될 때 Braintree ACH 결제 옵션이 표시되는 순서를 결정하는 숫자를 입력합니다.
 
 ## 7단계: Braintree 설정을 통해 [!UICONTROL Apple Pay] 완료
 
 ![Braintree 설정을 통한 ApplePay](../configuration-reference/sales/assets/payment-methods-braintree-applepay-config.png){width="600" zoomable="yes"}
 
-1. [!DNL Apple Pay]을(를) Braintree 결제 옵션으로 포함하려면 **[!UICONTROL Enable ApplePay through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+1. Braintree에서 결제 옵션으로 [!DNL Apple Pay]을(를) 포함하려면 **[!UICONTROL Enable ApplePay through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
    먼저 Braintree 계정에서 [도메인 이름을 확인](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3)하세요.
 
@@ -171,11 +175,11 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 완전히 사용�
 
 ## 8단계: 로컬 결제 방법 설정 완료
 
-1. 로컬 결제 방법을 Braintree 결제 방법으로 포함하려면 **[!UICONTROL Enable Local Payment Methods]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+1. 로컬 결제 방법을 Braintree의 결제 방법으로 포함하려면 **[!UICONTROL Enable Local Payment Methods]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
 1. **[!UICONTROL Title]**&#x200B;의 경우 체크아웃 결제 방법 섹션에 나타나는 레이블에 사용할 텍스트를 입력하십시오(기본값: `Local Payments`).
 
-1. **[!UICONTROL Fallback Button Text]**&#x200B;의 경우 고객을 웹 사이트로 다시 안내하기 위해 대체 Braintree 페이지에 나타나는 단추에 사용할 텍스트를 입력하십시오(예: `Complete Checkout`).
+1. **[!UICONTROL Fallback Button Text]**&#x200B;에 대해 대체 Braintree 페이지에 나타나는 단추에 사용할 텍스트를 입력하여 고객을 웹 사이트로 다시 안내합니다(예: `Complete Checkout`).
 
 1. **[!UICONTROL Redirect on Fail]**&#x200B;에 로컬 결제 방법 트랜잭션이 취소되거나 실패하거나 오류가 발생할 때 고객을 리디렉션해야 하는 URL을 입력하십시오. 결제 페이지(예: `https://www.domain.com/checkout#payment`)여야 합니다.
 
@@ -187,15 +191,15 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 완전히 사용�
 
    >[!NOTE]
    >
-   >번들 Braintree 확장은 [Braintree 개발자 설명서](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview)에 나열된 모든 로컬 결제 방법을 지원하지 않습니다. 다른 로컬 결제 방법은 향후 릴리스에서 지원될 예정입니다.
+   >번들형 Braintree 확장은 [Braintree 개발자 설명서](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview)에 나열된 모든 로컬 결제 방법을 지원하지 않습니다. 다른 로컬 결제 방법은 향후 릴리스에서 지원될 예정입니다.
 
 1. **[!UICONTROL Sort Order]**&#x200B;의 경우 체크아웃 중에 다른 결제 옵션과 함께 나열될 때 로컬 결제 방법이 표시되는 순서를 결정하려면 숫자를 입력하십시오.
 
 ## 9단계: Braintree 설정을 통해 [!DNL Google Pay] 완료
 
-![Google Braintree 결제](../configuration-reference/sales/assets/payment-methods-braintree-googlepay-config.png){width="600" zoomable="yes"}
+![Braintree을 통해 Google 결제](../configuration-reference/sales/assets/payment-methods-braintree-googlepay-config.png){width="600" zoomable="yes"}
 
-1. [!DNL Google Pay]을(를) Braintree 결제 옵션으로 포함하려면 **[!UICONTROL Enable GooglePay Through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+1. Braintree에서 결제 옵션으로 [!DNL Google Pay]을(를) 포함하려면 **[!UICONTROL Enable GooglePay Through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
 1. 고객이 Google Pay를 사용하여 구매할 때마다 다시 입력할 필요가 없도록 고객 정보를 안전하게 저장하려면 **[!UICONTROL Enable Vault for GooglePay]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -216,7 +220,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 완전히 사용�
 
 ## 10단계: Braintree 설정을 통해 Venmo 완료
 
-1. Venmo를 Braintree 결제 옵션으로 포함하려면 **[!UICONTROL Enable Venmo through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+1. Braintree에서 결제 옵션으로 Venmo를 포함하려면 **[!UICONTROL Enable Venmo through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
 1. **[!UICONTROL Enable Vault for Venmo]**&#x200B;을(를) `Yes`(으)로 설정하여 고객의 Venmo 계정을 저장할 수 있도록 하여 고객이 향후 트랜잭션을 위해 Venmo 계정에 다시 로그인할 필요가 없도록 합니다.
 
@@ -233,7 +237,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 완전히 사용�
 
 ![Braintree 설정을 통한 PayPal](./assets/braintree-paypal.png){width="550" zoomable="yes"}
 
-1. PayPal을 Braintree 결제 옵션으로 포함하려면 **[!UICONTROL Enable PayPal through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+1. PayPal을 Braintree의 결제 옵션으로 포함하려면 **[!UICONTROL Enable PayPal through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
 1. Braintree 결제 방법을 통해 PayPal을 지정하십시오.
 
@@ -241,7 +245,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 완전히 사용�
    >
    >**[!DNL PayPal Credit]** 또는 **[!DNL PayPal PayLater]**&#x200B;을(를) 사용하도록 설정할 수 있습니다. 두 메서드를 동시에 활성화할 수 없습니다.
 
-   - [!DNL PayPal Credit]을(를) Braintree 결제 옵션으로 포함하려면 **[!UICONTROL Enable PayPal Credit through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+   - Braintree에서 결제 옵션으로 [!DNL PayPal Credit]을(를) 포함하려면 **[!UICONTROL Enable PayPal Credit through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
      **Braintree을 통해 PayPal 사용**&#x200B;을(를) `Yes`(으)로 설정하면 이 필드만 표시됩니다.
 
@@ -249,13 +253,13 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 완전히 사용�
      >
      >PayPal 크레딧은 미국과 영국에서만 사용할 수 있습니다. _[!UICONTROL Merchant Country]_필드에 대해 선택한 값이 `US` 또는 `UK`이(가) 아닌 경우 PayPal 크레딧을 사용할 수 없습니다.
 
-   - [!DNL PayPal PayLater]을(를) Braintree 결제 옵션으로 포함하려면 **[!UICONTROL Enable PayPal PayLater through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+   - Braintree에서 결제 옵션으로 [!DNL PayPal PayLater]을(를) 포함하려면 **[!UICONTROL Enable PayPal PayLater through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
      **[!UICONTROL Enable PayPal PayLater through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하면 이 필드만 표시됩니다.
 
      _3_&#x200B;에서 지불(Pay in 3)과 같은 오퍼에 대해 사이트에 PayLater 메시지를 표시하여 고객이 무이자 월별 3회 지불로 결제할 수 있습니다. Braintree 통합은 이 기능을 홍보하기 위해 사이트에 메시지를 표시할 수 있습니다. 다른 콘텐츠, 마케팅 또는 자료와 함께 PayLater 오퍼를 홍보할 수 없습니다.
 
-1. **[!UICONTROL Title]**&#x200B;의 경우 체크아웃 중에 PayPal로 결제 Braintree 옵션을 식별하는 제목을 입력하십시오.
+1. **[!UICONTROL Title]**&#x200B;의 경우 체크아웃 중에 PayPal로 결제하는 Braintree 결제 방법을 나타내는 제목을 입력하십시오.
 
 1. **[!UICONTROL Vault Enabled]**&#x200B;을(를) `Yes`(으)로 설정하여 고객의 PayPal 계정을 저장하는 보안 자격 증명 모음을 사용하도록 설정합니다. 저장된 PayPal 계정은 향후 거래에 사용할 수 있으며, 이렇게 하면 고객의 단계 수가 줄어듭니다.
 
@@ -392,7 +396,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 완전히 사용�
 
 ## 2.4 업그레이드 정보
 
-Adobe Commerce 및 Magento Open Source 2.4.0부터 Braintree 확장이 릴리스에 포함됩니다. Marketplace Braintree 확장이 설치된 2.4.0 이전 버전에서 Commerce 2.4.x로 마이그레이션하는 경우 해당 확장(`paypal/module-braintree` 또는 `gene/module-braintree`)을 제거하고 `Magento_Braintree` 대신 `PayPal_Braintree` 네임스페이스를 사용하도록 코드 사용자 지정을 업데이트해야 합니다. Commerce Marketplace에 배포되는 핵심 Commerce Braintree 결제 번들 확장 기능 및 확장 기능의 구성 설정이 유지되며 이전 버전과 함께 배치된 결제는 정상적으로 캡처, 무효화 또는 환급될 수 있습니다.
+Adobe Commerce 및 Magento Open Source 2.4.0부터 Braintree 확장이 릴리스에 포함됩니다. Marketplace Braintree 확장이 설치된 2.4.0 이전 버전에서 Commerce 2.4.x로 마이그레이션하는 경우 해당 확장(`paypal/module-braintree` 또는 `gene/module-braintree`)을 제거하고 `Magento_Braintree` 대신 `PayPal_Braintree` 네임스페이스를 사용하도록 코드 사용자 지정을 업데이트해야 합니다. Commerce Marketplace에 배포된 핵심 Commerce Braintree 결제 번들 확장 기능 및 확장 기능의 구성 설정이 유지되며 이러한 이전 버전과 함께 배치된 결제는 정상적으로 캡처, 무효화 또는 환급될 수 있습니다.
 
 [1]: https://www.braintreepayments.com/
 [2]: https://developers.braintreepayments.com/reference/general/testing/php
