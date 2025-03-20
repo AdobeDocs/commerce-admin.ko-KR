@@ -3,7 +3,7 @@ title: ID를 사용하여 Commerce 관리 통합 구성
 description: Adobe Commerce Admin 사용자 계정 로그인을 Adobe ID과 통합하려면 이 선택적 절차를 따르십시오.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 446fe9a5c7cc7178f5bbac0045bdea7e93a73699
+source-git-commit: 8589444a126c82f033c5b852b20493d1cf83c338
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-이 통합은 Commerce을 가지고 있고 Adobe Commerce 및 Adobe 비즈니스 제품에 대한 로그인을 간소화하려는 관리자 사용자로 Adobe ID 판매자를 지원합니다. 선택 사항이며 인스턴스별로 활성화되어 있습니다. 활성화된 경우 관리자 사용자 워크플로우만 영향을 받습니다. 
+이 통합은 Commerce을 보유하고 있고 Adobe Commerce 및 Adobe Business 제품에 대한 로그인을 간소화하려는 관리자 권한이 있는 Adobe ID 판매자를 지원합니다. 선택 사항이며 인스턴스별로 활성화되어 있습니다. 활성화된 경우 관리자 사용자 워크플로우만 영향을 받습니다. 
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Commerce Admin 사용자는 로그인하려면 Adobe ID으로 계정을 만들�
 
 ## 일반 단계
 
-* [Adobe Admin Console](https://adminconsole.adobe.com/)에서 Adobe 조직 ID 가져오기
+* [Adobe](https://adminconsole.adobe.com/)에서 Adobe Admin Console 조직 ID 가져오기
 * [Adobe Developer Console](https://developer.adobe.com/)에서 새 프로젝트, IMS API 키 및 암호를 생성합니다.
 * Adobe Admin Console에서 Adobe Commerce 사용자 구성
 * `AdminAdobeIms` 모듈을 사용하도록 설정합니다.
@@ -61,8 +61,8 @@ Commerce Admin 사용자는 로그인하려면 Adobe ID으로 계정을 만들�
 1. 새로 만든 프로젝트 페이지에서 **[!UICONTROL Add API]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Oauth 2.0 Web]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL Redirect URI]** 지정: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
-1. **[!UICONTROL Redirect URI pattern]** 지정: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
+1. **[!UICONTROL Redirect URI]** 지정: `https://<commerce_base_url>/`
+1. **[!UICONTROL Redirect URI pattern]** 지정: `https://<commerce_base_url>/.*`
 
    `\\`(으)로 점 앞에 추가하여 호스트 이름에서 점을 이스케이프 처리합니다. URL 끝에 와일드카드를 추가하면 Adobe Commerce 관리자 비밀 키가 지원됩니다.
 
