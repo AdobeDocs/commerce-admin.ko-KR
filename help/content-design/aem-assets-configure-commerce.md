@@ -3,9 +3,9 @@ title: Adobe Commerce 패키지 설치
 description: Adobe Commerce 인스턴스에  [!DNL AEM Assets Integration for Adobe Commerce] 확장 및 을 설치하는 방법을 알아봅니다.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 8b86a0dfef91b9922189e3258a3db33d228eff9d
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Commerce 확장을 위한 AEM Assets 통합에는 다음과 같은 시스템 및
 **소프트웨어 요구 사항**
 
 - Adobe Commerce 2.4.5+
-- PHP 8.1, 8.2, 8.3
+- PHP 버전은 Adobe Commerce 버전 8.1, 8.2, 8.3 또는 8.4의 설치된 버전과 호환됩니다.)
 - 작성기: 2.x
 
 **액세스 요구 사항**

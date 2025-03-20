@@ -3,9 +3,9 @@ title: Commerce용 AEM Assets 통합 설정
 description: 스토어에 대한 Commerce 에셋을 관리하기 위해 Experience Manager Assets 환경을 설정하고 구성하는 방법에 대해 알아봅니다.
 feature: CMS, Media, Configuration
 exl-id: 699f517e-1545-4c22-aa8d-9c8d60d352af
-source-git-commit: 98c40c779e1fe705cf1bd47331537bc7b7235921
+source-git-commit: f64975793edc88a34d75965c8fae4967fae801c7
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,6 @@ Commerce용 Adobe Experience Manager Assets 통합을 설정하려면 관리 액
 - Adobe Commerce, Adobe Experience Manager Assets 및 [AEM Dynamic Media](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media)에 대한 활성 라이선스입니다.
 
 - Adobe Commerce 2.4.5+
-
-   - PHP 8.1, 8.2, 8.3
-   - 작성기: 2.x
 
 - Adobe Experience Manager은 [Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/overview)로 프로비전되었습니다.
 
