@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 90c653684be644f876937dc7acbc8f72498c5e3b
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1575'
 ht-degree: 1%
 
 ---
@@ -49,6 +49,14 @@ _2023년 5월 30일_
 ![새로 만들기](../assets/new.svg) - Adobe Commerce 인스턴스 내에서 활성 대상을 정렬, 검색 및 필터링하는 기능을 포함하도록 [Real-Time CDP 대상 대시보드](#real-time-cdp-audiences-dashboard)를 업데이트했습니다.
 
 +++
+
+### 2.4.0
+
+[!BADGE 호환성]{type=Informative tooltip="호환성"}
+
+_2025년 3월 24일_
+
+![새로 만들기](../assets/new.svg) - PHP 8.4 지원이 추가되었습니다.
 
 ### 2.3.1
 
