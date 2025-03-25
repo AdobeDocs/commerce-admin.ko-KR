@@ -3,18 +3,18 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: 판매자에게 선별된 솔루션을 제공하고 자격을 갖춘 개발자에게 번창하는 비즈니스를 구축할 수 있는 도구, 플랫폼 및 주요 위치를 제공하는  [!DNL Commerce Marketplace]에 대해 알아봅니다.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 20e1439810891b0d19cda62cc2646701ec5a778c
+source-git-commit: 7b5c331625e4c4dab0e41156722c4a8deb4aa4c0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce 마켓플레이스
 
-[Adobe Commerce Marketplace][1]은(는) 판매자에게 선별된 솔루션을 제공하고 자격을 갖춘 개발자에게 번창하는 비즈니스를 구축할 수 있는 도구, 플랫폼 및 주요 위치를 제공하는 애플리케이션 스토어입니다. [!DNL Commerce Marketplace]은(는) 무료로 사용할 수 있는 확장과 판매 중인 다른 확장을 제공합니다. 구매는 신용 카드 또는 [PayPal][2](으)로 결제할 수 있습니다.
+[Adobe Commerce Marketplace][1]은(는) 판매자에게 선별된 솔루션을 제공하고 자격을 갖춘 개발자에게 번창하는 비즈니스를 구축할 수 있는 도구, 플랫폼 및 주요 위치를 제공하는 애플리케이션 스토어입니다. [!DNL Commerce Marketplace]은(는) 무료로 사용할 수 있는 확장과 판매 중인 다른 확장을 제공합니다. 구매는 신용 카드 또는 [PayPal][2]&#x200B;(으)로 결제할 수 있습니다.
 
-[!DNL Commerce Marketplace]에서 사용할 수 있는 모든 확장이 광범위한 검토를 통과했습니다. [확장 품질 프로그램][3](EQP)은 [!DNL Commerce]개의 전문 지식, 개발 지침 및 인증 도구를 결합하여 Commerce Marketplace의 모든 확장이 코딩 표준 및 모범 사례를 충족하도록 합니다. 검토 프로세스에는 자동화된 검사와 수동 QA 검토가 모두 포함됩니다. 이 과정에서 각 확장의 구조와 코드를 검사하고 바이러스/맬웨어 감염의 증거 및 표절 징후를 검사합니다. 문서, 코딩 구조, 성능, 확장성, 보안 및 [!DNL Commerce] 코어와의 호환성에 중점을 두고 [!DNL Commerce] 엔지니어가 심층 기술 검사와 온전성 검사를 수행합니다.
+[!DNL Commerce Marketplace]에서 사용할 수 있는 모든 확장이 광범위한 검토를 통과했습니다. [확장 품질 프로그램][3]&#x200B;(EQP)은 [!DNL Commerce]개의 전문 지식, 개발 지침 및 확인 도구를 결합하여 Commerce Marketplace의 모든 확장이 코딩 표준 및 모범 사례를 충족하도록 합니다. 검토 프로세스에는 자동화된 검사와 수동 QA 검토가 모두 포함됩니다. 이 과정에서 각 확장의 구조와 코드를 검사하고 바이러스/맬웨어 감염의 증거 및 표절 징후를 검사합니다. 문서, 코딩 구조, 성능, 확장성, 보안 및 [!DNL Commerce] 코어와의 호환성에 중점을 두고 [!DNL Commerce] 엔지니어가 심층 기술 검사와 온전성 검사를 수행합니다.
 
 다른 원본에서 확장을 구입할 수 있지만 [!DNL Commerce Marketplace]에서 사용할 수 있는 확장만 Extension Quality 프로그램 내에서 광범위한 기술 및 마케팅 검토를 통해 확인됩니다.
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 - [Adobe Commerce에 대한 I/O 이벤트 설정](https://developer.adobe.com/commerce/extensibility/events/)
 - [Adobe Commerce에 대한 이벤트 구성](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
-- [관리 UI SDK 설정](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
+- [관리자 UI SDK 설정](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [확장을 앱으로 변환](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### App Builder 리소스
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 [!DNL Commerce Marketplace]에서 구입한 확장을 설치하려면 먼저 [!DNL Commerce] 계정에 로그인하여 활성 액세스 키가 있는지 확인하십시오. [[!DNL Marketplace]][1] 또는 [Magento.com][6]의 헤더에서 [!DNL Commerce] 계정에 로그인할 수 있습니다.
 
-액세스 키는 [!DNL Commerce] 설치를 [!DNL Commerce] 계정과 동기화하고 자격 증명을 확인하는 데 사용되는 공개 및 개인 키 집합입니다. 계정이 동기화된 후에는 Commerce Marketplace에서 확장 또는 모듈을 설치하거나 [!DNL Commerce] 설치를 업그레이드할 때마다 개인 키를 입력해야 합니다.
+액세스 키는 [!DNL Commerce] 설치를 [!DNL Commerce] 계정과 동기화하고 자격 증명을 확인하는 데 사용되는 공개 및 개인 키 집합입니다. 계정이 동기화되면 Commerce Marketplace에서 확장 또는 모듈을 설치하거나 [!DNL Commerce] 설치를 업그레이드할 때마다 개인 키를 입력해야 합니다.
 
 다양한 용도로 여러 액세스 키를 만들고 필요에 따라 활성화하거나 비활성화할 수 있습니다. 그러나 [!DNL Commerce] 소프트웨어를 설치하는 데 사용한 액세스 키와 동일한 액세스 키를 사용해야 합니다. 예를 들어 Magento Open Source 액세스 키를 사용하여 Adobe Commerce을 업데이트하거나 업그레이드할 수 없으며, 반대로 할 수도 없습니다. 다른 사용자 또는 [공유 계정](commerce-account-share.md)의 액세스 키도 사용할 수 없습니다.
 
@@ -85,7 +85,11 @@ ht-degree: 0%
 
 ## 지원
 
-확장 설치 또는 사용에 대한 도움이 필요한 경우 확장과 함께 제공되는 설명서를 먼저 살펴보십시오. 질문에 대한 답변을 찾을 수 없는 경우 확장 목록에 있는 연락처 정보를 사용하여 개발자에게 직접 문의하십시오. 마켓플레이스에서 구매한 항목이 사용자의 요구를 충족하지 않는 경우 구입일로부터 25일 이내에 [환불을 요청](#refund-requests)할 수 있습니다. Adobe은 모든 환불 요청을 검토하고 (승인된 경우) 적절한 환불을 발행합니다. Commerce Marketplace 관련 문제에 대해서는 [지원](mailto:commercemarketplacesupport@adobe.com)에 문의하십시오.
+확장 설치 또는 사용에 대한 도움이 필요한 경우 확장과 함께 제공되는 설명서를 먼저 살펴보십시오. 질문에 대한 답변을 찾을 수 없는 경우 확장 목록에 있는 연락처 정보를 사용하여 개발자에게 직접 문의하십시오. 마켓플레이스에서 구매한 항목이 사용자의 요구를 충족하지 않는 경우 구입일로부터 25일 이내에 [환불을 요청](#refund-requests)할 수 있습니다. Adobe은 모든 환불 요청을 검토하고 (승인된 경우) 적절한 환불을 발행합니다. Commerce Marketplace 관련 문제의 경우:
+
+방법 1: [Adobe Commerce 마켓플레이스](https://commercemarketplace.adobe.com/)&#x200B;(으)로 이동하여 페이지 하단으로 이동한 다음 [!UICONTROL Contact Us]을(를) 클릭하면 티켓을 제출하는 양식이 열립니다.
+
+방법 2: [이메일 지원](mailto:commercemarketplacesupport@adobe.com).
 
 ### 체크아웃 문제
 
@@ -105,7 +109,7 @@ ht-degree: 0%
 
 ### 오픈 소스 질문
 
-마켓플레이스 지원 팀은 [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) 및 [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) 사이트와 관련된 문제만 해결합니다. [커뮤니티 포럼](https://community.magento.com/)(으)로 Magento Open Source에 대해 직접 문의하거나 [Magento Open Source을 지원할 수 있는 파트너에게 문의](https://business.adobe.com/products/magento/partners.html)하십시오.
+마켓플레이스 지원 팀은 [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) 및 [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) 사이트와 관련된 문제만 해결합니다. Magento Open Source에 대한 질문이 있으면 [커뮤니티 포럼](https://community.magento.com/)에 문의하거나 [Magento Open Source을 지원할 수 있는 파트너에게 문의](https://business.adobe.com/products/magento/partners.html)하십시오.
 
 ### 환불 요청
 
