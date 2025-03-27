@@ -3,9 +3,9 @@ title: 카탈로그 및 제품 URL
 description: 카탈로그 제품의 URL 형식 유형 및 구성 방법에 대해 알아봅니다.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
+source-git-commit: 1edab49fd8d52a1b7414eb207a21c5c03200e75e
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -62,13 +62,13 @@ URL 키는 단어를 구분하기 위해 문자 사이에 하이픈이 아닌 �
 
 ### 범주 경로
 
-범주 경로를 포함하거나 제외하도록 URL을 구성할 수 있습니다. 기본적으로 카테고리 경로는 모든 카테고리 및 제품 페이지에 포함됩니다. 다음 예는 카테고리 경로가 있는 것과 없는 것과 동일한 제품 URL을 보여줍니다.
+환경 설정에 따라 카테고리 경로를 포함하거나 제외하도록 제품 URL을 구성할 수 있습니다. 기본적으로 카테고리 경로는 제품 URL에 포함되지 않습니다. 그러나 중첩된 카테고리는 항상 상점의 URL에 전체 카테고리 경로를 표시하여 카테고리 탐색의 명확성과 일관성을 보장합니다. 다음 예는 카테고리 경로가 있는 것과 없는 것과 동일한 제품 URL을 보여줍니다.
 
-#### 범주 경로가 있는 URL
+#### 범주 경로가 있는 제품 URL
 
 - `http://mystore.com/women/tops-women/hoodies-and-sweatshirts-women/helena-hooded-fleece.html`
 
-#### 범주 경로가 없는 URL
+#### 카테고리 경로가 없는 제품 URL
 
 - `http://mystore.com/helena-hooded-fleece.html`
 

@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Commerce 관리자의 [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] 페이지에서 구성 설정을 검토하십시오.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 20f97d6ab391b7f5675d6790ab2ec5d24e9dda21
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3261'
 ht-degree: 0%
 
 ---
@@ -211,9 +211,9 @@ ht-degree: 0%
 | [!UICONTROL Popular Search Terms] | 스토어 뷰 | _인기 검색어_&#x200B;가 스토어에서 구현되는지 여부를 결정합니다. 이 설정은 [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)을(를) 사용하는 스토어에는 적용되지 않습니다. 옵션: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | 스토어 뷰 | html 또는 htm과 같은 접미사를 제품 URL에 적용할지 여부를 결정합니다. 접미사를 사용하면 접미사가 자동으로 적용되므로 접미사 앞에 마침표를 포함하지 마십시오. |
 | [!UICONTROL Category URL Suffix] | 스토어 뷰 | html 또는 htm과 같은 접미사를 범주 URL에 적용할지 여부를 결정합니다. 접미사를 사용하면 접미사가 자동으로 적용되므로 접미사 앞에 마침표를 포함하지 마십시오. |
-| [!UICONTROL Use Categories Path for Product URLs] | 스토어 뷰 | 제품 URL에 카테고리 경로가 포함되어 있는지 여부를 결정합니다. 이렇게 하면 여러 URL이 동일한 페이지를 가리키게 되어 검색 순위에 영향을 줄 수 있습니다. 자세한 내용은 [표준 메타 태그](../../merchandising-promotions/meta-data.md#canonical-meta-tag)를 참조하세요. |
+| [!UICONTROL Use Categories Path for Product URLs] | 스토어 뷰 | 상점 첫 화면의 제품 URL에 카테고리 경로가 포함되어 있는지 여부를 결정합니다. 이렇게 하면 여러 URL이 동일한 페이지를 가리키게 되어 검색 순위에 영향을 줄 수 있습니다. 자세한 내용은 [표준 메타 태그](../../merchandising-promotions/meta-data.md#canonical-meta-tag)를 참조하세요. |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | 스토어 뷰 | URL 키가 변경될 때마다 영구 리디렉션을 자동으로 만들지 여부를 결정합니다. 구현되면 제품 URL 키 필드 아래에 있는 이전 URL에 대한 사용자 지정 리디렉션 만들기 확인란이 기본적으로 선택됩니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Generate "category/product" URL Rewrites] | 글로벌 | 사용자가 많은 지정된 제품을 포함하는 카테고리를 저장할 때 Adobe Commerce이 데이터를 생성하여 다시 작성 테이블에 저장할지 여부를 결정합니다. 옵션: `Yes` / `No` <br/><br/>**_중요:_**이 생성된 데이터를 URL 재작성 테이블에 저장하면 성능이 저하될 수 있습니다. 자세한 내용은 [자동 제품 리디렉션](../../merchandising-promotions/url-redirect-product-automatic.md)을 참조하세요. |
+| [!UICONTROL Generate "category/product" URL Rewrites] | 글로벌 | 사용자가 많은 지정된 제품을 포함하는 카테고리를 저장할 때 Adobe Commerce이 데이터를 생성하여 다시 작성 테이블에 저장할지 여부를 결정합니다.  <br/><br/>시스템이 이 설정에 관계없이 제품 URL을 자동으로 확인하므로 이 옵션을 변경해도 Adobe Commerce에서 제품 URL을 확인하는 방법에는 영향을 주지 않습니다. <br/><br/>옵션: `Yes` / `No` <br/><br/>**_중요:_**생성된 데이터를 URL 재작성 테이블에 저장하면 성능이 저하될 수 있습니다. 자세한 내용은 [자동 제품 리디렉션](../../merchandising-promotions/url-redirect-product-automatic.md)을 참조하세요. |
 | [!UICONTROL Apply transliteration for product URL] | 스토어 뷰 | 제품 URL을 만들거나 업데이트할 때 음역이 적용되는지 여부를 결정합니다. 옵션: `Yes` / `No`. 기본값은 `Yes`(으)로 설정됩니다. <br/><br/>특정 사용 사례의 경우 음역을 사용하지 않도록 설정해야 합니다. 예를 들어, 중국어로 온라인 스토어를 운영하는 경우 SEO 모범 사례에서는 제품 URL이 제품 이름과 일치하도록 권장합니다. 옵션을 `No`(으)로 설정하면 제품 URL에서 ASCII에 해당하는 문자 대신 한자를 사용할 수 있습니다. |
 | [!UICONTROL Page Title Separator] | 스토어 뷰 | 브라우저 제목 표시줄에서 카테고리 이름과 하위 카테고리를 구분하는 문자를 식별합니다. |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | 스토어 뷰 | 동일한 카테고리 페이지를 가리키는 URL이 여러 개 있는 경우 이 옵션은 표준 메타 태그를 사용하여 검색 엔진이 인덱싱해야 하는 카테고리 URL을 식별합니다. URL에는 메타 태그를 사용하는 카테고리의 전체 이름이 포함되어 있습니다. 이렇게 하면 중복 컨텐츠가 줄어들고 SEO가 향상됩니다. 옵션: `Yes` / `No` |
