@@ -3,9 +3,9 @@ title: 통합 구성
 description: Adobe Commerce 및 Experience Manager Assets 프로젝트를 연결하여 이러한 두 시스템 간에 에셋을 동기화하는 방법에 대해 알아봅니다.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: 8db3e4b039ed8e020a1a2400e400df01c34f1943
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자
 
 초기 설정의 경우 기본 *제품별 일치 sku* 규칙을 사용하십시오.
 
-## 전제 조건
+## 사전 요구 사항
 
 - [AEM Assets 패키지 설치](aem-assets-configure-aem.md)
 
@@ -70,6 +70,18 @@ AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자
 1. 업데이트를 적용하고 자산 동기화를 시작하려면 **[!UICONTROL Save Config]**&#x200B;을(를) 선택하십시오.
 
    구성 업데이트는 초기 동기화 프로세스를 트리거하여 Commerce에서 AEM Assets의 수신 업데이트를 수락할 수 있습니다. 동기화에 필요한 시간은 에셋의 볼륨과 특정 구성에 따라 다릅니다. 통합은 자동화된 프로세스를 활용하여 동기화에 필요한 시간을 최소화합니다.
+
+### 사용자 정의 도메인 URL 구성
+
+판매자가 AEM 대시보드에서 [사용자 지정 도메인 이름](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank}을(를) 설정하는 경우 AEM Assets 통합에서 사용할 수 있도록 Commerce에서 이 **사용자 지정 도메인 URL**&#x200B;을(를) 추가해야 합니다.
+
+1. **[!UICONTROL Store]** > 구성 > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**(으)로 이동합니다.
+
+   ![AEM Assets 통합을 통해 통합 사용](assets/aem-assets-view.png){width="600" zoomable="yes"}
+
+1. **사용자 지정 도메인 URL**&#x200B;을(를) **[!UICONTROL Asset Custom Domain]** 필드에 추가하십시오.
+
+1. 업데이트를 적용하고 자산 동기화를 시작하려면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭하십시오.
 
 ## 다음 단계
 
