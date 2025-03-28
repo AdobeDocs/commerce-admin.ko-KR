@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce 관리 시작 안내서
-description: Adobe Commerce 관리자를 처음 사용하는 판매자를 위한 포괄적인 정보입니다.
+description: Adobe Commerce Admin을 처음 접하는 판매자를 위한 종합 정보입니다.
 seo-title: Adobe Commerce Admin Getting Started Guide
 seo-description: Describes basic Admin tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
@@ -8,7 +8,7 @@ recommendations: noCatalog
 source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
