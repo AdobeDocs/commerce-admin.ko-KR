@@ -3,9 +3,9 @@ title: Adobe Commerce의 HIPAA 준비
 description: Adobe Commerce HIPAA 지원 확장 기능을 추가하여 HIPAA 규정 준수를 지원할 수 있는 추가 기능을 사용하는 방법에 대해 알아봅니다.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 2807c36fdb4ca169c31a5e92b4dab278a45c474c
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2375'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,21 @@ Adobe Commerce HIPAA 지원 확장, `magento/hipaa-ee`은(는) 클라우드 인�
 
 ## 시스템 요구 사항
 
-Adobe Commerce은 버전 2.4.6-p3 - 2.4.6-p8이 있는 Adobe Commerce Managed Services 또는 클라우드 인프라의 Adobe Commerce에 배포해야 합니다(베타 버전 없음).
+다음 표는 Adobe Commerce 버전과 HIPAA 준비 확장 기능 간의 호환성을 보여 줍니다.
+
+| Adobe Commerce | 지원됨 | 메모 |
+|----------------|-----------|-------|
+| 2.4.7-p4 - 2.4.7-p5 | 1.2.0 | 2.4.7-p4 지원을 사용하려면 [핫픽스](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4)가 필요합니다. |
+| 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
+| 2.4.6-p8 | 1.1.0 | [데이터 서비스](#adobe-commerce-services)에 대한 지원이 1.1.0에 도입되었습니다. |
+| 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
+
+>[!IMPORTANT]
+>
+>- HIPAA 지원 확장은 Adobe Commerce on Cloud 또는 Adobe Commerce Managed Services 프로젝트에만 사용할 수 있습니다.
+>- 확장은 `repo.magento.com`에서 작성기 메타패키지로 사용할 수 있습니다.
+>- HIPAA 지원 기능에 액세스하려면 Adobe Commerce용 의료 서비스 추가 기능이 필요합니다.
+>- Adobe Commerce 베타 버전은 지원되지 않습니다.
 
 ## 설치
 
@@ -52,7 +66,7 @@ Adobe Commerce은 버전 2.4.6-p3 - 2.4.6-p8이 있는 Adobe Commerce Managed Se
 
 >[!ENDSHADEBOX]
 
-Adobe Commerce 버전 2.4.6-p3 - 2.4.6-p8을 실행하는 인스턴스에 Adobe의 HIPAA 준비 서비스 확장(`magento/hipaa-ee`)의 최신 버전을 설치합니다. 확장은 [repo.magento.com](https://repo.magento.com) 리포지토리에서 작성기 메타패키지로 전달됩니다. 메타패키지에는 Adobe Commerce 인스턴스에 대해 HIPAA 기능을 활성화하는 모듈 컬렉션이 포함되어 있습니다.
+Adobe Commerce 버전 2.4.7-p5 또는 2.4.6-p3에서 2.4.6-p8을 실행하는 인스턴스에 Adobe의 HIPAA 지원 서비스 확장(`magento/hipaa-ee`)의 최신 버전을 설치합니다. 확장은 [repo.magento.com](https://repo.magento.com) 리포지토리에서 작성기 메타패키지로 전달됩니다. 메타패키지에는 Adobe Commerce 인스턴스에 대해 HIPAA 기능을 활성화하는 모듈 컬렉션이 포함되어 있습니다.
 
 >[!NOTE]
 >
@@ -82,7 +96,7 @@ Adobe Commerce 버전 2.4.6-p3 - 2.4.6-p8을 실행하는 인스턴스에 Adobe�
    composer update "magento/hipaa-ee"
    ```
 
-1. 업데이트된 코드를 클라우드 환경에 추가, 커밋 및 푸시합니다.
+1. 업데이트된 코드를 추가, 커밋 및 클라우드 환경에 푸시합니다.
 
    ```shell
    git add -A
@@ -90,7 +104,7 @@ Adobe Commerce 버전 2.4.6-p3 - 2.4.6-p8을 실행하는 인스턴스에 Adobe�
    git push origin <branch-name>
    ```
 
-   업데이트를 푸시하면 [Commerce 클라우드 배포 프로세스](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process)가 시작되어 변경 내용을 적용합니다. [배포 로그](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)에서 배포 상태를 확인하십시오.
+   업데이트를 푸시하면 변경 사항을 적용하기 위한 Commerce 클라우드 배포 프로세스가](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) 시작됩니다[. 배포 로그](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)에서 [배포 상태를 확인합니다.
 
 ### 설치 확인
 
@@ -102,13 +116,13 @@ Adobe Commerce 버전 2.4.6-p3 - 2.4.6-p8을 실행하는 인스턴스에 Adobe�
    magento-cloud ssh
    ```
 
-1. 명령줄에서 Adobe Commerce CLI를 사용하여 모듈 상태를 확인합니다.
+1. 명령줄에서 Adobe Systems Commerce CLI를 사용하여 모듈 상태를 확인합니다.
 
    ```shell
    bin/magento module:status
    ```
 
-1. 활성화된 모듈 목록에 HIPAA 모듈이 포함되어 있는지 확인합니다.
+1. HIPAA 모듈이 활성화된 모듈 목록에 포함되어 있는지 확인합니다.
 
    ```text
    List of enabled modules:
@@ -127,7 +141,7 @@ Adobe Commerce 버전 2.4.6-p3 - 2.4.6-p8을 실행하는 인스턴스에 Adobe�
    <truncated for brevity>
    ```
 
-   `Magento_Hipaa` 접두사가 있는 모든 모듈은 사용 가능한 모듈 섹션에 있어야 합니다.
+   접두사가 `Magento_Hipaa` 붙은 모든 모듈은 활성화된 모듈 섹션에 있어야 합니다.
 
 ## HIPAA 준비를 위한 기능 개선 사항
 
@@ -201,23 +215,23 @@ Adobe Commerce의 HIPAA 고객 검색 결과 제한 기능은 PHI(보호 상태 
 
 - 필터가 적용되어 있지 않거나 필터가 충분하지 않은 경우 API는 검색을 수행하는 데 필요한 필터 수가 필요하다는 오류 메시지를 반환합니다.
 - 승인된 사용자가 충분한 필터를 적용하면 API는 지정된 제한 내의 결과를 반환합니다.
-- 결과가 제한되면 검색된 총 레코드 수와 현재 적용된 제한을 나타내는 메시지가 응답에 추가됩니다.
+- 결과가 제한되면 발견된 총 레코드 수와 현재 적용된 한계를 나타내는 메시지가 응답에 추가됩니다.
 
-### 가져오기 및 내보내기 기능
+### 기능 가져오기 및 내보내기
 
-가져오기 및 내보내기 기능의 개선 사항은 관리 경험을 개선하고 사용자 작업에 대한 더 나은 가시성을 제공하는 데 중점을 둡니다.
+가져오기 및 내보내기 기능에 대한 향상된 기능은 관리 경험 환경을 개선하고 사용자 작업에 대한 더 나은 가시성을 제공하는 데 중점을 둡니다.
 
 >[!NOTE]
 >
->이러한 ***향상된 기능은 가져오기 및 내보내기 코어 논리를 변경하지 않습니다***. 오히려 기능을 확장하여 보다 포괄적인 로깅 및 향상된 데이터 속성을 제공합니다. 수입과 수출의 기본 기능은 변함이 없습니다. 사용자는 중단 없이 기존 기능 및 워크플로를 계속 사용할 수 있습니다.
+>이러한 ***향상된 기능은 가져오기 및 내보내기 핵심 논리***&#x200B;를 변경하지 않고 기능을 확장하여 보다 포괄적인 로깅 및 향상된 데이터 기여도 분석 제공합니다. 수입과 수출의 기본 기능은 변함이 없습니다. 사용자는 기존 기능과 워크플로우를 중단 없이 계속 사용할 수 있습니다.
 
 #### 관리 작업 로깅
 
-가져오기 및 내보내기 기능의 주요 개선 사항 중 하나는 관리 작업의 로깅 향상입니다. 이 향상된 기능은 데이터 가져오기 및 내보내기와 관련된 활동을 자세히 분석하는 기능을 도입하여 추적 및 감사 기능을 개선하는 데 기여합니다. 다음 작업이 기록되고 **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**표에 반영됩니다.
+가져오기 및 내보내기 기능의 주요 개선 사항 중 하나는 관리 작업의 향상된 로깅 기능입니다. 이 향상된 기능은 데이터 가져오기 및 내보내기와 관련된 활동을 더 깊이 파고들 수 있는 기능을 도입하여 향상된 추적 및 감사 기능에 기여합니다. 이제 다음 작업이 기록되고 > _[!UICONTROL Action Logs]_> 그리드에 반영됩니다&#x200B;**[!UICONTROL System].[!UICONTROL Report]**
 
-| 유형 | 액션 |
+| 형 | 액션 |
 | ---- | ------- |
-| 가져오기 | <ul><li>관리자 사용자가 가져오기를 실행합니다.<li>관리자가 가져온 파일을 다운로드합니다.<li>관리자 사용자가 오류 파일을 다운로드합니다<ul/> |
+| 수입 | <ul><li>관리자 사용자가 가져오기를 실행합니다.<li>관리자가 가져온 파일을 다운로드합니다.<li>관리자 사용자가 오류 파일을 다운로드합니다<ul/> |
 | 내보내기 | <ul><li>관리자 사용자 요청<li>관리자 사용자가 내보낸 파일을 다운로드합니다<ul/> |
 | 예약된 가져오기/내보내기 | <ul><li>관리자 사용자가 내보내기 일정 예약<li>관리자가 예약된 내보내기를 편집합니다.<li>관리자 사용자가 예약된 내보내기를 실행합니다.<li>관리자 사용자가 예약된 내보내기를 삭제합니다.<li>관리자 사용자가 가져오기를 예약합니다.<li>관리자가 예약된 가져오기를 편집합니다.<li>관리자 사용자가 예약된 가져오기를 실행합니다.<li>관리자 사용자가 예약된 가져오기를 삭제합니다.<li>관리자 사용자가 가져오기/내보내기 작업의 일괄 삭제를 실행합니다.<ul/> |
 
@@ -258,7 +272,7 @@ Adobe Commerce의 HIPAA 고객 검색 결과 제한 기능은 PHI(보호 상태 
 
 ### Adobe Commerce 서비스
 
-다음 표는 HIPAA 준비 오퍼링에 사용할 수 있는 Adobe Commerce 서비스를 식별합니다. 이러한 서비스에는 다음이 포함되지만 이에 국한되지 않습니다.
+다음 표에는 HIPAA 준비 서비스에 사용할 수 있는 Adobe Systems Commerce 서비스가 나와 있습니다. 이러한 서비스에는 다음이 포함되지만 이에 국한되지 않습니다.
 
 | 서비스 | 비프로덕션 | 프로덕션 |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|

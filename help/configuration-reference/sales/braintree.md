@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Br
 description: Commerce 관리자의 [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] 페이지에서 [!UICONTROL Braintree] 섹션에 대한 구성 설정을 검토하십시오.
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
-source-git-commit: d22d44b8c93649a60b16569cc502d2e291ce6b22
+source-git-commit: bb083698aff1da145bbb661307148c9223d5b545
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2822'
 ht-degree: 0%
 
 ---
@@ -35,22 +35,22 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Title] | 스토어 뷰 | 기본값: `Credit Card`(Braintree) |
 | [!UICONTROL Environment] | 스토어 뷰 | 옵션: `Sandbox` / `Production` |
-| [!UICONTROL Payment Action] | 스토어 뷰 | 지불이 처리될 때 Braintree에서 수행한 작업을 결정합니다. 옵션: <br/>**`Authorize`**- 고객의 신용 카드에 있는 자금은 승인되지만 계정에서 이체되지 않습니다. 주문이 스토어 관리자에서 생성됩니다. 나중에 판매를 캡처하고 송장을 생성할 수 있습니다.<br/>**`Intent Sale`**(이전 릴리스의 경우 이전 `Authorize and Capture`) - 고객의 신용 카드에 있는 자금은 Braintree에 의해 승인되고 캡처되며 매장 관리자에 주문과 송장이 생성됩니다. |
+| [!UICONTROL Payment Action] | 매장 보기 | 지불이 처리될 때 Braintree에서 수행한 작업을 결정합니다. 옵션: <br/>**`Authorize`**- 고객의 신용 카드에 있는 자금은 승인되지만 계정에서 이체되지 않습니다. 주문이 스토어 관리자에서 생성됩니다. 나중에 판매를 캡처하고 송장을 생성할 수 있습니다.<br/>**`Intent Sale`**(이전 릴리스의 경우 이전 `Authorize and Capture`) - 고객의 신용 카드에 있는 자금은 Braintree에 의해 승인되고 캡처되며 매장 관리자에 주문과 송장이 생성됩니다. |
 | [!UICONTROL Sandbox Merchant ID] | 스토어 뷰 | 전체 샌드박스 게이트웨이 계정에 대한 고유 식별자입니다. _공개 ID_ 또는 _프로덕션 ID_&#x200B;이라고도 하는 판매자 ID는 프로덕션 및 샌드박스 게이트웨이에 대해 다릅니다. 이 필드는 _[!UICONTROL Environment]_필드가 `Sandbox`(으)로 설정된 경우 나타납니다. |
-| [!UICONTROL Sandbox Public Key] | 스토어 뷰 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 공용 식별자입니다. 샌드박스 Braintree 게이트웨이와 연결된 각 사용자에게는 고유한 샌드박스 공개 키가 있습니다. 이 필드는 _[!UICONTROL Environment]_필드가 `Sandbox`(으)로 설정된 경우 나타납니다. |
-| [!UICONTROL Sandbox Private Key] | 스토어 뷰 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 개인 식별자입니다. 샌드박스 Braintree 게이트웨이와 연결된 각 사용자는 샌드박스에 대한 자체 개인 키를 가집니다. 이 필드는 _[!UICONTROL Environment]_필드가 `Sandbox`(으)로 설정된 경우 나타납니다. |
-| [!UICONTROL Merchant ID] | 스토어 뷰 | 게이트웨이에 있을 수 있는 여러 판매자 계정을 포함하여 전체 게이트웨이 계정에 대한 고유 식별자입니다. _공개 ID_ 또는 _프로덕션 ID_&#x200B;이라고도 하는 판매자 ID는 프로덕션 및 샌드박스 게이트웨이에 대해 다릅니다. 이 필드는 _[!UICONTROL Environment]_필드가 `Production`(으)로 설정된 경우 나타납니다. |
-| [!UICONTROL Public Key] | 스토어 뷰 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 공용 식별자입니다. Braintree 게이트웨이와 연결된 각 사용자에게는 고유한 공개 키가 있습니다. 이 필드는 _[!UICONTROL Environment]_필드가 `Production`(으)로 설정된 경우 나타납니다. |
+| [!UICONTROL Sandbox Public Key] | 매장 보기 | 암호화된 데이터에 대한 액세스를 제한하는 사용자 고유의 공개 식별자입니다. Sandbox Braintree 게이트웨이와 연결된 각 사용자에는 고유한 샌드박스 공개 키가 있습니다. 이 필드는 필드가 _[!UICONTROL Environment]_로 설정되어 `Sandbox`있을 때 나타납니다. |
+| [!UICONTROL Sandbox Private Key] | 매장 보기 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 개인 식별자입니다. 샌드박스 Braintree 게이트웨이와 연결된 각 사용자 사이에는 샌드박스에 대한 고유한 개인 키가 있습니다. 이 필드는 필드가 _[!UICONTROL Environment]_로 설정되어 `Sandbox`있을 때 나타납니다. |
+| [!UICONTROL Merchant ID] | 매장 보기 | 이것은 게이트웨이에 있을 수 있는 여러 판매자 계정을 포함하여 전체 게이트웨이 계정에 대한 고유 식별자입니다. 공개 ID _또는_&#x200B;프로덕션 ID _라고도_&#x200B;하는 판매자 ID는 프로덕션 게이트웨이와 샌드박스 게이트웨이에 따라 다릅니다. 이 필드는 필드가 _[!UICONTROL Environment]_로 설정되어 `Production`있을 때 나타납니다. |
+| [!UICONTROL Public Key] | 매장 보기 | 암호화된 데이터에 대한 액세스를 제한하는 사용자 고유의 공개 식별자입니다. Braintree 게이트웨이와 연결된 각 사용자에게는 고유한 공개 키가 있습니다. 이 필드는 _[!UICONTROL Environment]_필드가 `Production`(으)로 설정된 경우 나타납니다. |
 | [!UICONTROL Private Key] | 스토어 뷰 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 개인 식별자입니다. Braintree 게이트웨이와 연결된 각 사용자에게는 고유한 개인 키가 있습니다. 이 필드는 _[!UICONTROL Environment]_필드가 `Production`(으)로 설정된 경우 나타납니다. |
 | [!UICONTROL Enable Card Payments] | 웹 사이트 | 고객이 Braintree 신용카드 결제 방법을 결제 방법으로 사용할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Enable Vault for Card Payments] | 웹 사이트 | 활성화하면 은 고객 결제 정보를 위한 안전한 저장소를 제공하므로 고객은 구매 시마다 신용 카드 정보를 다시 입력할 필요가 없습니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Enable Vault CVV Reverification] | 웹 사이트 | 활성화하면 Braintree 계정의 CVV 규칙 설정에 대한 유효성 검사가 수행됩니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Vault for Card Payments] | 웹 사이트 | 사용하도록 설정하면 고객 결제 정보에 대한 보안 저장소가 제공되므로 고객은 구매할 때마다 신용 카드 카드 정보를 다시 입력할 필요가 없습니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Vault CVV Re-verification] | 웹 사이트 | 활성화하면 Braintree 계정의 CVV 규칙 설정에 대한 유효성 검사가 수행됩니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Braintree Settings]
 
-![Braintree 고급 설정](./assets/payment-methods-braintree-advanced-config.png){width="550" zoomable="yes"}
+![Braintree 고급 설정](./assets/payment-methods-braintree-advanced-config.png)
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -73,8 +73,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Webhook] | 웹 사이트 | 사기 보호, ACH 결제, 로컬 결제 방법 및 분쟁에 대해 웹후크 기능을 사용할 수 있도록 합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Fraud Protection URL] | 웹 사이트 | 이 URL을 Braintree 계정에 [!UICONTROL Webhook Destination URL]&#x200B;(으)로 추가하십시오. **이 URL은 안전하고 공개적으로 액세스할 수 있어야 합니다.** |
-| [!UICONTROL Fraud Protection Approve Order Status] | 웹 사이트 | Braintree에서 사기 행위 보호를 승인하면 선택한 주문 상태가 Commerce 주문에 할당됩니다. 이 상태는 ACH 결제 방법이 사용되는 주문의 상태와 Braintree에서 `SETTLED`(으)로 이동할 때 이를 업데이트하는 데 사용됩니다. |
-| [!UICONTROL Fraud Protection Reject Order Status] | 웹 사이트 | Braintree에서 사기 행위 보호를 거부하면 선택한 주문 상태가 Commerce 주문에 할당됩니다. 이 상태는 Braintree에서 ACH 결제 방법이 사용되고 `SETTLEMENT`이(가) `DECLINED`인 경우 주문 상태를 업데이트하는 데 사용됩니다. |
+| [!UICONTROL Fraud Protection Approve Order Status] | 웹 사이트 | Braintree 에서 사기 방지를 승인하면 선택한 주문 상태가 상거래 주문에 할당됩니다. 이 상태는 ACH 결제 수단이 사용되는 주문의 상태와 Braintree 로 이동하는 `SETTLED` 시점을 업데이트하는 데 사용됩니다. |
+| [!UICONTROL Fraud Protection Reject Order Status] | 웹 사이트 | Braintree에서 사기 방지를 거부하면 선택한 주문 상태가 상거래 주문에 할당됩니다. 이 상태는 ACH 결제 수단이 사용되는 주문의 상태와 Braintree 에 있는 `DECLINED` 시기를 `SETTLEMENT` 업데이트하는 데 사용됩니다. |
 
 {style="table-layout:auto"}
 
@@ -82,22 +82,22 @@ ht-degree: 0%
 
 ![국가별 설정](./assets/payment-methods-braintree-country-specific-config.png)<!-- zoom -->
 
-| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+| 밭 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Payment from Applicable Countries] | 웹 사이트 | Braintree에서 처리한 결제를 모든 국가에서 수락할지 또는 특정 국가에서만 수락할지 여부를 결정합니다. 옵션: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 웹 사이트 | 해당하는 경우 는 Braintree에서 처리한 지급을 수락하는 특정 국가를 식별합니다. |
-| [!UICONTROL Country Specific Credit Card Types] | 웹 사이트 | Braintree에서 처리한 결제에 대해 국가별로 허용되는 신용 카드를 식별합니다. 각 국가별로 레코드가 저장됩니다. 옵션: <br/>**`Country`**- 국가를 선택합니다.<br/>**`Allowed Card Types`** - 국가에서 Braintree을 통한 결제로 수락된 각 신용 카드를 선택합니다. <br/>**`Add`**- 다른 국가의 신용 카드를 허용하는 줄을 추가합니다.<br/>**`Action`** - 국가에 대해 허용되는 신용 카드 기록을 삭제합니다. |
+| [!UICONTROL Country Specific Credit Card Types] | 웹 사이트 | Braintree에서 처리한 결제에 대해 국가별로 허용되는 신용 카드를 식별합니다. 각 국가별로 레코드가 저장됩니다. 옵션: <br/>**`Country`**- 국가를 선택합니다.<br/>**`Allowed Card Types`** - 국가에서 Braintree을 통한 결제로 수락된 각 신용 카드를 선택합니다. <br/>**`Add`**- 다른 국가의 신용 카드를 허용하는 선을 추가합니다.<br/>**`Action`** - 해당 국가에서 사용할 수 있는 신용 카드 기록을 삭제합니다. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL ACH through Braintree]
 
-![Braintree을 통해 ACH](./assets/payment-methods-braintree-ach-config.png)<!-- zoom -->
+![Braintree 를 통한 ACH](./assets/payment-methods-braintree-ach-config.png)<!-- zoom -->
 
-| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+| 밭 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Enabled ACH Direct Debit] | 웹 사이트 | [!DNL ACH Direct Debit]이(가) Braintree을 통해 결제 방법으로 포함되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Enable Vault for ACH Direct Debit] | 웹 사이트 | 고객은 나중에 사용하기 위해 일회용 ACH 직불 결제 방법을 저장/저장할 수 있습니다. 결제 세부 사항이 저장되면 고객은 데이터를 다시 입력하거나 결제 정보를 다시 인증하지 않고도 ACH 직불 결제 방법을 사용할 수 있습니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Vault for ACH Direct Debit] | 웹 사이트 | 고객은 나중에 사용하기 위해 일회용 ACH 직불 결제 방법을 저장/저장할 수 있습니다. 결제 세부 사항 금고가 보관되면 고객은 데이터를 다시 입력하거나 결제 정보를 다시 인증하지 않고도 ACH 자동 이체 결제 방법을 사용할 수 있습니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 [!DNL ACH Direct Debit]이(가) 다른 결제 방법과 함께 나열되는 순서를 결정합니다. |
 
 {style="table-layout:auto"}
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Title] | 웹 사이트 | 체크아웃 결제 방법 섹션에 표시되는 레이블입니다. 기본값: `Local Payments` |
 | [!UICONTROL Fallback Button Text] | 웹 사이트 | 고객을 웹 사이트로 다시 안내하는 대체 Braintree 페이지에 표시되는 단추에 사용할 텍스트를 입력합니다. 기본값: `Complete Checkout` |
 | [!UICONTROL Redirect on Fail] | 웹 사이트 | 로컬 결제 방법 트랜잭션이 취소되거나 실패하거나 오류가 발생할 때 고객을 리디렉션해야 하는 URL을 지정합니다. 결제 페이지(예: `https://www.domain.com/checkout#payment`)여야 합니다. |
-| [!UICONTROL Allowed Payment Method] | 웹 사이트 | 사용할 로컬 결제 방법을 선택합니다. 옵션: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (아직 지원되지 않음) |
+| [!UICONTROL Allowed Payment Method] | 웹 사이트 | 사용할 로컬 결제 방법을 선택합니다. 옵션: `Bancontact` / `EPS` / `iDeal` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 시 로컬 결제 방법이 다른 결제 방법과 함께 나열되는 순서를 결정합니다. |
 
 {style="table-layout:auto"}
@@ -143,10 +143,10 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled GooglePay through Braintree] | 웹 사이트 | [!DNL Google Pay] 결제가 Braintree을 통한 결제 방법으로 포함되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Enable Vault for GooglePay] | 웹 사이트 | 고객은 향후 사용을 위해 Google 결제 방법을 저장/저장할 수 있습니다. 결제 세부 사항이 저장되면 고객은 데이터를 다시 입력하거나 결제 정보를 다시 인증하지 않고도 Google 페이를 사용할 수 있습니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Payment Action] | 웹 사이트 | 지불이 처리될 때 Braintree에서 수행한 작업을 결정합니다. 옵션: <br/>**`Authorize`**- 고객 카드의 자금이 승인되었지만 고객 계정에서 이체되지 않습니다. 주문이 스토어 관리자에서 생성됩니다. 나중에 판매를 캡처하고 송장을 생성할 수 있습니다.<br/>**`Intent Sale`** - 고객 카드의 자금은 Braintree에 의해 승인되고 캡처되며, 매장 관리자에 주문 및 송장이 만들어집니다. **_참고:_** 2.3.x 및 이전 릴리스의 `Authorize and Capture`입니다. |
+| [!UICONTROL Payment Action] | 웹 사이트 | 결제가 처리될 때 Braintree 에서 취할 조치를 결정합니다. 옵션: <br/>**`Authorize`**- 고객의 카드에 있는 자금은 승인되었지만 고객의 계정에서 이체되지 않습니다. 스토어 관리에서 주문이 생성됩니다. 나중에 판매를 매입하고 송장을 생성할 수 있습니다.<br/>**`Intent Sale`** - 고객 카드의 자금은 Braintree에 의해 승인되고 캡처되며, 매장 관리자에 주문 및 송장이 만들어집니다. **_참고:_** 2.3.x 및 이전 릴리스의 `Authorize and Capture`입니다. |
 | [!UICONTROL Button Color] | 웹 사이트 | [!DNL Google Pay] 단추의 색을 결정합니다. 옵션: `White` / `Black` |
 | [!UICONTROL Merchant ID] | 스토어 뷰 | Google에서 제공한 ID를 여기에 입력해야 합니다. |
-| [!UICONTROL Accepted Cards] | 웹 사이트 | 고객이 [!DNL Google Pay]을(를) 사용하여 주문하는 데 사용할 수 있는 카드 유형을 선택하십시오. |
+| [!UICONTROL Accepted Cards] | 웹 사이트 | 고객이 를 사용하여 [!DNL Google Pay]주문할 수 있는 카드 유형을 선택합니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 시 Google Pay가 다른 결제 방법과 함께 나열되는 순서를 결정합니다. |
 
 {style="table-layout:auto"}
@@ -166,7 +166,8 @@ ht-degree: 0%
 
 ## [!UICONTROL PayPal through Braintree]
 
-![Braintree을 통한 PayPal](./assets/payment-methods-braintree-paypal-config.png){width="550" zoomable="yes"}
+![Braintree 구성을 통한 PayPal](./assets/payment-methods-braintree-paypal-config-1.png)
+![Braintree 구성을 통한 PayPal](./assets/payment-methods-braintree-paypal-config-2.png)
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -180,10 +181,13 @@ ht-degree: 0%
 | [!UICONTROL Override Merchant Name] | 스토어 뷰 | 각 스토어 조회수에 대해 판매자를 식별하는 데 사용할 수 있는 대체 이름. |
 | [!UICONTROL Payment Action] | 웹 사이트 | 결제가 처리될 때 Braintree을 통해 PayPal이 취하는 조치를 결정합니다. 옵션: <br/>**`Authorize`**- 고객 카드의 자금이 승인되었지만 고객 계정에서 이체되지 않습니다. 주문이 스토어 관리자에서 생성됩니다. 나중에 판매를 캡처하고 송장을 생성할 수 있습니다.<br/>**`Authorize and Capture`** - 고객 카드의 자금은 Braintree을 통해 PayPal에 의해 승인되고 캡처되며 매장 관리자에 주문과 송장이 만들어집니다. |
 | [!UICONTROL Payment from Applicable Countries] | 웹 사이트 | 모든 국가에서 Braintree을 통해 PayPal에서 처리한 결제를 수락할지 또는 특정 국가에서만 결제할지 결정합니다. 옵션: `All Allowed Countries` / `Specific Countries` |
-| [!UICONTROL Payment from Specific Countries] | 웹 사이트 | 해당하는 경우 는 Braintree에서 처리한 지급을 수락하는 특정 국가를 식별합니다. |
-| [!UICONTROL Require Customer's Billing Address] | 웹 사이트 | 주문을 제출하는 데 고객의 청구 주소가 필요한지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Payment from Specific Countries] | 웹 사이트 | 해당되는 경우, 귀하가 Braintree 에서 처리한 결제를 수락하는 특정 국가를 명시합니다. |
+| [!UICONTROL Require Customer's Billing Address] | 웹 사이트 | 주문을 제출하는 데 고객의 과금 주소가 필요한지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Skip Order Review Step] | 웹 사이트 | 고객이 결제를 완료하기 전에 검토 페이지로 리디렉션되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Debug] | 웹 사이트 | Braintree 시스템을 통한 PayPal과 저장소 간의 통신이 로그 파일에 기록되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Display on Shopping Cart] | 웹 사이트 | [미니 장바구니](../../stores-purchase/cart-configuration.md#mini-cart) 및 [장바구니](../../stores-purchase/cart.md) 페이지에 PayPal 단추가 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Display on Shopping Cart] | 웹 사이트 | PayPal 버튼이 미니 장바구니](../../stores-purchase/cart-configuration.md#mini-cart)[와 장바구니](../../stores-purchase/cart.md) 페이지에 나타나[는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Send Package Tracking] | 웹 사이트 | 패키지 추적 정보는 PayPal 거래/주문에 대해서만 PayPal로 전송됩니다. [!UICONTROL Package Tracking] 기능이 제대로 작동하려면 [!UICONTROL Send Cart Line Items for PayPal] 구성 필드를 활성화해야 합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Use PayPal's "Notify Payer" functionality] | 웹 사이트 | 이 옵션이 Yes로 설정되면 PayPal에서 패키지 추적 업데이트에 대한 알림을 구매자 또는 지불인이 받게 됩니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -227,18 +231,6 @@ ht-degree: 0%
 >
 >**[!DNL Size(Deprecated)]** 구성 필드는 더 이상 사용되지 않으며 PayPal 단추 스타일에 사용되지 않습니다.
 
-**[!UICONTROL PayLater Messaging]**
-
-| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
-|--- |--- |--- |
-| [!UICONTROL Show PayLater Messaging] | 웹 사이트 | 선택한 위치에서 PayLater 메시지를 활성화합니다. 옵션: `Yes` / `No`. 사용하도록 설정하면 사용 가능한 오퍼에 대한 PayLater 메시지를 표시합니다([제한 적용](https://developer.paypal.com/docs/checkout/pay-later/us/)). |
-| [!UICONTROL Message Layout] | 웹 사이트 | PayLater 메시지 레이아웃을 결정합니다. 옵션: `Text` / `Flex` |
-| [!UICONTROL Logo] | 웹 사이트 | PayPal 단추에 사용되는 로고 유형을 결정합니다. 옵션: `Inline` / `Primary` / `Alternative` / `None` |
-| [!UICONTROL Logo Position] | 웹 사이트 | PayPal 단추의 로고 위치를 결정합니다. 옵션: `Left` / `Right` / `Top` |
-| [!UICONTROL Text Color] | 웹 사이트 | PayPal 단추의 텍스트 색을 결정합니다. 옵션: `Black` / `White` / `Monochrome` / `Grayscale` |
-
-{style="table-layout:auto"}
-
 이러한 옵션이 설정되면 PayPal 버튼과 PayLater 메시지의 미리 보기를 볼 수 있습니다. 설정을 적용하거나 값을 재설정하는 데 사용할 수 있는 컨트롤이 있습니다.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
@@ -246,6 +238,48 @@ ht-degree: 0%
 | [!UICONTROL Apply] | 웹 사이트 | 단추 및 PayLater 메시지에 대해 선택한 스타일 설정을 저장하고 현재 위치 및 현재 단추 유형에 적용합니다. |
 | [!UICONTROL Apply to All Buttons] | 웹 사이트 | 단추 및 PayLater 메시지 값에 대해 선택한 스타일 설정을 저장하고 모든 단추 유형 및 위치에 적용합니다. |
 | [!UICONTROL Reset to Recommended Defaults] | 웹 사이트 | 단추 및 PayLater 메시지에 대한 권장 기본값으로 스타일 설정을 반환하고 모든 단추 유형 및 위치에 적용합니다. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Pay Later Messaging]
+
+**[!UICONTROL Product Page]**
+
+![나중에 결제 메시지 - 제품 페이지](./assets/payment-methods-braintree-paylater-messaging-product.png)<!-- zoom -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | 웹 사이트 | 선택한 위치에서 PayLater 메시지를 활성화합니다. 옵션: `Yes` / `No`. 사용 가능한 오퍼에 대해 나중에 지급 메시지를 표시합니다. 제한이 적용됩니다. [자세한 내용을 보려면 여기를 클릭하세요.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Message Layout] | 웹 사이트 | PayLater 메시지 레이아웃을 결정합니다. 옵션: `Text` / `Flex` |
+| [!UICONTROL Logo] | 웹 사이트 | 나중에 결제 메시지에 사용할 로고 유형을 결정합니다. 옵션: `Inline` / `Primary` / `Alternative` / `None` |
+| [!UICONTROL Logo Position] | 웹 사이트 | 나중에 지급 메시지에 대한 로고 위치를 결정합니다. 옵션: `Left` / `Right` / `Top` |
+| [!UICONTROL Text Color] | 웹 사이트 | [나중에 지불] 메시지의 텍스트 색상을 결정합니다. 옵션: `Black` / `White` / `Monochrome` / `Grayscale` |
+
+{style="table-layout:auto"}
+
+**[!UICONTROL Cart]**
+
+![나중에 결제 메시지 - 장바구니](./assets/payment-methods-braintree-paylater-messaging-cart.png)<!-- zoom -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | 웹 사이트 | 선택한 위치에서 PayLater 메시지를 활성화합니다. 옵션: `Yes` / `No`. 사용 가능한 오퍼에 대해 나중에 지급 메시지를 표시합니다. 제한이 적용됩니다. [자세한 내용을 보려면 여기를 클릭하세요.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Message Layout] | 웹 사이트 | PayLater 메시지 레이아웃을 결정합니다. 옵션: `Text` / `Flex` |
+| [!UICONTROL Logo] | 웹 사이트 | 나중에 결제 메시지에 사용할 로고 유형을 결정합니다. 옵션: `Inline` / `Primary` / `Alternative` / `None` |
+| [!UICONTROL Logo Position] | 웹 사이트 | 나중에 지급 메시지에 대한 로고 위치를 결정합니다. 옵션: `Left` / `Right` / `Top` |
+| [!UICONTROL Text Color] | 웹 사이트 | [나중에 지불] 메시지의 텍스트 색상을 결정합니다. 옵션: `Black` / `White` / `Monochrome` / `Grayscale` |
+
+{style="table-layout:auto"}
+
+**[!UICONTROL Checkout]**
+
+![나중에 결제 메시지 - 체크아웃](./assets/payment-methods-braintree-paylater-messaging-checkout.png)<!-- zoom -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--------------------------------------|--- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | 웹 사이트 | 선택한 위치에서 PayLater 메시지를 활성화합니다. 옵션: `Yes` / `No`. 사용 가능한 오퍼에 대해 나중에 지급 메시지를 표시합니다. 제한이 적용됩니다. [자세한 내용을 보려면 여기를 클릭하세요.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Text Align] | 웹 사이트 | PayLater 메시지 레이아웃을 결정합니다. 옵션: `Left` / `Center` / `Right` |
+| [!UICONTROL Text Color] | 웹 사이트 | [나중에 지불] 메시지의 텍스트 색상을 결정합니다. 옵션: `Black` / `White` |
 
 {style="table-layout:auto"}
 

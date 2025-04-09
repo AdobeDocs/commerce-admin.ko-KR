@@ -3,7 +3,7 @@ title: 주문 배송
 description: 처리 주문에 대한 배송 정보를 완료하고 배송 및 추적 정보를 조회하는 방법에 대해 알아봅니다.
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: abd125cc6e61850db55fb31dbcbd9dc38ac0fca5
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    - 고객 계정에 댓글을 게시하려면 **[!UICONTROL Visible on Frontend]** 확인란을 선택하십시오.
 
-1. **[!UICONTROL Submit Comment]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Update]**&#x200B;을(를) 클릭합니다.
 
 ## 배송 추적
 

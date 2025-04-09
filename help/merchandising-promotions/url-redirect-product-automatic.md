@@ -3,9 +3,9 @@ title: 자동 리디렉션
 description: Commerce 스토어에서 제품 또는 카테고리의 URL 키가 변경될 때마다 자동 리디렉션을 생성하도록 구성하는 방법에 대해 알아봅니다.
 exl-id: fbde09d3-a1a3-4bac-a850-4c74c99fe714
 feature: Categories, Products, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: d088d5833b9c61e7b1c90a0839fdf38527929ce5
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,11 @@ ht-degree: 0%
 1. **[!UICONTROL Create Permanent Redirect for URLs if URL Key Changed]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
+
+
+>[!NOTE]
+>
+> 스토어 보기 또는 웹 사이트 범위에 대해 URL 재작성을 생성할 수 있습니다. 관리자의 URL 재작성 범위를 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**로 설정합니다._[!UICONTROL Product URL Rewrite Scope]_ 필드에서 범위를 선택합니다.
 
 ## 제품 URL 자동 리디렉션
 

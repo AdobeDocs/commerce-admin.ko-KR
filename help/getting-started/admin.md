@@ -2,12 +2,13 @@
 title: 관리자란 무엇입니까?
 description: 판매자가 제품 및 프로모션을 설정하고 주문을 관리하며 기타 관리 작업을 수행하는 장소인  [!DNL Commerce] 관리자에 대해 알아봅니다.
 exl-id: 065cf14f-80e7-4695-8922-c761a2191d72
-source-git-commit: b657db7e486fec591d5a6239d554376f00707e8c
+source-git-commit: a6b293dca673808bbc7f37cb468c6e316fddb735
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
 
 ---
+
 
 # 관리자란 무엇입니까?
 
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 ## 사용 데이터 수집
 
-_관리자_&#x200B;에 처음 로그인하면 모든 관리자 사용자에 대한 사용 데이터를 수집할 수 있는 Adobe 권한을 부여하라는 메시지가 표시됩니다. 관리자 사용 데이터 수집을 허용하면 Adobe이 Adobe Commerce 관리자, 관련 제품 및 서비스를 사용하는 경험을 향상시킬 수 있습니다.
+_관리자_&#x200B;에 처음 로그인하면 모든 관리자 사용자에 대한 사용 데이터를 수집할 수 있는 Adobe 권한을 부여하라는 메시지가 표시됩니다. 관리자 사용 데이터 수집을 허용하면 Adobe이 Adobe Commerce 관리자, 관련 제품 및 서비스를 사용하는 경험을 개선할 수 있습니다.
 
 ![관리자 사용 데이터 수집 허용](./assets/admin-usage-data.png){width="600"}
 

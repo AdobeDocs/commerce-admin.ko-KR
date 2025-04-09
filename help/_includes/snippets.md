@@ -1,9 +1,9 @@
 ---
 title: 코드 조각
 description: 특정 에디션에 적용되는 기능이나 페이지를 참고하기 위해 노트 및 시각적 요소를 재사용함
-source-git-commit: eae60b99d6721442c4bfcf1a8db6a06826463d9c
+source-git-commit: e82b979ee2c5f51caba6a2aa416c5f20dbce110a
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 ## EE 전용 기능 {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerce 기능" src="../assets/adobe-logo.svg" width="20" height="20" /> Adobe Commerce의 전용 기능(<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">자세히 알아보기</a>)</td></tr>
+<tr><td><img alt="Adobe Systems Commerce 기능" src="../assets/adobe-logo.svg" width="20" height="20" /> Adobe Commerce의 전용 기능(<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">자세히 알아보기</a>)</td></tr>
 </table>
 
 ## B2B 전용 기능 {#b2b-feature}
@@ -44,15 +44,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->자동 리디렉션이 활성화되어 있고 카테고리를 저장하면 모든 제품 및 카테고리 재쓰기가 실시간으로 생성되고 기본적으로 재작성 테이블에 저장됩니다. 이 프로세스는 많은 지정된 제품이 있는 카테고리의 성능 문제를 크게 초래할 수 있습니다. 해결 방법은 이 기본값을 변경하고 카테고리 저장을 위해 제품의 카테고리/제품 URL 재작성 생성을 건너뛰는 것입니다. 이 경우 표준 제품 URL에 대해서만 제품 재작성이 생성됩니다. 자세한 내용은 [자동 제품 리디렉션](/help/merchandising-promotions/url-redirect-product-automatic.md)을 참조하세요.
+>자동 리디렉션이 활성화되어 있고 카테고리를 저장하면 모든 제품 및 카테고리 재쓰기가 실시간으로 생성되고 기본적으로 재작성 테이블에 저장됩니다. 이 프로세스는 많은 지정된 제품이 있는 카테고리의 성능 문제를 크게 초래할 수 있습니다. 해결 방법은 이 기본값을 변경하고 카테고리 저장을 위해 제품의 카테고리/제품 URL 재작성 생성을 건너뛰는 것입니다. 이 경우 표준 제품 URL에 대해서만 제품 재작성이 생성됩니다. 자세한 내용은 자동 제품 리디렉션을](/help/merchandising-promotions/url-redirect-product-automatic.md) 참조하십시오[.
 
-## URL 재작성 매개 변수 참고 {#url-rewrite-params}
+## URL 다시 쓰기 매개 변수 참고 {#url-rewrite-params}
 
 >[!IMPORTANT]
 >
->리디렉션 과정에서 URL에 지정된 모든 GET 매개 변수는 보안상의 이유로 제거됩니다.
+>리디렉션 과정에서 보안상의 이유로 URL에 지정된 모든 GET 매개 변수가 제거됩니다.
 
-## 새 가격 규칙 {#new-price-rule}
+## 새로 만들기 가격 규칙 {#new-price-rule}
 
 >[!NOTE]
 >
@@ -82,3 +82,9 @@ ht-degree: 0%
 | [Adobe Commerce 2.4 개발자 설명서](https://developer.adobe.com/commerce/docs) | Adobe Commerce을 사용자 정의하고 타사 시스템과 통합하는 데 사용되는 개발자 중심의 설명서입니다. |
 
 {style="table-layout:auto"}
+
+## B2B 호환성 {#b2b-compatibility}
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B 버전 1.4.2+는 PHP 8.2와 호환됩니다. Commerce 인스턴스를 버전 2.4.7+로 업그레이드하는 경우 인스턴스가 PHP 버전 8.2를 사용하여 Adobe Commerce B2B 릴리스와의 호환성을 유지하는지 확인하십시오. 또한 B2B 1.4.2+ 릴리스는 [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원하지 않습니다.

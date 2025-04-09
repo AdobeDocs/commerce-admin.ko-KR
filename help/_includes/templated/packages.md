@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5e1777aad33e743340c7fdf90cbdb473b6c23689
+source-git-commit: fefaf699dda58e9c908c6b85b0cc16432edb90b6
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -23,59 +23,75 @@ Adobe Commerce B2B는 Composer를 사용하여 PHP 패키지를 관리합니다.
 
 `composer.json` 파일은 패키지 목록을 선언하지만, `composer.lock` 파일은 Adobe Commerce B2B 설치를 빌드하는 데 사용되는 패키지의 전체 목록(각 패키지 및 해당 종속 항목의 전체 버전)을 저장합니다.
 
-다음 참조 설명서는 `composer.lock` 파일에서 생성되었으며 Adobe Commerce B2B 1.4.2에 포함된 필수 패키지에 대해 설명합니다.
+다음 참조 설명서는 `composer.lock` 파일에서 생성되었으며 Adobe Commerce B2B 1.5.2에 포함된 필수 패키지에 대해 설명합니다.
 
 ## 종속성
 
-`magento/extension-b2b 1.4.2`에 다음 종속성이 있습니다.
+`magento/extension-b2b 1.5.2`에 다음 종속성이 있습니다.
 
 ```config
-magento/framework: >=103.0.6 <=103.0.7
-magento/magento2-b2b-base: 1.4.2
-magento/module-b2b: 100.4.1
-magento/module-bundle-negotiable-quote: 100.4.0
-magento/module-bundle-requisition-list: 100.4.0
-magento/module-bundle-requisition-list-graph-ql: 1.4.0
-magento/module-bundle-shared-catalog: 100.4.0
-magento/module-checkout-address-search-negotiable-quote: 100.4.1
-magento/module-checkout-agreements-negotiable-quote: 100.4.0
-magento/module-checkout-agreements-purchase-order: 1.4.0
-magento/module-company: 101.2.1
-magento/module-company-credit: 100.4.0
-magento/module-company-credit-graph-ql: 1.4.0
-magento/module-company-graph-ql: 1.4.0
-magento/module-company-payment: 100.4.0
-magento/module-company-shipping: 1.4.0
-magento/module-configurable-negotiable-quote: 100.4.0
-magento/module-configurable-requisition-list: 100.4.1
-magento/module-configurable-requisition-list-graph-ql: 1.4.0
-magento/module-configurable-shared-catalog: 100.4.0
-magento/module-downloadable-requisition-list-graph-ql: 1.4.0
-magento/module-gift-card-negotiable-quote: 100.4.0
-magento/module-gift-card-requisition-list: 100.4.0
-magento/module-gift-card-requisition-list-graph-ql: 1.4.0
-magento/module-gift-card-shared-catalog: 100.4.0
-magento/module-grouped-requisition-list: 100.4.0
-magento/module-grouped-shared-catalog: 100.4.0
-magento/module-negotiable-quote: 100.4.2
-magento/module-negotiable-quote-async-order: 1.4.1
-magento/module-negotiable-quote-graph-ql: 1.4.0
-magento/module-negotiable-quote-shared-catalog: 100.4.1
-magento/module-negotiable-quote-weee: 100.4.1
-magento/module-order-history-search: 100.4.2
-magento/module-paypal-negotiable-quote: 1.4.1
-magento/module-paypal-purchase-order: 1.4.0
-magento/module-purchase-order: 100.4.1
-magento/module-purchase-order-graph-ql: 1.4.0
-magento/module-purchase-order-rule: 100.4.0
-magento/module-purchase-order-rule-graph-ql: 1.4.0
-magento/module-quick-order: 100.4.0
-magento/module-quick-order-graph-ql: 1.4.0
-magento/module-requisition-list: 100.4.1
-magento/module-requisition-list-graph-ql: 1.4.0
-magento/module-shared-catalog: 100.4.1
-magento/module-shared-catalog-graph-ql: 1.4.0
-magento/security-package-b2b: 1.0.4
+magento/framework: >=103.0.6 <103.0.9
+magento/magento2-b2b-base: 1.5.2
+magento/module-b2b: 100.5.2
+magento/module-bundle-negotiable-quote: 100.5.1
+magento/module-bundle-requisition-list: 100.5.1
+magento/module-bundle-requisition-list-graph-ql: 1.5.1
+magento/module-bundle-shared-catalog: 100.5.1
+magento/module-checkout-address-search-negotiable-quote: 100.5.1
+magento/module-checkout-agreements-negotiable-quote: 100.5.1
+magento/module-checkout-agreements-purchase-order: 1.5.1
+magento/module-company: 102.0.2
+magento/module-company-asynchronous-operations: 1.5.1
+magento/module-company-credit: 100.5.2
+magento/module-company-credit-graph-ql: 1.5.1
+magento/module-company-customer-import-export: 1.5.0
+magento/module-company-graph-ql: 1.5.2
+magento/module-company-negotiable-quote: 1.5.1
+magento/module-company-negotiable-quote-template: 1.5.1
+magento/module-company-payment: 100.5.1
+magento/module-company-quote: 1.5.2
+magento/module-company-quote-graph-ql: 1.5.2
+magento/module-company-relation: 1.5.2
+magento/module-company-relation-shared-catalog: 1.5.1
+magento/module-company-shipping: 1.5.1
+magento/module-configurable-negotiable-quote: 100.5.1
+magento/module-configurable-requisition-list: 100.5.1
+magento/module-configurable-requisition-list-graph-ql: 1.5.1
+magento/module-configurable-shared-catalog: 100.5.1
+magento/module-downloadable-company: 1.5.1
+magento/module-downloadable-requisition-list-graph-ql: 1.5.1
+magento/module-gift-card-negotiable-quote: 100.5.1
+magento/module-gift-card-requisition-list: 100.5.1
+magento/module-gift-card-requisition-list-graph-ql: 1.5.1
+magento/module-gift-card-shared-catalog: 100.5.1
+magento/module-grouped-requisition-list: 100.5.1
+magento/module-grouped-shared-catalog: 100.5.1
+magento/module-negotiable-quote: 101.0.2
+magento/module-negotiable-quote-async-order: 1.5.1
+magento/module-negotiable-quote-duplicate: 1.5.2
+magento/module-negotiable-quote-duplicate-graph-ql: 1.5.1
+magento/module-negotiable-quote-graph-ql: 1.5.1
+magento/module-negotiable-quote-requisition-list: 1.5.1
+magento/module-negotiable-quote-requisition-list-graph-ql: 1.5.1
+magento/module-negotiable-quote-shared-catalog: 100.5.1
+magento/module-negotiable-quote-template: 1.5.2
+magento/module-negotiable-quote-template-graph-ql: 1.5.2
+magento/module-negotiable-quote-template-shared-catalog: 1.5.1
+magento/module-negotiable-quote-weee: 100.5.1
+magento/module-order-history-search: 100.5.2
+magento/module-paypal-negotiable-quote: 1.5.1
+magento/module-paypal-purchase-order: 1.5.1
+magento/module-purchase-order: 100.5.2
+magento/module-purchase-order-graph-ql: 1.5.1
+magento/module-purchase-order-rule: 100.5.2
+magento/module-purchase-order-rule-graph-ql: 1.5.1
+magento/module-quick-order: 100.5.1
+magento/module-quick-order-graph-ql: 1.5.1
+magento/module-requisition-list: 100.5.2
+magento/module-requisition-list-graph-ql: 1.5.1
+magento/module-shared-catalog: 100.5.2
+magento/module-shared-catalog-graph-ql: 1.5.1
+magento/security-package-b2b: 1.0.6
 ```
 
 ## 타사 라이선스
@@ -91,13 +107,6 @@ magento/security-package-b2b: 1.0.4
     </tr>
   </thead>
   <tbody>
-  <tr>
-    <td>
-      <a href="https://github.com/elastic/elasticsearch-php.git">elasticsearch/elasticsearch</a>
-    </td>
-    <td>라이브러리</td>
-    <td>Elasticsearch용 PHP 클라이언트</td>
-  </tr>
   <tr>
     <td>
       <a href="https://github.com/opensearch-project/opensearch-php.git">opensearch-project/opensearch-php</a>
@@ -142,6 +151,20 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/opentelemetry-php/api.git">원격 분석 열기/api</a>
+    </td>
+    <td>라이브러리</td>
+    <td>OpenTelemetry PHP용 API입니다.</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/opentelemetry-php/context.git">원격 분석 열기/컨텍스트</a>
+    </td>
+    <td>라이브러리</td>
+    <td>OpenTelemetry PHP에 대한 컨텍스트 구현입니다.</td>
+  </tr>
+  <tr>
+    <td>
       paypal/module-braintree
     </td>
     <td>메타패키지</td>
@@ -170,9 +193,9 @@ magento/security-package-b2b: 1.0.4
   <tbody>
   <tr>
     <td>
-      <a href="https://github.com/Bacon/BaconQrCode.git">베이컨/베이컨-qr-코드</a>
+      <a href="https://github.com/Bacon/BaconQrCode.git">베이컨/베이컨-qr 코드</a>
     </td>
-    <td>라이브러리</td>
+    <td>도서관</td>
     <td>BaconQrCode는 PHP용 QR 코드 생성기입니다.</td>
   </tr>
   <tr>
@@ -219,17 +242,17 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/duosecurity/duo_universal_php.git">duosecurity/duo_universal_php</a>
+    </td>
+    <td>라이브러리</td>
+    <td>듀오 유니버설 SDK의 PHP 구현입니다.</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/firebase/php-jwt.git">firebase/php-jwt</a>
     </td>
     <td>라이브러리</td>
     <td>PHP에서 JSON 웹 토큰(JWT)을 인코딩하고 디코딩하는 간단한 라이브러리입니다. 현재 사양을 준수해야 합니다.</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/google/recaptcha.git">google/recaptcha</a>
-    </td>
-    <td>라이브러리</td>
-    <td>스팸 및 악용으로부터 웹 사이트를 보호하는 무료 서비스인 reCAPTCHA용 클라이언트 라이브러리.</td>
   </tr>
   <tr>
     <td>
@@ -254,20 +277,6 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-crypt.git">laminas/laminas-crypt</a>
-    </td>
-    <td>라이브러리</td>
-    <td>강력한 암호화 도구 및 암호 해싱</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-db.git">laminas/laminas-db</a>
-    </td>
-    <td>라이브러리</td>
-    <td>데이터베이스 추상화 계층, SQL 추상화, 결과 집합 추상화, RowDataGateway 및 TableDataGateway 구현</td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://github.com/laminas/laminas-di.git">laminas/laminas-di</a>
     </td>
     <td>라이브러리</td>
@@ -282,30 +291,23 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-eventmanager.git">laminas/laminas-eventmanager</a>
+      <a href="https://github.com/laminas/laminas-eventmanager.git">라미나스/라미나스-이벤트매니저</a>
     </td>
-    <td>라이브러리</td>
-    <td>PHP 응용 프로그램 내에서 이벤트를 트리거하고 수신</td>
+    <td>도서관</td>
+    <td>PHP 애플리케이션 내에서 이벤트 트리거 및 수신 대기</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-feed.git">라미나/라미나 피드</a>
+      <a href="https://github.com/laminas/laminas-feed.git">라미나/라미나스 피드</a>
     </td>
-    <td>라이브러리</td>
-    <td>에서는 RSS 및 Atom 피드를 만들고 소비하는 기능을 제공합니다.</td>
+    <td>도서관</td>
+    <td>RSS 및 Atom 피드를 만들고 사용하기 위한 기능을 제공합니다.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-file.git">laminas/laminas-file</a>
+      <a href="https://github.com/laminas/laminas-filter.git">라미나/라미나스 필터</a>
     </td>
-    <td>라이브러리</td>
-    <td>PHP 클래스 파일 찾기</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-filter.git">laminas/laminas-filter</a>
-    </td>
-    <td>라이브러리</td>
+    <td>도서관</td>
     <td>프로그래밍 방식으로 데이터 및 파일 필터링 및 정규화</td>
   </tr>
   <tr>
@@ -338,27 +340,6 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-mail.git">laminas/laminas-mail</a>
-    </td>
-    <td>라이브러리</td>
-    <td>텍스트 및 MIME 호환 다중 파트 전자 메일 메시지를 모두 작성하고 전송하는 일반 기능을 제공합니다.</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-math.git">laminas/laminas-math</a>
-    </td>
-    <td>라이브러리</td>
-    <td>암호학적으로 안전한 의사 난수를 만들고 큰 정수를 관리합니다.</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-mime.git">laminas/laminas-mime</a>
-    </td>
-    <td>라이브러리</td>
-    <td>MIME 메시지 및 부분 만들기 및 구문 분석</td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://github.com/laminas/laminas-modulemanager.git">laminas/laminas-modulemanager</a>
     </td>
     <td>라이브러리</td>
@@ -370,13 +351,6 @@ magento/security-package-b2b: 1.0.4
     </td>
     <td>라이브러리</td>
     <td>MVC 응용 프로그램, 컨트롤러 및 플러그인을 포함한 Laminas의 이벤트 기반 MVC 계층</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/laminas/laminas-oauth.git">laminas/laminas-oauth</a>
-    </td>
-    <td>라이브러리</td>
-    <td></td>
   </tr>
   <tr>
     <td>
@@ -424,22 +398,29 @@ magento/security-package-b2b: 1.0.4
     <td>
       <a href="https://github.com/laminas/laminas-soap.git">laminas/laminas-soap</a>
     </td>
-    <td>라이브러리</td>
+    <td>도서관</td>
     <td></td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-stdlib.git">laminas/laminas-stdlib</a>
+      <a href="https://github.com/laminas/laminas-stdlib.git">라미나/라미나스-stdlib</a>
     </td>
     <td>라이브러리</td>
     <td>SPL 확장, 배열 유틸리티, 오류 처리기 등</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/laminas/laminas-text.git">laminas/laminas-text</a>
+      <a href="https://github.com/laminas/laminas-text.git">라미나스/라미나스 텍스트</a>
+    </td>
+    <td>도서관</td>
+    <td>FIGlet 및 텍스트 기반 테이블 만들기</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/laminas/laminas-translator.git">laminas/laminas-translator</a>
     </td>
     <td>라이브러리</td>
-    <td>FIGlets 및 텍스트 기반 표 만들기</td>
+    <td>Laminas-i18n의 Translator 구성 요소용 인터페이스</td>
   </tr>
   <tr>
     <td>
@@ -464,10 +445,24 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/marc-mabe/php-enum.git">marc-mabe/php-enum</a>
+    </td>
+    <td>라이브러리</td>
+    <td>기본 PHP를 사용한 열거형의 간단하고 빠른 구현</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/nikic/PHP-Parser.git">nikic/php-parser</a>
     </td>
     <td>라이브러리</td>
     <td>PHP로 작성된 PHP 파서</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/phpfui/recaptcha.git">phpfui/recaptcha</a>
+    </td>
+    <td>라이브러리</td>
+    <td>PHP 8.4 이상용 Google의 reCAPTCHA용 클라이언트 라이브러리</td>
   </tr>
   <tr>
     <td>
@@ -523,7 +518,7 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/paragonie/sodium_compat.git">파라고니/나트륨_호환</a>
     </td>
     <td>라이브러리</td>
-    <td>libsodium의 순수 PHP 구현; 존재하는 경우 PHP 확장을 사용합니다.</td>
+    <td>libsodium의 순수 PHP 구현; PHP 확장이 있는 경우 이를 사용합니다.</td>
   </tr>
   </tbody>
 </table>
@@ -534,17 +529,17 @@ magento/security-package-b2b: 1.0.4
   <thead>
     <tr>
       <th>이름</th>
-      <th>유형</th>
+      <th>형</th>
       <th>설명</th>
     </tr>
   </thead>
   <tbody>
   <tr>
     <td>
-      <a href="https://github.com/ezyang/htmlpurifier.git">ezyang/htmlclearer</a>
+      <a href="https://github.com/ezyang/htmlpurifier.git">Ezyang/htmlPurifier</a>
     </td>
-    <td>라이브러리</td>
-    <td>PHP로 작성된 표준 준수 HTML 필터</td>
+    <td>도서관</td>
+    <td>PHP로 작성된 표준 호환 HTML 필터</td>
   </tr>
   <tr>
     <td>
@@ -641,22 +636,50 @@ magento/security-package-b2b: 1.0.4
     <td>
       <a href="https://github.com/composer/semver.git">작성기/semver</a>
     </td>
-    <td>라이브러리</td>
-    <td>유틸리티, 버전 제약 조건 구문 분석 및 유효성 검사를 제공하는 Semver 라이브러리입니다.</td>
+    <td>도서관</td>
+    <td>유틸리티, 버전 제약 조건 구문 분석 및 유효성 검사 기능을 제공하는 Semver 라이브러리입니다.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/composer/spdx-licenses.git">작성기/spdx 라이선스</a>
+      <a href="https://github.com/composer/spdx-licenses.git">컴포저/spdx 라이선스</a>
     </td>
     <td>라이브러리</td>
-    <td>SPDX 라이선스 목록 및 유효성 검사 라이브러리.</td>
+    <td>SPDX 라이센스 목록 및 유효성 검사 라이브러리.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/composer/xdebug-handler.git">작성기/xdebug-handler</a>
+      <a href="https://github.com/composer/xdebug-handler.git">컴포저/xdebug-handler</a>
     </td>
-    <td>라이브러리</td>
+    <td>도서관</td>
     <td>Xdebug 없이 프로세스를 다시 시작합니다.</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/doctrine/lexer.git">doctrine/lexer</a>
+    </td>
+    <td>라이브러리</td>
+    <td>하향식 재귀 하강 파서에서 사용할 수 있는 PHP Doctrine 렉서 라이브러리.</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/egulias/EmailValidator.git">egulias/email-validator</a>
+    </td>
+    <td>라이브러리</td>
+    <td>여러 RFC에 대한 이메일 유효성 검사를 위한 라이브러리</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/elastic/elastic-transport-php.git">탄력적/전송</a>
+    </td>
+    <td>라이브러리</td>
+    <td>Elastic 제품용 HTTP 전송 PHP 라이브러리</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/elastic/elasticsearch-php.git">elasticsearch/elasticsearch</a>
+    </td>
+    <td>라이브러리</td>
+    <td>Elasticsearch용 PHP 클라이언트</td>
   </tr>
   <tr>
     <td>
@@ -702,7 +725,7 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/justinrainbow/json-schema.git">justinrainbow/json-schema</a>
+      <a href="https://github.com/jsonrainbow/json-schema.git">justinrainbow/json-schema</a>
     </td>
     <td>라이브러리</td>
     <td>JSON 스키마의 유효성을 검사하는 라이브러리입니다.</td>
@@ -718,14 +741,21 @@ magento/security-package-b2b: 1.0.4
     <td>
       <a href="https://github.com/thephpleague/flysystem-aws-s3-v3.git">league/flysystem-aws-s3-v3</a>
     </td>
-    <td>라이브러리</td>
-    <td>Flysystem용 AWS S3 파일 시스템 어댑터</td>
+    <td>도서관</td>
+    <td>Flysystem용 AWS S3 파일 시스템 어댑터.</td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/thephpleague/mime-type-detection.git">league/mime-type-detection</a>
+      <a href="https://github.com/thephpleague/flysystem-local.git">리그/플라이시스템-로컬</a>
     </td>
     <td>라이브러리</td>
+    <td>Flysystem용 로컬 파일 시스템 어댑터.</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/thephpleague/mime-type-detection.git">리그/MIME 유형 탐지</a>
+    </td>
+    <td>도서관</td>
     <td>Flysystem에 대한 MIME 유형 감지</td>
   </tr>
   <tr>
@@ -762,6 +792,27 @@ magento/security-package-b2b: 1.0.4
     </td>
     <td>라이브러리</td>
     <td>CSS 스타일을 HTML 코드의 인라인 스타일 속성으로 변환합니다.</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/php-http/discovery.git">php-http/discovery</a>
+    </td>
+    <td>composer-plug</td>
+    <td>PSR-7, PSR-17, PSR-18 및 HTTPlug 구현을 찾아서 설치합니다.</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/php-http/httplug.git">php-http/httplug</a>
+    </td>
+    <td>라이브러리</td>
+    <td>HTTPlug, PHP용 HTTP 클라이언트 추상화</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/php-http/promise.git">php-http/promise</a>
+    </td>
+    <td>라이브러리</td>
+    <td>비동기 HTTP 요청에 사용된 Promise</td>
   </tr>
   <tr>
     <td>
@@ -807,9 +858,9 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/php-fig/clock.git">psr/clock</a>
+      <a href="https://github.com/php-fig/clock.git">psr/클럭</a>
     </td>
-    <td>라이브러리</td>
+    <td>도서관</td>
     <td>시계를 읽기 위한 공통 인터페이스.</td>
   </tr>
   <tr>
@@ -838,7 +889,7 @@ magento/security-package-b2b: 1.0.4
       <a href="https://github.com/php-fig/http-factory.git">psr/http-factory</a>
     </td>
     <td>라이브러리</td>
-    <td>PSR-7 HTTP 메시지 팩토리에 대한 일반 인터페이스</td>
+    <td>PSR-17: PSR-7 HTTP 메시지 팩토리에 대한 일반 인터페이스</td>
   </tr>
   <tr>
     <td>
@@ -912,9 +963,9 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/Spomky-Labs/aes-key-wrap.git">spomky-labs/aes-key-wrap</a>
+      <a href="https://github.com/Spomky-Labs/aes-key-wrap.git">spomky-labs/aes-키 랩</a>
     </td>
-    <td>라이브러리</td>
+    <td>도서관</td>
     <td>PHP용 AES Key Wrap.</td>
   </tr>
   <tr>
@@ -1038,6 +1089,20 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/symfony/mailer.git">심포니/메일 받는 사람</a>
+    </td>
+    <td>라이브러리</td>
+    <td>이메일 전송 지원</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/symfony/mime.git">symfony/mime</a>
+    </td>
+    <td>라이브러리</td>
+    <td>MIME 메시지 조작 허용</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/symfony/polyfill-ctype.git">symfony/polyfill-ctype</a>
     </td>
     <td>라이브러리</td>
@@ -1073,13 +1138,6 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/symfony/polyfill-php72.git">symfony/polyfill-php72</a>
-    </td>
-    <td>라이브러리</td>
-    <td>일부 PHP 7.2+ 기능을 더 낮은 PHP 버전으로 지원하는 Symfony polyfill</td>
-  </tr>
-  <tr>
-    <td>
       <a href="https://github.com/symfony/polyfill-php73.git">symfony/polyfill-php73</a>
     </td>
     <td>라이브러리</td>
@@ -1098,6 +1156,13 @@ magento/security-package-b2b: 1.0.4
     </td>
     <td>라이브러리</td>
     <td>일부 PHP 8.1+ 기능을 더 낮은 PHP 버전으로 지원하는 Symfony polyfill</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/symfony/polyfill-php82.git">symfony/polyfill-php82</a>
+    </td>
+    <td>라이브러리</td>
+    <td>일부 PHP 8.2+ 기능을 더 낮은 PHP 버전으로 지원하는 Symfony polyfill</td>
   </tr>
   <tr>
     <td>
@@ -1143,17 +1208,17 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/symfony/yaml.git">symfony/yaml</a>
+    </td>
+    <td>라이브러리</td>
+    <td>YAML 파일을 로드하고 덤프합니다</td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/web-token/jwt-framework.git">웹 토큰/jwt 프레임워크</a>
     </td>
     <td>교향다발</td>
     <td>PHP 및 Symfony 번들을 위한 JSON 개체 서명 및 암호화 라이브러리입니다.</td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/webmozarts/assert.git">webmozart/assert</a>
-    </td>
-    <td>라이브러리</td>
-    <td>좋은 오류 메시지와 함께 메서드 입/출력의 유효성을 검사하는 어설션입니다.</td>
   </tr>
   <tr>
     <td>
@@ -1185,6 +1250,13 @@ magento/security-package-b2b: 1.0.4
   </tr>
   <tr>
     <td>
+      paypal/module-braintree-gift-card
+    </td>
+    <td>magento2-module</td>
+    <td>해당 사항 없음</td>
+  </tr>
+  <tr>
+    <td>
       paypal/module-braintree-gift-card-account
     </td>
     <td>magento2-module</td>
@@ -1200,6 +1272,13 @@ magento/security-package-b2b: 1.0.4
   <tr>
     <td>
       paypal/module-braintree-graph-ql
+    </td>
+    <td>magento2-module</td>
+    <td>해당 사항 없음</td>
+  </tr>
+  <tr>
+    <td>
+      paypal/module-braintree-reward
     </td>
     <td>magento2-module</td>
     <td>해당 사항 없음</td>
@@ -1221,7 +1300,7 @@ magento/security-package-b2b: 1.0.4
   </tbody>
 </table>
 
-### PHP
+### 필리핀 페소
 
 <table>
   <thead>
@@ -1236,13 +1315,13 @@ magento/security-package-b2b: 1.0.4
     <td>
       <a href="https://github.com/2tvenom/CBOREncode.git">2tvenom/cborencode</a>
     </td>
-    <td>라이브러리</td>
+    <td>도서관</td>
     <td>PHP용 CBOR 인코더</td>
   </tr>
   </tbody>
 </table>
 
-### 소유
+### 독점
 
 <table>
   <thead>
@@ -1262,7 +1341,7 @@ magento/security-package-b2b: 1.0.4
   <thead>
     <tr>
       <th>이름</th>
-      <th>유형</th>
+      <th>형</th>
       <th>설명</th>
     </tr>
   </thead>
@@ -1272,7 +1351,7 @@ magento/security-package-b2b: 1.0.4
       paypal/module-braintree-core
     </td>
     <td>magento2-module</td>
-    <td>Gene Commerce for PayPal의 Magento Braintree 2.2.0 모듈에서 포크합니다.</td>
+    <td>Gene Commerce for PayPal의 Magento Braintree 2.2.0 모듈 포크.</td>
   </tr>
   </tbody>
 </table>

@@ -3,9 +3,9 @@ title: Braintree
 description: 스토어에서 Braintree을 온라인 결제 솔루션으로 설정하는 방법에 대해 알아봅니다.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-source-git-commit: da3d64b1d248635b8d13f8bb6e85c8ac661048c2
+source-git-commit: bb083698aff1da145bbb661307148c9223d5b545
 workflow-type: tm+mt
-source-wordcount: '2643'
+source-wordcount: '2873'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
    - _[!UICONTROL Merchant Location]_섹션에서&#x200B;**[!UICONTROL Merchant Country]**이(가) 회사 위치로 설정되어 있는지 확인합니다.
 
-1. _[!UICONTROL Recommended Solutions]_의_[!UICONTROL Braintree Payments]([GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.6.1 기준 - [릴리스 정보](https://support.gene.co.uk/support/solutions/articles/35000228529)_섹션)에서&#x200B;**[!UICONTROL Configure]**을(를) 클릭합니다.
+1. _[!UICONTROL Recommended Solutions]_의_[!UICONTROL Braintree Payments]([GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [릴리스 정보](https://support.gene.co.uk/support/solutions/articles/35000278668)_섹션)에서&#x200B;**[!UICONTROL Configure]**을(를) 클릭합니다.
 
    ![Braintree 구성](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
@@ -47,7 +47,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
    샌드박스에서 구성을 테스트할 때 Braintree에서 권장하는 [신용 카드 번호][2]만 사용하십시오. Braintree을 사용하여 프로덕션으로 이동할 준비가 되면 **[!UICONTROL Environment]**&#x200B;을(를) `Production`(으)로 설정하십시오.
 
-   ![기본 자격 증명 설정](./assets/braintree-settings1.png){width="600" zoomable="yes"}
+   ![기본 자격 증명 설정](../configuration-reference/sales/assets/payment-methods-braintree-basic-config.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Payment Action]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
@@ -69,9 +69,9 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
 1. **[!UICONTROL Enable Card Payments]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
-   ![기본 설정](./assets/braintree-settings2.png){width="600" zoomable="yes"}
+1. 고객이 구매할 때마다 다시 입력할 필요가 없도록 고객 정보를 안전하게 저장하려면 **[!UICONTROL Enable Vault for Card Payments]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
-   고객이 구매할 때마다 다시 입력할 필요가 없도록 고객 정보를 안전하게 저장하려면 **[!UICONTROL Enable Vault for Card Payments]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+1. 고객이 구매할 때마다 저장된 카드의 CVV 번호를 확인하려면 **[!UICONTROL Enable Vault CVV Re-verification]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
 ## 3단계: 고급 설정 완료
 
@@ -235,7 +235,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
 ## 11단계: Braintree 설정을 통해 PayPal 완료
 
-![Braintree 설정을 통한 PayPal](./assets/braintree-paypal.png){width="550" zoomable="yes"}
+![Braintree 설정을 통한 PayPal 1](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-1.png){width="550" zoomable="yes"}
 
 1. PayPal을 Braintree의 결제 옵션으로 포함하려면 **[!UICONTROL Enable PayPal through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -279,15 +279,27 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 결제 방법을 사용할 수 있습니다.
    - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
 
+   ![Braintree 설정을 통한 PayPal 2](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
+
 1. 고객이 청구 주소를 제공하도록 하려면 **[!UICONTROL Require Customer's Billing Address]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
    >[!NOTE]
    >
    >이 기능은 PayPal 기술 지원에서 계정에 대해 활성화해야 합니다.
 
+1. PayPal Express의 주문 검토 페이지를 건너뛰려면 **[!UICONTROL Skip Order Review Step]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+
+   PayPal Express로 결제하는 고객의 경우: 결제를 완료하기 전에 고객이 리뷰 페이지로 리디렉션되도록 하려면 `No`(으)로 설정하십시오. 고객이 검토 페이지를 건너뛰도록 하려면 `Yes`(으)로 설정하십시오.
+
 1. Braintree을 통해 스토어와 PayPal 간의 상호 작용에 대한 로그 파일을 저장하려면 **[!UICONTROL Debug]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
 1. 미니 장바구니와 장바구니 페이지 모두에 PayPal 단추를 표시하려면 **[!UICONTROL Display on Shopping Cart]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+
+1. 패키지 추적 정보를 PayPal로 보내려면 **[!UICONTROL Send Package Tracking]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+
+   패키지 추적 정보는 PayPal 거래/주문에 대해서만 PayPal로 전송됩니다. [!UICONTROL Package Tracking] 기능이 제대로 작동하려면 [!UICONTROL Send Cart Line Items for PayPal] 구성 필드를 활성화해야 합니다.
+
+1. PayPal을 통해 구매자나 결제자에게 패키지 추적 업데이트를 알리려면 **[!UICONTROL Use PayPal's "Notify Payer" functionality]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
 ## 12단계: 스타일 설정 설정
 
@@ -319,21 +331,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 >
 >**[!DNL Size(Deprecated)]** 구성 필드는 더 이상 사용되지 않으며 PayPal 단추 스타일에 사용되지 않습니다.
 
-**[!UICONTROL PayLater Messaging]**
-
-1. 선택한 위치의 상점 앞에 [!DNL PayLater] 메시지를 표시하려면 **[!UICONTROL Show PayLater Messaging]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
-
-   이 메시지에는 사용 가능한 오퍼에 대한 [!DNL PayLater] 메시지가 표시됩니다([제한 적용](https://developer.paypal.com/docs/checkout/pay-later/us/)).
-
-1. **[!UICONTROL Message Layout]**&#x200B;의 경우 [!DNL PayLater] 메시지 레이아웃을 선택하십시오. `Text` 또는 `Flex`
-
-1. **[!UICONTROL Logo]**&#x200B;의 경우 PayPal 로고 형식(`Inline`, `Primary`, `Alternative` 또는 `None`)을 선택하십시오.
-
-1. **[!UICONTROL Logo Position]**&#x200B;의 경우 PayPal 로고 위치: `Left`, `Right` 또는 `Top`을(를) 선택하십시오.
-
-1. **[!UICONTROL Text Color]**&#x200B;의 경우 [!DNL PayLater] 메시지 텍스트 색(`Black`, `White`, `Monochrome` 또는 `Grayscale`)을 선택하십시오.
-
-이러한 옵션이 설정되면 PayPal 버튼과 PayLater 메시지의 미리 보기를 볼 수 있습니다. 설정을 적용하거나 값을 재설정하는 데 사용할 수 있는 컨트롤이 있습니다.
+이러한 옵션이 설정되면 PayPal 버튼의 미리 보기를 볼 수 있습니다. 설정을 적용하거나 값을 재설정하는 데 사용할 수 있는 컨트롤이 있습니다.
 
 - 단추 및 PayLater 메시지에 대해 선택한 스타일 설정을 저장하고 현재 위치 및 현재 단추 유형에 적용하려면 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
@@ -341,7 +339,53 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
 - 단추 및 PayLater 메시지에 대한 권장 기본값으로 스타일 설정을 반환하고 모든 단추 유형 및 위치에 적용하려면 **[!UICONTROL Reset to Recommended Defaults]**&#x200B;을(를) 클릭합니다.
 
-## 13단계: 3D 확인 설정 완료
+## 13단계: 나중에 결제 메시지
+
+**[!UICONTROL Product Page]**
+
+![나중에 결제 메시지 - 제품 페이지 설정](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-product.png){width="600" zoomable="yes"}
+
+1. 제품 페이지의 상점 첫 화면에 [!DNL Pay Later] 메시지를 표시하려면 **[!UICONTROL Show PayLater Messaging]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+
+   사용 가능한 오퍼에 대해 나중에 지급 메시지를 표시합니다. 제한이 적용됩니다. [PayPal 설명서](https://developer.paypal.com/studio/checkout/pay-later/us)를 참조하세요.
+
+1. **[!UICONTROL Message Layout]**&#x200B;의 경우 [!DNL Pay Later] 메시지 레이아웃을 선택하십시오. `Text` 또는 `Flex`
+
+1. **[!UICONTROL Logo]**&#x200B;의 경우 PayPal 로고 형식(`Inline`, `Primary`, `Alternative` 또는 `None`)을 선택하십시오.
+
+1. **[!UICONTROL Logo Position]**&#x200B;의 경우 PayPal 로고 위치: `Left`, `Right` 또는 `Top`을(를) 선택하십시오.
+
+1. **[!UICONTROL Text Color]**&#x200B;의 경우 [!DNL PayLater] 메시지 텍스트 색(`Black`, `White`, `Monochrome` 또는 `Grayscale`)을 선택하십시오.
+
+**[!UICONTROL Cart]**
+
+![나중에 결제 메시지 - 장바구니 페이지 설정](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-cart.png){width="600" zoomable="yes"}
+
+1. 미니 장바구니 또는 장바구니 페이지의 상점 첫 화면에 [!DNL Pay Later] 메시지를 표시하려면 **[!UICONTROL Show PayLater Messaging]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+
+   사용 가능한 오퍼에 대해 나중에 지급 메시지를 표시합니다. 제한이 적용됩니다. [PayPal 설명서](https://developer.paypal.com/studio/checkout/pay-later/us)를 참조하세요.
+
+1. **[!UICONTROL Message Layout]**&#x200B;의 경우 [!DNL Pay Later] 메시지 레이아웃을 선택하십시오. `Text` 또는 `Flex`
+
+1. **[!UICONTROL Logo]**&#x200B;의 경우 PayPal 로고 형식(`Inline`, `Primary`, `Alternative` 또는 `None`)을 선택하십시오.
+
+1. **[!UICONTROL Logo Position]**&#x200B;의 경우 PayPal 로고 위치: `Left`, `Right` 또는 `Top`을(를) 선택하십시오.
+
+1. **[!UICONTROL Text Color]**&#x200B;의 경우 [!DNL PayLater] 메시지 텍스트 색(`Black`, `White`, `Monochrome` 또는 `Grayscale`)을 선택하십시오.
+
+**[!UICONTROL Checkout]**
+
+![나중에 결제 메시지 - 체크아웃 페이지 설정](../configuration-reference/sales/assets/payment-methods-braintree-paylater-messaging-checkout.png){width="600" zoomable="yes"}
+
+1. 체크아웃 시 상점 첫 화면에서 [!DNL Pay Later] 메시지를 표시하려면 **[!UICONTROL Show PayLater Messaging]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+
+   사용 가능한 오퍼에 대해 나중에 지급 메시지를 표시합니다. 제한이 적용됩니다. [PayPal 설명서](https://developer.paypal.com/studio/checkout/pay-later/us)를 참조하세요.
+
+1. **[!UICONTROL Text Align]**&#x200B;의 경우 [!DNL Pay Later] 메시지에 대해 텍스트 정렬을 선택하십시오. `Text` 또는 `Center` 또는 `Right`
+
+1. **[!UICONTROL Text Color]**&#x200B;의 경우 [!DNL Pay Later] 메시지 텍스트 색: `Black`, `White`을(를) 선택하십시오.
+
+## 14단계: 3D 확인 설정 완료
 
 1. 인증 프로그램(예: _VISA에서 확인_)에 등록된 신용 카드를 사용하는 고객에 대한 인증 단계를 추가하려면 **[!UICONTROL 3D Secure Verification]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -358,7 +402,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
    ![3D 확인 설정](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 
-## 14단계: Braintree 동적 설명자 설정
+## 15단계: Braintree 동적 설명자 설정
 
 다음 설명자는 고객 신용 카드 명세서에서의 구매를 식별하는 데 사용됩니다. 각 구매와 연관된 회사를 명확하게 식별하여 충전의 수를 줄일 수 있습니다. 계정에 대해 동적 설명자가 활성화되지 않은 경우 Braintree 지원 센터에 문의하십시오.
 
