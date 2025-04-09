@@ -3,9 +3,9 @@ title: Commerce용 AEM Assets 패키지 설치
 description: Commerce용 AEM Assets 통합을 사용하여 Adobe Commerce과 Experience Manager Assets 프로젝트 간에 에셋을 동기화하는 데 필요한 에셋 메타데이터를 추가합니다.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,8 @@ Adobe은 Experience Manager Assets as a Cloud Service 환경 구성에 Commerce 
 ## 메타데이터 프로필 구성
 
 AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce 에셋 메타데이터에 대한 기본값을 설정합니다. 그런 다음 AEM 자산 폴더에 새 프로필을 적용하여 이러한 기본값을 자동으로 사용합니다. 이 구성은 수동 단계를 줄여 자산 처리를 간소화합니다.
+
+1. Adobe Experience Manager 작성자 환경에 로그인합니다.
 
 1. Adobe Experience Manager 작업 영역에서 Adobe Experience Manager 아이콘을 클릭하여 AEM Assets용 작성자 컨텐츠 관리 작업 영역으로 이동합니다.
 
