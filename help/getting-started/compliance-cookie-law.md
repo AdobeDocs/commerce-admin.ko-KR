@@ -3,7 +3,7 @@ title: 쿠키 법률 준수
 description: Adobe Commerce 및 Magento Open Source은 쿠키 사용에 관한 여러 국가의 법률에 발맞추기 위해 상인에게 고객 동의를 얻는 방법 선택을 제공합니다.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: abdd70f63ce9ce49ea7e6552951c644480f6024f
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -226,7 +226,7 @@ Admin Analytics 모듈에서 간접적으로 설정합니다. 방문자가 클�
 
 ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객에 대해 다음 쿠키가 설정됩니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
 
-- `mg`: Snowploy JavaScript 추적기에서 설정합니다. 자세한 내용은 [Snowploy 설명서](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options)에서 확인할 수 있습니다.
+- `mg`: Snowploy JavaScript 추적기에서 설정합니다. 자세한 내용은 [Snowploy 설명서](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/)에서 확인할 수 있습니다.
 - `com.adobe.alloy.getTld`: 현재 웹 페이지의 호스트 이름을 고려할 때 이 도메인은 https://publicsuffix.org에 설명된 &quot;공용 접미사&quot;가 아닌 최상위 도메인입니다. 기본적으로 이 도메인은 쿠키를 허용할 수 있는 가장 상위 도메인입니다. 이 쿠키는 [Alloy Web SDK](https://github.com/adobe/alloy)의 일부입니다.
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
