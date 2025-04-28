@@ -3,9 +3,9 @@ title: Commerce용 AEM Assets 패키지 설치
 description: Commerce용 AEM Assets 통합을 사용하여 Adobe Commerce과 Experience Manager Assets 프로젝트 간에 에셋을 동기화하는 데 필요한 에셋 메타데이터를 추가합니다.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
+source-git-commit: d7125774dbf6fb2796ccabc6df8e574455e1e968
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Adobe은 Experience Manager Assets as a Cloud Service 환경 구성에 Commerce 
 
   ![사용자 지정 제품 데이터 UI 컨트롤](./assets/aem-commerce-sku-metadata-fields-from-template.png){width="600" zoomable="yes"}
 
-- Commerce 자산에 태그를 지정할 `Does it exist in Adobe Commerce?` 및 `Product Data` 필드가 포함된 Commerce 탭이 있는 메타데이터 스키마 양식입니다. 이 양식은 AEM Assets UI에서 `roles` 및 `order`(위치) 필드를 표시하거나 숨기는 옵션도 제공합니다.
+- Commerce 자산에 태그를 지정할 `Eligible for Commerce?` 및 `Product Data` 필드가 포함된 Commerce 탭이 있는 메타데이터 스키마 양식입니다. 이 양식은 AEM Assets UI에서 `roles` 및 `order`(위치) 필드를 표시하거나 숨기는 옵션도 제공합니다.
 
   AEM Assets 메타데이터 스키마 양식에 대한 ![Commerce 탭](./assets/assets-configure-metadata-schema-form-editor.png){width="600" zoomable="yes"}
 
@@ -59,6 +59,15 @@ Adobe은 Experience Manager Assets as a Cloud Service 환경 구성에 Commerce 
 
 AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce 에셋 메타데이터에 대한 기본값을 설정합니다. 그런 다음 AEM 자산 폴더에 새 프로필을 적용하여 이러한 기본값을 자동으로 사용합니다. 이 구성은 수동 단계를 줄여 자산 처리를 간소화합니다.
 
+메타데이터 프로필을 구성할 때는 다음 구성 요소만 구성해야 합니다.
+
+- Commerce 탭을 추가합니다. 이 탭에서는 템플릿에서 추가한 Commerce 관련 구성 설정을 사용할 수 있습니다
+- Commerce 탭에 `Eligible for Commerce` 필드를 추가합니다.
+
+제품 데이터 UI 구성 요소는 템플릿을 기반으로 자동으로 추가됩니다.
+
+### 메타데이터 프로필 설정
+
 1. Adobe Experience Manager 작성자 환경에 로그인합니다.
 
 1. Adobe Experience Manager 작업 영역에서 Adobe Experience Manager 아이콘을 클릭하여 AEM Assets용 작성자 컨텐츠 관리 작업 영역으로 이동합니다.
@@ -81,27 +90,41 @@ AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce �
 
    1. 탭 섹션에서 **[!UICONTROL +]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Tab Name]**, `Commerce`을(를) 지정합니다.
 
-1. 양식에 `Does it exist in Commerce?` 필드를 추가하고 기본값을 `yes`(으)로 설정합니다.
+1. 양식에 `Eligible for Commerce` 필드를 추가합니다.
 
    ![AEM 작성자 관리자가 프로필에 메타데이터 필드 추가](./assets/aem-edit-metadata-profile-fields.png){width="600" zoomable="yes"}
 
+   - **[!UICONTROL Build form]**&#x200B;을(를) 클릭합니다.
+
+   - `Single Line text` 필드를 양식으로 끕니다.
+
+   - **[!UICONTROL Field Label]**&#x200B;을(를) 클릭하여 레이블에 대한 `Eligible for Commerce` 텍스트를 추가합니다.
+
+   - 설정 탭에서 레이블 텍스트를 **필드 레이블**&#x200B;에 추가합니다.
+
+   - 자리 표시자 텍스트를 `yes`(으)로 설정하십시오.
+
+   - **[!UICONTROL Map to Property]** 필드에서 다음 값을 복사하여 붙여 넣습니다.
+
+     ```terminal
+     ./jcr:content/metadata/commerce:isCommerce
+     ```
+
+1. 선택 사항입니다. 승인된 Commerce 자산이 AEM Assets 환경에 업로드될 때 자동으로 동기화하려면 `Basic` 탭의 _[!UICONTROL Review Status]_필드에 대한 기본값을 `approved`(으)로 설정합니다.
+
 1. 업데이트를 저장합니다.
 
-1. Commerce 자산이 저장된 폴더에 `Commerce integration` 메타데이터 프로필을 적용합니다.
+#### Commerce 에셋 소스 폴더에 메타데이터 프로필 적용
 
-   1. [!UICONTROL  Metadata Profiles] 페이지에서 Commerce 통합 프로필을 선택합니다.
+1. [!UICONTROL  Metadata Profiles] 페이지에서 Commerce 통합 프로필을 선택합니다.
 
-   1. 작업 메뉴에서 **[!UICONTROL Apply Metadata Profiles to Folders]**&#x200B;을(를) 선택합니다.
+1. 작업 메뉴에서 **[!UICONTROL Apply Metadata Profiles to Folders]**&#x200B;을(를) 선택합니다.
 
-   1. Commerce 자산이 포함된 폴더를 선택합니다.
+1. Commerce 자산이 포함된 폴더를 선택합니다.
 
-      Commerce 폴더가 없는 경우 만듭니다.
+   Commerce 폴더가 없는 경우 만듭니다.
 
-   1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
-
->[!TIP]
->
->메타데이터 프로필을 업데이트하여 _[!UICONTROL Review Status]_필드의 기본값을 `Approved`(으)로 설정하여 Commerce 자산이 AEM Assets 환경에 업로드될 때 자동으로 동기화할 수 있습니다. `Review Status` 필드의 속성 유형은 `./jcr:content/metadata/dam:status`입니다.
+1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
 ## 다음 단계
 
