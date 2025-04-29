@@ -4,9 +4,10 @@ description: ' [!DNL Adobe Commerce B2B] 메타패키지를 설치하는 방법�
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: df3f01bb8e6dab61523d5cb7e0e430b61f87145b
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 25964363ca5c4ec849e231d4eccb5f60b682a499
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -185,7 +186,7 @@ Adobe Commerce B2B 확장은 메시지 대기열 관리에 MySQL을 사용합니
 
 B2B 기능에 대해 [메시지 소비자를 시작](#start-message-consumers)할 때 다음 매개 변수를 추가하여 가능한 처리 문제 또는 지연을 방지합니다.
 
-- `--max-messages <value>`— 종료하기 전에 각 소비자가 처리해야 하는 최대 메시지 수를 지정합니다(기본값 = 10000). Adobe이 권장하지는 않지만 0을 사용하여 소비자가 종료하지 않도록 할 수 있습니다. PHP 응용 프로그램의 가장 좋은 방법은 가능한 메모리 누수를 방지하기 위해 오래 실행되는 프로세스를 다시 시작하는 것입니다.
+- `--max-messages <value>`— 종료하기 전에 각 소비자가 처리해야 하는 최대 메시지 수를 지정합니다(기본값 = 10000). Adobe에서는 권장하지 않지만 0을 사용하여 소비자가 종료하지 않도록 할 수 있습니다. PHP 응용 프로그램의 가장 좋은 방법은 가능한 메모리 누수를 방지하기 위해 오래 실행되는 프로세스를 다시 시작하는 것입니다.
 
 - `--batch-size <value>`— 소비자가 사용하는 시스템 리소스(CPU, 메모리)를 제한할 수 있습니다. 더 작은 배치를 사용하면 리소스 사용량이 감소하므로 처리 속도가 느려집니다.  지정하면 큐의 메시지가 각각 `<value>`개씩 일괄적으로 사용됩니다. 이 옵션은 일괄 처리 소비자에만 적용할 수 있습니다. `--batch-size`이(가) 정의되지 않은 경우 일괄 처리 소비자는 큐에서 사용 가능한 모든 메시지를 수신합니다.
 

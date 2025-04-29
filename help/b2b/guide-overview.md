@@ -6,9 +6,9 @@ seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: 19594a9dd1a8eb0b18bb372d049428e68c1328a6
+source-git-commit: a893a33a14d33106bb9291ceeff96dc155bb017a
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 스토어 관리자에는 두 가지 영역이 있습니다.
 
 - 관리자: 이 영역을 사용하여 구성 UI 및 보고에 액세스합니다.
-- 명령줄 인터페이스: 이 도구를 사용하여 설치 및 백엔드 구성 작업을 실행합니다.
+- 명령줄 인터페이스: 이 도구를 사용하여 설치 및 백엔드 구성 작업을 실행합니다. [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 이 안내서에서는 다음 주제를 다룹니다.
 
@@ -28,11 +28,11 @@ ht-degree: 1%
 | ------- | ----------- |
 | [소개](introduction.md) | [!DNL Adobe Commerce B2B]에서 사용할 수 있는 기능은 무엇입니까? |
 | [릴리스 정보](release-notes.md) | 각 [!DNL Adobe Commerce B2B] 릴리스에 제공된 업데이트를 검토하십시오. |
-| [설치](install.md) | [!DNL Adobe Commerce B2B] 확장을 설치합니다. |
+| [설치](install.md) | [!DNL Adobe Commerce B2B] 확장을 설치합니다. [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} |
 | [기본 B2B 기능 사용](enable-basic-features.md) | [!DNL Adobe Commerce B2B]을(를) 설치한 후에는 스토어에 대해 활성화할 기능을 활성화해야 합니다. |
 | [회사 계정](account-companies.md) | 회사 계정과, 매장에서 B2B 구매자를 위한 지원을 제공하기 위한 기본 빌딩 블록을 제공하는 방법에 대해 알아봅니다. |
 | [회사 관리](manage-companies.md) | B2B Commerce 사이트 관리자가 회사 계층을 구축하여 동일한 비즈니스 기업에 속하는 여러 회사의 관리를 간소화하는 방법에 대해 알아봅니다. |
-| [공유된 카탈로그](catalog-shared.md) | 공유 카탈로그를 사용하여 다양한 회사의 사용자 지정 가격으로 제어된 카탈로그를 유지 관리하는 방법에 대해 알아봅니다. |
+| [공유된 카탈로그](catalog-shared.md) | 공유 카탈로그를 사용하여 다양한 회사의 사용자 지정 가격으로 제어된 카탈로그를 유지 관리하는 방법에 대해 알아봅니다. [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} |
 | [빠른 주문](quick-order.md) | 빠른 주문 기능과 고객을 위한 활성화에 대해 알아봅니다. |
 | [구매 주문](purchase-order-flow.md) | 기업이 지출을 추적하고 제어할 수 있도록 하는 구매 주문 워크플로우에 대해 알아봅니다. |
 | [따옴표](quotes.md) | 견적 워크플로우와 이 서비스를 회사 계정에 제공하는 방법에 대해 알아봅니다. |
