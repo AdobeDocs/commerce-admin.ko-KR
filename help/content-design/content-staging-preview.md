@@ -3,9 +3,10 @@ title: 캠페인 미리 보기
 description: 캠페인 중 특정 날짜 또는 기간에 대한 미리 보기를 만들고 팀 구성원과 공유합니다.
 exl-id: f05589ae-9fc8-4e51-a504-ab90772b3c3d
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---

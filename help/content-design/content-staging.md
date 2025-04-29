@@ -3,9 +3,10 @@ title: 컨텐츠 스테이징
 description: 콘텐츠 스테이징은 비즈니스 팀이 관리자로부터 직접 스토어에 대한 광범위한 콘텐츠 업데이트를 쉽게 만들고, 미리 보고, 예약할 수 있도록 합니다.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
