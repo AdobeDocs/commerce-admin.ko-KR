@@ -3,9 +3,9 @@ title: 통합 구성
 description: Adobe Commerce 및 Experience Manager Assets 프로젝트를 연결하여 이러한 두 시스템 간에 에셋을 동기화하는 방법에 대해 알아봅니다.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 8db3e4b039ed8e020a1a2400e400df01c34f1943
+source-git-commit: f01ba239d885d96285186e35361a8d40f2f68e4e
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,7 @@ AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자
 
 - AEM Assets for Commerce 통합에 대한 활성화를 요청하려면 지원 티켓을 만드십시오. 티켓에 Commerce에 연결할 AEM Assets 작성 환경의 **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** 및 **[!UICONTROL IMS Org ID]**&#x200B;을(를) 포함합니다.
 
-  >[!TIP]
-  >
-  > (선택 사항) 사용 가능한 경우 **[!UICONTROL Asset Selector IMS Client ID]**&#x200B;을(를) 제공합니다. *AEM Assets 선택기* 설명서에서 [ImsAuthProps](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app)을(를) 참조하십시오.
+- **[!UICONTROL Asset Selector IMS Client ID]** 입력. *AEM Assets 선택기* 설명서에서 [ImsAuthProps](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app)을(를) 참조하십시오.
 
 ## 연결 구성
 
@@ -51,7 +49,7 @@ AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자
 
    *[!UICONTROL Use system value]*&#x200B;에서 선택 항목을 제거하여 구성 값을 편집합니다.
 
-1. 사용 가능한 경우 **[!UICONTROL Asset Selector IMS Client ID]**&#x200B;을(를) 입력하십시오.
+1. **[!UICONTROL Asset Selector IMS Client ID]** 입력.
 
    [자산 선택기 IMS 클라이언트 ID](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props)은(는) 사용자가 시각적 자산을 Commerce 제품 페이지에 직접 포함할 수 있는 AEM Assets 기능인 [!UICONTROL Assets Selector]에 필요합니다.
 
