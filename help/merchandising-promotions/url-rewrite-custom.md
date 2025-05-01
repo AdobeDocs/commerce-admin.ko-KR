@@ -3,9 +3,10 @@ title: 사용자 정의 URL 재작성
 description: 사용자 지정 URL 재작성을 사용하여 Commerce 스토어에서 기타 리디렉션을 관리하는 방법에 대해 알아봅니다.
 exl-id: b15054be-e463-48e6-b6c1-0a8a2141cc01
 feature: Search, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -60,7 +61,7 @@ ht-degree: 0%
 
    - 저장소 보기가 여러 개인 경우 다시 쓰기가 적용되는 **[!UICONTROL Store]**&#x200B;을(를) 선택하십시오.
 
-   - **[!UICONTROL Request Path]**&#x200B;의 경우 리디렉션할 제품, 범주 또는 CMS 페이지의 URL 키와 경로(해당하는 경우)를 입력합니다.
+   - **[!UICONTROL Request Path]**&#x200B;에 리디렉션할 제품, 범주 또는 CMS 페이지의 URL 키와 경로(해당하는 경우)를 입력합니다.
 
      >[!NOTE]
      >

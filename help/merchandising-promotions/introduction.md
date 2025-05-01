@@ -2,9 +2,9 @@
 title: Commerce 머천다이징 및 프로모션 소개
 description: 타기팅된 프로모션 및 고객 참여 기회 창출을 위한 Commerce 도구에 대해 알아봅니다.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 7774aa82149faff55591303c7ff2fe2c84797a4a
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1111'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 _머천다이징_&#x200B;은 소매점에서 플로어 플랜 개발 및 제품 프레젠테이션의 예술과 과학을 설명하는 용어입니다. [범주 기반 탐색](../catalog/navigation-top.md)은 매장의 평면도로, 제품의 동적 표시는 매장의 제품 목록에 적용할 수 있는 조건으로 생각할 수 있습니다. 또한 더 많은 제품 판매를 촉진하는 프로그램을 구현할 수 있습니다.
 
-- [시각적 머천다이저](visual-merchandiser.md) - 제품을 배치하고 범주 목록에 표시되는 제품을 결정하는 조건을 적용할 수 있는 고급 도구 세트입니다.
+- [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [시각적 머천다이저](visual-merchandiser.md) - 제품을 배치하고 범주 목록에 표시되는 제품을 결정하는 조건을 적용할 수 있는 고급 도구 세트입니다.
 
 - [선물 등록기](gift-registries.md) - 특별한 경우에 사용할 선물 등록기를 만들고 친구 및 가족이 선물 등록기에서 선물을 구입하도록 초대할 수 있는 기능을 고객에게 제공합니다.
 
@@ -27,7 +27,7 @@ _머천다이징_&#x200B;은 소매점에서 플로어 플랜 개발 및 제품 
 
 >[!TIP]
 >
->제품 추천과 이를 통해 구매자에게 최상의 경험을 제공하기 위해 필요한 통찰력과 컨트롤을 제공하는 방법에 대해 알아보려면 [제품 추천 사용 안내서](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)를 참조하세요.
+>제품 추천과 이를 통해 구매자에게 최상의 경험을 제공하기 위해 필요한 insight 및 제어 기능을 제공하는 방법에 대해 알아보려면 [제품 추천 사용 안내서](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)를 참조하세요.
 
 ## 프로모션
 

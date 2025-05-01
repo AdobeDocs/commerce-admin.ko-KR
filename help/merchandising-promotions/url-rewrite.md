@@ -3,9 +3,10 @@ title: URL 재작성
 description: URL 재작성에 대해 알아보고 Commerce URL 재작성 도구를 사용하여 제품, 카테고리 또는 CMS 페이지와 연결된 URL을 변경하는 방법에 대해 알아봅니다.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -74,7 +75,7 @@ Google에 어떤 URL이 정식 URL인지 명시적으로 알리지 않는 경우
 
 URL 재작성 도구를 사용하여 스토어의 모든 페이지에 대한 제품 및 카테고리 재작성 및 사용자 정의 재작성을 만들 수 있습니다. 다시 쓰기가 적용되면 이전 URL을 가리키는 기존 링크는 새 주소로 원활하게 리디렉션됩니다.
 
-URL 재작성은 가치가 높은 키워드를 추가하여 검색 엔진에서 제품이 색인화되는 방식을 개선하는 데 사용할 수 있습니다. 또한 재작성을 사용하여 임시 시즌 변경 또는 영구 변경에 대한 추가 URL을 만들 수도 있습니다. CMS 콘텐츠 페이지를 포함하여 모든 유효한 경로에 대해 재작성을 만들 수 있습니다. 내부적으로, 시스템은 항상 제품 및 범주를 해당 ID별로 참조합니다. URL이 얼마나 자주 변경되더라도 ID는 동일하게 유지됩니다. 다음은 URL 재작성을 사용할 수 있는 몇 가지 방법입니다.
+URL 재작성은 가치가 높은 키워드를 추가하여 검색 엔진에서 제품이 색인화되는 방식을 개선하는 데 사용할 수 있습니다. 또한 재작성을 사용하여 임시 시즌 변경 또는 영구 변경에 대한 추가 URL을 만들 수도 있습니다. CMS 컨텐츠 페이지를 포함하여 모든 유효한 경로에 대해 재쓰기를 만들 수 있습니다. 내부적으로, 시스템은 항상 제품 및 범주를 해당 ID별로 참조합니다. URL이 얼마나 자주 변경되더라도 ID는 동일하게 유지됩니다. 다음은 URL 재작성을 사용할 수 있는 몇 가지 방법입니다.
 
 시스템 URL
 
