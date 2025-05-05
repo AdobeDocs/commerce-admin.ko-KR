@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce B2B를 설치하고 활성화하면 회사별 기능을 사용하여 구매 경험을 개인화할 수 있습니다. Adobe Commerce B2B는 B2B 및 B2C 모델을 모두 지원하는 통합 솔루션입니다. B2B 기능에 대한 자세한 내용은 [_Adobe Commerce B2B 사용 안내서_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)를 참조하십시오.
+>Adobe Commerce B2B를 설치하고 활성화하면 회사별 기능을 사용하여 구매 경험을 개인화할 수 있습니다. Adobe Commerce B2B는 B2B 및 B2C 모델을 모두 지원하는 통합 솔루션입니다. B2B 기능에 대한 자세한 내용은 [_Adobe Commerce B2B 사용 안내서_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ko)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ![일반](./assets/requisition-lists-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/requisition-lists/configure-requisition-lists) -->
+<!-- [General](https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/requisition-lists/configure-requisition-lists) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

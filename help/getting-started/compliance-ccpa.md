@@ -206,8 +206,8 @@ CCPA 요구 사항을 반영하도록 모든 서비스 공급자 계약을 검�
 
 각 개별 권한 요청이 수신된 후 24개월 동안 요청 및 회사의 응답을 기록합니다.
 
-[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html
+[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=ko
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=ko
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
 [4]: https://www.adobe.com/commerce/magento.html
 [5]: https://oag.ca.gov/privacy/ccpa

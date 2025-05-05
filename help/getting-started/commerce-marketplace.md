@@ -77,7 +77,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Commerce 및 Magento Open Source 2.4.0부터 웹 설치 마법사가 제거되며, 명령줄을 사용하여 인스턴스를 [설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) 또는 [업그레이드](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)해야 합니다. 이 요구 사항에는 [모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) 및 [확장](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)도 포함됩니다.
+>Adobe Commerce 및 Magento Open Source 2.4.0부터 웹 설치 마법사가 제거되며, 명령줄을 사용하여 인스턴스를 [설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=ko) 또는 [업그레이드](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=ko)해야 합니다. 이 요구 사항에는 [모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko) 및 [확장](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=ko)도 포함됩니다.
 
 [!DNL Marketplace] 구매에 대한 설치 프로세스는 Commerce의 _온-프레미스_ 설치와 [Adobe 클라우드 아키텍처][4]에 호스팅된 설치의 경우와 다릅니다.
 

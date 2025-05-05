@@ -45,11 +45,11 @@ ht-degree: 0%
 
 **_업데이트 및 리인덱싱을 사용하려면:_**
 
-[프로덕션 모드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode)(클라우드 인프라의 Adobe Commerce에서 사용되는 기본 모드)가 활성화되면 다음 명령을 실행합니다.
+[프로덕션 모드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ko#production-mode)(클라우드 인프라의 Adobe Commerce에서 사용되는 기본 모드)가 활성화되면 다음 명령을 실행합니다.
 
 ``bin/magento config:set dev/grid/async_indexing 1``
 
-[기본 모드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode)를 사용하면 다음 단계를 완료하십시오.
+[기본 모드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ko#default-mode)를 사용하면 다음 단계를 완료하십시오.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 

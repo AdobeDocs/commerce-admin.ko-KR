@@ -19,7 +19,7 @@ Commerce 관리 통합 경험 확장 기능(`magento/module-unified-experience`)
 
 >[!NOTE]
 >
->Adobe Commerce 관련 Admin Unified Experience 확장 릴리스 상태에 대한 자세한 내용은 [제품 가용성](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html)을 참조하십시오.
+>Adobe Commerce 관련 Admin Unified Experience 확장 릴리스 상태에 대한 자세한 내용은 [제품 가용성](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=ko)을 참조하십시오.
 
 ## 1.0 릴리스
 

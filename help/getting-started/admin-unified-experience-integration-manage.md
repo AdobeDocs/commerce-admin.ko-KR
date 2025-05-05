@@ -74,7 +74,7 @@ Adobe 제품 및 서비스에 액세스하려면 모든 Commerce 관리자 사�
 
 - Commerce 인스턴스의 관리자로부터 **Commerce 관리자 계정**—[Commerce 관리자 사용자 관리](../systems/permissions-users-all.md)를 받습니다. Commerce 관리자의 사용자 계정에는 관리자 역할이 할당되어야 합니다.
 
-  Commerce 프로젝트의 시스템 관리자는 [SSH를 사용하여 원격 환경에 연결](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment)하고 Commerce CLI `admin:user:create` 및 `admin:user:unlock` 명령을 사용하여 관리자 계정을 추가하거나 잠금 해제할 수 있습니다.
+  Commerce 프로젝트의 시스템 관리자는 [SSH를 사용하여 원격 환경에 연결](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=ko#connect-to-a-remote-environment)하고 Commerce CLI `admin:user:create` 및 `admin:user:unlock` 명령을 사용하여 관리자 계정을 추가하거나 잠금 해제할 수 있습니다.
 
 - **Adobe 사용자 계정**—Commerce 인스턴스와 연결된 Adobe 조직의 관리자는 Adobe Admin Console에 로그인하고 각 Commerce 관리자에 대한 Adobe ID을 조직에 추가해야 합니다. 그런 다음 Commerce 애플리케이션에 액세스할 수 있는 제품 권한 및 권한을 할당해야 합니다. [Adobe Admin Console에서 Adobe Commerce 사용자 구성](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console)을 참조하십시오.
 
@@ -82,4 +82,4 @@ Adobe Developer Console에서 Experience Cloud 통합에 대한 구성을 관리
 
 >[!NOTE]
 >
->Adobe ID은 Experience Cloud을 통해 제품 및 서비스에 액세스하는 데 필요한 Adobe을 통해 생성되는 계정입니다. Adobe ID이 없는 Commerce 관리자는 Commerce 관리자에 로그인하는 데 사용하는 것과 동일한 이메일 주소를 사용하여 [무료 계정을 만들 수 있습니다](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html).
+>Adobe ID은 Experience Cloud을 통해 제품 및 서비스에 액세스하는 데 필요한 Adobe을 통해 생성되는 계정입니다. Adobe ID이 없는 Commerce 관리자는 Commerce 관리자에 로그인하는 데 사용하는 것과 동일한 이메일 주소를 사용하여 [무료 계정을 만들 수 있습니다](https://helpx.adobe.com/kr/manage-account/using/create-update-adobe-id.html).

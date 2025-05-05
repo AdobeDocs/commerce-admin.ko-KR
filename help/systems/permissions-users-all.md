@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe ID을 보유하고 있으며 Adobe Commerce 및 Adobe 비즈니스 제품에 간소화된 로그인을 원하는 Adobe Commerce 판매자는 Commerce 인증을 Adobe IMS 인증 워크플로와 통합할 수 있습니다. Commerce 스토어에 대해 이 통합이 활성화되면 각 관리자는 Commerce 자격 증명이 아닌 Adobe 자격 증명을 사용하여 로그인해야 합니다. [Adobe IMS(Identity Management 서비스) 통합 개요](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html)를 참조하세요.
+>Adobe ID을 보유하고 있으며 Adobe Commerce 및 Adobe 비즈니스 제품에 간소화된 로그인을 원하는 Adobe Commerce 판매자는 Commerce 인증을 Adobe IMS 인증 워크플로와 통합할 수 있습니다. Commerce 스토어에 대해 이 통합이 활성화되면 각 관리자는 Commerce 자격 증명이 아닌 Adobe 자격 증명을 사용하여 로그인해야 합니다. [Adobe IMS(Identity Management 서비스) 통합 개요](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=ko)를 참조하세요.
 
 일시적인 사용자 또는 역할의 경우 사용자 계정의 만료 날짜를 설정할 수도 있습니다.
 

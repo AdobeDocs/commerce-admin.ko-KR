@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 관리자 보안 구성
 
-매장 보안을 보호하기 위해 다각적인 방법을 사용하는 것이 좋습니다. 명확한 &quot;관리자&quot; 또는 &quot;백엔드&quot;가 아니라 쉽게 추측할 수 없는 [사용자 지정 관리자 URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)을 사용하여 시작할 수 있습니다. 기본적으로 관리자에 [로그인](../getting-started/admin-signin.md)하는 데 사용되는 암호는 7자 이상이어야 하며 문자와 숫자를 모두 포함해야 합니다. [우수 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)로서 문자, 숫자 및 기호의 조합을 포함하는 강력한 관리자 암호만 사용하십시오. Adobe Commerce 및 Magento Open Source에서는 계정에 할당된 마지막 4개의 암호를 재사용할 수 없습니다.
+매장 보안을 보호하기 위해 다각적인 방법을 사용하는 것이 좋습니다. 명확한 &quot;관리자&quot; 또는 &quot;백엔드&quot;가 아니라 쉽게 추측할 수 없는 [사용자 지정 관리자 URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)을 사용하여 시작할 수 있습니다. 기본적으로 관리자에 [로그인](../getting-started/admin-signin.md)하는 데 사용되는 암호는 7자 이상이어야 하며 문자와 숫자를 모두 포함해야 합니다. [우수 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=ko)로서 문자, 숫자 및 기호의 조합을 포함하는 강력한 관리자 암호만 사용하십시오. Adobe Commerce 및 Magento Open Source에서는 계정에 할당된 마지막 4개의 암호를 재사용할 수 없습니다.
 
 관리자 보안 구성을 통해 다음과 같은 기능을 사용할 수 있습니다.
 

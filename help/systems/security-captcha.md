@@ -97,7 +97,7 @@ CAPTCHA는 컴퓨터(또는 &quot;보트&quot;)가 아닌 사람이 사이트와
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro`([보안 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _기술 자료_ 문서 참조)
+      - `Payflow Pro`([보안 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=ko) _기술 자료_ 문서 참조)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용)
       - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B에서만 사용 가능)

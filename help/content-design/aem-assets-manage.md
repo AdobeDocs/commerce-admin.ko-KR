@@ -20,9 +20,9 @@ AEM Assets에서 에셋을 편집한 후 에셋을 승인하고 재처리하여 
 
 자세한 내용은 다음 AEM Assets 설명서를 참조하십시오.
 
-- [디지털 자산 재처리](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+- [디지털 자산 재처리](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-- [자산 승인](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+- [자산 승인](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
 ## 범주 콘텐츠에 자산 추가
 

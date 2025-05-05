@@ -19,7 +19,7 @@ ht-degree: 0%
 
 [!DNL Inventory Management]은(는) 기본적으로 모든 기능이 활성화된 Adobe Commerce 및 Magento Open Source의 2.3.x 및 2.4.x 릴리스에 설치됩니다. 이러한 재고 기능을 활성화하는 데 추가 단계가 필요하지 않습니다. v2.1.x 또는 2.2.x에서 업그레이드하려면 추가 단계가 필요할 수 있습니다. [Inventory management 업그레이드](#upgrade-inventory-management)를 참조하십시오.
 
-[빠른 시작 온-프레미스 설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"}에 따른 설치가 권장됩니다. 모든 [!DNL Inventory Management] 모듈을 받으려면 메타패키지로 설치하십시오.
+[빠른 시작 온-프레미스 설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=ko){target="_blank"}에 따른 설치가 권장됩니다. 모든 [!DNL Inventory Management] 모듈을 받으려면 메타패키지로 설치하십시오.
 
 `composer.json` 메타패키지에 있는 다음 줄은 [!DNL Inventory Management]을(를) 설치합니다.
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 * 2.0.x, 2.1.x, 2.2.x 또는 2.3.x에서 2.4.x로 마이그레이션하는 상인의 업그레이드 프로세스 속도를 높입니다.
 * 사용자 지정 또는 서드파티 재고 및 주문 관리 시스템 모듈을 사용합니다.
 
-해당 모듈을 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 _설치 안내서_&#x200B;의 [모듈 사용 또는 사용 안 함](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) 페이지를 참조하십시오.
+해당 모듈을 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 _설치 안내서_&#x200B;의 [모듈 사용 또는 사용 안 함](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=ko) 페이지를 참조하십시오.
 
 완료되면 시스템은 `<Magento_installation_directory>/app/etc/config.php`에 다음과 같이 시작하는 모듈 및 값 목록을 제공합니다.
 
@@ -240,5 +240,5 @@ ht-degree: 0%
 
 Commerce 업그레이드에 대한 자세한 내용은 다음 안내서를 참조하십시오.
 
-* [Commerce 업데이트 안내서](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
-* [모듈 사용 또는 사용 안 함](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}
+* [Commerce 업데이트 안내서](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ko){target="_blank"}
+* [모듈 사용 또는 사용 안 함](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=ko){target="_blank"}

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![전자 메일 템플릿](./assets/email-to-a-friend-email-templates.png)<!-- zoom -->
 
-<!-- [Email Templates](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/communications/email-templates#configure-email-templates) -->
+<!-- [Email Templates](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/communications/email-templates#configure-email-templates) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

@@ -29,7 +29,7 @@ Adobe Commerce은 여러 공급자의 2FA 메서드를 지원합니다. 일부�
 
 >[!NOTE]
 >
->IMS(Adobe Identity Management Services) 인증을 활성화한 스토어에는 기본 Adobe Commerce 및 Magento Open Source 2FA가 비활성화되어 있습니다. Adobe 자격 증명으로 Commerce 인스턴스에 로그인한 관리자는 많은 관리 작업에 대해 다시 인증할 필요가 없습니다. Adobe IMS는 관리자 가 현재 세션에 로그인할 때 인증을 처리합니다. [Adobe IMS(Identity Management 서비스) 통합 개요](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html)를 참조하세요.
+>IMS(Adobe Identity Management Services) 인증을 활성화한 스토어에는 기본 Adobe Commerce 및 Magento Open Source 2FA가 비활성화되어 있습니다. Adobe 자격 증명으로 Commerce 인스턴스에 로그인한 관리자는 많은 관리 작업에 대해 다시 인증할 필요가 없습니다. Adobe IMS는 관리자 가 현재 세션에 로그인할 때 인증을 처리합니다. [Adobe IMS(Identity Management 서비스) 통합 개요](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=ko)를 참조하세요.
 
 이 [비디오 데모](https://video.tv.adobe.com/v/339104?quality=12&learn=on)를 통해 관리자의 2단계 인증에 대한 개요를 볼 수 있습니다.
 

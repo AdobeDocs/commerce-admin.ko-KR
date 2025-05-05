@@ -96,6 +96,6 @@ Adobe Commerce에 대한 Adobe Stock 통합 구성은 두 단계 프로세스입
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/kr/manage-account/using/access-adobe-id-account.html
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration

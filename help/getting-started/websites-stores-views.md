@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->자세한 내용은 [!DNL Commerce] 개발자 설명서에서 [여러 웹 사이트 또는 스토어](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html)를 참조하십시오.
+>자세한 내용은 [!DNL Commerce] 개발자 설명서에서 [여러 웹 사이트 또는 스토어](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=ko)를 참조하십시오.
 
 ## 웹 사이트
 

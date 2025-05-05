@@ -116,7 +116,7 @@ ht-degree: 0%
 
 1. 범주 페이지에 계층화된 탐색의 _`Filter by Attribute`_섹션을 포함하려면&#x200B;**[!UICONTROL Anchor]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
-1. **[!UICONTROL Available Product Listing Sort By]** 옵션의 경우 고객이 목록을 정렬할 수 있도록 사용할 수 있는 값 중 하나 이상을 선택하십시오. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)에 적용되지 않습니다.
+1. **[!UICONTROL Available Product Listing Sort By]** 옵션의 경우 고객이 목록을 정렬할 수 있도록 사용할 수 있는 값 중 하나 이상을 선택하십시오. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-storefront/plp-styling)에 적용되지 않습니다.
 
    기본적으로 사용 가능한 모든 값이 포함됩니다. 선택 내용을 변경하려면 **[!UICONTROL Use All]** 확인란의 선택을 취소하십시오. 예를 들어, 값은 다음을 포함할 수 있습니다.
 
@@ -124,7 +124,7 @@ ht-degree: 0%
    - `Product Name`
    - `Price`
 
-1. 범주의 기본 정렬 순서를 설정하려면 **[!UICONTROL Default Product Listing Sort By]** 값을 선택하십시오. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)에 적용되지 않습니다.
+1. 범주의 기본 정렬 순서를 설정하려면 **[!UICONTROL Default Product Listing Sort By]** 값을 선택하십시오. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-storefront/plp-styling)에 적용되지 않습니다.
 
 1. 기본 계층화된 탐색 [가격 단계](navigation-layered.md#configure-price-navigation) 설정을 변경하려면 다음을 수행하십시오.
 

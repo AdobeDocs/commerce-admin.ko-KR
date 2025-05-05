@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->예기치 않은 카드 요금에 대한 도움이 필요한 경우 [구독 취소](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) 페이지를 방문하여 도움을 받으십시오.
+>예기치 않은 카드 요금에 대한 도움이 필요한 경우 [구독 취소](https://helpx.adobe.com/kr/manage-account/using/cancel-subscription.html) 페이지를 방문하여 도움을 받으십시오.
 
 Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 가능한 체크아웃 경험을 제공합니다. [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo 및 로컬 결제 방법을 지원합니다. Braintree은 거래가 Braintree 시스템에서 이루어지기 때문에 가맹점의 PCI 규정 준수 부담을 줄입니다. Braintree Payments 통합은 [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/)에서 개발되었습니다.
 

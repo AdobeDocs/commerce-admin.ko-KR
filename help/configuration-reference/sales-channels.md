@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{config}}
 
-이러한 설정은 [[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/install.html)을(를) 설치할 때 사용할 수 있습니다.
+이러한 설정은 [[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/install.html?lang=ko)을(를) 설치할 때 사용할 수 있습니다.
 
 ![Sales Channel 설정](./assets/config-sales-channel-global-settings.png)<!-- zoom -->
 

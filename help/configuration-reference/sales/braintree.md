@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->예기치 않은 카드 요금에 대한 도움이 필요한 경우 [구독 취소](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) 페이지를 방문하여 도움을 받으십시오.
+>예기치 않은 카드 요금에 대한 도움이 필요한 경우 [구독 취소](https://helpx.adobe.com/kr/manage-account/using/cancel-subscription.html) 페이지를 방문하여 도움을 받으십시오.
 
 ## [!UICONTROL Basic Braintree Settings]
 

@@ -187,5 +187,5 @@ Orders 작업 영역에서는 현재 주문을 모두 나열하며, 기존 주�
 
 주문 문제 해결에 대한 도움말은 다음 Commerce 지원 기술 자료 문서를 참조하십시오.
 
-- [주문 표시 오류](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
+- [주문 표시 오류](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=ko)
 - [Admin의 주문 그리드에 주문이 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

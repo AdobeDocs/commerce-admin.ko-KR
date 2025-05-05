@@ -117,6 +117,6 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Commerce Events Enabled] | 글로벌 | 의료 서비스 고객이고 [데이터 서비스 HIPAA](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness) 확장을 설치한 경우 이 구성은 기본적으로 꺼져 있습니다. 따라서 라이브 검색 및 제품 추천에 사용되는 상점 이벤트 데이터는 더 이상 캡처되지 않습니다. 이는 storefront 이벤트 데이터가 클라이언트측에서 생성되기 때문입니다. [실시간 검색](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) 및 [제품 추천](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview) 서비스에서 사용할 상점 이벤트 데이터를 계속 캡처하고 보내려면 **Commerce 이벤트 사용**&#x200B;을(를) `Yes`(으)로 설정하십시오. |
+| [!UICONTROL Commerce Events Enabled] | 글로벌 | 의료 서비스 고객이고 [데이터 서비스 HIPAA](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/hipaa-readiness) 확장을 설치한 경우 이 구성은 기본적으로 꺼져 있습니다. 따라서 라이브 검색 및 제품 추천에 사용되는 상점 이벤트 데이터는 더 이상 캡처되지 않습니다. 이는 storefront 이벤트 데이터가 클라이언트측에서 생성되기 때문입니다. [실시간 검색](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview) 및 [제품 추천](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/guide-overview) 서비스에서 사용할 상점 이벤트 데이터를 계속 캡처하고 보내려면 **Commerce 이벤트 사용**&#x200B;을(를) `Yes`(으)로 설정하십시오. |
 
 {style="table-layout:auto"}

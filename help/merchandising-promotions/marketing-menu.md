@@ -35,11 +35,11 @@ _관리자_ 사이드바에서 **[!UICONTROL Marketing]**&#x200B;을(를) 클릭
 
 ### [!UICONTROL Channels]
 
-[Amazon Marketplace 통합](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html)을 통해 추가 웹 스토어로 판매를 확장하여 매출을 늘리십시오. 채널 하위 메뉴는 Amazon Sales Channel이 구성된 경우에만 나타납니다.
+[Amazon Marketplace 통합](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=ko)을 통해 추가 웹 스토어로 판매를 확장하여 매출을 늘리십시오. 채널 하위 메뉴는 Amazon Sales Channel이 구성된 경우에만 나타납니다.
 
 >[!TIP]
 >
->Channel Manager는 Adobe Commerce 또는 Magento Open Source 제품 카탈로그를 Walmart Marketplace와 통합하여 판매자가 매출을 늘리고, 신규 고객에게 도달하고, 판매 운영을 간소화하고, 시간을 절약할 수 있도록 지원합니다. Channel Manager 설치, 온보딩, 구성 및 관리에 대한 자세한 내용은 [_Channel Manager 안내서_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html)를 참조하십시오.
+>Channel Manager는 Adobe Commerce 또는 Magento Open Source 제품 카탈로그를 Walmart Marketplace와 통합하여 판매자가 매출을 늘리고, 신규 고객에게 도달하고, 판매 운영을 간소화하고, 시간을 절약할 수 있도록 지원합니다. Channel Manager 설치, 온보딩, 구성 및 관리에 대한 자세한 내용은 [_Channel Manager 안내서_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html?lang=ko)를 참조하십시오.
 
 ### [!UICONTROL Communications]
 

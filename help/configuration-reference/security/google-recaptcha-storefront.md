@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Google reCAPTCHA를 구성하려면 `PHP.ini` 파일에 다음 설정이 포함되어 있는지 확인해야 합니다. `allow_url_fopen = 1`. 이 경우 개발자 지원이 필요할 수 있습니다. _설치 안내서_&#x200B;에서 [PHP 설정](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html)을 참조하십시오.
+>Google reCAPTCHA를 구성하려면 `PHP.ini` 파일에 다음 설정이 포함되어 있는지 확인해야 합니다. `allow_url_fopen = 1`. 이 경우 개발자 지원이 필요할 수 있습니다. _설치 안내서_&#x200B;에서 [PHP 설정](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=ko)을 참조하십시오.
 
 {{config}}
 

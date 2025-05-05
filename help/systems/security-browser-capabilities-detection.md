@@ -18,7 +18,7 @@ ht-degree: 0%
 - 브라우저의 개인 정보 설정에서 쿠키를 허용하지 않는 경우, 대부분의 브라우저에서 권장 설정을 만드는 방법에 대해 설명하는 [쿠키 사용](../content-design/pages.md#enable-cookies) 페이지로 자동으로 리디렉션하도록 시스템을 구성할 수 있습니다.
 - 브라우저의 개인 정보 설정에서 JavaScript을 허용하지 않는 경우 모든 페이지의 헤더 위에 다음 메시지가 표시되도록 시스템을 구성할 수 있습니다.
 
-자세한 내용은 _설치 가이드_&#x200B;의 [지원되는 브라우저](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers)를 참조하세요.
+자세한 내용은 _설치 가이드_&#x200B;의 [지원되는 브라우저](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=ko#supported-browsers)를 참조하세요.
 
 ## 브라우저 기능 감지 구성
 

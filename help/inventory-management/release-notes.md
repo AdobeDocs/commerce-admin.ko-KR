@@ -20,11 +20,11 @@ ht-degree: 0%
 
 [!DNL Inventory Management]은(는) 기여자에게 열려 있는 Magento Open Source 커뮤니티 엔지니어링 특수 프로젝트입니다. 참여하여 참여하려면 [GitHub 프로젝트](https://github.com/magento/inventory) 저장소 및 [Wiki](https://github.com/magento/inventory/wiki)를 참조하여 시작하십시오. 프로젝트에 대해 논의하려면 [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) 채널([자체 등록](https://opensource.magento.com/slack))에 참여하십시오.
 
-지원되는 릴리스와 호환되는 릴리스의 [릴리스 일정](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"}.
+지원되는 릴리스와 호환되는 릴리스의 [릴리스 일정](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=ko){target="_blank"}.
 
 ## v1.2.7
 
-[!DNL Inventory Management] 1.2.7 릴리스 노트는 [코어 2.4.7 릴리스 노트](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)에 포함되어 있습니다.
+[!DNL Inventory Management] 1.2.7 릴리스 노트는 [코어 2.4.7 릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1)에 포함되어 있습니다.
 
 ## v1.2.6
 
@@ -276,7 +276,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.0(모듈 버전: `inventory-composer-metapackage = 1.1.0`)이 지원되며 Adobe Commerce 버전 2.3.0, 클라우드 인프라의 Adobe Commerce 및 Magento Open Source 코드 베이스와 호환됩니다. [!DNL Inventory Management] 1.1.1은 패키지 이름 업데이트로만 릴리스되며, 버전 2.3.1에 대해 지원되고, Adobe Commerce 버전 2.3.0, 클라우드 인프라의 Adobe Commerce 및 Magento Open Source 코드 베이스와 호환됩니다.
 
-![문제가 해결되었습니다](../assets/fix.svg) **단일 및 다중 소스 모드에 대한 Elasticsearch 지원이 추가되었습니다** — 이제 사용자 지정 재고로 Elasticsearch을 구성하고 사용할 수 있습니다. 설치 정보는 [Elasticsearch 서비스 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"}을 참조하십시오. <!-- PR https://github.com/magento/inventory/pull/1943 -->
+![문제가 해결되었습니다](../assets/fix.svg) **단일 및 다중 소스 모드에 대한 Elasticsearch 지원이 추가되었습니다** — 이제 사용자 지정 재고로 Elasticsearch을 구성하고 사용할 수 있습니다. 설치 정보는 [Elasticsearch 서비스 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=ko){target="_blank"}을 참조하십시오. <!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![해결된 문제](../assets/fix.svg) 많은 작업에서 성능을 크게 향상하기 위해 기본 스톡의 성능 문제를 해결했습니다. 개선 사항은 단일 소스 모드, Source으로 재고 이전, 상점 카테고리 페이지 및 판매 수량 계산에 대한 성능을 향상시킵니다.
 

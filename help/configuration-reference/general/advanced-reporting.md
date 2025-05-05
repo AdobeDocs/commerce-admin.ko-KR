@@ -20,7 +20,7 @@ _[!DNL Advanced Reporting]_&#x200B;은(는) [Adobe Commerce Intelligence][1]{:ta
 
 ![고급 보고](./assets/advanced-reporting.png)<!-- zoom -->
 
-<!-- [Advanced Reporting](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
+<!-- [Advanced Reporting](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -30,5 +30,5 @@ _[!DNL Advanced Reporting]_&#x200B;은(는) [Adobe Commerce Intelligence][1]{:ta
 
 {style="table-layout:auto"}
 
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html
-[2]: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting
+[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=ko
+[2]: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html?lang=ko#advanced-reporting

@@ -38,6 +38,6 @@ ht-degree: 0%
 
 이미지 및 비디오 문제를 해결하는 데 대한 도움말을 보려면 다음 Commerce 지원 기술 문서를 참조하십시오.
 
-- [설치 후 이미지 및 스타일 시트가 로드되지 않고 텍스트만 표시되며 그래픽은 표시되지 않습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-- [제품 편집 이미지 역할에도 불구하고 제품 이미지가 표시되지 않습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
-- [배포 후 스토어 이미지가 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)
+- [설치 후 이미지 및 스타일 시트가 로드되지 않고 텍스트만 표시되며 그래픽은 표시되지 않습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html?lang=ko)
+- [제품 편집 이미지 역할에도 불구하고 제품 이미지가 표시되지 않습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=ko)
+- [배포 후 스토어 이미지가 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=ko)

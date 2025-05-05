@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![계정 공유 옵션](./assets/customer-configuration-account-sharing-options.png)<!-- zoom -->
 
-<!-- [Account Sharing Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
+<!-- [Account Sharing Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/customer-account-scope) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![온라인 고객 옵션](./assets/customer-configuration-online-customers-options.png)<!-- zoom -->
 
-<!-- [Online Customers Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/now-online) -->
+<!-- [Online Customers Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customers-menu/now-online) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ![새 계정 옵션(VAT 필드) 만들기](./assets/customer-configuration-create-new-account-options-vat.png)<!-- zoom -->
 
-<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Create New Account Options (VAT Fields)](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ![암호 옵션](./assets/customer-configuration-password-options.png)<!-- zoom -->
 
-<!-- [Password Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
+<!-- [Password Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/configure/password-options) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 ![이름 및 주소 옵션 - Source 열기](./assets/customer-configuration-name-address-options-ce.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Open Source](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -132,7 +132,7 @@ ht-degree: 0%
 
 ![이름 및 주소 옵션 - Commerce](./assets/customer-configuration-name-address-options-ee.png)<!-- zoom -->
 
-<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
+<!-- [Name and Address Options - Commerce](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/configure/name-address-options) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 ![크레딧 옵션 저장](./assets/customer-configuration-store-credit-options.png)<!-- zoom -->
 
-<!-- [Store Credit Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
+<!-- [Store Credit Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 ![로그인 옵션](./assets/customer-configuration-login-options.png)<!-- zoom -->
 
-<!-- [Login Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
+<!-- [Login Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/configure/login-landing-page) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -178,7 +178,7 @@ ht-degree: 0%
 
 ![주소 템플릿](./assets/customer-configuration-address-templates.png)<!-- zoom -->
 
-<!-- [Address Templates](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
+<!-- [Address Templates](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/attributes/address-templates) -->
 
 | 템플릿 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -195,7 +195,7 @@ ht-degree: 0%
 
 ![고객 세그먼트](./assets/customer-configuration-customer-segments.png)<!-- zoom -->
 
-<!-- [Customer Segments](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segments) -->
+<!-- [Customer Segments](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/segments/customer-segments) -->
 
 | 템플릿 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -208,13 +208,13 @@ ht-degree: 0%
 
 ![CAPTCHA](./assets/customer-configuration-captcha.png)<!-- zoom -->
 
-<!-- [CAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha) -->
+<!-- [CAPTCHA](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/captcha/security-captcha) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | 웹 사이트 | Commerce 웹 사이트와 연결된 스토어에서 CAPTCHA를 활성화합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Font] | 웹 사이트 | CAPTCHA를 표시하는 데 사용할 글꼴을 결정합니다. 고유한 글꼴을 추가하려면 글꼴 파일을 Commerce 설치와 동일한 디렉터리에 넣고 `app/code/Magento/Captcha/etc`의 `config.xml` 파일에 선언을 추가합니다. |
-| [!UICONTROL Forms] | 웹 사이트 | CAPTCHA가 사용되는 양식을 결정합니다. 옵션: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro`([보안 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) 참조) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**참고:**&#x200B;_ 사용자 만들기, 암호 찾기 및 Payflow Pro 양식은 선택 시 항상 활성화됩니다. |
+| [!UICONTROL Forms] | 웹 사이트 | CAPTCHA가 사용되는 양식을 결정합니다. 옵션: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro`([보안 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=ko) 참조) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**참고:**&#x200B;_ 사용자 만들기, 암호 찾기 및 Payflow Pro 양식은 선택 시 항상 활성화됩니다. |
 | [!UICONTROL Displaying Mode] | 웹 사이트 | CAPTCHA가 표시되는 시기를 결정합니다. 옵션: <br/>**`Always`**- 로그인하려면 항상 CAPTCHA가 필요합니다.<br/>**`After number of attempts to login`** - 이 옵션은 관리자 로그인 양식에만 적용됩니다. 선택하면 _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;필드가 나타납니다. 허용할 로그인 시도 횟수를 입력합니다. `0`(영) 값은 [!UICONTROL Displaying Mode]을(를) `Always`(으)로 설정하는 것과 비슷합니다.<br/>_&#x200B;**참고:**&#x200B;_실패한 로그인 시도 횟수를 추적하려면 하나의 전자 메일 주소와 하나의 IP 주소에서 로그인을 시도한 횟수가 계산됩니다. 동일한 IP 주소에서 허용되는 최대 로그인 시도 횟수는 1,000회입니다. 이 제한은 CAPTCHA가 활성화된 경우에만 적용됩니다. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | 웹 사이트 | 계정이 잠기기 전에 고객이 로그인을 시도할 수 있는 횟수를 지정합니다. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | 웹 사이트 | 현재 CAPTCHA의 수명을 결정합니다. CAPTCHA가 만료되면 사용자는 페이지를 다시 로드해야 합니다. |

@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >Adobe Commerce 및 Magento Open Source 릴리스 2.4.0 - 2.4.3에는 세금 관리 및 주소 정리를 제공하기 위해 Vertex Cloud와 통합하는 데 사용되는 Vertex 공급업체가 개발한 확장 프로그램이 포함되어 있습니다. 2.4.4 릴리스부터 이 확장은 더 이상 코어 릴리스와 번들로 제공되지 않으며 Commerce Marketplace 또는 공급업체에서 직접 설치하고 업데이트해야 합니다. 확장 및 설명서에 대한 자세한 내용은 [Vertex에 문의](https://marketplace.magento.com/partner/vertex_inc)하십시오.<br><br>
 >
->번들 확장을 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. _업그레이드 안내서_&#x200B;에서 [업그레이드 모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)을 참조하세요.
+>번들 확장을 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. _업그레이드 안내서_&#x200B;에서 [업그레이드 모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko)을 참조하세요.
 
 ## 빠른 참조
 

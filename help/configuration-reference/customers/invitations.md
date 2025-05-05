@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![일반](./assets/invitations-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
+<!-- [General](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ![전자 메일](./assets/invitations-email.png)<!-- zoom -->
 
-<!-- [Email](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
+<!-- [Email](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/events/invitations#enable-invitations-for-your-store) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

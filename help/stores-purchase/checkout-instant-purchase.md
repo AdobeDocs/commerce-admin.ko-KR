@@ -57,7 +57,7 @@ Braintree 또는 Adobe Commerce 및 Magento Open Source용 결제 서비스와 �
 결제 방법을 구성하고 Braintree 또는 결제 서비스에 대한 저장 기능을 활성화하는 방법에 대해 알아봅니다.
 
 - [Braintree](braintree.md)
-- [결제 서비스 설명서](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [결제 서비스 설명서](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=ko)
 
 ### 3단계: 즉시 구매 활성화
 

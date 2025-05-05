@@ -22,7 +22,7 @@ ht-degree: 0%
 - 사이트의 진행 상황을 추적 및 모니터링하는 기간별 보안 보고서에 액세스합니다.
 - 모든 권장 작업과 함께 성공 및 실패한 검사를 표시하는 검사 보고서에 액세스합니다.
 
-보안 검색 도구는 [Commerce/Magento 계정](../getting-started/commerce-account-create.md)의 대시보드에서 무료로 사용할 수 있습니다. 자세한 내용은 _Commerce on Cloud Infrastructure Guide_&#x200B;에서 [보안 검색 도구 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool)을 참조하십시오.
+보안 검색 도구는 [Commerce/Magento 계정](../getting-started/commerce-account-create.md)의 대시보드에서 무료로 사용할 수 있습니다. 자세한 내용은 _Commerce on Cloud Infrastructure Guide_&#x200B;에서 [보안 검색 도구 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html?lang=ko#set-up-the-security-scan-tool)을 참조하십시오.
 
 ![보안 검사 도구](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 

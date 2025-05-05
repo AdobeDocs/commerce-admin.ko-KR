@@ -53,7 +53,7 @@ ht-degree: 0%
 >[!NOTE]
 >이러한 구성 옵션은 클라우드 인프라의 Adobe Commerce에는 적용되지 않습니다.
 >
->Pro 플랜을 사용하는 경우 New Relic이 이미 [사전 구성되어 있고 기본적으로 활성화되어 있습니다](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). 스타터 플랜을 사용하는 경우 설정 프로세스의 일부인 [New Relic 구성 단계](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment)를 완료해야 합니다.
+>Pro 플랜을 사용하는 경우 New Relic이 이미 [사전 구성되어 있고 기본적으로 활성화되어 있습니다](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=ko). 스타터 플랜을 사용하는 경우 설정 프로세스의 일부인 [New Relic 구성 단계](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html?lang=ko#configure-new-relic-for-starter-environment)를 완료해야 합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
@@ -340,6 +340,6 @@ ht-degree: 0%
 
 [1]: https://newrelic.com/
 [3]: https://docs.newrelic.com/docs/agents/php-agent/getting-started/new-relic-php
-[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html
-[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
+[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=ko
+[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko
 [6]: https://docs.newrelic.com/docs/insights/new-relic-insights/using-new-relic-query-language/nrql-reference

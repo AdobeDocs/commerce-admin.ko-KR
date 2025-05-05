@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 카탈로그 검색 구성
 
-카탈로그 검색 구성에는 두 가지 변형이 있습니다. 첫 번째 메서드는 [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)을(를) 설치할 때 사용할 수 있는 설정을 설명합니다. 두 번째 메서드는 [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}을(를) 사용하는 기본 Adobe Commerce의 구성 설정을 설명합니다.
+카탈로그 검색 구성에는 두 가지 변형이 있습니다. 첫 번째 메서드는 [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ko)을(를) 설치할 때 사용할 수 있는 설정을 설명합니다. 두 번째 메서드는 [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html?lang=ko){:target="_blank"}을(를) 사용하는 기본 Adobe Commerce의 구성 설정을 설명합니다.
 
 >[!NOTE]
 >
->클라우드 인프라 프로젝트의 경우 [_Commerce on Cloud Infrastructure Guide_](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch)의 추가 지침을 참조하십시오.
+>클라우드 인프라 프로젝트의 경우 [_Commerce on Cloud Infrastructure Guide_](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/service/opensearch)의 추가 지침을 참조하십시오.
 
 ## 방법 1: [!DNL Live Search]이(가) 있는 Adobe Commerce
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    기본값은 `100`입니다. `0` 값을 입력하면 두 번째로 입력한 검색어와 결과가 모두 캐시됩니다.
 
-1. [storefront pop over](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html)에서 반환된 결과를 사용할 수 있는 최대 줄 수를 변경하려면 다른 **[!UICONTROL Autocomplete Limit]** 값을 입력하십시오.
+1. [storefront pop over](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html?lang=ko)에서 반환된 결과를 사용할 수 있는 최대 줄 수를 변경하려면 다른 **[!UICONTROL Autocomplete Limit]** 값을 입력하십시오.
 
    라인 수를 제한하면 검색 성능이 향상되고 반환된 목록의 크기가 줄어듭니다. 기본값은 `8`줄입니다.
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->- 2023년 8월의 [!DNL Elasticsearch 7] 지원 종료 발표로 인해 모든 Adobe Commerce 고객은 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것이 좋습니다. 제품을 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)을 참조하십시오.
+>- 2023년 8월의 [!DNL Elasticsearch 7] 지원 종료 발표로 인해 모든 Adobe Commerce 고객은 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것이 좋습니다. 제품을 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ko)을 참조하십시오.
 >- 버전 2.4.4 및 2.4.3-p2에서는 Elasticsearch이라는 레이블이 지정된 모든 필드가 OpenSearch에도 적용됩니다. Elasticsearch 8.x에 대한 지원이 버전 2.4.6에 도입되면 Elasticsearch 구성과 OpenSearch 구성을 구별하기 위해 새 레이블이 생성되었습니다. 그러나 두 구성 옵션은 동일합니다.
 
 ### 1단계: 일반 검색 옵션 구성

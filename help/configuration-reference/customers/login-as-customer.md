@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ![고객으로 로그인 - 일반 옵션](./assets/login-as-customer.png)<!-- zoom -->
 
-<!-- [Login As Customer - General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) -->
+<!-- [Login As Customer - General Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) -->
 
 | 옵션 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |-- | -- | -- |

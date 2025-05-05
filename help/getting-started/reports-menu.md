@@ -36,7 +36,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Reports]**&#x200B;을(를) 선택�
 
 ### [!UICONTROL System Insights]
 
-(Adobe Commerce만 해당) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html)은(는) 24시간 연중무휴 실시간 성능 모니터링, 보고서 및 권장 사항을 통해 클라우드 인프라에 Adobe Commerce을 설치하는 데 대한 시스템 통찰력을 제공합니다.
+(Adobe Commerce만 해당) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=ko)은(는) 24시간 연중무휴 실시간 성능 모니터링, 보고서 및 권장 사항을 통해 클라우드 인프라에 Adobe Commerce을 설치하는 데 대한 시스템 통찰력을 제공합니다.
 
 ### [!UICONTROL Customers]
 

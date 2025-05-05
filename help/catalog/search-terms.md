@@ -124,7 +124,7 @@ _[!UICONTROL Edit a Search Term]_&#x200B;페이지의&#x200B;**메서드 2:**
 
 Adobe Commerce은 두 가지 다른 동의어 관리 솔루션을 지원합니다.
 
-- 라이브 검색 [동의어](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html) 기능은 라이브 검색이 설치된 Adobe Commerce 설치에 사용할 수 있습니다.
+- 라이브 검색 [동의어](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=ko) 기능은 라이브 검색이 설치된 Adobe Commerce 설치에 사용할 수 있습니다.
 - 이 페이지에 설명된 표준 검색 동의어 기능 은 모든 Adobe Commerce 설치에 대해 즉시 사용할 수 있습니다.
 
 >[!NOTE]

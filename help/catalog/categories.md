@@ -34,5 +34,5 @@ ht-degree: 0%
 
 범주 문제 해결에 대한 도움말은 다음 Commerce 지원 기술 자료 문서를 참조하십시오.
 
-- [범주의 변경 내용이 저장되지 않습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
-- Fastly가 활성화된 하위 페이지에 [기본 메뉴(범주)가 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
+- [범주의 변경 내용이 저장되지 않습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=ko)
+- Fastly가 활성화된 하위 페이지에 [기본 메뉴(범주)가 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=ko)

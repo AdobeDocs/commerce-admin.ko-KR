@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->플랫 카탈로그를 사용하는 것은 더 이상 우수 사례로 권장되지 않습니다. 이 기능을 계속 사용하면 성능 저하 및 기타 인덱싱 문제가 발생하는 것으로 알려져 있습니다. 자세한 설명 및 솔루션은 [도움말 센터](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html)에서 확인할 수 있습니다.<br/><br/>영향을 받는 버전에는 다음이 포함됩니다. <br/>- 클라우드 인프라의 Adobe Commerce, 2.3.x 이상<br/>- Adobe Commerce(온-프레미스), 2.3.x 이상<br/>- Magento Open Source, 2.3.x 이상 <br/><br/>릴리스 버전에서는 일부 확장이 플랫 테이블에서만 작동하므로 플랫 테이블을 사용하지 않도록 설정하면 위험이 발생합니다. 플랫 카탈로그 인덱서를 사용하는 확장이 있는 경우 해당 값을 `No`(으)로 설정할 때 이 위험을 알고 있어야 합니다.
+>플랫 카탈로그를 사용하는 것은 더 이상 우수 사례로 권장되지 않습니다. 이 기능을 계속 사용하면 성능 저하 및 기타 인덱싱 문제가 발생하는 것으로 알려져 있습니다. 자세한 설명 및 솔루션은 [도움말 센터](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=ko)에서 확인할 수 있습니다.<br/><br/>영향을 받는 버전에는 다음이 포함됩니다. <br/>- 클라우드 인프라의 Adobe Commerce, 2.3.x 이상<br/>- Adobe Commerce(온-프레미스), 2.3.x 이상<br/>- Magento Open Source, 2.3.x 이상 <br/><br/>릴리스 버전에서는 일부 확장이 플랫 테이블에서만 작동하므로 플랫 테이블을 사용하지 않도록 설정하면 위험이 발생합니다. 플랫 카탈로그 인덱서를 사용하는 확장이 있는 경우 해당 값을 `No`(으)로 설정할 때 이 위험을 알고 있어야 합니다.
 
 Commerce은 일반적으로 EAV(Entity-Attribute-Value) 모델을 기반으로 여러 테이블에 카탈로그 데이터를 저장합니다. 제품 특성은 여러 테이블에 저장되므로 SQL 쿼리는 길고 복잡한 경우가 있습니다.
 

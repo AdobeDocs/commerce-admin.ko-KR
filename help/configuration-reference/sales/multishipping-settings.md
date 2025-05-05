@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ![옵션](./assets/multishipping-settings-options.png)<!-- zoom -->
 
-<!-- [Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
+<!-- [Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-settings#multiple-addresses) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

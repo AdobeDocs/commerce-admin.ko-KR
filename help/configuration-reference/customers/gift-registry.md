@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![일반 옵션](./assets/gift-registry-general-options.png)<!-- zoom -->
 
-<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- [General Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 ![소유자 알림](./assets/gift-registry-owner-notification.png)<!-- zoom -->
 
-<!-- [Owner Notification](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- [Owner Notification](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 ![선물 레지스트리 공유](./assets/gift-registry-gift-registry-sharing.png)<!-- zoom -->
 
-<!-- Gift Registry Sharing](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- Gift Registry Sharing](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 ![선물 레지스트리 업데이트](./assets/gift-registry-gift-registry-update.png)<!-- zoom -->
 
-<!-- [Gift Registry Update](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- [Gift Registry Update](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

@@ -80,7 +80,7 @@ SKU와 같이 특정 값이 있는 레코드만 포함하려면 필터 필드에
 
 1. 아래로 스크롤하여 페이지의 오른쪽 아래 모서리에 있는 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-   작업이 완료되면 메시지 큐를 통해 파일이 처리됩니다(cron 작업이 실행 중인지 확인). 내보낸 파일이 `var/export/ folder`에 저장됩니다. 메시지 대기열에 대한 자세한 내용은 _구성 가이드_&#x200B;에서 [메시지 대기열 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)를 참조하십시오.
+   작업이 완료되면 메시지 큐를 통해 파일이 처리됩니다(cron 작업이 실행 중인지 확인). 내보낸 파일이 `var/export/ folder`에 저장됩니다. 메시지 대기열에 대한 자세한 내용은 _구성 가이드_&#x200B;에서 [메시지 대기열 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ko)를 참조하십시오.
 
    내보낸 CSV 파일을 스프레드시트로 저장하거나 연 다음 데이터를 편집하고 다시 스토어로 가져올 수 있습니다.
 
@@ -92,4 +92,4 @@ SKU와 같이 특정 값이 있는 레코드만 포함하려면 필터 필드에
 
 데이터 내보내기 문제를 해결하는 데 대한 도움말을 보려면 다음 Commerce 지원 기술 문서를 참조하십시오.
 
-- [내보낸 제품 .csv 파일이 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
+- [내보낸 제품 .csv 파일이 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=ko)

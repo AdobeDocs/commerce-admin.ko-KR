@@ -97,7 +97,7 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
    
 >[!NOTE]
 >
->사이트에서 [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) 웹 서버 엔진을 사용하는 경우 웹 사이트의 루트에서 [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) 파일을 업데이트하여 다른 사이트 맵 요청을 적절한 위치로 이동해야 합니다.
+>사이트에서 [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=ko) 웹 서버 엔진을 사용하는 경우 웹 사이트의 루트에서 [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) 파일을 업데이트하여 다른 사이트 맵 요청을 적절한 위치로 이동해야 합니다.
 
 ## 열 설명
 
@@ -223,6 +223,6 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=ko
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

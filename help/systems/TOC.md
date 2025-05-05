@@ -77,6 +77,6 @@ ht-degree: 3%
    - [세션 관리](security-session-management.md)
    - [브라우저 기능 감지](security-browser-capabilities-detection.md)
    - [보안 문제 보고](security-issue-reporting.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
 
 

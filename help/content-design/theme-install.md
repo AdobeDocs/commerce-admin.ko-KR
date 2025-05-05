@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-시작하기 전에 올바른 [[!DNL Commerce] 액세스 키](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) 집합이 있는지 확인하십시오.
+시작하기 전에 올바른 [[!DNL Commerce] 액세스 키](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=ko) 집합이 있는지 확인하십시오.
 
 [!DNL Commerce] 스토어에 테마를 추가하려면 [!DNL Commerce Marketplace]에서 사용할 수 있는 지침을 따르십시오.
 

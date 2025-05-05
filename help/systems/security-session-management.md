@@ -64,7 +64,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 Adobe Commerce 및 Magento Open Source을 사용하면 가능한 세션 고정 공격이나 사용자 세션을 포이즌 또는 납치하려는 시도에 대한 보호 조치로 세션 변수의 유효성을 확인할 수 있습니다. 세션 유효성 검사 설정은 각 저장소 방문 동안 세션 변수의 유효성 검사 방법과 세션 ID가 저장소의 URL에 포함되어 있는지 여부를 결정합니다.
 
-자세한 내용은 _구성 가이드_&#x200B;에서 [세션 저장소에 Redis 사용](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html)을 참조하십시오.
+자세한 내용은 _구성 가이드_&#x200B;에서 [세션 저장소에 Redis 사용](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=ko)을 참조하십시오.
 
 ![일반 구성 - 웹 세션 유효성 검사](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

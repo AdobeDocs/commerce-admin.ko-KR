@@ -187,4 +187,4 @@ Adobe Commerce의 _보상 포인트_ 시스템을 사용하면 고객 참여를 
 
 보상 포인트 문제를 해결하는 데 대한 도움말을 보려면 다음 Commerce 지원 기술 문서를 참조하십시오.
 
-- [404 오류 - 다중 배송 체크아웃 시 보상 포인트 제거](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)
+- [404 오류 - 다중 배송 체크아웃 시 보상 포인트 제거](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=ko)

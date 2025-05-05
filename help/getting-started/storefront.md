@@ -32,7 +32,7 @@ Edge Delivery Services에서 제공하는 [!DNL **Commerce Storefront**]&#x200B;
 
 Edge Delivery Services에서 제공하는 Commerce Storefront는 판매자와 개발자 모두에게 도움이 되는 몇 가지 주요 기능을 제공합니다. 이러한 기능을 통해 기업은 매력적인 쇼핑 경험을 만들 수 있을 뿐만 아니라 필요에 따라 매장을 맞춤화하고 확장할 수 있는 유연성을 유지할 수 있습니다.
 
-Commerce Storefront 설정 및 최적화에 대한 자세한 정보와 지침은 [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/en/docs/commerce)를 참조하십시오.
+Commerce Storefront 설정 및 최적화에 대한 자세한 정보와 지침은 [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/ko/docs/commerce)를 참조하십시오.
 
 >[!BEGINTABS]
 
@@ -81,7 +81,7 @@ Headless 구현을 통해 개발자는 프론트엔드 프레젠테이션 레이
 
 ### [!DNL Live Search]
 
-Adobe Commerce용 [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)을(를) 사용하면 스토어에서 빠르고, 관련성이 높고, 직관적인 검색 환경을 제공할 수 있으며, Adobe Commerce에서 추가 비용 없이 사용할 수 있습니다.
+Adobe Commerce용 [[!DNL Live Search]](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)을(를) 사용하면 스토어에서 빠르고, 관련성이 높고, 직관적인 검색 환경을 제공할 수 있으며, Adobe Commerce에서 추가 비용 없이 사용할 수 있습니다.
 
 ![실시간 검색 예 - 입력한 대로 검색](./assets/storefront-search-as-you-type.png){width="700"}
 

@@ -29,9 +29,9 @@ Adobe은 성공을 위한 풍부한 비즈니스 및 기술 리소스, 자가 �
 
 {style="table-layout:auto"}
 
-[1]: https://experienceleague.adobe.com/docs/commerce.html
+[1]: https://experienceleague.adobe.com/docs/commerce.html?lang=ko
 [3]: https://business.adobe.com/resources/main.html?Products+%26+Services=Commerce%252CCommerce%2520Cloud
-[4]: https://helpx.adobe.com/security.html
+[4]: https://helpx.adobe.com/kr/security.html
 [5]: https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf
 [6]: https://community.magento.com/
 [7]: https://business.adobe.com/blog/

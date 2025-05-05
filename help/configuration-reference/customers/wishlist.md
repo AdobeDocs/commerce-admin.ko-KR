@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![일반 옵션](./assets/wishlist-general-options.png)<!-- zoom -->
 
-<!--[General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
+<!--[General Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ![공유 옵션](./assets/wishlist-share-options.png)<!-- zoom -->
 
-<!-- [Share Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
+<!-- [Share Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 ![내 위시리스트 링크](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
 
-<!--[My Wish List Link](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
+<!--[My Wish List Link](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

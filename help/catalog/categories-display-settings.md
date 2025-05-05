@@ -20,8 +20,8 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Display Mode] | 카테고리 페이지에 표시되는 콘텐츠 요소를 결정합니다. 옵션: `Products Only` / `Static Block Only` / `Static Block and Products` |
 | [!UICONTROL Anchor] | `Yes`(으)로 설정된 경우 는 카테고리에 명시적으로 추가되지 않았더라도 카테고리의 하위 카테고리에 있는 제품을 표시하고 계층화된 탐색에서 _[!UICONTROL filter by attribute]_&#x200B;섹션을 표시할 수 있도록 합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Available Product Listing Sort By] | (필수) 기본값은 `Position`, `Name` 및 `Price`입니다. 정렬 옵션을 사용자 지정하려면 **[!UICONTROL Use All Available Attributes]** 확인란의 선택을 취소하고 사용할 특성을 선택합니다. 필요에 따라 속성을 정의하고 추가할 수 있습니다. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)에 적용되지 않습니다. |
-| [!UICONTROL Default Product Listing Sort By] | (필수) 기본 _[!UICONTROL Sort By]_&#x200B;옵션을 정의하려면&#x200B;**[!UICONTROL Use Config Settings]**&#x200B;확인란의 선택을 취소하고 특성을 선택합니다. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)에 적용되지 않습니다. |
+| [!UICONTROL Available Product Listing Sort By] | (필수) 기본값은 `Position`, `Name` 및 `Price`입니다. 정렬 옵션을 사용자 지정하려면 **[!UICONTROL Use All Available Attributes]** 확인란의 선택을 취소하고 사용할 특성을 선택합니다. 필요에 따라 속성을 정의하고 추가할 수 있습니다. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-storefront/plp-styling)에 적용되지 않습니다. |
+| [!UICONTROL Default Product Listing Sort By] | (필수) 기본 _[!UICONTROL Sort By]_&#x200B;옵션을 정의하려면&#x200B;**[!UICONTROL Use Config Settings]**&#x200B;확인란의 선택을 취소하고 특성을 선택합니다. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-storefront/plp-styling)에 적용되지 않습니다. |
 | [!UICONTROL Layered Navigation Price Step] | 기본적으로 Commerce은 목록에 있는 제품에 따라 가격 범위를 10, 100 및 1000 단위로 표시합니다. 가격 단계 범위를 변경하려면 **[!UICONTROL Use Config Settings]** 확인란의 선택을 취소하십시오. |
 
 {style="table-layout:auto"}

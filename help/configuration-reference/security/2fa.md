@@ -14,7 +14,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->IMS(Adobe Systems Identity Management Services) 인증을 활성화한 스토어는 Adobe Systems Commerce 및 Magento Open Source 이중 인증(2FA)기본 비활성화되었습니다. Adobe Systems 자격 증명을 사용하여 Adobe Systems Commerce 인스턴스에 로그인한 관리 사용자는 많은 관리 작업에 대해 다시 인증할 필요가 없습니다. Authentication은 관리자 사용자 현재 세션에 로그인할 때 Adobe Systems IMS에서 처리합니다. 자세한 내용은 Adobe Systems Commerce와 Adobe Systems IMS 통합 개요를[&#128279;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html) 참조하십시오.
+>IMS(Adobe Systems Identity Management Services) 인증을 활성화한 스토어는 Adobe Systems Commerce 및 Magento Open Source 이중 인증(2FA)기본 비활성화되었습니다. Adobe Systems 자격 증명을 사용하여 Adobe Systems Commerce 인스턴스에 로그인한 관리 사용자는 많은 관리 작업에 대해 다시 인증할 필요가 없습니다. Authentication은 관리자 사용자 현재 세션에 로그인할 때 Adobe Systems IMS에서 처리합니다. 자세한 내용은 Adobe Systems Commerce와 Adobe Systems IMS 통합 개요를[&#128279;](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=ko) 참조하십시오.
 
 {{config}}
 

@@ -31,6 +31,6 @@ ht-degree: 0%
 
 구성에서 _최대 너비_ 및 _최대 높이_ 값이 변경되면 이전에 삽입한 기존의 최적화된 모든 이미지가 업데이트됩니다.
 
-Media Gallery 이미지 최적화를 사용하려면 구성을 변경할 때 최적화된 이미지를 다시 생성하기 위해 `media.gallery.renditions.update` 큐 소비자가 실행 중이어야 합니다. 자세한 내용은 _구성 가이드_&#x200B;의 [메시지 큐 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)를 참조하십시오.
+Media Gallery 이미지 최적화를 사용하려면 구성을 변경할 때 최적화된 이미지를 다시 생성하기 위해 `media.gallery.renditions.update` 큐 소비자가 실행 중이어야 합니다. 자세한 내용은 _구성 가이드_&#x200B;의 [메시지 큐 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ko)를 참조하십시오.
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}

@@ -40,7 +40,7 @@ Adobe Commerce 또는 Magento Open Source 2.4를 사용하면 판매자는 새�
 
 >[!NOTE]
 >
->새 [!DNL Media Gallery]의 전체 기능을 사용하려면 초기 동기화를 위해 `media.gallery.synchronization` 및 `media.content.synchronization` 큐 소비자가 시작해야 합니다. 자세한 내용은 _구성 가이드_&#x200B;의 [메시지 큐 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)를 참조하십시오.
+>새 [!DNL Media Gallery]의 전체 기능을 사용하려면 초기 동기화를 위해 `media.gallery.synchronization` 및 `media.content.synchronization` 큐 소비자가 시작해야 합니다. 자세한 내용은 _구성 가이드_&#x200B;의 [메시지 큐 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ko)를 참조하십시오.
 
 ## 새 [!DNL Media Gallery]에 액세스
 

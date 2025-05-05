@@ -17,13 +17,13 @@ ht-degree: 0%
 >[!NOTE]
 >이러한 구성 옵션은 클라우드 인프라의 Adobe Commerce에는 적용되지 않습니다.
 >
->Pro 플랜을 사용하는 경우 New Relic이 이미 [사전 구성되어 있고 기본적으로 활성화되어 있습니다](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). 스타터 플랜을 사용하는 경우 설정 프로세스의 일부인 [New Relic 구성 단계](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment)를 완료해야 합니다.
+>Pro 플랜을 사용하는 경우 New Relic이 이미 [사전 구성되어 있고 기본적으로 활성화되어 있습니다](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=ko). 스타터 플랜을 사용하는 경우 설정 프로세스의 일부인 [New Relic 구성 단계](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html?lang=ko#configure-new-relic-for-starter-environment)를 완료해야 합니다.
 
 ## [!UICONTROL General]
 
 ![일반](./assets/new-relic-reporting-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting) -->
+<!-- [General](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/new-relic-reporting) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![크론](./assets/new-relic-reporting-cron.png)<!-- zoom -->
 
-<!-- Cron](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron) -->
+<!-- Cron](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/cron) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ![대시보드](./assets/reports-dashboard.png)<!-- zoom -->
 
-<!-- [Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
+<!-- [Dashboard](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

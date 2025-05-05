@@ -35,7 +35,7 @@ ht-degree: 0%
    - `Disable` - 이벤트에 의해 트리거되면 판매 이메일을 보냅니다.
    - `Enable` - 미리 결정된 일정한 간격으로 판매 이메일을 보냅니다.
 
-   Adobe Commerce 지원에서는 주문 배치 성능을 개선하기 위해 비동기 전송을 활성화할 것을 권장합니다. Adobe Commerce 지원 기술 자료에서 [주문 처리에 대한 구성 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html)를 참조하십시오.
+   Adobe Commerce 지원에서는 주문 배치 성능을 개선하기 위해 비동기 전송을 활성화할 것을 권장합니다. Adobe Commerce 지원 기술 자료에서 [주문 처리에 대한 구성 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=ko)를 참조하십시오.
 
 ## 3단계. 각 판매 이메일 메시지에 대한 세부 정보를 작성합니다
 

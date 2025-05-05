@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![구독 옵션](./assets/newsletter-subscription-options.png)<!-- zoom -->
 
-<!-- [Subscription Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
+<!-- [Subscription Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

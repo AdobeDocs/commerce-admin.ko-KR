@@ -86,7 +86,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >_비동기 큐 관리자_&#x200B;를 구성하고 지원하려면 명령줄을 사용하여 명령을 실행해야 합니다. 이 단계에는 개발자 지원이 필요할 수 있습니다. _구성 가이드_&#x200B;에서 [메시지 큐 소비자 시작](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html)을 참조하세요.
+     >_비동기 큐 관리자_&#x200B;를 구성하고 지원하려면 명령줄을 사용하여 명령을 실행해야 합니다. 이 단계에는 개발자 지원이 필요할 수 있습니다. _구성 가이드_&#x200B;에서 [메시지 큐 소비자 시작](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=ko)을 참조하세요.
 
    - 활성화된 경우 **[!UICONTROL Asynchronous batch size]**&#x200B;을(를) 설정합니다. 기본 배치 크기는 100입니다. 벌크 프로세스가 이 양에 도달하면 시스템이 이를 트리거합니다.
 

@@ -20,7 +20,7 @@ _[!UICONTROL Advanced Pricing]_&#x200B;설정은 특정 고객 그룹 또는 공
 
 고급 가격 데이터는 제품 페이지와 동기화됩니다. 예를 들어 계층 가격 수량을 업데이트하면 시스템이 제품 페이지의 값을 업데이트합니다.
 
-![Adobe Commerce B2B](../assets/b2b.svg)([Adobe Commerce B2B](./b2b/../introduction.md)에서만 사용 가능) 공유 카탈로그를 사용하는 경우 고급 가격 책정 데이터가 제품 페이지와 공유 카탈로그 모두와 동기화됩니다. 예를 들어 계층 가격 수량을 업데이트하면 공유 카탈로그 및 제품 페이지의 값이 업데이트됩니다. 공유 카탈로그에 표시된 모든 사용자 지정 가격책정은 고객 그룹 가격책정보다 우선합니다. _Adobe Commerce B2B 안내서_&#x200B;의 [공유 카탈로그 가격 및 구조 설정](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html)을 참조하세요.
+![Adobe Commerce B2B](../assets/b2b.svg)([Adobe Commerce B2B](./b2b/../introduction.md)에서만 사용 가능) 공유 카탈로그를 사용하는 경우 고급 가격 책정 데이터가 제품 페이지와 공유 카탈로그 모두와 동기화됩니다. 예를 들어 계층 가격 수량을 업데이트하면 공유 카탈로그 및 제품 페이지의 값이 업데이트됩니다. 공유 카탈로그에 표시된 모든 사용자 지정 가격책정은 고객 그룹 가격책정보다 우선합니다. _Adobe Commerce B2B 안내서_&#x200B;의 [공유 카탈로그 가격 및 구조 설정](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html?lang=ko)을 참조하세요.
 
 ![고급 가격](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 

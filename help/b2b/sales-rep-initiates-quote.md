@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->판매자가 구매자[를 위해 견적을 작성하는 비디오 데모는 상거래 비디오 및 자습서&#x200B;_에서 영업 담당자가 견적을](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html)_&#x200B;시작합니다.
+>판매자가 구매자[를 위해 견적을 작성하는 비디오 데모는 상거래 비디오 및 자습서&#x200B;_에서 영업 담당자가 견적을](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=ko)_&#x200B;시작합니다.
 
 ### 견적 표에서 견적 만들기
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >라인 항목 할인의 작동 방식에 대한 비디오 데모는 _Commerce 비디오 및 Tutorials_&#x200B;의 [영업 담당자가 견적 라인 항목에 할인을 적용합니다](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html)를 참조하십시오.
+   >라인 항목 할인의 작동 방식에 대한 비디오 데모는 _Commerce 비디오 및 Tutorials_&#x200B;의 [영업 담당자가 견적 라인 항목에 할인을 적용합니다](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=ko)를 참조하십시오.
 
 1. 필요에 따라 견적 수준 할인 적용:
 
