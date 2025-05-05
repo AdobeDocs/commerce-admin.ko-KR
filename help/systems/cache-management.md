@@ -102,7 +102,7 @@ Adobe Commerce 캐싱에 대한 추가 기술 정보는 _Commerce 프론트엔�
 
 ## 명령줄을 사용하여 플러시
 
-Commerce 애플리케이션 서버에 대한 액세스 권한이 있는 시스템 관리자 및 개발자는 Commerce CLI를 사용하여 명령줄에서 캐시 및 캐시 구성을 관리할 수도 있습니다. _구성 가이드_&#x200B;에서 [캐시 관리](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"}를 참조하십시오.
+Commerce 애플리케이션 서버에 대한 액세스 권한이 있는 시스템 관리자 및 개발자는 Commerce CLI를 사용하여 명령줄에서 캐시 및 캐시 구성을 관리할 수도 있습니다. _구성 가이드_&#x200B;에서 [캐시 관리](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"}를 참조하십시오.
 
 ## 컨트롤
 
@@ -136,11 +136,11 @@ Commerce 애플리케이션 서버에 대한 액세스 권한이 있는 시스�
 
 개발자와 시스템 통합자는 Adobe Commerce을 사용자 정의하거나 통합(예: GraphQL API를 사용한 통합 개발)할 때 이러한 값을 사용하여 캐싱을 구성하고 관리합니다.
 
-[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} `cache_type_id`은(는) Commerce CLI를 사용하여 응용 프로그램 서버 명령줄에서 캐시 관리에도 사용됩니다. 예를 들어 ` bin/magento cache:status config`은(는) 구성 캐시의 현재 상태를 표시합니다.
+[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} `cache_type_id`은(는) Commerce CLI를 사용하여 응용 프로그램 서버 명령줄에서 캐시 관리에도 사용됩니다. 예를 들어 ` bin/magento cache:status config`은(는) 구성 캐시의 현재 상태를 표시합니다.
 
 >[!NOTE]
 >
->개발자와 시스템 통합자는 Commerce 캐시 관리 시스템을 사용자 정의 및 확장하여 사용자 정의 모듈 및 통합을 지원할 수 있습니다. 자세한 내용은 _Adobe Commerce 구성 가이드_&#x200B;에서 [캐싱 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview)을 참조하십시오.
+>개발자와 시스템 통합자는 Commerce 캐시 관리 시스템을 사용자 정의 및 확장하여 사용자 정의 모듈 및 통합을 지원할 수 있습니다. 자세한 내용은 _Adobe Commerce 구성 가이드_&#x200B;에서 [캐싱 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cache/caching-overview)을 참조하십시오.
 
 <!-- prettier-ignore -->
 
@@ -183,7 +183,7 @@ Adobe Commerce 및 Magento Open Source은 서버에서 전체 페이지 캐싱�
 - `Sessioned` - 세션 방문 중에 스토어와 상호 작용하는 쇼핑객에게 세션 ID가 할당됩니다. 상호 작용에는 제품 비교나 장바구니에 제품 추가와 같은 활동이 포함됩니다. 세션 중에 생성된 캐시된 페이지는 세션 중에 해당 쇼핑객만 사용됩니다.
 - `Customer` - 등록된 계정을 사용하여 로그인하고 쇼핑하는 고객에 대해 고객 세션이 만들어집니다. 세션 중에 고객에게 할당된 고객 그룹에 따라 특별 오퍼, 프로모션 및 가격을 제공할 수 있습니다.
 
-자세한 내용은 _구성 가이드_&#x200B;에서 [바니시 구성 및 사용](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target="_blank"} 및 [Commerce 페이지 및 기본 캐시에 Redis 사용](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target="_blank"}을 참조하십시오.
+자세한 내용은 _구성 가이드_&#x200B;에서 [바니시 구성 및 사용](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=ko){:target="_blank"} 및 [Commerce 페이지 및 기본 캐시에 Redis 사용](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=ko){:target="_blank"}을 참조하십시오.
 
 **_전체 페이지 캐시를 구성하려면:_**
 
@@ -202,7 +202,7 @@ Adobe Commerce 및 Magento Open Source은 서버에서 전체 페이지 캐싱�
 
 1. 페이지 캐시에 대한 시간 제한을 설정하려면 **[!UICONTROL TTL for public content]**&#x200B;을(를) 입력하십시오. (기본값은 `86400`입니다.)
 
-1. [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP 끝점에서 처리할 최대 [레이아웃 핸들](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) 수를 지정하려면 **[!UICONTROL Handles param size]**&#x200B;을(를) 입력하십시오. 크기를 제한하면 보안과 성능을 향상시킬 수 있습니다. (기본값은 `100`입니다.)
+1. [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=ko) HTTP 끝점에서 처리할 최대 [레이아웃 핸들](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) 수를 지정하려면 **[!UICONTROL Handles param size]**&#x200B;을(를) 입력하십시오. 크기를 제한하면 보안과 성능을 향상시킬 수 있습니다. (기본값은 `100`입니다.)
 
 1. Vannish를 사용하는 경우 다음과 같이 **[!UICONTROL Varnish Configuration]** 섹션을 완료합니다.
 
@@ -212,7 +212,7 @@ Adobe Commerce 및 Magento Open Source은 서버에서 전체 페이지 캐싱�
 
    - **[!UICONTROL Backend port]** - 구성 파일을 생성하는 데 사용되는 백엔드 포트를 식별합니다. 기본값은 `8080`입니다.
 
-   - **[!UICONTROL Grace period]** - 구성 파일을 생성하는 유예 기간으로 사용할 시간(초)을 지정합니다. _구성 가이드_&#x200B;에서 [고급 바니시 구성](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html)을 참조하십시오.
+   - **[!UICONTROL Grace period]** - 구성 파일을 생성하는 유예 기간으로 사용할 시간(초)을 지정합니다. _구성 가이드_&#x200B;에서 [고급 바니시 구성](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=ko)을 참조하십시오.
 
    - 구성을 `varnish.vcl` 파일로 내보내려면 사용하는 Vannish 버전에 대한 단추를 클릭합니다.
 

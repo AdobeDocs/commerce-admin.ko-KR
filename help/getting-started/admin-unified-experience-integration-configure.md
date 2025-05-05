@@ -6,7 +6,7 @@ hidefromtoc: false
 feature: Integration
 role: Admin, Leader
 exl-id: b2522d25-8255-4219-98b5-4b764430dea2
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '1028'
@@ -22,11 +22,11 @@ Commerce Admin 통합 경험 및 Commerce 이벤트 확장을 사용하도록 Co
 ## 사전 요구 사항
 
 - [Adobe IMS 인증](../getting-started/adobe-ims-config.md)을 사용하도록 Adobe Commerce을 구성해야 합니다.
-- 계정 프로비저닝 및 권한—관리자는 Experience Cloud 통합을 구성하려면 다음 리소스에 액세스할 수 있는 [Adobe 비즈니스 프로필](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address)이 있어야 합니다.
-   - [Adobe Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html) - 조직의 Adobe 사용자 및 개발자 계정을 추가하고 관리합니다.
+- 계정 프로비저닝 및 권한—관리자는 Experience Cloud 통합을 구성하려면 다음 리소스에 액세스할 수 있는 [Adobe 비즈니스 프로필](https://helpx.adobe.com/kr/enterprise/kb/introducing-adobe-profiles.html#:~:text=Adobe%20profiles%20help%20you%20manage,under%20the%20same%20email%20address)이 있어야 합니다.
+   - [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/admin-guide.html) - 조직의 Adobe 사용자 및 개발자 계정을 추가하고 관리합니다.
    - [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/)—개발자 또는 시스템 관리자 액세스 권한을 사용하여 App Builder 프로젝트를 만들고 연결 자격 증명과 프로젝트 구성을 생성하여 Adobe I/O Events 서비스를 사용할 수 있습니다.
-   - [클라우드 인프라 프로젝트의 Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html#get-started-with-the-project-web-interface) - 필요한 모듈을 설치하고 Adobe Commerce CLI를 사용하여 Commerce 애플리케이션 서버를 구성합니다.
-   - [Commerce 관리자](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html) - 저장소 구성을 업데이트하고 Commerce 사용자 계정을 관리합니다.
+   - [클라우드 인프라 프로젝트의 Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/start/onboarding.html?lang=ko#get-started-with-the-project-web-interface) - 필요한 모듈을 설치하고 Adobe Commerce CLI를 사용하여 Commerce 애플리케이션 서버를 구성합니다.
+   - [Commerce 관리자](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html?lang=ko) - 저장소 구성을 업데이트하고 Commerce 사용자 계정을 관리합니다.
 
 ## 구성 개요
 
@@ -50,7 +50,7 @@ Experience Cloud 통합을 구성하기 전에 프로젝트와 Commerce 애플�
 
 1. Adobe IMS가 활성화되어 있는지 확인합니다.
 
-   - 환경에 대한 [SSH 액세스 URL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)을(를) 사용하여 Commerce 응용 프로그램 서버에 연결합니다.
+   - 환경에 대한 [SSH 액세스 URL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=ko)을(를) 사용하여 Commerce 응용 프로그램 서버에 연결합니다.
 
    - 명령줄에서 Adobe Commerce CLI를 사용하여 IMS 모듈 상태를 확인합니다.
 
@@ -97,7 +97,7 @@ Commerce 관리자 통합 경험 확장을 활성화한 다음 Experience Cloud�
 >
 >이 지침은 Commerce Cloud 프로젝트 관리자가 Adobe Commerce CLI를 사용하여 확장을 활성화하는 방법을 보여 줍니다. Commerce 관리자 사용자는 [Commerce 저장소 구성 설정](admin-unified-experience-integration-manage.md#from-the-commerce-admin)을 업데이트하여 확장을 사용하도록 설정할 수도 있습니다.
 
-1. 로컬 워크스테이션에 있는 클라우드 프로젝트 환경의 루트 디렉터리에서 [magento-cloud CLI 도구](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html)를 사용하여 Commerce 애플리케이션 서버에 로그인합니다.
+1. 로컬 워크스테이션에 있는 클라우드 프로젝트 환경의 루트 디렉터리에서 [magento-cloud CLI 도구](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview.html?lang=ko)를 사용하여 Commerce 애플리케이션 서버에 로그인합니다.
 
    ```bash
    magento-cloud ssh
@@ -145,7 +145,7 @@ Commerce 이벤트 확장(`magento/commerce-eventing`)을 사용하여 Commerce 
 
 >[!TIP]
 >
->`.magento.env.yaml` 파일을 사용하여 환경 변수를 구성하고 관리하는 방법에 대한 자세한 내용은 [배포를 위한 환경 변수 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)을 참조하십시오.
+>`.magento.env.yaml` 파일을 사용하여 환경 변수를 구성하고 관리하는 방법에 대한 자세한 내용은 [배포를 위한 환경 변수 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=ko)을 참조하십시오.
 
 ### Commerce 이벤트 통합 구성
 
@@ -169,7 +169,7 @@ Commerce 이벤트 확장(`magento/commerce-eventing`)을 사용하여 Commerce 
 
 1. 연결을 설정하려면 이벤트 공급자를 통해 소비자에게 이벤트를 보냅니다.
 
-   - 로컬 클라우드 프로젝트 디렉터리의 명령줄에서 [SSH를 사용하여 Commerce 응용 프로그램 서버에 연결](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment)합니다.
+   - 로컬 클라우드 프로젝트 디렉터리의 명령줄에서 [SSH를 사용하여 Commerce 응용 프로그램 서버에 연결](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=ko#connect-to-a-remote-environment)합니다.
 
      ```bash
      magento-cloud ssh
@@ -199,6 +199,6 @@ Commerce 관리자가 Experience Cloud에 로그인하여 사용 가능한 Comme
 
 1. 예상대로 관리 작업을 수행할 수 있는지 확인합니다.
 
-   Commerce 관리자의 워크플로우는 동일한 프로세스를 따라야 합니다. Experience Cloud 통합을 사용하도록 설정한 후 워크플로 변경 또는 오류가 발생하는 경우 Commerce 시스템 관리자에게 문의하거나 [Adobe 지원 티켓을 제출](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)하십시오.
+   Commerce 관리자의 워크플로우는 동일한 프로세스를 따라야 합니다. Experience Cloud 통합을 사용하도록 설정한 후 워크플로 변경 또는 오류가 발생하는 경우 Commerce 시스템 관리자에게 문의하거나 [Adobe 지원 티켓을 제출](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#submit-ticket)하십시오.
 
 Experience Cloud 통합을 구성한 후 관리자 계정이 Experience Cloud을 통해 Commerce 프로젝트에 액세스할 수 있도록 올바르게 프로비저닝되었는지 확인하십시오. [관리자 관리](/help/getting-started/admin-unified-experience-integration-manage.md#manage-admin-user-accounts)를 참조하십시오.

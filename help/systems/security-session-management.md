@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ### 관리 세션
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 최대 세션 크기를 초과하면 오류 메시지가 표시되고 시스템이 세션 크기 제한을 `var/log` 디렉터리에 기록합니다.
 
@@ -60,7 +60,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### Storefront 세션
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 최대 세션 크기를 초과하면 오류가 표시되지 않지만 시스템은 세션 크기 제한을 `var/log` 디렉터리에 기록합니다.
 
@@ -68,7 +68,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 Adobe Commerce 및 Magento Open Source을 사용하면 가능한 세션 고정 공격이나 사용자 세션을 포이즌 또는 납치하려는 시도에 대한 보호 조치로 세션 변수의 유효성을 확인할 수 있습니다. 세션 유효성 검사 설정은 각 저장소 방문 동안 세션 변수의 유효성 검사 방법과 세션 ID가 저장소의 URL에 포함되어 있는지 여부를 결정합니다.
 
-자세한 내용은 _구성 가이드_&#x200B;에서 [세션 저장소에 Redis 사용](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html)을 참조하십시오.
+자세한 내용은 _구성 가이드_&#x200B;에서 [세션 저장소에 Redis 사용](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=ko)을 참조하십시오.
 
 ![일반 구성 - 웹 세션 유효성 검사](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

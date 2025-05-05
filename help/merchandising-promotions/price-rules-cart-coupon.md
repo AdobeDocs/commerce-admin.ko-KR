@@ -62,7 +62,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
 >[!NOTE]
 >
->[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 쿠폰을 만들기 전에 `bin/magento cron:run` 명령을 사용하여 cron이 실행 중인지 확인하십시오. 자세한 내용은 _구성 가이드_&#x200B;의 [명령줄에서 cron 실행](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)을 참조하십시오.
+>[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 쿠폰을 만들기 전에 `bin/magento cron:run` 명령을 사용하여 cron이 실행 중인지 확인하십시오. 자세한 내용은 _구성 가이드_&#x200B;의 [명령줄에서 cron 실행](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko#run-cron-from-the-command-line)을 참조하십시오.
 
 ### 방법 1: 특정 쿠폰 만들기
 
