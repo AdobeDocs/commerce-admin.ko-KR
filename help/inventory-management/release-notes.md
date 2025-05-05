@@ -127,11 +127,11 @@ Inventory management 1.2.4(모듈 버전: `magento/inventory-metapackage = 1.2.4
 
 ![해결된 문제](../assets/fix.svg) 10,000개 항목을 초과하는 재고 관리가 개선되었습니다. 이전에는 성능 문제로 인해 판매자가 웹 사이트를 시작하기 전에 관리자에서 재고를 편집할 수 없었던 경우가 있었습니다. <!--- MC-42643-->
 
-![문제 해결](../assets/fix.svg) 관리자의 **[!UICONTROL User Roles]** 페이지가 업데이트되어 관리자에게 배달 메서드 구성에 대한 제한된 권한을 제공합니다. _배송 방법_ 섹션의 이름이 _[!UICONTROL Delivery methods]_(으)로 변경되었으며_[!UICONTROL In-Store Pickup]_&#x200B;이(가) _[!UICONTROL Delivery methods]_섹션 아래로 이동되었습니다. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![문제 해결](../assets/fix.svg) 관리자의 **[!UICONTROL User Roles]** 페이지가 업데이트되어 관리자에게 배달 메서드 구성에 대한 제한된 권한을 제공합니다. _배송 방법_ 섹션의 이름이 _[!UICONTROL Delivery methods]_(으)로 변경되었으며&#x200B;_[!UICONTROL In-Store Pickup]_&#x200B;이(가) _[!UICONTROL Delivery methods]_&#x200B;섹션 아래로 이동되었습니다. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![해결된 문제](../assets/fix.svg) API에 의해 대변 메모가 업데이트된 후 Adobe Commerce에서 더 이상 중복 제품 예약을 만들지 않습니다. <!--- MC-41757-->
 
-![해결된 문제](../assets/fix.svg) 체크아웃 워크플로에서 _[!UICONTROL Pick up in Store]_탭에서_[!UICONTROL Shipping]_ 탭으로 전환하면 매장 내 픽업 배달만 사용할 수 있는 경우 더 이상 JavaScript 오류가 트리거되지 않습니다. <!--- MC-42808-->
+![해결된 문제](../assets/fix.svg) 체크아웃 워크플로에서 _[!UICONTROL Pick up in Store]_&#x200B;탭에서&#x200B;_[!UICONTROL Shipping]_ 탭으로 전환하면 매장 내 픽업 배달만 사용할 수 있는 경우 더 이상 JavaScript 오류가 트리거되지 않습니다. <!--- MC-42808-->
 
 ![해결된 문제](../assets/fix.svg) 판매 가능한 제품 수량과 재고 있는 제품 수량이 올바르게 동기화되었습니다. 이전에는 취소된 주문에 대해 재고 예약 보상이 다시 생성되지 않았습니다. <!--- MC-42485-->
 
