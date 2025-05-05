@@ -39,7 +39,7 @@ Adobe Commerce 및 Magento Open Source은 주문이 제출되기 전에 모든 �
 
 이 비디오를 시청하여 판매자 지원 쇼핑에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410204/?quality=12&learn=on&captions=kor)
 
 ## 주문 관리 및 운영
 

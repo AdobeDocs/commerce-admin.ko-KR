@@ -70,7 +70,7 @@ Adobe Commerce 또는 Magento Open Source 2.4를 사용하면 판매자는 새�
 
 [!DNL Media Gallery]에 대해 자세히 알아보려면 다음 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411047?quality=12&learn=on&captions=kor)
 
 [adobe-stock]: https://stock.adobe.com
 

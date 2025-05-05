@@ -119,4 +119,4 @@ ht-degree: 0%
 
 이 데모 비디오를 통해 회사 크레딧 관리에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410762?quality=12&learn=on&captions=kor)

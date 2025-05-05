@@ -93,6 +93,6 @@ URL에서 카테고리를 생략하거나 표준 메타 태그를 사용하여 �
 
 SEO 메타데이터 관리에 대해 알아보려면 이 비디오 를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410177?quality=12&learn=on&captions=kor)
 
 [1]: https://schema.org/

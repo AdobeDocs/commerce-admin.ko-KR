@@ -111,7 +111,7 @@ ht-degree: 0%
 
 공유 카탈로그 관리에 대한 데모를 보려면 다음 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410756?quality=12&learn=on&captions=kor)
 
 ## 공유 카탈로그 페이지 참조
 

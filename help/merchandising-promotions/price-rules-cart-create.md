@@ -334,7 +334,7 @@ Real-Time CDP [대상자](../customers/audience-activation.md)를 기반으로 �
 
 이 비디오를 통해 장바구니 가격 규칙을 만드는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410807?quality=12&learn=on&captions=kor)
 
 ## 필드 설명
 

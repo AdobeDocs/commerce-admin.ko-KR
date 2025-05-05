@@ -98,7 +98,7 @@ ht-degree: 0%
 
 위젯을 만드는 방법에 대해 알아보려면 이 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411059?quality=12&learn=on&captions=kor)
 
 ## 위젯 편집
 

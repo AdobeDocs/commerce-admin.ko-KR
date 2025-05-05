@@ -208,7 +208,7 @@ _[!UICONTROL Companies]_&#x200B;페이지에는 상태와 관계없이 모든 �
 
 다음 비디오를 통해 회사 계정 관리에 대해 알아볼 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410774?quality=12&learn=on&captions=kor)
 
 ## 회사 경영
 

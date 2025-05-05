@@ -110,4 +110,4 @@ ht-degree: 0%
 
 이 데모를 시청하여 고객 그룹을 만드는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410172/?quality=12&learn=on&captions=kor)

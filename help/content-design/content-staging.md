@@ -80,7 +80,7 @@ _campaign_ 용어는 예약된 변경 내용 또는 스테이징 대시보드에
 
 콘텐츠 스테이징에 대해 알아보려면 다음 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410857?quality=12&learn=on&captions=kor)
 
 ## 리소스 문제 해결
 

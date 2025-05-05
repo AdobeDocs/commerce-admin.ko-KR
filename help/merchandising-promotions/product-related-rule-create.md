@@ -84,7 +84,7 @@ ht-degree: 0%
 
 관련 제품 규칙을 만드는 방법에 대해 알아보려면 이 비디오 를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343837?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411065?quality=12&learn=on&captions=kor)
 
 ## 필드 설명
 

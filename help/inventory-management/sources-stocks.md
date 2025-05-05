@@ -65,4 +65,4 @@ Sales Channel은 웹 사이트, 스토어 보기, B2B 고객 그룹 등을 포�
 
 이 비디오를 통해 Inventory management 소스 및 재고에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410199?quality=12&learn=on&captions=kor)

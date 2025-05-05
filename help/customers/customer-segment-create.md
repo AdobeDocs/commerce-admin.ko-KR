@@ -196,4 +196,4 @@ _&#x200B;**[!UICONTROL Matched Customers]눈금&#x200B;**&#x200B;_
 
 고객 세그먼트 만들기에 대한 시연은 이 비디오 를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410192/?quality=12&learn=on&captions=kor)

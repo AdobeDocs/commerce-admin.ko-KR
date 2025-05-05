@@ -150,4 +150,4 @@ ht-degree: 0%
 
 이 비디오를 통해 구매 주문 승인에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410768?quality=12&learn=on&captions=kor)

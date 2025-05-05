@@ -91,4 +91,4 @@ _템플릿 적용_ 그리드와 _템플릿_ 페이지 그리드는 템플릿 그
 
 이 비디오를 통해 페이지 빌더 콘텐츠 템플릿에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410845?quality=12&learn=on&captions=kor)
