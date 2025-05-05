@@ -5,7 +5,7 @@ breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: 516b605ba357f093bdd1cf1e92df18202d16a800
 workflow-type: tm+mt
 source-wordcount: '98'
@@ -47,5 +47,5 @@ ht-degree: 8%
    - [제품](products.md)
    - [제품 추천](recommendations.md)
 - [템플릿](templates.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
 
