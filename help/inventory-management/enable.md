@@ -22,7 +22,7 @@ ht-degree: 0%
 
 단일 및 다중 소스 인벤토리에서 이 설정이 작동하는 방식:
 
-- [!DNL Inventory Management]을(를) 사용하려면 _[!UICONTROL Manage Stock]_을(를) 사용하도록 설정하십시오.
+- [!DNL Inventory Management]을(를) 사용하려면 _[!UICONTROL Manage Stock]_&#x200B;을(를) 사용하도록 설정하십시오.
 
 - 제품 수준 구성의 [!UICONTROL Manage Stock] 설정이 저장소 구성을 재정의합니다.
 

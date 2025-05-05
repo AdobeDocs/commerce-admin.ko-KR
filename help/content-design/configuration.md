@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
    이 페이지에는 스토어 보기에 대한 현재 디자인 설정이 표시됩니다.
 
@@ -48,7 +48,7 @@ ht-degree: 0%
    >
    >지정하려는 장치에 대해 여러 규칙을 추가할 수 있습니다. 검색 문자열은 입력한 순서대로 일치합니다.
 
-1. _[!UICONTROL Other Settings]_에서 각 섹션을 확장하고 연결된 항목의 지침에 따라 필요에 따라 설정을 편집합니다.
+1. _[!UICONTROL Other Settings]_&#x200B;에서 각 섹션을 확장하고 연결된 항목의 지침에 따라 필요에 따라 설정을 편집합니다.
 
    - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)
    - [[!UICONTROL HTML Head]](page-setup.md#html-head)

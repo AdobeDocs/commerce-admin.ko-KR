@@ -66,7 +66,7 @@ ht-degree: 0%
 
 - 특정 바우처의 잔액을 추적하기 위해 기프트 코드에 대한 계정이 만들어집니다. 매장 관리자는 수동으로 잔액을 조정할 수 있습니다.
 
-받는 고객은 계정 대시보드의 _[!UICONTROL Gift Card]_섹션을 사용하여 [기프트 카드 계정](product-gift-card-accounts.md)의 잔액을 확인하고 [스토어 신용](../customers/store-credit-using.md)에 대한 기프트 카드를 사용할 수 있습니다.
+받는 고객은 계정 대시보드의 _[!UICONTROL Gift Card]_&#x200B;섹션을 사용하여 [기프트 카드 계정](product-gift-card-accounts.md)의 잔액을 확인하고 [스토어 신용](../customers/store-credit-using.md)에 대한 기프트 카드를 사용할 수 있습니다.
 
 ![기프트 카드](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ### 기프트 카드 활성화
 
-1. _[!UICONTROL Gift Card]_페이지에서 고객이 기프트 카드 코드를 입력합니다.
+1. _[!UICONTROL Gift Card]_&#x200B;페이지에서 고객이 기프트 카드 코드를 입력합니다.
 
 1. 고객이 **[!UICONTROL Redeem Gift Card]**&#x200B;을(를) 클릭합니다.
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ![크레딧 잔고 저장](./assets/store-credit.png){width="700" zoomable="yes"}
 
-기프트 카드 잔액에 대한 모든 작업은 _[!UICONTROL Store Credit]_페이지에서 사용할 수 있습니다.
+기프트 카드 잔액에 대한 모든 작업은 _[!UICONTROL Store Credit]_&#x200B;페이지에서 사용할 수 있습니다.
 
 ### 체크아웃 시 기프트 카드 적용
 
@@ -104,6 +104,6 @@ ht-degree: 0%
 
 1. 기프트 카드 코드를 입력한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
-   할인은 _[!UICONTROL Order Summary]_에 반영되어야 합니다.
+   할인은 _[!UICONTROL Order Summary]_&#x200B;에 반영되어야 합니다.
 
 1. **[!UICONTROL Place Order]**&#x200B;을(를) 클릭하여 주문을 완료합니다.

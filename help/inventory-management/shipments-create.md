@@ -54,9 +54,9 @@ ht-degree: 0%
 
      ![Source 선택 및 수량 입력](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. _[!UICONTROL New Shipment]_페이지를 검토하고 필요에 따라 추가 변경 내용을 입력하십시오.
+1. _[!UICONTROL New Shipment]_&#x200B;페이지를 검토하고 필요에 따라 추가 변경 내용을 입력하십시오.
 
-   _[!UICONTROL Inventory]_섹션에는 소스, 제품 배송, 총 주문 수량 및 배송할 수량이 표시됩니다.
+   _[!UICONTROL Inventory]_&#x200B;섹션에는 소스, 제품 배송, 총 주문 수량 및 배송할 수량이 표시됩니다.
 
    ![배송에 대한 인벤토리 세부 정보(예: 부분 배송)](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

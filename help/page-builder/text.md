@@ -114,7 +114,7 @@ _Text_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.md
 
 1. 필요에 따라 콘텐츠를 업데이트합니다.
 
-1. 필요에 따라 _[!UICONTROL Advanced]_설정을 업데이트합니다.
+1. 필요에 따라 _[!UICONTROL Advanced]_&#x200B;설정을 업데이트합니다.
 
    - 상위 컨테이너 내의 텍스트 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하세요.
 

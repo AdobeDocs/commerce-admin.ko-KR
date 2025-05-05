@@ -23,7 +23,7 @@ ht-degree: 0%
 | 필드 | 범위 | 설명 |
 |  ---  |  ---  |  ---  |
 | [!UICONTROL Add Store Code to URLs] | 글로벌 | 웹 서버 재작성을 사용하도록 설정한 경우 에서는 현재 보기의 스토어 코드를 URL에 삽입합니다. 옵션: `Yes` / `No`. <br />이 필드를 `Yes`(으)로 설정하면 URL 다시 쓰기가 올바르게 매핑되고 모든 페이지가 성공적으로 열리는지 확인하기 위해 브라우저 URL에 저장소 코드를 포함해야 합니다. _404 페이지를 찾을 수 없음_ 오류가 발생하지 않습니다. |
-| [!UICONTROL Auto-redirect to Base URL] | 스토어 뷰 | (단일 스토어 설정의 경우) 사이트에 끊어진 링크가 있으면 은 트래픽을 &quot;404 페이지를 찾을 수 없음&quot; 메시지가 있는 페이지가 아닌 기본 URL로 리디렉션합니다. 옵션:` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_중요:_**다중 스토어 설정의 기본 URL로 자동 리디렉션을 사용하지 마십시오. |
+| [!UICONTROL Auto-redirect to Base URL] | 스토어 뷰 | (단일 스토어 설정의 경우) 사이트에 끊어진 링크가 있으면 은 트래픽을 &quot;404 페이지를 찾을 수 없음&quot; 메시지가 있는 페이지가 아닌 기본 URL로 리디렉션합니다. 옵션:` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_중요:_**&#x200B;다중 스토어 설정의 기본 URL로 자동 리디렉션을 사용하지 마십시오. |
 | [!UICONTROL Catalog media URL format] | 글로벌 | 제품 및 범주에 할당된 [URL 형식](../../catalog/catalog-urls.md)을(를) 정의합니다. 옵션: 이미지 변형당 고유 해시(레거시 모드) 변환된 파일 이름을 고유한 해시 값으로 정의합니다. 쿼리 매개 변수를 기반으로 한 이미지 최적화는 쿼리 매개 변수에 따라 [이미지 최적화](../../content-design/media-gallery-image-optimization.md) 프로세스를 정의합니다. |
 
 {style="table-layout:auto"}

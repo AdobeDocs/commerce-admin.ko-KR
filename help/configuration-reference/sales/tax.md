@@ -41,14 +41,14 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Tax Calculation Method Based On] | 웹 사이트 | 주문에 대한 세금을 계산하는 데 사용되는 방법을 결정합니다. 옵션:<br/>**`Unit Price`**- 세금 계산은 각 제품의 단가를 기반으로 합니다.<br/>**`Row Total`** - 세금 계산은 라인 항목 합계를 기반으로 합니다. <br/>**`Total`**- 세금 계산은 주문 합계를 기반으로 합니다.<br/><br/>_**&#x200B;참고:**_세금 계산 확장이 마켓플레이스에서 설치된 경우(예: _Vertex Cloud_) 확장 서비스가 옵션으로 나열됩니다. |
+| [!UICONTROL Tax Calculation Method Based On] | 웹 사이트 | 주문에 대한 세금을 계산하는 데 사용되는 방법을 결정합니다. 옵션:<br/>**`Unit Price`**- 세금 계산은 각 제품의 단가를 기반으로 합니다.<br/>**`Row Total`** - 세금 계산은 라인 항목 합계를 기반으로 합니다. <br/>**`Total`**- 세금 계산은 주문 합계를 기반으로 합니다.<br/><br/>_&#x200B;**&#x200B;참고:**&#x200B;_세금 계산 확장이 마켓플레이스에서 설치된 경우(예: _Vertex Cloud_) 확장 서비스가 옵션으로 나열됩니다. |
 | [!UICONTROL Tax Calculation Based On] | 웹 사이트 | 세금 계산이 배송 주소, 청구 주소 또는 배송 출처를 기준으로 하는지 여부를 결정합니다. 옵션: `Shipping Address` / `Billing Address` / `Shipping Origin` |
 | [!UICONTROL Catalog Prices] | 웹 사이트 | 카탈로그 가격에 세금이 포함되는지 또는 제외되는지를 결정합니다. 옵션: `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Shipping Prices] | 웹 사이트 | 배송비에 세금을 포함하거나 제외하는 방법을 결정합니다. 옵션: `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Apply Customer Tax] | 웹 사이트 | 할인 이전 또는 이후에 세금이 적용되는지 여부를 결정합니다. 옵션: `Before Discount` / `After Discount` |
 | [!UICONTROL Apply Discount on Prices] | 웹 사이트 | 할인 가격에 세금이 포함되는지 또는 제외되는지를 결정합니다. 옵션: `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Apply Tax On] | 웹 사이트 | 세금이 원래 가격에 적용되는지 또는 가능한 경우 사용자 지정 가격에 적용되는지 여부를 결정합니다. 옵션: `Custom price if available` / `Original price only` |
-| [!UICONTROL Enable Cross Border Trade] | 웹 사이트 | 활성화하면 세율이 다른 지역의 경계 간에 일관된 가격을 적용합니다. 옵션: `Yes` / `No` <br/><br/>**_참고:_**국가 간 거래를 사용하면 세율별 이익 마진이 조정됩니다. |
+| [!UICONTROL Enable Cross Border Trade] | 웹 사이트 | 활성화하면 세율이 다른 지역의 경계 간에 일관된 가격을 적용합니다. 옵션: `Yes` / `No` <br/><br/>**_참고:_**&#x200B;국가 간 거래를 사용하면 세율별 이익 마진이 조정됩니다. |
 
 {style="table-layout:auto"}
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Display Product Prices in Catalog] | 스토어 뷰 | 카탈로그에 게시된 제품 가격에 세금이 포함되는지 또는 제외되는지 여부를 결정하거나 두 가지 버전의 가격을 표시합니다(하나는 세금이 포함됨). 옵션: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_참고:_**제품 가격 표시 필드를 `Including Tax`(으)로 설정하면 세금 원본과 일치하는 세금 규칙이 있거나 세금 규칙과 일치하는 고객 주소가 있는 경우에만 세금이 표시됩니다. 일치를 트리거할 수 있는 이벤트에는 고객 계정 생성, 로그인 또는 장바구니에서 세금 및 배송 예상 도구의 사용이 포함됩니다. |
+| [!UICONTROL Display Product Prices in Catalog] | 스토어 뷰 | 카탈로그에 게시된 제품 가격에 세금이 포함되는지 또는 제외되는지 여부를 결정하거나 두 가지 버전의 가격을 표시합니다(하나는 세금이 포함됨). 옵션: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_참고:_**&#x200B;제품 가격 표시 필드를 `Including Tax`(으)로 설정하면 세금 원본과 일치하는 세금 규칙이 있거나 세금 규칙과 일치하는 고객 주소가 있는 경우에만 세금이 표시됩니다. 일치를 트리거할 수 있는 이벤트에는 고객 계정 생성, 로그인 또는 장바구니에서 세금 및 배송 예상 도구의 사용이 포함됩니다. |
 | [!UICONTROL Display Shipping Prices] | 스토어 뷰 | 배송비에 세금이 포함되는지 또는 제외되는지 또는 배송비의 두 가지 버전을 표시할지 여부를 결정합니다. 하나는 세금이 있고 다른 하나는 세금이 없습니다. 옵션: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
 {style="table-layout:auto"}
@@ -125,7 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Display Prices in Product Lists] | 웹 사이트 | 제품 목록에서 FPT의 표시를 제어합니다. 옵션:<br/> **`Including FPT Only`** - 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액은 별도로 표시되지 않습니다.<br/>**`Including FPT and FPT description`**- 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT. Including FPT description and final price`** - 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT`**- 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액은 별도로 표시되지 않습니다. |
 | [!UICONTROL Display Prices On Product View Page] | 웹 사이트 | 제품 페이지에서 FPT의 표시를 제어합니다. 옵션:<br/> **`Including FPT Only`** - 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액은 별도로 표시되지 않습니다.<br/>**`Including FPT and FPT description`**- 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT. Including FPT description and final price`** - 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT`**- 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액은 별도로 표시되지 않습니다. |
 | [!UICONTROL Display Prices in Sales Modules] | 웹 사이트 | 장바구니 및 체크아웃 중에 FPT의 표시를 제어합니다. 옵션:<br/> **`Including FPT Only`** - 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액은 별도로 표시되지 않습니다.<br/>**`Including FPT and FPT description`**- 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT. Including FPT description and final price`** - 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT`**- 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액은 별도로 표시되지 않습니다. |
-| [!UICONTROL Display Prices in Emails] | 웹 사이트 | 이메일에 FPT가 표시되도록 제어합니다. 옵션:<br/> **`Including FPT Only`** - 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액은 별도로 표시되지 않습니다.<br/>**`Including FPT and FPT description`**- 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시됩니다.<br/>** FPT를 제외하고 있습니다. FPT 설명 및 최종 가격 포함&#x200B;**- 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT`** - 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액은 별도로 표시되지 않습니다. |
+| [!UICONTROL Display Prices in Emails] | 웹 사이트 | 이메일에 FPT가 표시되도록 제어합니다. 옵션:<br/> **`Including FPT Only`** - 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액은 별도로 표시되지 않습니다.<br/>**`Including FPT and FPT description`**- 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시됩니다.<br/>**&#x200B; FPT를 제외하고 있습니다. FPT 설명 및 최종 가격 포함&#x200B;**- 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT`** - 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액은 별도로 표시되지 않습니다. |
 | [!UICONTROL Apply Tax to FPT] | 웹 사이트 | FPT 금액에 세금이 적용되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Include FPT in Subtotal] | 웹 사이트 | FPT가 장바구니 소계에 포함되는지 여부를 결정합니다. 옵션: <br/>**`Yes`**- 장바구니 소계에 FPT를 포함합니다.<br/>**`No`** - FPT는 소계에 포함되지 않으며 장바구니에서 소계 뒤에 배치됩니다. |
 

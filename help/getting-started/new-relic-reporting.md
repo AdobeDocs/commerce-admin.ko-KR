@@ -97,7 +97,7 @@ ht-degree: 0%
 
 ## [!DNL New Relic]개 쿼리
 
-[!DNL New Relic Insights] 데이터는 [!DNL New Relic Query Language](NRQL)에 작성된 문 및 포함할 수 있는 사용자 지정 매개 변수를 기반으로 합니다. 임시 쿼리에서 데이터를 반환하거나 대시보드에 저장된 쿼리에서 데이터를 반환할 수 있습니다. 자세한 내용은 [!DNL New Relic] 설명서에서 [NRQL 참조][6]를 참조하십시오.
+[!DNL New Relic Insights] 데이터는 [!DNL New Relic Query Language] (NRQL)에 작성된 문 및 포함할 수 있는 사용자 지정 매개 변수를 기반으로 합니다. 임시 쿼리에서 데이터를 반환하거나 대시보드에 저장된 쿼리에서 데이터를 반환할 수 있습니다. 자세한 내용은 [!DNL New Relic] 설명서에서 [NRQL 참조][6]를 참조하십시오.
 
 ### 관리 이벤트
 
@@ -155,6 +155,7 @@ ht-degree: 0%
     AND CatalogCategoryCount > 0
     AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 minutes ago LIMIT 1
 &lt;/your_app_name>
+
 #### 활성 제품
 
 지정된 기간 동안 제품별 응용 프로그램 이벤트 수를 반환합니다.
@@ -174,6 +175,7 @@ ht-degree: 0%
     2분 전 LIMIT 1
 부터 CATALOGProductActiveCount > 0
     AND APPName = &#39;&lt;your_app_name>&#39;
+
 #### 구성 가능한 제품
 
 지정된 기간 동안 구성 가능한 제품에 대한 평균 애플리케이션 이벤트 수를 반환합니다.
@@ -193,6 +195,7 @@ ht-degree: 0%
     2분 전 LIMIT 1
 부터 CATALOGProductConfigurableCount > 0
     AND appName = &#39;&lt;your_app_name>&#39;
+
 #### 제품 개수(모두)
 
 모든 제품에 대한 총 응용 프로그램 이벤트 수를 반환합니다.
@@ -212,6 +215,7 @@ ht-degree: 0%
     2분 전 LIMIT 1
 부터 CATALOGProductCount > 0
     AND APPName = &#39;&lt;your_app_name>&#39;
+
 #### 고객 수
 
 고객별 평균 애플리케이션 이벤트 수를 반환합니다.
@@ -256,7 +260,7 @@ ht-degree: 0%
 
     평균(StoreViewCount), 평균(WebsiteCount) 선택
     크론에서
-    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; 시계열 2분
+    WHERE appName = &#39;&lt;your_app_name&gt;&#39; 시계열 2분
 
 #### 현재 웹 사이트 및 스토어 수
 

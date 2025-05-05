@@ -27,11 +27,11 @@ ht-degree: 0%
 
 1. 오른쪽 상단에서 **[!UICONTROL New Backup]**&#x200B;을(를) 클릭합니다.
 
-   백업을 생성하는 데 몇 분 정도 소요됩니다. **[!UICONTROL Refresh Status]**&#x200B;을(를) 클릭하여 처리 결과를 모니터링할 수 있습니다. 완료되면 백업이 _[!UICONTROL Data Collector]_그리드에 나타납니다.
+   백업을 생성하는 데 몇 분 정도 소요됩니다. **[!UICONTROL Refresh Status]**&#x200B;을(를) 클릭하여 처리 결과를 모니터링할 수 있습니다. 완료되면 백업이 _[!UICONTROL Data Collector]_&#x200B;그리드에 나타납니다.
 
 1. 백업 세부 정보가 포함된 로그를 보려면 다음을 수행합니다.
 
-   - _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Show Log]**을(를) 선택합니다.
+   - _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Show Log]**&#x200B;을(를) 선택합니다.
 
    - 그리드로 돌아가려면 **[!UICONTROL Back]**&#x200B;을(를) 클릭합니다.
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. 상태가 `Complete`인지 확인하십시오.
 
-1. _[!UICONTROL Code Dump]_또는_[!UICONTROL DB Dump]_ 열에서 엔터티 이름을 클릭합니다.
+1. _[!UICONTROL Code Dump]_&#x200B;또는&#x200B;_[!UICONTROL DB Dump]_ 열에서 엔터티 이름을 클릭합니다.
 
 다운로드 프로세스가 자동으로 시작됩니다.
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 1. 삭제할 백업 데이터를 찾아 선택합니다.
 
-1. _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Delete]**을(를) 클릭합니다.
+1. _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
 1. 작업을 확인하려면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
@@ -116,7 +116,7 @@ _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Support]_>
 
 ### 시스템 보고서 세부 정보 보기
 
-1. 필요한 보고서에 대해 _[!UICONTROL Actions]_열에서&#x200B;**[!UICONTROL View]**을(를) 선택합니다.
+1. 필요한 보고서에 대해 _[!UICONTROL Actions]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 선택합니다.
 
 1. 왼쪽 패널에서 보고서의 각 섹션을 ![확장 선택기](../assets/icon-display-expand.png)로 확장하여 세부 정보를 봅니다.
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**(으)로 이동합니다.
 
-1. _[!UICONTROL Attribute Code]_열 상단의 검색 필터에서 `sku`을(를) 입력하고&#x200B;**[!UICONTROL Search]**을(를) 클릭합니다.
+1. _[!UICONTROL Attribute Code]_&#x200B;열 상단의 검색 필터에서 `sku`을(를) 입력하고&#x200B;**[!UICONTROL Search]**&#x200B;을(를) 클릭합니다.
 
 1. 편집 모드에서 `sku` 특성을 열려면 클릭하세요.
 

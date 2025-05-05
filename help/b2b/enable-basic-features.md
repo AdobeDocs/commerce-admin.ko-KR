@@ -45,7 +45,7 @@ Adobe Commerce B2B 기능을 구성하는 옵션은 [Adobe Commerce B2B 확장�
 
    다중 사이트를 설치한 경우 왼쪽 상단의 **[!UICONTROL Store View]** 컨트롤을 구성이 적용되는 웹 사이트로 설정합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL B2B Features]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL B2B Features]**&#x200B;을(를) 선택합니다.
 
    ![B2B 구성 - 일반](./assets/b2b-features.png){width="600"}
 
@@ -255,7 +255,7 @@ Adobe Commerce B2B 기능을 구성하는 옵션은 [Adobe Commerce B2B 확장�
 1. **[!UICONTROL Payment from Applicable Countries]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 옵션을 클릭합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 옵션을 클릭합니다.
 
 1. 이 결제 방법을 사용하는 데 필요한 주문 금액으로 **[!UICONTROL Minimum Order Total]** 및 **[!UICONTROL Maximum Order Total]**&#x200B;을(를) 설정합니다.
 

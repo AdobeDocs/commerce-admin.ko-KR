@@ -47,7 +47,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->고객이 _[!UICONTROL backorder qty]_을(를) 사용하여 주문하면 [!DNL Inventory Management]에서 판매 가능 수량에서 수량을 자동으로 뺍니다. 주문이 출하되지 않고 취소된 경우 수량은 집계된 가상 판매 가능 수량으로 반환됩니다.**_취소된 주문 수량은_**소스에 할당되지 않았지만 판매에 사용할 수 있는 총 제품 수(제품 그리드의_[!UICONTROL Salable Quantity]_ 열)로 반환됩니다.
+>고객이 _[!UICONTROL backorder qty]_&#x200B;을(를) 사용하여 주문하면 [!DNL Inventory Management]에서 판매 가능 수량에서 수량을 자동으로 뺍니다. 주문이 출하되지 않고 취소된 경우 수량은 집계된 가상 판매 가능 수량으로 반환됩니다.**_취소된 주문 수량은_**&#x200B;소스에 할당되지 않았지만 판매에 사용할 수 있는 총 제품 수(제품 그리드의&#x200B;_[!UICONTROL Salable Quantity]_ 열)로 반환됩니다.
 
 <!--### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
 
@@ -93,9 +93,9 @@ The _Notify for Quantity Below_ configuration option is configurable at the glob
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. **[!UICONTROL Edit]** 모드에서 제품을 열고 페이지를 아래로 스크롤하여 _[!UICONTROL Sources]_영역으로 이동합니다.
+1. **[!UICONTROL Edit]** 모드에서 제품을 열고 페이지를 아래로 스크롤하여 _[!UICONTROL Sources]_&#x200B;영역으로 이동합니다.
 
-   [!DNL Inventory Management] 없이 구성된 제품의 경우 탭이 표시되지 않습니다. _[!UICONTROL Quantity]_필드 아래에 `Advanced Inventory` 단추가 표시됩니다.
+   [!DNL Inventory Management] 없이 구성된 제품의 경우 탭이 표시되지 않습니다. _[!UICONTROL Quantity]_&#x200B;필드 아래에 `Advanced Inventory` 단추가 표시됩니다.
 
 1. **[!UICONTROL Advanced Inventory]**&#x200B;을(를) 클릭합니다.
 

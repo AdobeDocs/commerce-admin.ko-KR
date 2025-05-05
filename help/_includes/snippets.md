@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->자동 리디렉션이 활성화되어 있고 카테고리를 저장하면 모든 제품 및 카테고리 재쓰기가 실시간으로 생성되고 기본적으로 재작성 테이블에 저장됩니다. 이 프로세스는 많은 지정된 제품이 있는 카테고리의 성능 문제를 크게 초래할 수 있습니다. 해결 방법은 이 기본값을 변경하고 카테고리 저장을 위해 제품의 카테고리/제품 URL 재작성 생성을 건너뛰는 것입니다. 이 경우 표준 제품 URL에 대해서만 제품 재작성이 생성됩니다. 자세한 내용은 자동 제품 리디렉션을](/help/merchandising-promotions/url-redirect-product-automatic.md) 참조하십시오[.
+>자동 리디렉션이 활성화되어 있고 카테고리를 저장하면 모든 제품 및 카테고리 재쓰기가 실시간으로 생성되고 기본적으로 재작성 테이블에 저장됩니다. 이 프로세스는 많은 지정된 제품이 있는 카테고리의 성능 문제를 크게 초래할 수 있습니다. 해결 방법은 이 기본값을 변경하고 카테고리 저장을 위해 제품의 카테고리/제품 URL 재작성 생성을 건너뛰는 것입니다. 이 경우 표준 제품 URL에 대해서만 제품 재작성이 생성됩니다. 자세한 내용은 자동 제품 리디렉션을[&#128279;](/help/merchandising-promotions/url-redirect-product-automatic.md) 참조하십시오.
 
 ## URL 다시 쓰기 매개 변수 참고 {#url-rewrite-params}
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 구성 설정 {#config}
 
-저장소 구성 설정에 액세스하려면 _관리_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**을(를) 선택하십시오.
+저장소 구성 설정에 액세스하려면 _관리_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;을(를) 선택하십시오.
 
 ## UPS API 사용 중단 {#ups-api}
 

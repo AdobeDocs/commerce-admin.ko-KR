@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. 섹션 아래쪽으로 스크롤하여 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL File name]_그리드의_[!UICONTROL Action]_ 열에서 **[!UICONTROL Select]**&#x200B;을(를) 클릭하고 `Download`을(를) 선택합니다.
+1. _[!UICONTROL File name]_&#x200B;그리드의&#x200B;_[!UICONTROL Action]_ 열에서 **[!UICONTROL Select]**&#x200B;을(를) 클릭하고 `Download`을(를) 선택합니다.
 
    파일이 브라우저에서 사용하는 다운로드 위치에 나타납니다.
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**(으)로 이동합니다.
 
-1. _[!UICONTROL Import Settings]_에서&#x200B;**[!UICONTROL Entity Type]**을(를) `Products`(으)로 설정합니다.
+1. _[!UICONTROL Import Settings]_&#x200B;에서&#x200B;**[!UICONTROL Entity Type]**&#x200B;을(를) `Products`(으)로 설정합니다.
 
 1. **[!UICONTROL Import Behavior]**&#x200B;을(를) `Replace`(으)로 설정합니다.
 
@@ -97,6 +97,6 @@ ht-degree: 0%
 
 1. 파일이 올바른 경우 **[!UICONTROL Import]**&#x200B;을(를) 클릭합니다.
 
-1. 프로세스가 완료되면 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동하여&#x200B;**[!UICONTROL Flush Cache Storage]**을(를) 클릭합니다.
+1. 프로세스가 완료되면 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동하여&#x200B;**[!UICONTROL Flush Cache Storage]**&#x200B;을(를) 클릭합니다.
 
    이렇게 하면 업데이트된 제품을 매장 전면에서 즉시 사용할 수 있습니다.

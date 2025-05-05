@@ -39,7 +39,7 @@ ht-degree: 6%
    + [회사 계층 관리](manage-company-hierarchy.md)
 + 공유된 카탈로그 {#shared-catalogs}
    + [개요](catalog-shared.md)
-   + 공유 카탈로그 {#define} 정의
+   + 공유 카탈로그 정의 {#define}
       + [공유 카탈로그 만들기](catalog-shared-create.md)
       + [공유 카탈로그에 제품 추가](catalog-shared-product-add.md)
       + [카탈로그 가격 및 구조 설정](catalog-shared-pricing-structure.md)

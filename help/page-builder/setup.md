@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # [!DNL Page Builder] 설정
 
-구성에서 사용하도록 설정된 경우 [!DNL Page Builder]은(는) CMS 페이지, 블록 및 동적 블록에 대한 기본 콘텐츠 만들기 도구입니다. 또한 _[!UICONTROL Enable Advanced CMS]_단추는 범주 및 제품에 대한 옵션으로 [!DNL Page Builder]을(를) 제공합니다. 제품, 카테고리 및 CMS 페이지에 사용할 기본 [페이지 레이아웃](../content-design/page-layout.md)을 선택할 수도 있습니다. [!DNL Page Builder]은(는) WYSIWYG [editor](../content-design/editor.md)을(를) 사용하는 뉴스레터 콘텐츠에 사용할 수 없습니다.
+구성에서 사용하도록 설정된 경우 [!DNL Page Builder]은(는) CMS 페이지, 블록 및 동적 블록에 대한 기본 콘텐츠 만들기 도구입니다. 또한 _[!UICONTROL Enable Advanced CMS]_&#x200B;단추는 범주 및 제품에 대한 옵션으로 [!DNL Page Builder]을(를) 제공합니다. 제품, 카테고리 및 CMS 페이지에 사용할 기본 [페이지 레이아웃](../content-design/page-layout.md)을 선택할 수도 있습니다. [!DNL Page Builder]은(는) WYSIWYG [editor](../content-design/editor.md)을(를) 사용하는 뉴스레터 콘텐츠에 사용할 수 없습니다.
 
 >[!NOTE]
 >
 >설치 시 [!DNL Page Builder]은(는) [!UICONTROL Mask for Meta Description] 구성 필드에 대한 기본 설정을 재정의합니다. 값이 `{{name}} {{description}}`에서 `{{name}}`(으)로 변경되었습니다.
 ><br>
->[!UICONTROL Stores] > _[!UICONTROL Settings]_> [!UICONTROL Configuration](으)로 이동하여 [!UICONTROL Catalog]을(를) 확장하고 아래의 [!UICONTROL Catalog]을(를) 선택하면 이 설정에 액세스할 수 있습니다. [!UICONTROL Mask for Meta Description] 필드는 [!UICONTROL Product Fields Auto-generation] 섹션에 있습니다.
+>[!UICONTROL Stores] > _[!UICONTROL Settings]_> [!UICONTROL Configuration] (으)로 이동하여 [!UICONTROL Catalog]을(를) 확장하고 아래의 [!UICONTROL Catalog]을(를) 선택하면 이 설정에 액세스할 수 있습니다. [!UICONTROL Mask for Meta Description] 필드는 [!UICONTROL Product Fields Auto-generation] 섹션에 있습니다.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을(를) 확장하고 **[!UICONTROL Enable Page Builder]**&#x200B;이(가) `Yes`(으)로 설정되어 있는지 확인합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Default Layouts]**&#x200B;을(를) 확장하고 다음을 수행합니다.
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을(를) 확장하고 **[!UICONTROL Enable Page Builder]**&#x200B;을(를) `No`(으)로 설정합니다.
 

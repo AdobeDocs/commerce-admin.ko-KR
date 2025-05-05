@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. _Action_ 열에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Customer View]_페이지를 스크롤하고 하단의&#x200B;**[!UICONTROL Store Credit Balance]**을(를) 봅니다.
+1. _[!UICONTROL Customer View]_&#x200B;페이지를 스크롤하고 하단의&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;을(를) 봅니다.
 
 ![크레딧 잔고 저장](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 
 1. 고객이 사용 가능한 스토어 크레딧 금액을 조회합니다.
 
-   _검토 및 결제_ 단계에서 사용 가능한 금액이 _[!UICONTROL Store Credit]_에 표시됩니다.
+   _검토 및 결제_ 단계에서 사용 가능한 금액이 _[!UICONTROL Store Credit]_&#x200B;에 표시됩니다.
 
 1. 주문에 금액을 적용하려면 **[!UICONTROL Use Store Credit]**&#x200B;을(를) 클릭합니다.
 
    >[!INFO]
    >
-   >주문 합계가 다시 계산되며 적용된 스토어 크레딧 금액이 _[!UICONTROL Order Summary]_에 나타납니다.
+   >주문 합계가 다시 계산되며 적용된 스토어 크레딧 금액이 _[!UICONTROL Order Summary]_&#x200B;에 나타납니다.
 
    ![주문에 적용된 크레딧 잔액 저장](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 

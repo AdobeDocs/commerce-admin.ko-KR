@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ## [!DNL Inventory Management]개 기능 사용
 
-설치, 업그레이드 또는 업데이트 시 Admin의 _[!UICONTROL Manage Stock]_옵션이 기본적으로 사용됩니다. 이 옵션을 사용하면 인벤토리 추적 및 관리를 사용할 수 있지만 모듈 상태에는 영향을 주지 않습니다. 모듈을 비활성화하려면 다음 섹션을 참조하십시오.
+설치, 업그레이드 또는 업데이트 시 Admin의 _[!UICONTROL Manage Stock]_&#x200B;옵션이 기본적으로 사용됩니다. 이 옵션을 사용하면 인벤토리 추적 및 관리를 사용할 수 있지만 모듈 상태에는 영향을 주지 않습니다. 모듈을 비활성화하려면 다음 섹션을 참조하십시오.
 
 구성에 대한 자세한 내용은 [Inventory management 구성](configuration.md)을 참조하십시오.
 

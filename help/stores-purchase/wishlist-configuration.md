@@ -65,7 +65,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단에서 **[!UICONTROL Add Widget]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Settings]_탭에서 다음을 수행합니다.
+1. _[!UICONTROL Settings]_&#x200B;탭에서 다음을 수행합니다.
 
    - **[!UICONTROL Type]**&#x200B;을(를) `Wish List Search`(으)로 설정합니다.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Storefront Properties]_을(를) 완료합니다.
+1. _[!UICONTROL Storefront Properties]_&#x200B;을(를) 완료합니다.
 
    - **[!UICONTROL Widget Title]** 입력.
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
      `0` = 첫 번째(기본값), `1` = 두 번째, `2` = 세 번째 등입니다.
 
-1. _[!UICONTROL Layout Updates]_섹션에서&#x200B;**[!UICONTROL Add Layout Update]**을(를) 클릭하고&#x200B;**[!UICONTROL Display on]**을(를) 다음 중 하나로 설정합니다.
+1. _[!UICONTROL Layout Updates]_&#x200B;섹션에서&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Display on]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - _[!UICONTROL Categories]_
 

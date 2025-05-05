@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 쿠키 라이프타임 구성
 
-1. _관리자_ 사이드바에서 [!UICONTROL **스토어**] > _[!UICONTROL Settings]_>[!UICONTROL **구성**](으)로 이동합니다.
+1. _관리자_ 사이드바에서 [!UICONTROL **스토어**] > _[!UICONTROL Settings]_>[!UICONTROL **구성**] (으)로 이동합니다.
 
 1. 저장소가 여러 개 있는 경우 오른쪽 상단의 **[!UICONTROL Store View]** 선택기를 구성이 적용되는 저장소로 설정합니다.
 

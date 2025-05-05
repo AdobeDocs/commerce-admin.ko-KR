@@ -35,14 +35,14 @@ ht-degree: 1%
    + [카테고리 개요](categories.md)
    + [루트 범주 및 계층](category-root.md)
    + [숨겨진 범주](category-hidden.md)
-   + 범주 {#create}을(를) 만들고 업데이트합니다.
+   + 범주을(를) 만들고 업데이트합니다. {#create}
       + [범주 만들기](category-create.md)
       + [컨텐츠 설정](categories-content-settings.md)
       + [디스플레이 설정](categories-display-settings.md)
       + [검색 엔진 최적화 설정](categories-search-engine-optimization.md)
       + [디자인 설정](categories-custom-design.md)
       + [범주 수정](category-modify.md)
-   + 범주 {#products-in-category}의 제품
+   + 범주의 제품 {#products-in-category}
       + [제품 할당](categories-product-assignments.md)
       + [범주 제품 정렬](category-products-sort.md)
       + [범주 제품 추가 및 제거](category-products-add.md)
@@ -65,7 +65,7 @@ ht-degree: 1%
       + [이미지 자산 구성](product-image-config.md)
       + [제품 이미지 관리](product-image.md)
       + [제품 비디오 추가](product-video.md)
-      + 제품 3D 모델 {#product-3d-model} 관리
+      + 제품 3D 모델 관리 {#product-3d-model}
          + [AR 뷰어 개요](ar-viewer-overview.md)
          + [AR 뷰어 설정](ar-viewer-setup.md)
    + 가격 관리 {#pricing}
@@ -95,7 +95,7 @@ ht-degree: 1%
    + [속성 입력 유형](attributes-input-types.md)
    + [제품에 속성 추가](product-attributes-add.md)
    + [제품 견본](swatches.md)
-   + 특성 {#create}을(를) 만들고 업데이트합니다.
+   + 특성을(를) 만들고 업데이트합니다. {#create}
       + [속성 만들기 및 삭제](attribute-product-create.md)
       + [벌크 업데이트](bulk-product-attribute-update.md)
       + [속성 집합](attribute-sets.md)

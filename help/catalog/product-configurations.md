@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 제품 설정 - [!UICONTROL Configurations]
 
-_[!UICONTROL Configurations]_섹션은 제품의 기존 변형을 나열하며 구성 가능한 제품 형식과 함께 사용할 변형을 생성하는 데 사용할 수 있습니다. 자세한 내용은 [구성 가능한 제품](product-create-configurable.md)을 참조하세요.
+_[!UICONTROL Configurations]_&#x200B;섹션은 제품의 기존 변형을 나열하며 구성 가능한 제품 형식과 함께 사용할 변형을 생성하는 데 사용할 수 있습니다. 자세한 내용은 [구성 가능한 제품](product-create-configurable.md)을 참조하세요.
 
 ![구성 섹션](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 

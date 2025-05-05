@@ -46,6 +46,6 @@ ht-degree: 0%
 | [!UICONTROL Code Format] | 글로벌 | 쿠폰 코드 형식을 정의합니다. 옵션은 다음과 같습니다. <br/>**`Alphanumeric`**- 문자와 숫자의 모든 조합.<br/>**`Alphabetical`** - 문자만 <br/>**`Numeric`**- 숫자만. |
 | [!UICONTROL Code Prefix] | 글로벌 | 모든 쿠폰 코드의 시작 부분에 추가되는 값입니다. 접두사를 사용하지 않으려면 필드를 비워 둡니다. |
 | [!UICONTROL Code Suffix] | 글로벌 | 모든 코드의 끝에 추가되는 값입니다. 접미사를 사용하지 않으려면 필드를 비워 둡니다. |
-| [!UICONTROL Dash Every X Characters] | 글로벌 | 모든 쿠폰 코드에 대시(-)를 삽입하는 간격입니다. 대시를 사용하지 않으려면 필드를 비워 둡니다. <br/>_**참고:**_ 대시 값만 다른 쿠폰 코드는 다른 코드로 간주됩니다. |
+| [!UICONTROL Dash Every X Characters] | 글로벌 | 모든 쿠폰 코드에 대시(-)를 삽입하는 간격입니다. 대시를 사용하지 않으려면 필드를 비워 둡니다. <br/>_&#x200B;**참고:**&#x200B;_ 대시 값만 다른 쿠폰 코드는 다른 코드로 간주됩니다. |
 
 {style="table-layout:auto"}

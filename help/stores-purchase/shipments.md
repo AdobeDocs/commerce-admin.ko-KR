@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 배송
 
-_[!UICONTROL Shipments]_그리드에는 배송을 위해 준비된 모든 송장의 배송 기록이 나열됩니다. 주문이 [인보이스 발행](invoices.md) 이상일 때 배송 기록을 생성할 수 있습니다.
+_[!UICONTROL Shipments]_&#x200B;그리드에는 배송을 위해 준비된 모든 송장의 배송 기록이 나열됩니다. 주문이 [인보이스 발행](invoices.md) 이상일 때 배송 기록을 생성할 수 있습니다.
 
 Adobe Commerce 및 Magento Open Source은 부분 주문 및 전체 주문 배송을 지원하며, [Inventory management](../inventory-management/introduction.md) 및 타사 확장에서 추가 옵션을 사용할 수 있습니다.
 
@@ -77,7 +77,7 @@ Adobe Commerce 및 Magento Open Source은 부분 주문 및 전체 주문 배송
 
 1. **[!UICONTROL Ship]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Payment & Shipping Method]_블록까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Add Tracking Number]**을(를) 클릭합니다.
+1. _[!UICONTROL Payment & Shipping Method]_&#x200B;블록까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Add Tracking Number]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Carrier]** 설정:
 
@@ -98,7 +98,7 @@ Adobe Commerce 및 Magento Open Source은 부분 주문 및 전체 주문 배송
 
 1. 편집 모드에서 선적을 찾아 엽니다.
 
-1. _[!UICONTROL Payment & Shipping Method]_블록까지 아래로 스크롤합니다.
+1. _[!UICONTROL Payment & Shipping Method]_&#x200B;블록까지 아래로 스크롤합니다.
 
 1. **[!UICONTROL Carrier]** 선택.
 
@@ -134,7 +134,7 @@ Adobe Commerce 및 Magento Open Source은 부분 주문 및 전체 주문 배송
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL Sales]_에서&#x200B;**[!UICONTROL Sales Email]**을(를) 선택합니다.
+1. _[!UICONTROL Sales]_&#x200B;에서&#x200B;**[!UICONTROL Sales Email]**&#x200B;을(를) 선택합니다.
 
 1. **배송 설명** 섹션을 확장하고 필요에 따라 설정을 수정합니다.
 
@@ -166,7 +166,7 @@ Adobe Commerce 및 Magento Open Source은 부분 주문 및 전체 주문 배송
 
 1. 왼쪽 패널에서 **[!UICONTROL Shipments]**&#x200B;을(를) 선택합니다.
 
-   게재를 취소할 수 있는 경우 _[!UICONTROL Cancel Shipment]_이(가) 맨 위 단추 모음에 옵션으로 나타납니다.
+   게재를 취소할 수 있는 경우 _[!UICONTROL Cancel Shipment]_&#x200B;이(가) 맨 위 단추 모음에 옵션으로 나타납니다.
 
 1. **[!UICONTROL Cancel Shipment]**&#x200B;을(를) 클릭합니다.
 

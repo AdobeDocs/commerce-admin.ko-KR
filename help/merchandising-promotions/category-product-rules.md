@@ -41,7 +41,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >선택한 특성이 다중 선택 _[!UICONTROL Input Type]_이(가) 아닌지 확인하십시오.
+   >선택한 특성이 다중 선택 _[!UICONTROL Input Type]_&#x200B;이(가) 아닌지 확인하십시오.
 
 1. Visual Merchandiser에 사용할 각 _smart_ 특성을 식별하려면 [configuration](smart-attributes-configure.md)을(를) 완료하십시오.
 

@@ -29,7 +29,7 @@ ht-degree: 2%
       + [고객 로그인](customer-sign-in.md)
       + [암호 재설정](password-reset.md)
    + [개인 계정 만들기](account-create.md)
-   + {#manage} 계정 관리
+   + 계정 관리{#manage}
       + [고객 계정](manage-account.md)
       + [고객 프로필 업데이트](update-account.md)
       + [쇼핑객 지원 제공](login-as-customer.md)
@@ -37,7 +37,7 @@ ht-degree: 2%
       + [속성 속성](attribute-properties.md)
       + [주소 속성](address-attributes.md)
       + [주소 템플릿](address-templates.md)
-   + 크레딧 {#store-credit} 저장
+   + 크레딧 저장 {#store-credit}
       + [신용 워크플로우 저장](store-credit.md)
       + [스토어 크레딧 구성](credit-configure.md)
       + [스토어 크레딧 적용](store-credit-using.md)

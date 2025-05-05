@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**(으)로 이동합니다.
 
-1. _[!UICONTROL Export Settings]_에서&#x200B;**[!UICONTROL Entity Type]**을(를) `Advanced Pricing`(으)로 설정합니다.
+1. _[!UICONTROL Export Settings]_&#x200B;에서&#x200B;**[!UICONTROL Entity Type]**&#x200B;을(를) `Advanced Pricing`(으)로 설정합니다.
 
 1. **[!UICONTROL Entity Attributes]** 그리드에서 SKU 특성으로 아래로 스크롤하여 다음을 수행합니다.
 

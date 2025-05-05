@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{b2b-feature}}
 
-초기 _[!UICONTROL My Orders]_결과에는 상거래 인스턴스 내 모든 웹 사이트에서 보낸 하위 사용자의 일치하는 주문도 포함되어 있습니다. 회사 계정과 연결된 고객은 주문 목록을 필터링하여 결과 내에서 레코드를 빠르게 찾을 수 있습니다. 필터 옵션을 표시하기 위해 고객이&#x200B;**[!UICONTROL Filter]**을(를) 클릭하고&#x200B;**[!UICONTROL Close]**을(를) 클릭하여 필터를 숨깁니다.
+초기 _[!UICONTROL My Orders]_&#x200B;결과에는 상거래 인스턴스 내 모든 웹 사이트에서 보낸 하위 사용자의 일치하는 주문도 포함되어 있습니다. 회사 계정과 연결된 고객은 주문 목록을 필터링하여 결과 내에서 레코드를 빠르게 찾을 수 있습니다. 필터 옵션을 표시하기 위해 고객이&#x200B;**[!UICONTROL Filter]**&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Close]**&#x200B;을(를) 클릭하여 필터를 숨깁니다.
 
 ![내 주문](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 주문 후 로그인한 고객의 사이드바와 **[!UICONTROL My Account]** 페이지에 **[!UICONTROL Recent Orders]** 블록이 표시됩니다. 지난번 구매한 제품 5개를 표시합니다.
 
-고객이 제품을 선택하고 **[!UICONTROL Add to Cart]**&#x200B;을(를) 클릭하여 장바구니에 제품을 읽을 수 있습니다. **[!UICONTROL View all]**&#x200B;을(를) 클릭하여 _[!UICONTROL My Account]_페이지 및&#x200B;**[!UICONTROL Recent Orders]**블록으로 리디렉션하는 마지막 순서를 볼 수도 있습니다.
+고객이 제품을 선택하고 **[!UICONTROL Add to Cart]**&#x200B;을(를) 클릭하여 장바구니에 제품을 읽을 수 있습니다. **[!UICONTROL View all]**&#x200B;을(를) 클릭하여 _[!UICONTROL My Account]_&#x200B;페이지 및&#x200B;**[!UICONTROL Recent Orders]**&#x200B;블록으로 리디렉션하는 마지막 순서를 볼 수도 있습니다.
 
 ### 인쇄 순서
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ## 재주문
 
-_[!UICONTROL Reorder]_링크는_[!UICONTROL View]_ 링크 근처에 있는 주문과 함께 목록에 표시됩니다.
+_[!UICONTROL Reorder]_&#x200B;링크는&#x200B;_[!UICONTROL View]_ 링크 근처에 있는 주문과 함께 목록에 표시됩니다.
 
 ![내 주문 페이지에서 링크 순서 바꾸기](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
@@ -117,7 +117,7 @@ _[!UICONTROL Reorder]_링크는_[!UICONTROL View]_ 링크 근처에 있는 주�
 >
 >`Not Visible Individually` 제품의 순서를 변경할 수 있습니다.
 
-_[!UICONTROL Reorder]_링크가_[!UICONTROL My Orders]_ 및 _[!UICONTROL View Order]_페이지에 표시되지 않습니다.
+_[!UICONTROL Reorder]_&#x200B;링크가&#x200B;_[!UICONTROL My Orders]_ 및 _[!UICONTROL View Order]_&#x200B;페이지에 표시되지 않습니다.
 
 ![내 주문 페이지](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
@@ -135,7 +135,7 @@ _[!UICONTROL Reorder]_링크가_[!UICONTROL My Orders]_ 및 _[!UICONTROL View Or
 - 주문 보기 페이지
 - 내 계정 페이지
 
-_[!UICONTROL Cancel Order]_링크가_[!UICONTROL Reorder]_ 링크 근처에 표시됩니다. 주문을 취소할 수 없는 경우 링크가 표시되지 않습니다.
+_[!UICONTROL Cancel Order]_&#x200B;링크가&#x200B;_[!UICONTROL Reorder]_ 링크 근처에 표시됩니다. 주문을 취소할 수 없는 경우 링크가 표시되지 않습니다.
 
 ![내 주문 페이지에서 링크 취소](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
@@ -153,7 +153,7 @@ _[!UICONTROL Cancel Order]_링크가_[!UICONTROL Reorder]_ 링크 근처에 표�
 
    ![내 주문 페이지에서 취소](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   취소 후 _[!UICONTROL Pending]_상태의 주문이_[!UICONTROL Canceled]_ 상태로 변경되고, _[!UICONTROL Processing]_상태의 주문이_[!UICONTROL Closed]_ 상태로 변경되고, 환불이 처리됩니다.
+   취소 후 _[!UICONTROL Pending]_&#x200B;상태의 주문이&#x200B;_[!UICONTROL Canceled]_ 상태로 변경되고, _[!UICONTROL Processing]_&#x200B;상태의 주문이&#x200B;_[!UICONTROL Closed]_ 상태로 변경되고, 환불이 처리됩니다.
 
    취소가 완료되면 고객에게 이메일이 전송됩니다.
 

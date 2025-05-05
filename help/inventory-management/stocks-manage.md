@@ -43,7 +43,7 @@ Sales Channel은 재고를 판매하는 개체를 나타냅니다. 기본적으�
 
 | 단추 | 설명 |
 |--|--|
-| [!UICONTROL Add New Stock] | 판매 채널에 인벤토리를 매핑하기 위해 새 재고 재고를 입력하는 데 사용되는 _[!UICONTROL New Stock]_양식을 엽니다. |
+| [!UICONTROL Add New Stock] | 판매 채널에 인벤토리를 매핑하기 위해 새 재고 재고를 입력하는 데 사용되는 _[!UICONTROL New Stock]_&#x200B;양식을 엽니다. |
 
 ## Stock 열 설명 관리
 

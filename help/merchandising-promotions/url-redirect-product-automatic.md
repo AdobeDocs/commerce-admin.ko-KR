@@ -36,7 +36,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 스토어 보기 또는 웹 사이트 범위에 대해 URL 재작성을 생성할 수 있습니다. 관리자의 URL 재작성 범위를 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**로 설정합니다._[!UICONTROL Product URL Rewrite Scope]_ 필드에서 범위를 선택합니다.
+> 스토어 보기 또는 웹 사이트 범위에 대해 URL 재작성을 생성할 수 있습니다. 관리자의 URL 재작성 범위를 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;**[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**&#x200B;로 설정합니다._[!UICONTROL Product URL Rewrite Scope]_ 필드에서 범위를 선택합니다.
 
 ## 제품 URL 자동 리디렉션
 

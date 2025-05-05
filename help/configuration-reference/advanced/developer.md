@@ -121,7 +121,7 @@ ht-degree: 1%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | 글로벌 | 이미지를 렌더링하는 데 사용할 어댑터를 지정합니다. 어댑터 설정을 변경한 후 카탈로그 이미지 캐시를 플러시합니다. 옵션: `PHP GD2` / `ImageMagick` <br/><br/>**_참고:_**ICO 파일 형식은 ImageMagik 어댑터에서만 지원됩니다. |
+| [!UICONTROL Image Adapter] | 글로벌 | 이미지를 렌더링하는 데 사용할 어댑터를 지정합니다. 어댑터 설정을 변경한 후 카탈로그 이미지 캐시를 플러시합니다. 옵션: `PHP GD2` / `ImageMagick` <br/><br/>**_참고:_**&#x200B;ICO 파일 형식은 ImageMagik 어댑터에서만 지원됩니다. |
 
 {style="table-layout:auto"}
 

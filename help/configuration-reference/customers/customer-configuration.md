@@ -57,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL Default Welcome Email] | 스토어 뷰 | 기본 _시작_ 전자 메일에 사용된 전자 메일 템플릿을 식별합니다. |
 | [!UICONTROL Default Welcome Email Without Password] | 스토어 뷰 | 아직 암호가 할당되지 않은 관리자가 만든 새 고객 계정에 사용되는 대체 시작 이메일 템플릿입니다. |
 | [!UICONTROL Email Sender] | 스토어 뷰 | 환영 전자 메일의 발신자로 표시되는 스토어 연락처를 식별합니다. |
-| [!UICONTROL Require Emails Confirmation] | 웹 사이트 | 계정 만들기 요청에 고객의 확인이 필요한지 여부를 결정합니다. 옵션: `Yes` / `No`. <br/><br/> _**참고:**_ 버전 2.4.7부터 고객은 브라우저에 관계없이 전자 메일 확인 후 계정에 로그인하려면 전자 메일 및 암호를 다시 입력해야 합니다. |
+| [!UICONTROL Require Emails Confirmation] | 웹 사이트 | 계정 만들기 요청에 고객의 확인이 필요한지 여부를 결정합니다. 옵션: `Yes` / `No`. <br/><br/> _&#x200B;**참고:**&#x200B;_ 버전 2.4.7부터 고객은 브라우저에 관계없이 전자 메일 확인 후 계정에 로그인하려면 전자 메일 및 암호를 다시 입력해야 합니다. |
 | [!UICONTROL Confirmation Link Email] | 스토어 뷰 | 확인 이메일에 사용되는 이메일 템플릿을 식별합니다. 기본 템플릿: `New account confirmation key` |
 | [!UICONTROL Welcome Email] | 스토어 뷰 | 계정이 확인된 후 보내는 환영 메시지에 사용되는 이메일 템플릿을 식별합니다. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | 글로벌 | VAT ID 번호를 입력하고 저장하는 데 사용되는 필드가 상점 첫 화면에서 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
@@ -117,7 +117,7 @@ ht-degree: 0%
 | [!UICONTROL Show Middle Name (initial)] | 웹 사이트 | 중간 이니셜이 고객 이름의 일부로 포함되는지 여부를 결정합니다. 가운데 이니셜을 사용하는 경우 선택 필드입니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Show Suffix] | 웹 사이트 | 고객 이름에 Jr., Sr., III과 같은 접미사가 끝에 포함되어 있는지 확인합니다. 옵션: `No` / `Optional` / `Required` |
 | [!UICONTROL Suffix Dropdown Options] | 웹 사이트 | 접미어 옵션 목록을 정의합니다. 값을 세미콜론으로 구분합니다. 목록의 맨 위에 빈 값을 표시하려면 첫 번째 값 앞에 세미콜론을 넣습니다. |
-| [!UICONTROL Show Date of Birth] | 웹 사이트 | 고객의 생년월일이 이름 및 주소 양식에 포함되어 있는지 여부를 결정합니다. 옵션: `No` / `Optional` / `Required` <br><br>**_중요:_**현재 보안 및 개인 정보 보호 모범 사례를 준수하려면 다른 개인 식별자를 사용한 고객의 전체 생년월일(월, 일, 년) 저장과 관련된 모든 잠재적인 법적 및 보안 위험에 유의하십시오. 고객의 전체 생년월일 보관을 제한하고 고객 생년월일을 대안으로 사용하는 것이 좋습니다. |
+| [!UICONTROL Show Date of Birth] | 웹 사이트 | 고객의 생년월일이 이름 및 주소 양식에 포함되어 있는지 여부를 결정합니다. 옵션: `No` / `Optional` / `Required` <br><br>**_중요:_**&#x200B;현재 보안 및 개인 정보 보호 모범 사례를 준수하려면 다른 개인 식별자를 사용한 고객의 전체 생년월일(월, 일, 년) 저장과 관련된 모든 잠재적인 법적 및 보안 위험에 유의하십시오. 고객의 전체 생년월일 보관을 제한하고 고객 생년월일을 대안으로 사용하는 것이 좋습니다. |
 | [!UICONTROL Show Tax/VAT Number] | 웹 사이트 | 이름 및 주소 양식에 세금 또는 [VAT 번호](../../stores-purchase/vat.md)이(가) 포함되어 있는지 여부를 결정합니다. 옵션: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Gender] | 웹 사이트 | 성별이 이름 및 주소 양식에 포함되는지 여부를 결정합니다. 옵션: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Telephone] | 웹 사이트 | 고객의 전화 번호가 이름과 주소 양식에 포함되어 있는지 여부를 결정합니다. 옵션: `No` / `Optional` / `Required` |
@@ -214,8 +214,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | 웹 사이트 | Commerce 웹 사이트와 연결된 스토어에서 CAPTCHA를 활성화합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Font] | 웹 사이트 | CAPTCHA를 표시하는 데 사용할 글꼴을 결정합니다. 고유한 글꼴을 추가하려면 글꼴 파일을 Commerce 설치와 동일한 디렉터리에 넣고 `app/code/Magento/Captcha/etc`의 `config.xml` 파일에 선언을 추가합니다. |
-| [!UICONTROL Forms] | 웹 사이트 | CAPTCHA가 사용되는 양식을 결정합니다. 옵션: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro`([보안 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) 참조) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_**참고:**_ 사용자 만들기, 암호 찾기 및 Payflow Pro 양식은 선택 시 항상 활성화됩니다. |
-| [!UICONTROL Displaying Mode] | 웹 사이트 | CAPTCHA가 표시되는 시기를 결정합니다. 옵션: <br/>**`Always`**- 로그인하려면 항상 CAPTCHA가 필요합니다.<br/>**`After number of attempts to login`** - 이 옵션은 관리자 로그인 양식에만 적용됩니다. 선택하면 _[!UICONTROL Number of Unsuccessful Attempts to Login]_필드가 나타납니다. 허용할 로그인 시도 횟수를 입력합니다. `0`(영) 값은 [!UICONTROL Displaying Mode]을(를) `Always`(으)로 설정하는 것과 비슷합니다.<br/>_**참고:**_실패한 로그인 시도 횟수를 추적하려면 하나의 전자 메일 주소와 하나의 IP 주소에서 로그인을 시도한 횟수가 계산됩니다. 동일한 IP 주소에서 허용되는 최대 로그인 시도 횟수는 1,000회입니다. 이 제한은 CAPTCHA가 활성화된 경우에만 적용됩니다. |
+| [!UICONTROL Forms] | 웹 사이트 | CAPTCHA가 사용되는 양식을 결정합니다. 옵션: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro`([보안 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) 참조) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**참고:**&#x200B;_ 사용자 만들기, 암호 찾기 및 Payflow Pro 양식은 선택 시 항상 활성화됩니다. |
+| [!UICONTROL Displaying Mode] | 웹 사이트 | CAPTCHA가 표시되는 시기를 결정합니다. 옵션: <br/>**`Always`**- 로그인하려면 항상 CAPTCHA가 필요합니다.<br/>**`After number of attempts to login`** - 이 옵션은 관리자 로그인 양식에만 적용됩니다. 선택하면 _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;필드가 나타납니다. 허용할 로그인 시도 횟수를 입력합니다. `0`(영) 값은 [!UICONTROL Displaying Mode]을(를) `Always`(으)로 설정하는 것과 비슷합니다.<br/>_&#x200B;**참고:**&#x200B;_실패한 로그인 시도 횟수를 추적하려면 하나의 전자 메일 주소와 하나의 IP 주소에서 로그인을 시도한 횟수가 계산됩니다. 동일한 IP 주소에서 허용되는 최대 로그인 시도 횟수는 1,000회입니다. 이 제한은 CAPTCHA가 활성화된 경우에만 적용됩니다. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | 웹 사이트 | 계정이 잠기기 전에 고객이 로그인을 시도할 수 있는 횟수를 지정합니다. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | 웹 사이트 | 현재 CAPTCHA의 수명을 결정합니다. CAPTCHA가 만료되면 사용자는 페이지를 다시 로드해야 합니다. |
 | [!UICONTROL Number of Symbols] | 웹 사이트 | CAPTCHA에 나타나는 기호의 수를 최대 8개로 결정합니다. 예를 들어 5-8과 같은 범위를 지정할 수도 있습니다. |

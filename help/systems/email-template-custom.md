@@ -32,7 +32,7 @@ Commerce에는 시스템에서 보내는 각 메시지의 본문 섹션에 대�
 | [!UICONTROL Insert Variable] | 커서 위치에서 템플릿에 변수를 삽입합니다. |
 | [!UICONTROL Template Subject] | 템플릿 제목은 제목 열에 표시되며, 목록에서 템플릿을 정렬 및 필터링하는 데 사용할 수 있습니다. |
 | [!UICONTROL Template Content] | HTML 내 템플릿의 콘텐츠입니다. |
-| [!UICONTROL Template Styles] | 템플릿 서식을 지정하는 데 필요한 모든 CSS 스타일 선언을 _[!UICONTROL Template Styles]_상자에 입력할 수 있습니다. |
+| [!UICONTROL Template Styles] | 템플릿 서식을 지정하는 데 필요한 모든 CSS 스타일 선언을 _[!UICONTROL Template Styles]_&#x200B;상자에 입력할 수 있습니다. |
 
 {style="table-layout:auto"}
 
@@ -60,7 +60,7 @@ Commerce에는 시스템에서 보내는 각 메시지의 본문 섹션에 대�
 
 1. 템플릿을 구성하는 데 도움이 되는 **[!UICONTROL Template Subject]**&#x200B;을(를) 입력하십시오.
 
-   표에서 템플릿 목록을 _[!UICONTROL Subject]_열로 정렬하고 필터링할 수 있습니다.
+   표에서 템플릿 목록을 _[!UICONTROL Subject]_&#x200B;열로 정렬하고 필터링할 수 있습니다.
 
    ![전자 메일 템플릿 헤더 정보](./assets/email-template-information.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,7 @@ Commerce에는 시스템에서 보내는 각 메시지의 본문 섹션에 대�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 그리드에서 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 그리드에서 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. 아래로 스크롤하여 **[!UICONTROL Transactional Emails]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -126,7 +126,7 @@ Commerce에는 시스템에서 보내는 각 메시지의 본문 섹션에 대�
 
 1. 템플릿을 구성하는 데 도움이 되는 **[!UICONTROL Template Subject]**&#x200B;을(를) 입력하십시오.
 
-   표에서 _[!UICONTROL Subject]_열을 기준으로 템플릿을 정렬 및 필터링할 수 있습니다.
+   표에서 _[!UICONTROL Subject]_&#x200B;열을 기준으로 템플릿을 정렬 및 필터링할 수 있습니다.
 
    ![전자 메일 템플릿 바닥글 - 정보](./assets/email-template-footer-information.png){width="600" zoomable="yes"}
 
@@ -150,7 +150,7 @@ Commerce에는 시스템에서 보내는 각 메시지의 본문 섹션에 대�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 그리드에서 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 그리드에서 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. 아래로 스크롤하여 **[!UICONTROL Transactional Emails]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -214,11 +214,11 @@ Commerce에는 시스템에서 보내는 각 메시지의 본문 섹션에 대�
 
    >[!NOTE]
    >
-   >사용자 지정 스타일은 `{{template config_path="design/email/header_template"}}`이(가) _[!UICONTROL Template Styles]_에 있는 경우에만 전자 메일에 적용됩니다. 기본 헤더 템플릿 없이 사용자 지정 CSS를 사용하려면 여기에 `<style>` HTML 태그 내에서 제공해야 합니다.
+   >사용자 지정 스타일은 `{{template config_path="design/email/header_template"}}`이(가) _[!UICONTROL Template Styles]_&#x200B;에 있는 경우에만 전자 메일에 적용됩니다. 기본 헤더 템플릿 없이 사용자 지정 CSS를 사용하려면 여기에 `<style>` HTML 태그 내에서 제공해야 합니다.
 
 ### 3단계. 구성 업데이트
 
-_[!UICONTROL Currently Used For]_이동 경로에 템플릿 사용 위치가 표시됩니다. 이 예제에서 템플릿 구성은_[!UICONTROL Customer Configuration]_ 페이지, _[!UICONTROL Create New Account Options]_섹션 및_[!UICONTROL Default Welcome Email]_ 필드에 있습니다.
+_[!UICONTROL Currently Used For]_&#x200B;이동 경로에 템플릿 사용 위치가 표시됩니다. 이 예제에서 템플릿 구성은&#x200B;_[!UICONTROL Customer Configuration]_ 페이지, _[!UICONTROL Create New Account Options]_&#x200B;섹션 및&#x200B;_[!UICONTROL Default Welcome Email]_ 필드에 있습니다.
 
 - 페이지 - [!UICONTROL Customer Configuration]
 - 섹션 - [!UICONTROL Create New Account Options]

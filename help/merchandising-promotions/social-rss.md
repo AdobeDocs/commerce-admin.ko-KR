@@ -95,7 +95,7 @@ ht-degree: 0%
 
    - 블록의 순서를 다른 콘텐츠 요소와 같은 페이지 위치에 나타나도록 지정할 경우 블록 순서를 결정하려면 **[!UICONTROL Sort Order]** 필드에 숫자를 입력합니다. 위쪽 위치는 0입니다.
 
-1. _[!UICONTROL Layout Updates]_섹션에서&#x200B;**[!UICONTROL Add Layout Update]**을(를) 클릭하고 블록을 표시할 범주, 제품 또는 페이지로&#x200B;**[!UICONTROL Display On]**을(를) 설정합니다.
+1. _[!UICONTROL Layout Updates]_&#x200B;섹션에서&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;을(를) 클릭하고 블록을 표시할 범주, 제품 또는 페이지로&#x200B;**[!UICONTROL Display On]**&#x200B;을(를) 설정합니다.
 
    예를 들어 `All Pages`을(를) 선택하고 머리글이나 바닥글에 블록을 배치하면 저장소의 모든 페이지에서 동일한 위치에 블록이 나타납니다.
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 1. 메시지가 표시되면 작업 공간 상단에 있는 지침에 따라 인덱스와 페이지 캐시를 업데이트합니다.
 
-   이제 위젯이 _[!UICONTROL Widgets]_목록에 나타납니다.
+   이제 위젯이 _[!UICONTROL Widgets]_&#x200B;목록에 나타납니다.
 
 ### 4단계. 스토어에서 위치 확인
 

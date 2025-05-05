@@ -37,7 +37,7 @@ URL 키는 제품 또는 범주를 설명하는 정적 URL의 일부입니다. �
 
 >[!NOTE]
 >
->기본적으로, 악센트 부호가 있는 특수 문자는 URL 키에서 악센트 부호가 없는 일반 버전으로 자동 대체됩니다. 예를 들어 `ñ`은(는) `n`(으)로 자동 교체됩니다. _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_구성 옵션을 `No`(으)로 설정하여 이 동작을 비활성화할 수 있습니다. [카탈로그 URL 구성](#configure-catalog-urls)을 참조하세요.
+>기본적으로, 악센트 부호가 있는 특수 문자는 URL 키에서 악센트 부호가 없는 일반 버전으로 자동 대체됩니다. 예를 들어 `ñ`은(는) `n`(으)로 자동 교체됩니다. _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;구성 옵션을 `No`(으)로 설정하여 이 동작을 비활성화할 수 있습니다. [카탈로그 URL 구성](#configure-catalog-urls)을 참조하세요.
 
 URL 키는 단어를 구분하기 위해 문자 사이에 하이픈이 아닌 소문자로 구성되어야 합니다. URL 키의 시작 또는 끝에는 하이픈을 사용할 수 없습니다. 잘 설계된 &quot;검색 엔진 친화적&quot; URL 키에는 제품 이름과 주요 단어가 포함되어 검색 엔진에서 색인화되는 방식을 개선할 수 있습니다. URL 키가 변경되는 경우 자동 리디렉션을 만들도록 URL 키를 구성할 수 있습니다.
 
@@ -113,7 +113,7 @@ URL 키는 단어를 구분하기 위해 문자 사이에 하이픈이 아닌 �
 | 필드 | [범위](../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | 글로벌 | 웹 서버 재쓰기가 활성화된 경우 이 설정을 활성화하면 현재 보기의 스토어 코드가 URL에 삽입됩니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | 글로벌 | (단일 스토어 설정의 경우) 사이트에 끊어진 링크가 있으면 이 링크가 트래픽을 &quot;404 페이지를 찾을 수 없음&quot; 메시지가 있는 페이지가 아닌 기본 URL로 리디렉션합니다. 옵션: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_중요!_**다중 스토어 설정에 기본 URL로 자동 리디렉션을 사용하지 마십시오. |
+| [!UICONTROL Auto-redirect to Base URL] | 글로벌 | (단일 스토어 설정의 경우) 사이트에 끊어진 링크가 있으면 이 링크가 트래픽을 &quot;404 페이지를 찾을 수 없음&quot; 메시지가 있는 페이지가 아닌 기본 URL로 리디렉션합니다. 옵션: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_중요!_**&#x200B;다중 스토어 설정에 기본 URL로 자동 리디렉션을 사용하지 마십시오. |
 | [!UICONTROL Catalog media URL format] | 글로벌 | 제품 및 범주에 할당된 URL 형식을 정의합니다. 옵션: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- 변환된 파일 이름을 고유한 해시 값으로 정의합니다.<br />**[!UICONTROL Image optimization based on query parameters]** - 쿼리 매개 변수에 따라 [이미지 최적화](../content-design/media-gallery-image-optimization.md) 프로세스를 정의합니다. |
 
 {style="table-layout:auto"}

@@ -62,7 +62,7 @@ Adobe Commerce과 Magento Open Source은 암호 및 기타 민감한 데이터�
    bin/magento encryption:key:change
    ```
 
-+++
+   +++
 
    +++관리자 설정
 
@@ -85,7 +85,7 @@ Adobe Commerce과 Magento Open Source은 암호 및 기타 민감한 데이터�
       >
       >새 키를 안전한 위치에 기록하십시오. 파일에 문제가 발생하는 경우 데이터를 해독해야 합니다.
 
-+++
+   +++
 
 1. 캐시를 플러시합니다.
 

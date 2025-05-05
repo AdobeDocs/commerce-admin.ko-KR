@@ -104,7 +104,7 @@ Adobe Commerce 버전 2.4.7-p5 또는 2.4.6-p3에서 2.4.6-p8을 실행하는 �
    git push origin <branch-name>
    ```
 
-   업데이트를 푸시하면 변경 사항을 적용하기 위한 Commerce 클라우드 배포 프로세스가](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) 시작됩니다[. 배포 로그](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)에서 [배포 상태를 확인합니다.
+   업데이트를 푸시하면 변경 사항을 적용하기 위한 Commerce 클라우드 배포 프로세스가[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) 시작됩니다[. 배포 로그](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)에서 배포 상태를 확인합니다.
 
 ### 설치 확인
 

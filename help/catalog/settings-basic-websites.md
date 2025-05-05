@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 제품 설정 - [!UICONTROL Product in Websites]
 
-_[!UICONTROL Product in Websites]_섹션은 [스토어 계층 구조](../stores-purchase/stores.md)에 따라 제품을 사용할 수 있는 각 웹 사이트를 식별합니다.
+_[!UICONTROL Product in Websites]_&#x200B;섹션은 [스토어 계층 구조](../stores-purchase/stores.md)에 따라 제품을 사용할 수 있는 각 웹 사이트를 식별합니다.
 
 ![제품 웹 사이트 범위 다이어그램](./assets/scope-product-website.svg){width="550"}
 
@@ -20,7 +20,7 @@ _[!UICONTROL Product in Websites]_섹션은 [스토어 계층 구조](../stores-
 
 1. 제품을 편집 모드로 엽니다.
 
-1. 아래로 스크롤하여 _[!UICONTROL Product in Websites]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. 아래로 스크롤하여 _[!UICONTROL Product in Websites]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    웹 사이트의 ![제품](./assets/catalog-product-in-websites-multisite-main-french.png){width="600" zoomable="yes"}
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ![관리자 - 받는 메시지](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Notifications]_페이지에는 날짜별로 순위가 매겨진 모든 메시지가 나열됩니다._[!UICONTROL Action]_ 명령은 개별 메시지를 읽은 것으로 표시하거나 자세한 정보를 보거나 받은 편지함에서 메시지를 제거하는 데 사용할 수 있습니다.
+_[!UICONTROL Notifications]_&#x200B;페이지에는 날짜별로 순위가 매겨진 모든 메시지가 나열됩니다._[!UICONTROL Action]_ 명령은 개별 메시지를 읽은 것으로 표시하거나 자세한 정보를 보거나 받은 편지함에서 메시지를 제거하는 데 사용할 수 있습니다.
 
 이 구성은 받은 편지함의 업데이트 빈도와 메시지 전달 방식을 결정합니다. 스토어 관리자에게 보안 URL이 있는 경우 HTTPS를 통해 알림이 전달되어야 합니다.
 

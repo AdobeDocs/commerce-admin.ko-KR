@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단에서 **[!UICONTROL Add Widget]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Settings]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Settings]_&#x200B;섹션에서 다음을 수행합니다.
 
    - **[!UICONTROL Type]**&#x200B;을(를) `Catalog Events Carousel`(으)로 설정합니다.
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    이벤트 캐러셀에 대한 ![위젯 설정](./assets/widget-event-carousel-settings.png){width="500" zoomable="yes"}
 
-1. _[!UICONTROL Storefront Properties]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Storefront Properties]_&#x200B;섹션에서 다음을 수행합니다.
 
    - **[!UICONTROL Widget Title]**&#x200B;의 경우 위젯에 대한 설명 제목을 입력합니다.
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >결과는 테마 및 페이지 레이아웃에 따라 달라집니다. 범주 구성에 _[!UICONTROL Catalog Events Carousel Default Template]_도 지정해야 합니다.
+   >결과는 테마 및 페이지 레이아웃에 따라 달라집니다. 범주 구성에 _[!UICONTROL Catalog Events Carousel Default Template]_&#x200B;도 지정해야 합니다.
 
 1. 이벤트 캐러셀을 상점 앞의 다른 위치에 표시하려면 **[!UICONTROL Add Layout Update]**&#x200B;을(를) 클릭하고 해당 위치에 대해 이 단계를 반복합니다.
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Inventory Management] 제품 옵션 구성
 
-이러한 구성은 편집된 제품에만 적용되며, 전역 웹 사이트 수준에서 모든 구성을 재정의합니다. 제품을 편집할 때 _[!UICONTROL Sources]_섹션 및_[!UICONTROL Advanced Inventory]_ 페이지를 통해 이러한 설정을 수정합니다.
+이러한 구성은 편집된 제품에만 적용되며, 전역 웹 사이트 수준에서 모든 구성을 재정의합니다. 제품을 편집할 때 _[!UICONTROL Sources]_&#x200B;섹션 및&#x200B;_[!UICONTROL Advanced Inventory]_ 페이지를 통해 이러한 설정을 수정합니다.
 
 - 소스별 제품 옵션 구성
 - 고급 인벤토리에 대한 제품 옵션 구성
@@ -51,8 +51,8 @@ ht-degree: 0%
 | [!UICONTROL Status] | 글로벌 | 카탈로그에서 제품이 활성화 또는 비활성화되었습니다. |
 | [!UICONTROL Source Item Status] | 글로벌 | 제품의 현재 가용성을 결정합니다. 옵션:<br />`In Stock` - 제품을 구매할 수 있도록 설정합니다.<br />`Out of Stock` - 미납주문을 활성화하지 않으면 제품을 구매할 수 없게 하고 카탈로그에서 목록을 제거합니다. |
 | [!UICONTROL Qty] | 글로벌 | 각 출처 또는 위치에 대한 현재고 금액. |
-| [!UICONTROL Notify Quantity] | 글로벌 | _[!UICONTROL Notify Quantity Use Default]_을(를) 선택하지 않은 경우 이 특정 원본의_[!UICONTROL Notify for Quantity Below]_&#x200B;에 대한 양입니다. |
-| [!UICONTROL Notify Quantity Use Default] | 글로벌 | 제품 _[!UICONTROL Advanced Inventory]_의_[!UICONTROL Notify for Quantity Below]_&#x200B;에 대한 기본 설정 또는 저장소 구성의 전역 설정을 사용함을 나타냅니다. |
+| [!UICONTROL Notify Quantity] | 글로벌 | _[!UICONTROL Notify Quantity Use Default]_&#x200B;을(를) 선택하지 않은 경우 이 특정 원본의&#x200B;_[!UICONTROL Notify for Quantity Below]_&#x200B;에 대한 양입니다. |
+| [!UICONTROL Notify Quantity Use Default] | 글로벌 | 제품 _[!UICONTROL Advanced Inventory]_&#x200B;의_[!UICONTROL Notify for Quantity Below]_&#x200B;에 대한 기본 설정 또는 저장소 구성의 전역 설정을 사용함을 나타냅니다. |
 
 ## 고급 제품 옵션
 
@@ -74,9 +74,9 @@ ht-degree: 0%
 
    | 값 | 설명 |
    | ----- | ----- |
-   | 양수 | _[!UICONTROL Backorders]_을(를) 사용하지 않도록 설정한 상태에서 양수 값을 입력하십시오. |
-   | 0 | _[!UICONTROL Backorders]_이(가) 활성화된 상태에서 `0`을(를) 입력하면 무한 미납주문을 허용합니다. |
-   | 음수 금액 | _[!UICONTROL Backorders]_이(가) 활성화된 경우 음수 값을 입력하는 것이 좋습니다. 금액은 판매 가능 수량에 추가됩니다. 예를 들어 `-50`을(를) 입력하여 이 수량까지 주문을 허용합니다. |
+   | 양수 | _[!UICONTROL Backorders]_&#x200B;을(를) 사용하지 않도록 설정한 상태에서 양수 값을 입력하십시오. |
+   | 0 | _[!UICONTROL Backorders]_&#x200B;이(가) 활성화된 상태에서 `0`을(를) 입력하면 무한 미납주문을 허용합니다. |
+   | 음수 금액 | _[!UICONTROL Backorders]_&#x200B;이(가) 활성화된 경우 음수 값을 입력하는 것이 좋습니다. 금액은 판매 가능 수량에 추가됩니다. 예를 들어 `-50`을(를) 입력하여 이 수량까지 주문을 허용합니다. |
 
 1. **[!UICONTROL Minimum Qty Allowed in Shopping Cart]** 입력.
 

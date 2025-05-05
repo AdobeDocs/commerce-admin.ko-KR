@@ -16,17 +16,17 @@ Adobe Commerce 및 Magento Open Source 캐시 관리 시스템은 사이트의 �
 
 ![제품 특성 저장 - 캐시 메시지 업데이트](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
-_[!UICONTROL Cache Management]_페이지에는 각 기본 캐시의 상태와 연결된 태그가 표시됩니다. 오른쪽 상단의 큰 버튼을 사용하여 캐시 또는 모든 항목이 포함된 캐시 저장소를 플러시할 수 있습니다. 페이지 하단에서 추가 버튼을 사용하여 카탈로그 제품 이미지 캐시와 JavaScript/CSS 캐시를 플러시할 수 있습니다.
+_[!UICONTROL Cache Management]_&#x200B;페이지에는 각 기본 캐시의 상태와 연결된 태그가 표시됩니다. 오른쪽 상단의 큰 버튼을 사용하여 캐시 또는 모든 항목이 포함된 캐시 저장소를 플러시할 수 있습니다. 페이지 하단에서 추가 버튼을 사용하여 카탈로그 제품 이미지 캐시와 JavaScript/CSS 캐시를 플러시할 수 있습니다.
 
 >[!IMPORTANT]
 >
->카탈로그 엔티티가 변경되면 다른 페이지에 영향을 줄 수 있으며 여러 캐시를 동시에 무효화할 수 있습니다. 캐시 관리 페이지를 검토할 때 새로 고침이 필요한 잘못된 항목이 _**직접 편집되지 않음**_&#x200B;일 때 표시될 수 있습니다. 예를 들어, 이 무효화는 카탈로그에서 범주에 지정된 제품을 편집하거나 관련 제품 규칙을 변경할 때 발생합니다.
+>카탈로그 엔티티가 변경되면 다른 페이지에 영향을 줄 수 있으며 여러 캐시를 동시에 무효화할 수 있습니다. 캐시 관리 페이지를 검토할 때 새로 고침이 필요한 잘못된 항목이 _&#x200B;**직접 편집되지 않음**&#x200B;_&#x200B;일 때 표시될 수 있습니다. 예를 들어, 이 무효화는 카탈로그에서 범주에 지정된 제품을 편집하거나 관련 제품 규칙을 변경할 때 발생합니다.
 
 캐시를 지운 후에는 항상 브라우저를 새로 고쳐 최신 파일이 보이는지 확인합니다. Commerce 캐시를 지워도 웹 브라우저 캐시가 지워지지 않습니다. 업데이트된 콘텐츠를 보려면 브라우저 캐시를 지워야 할 수 있습니다.
 
 Adobe Commerce 캐싱에 대한 추가 기술 정보는 _Commerce 프론트엔드 개발 안내서_&#x200B;의 [캐시 개요](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target=&quot;_blank&quot;}에서 확인할 수 있습니다.
 
-다음 중 하나를 수행하여 _[!UICONTROL Cache Management]_페이지에 액세스합니다.
+다음 중 하나를 수행하여 _[!UICONTROL Cache Management]_&#x200B;페이지에 액세스합니다.
 
 - 작업 영역 위의 메시지에서 **[!UICONTROL Cache Management]** 링크를 클릭합니다.
 - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.
@@ -86,7 +86,7 @@ Adobe Commerce 캐싱에 대한 추가 기술 정보는 _Commerce 프론트엔�
 
 ## 제품 이미지 캐시 초기화
 
-1. _[!UICONTROL Additional Cache Management]_에서&#x200B;**[!UICONTROL Flush Catalog Images Cache]**을(를) 클릭하여 미리 생성된 제품 이미지 파일을 지웁니다.
+1. _[!UICONTROL Additional Cache Management]_&#x200B;에서&#x200B;**[!UICONTROL Flush Catalog Images Cache]**&#x200B;을(를) 클릭하여 미리 생성된 제품 이미지 파일을 지웁니다.
 
    작업 영역 맨 위에 `Image cache was cleaned` 메시지가 나타납니다.
 
@@ -94,7 +94,7 @@ Adobe Commerce 캐싱에 대한 추가 기술 정보는 _Commerce 프론트엔�
 
 ## JavaScript/CSS 캐시 플러시
 
-1. _[!UICONTROL Additional Cache Management]_에서&#x200B;**[!UICONTROL Flush JavaScript/CSS Cache]**을(를) 클릭하여 단일 파일로 병합된 Javascript 및 CSS 파일을 지웁니다.
+1. _[!UICONTROL Additional Cache Management]_&#x200B;에서&#x200B;**[!UICONTROL Flush JavaScript/CSS Cache]**&#x200B;을(를) 클릭하여 단일 파일로 병합된 Javascript 및 CSS 파일을 지웁니다.
 
    작업 영역 맨 위에 `The JavaScript/CSS cache has been cleaned` 메시지가 나타납니다.
 

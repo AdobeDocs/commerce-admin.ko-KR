@@ -27,7 +27,7 @@ ht-degree: 0%
 
 모든 저장소는 활성화 상태를 유지해야 하는 기본 Source으로 시작합니다.
 
-- [!DNL Commerce](으)로 가져온 모든 새 제품에는 원본 및 재고가 필요하며, [!DNL Inventory Management]에 즉시 액세스할 수 있도록 자동으로 할당됩니다.
+- [!DNL Commerce] (으)로 가져온 모든 새 제품에는 원본 및 재고가 필요하며, [!DNL Inventory Management]에 즉시 액세스할 수 있도록 자동으로 할당됩니다.
 - 단일 소스 판매자는 기본 Source을 단일 재고 위치 및 출하 지점으로 사용합니다.
 
 ## 소스 편집
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 기본 Source을 편집하는 경우 이름 및 코드를 제외한 모든 구성을 편집할 수 있습니다. 단일 소스 판매자의 위치에 일치하는 정보를 추가하는 것이 좋습니다.
 
-_[!UICONTROL Manage Sources]_페이지에는 사용 가능한 모든 인벤토리 위치와 이행 기능이 나열됩니다. 새 인벤토리 소스를 추가하고 기존 위치를 편집할 수 있습니다.
+_[!UICONTROL Manage Sources]_&#x200B;페이지에는 사용 가능한 모든 인벤토리 위치와 이행 기능이 나열됩니다. 새 인벤토리 소스를 추가하고 기존 위치를 편집할 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**(으)로 이동합니다.
 

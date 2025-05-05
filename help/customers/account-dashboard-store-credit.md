@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-고객 계정 대시보드의 _[!UICONTROL Store Credit]_페이지에는 향후 구매에 적용할 수 있는 반환 및 환불 금액이 나열됩니다. 또한 고객은 기프트 카드에서 해당 금액을 사용할 수 있습니다.
+고객 계정 대시보드의 _[!UICONTROL Store Credit]_&#x200B;페이지에는 향후 구매에 적용할 수 있는 반환 및 환불 금액이 나열됩니다. 또한 고객은 기프트 카드에서 해당 금액을 사용할 수 있습니다.
 
 ![고객 스토어 크레딧](assets/account-dashboard-store-credit.png){width="700" zoomable="yes"}
 
@@ -54,4 +54,4 @@ ht-degree: 0%
 
 1. 스토어 크레딧을 사용할 수 있는 경우 고객은 **스토어 크레딧 사용**&#x200B;을 클릭합니다.
 
-1. 고객이 스토어 크레딧 사용에 대해 마음이 바뀌면 _[!UICONTROL Order Summary]_섹션에서&#x200B;**[!UICONTROL Remove]**을(를) 클릭합니다.
+1. 고객이 스토어 크레딧 사용에 대해 마음이 바뀌면 _[!UICONTROL Order Summary]_&#x200B;섹션에서&#x200B;**[!UICONTROL Remove]**&#x200B;을(를) 클릭합니다.

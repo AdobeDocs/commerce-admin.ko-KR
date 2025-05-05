@@ -24,9 +24,9 @@ ht-degree: 0%
 
 ## 제품에 대한 업데이트 예약
 
-1. _[!UICONTROL Products]_그리드에서 제품을 편집 모드로 엽니다.
+1. _[!UICONTROL Products]_&#x200B;그리드에서 제품을 편집 모드로 엽니다.
 
-1. 페이지 상단의 _[!UICONTROL Scheduled Changes]_상자에서&#x200B;**[!UICONTROL Schedule New Update]**을(를) 클릭합니다.
+1. 페이지 상단의 _[!UICONTROL Scheduled Changes]_&#x200B;상자에서&#x200B;**[!UICONTROL Schedule New Update]**&#x200B;을(를) 클릭합니다.
 
    ![새 업데이트 예약](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
@@ -49,7 +49,7 @@ ht-degree: 0%
      >
      >캠페인 시작 날짜 및 종료 날짜는 각 웹 사이트의 로컬 시간대에서 변환된 **_default_** 관리 시간대를 사용하여 정의해야 합니다. 예를 들어, 서로 다른 시간대에 여러 웹 사이트가 있지만 미국(기본) 시간대를 기반으로 하는 캠페인을 시작하려면 각 로컬 시간대에 대해 별도의 업데이트를 예약해야 합니다. 이 경우 **[!UICONTROL Start Date]** 및 **[!UICONTROL End Date]**&#x200B;을(를) 각 로컬 웹 사이트 시간대에서 기본 관리 시간대로 변환되도록 설정합니다.
 
-1. 아래로 스크롤하여 _[!UICONTROL Price]_을(를) 클릭하고&#x200B;**[!UICONTROL Advanced Pricing]**을(를) 클릭합니다.
+1. 아래로 스크롤하여 _[!UICONTROL Price]_&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Advanced Pricing]**&#x200B;을(를) 클릭합니다.
 
 1. 예약된 캠페인 동안 제품에 대한 **[!UICONTROL Special Price]**&#x200B;을(를) 입력하고 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 

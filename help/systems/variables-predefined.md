@@ -27,11 +27,11 @@ ht-degree: 0%
 
    - 새 템플릿에서 변수를 사용하려면 **[!UICONTROL Add New Template]**&#x200B;을(를) 클릭하고 기본 템플릿 코드를 사용자 지정합니다. [메시지 템플릿](email-template-custom.md#message-templates)을 참조하세요.
 
-1. _[!UICONTROL Load default template]_에서 사용자 지정할&#x200B;**[!UICONTROL Template]**을(를) 선택합니다.
+1. _[!UICONTROL Load default template]_&#x200B;에서 사용자 지정할&#x200B;**[!UICONTROL Template]**&#x200B;을(를) 선택합니다.
 
 1. 템플릿을 적용하려면 **[!UICONTROL Load Template]**&#x200B;을(를) 클릭합니다.
 
-   _[!UICONTROL Currently used for]_필드에 템플릿의 구성 경로가 표시됩니다._[!UICONTROL Template Subject]_ 및 _[!UICONTROL Template Content]_은(는) 선택한 템플릿에 따라 자동으로 생성됩니다.
+   _[!UICONTROL Currently used for]_&#x200B;필드에 템플릿의 구성 경로가 표시됩니다._[!UICONTROL Template Subject]_ 및 _[!UICONTROL Template Content]_&#x200B;은(는) 선택한 템플릿에 따라 자동으로 생성됩니다.
 
    - **[!UICONTROL Template Subject]** - 이 텍스트는 전자 메일의 제목 줄에 표시됩니다.
 

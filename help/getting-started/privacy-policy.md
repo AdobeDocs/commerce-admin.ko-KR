@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**(으)로 이동합니다.
 
-1. 그리드에서 **[!UICONTROL Privacy Policy]**&#x200B;을(를) 찾습니다. 그런 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Select]**을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**을(를) 선택합니다.
+1. 그리드에서 **[!UICONTROL Privacy Policy]**&#x200B;을(를) 찾습니다. 그런 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Select]**&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
 
    >[!NOTE]
    >

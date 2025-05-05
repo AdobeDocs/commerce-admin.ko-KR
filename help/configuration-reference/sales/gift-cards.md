@@ -38,7 +38,7 @@ ht-degree: 1%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Redeemable] | 글로벌 | 기프트 카드 소지자가 그 가치를 현금으로 상환할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No`. |
-| [!UICONTROL Lifetime (days)] | 글로벌 | 카드가 유효한 일수를 결정합니다. 비워 두면 카드가 만료되지 않습니다. <br/><br/>**_중요:_**일부 지역에서는 기프트 카드에 만료 데이터를 설정할 수 없습니다. 기프트 카드의 라이프타임을 정하기 전에 현지 법률을 확인하십시오. |
+| [!UICONTROL Lifetime (days)] | 글로벌 | 카드가 유효한 일수를 결정합니다. 비워 두면 카드가 만료되지 않습니다. <br/><br/>**_중요:_**&#x200B;일부 지역에서는 기프트 카드에 만료 데이터를 설정할 수 없습니다. 기프트 카드의 라이프타임을 정하기 전에 현지 법률을 확인하십시오. |
 | [!UICONTROL Allow Gift Message] | 스토어 뷰 | 기프트 카드를 구입한 고객이 기프트 메시지를 포함하는 옵션을 사용할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No`. |
 | [!UICONTROL Gift Message Maximum Length] | 스토어 뷰 | 기프트 카드 메시지에 사용할 수 있는 최대 문자 수를 결정합니다. 기본값: 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | 글로벌 | 고객이 주문을 할 때 또는 주문 송장이 발행될 때 기프트 카드 계정이 생성되는지 여부를 결정합니다. 옵션: `Ordered` / `Invoiced` |

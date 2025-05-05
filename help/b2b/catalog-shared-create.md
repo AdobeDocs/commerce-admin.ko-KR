@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   새 카탈로그가 _[!UICONTROL Shared Catalogs]_표에 나타납니다.
+   새 카탈로그가 _[!UICONTROL Shared Catalogs]_&#x200B;표에 나타납니다.
 
 ### 방법 2: 기존 공유 카탈로그 복제
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   _[!UICONTROL Shared Catalogs]_표에 고유한 ID와 함께 중복 항목이 나타납니다.
+   _[!UICONTROL Shared Catalogs]_&#x200B;표에 고유한 ID와 함께 중복 항목이 나타납니다.
 
 ## 2단계: 설정 완료
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**[B2B 릴리스 1.3.0](release-notes.md#b2b-v130) 이상** — 공유 카탈로그를 만들 때 카탈로그 권한 설정에서 이 액세스 권한이 할당된 고객 그룹에 대해 카탈로그에 대한 각 [범주 권한](../catalog/category-permissions.md)이 _[!UICONTROL Allow for the Display Product Prices]_및_[!UICONTROL Add to Cart]_(으)로 설정됩니다. 이전에는 카탈로그 권한이 `Allow`(으)로 설정되어 있어도 이 설정이 `Deny`(으)로 자동 설정되었습니다.
+>**[B2B 릴리스 1.3.0](release-notes.md#b2b-v130) 이상** — 공유 카탈로그를 만들 때 카탈로그 권한 설정에서 이 액세스 권한이 할당된 고객 그룹에 대해 카탈로그에 대한 각 [범주 권한](../catalog/category-permissions.md)이 _[!UICONTROL Allow for the Display Product Prices]_&#x200B;및_[!UICONTROL Add to Cart]_(으)로 설정됩니다. 이전에는 카탈로그 권한이 `Allow`(으)로 설정되어 있어도 이 설정이 `Deny`(으)로 자동 설정되었습니다.
 
 ## 공유된 카탈로그 데모
 

@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. _[!UICONTROL Add Product]_의 오른쪽 상단(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"})  ) 메뉴에서&#x200B;**[!UICONTROL Gift Card]**을(를) 선택합니다.
+1. _[!UICONTROL Add Product]_&#x200B;의 오른쪽 상단(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"})  ) 메뉴에서&#x200B;**[!UICONTROL Gift Card]**&#x200B;을(를) 선택합니다.
 
    ![기프트 카드 추가](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
 
@@ -96,9 +96,9 @@ ht-degree: 0%
 
 ### 5단계: 기프트 카드 정보 작성
 
-제품 설정의 _[!UICONTROL Gift Card Information]_섹션을 사용하여 카드 관리 방법을 결정하는 [기프트 카드 구성](../configuration-reference/sales/gift-cards.md) 설정을 재정의할 수 있습니다.
+제품 설정의 _[!UICONTROL Gift Card Information]_&#x200B;섹션을 사용하여 카드 관리 방법을 결정하는 [기프트 카드 구성](../configuration-reference/sales/gift-cards.md) 설정을 재정의할 수 있습니다.
 
-1. _[!UICONTROL Gift Card Information]_섹션까지 아래로 스크롤합니다.
+1. _[!UICONTROL Gift Card Information]_&#x200B;섹션까지 아래로 스크롤합니다.
 
    이 섹션의 기본 설정은 시스템 구성에 따라 결정됩니다.
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 
    **메서드 2:** 저장 및 닫기
 
-   _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
+   _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
 ## 기억해야 할 사항
 

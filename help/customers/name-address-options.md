@@ -41,7 +41,7 @@ _이름 및 주소 옵션_&#x200B;은(는) 고객이 스토어로 [계정](../cu
 
    >[!INFO]
    >
-   >범위가 `Default Store View`(으)로 설정되어 있으면 _[!UICONTROL Name and Address Options]_섹션이 표시되지 않습니다.
+   >범위가 `Default Store View`(으)로 설정되어 있으면 _[!UICONTROL Name and Address Options]_&#x200B;섹션이 표시되지 않습니다.
 
    ![구성 범위](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 

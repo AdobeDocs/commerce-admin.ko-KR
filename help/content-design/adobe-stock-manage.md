@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Add a New Page]**&#x200B;을(를) 클릭합니다.
 
-   기존 페이지를 편집하려면 _[!UICONTROL Action]_열을 사용하여&#x200B;**[!UICONTROL Select]**을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**을(를) 선택할 수 있습니다.
+   기존 페이지를 편집하려면 _[!UICONTROL Action]_&#x200B;열을 사용하여&#x200B;**[!UICONTROL Select]**&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택할 수 있습니다.
 
 1. **[!UICONTROL Content]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    기존 카테고리에 이미지를 추가하려면 왼쪽 목록에서 카테고리 이름을 클릭합니다.
 
-1. **[!UICONTROL Content]** 섹션을 확장하고 _[!UICONTROL Category Image]_에서&#x200B;**[!UICONTROL Select from Gallery]**을(를) 클릭합니다.
+1. **[!UICONTROL Content]** 섹션을 확장하고 _[!UICONTROL Category Image]_&#x200B;에서&#x200B;**[!UICONTROL Select from Gallery]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Search Adobe Stock]**&#x200B;을(를) 클릭합니다.
 

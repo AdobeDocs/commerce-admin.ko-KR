@@ -19,7 +19,7 @@ ht-degree: 0%
 - 구매자를 위한 초기 오퍼를 생성할 수 있도록 영업 담당자가 품목, 관련 할인 및 메모를 추가할 때까지 초안 견적을 제출할 수 없습니다.
 - 판매자는 Quotes 또는 Customer Grid에서 Quote 를 생성할 수 있습니다.
 
-영업 사원은 구매자에게 견적을 전송하여 협상 프로세스를 시작합니다. 견적](quote-price-negotiation.md) 협상을 참조하십시오[.
+영업 사원은 구매자에게 견적을 전송하여 협상 프로세스를 시작합니다. 견적[&#128279;](quote-price-negotiation.md) 협상을 참조하십시오.
 
 ## 영업 담당자 견적 작성 경험
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ### 견적 표에서 견적 만들기
 
-1. 영업 담당자는 견적을 관리 할 수있는 영업 운영 권한이](../systems/permissions.md) 있는 [관리자로 관리자에 로그인합니다.
+1. 영업 담당자는 견적을 관리 할 수있는 영업 운영 권한이[&#128279;](../systems/permissions.md) 있는 관리자로 관리자에 로그인합니다.
 
 1. 관리에서 **[!UICONTROL Sales]**&#x200B;을(를) 선택하여 [!UICONTROL Quotes] 그리드로 이동한 다음 **[!UICONTROL Quotes]**&#x200B;을(를) 선택합니다.
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
    배송 옵션은 결제 시 잠겨 있습니다.
 
-   자세한 내용은 내 견적을](account-dashboard-my-quotes.md#adding-a-shipping-address) 참조하세요[.
+   자세한 내용은 내 견적을[&#128279;](account-dashboard-my-quotes.md#adding-a-shipping-address) 참조하세요.
 
 1. 견적을 처리합니다.
 

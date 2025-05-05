@@ -124,11 +124,11 @@ ht-degree: 0%
 
 1. URL 재작성을 업데이트할 모든 제품을 선택합니다.
 
-1. _[!UICONTROL Actions]_에서&#x200B;**[!UICONTROL Update attributes]**을(를) 선택하여 여러 번 또는 모든 다시 쓰기를 업데이트합니다.
+1. _[!UICONTROL Actions]_&#x200B;에서&#x200B;**[!UICONTROL Update attributes]**&#x200B;을(를) 선택하여 여러 번 또는 모든 다시 쓰기를 업데이트합니다.
 
-1. _[!UICONTROL PRODUCTS INFORMATION]_에서&#x200B;**[!UICONTROL Websites]**탭을 클릭합니다.
+1. _[!UICONTROL PRODUCTS INFORMATION]_&#x200B;에서&#x200B;**[!UICONTROL Websites]**&#x200B;탭을 클릭합니다.
 
-1. _[!UICONTROL Add Product To Websites]_섹션에서 URL 재작성을 복원할 모든 웹 사이트를 선택합니다.
+1. _[!UICONTROL Add Product To Websites]_&#x200B;섹션에서 URL 재작성을 복원할 모든 웹 사이트를 선택합니다.
 
 1. 업데이트할 준비가 되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 

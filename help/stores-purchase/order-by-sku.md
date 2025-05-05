@@ -43,11 +43,11 @@ _Order by SKU_&#x200B;은(는) 모든 쇼핑객에게 편리하도록 스토어�
 
 1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
-![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B만 해당) _**SKU별 주문 기능을 사용하려면 빠른 주문 기능을 사용하지 않도록 설정하십시오.**_
+![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B만 해당) _&#x200B;**SKU별 주문 기능을 사용하려면 빠른 주문 기능을 사용하지 않도록 설정하십시오.**&#x200B;_
 
 1. **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL B2B Features]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL B2B Features]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL B2B Features]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -75,7 +75,7 @@ _Order by SKU_&#x200B;은(는) 모든 쇼핑객에게 편리하도록 스토어�
 
 1. 환경 설정에 따라 개별 항목을 추가합니다.
 
-   _**SKU별로 각 항목 추가:**_
+   _&#x200B;**SKU별로 각 항목 추가:**&#x200B;_
 
    - 주문할 항목의 **[!UICONTROL SKU]** 및 **[!UICONTROL Qty]**&#x200B;을(를) 입력합니다.
 
@@ -83,7 +83,7 @@ _Order by SKU_&#x200B;은(는) 모든 쇼핑객에게 편리하도록 스토어�
 
    - **[!UICONTROL Add to Cart]**&#x200B;을(를) 클릭합니다.
 
-   _**여러 항목의 CSV 파일을 업로드합니다.**_
+   _&#x200B;**여러 항목의 CSV 파일을 업로드합니다.**&#x200B;_
 
    - `SKU` 및 `Qty`에 대한 열이 포함된 [데이터 가져오기 CSV](../systems/data-csv.md)(쉼표로 구분된 값) 파일을 준비합니다.
 

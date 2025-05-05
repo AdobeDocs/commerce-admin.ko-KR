@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 카테고리 - 검색 엔진 최적화 설정
 
-_[!UICONTROL Search Engine Optimization]_섹션은 검색 엔진이 범주를 색인화하는 데 사용하는 [URL 키](catalog-urls.md) 및 [메타데이터](../merchandising-promotions/meta-data.md) 필드를 지정합니다. 일부 검색 엔진은 메타 키워드를 무시하지만 다른 검색 엔진은 메타 키워드를 계속 사용합니다. 현재 SEO 우수 사례는 메타 제목과 메타 설명 둘 다에 고가치 키워드를 통합하는 것입니다.
+_[!UICONTROL Search Engine Optimization]_&#x200B;섹션은 검색 엔진이 범주를 색인화하는 데 사용하는 [URL 키](catalog-urls.md) 및 [메타데이터](../merchandising-promotions/meta-data.md) 필드를 지정합니다. 일부 검색 엔진은 메타 키워드를 무시하지만 다른 검색 엔진은 메타 키워드를 계속 사용합니다. 현재 SEO 우수 사례는 메타 제목과 메타 설명 둘 다에 고가치 키워드를 통합하는 것입니다.
 
 ![검색 엔진 최적화](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 

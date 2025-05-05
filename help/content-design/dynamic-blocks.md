@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!UICONTROL Content] 메뉴](content-menu.md)의 _[!UICONTROL Banner]_옵션은 2.3.1에서 더 이상 사용되지 않으며 2.4.0에서 제거되었습니다. 이 기능은 동적 블록으로 대체됩니다.
+>[[!UICONTROL Content] 메뉴](content-menu.md)의 _[!UICONTROL Banner]_&#x200B;옵션은 2.3.1에서 더 이상 사용되지 않으며 2.4.0에서 제거되었습니다. 이 기능은 동적 블록으로 대체됩니다.
 
 ![[!DNL Page Builder] - 가격 규칙 및 고객 세그먼트가 있는 동적 블록](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 

@@ -22,7 +22,7 @@ ht-degree: 5%
    - [Source 선택 및 예약](selection-reservations.md)
    - [주문 및 예약 상태](order-status.md)
    - [제품 유형](product-types.md)
-- {#get-started} 시작
+- 시작{#get-started}
    - [Commerce 업그레이드](migrate.md)
    - [설치 및 업데이트](install-update.md)
    - [판매자 소싱](merchant-sourcing.md)
@@ -38,7 +38,7 @@ ht-degree: 5%
    - 제품 경고 {#product-alerts}
       - [제품 경고 설정](alert-setup.md)
       - [Stock 메시지 시나리오](stock-messages.md)
-- {#sources} 소스 관리
+- 소스 관리{#sources}
    - [개요](sources-manage.md)
    - [소스 추가](sources-add.md)
    - [소스 비활성화](sources-disable.md)
@@ -47,7 +47,7 @@ ht-degree: 5%
    - [재고 추가](stocks-add.md)
    - [재고에 대한 소스 우선 순위 지정](stocks-prioritize-sources.md)
    - [재고 삭제](stocks-delete.md)
-- 재고 수량 {#quantities} 관리
+- 재고 수량 관리 {#quantities}
    - [개요](quantities-manage.md)
    - [제품당 소스 할당](sources-assign-per-product.md)
    - [제품당 수량 지정](quantities-assign-per-product.md)

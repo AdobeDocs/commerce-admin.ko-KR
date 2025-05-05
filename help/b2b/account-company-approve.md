@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**(으)로 이동합니다.
 
-   표 위에 있는 _[!UICONTROL Columns]_선택기를 사용하여&#x200B;**[!UICONTROL Status]**열을 표시할 수 있습니다.
+   표 위에 있는 _[!UICONTROL Columns]_&#x200B;선택기를 사용하여&#x200B;**[!UICONTROL Status]**&#x200B;열을 표시할 수 있습니다.
 
-1. _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Company Status]**&#x200B;을(를) `Active`(으)로 설정합니다.
 

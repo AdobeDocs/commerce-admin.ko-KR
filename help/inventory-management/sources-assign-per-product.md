@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 원본을 추가하려면 **[!UICONTROL Assign Sources]**&#x200B;을(를) 클릭하십시오.
 
-1. _[!UICONTROL Assign Sources]_페이지에서 제품에 할당하려는 각 원본 옆의 확인란을 선택합니다.
+1. _[!UICONTROL Assign Sources]_&#x200B;페이지에서 제품에 할당하려는 각 원본 옆의 확인란을 선택합니다.
 
    ![제품 - 원본 할당](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 
@@ -43,6 +43,6 @@ ht-degree: 0%
 1. 다음 중 하나를 수행하여 저장합니다.
 
    - **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-   - _[!UICONTROL Save]_(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png)) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
+   - _[!UICONTROL Save]_(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png)) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
 원본을 할당한 후 각 제품 원본의 [재고 수량](quantities-assign-per-product.md)을(를) 업데이트하세요.

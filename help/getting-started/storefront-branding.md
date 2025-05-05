@@ -48,7 +48,7 @@ ht-degree: 0%
 
    ![디자인 구성 페이지](./assets/design-configuration.png){width="700"}
 
-1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Header]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -92,9 +92,9 @@ _Favicon_&#x200B;은(는) _즐겨찾는 아이콘_&#x200B;의 줄임말이며 �
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 그리드에서 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 그리드에서 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Other Settings]_에서&#x200B;**[!UICONTROL HTML Head]**섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Other Settings]_&#x200B;에서&#x200B;**[!UICONTROL HTML Head]**&#x200B;섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![HTML 헤드 설정](./assets/configuration-html-head.png){width="600"}
 
@@ -124,9 +124,9 @@ _Favicon_&#x200B;은(는) _즐겨찾는 아이콘_&#x200B;의 줄임말이며 �
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 그리드에서 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 그리드에서 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Other Settings]_에서&#x200B;**[!UICONTROL Header]**섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Other Settings]_&#x200B;에서&#x200B;**[!UICONTROL Header]**&#x200B;섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. **[!UICONTROL Welcome Text]**&#x200B;의 경우 스토어의 머리글에 표시할 시작 메시지 텍스트를 입력하십시오.
 
@@ -156,7 +156,7 @@ _Favicon_&#x200B;은(는) _즐겨찾는 아이콘_&#x200B;의 줄임말이며 �
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 그리드에서 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 그리드에서 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. _기타 설정_&#x200B;에서 ![확장 선택기](../assets/icon-display-expand.png)**[!UICONTROL Footer]** 섹션을 확장합니다.
 
@@ -176,9 +176,9 @@ _Favicon_&#x200B;은(는) _즐겨찾는 아이콘_&#x200B;의 줄임말이며 �
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 그리드에서 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 그리드에서 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Other Settings]_에서&#x200B;**[!UICONTROL HTML Head]**섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Other Settings]_&#x200B;에서&#x200B;**[!UICONTROL HTML Head]**&#x200B;섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![HTML 헤드](./assets/configuration-html-head.png){width="600"}
 

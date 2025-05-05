@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 저장소 보기 범위에 대한 뉴스레터를 활성화하려면 **[!UICONTROL Enabled]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
-뉴스레터 기능을 활성화하면 _[!UICONTROL Subscription Options]_섹션이 나타납니다.
+뉴스레터 기능을 활성화하면 _[!UICONTROL Subscription Options]_&#x200B;섹션이 나타납니다.
 
 ## 구독 옵션 구성
 

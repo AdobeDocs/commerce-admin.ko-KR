@@ -48,13 +48,13 @@ _구매 주문 보기_ 페이지에서 고객은 [역할 권한](account-company
 
 1. 일반 체크 아웃 워크플로를 따르고 **[!UICONTROL Place Purchase Order]**&#x200B;을(를) 클릭합니다.
 
-_[!UICONTROL Add Items to Shopping Cart]_을(를) 클릭할 때 장바구니에 항목이 있으면 대화 상자가 표시됩니다. 이 대화 상자를 통해 장바구니 항목을 새 항목과 병합하거나 장바구니의 항목을 PO의 항목으로 바꿀 수 있습니다.
+_[!UICONTROL Add Items to Shopping Cart]_&#x200B;을(를) 클릭할 때 장바구니에 항목이 있으면 대화 상자가 표시됩니다. 이 대화 상자를 통해 장바구니 항목을 새 항목과 병합하거나 장바구니의 항목을 PO의 항목으로 바꿀 수 있습니다.
 
 더 이상 필요하지 않은 경우 원래 구매 발주를 마감할 수 있습니다.
 
 ## 구매 주문 승인
 
-회사 구조 또는 할당된 회사 역할에 따라 승인자로 지정된 고객의 경우 _[!UICONTROL My Purchase Orders]_대시보드 페이지에&#x200B;**[!UICONTROL Requires My Approval]**탭이 표시됩니다. 고객은 이 탭을 클릭하여 승인을 기다리는 PO를 검토합니다. 카운터는 승인 대기 중인 주문 수를 보여 줍니다.
+회사 구조 또는 할당된 회사 역할에 따라 승인자로 지정된 고객의 경우 _[!UICONTROL My Purchase Orders]_&#x200B;대시보드 페이지에&#x200B;**[!UICONTROL Requires My Approval]**&#x200B;탭이 표시됩니다. 고객은 이 탭을 클릭하여 승인을 기다리는 PO를 검토합니다. 카운터는 승인 대기 중인 주문 수를 보여 줍니다.
 
 구매 주문의 **[!UICONTROL View]**&#x200B;을(를) 클릭하고 세부 정보를 검토한 후 승인자는 **[!UICONTROL Approve]** 또는 **[!UICONTROL Reject]**&#x200B;을(를) 클릭할 수 있습니다.
 
@@ -62,7 +62,7 @@ _[!UICONTROL Add Items to Shopping Cart]_을(를) 클릭할 때 장바구니에 
 
 Adobe Commerce 2.4.1부터 승인자는 한 번에 여러 구매 발주를 승인하거나 거부할 수 있습니다.
 
-1. _[!UICONTROL My Purchase Order]_페이지에서&#x200B;**[!UICONTROL Requires My Approval]**탭을 클릭합니다.
+1. _[!UICONTROL My Purchase Order]_&#x200B;페이지에서&#x200B;**[!UICONTROL Requires My Approval]**&#x200B;탭을 클릭합니다.
 
 1. 승인 또는 거부할 각 구매 발주에 대한 확인란을 선택합니다.
 

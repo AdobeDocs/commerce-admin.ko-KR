@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 필요한 배송 정보를 모두 입력하고 _검토 및 결제_ 단계로 이동합니다.
 
-1. _[!UICONTROL Reward points]_섹션에서 사용 가능한 포인트의 수와 통화 값을 확인합니다.
+1. _[!UICONTROL Reward points]_&#x200B;섹션에서 사용 가능한 포인트의 수와 통화 값을 확인합니다.
 
 1. **[!UICONTROL Use reward points]**&#x200B;을(를) 클릭합니다.
 

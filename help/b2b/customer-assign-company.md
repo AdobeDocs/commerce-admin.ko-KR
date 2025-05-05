@@ -59,13 +59,13 @@ ht-degree: 0%
 
 [!UICONTROL Customers grid]에는 사용자가 할당된 각 회사에 대해 별도의 행이 표시됩니다. 다음 열이 업데이트됩니다.
 
-- _[!UICONTROL Customer Type]_열이 업데이트되어 사용자에게 할당된 역할을 표시합니다.
+- _[!UICONTROL Customer Type]_&#x200B;열이 업데이트되어 사용자에게 할당된 역할을 표시합니다.
 
-  고객을 처음으로 회사에 할당한 경우 _[!UICONTROL Customer Type]_열이_[!UICONTROL Individual user]_&#x200B;에서 _[!UICONTROL Company User]_(으)로 업데이트됩니다.
+  고객을 처음으로 회사에 할당한 경우 _[!UICONTROL Customer Type]_&#x200B;열이&#x200B;_[!UICONTROL Individual user]_&#x200B;에서 _[!UICONTROL Company User]_(으)로 업데이트됩니다.
 
-- _[!UICONTROL Group]_열이 회사에 할당된 고객 그룹(또는 공유 카탈로그)의 이름으로 변경됩니다.
+- _[!UICONTROL Group]_&#x200B;열이 회사에 할당된 고객 그룹(또는 공유 카탈로그)의 이름으로 변경됩니다.
 
-- _[!UICONTROL Company]_열에는 현재 고객 프로필과 연결된 회사의 이름이 표시됩니다.
+- _[!UICONTROL Company]_&#x200B;열에는 현재 고객 프로필과 연결된 회사의 이름이 표시됩니다.
 
 ## 하나 이상의 회사 계정에 사용자 할당
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**(으)로 이동합니다.
 
-1. 그리드에서 고객을 찾고 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 그리드에서 고객을 찾고 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Account Information]**&#x200B;을(를) 선택합니다.
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ## 사용자 계정에서 회사 할당 제거
 
-사용자 프로필에서 회사를 제거하면 해당 회사에 대한 사용자 액세스가 취소됩니다. 사용자 데이터는 관리에서 계속 액세스할 수 있습니다. 모든 회사 할당을 제거하면 _[!UICONTROL Customer Type]_이(가)*[!UICONTROL Individual user]*(으)로 변경되어 계정에 대한 B2B 기능을 사용할 수 없게 됩니다.
+사용자 프로필에서 회사를 제거하면 해당 회사에 대한 사용자 액세스가 취소됩니다. 사용자 데이터는 관리에서 계속 액세스할 수 있습니다. 모든 회사 할당을 제거하면 _[!UICONTROL Customer Type]_&#x200B;이(가)*[!UICONTROL Individual user]*(으)로 변경되어 계정에 대한 B2B 기능을 사용할 수 없게 됩니다.
 
 1. 관리자의 고객 그리드에서 업데이트할 고객 프로필을 편집합니다.
 

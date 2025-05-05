@@ -31,9 +31,9 @@ ht-degree: 0%
 
 1. 오른쪽 상단에서 **[!UICONTROL Add New User]**&#x200B;을(를) 클릭합니다.
 
-   기존 사용자를 편집하려면 그리드에서 사용자 이름을 클릭합니다. 필요에 따라 _[!UICONTROL User Info]_및_[!UICONTROL User Role]_ 섹션을 수정할 수 있습니다.
+   기존 사용자를 편집하려면 그리드에서 사용자 이름을 클릭합니다. 필요에 따라 _[!UICONTROL User Info]_&#x200B;및_[!UICONTROL User Role]_ 섹션을 수정할 수 있습니다.
 
-1. _[!UICONTROL Account Information]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Account Information]_&#x200B;섹션에서 다음을 수행합니다.
 
    ![사용자 계정 정보](./assets/permissions-user-new.png){width="600" zoomable="yes"}
 
@@ -65,21 +65,21 @@ ht-degree: 0%
 
    만료 날짜 정의는 사용자 또는 역할이 임시적일 때 유용합니다. 만료 날짜 이후에 사용자 계정 상태가 `Inactive`(으)로 변경되며 필요한 경우 업데이트할 수 있습니다.
 
-1. _[!UICONTROL Current User Identity Verification]_에서 사용자 계정 암호를 입력합니다.
+1. _[!UICONTROL Current User Identity Verification]_&#x200B;에서 사용자 계정 암호를 입력합니다.
 
 >[!IMPORTANT]
 >
->_[!UICONTROL Account Information]_섹션이 완료되면 사용자를 저장할 수 있습니다. 새 사용자가_[!UICONTROL Users]_ 그리드에 표시되지만 역할을 할당할 때까지 사용자 이름이 로그인할 수 없습니다.
+>_[!UICONTROL Account Information]_&#x200B;섹션이 완료되면 사용자를 저장할 수 있습니다. 새 사용자가&#x200B;_[!UICONTROL Users]_ 그리드에 표시되지만 역할을 할당할 때까지 사용자 이름이 로그인할 수 없습니다.
 
 ## 사용자 역할 할당
 
 1. 왼쪽 패널에서 **[!UICONTROL User Role]**&#x200B;을(를) 클릭합니다.
 
-   그리드에 기존 사용자 역할이 모두 나열됩니다. 새 스토어의 경우 _[!UICONTROL Administrators]_역할만 사용할 수 있습니다.
+   그리드에 기존 사용자 역할이 모두 나열됩니다. 새 스토어의 경우 _[!UICONTROL Administrators]_&#x200B;역할만 사용할 수 있습니다.
 
    ![관리자 - 새 사용자 역할 추가](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Assigned]_열에서 사용자 역할을 선택합니다.
+1. _[!UICONTROL Assigned]_&#x200B;열에서 사용자 역할을 선택합니다.
 
    [기존 역할을 보거나 추가 사용자 역할을 정의할 수 있습니다](permissions-user-roles.md). 역할이 정의된 후에는 사용자 계정을 편집하여 새 역할을 할당해야 합니다.
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. 메시지가 표시되면 암호를 입력하여 ID를 확인한 다음 **[!UICONTROL Save User]**&#x200B;을(를) 다시 클릭합니다.
 
-   _[!UICONTROL Users]_그리드가 열리고 모든 사용자가 나열됩니다.
+   _[!UICONTROL Users]_&#x200B;그리드가 열리고 모든 사용자가 나열됩니다.
 
 ## 관리자 삭제
 

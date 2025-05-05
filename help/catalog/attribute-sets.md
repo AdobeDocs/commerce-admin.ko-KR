@@ -42,7 +42,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >시스템 특성이 점으로 표시되어 _[!UICONTROL Groups]_목록에서 제거할 수 없습니다. 그러나 속성 세트의 다른 그룹으로 드래그할 수 있습니다.
+   >시스템 특성이 점으로 표시되어 _[!UICONTROL Groups]_&#x200B;목록에서 제거할 수 없습니다. 그러나 속성 세트의 다른 그룹으로 드래그할 수 있습니다.
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 속성 그룹 만들기
 
-1. 특성 집합의 _[!UICONTROL Groups]_열에서&#x200B;**[!UICONTROL Add New]**을(를) 클릭합니다.
+1. 특성 집합의 _[!UICONTROL Groups]_&#x200B;열에서&#x200B;**[!UICONTROL Add New]**&#x200B;을(를) 클릭합니다.
 
 1. 새 그룹의 **[!UICONTROL Name]**&#x200B;을(를) 입력하고 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 

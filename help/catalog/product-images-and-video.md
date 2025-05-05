@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 제품 설정 - [!UICONTROL Images and Videos]
 
-_[!UICONTROL Images and Videos]_섹션에서 여러 이미지를 업로드하고, 이미지를 다시 정렬하고, 각 이미지가 사용되는 방식을 제어하는 등의 기본 이미지 관리 작업을 수행할 수 있습니다. 개별 이미지를 추가로 제어하려면_&#x200B;세부 보기&#x200B;_에서 각 이미지를 열 수 있습니다. 자세한 내용은 [카탈로그 이미지 및 비디오](catalog-images-video.md)를 참조하세요.
+_[!UICONTROL Images and Videos]_&#x200B;섹션에서 여러 이미지를 업로드하고, 이미지를 다시 정렬하고, 각 이미지가 사용되는 방식을 제어하는 등의 기본 이미지 관리 작업을 수행할 수 있습니다. 개별 이미지를 추가로 제어하려면_&#x200B;세부 보기&#x200B;_에서 각 이미지를 열 수 있습니다. 자세한 내용은 [카탈로그 이미지 및 비디오](catalog-images-video.md)를 참조하세요.
 
 ## 새 이미지 업로드
 
 1. 제품을 편집 모드로 엽니다.
 
-1. 아래로 스크롤하여 _[!UICONTROL Images and Videos]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. 아래로 스크롤하여 _[!UICONTROL Images and Videos]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![이미지 및 비디오](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
@@ -32,7 +32,7 @@ _[!UICONTROL Images and Videos]_섹션에서 여러 이미지를 업로드하고
 
 ## 이미지 세부 사항
 
-제품 이미지를 추가할 때 _[!UICONTROL Image Detail]_창에서 이미지 표시를 사용자 지정할 수 있습니다.
+제품 이미지를 추가할 때 _[!UICONTROL Image Detail]_&#x200B;창에서 이미지 표시를 사용자 지정할 수 있습니다.
 
 ![제품 이미지](./assets/image-video.png){width="600" zoomable="yes"}
 

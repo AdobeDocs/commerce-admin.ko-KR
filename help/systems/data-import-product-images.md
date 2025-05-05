@@ -58,7 +58,7 @@ Commerce은 알파벳순으로 구성된 제품 이미지에 대한 고유한 �
 
    >[!TIP]
    >
-   >`<Magento-root-folder>/var/import/images` 디렉터리를 사용하려면 _[!UICONTROL Images File Directory]_을(를) 비워 둡니다. Adobe Commerce 및 Magento Open Source 버전 2.3.2부터 기본 가져오기 이미지 기본 디렉토리입니다.
+   >`<Magento-root-folder>/var/import/images` 디렉터리를 사용하려면 _[!UICONTROL Images File Directory]_&#x200B;을(를) 비워 둡니다. Adobe Commerce 및 Magento Open Source 버전 2.3.2부터 기본 가져오기 이미지 기본 디렉토리입니다.
 
    단일 `sku`에 대해 여러 이미지를 가져오는 경우 `additional_images` 열에 이미지를 삽입합니다(아직 추가되지 않은 경우 열 추가). 쉼표로 구분합니다. 예: `image02.jpg,image03.jpg`
 
@@ -84,7 +84,7 @@ Commerce은 알파벳순으로 구성된 제품 이미지에 대한 고유한 �
 
    >[!NOTE]
    >
-   >Adobe Commerce 및 Magento Open Source `2.3.2` 릴리스부터 _[!UICONTROL Images File Directory]_에 지정된 경로가 이미지 기본 디렉터리로 가져오기 위해 연결됩니다. `<remote-storage-root-folder>/var/import/images`. 이전 Adobe Commerce 및 Magento Open Source 릴리스의 경우 가져오기 프로세스 중에 폴더 경로가 지정되는 한 Commerce 서버에서 다른 폴더를 사용할 수 있습니다.
+   >Adobe Commerce 및 Magento Open Source `2.3.2` 릴리스부터 _[!UICONTROL Images File Directory]_&#x200B;에 지정된 경로가 이미지 기본 디렉터리로 가져오기 위해 연결됩니다. `<remote-storage-root-folder>/var/import/images`. 이전 Adobe Commerce 및 Magento Open Source 릴리스의 경우 가져오기 프로세스 중에 폴더 경로가 지정되는 한 Commerce 서버에서 다른 폴더를 사용할 수 있습니다.
 
 1. CSV 데이터에서 이미지 유형(`base_image`, `small_image`, `thumbnail_image` 또는 `additional_images`)에 따라 올바른 행과 올바른 열에 가져올 각 이미지 파일의 이름을 `sku`씩 입력합니다.
 
@@ -106,7 +106,7 @@ Commerce은 알파벳순으로 구성된 제품 이미지에 대한 고유한 �
 
    >[!TIP]
    >
-   >`<Magento-root-folder>/var/import/images` 디렉터리를 사용하려면 _[!UICONTROL Images File Directory]_을(를) 비워 둡니다. Adobe Commerce 및 Magento Open Source 버전 2.3.2부터 기본 가져오기 이미지 기본 디렉토리입니다.
+   >`<Magento-root-folder>/var/import/images` 디렉터리를 사용하려면 _[!UICONTROL Images File Directory]_&#x200B;을(를) 비워 둡니다. Adobe Commerce 및 Magento Open Source 버전 2.3.2부터 기본 가져오기 이미지 기본 디렉토리입니다.
 
    단일 `sku`에 대해 여러 이미지를 가져오는 경우 `additional_images` 열에 이미지를 삽입하십시오(아직 추가되지 않은 경우 열 추가). 쉼표로 구분하십시오. `image02.jpg,image03.jpg`
 

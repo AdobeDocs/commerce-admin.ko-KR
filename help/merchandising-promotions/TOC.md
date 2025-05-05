@@ -74,7 +74,7 @@ ht-degree: 1%
    - [SEO 개요 및 우수 사례](seo-overview.md)
    - [메타데이터](meta-data.md)
    - [사이트 맵](sitemap-xml.md)
-   - URL이 {#url-rewrites}을(를) 재작성합니다.
+   - URL이을(를) 재작성합니다. {#url-rewrites}
       - [개요 및 구성](url-rewrite.md)
       - [범주 재작성](url-rewrite-category.md)
       - [제품 재작성](url-rewrite-product.md)

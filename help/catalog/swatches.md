@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->관리자의 [!UICONTROL Attribute Edit] 페이지에서 _[!UICONTROL Update Product Preview Image]_옵션 값을 `No`(으)로 설정하여 견본을 선택할 때 해당 단순 제품 이미지를 표시하지 않도록 견본 특성을 구성할 수 있습니다.
+>관리자의 [!UICONTROL Attribute Edit] 페이지에서 _[!UICONTROL Update Product Preview Image]_&#x200B;옵션 값을 `No`(으)로 설정하여 견본을 선택할 때 해당 단순 제품 이미지를 표시하지 않도록 견본 특성을 구성할 수 있습니다.
 
 ## 텍스트 기반 견본
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 레이어 탐색의 색상 견본
 
-color 특성의 _[!UICONTROL Use in Layered Navigation]_속성이 `Yes`(으)로 설정된 경우 계층화된 탐색에서도 견본을 사용할 수 있습니다. 다음 예제에서는 레이어 탐색의 텍스트 기반 및 색상 이미지 견본을 모두 보여 줍니다.
+color 특성의 _[!UICONTROL Use in Layered Navigation]_&#x200B;속성이 `Yes`(으)로 설정된 경우 계층화된 탐색에서도 견본을 사용할 수 있습니다. 다음 예제에서는 레이어 탐색의 텍스트 기반 및 색상 이미지 견본을 모두 보여 줍니다.
 
 ![계층화된 탐색에 표시된 견본](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
@@ -58,7 +58,7 @@ color 특성의 _[!UICONTROL Use in Layered Navigation]_속성이 `Yes`(으)로 
 
 1. 제품 표시 페이지에서 견본을 선택할 때 해당하는 간단한 제품 이미지를 표시하지 않으려면 **[!UICONTROL Update Product Preview Image]**&#x200B;을(를) `No`(으)로 설정하십시오.
 
-1. _[!UICONTROL Manage Swatch (Values of Your Attribute)]_에서&#x200B;**[!UICONTROL Add Swatch]**을(를) 클릭하고 다음을 수행합니다.
+1. _[!UICONTROL Manage Swatch (Values of Your Attribute)]_&#x200B;에서&#x200B;**[!UICONTROL Add Swatch]**&#x200B;을(를) 클릭하고 다음을 수행합니다.
 
    ![견본 값 관리](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -106,9 +106,9 @@ color 특성의 _[!UICONTROL Use in Layered Navigation]_속성이 `Yes`(으)로 
 
 1. 제품 표시 페이지에서 견본을 선택할 때 해당하는 간단한 제품 이미지를 표시하지 않으려면 **[!UICONTROL Update Product Preview Image]**&#x200B;을(를) `No`(으)로 설정하십시오.
 
-1. _[!UICONTROL Manage Swatch]_(특성 값)에서&#x200B;**[!UICONTROL Add Swatch]**을(를) 클릭하고 다음을 수행합니다.
+1. _[!UICONTROL Manage Swatch]_(특성 값)에서&#x200B;**[!UICONTROL Add Swatch]**&#x200B;을(를) 클릭하고 다음을 수행합니다.
 
-   - _[!UICONTROL Swatch]_열에서 새 견본을 클릭하여 메뉴를 표시하고&#x200B;**[!UICONTROL Upload a file]**을(를) 선택합니다.
+   - _[!UICONTROL Swatch]_&#x200B;열에서 새 견본을 클릭하여 메뉴를 표시하고&#x200B;**[!UICONTROL Upload a file]**&#x200B;을(를) 선택합니다.
 
    - 준비한 견본 파일로 이동하여 업로드할 파일을 선택합니다.
 

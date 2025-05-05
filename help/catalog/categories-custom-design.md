@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 카테고리 - 디자인 설정
 
-_[!UICONTROL Design]_섹션을 통해 범주의 모양과 느낌, 연결된 모든 제품 페이지 및 페이지 레이아웃을 제어할 수 있습니다. 프로모션을 위해 카테고리 페이지 및 관련 제품을 사용자 정의하거나 카테고리를 구별할 수 있습니다. 예를 들어, 브랜드나 특수 제품 라인에 대한 독특한 디자인을 개발하거나 특정 기간에 대한 업데이트를 적용할 수 있습니다.
+_[!UICONTROL Design]_&#x200B;섹션을 통해 범주의 모양과 느낌, 연결된 모든 제품 페이지 및 페이지 레이아웃을 제어할 수 있습니다. 프로모션을 위해 카테고리 페이지 및 관련 제품을 사용자 정의하거나 카테고리를 구별할 수 있습니다. 예를 들어, 브랜드나 특수 제품 라인에 대한 독특한 디자인을 개발하거나 특정 기간에 대한 업데이트를 적용할 수 있습니다.
 
 ![범주에 대한 디자인 설정](./assets/category-design.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->각 범주에 대해 디자인 설정이 다른 여러 범주에 동일한 제품이 할당되면 [검색 엔진 최적화 구성 옵션](../configuration-reference/catalog/catalog.md#search-engine-optimization)에서 **제품 URL에 대한 범주 경로 사용** = `Yes`을 설정하는 것이 좋습니다. 이 설정에 액세스하려면 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동하여&#x200B;**[!UICONTROL Catalog]**을(를) 확장하고 왼쪽 패널의 아래에 있는&#x200B;**카탈로그**를 선택한 다음 페이지의&#x200B;**검색 엔진 최적화**섹션을 확장하세요.
+>각 범주에 대해 디자인 설정이 다른 여러 범주에 동일한 제품이 할당되면 [검색 엔진 최적화 구성 옵션](../configuration-reference/catalog/catalog.md#search-engine-optimization)에서 **제품 URL에 대한 범주 경로 사용** = `Yes`을 설정하는 것이 좋습니다. 이 설정에 액세스하려면 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동하여&#x200B;**[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 왼쪽 패널의 아래에 있는&#x200B;**카탈로그**&#x200B;를 선택한 다음 페이지의&#x200B;**검색 엔진 최적화**&#x200B;섹션을 확장하세요.
 
 | 필드 | 설명 |
 |--- |--- |
@@ -34,7 +34,7 @@ _[!UICONTROL Design]_섹션을 통해 범주의 모양과 느낌, 연결된 모�
 
 {{ce-feature}}
 
-_[!UICONTROL Scheduled Design Update]_섹션은 사용자 지정 디자인을 범주 페이지에 적용할 날짜 범위를 결정합니다.
+_[!UICONTROL Scheduled Design Update]_&#x200B;섹션은 사용자 지정 디자인을 범주 페이지에 적용할 날짜 범위를 결정합니다.
 
 | 필드 | 설명 |
 |--- |--- |

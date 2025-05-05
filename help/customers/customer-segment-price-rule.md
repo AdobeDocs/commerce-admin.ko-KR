@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![장바구니 가격 규칙 - 대상 고객 세그먼트](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
-_**세그먼트를 장바구니 가격 규칙에 연결하려면:**_
+_&#x200B;**세그먼트를 장바구니 가격 규칙에 연결하려면:**&#x200B;_
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _프로모션_ > **[!UICONTROL Cart Price Rules]**(으)로 이동합니다.
 

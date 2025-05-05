@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->견적 구성 옵션 및 견적 협상 기능을 사용하는 기능은 [역할 리소스](../systems/permissions-user-roles.md#role-resources)를 사용하여 제어됩니다. 관리자 사용자 계정에 할당된 관리자 사용자 역할에 대해 이러한 역할 리소스를 선택해야 합니다. 관리자의 견적 함수에 대한 액세스 권한을 부여하려면 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**(으)로 이동하고 역할을 선택한 다음_&#x200B;역할 리소스&#x200B;_트리에서 [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes](으)로 이동합니다.
+>견적 구성 옵션 및 견적 협상 기능을 사용하는 기능은 [역할 리소스](../systems/permissions-user-roles.md#role-resources)를 사용하여 제어됩니다. 관리자 사용자 계정에 할당된 관리자 사용자 역할에 대해 이러한 역할 리소스를 선택해야 합니다. 관리자의 견적 함수에 대한 액세스 권한을 부여하려면 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**(으)로 이동하고 역할을 선택한 다음_&#x200B;역할 리소스&#x200B;_트리에서 [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes] (으)로 이동합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 

@@ -27,7 +27,7 @@ ht-degree: 0%
    - [예약된 내보내기 추가](#schedule-an-export)
    - [예약된 가져오기 추가](#schedule-an-import)
 
-1. 레코드를 저장하면 작업이 _[!UICONTROL Scheduled Import/Export]_표에 나타납니다.
+1. 레코드를 저장하면 작업이 _[!UICONTROL Scheduled Import/Export]_&#x200B;표에 나타납니다.
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >_[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_및_[!UICONTROL Stock Sources]_ 엔터티 형식의 경우 다음과 같은 가져오기 동작이 표시됩니다. `Add/Update`, `Replace` 및 `Delete`. _고객 재무_, _고객 기본 파일_ 및 _고객 및 주소_ 엔터티 형식의 경우 다음과 같은 가져오기 동작이 표시됩니다. `Add/Update Complex Data`, `Delete Entities` 및 `Custom Action`.
+     >_[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;및_[!UICONTROL Stock Sources]_ 엔터티 형식의 경우 다음과 같은 가져오기 동작이 표시됩니다. `Add/Update`, `Replace` 및 `Delete`. _고객 재무_, _고객 기본 파일_ 및 _고객 및 주소_ 엔터티 형식의 경우 다음과 같은 가져오기 동작이 표시됩니다. `Add/Update Complex Data`, `Delete Entities` 및 `Custom Action`.
 
    - **[!UICONTROL Start Time]** — 가져오기가 시작되도록 예약된 시간, 분 및 초로 설정합니다.
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   예약된 새 가져오기 작업이 _[!UICONTROL Scheduled Import/Export]_페이지의 목록에 추가됩니다. 이 페이지에서 테스트 및 편집을 위해 즉시 실행할 수 있습니다. 가져오기 파일은 각 가져오기 작업을 실행하기 전에 유효성이 검사됩니다.
+   예약된 새 가져오기 작업이 _[!UICONTROL Scheduled Import/Export]_&#x200B;페이지의 목록에 추가됩니다. 이 페이지에서 테스트 및 편집을 위해 즉시 실행할 수 있습니다. 가져오기 파일은 각 가져오기 작업을 실행하기 전에 유효성이 검사됩니다.
 
 >[!NOTE]
 >
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 | 필드 | 설명 |
 | ----- | ----------- | 
-| [!UICONTROL Server Type] | Commerce이 배포된 동일한 서버의 파일(`Local Server` 선택)이나 원격 FTP 서버(`Remote FTP` 선택)에서 가져올 수 있습니다. _[!UICONTROL Remote FTP]_을(를) 선택하면 자격 증명 및 파일 전송 설정에 대한 추가 옵션이 나타납니다. 원격 저장소 모듈을 사용하도록 설정하면 `Local Server` 형식이 자동으로 `Remote Storage`(으)로 전환됩니다. |
+| [!UICONTROL Server Type] | Commerce이 배포된 동일한 서버의 파일(`Local Server` 선택)이나 원격 FTP 서버(`Remote FTP` 선택)에서 가져올 수 있습니다. _[!UICONTROL Remote FTP]_&#x200B;을(를) 선택하면 자격 증명 및 파일 전송 설정에 대한 추가 옵션이 나타납니다. 원격 저장소 모듈을 사용하도록 설정하면 `Local Server` 형식이 자동으로 `Remote Storage`(으)로 전환됩니다. |
 | [!UICONTROL File Directory] | 가져오기 파일이 있는 디렉토리를 지정합니다. 서버 유형이 _[!UICONTROL Local Server]_(으)로 설정된 경우 Commerce 설치 디렉터리에 상대적인 경로를 지정하십시오. 예: 원격 저장소용 `var/import` 또는 `import_export/import`. |
 | [!UICONTROL File Name] | 가져오기 파일의 이름을 지정합니다. |
 | [!UICONTROL Images File Directory] | 제품 이미지가 저장되는 디렉토리의 경로를 입력합니다. 로컬 서버의 경우 상대 경로를 입력합니다. 예: 원격 저장소용 `var/import` 또는 `import_export/import`. |
@@ -224,7 +224,7 @@ ht-degree: 0%
       - `Customer Addresses`
       - `Stock Sources`
 
-     페이지 하단의 _[!UICONTROL Entity Attributes]_섹션이 선택한 엔터티 형식을 반영하도록 업데이트됩니다.
+     페이지 하단의 _[!UICONTROL Entity Attributes]_&#x200B;섹션이 선택한 엔터티 형식을 반영하도록 업데이트됩니다.
 
    - 내보내기가 시작되도록 예약된 시간, 분, 초로 **[!UICONTROL Start Time]**&#x200B;을(를) 설정합니다.
 
@@ -258,7 +258,7 @@ ht-degree: 0%
    - **[!UICONTROL Local Server]**&#x200B;의 경우 Commerce 설치 내에서 상대 경로를 입력하십시오(예: `var/export`). 원격 저장소 모듈이 구성되어 있으면 `import_export/export`을(를) 사용합니다.
    - **[!UICONTROL Remote FTP server]**&#x200B;의 경우 대상 서버의 대상 폴더에 대한 전체 URL 및 경로를 입력하십시오.
 
-1. _[!UICONTROL Remote FTP]_서버를 선택한 경우 서버에 연결 자격 증명을 입력하고 추가 설정을 선택하십시오.
+1. _[!UICONTROL Remote FTP]_&#x200B;서버를 선택한 경우 서버에 연결 자격 증명을 입력하고 추가 설정을 선택하십시오.
 
    - **[!UICONTROL FTP Host[:Port]]**&#x200B;의 경우 원격 FTP 호스트 주소를 입력하십시오.
    - **[!UICONTROL User Name]**&#x200B;의 경우 원격 서버에 액세스하는 데 사용되는 사용자 이름을 입력하십시오.
@@ -285,14 +285,14 @@ ht-degree: 0%
 
 ### 4단계: 엔티티 속성 선택
 
-1. _[!UICONTROL Entity Attributes]_섹션에서 내보내기 데이터에 포함할 특성을 선택합니다.
+1. _[!UICONTROL Entity Attributes]_&#x200B;섹션에서 내보내기 데이터에 포함할 특성을 선택합니다.
 
-   - 내보내기 데이터를 특성 값으로 필터링하려면 _[!UICONTROL Filter]_열에 특성 값을 입력하십시오.
+   - 내보내기 데이터를 특성 값으로 필터링하려면 _[!UICONTROL Filter]_&#x200B;열에 특성 값을 입력하십시오.
    - 특정 속성 값을 가진 제품이나 고객을 제외하려면 제외할 속성 값을 입력하고 건너뛰기 열에서 확인란을 선택합니다.
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   예약된 새 내보내기 작업이 _[!UICONTROL Scheduled Import/Export]_페이지의 목록에 추가됩니다. 이 페이지에서 즉시 실행하여 테스트하고 편집할 수 있습니다.
+   예약된 새 내보내기 작업이 _[!UICONTROL Scheduled Import/Export]_&#x200B;페이지의 목록에 추가됩니다. 이 페이지에서 즉시 실행하여 테스트하고 편집할 수 있습니다.
 
 >[!NOTE]
 >
@@ -319,7 +319,7 @@ ht-degree: 0%
 | 필드 | 설명 |
 | ----- | ----------- | 
 | [!UICONTROL Server Type] | 내보내기 파일의 위치를 결정합니다. 옵션:<br>**로컬 서버** — Commerce이 배포된 동일한 서버에 내보내기 파일을 배치합니다. 원격 저장소 모듈을 사용하도록 설정하면 `Local Server`이(가) `Remote Storage`(으)로 전환됩니다.<br>**원격 FTP** — 내보내기 파일을 원격 서버에 배치합니다. 자격 증명 및 파일 전송 설정에 대한 추가 옵션이 표시됩니다. |
-| [!UICONTROL File Directory] | 내보내기 파일이 있는 디렉토리를 지정합니다. _[!UICONTROL Server Type]_이(가) `Local Server`(으)로 설정된 경우 Commerce 설치 경로를 기준으로 경로를 지정하십시오. 예: 원격 저장소용 `var/export` 또는 `import_export/export`. |
+| [!UICONTROL File Directory] | 내보내기 파일이 있는 디렉토리를 지정합니다. _[!UICONTROL Server Type]_&#x200B;이(가) `Local Server`(으)로 설정된 경우 Commerce 설치 경로를 기준으로 경로를 지정하십시오. 예: 원격 저장소용 `var/export` 또는 `import_export/export`. |
 
 {style="table-layout:auto"}
 

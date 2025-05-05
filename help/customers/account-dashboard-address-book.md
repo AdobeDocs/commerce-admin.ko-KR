@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 고객 계정의 왼쪽 탐색에서 고객은 **[!UICONTROL Address Book]**&#x200B;을(를) 선택합니다.
 
-1. _추가 주소 항목_ 아래의 _[!UICONTROL Address Book]_페이지에서&#x200B;**[!UICONTROL Add New Address]**을(를) 클릭합니다.
+1. _추가 주소 항목_ 아래의 _[!UICONTROL Address Book]_&#x200B;페이지에서&#x200B;**[!UICONTROL Add New Address]**&#x200B;을(를) 클릭합니다.
 
    ![새 주소 추가](assets/add-new-address.png){width="600" zoomable="yes"}
 
@@ -69,9 +69,9 @@ ht-degree: 0%
 
 1. 편집 방법 중 하나를 선택합니다.
 
-   * _[!UICONTROL Default Addresses]_섹션에서&#x200B;**[!UICONTROL Change Billing/Shipping Address]**을(를) 클릭합니다.
+   * _[!UICONTROL Default Addresses]_&#x200B;섹션에서&#x200B;**[!UICONTROL Change Billing/Shipping Address]**&#x200B;을(를) 클릭합니다.
 
-   * _[!UICONTROL Additional Address Entries]_그리드에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+   * _[!UICONTROL Additional Address Entries]_&#x200B;그리드에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. 필요한 변경을 수행하고 **[!UICONTROL Save Address]**&#x200B;을(를) 클릭합니다.
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 삭제할 주소 항목을 찾습니다.
 
-1. _[!UICONTROL Additional Address Entries]_그리드에서&#x200B;**[!UICONTROL Delete]**을(를) 클릭합니다.
+1. _[!UICONTROL Additional Address Entries]_&#x200B;그리드에서&#x200B;**[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
 1. 작업을 확인하려면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 

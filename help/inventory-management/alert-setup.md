@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Catalog]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Product Alerts]_섹션을 확장하려면 클릭하고 다음을 수행합니다.
+1. _[!UICONTROL Product Alerts]_&#x200B;섹션을 확장하려면 클릭하고 다음을 수행합니다.
 
    ![제품 알림](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. _기본 템플릿 로드_&#x200B;에서 사용자 지정할 **[!UICONTROL Template]**&#x200B;을(를) 선택합니다.
 
-   테마에 포함된 경고 템플릿을 선택할 수 있습니다. 또는 _[!UICONTROL Magento_PriceAlert]_에서 `Price Alert` 또는 `Stock Alert` 템플릿을 선택할 수 있습니다.
+   테마에 포함된 경고 템플릿을 선택할 수 있습니다. 또는 _[!UICONTROL Magento_PriceAlert]_&#x200B;에서 `Price Alert` 또는 `Stock Alert` 템플릿을 선택할 수 있습니다.
 
 1. **[!UICONTROL Load Template]**&#x200B;을(를) 클릭합니다.
 

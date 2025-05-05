@@ -41,7 +41,7 @@ ht-degree: 0%
 
 1. 설명 **[!UICONTROL Role Name]**&#x200B;을(를) 입력합니다.
 
-1. _[!UICONTROL Role Permissions]_에서 다음 중 하나를 수행합니다.
+1. _[!UICONTROL Role Permissions]_&#x200B;에서 다음 중 하나를 수행합니다.
 
    - 역할을 할당한 사용자에게 액세스 권한이 있는 각 리소스 또는 활동의 확인란을 선택합니다.
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ### 역할 수정
 
-1. 역할을 수정하려면 회사 관리자가 _[!UICONTROL Actions]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 역할을 수정하려면 회사 관리자가 _[!UICONTROL Actions]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. 필요한 경우 이름 및 권한 설정을 변경합니다.
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ### 역할 복제
 
-1. 역할을 복제하려면 회사 관리자가 _[!UICONTROL Actions]_열에서&#x200B;**[!UICONTROL Duplicate]**을(를) 클릭합니다.
+1. 역할을 복제하려면 회사 관리자가 _[!UICONTROL Actions]_&#x200B;열에서&#x200B;**[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
 
 1. 필요한 경우 이름 및 권한 설정을 변경합니다.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
    할당된 사용자가 없는 역할만 삭제할 수 있습니다.
 
-1. _[!UICONTROL Actions]_열에서&#x200B;**[!UICONTROL Delete]**을(를) 클릭합니다.
+1. _[!UICONTROL Actions]_&#x200B;열에서&#x200B;**[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
 1. 확인 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 

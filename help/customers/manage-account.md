@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 고객 계정 관리
 
-_[!UICONTROL Customers]_그리드를 사용하여 고객 계정을 찾습니다. 표준 [작업 공간 컨트롤](../getting-started/admin-workspace.md)을 사용하여 목록을 필터링하고, [열 레이아웃](../getting-started/admin-grid-controls.md)을 변경하고, 보기를 저장하고, 데이터를 내보낼 수 있습니다. 표 위의 [Actions 컨트롤](../getting-started/admin-actions-control.md)을 사용하여 여러 고객 레코드에 작업을 적용할 수 있습니다.
+_[!UICONTROL Customers]_&#x200B;그리드를 사용하여 고객 계정을 찾습니다. 표준 [작업 공간 컨트롤](../getting-started/admin-workspace.md)을 사용하여 목록을 필터링하고, [열 레이아웃](../getting-started/admin-grid-controls.md)을 변경하고, 보기를 저장하고, 데이터를 내보낼 수 있습니다. 표 위의 [Actions 컨트롤](../getting-started/admin-actions-control.md)을 사용하여 여러 고객 레코드에 작업을 적용할 수 있습니다.
 
 ![모든 고객](assets/customers-all-customers.png){width="700" zoomable="yes"}
 

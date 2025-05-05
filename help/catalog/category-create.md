@@ -114,7 +114,7 @@ ht-degree: 0%
    - `Static Block Only`
    - `Static Block and Products`
 
-1. 범주 페이지에 계층화된 탐색의 _`Filter by Attribute`_섹션을 포함하려면&#x200B;**[!UICONTROL Anchor]**을(를) `Yes`(으)로 설정하십시오.
+1. 범주 페이지에 계층화된 탐색의 _`Filter by Attribute`_섹션을 포함하려면&#x200B;**[!UICONTROL Anchor]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
 1. **[!UICONTROL Available Product Listing Sort By]** 옵션의 경우 고객이 목록을 정렬할 수 있도록 사용할 수 있는 값 중 하나 이상을 선택하십시오. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)에 적용되지 않습니다.
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 1. ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 특정 기간에 디자인 업데이트를 예약하려면 다음을 수행하십시오.
 
-   - _[!UICONTROL Schedule Design Update]_섹션을 확장합니다.
+   - _[!UICONTROL Schedule Design Update]_&#x200B;섹션을 확장합니다.
 
    - 일정(![일정 아이콘](../assets/icon-calendar.png))을 사용하여 일정 업데이트 **[!UICONTROL from]** 및 **[!UICONTROL to]** 날짜를 선택하십시오.
 

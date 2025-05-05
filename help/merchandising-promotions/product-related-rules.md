@@ -28,8 +28,8 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL ID] | 관련된 각 제품 규칙에 할당된 고유 숫자 식별자입니다 |
 | [!UICONTROL Rule] | 관련 제품 규칙의 이름 |
-| [!UICONTROL Start] | 동적 일정 필드(_[!UICONTROL To:]_및_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 시작 날짜를 기준으로 목록을 필터링합니다. |
-| [!UICONTROL End] | 동적 일정 필드(_[!UICONTROL To:]_및_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 종료 날짜를 기준으로 목록을 필터링합니다. |
+| [!UICONTROL Start] | 동적 일정 필드(_[!UICONTROL To:]_&#x200B;및_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 시작 날짜를 기준으로 목록을 필터링합니다. |
+| [!UICONTROL End] | 동적 일정 필드(_[!UICONTROL To:]_&#x200B;및_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 종료 날짜를 기준으로 목록을 필터링합니다. |
 | [!UICONTROL Priority] | 규칙에 대해 정의된 우선 순위를 기준으로 목록을 필터링하려면 이 필드에 텍스트를 입력합니다. |
 | [!UICONTROL Applies To] | 이 옵션은 `Related Products`, `Up-sells` 및 `Cross-sells`에 적용되는 규칙 목록을 필터링합니다. |
 | [!UICONTROL Status] | 이 옵션을 사용하여 규칙 상태(`Active` 또는 `Inactive`)를 기준으로 목록을 필터링합니다. |
@@ -47,7 +47,7 @@ ht-degree: 0%
 예를 들어 우선 순위가 `1`, `2` 및 `3`인 규칙이 세 개 있다고 가정합니다.
 
 - _규칙 1_&#x200B;에 대해 반환된 일치하는 제품이 두 개, _규칙 2_&#x200B;에 대해 일치하는 제품이 6개, _규칙 3_&#x200B;에 대해 일치하는 제품이 20개입니다.
-- 구성에서 _[!UICONTROL Maximum Number of Products for Related Products List]_이(가) `6`(으)로 설정되어 있습니다.
+- 구성에서 _[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;이(가) `6`(으)로 설정되어 있습니다.
 
   | 규칙 | 우선 순위 | 일치하는 제품 |
   |---|---|-----|

@@ -147,7 +147,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Package Weight] | 웹 사이트 | UPS에서 지정한 대로 패키지를 지정할 수 있는 최소 가중치를 설정합니다. 주문한 제품의 무게가 최소 포장 무게보다 작은 경우 이 배송 옵션을 사용할 수 없습니다. 최소 중량을 확인하려면 운송 업체에 문의하십시오. |
 | [!UICONTROL Calculate Handling Fee] | 웹 사이트 | 테이블 요금 배송에 대한 처리 수수료 계산 방법을 설정합니다. 옵션: <br>**`Fixed`**- 수수료는 정률입니다.<br>**`Percent`** - 취급 수수료는 주문 금액의 백분율로 적용됩니다. |
 | [!UICONTROL Handling Applied] | 웹 사이트 | 각 주문에 처리 비용이 적용되는지 또는 주문 내의 각 패키지에 적용되는지를 지정합니다. |
-| [!UICONTROL Handling Fee] | 웹 사이트 | 배송비 가격에 포함된 처리를 설정합니다. 취급 수수료는 고정 금액 또는 백분율로 설정할 수 있습니다. <br/><br/>**_참고:_**백분율을 입력할 경우 25%의 경우 십진수 형식 `0.25`을(를) 사용하십시오. |
+| [!UICONTROL Handling Fee] | 웹 사이트 | 배송비 가격에 포함된 처리를 설정합니다. 취급 수수료는 고정 금액 또는 백분율로 설정할 수 있습니다. <br/><br/>**_참고:_**&#x200B;백분율을 입력할 경우 25%의 경우 십진수 형식 `0.25`을(를) 사용하십시오. |
 
 {style="table-layout:auto"}
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | 웹 사이트 | 고객에게 제공되는 UPS 배송 방법을 지정합니다. 배송 요금은 선택한 배송 방법을 기준으로 계산됩니다. |
-| [!UICONTROL Free Method] | 웹 사이트 | UPS를 통해 무료 배송 방법에 사용되는 방법을 식별합니다. 무료 배송을 비활성화하려면 &quot;없음&quot;을 선택하십시오. <br/><br/>**_참고:_**이 메서드는 기본 [무료 배송](../../stores-purchase/shipping-free.md)과 비슷하지만 체크아웃 중에 UPS 배송 옵션으로 나타납니다. |
+| [!UICONTROL Free Method] | 웹 사이트 | UPS를 통해 무료 배송 방법에 사용되는 방법을 식별합니다. 무료 배송을 비활성화하려면 &quot;없음&quot;을 선택하십시오. <br/><br/>**_참고:_**&#x200B;이 메서드는 기본 [무료 배송](../../stores-purchase/shipping-free.md)과 비슷하지만 체크아웃 중에 UPS 배송 옵션으로 나타납니다. |
 | [!UICONTROL Free Shipping Amount Threshold] | 웹 사이트 | 주문 금액이 무료 배송 임계값을 충족하면 무료 배송이 적용되는지 여부를 결정합니다. 옵션: `Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | 웹 사이트 | 무료 배송에 대한 자격이 부여되기 위해 주문이 도달해야 하는 최소 총 금액을 설정합니다. |
 | [!UICONTROL Displayed Error Message] | 스토어 뷰 | 어떤 이유로든 이 배송 방법을 사용할 수 없을 때 표시되는 오류 메시지. |
@@ -219,7 +219,7 @@ ht-degree: 0%
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | 웹 사이트 | 테이블 요금 배송에 대한 처리 수수료 계산 방법을 설정합니다. 옵션: <br/>**`Fixed`**- 수수료는 정률입니다.<br/>**`Percent`** - 취급 수수료는 주문 금액의 백분율로 적용됩니다. |
 | [!UICONTROL Handling Applied] | 웹 사이트 | 각 주문에 처리 비용이 적용되는지 또는 주문 내의 각 패키지에 적용되는지를 지정합니다. |
-| [!UICONTROL Handling Fee] | 웹 사이트 | 배송비 가격에 포함된 처리를 설정합니다. 취급 수수료는 고정 금액 또는 백분율로 설정할 수 있습니다. <br/><br/>**_참고:_**백분율을 입력할 때 25%의 경우 십진수 형식 `0.25`을(를) 사용하십시오. |
+| [!UICONTROL Handling Fee] | 웹 사이트 | 배송비 가격에 포함된 처리를 설정합니다. 취급 수수료는 고정 금액 또는 백분율로 설정할 수 있습니다. <br/><br/>**_참고:_**&#x200B;백분율을 입력할 때 25%의 경우 십진수 형식 `0.25`을(를) 사용하십시오. |
 
 {style="table-layout:auto"}
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | 웹 사이트 | 고객에게 제공되는 허용된 USPS 배송 방법을 지정합니다. 배송 요금은 선택한 배송 방법을 기준으로 계산됩니다. |
-| [!UICONTROL Free Method] | 웹 사이트 | USPS를 통해 무료 배송 방법을 설정하거나 `None`을(를) 선택하여 비활성화할 수 있습니다. <br/><br/>**_참고:_**이 배송 방법은 스토어의 무료 배송 방법과 유사하지만 USPS 배송 옵션으로 나열되고 USPS 배송으로 식별됩니다. |
+| [!UICONTROL Free Method] | 웹 사이트 | USPS를 통해 무료 배송 방법을 설정하거나 `None`을(를) 선택하여 비활성화할 수 있습니다. <br/><br/>**_참고:_**&#x200B;이 배송 방법은 스토어의 무료 배송 방법과 유사하지만 USPS 배송 옵션으로 나열되고 USPS 배송으로 식별됩니다. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | 웹 사이트 | 무료 배송을 위해 충족해야 하는 최소 주문 금액을 설정합니다. |
 | [!UICONTROL Displayed Error Message] | 스토어 뷰 | 어떤 이유로든 USPS를 사용할 수 없을 때 표시되는 오류 메시지입니다. |
 
@@ -291,7 +291,7 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Calculate Handling Fee] | 웹 사이트 | 취급 수수료를 계산하는 데 사용되는 방법을 결정합니다. 옵션: `Fixed Fee` / `Percentage` <br/><br/>**_참고:_**처리 요금은 선택 사항이며 FedEx 배송 비용에 추가되는 추가 요금으로 표시됩니다. |
+| [!UICONTROL Calculate Handling Fee] | 웹 사이트 | 취급 수수료를 계산하는 데 사용되는 방법을 결정합니다. 옵션: `Fixed Fee` / `Percentage` <br/><br/>**_참고:_**&#x200B;처리 요금은 선택 사항이며 FedEx 배송 비용에 추가되는 추가 요금으로 표시됩니다. |
 | [!UICONTROL Handling Applied] | 웹 사이트 | 취급 수수료를 적용하는 방법을 결정합니다. 옵션: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | 웹 사이트 | 금액을 계산하는 데 사용되는 방법에 따라 처리 수수료로 청구되는 금액을 지정합니다. 요금이 고정 요금을 기준으로 하는 경우 `4.90`과(와) 같이 금액을 소수로 입력하십시오. 처리 수수료가 주문의 백분율을 기준으로 하는 경우 백분율로 금액을 입력합니다. 예를 들어 주문의 6%를 부과하려면 값을 `.06`(으)로 입력합니다. |
 
@@ -306,7 +306,7 @@ ht-degree: 0%
 | [!UICONTROL Residential Delivery] | 웹 사이트 | B2C(Business-to-Consumer) 또는 B2B(Business-to-Business)를 판매하는지 여부에 따라 다음 중 하나로 설정합니다. <br/>**`Yes`**- B2C 게재용<br/>**`No`** - B2B 게재용 |
 | [!UICONTROL Allowed Methods] | 웹 사이트 | 목록에서 지원하는 운송 방법을 선택합니다. 방법은 FedEx 계정, 배송 빈도 및 크기, 해외 배송 허용 여부에 따라 다릅니다. 상인으로서, 당신은 지상 운송만 제공하기로 결정할 수 있습니다. |
 | [!UICONTROL Hub ID] | 웹 사이트 | [!DNL Smart Post] 메서드와 함께 사용되는 FedEx에서 제공한 ID입니다. |
-| [!UICONTROL Free Method] | 웹 사이트 | 목록에서 무료 배송 오퍼에 사용할 배송 방법을 선택합니다. <br/><br/>**_참고:_**이 배송 방법은 일반 무료 배송 방법과 유사하지만 FedEx 배송 옵션에 나열되어 있으며 FedEx 배송으로 식별됩니다. |
+| [!UICONTROL Free Method] | 웹 사이트 | 목록에서 무료 배송 오퍼에 사용할 배송 방법을 선택합니다. <br/><br/>**_참고:_**&#x200B;이 배송 방법은 일반 무료 배송 방법과 유사하지만 FedEx 배송 옵션에 나열되어 있으며 FedEx 배송으로 식별됩니다. |
 | [!UICONTROL Free Shipping Amount Threshold] | 웹 사이트 | 무료 배송에 최소 주문 금액이 필요한지 여부를 결정합니다. 옵션: <br/>**`Enable`**- 최소 금액을 충족하는 주문에 대해 무료 FedEx 배송을 활성화합니다.<br/>**`Disable`** - 최소 주문으로 무료 FedEx 배송을 사용하지 않도록 설정합니다. |
 | [!UICONTROL Free Shipping Amount Threshold] | 웹 사이트 | 무료 배송에 필요한 최소 주문 금액을 지정합니다. |
 | [!UICONTROL Displayed Error Message] | 스토어 뷰 | FedEx가 어떤 이유로든 사용할 수 없을 때 나타나는 메시지입니다. 기본 메시지를 사용하거나 다른 메시지를 입력할 수 있습니다. |

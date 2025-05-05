@@ -80,7 +80,7 @@ ht-degree: 0%
 
 ## 고객 계정에서 로그아웃
 
-1. _[!UICONTROL Welcome, Customer Name!]_옆의 오른쪽 상단 모서리에서 고객이&#x200B;**[!UICONTROL v]**메뉴 선택기를 클릭합니다.
+1. _[!UICONTROL Welcome, Customer Name!]_&#x200B;옆의 오른쪽 상단 모서리에서 고객이&#x200B;**[!UICONTROL v]**&#x200B;메뉴 선택기를 클릭합니다.
 
 1. **[!UICONTROL Sign Out]**&#x200B;을(를) 선택하십시오.
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 제품 특성에 대한 대량 업데이트
 
-_[!UICONTROL Update Attributes]_도구를 사용하여 제품에서 하나 이상의 특성을 변경합니다. 이 도구를 사용하면 많은 제품 그룹에 중요한 변경 사항을 적용할 수 있습니다.
+_[!UICONTROL Update Attributes]_&#x200B;도구를 사용하여 제품에서 하나 이상의 특성을 변경합니다. 이 도구를 사용하면 많은 제품 그룹에 중요한 변경 사항을 적용할 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 

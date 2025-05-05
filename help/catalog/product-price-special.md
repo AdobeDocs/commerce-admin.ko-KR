@@ -50,7 +50,7 @@ Adobe Commerce에는 [예약된 업데이트](../content-design/content-staging-
 
    상점에서는 카탈로그 목록과 제품 페이지에 특별 가격이 표시됩니다.
 
-   _[!UICONTROL Scheduled Change]_이(가) 페이지 맨 위에 나타납니다.
+   _[!UICONTROL Scheduled Change]_&#x200B;이(가) 페이지 맨 위에 나타납니다.
 
    ![예약된 변경](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -62,7 +62,7 @@ Magento Open Source은 Advanced Pricing 옵션의 간단한 시작 및 종료 �
 
 1. 제품을 편집 모드로 엽니다.
 
-1. _[!UICONTROL Price]_필드까지 아래로 스크롤하여&#x200B;**[!UICONTROL Advanced Pricing]**을(를) 클릭하고&#x200B;**[!UICONTROL Special Price]**금액을 입력합니다.
+1. _[!UICONTROL Price]_&#x200B;필드까지 아래로 스크롤하여&#x200B;**[!UICONTROL Advanced Pricing]**&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Special Price]**&#x200B;금액을 입력합니다.
 
 1. _달력_( ![달력 아이콘](../assets/icon-calendar.png)) 아이콘을 사용하여 특별 가격 프로모션의 **[!UICONTROL Start Date]** 및 **[!UICONTROL End Date]**&#x200B;을(를) 선택하십시오.
 
@@ -84,7 +84,7 @@ Magento Open Source은 Advanced Pricing 옵션의 간단한 시작 및 종료 �
 
 다음 예는 Adobe Commerce에서 구성 가능한 제품의 여러 제품 변형에 동일한 특별 가격을 할당하는 방법을 보여줍니다.
 
-1. _[!UICONTROL Products]_페이지에서&#x200B;**[!UICONTROL Filters]**을(를) 클릭하고 구성 가능한 제품의&#x200B;**[!UICONTROL Name]**을(를) 입력하십시오.
+1. _[!UICONTROL Products]_&#x200B;페이지에서&#x200B;**[!UICONTROL Filters]**&#x200B;을(를) 클릭하고 구성 가능한 제품의&#x200B;**[!UICONTROL Name]**&#x200B;을(를) 입력하십시오.
 
 1. **[!UICONTROL Type]**&#x200B;을(를) `Configurable Product`(으)로 설정하고 **[!UICONTROL Apply Filters]**&#x200B;을(를) 클릭합니다.
 
@@ -94,7 +94,7 @@ Magento Open Source은 Advanced Pricing 옵션의 간단한 시작 및 종료 �
 
 1. **[!UICONTROL Actions]** 컨트롤을 `Update attributes`(으)로 설정합니다.
 
-1. _[!UICONTROL Special Price]_필드로 스크롤하여_[!UICONTROL Special Price]_ 필드 아래의 **[!UICONTROL Change]** 확인란을 선택하고 제공할 특별 가격을 입력합니다.
+1. _[!UICONTROL Special Price]_&#x200B;필드로 스크롤하여&#x200B;_[!UICONTROL Special Price]_ 필드 아래의 **[!UICONTROL Change]** 확인란을 선택하고 제공할 특별 가격을 입력합니다.
 
    ![특별 가격 필드](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 
@@ -132,7 +132,7 @@ Magento Open Source은 Advanced Pricing 옵션의 간단한 시작 및 종료 �
 
 1. _[!UICONTROL Special Price]** 필드로 아래로 스크롤하여 다음을 수행합니다.
 
-   - _[!UICONTROL Special Price]** 필드 아래의 **[!UICONTROL Change]** 확인란을 선택하고 제공할 특별 가격을 입력합니다.
+   - _[!UICONTROL Special Price] **&#x200B; 필드 아래의 &#x200B;** [!UICONTROL Change]** 확인란을 선택하고 제공할 특별 가격을 입력합니다.
 
    - _다음 날짜부터 특별 가격_ 필드 아래에서 **[!UICONTROL Change]** 확인란을 선택하고 _일정_(![일정 아이콘](../assets/icon-calendar.png))을 클릭한 다음 특별 가격 프로모션의 첫 번째 날짜를 선택합니다.
 

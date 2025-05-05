@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**(으)로 이동합니다.
 
-1. 그리드에서 고객을 찾고 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 그리드에서 고객을 찾고 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Newsletter]**&#x200B;을(를) 클릭합니다.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
    >
    >일괄 가입을 해지하려면 취소할 각 가입자의 확인란을 선택합니다.
 
-1. _[!UICONTROL Action]_컨트롤을&#x200B;**[!UICONTROL Unsubscribe]**(으)로 설정하고&#x200B;**[!UICONTROL Submit]**을(를) 클릭합니다.
+1. _[!UICONTROL Action]_&#x200B;컨트롤을&#x200B;**[!UICONTROL Unsubscribe]**(으)로 설정하고&#x200B;**[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
    ![뉴스레터 구독 취소](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ## 구독자 목록 내보내기
 
-1. _[!UICONTROL Newsletter Subscribers]_목록에서 필터 컨트롤을 사용하여_&#x200B;상태&#x200B;_가 `Subscribed`인 레코드와 적절한 웹 사이트, 스토어 또는 스토어 보기에 대한 레코드만 포함합니다.
+1. _[!UICONTROL Newsletter Subscribers]_&#x200B;목록에서 필터 컨트롤을 사용하여_&#x200B;상태&#x200B;_가 `Subscribed`인 레코드와 적절한 웹 사이트, 스토어 또는 스토어 보기에 대한 레코드만 포함합니다.
 
 1. **[!UICONTROL Export to]** 컨트롤을 다음 중 하나로 설정합니다.
 
@@ -83,6 +83,6 @@ ht-degree: 0%
 
 1. 그리드에서 가입자를 찾은 다음 첫 번째 열에서 확인란을 선택합니다.
 
-1. _[!UICONTROL Action]_컨트롤을&#x200B;**[!UICONTROL Delete]**(으)로 설정하고&#x200B;**[!UICONTROL Submit]**을(를) 클릭합니다.
+1. _[!UICONTROL Action]_&#x200B;컨트롤을&#x200B;**[!UICONTROL Delete]**(으)로 설정하고&#x200B;**[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
 1. 확인 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.

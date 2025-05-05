@@ -246,7 +246,7 @@ Commerce 개발자 설명서에서 [번역 개요](https://developer.adobe.com/c
 
    필요에 따라 **[!UICONTROL Use Website]** 확인란의 선택을 취소하여 이 설정을 수정합니다.
 
-   특정 스토어 보기를 편집할 때는 _[!UICONTROL Enabled for Admin]_옵션을 사용할 수 없습니다.
+   특정 스토어 보기를 편집할 때는 _[!UICONTROL Enabled for Admin]_&#x200B;옵션을 사용할 수 없습니다.
 
    ![고급 구성 - 인라인 번역](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 

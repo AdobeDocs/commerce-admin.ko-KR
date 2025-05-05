@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Quotes]
 
-견적이 활성화되면 고객 계정 대시보드의 _[!UICONTROL My Quotes]_섹션에 고객이 제출한 모든 견적이 나열됩니다. 권한에 따라, 회사를 대신하여 구매하는 구매자만 구매 가격을 협상하기 위한 요청을 제출할 수 있습니다.
+견적이 활성화되면 고객 계정 대시보드의 _[!UICONTROL My Quotes]_&#x200B;섹션에 고객이 제출한 모든 견적이 나열됩니다. 권한에 따라, 회사를 대신하여 구매하는 구매자만 구매 가격을 협상하기 위한 요청을 제출할 수 있습니다.
 
 ![내 견적](./assets/account-dashboard-my-quotes.png){width="700" zoomable="yes"}
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL My Quotes]**&#x200B;을(를) 선택합니다.
 
-1. 목록에서 견적을 찾고 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL View]**을(를) 클릭합니다.
+1. 목록에서 견적을 찾고 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 
 ## 견적 복사
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL My Quote Templates]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL My Quotes]** 목록에서 견적을 찾고 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Create Quote Template]**을(를) 클릭합니다.
+1. **[!UICONTROL My Quotes]** 목록에서 견적을 찾고 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Create Quote Template]**&#x200B;을(를) 클릭합니다.
 
 ## 견적에서 구매요청 목록으로 라인 항목 이동
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 1. 라인 항목을 선택합니다.
 
-1. _[!UICONTROL Actions]_드롭다운에서&#x200B;**[!UICONTROL Move to Requisition list]**을(를) 클릭합니다.
+1. _[!UICONTROL Actions]_&#x200B;드롭다운에서&#x200B;**[!UICONTROL Move to Requisition list]**&#x200B;을(를) 클릭합니다.
 
 1. 선택한 품목을 이동할 기존 구매요청 목록을 선택합니다.
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 1. 라인 항목을 선택합니다.
 
-1. _[!UICONTROL Actions]_드롭다운에서&#x200B;**[!UICONTROL Move item to new quote]**을(를) 클릭합니다.
+1. _[!UICONTROL Actions]_&#x200B;드롭다운에서&#x200B;**[!UICONTROL Move item to new quote]**&#x200B;을(를) 클릭합니다.
 
 1. 모달에서 새 따옴표의 이름을 지정합니다.
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 ## 견적 인쇄
 
-1. _[!UICONTROL Items Quoted]_섹션의 오른쪽에 있는 열린 인용구에서 구매자가&#x200B;**[!UICONTROL Print]**을(를) 클릭합니다.
+1. _[!UICONTROL Items Quoted]_&#x200B;섹션의 오른쪽에 있는 열린 인용구에서 구매자가&#x200B;**[!UICONTROL Print]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Destination]**&#x200B;을(를) 프린터 또는 PDF으로 확인합니다.
 
@@ -158,13 +158,13 @@ ht-degree: 0%
 
 1. 인용된 항목 섹션 바로 위에 있는 열린 인용문에서 **[!UICONTROL Close quote]**&#x200B;을(를) 클릭합니다.
 
-   요청이 취소되어 견적 상태가 `Closed`(으)로 변경됩니다. 닫힌 따옴표는 따옴표 목록에 남아 있으며, 관리자의 _[!UICONTROL Quotes]_표에 나열되어 있습니다.
+   요청이 취소되어 견적 상태가 `Closed`(으)로 변경됩니다. 닫힌 따옴표는 따옴표 목록에 남아 있으며, 관리자의 _[!UICONTROL Quotes]_&#x200B;표에 나열되어 있습니다.
 
 1. 견적 목록에서 취소된 견적을 제거하려면 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
 1. 확인 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
-   마감된 견적은 해당 견적 목록에서 제거됩니다. 하지만 관리자의 _[!UICONTROL Quotes]_그리드에 `Closed` 상태로 나열된 상태로 유지됩니다.
+   마감된 견적은 해당 견적 목록에서 제거됩니다. 하지만 관리자의 _[!UICONTROL Quotes]_&#x200B;그리드에 `Closed` 상태로 나열된 상태로 유지됩니다.
 
 ## 견적 작업
 
@@ -184,6 +184,6 @@ ht-degree: 0%
 | [!UICONTROL Quote Name] | 구매자가 견적 요청에 지정한 이름. |
 | [!UICONTROL Created] | 견적 요청이 처음 제출된 날짜. |
 | [!UICONTROL Created By] | 견적 요청을 제출한 구매자의 이름과 성입니다. |
-| [!UICONTROL Status] | 견적의 상태를 나타냅니다. 견적의 상태는 구매자 또는 판매자 측의 조치에 의해서만 변경될 수 있습니다. <br/>**[!UICONTROL Submitted]**- 구매자의 견적 요청이 판매자에 의해 아직 열리지 않았습니다. 이 상태에서 구매자는 견적에 대한 요청을 수정할 수 있습니다. 사용 가능한 작업: `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** - 판매자가 요청을 열었고 요청을 검토하고 응답을 준비하는 중입니다. 사용 가능한 작업: `View` / `Close` <br/>**[!UICONTROL Updated]**- 판매자가 구매자에게 응답을 보냈으며 _[!UICONTROL Proceed to Checkout]_버튼이 활성화되었습니다. 이 상태에서 구매자는 견적을 계속 수정할 수 있습니다. 사용 가능한 작업: `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**- 구매자가 견적을 계속 업데이트하고 있으며_[!UICONTROL Proceed to Checkout]_ 버튼이 비활성화되어 있습니다. 사용 가능한 작업: `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**- 구매자가 협상된 견적을 기반으로 주문을 제출했습니다. 견적이 잠겨 있어 편집할 수 없습니다. 사용 가능한 작업:<br/>**[!UICONTROL Closed]** 보기 - 구매자가 협상을 종료하고 견적을 취소합니다. 견적이 잠겨 구매자나 판매자가 편집할 수 없습니다. 사용 가능한 작업: `View` / `Delete` <br/>**[!UICONTROL Declined]**- 판매자가 협상 프로세스 중에 견적 요청 또는 제안된 변경 요청을 거부했습니다. 워크플로의 모든 단계에서 견적을 거부할 수 있습니다. 모든 사용자 정의 가격은 견적에서 제거됩니다. 구매자는 견적을 계속 편집하고 다시 제출하거나 표준 카탈로그 가격으로 구매할 수 있습니다. 사용 가능한 작업: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** - 견적의 수명이 만료되었습니다. 제안된 가격은 모두 재설정됩니다. 구매자는 표준 카탈로그 가격에 따라 구매를 완료하거나 다른 협상 라운드를 시작할 수 있습니다. 사용 가능한 작업: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
+| [!UICONTROL Status] | 견적의 상태를 나타냅니다. 견적의 상태는 구매자 또는 판매자 측의 조치에 의해서만 변경될 수 있습니다. <br/>**[!UICONTROL Submitted]**- 구매자의 견적 요청이 판매자에 의해 아직 열리지 않았습니다. 이 상태에서 구매자는 견적에 대한 요청을 수정할 수 있습니다. 사용 가능한 작업: `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** - 판매자가 요청을 열었고 요청을 검토하고 응답을 준비하는 중입니다. 사용 가능한 작업: `View` / `Close` <br/>**[!UICONTROL Updated]**- 판매자가 구매자에게 응답을 보냈으며 _[!UICONTROL Proceed to Checkout]_&#x200B;버튼이 활성화되었습니다. 이 상태에서 구매자는 견적을 계속 수정할 수 있습니다. 사용 가능한 작업: `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**- 구매자가 견적을 계속 업데이트하고 있으며&#x200B;_[!UICONTROL Proceed to Checkout]_ 버튼이 비활성화되어 있습니다. 사용 가능한 작업: `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**- 구매자가 협상된 견적을 기반으로 주문을 제출했습니다. 견적이 잠겨 있어 편집할 수 없습니다. 사용 가능한 작업:<br/>**[!UICONTROL Closed]** 보기 - 구매자가 협상을 종료하고 견적을 취소합니다. 견적이 잠겨 구매자나 판매자가 편집할 수 없습니다. 사용 가능한 작업: `View` / `Delete` <br/>**[!UICONTROL Declined]**- 판매자가 협상 프로세스 중에 견적 요청 또는 제안된 변경 요청을 거부했습니다. 워크플로의 모든 단계에서 견적을 거부할 수 있습니다. 모든 사용자 정의 가격은 견적에서 제거됩니다. 구매자는 견적을 계속 편집하고 다시 제출하거나 표준 카탈로그 가격으로 구매할 수 있습니다. 사용 가능한 작업: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** - 견적의 수명이 만료되었습니다. 제안된 가격은 모두 재설정됩니다. 구매자는 표준 카탈로그 가격에 따라 구매를 완료하거나 다른 협상 라운드를 시작할 수 있습니다. 사용 가능한 작업: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
 
 {style="table-layout:auto"}

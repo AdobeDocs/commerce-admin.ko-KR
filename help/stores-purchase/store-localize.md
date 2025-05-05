@@ -88,7 +88,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Manage Labels]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Manage Titles]_섹션에서 각 스토어 보기에 대해 번역된 레이블을 입력합니다.
+1. _[!UICONTROL Manage Titles]_&#x200B;섹션에서 각 스토어 보기에 대해 번역된 레이블을 입력합니다.
 
    ![번역된 레이블 입력](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. _기본 정보_&#x200B;의 경우 **[!UICONTROL Category Name]**&#x200B;을(를) 번역하세요.
 
-1. _[!UICONTROL Content]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고&#x200B;**[!UICONTROL Description]**을(를) 번역합니다.
+1. _[!UICONTROL Content]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고&#x200B;**[!UICONTROL Description]**&#x200B;을(를) 번역합니다.
 
 1. **[!UICONTROL Search Engine Optimization Settings]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음 필드를 번역합니다.
 
@@ -112,7 +112,7 @@ ht-degree: 0%
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. _[!UICONTROL Search Engine Optimization Settings]_섹션에서 다음을 수행하여&#x200B;**[!UICONTROL URL Key]**을(를) 번역합니다.
+1. _[!UICONTROL Search Engine Optimization Settings]_&#x200B;섹션에서 다음을 수행하여&#x200B;**[!UICONTROL URL Key]**&#x200B;을(를) 번역합니다.
 
    - 필드의 오른쪽에 있는 **[!UICONTROL Use Default Value]** 확인란의 선택을 취소합니다.
 

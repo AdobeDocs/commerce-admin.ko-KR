@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >모든 예약된 업데이트가 연속적으로 적용됩니다. 즉, 모든 엔티티는 한 시점에서 하나의 예약된 업데이트만 가질 수 있습니다. 모든 예약된 업데이트는 해당 시간대 내의 모든 스토어 보기에 적용됩니다. 따라서 엔티티는 서로 다른 스토어 보기에 대해 동시에 서로 다른 예약된 업데이트를 가질 수 없습니다. 현재 예약된 업데이트의 영향을 받지 않는 모든 스토어 뷰 내의 모든 엔티티 속성 값은 이전 예약된 업데이트가 아닌 기본값에서 가져옵니다.
 
-동일한 캠페인에서 여러 개의 가격 규칙이 실행되는 경우 가격 규칙의 _[!UICONTROL Priority]_설정에 따라 우선 순위가 결정됩니다. 자세한 내용은 [콘텐츠 스테이징](../content-design/content-staging.md)을 참조하세요.
+동일한 캠페인에서 여러 개의 가격 규칙이 실행되는 경우 가격 규칙의 _[!UICONTROL Priority]_&#x200B;설정에 따라 우선 순위가 결정됩니다. 자세한 내용은 [콘텐츠 스테이징](../content-design/content-staging.md)을 참조하세요.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 - 가격 규칙이 포함된 캠페인을 처음에 종료 날짜 없이 만든 경우 종료 날짜를 포함하도록 캠페인을 나중에 편집할 수 없습니다. 캠페인을 만들 때 종료 날짜를 추가하거나 기존 캠페인의 중복 버전을 만들고 필요에 따라 종료 날짜를 중복 날짜에 추가하는 것이 좋습니다.
 - 예약된 업데이트를 사용하여 종료 날짜가 있는 장바구니 가격 규칙을 활성화할 때 규칙을 처음에 비활성화한 것으로 설정해야 합니다. 이미 활성화된 규칙은 종료 날짜를 준수하지 않습니다.
-- 쿠폰이 장바구니 가격 규칙에 연결되어 있지 않습니다. 예약된 업데이트에서는 _[!UICONTROL Rule Information]_탭의_[!UICONTROL Coupon]_, _[!UICONTROL Coupon Code]_,_[!UICONTROL Uses per Coupon]_ 및 _[!UICONTROL Uses per Customer]_필드에 대한 액세스를 제공하지 않습니다. 또한_[!UICONTROL Manage Coupon Codes]_ 탭의 모든 설정을 사용할 수 없습니다.
+- 쿠폰이 장바구니 가격 규칙에 연결되어 있지 않습니다. 예약된 업데이트에서는 _[!UICONTROL Rule Information]_&#x200B;탭의&#x200B;_[!UICONTROL Coupon]_, _[!UICONTROL Coupon Code]_,_[!UICONTROL Uses per Coupon]_ 및 _[!UICONTROL Uses per Customer]_&#x200B;필드에 대한 액세스를 제공하지 않습니다. 또한&#x200B;_[!UICONTROL Manage Coupon Codes]_ 탭의 모든 설정을 사용할 수 없습니다.
 
 >[!IMPORTANT]
 >

@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![로그인한 사용자에게 &quot;컬렉션&quot; 범주 표시](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
 
-활성화되면 각 범주에 필요한 액세스 권한을 적용할 수 있는 새 _[!UICONTROL Category Permissions]_섹션이 [범주] 페이지에 나타납니다. 서로 다른 웹 사이트 및 고객 그룹에 대해 각 카테고리에 여러 권한 규칙을 추가할 수 있습니다.
+활성화되면 각 범주에 필요한 액세스 권한을 적용할 수 있는 새 _[!UICONTROL Category Permissions]_&#x200B;섹션이 [범주] 페이지에 나타납니다. 서로 다른 웹 사이트 및 고객 그룹에 대해 각 카테고리에 여러 권한 규칙을 추가할 수 있습니다.
 
 ## 1단계: 범주 권한 구성
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Allow Browsing Category]_설정이 웹 사이트의 모든 범주에 적용되지만 각 스토어 보기에 대해 다른 랜딩 페이지를 구성할 수 있습니다.
+   >_[!UICONTROL Allow Browsing Category]_&#x200B;설정이 웹 사이트의 모든 범주에 적용되지만 각 스토어 보기에 대해 다른 랜딩 페이지를 구성할 수 있습니다.
 
 ### [!UICONTROL Display Product Prices]
 

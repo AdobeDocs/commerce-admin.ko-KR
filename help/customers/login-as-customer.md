@@ -16,7 +16,7 @@ ht-degree: 0%
 
 고객으로 로그인된 상태에서 수행한 모든 작업은 실제 고객의 계정에 적용됩니다.
 
-_관리자_ 사용자에 대해 _[!UICONTROL Login as Customer]_단추가 활성화되면 여러 페이지에 표시됩니다.
+_관리자_ 사용자에 대해 _[!UICONTROL Login as Customer]_&#x200B;단추가 활성화되면 여러 페이지에 표시됩니다.
 
 * [고객 편집 페이지](../customers/update-account.md)
 * [주문 보기 페이지](../stores-purchase/order-processing.md)
@@ -75,7 +75,7 @@ _고객으로 로그인_&#x200B;을(를) 활성화하려면 Commerce 인스턴�
 
 ## 관리자에서 고객으로 로그인
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > [!UICONTROL _모든 고객_](으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > [!UICONTROL _모든 고객_] (으)로 이동합니다.
 
 1. 편집 모드에서 사용자를 엽니다.
 

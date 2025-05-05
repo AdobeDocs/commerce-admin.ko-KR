@@ -45,7 +45,7 @@ Commerce은 운송 레이블 정보를 구성하고 주문을 제출하면 운�
 
 유나이티드 택배 서비스는 국내와 해외에서 모두 수송합니다. 단, 배송 라벨은 미국 내에서 발생한 배송에 대해서만 생성할 수 있습니다.
 
-1. 왼쪽 패널의 _[!UICONTROL Sales]_섹션에서&#x200B;**[!UICONTROL Delivery Methods]**을(를) 선택합니다.
+1. 왼쪽 패널의 _[!UICONTROL Sales]_&#x200B;섹션에서&#x200B;**[!UICONTROL Delivery Methods]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL UPS]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -124,7 +124,7 @@ DHL은 국제 배송 서비스를 제공합니다.
 
 1. 패키지의 제품 추가 또는 업데이트:
 
-   - 주문의 제품을 패키지에 추가하려면 **[!UICONTROL Add Products]**&#x200B;을(를) 클릭합니다. _[!UICONTROL Quantity]_열은 패키지에 사용할 수 있는 최대 제품 수를 표시합니다.
+   - 주문의 제품을 패키지에 추가하려면 **[!UICONTROL Add Products]**&#x200B;을(를) 클릭합니다. _[!UICONTROL Quantity]_&#x200B;열은 패키지에 사용할 수 있는 최대 제품 수를 표시합니다.
 
    - 패키지에 추가할 각 제품의 확인란을 선택하고 각 제품의 **[!UICONTROL Quantity]**&#x200B;을(를) 입력하십시오. **[!UICONTROL Add Selected Product(s) to Package]**&#x200B;을(를) 클릭합니다.
 
@@ -132,7 +132,7 @@ DHL은 국제 배송 서비스를 제공합니다.
 
    - 패키지를 삭제하려면 **[!UICONTROL Delete Package]**&#x200B;을(를) 클릭합니다.
 
-   - 주문을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭합니다. 배송 레이블이 만들어지지 않고 _[!UICONTROL Create Shipping Label]_확인란이 지워졌습니다.
+   - 주문을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭합니다. 배송 레이블이 만들어지지 않고 _[!UICONTROL Create Shipping Label]_&#x200B;확인란이 지워졌습니다.
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ DHL은 국제 배송 서비스를 제공합니다.
 
 1. 격자에서 주문을 찾아 배송 양식을 엽니다.
 
-1. _[!UICONTROL Shipping and Tracking Information]_섹션에서&#x200B;**[!UICONTROL Create Shipping Label]**을(를) 클릭합니다.
+1. _[!UICONTROL Shipping and Tracking Information]_&#x200B;섹션에서&#x200B;**[!UICONTROL Create Shipping Label]**&#x200B;을(를) 클릭합니다.
 
 1. 주문한 제품을 적절한 패키지에 배포하고 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
@@ -170,11 +170,11 @@ DHL은 국제 배송 서비스를 제공합니다.
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]** - 그리드에서 배송물을 찾아 레코드를 엽니다.
 
-1. PDF 파일을 다운로드하려면 양식의 _[!UICONTROL Shipping and Tracking]_섹션으로 이동하여&#x200B;**[!UICONTROL Print Shipping Label]**을(를) 클릭합니다.
+1. PDF 파일을 다운로드하려면 양식의 _[!UICONTROL Shipping and Tracking]_&#x200B;섹션으로 이동하여&#x200B;**[!UICONTROL Print Shipping Label]**&#x200B;을(를) 클릭합니다.
 
    브라우저 설정에 따라 PDF 파일에서 직접 배송 레이블을 보고 인쇄할 수 있습니다.
 
-   _[!UICONTROL Print Shipping Label]_단추는 통신사가 배송에 대한 레이블을 생성한 후에만 나타납니다. 단추가 없으면&#x200B;**[!UICONTROL Create Shipping Label]**을(를) 클릭하십시오. 버튼은 Commerce이 통신사에서 레이블을 받으면 나타납니다.
+   _[!UICONTROL Print Shipping Label]_&#x200B;단추는 통신사가 배송에 대한 레이블을 생성한 후에만 나타납니다. 단추가 없으면&#x200B;**[!UICONTROL Create Shipping Label]**&#x200B;을(를) 클릭하십시오. 버튼은 Commerce이 통신사에서 레이블을 받으면 나타납니다.
 
 ### 방법 2: 복수 주문에 대한 레이블 인쇄
 
@@ -203,7 +203,7 @@ DHL은 국제 배송 서비스를 제공합니다.
 
 ## 패키지 만들기
 
-배송 레이블을 만들도록 선택하면 _[!UICONTROL Create Packages]_창이 나타납니다. 첫 번째 패키지 구성을 즉시 시작할 수 있습니다.
+배송 레이블을 만들도록 선택하면 _[!UICONTROL Create Packages]_&#x200B;창이 나타납니다. 첫 번째 패키지 구성을 즉시 시작할 수 있습니다.
 
 ### 패키지 구성
 
@@ -215,7 +215,7 @@ DHL은 국제 배송 서비스를 제공합니다.
 
    - 제품 및 수량을 지정합니다.
 
-     _[!UICONTROL Qty]_열은 추가할 수 있는 최대 수량을 표시합니다. 첫 번째 패키지의 경우 숫자는 출하될 제품의 총 수량입니다.
+     _[!UICONTROL Qty]_&#x200B;열은 추가할 수 있는 최대 수량을 표시합니다. 첫 번째 패키지의 경우 숫자는 출하될 제품의 총 수량입니다.
 
    - 패키지에 제품을 추가하려면 **[!UICONTROL Add Selected Product(s) to Package]**&#x200B;을(를) 클릭합니다.
 
@@ -255,7 +255,7 @@ DHL은 국제 배송 서비스를 제공합니다.
 
 | 필드 | 설명 |
 |--- |--- |
-| [!UICONTROL Type] | 패키지의 유형을 지정합니다. 미리 정의된 값 중 하나를 선택합니다. 사용 가능한 패키지 유형은 각 운송 업체마다 다릅니다. 패키지 생성 팝업 창이 열리면 유형 필드에 운송 회사의 기본 패키지가 나타납니다. 운송 회사가 설계하지 않은 패키지를 선택하는 경우 패키지의 차원을 입력해야 합니다. DHL, FedEx 및 UPS 배송에 대해 생성된 배송 레이블의 경우 [상품 유형] 필드가 `Merchandise`(으)로 설정됩니다. USPS의 경우 필드는 _[!UICONTROL Create Packages]_창의_ Contents _필드에 있는 값을 반영합니다. |
+| [!UICONTROL Type] | 패키지의 유형을 지정합니다. 미리 정의된 값 중 하나를 선택합니다. 사용 가능한 패키지 유형은 각 운송 업체마다 다릅니다. 패키지 생성 팝업 창이 열리면 유형 필드에 운송 회사의 기본 패키지가 나타납니다. 운송 회사가 설계하지 않은 패키지를 선택하는 경우 패키지의 차원을 입력해야 합니다. DHL, FedEx 및 UPS 배송에 대해 생성된 배송 레이블의 경우 [상품 유형] 필드가 `Merchandise`(으)로 설정됩니다. USPS의 경우 필드는 _[!UICONTROL Create Packages]_&#x200B;창의_ Contents _필드에 있는 값을 반영합니다. |
 | [!UICONTROL Total Weight] | 패키지의 총 무게입니다. 필드는 패키지에 있는 제품의 총 중량으로 미리 채워집니다. 측정 단위는 파운드 또는 킬로그램으로 설정할 수 있습니다. |
 | [!UICONTROL Length] | 패키지의 길이, 정수 및 부동 소수점 숫자. 사용자 지정 패키지 유형을 사용하는 경우 필드가 활성화됩니다. 측정 단위는 인치 또는 센티미터로 설정할 수 있습니다. |
 | [!UICONTROL Width] | 패키지의 너비, 정수 및 부동 소수점 숫자. 사용자 지정 패키지 유형을 사용하는 경우 필드가 활성화됩니다. 측정 단위는 높이 필드 옆에 있는 드롭다운 메뉴를 사용하여 지정할 수 있습니다. 인치와 센티미터 중에서 선택합니다. |

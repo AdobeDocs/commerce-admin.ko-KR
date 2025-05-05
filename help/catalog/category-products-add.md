@@ -30,7 +30,7 @@ ht-degree: 0%
 
    ![모든 제품 검색 탭](./assets/search-all-product.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Assign]_열에서 추가하려는 각 제품에 대해 옵션을 `Yes`(으)로 전환합니다.
+1. _[!UICONTROL Assign]_&#x200B;열에서 추가하려는 각 제품에 대해 옵션을 `Yes`(으)로 전환합니다.
 
    표시된 모든 제품을 포함하려면 열 헤더의 메뉴 화살표를 클릭하고 **[!UICONTROL Select All]**&#x200B;을(를) 선택할 수 있습니다.
 
@@ -67,10 +67,10 @@ ht-degree: 0%
 
 1. 왼쪽의 범주 트리에서 편집할 범주를 선택합니다.
 
-1. _[!UICONTROL Products in Category]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Products in Category]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. 제거할 제품을 찾습니다.
 
-1. _[!UICONTROL Actions]_열에서&#x200B;**[!UICONTROL Unassign]**을(를) 클릭합니다.
+1. _[!UICONTROL Actions]_&#x200B;열에서&#x200B;**[!UICONTROL Unassign]**&#x200B;을(를) 클릭합니다.
 
 1. 변경 내용을 적용하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.

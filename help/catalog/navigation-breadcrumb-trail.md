@@ -48,11 +48,11 @@ _이동 경로_&#x200B;은(는) 고객이 저장소의 다른 페이지와 관�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
 
    ![CMS 페이지에 대한 탐색 표시](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Default Pages]_섹션을 확장합니다.
+1. _[!UICONTROL Default Pages]_&#x200B;섹션을 확장합니다.
 
 1. **[!UICONTROL Use system value]** 확인란의 선택을 취소합니다.
 

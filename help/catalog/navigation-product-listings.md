@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->제품 특성으로 범주를 정렬하면 속성 값이 같은 제품도 _[!UICONTROL Product ID]_을(를) 기준으로 오름차순으로 정렬됩니다.
+>제품 특성으로 범주를 정렬하면 속성 값이 같은 제품도 _[!UICONTROL Product ID]_&#x200B;을(를) 기준으로 오름차순으로 정렬됩니다.
 
 ![격자로 표시된 제품](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_가격별 제품 정렬_&#x200B;에 따라 제품 및 가격을 올바르게 표시하려면 [판매세 구성](../configuration-reference/sales/tax.md)의 가격 표시 설정이 같은 값(`Excluding Tax` **또는** `Including Tax`)인지 확인하십시오. _[!UICONTROL Calculation Settings]_에 대해&#x200B;**[!UICONTROL Catalog Prices]**값을 확인하십시오._[!UICONTROL Price Display Settings]_&#x200B;의 경우 **[!UICONTROL Display Product Prices in Catalog]** 값을 확인하십시오. 값이 다른 경우 계층화된 탐색의 가격 필터가 가격별로 제품을 제대로 필터링하고 정렬하지 못할 수 있습니다.
+   >_가격별 제품 정렬_&#x200B;에 따라 제품 및 가격을 올바르게 표시하려면 [판매세 구성](../configuration-reference/sales/tax.md)의 가격 표시 설정이 같은 값(`Excluding Tax` **또는** `Including Tax`)인지 확인하십시오. _[!UICONTROL Calculation Settings]_&#x200B;에 대해&#x200B;**[!UICONTROL Catalog Prices]**&#x200B;값을 확인하십시오._[!UICONTROL Price Display Settings]_&#x200B;의 경우 **[!UICONTROL Display Product Prices in Catalog]** 값을 확인하십시오. 값이 다른 경우 계층화된 탐색의 가격 필터가 가격별로 제품을 제대로 필터링하고 정렬하지 못할 수 있습니다.
 
 1. 기본 **[!UICONTROL List Mode]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 | 제어 | 설명 |
 |--- |--- |
 | ![표 표시](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Grid 또는 List 형식으로 목록을 표시합니다. |
-| ![정렬 기준](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - 목록의 정렬 순서를 변경합니다. _[!UICONTROL Used for Sorting in Product Listing]_storefront 속성은 목록을 정렬하는 데 사용할 수 있는 [제품 특성](../catalog/product-attributes.md)을(를) 결정합니다. |
+| ![정렬 기준](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - 목록의 정렬 순서를 변경합니다. _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;storefront 속성은 목록을 정렬하는 데 사용할 수 있는 [제품 특성](../catalog/product-attributes.md)을(를) 결정합니다. |
 | ![페이지당 표시](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - 페이지당 표시되는 제품 수를 결정합니다. |
 | ![페이지 매김 링크](./assets/control-pagination.png) | 페이지 매김 링크 - 다른 페이지에 대한 탐색 링크. |
 

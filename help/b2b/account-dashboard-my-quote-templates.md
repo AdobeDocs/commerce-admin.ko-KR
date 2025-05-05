@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Quote Templates]
 
-견적이 활성화 _[!UICONTROL My Quotes Template]_된 경우 고객 계정 대시보드의 섹션에 고객 계정과 연관된 모든 견적 템플릿이 나열됩니다. 권한에 따라 회사를 대신하여 구매하는 구매자만 견적 템플릿 요청 및 반복 주문에 대한 견적 가격 및 조건을 협상할 수 있습니다.
+견적이 활성화 _[!UICONTROL My Quotes Template]_&#x200B;된 경우 고객 계정 대시보드의 섹션에 고객 계정과 연관된 모든 견적 템플릿이 나열됩니다. 권한에 따라 회사를 대신하여 구매하는 구매자만 견적 템플릿 요청 및 반복 주문에 대한 견적 가격 및 조건을 협상할 수 있습니다.
 
 ![내 견적 템플릿](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL My Quote Templates]**&#x200B;을(를) 선택합니다.
 
-1. 목록에서 견적 템플릿을 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL View]**을(를) 클릭합니다.
+1. 목록에서 견적 템플릿을 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 
 ## 배송 주소 추가
 
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 견적 템플릿 페이지에서 을 클릭합니다 **[!UICONTROL Cancel Quote Template]**.
 
-견적 템플릿 이 취소되고 견적 상태가 로 변경 `Closed`됩니다. 닫힌 따옴표는 *[!UICONTROL Inactive]*&#x200B;개의 따옴표 목록에 남아 있으며, 관리자의 _[!UICONTROL Quote Templates]_표에 남아 있습니다.
+견적 템플릿 이 취소되고 견적 상태가 로 변경 `Closed`됩니다. 닫힌 따옴표는 *[!UICONTROL Inactive]*&#x200B;개의 따옴표 목록에 남아 있으며, 관리자의 _[!UICONTROL Quote Templates]_&#x200B;표에 남아 있습니다.
 
 ## 참조 문서 링크 관리
 

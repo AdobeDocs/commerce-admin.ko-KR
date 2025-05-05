@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 고객 암호 재설정
 
-고객은 일반적으로 _[!UICONTROL Forgot Your Password?]_을(를) 클릭하여 상점 앞에서 암호를 재설정합니다. 그러나 저장소 관리자는 관리자의 암호 재설정 또는 강제 로그인을 시작할 수 있습니다.
+고객은 일반적으로 _[!UICONTROL Forgot Your Password?]_&#x200B;을(를) 클릭하여 상점 앞에서 암호를 재설정합니다. 그러나 저장소 관리자는 관리자의 암호 재설정 또는 강제 로그인을 시작할 수 있습니다.
 
 | 함수 | 설명 |
 | --- | --- |
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 메시지가 표시되면 계정과 연결된 **[!UICONTROL Email Address]**&#x200B;을(를) 입력하고 **[!UICONTROL Reset My Password]**&#x200B;을(를) 클릭합니다.
 
-   ![암호를 잊으셨습니까?1}](assets/forgot-password.png){width="600" zoomable="yes"}
+   ![암호를 잊으셨습니까?1&rbrace;](assets/forgot-password.png){width="600" zoomable="yes"}
 
    >[!INFO]
    >

@@ -213,7 +213,7 @@ ht-degree: 0%
 | [!UICONTROL Category URL Suffix] | 스토어 뷰 | html 또는 htm과 같은 접미사를 범주 URL에 적용할지 여부를 결정합니다. 접미사를 사용하면 접미사가 자동으로 적용되므로 접미사 앞에 마침표를 포함하지 마십시오. |
 | [!UICONTROL Use Categories Path for Product URLs] | 스토어 뷰 | 상점 첫 화면의 제품 URL에 카테고리 경로가 포함되어 있는지 여부를 결정합니다. 이렇게 하면 여러 URL이 동일한 페이지를 가리키게 되어 검색 순위에 영향을 줄 수 있습니다. 자세한 내용은 [표준 메타 태그](../../merchandising-promotions/meta-data.md#canonical-meta-tag)를 참조하세요. |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | 스토어 뷰 | URL 키가 변경될 때마다 영구 리디렉션을 자동으로 만들지 여부를 결정합니다. 구현되면 제품 URL 키 필드 아래에 있는 이전 URL에 대한 사용자 지정 리디렉션 만들기 확인란이 기본적으로 선택됩니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Generate "category/product" URL Rewrites] | 글로벌 | 사용자가 많은 지정된 제품을 포함하는 카테고리를 저장할 때 Adobe Commerce이 데이터를 생성하여 다시 작성 테이블에 저장할지 여부를 결정합니다.  <br/><br/>시스템이 이 설정에 관계없이 제품 URL을 자동으로 확인하므로 이 옵션을 변경해도 Adobe Commerce에서 제품 URL을 확인하는 방법에는 영향을 주지 않습니다. <br/><br/>옵션: `Yes` / `No` <br/><br/>**_중요:_**생성된 데이터를 URL 재작성 테이블에 저장하면 성능이 저하될 수 있습니다. 자세한 내용은 [자동 제품 리디렉션](../../merchandising-promotions/url-redirect-product-automatic.md)을 참조하세요. |
+| [!UICONTROL Generate "category/product" URL Rewrites] | 글로벌 | 사용자가 많은 지정된 제품을 포함하는 카테고리를 저장할 때 Adobe Commerce이 데이터를 생성하여 다시 작성 테이블에 저장할지 여부를 결정합니다.  <br/><br/>시스템이 이 설정에 관계없이 제품 URL을 자동으로 확인하므로 이 옵션을 변경해도 Adobe Commerce에서 제품 URL을 확인하는 방법에는 영향을 주지 않습니다. <br/><br/>옵션: `Yes` / `No` <br/><br/>**_중요:_**&#x200B;생성된 데이터를 URL 재작성 테이블에 저장하면 성능이 저하될 수 있습니다. 자세한 내용은 [자동 제품 리디렉션](../../merchandising-promotions/url-redirect-product-automatic.md)을 참조하세요. |
 | [!UICONTROL Apply transliteration for product URL] | 스토어 뷰 | 제품 URL을 만들거나 업데이트할 때 음역이 적용되는지 여부를 결정합니다. 옵션: `Yes` / `No`. 기본값은 `Yes`(으)로 설정됩니다. <br/><br/>특정 사용 사례의 경우 음역을 사용하지 않도록 설정해야 합니다. 예를 들어, 중국어로 온라인 스토어를 운영하는 경우 SEO 모범 사례에서는 제품 URL이 제품 이름과 일치하도록 권장합니다. 옵션을 `No`(으)로 설정하면 제품 URL에서 ASCII에 해당하는 문자 대신 한자를 사용할 수 있습니다. |
 | [!UICONTROL Page Title Separator] | 스토어 뷰 | 브라우저 제목 표시줄에서 카테고리 이름과 하위 카테고리를 구분하는 문자를 식별합니다. |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | 스토어 뷰 | 동일한 카테고리 페이지를 가리키는 URL이 여러 개 있는 경우 이 옵션은 표준 메타 태그를 사용하여 검색 엔진이 인덱싱해야 하는 카테고리 URL을 식별합니다. URL에는 메타 태그를 사용하는 카테고리의 전체 이름이 포함되어 있습니다. 이렇게 하면 중복 컨텐츠가 줄어들고 SEO가 향상됩니다. 옵션: `Yes` / `No` |
@@ -281,7 +281,7 @@ Adobe Commerce은 OpenSearch 및 Elasticsearch을 지원합니다. Adobe Commerc
 | [!UICONTROL OpenSearch HTTP Password] | 글로벌 | _Elasticsearch HTTP 인증 사용_&#x200B;이(가) `Yes`(으)로 설정된 경우 OpenSearch 또는 Elasticsearch HTTP 인증의 암호를 지정합니다. |
 | [!UICONTROL OpenSearch Server Timeout] | 글로벌 | OpenSearch 또는 Elasticsearch 서버에 대한 요청이 시간 초과되기 전 시간(초)을 결정합니다. 기본값: `15` |
 | [!UICONTROL Test Connection] |  | OpenSearch 또는 Elasticsearch 연결을 확인합니다. |
-| [!UICONTROL Enable Search Recommendations] | 스토어 뷰 | 검색 결과가 반환되지 않고 검색 결과 페이지의 `Related search terms` 섹션에 나타날 때 검색 권장 사항이 제공되는지 여부를 결정합니다. 옵션: `Yes` / `No` <br/>예로 설정하면 _[!UICONTROL Search Recommendations Count]_및_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;에 대한 추가 옵션이 표시됩니다. |
+| [!UICONTROL Enable Search Recommendations] | 스토어 뷰 | 검색 결과가 반환되지 않고 검색 결과 페이지의 `Related search terms` 섹션에 나타날 때 검색 권장 사항이 제공되는지 여부를 결정합니다. 옵션: `Yes` / `No` <br/>예로 설정하면 _[!UICONTROL Search Recommendations Count]_&#x200B;및_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;에 대한 추가 옵션이 표시됩니다. |
 | [!UICONTROL Search Recommendations Count] | 스토어 뷰 | 권장 사항으로 제공된 검색어의 수를 지정합니다. 기본적으로 5개를 넘지 않도록 표시됩니다. |
 | [!UICONTROL Show Results Count for Each Recommendation] | 스토어 뷰 | `Yes`(으)로 설정하면 제안된 검색 권장 사항에 대해 검색된 제품 수가 대괄호 안에 표시됩니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | 스토어 뷰 | 일반적인 철자 오류에 대한 검색 제안이 표시되는지 여부를 결정합니다. 활성화하면 결과를 반환하지 않고 **검색 결과** 페이지의 `Did you mean` 섹션 아래에 표시되는 모든 요청에 대해 검색 제안이 제공됩니다. 검색 제안은 검색 성능에 영향을 줄 수 있습니다. `Yes`(으)로 설정하면 검색 권장 사항 사용 및 관련 필드에 대한 추가 옵션이 표시됩니다. 옵션: `Yes` / `No` |
@@ -304,7 +304,7 @@ Adobe Commerce은 OpenSearch 및 Elasticsearch을 지원합니다. Adobe Commerc
 | [!UICONTROL Default Link Title] | 스토어 뷰 | 다운로드 가능한 모든 제목의 기본 링크입니다. |
 | [!UICONTROL Opens Links in New Window] | 웹 사이트 | 다운로드 링크가 새 브라우저 창에서 열리는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Use Content Disposition] | 스토어 뷰 | 다운로드 가능한 콘텐츠에 대한 링크를 이메일 첨부 파일 또는 브라우저 창의 인라인 링크로 전달하는 방법을 결정합니다. 옵션: <br/>**`Attachment`**- 다운로드 링크가 전자 메일 첨부 파일로 제공됩니다.<br/>**`Inline`** - 다운로드 링크가 웹 페이지에서 인라인 링크로 제공됩니다. |
-| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 웹 사이트 | 다운로드 가능한 제품을 구입하는 게스트가 계정을 등록하고 로그인하여 체크아웃 프로세스를 완료해야 하는지 여부를 결정합니다. 옵션: <br/>**`Yes`**- 장바구니에 다운로드 가능한 제품이 포함되어 있는 경우, 게스트는 계정을 등록하거나 기존 계정에 로그인하여 구매를 완료해야 합니다.<br/>**`No`** - 다운로드 링크가 이메일 메시지 본문에서 인라인 링크로 전달됩니다.  <br/> _**참고:**_ 게스트 체크 아웃은 [공유 가능]이 `Yes`(으)로 설정된 경우에만 제품을 다운로드할 수 있습니다. |
+| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 웹 사이트 | 다운로드 가능한 제품을 구입하는 게스트가 계정을 등록하고 로그인하여 체크아웃 프로세스를 완료해야 하는지 여부를 결정합니다. 옵션: <br/>**`Yes`**- 장바구니에 다운로드 가능한 제품이 포함되어 있는 경우, 게스트는 계정을 등록하거나 기존 계정에 로그인하여 구매를 완료해야 합니다.<br/>**`No`** - 다운로드 링크가 이메일 메시지 본문에서 인라인 링크로 전달됩니다.  <br/> _&#x200B;**참고:**&#x200B;_ 게스트 체크 아웃은 [공유 가능]이 `Yes`(으)로 설정된 경우에만 제품을 다운로드할 수 있습니다. |
 
 {style="table-layout:auto"}
 

@@ -42,7 +42,7 @@ Commerce에는 관리자로부터 관리할 수 있는 기본 제품 검토 기�
 
 ### [!UICONTROL My Product Reviews]
 
-고객 계정 대시보드의 _[!UICONTROL My Product Reviews]_섹션에는 고객이 제출하고 게시가 승인된 모든 검토가 나열됩니다. 각 검토 요약에는 검토가 제출된 날짜, 제품 페이지 링크 및 검토 세부 사항이 포함됩니다.
+고객 계정 대시보드의 _[!UICONTROL My Product Reviews]_&#x200B;섹션에는 고객이 제출하고 게시가 승인된 모든 검토가 나열됩니다. 각 검토 요약에는 검토가 제출된 날짜, 제품 페이지 링크 및 검토 세부 사항이 포함됩니다.
 
 ![내 제품 리뷰](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -90,7 +90,7 @@ Commerce 제품 검토를 사용하면 고객이 제품 검토를 제출할 때 
 
    ![관리자 - 등급](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Rating Title]_섹션에서 새 등급에 대한&#x200B;**[!UICONTROL Default Value]**을(를) 입력합니다.
+1. _[!UICONTROL Rating Title]_&#x200B;섹션에서 새 등급에 대한&#x200B;**[!UICONTROL Default Value]**&#x200B;을(를) 입력합니다.
 
    해당하는 경우 각 스토어 보기에 대한 번역도 입력합니다.
 

@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. 샘플 데이터를 사용할 수 있으면 **[!UICONTROL New Theme]**&#x200B;을(를) `Magento Luma`(으)로 설정하십시오. 그렇지 않으면 사용 가능한 다른 테마를 선택하거나 비워 두어 기본 테마를 사용할 수 있습니다.
 
-   _[!UICONTROL New Theme]_설정을 사용하여 기본 테마를 재정의하고 다른 테마를 페이지에 적용할 수 있습니다.
+   _[!UICONTROL New Theme]_&#x200B;설정을 사용하여 기본 테마를 재정의하고 다른 테마를 페이지에 적용할 수 있습니다.
 
    >[!NOTE]
    >
@@ -106,13 +106,13 @@ ht-degree: 0%
 
 1. 행 도구 상자에서 _설정_(![설정 아이콘](./assets/pb-icon-settings.png){width="20"})을 선택합니다.
 
-1. _[!UICONTROL Appearance]_에서&#x200B;**전체 도련**을 선택합니다.
+1. _[!UICONTROL Appearance]_&#x200B;에서&#x200B;**전체 도련**&#x200B;을 선택합니다.
 
    전체 도련 모양 설정은 행과 배경의 내용 영역의 왼쪽 및 오른쪽 테두리를 페이지의 전체 너비로 확장합니다.
 
    ![행 설정 - 전체 도련](./assets/pb-tutorial1-row-settings-appearance-full-bleed.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Advanced]_섹션까지 아래로 스크롤하고 모든&#x200B;**[!UICONTROL Margins and Padding]**설정을 `0`(으)로 설정합니다.
+1. _[!UICONTROL Advanced]_&#x200B;섹션까지 아래로 스크롤하고 모든&#x200B;**[!UICONTROL Margins and Padding]**&#x200B;설정을 `0`(으)로 설정합니다.
 
    이 설정을 사용하면 배너가 행의 전체 폭을 확장합니다.
 
@@ -141,13 +141,13 @@ ht-degree: 0%
 
 1. 배너 도구 상자에서 _설정_ ( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
-1. _[!UICONTROL Appearance]_에서&#x200B;**[!UICONTROL Collage Right]**을(를) 선택합니다.
+1. _[!UICONTROL Appearance]_&#x200B;에서&#x200B;**[!UICONTROL Collage Right]**&#x200B;을(를) 선택합니다.
 
    콜라주 오른쪽 설정은 배너의 오른쪽에 컨텐츠를 배치합니다.
 
    ![배너 모양 - 오른쪽 콜라주](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Background]_섹션까지 아래로 스크롤하고 배너의 배경 이미지를 설정합니다.
+1. _[!UICONTROL Background]_&#x200B;섹션까지 아래로 스크롤하고 배너의 배경 이미지를 설정합니다.
 
    - **[!UICONTROL Background Image]**&#x200B;의 경우 **업로드**&#x200B;를 클릭합니다.
 
@@ -198,13 +198,13 @@ ht-degree: 0%
    ![서식이 지정된 텍스트가 있는 콘텐츠 단계의 배너](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
 __
 
-1. 마우스로 가리키면 배너 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"}) 아이콘을 다시 선택한 다음 _[!UICONTROL Content]_섹션으로 스크롤합니다.
+1. 마우스로 가리키면 배너 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"}) 아이콘을 다시 선택한 다음 _[!UICONTROL Content]_&#x200B;섹션으로 스크롤합니다.
 
-   텍스트가 _메시지 텍스트_ 상자에 표시됩니다. 스테이지 또는 배너 설정의 _[!UICONTROL Content]_섹션에서 텍스트를 입력하고 편집할 수 있습니다.
+   텍스트가 _메시지 텍스트_ 상자에 표시됩니다. 스테이지 또는 배너 설정의 _[!UICONTROL Content]_&#x200B;섹션에서 텍스트를 입력하고 편집할 수 있습니다.
 
    ![배너 설정 - 메시지 텍스트](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Content]_섹션에서 계속 진행하여 배너 링크 및 단추를 설정합니다.
+1. _[!UICONTROL Content]_&#x200B;섹션에서 계속 진행하여 배너 링크 및 단추를 설정합니다.
 
    - **Link**&#x200B;을(를) `Category`(으)로 설정한 다음 **[!UICONTROL Select]**&#x200B;을(를) 클릭하여 범주 트리를 표시합니다.
 
@@ -243,7 +243,7 @@ __
 
 1. 스테이지의 오른쪽 위 모서리에서 _전체 화면 닫기_(![전체 화면 닫기 아이콘](./assets/pb-icon-reduce.png)) 아이콘을 클릭합니다.
 
-   이 아이콘을 클릭하면 미리보기가 표시된 페이지의 _[!UICONTROL Content]_섹션으로 돌아갑니다.
+   이 아이콘을 클릭하면 미리보기가 표시된 페이지의 _[!UICONTROL Content]_&#x200B;섹션으로 돌아갑니다.
 
    언제든지 원하는 대로 두 작업 영역 모드 간을 전환할 수 있습니다.
 
@@ -259,13 +259,13 @@ __
 
 ### 1단계: 행 추가
 
-1. 페이지 그리드에서 이 연습의 첫 번째 부분에서 만든 _단순 페이지_&#x200B;를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 선택합니다.
+1. 페이지 그리드에서 이 연습의 첫 번째 부분에서 만든 _단순 페이지_&#x200B;를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Content]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. 콘텐츠 미리 보기 영역 내에서 **[!UICONTROL Edit with Page Builder]** 또는 을(를) 클릭합니다.
 
-1. _[!UICONTROL Layout]_아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Row]**자리 표시자를 스테이지로 드래그하여 배너 위에 놓습니다.
+1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Row]**&#x200B;자리 표시자를 스테이지로 드래그하여 배너 위에 놓습니다.
 
    빨간색 지침은 두 행 사이의 경계를 표시합니다.
 
@@ -275,7 +275,7 @@ __
 
    ![행 도구 상자](./assets/pb-tutorial1-row-settings.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Appearance]_에서&#x200B;**포함**기본 설정을 적용합니다.
+1. _[!UICONTROL Appearance]_&#x200B;에서&#x200B;**포함**&#x200B;기본 설정을 적용합니다.
 
    이 설정은 행의 콘텐츠 영역을 테마에 정의된 페이지 너비로 제한합니다.
 
@@ -285,7 +285,7 @@ __
 
 ### 2단계: 열 추가
 
-1. _[!UICONTROL Layout]_아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Column]**자리 표시자를 새 행으로 드래그합니다.
+1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Column]**&#x200B;자리 표시자를 새 행으로 드래그합니다.
 
    ![열 콘텐츠 형식을 스테이지로 드래그하는 중](./assets/pb-tutorial1-column-drag-to-stage.png){width="600" zoomable="yes"}
 
@@ -345,7 +345,7 @@ __
 
 1. 스테이지의 오른쪽 위 모서리에서 _전체 화면 닫기_(![전체 화면 닫기 아이콘](./assets/pb-icon-reduce.png)) 아이콘을 클릭합니다.
 
-   이 아이콘을 클릭하면 미리보기가 표시된 페이지의 _[!UICONTROL Content]_섹션으로 돌아갑니다.
+   이 아이콘을 클릭하면 미리보기가 표시된 페이지의 _[!UICONTROL Content]_&#x200B;섹션으로 돌아갑니다.
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
@@ -359,13 +359,13 @@ __
 
 ### 1단계: 행 추가
 
-1. 페이지 그리드에서 이 연습의 첫 번째 부분에서 만든 _단순 페이지_&#x200B;를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 선택합니다.
+1. 페이지 그리드에서 이 연습의 첫 번째 부분에서 만든 _단순 페이지_&#x200B;를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Content]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. 콘텐츠 미리 보기 영역 내에서 **[!UICONTROL Edit with Page Builder]** 또는 을(를) 클릭합니다.
 
-1. _[!UICONTROL Layout]_아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Row]**자리 표시자를 스테이지로 드래그하여 이 연습의 두 번째 부분에서 만든 행 위에 놓습니다.
+1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Row]**&#x200B;자리 표시자를 스테이지로 드래그하여 이 연습의 두 번째 부분에서 만든 행 위에 놓습니다.
 
    빨간색 지침은 두 행 사이의 경계를 표시합니다.
 
@@ -375,17 +375,17 @@ __
 
    ![행 도구 상자](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Appearance]_아래의 행 편집 페이지에서&#x200B;**[!UICONTROL Full Width]**을(를) 선택합니다.
+1. _[!UICONTROL Appearance]_&#x200B;아래의 행 편집 페이지에서&#x200B;**[!UICONTROL Full Width]**&#x200B;을(를) 선택합니다.
 
    이 설정은 컨텐츠 영역을 테마에 의해 정의된 최대 페이지 너비로 제한합니다. 배경색 및/또는 이미지는 제한되지 않으며 행의 전체 폭을 확장합니다.
 
    ![전체 너비 모양 선택](./assets/pb-tutorial1-row-settings-appearance-full-width.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Background]_섹션에서 `#f1f1f1`을(를)**[!UICONTROL Background Color]**(으)로 입력합니다.
+1. _[!UICONTROL Background]_&#x200B;섹션에서 `#f1f1f1`을(를)**[!UICONTROL Background Color]**(으)로 입력합니다.
 
    ![배경색 설정](./assets/pb-tutorial1-row-settings-background-color.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Advanced]_섹션까지 아래로 스크롤하고 모든&#x200B;**여백 및 패딩**값을 `0`(으)로 설정합니다.
+1. _[!UICONTROL Advanced]_&#x200B;섹션까지 아래로 스크롤하고 모든&#x200B;**여백 및 패딩**&#x200B;값을 `0`(으)로 설정합니다.
 
    ![여백 및 패딩 설정](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -397,7 +397,7 @@ __
 
 ### 2단계: 다른 너비의 열 추가
 
-1. _[!UICONTROL Layout]_아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Column]**자리 표시자를 스테이지의 맨 위 행으로 드래그합니다.
+1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Column]**&#x200B;자리 표시자를 스테이지의 맨 위 행으로 드래그합니다.
 
    ![열을 스테이지로 드래그](./assets/pb-tutorial1-column-drag.png){width="600" zoomable="yes"}
 
@@ -409,7 +409,7 @@ __
 
 1. 첫 번째 열 컨테이너 위로 마우스를 가져가면 도구 상자를 표시하고 _설정_(![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
-1. _[!UICONTROL Advanced]_섹션까지 아래로 스크롤하고 모든&#x200B;**여백 및 패딩**값을 `0`(으)로 설정합니다.
+1. _[!UICONTROL Advanced]_&#x200B;섹션까지 아래로 스크롤하고 모든&#x200B;**여백 및 패딩**&#x200B;값을 `0`(으)로 설정합니다.
 
    ![여백 및 패딩 설정](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -445,11 +445,11 @@ __
 
    ![텍스트에 이미지 삽입](./assets/pb-tutorial1-column2-editor-toolbar-insert-image.png){width="600" zoomable="yes"}
 
-   - _[!UICONTROL Insert/edit image]_대화 상자에서_[!UICONTROL Source]_ 필드 옆에 있는 _찾기_( ![찾기 아이콘](./assets/editor-btn-find-source.png)) 아이콘을 클릭합니다.
+   - _[!UICONTROL Insert/edit image]_&#x200B;대화 상자에서&#x200B;_[!UICONTROL Source]_ 필드 옆에 있는 _찾기_( ![찾기 아이콘](./assets/editor-btn-find-source.png)) 아이콘을 클릭합니다.
 
      ![이미지 삽입/편집 대화 상자](./assets/pb-tutorial1-column2-text-insert-edit-image.png){width="600" zoomable="yes"}
 
-   - _[!UICONTROL Select Images]_페이지에서&#x200B;**[!UICONTROL Choose Files]**을(를) 클릭합니다.
+   - _[!UICONTROL Select Images]_&#x200B;페이지에서&#x200B;**[!UICONTROL Choose Files]**&#x200B;을(를) 클릭합니다.
 
    - 단순 페이지 자산을 저장한 폴더에서 `rating.png`을(를) 선택합니다.
 
@@ -507,7 +507,7 @@ __
 
    ![최소 높이 및 세로 맞춤 설정](./assets/pb-tutorial1-column2-layout-vertical-alignment.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Advanced]_섹션까지 아래로 스크롤한 다음 모든&#x200B;**[!UICONTROL Margins and Padding]**값을 0( `0` )으로 설정합니다.
+1. _[!UICONTROL Advanced]_&#x200B;섹션까지 아래로 스크롤한 다음 모든&#x200B;**[!UICONTROL Margins and Padding]**&#x200B;값을 0( `0` )으로 설정합니다.
 
    ![여백 및 패딩 설정](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -541,7 +541,7 @@ __
 
 1. 스테이지의 오른쪽 위 모서리에서 _전체 화면 닫기_(![전체 화면 닫기 아이콘](./assets/pb-icon-reduce.png)) 아이콘을 클릭합니다.
 
-   이 아이콘을 클릭하면 미리보기가 표시된 페이지의 _[!UICONTROL Content]_섹션으로 돌아갑니다.
+   이 아이콘을 클릭하면 미리보기가 표시된 페이지의 _[!UICONTROL Content]_&#x200B;섹션으로 돌아갑니다.
 
 1. 오른쪽 상단에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -571,7 +571,7 @@ __
 
 1. 스테이지의 오른쪽 위 모서리에서 _전체 화면 닫기_(![전체 화면 닫기 아이콘](./assets/pb-icon-reduce.png)) 아이콘을 클릭합니다.
 
-   이 아이콘을 클릭하면 미리보기가 표시된 페이지의 _[!UICONTROL Content]_섹션으로 돌아갑니다.
+   이 아이콘을 클릭하면 미리보기가 표시된 페이지의 _[!UICONTROL Content]_&#x200B;섹션으로 돌아갑니다.
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 

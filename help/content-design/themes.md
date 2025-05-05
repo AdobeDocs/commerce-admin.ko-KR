@@ -50,9 +50,9 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Default Theme]_에서 현재 보기에 사용할&#x200B;**[!UICONTROL Applied Theme]**을(를) 설정합니다.
+1. _[!UICONTROL Default Theme]_&#x200B;에서 현재 보기에 사용할&#x200B;**[!UICONTROL Applied Theme]**&#x200B;을(를) 설정합니다.
 
    ![적용된 테마](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL Design Rule]_에서&#x200B;**[!UICONTROL Add New User Agent Rule]**을(를) 클릭합니다.
+1. _[!UICONTROL Design Rule]_&#x200B;에서&#x200B;**[!UICONTROL Add New User Agent Rule]**&#x200B;을(를) 클릭합니다.
 
    ![디자인 규칙](./assets/theme-design-rule.png){width="600" zoomable="yes"}
 

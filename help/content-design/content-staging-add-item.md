@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. 표시된 목록 또는 타임라인에서 캠페인을 찾아 열고 세부 정보에 액세스합니다.
 
-   - 목록을 표시하려면 **[!UICONTROL Select]**&#x200B;을(를) 클릭한 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL View/Edit]**을(를) 클릭합니다.
+   - 목록을 표시하려면 **[!UICONTROL Select]**&#x200B;을(를) 클릭한 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL View/Edit]**&#x200B;을(를) 클릭합니다.
    - 타임라인을 표시하려면 한 번 클릭하여 요약을 표시한 다음 **[!UICONTROL View/Edit]**&#x200B;을(를) 클릭합니다.
 
    ![캠페인 세부 정보](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}

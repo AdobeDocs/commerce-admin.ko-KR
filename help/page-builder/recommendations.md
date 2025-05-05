@@ -45,11 +45,11 @@ _제품 권장 사항_ 콘텐츠 형식을 사용하여 CMS 페이지, 블록 �
 
 1. 편집 모드로 페이지, 블록 또는 동적 블록을 엽니다.
 
-1. _[!UICONTROL Content]_섹션을 확장하고&#x200B;**[!UICONTROL Edit with Page Builder]**또는 콘텐츠 미리 보기 영역 내부를 클릭하여 [!DNL Page Builder] 작업 영역을 엽니다.
+1. _[!UICONTROL Content]_&#x200B;섹션을 확장하고&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;또는 콘텐츠 미리 보기 영역 내부를 클릭하여 [!DNL Page Builder] 작업 영역을 엽니다.
 
-1. _[!UICONTROL Layout]_아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Row]**자리 표시자를 스테이지로 드래그합니다.
+1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Row]**&#x200B;자리 표시자를 스테이지로 드래그합니다.
 
-1. _[!UICONTROL Add Content]_아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Product Recommendation]**자리 표시자를 행으로 드래그합니다.
+1. _[!UICONTROL Add Content]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Product Recommendation]**&#x200B;자리 표시자를 행으로 드래그합니다.
 
    ![제품 추천 콘텐츠 형식 추가](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -60,7 +60,7 @@ _제품 권장 사항_ 콘텐츠 형식을 사용하여 CMS 페이지, 블록 �
 
    ![제품 추천 편집](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Selection]_섹션에서&#x200B;**[!UICONTROL Select]**을(를) 클릭합니다.
+1. _[!UICONTROL Selection]_&#x200B;섹션에서&#x200B;**[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
 
 1. 활성 제품 권장 사항 목록에서 추가할 권장 사항 단위가 있는 행을 찾고 마지막 열에서 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
 
@@ -68,7 +68,7 @@ _제품 권장 사항_ 콘텐츠 형식을 사용하여 CMS 페이지, 블록 �
 
 1. 오른쪽 상단에서 **[!UICONTROL Add Selected]**&#x200B;을(를) 클릭합니다.
 
-   선택한 제품 권장 사항의 이름이 _[!UICONTROL Edit Product Recommendation]_페이지의_[!UICONTROL Selection]_ 섹션에 나타납니다.
+   선택한 제품 권장 사항의 이름이 _[!UICONTROL Edit Product Recommendation]_&#x200B;페이지의&#x200B;_[!UICONTROL Selection]_ 섹션에 나타납니다.
 
 1. [고급 설정](#advanced-settings)에 필요한 변경 작업을 수행합니다.
 

@@ -26,7 +26,7 @@ ht-degree: 0%
 
    - _예약된 변경 내용이 있는 모든 페이지에서_
 
-      - 맨 위에 _[!UICONTROL Scheduled Changes]_상자가 있는 페이지를 엽니다.
+      - 맨 위에 _[!UICONTROL Scheduled Changes]_&#x200B;상자가 있는 페이지를 엽니다.
       - **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
 
    미리보기가 새 브라우저 탭에 열리고 예약된 캠페인 동안 제품이 표시되는 방식을 보여 줍니다.

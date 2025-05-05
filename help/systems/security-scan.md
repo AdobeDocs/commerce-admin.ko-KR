@@ -37,7 +37,7 @@ ht-degree: 0%
    - **[!UICONTROL Terms and Conditions]**&#x200B;을(를) 읽습니다.
    - 계속하려면 **[!UICONTROL Agree]**&#x200B;을(를) 클릭하십시오.
 
-1. _[!UICONTROL Monitored Websites]_페이지에서&#x200B;**[!UICONTROL +Add Site]**을(를) 클릭합니다.
+1. _[!UICONTROL Monitored Websites]_&#x200B;페이지에서&#x200B;**[!UICONTROL +Add Site]**&#x200B;을(를) 클릭합니다.
 
    여러 사이트가 있고 도메인이 다른 경우 각 도메인에 대해 별도의 검사를 구성합니다.
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
         빌드 프로세스가 완료되면 변경 사항이 PWA 저장소 전면에 배포됩니다.
 
-1. Commerce 계정의 _[!UICONTROL Security Scan]_페이지로 돌아가서&#x200B;**[!UICONTROL Verify Confirmation Code]**을(를) 클릭하여 도메인의 소유권을 설정합니다.
+1. Commerce 계정의 _[!UICONTROL Security Scan]_&#x200B;페이지로 돌아가서&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;을(를) 클릭하여 도메인의 소유권을 설정합니다.
 
 1. 확인 후 다음 유형 중 하나에 대해 **[!UICONTROL Set Automatic Security Scan]** 옵션을 구성합니다.
 

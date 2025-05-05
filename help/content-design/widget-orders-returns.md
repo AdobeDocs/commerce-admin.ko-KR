@@ -37,7 +37,7 @@ _주문 및 반품_ 위젯을 통해 게스트는 주문 상태를 확인하고,
 
 1. 오른쪽 상단에서 **[!UICONTROL Add Widget]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Settings]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Settings]_&#x200B;섹션에서 다음을 수행합니다.
 
    - **[!UICONTROL Type]**&#x200B;을(를) `Orders and Returns`(으)로 설정합니다.
 
@@ -45,7 +45,7 @@ _주문 및 반품_ 위젯을 통해 게스트는 주문 상태를 확인하고,
 
 1. **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Storefront Properties]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Storefront Properties]_&#x200B;섹션에서 다음을 수행합니다.
 
    - **[!UICONTROL Widget Title]**&#x200B;의 경우 위젯에 대한 설명 제목을 입력합니다.
 
@@ -57,7 +57,7 @@ _주문 및 반품_ 위젯을 통해 게스트는 주문 상태를 확인하고,
 
    - (선택 사항) **[!UICONTROL Sort Order]**&#x200B;의 경우 숫자를 입력하여 이 항목이 페이지의 동일한 부분에 있는 다른 항목과 함께 표시되는 순서를 결정합니다. (`0` = 첫 번째, `1` = 두 번째, `3` = 세 번째 등)
 
-1. _[!UICONTROL Layout Updates]_섹션에서&#x200B;**[!UICONTROL Add Layout Update]**을(를) 클릭하고 다음을 수행합니다.
+1. _[!UICONTROL Layout Updates]_&#x200B;섹션에서&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;을(를) 클릭하고 다음을 수행합니다.
 
    - 위젯을 표시할 페이지 형식으로 **[!UICONTROL Display On]**&#x200B;을(를) 설정합니다.
 

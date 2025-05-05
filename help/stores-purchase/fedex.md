@@ -30,7 +30,7 @@ FedEx Web Services Production Access에 대한 FedEx 판매자 계정 및 등록
 
 ## 2단계: 스토어에서 FedEx 활성화
 
-1. 관리자 사이드바에서 > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**로 이동합니다&#x200B;**[!UICONTROL Stores]**._ _
+1. 관리자 사이드바에서 > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;로 이동합니다&#x200B;**[!UICONTROL Stores]**._ _
 
 1. 왼쪽 패널에서 을 확장 **[!UICONTROL Sales]** 하고 을 선택합니다 **[!UICONTROL Delivery Methods]**.
 
@@ -89,7 +89,7 @@ FedEx Web Services Production Access에 대한 FedEx 판매자 계정 및 등록
 
 1. FedEx 배송에 대해 허용되는 **[!UICONTROL Maximum Package Weight]**&#x200B;을(를) 입력하십시오.
 
-   기본 FedEx 최대 중량은 150파운드입니다. 자세한 내용은 배송 담당자에게 문의하십시오. FedEx와 특별히 합의한 경우가 아니면 기본값이 권장됩니다. 자세한 내용은 용적 중량](carriers.md#dimensional-weight)을 참조하십시오[.
+   기본 FedEx 최대 중량은 150파운드입니다. 자세한 내용은 배송 담당자에게 문의하십시오. FedEx와 특별히 합의한 경우가 아니면 기본값이 권장됩니다. 자세한 내용은 용적 중량[&#128279;](carriers.md#dimensional-weight)을 참조하십시오.
 
    ![FedEx 패키지 설정](../configuration-reference/sales/assets/delivery-methods-fedex-packaging.png){width="600" zoomable="yes"}
 

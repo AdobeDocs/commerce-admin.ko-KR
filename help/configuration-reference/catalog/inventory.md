@@ -69,8 +69,8 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Run asynchronously] | 글로벌 | [일괄](../../inventory-management/bulk-assignment.md) 원본 할당, 원본 할당 해제 및 [원본을 원본으로 전송](../../inventory-management/inventory-transfer.md)을 포함한 대량 제품 작업에 대해 일괄 작업을 비동기적으로 실행할지 여부를 결정합니다. _[!UICONTROL Asynchronous batch size]_까지 대량 작업을 수집한 다음 해당 작업을 실행합니다. 이 기능은 기본적으로 비활성화되어 있습니다. 활성화하기 전에 일괄 작업으로 성능을 검토하는 것이 좋습니다. 옵션:<br/>**`Yes`**- [!DNL Inventory Management]에 대한 모든 대량 작업을 비동기적으로 실행합니다. 활성화하려면 비동기 큐 관리자를 구성해야 합니다.<br/>**`No`**- 기본값 대량 작업을 비동기적으로 실행하지 않습니다. |
-| [!UICONTROL Asynchronous batch size] | 글로벌 | _[!UICONTROL Asynchronous batch size]_필드에 대한 값을 입력하려면&#x200B;**[!UICONTROL Run asynchronously]**을(를) `Yes`(으)로 설정하십시오. <br/>기본 일괄 처리 크기는 100입니다. 벌크 프로세스가 이 양에 도달하면 실행됩니다. |
+| [!UICONTROL Run asynchronously] | 글로벌 | [일괄](../../inventory-management/bulk-assignment.md) 원본 할당, 원본 할당 해제 및 [원본을 원본으로 전송](../../inventory-management/inventory-transfer.md)을 포함한 대량 제품 작업에 대해 일괄 작업을 비동기적으로 실행할지 여부를 결정합니다. _[!UICONTROL Asynchronous batch size]_&#x200B;까지 대량 작업을 수집한 다음 해당 작업을 실행합니다. 이 기능은 기본적으로 비활성화되어 있습니다. 활성화하기 전에 일괄 작업으로 성능을 검토하는 것이 좋습니다. 옵션:<br/>**`Yes`**- [!DNL Inventory Management]에 대한 모든 대량 작업을 비동기적으로 실행합니다. 활성화하려면 비동기 큐 관리자를 구성해야 합니다.<br/>**`No`**- 기본값 대량 작업을 비동기적으로 실행하지 않습니다. |
+| [!UICONTROL Asynchronous batch size] | 글로벌 | _[!UICONTROL Asynchronous batch size]_&#x200B;필드에 대한 값을 입력하려면&#x200B;**[!UICONTROL Run asynchronously]**&#x200B;을(를) `Yes`(으)로 설정하십시오. <br/>기본 일괄 처리 크기는 100입니다. 벌크 프로세스가 이 양에 도달하면 실행됩니다. |
 
 {style="table-layout:auto"}
 

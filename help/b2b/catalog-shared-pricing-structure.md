@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**(으)로 이동합니다.
 
-1. 격자에 있는 공유 카탈로그의 경우 _[!UICONTROL Action]_열로 이동하여&#x200B;**[!UICONTROL Set Pricing and Structure]**을(를) 클릭합니다.
+1. 격자에 있는 공유 카탈로그의 경우 _[!UICONTROL Action]_&#x200B;열로 이동하여&#x200B;**[!UICONTROL Set Pricing and Structure]**&#x200B;을(를) 클릭합니다.
 
    ![공유 카탈로그의 가격 및 구조 설정](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 3단계: 사용자 정의 가격 설정
 
-각 제품에 대해 개별적으로 사용자 지정 가격을 설정하거나 _[!UICONTROL Action]_컨트롤을 사용하여 여러 제품 레코드에 대한 고정 금액 또는 백분율로 사용자 지정 가격을 설정할 수 있습니다.
+각 제품에 대해 개별적으로 사용자 지정 가격을 설정하거나 _[!UICONTROL Action]_&#x200B;컨트롤을 사용하여 여러 제품 레코드에 대한 고정 금액 또는 백분율로 사용자 지정 가격을 설정할 수 있습니다.
 
 - **[!UICONTROL Fixed]**: 최종 제품 가격을 지정합니다. 예를 들어 고정 가격 $10.00를 입력하면 해당 회사의 상점 가격은 $10.00입니다.
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 - **[!UICONTROL Percentage]**: 할인율을 기준으로 사용자 지정 가격을 결정합니다. 예를 들어 10% 할인을 제공하려면 사용자 지정 가격 유형을 `Percentage`(으)로 설정하고 `10`을(를) 입력합니다. 할인된 맞춤 가격은 원래 제품 가격의 90%입니다.
 
-다음 제품 유형에 대해 고정 금액 또는 백분율로 할인을 설정하려면 표의 _[!UICONTROL Custom Price]_열을 사용하십시오.
+다음 제품 유형에 대해 고정 금액 또는 백분율로 할인을 설정하려면 표의 _[!UICONTROL Custom Price]_&#x200B;열을 사용하십시오.
 
 - [단순](../catalog/product-create-simple.md)(구성 가능한 제품 변형 포함)
 - [번들](../catalog/product-create-bundle.md)
@@ -105,7 +105,7 @@ _사용자 지정 가격_ 페이지에서 그리드의 제품 선택을 변경�
 1. 다음 방법 중 하나를 사용하여 사용자 정의 가격을 적용할 제품을 선택합니다.
 
    - 카테고리 트리를 사용하여 특정 카테고리의 모든 제품을 선택합니다.
-   - 헤더의 _[!UICONTROL Mass Actions]_컨트롤을 `Select All`(으)로 설정합니다.
+   - 헤더의 _[!UICONTROL Mass Actions]_&#x200B;컨트롤을 `Select All`(으)로 설정합니다.
    - 개별 제품의 확인란을 선택합니다.
 
    표에는 현재 선택한 범주에 있는 제품이 표시되며 표준 컨트롤을 사용하여 제품을 찾고 목록을 필터링할 수 있습니다.
@@ -155,7 +155,7 @@ _사용자 지정 가격_ 페이지에서 그리드의 제품 선택을 변경�
 
 1. 완료되면 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
-   그리드에서 계층 수는 _[!UICONTROL Tier Price]_열에서 괄호로 묶어 표시됩니다.
+   그리드에서 계층 수는 _[!UICONTROL Tier Price]_&#x200B;열에서 괄호로 묶어 표시됩니다.
 
    ![여러 계층](./assets/shared-catalog-tier-price-configure-parentheses.png){width="600" zoomable="yes"}
 
@@ -163,4 +163,4 @@ _사용자 지정 가격_ 페이지에서 그리드의 제품 선택을 변경�
 
 사용자 지정 가격 책정이 완료되면 **[!UICONTROL Generate Catalog]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-이제 공유 카탈로그가 데이터베이스에 저장됩니다. 해당 이름이 _[!UICONTROL Products]_표의_[!UICONTROL Shared Catalog]_ 열에 나타납니다. 다음 단계는 [공유 카탈로그를 회사에 할당](./catalog-shared-assign-companies.md)하는 것입니다.
+이제 공유 카탈로그가 데이터베이스에 저장됩니다. 해당 이름이 _[!UICONTROL Products]_&#x200B;표의&#x200B;_[!UICONTROL Shared Catalog]_ 열에 나타납니다. 다음 단계는 [공유 카탈로그를 회사에 할당](./catalog-shared-assign-companies.md)하는 것입니다.

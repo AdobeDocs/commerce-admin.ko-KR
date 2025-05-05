@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 제품 설정 - [!UICONTROL Design]
 
-_[!UICONTROL Design]_설정을 사용하면 제품 페이지에 다른 테마를 적용하고, 열 레이아웃을 변경하고, 제품 옵션이 표시되는 위치를 결정하고, 사용자 지정 XML 코드를 입력할 수 있습니다.
+_[!UICONTROL Design]_&#x200B;설정을 사용하면 제품 페이지에 다른 테마를 적용하고, 열 레이아웃을 변경하고, 제품 옵션이 표시되는 위치를 결정하고, 사용자 지정 XML 코드를 입력할 수 있습니다.
 
 ![디자인](./assets/product-design-ee.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->각 범주에 대해 디자인 설정이 다른 여러 범주에 동일한 제품이 할당되면 [검색 엔진 최적화 구성 옵션](../configuration-reference/catalog/catalog.md#search-engine-optimization)에서 **[!UICONTROL Use Categories Path for Product URLs]** = `Yes`을(를) 설정하는 것이 좋습니다. 이 설정에 액세스하려면 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동하여&#x200B;**[!UICONTROL Catalog]**을(를) 확장하고 왼쪽 패널의 아래에 있는&#x200B;**[!UICONTROL Catalog]**을(를) 선택한 다음 페이지의&#x200B;**[!UICONTROL Search Engine Optimization]**섹션을 확장합니다.
+>각 범주에 대해 디자인 설정이 다른 여러 범주에 동일한 제품이 할당되면 [검색 엔진 최적화 구성 옵션](../configuration-reference/catalog/catalog.md#search-engine-optimization)에서 **[!UICONTROL Use Categories Path for Product URLs]** = `Yes`을(를) 설정하는 것이 좋습니다. 이 설정에 액세스하려면 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동하여&#x200B;**[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 왼쪽 패널의 아래에 있는&#x200B;**[!UICONTROL Catalog]**&#x200B;을(를) 선택한 다음 페이지의&#x200B;**[!UICONTROL Search Engine Optimization]**&#x200B;섹션을 확장합니다.
 
 | 필드 | [범위](../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |---|---|----|

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 제품 작업 영역
 
-사용된 속성 세트에 따라 필드 선택이 변경되지만 제품 작업 영역은 기본적으로 모든 제품 유형에 대해 동일합니다. 제품 속성은 양식 상단에 있으며 다음으로 제품 정보의 확장 가능한 섹션이 옵니다. 새 제품을 처음 저장하면 양식의 왼쪽 상단에 _[!UICONTROL Store View]_선택기가 나타납니다.
+사용된 속성 세트에 따라 필드 선택이 변경되지만 제품 작업 영역은 기본적으로 모든 제품 유형에 대해 동일합니다. 제품 속성은 양식 상단에 있으며 다음으로 제품 정보의 확장 가능한 섹션이 옵니다. 새 제품을 처음 저장하면 양식의 왼쪽 상단에 _[!UICONTROL Store View]_&#x200B;선택기가 나타납니다.
 
 ![제품 작업 공간](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Save] 메뉴
 
-_[!UICONTROL Save]_메뉴에는 저장 및 계속, 제품 저장 및 만들기, 제품 저장 및 복제 또는 저장 및 닫기를 수행할 수 있는 몇 가지 옵션이 포함되어 있습니다.
+_[!UICONTROL Save]_&#x200B;메뉴에는 저장 및 계속, 제품 저장 및 만들기, 제품 저장 및 복제 또는 저장 및 닫기를 수행할 수 있는 몇 가지 옵션이 포함되어 있습니다.
 
 ![메뉴 저장](./assets/product-save-menu.png){width="600" zoomable="yes"}
 
@@ -48,7 +48,7 @@ _[!UICONTROL Save]_메뉴에는 저장 및 계속, 제품 저장 및 만들기, 
 | [!UICONTROL Save] | 현재 제품을 저장하고 작업을 계속합니다. |
 | [!UICONTROL Save & New] | 현재 제품을 저장하고 닫은 다음 동일한 제품 유형 및 템플릿을 기준으로 새 제품을 시작합니다. |
 | [!UICONTROL Save & Duplicate] | 현재 제품을 저장하고 닫은 다음 새 복사본을 엽니다. |
-| [!UICONTROL Save & Close] | 현재 제품을 저장하고 _[!UICONTROL Products]_작업 영역으로 돌아갑니다. |
+| [!UICONTROL Save & Close] | 현재 제품을 저장하고 _[!UICONTROL Products]_&#x200B;작업 영역으로 돌아갑니다. |
 
 {style="table-layout:auto"}
 

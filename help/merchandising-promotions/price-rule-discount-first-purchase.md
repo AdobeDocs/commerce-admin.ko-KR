@@ -67,7 +67,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-고객 세그먼트가 만들어지고 _[!UICONTROL Customer Segments]_그리드에 표시됩니다.
+고객 세그먼트가 만들어지고 _[!UICONTROL Customer Segments]_&#x200B;그리드에 표시됩니다.
 
 >[!TIP]
 >

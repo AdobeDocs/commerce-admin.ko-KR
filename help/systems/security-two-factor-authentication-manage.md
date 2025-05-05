@@ -34,11 +34,11 @@ ht-degree: 0%
 
 1. 사용자를 선택하고 편집 모드에서 계정을 엽니다.
 
-1. _[!UICONTROL Current User Identity Verification]_섹션까지 아래로 스크롤하고 암호를 입력합니다.
+1. _[!UICONTROL Current User Identity Verification]_&#x200B;섹션까지 아래로 스크롤하고 암호를 입력합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL 2FA]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Configuration reset]_섹션에서&#x200B;**[!UICONTROL Reset]**및&#x200B;**[!UICONTROL OK]**을(를) 클릭하여 확인합니다.
+1. _[!UICONTROL Configuration reset]_&#x200B;섹션에서&#x200B;**[!UICONTROL Reset]**&#x200B;및&#x200B;**[!UICONTROL OK]**&#x200B;을(를) 클릭하여 확인합니다.
 
    ![사용자 계정 - 2FA 사용](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 

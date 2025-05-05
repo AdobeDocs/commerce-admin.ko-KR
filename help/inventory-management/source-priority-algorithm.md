@@ -30,11 +30,11 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**(으)로 이동합니다.
 
-1. 편집 모드에서 스토리를 열고 _[!UICONTROL Sources]_영역으로 이동합니다.
+1. 편집 모드에서 스토리를 열고 _[!UICONTROL Sources]_&#x200B;영역으로 이동합니다.
 
 1. **[!UICONTROL Assign Sources]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Assign Sources]_보기에서 필요한 원본의 확인란을 선택한 다음&#x200B;**[!UICONTROL Done]**을(를) 클릭하여 원본에 원본을 할당합니다.
+1. _[!UICONTROL Assign Sources]_&#x200B;보기에서 필요한 원본의 확인란을 선택한 다음&#x200B;**[!UICONTROL Done]**&#x200B;을(를) 클릭하여 원본에 원본을 할당합니다.
 
 >[!NOTE]
 >

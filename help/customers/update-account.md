@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 고객 프로필 업데이트
 
-_[!UICONTROL Customer Information]_페이지의 왼쪽 패널에는 고객 활동, 주소, 주문 통계, 최근 주문, 장바구니 내용, 제품 검토 및 뉴스레터 구독에 대한 정보가 포함되어 있습니다.
+_[!UICONTROL Customer Information]_&#x200B;페이지의 왼쪽 패널에는 고객 활동, 주소, 주문 통계, 최근 주문, 장바구니 내용, 제품 검토 및 뉴스레터 구독에 대한 정보가 포함되어 있습니다.
 
 ![고객 프로필](assets/cust-profile.png){width="700" zoomable="yes"}
 

@@ -15,11 +15,11 @@ ht-degree: 0%
 
 이 지침은 Adobe Systems Commerce 또는 Magento Open Source 처음 로그인할 때 이중 인증을 설정하는 방법과 다음 앱 및 디바이스 사용 시 ID를 인증하는 방법을 보여줍니다.
 
-전체 지침은 관리자 로그인을](../getting-started/admin-signin.md) 참조하십시오[.
+전체 지침은 관리자 로그인을[&#128279;](../getting-started/admin-signin.md) 참조하십시오.
 
 >[!NOTE]
 >
->(IMS) 인증을 활성화 [!DNL Adobe Identity Management Services] 한 스토어에는 기본 Adobe Systems Commerce 및 Magento Open Source 2FA가 비활성화되어 있습니다. Adobe Systems 자격 증명으로 Commerce 인스턴스에 로그인한 관리 사용자는 많은 관리 작업에 대해 다시 인증할 필요가 없습니다. Authentication은 관리자 사용자 현재 세션에 로그인할 때 Adobe Systems IMS에서 처리합니다. (IMS) 통합 개요를](../getting-started/adobe-ims-integration-overview.md) 참조하십시오[[!DNL Adobe Identity Management Service] .
+>(IMS) 인증을 활성화 [!DNL Adobe Identity Management Services] 한 스토어에는 기본 Adobe Systems Commerce 및 Magento Open Source 2FA가 비활성화되어 있습니다. Adobe Systems 자격 증명으로 Commerce 인스턴스에 로그인한 관리 사용자는 많은 관리 작업에 대해 다시 인증할 필요가 없습니다. Authentication은 관리자 사용자 현재 세션에 로그인할 때 Adobe Systems IMS에서 처리합니다. (IMS) 통합 개요를[&#128279;](../getting-started/adobe-ims-integration-overview.md) 참조하십시오[!DNL Adobe Identity Management Service] .
 
 ## [!DNL Google Authenticator]
 

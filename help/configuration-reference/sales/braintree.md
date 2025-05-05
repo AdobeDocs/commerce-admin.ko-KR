@@ -36,12 +36,12 @@ ht-degree: 0%
 | [!UICONTROL Title] | 스토어 뷰 | 기본값: `Credit Card`(Braintree) |
 | [!UICONTROL Environment] | 스토어 뷰 | 옵션: `Sandbox` / `Production` |
 | [!UICONTROL Payment Action] | 매장 보기 | 지불이 처리될 때 Braintree에서 수행한 작업을 결정합니다. 옵션: <br/>**`Authorize`**- 고객의 신용 카드에 있는 자금은 승인되지만 계정에서 이체되지 않습니다. 주문이 스토어 관리자에서 생성됩니다. 나중에 판매를 캡처하고 송장을 생성할 수 있습니다.<br/>**`Intent Sale`**(이전 릴리스의 경우 이전 `Authorize and Capture`) - 고객의 신용 카드에 있는 자금은 Braintree에 의해 승인되고 캡처되며 매장 관리자에 주문과 송장이 생성됩니다. |
-| [!UICONTROL Sandbox Merchant ID] | 스토어 뷰 | 전체 샌드박스 게이트웨이 계정에 대한 고유 식별자입니다. _공개 ID_ 또는 _프로덕션 ID_&#x200B;이라고도 하는 판매자 ID는 프로덕션 및 샌드박스 게이트웨이에 대해 다릅니다. 이 필드는 _[!UICONTROL Environment]_필드가 `Sandbox`(으)로 설정된 경우 나타납니다. |
-| [!UICONTROL Sandbox Public Key] | 매장 보기 | 암호화된 데이터에 대한 액세스를 제한하는 사용자 고유의 공개 식별자입니다. Sandbox Braintree 게이트웨이와 연결된 각 사용자에는 고유한 샌드박스 공개 키가 있습니다. 이 필드는 필드가 _[!UICONTROL Environment]_로 설정되어 `Sandbox`있을 때 나타납니다. |
-| [!UICONTROL Sandbox Private Key] | 매장 보기 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 개인 식별자입니다. 샌드박스 Braintree 게이트웨이와 연결된 각 사용자 사이에는 샌드박스에 대한 고유한 개인 키가 있습니다. 이 필드는 필드가 _[!UICONTROL Environment]_로 설정되어 `Sandbox`있을 때 나타납니다. |
-| [!UICONTROL Merchant ID] | 매장 보기 | 이것은 게이트웨이에 있을 수 있는 여러 판매자 계정을 포함하여 전체 게이트웨이 계정에 대한 고유 식별자입니다. 공개 ID _또는_&#x200B;프로덕션 ID _라고도_&#x200B;하는 판매자 ID는 프로덕션 게이트웨이와 샌드박스 게이트웨이에 따라 다릅니다. 이 필드는 필드가 _[!UICONTROL Environment]_로 설정되어 `Production`있을 때 나타납니다. |
-| [!UICONTROL Public Key] | 매장 보기 | 암호화된 데이터에 대한 액세스를 제한하는 사용자 고유의 공개 식별자입니다. Braintree 게이트웨이와 연결된 각 사용자에게는 고유한 공개 키가 있습니다. 이 필드는 _[!UICONTROL Environment]_필드가 `Production`(으)로 설정된 경우 나타납니다. |
-| [!UICONTROL Private Key] | 스토어 뷰 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 개인 식별자입니다. Braintree 게이트웨이와 연결된 각 사용자에게는 고유한 개인 키가 있습니다. 이 필드는 _[!UICONTROL Environment]_필드가 `Production`(으)로 설정된 경우 나타납니다. |
+| [!UICONTROL Sandbox Merchant ID] | 스토어 뷰 | 전체 샌드박스 게이트웨이 계정에 대한 고유 식별자입니다. _공개 ID_ 또는 _프로덕션 ID_&#x200B;이라고도 하는 판매자 ID는 프로덕션 및 샌드박스 게이트웨이에 대해 다릅니다. 이 필드는 _[!UICONTROL Environment]_&#x200B;필드가 `Sandbox`(으)로 설정된 경우 나타납니다. |
+| [!UICONTROL Sandbox Public Key] | 매장 보기 | 암호화된 데이터에 대한 액세스를 제한하는 사용자 고유의 공개 식별자입니다. Sandbox Braintree 게이트웨이와 연결된 각 사용자에는 고유한 샌드박스 공개 키가 있습니다. 이 필드는 필드가 _[!UICONTROL Environment]_&#x200B;로 설정되어 `Sandbox`있을 때 나타납니다. |
+| [!UICONTROL Sandbox Private Key] | 매장 보기 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 개인 식별자입니다. 샌드박스 Braintree 게이트웨이와 연결된 각 사용자 사이에는 샌드박스에 대한 고유한 개인 키가 있습니다. 이 필드는 필드가 _[!UICONTROL Environment]_&#x200B;로 설정되어 `Sandbox`있을 때 나타납니다. |
+| [!UICONTROL Merchant ID] | 매장 보기 | 이것은 게이트웨이에 있을 수 있는 여러 판매자 계정을 포함하여 전체 게이트웨이 계정에 대한 고유 식별자입니다. 공개 ID _또는_&#x200B;프로덕션 ID _라고도_&#x200B;하는 판매자 ID는 프로덕션 게이트웨이와 샌드박스 게이트웨이에 따라 다릅니다. 이 필드는 필드가 _[!UICONTROL Environment]_&#x200B;로 설정되어 `Production`있을 때 나타납니다. |
+| [!UICONTROL Public Key] | 매장 보기 | 암호화된 데이터에 대한 액세스를 제한하는 사용자 고유의 공개 식별자입니다. Braintree 게이트웨이와 연결된 각 사용자에게는 고유한 공개 키가 있습니다. 이 필드는 _[!UICONTROL Environment]_&#x200B;필드가 `Production`(으)로 설정된 경우 나타납니다. |
+| [!UICONTROL Private Key] | 스토어 뷰 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 개인 식별자입니다. Braintree 게이트웨이와 연결된 각 사용자에게는 고유한 개인 키가 있습니다. 이 필드는 _[!UICONTROL Environment]_&#x200B;필드가 `Production`(으)로 설정된 경우 나타납니다. |
 | [!UICONTROL Enable Card Payments] | 웹 사이트 | 고객이 Braintree 신용카드 결제 방법을 결제 방법으로 사용할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Enable Vault for Card Payments] | 웹 사이트 | 사용하도록 설정하면 고객 결제 정보에 대한 보안 저장소가 제공되므로 고객은 구매할 때마다 신용 카드 카드 정보를 다시 입력할 필요가 없습니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Enable Vault CVV Re-verification] | 웹 사이트 | 활성화하면 Braintree 계정의 CVV 규칙 설정에 대한 유효성 검사가 수행됩니다. 옵션: `Yes` / `No` |
@@ -185,7 +185,7 @@ ht-degree: 0%
 | [!UICONTROL Require Customer's Billing Address] | 웹 사이트 | 주문을 제출하는 데 고객의 과금 주소가 필요한지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Skip Order Review Step] | 웹 사이트 | 고객이 결제를 완료하기 전에 검토 페이지로 리디렉션되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Debug] | 웹 사이트 | Braintree 시스템을 통한 PayPal과 저장소 간의 통신이 로그 파일에 기록되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Display on Shopping Cart] | 웹 사이트 | PayPal 버튼이 미니 장바구니](../../stores-purchase/cart-configuration.md#mini-cart)[와 장바구니](../../stores-purchase/cart.md) 페이지에 나타나[는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Display on Shopping Cart] | 웹 사이트 | PayPal 버튼이 미니 장바구니[&#128279;](../../stores-purchase/cart-configuration.md#mini-cart) [와 장바구니](../../stores-purchase/cart.md) 페이지에 나타나는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Send Package Tracking] | 웹 사이트 | 패키지 추적 정보는 PayPal 거래/주문에 대해서만 PayPal로 전송됩니다. [!UICONTROL Package Tracking] 기능이 제대로 작동하려면 [!UICONTROL Send Cart Line Items for PayPal] 구성 필드를 활성화해야 합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Use PayPal's "Notify Payer" functionality] | 웹 사이트 | 이 옵션이 Yes로 설정되면 PayPal에서 패키지 추적 업데이트에 대한 알림을 구매자 또는 지불인이 받게 됩니다. 옵션: `Yes` / `No` |
 
@@ -207,7 +207,7 @@ ht-degree: 0%
 
 **[!UICONTROL Mini-Cart and Cart Page]**
 
-이 섹션의 옵션 및 설정은 _[!UICONTROL Location]_필드의 설정에 따라 다릅니다.
+이 섹션의 옵션 및 설정은 _[!UICONTROL Location]_&#x200B;필드의 설정에 따라 다릅니다.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -215,7 +215,7 @@ ht-degree: 0%
 
 **[!UICONTROL PayPal Button]**
 
-이 섹션의 옵션 및 설정은 _[!UICONTROL PayPal Button Type]_필드에서 선택한 단추 유형에 따라 다릅니다.
+이 섹션의 옵션 및 설정은 _[!UICONTROL PayPal Button Type]_&#x200B;필드에서 선택한 단추 유형에 따라 다릅니다.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

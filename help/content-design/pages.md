@@ -64,7 +64,7 @@ _기본 페이지_ 구성은 [기본 URL](../stores-purchase/store-urls.md) 및 
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Default Pages]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -87,7 +87,7 @@ _기본 페이지_ 구성은 [기본 URL](../stores-purchase/store-urls.md) 및 
 
    >[!NOTE]
    >
-   >특정 저장소 보기의 경우 _[!UICONTROL Default Web URL]_옆에 있는&#x200B;**[!UICONTROL Use Default]**확인란의 선택을 취소하고 다른 기본 설정을 변경합니다.
+   >특정 저장소 보기의 경우 _[!UICONTROL Default Web URL]_&#x200B;옆에 있는&#x200B;**[!UICONTROL Use Default]**&#x200B;확인란의 선택을 취소하고 다른 기본 설정을 변경합니다.
 
 1. **[!UICONTROL CMS Home Page]**&#x200B;을(를) 홈 페이지로 사용할 CMS 페이지로 설정하십시오. 다음과 같이 생성된 다른 페이지를 홈 페이지로 사용할 수 있습니다.
 

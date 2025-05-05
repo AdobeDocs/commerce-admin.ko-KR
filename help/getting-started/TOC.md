@@ -23,7 +23,7 @@ ht-degree: 1%
    + [계정 공유](commerce-account-share.md)
    + [계정 양도](commerce-account-transfer.md)
 + 사이트 준수 {#compliance}
-   + Adobe Commerce{#hipaa-ready-service}의 HIPAA 준비
+   + Adobe Commerce의 HIPAA 준비{#hipaa-ready-service}
       + [개요](hipaa/overview.md)
       + [운영 지침](hipaa/operations.md)
    + 개인 정보 {#privacy}

@@ -125,7 +125,7 @@ ht-degree: 0%
    - `Dynamic` - 동적 주문 금액 값을 기반으로 전환이 발생했는지 확인합니다.
    - `Constant` - 입력된 특정 값을 기준으로 전환이 발생했는지 확인합니다.
 
-   _상수_ 전환 값 형식의 경우 _[!UICONTROL Order Amount]_에 대한 특정&#x200B;**[!UICONTROL Value]**을(를) 입력하여 전환으로 정규화하십시오.
+   _상수_ 전환 값 형식의 경우 _[!UICONTROL Order Amount]_&#x200B;에 대한 특정&#x200B;**[!UICONTROL Value]**&#x200B;을(를) 입력하여 전환으로 정규화하십시오.
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 

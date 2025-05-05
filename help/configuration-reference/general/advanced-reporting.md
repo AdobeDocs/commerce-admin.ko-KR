@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_은(는) [Adobe Commerce Intelligence][1]{:target="_blank"}에서 제공하는 클라우드 기반 서비스입니다. 자세한 내용은_&#x200B;시작 안내서&#x200B;_의 [고급 보고][2]{:target="_blank"}를 참조하십시오.
+_[!DNL Advanced Reporting]_&#x200B;은(는) [Adobe Commerce Intelligence][1]{:target="_blank"}에서 제공하는 클라우드 기반 서비스입니다. 자세한 내용은_&#x200B;시작 안내서&#x200B;_의 [고급 보고][2]{:target="_blank"}를 참조하십시오.
 
 ![고급 보고](./assets/advanced-reporting.png)<!-- zoom -->
 
@@ -26,7 +26,7 @@ _[!DNL Advanced Reporting]_은(는) [Adobe Commerce Intelligence][1]{:target="_b
 |--- |--- |--- |
 | [!UICONTROL Advanced Reporting Service] | 글로벌 | Commerce 설치를 위해 [!DNL Advanced Reporting]의 통합을 활성화합니다. |
 | [!UICONTROL Industry] | 웹 사이트 | 비즈니스 업계를 식별하여 [!DNL Advanced Reporting]을(를) 개인화합니다. |
-| [!UICONTROL Time of day to send data] | 글로벌 | 저장소 데이터를 매일 [!DNL Advanced Reporting](으)로 보내는 시간을 결정합니다. 시간은 24시간 시계를 기반으로 하며 시간대의 분, 시간 및 초를 포함합니다. |
+| [!UICONTROL Time of day to send data] | 글로벌 | 저장소 데이터를 매일 [!DNL Advanced Reporting] (으)로 보내는 시간을 결정합니다. 시간은 24시간 시계를 기반으로 하며 시간대의 분, 시간 및 초를 포함합니다. |
 
 {style="table-layout:auto"}
 

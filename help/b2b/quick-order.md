@@ -20,7 +20,7 @@ _빠른 주문_ 기능은 주문하려는 제품의 제품 이름 또는 SKU를 
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널의 _[!UICONTROL General]_섹션에서&#x200B;**[!UICONTROL B2B Features]**을(를) 선택합니다.
+1. 왼쪽 패널의 _[!UICONTROL General]_&#x200B;섹션에서&#x200B;**[!UICONTROL B2B Features]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Enable Quick Order]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -92,7 +92,7 @@ _빠른 주문_ 기능은 주문하려는 제품의 제품 이름 또는 SKU를 
 
 ### 방법 3: 제품 목록 업로드
 
-1. _[!UICONTROL Add from File]_섹션에서&#x200B;**[!UICONTROL Download Sample]**을(를) 클릭하여 주문 템플릿을 다운로드합니다.
+1. _[!UICONTROL Add from File]_&#x200B;섹션에서&#x200B;**[!UICONTROL Download Sample]**&#x200B;을(를) 클릭하여 주문 템플릿을 다운로드합니다.
 
    ![파일에서 추가](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"}
 

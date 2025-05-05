@@ -14,9 +14,9 @@ ht-degree: 0%
 
 [!DNL Inventory Management] 모듈은 제품 및 글로벌 수준에서 재고 구성 설정을 지원하며 소스 가용성, 상점 제품 및 주문 배송에 영향을 주는 추가 설정도 제공합니다. 구성 설정은 다음에 적용됩니다.
 
-- 전체 카탈로그: **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다. 그런 다음 왼쪽 패널에서&#x200B;**[!UICONTROL Catalog]**을(를) 확장하고&#x200B;**[!UICONTROL Inventory]**을(를) 선택합니다.
+- 전체 카탈로그: **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다. 그런 다음 왼쪽 패널에서&#x200B;**[!UICONTROL Catalog]**&#x200B;을(를) 확장하고&#x200B;**[!UICONTROL Inventory]**&#x200B;을(를) 선택합니다.
 
-- 특정 제품: **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다. 그런 다음 제품을 편집 모드로 열고 _[!UICONTROL Sources]_섹션에서&#x200B;**[!UICONTROL Advanced Inventory]**을(를) 클릭합니다.
+- 특정 제품: **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다. 그런 다음 제품을 편집 모드로 열고 _[!UICONTROL Sources]_&#x200B;섹션에서&#x200B;**[!UICONTROL Advanced Inventory]**&#x200B;을(를) 클릭합니다.
 
 상점 앞에 인벤토리 데이터를 표시하고 활성 장바구니를 관리하는 등의 작업을 수행하도록 카탈로그를 구성할 수 있습니다. 각 항목의 사용 가능 여부를 _재고 있음_ 또는 _재고 부족_ 및 재고가 낮을 때 사용 가능한 재고로 표시합니다.
 
@@ -46,13 +46,13 @@ ht-degree: 0%
 
 ## 구성 폴백 및 상속
 
-구성은 상속 경로 _[!UICONTROL Sources]_에 재정의되거나 적용됩니다. 제품  섹션은 제품_[!UICONTROL Advanced Options]_&#x200B;을(를) 재정의합니다. 전역 _[!UICONTROL Inventory]_저장소 구성을 재정의합니다.
+구성은 상속 경로 _[!UICONTROL Sources]_&#x200B;에 재정의되거나 적용됩니다. 제품  섹션은 제품&#x200B;_[!UICONTROL Advanced Options]_&#x200B;을(를) 재정의합니다. 전역 _[!UICONTROL Inventory]_&#x200B;저장소 구성을 재정의합니다.
 
 [!DNL Commerce]이(가) 적용할 사용자 지정 설정을 확인하면 다음 순서를 따릅니다.
 
-1. _[!UICONTROL Sources]_섹션의 제품 수준에서 사용자 지정 설정을 확인합니다. 몇 가지 설정을 사용할 수 있습니다.
+1. _[!UICONTROL Sources]_&#x200B;섹션의 제품 수준에서 사용자 지정 설정을 확인합니다. 몇 가지 설정을 사용할 수 있습니다.
 
-1. 제품 _[!UICONTROL Advanced Inventory]_설정을 확인합니다.
+1. 제품 _[!UICONTROL Advanced Inventory]_&#x200B;설정을 확인합니다.
 
 1. 제품 설정에 대해 `Use Config Settings`을(를) 선택한 경우 전역 _인벤토리_ 저장소 구성 페이지에서 값을 확인합니다.
 

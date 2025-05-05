@@ -51,7 +51,7 @@ _미니 장바구니_에 장바구니에 있는 항목의 요약이 표시됩니
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Mini Cart]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Mini Cart]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![미니 장바구니 구성](../configuration-reference/sales/assets/checkout-mini-cart.png){width="600" zoomable="yes"}
 
@@ -73,7 +73,7 @@ _미니 장바구니_에 장바구니에 있는 항목의 요약이 표시됩니
 
 ### 장바구니 링크 구성
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**에 연결되었습니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;에 연결되었습니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
@@ -321,7 +321,7 @@ Adobe Commerce B2B를 설치하고 활성화하면 _견적_ 기능에 대한 지
 
 1. 선물 포장의 썸네일 **[!UICONTROL Image]**&#x200B;을(를) 업로드하려면 **[!UICONTROL Choose File]**&#x200B;을(를) 클릭하고 디렉터리에서 업로드할 파일을 선택하십시오.
 
-   레코드가 저장된 후 _[!UICONTROL Gift Wrapping Information]_에 이미지의 축소판이 나타납니다.
+   레코드가 저장된 후 _[!UICONTROL Gift Wrapping Information]_&#x200B;에 이미지의 축소판이 나타납니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 

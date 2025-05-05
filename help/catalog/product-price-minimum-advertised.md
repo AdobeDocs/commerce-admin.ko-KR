@@ -70,7 +70,7 @@ MAP이 활성화되면 제품 수준 MAP 설정을 사용할 수 있습니다. M
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Sales]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Minimum Advertised Price]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Minimum Advertised Price]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. 필요한 경우 **맵 사용**&#x200B;을(를) `Yes`(으)로 설정합니다.
 

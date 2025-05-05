@@ -14,7 +14,7 @@ ht-degree: 0%
 
 각 제품에 대해 여러 이미지와 비디오를 업로드하고, 순서를 재배열하며, 각 제품의 사용 방법을 제어할 수 있습니다. 관리할 이미지가 많은 경우 각 이미지를 개별적으로 업로드하지 않고 배치로 가져올 수도 있습니다. 자세한 내용은 [제품 이미지 가져오기](../systems/data-import-product-images.md)를 참조하십시오.
 
-_[!UICONTROL Product Details]_페이지에서 볼 수 있도록 큰 이미지를 업로드하려는 경우 최대 픽셀 크기(너비 및 높이)를 설정하고 업로드 시 자동으로 파일 크기를 조정할 수 있습니다. 업로드할 때 더 큰 이미지 파일의 크기를 자동으로 조정할 수 있는 옵션이 있습니다. 자세한 내용은 [제품 이미지 크기 조정](product-image-config.md#product-image-resizing)을 참조하세요.
+_[!UICONTROL Product Details]_&#x200B;페이지에서 볼 수 있도록 큰 이미지를 업로드하려는 경우 최대 픽셀 크기(너비 및 높이)를 설정하고 업로드 시 자동으로 파일 크기를 조정할 수 있습니다. 업로드할 때 더 큰 이미지 파일의 크기를 자동으로 조정할 수 있는 옵션이 있습니다. 자세한 내용은 [제품 이미지 크기 조정](product-image-config.md#product-image-resizing)을 참조하세요.
 
 ## 제품 이미지 업데이트
 
@@ -26,7 +26,7 @@ _[!UICONTROL Product Details]_페이지에서 볼 수 있도록 큰 이미지를
    >
    >`All Store Views` 범위가 업로드에 사용되지 않는 경우에도 새 제품 이미지가 **_항상_**&#x200B;업로드되어 **_모두_** 스토어 보기에 표시됩니다. <br/><br/>특정 스토어 보기에서 제품 이미지를 숨기려면 해당 스토어 보기로 전환한 후 이미지에 대한 **[!UICONTROL Hide from Product Page]** 확인란을 선택하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-1. 아래로 스크롤하여 _[!UICONTROL Images and Videos]_섹션을 확장합니다.
+1. 아래로 스크롤하여 _[!UICONTROL Images and Videos]_&#x200B;섹션을 확장합니다.
 
 ### 이미지 업로드
 
@@ -36,15 +36,15 @@ _[!UICONTROL Product Details]_페이지에서 볼 수 있도록 큰 이미지를
 
 이미지를 업로드하려면 다음 중 하나를 수행하십시오.
 
-- 바탕 화면에서 이미지를 드래그하여 _[!UICONTROL Images And Videos]_상자의_&#x200B;카메라&#x200B;_( ![카메라 아이콘](../assets/icon-camera.png)) 타일에 놓습니다.
+- 바탕 화면에서 이미지를 드래그하여 _[!UICONTROL Images And Videos]_&#x200B;상자의_&#x200B;카메라&#x200B;_( ![카메라 아이콘](../assets/icon-camera.png)) 타일에 놓습니다.
 
-- _[!UICONTROL Images And Videos]_상자에서_&#x200B;카메라&#x200B;_( ![카메라 아이콘](../assets/icon-camera.png) ) 타일을 클릭하고 컴퓨터에서 이미지 파일을 선택한 다음&#x200B;**[!UICONTROL Open]**을(를) 클릭합니다.
+- _[!UICONTROL Images And Videos]_&#x200B;상자에서_&#x200B;카메라&#x200B;_( ![카메라 아이콘](../assets/icon-camera.png) ) 타일을 클릭하고 컴퓨터에서 이미지 파일을 선택한 다음&#x200B;**[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
 
   ![업로드 또는 드래그 앤 드롭](./assets/product-images-and-video-jewel-tee.png){width="600" zoomable="yes"}
 
 ### 이미지 다시 정렬
 
-갤러리에서 이미지 순서를 변경하려면 이미지 타일 하단의 _[!UICONTROL Sort]_( ![정렬 아이콘](./assets/inventory-icon-sort.png)) 아이콘을 클릭하고 이미지를_[!UICONTROL Images And Videos]_ 상자의 다른 위치로 드래그합니다.
+갤러리에서 이미지 순서를 변경하려면 이미지 타일 하단의 _[!UICONTROL Sort]_( ![정렬 아이콘](./assets/inventory-icon-sort.png)) 아이콘을 클릭하고 이미지를&#x200B;_[!UICONTROL Images And Videos]_ 상자의 다른 위치로 드래그합니다.
 
 ![순서 변경](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -66,13 +66,13 @@ _[!UICONTROL Product Details]_페이지에서 볼 수 있도록 큰 이미지를
 
 이미지 대체 텍스트는 웹 액세스 가능성을 개선하기 위해 화면 판독기에서 참조하고, 사이트를 색인화할 때 검색 엔진에서 참조합니다. 일부 브라우저에서는 마우스오버에 대체 텍스트를 표시합니다. 대체 텍스트는 여러 단어 길이일 수 있으며 신중하게 선택한 주요 단어를 포함할 수 있습니다.
 
-_[!UICONTROL Alt Text]_상자에 이미지에 대한 간단한 설명을 입력합니다.
+_[!UICONTROL Alt Text]_&#x200B;상자에 이미지에 대한 간단한 설명을 입력합니다.
 
 #### 역할 할당
 
 기본적으로 모든 역할은 제품에 업로드된 첫 번째 이미지에 할당됩니다. 역할을 다른 이미지에 재할당하려면 다음을 수행합니다.
 
-_[!UICONTROL Role]_상자에서 이미지에 할당할 역할을 선택합니다.
+_[!UICONTROL Role]_&#x200B;상자에서 이미지에 할당할 역할을 선택합니다.
 
 _이미지 및 비디오_ 섹션으로 돌아가면 현재 할당된 역할이 각 이미지 아래에 표시됩니다.
 
@@ -113,9 +113,9 @@ _이미지 및 비디오_ 섹션으로 돌아가면 현재 할당된 역할이 �
 
    디자인 구성에 대한 자세한 내용은 [디자인 구성](../content-design/configuration.md)을 참조하십시오.
 
-1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Other Settings]_에서&#x200B;**[!UICONTROL Product Image Watermarks]**섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Other Settings]_&#x200B;에서&#x200B;**[!UICONTROL Product Image Watermarks]**&#x200B;섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![제품 이미지 워터마크 - 기본](./assets/config-design-product-image-watermarks-base.png){width="600" zoomable="yes"}
 

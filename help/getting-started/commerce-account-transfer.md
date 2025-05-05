@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-   이렇게 하면 Adobe ID이 만들어지고 현재 Commerce 계정(MAGEID)에 연결됩니다. 이 계정 링크를 사용하면 _[!UICONTROL Email]_필드의 변경 내용이 차단됩니다. 연관된 이메일 주소는 Adobe ID 계정에서 관리합니다.
+   이렇게 하면 Adobe ID이 만들어지고 현재 Commerce 계정(MAGEID)에 연결됩니다. 이 계정 링크를 사용하면 _[!UICONTROL Email]_&#x200B;필드의 변경 내용이 차단됩니다. 연관된 이메일 주소는 Adobe ID 계정에서 관리합니다.
 
 1. [account.adobe.com](https://account.adobe.com/)으로 이동합니다.
 

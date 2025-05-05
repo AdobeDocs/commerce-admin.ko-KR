@@ -27,7 +27,7 @@ Pixar에서 개발한 [USD(Universal Scene Description)](https://openusd.org/rel
 
 [!DNL AR Viewer]은(는) [!DNL Magento Open Source] 및 Adobe Commerce 모두와 호환됩니다. 지원되는 버전에 대한 자세한 내용은 [라이프사이클 정책](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html){target=_blank}을 참조하십시오.
 
-자세한 내용은 [확장 설치 [!DNL AR Viewer] 2}를 참조하십시오.](../catalog/ar-viewer-setup.md)
+자세한 내용은 [확장 설치 [!DNL AR Viewer] 2&rbrace;를 참조하십시오.](../catalog/ar-viewer-setup.md)
 
 [!DNL AR Viewer]을(를) 사용하려면 인스턴스에 사용할 수 있는 다음 항목이 있어야 합니다.
 

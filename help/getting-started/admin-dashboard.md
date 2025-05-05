@@ -49,7 +49,7 @@ ht-degree: 0%
 
 대시보드는 관리자의 기본 [시작 페이지](../configuration-reference/advanced/admin.md)이지만 다른 시작 페이지를 구성할 수 있습니다.
 
-1. 아직 관리자 구성 옵션이 열려 있지 않은 경우 왼쪽 탐색 패널의 _[!UICONTROL Advanced]_에서&#x200B;**[!UICONTROL Admin]**을(를) 선택하십시오.
+1. 아직 관리자 구성 옵션이 열려 있지 않은 경우 왼쪽 탐색 패널의 _[!UICONTROL Advanced]_&#x200B;에서&#x200B;**[!UICONTROL Admin]**&#x200B;을(를) 선택하십시오.
 
 1. **시작 페이지** 섹션을 확장하려면 클릭하세요.
 

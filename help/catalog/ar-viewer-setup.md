@@ -33,7 +33,7 @@ ht-degree: 0%
    >
    >`All Store Views` 범위가 업로드에 사용되지 않는 경우에도 새 제품 3D 모델이 _항상_&#x200B;업로드되어 _모두_ 스토어 보기에 표시됩니다. <br/><br/>특정 스토어 보기에서 제품 3D 모델을 숨기려면 해당 스토어 보기로 전환하고 3D 모델에 대한 **[!UICONTROL Hide from Product Page]** 확인란을 선택한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-1. 아래로 스크롤하여 _[!UICONTROL Product 3D Model]_섹션을 확장합니다.
+1. 아래로 스크롤하여 _[!UICONTROL Product 3D Model]_&#x200B;섹션을 확장합니다.
 
    ![메뉴 팝업](assets/ar-viewer-product-options.png){width="700" zoomable="yes"}
 

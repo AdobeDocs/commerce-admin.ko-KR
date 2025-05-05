@@ -63,7 +63,7 @@ ht-degree: 0%
    - `Strip HTML Tags`
    - `Escape  HTML Entities`
 
-1. 특성이 고객에게 표시되도록 하려면 _[!UICONTROL Storefront Properties]_섹션에서&#x200B;**[!UICONTROL Show on Storefront]**을(를) `Yes`(으)로 설정하십시오.
+1. 특성이 고객에게 표시되도록 하려면 _[!UICONTROL Storefront Properties]_&#x200B;섹션에서&#x200B;**[!UICONTROL Show on Storefront]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
 1. (선택 사항) **[!UICONTROL Sort Order]**&#x200B;에 숫자를 입력하여 페이지의 동일한 부분에 있는 다른 속성과 관련하여 이 특성이 표시되는 위치를 결정합니다. (`0` = 첫 번째, `1` = 두 번째, `2` = 세 번째 등)
 

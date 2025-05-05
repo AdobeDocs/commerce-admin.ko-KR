@@ -84,13 +84,13 @@ _HTML 코드_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](work
 
 ### 3단계: 페이지 미리보기
 
-1. _[!UICONTROL Currently Active]_섹션에서&#x200B;**[!UICONTROL Enable Page]**을(를) `Yes`(으)로 설정합니다.
+1. _[!UICONTROL Currently Active]_&#x200B;섹션에서&#x200B;**[!UICONTROL Enable Page]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
    ![페이지 사용](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
-1. 그리드에서 페이지를 찾은 다음 _[!UICONTROL Actions]_열에서&#x200B;**[!UICONTROL View]**을(를) 선택합니다.
+1. 그리드에서 페이지를 찾은 다음 _[!UICONTROL Actions]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 선택합니다.
 
    ![새 글꼴 패밀리로 페이지 머리글을 미리 봅니다](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
@@ -110,7 +110,7 @@ _HTML 코드_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](work
    | 이미지 삽입... | HTML 텍스트 상자의 커서 위치에 업로드된 이미지 또는 갤러리의 이미지를 삽입하려면 를 클릭합니다. |
    | 변수 삽입... | 를 클릭하여 HTML 텍스트 상자의 커서 위치에 변수를 삽입합니다. |
 
-1. 필요에 따라 _[!UICONTROL Advanced]_설정을 업데이트합니다.
+1. 필요에 따라 _[!UICONTROL Advanced]_&#x200B;설정을 업데이트합니다.
 
    - 상위 컨테이너 내에서 코드 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하십시오.
 

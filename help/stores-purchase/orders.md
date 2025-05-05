@@ -111,7 +111,7 @@ Orders 작업 영역에서는 현재 주문을 모두 나열하며, 기존 주�
 | [!UICONTROL Grand Total (Base)] | 주문의 총 합계입니다. |
 | [!UICONTROL Grand Total (Purchased)] | 주문에서 구매한 제품의 총 합계입니다. |
 | [!UICONTROL Status] | 현재 주문 상태. |
-| [!UICONTROL Action] | _[!UICONTROL View]_에서 순서를 편집 모드로 엽니다. |
+| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;에서 순서를 편집 모드로 엽니다. |
 | [!UICONTROL Allocated sources] | 해당 특정 주문에 할당된 소스. |
 
 {style="table-layout:auto"}

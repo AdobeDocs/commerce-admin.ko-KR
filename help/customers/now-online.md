@@ -1,6 +1,6 @@
 ---
 title: 이제 고객이 온라인 상태임
-description: '[!UICONTROL Customers ] 메뉴의 _Now Online_ 옵션은 현재 스토어에 있는 모든 고객과 방문자를 나열합니다.'
+description: '[!UICONTROL Customers &#x200B;] 메뉴의 _Now Online_ 옵션은 현재 스토어에 있는 모든 고객과 방문자를 나열합니다.'
 exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt

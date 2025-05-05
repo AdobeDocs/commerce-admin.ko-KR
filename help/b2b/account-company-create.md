@@ -31,7 +31,7 @@ ht-degree: 0%
    >
    >방문자가 등록된 사용자 계정에 로그인하면 _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**(으)로 이동하여 회사 계정을 만들 수 있습니다.
 
-1. _[!UICONTROL Company Information]_섹션에서 고객은 다음을 수행합니다.
+1. _[!UICONTROL Company Information]_&#x200B;섹션에서 고객은 다음을 수행합니다.
 
    - 필수 필드를 완료합니다.
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    ![회사 정보](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Legal Address]_섹션의 필수 필드를 완료합니다.
+1. _[!UICONTROL Legal Address]_&#x200B;섹션의 필수 필드를 완료합니다.
 
    - **[!UICONTROL Street Address]**
    - **[!UICONTROL City]**
@@ -57,7 +57,7 @@ ht-degree: 0%
 
    ![법적 주소](./assets/company-legal-address-storefront.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Company Administrator]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Company Administrator]_&#x200B;섹션에서 다음을 수행합니다.
 
    - 회사 관리자의 **[!UICONTROL Email address]**&#x200B;을(를) 입력합니다.
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
    - 해당하는 경우 계정을 관리할 **[!UICONTROL Sales Representative]**&#x200B;의 관리자 계정을 선택하십시오.
 
-1. _[!UICONTROL Account Information]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Account Information]_&#x200B;섹션에서 다음을 수행합니다.
 
    - 해당되는 경우 다음 필드를 작성합니다.
 
@@ -116,16 +116,16 @@ ht-degree: 0%
 
    ![계정 정보](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. 초기 회사 생성 시 _[!UICONTROL Company Hierarchy]_그리드를 확장할 때 비어 있습니다. 회사를 저장한 후 회사 계층에 포함할 수 있습니다. [회사 관리](manage-companies.md)를 참조하세요.
+1. 초기 회사 생성 시 _[!UICONTROL Company Hierarchy]_&#x200B;그리드를 확장할 때 비어 있습니다. 회사를 저장한 후 회사 계층에 포함할 수 있습니다. [회사 관리](manage-companies.md)를 참조하세요.
 
-1. _[!UICONTROL Legal Address]_섹션에서 다음 필수 필드를 작성합니다.
+1. _[!UICONTROL Legal Address]_&#x200B;섹션에서 다음 필수 필드를 작성합니다.
 
    - **[!UICONTROL Street Address]**
    - **[!UICONTROL City Country]**
    - **[!UICONTROL ZIP/Postal Code]**
    - **[!UICONTROL Phone Number]**
 
-1. _[!UICONTROL Company Admin]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Company Admin]_&#x200B;섹션에서 다음을 수행합니다.
 
    - 다음 필수 필드를 완료하십시오.
 
@@ -149,7 +149,7 @@ ht-degree: 0%
 
    ![회사 관리자](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. 고객의 신용 활동에 대한 요약을 표시하는 _[!UICONTROL Company Credit]_섹션에서 섹션의 아래 부분에 있는 필드를 해당하는 수만큼 작성합니다.
+1. 고객의 신용 활동에 대한 요약을 표시하는 _[!UICONTROL Company Credit]_&#x200B;섹션에서 섹션의 아래 부분에 있는 필드를 해당하는 수만큼 작성합니다.
 
    - **[!UICONTROL Credit Currency]**
    - **[!UICONTROL Credit Limit]**
@@ -158,7 +158,7 @@ ht-degree: 0%
 
    ![회사 크레딧](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Advanced Settings]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Advanced Settings]_&#x200B;섹션에서 다음을 수행합니다.
 
    >[!NOTE]
    >

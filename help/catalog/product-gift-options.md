@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 제품 설정 - [!UICONTROL Gift Options]
 
-_[!UICONTROL Gift Options]_섹션에서 제품 수준에서 체크아웃 시 선물 메시지 및 선물 포장 옵션을 설정할 수 있습니다. 기본 구성 설정을 재정의하려면&#x200B;**[!UICONTROL Use Config Settings]**확인란의 선택을 취소합니다.
+_[!UICONTROL Gift Options]_&#x200B;섹션에서 제품 수준에서 체크아웃 시 선물 메시지 및 선물 포장 옵션을 설정할 수 있습니다. 기본 구성 설정을 재정의하려면&#x200B;**[!UICONTROL Use Config Settings]**&#x200B;확인란의 선택을 취소합니다.
 
 ![선물 옵션](./assets/product-gift-options-ee.png){width="600" zoomable="yes"}
 
@@ -20,7 +20,7 @@ _[!UICONTROL Gift Options]_섹션에서 제품 수준에서 체크아웃 시 선
 
 1. 제품을 편집 모드로 엽니다.
 
-1. 아래로 스크롤하여 _[!UICONTROL Gift Options]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
+1. 아래로 스크롤하여 _[!UICONTROL Gift Options]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
    - 기본 설정을 재정의하려면 **[!UICONTROL Use Config Settings]** 확인란의 선택을 취소합니다.
 

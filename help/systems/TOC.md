@@ -35,7 +35,7 @@ ht-degree: 3%
 - 데이터 전송 {#data-transfer}
    - [개요](data-transfer.md)
    - [CSV 파일](data-csv.md)
-   - {#import} 가져오기
+   - 가져오기{#import}
       - [가져오기 프로세스](data-import.md)
       - [제품 이미지](data-import-product-images.md)
    - [내보내기](data-export.md)

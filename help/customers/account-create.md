@@ -116,7 +116,7 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   >고객 계정이 저장되면 전체 옵션 세트가 왼쪽 패널과 페이지 상단의 메뉴에 나타납니다. _[!UICONTROL Customer View]_탭에는 계정의 요약이 표시됩니다.
+   >고객 계정이 저장되면 전체 옵션 세트가 왼쪽 패널과 페이지 상단의 메뉴에 나타납니다. _[!UICONTROL Customer View]_&#x200B;탭에는 계정의 요약이 표시됩니다.
 
    ![고객 보기](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
    그렇지 않으면 **[!UICONTROL Save and Continue Edit]**&#x200B;을(를) 클릭하고 이전 단계를 반복하여 주소를 추가합니다.
 
-   선택한 _[!UICONTROL Default Billing]_및_[!UICONTROL Default Shipping]_ 주소가 전체 목록 위에 있는 [!UICONTROL Addresses] 페이지에 새 주소가 표시됩니다.
+   선택한 _[!UICONTROL Default Billing]_&#x200B;및_[!UICONTROL Default Shipping]_ 주소가 전체 목록 위에 있는 [!UICONTROL Addresses] 페이지에 새 주소가 표시됩니다.
 
    ![주소 보기](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 
 1. 표에서 새 고객 계정을 찾습니다.
 
-1. _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. 페이지 상단의 메뉴 표시줄에서 **[!UICONTROL Reset Password]**&#x200B;을(를) 클릭합니다.
 
@@ -169,7 +169,7 @@ ht-degree: 0%
 
 | 단추 | 설명 |
 |--- |--- |
-| **[!UICONTROL Back]** | 변경 내용을 저장하지 않고 _[!UICONTROL Customers]_페이지로 돌아갑니다. |
+| **[!UICONTROL Back]** | 변경 내용을 저장하지 않고 _[!UICONTROL Customers]_&#x200B;페이지로 돌아갑니다. |
 | **[!UICONTROL Delete Customer]** | 현재 고객을 삭제합니다. 고객과 연관된 완료된 주문은 제거되지 않습니다. |
 | **[!UICONTROL Reset]** | 고객 양식에서 저장되지 않은 변경 사항을 이전 값으로 재설정합니다. |
 | **[!UICONTROL Create Order]** | 고객에 대한 주문을 생성합니다. |

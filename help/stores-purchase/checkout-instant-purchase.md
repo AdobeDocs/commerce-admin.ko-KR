@@ -61,7 +61,7 @@ Braintree 또는 Adobe Commerce 및 Magento Open Source용 결제 서비스와 �
 
 ### 3단계: 즉시 구매 활성화
 
-1. _[!UICONTROL Sales]_섹션 아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Sales]**을(를) 선택합니다.
+1. _[!UICONTROL Sales]_&#x200B;섹션 아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Sales]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Instant Purchase]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 

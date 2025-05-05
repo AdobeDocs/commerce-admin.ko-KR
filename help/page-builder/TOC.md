@@ -40,7 +40,7 @@ ht-degree: 7%
    - [배너](banner.md)
    - [슬라이더](slider.md)
    - [맵](map.md)
-- {#add-content} 콘텐츠 추가
+- 콘텐츠 추가{#add-content}
    - [차단](block.md)
    - [동적 블록](dynamic-block.md)
    - [제품](products.md)

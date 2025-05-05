@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 범주 - 콘텐츠 설정
 
-_[!UICONTROL Content]_설정에 따라 범주 페이지에 표시되는 추가 콘텐츠가 결정됩니다. 카테고리 제품 목록 외에도 페이지에 이미지, 설명 및 CMS 블록이 포함될 수 있습니다. [[!DNL Page Builder]](../page-builder/introduction.md) 콘텐츠 도구를 사용하여 범주 설명을 정의할 수 있습니다.
+_[!UICONTROL Content]_&#x200B;설정에 따라 범주 페이지에 표시되는 추가 콘텐츠가 결정됩니다. 카테고리 제품 목록 외에도 페이지에 이미지, 설명 및 CMS 블록이 포함될 수 있습니다. [[!DNL Page Builder]](../page-builder/introduction.md) 콘텐츠 도구를 사용하여 범주 설명을 정의할 수 있습니다.
 
 ## [!DNL Page Builder]에 범주 설명 추가
 
@@ -28,7 +28,7 @@ _[!UICONTROL Content]_설정에 따라 범주 페이지에 표시되는 추가 �
 
 ## [!DNL Page Builder] 미리 보기
 
-[!DNL Page Builder](으)로 만든 콘텐츠가 있는 기존 범주에 대해 _콘텐츠_ 섹션을 확장하면 범주 페이지에 나타나는 대로 **[!UICONTROL Description]** 콘텐츠의 미리 보기를 표시합니다. 콘텐츠 영역을 클릭하면 필요한 업데이트를 수행할 수 있는 [!DNL Page Builder] 작업 영역이 열립니다.
+[!DNL Page Builder] (으)로 만든 콘텐츠가 있는 기존 범주에 대해 _콘텐츠_ 섹션을 확장하면 범주 페이지에 나타나는 대로 **[!UICONTROL Description]** 콘텐츠의 미리 보기를 표시합니다. 콘텐츠 영역을 클릭하면 필요한 업데이트를 수행할 수 있는 [!DNL Page Builder] 작업 영역이 열립니다.
 
 ![설명 미리 보기](../page-builder/assets/pb-product-category-content-preview.png){width="500" zoomable="yes"}
 

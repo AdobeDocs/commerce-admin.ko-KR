@@ -99,7 +99,7 @@ Quote status 는 Quote 워크플로우에서 Quote 의 현재 상태에 대한 �
 
 견적에 대한 구성 옵션은 [역할 리소스](../systems/permissions-user-roles.md#role-resources)를 사용하여 제어됩니다. 이러한 역할 리소스는 저장소 관리자에게 할당된 관리자 역할에 대해 설정해야 합니다.
 
-관리자의 견적 함수에 대한 액세스 권한을 부여하려면 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**(으)로 이동하고 역할을 선택한 다음_&#x200B;역할 리소스&#x200B;_트리에서 [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes](으)로 이동합니다.
+관리자의 견적 함수에 대한 액세스 권한을 부여하려면 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**(으)로 이동하고 역할을 선택한 다음_&#x200B;역할 리소스&#x200B;_트리에서 [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes] (으)로 이동합니다.
 
 ![역할 및 권한 인용](./assets/roles-permissions-quotes.png){width="700" zoomable="yes"}
 
@@ -142,7 +142,7 @@ Quote status 는 Quote 워크플로우에서 Quote 의 현재 상태에 대한 �
 
 1. 거부할 각 개설 견적 요청을 선택합니다.
 
-1. _[!UICONTROL Actions]_컨트롤을 `Declined`(으)로 설정합니다.
+1. _[!UICONTROL Actions]_&#x200B;컨트롤을 `Declined`(으)로 설정합니다.
 
 1. 메시지가 표시되면 견적이 거절된 이유를 입력하고 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 

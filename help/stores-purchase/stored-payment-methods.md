@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Place Order]**&#x200B;을(를) 클릭합니다.
 
-저장된 결제 방법이 고객 대시보드의 _[!UICONTROL Stored Payment Methods]_탭에 표시됩니다.
+저장된 결제 방법이 고객 대시보드의 _[!UICONTROL Stored Payment Methods]_&#x200B;탭에 표시됩니다.
 
 ## 저장된 결제 방법 삭제
 

@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. _편집_ 모드로 주식을 엽니다.
 
-1. 필요한 경우 _[!UICONTROL Sources]_탭을 확장합니다.
+1. 필요한 경우 _[!UICONTROL Sources]_&#x200B;탭을 확장합니다.
 
 1. ![정렬 아이콘](assets/icon-sort.png)을 사용하여 소스를 맨 위(첫 번째)에서 맨 아래(마지막)로 우선 순위에 놓습니다.
 

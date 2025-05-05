@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**(으)로 이동합니다.
 
-1. _[!UICONTROL Tax Zones and Rates]_그리드에서 세율을 찾고 편집 모드에서 레코드를 엽니다.
+1. _[!UICONTROL Tax Zones and Rates]_&#x200B;그리드에서 세율을 찾고 편집 모드에서 레코드를 엽니다.
 
    목록에 요금이 많으면 [필터 컨트롤](../getting-started/admin-grid-controls.md)을 사용하여 필요한 요금을 찾으십시오.
 

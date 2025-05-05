@@ -34,9 +34,9 @@ ht-degree: 0%
 
 1. 제품을 편집 모드로 엽니다.
 
-1. _[!UICONTROL Price]_필드 아래에서&#x200B;**[!UICONTROL Advanced Pricing]**을(를) 클릭합니다.
+1. _[!UICONTROL Price]_&#x200B;필드 아래에서&#x200B;**[!UICONTROL Advanced Pricing]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Customer Group Price]_섹션에서&#x200B;**[!UICONTROL Add]**을(를) 클릭합니다.
+1. _[!UICONTROL Customer Group Price]_&#x200B;섹션에서&#x200B;**[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
    스토어에 [Adobe Commerce B2B](../b2b/introduction.md)이(가) 포함되어 있고 [공유 카탈로그](../b2b/catalog-shared.md)가 활성화되어 있는 경우 이 섹션에는 _[!UICONTROL Catalog and Tier Price]_(으)로 레이블이 지정됩니다.
 

@@ -68,7 +68,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Export File Format]**&#x200B;을(를) `CSV`(으)로 설정합니다.
 
-1. _[!UICONTROL Entity Attributes]_에서 아래로 스크롤하거나 특성 레이블 필터를 사용하여&#x200B;**[!UICONTROL SKU]**특성을 찾고 다음을 수행합니다.
+1. _[!UICONTROL Entity Attributes]_&#x200B;에서 아래로 스크롤하거나 특성 레이블 필터를 사용하여&#x200B;**[!UICONTROL SKU]**&#x200B;특성을 찾고 다음을 수행합니다.
 
    - 내보내도록 선택한 구성 가능한 제품의 SKU를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
@@ -152,13 +152,13 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**(으)로 이동합니다.
 
-1. _[!UICONTROL Import Settings]_에서&#x200B;**[!UICONTROL Entity Type]**을(를) `Products`(으)로 설정합니다.
+1. _[!UICONTROL Import Settings]_&#x200B;에서&#x200B;**[!UICONTROL Entity Type]**&#x200B;을(를) `Products`(으)로 설정합니다.
 
-1. _[!UICONTROL Import Behavior]_에서&#x200B;**[!UICONTROL Import Behavior]**을(를) `Add/Update`(으)로 설정합니다.
+1. _[!UICONTROL Import Behavior]_&#x200B;에서&#x200B;**[!UICONTROL Import Behavior]**&#x200B;을(를) `Add/Update`(으)로 설정합니다.
 
    ![데이터 가져오기 동작](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL File to Import]_에서&#x200B;**[!UICONTROL Choose File]**을(를) 클릭하고 가져오기를 위해 준비한 CSV 파일로 이동한 다음 파일을 선택합니다.
+1. _[!UICONTROL File to Import]_&#x200B;에서&#x200B;**[!UICONTROL Choose File]**&#x200B;을(를) 클릭하고 가져오기를 위해 준비한 CSV 파일로 이동한 다음 파일을 선택합니다.
 
    ![데이터 가져오기 파일](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 

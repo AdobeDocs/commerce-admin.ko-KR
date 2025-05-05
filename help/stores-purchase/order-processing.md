@@ -30,15 +30,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->주문 상태 및 결제 방법 구성 옵션에 대한 자세한 내용은 주문 상태](order-status.md) 및 [결제를](payments.md) 참조하십시오[.
+>주문 상태 및 결제 방법 구성 옵션에 대한 자세한 내용은 주문 상태[&#128279;](order-status.md) 및 [결제를](payments.md) 참조하십시오.
 
 ## 주문 보기
 
-1. 관리자 사이드바에서 > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**로 이동합니다&#x200B;**[!UICONTROL Sales]**._ _
+1. 관리자 사이드바에서 > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**&#x200B;로 이동합니다&#x200B;**[!UICONTROL Sales]**._ _
 
 1. 그리드에서 주문을 찾습니다.
 
-1. 열 _[!UICONTROL Action]_에서 을 클릭합니다&#x200B;**[!UICONTROL View]**.
+1. 열 _[!UICONTROL Action]_&#x200B;에서 을 클릭합니다&#x200B;**[!UICONTROL View]**.
 
 1. 주문 상태 확인:
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->관리자 사용자 사용자 역할 범위에 대한 권한이 있어야 **[!UICONTROL Sales / Archive]** 송장&#x200B;_,_&#x200B;대변 메모&#x200B;_및_&#x200B;발송물&#x200B;_주문 탭을 볼_&#x200B;수 있습니다.[](../systems/permissions-user-roles.md)
+>관리자 사용자 사용자 역할 범위에 대한 권한이 있어야 **[!UICONTROL Sales / Archive]** 송장&#x200B;_,_&#x200B;대변 메모&#x200B;_및_&#x200B;발송물&#x200B;_주문 탭을 볼_&#x200B;수 있습니다.[&#128279;](../systems/permissions-user-roles.md)
 
 ### 버튼 막대
 
@@ -104,9 +104,9 @@ ht-degree: 0%
 
 ### 주문 취소
 
-아직 송장이 발행되지 않은 주문은 취소](order-update.md)할 수 있습니다[. [송장이 발행된(결제가 매입된) 후 고객이 주문을 취소하려는 경우 대변 메모](credit-memos.md)를 발행해야 합니다.
+아직 송장이 발행되지 않은 주문은 취소[&#128279;](order-update.md)할 수 있습니다. [송장이 발행된(결제가 매입된) 후 고객이 주문을 취소하려는 경우 대변 메모](credit-memos.md)를 발행해야 합니다.
 
-주문이 `Pending` 또는 `Processing` 이고 결제가 매입되지 않았거나 완전히 매입되지 않은 경우 주문을 취소하는 대신 주문을](#void-an-order) 무효화할 수 있습니다[.
+주문이 `Pending` 또는 `Processing` 이고 결제가 매입되지 않았거나 완전히 매입되지 않은 경우 주문을 취소하는 대신 주문을[&#128279;](#void-an-order) 무효화할 수 있습니다.
 
 취소된 주문을 복원하려면 버튼 을 클릭하면 **[!UICONTROL Reorder]** 상태 `Pending`의 새 주문이 생성됩니다.
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 ### 주문 무효화
 
-송장이 발행되지 않고 상태가 `Processing`이며 [지급 통합 설정이 `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions)인 판매 오더만 무효화](order-update.md#void-a-processing-order)할 [수 있습니다. 주문을 취소한 후 취소할 수 있습니다.
+송장이 발행되지 않고 상태가 `Processing`이며 [지급 통합 설정이 `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions)인 판매 오더만 무효화[&#128279;](order-update.md#void-a-processing-order)할 수 있습니다. 주문을 취소한 후 취소할 수 있습니다.
 
 ### [!UICONTROL Order and Account Information]
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 | [!UICONTROL Order Date] | 주문이 이루어진 날짜와 시간. |
 | [!UICONTROL Purchased From] | 주문한 웹 사이트, 스토어 및 스토어 보기를 나타냅니다. |
 | [!UICONTROL Placed from IP] | 주문한 컴퓨터의 IP 주소를 나타냅니다. |
-| [!UICONTROL Order Placed from Quote] | ![Adobe Systems Commerce B2B](../assets/b2b.svg)(Adobe Systems Commerce B2B에서 사용 가능) 해당하는 경우 주문이 생성된 견적을](../b2b/quotes.md) 나타냅니다[. 견적 이름은 견적에 연결됩니다. |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Systems Commerce B2B](../assets/b2b.svg)(Adobe Systems Commerce B2B에서 사용 가능) 해당하는 경우 주문이 생성된 견적을[&#128279;](../b2b/quotes.md) 나타냅니다. 견적 이름은 견적에 연결됩니다. |
 
 {style="table-layout:auto"}
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 | [!UICONTROL Customer Name] | 주문한 고객 또는 구매자의 이름입니다. 고객 이름은 고객 프로필에 연결되어 있습니다. |
 | [!UICONTROL Email] | 고객 또는 구매자의 이메일 주소입니다. 이메일 주소가 연결되어 새 이메일 메시지를 엽니다. |
 | [!UICONTROL Customer Group] | 고객이 지정된 고객 그룹 또는 공유 카탈로그의 이름입니다. |
-| [!UICONTROL Company Name] | ![Adobe Systems Commerce B2B](../assets/b2b.svg) (Adobe Systems Commerce B2B에서 사용 가능) 구매자와 연관되어 있고 주문을 대신하는 회사의 이름입니다. 회사 이름은 회사 프로필에 연결되어 있습니다[](../b2b/account-companies.md). |
+| [!UICONTROL Company Name] | ![Adobe Systems Commerce B2B](../assets/b2b.svg) (Adobe Systems Commerce B2B에서 사용 가능) 구매자와 연관되어 있고 주문을 대신하는 회사의 이름입니다. 회사 이름은 회사 프로필에 연결되어 있습니다[&#128279;](../b2b/account-companies.md). |
 
 {style="table-layout:auto"}
 

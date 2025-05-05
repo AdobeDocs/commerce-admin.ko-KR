@@ -79,7 +79,7 @@ ht-degree: 0%
 
 ## 페이지 검색
 
-_[!UICONTROL Pages]_표의 왼쪽 위에 있는 검색 상자를 사용하여 키워드별로 특정 페이지를 찾을 수 있습니다. 고급 검색의 경우 여러 매개 변수로 검색을 [필터링](../getting-started/admin-grid-controls.md)할 수 있습니다.
+_[!UICONTROL Pages]_&#x200B;표의 왼쪽 위에 있는 검색 상자를 사용하여 키워드별로 특정 페이지를 찾을 수 있습니다. 고급 검색의 경우 여러 매개 변수로 검색을 [필터링](../getting-started/admin-grid-controls.md)할 수 있습니다.
 
 ### 키워드로 검색
 
@@ -139,7 +139,7 @@ _[!UICONTROL Pages]_표의 왼쪽 위에 있는 검색 상자를 사용하여 �
 
 ### 단일 작업
 
-맨 오른쪽에 있는 _[!UICONTROL Action]_열을 사용하여 다음 작업을 개별 페이지에 적용합니다.
+맨 오른쪽에 있는 _[!UICONTROL Action]_&#x200B;열을 사용하여 다음 작업을 개별 페이지에 적용합니다.
 
 - [!UICONTROL Edit] - 편집 모드로 페이지를 엽니다.
 - [!UICONTROL Delete] - 페이지를 삭제합니다(확인 필요).
@@ -149,7 +149,7 @@ _[!UICONTROL Pages]_표의 왼쪽 위에 있는 검색 상자를 사용하여 �
 
 ### 대량 작업
 
-왼쪽 상단 모서리의 _[!UICONTROL Action]_선택기를 사용하여 선택한 여러 페이지에 동시에 다음 작업 중 하나를 적용합니다.
+왼쪽 상단 모서리의 _[!UICONTROL Action]_&#x200B;선택기를 사용하여 선택한 여러 페이지에 동시에 다음 작업 중 하나를 적용합니다.
 
 - [!UICONTROL Delete] - 페이지를 삭제합니다(확인 필요).
 - [!UICONTROL Disable] - 상점 첫 화면의 페이지를 사용하지 않도록 설정합니다.

@@ -28,7 +28,7 @@ ht-degree: 0%
 | **[!UICONTROL Login as Customer]** | 관리자가 고객의 주문을 지원할 수 있습니다. |
 | **[!UICONTROL Cancel]** | 보류 중인 주문을 취소합니다. |
 | **[!UICONTROL Send Email]** | 보류 중인 주문에 대한 이메일을 고객에게 보냅니다. |
-| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | 보류 중인 주문의 상태를 `On Hold`(으)로 변경합니다. 보류를 해제하려면 _[!UICONTROL Unhold]_을(를) 선택하세요. |
+| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | 보류 중인 주문의 상태를 `On Hold`(으)로 변경합니다. 보류를 해제하려면 _[!UICONTROL Unhold]_&#x200B;을(를) 선택하세요. |
 | **[!UICONTROL Invoice]** | 주문을 인보이스로 전환하여 보류 중인 주문에서 [인보이스](invoices.md#create-an-invoice)를 만들고 주문 상태를 `processing`(으)로 변경합니다. |
 | **[!UICONTROL Ship]** | 주문에 대한 [배송](shipments.md#create-a-shipment) 레코드를 만듭니다. |
 | **[!UICONTROL Reorder]** | 현재 보류 주문과 중복되는 새 보류 주문을 만듭니다. |
@@ -59,7 +59,7 @@ ht-degree: 0%
 | **[!UICONTROL Send Email]** | 주문에 대한 이메일을 고객에게 보냅니다. |
 | **[!UICONTROL Void]** | 주문 트랜잭션 또는 부분 주문 트랜잭션을 [보이드](#void-a-processing-order). |
 | **[!UICONTROL Credit Memo]** | [신용 메모](credit-memo-create.md)를 만드는 프로세스를 시작합니다. |
-| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | 판매 주문의 상태를 `On Hold`(으)로 변경합니다. 판매 주문에 대한 보류를 해제하려면 _[!UICONTROL Unhold]_을(를) 선택하십시오. |
+| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | 판매 주문의 상태를 `On Hold`(으)로 변경합니다. 판매 주문에 대한 보류를 해제하려면 _[!UICONTROL Unhold]_&#x200B;을(를) 선택하십시오. |
 | **[!UICONTROL Reorder]** | 현재 주문을 기반으로 새 보류 주문을 만듭니다. |
 | **[!UICONTROL Create Returns]** | ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) 주문에서 하나 이상의 항목을 [반환](returns.md)하는 프로세스를 시작합니다. |
 
@@ -119,9 +119,9 @@ ht-degree: 0%
 
 주문을 취소하면 주문 상태가 `Pending`에서 `Canceled`(으)로 변경됩니다.
 
-1. _[!UICONTROL Orders]_그리드에서 취소할 보류 중인 주문을 찾습니다.
+1. _[!UICONTROL Orders]_&#x200B;그리드에서 취소할 보류 중인 주문을 찾습니다.
 
-1. _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL View]**을(를) 클릭합니다.
+1. _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 
 1. 주문을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭하십시오.
 

@@ -45,7 +45,7 @@ ht-degree: 0%
 
    - 오른쪽 상단에서 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다. 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭하여 확인합니다.
 
-1. _[!UICONTROL URL Rewrites]_페이지로 돌아오면&#x200B;**[!UICONTROL Add URL Rewrite]**을(를) 클릭합니다.
+1. _[!UICONTROL URL Rewrites]_&#x200B;페이지로 돌아오면&#x200B;**[!UICONTROL Add URL Rewrite]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Create URL Rewrite]**&#x200B;을(를) `For category`(으)로 설정하고 리디렉션의 대상인 트리에서 대상 범주를 선택합니다.
 

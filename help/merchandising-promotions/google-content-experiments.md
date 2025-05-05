@@ -49,7 +49,7 @@ ht-degree: 0%
 
    **메서드 1:** 기존 보기 선택
 
-   _[!UICONTROL View]_열의 헤더에서 아래쪽 화살표를 클릭하고 실험에 데이터를 제공할 보기를 선택합니다.
+   _[!UICONTROL View]_&#x200B;열의 헤더에서 아래쪽 화살표를 클릭하고 실험에 데이터를 제공할 보기를 선택합니다.
 
    **메서드 2:** 새 보고 보기 만들기
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    - 완료되면 **[!UICONTROL Create View]**&#x200B;을(를) 클릭한 다음 뒤로 화살표를 클릭하여 이전 페이지로 돌아갑니다.
 
-1. _[!UICONTROL Reports]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Behavior]**>**[!UICONTROL Experiments]**을(를) 선택합니다.
+1. _[!UICONTROL Reports]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Behavior]**>**[!UICONTROL Experiments]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Create experiment]**&#x200B;을(를) 클릭하고 다음을 수행합니다.
 

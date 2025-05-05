@@ -77,11 +77,11 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 **[!UICONTROL Inventory]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Distance Provider for Distance Based SSA]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)을(를) 확장하고&#x200B;**[!UICONTROL Provider]**을(를) `Google MAP`(으)로 설정합니다.
+1. _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)을(를) 확장하고&#x200B;**[!UICONTROL Provider]**&#x200B;을(를) `Google MAP`(으)로 설정합니다.
 
    ![거리 기반 SSA의 공급자](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. _[!UICONTROL Google Distance Provider]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 설정을 구성합니다.
+1. _[!UICONTROL Google Distance Provider]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 설정을 구성합니다.
 
    - **[!UICONTROL Google API Key]**&#x200B;의 경우 Google 계정에서 복사한 키를 입력하십시오.
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 **[!UICONTROL Inventory]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Distance Provider for Distance Based SSA]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. **[!UICONTROL Use system value]** 확인란의 선택을 취소하고 **[!UICONTROL Provider]**&#x200B;을(를) `Offline Calculation`(으)로 설정합니다.
 

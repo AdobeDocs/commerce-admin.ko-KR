@@ -56,7 +56,7 @@ _탭_ 콘텐츠 형식을 사용하여 작업할 때 개별 탭과 하나 이상
 
 ## 개별 탭 추가
 
-1. _[!UICONTROL Layout]_아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Tabs]**자리 표시자를 스테이지 또는 스테이지의 행 또는 열로 직접 드래그합니다.
+1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Tabs]**&#x200B;자리 표시자를 스테이지 또는 스테이지의 행 또는 열로 직접 드래그합니다.
 
    ![탭을 행으로 드래그](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 

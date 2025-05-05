@@ -75,7 +75,7 @@ ht-degree: 0%
 | 장바구니에 표시 | 스토어 뷰 | PayPal Express Checkout이 장바구니에서 결제 옵션으로 표시되는지 여부를 결정합니다. 옵션: 예(권장) / 아니요 |
 | [!UICONTROL Payment Action Applicable From] | 웹 사이트 | 적용 가능한 국가 선택의 범위를 결정합니다. 옵션: 허용된 모든 국가/특정 국가 |
 | [!UICONTROL Countries Payment Applicable From] | 웹 사이트 | 지불이 수락되는 각 국가를 식별합니다. 선택한 국가에 청구 주소가 있는 고객만 이 결제 방법으로 구매할 수 있습니다. |
-| [!UICONTROL Debug Mode] | 웹 사이트 | 스토어와 PayPal 결제 시스템 간에 전송된 메시지를 로그 파일에 기록합니다. 옵션: `Yes` / `No` <br/><br/>**_참고:_**로그 파일은 서버에 저장되며 개발자만 액세스할 수 있습니다. PCI 데이터 보안 표준에 따라 신용 카드 정보는 로그 파일에 기록되지 않습니다. |
+| [!UICONTROL Debug Mode] | 웹 사이트 | 스토어와 PayPal 결제 시스템 간에 전송된 메시지를 로그 파일에 기록합니다. 옵션: `Yes` / `No` <br/><br/>**_참고:_**&#x200B;로그 파일은 서버에 저장되며 개발자만 액세스할 수 있습니다. PCI 데이터 보안 표준에 따라 신용 카드 정보는 로그 파일에 기록되지 않습니다. |
 | [!UICONTROL Enable SSL Verification] | 웹 사이트 | 호스트 보안 인증서를 확인할 수 있도록 합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Transfer Cart Line Items] | 웹 사이트 | PayPal 사이트에 고객 장바구니의 라인 항목에 대한 전체 요약을 표시합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Skip Order Review Step] | 웹 사이트 | 고객이 PayPal 사이트에서 거래를 완료할 수 있는지, 아니면 주문을 제출하기 전에 상점으로 돌아가서 주문 검토 단계를 완료해야 하는지 결정합니다. 옵션: `Yes` / `No` |

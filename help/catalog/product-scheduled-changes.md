@@ -53,7 +53,7 @@ ht-degree: 0%
 
    ![새 업데이트로 예약](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
-1. 아래로 스크롤하여 _[!UICONTROL Price]_을(를) 클릭하고&#x200B;**[!UICONTROL Advanced Pricing]**을(를) 클릭합니다.
+1. 아래로 스크롤하여 _[!UICONTROL Price]_&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Advanced Pricing]**&#x200B;을(를) 클릭합니다.
 
 1. 예약된 캠페인 동안 제품에 대한 **[!UICONTROL Special Price]**&#x200B;을(를) 입력하고 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 ## 예약된 변경 내용 편집
 
-1. 페이지 상단의 _[!UICONTROL Scheduled Changes]_상자에서&#x200B;**[!UICONTROL View/Edit]**을(를) 클릭합니다.
+1. 페이지 상단의 _[!UICONTROL Scheduled Changes]_&#x200B;상자에서&#x200B;**[!UICONTROL View/Edit]**&#x200B;을(를) 클릭합니다.
 
 1. 예약된 업데이트에 필요한 변경 작업을 수행합니다.
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 ## 예약된 변경 내용 제거
 
-1. 페이지 상단의 _[!UICONTROL Scheduled Changes]_상자에서&#x200B;**[!UICONTROL View/Edit]**을(를) 클릭합니다.
+1. 페이지 상단의 _[!UICONTROL Scheduled Changes]_&#x200B;상자에서&#x200B;**[!UICONTROL View/Edit]**&#x200B;을(를) 클릭합니다.
 
 1. 상단 표시줄에서 **[!UICONTROL Remove from Update]**&#x200B;을(를) 클릭합니다.
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 {{ce-feature}}
 
-_[!UICONTROL Schedule Design Update]_섹션을 통해 제품 페이지의 모양을 임시로 변경할 수 있습니다. 시즌, 프로모션에 대한 디자인 변경을 예약하거나 새로운 항목을 만들기 위해 예약할 수 있습니다. 디자인 변경 사항은 미리 예약할 수 있으므로 정의된 일정에 따라 적용되거나_ drip _이 적용됩니다.
+_[!UICONTROL Schedule Design Update]_&#x200B;섹션을 통해 제품 페이지의 모양을 임시로 변경할 수 있습니다. 시즌, 프로모션에 대한 디자인 변경을 예약하거나 새로운 항목을 만들기 위해 예약할 수 있습니다. 디자인 변경 사항은 미리 예약할 수 있으므로 정의된 일정에 따라 적용되거나_ drip _이 적용됩니다.
 
 ![예약된 디자인 업데이트](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 

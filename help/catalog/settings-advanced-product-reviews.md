@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 제품 설정 - [!UICONTROL Product Reviews]
 
-_[!UICONTROL Product Reviews]_섹션에는 고객이 제품에 대해 제출한 모든 리뷰가 나열됩니다. 이 섹션에는 새 제품이 처음 저장된 후에만 다른 제품 정보가 표시됩니다. 자세한 내용은 [제품 리뷰](../merchandising-promotions/product-reviews.md)를 참조하세요.
+_[!UICONTROL Product Reviews]_&#x200B;섹션에는 고객이 제품에 대해 제출한 모든 리뷰가 나열됩니다. 이 섹션에는 새 제품이 처음 저장된 후에만 다른 제품 정보가 표시됩니다. 자세한 내용은 [제품 리뷰](../merchandising-promotions/product-reviews.md)를 참조하세요.
 
 ![제품 리뷰](./assets/product-review.png){width="600" zoomable="yes"}
 
@@ -40,7 +40,7 @@ _[!UICONTROL Product Reviews]_섹션에는 고객이 제품에 대해 제출한 
 
 1. 제품을 찾아 편집 모드로 엽니다.
 
-1. _[!UICONTROL Product Reviews]_섹션으로 스크롤합니다.
+1. _[!UICONTROL Product Reviews]_&#x200B;섹션으로 스크롤합니다.
 
 1. 자세한 내용을 보고 편집하려면 `Pending` 상태의 제품 검토를 보려면 **[!UICONTROL Edit]**&#x200B;을(를) 클릭하십시오.
 

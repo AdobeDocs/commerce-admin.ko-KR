@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 세금 분류 구성
 
-배송에 사용되는 세금 클래스 및 [제품 및 고객](#add-a-product-tax-class)의 기본 세금 클래스가 _[!UICONTROL Sales]_구성에 설정되어 있습니다.
+배송에 사용되는 세금 클래스 및 [제품 및 고객](#add-a-product-tax-class)의 기본 세금 클래스가 _[!UICONTROL Sales]_&#x200B;구성에 설정되어 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 

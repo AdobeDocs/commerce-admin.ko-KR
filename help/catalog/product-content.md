@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 제품 설정 - [!UICONTROL Content]
 
-_[!UICONTROL Content]_섹션은 제품 페이지에 나타나는 기본 제품 설명을 입력하고 편집하는 데 사용됩니다. 짧은 설명은 대부분의 RSS 피드에서 사용할 수 있으며 [테마](../content-design/themes.md)에 따라 카탈로그 목록에도 표시될 수 있습니다.
+_[!UICONTROL Content]_&#x200B;섹션은 제품 페이지에 나타나는 기본 제품 설명을 입력하고 편집하는 데 사용됩니다. 짧은 설명은 대부분의 RSS 피드에서 사용할 수 있으며 [테마](../content-design/themes.md)에 따라 카탈로그 목록에도 표시될 수 있습니다.
 
 ## [!DNL Page Builder]에 제품 설명 추가
 
@@ -30,7 +30,7 @@ _[!UICONTROL Content]_섹션은 제품 페이지에 나타나는 기본 제품 �
 
 ## [!DNL Page Builder] 미리 보기
 
-[!DNL Page Builder](으)로 만든 콘텐츠가 있는 기존 제품에 대해 _[!UICONTROL Content]_섹션을 확장하면 제품 페이지에 표시되는 대로&#x200B;**[!UICONTROL Description]**콘텐츠의 미리 보기가 표시됩니다.**[!UICONTROL Edit with Page Builder]**을(를) 클릭하여 필요한 업데이트를 수행할 수 있는 [!DNL Page Builder] 작업 영역을 엽니다.
+[!DNL Page Builder] (으)로 만든 콘텐츠가 있는 기존 제품에 대해 _[!UICONTROL Content]_&#x200B;섹션을 확장하면 제품 페이지에 표시되는 대로&#x200B;**[!UICONTROL Description]**&#x200B;콘텐츠의 미리 보기가 표시됩니다.**[!UICONTROL Edit with Page Builder]**&#x200B;을(를) 클릭하여 필요한 업데이트를 수행할 수 있는 [!DNL Page Builder] 작업 영역을 엽니다.
 
 ![설명 미리 보기](../page-builder/assets/pb-product-category-content-preview.png){width="600" zoomable="yes"}
 

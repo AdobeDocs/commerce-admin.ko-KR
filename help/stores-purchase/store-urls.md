@@ -32,7 +32,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 >
 >Adobe은 보안 프로토콜을 사용하여 콘텐츠 및 제품 페이지를 포함하여 프로덕션 사이트의 모든 페이지를 전송하는 것을 강력히 권장합니다.
 
-기본적으로 `HTTPS`을(를) 통해 모든 페이지를 전달하도록 Adobe Commerce 및 Magento Open Source을 구성할 수 있습니다. 스토어가 표준 프로토콜로 실행되고 있는 경우 [HTTP Strict Transport Security][2](HSTS)를 사용하도록 설정하고 안전하지 않은 페이지 요청을 업그레이드하여 보안을 강화할 수 있습니다. HSTS는 브라우저가 지정된 도메인에 대해 비보안 프로토콜로 전송되는 표준 `HTTP` 페이지를 렌더링하지 못하도록 하는 옵트인 프로토콜입니다. 검색 엔진이 표준 `HTTP` URL로 저장소의 각 페이지를 이미 인덱싱했을 수 있으므로 Commerce에서 안전하지 않은 페이지 요청을 자동으로 `HTTPS`(으)로 업그레이드하도록 구성하면 트래픽이 손실되지 않습니다. Commerce이 Storefront와 Admin 모두에 보안 URL을 사용하도록 구성된 경우 `HSTS`을(를) 활성화할 수 있는 두 개의 추가 필드가 나타납니다.
+기본적으로 `HTTPS`을(를) 통해 모든 페이지를 전달하도록 Adobe Commerce 및 Magento Open Source을 구성할 수 있습니다. 스토어가 표준 프로토콜로 실행되고 있는 경우 [HTTP Strict Transport Security][2] (HSTS)를 사용하도록 설정하고 안전하지 않은 페이지 요청을 업그레이드하여 보안을 강화할 수 있습니다. HSTS는 브라우저가 지정된 도메인에 대해 비보안 프로토콜로 전송되는 표준 `HTTP` 페이지를 렌더링하지 못하도록 하는 옵트인 프로토콜입니다. 검색 엔진이 표준 `HTTP` URL로 저장소의 각 페이지를 이미 인덱싱했을 수 있으므로 Commerce에서 안전하지 않은 페이지 요청을 자동으로 `HTTPS`(으)로 업그레이드하도록 구성하면 트래픽이 손실되지 않습니다. Commerce이 Storefront와 Admin 모두에 보안 URL을 사용하도록 구성된 경우 `HSTS`을(를) 활성화할 수 있는 두 개의 추가 필드가 나타납니다.
 
 ## 기본 URL 구성
 
@@ -46,7 +46,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
      >[!NOTE]
      >
-     >_[!UICONTROL Base Link URL]_필드의 자리 표시자를 변경하지 마십시오. 기본 URL에 대한 상대 링크를 만드는 데 사용되는 자리 표시자입니다.
+     >_[!UICONTROL Base Link URL]_&#x200B;필드의 자리 표시자를 변경하지 마십시오. 기본 URL에 대한 상대 링크를 만드는 데 사용되는 자리 표시자입니다.
 
    - **[!UICONTROL Base URL for Static View Files]** — (선택 사항) 다음 자리 표시자로 시작하는 경로를 입력하여 정적 보기 파일의 기본 URL에 대한 대체 위치를 지정합니다.
 
@@ -91,7 +91,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
    - **[!UICONTROL Use Secure URLs on Storefront]**
    - **[!UICONTROL Use Secure URLs in Admin]**
 
-1. _[!UICONTROL Enhanced Security Settings]_의 경우 다음을 수행합니다.
+1. _[!UICONTROL Enhanced Security Settings]_&#x200B;의 경우 다음을 수행합니다.
 
    - **[!UICONTROL Enable HTTP Strict Transport Security (HSTS)]** — 저장소에 보안 HTTPS 페이지 요청만 표시하려면 `Yes`(으)로 설정하십시오.
 
@@ -111,7 +111,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널의 _[!UICONTROL General]_에서&#x200B;**[!UICONTROL Web]**을(를) 선택합니다.
+1. 왼쪽 패널의 _[!UICONTROL General]_&#x200B;에서&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL URL Options]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -219,7 +219,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 1. 다음 방법 중 하나를 사용하여 캐시를 지웁니다.
 
-   - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.**[!UICONTROL Flush Magento Cache]**을(를) 클릭합니다.
+   - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.**[!UICONTROL Flush Magento Cache]**&#x200B;을(를) 클릭합니다.
    - 서버에서 다음을 실행합니다.
 
      ```bash
@@ -258,7 +258,7 @@ bin/magento setup:config:set --backend-frontname="backend_front_name"
 
 1. 다음 방법 중 하나를 사용하여 캐시를 지웁니다.
 
-   - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.**[!UICONTROL Flush Magento Cache]**을(를) 클릭합니다.
+   - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.**[!UICONTROL Flush Magento Cache]**&#x200B;을(를) 클릭합니다.
    - 서버에서 다음을 실행합니다.
 
      ```bash

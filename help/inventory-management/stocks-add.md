@@ -63,7 +63,7 @@ ht-degree: 0%
 
    ![할당된 원본 예제](assets/inventory-stock-priority-after.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Save]_(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png)) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
+1. _[!UICONTROL Save]_(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png)) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
 ## 필드 설명
 

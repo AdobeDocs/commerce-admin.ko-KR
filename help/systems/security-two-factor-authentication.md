@@ -39,7 +39,7 @@ Adobe Commerce은 여러 공급자의 2FA 메서드를 지원합니다. 일부�
 
 1. 왼쪽 패널에서 **[!UICONTROL Security]**&#x200B;을(를) 확장하고 **[!UICONTROL 2FA]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL General]_섹션에서 사용할 공급자를 선택합니다.
+1. _[!UICONTROL General]_&#x200B;섹션에서 사용할 공급자를 선택합니다.
 
    | 공급자 | 함수 |
    |--- |--- |

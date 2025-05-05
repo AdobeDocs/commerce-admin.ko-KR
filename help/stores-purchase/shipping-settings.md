@@ -30,7 +30,7 @@ ht-degree: 0%
    - [!UICONTROL Region / State]
    - [!UICONTROL ZIP / Postal Code]
    - [!UICONTROL City]
-   - [!UICONTROL Street Address](필요한 경우 2행)
+   - [!UICONTROL Street Address] (필요한 경우 2행)
 
 1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 

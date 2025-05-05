@@ -34,7 +34,7 @@ ht-degree: 0%
 
    ![선물 레지스트리 - 검색 설정](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Storefront Properties]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Storefront Properties]_&#x200B;섹션에서 다음을 수행합니다.
 
    - 내부 참조를 위해 **[!UICONTROL Widget Title]**&#x200B;을(를) 입력하십시오.
 

@@ -26,15 +26,15 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. 추가할 그리드의 제품에 대해 _[!UICONTROL Action]_열로 이동하여&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 추가할 그리드의 제품에 대해 _[!UICONTROL Action]_&#x200B;열로 이동하여&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. 아래로 스크롤하여 _[!UICONTROL Product in Shared Catalogs]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
+1. 아래로 스크롤하여 _[!UICONTROL Product in Shared Catalogs]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
    - 제품이 표시되어야 하는 각 공유 카탈로그의 확인란을 선택합니다. 모든 카탈로그를 선택하려면 **[!UICONTROL Select all]**&#x200B;을(를) 클릭하십시오.
 
      공유 카탈로그의 ![제품](./assets/shared-catalog-assign-from-product.png){width="600" zoomable="yes"}
 
-     선택한 각 카탈로그의 이름이 _[!UICONTROL Shared Catalogs]_필드에 나타납니다.
+     선택한 각 카탈로그의 이름이 _[!UICONTROL Shared Catalogs]_&#x200B;필드에 나타납니다.
 
      ![공유된 카탈로그 할당됨](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**(으)로 이동합니다.
 
-1. 격자에 있는 공유 카탈로그의 경우 _[!UICONTROL Action]_열로 이동하여&#x200B;**[!UICONTROL Set Pricing and Structure]**을(를) 선택합니다.
+1. 격자에 있는 공유 카탈로그의 경우 _[!UICONTROL Action]_&#x200B;열로 이동하여&#x200B;**[!UICONTROL Set Pricing and Structure]**&#x200B;을(를) 선택합니다.
 
 1. 범주 트리에서 다음 중 하나를 수행합니다.
 

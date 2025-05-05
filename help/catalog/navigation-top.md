@@ -68,7 +68,7 @@ ht-degree: 0%
 
    ![범주 위쪽 탐색](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"}
 
-   위쪽 탐색의 깊이에 전역 [구성 범위](../getting-started/websites-stores-views.md#scope-settings)가 있으므로 이 설정은 Commerce 설치의 모든 웹 사이트, 스토어 및 스토어 보기에 적용됩니다. _[!UICONTROL Category Top Navigation]_구성 섹션은 왼쪽 상단의_[!UICONTROL Store View]_&#x200B;이(가) `Default Config`(으)로 설정된 경우에만 사용할 수 있습니다.
+   위쪽 탐색의 깊이에 전역 [구성 범위](../getting-started/websites-stores-views.md#scope-settings)가 있으므로 이 설정은 Commerce 설치의 모든 웹 사이트, 스토어 및 스토어 보기에 적용됩니다. _[!UICONTROL Category Top Navigation]_&#x200B;구성 섹션은 왼쪽 상단의&#x200B;_[!UICONTROL Store View]_&#x200B;이(가) `Default Config`(으)로 설정된 경우에만 사용할 수 있습니다.
 
    이러한 옵션에 대한 자세한 목록이 필요하면 _구성 참조_&#x200B;에서 [범주 위쪽 탐색](../configuration-reference/catalog/catalog.md#layered-navigation)을 참조하십시오.
 

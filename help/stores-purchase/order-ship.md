@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Orders]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Orders]_목록에서 배송할 주문을 찾은 다음 클릭하여 엽니다.
+1. _[!UICONTROL Orders]_&#x200B;목록에서 배송할 주문을 찾은 다음 클릭하여 엽니다.
 
 1. 오른쪽 상단에서 **[!UICONTROL Ship]** 단추를 클릭합니다.
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 통신사가 배송 레이블을 생성하려면 **[!UICONTROL Create Shipping Label]** 확인란을 선택하고 옵션을 설정합니다.
 
-   - 추적 번호를 추가하려면 _[!UICONTROL Shipping Information]_섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Add Tracking Number]**을(를) 클릭합니다.
+   - 추적 번호를 추가하려면 _[!UICONTROL Shipping Information]_&#x200B;섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Add Tracking Number]**&#x200B;을(를) 클릭합니다.
 
    - 다음 중 하나를 수행합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. 목록에서 납품을 찾은 다음 를 클릭하여 레코드를 엽니다.
 
-1. 주문에 주석을 추가하려면 _[!UICONTROL Comments History]_섹션까지 아래로 스크롤한 다음 상자에 설명을 입력하십시오.
+1. 주문에 주석을 추가하려면 _[!UICONTROL Comments History]_&#x200B;섹션까지 아래로 스크롤한 다음 상자에 설명을 입력하십시오.
 
    - 고객에게 전자 메일로 댓글을 보내려면 **[!UICONTROL Notify Customer by Email]** 확인란을 선택하십시오.
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 1. 그리드에서 배달 주문을 찾은 다음 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Shipping & Handling Information]_섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Track Order]**을(를) 클릭합니다.
+1. _[!UICONTROL Shipping & Handling Information]_&#x200B;섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Track Order]**&#x200B;을(를) 클릭합니다.
 
    사용 가능한 모든 추적 정보가 팝업 창에 나타납니다.
 

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 고객 관리 소개
 
-_[!UICONTROL Customers]_메뉴를 통해 고객 계정 관리 도구에 액세스할 수 있으며 스토어에서 온라인 상태의 사용자를 확인할 수 있습니다.
+_[!UICONTROL Customers]_&#x200B;메뉴를 통해 고객 계정 관리 도구에 액세스할 수 있으며 스토어에서 온라인 상태의 사용자를 확인할 수 있습니다.
 
 ![고객 메뉴](assets/admin-menu-customers.png){width="300" zoomable="yes"}
 

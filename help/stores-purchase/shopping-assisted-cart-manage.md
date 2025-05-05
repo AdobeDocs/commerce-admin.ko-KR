@@ -32,7 +32,7 @@ ht-degree: 0%
 | 단추 | 설명 |
 |--- |--- |
 | [!UICONTROL Clear my shopping cart] | 모든 제품에서 현재 장바구니를 지웁니다. |
-| [!UICONTROL Update Items and Quantities|]**[!UICONTROL Qty]** 필드에 필요한 수량을 입력하고 장바구니의 항목 수를 업데이트합니다. |
+| [!UICONTROL Update Items and Quantities|]&#x200B;**[!UICONTROL Qty]** 필드에 필요한 수량을 입력하고 장바구니의 항목 수를 업데이트합니다. |
 | [!UICONTROL Add selections to my cart] | 모든 섹션의 제품을 장바구니에 추가합니다. |
 
 {style="table-layout:auto"}
@@ -55,7 +55,7 @@ ht-degree: 0%
    >
    >고객 레코드를 빠르게 찾으려면 [필터](../getting-started/admin-grid-controls.md) 컨트롤을 사용하십시오.
 
-   _[!UICONTROL Personal Information]_아래의 고객 프로필에서_[!UICONTROL Last Logged In]_ 날짜 및 시간은 고객이 온라인 상태임을 보여 줍니다.
+   _[!UICONTROL Personal Information]_&#x200B;아래의 고객 프로필에서&#x200B;_[!UICONTROL Last Logged In]_ 날짜 및 시간은 고객이 온라인 상태임을 보여 줍니다.
 
    ![온라인 고객의 고객 프로필](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create Order]**&#x200B;을(를) 클릭합니다.
 
-   _[!UICONTROL Create New Order]_페이지에 장바구니의 항목이 표시되고 그 뒤에 배송 및 결제 정보가 표시됩니다.
+   _[!UICONTROL Create New Order]_&#x200B;페이지에 장바구니의 항목이 표시되고 그 뒤에 배송 및 결제 정보가 표시됩니다.
 
 1. 배송 및 결제 정보를 작성합니다.
 

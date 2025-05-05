@@ -30,7 +30,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]
 
    템플릿으로 저장 단추가 있는 ![[!DNL Page Builder] 단계](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
 
-   이 작업은 _[!UICONTROL Save Content as Template]_대화 상자를 표시합니다.
+   이 작업은 _[!UICONTROL Save Content as Template]_&#x200B;대화 상자를 표시합니다.
 
    ![[!DNL Page Builder] 템플릿으로 저장 대화 상자](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
 
@@ -56,7 +56,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]
 
    ![[!DNL Page Builder] 템플릿 적용 단추](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Apply Template]_그리드에서 템플릿을 선택하고 행 끝에 있는&#x200B;**[!UICONTROL Apply]**을(를) 클릭합니다.
+1. _[!UICONTROL Apply Template]_&#x200B;그리드에서 템플릿을 선택하고 행 끝에 있는&#x200B;**[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
    전체 템플릿을 보려면 템플릿 썸네일 이미지를 클릭할 수 있습니다. 이 작업은 이미지를 확장하므로 필요에 따라 전체 템플릿을 볼 수 있습니다.
 

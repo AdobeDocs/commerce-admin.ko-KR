@@ -51,7 +51,7 @@ ht-degree: 3%
       + [장바구니 관리](shopping-assisted-cart-manage.md)
       + [주문 만들기](customer-account-create-order.md)
       + [고객 주문 업데이트](order-update.md)
-   + {#checkout} 체크아웃
+   + 체크아웃{#checkout}
       + [개요](checkout-process.md)
       + [한 페이지 체크아웃](checkout-one-page.md)
       + [게스트 체크아웃](checkout-guest.md)
@@ -92,7 +92,7 @@ ht-degree: 3%
       + [은행 송금](bank-transfer.md)
       + [구매 주문](purchase-order.md)
       + [0 소계 체크아웃](zero-subtotal-checkout.md)
-+ 주문 흐름 {#order-management} 관리
++ 주문 흐름 관리 {#order-management}
    + [판매 메뉴](sales-menu.md)
    + 주문 {#orders}
       + [개요](orders.md)
@@ -107,7 +107,7 @@ ht-degree: 3%
    + 대변 메모 {#credit-memos}
       + [개요](credit-memos.md)
       + [대변 메모 발행](credit-memo-create.md)
-   + {#returns} 반환
+   + 반환{#returns}
       + [개요](returns.md)
       + [반환 구성](rma-configure.md)
       + [속성 반환](attributes-returns.md)

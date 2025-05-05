@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Grouped Product]**을(를) 선택합니다.
+1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Grouped Product]**&#x200B;을(를) 선택합니다.
 
    ![그룹화된 제품 추가](./assets/product-add-grouped.png){width="700" zoomable="yes"}
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 1. 제품 그룹에 추가하려면 **[!UICONTROL Add Selected Products]**&#x200B;을(를) 클릭합니다.
 
-   선택한 제품이 _[!UICONTROL Grouped Products]_섹션에 표시됩니다.
+   선택한 제품이 _[!UICONTROL Grouped Products]_&#x200B;섹션에 표시됩니다.
 
    [Inventory management](../inventory-management/sources-stocks.md)을(를) 가진 다중 Source 판매자의 경우, 그리드에는 각 할당된 원본 및 재고 금액이 있는 **[!UICONTROL Quantity per Source]** 열이 포함되어 있습니다.
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 
    **메서드 2:** 저장 및 닫기
 
-   - _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
+   - _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
 ## 7단계: 장바구니 썸네일 구성(선택 사항)
 

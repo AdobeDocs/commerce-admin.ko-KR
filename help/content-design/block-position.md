@@ -55,6 +55,6 @@ ht-degree: 0%
 | [!UICONTROL Product View Extra Hint] | 콘텐츠는 제품의 주요 상위 가격 아래에 표시됩니다. |
 | [!UICONTROL Right Column] | 오른쪽 열 블록 아래에 콘텐츠가 표시됩니다. |
 | [!UICONTROL Store Language] | 언어 선택기의 오른쪽에 콘텐츠가 나타납니다. |
-| [!UICONTROL Tags List Before] | 콘텐츠가 _[!UICONTROL Add Your Tags]_필드 위에 나타납니다. |
+| [!UICONTROL Tags List Before] | 콘텐츠가 _[!UICONTROL Add Your Tags]_&#x200B;필드 위에 나타납니다. |
 
 {style="table-layout:auto"}

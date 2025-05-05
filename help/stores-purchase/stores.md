@@ -83,9 +83,9 @@ Adobe Commerce의 다중 스토어 설치는 관리자 및 서버의 명령줄�
 
 ### 4단계: 저장소 URL 구성
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**을(를) 클릭합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;을(를) 클릭합니다.
 
-1. 왼쪽 패널의 _[!UICONTROL General]_에서&#x200B;**[!UICONTROL Web]**을(를) 선택합니다.
+1. 왼쪽 패널의 _[!UICONTROL General]_&#x200B;에서&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
 
 1. 왼쪽 상단 모서리에서 새 스토어에 대해 만든 보기로 **[!UICONTROL Store View]**&#x200B;을(를) 설정합니다.
 

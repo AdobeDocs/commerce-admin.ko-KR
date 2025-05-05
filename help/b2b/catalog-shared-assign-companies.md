@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 공유 카탈로그에 회사 할당
 
-두 가지 방법으로 공유 카탈로그에 회사를 할당할 수 있습니다. _[!UICONTROL Shared Catalogs]_그리드에서 할당하거나, 고객 그룹을 선택하는 것처럼 회사를 편집하고 공유 카탈로그를 할당할 수 있습니다.
+두 가지 방법으로 공유 카탈로그에 회사를 할당할 수 있습니다. _[!UICONTROL Shared Catalogs]_&#x200B;그리드에서 할당하거나, 고객 그룹을 선택하는 것처럼 회사를 편집하고 공유 카탈로그를 할당할 수 있습니다.
 
 ![회사 할당](./assets/shared-catalog-assign-companies.png){width="700" zoomable="yes"}
 

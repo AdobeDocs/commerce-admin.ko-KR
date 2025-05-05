@@ -44,7 +44,7 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Encryption] | 웹 사이트 | 보안 연구자가 암호화된 통신을 전송하는 데 사용할 수 있는 암호화 키의 위치를 가리키는 URL입니다. _**이 필드에 암호화 키를 입력하지 마십시오.**_ <br/><br/>신뢰할 수 있는 원본에서 가져온 키인지 확인하는 것은 연구자의 책임입니다. 연구자들은 그 키가 디지털 서명을 생성하는데 사용된 것과 같다고 가정해서는 안 된다. 예: <br />웹 서버의 OpenPGP 키 - `https://mystore.com/pgp-key.txt` |
+| [!UICONTROL Encryption] | 웹 사이트 | 보안 연구자가 암호화된 통신을 전송하는 데 사용할 수 있는 암호화 키의 위치를 가리키는 URL입니다. _&#x200B;**이 필드에 암호화 키를 입력하지 마십시오.**&#x200B;_ <br/><br/>신뢰할 수 있는 원본에서 가져온 키인지 확인하는 것은 연구자의 책임입니다. 연구자들은 그 키가 디지털 서명을 생성하는데 사용된 것과 같다고 가정해서는 안 된다. 예: <br />웹 서버의 OpenPGP 키 - `https://mystore.com/pgp-key.txt` |
 | [!UICONTROL Acknowledgments] | 웹 사이트 | 보안 연구자가 인정되는 스토어의 페이지를 가리키는 URL(예: `https://mystore.com/hall-of-fame.html`). 향후 공격을 방지하려면 취약성 문제에 대한 구체적인 정보를 밝히지 않고 일반적인 설명만 포함하십시오. 예:<br />다음 연구자에게 감사드립니다.<br />(yyyy/mm/dd) Justin Thyme - SQL 삽입 |
 | [!UICONTROL Preferred Languages] | 웹 사이트 | 최소 하나 이상의 기본 보안 보고 언어를 지정합니다. 여러 개의 두 문자 [언어 코드](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)는 쉼표로 구분하십시오. 지정한 모든 언어의 우선 순위는 동일합니다. 예를들어, 영어, 스페인어, 프랑스어를 지정하려면 `en, es, fr`을(를) 입력합니다. |
 | [!UICONTROL Hiring] | 웹 사이트 | 보안 관련 작업 위치를 나열하는 사이트의 페이지 URL. 예: `https://mystore.com/jobs.html` |
