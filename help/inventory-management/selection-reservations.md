@@ -3,9 +3,9 @@ title: Source 알고리즘 및 예약
 description: 판매 가능 수량을 업데이트하기 위해 백그라운드에서 실행되는 Source 선택 알고리즘 및 예약 시스템에 대해 알아봅니다.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2196'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ SSA는 타사 지원 및 비용 효율적인 배송 추천을 위한 맞춤형 �
 
 >[!NOTE]
 >
->예약 기능을 사용하려면 `inventory.reservations.updateSalabilityStatus` 메시지 큐 소비자가 계속 실행해야 합니다. 실행 중인지 확인하려면 `bin/magento queue:consumers:list` 명령을 사용합니다. 메시지 큐 소비자가 나열되지 않은 경우 `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`을(를) 시작합니다.
+>[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 예약 기능을 사용하려면 `inventory.reservations.updateSalabilityStatus` 메시지 큐 소비자가 계속 실행해야 합니다. 실행 중인지 확인하려면 `bin/magento queue:consumers:list` 명령을 사용합니다. 메시지 큐 소비자가 나열되지 않은 경우 `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`을(를) 시작합니다.
 
 ### 예약 주문
 
@@ -188,7 +188,7 @@ SSA는 타사 지원 및 비용 효율적인 배송 추천을 위한 맞춤형 �
 
 `inventory_cleanup_reservations` cron 작업이 SQL 쿼리를 실행하여 예약 데이터베이스 테이블을 지웁니다. 기본적으로 매일 자정에 실행되지만, 시간과 빈도를 구성할 수 있습니다. cron 작업은 수량 값의 합계가 0인 전체 예약 시퀀스를 찾기 위해 데이터베이스를 쿼리하는 스크립트를 실행합니다. 같은 날(또는 기타 구성된 시간)에 시작된 특정 제품의 모든 예약이 보상되면 cron job은 예약을 한 번에 모두 삭제합니다.
 
-`inventory_reservations_cleanup` cron 작업이 `inventory.reservations.cleanup` 메시지 큐 소비자와 다릅니다. 소비자는 제품이 제거된 후 제품 SKU별로 예약을 비동기적으로 삭제하는 반면, cron 작업은 전체 예약 테이블을 지웁니다. 스토어 구성에서 [**카탈로그와 동기화**](../configuration-reference/catalog/inventory.md) 스톡 옵션을 사용하도록 설정하는 경우 소비자가 필요합니다. _구성 가이드_&#x200B;에서 [메시지 큐 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ko)를 참조하십시오.
+`inventory_reservations_cleanup` cron 작업이 `inventory.reservations.cleanup` 메시지 큐 소비자와 다릅니다. 소비자는 제품이 제거된 후 제품 SKU별로 예약을 비동기적으로 삭제하는 반면, cron 작업은 전체 예약 테이블을 지웁니다. 스토어 구성에서 [**카탈로그와 동기화**](../configuration-reference/catalog/inventory.md) 스톡 옵션을 사용하도록 설정하는 경우 소비자가 필요합니다. _구성 가이드_&#x200B;에서 [메시지 큐 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)를 참조하십시오.
 
 단 하루 만에 생성된 모든 최초 예약은 당일 보상이 되지 않는 경우가 많다. 이런 상황은 고객이 크론 작업이 시작되기 직전에 주문을 넣거나 은행 송금 등 오프라인 결제수단으로 구매하는 경우 발생할 수 있다. 보상된 예약 시퀀스들은 그것들이 모두 보상될 때까지 데이터베이스에 남아있다. 이 방법은 각 예약의 합계가 0이기 때문에 예약 계산에 방해가 되지 않습니다.
 

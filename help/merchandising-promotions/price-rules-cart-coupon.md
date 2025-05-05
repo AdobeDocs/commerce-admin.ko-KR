@@ -3,9 +3,9 @@ title: 쿠폰 코드
 description: 조건 세트가 충족될 때 장바구니 가격 규칙과 함께 쿠폰 코드를 사용하여 할인을 적용하는 방법에 대해 알아봅니다.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
 >[!NOTE]
 >
->우선 순위가 동일한 장바구니 가격 규칙은 결합된 할인을 생성하지 않습니다. 각 규칙(쿠폰)은 데이터베이스의 장바구니 가격 규칙 ID에 따라 일치하는 제품에 개별적으로 적용됩니다. 할인이 적용되는 순서를 제어하기 위해, Adobe은 추가된 각 장바구니 가격 규칙에 대해 다른 우선 순위를 설정할 것을 권장합니다.
+>우선 순위가 동일한 장바구니 가격 규칙은 결합된 할인을 생성하지 않습니다. 각 규칙(쿠폰)은 데이터베이스의 장바구니 가격 규칙 ID에 따라 일치하는 제품에 개별적으로 적용됩니다. 할인이 적용되는 순서를 제어하기 위해 Adobe에서는 추가된 각 장바구니 가격 규칙에 대해 다른 우선 순위를 설정하는 것이 좋습니다.
 
 ## 쿠폰 코드 구성
 
@@ -62,7 +62,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
 >[!NOTE]
 >
->쿠폰을 만들기 전에 `bin/magento cron:run` 명령을 사용하여 cron이 실행 중인지 확인하십시오. 자세한 내용은 _구성 가이드_&#x200B;의 [명령줄에서 cron 실행](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko#run-cron-from-the-command-line)을 참조하십시오.
+>[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 쿠폰을 만들기 전에 `bin/magento cron:run` 명령을 사용하여 cron이 실행 중인지 확인하십시오. 자세한 내용은 _구성 가이드_&#x200B;의 [명령줄에서 cron 실행](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)을 참조하십시오.
 
 ### 방법 1: 특정 쿠폰 만들기
 
@@ -89,7 +89,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
 1. 일정 기간 동안 쿠폰을 유효하게 하려면 다음을 수행합니다.
 
-   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) **시작** 및 **종료** 날짜를 완료합니다. 날짜를 선택하려면 각 필드 옆에 있는 **달력**(![달력 아이콘](../assets/icon-calendar.png)) 아이콘을 클릭합니다. 날짜 범위를 비워 두면 규칙이 만료되지 않습니다.
+   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) **시작** 및 **종료** 날짜를 완료합니다. 날짜를 선택하려면 각 필드 옆에 있는 **달력**(![달력 아이콘](../assets/icon-calendar.png)) 아이콘을 클릭합니다. 날짜 범위를 비워 두면 규칙이 만료되지 않습니다.
 
    - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) 다음 중 하나를 수행하십시오.
 

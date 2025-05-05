@@ -4,9 +4,10 @@ description: 인벤토리 데이터 및 구성 설정을 관리하기 위해  [!
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
-source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---

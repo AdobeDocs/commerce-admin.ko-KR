@@ -3,9 +3,9 @@ title: 예약된 가져오기 및 내보내기
 description: 예약된 데이터 가져오기 및 내보내기 작업을 관리하는 방법에 대해 알아봅니다.
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2429'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 0%
    - [예약된 내보내기 추가](#schedule-an-export)
    - [예약된 가져오기 추가](#schedule-an-import)
 
-1. 레코드를 저장하면 작업이 _[!UICONTROL Scheduled Import/Export]_&#x200B;표에 나타납니다.
+1. 레코드를 저장하면 작업이 _[!UICONTROL Scheduled Import/Export]_표에 나타납니다.
 
    >[!NOTE]
    >
    >예약된 가져오기/내보내기를 생성하거나 업데이트하면 시스템 구성이 변경됩니다. 저장 후 새 일정 또는 업데이트된 일정을 적용하려면 관리 페이지 상단에 표시되는 캐시 무효화 알림을 해결하고 캐시를 플러시해야 합니다.
 
-1. 예약된 각 작업 후 파일의 복사본이 Adobe Commerce 로컬 서버의 `var/log/import_export` 디렉터리에 배치됩니다.
+1. [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 예약된 각 작업 후에 파일의 사본은 Adobe Commerce 로컬 서버의 `var/log/import_export` 디렉터리에 배치됩니다.
 
    각 작업의 세부 사항이 로그에 기록되지 않습니다. 오류가 발생하면 실패한 가져오기/내보내기 작업에 대한 알림과 함께 오류 설명이 전송됩니다.
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 각 가져오기 작업의 세부 정보가 로그에 기록되지 않지만 오류가 발생하면 오류에 대한 설명이 포함된 _가져오기 실패_ 전자 메일을 받게 됩니다. 마지막으로 일정이 잡힌 가져오기 작업의 결과는 [일정이 잡힌 가져오기/내보내기] 페이지의 [마지막 결과] 열에 표시됩니다.
 
-각 가져오기 작업 후 가져오기 파일의 복사본은 Adobe Commerce 또는 Magento Open Source이 배포된 서버의 `var/log/import_export` 디렉터리에 배치됩니다. 타임스탬프, 가져온 엔티티(제품 또는 고객)의 마커 및 작업 유형(이 경우 가져오기)이 가져오기 파일 이름에 추가됩니다.
+[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 각 가져오기 작업 후에 가져오기 파일의 사본은 Adobe Commerce 또는 Magento Open Source이 배포된 서버의 `var/log/import_export` 디렉터리에 배치됩니다. 타임스탬프, 가져온 엔티티(제품 또는 고객)의 마커 및 작업 유형(이 경우 가져오기)이 가져오기 파일 이름에 추가됩니다.
 
 예약된 각 가져오기 작업 후 색인 재지정 작업이 자동으로 수행됩니다. 전면에서는 설명서 등 텍스트 정보의 변화분이 업데이트된 데이터가 데이터베이스로 넘어간 후 반영되며 가격의 변화분은 리인덱싱 작업 후에만 반영된다.
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >_[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;및_[!UICONTROL Stock Sources]_ 엔터티 형식의 경우 다음과 같은 가져오기 동작이 표시됩니다. `Add/Update`, `Replace` 및 `Delete`. _고객 재무_, _고객 기본 파일_ 및 _고객 및 주소_ 엔터티 형식의 경우 다음과 같은 가져오기 동작이 표시됩니다. `Add/Update Complex Data`, `Delete Entities` 및 `Custom Action`.
+     >_[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_및_[!UICONTROL Stock Sources]_ 엔터티 형식의 경우 다음과 같은 가져오기 동작이 표시됩니다. `Add/Update`, `Replace` 및 `Delete`. _고객 재무_, _고객 기본 파일_ 및 _고객 및 주소_ 엔터티 형식의 경우 다음과 같은 가져오기 동작이 표시됩니다. `Add/Update Complex Data`, `Delete Entities` 및 `Custom Action`.
 
    - **[!UICONTROL Start Time]** — 가져오기가 시작되도록 예약된 시간, 분 및 초로 설정합니다.
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   예약된 새 가져오기 작업이 _[!UICONTROL Scheduled Import/Export]_&#x200B;페이지의 목록에 추가됩니다. 이 페이지에서 테스트 및 편집을 위해 즉시 실행할 수 있습니다. 가져오기 파일은 각 가져오기 작업을 실행하기 전에 유효성이 검사됩니다.
+   예약된 새 가져오기 작업이 _[!UICONTROL Scheduled Import/Export]_페이지의 목록에 추가됩니다. 이 페이지에서 테스트 및 편집을 위해 즉시 실행할 수 있습니다. 가져오기 파일은 각 가져오기 작업을 실행하기 전에 유효성이 검사됩니다.
 
 >[!NOTE]
 >
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 | 필드 | 설명 |
 | ----- | ----------- | 
-| [!UICONTROL Server Type] | Commerce이 배포된 동일한 서버의 파일(`Local Server` 선택)이나 원격 FTP 서버(`Remote FTP` 선택)에서 가져올 수 있습니다. _[!UICONTROL Remote FTP]_&#x200B;을(를) 선택하면 자격 증명 및 파일 전송 설정에 대한 추가 옵션이 나타납니다. 원격 저장소 모듈을 사용하도록 설정하면 `Local Server` 형식이 자동으로 `Remote Storage`(으)로 전환됩니다. |
+| [!UICONTROL Server Type] | Commerce이 배포된 동일한 서버의 파일(`Local Server` 선택)이나 원격 FTP 서버(`Remote FTP` 선택)에서 가져올 수 있습니다. _[!UICONTROL Remote FTP]_을(를) 선택하면 자격 증명 및 파일 전송 설정에 대한 추가 옵션이 나타납니다. 원격 저장소 모듈을 사용하도록 설정하면 `Local Server` 형식이 자동으로 `Remote Storage`(으)로 전환됩니다. |
 | [!UICONTROL File Directory] | 가져오기 파일이 있는 디렉토리를 지정합니다. 서버 유형이 _[!UICONTROL Local Server]_(으)로 설정된 경우 Commerce 설치 디렉터리에 상대적인 경로를 지정하십시오. 예: 원격 저장소용 `var/import` 또는 `import_export/import`. |
 | [!UICONTROL File Name] | 가져오기 파일의 이름을 지정합니다. |
 | [!UICONTROL Images File Directory] | 제품 이미지가 저장되는 디렉토리의 경로를 입력합니다. 로컬 서버의 경우 상대 경로를 입력합니다. 예: 원격 저장소용 `var/import` 또는 `import_export/import`. |
@@ -203,7 +203,7 @@ ht-degree: 0%
 
 각 내보내기의 세부 정보는 로그에 기록되지 않지만, 오류가 있는 경우 오류 설명이 포함된 내보내기 실패 이메일을 받게 됩니다. 마지막 내보내기 작업의 결과가 예약된 가져오기/내보내기 페이지의 마지막 결과 열에 나타납니다.
 
-각 내보내기 후에는 내보내기 파일이 사용자 정의 위치에 배치되고, Adobe Commerce 또는 Magento Open Source이 배포된 서버의 `var/log/import_export` 디렉터리에 복사본이 배치됩니다. 내보낸 엔티티(제품 또는 고객)의 타임스탬프 및 마커와 작업 유형(이 경우 내보내기)이 내보내기 파일 이름에 추가됩니다.
+[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 내보낼 때마다 내보내기 파일이 사용자 정의 위치에 배치되고 Adobe Commerce 또는 Magento Open Source이 배포된 서버의 `var/log/import_export` 디렉터리에 복사본이 배치됩니다. 내보낸 엔티티(제품 또는 고객)의 타임스탬프 및 마커와 작업 유형(이 경우 내보내기)이 내보내기 파일 이름에 추가됩니다.
 
 ### 1단계: 내보내기 설정 완료
 
@@ -224,7 +224,7 @@ ht-degree: 0%
       - `Customer Addresses`
       - `Stock Sources`
 
-     페이지 하단의 _[!UICONTROL Entity Attributes]_&#x200B;섹션이 선택한 엔터티 형식을 반영하도록 업데이트됩니다.
+     페이지 하단의 _[!UICONTROL Entity Attributes]_섹션이 선택한 엔터티 형식을 반영하도록 업데이트됩니다.
 
    - 내보내기가 시작되도록 예약된 시간, 분, 초로 **[!UICONTROL Start Time]**&#x200B;을(를) 설정합니다.
 
@@ -258,7 +258,7 @@ ht-degree: 0%
    - **[!UICONTROL Local Server]**&#x200B;의 경우 Commerce 설치 내에서 상대 경로를 입력하십시오(예: `var/export`). 원격 저장소 모듈이 구성되어 있으면 `import_export/export`을(를) 사용합니다.
    - **[!UICONTROL Remote FTP server]**&#x200B;의 경우 대상 서버의 대상 폴더에 대한 전체 URL 및 경로를 입력하십시오.
 
-1. _[!UICONTROL Remote FTP]_&#x200B;서버를 선택한 경우 서버에 연결 자격 증명을 입력하고 추가 설정을 선택하십시오.
+1. _[!UICONTROL Remote FTP]_서버를 선택한 경우 서버에 연결 자격 증명을 입력하고 추가 설정을 선택하십시오.
 
    - **[!UICONTROL FTP Host[:Port]]**&#x200B;의 경우 원격 FTP 호스트 주소를 입력하십시오.
    - **[!UICONTROL User Name]**&#x200B;의 경우 원격 서버에 액세스하는 데 사용되는 사용자 이름을 입력하십시오.
@@ -285,14 +285,14 @@ ht-degree: 0%
 
 ### 4단계: 엔티티 속성 선택
 
-1. _[!UICONTROL Entity Attributes]_&#x200B;섹션에서 내보내기 데이터에 포함할 특성을 선택합니다.
+1. _[!UICONTROL Entity Attributes]_섹션에서 내보내기 데이터에 포함할 특성을 선택합니다.
 
-   - 내보내기 데이터를 특성 값으로 필터링하려면 _[!UICONTROL Filter]_&#x200B;열에 특성 값을 입력하십시오.
+   - 내보내기 데이터를 특성 값으로 필터링하려면 _[!UICONTROL Filter]_열에 특성 값을 입력하십시오.
    - 특정 속성 값을 가진 제품이나 고객을 제외하려면 제외할 속성 값을 입력하고 건너뛰기 열에서 확인란을 선택합니다.
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   예약된 새 내보내기 작업이 _[!UICONTROL Scheduled Import/Export]_&#x200B;페이지의 목록에 추가됩니다. 이 페이지에서 즉시 실행하여 테스트하고 편집할 수 있습니다.
+   예약된 새 내보내기 작업이 _[!UICONTROL Scheduled Import/Export]_페이지의 목록에 추가됩니다. 이 페이지에서 즉시 실행하여 테스트하고 편집할 수 있습니다.
 
 >[!NOTE]
 >
@@ -319,7 +319,7 @@ ht-degree: 0%
 | 필드 | 설명 |
 | ----- | ----------- | 
 | [!UICONTROL Server Type] | 내보내기 파일의 위치를 결정합니다. 옵션:<br>**로컬 서버** — Commerce이 배포된 동일한 서버에 내보내기 파일을 배치합니다. 원격 저장소 모듈을 사용하도록 설정하면 `Local Server`이(가) `Remote Storage`(으)로 전환됩니다.<br>**원격 FTP** — 내보내기 파일을 원격 서버에 배치합니다. 자격 증명 및 파일 전송 설정에 대한 추가 옵션이 표시됩니다. |
-| [!UICONTROL File Directory] | 내보내기 파일이 있는 디렉토리를 지정합니다. _[!UICONTROL Server Type]_&#x200B;이(가) `Local Server`(으)로 설정된 경우 Commerce 설치 경로를 기준으로 경로를 지정하십시오. 예: 원격 저장소용 `var/export` 또는 `import_export/export`. |
+| [!UICONTROL File Directory] | 내보내기 파일이 있는 디렉토리를 지정합니다. _[!UICONTROL Server Type]_이(가) `Local Server`(으)로 설정된 경우 Commerce 설치 경로를 기준으로 경로를 지정하십시오. 예: 원격 저장소용 `var/export` 또는 `import_export/export`. |
 
 {style="table-layout:auto"}
 

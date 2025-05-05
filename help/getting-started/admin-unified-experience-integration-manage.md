@@ -5,16 +5,17 @@ hide: false
 hidefromtoc: false
 feature: Integration
 exl-id: 451bf2e1-7c38-40be-a7c1-aaf0fe9f486c
-source-git-commit: 15569794c1e66ba5a93e46206244e2951522923e
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
 
 # Experience Cloud 통합 관리
 
-초기 활성화 이후 Commerce 관리 통합 경험 확장을 활성화 또는 비활성화하여 Experience Cloud 통합 상태를 관리합니다.
+초기 활성화 이후 Commerce 관리자 통합 경험 확장을 활성화 또는 비활성화하여 Experience Cloud 통합의 상태를 관리합니다.
 
 - Commerce 관리자 통합 경험 확장이 활성화되어 있고 관리자 계정이 [올바르게 프로비저닝된 경우](#manage-admin-user-accounts) Commerce 관리자는 Adobe Experience Cloud에서 사용 가능한 Commerce 프로젝트를 보고 액세스할 수 있습니다. 관리자는 여전히 Commerce 프로젝트 환경의 관리 URL을 사용하여 개별 프로젝트에 액세스할 수 있습니다.
 
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->IMS(Adobe Identity Management 서비스) 통합이 비활성화되면 Experience Cloud 통합이 자동으로 비활성화됩니다.
+>Adobe IMS(Identity Management Service) 통합이 비활성화되면 Experience Cloud 통합이 자동으로 비활성화됩니다.
 
 ## 관리자의 통합 관리
 
@@ -30,7 +31,7 @@ ht-degree: 0%
 
 1. 구성 메뉴에서 **[!UICONTROL Advanced > Admin]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Unified Experience option]**&#x200B;을(를) 확장합니다.
 
-   ![Experience Cloud 통합을 위한 관리자 저장소 구성](./assets/admin-uex-manage-settings.png){width="600" zoomable="yes"}
+   ![Experience Cloud 통합에 대한 관리자 저장소 구성](./assets/admin-uex-manage-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Enable]** 값을 선택하여 통합을 활성화하거나 비활성화합니다.
 
@@ -74,12 +75,12 @@ Adobe 제품 및 서비스에 액세스하려면 모든 Commerce 관리자 사�
 
 - Commerce 인스턴스의 관리자로부터 **Commerce 관리자 계정**—[Commerce 관리자 사용자 관리](../systems/permissions-users-all.md)를 받습니다. Commerce 관리자의 사용자 계정에는 관리자 역할이 할당되어야 합니다.
 
-  Commerce 프로젝트의 시스템 관리자는 [SSH를 사용하여 원격 환경에 연결](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=ko#connect-to-a-remote-environment)하고 Commerce CLI `admin:user:create` 및 `admin:user:unlock` 명령을 사용하여 관리자 계정을 추가하거나 잠금 해제할 수 있습니다.
+  Commerce 프로젝트의 시스템 관리자는 [SSH를 사용하여 원격 환경에 연결](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html#connect-to-a-remote-environment)하고 Commerce CLI `admin:user:create` 및 `admin:user:unlock` 명령을 사용하여 관리자 계정을 추가하거나 잠금 해제할 수 있습니다.
 
-- **Adobe 사용자 계정**—Commerce 인스턴스와 연결된 Adobe 조직의 관리자는 Adobe Admin Console에 로그인하고 각 Commerce 관리자에 대한 Adobe ID을 조직에 추가해야 합니다. 그런 다음 Commerce 애플리케이션에 액세스할 수 있는 제품 권한 및 권한을 할당해야 합니다. [Adobe Admin Console에서 Adobe Commerce 사용자 구성](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console)을 참조하십시오.
+- **Adobe 사용자 계정**—Commerce 인스턴스와 연결된 Adobe 조직의 관리자는 Adobe Admin Console에 로그인하여 각 Commerce 관리자의 Adobe ID을 조직에 추가해야 합니다. 그런 다음 Commerce 애플리케이션에 액세스할 수 있는 제품 권한 및 권한을 할당해야 합니다. [Adobe Admin Console에서 Adobe Commerce 사용자 구성](adobe-ims-config.md#step-4-configure-adobe-commerce-users-in-the-adobe-admin-console)을 참조하십시오.
 
 Adobe Developer Console에서 Experience Cloud 통합에 대한 구성을 관리하는 관리자는 시스템 관리자 또는 개발자 액세스 권한이 있는 Adobe 사용자 계정이 있어야 합니다.
 
 >[!NOTE]
 >
->Adobe ID은 Experience Cloud을 통해 제품 및 서비스에 액세스하는 데 필요한 Adobe을 통해 생성되는 계정입니다. Adobe ID이 없는 Commerce 관리자는 Commerce 관리자에 로그인하는 데 사용하는 것과 동일한 이메일 주소를 사용하여 [무료 계정을 만들 수 있습니다](https://helpx.adobe.com/kr/manage-account/using/create-update-adobe-id.html).
+>Adobe ID은 Adobe을 통해 만든 계정으로 Experience Cloud을 통해 제품 및 서비스에 액세스하는 데 필요합니다. Adobe ID이 없는 Commerce 관리자는 Commerce 관리자에 로그인하는 데 사용하는 것과 동일한 이메일 주소를 사용하여 [무료 계정을 만들 수 있습니다](https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html).

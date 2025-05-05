@@ -4,9 +4,10 @@ description: ' [!DNL Inventory Management] 메타패키지를 관리하는 방�
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
-source-git-commit: d6c81da4b4e0674d6699e9781921ccb2160b9983
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 [!DNL Inventory Management]은(는) 기본적으로 모든 기능이 활성화된 Adobe Commerce 및 Magento Open Source의 2.3.x 및 2.4.x 릴리스에 설치됩니다. 이러한 재고 기능을 활성화하는 데 추가 단계가 필요하지 않습니다. v2.1.x 또는 2.2.x에서 업그레이드하려면 추가 단계가 필요할 수 있습니다. [Inventory management 업그레이드](#upgrade-inventory-management)를 참조하십시오.
 
-[빠른 시작 온-프레미스 설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=ko){target="_blank"}에 따른 설치가 권장됩니다. 모든 [!DNL Inventory Management] 모듈을 받으려면 메타패키지로 설치하십시오.
+[빠른 시작 온-프레미스 설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html){target="_blank"}에 따른 설치가 권장됩니다. 모든 [!DNL Inventory Management] 모듈을 받으려면 메타패키지로 설치하십시오.
 
 `composer.json` 메타패키지에 있는 다음 줄은 [!DNL Inventory Management]을(를) 설치합니다.
 
@@ -83,7 +84,7 @@ ht-degree: 0%
 
 ## [!DNL Inventory Management]개 기능 사용
 
-설치, 업그레이드 또는 업데이트 시 Admin의 _[!UICONTROL Manage Stock]_&#x200B;옵션이 기본적으로 사용됩니다. 이 옵션을 사용하면 인벤토리 추적 및 관리를 사용할 수 있지만 모듈 상태에는 영향을 주지 않습니다. 모듈을 비활성화하려면 다음 섹션을 참조하십시오.
+설치, 업그레이드 또는 업데이트 시 Admin의 _[!UICONTROL Manage Stock]_옵션이 기본적으로 사용됩니다. 이 옵션을 사용하면 인벤토리 추적 및 관리를 사용할 수 있지만 모듈 상태에는 영향을 주지 않습니다. 모듈을 비활성화하려면 다음 섹션을 참조하십시오.
 
 구성에 대한 자세한 내용은 [Inventory management 구성](configuration.md)을 참조하십시오.
 
@@ -98,7 +99,7 @@ ht-degree: 0%
 * 2.0.x, 2.1.x, 2.2.x 또는 2.3.x에서 2.4.x로 마이그레이션하는 상인의 업그레이드 프로세스 속도를 높입니다.
 * 사용자 지정 또는 서드파티 재고 및 주문 관리 시스템 모듈을 사용합니다.
 
-해당 모듈을 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 _설치 안내서_&#x200B;의 [모듈 사용 또는 사용 안 함](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=ko) 페이지를 참조하십시오.
+해당 모듈을 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 _설치 안내서_&#x200B;의 [모듈 사용 또는 사용 안 함](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html) 페이지를 참조하십시오.
 
 완료되면 시스템은 `<Magento_installation_directory>/app/etc/config.php`에 다음과 같이 시작하는 모듈 및 값 목록을 제공합니다.
 
@@ -240,5 +241,5 @@ ht-degree: 0%
 
 Commerce 업그레이드에 대한 자세한 내용은 다음 안내서를 참조하십시오.
 
-* [Commerce 업데이트 안내서](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ko){target="_blank"}
-* [모듈 사용 또는 사용 안 함](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=ko){target="_blank"}
+* [Commerce 업데이트 안내서](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html){target="_blank"}
+* [모듈 사용 또는 사용 안 함](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html){target="_blank"}
