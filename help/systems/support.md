@@ -2,9 +2,9 @@
 title: 지원 도구
 description: 시스템에서 문제를 식별하는 데 사용할 수 있는 제공된 지원 도구에 대해 알아봅니다.
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-source-git-commit: 97eeb733836f0336401664c5cfb3df2b9f2f2ccf
+source-git-commit: e05d13f79ceb2fe24c1931fefb48317ebd36d1fc
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -14,60 +14,6 @@ ht-degree: 0%
 {{ee-feature}}
 
 지원 도구는 시스템의 알려진 문제를 식별하도록 설계되었습니다. 개발 및 최적화 프로세스 동안 리소스로 사용할 수 있으며, 지원 팀이 문제를 식별하고 해결하는 데 도움이 되는 진단 도구로 사용할 수 있습니다.
-
-## 데이터 수집기
-
-데이터 수집기는 Adobe Commerce 설치 문제를 해결하기 위해 지원 팀에서 필요한 시스템 정보를 수집합니다. 작성된 백업은 완료하는 데 몇 분 정도 걸리며 여기에는 코드와 데이터베이스 덤프가 모두 포함됩니다. 데이터를 CSV 또는 Excel XML 파일로 내보낼 수 있습니다.
-
-![시스템 - 데이터 수집기](./assets/data-collector.png){width="600" zoomable="yes"}
-
-### 데이터 수집기 실행
-
-1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**(으)로 이동합니다.
-
-1. 오른쪽 상단에서 **[!UICONTROL New Backup]**&#x200B;을(를) 클릭합니다.
-
-   백업을 생성하는 데 몇 분 정도 소요됩니다. **[!UICONTROL Refresh Status]**&#x200B;을(를) 클릭하여 처리 결과를 모니터링할 수 있습니다. 완료되면 백업이 _[!UICONTROL Data Collector]_&#x200B;그리드에 나타납니다.
-
-1. 백업 세부 정보가 포함된 로그를 보려면 다음을 수행합니다.
-
-   - _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Show Log]**&#x200B;을(를) 선택합니다.
-
-   - 그리드로 돌아가려면 **[!UICONTROL Back]**&#x200B;을(를) 클릭합니다.
-
-   ![데이터 수집기 로그](./assets/data-collector-log.png){width="600" zoomable="yes"}
-
-### 백업 데이터 내보내기
-
-1. 첫 번째 열에서 내보낼 백업의 확인란을 선택합니다.
-
-1. 내보내기 데이터의 형식을 선택하려면 **[!UICONTROL Export]** 메뉴를 사용하십시오.
-
-   ![내보내기 형식](./assets/data-collector-export.png){width="600" zoomable="yes"}
-
-1. 웹 브라우저 다운로드 위치에서 파일에 액세스하여 **[!UICONTROL Save]**&#x200B;합니다.
-
-### 백업 데이터 다운로드
-
-백업이 생성되면 코드 및 DB 데이터의 복사본을 다운로드할 수 있습니다.
-
-1. 그리드에서 필요한 백업 엔티티를 찾습니다.
-
-1. 상태가 `Complete`인지 확인하십시오.
-
-1. _[!UICONTROL Code Dump]_&#x200B;또는&#x200B;_[!UICONTROL DB Dump]_ 열에서 엔터티 이름을 클릭합니다.
-
-다운로드 프로세스가 자동으로 시작됩니다.
-
-## 백업 데이터 삭제
-
-1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**(으)로 이동합니다.
-
-1. 삭제할 백업 데이터를 찾아 선택합니다.
-
-1. _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
-
-1. 작업을 확인하려면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
 ## 시스템 보고서
 
@@ -116,7 +62,7 @@ _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Support]_>
 
 ### 시스템 보고서 세부 정보 보기
 
-1. 필요한 보고서에 대해 _[!UICONTROL Actions]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 선택합니다.
+1. 필요한 보고서에 대해 _[!UICONTROL Actions]_열에서&#x200B;**[!UICONTROL View]**을(를) 선택합니다.
 
 1. 왼쪽 패널에서 보고서의 각 섹션을 ![확장 선택기](../assets/icon-display-expand.png)로 확장하여 세부 정보를 봅니다.
 
