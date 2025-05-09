@@ -103,7 +103,7 @@ PayPal 사기 행위 관리 필터를 사용하면 사기성 거래를 보다 �
 | 작업 | 결과 |
 | --- | --- |
 | [!UICONTROL Review] | 의심되는 주문은 주문 시 _결제 검토_ 상태를 받습니다. 관리자 또는 PayPal 측에서 주문을 검토하고 결제를 승인하거나 취소할 수 있습니다. **[!UICONTROL Accept Payment]** 또는 **[!UICONTROL Deny Payment]**&#x200B;을(를) 클릭하면 주문에 대한 새 트랜잭션이 만들어지지 않습니다. <br/><br/>PayPal 사이트에서 거래 상태를 변경하는 경우 관리자의 [순서] 페이지에서 **[!UICONTROL Get Payment Update]**&#x200B;을 클릭하여 변경 내용을 적용해야 합니다. **[!UICONTROL Accept Payment]** 또는 **[!UICONTROL Deny Payment]**&#x200B;을(를) 클릭하면 PayPal 사이트에서 변경한 내용이 적용됩니다. |
-| [!UICONTROL Deny] | 해당 거래는 페이팔에서 거부되기 때문에 고객이 의심 주문을 할 수 없습니다. <br/><br/>관리자의 결제를 거부하려면 페이지의 오른쪽 상단에 있는 **[!UICONTROL Deny Payment]**&#x200B;을(를) 클릭하십시오. 주문 상태가 `Canceled`(으)로 변경되고 거래가 취소되며 고객 계정에서 자금이 해제됩니다. 주문 보기의 _[!UICONTROL Comments History]_섹션에 해당 정보가 추가됩니다. |
+| [!UICONTROL Deny] | 해당 거래는 페이팔에서 거부되기 때문에 고객이 의심 주문을 할 수 없습니다. <br/><br/>관리자의 결제를 거부하려면 페이지의 오른쪽 상단에 있는 **[!UICONTROL Deny Payment]**&#x200B;을(를) 클릭하십시오. 주문 상태가 `Canceled`(으)로 변경되고 거래가 취소되며 고객 계정에서 자금이 해제됩니다. 주문 보기의 _[!UICONTROL Comments History]_&#x200B;섹션에 해당 정보가 추가됩니다. |
 | [!UICONTROL Flag] | 의심되는 주문이 배치되면 상태 `Processing`을(를) 가져옵니다. 해당 거래는 머천트 계좌 거래 목록에 플래그로 표시되어 있다. |
 
 {style="table-layout:auto"}

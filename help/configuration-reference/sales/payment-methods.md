@@ -91,7 +91,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Make Check Payable to] | 스토어 뷰 | 수표 및 금전 지급을 이행해야 할 주체의 이름. |
 | [!UICONTROL Send Check to] | 스토어 뷰 | 수표 및 금전 주문을 전송해야 하는 거리 주소 또는 PO Box. |
 | [!UICONTROL Minimum Order Total] | 웹 사이트 | 수표나 우편환으로 결제할 수 있는 최소 주문 금액. |
-| [!UICONTROL Maximum Order Total] | 웹 사이트 | 수표 또는 금전 주문으로 결제할 수 있는 최대 주문 금액. <br/><br/>**_참고:_**합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
+| [!UICONTROL Maximum Order Total] | 웹 사이트 | 수표 또는 금전 주문으로 결제할 수 있는 최대 주문 금액. <br/><br/>**_참고:_**&#x200B;합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 결제 방법과 함께 나열할 때 수표 또는 금전 주문에 의한 결제가 나타나는 순서를 결정하는 숫자입니다. `0`을(를) 입력하여 목록의 맨 위에 배치합니다. |
 
 {style="table-layout:auto"}
@@ -110,7 +110,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Payment from Applicable Countries] | 웹 사이트 | 은행 이체로 지급을 수락하는 국가를 결정합니다. 옵션: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 웹 사이트 | 은행 이체로 지급을 수락하는 특정 국가를 식별합니다. |
 | [!UICONTROL Minimum Order Total] | 웹 사이트 | 은행 이체로 지급할 수 있는 최소 주문 금액. |
-| [!UICONTROL Maximum Order Total] | 웹 사이트 | 은행 이체로 지급할 수 있는 가장 큰 주문 금액. <br/><br/>**_참고:_**합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
+| [!UICONTROL Maximum Order Total] | 웹 사이트 | 은행 이체로 지급할 수 있는 가장 큰 주문 금액. <br/><br/>**_참고:_**&#x200B;합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 결제 방법과 함께 나열할 때 은행 이체로 지급하는 순서를 결정하는 번호가 나타납니다. `0`을(를) 입력하여 목록의 맨 위에 배치합니다. |
 
 {style="table-layout:auto"}
@@ -131,7 +131,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Payment from Applicable Countries] | 웹 사이트 | 회사가 자신의 계정에 구매를 부과할 수 있도록 허용하는 국가를 결정합니다. 옵션: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 웹 사이트 | 기업이 자신의 계정에 구매를 부과할 수 있는 특정 국가를 식별합니다. |
 | [!UICONTROL Minimum Order Total] | 웹 사이트 | 회사 계정에 부과할 수 있는 최소 주문 금액을 지정합니다. |
-| [!UICONTROL Maximum Order Total] | 웹 사이트 | 회사 계정에 청구할 수 있는 최대 주문 금액. <br/><br/>**_참고:_**합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
+| [!UICONTROL Maximum Order Total] | 웹 사이트 | 회사 계정에 청구할 수 있는 최대 주문 금액. <br/><br/>**_참고:_**&#x200B;합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 결제 방법과 함께 나열할 때 계정 결제가 표시되는 순서를 결정하는 번호입니다. `0`을(를) 입력하여 목록의 맨 위에 배치합니다. |
 
 {style="table-layout:auto"}
@@ -154,7 +154,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Payment from Applicable Countries] | 웹 사이트 | 은행 이체로 지급을 수락하는 국가를 결정합니다. 옵션: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 웹 사이트 | 은행 이체로 지급을 수락하는 특정 국가를 식별합니다. |
 | [!UICONTROL Minimum Order Total] | 웹 사이트 | 은행 이체로 지급할 수 있는 최소 주문 금액을 지정합니다. |
-| [!UICONTROL Maximum Order Total] | 웹 사이트 | 은행 이체로 지급할 수 있는 가장 큰 주문 금액. <br/><br/>**_참고:_**합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
+| [!UICONTROL Maximum Order Total] | 웹 사이트 | 은행 이체로 지급할 수 있는 가장 큰 주문 금액. <br/><br/>**_참고:_**&#x200B;합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 결제 방법과 함께 나열할 때 은행 이체로 지급하는 순서를 결정하는 번호가 나타납니다. `0`을(를) 입력하여 목록의 맨 위에 배치합니다. |
 
 {style="table-layout:auto"}
@@ -199,7 +199,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 
 >[!NOTE]
 >
->나중에 Commerce을 통해 결제를 캡처할 것이 확실하지 않은 경우 _[!UICONTROL Not Capture]_옵션을 선택하지 마십시오. 수집 버튼을 사용하여 지급이 수집될 때까지 대변 메모를 생성할 수 없습니다.
+>나중에 Commerce을 통해 결제를 캡처할 것이 확실하지 않은 경우 _[!UICONTROL Not Capture]_&#x200B;옵션을 선택하지 마십시오. 수집 버튼을 사용하여 지급이 수집될 때까지 대변 메모를 생성할 수 없습니다.
 
 ## [!UICONTROL Purchase Order]
 
@@ -215,7 +215,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Payment from Applicable Countries] | 웹 사이트 | PO에 의한 지급을 수락하는 국가를 결정합니다. 옵션: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 웹 사이트 | PO별 지급을 수락하는 특정 국가를 식별합니다. |
 | [!UICONTROL Minimum Order Total] | 웹 사이트 | PO로 지급할 수 있는 최소 주문 수량입니다. |
-| [!UICONTROL Maximum Order Total] | 웹 사이트 | PO로 지급할 수 있는 가장 큰 주문 금액. <br/><br/>**_참고:_**합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
+| [!UICONTROL Maximum Order Total] | 웹 사이트 | PO로 지급할 수 있는 가장 큰 주문 금액. <br/><br/>**_참고:_**&#x200B;합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 결제 방법과 함께 나열할 때 PO별 결제 순서를 결정하는 번호가 나타납니다. `0`을(를) 입력하여 목록의 맨 위에 배치합니다. |
 
 {style="table-layout:auto"}
