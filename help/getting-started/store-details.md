@@ -3,9 +3,9 @@ title: 세부 정보 저장
 description: 스토어에 대한 기본 정보를 업데이트하는 방법을 알아봅니다.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 81b55a634d33b79d3164a4d438ae0f23198bc364
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Store Information]
 
-_[!UICONTROL Store Information]_&#x200B;섹션은 판매 문서 및 기타 통신에 나타나는 기본 정보를 제공합니다.
+_[!UICONTROL Store Information]_섹션은 판매 문서 및 기타 통신에 나타나는 기본 정보를 제공합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
@@ -169,9 +169,11 @@ _[!UICONTROL Store Information]_&#x200B;섹션은 판매 문서 및 기타 통�
 
 국가 구성 문제를 해결하는 데 대한 도움말을 보려면 다음 [!DNL Commerce] 지원 기술 문서를 참조하십시오.
 
-- [국가를 추가하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=ko)
+- [국가를 추가하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 판매자 위치 설정은 [결제 방법](../stores-purchase/payments.md)을 구성하는 데 사용됩니다. 이 설정에 대한 값이 없으면 [기본 국가](#uicontrol-country-options) 설정이 사용됩니다.
 
@@ -315,7 +317,7 @@ Luma 샘플 데이터에는 스토어에 대해 사용자 지정할 수 있는 _
 
 1. 스토어에 대한 연락처 정보를 제공하는 대로 HTML 코드를 편집하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   ![콘텐츠 차단 - HTML 코드 편집](./assets/content-block-contact-us-html.png){width="700"}
+   ![콘텐츠 블록 - HTML 코드 편집](./assets/content-block-contact-us-html.png){width="700"}
 
 1. [!DNL Page Builder] 단계를 종료하고 **[!UICONTROL Save Block]**&#x200B;을(를) 클릭합니다.
 

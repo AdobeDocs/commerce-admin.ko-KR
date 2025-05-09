@@ -3,9 +3,10 @@ title: PayPal 결제 보고서
 description: PayPal 거래를 관리하는 도구로서의 PayPal 결제 보고서에 대해 알아봅니다.
 exl-id: cd087e15-e6ad-4472-9038-8c64fde316f9
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ PayPal 결산 보고서는 자금 결산에 영향을 미치는 각 거래에 �
 >
 >결제 보고서를 생성하기 전에 매장 관리자는 PayPal 판매자 기술 서비스에 SFTP 사용자 계정을 만들고 결제 보고서 생성을 사용하도록 설정하고 PayPal 비즈니스 계정에서 SFTP를 사용하도록 설정해야 합니다.
 
-Adobe Commerce 및 Magento Open Source은 PayPal 판매자 계정에서 결제 보고서를 구성하고 활성화한 후 다음 24시간 동안 보고서 생성을 시작합니다. 사용 가능한 결제 보고서 목록은 관리자로부터 볼 수 있습니다.
+Adobe Commerce 및 Magento Open Source은 PayPal 판매자 계정에서 결제 보고서를 구성하고 활성화한 후, 다음 24시간 동안 보고서 생성을 시작합니다. 사용 가능한 결제 보고서 목록은 관리자로부터 볼 수 있습니다.
 
 **_결제 보고서를 보려면:_**
 

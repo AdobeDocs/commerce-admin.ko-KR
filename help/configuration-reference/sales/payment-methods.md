@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Commerce 관리자의 [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 489c72652693a15ffe1c745277bbaa9da084dcba
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,17 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce 및 Magento Open Source용 결제 서비스는 강력하고 안전한 결제 처리를 위해 샌드박스 테스트 및 간단한 설정을 포함한 턴키 셀프 서비스 솔루션을 제공합니다. 이 강력한 도구 집합에 대해 자세히 알아보고 구매자에게 최상의 경험을 제공하기 위해 필요한 통찰력과 컨트롤을 제공하는 방법에 대해 알아보려면 [_결제 서비스 사용 안내서_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=ko)를 참조하세요.
+>Adobe Commerce 및 Magento Open Source용 결제 서비스는 강력하고 안전한 결제 처리를 위해 샌드박스 테스트 및 간단한 설정을 포함한 턴키 셀프 서비스 솔루션을 제공합니다. 이 강력한 도구 집합에 대해 자세히 알아보고 구매자에게 최상의 경험을 제공하기 위해 필요한 insight 및 제어 기능에 대해 알아보려면 [_결제 서비스 사용 안내서_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)를 참조하세요.
 
 {{config}}
 
 ## [!UICONTROL Merchant Location]
 
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+
 ![판매자 위치](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/setup/store-details#merchant-location) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -34,9 +36,9 @@ ht-degree: 0%
 
 이제 막 시작하는 가맹점이 페이팔 계정이나 신용카드로 온라인 결제를 받을 수 있는 간편한 방법으로 다음의 결제 솔루션을 추천한다. 비즈니스가 성장함에 따라 이를 추가 PayPal 결제 솔루션과 결합할 수 있습니다.
 
-- [PayPal Express 체크아웃](paypal-express-checkout.md)
-- [Braintree](braintree.md)
 - [결제 서비스](payment-services.md)
+- [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [PayPal 빠른 체크아웃](paypal-express-checkout.md)
+- [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [Braintree](braintree.md)
 
 >[!NOTE]
 >
@@ -44,21 +46,27 @@ ht-degree: 0%
 ><br/>
 >**Amazon Pay** 및 **Klarna**: Adobe Commerce 및 Magento Open Source 릴리스 2.4.0 - 2.4.3에는 이러한 공급업체에서 개발한 확장이 포함되어 있습니다. 2.4.4 릴리스부터 이러한 확장은 더 이상 핵심 릴리스와 번들로 제공되지 않으며 Commerce Marketplace에서 설치하고 업데이트해야 합니다. Marketplace에서는 확장 개발자가 제공하는 현재 설명서에 대한 액세스도 제공합니다.
 ><br/>
->이러한 번들 확장을 사용 및 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 `composer.json` 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [업그레이드 모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko)을 참조하십시오.<br/>
+>이러한 번들 확장을 사용 및 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 `composer.json` 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [업그레이드 모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)을 참조하십시오.<br/>
 ><br/>
->**Worldpay**, **Eway**, **CyberSource** 및 **Authorize.Net**: 이러한 결제 통합에서 안전하게 전환하는 방법에 대한 자세한 내용은 [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}를 참조하십시오.
+>**Worldpay**, **Eway**, **CyberSource** 및 **Authorize.Net**: 이러한 결제 통합에서 안전하게 전환하는 방법에 대한 자세한 내용은 [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}을(를) 참조하십시오.
 
 ## 기타 PayPal 메서드
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계에서 비즈니스에 종사하고 있는 다양한 결제 솔루션을 제공합니다. PayPal은 모든 주요 직불 카드와 신용 카드의 지불을 수락할 수 있는 기능을 제공합니다. 페이팔 계정이 없는 고객도 페이팔로 구매 대금을 결제할 수 있기 때문에 페이팔은 별도의 노력 없이 추가 편의를 제공한다.
 
 ### PayPal 올인원 메서드
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 - [PayPal 결제 고급](paypal-payments-advanced.md)
 - [PayPal 결제 프로](paypal-payments-pro.md)
 - [PayPal 결제 표준](paypal-payments-standard.md)
 
 ### PayPal 결제 게이트웨이
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md)(빠른 체크아웃 포함)
 - [PayPal 결제 링크](paypal-payflow-link.md)(빠른 체크아웃 포함)
@@ -71,7 +79,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 
 ![주문 확인/금액](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
-<!-- [Check / Money Order](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
+<!-- [Check / Money Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -83,7 +91,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Make Check Payable to] | 스토어 뷰 | 수표 및 금전 지급을 이행해야 할 주체의 이름. |
 | [!UICONTROL Send Check to] | 스토어 뷰 | 수표 및 금전 주문을 전송해야 하는 거리 주소 또는 PO Box. |
 | [!UICONTROL Minimum Order Total] | 웹 사이트 | 수표나 우편환으로 결제할 수 있는 최소 주문 금액. |
-| [!UICONTROL Maximum Order Total] | 웹 사이트 | 수표 또는 금전 주문으로 결제할 수 있는 최대 주문 금액. <br/><br/>**_참고:_**&#x200B;합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
+| [!UICONTROL Maximum Order Total] | 웹 사이트 | 수표 또는 금전 주문으로 결제할 수 있는 최대 주문 금액. <br/><br/>**_참고:_**합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 결제 방법과 함께 나열할 때 수표 또는 금전 주문에 의한 결제가 나타나는 순서를 결정하는 숫자입니다. `0`을(를) 입력하여 목록의 맨 위에 배치합니다. |
 
 {style="table-layout:auto"}
@@ -92,7 +100,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 
 ![은행 계좌 이체 결제](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
-<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
+<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -102,7 +110,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Payment from Applicable Countries] | 웹 사이트 | 은행 이체로 지급을 수락하는 국가를 결정합니다. 옵션: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 웹 사이트 | 은행 이체로 지급을 수락하는 특정 국가를 식별합니다. |
 | [!UICONTROL Minimum Order Total] | 웹 사이트 | 은행 이체로 지급할 수 있는 최소 주문 금액. |
-| [!UICONTROL Maximum Order Total] | 웹 사이트 | 은행 이체로 지급할 수 있는 가장 큰 주문 금액. <br/><br/>**_참고:_**&#x200B;합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
+| [!UICONTROL Maximum Order Total] | 웹 사이트 | 은행 이체로 지급할 수 있는 가장 큰 주문 금액. <br/><br/>**_참고:_**합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 결제 방법과 함께 나열할 때 은행 이체로 지급하는 순서를 결정하는 번호가 나타납니다. `0`을(를) 입력하여 목록의 맨 위에 배치합니다. |
 
 {style="table-layout:auto"}
@@ -113,7 +121,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 
 ![계정 결제](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -123,7 +131,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Payment from Applicable Countries] | 웹 사이트 | 회사가 자신의 계정에 구매를 부과할 수 있도록 허용하는 국가를 결정합니다. 옵션: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 웹 사이트 | 기업이 자신의 계정에 구매를 부과할 수 있는 특정 국가를 식별합니다. |
 | [!UICONTROL Minimum Order Total] | 웹 사이트 | 회사 계정에 부과할 수 있는 최소 주문 금액을 지정합니다. |
-| [!UICONTROL Maximum Order Total] | 웹 사이트 | 회사 계정에 청구할 수 있는 최대 주문 금액. <br/><br/>**_참고:_**&#x200B;합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
+| [!UICONTROL Maximum Order Total] | 웹 사이트 | 회사 계정에 청구할 수 있는 최대 주문 금액. <br/><br/>**_참고:_**합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 결제 방법과 함께 나열할 때 계정 결제가 표시되는 순서를 결정하는 번호입니다. `0`을(를) 입력하여 목록의 맨 위에 배치합니다. |
 
 {style="table-layout:auto"}
@@ -146,7 +154,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Payment from Applicable Countries] | 웹 사이트 | 은행 이체로 지급을 수락하는 국가를 결정합니다. 옵션: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 웹 사이트 | 은행 이체로 지급을 수락하는 특정 국가를 식별합니다. |
 | [!UICONTROL Minimum Order Total] | 웹 사이트 | 은행 이체로 지급할 수 있는 최소 주문 금액을 지정합니다. |
-| [!UICONTROL Maximum Order Total] | 웹 사이트 | 은행 이체로 지급할 수 있는 가장 큰 주문 금액. <br/><br/>**_참고:_**&#x200B;합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
+| [!UICONTROL Maximum Order Total] | 웹 사이트 | 은행 이체로 지급할 수 있는 가장 큰 주문 금액. <br/><br/>**_참고:_**합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 결제 방법과 함께 나열할 때 은행 이체로 지급하는 순서를 결정하는 번호가 나타납니다. `0`을(를) 입력하여 목록의 맨 위에 배치합니다. |
 
 {style="table-layout:auto"}
@@ -170,6 +178,8 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 
 ## [!UICONTROL Payment actions]
 
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+
 결제 작업이 _결제 방법별로_&#x200B;구성되어 있습니다. 지급 조치는 자금이 수집되는 시기와 판매 주문에 대한 송장이 생성되는 시기를 결정합니다.
 
 개별 구성 옵션에 대한 포괄적인 목록이 필요하면 각 개별 결제 방법 항목의 기본 설정 섹션을 참조하십시오.
@@ -189,7 +199,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 
 >[!NOTE]
 >
->나중에 Commerce을 통해 결제를 캡처할 것이 확실하지 않은 경우 _[!UICONTROL Not Capture]_&#x200B;옵션을 선택하지 마십시오. 수집 버튼을 사용하여 지급이 수집될 때까지 대변 메모를 생성할 수 없습니다.
+>나중에 Commerce을 통해 결제를 캡처할 것이 확실하지 않은 경우 _[!UICONTROL Not Capture]_옵션을 선택하지 마십시오. 수집 버튼을 사용하여 지급이 수집될 때까지 대변 메모를 생성할 수 없습니다.
 
 ## [!UICONTROL Purchase Order]
 
@@ -205,7 +215,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 | [!UICONTROL Payment from Applicable Countries] | 웹 사이트 | PO에 의한 지급을 수락하는 국가를 결정합니다. 옵션: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | 웹 사이트 | PO별 지급을 수락하는 특정 국가를 식별합니다. |
 | [!UICONTROL Minimum Order Total] | 웹 사이트 | PO로 지급할 수 있는 최소 주문 수량입니다. |
-| [!UICONTROL Maximum Order Total] | 웹 사이트 | PO로 지급할 수 있는 가장 큰 주문 금액. <br/><br/>**_참고:_**&#x200B;합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
+| [!UICONTROL Maximum Order Total] | 웹 사이트 | PO로 지급할 수 있는 가장 큰 주문 금액. <br/><br/>**_참고:_**합계가 최소 또는 최대 주문 합계 사이에 있거나 일치하는 경우 주문이 유효합니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 결제 방법과 함께 나열할 때 PO별 결제 순서를 결정하는 번호가 나타납니다. `0`을(를) 입력하여 목록의 맨 위에 배치합니다. |
 
 {style="table-layout:auto"}

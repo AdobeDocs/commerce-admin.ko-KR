@@ -3,9 +3,10 @@ title: PayPal 결제 계약
 description: 스토어에서 PayPal 결제 계약 및 결제 방법을 지원하는 방법에 대해 알아봅니다.
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 ## 청구 계약 관리
 
-_[!UICONTROL Billing Agreements]_&#x200B;페이지에는 스토어와 고객 간의 모든 청구 계약이 나열됩니다. 판매자는 청구 계약 참조 ID, 상태 및 생성 날짜를 포함하여 고객 또는 청구 계약 정보별로 레코드를 필터링할 수 있습니다. 각 레코드에는 청구 계약에 대한 일반 정보와 결제 수단으로 사용한 모든 판매 주문이 포함됩니다. 고객 청구 계약을 조회, 취소 또는 삭제할 수 있습니다. 취소된 청구 계약은 스토어 관리자만 삭제할 수 있습니다.
+_[!UICONTROL Billing Agreements]_페이지에는 스토어와 고객 간의 모든 청구 계약이 나열됩니다. 판매자는 청구 계약 참조 ID, 상태 및 생성 날짜를 포함하여 고객 또는 청구 계약 정보별로 레코드를 필터링할 수 있습니다. 각 레코드에는 청구 계약에 대한 일반 정보와 결제 수단으로 사용한 모든 판매 주문이 포함됩니다. 고객 청구 계약을 조회, 취소 또는 삭제할 수 있습니다. 취소된 청구 계약은 스토어 관리자만 삭제할 수 있습니다.
 
 ### 청구 계약 보기
 
@@ -34,7 +35,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;페이지에는 스토어와 고객 간
 
 1. 목록에서 청구 계약을 찾은 다음 을(를) 클릭하여 엽니다.
 
-각 청구 계약 페이지는 두 개의 탭(_[!UICONTROL General Information]_&#x200B;및_[!UICONTROL Related Orders]_)으로 구성됩니다.
+각 청구 계약 페이지는 두 개의 탭(_[!UICONTROL General Information]_및_[!UICONTROL Related Orders]_)으로 구성됩니다.
 
 #### 일반 정보
 

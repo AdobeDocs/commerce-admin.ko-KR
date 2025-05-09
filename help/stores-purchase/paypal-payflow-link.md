@@ -3,9 +3,10 @@ title: PayPal 결제 링크
 description: 스토어에서 온라인 결제 솔루션으로 PayPal Payflow Link를 설정하는 방법에 대해 알아봅니다.
 exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
@@ -98,7 +99,7 @@ PayPal Payflow Link는 미국과 캐나다의 상인만 사용할 수 있습니�
 
 1. Commerce 설치에 웹 사이트, 스토어 또는 보기가 여러 개 있는 경우 이 구성을 적용할 스토어 보기로 **[!UICONTROL Store View]**&#x200B;을(를) 설정합니다.
 
-1. _[!UICONTROL Merchant Location]_&#x200B;섹션에서 비즈니스가 있는&#x200B;**[!UICONTROL Merchant Country]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL Merchant Location]_섹션에서 비즈니스가 있는&#x200B;**[!UICONTROL Merchant Country]**을(를) 선택합니다.
 
    이 설정은 구성에 나타나는 PayPal 솔루션의 선택을 결정합니다.
 
@@ -293,7 +294,7 @@ PayPal Payflow Link는 미국과 캐나다의 상인만 사용할 수 있습니�
 1. **[!UICONTROL Payment Applicable From]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. Ctrl 키를 누른 채 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. Ctrl 키를 누른 채 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
 
 1. 결제 시스템과의 통신을 로그 파일에 기록하려면 **[!UICONTROL Debug Mode]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -364,7 +365,7 @@ PayPal Payflow Link는 미국과 캐나다의 상인만 사용할 수 있습니�
 
 #### 프론트엔드 경험 설정
 
-_[!UICONTROL Frontend Experience Settings]_&#x200B;을(를) 사용하여 사이트에 표시할 PayPal 로고를 선택하고 PayPal 판매자 페이지의 모양을 사용자 지정합니다.
+_[!UICONTROL Frontend Experience Settings]_을(를) 사용하여 사이트에 표시할 PayPal 로고를 선택하고 PayPal 판매자 페이지의 모양을 사용자 지정합니다.
 
 1. **[!UICONTROL Frontend Experience Settings]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -419,7 +420,7 @@ _[!UICONTROL Frontend Experience Settings]_&#x200B;을(를) 사용하여 사이�
    - `Authorization` - 구매를 승인하고 자금을 보류합니다. 판매자가 _캡처한_&#x200B;이 될 때까지 금액이 인출되지 않습니다.
    - `Sale` - 구매 금액이 승인되어 고객 계정에서 즉시 인출됩니다.
 
-1. 제품 페이지에 _[!UICONTROL Check out with PayPal]_&#x200B;단추를 표시하려면&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+1. 제품 페이지에 _[!UICONTROL Check out with PayPal]_단추를 표시하려면&#x200B;**[!UICONTROL Display on Product Details Page]**을(를) `Yes`(으)로 설정하십시오.
 
 ### 7단계: PayPal Express 체크아웃에 대한 고급 설정 완료
 
@@ -432,7 +433,7 @@ _[!UICONTROL Frontend Experience Settings]_&#x200B;을(를) 사용하여 사이�
 1. **[!UICONTROL Payment Applicable From]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 국가의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 항목을 클릭합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 항목을 클릭합니다.
 
 1. 결제 시스템과의 통신을 로그 파일에 기록하려면 **[!UICONTROL Debug Mode]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
