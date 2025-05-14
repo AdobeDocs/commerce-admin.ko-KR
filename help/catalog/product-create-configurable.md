@@ -3,7 +3,7 @@ title: 구성 가능한 제품
 description: 쇼핑객에게 다양한 선택 항목을 제공하는 구성 가능한 제품을 만드는 방법을 알아봅니다.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
+source-git-commit: 0cb594144a03eda985be3a86e45c93452281e9d5
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 0%
@@ -33,6 +33,7 @@ ht-degree: 0%
 | [!UICONTROL Scope] | `Global` |
 | [!UICONTROL Catalog Input Type for Store Owner] | 제품 변형에 사용되는 특성의 입력 형식은 `Dropdown`, `Visual Swatch` 또는 `Text Swatch` 중 하나여야 합니다. |
 | [!UICONTROL Values Required] | `Yes` |
+| [!UICONTROL Use for Promo Rule Conditions] | `Yes` |
 
 {style="table-layout:auto"}
 
@@ -40,7 +41,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Configurable Product]**&#x200B;을(를) 선택합니다.
+1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Configurable Product]**을(를) 선택합니다.
 
    ![구성 가능한 제품 추가](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
@@ -138,7 +139,7 @@ ht-degree: 0%
 
 ### 1단계: 속성 선택
 
-1. 위에서 계속 _[!UICONTROL Configurations]_&#x200B;섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Create Configurations]**&#x200B;을(를) 클릭합니다.
+1. 위에서 계속 _[!UICONTROL Configurations]_섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Create Configurations]**을(를) 클릭합니다.
 
    ![구성](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -278,7 +279,7 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 
 ### 5단계: 제품 이미지 추가
 
-1. 아래로 스크롤하여 _[!UICONTROL Images and Videos]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. 아래로 스크롤하여 _[!UICONTROL Images and Videos]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. _카메라_ 타일을 클릭하고 구성 가능한 제품에 사용할 기본 이미지를 찾습니다.
 
@@ -302,7 +303,7 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 
 - [선물 옵션](product-gift-options.md)
 
-### 7단계: 제품 Publish
+### 7단계: 제품 게시
 
 1. 제품을 카탈로그에 게시할 준비가 되었으면 **[!UICONTROL Enable Product]**&#x200B;을(를) `Yes`(으)로 설정하고 다음 중 하나를 수행하십시오.
 
@@ -318,7 +319,7 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 
    - **메서드 2:** 저장 및 닫기
 
-     _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
+     _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
 
 ### 8단계: 장바구니 썸네일 구성
 
@@ -328,7 +329,7 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Shopping Cart]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Shopping Cart]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. **[!UICONTROL Configurable Product Image]**&#x200B;을(를) `Product Thumbnail Itself`(으)로 설정합니다.
 
