@@ -3,9 +3,9 @@ title: 세부 정보 저장
 description: 스토어에 대한 기본 정보를 업데이트하는 방법을 알아봅니다.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: 81b55a634d33b79d3164a4d438ae0f23198bc364
+source-git-commit: c9c04d4fb2f51b9bac0de6a172d7bcf35be18a85
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Store Information]
 
-_[!UICONTROL Store Information]_&#x200B;섹션은 판매 문서 및 기타 통신에 나타나는 기본 정보를 제공합니다.
+_[!UICONTROL Store Information]_섹션은 판매 문서 및 기타 통신에 나타나는 기본 정보를 제공합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
@@ -169,11 +169,11 @@ _[!UICONTROL Store Information]_&#x200B;섹션은 판매 문서 및 기타 통�
 
 국가 구성 문제를 해결하는 데 대한 도움말을 보려면 다음 [!DNL Commerce] 지원 기술 문서를 참조하십시오.
 
-- [국가를 추가하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=ko)
+- [국가를 추가하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 판매자 위치 설정은 [결제 방법](../stores-purchase/payments.md)을 구성하는 데 사용됩니다. 이 설정에 대한 값이 없으면 [기본 국가](#uicontrol-country-options) 설정이 사용됩니다.
 
@@ -213,7 +213,21 @@ _[!UICONTROL Store Information]_&#x200B;섹션은 판매 문서 및 기타 통�
 
 스토어에 대한 이메일 주소를 구성하려면 먼저 각 주소를 도메인에 대한 유효한 이메일 주소로 설정해야 합니다. 필요한 각 이메일 주소를 만들려면 서버 관리자 또는 이메일 호스팅 공급자의 지침을 따르십시오.
 
-### 2단계: 스토어의 이메일 주소 구성
+### 2단계: 생성된 링크에 대한 기본 URL 설정
+
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+
+일부 고객 응대 이메일에는 고객이 암호를 재설정하는 데 도움이 되는 링크 등 스토어에 대한 링크가 포함되어 있습니다. Storefront 링크가 작동하도록 하려면 storefront의 기본 URL을 정의해야 합니다.
+
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+
+1. 왼쪽 탐색 패널의 **[!UICONTROL General]**&#x200B;에서 **[!UICONTROL Store Email Addresses]**&#x200B;을(를) 선택합니다.
+
+1. **[!UICONTROL Storefront Base URL]** 필드 **[!UICONTROL General]** 섹션에서 저장소의 루트 URL(예: `https://www.example.com/`)을 입력하십시오. URL은 슬래시로 끝나야 합니다.
+
+   ![일반 구성 - 일반](../configuration-reference/general/assets/store-email-addresses-general-general.png){width="600"}
+
+### 3단계: 스토어의 이메일 주소 구성
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
@@ -231,7 +245,7 @@ _[!UICONTROL Store Information]_&#x200B;섹션은 판매 문서 및 기타 통�
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
-### 3단계: 판매 이메일 구성 업데이트
+### 4단계: 판매 이메일 구성 업데이트
 
 사용자 정의 이메일 주소를 사용하는 경우 올바른 ID가 발신자로 표시되도록 관련 이메일 메시지의 구성을 업데이트해야 합니다.
 
