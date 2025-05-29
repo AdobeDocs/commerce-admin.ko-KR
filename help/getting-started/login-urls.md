@@ -4,9 +4,9 @@ description: 관리자 및 상점 첫 화면에 대한 액세스 권한을 얻�
 exl-id: fa16b7e9-e05f-4eb8-bc32-596946c57e1c
 feature: System
 role: Admin, Leader
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,6 @@ ht-degree: 0%
 
 ## 샘플 데이터
 
-Adobe은 250개 이상의 제품(약 200개 제품은 구성 가능한 제품임), 카테고리, 프로모션 가격 규칙, CMS 페이지, 배너 등이 있는 샘플 스토어를 포함하는 샘플 데이터 세트를 제공합니다. 샘플 데이터는 상점 첫 화면에서 _Luma_ 테마를 사용합니다. [이 샘플 데이터 설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=ko)는 선택 사항이지만, 전자 상거래 비즈니스의 사용자 지정을 테스트하고 개발하는 데 도움이 될 수 있습니다.
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+
+Adobe은 250개 이상의 제품(약 200개는 구성 가능한 제품)이 있는 샘플 저장소, 카테고리, 프로모션 가격 규칙, CMS 페이지, 배너 등을 포함하는 샘플 데이터 세트를 제공합니다. 샘플 데이터는 상점 첫 화면에서 _Luma_ 테마를 사용합니다. [이 샘플 데이터 설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html)는 선택 사항이지만, 전자 상거래 비즈니스의 사용자 지정을 테스트하고 개발하는 데 도움이 될 수 있습니다.

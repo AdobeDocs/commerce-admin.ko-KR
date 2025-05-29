@@ -2,18 +2,32 @@
 title: '[!UICONTROL Stores] 메뉴'
 description: Commerce 관리에는 저장소 계층, 구성, 인벤토리, 세금 및 특성을 설정하는 도구에 액세스할 수 있는 [!UICONTROL Stores] 메뉴가 포함되어 있습니다.
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
-source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a
+source-git-commit: 48d47b7dfe4ab1162b74d650083e7b1a66456d4f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Stores] 메뉴
 
-_[!UICONTROL Stores]_&#x200B;메뉴는 사용 빈도가 낮지만 Adobe Commerce 또는 Magento Open Source 설치 전체에서 참조되는 설정에 대한 액세스를 제공합니다. 이러한 기능에는 스토어 계층 설정, 구성, 판매 및 주문 설정, 세금 및 통화, 제품 속성, 제품 검토 등급 및 고객 그룹이 포함됩니다.
+_[!UICONTROL Stores]_메뉴는 사용 빈도가 낮지만 Adobe Commerce 또는 Magento Open Source 설치 전체에서 참조되는 설정에 대한 액세스를 제공합니다. 이러한 기능에는 스토어 계층 설정, 구성, 판매 및 주문 설정, 세금 및 통화, 제품 속성, 제품 검토 등급 및 고객 그룹이 포함됩니다.
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 ![관리자 - 스토어 메뉴](./assets/stores-menu.png){width="500" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+
+![관리자 - 스토어 메뉴](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## [!UICONTROL Stores] 메뉴 표시
 

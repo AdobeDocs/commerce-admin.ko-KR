@@ -4,16 +4,17 @@ description: 스토어 관리자에 대한 보안을 구성하는 방법에 대�
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-source-git-commit: e301cfaeec3a8427fff6138ba041bdbd7433c137
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
 
 # 관리자 보안 구성
 
-매장 보안을 보호하기 위해 다각적인 방법을 사용하는 것이 좋습니다. 명확한 &quot;관리자&quot; 또는 &quot;백엔드&quot;가 아니라 쉽게 추측할 수 없는 [사용자 지정 관리자 URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)을 사용하여 시작할 수 있습니다. 기본적으로 관리자에 [로그인](../getting-started/admin-signin.md)하는 데 사용되는 암호는 7자 이상이어야 하며 문자와 숫자를 모두 포함해야 합니다. [우수 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=ko)로서 문자, 숫자 및 기호의 조합을 포함하는 강력한 관리자 암호만 사용하십시오. Adobe Commerce 및 Magento Open Source에서는 계정에 할당된 마지막 4개의 암호를 재사용할 수 없습니다.
+매장 보안을 보호하기 위해 다각적인 방법을 사용하는 것이 좋습니다. 명확한 &quot;관리자&quot; 또는 &quot;백엔드&quot;가 아니라 쉽게 추측할 수 없는 [사용자 지정 관리자 URL](../stores-purchase/store-urls.md#use-a-custom-admin-url)을 사용하여 시작할 수 있습니다. 기본적으로 관리자에 [로그인](../getting-started/admin-signin.md)하는 데 사용되는 암호는 7자 이상이어야 하며 문자와 숫자를 모두 포함해야 합니다. [우수 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)로서 문자, 숫자 및 기호의 조합을 포함하는 강력한 관리자 암호만 사용하십시오. Adobe Commerce 및 Magento Open Source에서는 계정에 할당된 마지막 4개의 암호를 재사용할 수 없습니다.
 
 관리자 보안 구성을 통해 다음과 같은 기능을 사용할 수 있습니다.
 
@@ -29,9 +30,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Identity Management Services] (IMS) 인증을 사용하도록 설정한 저장소에 기본 Adobe Commerce 및 Magento Open Source 2FA가 사용하지 않도록 설정되어 있습니다. Adobe 자격 증명으로 Commerce 인스턴스에 로그인한 관리자는 많은 관리 작업에 대해 다시 인증할 필요가 없습니다. Adobe IMS는 관리자 가 현재 세션에 로그인할 때 인증을 처리합니다. [[!DNL Adobe Identity Management Service] (IMS) 통합 개요](../getting-started/adobe-ims-integration-overview.md)를 참조하십시오.
+>[!DNL Adobe Identity Management Services]&#x200B;(IMS) 인증을 사용하도록 설정한 저장소에 기본 Adobe Commerce 및 Magento Open Source 2FA가 사용하지 않도록 설정되어 있습니다. Adobe 자격 증명으로 Commerce 인스턴스에 로그인한 관리자는 많은 관리 작업에 대해 다시 인증할 필요가 없습니다. Adobe IMS는 관리자 가 현재 세션에 로그인할 때 인증을 처리합니다. [[!DNL Adobe Identity Management Service] (IMS) 통합 개요](../getting-started/adobe-ims-integration-overview.md)를 참조하십시오.
 
-기술 정보는 개발자 설명서에서 [보안 개요](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target=&quot;_blank&quot;}를 참조하십시오.
+기술 정보는 개발자 설명서에서 [보안 개요](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"}를 참조하십시오.
 
 ![관리자 보안](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
@@ -39,7 +40,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL Advanced]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Admin]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL Advanced]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Admin]**을(를) 선택합니다.
 
 1. **[!UICONTROL Security]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 

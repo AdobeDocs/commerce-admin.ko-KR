@@ -4,9 +4,10 @@ description: 서드파티 통합을 위해 OAuth 자격 증명 및 리디렉션 
 exl-id: b7632994-b07b-4cdb-b62c-79bc7a3a01c8
 role: Admin, Developer
 feature: System, Integration, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ Commerce 관리에서 통합을 정의하면 서드파티 통합을 위한 OAuth
 
 ## 온보딩 워크플로우
 
-1. **통합 승인** - **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;페이지로 이동하여 관련 통합을 찾은 다음 권한을 부여합니다.
+1. **통합 승인** - **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**페이지로 이동하여 관련 통합을 찾은 다음 권한을 부여합니다.
 1. **로그인 확인 및 설정** - 메시지가 표시되면 요청된 액세스 권한을 수락합니다. 서드파티로 리디렉션되면 시스템에 로그인하거나 계정을 만듭니다. 로그인에 성공하면 통합 페이지로 돌아갑니다.
 1. **인증된 통합의 확인을 받습니다** - 시스템이 통합이 인증되었음을 알리는 알림을 보냅니다. 통합을 설정하고 자격 증명을 받은 후 더 이상 액세스 또는 요청 토큰에 대한 호출을 수행할 필요가 없습니다.
 
@@ -80,7 +81,7 @@ Commerce 관리에서 통합을 정의하면 서드파티 통합을 위한 OAuth
 
 1. **[!UICONTROL Active]** 상태와의 통합을 찾습니다.
 
-1. _[!UICONTROL Activate]_&#x200B;열에서&#x200B;**[!UICONTROL Reauthorize]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Activate]_열에서&#x200B;**[!UICONTROL Reauthorize]**을(를) 클릭합니다.
 
 1. API 리소스에 대한 액세스를 승인하려면 **[!UICONTROL Reauthorize]**&#x200B;을(를) 클릭하십시오.
 
@@ -88,7 +89,7 @@ Commerce 관리에서 통합을 정의하면 서드파티 통합을 위한 OAuth
 
 ## API 게스트 액세스 보안 설정 변경
 
-기본적으로 시스템에서는 CMS, 카탈로그 및 기타 저장소 리소스에 대한 익명 게스트 액세스를 허용하지 않습니다. 설정을 변경해야 하는 경우 다음을 수행합니다.
+기본적으로 시스템에서는 CMS, 카탈로그 및 기타 스토어 리소스에 대한 익명 게스트 액세스를 허용하지 않습니다. 설정을 변경해야 하는 경우 다음을 수행합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 

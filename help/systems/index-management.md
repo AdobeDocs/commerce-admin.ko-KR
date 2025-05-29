@@ -3,9 +3,10 @@ title: 색인 관리
 description: 리인덱싱을 트리거하는 작업과 모범 사례를 포함하여 인덱스 관리에 대해 알아봅니다.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ Adobe Commerce 및 Magento Open Source은 하나 이상의 항목이 변경될 �
 
 >[!IMPORTANT]
 >
->[Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ko)을(를) 사용하고 Elasticsearch을 전체 텍스트(`catalogsearch_fulltext`) 인덱서로 설정한 저장소의 경우: 대량 권한을 변경하거나 &#39;권한&#39; 인덱서가 &#39;예약됨&#39; 모드에 있는 경우 전체 텍스트 인덱스를 다시 실행해야 합니다.
+>[Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)을(를) 사용하고 Elasticsearch을 전체 텍스트(`catalogsearch_fulltext`) 인덱서로 설정한 저장소의 경우: 대량 권한을 변경하거나 &#39;권한&#39; 인덱서가 &#39;예약됨&#39; 모드에 있는 경우 전체 텍스트 인덱스를 다시 실행해야 합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**(으)로 이동합니다.
 
@@ -76,7 +77,7 @@ Adobe Commerce 및 Magento Open Source은 하나 이상의 항목이 변경될 �
 
 ## 명령줄을 사용하여 색인 재지정
 
-Commerce은 명령줄을 사용하여 추가 색인 재지정 옵션을 제공합니다. 자세한 내용 및 명령 옵션은 _구성 안내서_&#x200B;에서 [인덱스 다시 지정](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=ko#reindex){:target="blank"}을 참조하십시오.
+Commerce은 명령줄을 사용하여 추가 색인 재지정 옵션을 제공합니다. 자세한 내용 및 명령 옵션은 _구성 가이드_&#x200B;에서 [색인 재지정](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"}을 참조하십시오.
 
 ## 인덱스 트리거 이벤트
 

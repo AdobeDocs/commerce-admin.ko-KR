@@ -3,9 +3,9 @@ title: 검색 엔진 최적화
 description: Commerce 사이트를 위한 SEO(검색 엔진 최적화) 도구 및 최적의 SEO를 위한 모범 사례에 대해 알아봅니다.
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,27 @@ ht-degree: 0%
 
 _검색 엔진 최적화_(SEO)는 검색 엔진에서 페이지를 인덱싱하는 방식을 개선하기 위해 사이트의 내용과 프레젠테이션을 미세 조정하는 방법입니다. Commerce에는 지속적인 SEO 작업을 지원하는 다양한 기능이 포함되어 있습니다.
 
+>[!TIP]
+>
+>Adobe Commerce as a Cloud Service의 경우 Commerce Storefront 설명서에서 [SEO 지침](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)을 참조하십시오
+
 ## 메타데이터
 
-사이트 및 스토어에 대한 키워드가 풍부한 [메타데이터](meta-data.md)를 추가 및 개선하는 방법에 대해 자세히 알아보세요.
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+
+사이트 및 스토어에 대한 키워드가 풍부한 [메타데이터](meta-data.md)을(를) 추가하고 개선하는 방법에 대해 자세히 알아보세요.
 
 ## 사이트 맵 사용
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 [사이트 맵](sitemap-xml.md)은(는) 검색 엔진이 스토어를 인덱싱하는 방식을 개선하고 웹 크롤러가 간과할 수 있는 페이지를 찾을 수 있도록 설계되었습니다. 사이트 맵은 모든 페이지 및 이미지를 색인화하도록 구성할 수 있습니다.
 
 ## URL 재작성
 
-[URL 다시 작성](url-rewrite.md) 도구를 사용하면 제품, 범주 또는 CMS 페이지와 연결된 모든 URL을 변경할 수 있습니다.
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+
+[URL 다시 작성](url-rewrite.md) 도구를 사용하면 제품, 카테고리 또는 CMS 페이지와 연결된 모든 URL을 변경할 수 있습니다.
 
 ## 검색 엔진 로봇
 

@@ -2,9 +2,9 @@
 title: 관리 시스템 소개
 description: 스토어 관리자가 사이트, 데이터, 통합 및 관리 사용자를 효과적으로 관리하는 데 사용할 수 있는 시스템 도구 및 기능에 대해 알아봅니다.
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
-source-git-commit: 51c8b526e1f03e65ad71eb00ec3cdf82365bd33c
+source-git-commit: 5517bb16a8f7c8aa2f9f057df773f142302a69c7
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 0%
 
 - **관리자 사용자 계정 및 권한** - 관리자의 사이트 및 기능 영역에 대한 액세스를 제어하는 연결된 [역할 및 권한](permissions-user-roles.md)뿐만 아니라 관리자 [사용자 계정](permissions-users-all.md)을 관리합니다.
 - **관리 세션 및 웹 사이트 제한** - [보안](security.md) 모범 사례를 검토하고 관리 세션 및 자격 증명을 관리하고 CAPTCHA를 구현하며 웹 사이트 제한을 관리하는 방법을 알아봅니다.
-- **시스템 도구** - 일상적인 [인덱스](index-management.md) 및 [캐시](cache-management.md) 관리 작업을 수행하고, 시스템을 [백업](backups.md)하고, [예약된 작업을 관리하고](data-scheduled-import-export.md)하며, [개발자 도구](developer-tools.md) 집합을 사용합니다.
+- [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} **시스템 도구** - 루틴 [인덱스](index-management.md) 및 [캐시](cache-management.md) 관리 작업을 수행하고, [시스템을 백업](backups.md)하고, [예약된 작업](data-scheduled-import-export.md)을 관리하고, [개발자 도구](developer-tools.md)를 사용합니다.
 - **데이터 전송** - [데이터 전송](data-transfer.md) 도구를 사용하여 데이터를 가져오고 내보내고 제품, 가격, 고객 및 세율 데이터를 관리합니다.
 - **통합** - [타사 통합](integrations.md)에 대한 OAuth 자격 증명 및 리디렉션 URL의 위치를 설정하고 사용 가능한 API 리소스를 식별합니다.
 - **작업 로그** - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) 스토어에서 작업 중인 관리 사용자가 변경한 사항에 대한 레코드([작업 로그](action-log.md))에 액세스합니다.
-- **지원 도구** - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용) [시스템 보고서](support.md#access-system-reports)는 시스템의 알려진 문제를 식별하도록 설계되었습니다. 개발 및 최적화 프로세스 동안 리소스로 사용할 수 있으며, 지원 팀이 문제를 식별하고 해결하는 데 도움이 되는 진단 도구로 사용할 수 있습니다.
+- [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} **지원 도구** - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) [시스템 보고서](support.md#access-system-reports))는 시스템의 알려진 문제를 식별하도록 설계되었습니다. 개발 및 최적화 프로세스 동안 리소스로 사용할 수 있으며, 지원 팀이 문제를 식별하고 해결하는 데 도움이 되는 진단 도구로 사용할 수 있습니다.

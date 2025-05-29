@@ -4,9 +4,10 @@ description: 이중 인증을 관리하고 관리자 사용자에 대한 인증�
 exl-id: 68256214-2d50-4c42-846f-306ffc305f25
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 - 일부 모바일 앱에는 동기화 옵션이 포함되어 있습니다. 이 옵션은 앱과 서버를 다시 연결하고 장치와 서버의 시간 설정을 동기화합니다.
 - 장치를 취소하거나 인증자를 재설정하면 사용자가 연결할 수 있습니다.
-- Adobe Commerce 또는 Magento Open Source 설치를 위해 웹 캐시 및 쿠키를 지우는 것도 도움이 될 수 있습니다. Google과 같은 인증자는 생성된 쿠키를 사용하여 액세스 및 기간을 저장합니다. 특정 브라우저 및 스토어 도메인에 대한 쿠키를 지웁니다.
+- Adobe Commerce 또는 Magento Open Source 설치에 대한 웹 캐시 및 쿠키를 지우는 것도 도움이 될 수 있습니다. Google과 같은 인증자는 생성된 쿠키를 사용하여 액세스 및 기간을 저장합니다. 특정 브라우저 및 스토어 도메인에 대한 쿠키를 지웁니다.
 - 쿠키를 차단하면 [!DNL Google Authenticator]과(와) 같은 일부 인증자가 확인 프로세스를 완료할 수 없습니다. 브라우저에 Adobe Commerce 설치에 대한 쿠키를 허용하는 규칙을 추가합니다.
 
 명령줄에서 인증자를 재설정하고 고급 문제 해결 정보를 보려면 개발자 설명서에서 [2단계 인증](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/)을 참조하십시오.
@@ -34,11 +35,11 @@ ht-degree: 0%
 
 1. 사용자를 선택하고 편집 모드에서 계정을 엽니다.
 
-1. _[!UICONTROL Current User Identity Verification]_&#x200B;섹션까지 아래로 스크롤하고 암호를 입력합니다.
+1. _[!UICONTROL Current User Identity Verification]_섹션까지 아래로 스크롤하고 암호를 입력합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL 2FA]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Configuration reset]_&#x200B;섹션에서&#x200B;**[!UICONTROL Reset]**&#x200B;및&#x200B;**[!UICONTROL OK]**&#x200B;을(를) 클릭하여 확인합니다.
+1. _[!UICONTROL Configuration reset]_섹션에서&#x200B;**[!UICONTROL Reset]**및&#x200B;**[!UICONTROL OK]**을(를) 클릭하여 확인합니다.
 
    ![사용자 계정 - 2FA 사용](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 

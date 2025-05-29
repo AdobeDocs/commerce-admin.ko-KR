@@ -2,9 +2,10 @@
 title: 지원 도구
 description: 시스템에서 문제를 식별하는 데 사용할 수 있는 제공된 지원 도구에 대해 알아봅니다.
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-source-git-commit: e05d13f79ceb2fe24c1931fefb48317ebd36d1fc
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: addde8c3e41b641712f5b08107c1d68b40cd4159
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -62,7 +63,7 @@ _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Support]_>
 
 ### 시스템 보고서 세부 정보 보기
 
-1. 필요한 보고서에 대해 _[!UICONTROL Actions]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 선택합니다.
+1. 필요한 보고서에 대해 _[!UICONTROL Actions]_열에서&#x200B;**[!UICONTROL View]**을(를) 선택합니다.
 
 1. 왼쪽 패널에서 보고서의 각 섹션을 ![확장 선택기](../assets/icon-display-expand.png)로 확장하여 세부 정보를 봅니다.
 

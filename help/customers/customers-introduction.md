@@ -2,18 +2,32 @@
 title: 고객 관리 소개
 description: Commerce 고객 관리 기능을 사용하여 스토어에 대한 고객 경험을 향상시키는 방법을 알아봅니다.
 exl-id: 1af76dd0-3f22-4ed1-b05c-75025b813e60
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 20869a0fd5ef9be388a61b05265f6a05c48d60c2
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
 # 고객 관리 소개
 
-_[!UICONTROL Customers]_&#x200B;메뉴를 통해 고객 계정 관리 도구에 액세스할 수 있으며 스토어에서 온라인 상태의 사용자를 확인할 수 있습니다.
+_[!UICONTROL Customers]_메뉴를 통해 고객 계정 관리 도구에 액세스할 수 있으며 스토어에서 온라인 상태의 사용자를 확인할 수 있습니다.
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 ![고객 메뉴](assets/admin-menu-customers.png){width="300" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+
+![고객 메뉴](assets/admin-menu-customers-accs.png){width="300" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## [!UICONTROL Customers] 메뉴 표시
 

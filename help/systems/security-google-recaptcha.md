@@ -4,16 +4,16 @@ description: 등록된 고객이 시작한 관리자 액세스 및 다양한 상
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
 
 # Google recaptcha
 
-[Google reCAPTCHA](https://developers.google.com/recaptcha)에서는 컴퓨터(또는 &quot;보트&quot;)가 아닌 사람이 웹 사이트와 상호 작용하고 있는지 확인합니다. 표준 Adobe Commerce 및 Magento Open Source [CAPTCHA](security-captcha.md)와 달리 Google reCAPTCHA는 다양한 표시 옵션 및 메서드를 선택하여 향상된 보안을 제공합니다. 추가 웹 사이트 트래픽 정보는 Google reCAPTCHA 계정의 대시보드에서 사용할 수 있습니다.
+[Google reCAPTCHA](https://developers.google.com/recaptcha)에서는 컴퓨터(또는 &quot;보트&quot;)가 아닌 사람이 웹 사이트와 상호 작용하고 있는지 확인합니다. 표준 Adobe Commerce 및 Magento Open Source [CAPTCHA](security-captcha.md)와 달리 Google reCAPTCHA는 다양한 표시 옵션 및 방법을 선택하여 향상된 보안을 제공합니다. 추가 웹 사이트 트래픽 정보는 Google reCAPTCHA 계정의 대시보드에서 사용할 수 있습니다.
 
 Google reCAPTCHA는 관리자 및 상점 첫 페이지용으로 별도로 구성됩니다.
 
@@ -33,7 +33,7 @@ Google reCAPTCHA는 다음과 같은 여러 가지 방법으로 구현할 수 �
 
 >[!IMPORTANT]
 >
->Google reCAPTCHA를 구성하기 전에 `PHP.ini` 파일에 다음 설정이 포함되어 있는지 확인하십시오. `allow_url_fopen = 1`. 이 경우 개발자 지원이 필요할 수 있습니다. 설치 안내서에서 [필수 PHP 설정](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=ko){:target=&quot;_blank&quot;}을 참조하십시오.
+>Google reCAPTCHA를 구성하기 전에 `PHP.ini` 파일에 다음 설정이 포함되어 있는지 확인하십시오. `allow_url_fopen = 1`. 이 경우 개발자 지원이 필요할 수 있습니다. 설치 안내서에서 [필수 PHP 설정](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html){:target="_blank"}을 참조하십시오.
 
 ## 1단계: Google reCAPTCHA 키 생성
 
@@ -70,6 +70,8 @@ Google reCAPTCHA를 사용하려면 API 키 쌍이 필요합니다. 이 키들�
 
 ## 2단계: 관리자용 Google reCAPTCHA 구성
 
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+
 1. 관리자 계정에 로그인합니다.
 
 1. 관리 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
@@ -82,7 +84,7 @@ Google reCAPTCHA를 사용하려면 API 키 쌍이 필요합니다. 이 키들�
    >
    >구성할 각 필드에 대해 **[!UICONTROL Use system value]** 확인란의 선택을 취소합니다.
 
-1. _[!DNL reCAPTCHA v2 ("I am not a robot")]_&#x200B;을(를) 사용하려면&#x200B;**[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**&#x200B;섹션을 확장하고 다음을 수행하십시오.
+1. _[!DNL reCAPTCHA v2 ("I am not a robot")]_을(를) 사용하려면&#x200B;**[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**섹션을 확장하고 다음을 수행하십시오.
 
    - **[!UICONTROL Google API Website Key]**&#x200B;의 경우 Google reCAPTCHA 계정을 등록할 때 이 reCAPTCHA 유형에 대해 만든 웹 사이트 키를 입력하십시오.
 
@@ -96,7 +98,7 @@ Google reCAPTCHA를 사용하려면 API 키 쌍이 필요합니다. 이 키들�
 
    ![reCAPTCHA v2 - &quot;로봇이 아닙니다.&quot;](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. _[!DNL reCAPTCHA v2 Invisible]_&#x200B;을(를) 사용하려면&#x200B;**[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;섹션을 확장하고 다음을 수행하십시오.
+1. _[!DNL reCAPTCHA v2 Invisible]_을(를) 사용하려면&#x200B;**[!UICONTROL reCAPTCHA v2 Invisible]**섹션을 확장하고 다음을 수행하십시오.
 
    - **[!UICONTROL Google API Website Key]**&#x200B;의 경우 Google reCAPTCHA 계정을 등록할 때 이 reCAPTCHA 유형에 대해 만든 웹 사이트 키를 입력하십시오.
 
@@ -110,7 +112,7 @@ Google reCAPTCHA를 사용하려면 API 키 쌍이 필요합니다. 이 키들�
 
    ![reCAPTCHA v2 보이지 않음](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. _[!DNL reCAPTCHA v3 Invisible]_&#x200B;을(를) 사용하려면&#x200B;**[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;섹션을 확장하고 다음을 수행하십시오.
+1. _[!DNL reCAPTCHA v3 Invisible]_을(를) 사용하려면&#x200B;**[!UICONTROL reCAPTCHA v3 Invisible]**섹션을 확장하고 다음을 수행하십시오.
 
    - **[!UICONTROL Google API Website Key]**&#x200B;의 경우 Google reCAPTCHA 계정을 등록할 때 이 reCAPTCHA 유형에 대해 만든 웹 사이트 키를 입력하십시오.
 
@@ -140,7 +142,7 @@ Google reCAPTCHA를 사용하려면 API 키 쌍이 필요합니다. 이 키들�
 
 ## 3단계: Storefront용 Google reCAPTCHA 구성
 
-1. _[!UICONTROL Security]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL Security]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**을(를) 선택합니다.
 
 1. 상점 전면에서 사용할 각 reCAPTCHA 유형에 대한 섹션을 완료합니다.
 

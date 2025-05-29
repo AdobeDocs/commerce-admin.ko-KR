@@ -4,9 +4,10 @@ description: 보안 연구자가 사이트에 대한 보안 문제를 보고하�
 exl-id: 47b95505-51a3-4b7a-a4e3-dbc4b0045797
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -19,13 +20,13 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL Security]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Security.txt]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Security]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Security.txt]**을(를) 클릭합니다.
 
-1. _[!UICONTROL General]_&#x200B;섹션에서&#x200B;**[!UICONTROL Enable]**&#x200B;을(를) `Yes`(으)로 설정합니다.
+1. _[!UICONTROL General]_섹션에서&#x200B;**[!UICONTROL Enable]**을(를) `Yes`(으)로 설정합니다.
 
    ![일반 보안 구성](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Contact Information]_&#x200B;에서 다음을 입력하십시오.
+1. _[!UICONTROL Contact Information]_에서 다음을 입력하십시오.
 
    - 스토어에 대한 보안 문제를 관리하는 사람의 이메일 주소 및 전화번호.
 
@@ -33,7 +34,7 @@ ht-degree: 0%
 
    ![연락처 정보 구성](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Other Information]_&#x200B;에서 다음을 입력하십시오.
+1. _[!UICONTROL Other Information]_에서 다음을 입력하십시오.
 
    - 공개 **[!UICONTROL Encryption]** 키의 URL. 예: `https://example.com/pgp-key.txt`
 

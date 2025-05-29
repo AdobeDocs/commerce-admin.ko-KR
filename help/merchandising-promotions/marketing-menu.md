@@ -2,9 +2,9 @@
 title: '[!UICONTROL Marketing] 메뉴'
 description: Commerce 관리에는 프로모션, 통신, SEO 및 사용자 생성 컨텐츠를 관리하기 위한 액세스 도구를 제공하는 [!UICONTROL Marketing] 메뉴가 포함되어 있습니다.
 exl-id: fc0e554b-1bff-45da-bd6f-73e9b1a4fdef
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,21 @@ ht-degree: 0%
 
 [!UICONTROL Marketing] 메뉴는 프로모션, 통신, SEO 및 사용자 생성 콘텐츠를 관리하기 위한 액세스 도구를 제공합니다.
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+
 ![Commerce 관리자 - 마케팅 메뉴](./assets/admin-menu-marketing-ee.png){width="600" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+
+![Commerce 관리자 - 마케팅 메뉴](./assets/admin-menu-marketing-ee-accs.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## [!UICONTROL Marketing] 메뉴 표시
 
@@ -29,17 +43,11 @@ _관리자_ 사이드바에서 **[!UICONTROL Marketing]**&#x200B;을(를) 클릭
 
 ### [!UICONTROL Private Sales]
 
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+
 {{ee-feature}}
 
 비공개 판매 및 기타 카탈로그 이벤트는 기존 고객 기반을 사용하여 회원에 대해서만 단독 액세스 또는 초대를 통해 버즈 및 새 리드를 생성하는 좋은 방법입니다.
-
-### [!UICONTROL Channels]
-
-[Amazon Marketplace 통합](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=ko)을 통해 추가 웹 스토어로 판매를 확장하여 매출을 늘리십시오. 채널 하위 메뉴는 Amazon Sales Channel이 구성된 경우에만 나타납니다.
-
->[!TIP]
->
->Channel Manager는 Adobe Commerce 또는 Magento Open Source 제품 카탈로그를 Walmart Marketplace와 통합하여 판매자가 매출을 늘리고, 신규 고객에게 도달하고, 판매 운영을 간소화하고, 시간을 절약할 수 있도록 지원합니다. Channel Manager 설치, 온보딩, 구성 및 관리에 대한 자세한 내용은 [_Channel Manager 안내서_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html?lang=ko)를 참조하십시오.
 
 ### [!UICONTROL Communications]
 
@@ -52,5 +60,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Marketing]**&#x200B;을(를) 클릭
 고객이 스토어에서 제품을 찾고, [메타데이터](meta-data.md)를 관리하고, [사이트 맵](sitemap-xml.md)을 만들 수 있도록 [검색어](../catalog/search-terms.md) 및 [동의어](../catalog/search-terms.md#search-synonyms)을(를) 분석하십시오. URL 변경 내용을 관리하고 끊어진 링크를 방지하려면 [리디렉션](url-rewrite.md)을 사용하십시오.
 
 ### [!UICONTROL User Content]
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 사용자가 생성한 [제품 리뷰](product-reviews.md)를 통합하여 커뮤니티를 만들고 매출을 늘리십시오.

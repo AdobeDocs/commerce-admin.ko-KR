@@ -4,22 +4,23 @@ description: 초기 관리자 로그인 동안 이중 인증을 설정하고 지
 exl-id: 1ea7f09e-4753-40fa-b9d4-376ba5d8f58f
 role: Admin, User
 feature: Configuration, Security, User Account
-source-git-commit: dc6e5fc7c0996af30bae6374cd7c9879902b9235
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
 
 # 사용자 계정에 대한 2단계 인증 설정
 
-이 지침은 Adobe Systems Commerce 또는 Magento Open Source 처음 로그인할 때 이중 인증을 설정하는 방법과 다음 앱 및 디바이스 사용 시 ID를 인증하는 방법을 보여줍니다.
+이 지침은 Adobe Commerce 또는 Magento Open Source에 처음 로그인하는 동안 이중 인증을 설정하는 방법과 다음 앱 및 장치를 사용하여 신원을 인증하는 방법을 보여 줍니다.
 
-전체 지침은 관리자 로그인을[&#128279;](../getting-started/admin-signin.md) 참조하십시오.
+자세한 지침은 [관리자 로그인](../getting-started/admin-signin.md)을 참조하세요.
 
 >[!NOTE]
 >
->(IMS) 인증을 활성화 [!DNL Adobe Identity Management Services] 한 스토어에는 기본 Adobe Systems Commerce 및 Magento Open Source 2FA가 비활성화되어 있습니다. Adobe Systems 자격 증명으로 Commerce 인스턴스에 로그인한 관리 사용자는 많은 관리 작업에 대해 다시 인증할 필요가 없습니다. Authentication은 관리자 사용자 현재 세션에 로그인할 때 Adobe Systems IMS에서 처리합니다. (IMS) 통합 개요를[&#128279;](../getting-started/adobe-ims-integration-overview.md) 참조하십시오[!DNL Adobe Identity Management Service] .
+>[!DNL Adobe Identity Management Services]&#x200B;(IMS) 인증을 사용하도록 설정한 저장소에 기본 Adobe Commerce 및 Magento Open Source 2FA가 사용하지 않도록 설정되어 있습니다. Adobe 자격 증명으로 Commerce 인스턴스에 로그인한 관리자는 많은 관리 작업에 대해 다시 인증할 필요가 없습니다. Adobe IMS는 관리자 가 현재 세션에 로그인할 때 인증을 처리합니다. [[!DNL Adobe Identity Management Service] (IMS) 통합 개요](../getting-started/adobe-ims-integration-overview.md)를 참조하십시오.
 
 ## [!DNL Google Authenticator]
 
@@ -43,7 +44,7 @@ ht-degree: 0%
 
    ![Google 인증자 - 로그인](./assets/storefront-2fa-google-code.png){width="300"}
 
-1. 모바일 디바이스 장치에서 엽니다 [!DNL Google Authenticator] .
+1. 모바일 장치에서 [!DNL Google Authenticator]을(를) 엽니다.
 
 1. 메시지가 표시되면 6자리 인증 코드를 입력합니다.
 
@@ -55,15 +56,15 @@ ht-degree: 0%
 
 [!DNL Duo]은(는) 무료 평가판을 제공하며 계정에 연결된 사용자 수에 따라 요금을 부과합니다. [지침에 따라 계정을 설정하고 앱을 다운로드하세요](https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app).
 
-### 1단계: 설정 [!DNL Duo Security]
+### 1단계: [!DNL Duo Security] 설정
 
-1. 계정 자격 증명을 입력하고 관리&#x200B;_에_&#x200B;로그인합니다.
+1. 계정 자격 증명을 입력하고 _관리자_&#x200B;에 로그인하십시오.
 
-1. [설정] [!DNL Duo] 페이지 상자가 나타나면 을 클릭하고 **[!UICONTROL Get Started]** 다음을 수행합니다.
+1. [!DNL Duo] 설정 페이지가 나타나면 **[!UICONTROL Get Started]**&#x200B;을(를) 클릭하고 다음을 수행합니다.
 
-   ![상점 홈페이지 예시 - Duo 설정](./assets/storefront-2fa-duo-setup-options.png){width="300"}
+   ![Example storefront - Duo 설정](./assets/storefront-2fa-duo-setup-options.png){width="300"}
 
-1. 옵션을 선택합니다. Touch ID, Duo Mobile, 보안 키 또는 전화번호를 선택할 수 있습니다. 이 예에서는 Duo Mobile 또는 Phone Number(Duo 모바일 또는 전화 번호) 옵션을 보여줍니다.
+1. 옵션을 선택합니다. Touch ID, Duo Mobile, 보안 키 또는 전화 번호를 선택할 수 있습니다. 이 예에서는 듀오 모바일 또는 전화 번호 옵션을 보여 줍니다.
 
 1. 메시지가 표시되면 전화 번호를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
@@ -85,7 +86,7 @@ ht-degree: 0%
 
    ![듀오 - 로그인](./assets/storefront-2fa-duo-auth.png){width="300"}
 
-1. Duo로 로그인을 선택하여 Duo Mobile 앱에서 푸시 알림 알림을 받거나, Touch ID로 로그인하거나, 설정 중에 구성한 다른 옵션을 진행합니다.
+1. Duo로 로그인 을 선택하여 Duo 모바일 앱에서 푸시 알림을 받거나, Touch ID로 로그인하거나, 설정 중에 구성한 다른 옵션을 진행합니다.
 
 1. Duo 앱/Touch ID/문자 메시지의 요청을 승인하면 성공적으로 로그인됩니다.
 
@@ -95,7 +96,7 @@ ht-degree: 0%
 
 [!DNL Authy]이(가) 앱 및 서비스를 사용자에게 무료로 제공합니다. 해당 지침에 따라 디바이스 또는 브라우저용 앱을 다운로드하여 설정합니다. 자세한 내용은 [[!DNL Authy] 설명서](https://authy.com/features/setup/)를 참조하세요.
 
-### 1단계: Authy 설정
+### 1단계: 인증 설정
 
 1. 계정 자격 증명을 입력하고 _관리자_&#x200B;에 로그인하십시오.
 
@@ -117,23 +118,23 @@ ht-degree: 0%
 
    ![[!DNL Authy] 확인 코드](./assets/storefront-2fa-authy-verify.png){width="300"}
 
-### 2단계: 다음으로 로그인 [!DNL Authy]
+### 2단계: [!DNL Authy]&#x200B;(으)로 로그인
 
-1. 계정 자격 증명을 입력하고 관리&#x200B;_에_&#x200B;로그인합니다.
+1. 계정 자격 증명을 입력하고 _관리자_&#x200B;에 로그인하십시오.
 
    ![[!DNL Authy] - 로그인](./assets/storefront-2fa-authy-access.png){width="300"}
 
 1. 다음 방법 중 하나를 선택하여 인증합니다.
 
    - `Use one touch` — [!DNL Authy] 앱에 알림을 보냅니다. 앱에서 액세스 권한을 수락합니다.
-   - `Use authy token` — 앱에서 코드를 입력하라는 메시지가 표시됩니다 [!DNL Authy] .
+   - `Use authy token` — [!DNL Authy] 앱의 코드를 입력하라는 메시지가 표시됩니다.
 
-1. 로그인하는 데 문제가 있는 경우 코드를 받는 데 사용할 방법을 선택합니다. 그런 다음 받은 코드를 입력하여 관리&#x200B;_에_&#x200B;액세스합니다.
+1. 로그인에 문제가 있는 경우 코드를 받는 데 사용할 방법을 선택하십시오. _관리자_&#x200B;에 액세스하기 위해 받은 코드를 입력하세요.
 
-   이 앱에는 다음과 같은 추가 응급 상황이 포함되어 있습니다.
+   앱에는 다음과 같은 추가 응급 방법이 포함되어 있습니다.
 
-   - `Send me a code via SMS` — 텍스트 SMS 메시지가 구성된 모바일 디바이스 장치로 전송됩니다.
-   - `Send me a code via phone call` — 사용자 코드가 포함된 전화를 받습니다.
+   - `Send me a code via SMS` — 구성된 모바일 장치로 텍스트 SMS 메시지가 전송됩니다.
+   - `Send me a code via phone call` — 사용자가 코드가 있는 전화를 받습니다.
 
    계정이 확인되고 열립니다.
 

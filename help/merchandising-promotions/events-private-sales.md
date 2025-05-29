@@ -3,9 +3,10 @@ title: 개인 영업 및 이벤트
 description: 비공개 판매 및 기타 카탈로그 이벤트를 사용하여 기존 고객 기반으로 판매를 증가시키고 버즈 및 새 리드를 생성하는 방법에 대해 알아봅니다.
 exl-id: 0b890463-b1e5-4327-8d8a-372afd53312a
 feature: Reporting, Promotions/Events
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-비공개 판매 및 기타 카탈로그 이벤트는 기존 고객 기반을 사용하여 버즈 및 신규 리드를 생성하거나 잉여 재고를 제거하는 좋은 방법입니다. 제한된 기간 영업을 만들거나, 특정 회원으로 판매를 제한하거나, 독립 실행형 개인 영업 페이지를 만들 수 있습니다. 초대 및 이벤트 세부 사항을 정의할 수도 있습니다. 최고의 고객에게 VIP 대우를 제공하여 브랜드 충성도를 높이고 버즈를 생성하십시오. 회원 전용 판매 또는 개인 판매에 대한 독점적 액세스 권한을 제공하여 브랜드 충성도를 높입니다. 당신은 또한 초과 상품을 청산하기 위해 이러한 판매를 사용할 수 있습니다. 고객 그룹은 이러한 유형의 멤버만 설정하고 VIP 판매를 설정하는 데 유용합니다.
+비공개 판매 및 기타 카탈로그 이벤트는 기존 고객 기반을 사용하여 버즈 및 신규 리드를 생성하거나 잉여 재고를 제거하는 좋은 방법입니다. 제한된 기간 영업을 만들거나, 특정 회원으로 판매를 제한하거나, 독립 실행형 개인 영업 페이지를 만들 수 있습니다. 초대 및 이벤트 세부 사항을 정의할 수도 있습니다. 최고의 고객에게 VIP 대우를 제공하여 브랜드 충성도를 높이고 논란을 일으킵니다. 회원 전용 판매 또는 개인 판매에 대한 독점적 액세스 권한을 제공하여 브랜드 충성도를 높입니다. 당신은 또한 초과 상품을 청산하기 위해 이러한 판매를 사용할 수 있습니다. 고객 그룹은 이러한 유형의 멤버만 설정하고 VIP 판매를 설정하는 데 유용합니다.
 
 ![홈 페이지의 예제 상점 - 이벤트](./assets/storefront-event-home-page.png){width="700" zoomable="yes"}
 

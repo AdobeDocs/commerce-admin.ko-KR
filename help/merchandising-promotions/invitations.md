@@ -3,9 +3,10 @@ title: 이벤트 초대
 description: 고객이 고객 계정의 대시보드에서 이벤트 및 개인 영업에 대한 초대를 보내고 보는 방법을 알아봅니다.
 exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
 feature: Promotions/Events, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -18,14 +19,14 @@ ht-degree: 0%
 
 ## 내 초대
 
-고객 계정의 _[!UICONTROL My Invitations]_&#x200B;섹션에는 고객이 보낸 모든 초대가 나열됩니다. 고객은 상점 이벤트, 선물 등록, 위시리스트 등을 위해 친구 및 가족에게 초대장을 보낼 수 있습니다.
+고객 계정의 _[!UICONTROL My Invitations]_섹션에는 고객이 보낸 모든 초대가 나열됩니다. 고객은 상점 이벤트, 선물 등록, 위시리스트 등을 위해 친구 및 가족에게 초대장을 보낼 수 있습니다.
 
 ![내 초대](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 
 ### 초대 워크플로
 
 1. **고객이 초대를 준비합니다**: 계정 대시보드에서 고객이 수신자 목록을 준비하고 초대를 완료합니다. 구성에 따라 사용자 지정 메시지를 포함할 수 있습니다.
-1. **고객이 초대를 보냅니다**: 준비가 되면 고객이 _[!UICONTROL Send Invitations]_&#x200B;단추를 클릭합니다.
+1. **고객이 초대를 보냅니다**: 준비가 되면 고객이 _[!UICONTROL Send Invitations]_단추를 클릭합니다.
 1. **시스템에서 전송을 관리합니다**: 시스템에서 구성에 설정된 숫자에 따라 초대를 일괄적으로 보냅니다.
 1. **고객이 응답을 모니터링함**: 고객은 계정 대시보드의 각 초대 상태를 `Sent`, `Accepted` 또는 `Canceled`(으)로 모니터링합니다.
 

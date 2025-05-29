@@ -1,20 +1,21 @@
 ---
-title: Adobe Identity Management 서비스(IMS) 통합 개요
+title: Adobe IMS(Identity Management Service) 통합 개요
 description: Adobe Commerce Admin 로그인과 Adobe IMS의 선택적 통합을 소개합니다.
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
 
-# Adobe Identity Management 서비스(IMS) 통합 개요
+# Adobe IMS(Identity Management Service) 통합 개요
 
 {{ee-feature}}
 
-이제 Adobe 계정이 있는 Adobe Commerce 관리자 사용자는 Adobe ID을 사용하여 Adobe Commerce에 로그인할 수 있습니다. IMS(Adobe Identity Management 서비스)는 인증을 지원하는 Adobe의 OAuth 2.0 기반 ID 관리 기능입니다. Commerce 관리 인증을 Adobe 비즈니스 제품의 IMS 인증 워크플로에 통합하면 다른 Adobe 제품과 함께 작업하는 사용자의 인증 프로세스를 간소화할 수 있습니다. 이 통합은 선택 사항이며 인스턴스별로 활성화되어 있습니다. 이 통합이 활성화되면 관리자 사용자 워크플로우만 영향을 받습니다. 
+이제 Adobe 계정이 있는 Adobe Commerce 관리자 사용자는 Adobe ID을 사용하여 Adobe Commerce에 로그인할 수 있습니다. Adobe IMS(Identity Management Service)는 인증을 지원하는 Adobe의 OAuth 2.0 기반 ID 관리 기능입니다. Commerce 관리 인증을 Adobe Business 제품의 IMS 인증 워크플로에 통합하면 다른 Adobe 제품과 함께 작업하는 사용자의 인증 프로세스를 간소화할 수 있습니다. 이 통합은 선택 사항이며 인스턴스별로 활성화되어 있습니다. 이 통합이 활성화되면 관리자 사용자 워크플로우만 영향을 받습니다. 
 
 Commerce Admin IMS 통합에 필요한 모듈은 Adobe Commerce 핵심 릴리스와 번들로 제공되는 `adobe-ims-metapackage`에 패키지되어 있습니다.
 
@@ -22,7 +23,7 @@ Commerce Admin IMS 통합에 필요한 모듈은 Adobe Commerce 핵심 릴리스
 
 ## IMS와 통합 후 관리 워크플로우 및 인터페이스 변경 사항
 
-이 통합이 활성화되면 Commerce 관리자 사용자는 관리자에서 관리자 사용자를 만드는 것과 같이 재인증이 필요한 일상적인 작업을 수행할 때 기본 Commerce 관리자 로그인 및 인증 워크플로가 변경됩니다. 모듈을 사용하려면 Adobe 조직 수준에서 2단계 인증(2FA)을 적용해야 합니다. 기본 관리자 로그인 및 2FA가 비활성화되고 _[!UICONTROL Sign In with Adobe ID]_&#x200B;단추가 기본 관리자 로그인 양식을 대체합니다. 권한은 여전히 관리자로부터 관리됩니다.
+이 통합이 활성화되면 Commerce 관리자 사용자는 관리자에서 관리자 사용자를 만드는 것과 같이 재인증이 필요한 일상적인 작업을 수행할 때 기본 Commerce 관리자 로그인 및 인증 워크플로가 변경됩니다. 모듈을 사용하려면 Adobe 조직 수준에서 2단계 인증(2FA)을 적용해야 합니다. 기본 관리자 로그인 및 2FA가 비활성화되고 _[!UICONTROL Sign In with Adobe ID]_단추가 기본 관리자 로그인 양식을 대체합니다. 권한은 여전히 관리자로부터 관리됩니다.
 
 ## IMS와 Admin 통합이 Commerce 암호에 미치는 영향
 
@@ -37,7 +38,7 @@ Commerce 애플리케이션에 대한 사용자 계정 및 역할 권한은 여�
 
 ## IMS 자격 증명을 사용하여 웹 API 토큰 생성
 
-Commerce Admin API는 Adobe IMS를 사용한 관리자 인증이 Commerce 인스턴스에서 활성화되면 영향을 받습니다. 관리자 사용자는 더 이상 Commerce 인스턴스에서 발급한 자격 증명을 사용할 수 없습니다. 이들은 관리자에 로그인하고 서비스에서 관리 REST 및 SOAP API에 요청을 하는 데 사용할 수 있는 액세스 토큰을 가져오는 데 필요한 자격 증명입니다.
+Commerce Admin API는 Adobe IMS를 사용한 관리자 인증이 Commerce 인스턴스에서 활성화되면 영향을 받습니다. 관리자 사용자는 더 이상 Commerce 인스턴스에서 발급한 자격 증명을 사용할 수 없습니다. 관리자에 로그인하고 서비스에서 관리 REST 및 SOAP API에 요청을 하는 데 사용할 수 있는 액세스 토큰을 가져오는 데 필요한 자격 증명입니다.
 
 Adobe IMS 통합이 활성화되면 관리자는 인증이 필요한 Adobe Commerce API 엔드포인트에 대해 [Adobe IMS OAuth 토큰](https://developer.adobe.com/developer-console/docs/guides/authentication/OAuthIntegration/)을 사용해야 합니다. 클라이언트 솔루션은 웹 API 사용을 위해 토큰을 동적으로 가져옵니다. 이 인증 메커니즘은 이 통합 구성의 일부로 REST 및 SOAP 웹 API 영역에 대해 활성화됩니다.
 

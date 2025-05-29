@@ -2,9 +2,9 @@
 title: '[!UICONTROL Sales] 메뉴'
 description: Commerce 관리자에는 [!UICONTROL Sales] 메뉴가 포함되어 있으며, 이 메뉴를 통해 워크플로우의 위치에 따라 주문 작업을 위한 도구에 액세스할 수 있습니다.
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 621b4729e23952ddd720b4dcc49b5341baae64cc
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,21 @@ ht-degree: 0%
 
 판매 메뉴에는 주문 워크플로우의 위치에 따라 트랜잭션이 나열됩니다. 각 옵션은 주문 수명 동안 다른 단계로 간주할 수 있습니다.
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+
 ![판매 메뉴](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+
+![판매 메뉴](./assets/admin-menu-sales-accs.png){width="450" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## [!UICONTROL Sales] 메뉴 표시
 
@@ -26,6 +40,12 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]**&#x200B;을(를) 클릭합�
 ![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B에서 사용 가능)
 
 승인된 구매자는 장바구니에서 [요청](../b2b/quote-request.md)을 보내 판매자와 [가격을 협상](../b2b/quotes.md)할 수 있습니다.
+
+### [!UICONTROL Quote Templates]
+
+![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B에서 사용 가능)
+
+구매자와 판매자가 재사용 가능하고 사용자 지정 가능한 [견적 템플릿](../b2b/quote-templates-overview.md)을 만들어 견적 프로세스를 간소화할 수 있습니다.
 
 ### [!UICONTROL Orders]
 
@@ -51,6 +71,8 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]**&#x200B;을(를) 클릭합�
 
 ### [!UICONTROL Billing Agreements]
 
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+
 [청구 계약](paypal-billing-agreements.md)은(는) 단일 구매로 제한되지 않는다는 점을 제외하면 구매 주문과 유사합니다. 체크아웃 중에 고객은 결제 방법으로 청구 계약을 선택합니다. 고객이 각 구매에 대한 결제 정보를 입력할 필요가 없기 때문에 청구 계약을 통해 체크아웃 프로세스를 간소화할 수 있습니다.
 
 ### [!UICONTROL Transactions]
@@ -59,7 +81,9 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]**&#x200B;을(를) 클릭합�
 
 ### [!UICONTROL Braintree Virtual Terminal]
 
-가상 터미널 Braintree 페이지에서 관리자는 선택한 금액에 대한 결제를 수락할 수 있습니다. 터미널 기능을 사용하려면 판매자가 기본 [Braintree 설정](braintree.md)을 구성해야 합니다. Braintree은 사기 행위 감지 및 PayPal 통합을 통해 완전히 사용자 지정 가능한 체크아웃 경험을 제공합니다.
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+
+Braintree 가상 터미널 페이지에서 관리자는 선택한 금액에 대한 결제를 수락할 수 있습니다. 터미널 기능을 사용하려면 판매자가 기본 [Braintree 설정](braintree.md)을 구성해야 합니다. Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 가능한 체크아웃 경험을 제공합니다.
 
 ### [!UICONTROL Archive]
 

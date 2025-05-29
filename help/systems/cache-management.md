@@ -3,9 +3,10 @@ title: 캐시 관리
 description: 사이트의 성능을 개선하는 쉬운 방법을 제공하는 캐시 관리 도구를 사용하는 방법에 대해 알아봅니다.
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -16,17 +17,17 @@ Adobe Commerce 및 Magento Open Source 캐시 관리 시스템은 사이트의 �
 
 ![제품 특성 저장 - 캐시 메시지 업데이트](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
-_[!UICONTROL Cache Management]_&#x200B;페이지에는 각 기본 캐시의 상태와 연결된 태그가 표시됩니다. 오른쪽 상단의 큰 버튼을 사용하여 캐시 또는 모든 항목이 포함된 캐시 저장소를 플러시할 수 있습니다. 페이지 하단에서 추가 버튼을 사용하여 카탈로그 제품 이미지 캐시와 JavaScript/CSS 캐시를 플러시할 수 있습니다.
+_[!UICONTROL Cache Management]_페이지에는 각 기본 캐시의 상태와 연결된 태그가 표시됩니다. 오른쪽 상단의 큰 버튼을 사용하여 캐시 또는 모든 항목이 포함된 캐시 저장소를 플러시할 수 있습니다. 페이지 하단에서 추가 버튼을 사용하여 카탈로그 제품 이미지 캐시와 JavaScript/CSS 캐시를 플러시할 수 있습니다.
 
 >[!IMPORTANT]
 >
->카탈로그 엔티티가 변경되면 다른 페이지에 영향을 줄 수 있으며 여러 캐시를 동시에 무효화할 수 있습니다. 캐시 관리 페이지를 검토할 때 새로 고침이 필요한 잘못된 항목이 _&#x200B;**직접 편집되지 않음**&#x200B;_&#x200B;일 때 표시될 수 있습니다. 예를 들어, 이 무효화는 카탈로그에서 범주에 지정된 제품을 편집하거나 관련 제품 규칙을 변경할 때 발생합니다.
+>카탈로그 엔티티가 변경되면 다른 페이지에 영향을 줄 수 있으며 여러 캐시를 동시에 무효화할 수 있습니다. 캐시 관리 페이지를 검토할 때 새로 고침이 필요한 잘못된 항목이 _**직접 편집되지 않음**_&#x200B;일 때 표시될 수 있습니다. 예를 들어, 이 무효화는 카탈로그에서 범주에 지정된 제품을 편집하거나 관련 제품 규칙을 변경할 때 발생합니다.
 
 캐시를 지운 후에는 항상 브라우저를 새로 고쳐 최신 파일이 보이는지 확인합니다. Commerce 캐시를 지워도 웹 브라우저 캐시가 지워지지 않습니다. 업데이트된 콘텐츠를 보려면 브라우저 캐시를 지워야 할 수 있습니다.
 
 Adobe Commerce 캐싱에 대한 추가 기술 정보는 _Commerce 프론트엔드 개발 안내서_&#x200B;의 [캐시 개요](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target="_blank"}에서 확인할 수 있습니다.
 
-다음 중 하나를 수행하여 _[!UICONTROL Cache Management]_&#x200B;페이지에 액세스합니다.
+다음 중 하나를 수행하여 _[!UICONTROL Cache Management]_페이지에 액세스합니다.
 
 - 작업 영역 위의 메시지에서 **[!UICONTROL Cache Management]** 링크를 클릭합니다.
 - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.
@@ -86,7 +87,7 @@ Adobe Commerce 캐싱에 대한 추가 기술 정보는 _Commerce 프론트엔�
 
 ## 제품 이미지 캐시 초기화
 
-1. _[!UICONTROL Additional Cache Management]_&#x200B;에서&#x200B;**[!UICONTROL Flush Catalog Images Cache]**&#x200B;을(를) 클릭하여 미리 생성된 제품 이미지 파일을 지웁니다.
+1. _[!UICONTROL Additional Cache Management]_에서&#x200B;**[!UICONTROL Flush Catalog Images Cache]**을(를) 클릭하여 미리 생성된 제품 이미지 파일을 지웁니다.
 
    작업 영역 맨 위에 `Image cache was cleaned` 메시지가 나타납니다.
 
@@ -94,7 +95,7 @@ Adobe Commerce 캐싱에 대한 추가 기술 정보는 _Commerce 프론트엔�
 
 ## JavaScript/CSS 캐시 플러시
 
-1. _[!UICONTROL Additional Cache Management]_&#x200B;에서&#x200B;**[!UICONTROL Flush JavaScript/CSS Cache]**&#x200B;을(를) 클릭하여 단일 파일로 병합된 Javascript 및 CSS 파일을 지웁니다.
+1. _[!UICONTROL Additional Cache Management]_에서&#x200B;**[!UICONTROL Flush JavaScript/CSS Cache]**을(를) 클릭하여 단일 파일로 병합된 Javascript 및 CSS 파일을 지웁니다.
 
    작업 영역 맨 위에 `The JavaScript/CSS cache has been cleaned` 메시지가 나타납니다.
 
@@ -102,7 +103,7 @@ Adobe Commerce 캐싱에 대한 추가 기술 정보는 _Commerce 프론트엔�
 
 ## 명령줄을 사용하여 플러시
 
-Commerce 애플리케이션 서버에 대한 액세스 권한이 있는 시스템 관리자 및 개발자는 Commerce CLI를 사용하여 명령줄에서 캐시 및 캐시 구성을 관리할 수도 있습니다. _구성 가이드_&#x200B;에서 [캐시 관리](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"}를 참조하십시오.
+Commerce 애플리케이션 서버에 대한 액세스 권한이 있는 시스템 관리자 및 개발자는 Commerce CLI를 사용하여 명령줄에서 캐시 및 캐시 구성을 관리할 수도 있습니다. _구성 가이드_&#x200B;에서 [캐시 관리](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"}를 참조하십시오.
 
 ## 컨트롤
 
@@ -136,11 +137,11 @@ Commerce 애플리케이션 서버에 대한 액세스 권한이 있는 시스�
 
 개발자와 시스템 통합자는 Adobe Commerce을 사용자 정의하거나 통합(예: GraphQL API를 사용한 통합 개발)할 때 이러한 값을 사용하여 캐싱을 구성하고 관리합니다.
 
-[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} `cache_type_id`은(는) Commerce CLI를 사용하여 응용 프로그램 서버 명령줄에서 캐시 관리에도 사용됩니다. 예를 들어 ` bin/magento cache:status config`은(는) 구성 캐시의 현재 상태를 표시합니다.
+[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} `cache_type_id`은(는) Commerce CLI를 사용하여 응용 프로그램 서버 명령줄에서 캐시 관리에도 사용됩니다. 예를 들어 ` bin/magento cache:status config`은(는) 구성 캐시의 현재 상태를 표시합니다.
 
 >[!NOTE]
 >
->개발자와 시스템 통합자는 Commerce 캐시 관리 시스템을 사용자 정의 및 확장하여 사용자 정의 모듈 및 통합을 지원할 수 있습니다. 자세한 내용은 _Adobe Commerce 구성 가이드_&#x200B;에서 [캐싱 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cache/caching-overview)을 참조하십시오.
+>개발자와 시스템 통합자는 Commerce 캐시 관리 시스템을 사용자 정의 및 확장하여 사용자 정의 모듈 및 통합을 지원할 수 있습니다. 자세한 내용은 _Adobe Commerce 구성 가이드_&#x200B;에서 [캐싱 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview)을 참조하십시오.
 
 <!-- prettier-ignore -->
 
@@ -183,7 +184,7 @@ Adobe Commerce 및 Magento Open Source은 서버에서 전체 페이지 캐싱�
 - `Sessioned` - 세션 방문 중에 스토어와 상호 작용하는 쇼핑객에게 세션 ID가 할당됩니다. 상호 작용에는 제품 비교나 장바구니에 제품 추가와 같은 활동이 포함됩니다. 세션 중에 생성된 캐시된 페이지는 세션 중에 해당 쇼핑객만 사용됩니다.
 - `Customer` - 등록된 계정을 사용하여 로그인하고 쇼핑하는 고객에 대해 고객 세션이 만들어집니다. 세션 중에 고객에게 할당된 고객 그룹에 따라 특별 오퍼, 프로모션 및 가격을 제공할 수 있습니다.
 
-자세한 내용은 _구성 가이드_&#x200B;에서 [바니시 구성 및 사용](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=ko){:target="_blank"} 및 [Commerce 페이지 및 기본 캐시에 Redis 사용](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=ko){:target="_blank"}을 참조하십시오.
+자세한 내용은 _구성 가이드_&#x200B;에서 [바니시 구성 및 사용](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target="_blank"} 및 [Commerce 페이지 및 기본 캐시에 Redis 사용](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target="_blank"}을 참조하십시오.
 
 **_전체 페이지 캐시를 구성하려면:_**
 
@@ -202,7 +203,7 @@ Adobe Commerce 및 Magento Open Source은 서버에서 전체 페이지 캐싱�
 
 1. 페이지 캐시에 대한 시간 제한을 설정하려면 **[!UICONTROL TTL for public content]**&#x200B;을(를) 입력하십시오. (기본값은 `86400`입니다.)
 
-1. [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=ko) HTTP 끝점에서 처리할 최대 [레이아웃 핸들](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) 수를 지정하려면 **[!UICONTROL Handles param size]**&#x200B;을(를) 입력하십시오. 크기를 제한하면 보안과 성능을 향상시킬 수 있습니다. (기본값은 `100`입니다.)
+1. [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP 끝점에서 처리할 최대 [레이아웃 핸들](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) 수를 지정하려면 **[!UICONTROL Handles param size]**&#x200B;을(를) 입력하십시오. 크기를 제한하면 보안과 성능을 향상시킬 수 있습니다. (기본값은 `100`입니다.)
 
 1. Vannish를 사용하는 경우 다음과 같이 **[!UICONTROL Varnish Configuration]** 섹션을 완료합니다.
 
@@ -212,7 +213,7 @@ Adobe Commerce 및 Magento Open Source은 서버에서 전체 페이지 캐싱�
 
    - **[!UICONTROL Backend port]** - 구성 파일을 생성하는 데 사용되는 백엔드 포트를 식별합니다. 기본값은 `8080`입니다.
 
-   - **[!UICONTROL Grace period]** - 구성 파일을 생성하는 유예 기간으로 사용할 시간(초)을 지정합니다. _구성 가이드_&#x200B;에서 [고급 바니시 구성](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=ko)을 참조하십시오.
+   - **[!UICONTROL Grace period]** - 구성 파일을 생성하는 유예 기간으로 사용할 시간(초)을 지정합니다. _구성 가이드_&#x200B;에서 [고급 바니시 구성](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html)을 참조하십시오.
 
    - 구성을 `varnish.vcl` 파일로 내보내려면 사용하는 Vannish 버전에 대한 단추를 클릭합니다.
 

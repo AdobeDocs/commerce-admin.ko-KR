@@ -4,16 +4,17 @@ description: 등록된 고객이 시작한 관리자 액세스 및 다양한 상
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
 # CAPTCHA
 
-CAPTCHA는 컴퓨터(또는 &quot;보트&quot;)가 아닌 사람이 사이트와 상호 작용하도록 보장하는 시각적 장치입니다. CAPTCHA는 _컴퓨터와 인간을 구분하기 위한 완전 자동화된 공용 튜링 테스트_&#x200B;의 약어입니다. 관리자 액세스 및 등록된 고객이 시작한 다양한 상점 첫 번째 작업 모두에 사용할 수 있습니다. Adobe Commerce 및 Magento Open Source은 이 항목에 설명된 표준 CAPTCHA와 [Google reCAPTCHA](security-google-recaptcha.md)를 지원합니다.
+CAPTCHA는 컴퓨터(또는 &quot;보트&quot;)가 아닌 사람이 사이트와 상호 작용하도록 보장하는 시각적 장치입니다. CAPTCHA는 _컴퓨터와 인간을 구분하기 위한 완전 자동화된 공용 튜링 테스트_&#x200B;의 약어입니다. 관리자 액세스 및 등록된 고객이 시작한 다양한 상점 첫 번째 작업 모두에 사용할 수 있습니다. Adobe Commerce 및 Magento Open Source에서는 이 항목에 설명된 표준 CAPTCHA와 [Google reCAPTCHA](security-google-recaptcha.md)를 지원합니다.
 
 이미지의 오른쪽 상단에 있는 다시 로드 아이콘을 클릭하여 CAPTCHA를 필요한 만큼 다시 로드할 수 있습니다. CAPTCHA는 완전히 구성 가능하며 설정될 수 있으며, 매번 또는 정의된 로그인 시도 실패 횟수가 지정된 후에만 나타납니다.
 
@@ -51,7 +52,7 @@ CAPTCHA는 컴퓨터(또는 &quot;보트&quot;)가 아닌 사람이 사이트와
    - **[!UICONTROL Displaying Modes]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
       - `Always` — CAPTCHA는 항상 관리자에 로그인해야 합니다.
-      - `After number of attempts to login` — 이 옵션은 관리자 로그인 양식에만 적용됩니다. 선택하면 _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;필드가 나타납니다. 허용할 로그인 시도 횟수를 입력합니다. 값이 0(영)이면 표시 모드를 `Always`(으)로 설정하는 것과 비슷합니다.
+      - `After number of attempts to login` — 이 옵션은 관리자 로그인 양식에만 적용됩니다. 선택하면 _[!UICONTROL Number of Unsuccessful Attempts to Login]_필드가 나타납니다. 허용할 로그인 시도 횟수를 입력합니다. 값이 0(영)이면 표시 모드를 `Always`(으)로 설정하는 것과 비슷합니다.
 
      실패한 로그인 시도 횟수를 추적하기 위해 하나의 이메일 주소와 하나의 IP 주소에서 로그인을 시도한 각 시도가 계산됩니다. 동일한 IP 주소에서 허용되는 최대 로그인 시도 횟수는 1,000회입니다. 이 제한은 CAPTCHA가 활성화된 경우에만 적용됩니다.
 
@@ -97,7 +98,7 @@ CAPTCHA는 컴퓨터(또는 &quot;보트&quot;)가 아닌 사람이 사이트와
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro`([보안 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=ko) _기술 자료_ 문서 참조)
+      - `Payflow Pro`([보안 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _기술 자료_ 문서 참조)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용)
       - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B에서만 사용 가능)

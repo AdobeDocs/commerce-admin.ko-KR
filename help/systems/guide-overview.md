@@ -2,10 +2,10 @@
 title: 관리 시스템 안내서
 description: Commerce 스토어를 보호하고 권한을 관리하는 최상의 보안 사례와 데이터 가져오기 및 내보내기, 통합 및 확장 기능 관리, 반복적인 유지 관리 처리 방법을 알아보십시오.
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
-source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
+source-git-commit: bc52e81a445fe432187648f4e9003ad5332a18cd
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 8%
+source-wordcount: '390'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 | [전자 메일 템플릿](email-templates.md) | 이메일 템플릿은 스토어에서 전송되는 자동화된 메시지의 레이아웃, 콘텐츠 및 형식을 정의합니다. 각 트랜잭션 이메일은 특정 유형의 트랜잭션 또는 이벤트와 연결되므로 트랜잭션 이메일이라고 합니다. |
 | [데이터 전송](data-transfer.md) | 가져오기 및 내보내기 도구를 사용하면 한 번의 작업으로 여러 레코드를 관리할 수 있습니다. 새 항목을 가져올 수 있을 뿐만 아니라 기존 제품 세트를 업데이트, 대체 및 삭제할 수도 있습니다. |
 | [작업 로그](action-log.md) | Adobe Commerce의 경우 작업 로그는 스토어에서 작업하는 관리 사용자가 수행한 모든 변경 사항을 캡처합니다. 이를 통해 스토어에 대한 모든 변경 사항을 추적할 수 있습니다. |
-| 도구 | 시스템 관리자에게는 사용 가능한 도구 모음이 있습니다. [지원 도구](support.md)는 시스템의 알려진 문제를 식별하도록 설계되었습니다. 시스템 도구는 일상적인 [index](index-management.md) 및 [cache](cache-management.md) 관리를 수행하고, [시스템을 백업하고](backups.md)예약된 작업을 관리하고[&#128279;](data-scheduled-import-export.md)하며, [개발자 도구](developer-tools.md)의 집합을 사용할 수 있도록 운영 지원을 제공합니다. |
+| 도구 | [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 시스템 관리자에게는 사용 가능한 도구 모음이 있습니다. [지원 도구](support.md)는 시스템의 알려진 문제를 식별하도록 설계되었습니다. 시스템 도구는 일상적인 [index](index-management.md) 및 [cache](cache-management.md) 관리를 수행하고, [시스템을 백업하고](backups.md)예약된 작업을 관리하고](data-scheduled-import-export.md)하며, [개발자 도구](developer-tools.md)의 집합을 사용할 수 있도록 운영 지원을 제공합니다.[ |
 | [통합](integrations.md) | OAuth 자격 증명의 위치를 설정하고 서드파티 통합을 위한 리디렉션 URL을 제공합니다. |
 | [보안](security.md) | 저장소 및 데이터의 보안을 유지하는 데 사용할 수 있는 도구 및 손상을 감지하는 경우 보안 작업 계획에 대한 지침에 대해 알아봅니다. |
 

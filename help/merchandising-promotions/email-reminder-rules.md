@@ -3,9 +3,10 @@ title: 이메일 알림 메시지
 description: 특정 조건 세트가 충족될 때 고객에게 자동으로 전송될 수 있는 이메일 미리 알림에 대해 알아봅니다.
 exl-id: 3293caca-9dd3-4d64-a80c-58c92a9208e5
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->고객에게 일치하는 포기한 장바구니, 위시리스트 또는 두 가지 조합을 두 개 이상 보유한 경우, 이메일 미리 알림은 해당 고객에 대해 한 번만 트리거됩니다. 동일한 이메일 미리 알림을 다시 트리거하려면 _[!UICONTROL Repeat Schedule]_&#x200B;필드를 사용하여 이메일 간격(일)을 설정하십시오.
+>고객에게 일치하는 포기한 장바구니, 위시리스트 또는 두 가지 조합을 두 개 이상 보유한 경우, 이메일 미리 알림은 해당 고객에 대해 한 번만 트리거됩니다. 동일한 이메일 미리 알림을 다시 트리거하려면 _[!UICONTROL Repeat Schedule]_필드를 사용하여 이메일 간격(일)을 설정하십시오.
 
 ![전자 메일 미리 알림](./assets/email-reminders.png){width="700" zoomable="yes"}
 
@@ -44,7 +45,7 @@ ht-degree: 0%
       - `Hourly`
       - `Daily`
 
-   - _[!UICONTROL Frequency]_&#x200B;설정을 기반으로 적절한&#x200B;**[!UICONTROL Interval]**&#x200B;을(를) 설정합니다.
+   - _[!UICONTROL Frequency]_설정을 기반으로 적절한&#x200B;**[!UICONTROL Interval]**을(를) 설정합니다.
 
    - **[!UICONTROL Start Time]**&#x200B;을(를) 24시간 시계에 따라 이메일이 전송되는 시간, 분, 초로 설정합니다.
 

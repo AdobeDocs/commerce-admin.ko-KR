@@ -3,9 +3,10 @@ title: 이벤트 구성
 description: 스토어프론트 사이드바에서 이벤트를 활성화하고 이벤트 블록을 설정하는 기본 구성을 완료하는 방법을 알아봅니다.
 exl-id: 620b2d60-ce6f-4f31-93bb-18d3dd9cdce6
 feature: Marketing Tools, Promotions/Events
-source-git-commit: 084d2c3381f57a8a4c7e8ffde9da1abd4d8af670
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -88,6 +89,6 @@ ht-degree: 0%
 
 ### 판매 제한
 
-기본적으로 예정된 이벤트나 마감된 이벤트에 나타나는 제품은 일반 판매에 사용할 수 없으며 _[!UICONTROL Add to Cart]_&#x200B;단추는 제품 목록이나 제품 페이지에 나타나지 않습니다.
+기본적으로 예정된 이벤트나 마감된 이벤트에 나타나는 제품은 일반 판매에 사용할 수 없으며 _[!UICONTROL Add to Cart]_단추는 제품 목록이나 제품 페이지에 나타나지 않습니다.
 
-닫힘 이벤트에 대한 _[!UICONTROL Add to Cart]_&#x200B;단추를 복원하려면 이벤트를 삭제해야 합니다([이벤트 업데이트](event-create.md#update-events) 참조). 그러나 제품이 판매 제한이 없는 다른 카테고리와 연결된 경우 해당 버튼을 제품 페이지에서 사용할 수 있습니다. 마찬가지로 판매 제한이 없는 다른 카테고리와 제품이 연결된 경우 티커 블록이 제품 페이지에 표시되지 않습니다.
+닫힘 이벤트에 대한 _[!UICONTROL Add to Cart]_단추를 복원하려면 이벤트를 삭제해야 합니다([이벤트 업데이트](event-create.md#update-events) 참조). 그러나 제품이 판매 제한이 없는 다른 카테고리와 연결된 경우 해당 버튼을 제품 페이지에서 사용할 수 있습니다. 마찬가지로 판매 제한이 없는 다른 카테고리와 제품이 연결된 경우 티커 블록이 제품 페이지에 표시되지 않습니다.
