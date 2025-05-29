@@ -25,7 +25,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Browser Capabilities Detection]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 

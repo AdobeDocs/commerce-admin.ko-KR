@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->고객에게 일치하는 포기한 장바구니, 위시리스트 또는 두 가지 조합을 두 개 이상 보유한 경우, 이메일 미리 알림은 해당 고객에 대해 한 번만 트리거됩니다. 동일한 이메일 미리 알림을 다시 트리거하려면 _[!UICONTROL Repeat Schedule]_필드를 사용하여 이메일 간격(일)을 설정하십시오.
+>고객에게 일치하는 포기한 장바구니, 위시리스트 또는 두 가지 조합을 두 개 이상 보유한 경우, 이메일 미리 알림은 해당 고객에 대해 한 번만 트리거됩니다. 동일한 이메일 미리 알림을 다시 트리거하려면 _[!UICONTROL Repeat Schedule]_&#x200B;필드를 사용하여 이메일 간격(일)을 설정하십시오.
 
 ![전자 메일 미리 알림](./assets/email-reminders.png){width="700" zoomable="yes"}
 
@@ -45,7 +45,7 @@ ht-degree: 0%
       - `Hourly`
       - `Daily`
 
-   - _[!UICONTROL Frequency]_설정을 기반으로 적절한&#x200B;**[!UICONTROL Interval]**을(를) 설정합니다.
+   - _[!UICONTROL Frequency]_&#x200B;설정을 기반으로 적절한&#x200B;**[!UICONTROL Interval]**&#x200B;을(를) 설정합니다.
 
    - **[!UICONTROL Start Time]**&#x200B;을(를) 24시간 시계에 따라 이메일이 전송되는 시간, 분, 초로 설정합니다.
 

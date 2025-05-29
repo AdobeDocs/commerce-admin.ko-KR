@@ -52,7 +52,7 @@ CAPTCHA는 컴퓨터(또는 &quot;보트&quot;)가 아닌 사람이 사이트와
    - **[!UICONTROL Displaying Modes]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
       - `Always` — CAPTCHA는 항상 관리자에 로그인해야 합니다.
-      - `After number of attempts to login` — 이 옵션은 관리자 로그인 양식에만 적용됩니다. 선택하면 _[!UICONTROL Number of Unsuccessful Attempts to Login]_필드가 나타납니다. 허용할 로그인 시도 횟수를 입력합니다. 값이 0(영)이면 표시 모드를 `Always`(으)로 설정하는 것과 비슷합니다.
+      - `After number of attempts to login` — 이 옵션은 관리자 로그인 양식에만 적용됩니다. 선택하면 _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;필드가 나타납니다. 허용할 로그인 시도 횟수를 입력합니다. 값이 0(영)이면 표시 모드를 `Always`(으)로 설정하는 것과 비슷합니다.
 
      실패한 로그인 시도 횟수를 추적하기 위해 하나의 이메일 주소와 하나의 IP 주소에서 로그인을 시도한 각 시도가 계산됩니다. 동일한 IP 주소에서 허용되는 최대 로그인 시도 횟수는 1,000회입니다. 이 제한은 CAPTCHA가 활성화된 경우에만 적용됩니다.
 

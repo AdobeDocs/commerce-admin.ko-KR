@@ -63,7 +63,7 @@ _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Support]_>
 
 ### 시스템 보고서 세부 정보 보기
 
-1. 필요한 보고서에 대해 _[!UICONTROL Actions]_열에서&#x200B;**[!UICONTROL View]**을(를) 선택합니다.
+1. 필요한 보고서에 대해 _[!UICONTROL Actions]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 선택합니다.
 
 1. 왼쪽 패널에서 보고서의 각 섹션을 ![확장 선택기](../assets/icon-display-expand.png)로 확장하여 세부 정보를 봅니다.
 

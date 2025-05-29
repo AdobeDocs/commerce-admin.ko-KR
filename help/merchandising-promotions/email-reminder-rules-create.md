@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단에서 **[!UICONTROL Add New Rule]**&#x200B;을(를) 클릭합니다.
 
-1. 다음과 같이 _[!UICONTROL Rule Information]_을(를) 완료합니다.
+1. 다음과 같이 _[!UICONTROL Rule Information]_&#x200B;을(를) 완료합니다.
 
    ![전자 메일 미리 알림 규칙](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -56,9 +56,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >고객에게 일치하는 포기한 장바구니, 위시리스트 또는 두 가지 조합을 두 개 이상 보유한 경우, 이메일 미리 알림은 해당 고객에 대해 한 번만 트리거됩니다. 동일한 이메일 미리 알림을 다시 트리거하려면 _[!UICONTROL Repeat Schedule]_필드를 사용하여 이메일 간격(일)을 설정하십시오. <br/>
+   >고객에게 일치하는 포기한 장바구니, 위시리스트 또는 두 가지 조합을 두 개 이상 보유한 경우, 이메일 미리 알림은 해당 고객에 대해 한 번만 트리거됩니다. 동일한 이메일 미리 알림을 다시 트리거하려면 _[!UICONTROL Repeat Schedule]_&#x200B;필드를 사용하여 이메일 간격(일)을 설정하십시오. <br/>
    >
-   >_[!UICONTROL Repeat Schedule]_기간이 끝난&#x200B;**_신규_**포기한 장바구니 및 희망 목록&#x200B;**_이후_**에 대해 동일한 고객에 대해 동일한 이메일 미리 알림이&#x200B;**_다시 시도되지 않음_**입니다.
+   >_[!UICONTROL Repeat Schedule]_&#x200B;기간이 끝난&#x200B;**_신규_**&#x200B;포기한 장바구니 및 희망 목록&#x200B;**_이후_**&#x200B;에 대해 동일한 고객에 대해 동일한 이메일 미리 알림이&#x200B;**_다시 시도되지 않음_**&#x200B;입니다.
 
    이메일 미리 알림을 트리거하는 시나리오를 설명하는 조건을 완료합니다.
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
      ![전자 메일 미리 알림 - 제목 및 설명](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - _[!UICONTROL Titles and Descriptions Per Store View]_섹션에서_&#x200B;기본 저장소 보기&#x200B;_에 대한&#x200B;**[!UICONTROL Rule Title]**및&#x200B;**[!UICONTROL Description]**을(를) 입력하십시오. 여러 스토어 조회수의 경우 각각에 대해 적절한 제목과 설명을 입력합니다.
+   - _[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;섹션에서_&#x200B;기본 저장소 보기&#x200B;_에 대한&#x200B;**[!UICONTROL Rule Title]**&#x200B;및&#x200B;**[!UICONTROL Description]**&#x200B;을(를) 입력하십시오. 여러 스토어 조회수의 경우 각각에 대해 적절한 제목과 설명을 입력합니다.
 
      >[!NOTE]
      >

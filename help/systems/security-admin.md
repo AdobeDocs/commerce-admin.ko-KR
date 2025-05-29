@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL Advanced]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Admin]**을(를) 선택합니다.
+1. _[!UICONTROL Advanced]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Admin]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Security]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 

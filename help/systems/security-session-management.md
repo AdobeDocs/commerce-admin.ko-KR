@@ -77,7 +77,7 @@ Adobe Commerce 및 Magento Open Source을 사용하면 가능한 세션 고정 �
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널에서 _[!UICONTROL General]_을(를) 확장하고&#x200B;**[!UICONTROL Web]**을(를) 선택합니다.
+1. 왼쪽 패널에서 _[!UICONTROL General]_&#x200B;을(를) 확장하고&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Session Validation Settings]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 

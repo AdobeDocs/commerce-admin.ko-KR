@@ -20,7 +20,7 @@ Commerce 관리에서 통합을 정의하면 서드파티 통합을 위한 OAuth
 
 ## 온보딩 워크플로우
 
-1. **통합 승인** - **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**페이지로 이동하여 관련 통합을 찾은 다음 권한을 부여합니다.
+1. **통합 승인** - **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;페이지로 이동하여 관련 통합을 찾은 다음 권한을 부여합니다.
 1. **로그인 확인 및 설정** - 메시지가 표시되면 요청된 액세스 권한을 수락합니다. 서드파티로 리디렉션되면 시스템에 로그인하거나 계정을 만듭니다. 로그인에 성공하면 통합 페이지로 돌아갑니다.
 1. **인증된 통합의 확인을 받습니다** - 시스템이 통합이 인증되었음을 알리는 알림을 보냅니다. 통합을 설정하고 자격 증명을 받은 후 더 이상 액세스 또는 요청 토큰에 대한 호출을 수행할 필요가 없습니다.
 
@@ -81,7 +81,7 @@ Commerce 관리에서 통합을 정의하면 서드파티 통합을 위한 OAuth
 
 1. **[!UICONTROL Active]** 상태와의 통합을 찾습니다.
 
-1. _[!UICONTROL Activate]_열에서&#x200B;**[!UICONTROL Reauthorize]**을(를) 클릭합니다.
+1. _[!UICONTROL Activate]_&#x200B;열에서&#x200B;**[!UICONTROL Reauthorize]**&#x200B;을(를) 클릭합니다.
 
 1. API 리소스에 대한 액세스를 승인하려면 **[!UICONTROL Reauthorize]**&#x200B;을(를) 클릭하십시오.
 

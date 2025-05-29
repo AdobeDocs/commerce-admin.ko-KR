@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # [!UICONTROL Stores] 메뉴
 
-_[!UICONTROL Stores]_메뉴는 사용 빈도가 낮지만 Adobe Commerce 또는 Magento Open Source 설치 전체에서 참조되는 설정에 대한 액세스를 제공합니다. 이러한 기능에는 스토어 계층 설정, 구성, 판매 및 주문 설정, 세금 및 통화, 제품 속성, 제품 검토 등급 및 고객 그룹이 포함됩니다.
+_[!UICONTROL Stores]_&#x200B;메뉴는 사용 빈도가 낮지만 Adobe Commerce 또는 Magento Open Source 설치 전체에서 참조되는 설정에 대한 액세스를 제공합니다. 이러한 기능에는 스토어 계층 설정, 구성, 판매 및 주문 설정, 세금 및 통화, 제품 속성, 제품 검토 등급 및 고객 그룹이 포함됩니다.
 
 >[!BEGINTABS]
 

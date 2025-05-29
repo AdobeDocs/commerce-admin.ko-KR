@@ -24,7 +24,7 @@ Adobe Commerce 및 Magento Open Source은 정기적으로 스크립트를 실행
 
 >[!IMPORTANT]
 >
->핵심 구성 요소와 일부 타사 확장이 예상대로 작동하는지 확인하려면 Commerce 서비스를 crontab에 설치해야 합니다. crontab에 서비스를 설치하는 방법에 대한 자세한 내용은 _설치 안내서_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html)의 [지침을 참조하십시오.
+>핵심 구성 요소와 일부 타사 확장이 예상대로 작동하는지 확인하려면 Commerce 서비스를 crontab에 설치해야 합니다. crontab에 서비스를 설치하는 방법에 대한 자세한 내용은 _설치 안내서_[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html)의 지침을 참조하십시오.
 
 또한 cron 일정에 따라 실행되도록 다음을 구성할 수 있습니다.
 
