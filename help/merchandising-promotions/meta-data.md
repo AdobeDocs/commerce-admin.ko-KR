@@ -3,7 +3,7 @@ title: 메타데이터
 description: 검색 엔진이 Commerce 사이트를 색인화하는 방법을 개선하기 위해 키워드가 풍부한 메타데이터를 입력할 수 있는 방법에 대해 알아봅니다.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
 source-wordcount: '703'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce as a Cloud Service의 경우 Commerce Storefront 설명서에서 [메타데이터 지침](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/)을 참조하십시오
+>Adobe Commerce as a Cloud Service의 경우 Commerce Storefront 설명서에서 [메타데이터 지침](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=ko)을 참조하십시오
 
 스토어에는 검색 엔진이 사이트를 색인화하는 방식을 개선하기 위해 키워드가 풍부한 메타데이터를 입력할 수 있는 위치가 로드됩니다. 스토어를 설정하는 동안 나중에 완료하기 위해 사전 메타데이터를 입력할 수 있습니다. 시간이 지남에 따라 고객의 구매 패턴과 선호도를 타겟팅하기 위해 메타데이터를 미세 조정할 수 있습니다.
 

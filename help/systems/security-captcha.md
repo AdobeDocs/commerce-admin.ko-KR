@@ -4,7 +4,7 @@ description: 등록된 고객이 시작한 관리자 액세스 및 다양한 상
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '959'
@@ -98,7 +98,7 @@ CAPTCHA는 컴퓨터(또는 &quot;보트&quot;)가 아닌 사람이 사이트와
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro`([보안 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _기술 자료_ 문서 참조)
+      - `Payflow Pro`([보안 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=ko) _기술 자료_ 문서 참조)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용)
       - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B에서만 사용 가능)

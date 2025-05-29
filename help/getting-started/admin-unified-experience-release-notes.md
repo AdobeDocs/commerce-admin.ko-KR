@@ -2,7 +2,7 @@
 title: '[!DNL Admin Unified Experience for Adobe Commerce] 릴리스 정보'
 description: Commerce용  [!DNL Admin Unified Experience] 확장의 최신 릴리스에 대한 정보는 릴리스 정보를 검토하십시오.
 exl-id: f8a16c63-13f9-4429-a1cd-2293bc465f9f
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
 source-wordcount: '210'
@@ -20,7 +20,7 @@ Commerce 관리 통합 경험 확장 기능(`magento/module-unified-experience`)
 
 >[!NOTE]
 >
->Adobe Commerce 관련 Admin Unified Experience 확장 릴리스 상태에 대한 자세한 내용은 [제품 가용성](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html)을 참조하십시오.
+>Adobe Commerce 관련 Admin Unified Experience 확장 릴리스 상태에 대한 자세한 내용은 [제품 가용성](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=ko)을 참조하십시오.
 
 ## 1.0 릴리스
 

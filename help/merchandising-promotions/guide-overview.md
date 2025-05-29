@@ -19,7 +19,7 @@ ht-degree: 0%
 | ------- | ----------- |
 | [소개](introduction.md) | Commerce 인스턴스를 사용한 머천다이징 및 프로모션 기능에 대한 개요입니다. |
 | [마케팅 메뉴](marketing-menu.md) | 프로모션, 커뮤니케이션, SEO 및 사용자 생성 콘텐츠를 관리하기 위한 여러 기능에 액세스하려면 [!UICONTROL Marketing] 메뉴를 사용하십시오. |
-| [시각적 머천다이저](visual-merchandiser.md) | [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 제품을 배치하고 범주 목록에 표시되는 제품을 결정하는 조건을 적용할 수 있는 이 고급 도구 집합을 살펴봅니다. |
+| [시각적 머천다이저](visual-merchandiser.md) | [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 제품을 배치하고 범주 목록에 표시되는 제품을 결정하는 조건을 적용할 수 있는 이 고급 도구 집합을 살펴봅니다. |
 | [선물 등록](gift-registries.md) | 고객에게 특별한 경우에 사용할 선물 등록기를 만들고, 친구 및 가족이 선물 등록기에서 선물을 구입하도록 초대할 수 있는 기능을 제공합니다. |
 | [보상 및 충성도 프로그램](rewards-loyalty.md) | 고객 참여를 유도하고 고객 충성도를 홍보하는 프로그램을 구현합니다. |
 | [개인 판매 및 이벤트](events-private-sales.md) | 제한된 기간 영업을 만들거나, 특정 회원으로 판매를 제한하거나, 독립 실행형 개인 영업 페이지를 만듭니다. |
