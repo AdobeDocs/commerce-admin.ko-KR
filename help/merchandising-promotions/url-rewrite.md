@@ -111,4 +111,4 @@ Commerce은 다음과 같은 URL 재작성 유형을 제공합니다.
 
 이 비디오를 통해 URL 재작성 관리에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410127?quality=12&learn=on&captions=kor)
