@@ -19,7 +19,7 @@ _콘텐츠 마케팅_&#x200B;이라는 용어는 고객에게 중요한 정보�
 
 Adobe Commerce 및 Magento Open Source은 스토어를 간단하게 변경하는 데 사용할 수 있는 사용하기 쉬운 디자인 옵션을 제공합니다. [Commerce Marketplace](../getting-started/commerce-marketplace.md)에서 전문적으로 디자인된 테마를 사용할 수도 있습니다. 당신의 가게의 윈도우 드레싱처럼, 당신은 계절 또는 프로모션을 위해 테마를 변경할 수 있습니다.
 
-[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 고급 스토어 디자이너는 별도의 구성 요소에서 페이지를 조합하는 개체 지향 환경에서 유연하게 작업할 수 있습니다. 기본 사항을 이해하면 유연하고 유연한 환경에서 일하는 것이 좋습니다. 자세한 내용은 [프론트엔드 개발자 안내서][1]를 참조하세요.
+[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 고급 스토어 디자이너는 별도의 구성 요소에서 페이지를 조합하는 개체 지향 환경에서 유연하게 작업할 수 있습니다. 기본 사항을 이해하면 유연하고 유연한 환경에서 일하는 것이 좋습니다. 자세한 내용은 [프론트엔드 개발자 안내서][1]를 참조하세요.
 
 ### 구성
 
@@ -31,7 +31,7 @@ Adobe Commerce 및 Magento Open Source은 스토어를 간단하게 변경하는
 
 ### 일정
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 테마는 [일정](schedule.md)에 따라 특정 기간 동안 활성화할 수 있습니다. 일정을 사용하여 시즌 또는 프로모션에 대한 테마 변경을 미리 계획합니다.
 

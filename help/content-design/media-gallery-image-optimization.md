@@ -3,7 +3,7 @@ title: 미디어 갤러리 이미지 최적화
 description: ' [!DNL Commerce] 미디어 자산에 대해 이미지 최적화를 사용하는 방법을 알아봅니다.'
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '191'
@@ -32,6 +32,6 @@ ht-degree: 0%
 
 구성에서 _최대 너비_ 및 _최대 높이_ 값이 변경되면 이전에 삽입한 기존의 최적화된 모든 이미지가 업데이트됩니다.
 
-Media Gallery 이미지 최적화를 사용하려면 구성을 변경할 때 최적화된 이미지를 다시 생성하기 위해 `media.gallery.renditions.update` 큐 소비자가 실행 중이어야 합니다. 자세한 내용은 _구성 가이드_&#x200B;의 [메시지 큐 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)를 참조하십시오.
+Media Gallery 이미지 최적화를 사용하려면 구성을 변경할 때 최적화된 이미지를 다시 생성하기 위해 `media.gallery.renditions.update` 큐 소비자가 실행 중이어야 합니다. 자세한 내용은 _구성 가이드_&#x200B;의 [메시지 큐 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ko)를 참조하십시오.
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}
