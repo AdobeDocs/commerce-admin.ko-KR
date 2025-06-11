@@ -4,16 +4,29 @@ description: 향상된 보안 검사를 실행하고 각 Adobe Commerce 및 Mage
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 4f46ce0ee4e4d51d178dac04d1493f0d9cffc49b
+source-git-commit: fa3931d4aaa5e7b903a17ec074703d2c8130c71d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
 
+
 # 보안 검사
 
-Adobe Commerce 및 Magento Open Source 사이트에서 보안 위험 및 맬웨어를 모니터링하고 보안 업데이트 및 알림을 받습니다.
+Adobe Commerce 보안 검색 도구는 Adobe Commerce 및 Magento Open Source 사이트에 대한 무료 보안 모니터링을 제공합니다. 이 도구는 [account.magento.com](https://account.magento.com/customer/account/login)에서 온라인 Adobe Commerce 계정을 통해 액세스할 수 있는 웹 기반 서비스로 작동합니다.
+
+![보안 검사 도구](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Adobe은 이 서비스를 무료로 제공하지만, 상인은 검색 결과 및 사이트 구성에 따라 Adobe의 책임을 제한하는 약관에 동의해야 합니다.
+
+## 검사 범위
+
+보안 검색 도구는 HTTP 및 HTTPS 프로토콜을 통해 작동하여 맬웨어를 감지하고 보안 취약점을 식별하며 스토어의 보안 상태를 유지하는 데 도움이 됩니다. 이 도구는 모든 판매자, 개발자 및 사이트 보안을 담당하는 지정 인력이 사용할 수 있습니다.
+
+Security Scan Tool은 안전한 저장소 환경을 유지 관리하는 데 도움이 되는 포괄적인 보안 모니터링 기능을 제공합니다.
 
 - insight을 통해 스토어의 실시간 보안 상태를 확인할 수 있습니다.
 - 문제 해결에 도움이 되는 모범 사례를 기반으로 제안을 받습니다.
@@ -22,11 +35,25 @@ Adobe Commerce 및 Magento Open Source 사이트에서 보안 위험 및 맬웨�
 - 사이트의 진행 상황을 추적 및 모니터링하는 기간별 보안 보고서에 액세스합니다.
 - 모든 권장 작업과 함께 성공 및 실패한 검사를 표시하는 검사 보고서에 액세스합니다.
 
-보안 검색 도구는 [Commerce/Magento 계정](../getting-started/commerce-account-create.md)의 대시보드에서 무료로 사용할 수 있습니다. 자세한 내용은 _Commerce on Cloud Infrastructure Guide_&#x200B;에서 [보안 검색 도구 설정](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)을 참조하십시오.
+>[!NOTE]
+>
+>Adobe Commerce에 대한 보안 검색 도구 검사에서 특정 보안 테스트를 제외할 수 없습니다. 그러나 해당되는 경우 [실패 무시](#manage-scan-failures)에서 긍정 오류(false positive)로 셀프 서비스를 수행할 수 있습니다.
 
-![보안 검사 도구](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+## 액세스
 
-## 보안 검사 실행
+보안 검색 도구는 사이트 정보를 보호하기 위해 엄격한 액세스 제어 기능을 유지 관리합니다. 이 도구를 사용하려면 Adobe Commerce 계정을 통해 도메인 소유권을 확인해야 하므로 사이트만 검색할 수 있습니다. 각 사이트는 고유한 토큰을 통해 계정에 연결되어 서드파티가 승인하지 않은 검색을 방지합니다.
+
+이 도구는 특히 Adobe Commerce 도메인과 해당 보안 취약점에 중점을 둡니다. 웹 스토어에 다른 플랫폼의 페이지가 포함될 수 있지만 보안 검색 도구는 신뢰할 수 있는 결과를 보장하기 위해 Adobe Commerce 생성 콘텐츠만 스캔해야 합니다. Adobe Commerce이 아닌 페이지를 검색하면 신뢰할 수 없는 취약성 평가가 발생할 수 있습니다.
+
+## 검사 실행
+
+검색 프로세스는 알려진 보안 문제에 대해 사이트를 확인하고, 스토어를 공격에 취약하게 만들 수 있는 누락된 Adobe Commerce 패치 및 업데이트를 식별합니다.
+
+>[!TIP]
+>
+>클라우드 인프라 프로젝트의 Commerce에 대해서는 [보안 검색 도구 설정](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)을 참조하십시오.
+
+검사를 실행하려면:
 
 1. Commerce 홈페이지에서 [Commerce/Magento 계정](../getting-started/commerce-account-create.md)에 로그인합니다.
 
@@ -37,7 +64,7 @@ Adobe Commerce 및 Magento Open Source 사이트에서 보안 위험 및 맬웨�
    1. **[!UICONTROL Terms and Conditions]**&#x200B;을(를) 읽습니다.
    1. 계속하려면 **[!UICONTROL Agree]**&#x200B;을(를) 클릭하십시오.
 
-1. _[!UICONTROL Monitored Websites]_&#x200B;페이지에서&#x200B;**[!UICONTROL +Add Site]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Monitored Websites]_페이지에서&#x200B;**[!UICONTROL +Add Site]**을(를) 클릭합니다.
 
    여러 사이트가 있고 도메인이 다른 경우 각 도메인에 대해 별도의 검사를 구성합니다.
 
@@ -104,7 +131,7 @@ Adobe Commerce 및 Magento Open Source 사이트에서 보안 위험 및 맬웨�
 
          빌드 프로세스가 완료되면 변경 사항이 PWA 스토어 전면에 배포됩니다.
 
-1. Commerce 계정의 _[!UICONTROL Security Scan]_&#x200B;페이지로 돌아가서&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;을(를) 클릭하여 도메인의 소유권을 설정합니다.
+1. Commerce 계정의 _[!UICONTROL Security Scan]_페이지로 돌아가서&#x200B;**[!UICONTROL Verify Confirmation Code]**을(를) 클릭하여 도메인의 소유권을 설정합니다.
 
 1. 확인 후 다음 유형 중 하나에 대해 **[!UICONTROL Set Automatic Security Scan]** 옵션을 구성합니다.
 
@@ -159,7 +186,7 @@ Adobe Commerce 및 Magento Open Source 사이트에서 보안 위험 및 맬웨�
 
 긍정 오류(false positive)로 식별한 스캔 실패를 관리하려면 다음 단계를 수행하십시오.
 
-1. _[!UICONTROL Monitored Websites]_&#x200B;페이지에서 관리할 사이트의&#x200B;**[!UICONTROL View Report]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Monitored Websites]_페이지에서 관리할 사이트의&#x200B;**[!UICONTROL View Report]**을(를) 클릭합니다.
 
 1. 보고서 보기에서 긍정 오류(false positive)로 표시할 실패한 검사를 찾습니다.
 
@@ -169,13 +196,13 @@ Adobe Commerce 및 Magento Open Source 사이트에서 보안 위험 및 맬웨�
 
 1. 선택 내용을 저장하려면 **[!UICONTROL Apply Changes]**&#x200B;을(를) 클릭합니다.
 
-무시된 검사 오류가 _[!UICONTROL Ignored Results]_&#x200B;섹션으로 이동하며 위험 점수에서 제외됩니다.
+무시된 검사 오류가 _[!UICONTROL Ignored Results]_섹션으로 이동하며 위험 점수에서 제외됩니다.
 
 ### 스캔 실패 무시 중지
 
 이전에 무시한 스캔 실패를 활성 모니터링으로 복원해야 하는 경우 다음 단계를 수행합니다.
 
-1. 보고서 보기에서 _[!UICONTROL Ignored Results]_&#x200B;섹션으로 스크롤합니다.
+1. 보고서 보기에서 _[!UICONTROL Ignored Results]_섹션으로 스크롤합니다.
 
 1. 복원할 스캔 실패에 대해 **[!UICONTROL Stop Ignoring]**&#x200B;을(를) 클릭합니다.
 
@@ -183,7 +210,7 @@ Adobe Commerce 및 Magento Open Source 사이트에서 보안 위험 및 맬웨�
 
 1. 선택 내용을 저장하려면 **[!UICONTROL Apply Changes]**&#x200B;을(를) 클릭합니다.
 
-검사 오류가 _[!UICONTROL Failed Scans]_&#x200B;섹션으로 다시 이동하며 위험 점수에 포함됩니다.
+검사 오류가 _[!UICONTROL Failed Scans]_섹션으로 다시 이동하며 위험 점수에 포함됩니다.
 
 ### 무시된 스캔 실패 보기
 
