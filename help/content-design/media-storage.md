@@ -29,9 +29,9 @@ ht-degree: 0%
 
    ![이미지 삽입 아이콘](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   이 작업은 _[!UICONTROL Insert/edit image]_대화 상자를 엽니다.
+   이 작업은 _[!UICONTROL Insert/edit image]_&#x200B;대화 상자를 엽니다.
 
-1. _[!UICONTROL Source]_후_&#x200B;검색&#x200B;_아이콘(![검색 아이콘](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"})을 클릭합니다.
+1. _[!UICONTROL Source]_&#x200B;후_&#x200B;검색&#x200B;_아이콘(![검색 아이콘](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"})을 클릭합니다.
 
 1. 왼쪽의 디렉터리 트리에서 다음 중 하나를 수행합니다.
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 1. [편집기](editor.md) 도구 모음에서 _이미지 삽입_ 아이콘을 클릭합니다.
 
-1. _[!UICONTROL Source]_후_&#x200B;검색&#x200B;_아이콘(![검색 아이콘](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"})을 클릭합니다.
+1. _[!UICONTROL Source]_&#x200B;후_&#x200B;검색&#x200B;_아이콘(![검색 아이콘](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"})을 클릭합니다.
 
    ![검색 아이콘 선택](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 

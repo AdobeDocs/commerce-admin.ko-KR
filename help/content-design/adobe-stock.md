@@ -42,9 +42,9 @@ Adobe Commerce에 대한 Adobe Stock 통합 구성은 두 단계 프로세스입
 
 1. [Adobe Developer Console][dev-console]&#x200B;(으)로 이동합니다.
 
-1. _[!UICONTROL Quick Start]_에서&#x200B;**[!UICONTROL Create new project]**을(를) 클릭합니다.
+1. _[!UICONTROL Quick Start]_&#x200B;에서&#x200B;**[!UICONTROL Create new project]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Project overview]_블록에서&#x200B;**[!UICONTROL Add API]**을(를) 클릭합니다.
+1. _[!UICONTROL Project overview]_&#x200B;블록에서&#x200B;**[!UICONTROL Add API]**&#x200B;을(를) 클릭합니다.
 
 1. 통합 목록에서 **[!UICONTROL Adobe Stock]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 

@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]**&#x200B;을(를) 확장하고 필요한 변경 작업을 수행합니다.
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 눈금 위에서 **[!UICONTROL Add Node...]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Page Properties]_에서 노드에 대한&#x200B;**[!UICONTROL Title]**과(와) 적절한&#x200B;**[!UICONTROL URL Key]**을(를) 입력하십시오.
+1. _[!UICONTROL Page Properties]_&#x200B;에서 노드에 대한&#x200B;**[!UICONTROL Title]**&#x200B;과(와) 적절한&#x200B;**[!UICONTROL URL Key]**&#x200B;을(를) 입력하십시오.
 
    URL 키는 노드에 대한 고유한 웹 주소를 제공합니다. 모든 소문자여야 하며 공백 대신 하이픈을 사용하여 단어를 구분해야 합니다.
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 1. 계층 맨 위에 있는 노드를 클릭합니다.
 
-   이제 _[!UICONTROL Page Properties]_섹션에 노드에 대한 정보가 표시됩니다.
+   이제 _[!UICONTROL Page Properties]_&#x200B;섹션에 노드에 대한 정보가 표시됩니다.
 
 1. **[!UICONTROL Render Metadata in HTML Head]**&#x200B;에서 다음을 수행합니다.
 

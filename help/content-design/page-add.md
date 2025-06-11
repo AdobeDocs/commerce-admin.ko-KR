@@ -146,13 +146,13 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택하여 페이지 그리드로 돌아갑니다.
 
-1. 그리드에서 페이지를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL View]**을(를) 선택합니다.
+1. 그리드에서 페이지를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 선택합니다.
 
 1. 그리드로 돌아가려면 브라우저 창의 왼쪽 상단 모서리에서 **[!UICONTROL Back]**&#x200B;을(를) 클릭합니다.
 
 ### 8단계: 페이지 게시
 
-1. 그리드의 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 선택합니다.
+1. 그리드의 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Enable Page]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**(으)로 이동합니다.
 
-1. 그리드에서 복제할 페이지를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 그리드에서 복제할 페이지를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Duplicate]**&#x200B;을(를) 선택합니다.
 
@@ -207,7 +207,7 @@ ht-degree: 0%
 
 ## 페이지 삭제
 
-생성된 페이지를 제거하는 방법에는 두 가지가 있습니다. _[!UICONTROL Pages]_눈금 또는_[!UICONTROL Edit]_ 페이지에서 제거할 수 있습니다.
+생성된 페이지를 제거하는 방법에는 두 가지가 있습니다. _[!UICONTROL Pages]_&#x200B;눈금 또는&#x200B;_[!UICONTROL Edit]_ 페이지에서 제거할 수 있습니다.
 
 ### 방법 1: 페이지 그리드에서 페이지 제거
 
@@ -225,7 +225,7 @@ ht-degree: 0%
 
 1. 삭제할 페이지를 찾습니다.
 
-1. 페이지 엔터티의 _[!UICONTROL Actions]_열에서&#x200B;**[!UICONTROL Select]**을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**을(를) 선택합니다.
+1. 페이지 엔터티의 _[!UICONTROL Actions]_&#x200B;열에서&#x200B;**[!UICONTROL Select]**&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
 
 1. 단추 모음에서 **[!UICONTROL Delete Page]**&#x200B;을(를) 클릭합니다.
 

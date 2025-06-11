@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Default Layouts]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -87,28 +87,28 @@ ht-degree: 0%
 
 ![다이어그램 - 1열 레이아웃](./assets/layout-1-col-th.png){zoomable="yes"}
 
-_[!UICONTROL 1 Column]_레이아웃은 큰 이미지 또는 초점을 가진 극적인 홈 페이지를 만드는 데 사용할 수 있습니다. 또한 랜딩 페이지나 텍스트, 이미지 및 비디오의 조합이 있는 다른 페이지에 적합합니다.
+_[!UICONTROL 1 Column]_&#x200B;레이아웃은 큰 이미지 또는 초점을 가진 극적인 홈 페이지를 만드는 데 사용할 수 있습니다. 또한 랜딩 페이지나 텍스트, 이미지 및 비디오의 조합이 있는 다른 페이지에 적합합니다.
 
 ### 왼쪽 막대가 있는 2열
 
 ![다이어그램 - 왼쪽 막대가 있는 2열 레이아웃](./assets/layout-2-col-lft-bar-th.png){zoomable="yes"}
 
-_[!UICONTROL 2 Columns with Left Bar]_레이아웃은 대개 계층 탐색이 있는 카탈로그 또는 검색 결과 페이지와 같이 왼쪽에 탐색이 있는 페이지에 사용됩니다. 또한 추가 탐색이 필요한 홈 페이지나 왼쪽에 있는 지원 콘텐츠 블록을 위한 탁월한 선택입니다.
+_[!UICONTROL 2 Columns with Left Bar]_&#x200B;레이아웃은 대개 계층 탐색이 있는 카탈로그 또는 검색 결과 페이지와 같이 왼쪽에 탐색이 있는 페이지에 사용됩니다. 또한 추가 탐색이 필요한 홈 페이지나 왼쪽에 있는 지원 콘텐츠 블록을 위한 탁월한 선택입니다.
 
 ### 오른쪽 막대가 있는 두 열
 
 ![다이어그램 - 오른쪽 막대가 있는 2열 레이아웃](./assets/layout-2-col-rt-bar-th.png){zoomable="yes"}
 
-_[!UICONTROL 2 Columns with Right Bar]_레이아웃의 경우 기본 컨텐츠 영역이 눈길을 끄는 이미지나 배너에 충분히 큽니다. 이 레이아웃은 오른쪽에 지원 콘텐츠 블록이 있는 제품 페이지에도 자주 사용됩니다.
+_[!UICONTROL 2 Columns with Right Bar]_&#x200B;레이아웃의 경우 기본 컨텐츠 영역이 눈길을 끄는 이미지나 배너에 충분히 큽니다. 이 레이아웃은 오른쪽에 지원 콘텐츠 블록이 있는 제품 페이지에도 자주 사용됩니다.
 
 ### 3열
 
 ![다이어그램 - 3열 레이아웃](./assets/layout-3-col-th.png){zoomable="yes"}
 
-_[!UICONTROL 3 Column]_레이아웃의 가운데 열은 페이지의 기본 텍스트를 충분히 확장하며, 각 면에 추가 탐색을 위한 공간과 지원 콘텐츠 블록을 배치할 수 있는 공간이 있습니다.
+_[!UICONTROL 3 Column]_&#x200B;레이아웃의 가운데 열은 페이지의 기본 텍스트를 충분히 확장하며, 각 면에 추가 탐색을 위한 공간과 지원 콘텐츠 블록을 배치할 수 있는 공간이 있습니다.
 
 ### 비어 있음
 
 ![다이어그램 - 빈 레이아웃](./assets/layout-blank-th.png){zoomable="yes"}
 
-_[!UICONTROL Empty]_레이아웃은 사용자 지정 페이지 레이아웃을 정의하는 데 사용할 수 있습니다.
+_[!UICONTROL Empty]_&#x200B;레이아웃은 사용자 지정 페이지 레이아웃을 정의하는 데 사용할 수 있습니다.

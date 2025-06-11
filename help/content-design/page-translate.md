@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 콘텐츠 페이지 번역
 
-스토어에 서로 다른 [언어](../stores-purchase/store-localize.md)의 보기가 여러 개 있고 각 보기의 로케일을 서로 다른 언어로 설정한 경우 그 결과는 부분적으로 번역된 사이트입니다. 다음 단계는 특정 스토어 보기에서 사용할 수 있는 각 페이지의 번역된 버전을 만드는 것입니다. _[!UICONTROL Manage Pages]_목록의 [!UICONTROL Store View] 열은 페이지의 번역된 버전을 포함하는 각 보기를 표시합니다.
+스토어에 서로 다른 [언어](../stores-purchase/store-localize.md)의 보기가 여러 개 있고 각 보기의 로케일을 서로 다른 언어로 설정한 경우 그 결과는 부분적으로 번역된 사이트입니다. 다음 단계는 특정 스토어 보기에서 사용할 수 있는 각 페이지의 번역된 버전을 만드는 것입니다. _[!UICONTROL Manage Pages]_&#x200B;목록의 [!UICONTROL Store View] 열은 페이지의 번역된 버전을 포함하는 각 보기를 표시합니다.
 
 콘텐츠 페이지를 번역하려면 원본과 동일한 URL 키를 가지지만 특정 스토어 보기에 할당된 다른 페이지를 만들어야 합니다. 그런 다음 특정 보기에 대한 페이지를 번역된 텍스트로 업데이트합니다. 다음 예제에서는 스페인어 스토어 보기에 대한 _정보_ 페이지의 번역된 버전을 만드는 방법을 보여 줍니다.
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Search Engine Optimization]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 **[!UICONTROL URL Key]**&#x200B;을(를) 클립보드에 복사합니다.
 
-1. _[!UICONTROL Pages]_그리드로 돌아가려면 맨 위 단추 모음에서&#x200B;**[!UICONTROL Back]**을(를) 클릭합니다.
+1. _[!UICONTROL Pages]_&#x200B;그리드로 돌아가려면 맨 위 단추 모음에서&#x200B;**[!UICONTROL Back]**&#x200B;을(를) 클릭합니다.
 
 ## 2단계: 번역된 콘텐츠의 페이지 추가
 

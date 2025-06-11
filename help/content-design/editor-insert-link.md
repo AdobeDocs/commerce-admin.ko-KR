@@ -20,7 +20,7 @@ ht-degree: 0%
 
    ![편집기 도구 모음 - 링크 삽입](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
-   이 작업은 _[!UICONTROL Insert link]_대화 상자를 엽니다.
+   이 작업은 _[!UICONTROL Insert link]_&#x200B;대화 상자를 엽니다.
 
    ![편집기 - 링크 삽입 대화 상자](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 

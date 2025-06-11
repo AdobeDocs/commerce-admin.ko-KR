@@ -32,7 +32,7 @@ CDN을 구성한 후에는 관리자로부터 구성을 완료해야 합니다. 
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
 
 1. 왼쪽 상단 모서리에서 필요에 따라 **[!UICONTROL Store View]**&#x200B;을(를) 설정합니다.
 

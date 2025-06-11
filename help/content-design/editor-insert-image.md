@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 편집 모드로 페이지, 블록 또는 동적 블록을 엽니다.
 
-1. _[!UICONTROL Content]_섹션으로 이동하여 편집기를 지원하는 요소를 클릭합니다.
+1. _[!UICONTROL Content]_&#x200B;섹션으로 이동하여 편집기를 지원하는 요소를 클릭합니다.
 
 1. 이미지를 표시할 위치에 커서를 놓습니다.
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
    ![이미지 삽입 아이콘](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   이 작업은 _[!UICONTROL Insert/edit image]_대화 상자를 엽니다.
+   이 작업은 _[!UICONTROL Insert/edit image]_&#x200B;대화 상자를 엽니다.
 
 1. **Source**&#x200B;의 경우 _검색_ 아이콘을 클릭하고 사용할 이미지 에셋의 위치와 일치하는 메서드를 사용하십시오.
 

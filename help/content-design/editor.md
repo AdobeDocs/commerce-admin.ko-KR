@@ -33,7 +33,7 @@ WYSIWYG 편집기는 기본적으로 활성화되어 있으며 CMS 페이지 및
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL WYSIWYG Options]**&#x200B;을 확장합니다.
 
