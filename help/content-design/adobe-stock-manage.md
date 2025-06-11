@@ -3,9 +3,10 @@ title: Adobe Stock 이미지 사용
 description: Adobe Stock의 이미지로 스토어 페이지를 향상시킵니다.
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Add a New Page]**&#x200B;을(를) 클릭합니다.
 
-   기존 페이지를 편집하려면 _[!UICONTROL Action]_&#x200B;열을 사용하여&#x200B;**[!UICONTROL Select]**&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택할 수 있습니다.
+   기존 페이지를 편집하려면 _[!UICONTROL Action]_열을 사용하여&#x200B;**[!UICONTROL Select]**을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**을(를) 선택할 수 있습니다.
 
 1. **[!UICONTROL Content]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
@@ -46,11 +47,11 @@ ht-degree: 0%
 
    기존 카테고리에 이미지를 추가하려면 왼쪽 목록에서 카테고리 이름을 클릭합니다.
 
-1. **[!UICONTROL Content]** 섹션을 확장하고 _[!UICONTROL Category Image]_&#x200B;에서&#x200B;**[!UICONTROL Select from Gallery]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Content]** 섹션을 확장하고 _[!UICONTROL Category Image]_에서&#x200B;**[!UICONTROL Select from Gallery]**을(를) 클릭합니다.
 
 1. **[!UICONTROL Search Adobe Stock]**&#x200B;을(를) 클릭합니다.
 
-WYSIWYG 편집기에서 Adobe Stock 자산을 검색하고 스톡 이미지를 추가하려면 다음을 수행하십시오.
+WYSIWYG 편집기에서 Adobe Stock 에셋을 검색하고 스톡 이미지를 추가하려면 다음을 수행하십시오.
 
 1. **[!UICONTROL Show/Hide Editor]**&#x200B;을(를) 클릭합니다.
 
@@ -118,13 +119,13 @@ WYSIWYG 편집기에서 Adobe Stock 자산을 검색하고 스톡 이미지를 �
 
 ## Adobe 계정에 로그인
 
-이미지에 대한 완전한 액세스 권한을 얻고 Adobe Stock 워터마크를 제거하려면 이미지를 사용하려면 [Adobe 계정으로 로그인](https://helpx.adobe.com/kr/manage-account/using/access-adobe-id-account.html)하고 라이선스 권한에 대한 크레딧을 구매해야 합니다.
+이미지에 대한 완전한 액세스 권한을 얻고 Adobe Stock 워터마크를 제거하려면 이미지를 사용하려면 [Adobe 계정으로 로그인](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)하고 라이선스 권한에 대한 크레딧을 구매해야 합니다.
 
 1. [Adobe Stock 검색 그리드에 액세스](#access-the-adobe-stock-search-grid).
 
 1. 오른쪽 상단의 **[!UICONTROL Sign In]**&#x200B;을(를) 클릭합니다.
 
-   새 브라우저 창에서 [Adobe 로그인 프로세스](https://helpx.adobe.com/kr/manage-account/using/access-adobe-id-account.html)를 안내합니다.
+   새 브라우저 창에서 [Adobe 로그인 프로세스](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)를 안내합니다.
 
    로그인 프로세스가 완료되면 라이선스가 부여된 이미지 상태가 검색 결과에 레이블로 표시됩니다.
 
@@ -178,7 +179,7 @@ Adobe Stock 통합을 사용하여 검색된 이미지를 [!DNL Commerce] [미�
 
      >[!NOTE]
      >
-     >이미지에 라이선스를 부여하려면 계정에서 [Adobe Stock 크레딧](https://helpx.adobe.com/kr/stock/help/credit-packs.html)을(를) 사용할 수 있어야 합니다.
+     >이미지에 라이선스를 부여하려면 계정에서 [Adobe Stock 크레딧](https://helpx.adobe.com/stock/help/credit-packs.html)을(를) 사용할 수 있어야 합니다.
 
    이 작업은 이미지를 [미디어 저장소](media-storage.md)에 저장하는 데 사용되는 파일 이름을 지정하라는 메시지를 표시합니다. 기본 파일 이름이 제공되지만 기본 설정에 따라 이름을 사용자 지정할 수 있습니다.
 

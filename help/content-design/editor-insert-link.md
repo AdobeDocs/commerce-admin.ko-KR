@@ -2,16 +2,17 @@
 title: 편집기에 링크 삽입
 description: WYSIWYG 편집기를 사용하여 콘텐츠에 대한 링크를 추가합니다
 exl-id: c9930a4f-a082-4bd8-b0c4-9d86b59a2365
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
 
 # 편집기에 링크 삽입
 
-링크를 삽입하는 쉬운 방법은 [편집기](editor.md) 도구 모음에서 _링크_ 단추를 사용하는 것입니다. 이는 HTML에 대한 지식이 필요하지 않으며 결과는 동일합니다.
+링크를 삽입하는 쉬운 방법은 [편집기](editor.md) 도구 모음에서 _링크_ 단추를 사용하는 것입니다. HTML에 대한 지식이 필요하지 않으며 결과도 동일합니다.
 
 1. 링크를 만들 텍스트를 선택합니다.
 
@@ -19,7 +20,7 @@ ht-degree: 0%
 
    ![편집기 도구 모음 - 링크 삽입](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
-   이 작업은 _[!UICONTROL Insert link]_&#x200B;대화 상자를 엽니다.
+   이 작업은 _[!UICONTROL Insert link]_대화 상자를 엽니다.
 
    ![편집기 - 링크 삽입 대화 상자](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 

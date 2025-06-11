@@ -3,9 +3,10 @@ title: 테마 에셋
 description: CSS, 글꼴, 이미지 및 JavaScript 파일과 같은 테마 에셋을 관리하는 방법을 알아봅니다.
 exl-id: 326c648e-eace-45a0-b53d-bbc8702fee05
 feature: Page Content, Themes
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: e50b85311f4512fb54c7cb29faf6136eaf07eae6
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---

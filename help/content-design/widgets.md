@@ -2,9 +2,10 @@
 title: 위젯
 description: 다양한 콘텐츠를 표시하고 스토어의 특정 블록 참조에 배치할 수 있도록 해 주는 코드 조각을 제공하는 위젯에 대해 알아봅니다.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---

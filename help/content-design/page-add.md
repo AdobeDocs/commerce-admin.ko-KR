@@ -2,9 +2,10 @@
 title: 페이지 추가 및 제거
 description: ' [!DNL Commerce] 스토어에서 사용되는 콘텐츠 페이지를 추가하고 제거하는 방법에 대해 알아봅니다.'
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1122'
 ht-degree: 0%
 
 ---
@@ -45,7 +46,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Content Heading]** 상자에 페이지 맨 위에 표시할 제목을 입력합니다.
 
-   사용하도록 설정하면 [페이지 빌더](../page-builder/introduction.md) 단계 및 패널이 콘텐츠 제목 아래에 나타납니다. 자세한 내용은 [Workspace](../page-builder/workspace.md)을 참조하세요. _페이지 빌더_&#x200B;를 사용하지 않으면 편집기가 WYSIWYG 모드로 열리고 맨 위에 도구 모음이 표시됩니다.
+   사용하도록 설정하면 [페이지 빌더](../page-builder/introduction.md) 단계 및 패널이 콘텐츠 제목 아래에 나타납니다. 자세한 내용은 [Workspace](../page-builder/workspace.md)을 참조하세요. _페이지 빌더_&#x200B;를 사용하지 않으면 편집기가 맨 위에 도구 모음이 있는 WYSIWYG 모드로 열립니다.
 
 1. 콘텐츠를 완성하고 필요에 따라 텍스트 서식을 지정합니다.
 
@@ -131,7 +132,7 @@ ht-degree: 0%
    - `Magento Black`
    - `Magento Luma`
 
-1. ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 디자인 변경을 예약하려면 ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]**&#x200B;를 확장하고 다음을 수행하십시오.
+1. ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 디자인 변경을 예약하려면 ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Custom Design Update]**&#x200B;을(를) 확장하고 다음을 수행하십시오.
 
    ![사용자 지정 디자인 업데이트](./assets/page-custom-design-update.png){width="600" zoomable="yes"}
 
@@ -145,13 +146,13 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택하여 페이지 그리드로 돌아갑니다.
 
-1. 그리드에서 페이지를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 선택합니다.
+1. 그리드에서 페이지를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL View]**을(를) 선택합니다.
 
 1. 그리드로 돌아가려면 브라우저 창의 왼쪽 상단 모서리에서 **[!UICONTROL Back]**&#x200B;을(를) 클릭합니다.
 
-### 8단계: 페이지 Publish
+### 8단계: 페이지 게시
 
-1. 그리드의 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
+1. 그리드의 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 선택합니다.
 
 1. **[!UICONTROL Enable Page]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -165,7 +166,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**(으)로 이동합니다.
 
-1. 그리드에서 복제할 페이지를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 그리드에서 복제할 페이지를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
 1. **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Duplicate]**&#x200B;을(를) 선택합니다.
 
@@ -206,7 +207,7 @@ ht-degree: 0%
 
 ## 페이지 삭제
 
-생성된 페이지를 제거하는 방법에는 두 가지가 있습니다. _[!UICONTROL Pages]_&#x200B;눈금 또는&#x200B;_[!UICONTROL Edit]_ 페이지에서 제거할 수 있습니다.
+생성된 페이지를 제거하는 방법에는 두 가지가 있습니다. _[!UICONTROL Pages]_눈금 또는_[!UICONTROL Edit]_ 페이지에서 제거할 수 있습니다.
 
 ### 방법 1: 페이지 그리드에서 페이지 제거
 
@@ -224,7 +225,7 @@ ht-degree: 0%
 
 1. 삭제할 페이지를 찾습니다.
 
-1. 페이지 엔터티의 _[!UICONTROL Actions]_&#x200B;열에서&#x200B;**[!UICONTROL Select]**&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
+1. 페이지 엔터티의 _[!UICONTROL Actions]_열에서&#x200B;**[!UICONTROL Select]**을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**을(를) 선택합니다.
 
 1. 단추 모음에서 **[!UICONTROL Delete Page]**&#x200B;을(를) 클릭합니다.
 

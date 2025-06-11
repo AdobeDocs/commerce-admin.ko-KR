@@ -3,9 +3,10 @@ title: Dynamic Media URL
 description: 이미지 또는 기타 미디어 에셋에 대한 상대 참조로 Dynamic Media URL을 사용하는 방법에 대해 알아봅니다.
 exl-id: 41aabde2-f6cc-4b83-8d56-9753a7aa93e9
 feature: CMS, Media
-source-git-commit: d3b9b4cd0d12f8d5feb2bad0bf601970f9ee1a36
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -24,11 +25,11 @@ Dynamic media URL은 이미지 또는 기타 미디어 에셋에 대한 상대 �
 
 ## 정적 미디어 URL 구성
 
-기본적으로 WYSIWYG 편집기에서 카탈로그에 삽입된 이미지에는 상대적인 동적 URL이 있습니다. 정적 URL을 사용하려는 경우 구성 설정을 변경할 수 있습니다.
+기본적으로 WYSIWYG 편집기에서 카탈로그에 삽입된 이미지에는 상대적 동적 URL이 있습니다. 정적 URL을 사용하려는 경우 구성 설정을 변경할 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
 
 1. **[!UICONTROL WYSIWYG Options]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 

@@ -2,9 +2,10 @@
 title: 콘텐츠 블록
 description: 블록은 텍스트, 이미지, 포함된 비디오와 같은 고정 정보 및 동적 정보를 표시하는 데 사용될 수 있다.
 exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -21,6 +22,6 @@ _블록_&#x200B;은(는) 페이지의 어디에나 배치할 수 있는 모듈�
 
 다음 비디오를 시청하여 정적 및 [동적 블록](dynamic-blocks.md)에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411071?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12&learn=on)
 
 [1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/

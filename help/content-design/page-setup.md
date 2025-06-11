@@ -2,9 +2,10 @@
 title: 페이지 설정
 description: 저장소 페이지의 기본 부분에 대한 기본값을 구성하는 방법에 대해 알아봅니다.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -21,13 +22,13 @@ ht-degree: 0%
 
 ## HTML 헤드
 
-HTML 헤드 섹션의 설정은 HTML 페이지의 `<head>` 태그에 해당하며 각 스토어 보기에 대해 구성할 수 있습니다. 페이지 제목, 설명 및 키워드에 대한 메타데이터 외에도 섹션에는 favicon 및 기타 스크립트에 대한 링크가 포함되어 있습니다. 검색 엔진 로봇에 대한 지침 및 스토어 데모 알림의 표시도 이 섹션에서 구성됩니다.
+HTML Head 섹션의 설정은 HTML 페이지의 `<head>` 태그에 해당하며 각 스토어 보기에 대해 구성할 수 있습니다. 페이지 제목, 설명 및 키워드에 대한 메타데이터 외에도 섹션에는 favicon 및 기타 스크립트에 대한 링크가 포함되어 있습니다. 검색 엔진 로봇에 대한 지침 및 스토어 데모 알림의 표시도 이 섹션에서 구성됩니다.
 
 ### HTML 헤드 구성
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
 1. _기타 설정_&#x200B;에서 **[!UICONTROL HTML Head]** 섹션의 ![확장 선택기](../assets/icon-display-expand.png)을 확장합니다.
 
@@ -59,7 +60,7 @@ HTML 헤드 섹션의 설정은 HTML 페이지의 `<head>` 태그에 해당하�
 
 1. 완료되면 **[!UICONTROL Save Configuration]**&#x200B;을(를) 클릭합니다.
 
-### HTML 헤드 필드 설명
+### HTML Head 필드 설명
 
 | 필드 | 범위 | 설명 |
 |--- |--- |--- |
@@ -84,7 +85,7 @@ HTML 헤드 섹션의 설정은 HTML 페이지의 `<head>` 태그에 해당하�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
 1. _기타 설정_&#x200B;에서 **[!UICONTROL Header]** 섹션의 ![확장 선택기](../assets/icon-display-expand.png)을 확장합니다.
 
@@ -118,7 +119,7 @@ HTML 헤드 섹션의 설정은 HTML 페이지의 `<head>` 태그에 해당하�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
 1. _기타 설정_&#x200B;에서 **[!UICONTROL Footer]** 섹션의 ![확장 선택기](../assets/icon-display-expand.png)을 확장합니다.
 

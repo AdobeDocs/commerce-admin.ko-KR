@@ -2,9 +2,10 @@
 title: 위젯 만들기 및 관리
 description: 스토어 간 콘텐츠를 자동으로 업데이트하는 위젯을 만들고 관리하는 방법을 알아봅니다.
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Add Widget]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Settings]_&#x200B;섹션에서:
+1. _[!UICONTROL Settings]_섹션에서:
 
    - **[!UICONTROL Type]**&#x200B;을(를) 만들려는 위젯 유형으로 설정하십시오.
 
@@ -37,7 +38,7 @@ ht-degree: 0%
 
 ### 2단계: 상점 속성 및 레이아웃 지정
 
-1. _[!UICONTROL Storefront Properties]_&#x200B;섹션에서:
+1. _[!UICONTROL Storefront Properties]_섹션에서:
 
    - **[!UICONTROL Widget Title]**&#x200B;의 경우 위젯에 대한 설명 제목을 입력합니다.
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
      ![Storefront 속성](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Layout Updates]_&#x200B;섹션에서&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Layout Updates]_섹션에서&#x200B;**[!UICONTROL Add Layout Update]**을(를) 클릭합니다.
 
 1. **[!UICONTROL Display On]**&#x200B;을(를) 표시할 페이지 형식으로 설정하십시오.
 
@@ -98,7 +99,7 @@ ht-degree: 0%
 
 위젯을 만드는 방법에 대해 알아보려면 이 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411059?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12&learn=on)
 
 ## 위젯 편집
 

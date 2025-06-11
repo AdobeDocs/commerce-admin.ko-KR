@@ -2,9 +2,10 @@
 title: 레이아웃 업데이트
 description: 레이아웃 업데이트를 사용하여 페이지 레이아웃을 사용자 지정하는 방법을 알아봅니다.
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 0%
 | `page/html_wrapper` | 이 블록은 기본 레이아웃에 포함되어 있지만 더 이상 사용되지 않으며 이전 버전과의 호환성을 위해 포함되어 있습니다. 이 유형의 블록은 사용하지 마십시오. |
 | `page/html_breadcrumbs` | 이 블록의 이름은 `breadcrumbs`이고 헤더 블록의 자식입니다. 이 블록에는 현재 페이지의 이동 경로가 표시됩니다. 페이지당 이 유형의 블록은 하나만 있을 수 있습니다. |
 | `page/html_footer` | 블록 이름은 `footer`이고 루트 블록의 자식입니다. 바닥글 블록은 페이지 하단에 있는 시각적 바닥글에 해당하며 여러 표준 블록을 포함합니다. 이 유형의 블록은 페이지당 하나만 있을 수 있으며 제거해서는 안 됩니다. |
-| `page/template_links` | 표준 레이아웃에는 이 유형의 두 개의 블록이 있습니다. `top.links` 블록은 헤더 블록의 하위 블록이며 위쪽 탐색 메뉴에 해당합니다. `footer_links` 블록은 바닥글 블록의 하위 블록이며 아래쪽 탐색 메뉴에 해당합니다. <br/><br/>**_참고:_**&#x200B;예제에서와 같이 템플릿 링크를 조작할 수 있습니다. |
+| `page/template_links` | 표준 레이아웃에는 이 유형의 두 개의 블록이 있습니다. `top.links` 블록은 헤더 블록의 하위 블록이며 위쪽 탐색 메뉴에 해당합니다. `footer_links` 블록은 바닥글 블록의 하위 블록이며 아래쪽 탐색 메뉴에 해당합니다. <br/><br/>**_참고:_**예제에서와 같이 템플릿 링크를 조작할 수 있습니다. |
 | `page/switch` | 표준 레이아웃에는 이 유형의 두 개의 블록이 있습니다. `store_language` 블록은 헤더 블록의 하위 블록이며 최상위 언어 전환기에 해당합니다. `store_switcher` 블록은 바닥글 블록의 자식 블록이며 아래쪽 저장소 전환기에 해당합니다. |
 | 코어/메시지 | 표준 레이아웃에는 이 유형의 두 개의 블록이 있습니다. `global_messages` 블록에 글로벌 메시지가 표시됩니다. `messages` 블록은 다른 모든 메시지를 표시하는 데 사용됩니다. 이러한 블록을 제거하면 고객에게 메시지가 표시되지 않습니다. |
 | `core/text_list` | 이 유형의 블록은 자식 블록을 렌더링하기 위한 자리 표시자로서 [!DNL Commerce] 전체에서 널리 사용됩니다. |
@@ -60,7 +61,7 @@ ht-degree: 0%
 
    `<theme_dir>/<Namespace>_<Module>/layout`
 
-   레이아웃 핸들은 `cms_page_view_selectable_`(으)로 시작하는 파일 이름 뒤에 CMS 페이지의 URL 키, 레이아웃 업데이트 옵션 및 `xml` 파일 접미사가 옵니다. 다음 예에서 `customer-service`은(는) 페이지의 URL 키이고 `ChatTool`은(는) 레이아웃 업데이트를 페이지에 적용하기 위해 선택하는 옵션입니다.
+   레이아웃 핸들은 `cms_page_view_selectable_`(으)로 시작하는 파일 이름이며, 그 뒤에 CMS 페이지의 URL 키, 레이아웃 업데이트 옵션 및 `xml` 파일 접미사가 옵니다. 다음 예에서 `customer-service`은(는) 페이지의 URL 키이고 `ChatTool`은(는) 레이아웃 업데이트를 페이지에 적용하기 위해 선택하는 옵션입니다.
 
    `cms_page_view_selectable_`&lt;`customer-service`>`_`&lt;`ChatTool`>`.xml`
 

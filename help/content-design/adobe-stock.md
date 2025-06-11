@@ -3,9 +3,10 @@ title: Adobe Stock 통합
 description: Adobe Stock을  [!DNL Commerce] 인스턴스와 통합하여 스토어에서 사용할 수 있는 수많은 미디어 자산에 액세스합니다.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 Adobe Stock 서비스는 기업에게 모든 광고 프로젝트를 위해 고품질로 큐레이팅된 로열티가 없는 수백만 장의 사진, 벡터, 일러스트레이션, 비디오, 템플릿 및 3D 자산에 대한 액세스를 제공합니다. [!DNL Commerce]명의 사용자가 Adobe Stock 에셋을 빠르게 찾고, 미리 보고, 라이선스를 제공할 수 있습니다. 사용자는 관리 작업 영역을 종료하지 않고도 [미디어 저장소](./media-storage.md)에 저장할 수도 있습니다.
 
-## 전제 조건
+## 사전 요구 사항
 
 이 통합에는 다음이 필요합니다.
 
@@ -39,11 +40,11 @@ Adobe Commerce에 대한 Adobe Stock 통합 구성은 두 단계 프로세스입
 
 ### Adobe Developer 통합 만들기
 
-1. [Adobe Developer Console][dev-console] (으)로 이동합니다.
+1. [Adobe Developer Console][dev-console]&#x200B;(으)로 이동합니다.
 
-1. _[!UICONTROL Quick Start]_&#x200B;에서&#x200B;**[!UICONTROL Create new project]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Quick Start]_에서&#x200B;**[!UICONTROL Create new project]**을(를) 클릭합니다.
 
-1. _[!UICONTROL Project overview]_&#x200B;블록에서&#x200B;**[!UICONTROL Add API]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Project overview]_블록에서&#x200B;**[!UICONTROL Add API]**을(를) 클릭합니다.
 
 1. 통합 목록에서 **[!UICONTROL Adobe Stock]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
@@ -96,6 +97,6 @@ Adobe Commerce에 대한 Adobe Stock 통합 구성은 두 단계 프로세스입
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/kr/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration

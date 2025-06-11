@@ -3,9 +3,10 @@ title: Adobe Stock 이미지 미리 보기 저장
 description: 이미지 미리 보기는 무료이며, 라이선스를 구매하기 전에 다른 Adobe Stock 이미지를 실험해 볼 수 있는 좋은 방법입니다.
 exl-id: 148d8445-fbbb-4f27-8de8-d8c1943d2afe
 feature: CMS, Media
-source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 이미지를 라이선스할 준비가 되면 새 [[!DNL Media Gallery]](media-gallery.md)이(가) Adobe Stock과 직접 통합되므로 갤러리 페이지에서 직접 이미지에 라이선스를 부여할 수 있습니다.
 
-## 전제 조건
+## 사전 요구 사항
 
 이 기능을 사용하려면 [Adobe Stock 통합](./adobe-stock.md) 모듈과 구성이 필요합니다.
 

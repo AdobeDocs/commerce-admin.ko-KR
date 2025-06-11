@@ -3,9 +3,10 @@ title: 페이지
 description: ' [!DNL Commerce] 데모 저장소에 포함된 핵심 콘텐츠 페이지와 기본 페이지 구성 변경에 대한 자세한 내용을 알아봅니다.'
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 ### 개인정보 처리방침
 
-스토어 [개인정보 처리방침](../getting-started/privacy-policy.md) 페이지를 사용자 정보로 업데이트해야 합니다. 가장 좋은 방법은 개인정보 처리방침이 고객에게 회사에서 수집하는 정보의 유형과 그 사용 방법을 설명하는 것입니다.
+저장소 [개인정보 처리방침](../getting-started/privacy-policy.md) 페이지를 사용자 정보로 업데이트해야 합니다. 개인정보 처리방침은 회사에서 수집하는 정보의 유형과 그 사용 방법을 고객에게 설명하는 것이 좋습니다.
 
 ### 404 찾을 수 없음
 
@@ -64,7 +65,7 @@ _기본 페이지_ 구성은 [기본 URL](../stores-purchase/store-urls.md) 및 
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**을(를) 선택합니다.
 
 1. **[!UICONTROL Default Pages]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -73,11 +74,11 @@ _기본 페이지_ 구성은 [기본 URL](../stores-purchase/store-urls.md) 및 
    | 필드 | [범위](../getting-started/websites-stores-views.md#scope-settings) | 설명 |
    |--- |--- |--- |
    | [!UICONTROL Default Web URL] | 스토어 뷰 | 기본 URL과 연결된 랜딩 페이지를 나타냅니다. 기본적으로 이 필드는 [!DNL Commerce] 콘텐츠 관리 시스템의 페이지를 나타내도록 `cms`(으)로 설정됩니다. 블로그와 같은 다른 유형의 랜딩 페이지를 사용할 수도 있습니다. 예를 들어 블로그가 `magento/blog`의 서버에 설치되어 있는 경우 폴더 이름 `blog`을(를) 페이지 선택에 대한 상대 경로로 입력할 수 있습니다. |
-   | [!UICONTROL CMS Home Page] | 스토어 뷰 | 스토어의 홈 페이지를 선택하려면 목록에서 CMS 페이지를 선택하면 됩니다. 기본적으로 CMS 홈 페이지에는 스토어에 사용할 수 있는 전체 CMS 페이지가 나열됩니다. |
+   | [!UICONTROL CMS Home Page] | 스토어 뷰 | 스토어의 홈 페이지를 선택하려면 목록에서 CMS 페이지를 선택하면 됩니다. 기본적으로 CMS 홈 페이지에는 스토어에 사용할 수 있는 CMS 페이지의 전체 목록이 있습니다. |
    | [!UICONTROL Default No-route URL] | 스토어 뷰 | `404 Page not Found` 오류가 발생할 때 표시할 기본 페이지의 URL을 포함합니다. 기본값은 `cms/noroute/index`입니다. |
    | [!UICONTROL CMS No Route Page] | 스토어 뷰 | 404 페이지를 찾을 수 없음 오류가 발생할 때 표시할 특정 CMS 페이지를 식별합니다. 기본 페이지는 `404 Not Found`입니다. |
    | [!UICONTROL CMS No Cookies Page] | 스토어 뷰 | 브라우저에 대해 쿠키가 활성화되지 않은 경우 나타나는 특정 CMS 페이지를 식별합니다. 이 페이지에서는 쿠키가 사용되는 이유와 각 브라우저에 대해 쿠키를 활성화하는 방법을 설명합니다. 기본 페이지는 `Enable Cookies`입니다. |
-   | [!UICONTROL Show Breadcrumbs for CMS Pages] | 스토어 뷰 | 카탈로그의 모든 CMS 페이지에 탐색 표시 추적이 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+   | [!UICONTROL Show Breadcrumbs for CMS Pages] | 스토어 뷰 | 이동 경로 추적이 카탈로그의 모든 CMS 페이지에 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
    {style="table-layout:auto"}
 
@@ -87,9 +88,9 @@ _기본 페이지_ 구성은 [기본 URL](../stores-purchase/store-urls.md) 및 
 
    >[!NOTE]
    >
-   >특정 저장소 보기의 경우 _[!UICONTROL Default Web URL]_&#x200B;옆에 있는&#x200B;**[!UICONTROL Use Default]**&#x200B;확인란의 선택을 취소하고 다른 기본 설정을 변경합니다.
+   >특정 저장소 보기의 경우 _[!UICONTROL Default Web URL]_옆에 있는&#x200B;**[!UICONTROL Use Default]**확인란의 선택을 취소하고 다른 기본 설정을 변경합니다.
 
-1. **[!UICONTROL CMS Home Page]**&#x200B;을(를) 홈 페이지로 사용할 CMS 페이지로 설정하십시오. 다음과 같이 생성된 다른 페이지를 홈 페이지로 사용할 수 있습니다.
+1. 홈 페이지로 사용할 CMS 페이지로 **[!UICONTROL CMS Home Page]**&#x200B;을(를) 설정합니다. 다음과 같이 생성된 다른 페이지를 홈 페이지로 사용할 수 있습니다.
 
    - 독점 온라인 스토어에 오신 것을 환영합니다
    - 보상 포인트
@@ -107,6 +108,6 @@ _기본 페이지_ 구성은 [기본 URL](../stores-purchase/store-urls.md) 및 
 
 1. 브라우저에서 쿠키가 비활성화되어 있을 때 표시되는 CMS 페이지로 **[!UICONTROL CMS No Cookies Page]**&#x200B;을(를) 설정합니다. 이 페이지에서는 쿠키가 사용되는 이유와 각 브라우저에 대해 쿠키를 활성화하는 방법을 설명합니다. 기본 페이지는 `Enable Cookies`입니다.
 
-1. 모든 CMS 페이지의 맨 위에 이동 경로를 표시하려면 **[!UICONTROL Show Breadcrumbs for CMS Pages]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+1. 이동 경로 추적을 모든 CMS 페이지의 맨 위에 표시하려면 **[!UICONTROL Show Breadcrumbs for CMS Pages]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.

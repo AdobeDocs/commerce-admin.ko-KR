@@ -4,9 +4,10 @@ description: 미디어 데이터베이스를 사용하여  [!DNL Commerce] 미�
 exl-id: b59349fb-0cb6-4812-a126-6e0d8d37564f
 feature: Page Content, Media, Configuration
 level: Experienced
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 ## 데이터베이스 워크플로우
 
-1. **브라우저가 미디어를 요청** - 저장소의 페이지가 고객의 브라우저에서 열리고, 브라우저가 HTML에 지정된 미디어를 요청합니다.
+1. **브라우저에서 미디어 요청** - 스토어의 페이지가 고객의 브라우저에서 열리고, 브라우저가 HTML에 지정된 미디어를 요청합니다.
 
 1. **시스템이 파일 시스템에서 미디어를 찾습니다** - 시스템이 파일 시스템에서 미디어를 검색하고 검색되면 브라우저에 전달합니다.
 

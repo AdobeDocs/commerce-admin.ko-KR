@@ -2,9 +2,10 @@
 title: 콘텐츠 블록 배치
 description: 코드를 작성하지 않고 페이지의 특정 위치, 심지어 특정 제품이나 카테고리에 블록을 배치합니다
 exl-id: cfc9eb2c-19c8-43f1-937d-4162b5011b8a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 다음 목록은 일반적으로 블록이 배치되는 페이지 유형별 위치를 설명합니다. 페이지의 영역을 정의하는 방법에 대한 자세한 내용은 [표준 페이지 레이아웃](page-layout.md#standard-page-layouts)을 참조하십시오.
 
-## 범주 및 CMS 페이지
+## 카테고리 및 CMS 페이지
 
 | 참조 차단 | 위치 |
 |----------|-------- |
@@ -55,6 +56,6 @@ ht-degree: 0%
 | [!UICONTROL Product View Extra Hint] | 콘텐츠는 제품의 주요 상위 가격 아래에 표시됩니다. |
 | [!UICONTROL Right Column] | 오른쪽 열 블록 아래에 콘텐츠가 표시됩니다. |
 | [!UICONTROL Store Language] | 언어 선택기의 오른쪽에 콘텐츠가 나타납니다. |
-| [!UICONTROL Tags List Before] | 콘텐츠가 _[!UICONTROL Add Your Tags]_&#x200B;필드 위에 나타납니다. |
+| [!UICONTROL Tags List Before] | 콘텐츠가 _[!UICONTROL Add Your Tags]_필드 위에 나타납니다. |
 
 {style="table-layout:auto"}

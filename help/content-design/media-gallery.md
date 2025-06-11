@@ -3,9 +3,10 @@ title: ' [!DNL Media Gallery]'
 description: 미디어 갤러리를 사용하여 서버에서 미디어 파일을 구성하고 관리합니다.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Adobe Commerce 또는 Magento Open Source 2.4를 사용하면 판매자는 새�
 
 >[!NOTE]
 >
->[_[!UICONTROL Images and Videos]_&#x200B;제품 섹션](../catalog/product-image.md#upload-an-image)에 추가된 제품 이미지는 [!DNL Media Gallery]에서 관리되지 않습니다._[!UICONTROL Content]_ 제품 섹션 필드에 사용된 이미지만 새 [!DNL Media Gallery]에 표시되고 필터링됩니다.
+>[_[!UICONTROL Images and Videos]_제품 섹션](../catalog/product-image.md#upload-an-image)에 추가된 제품 이미지는 [!DNL Media Gallery]에서 관리되지 않습니다._[!UICONTROL Content]_ 제품 섹션 필드에 사용된 이미지만 새 [!DNL Media Gallery]에 표시되고 필터링됩니다.
 
 ## 새 [!DNL Media Gallery] 사용
 
@@ -36,11 +37,11 @@ Adobe Commerce 또는 Magento Open Source 2.4를 사용하면 판매자는 새�
 
 1. 메시지가 표시되면 시스템 메시지에서 **[!UICONTROL Cache Management]** 링크를 클릭하고 잘못된 캐시를 새로 고칩니다.
 
-   이제 [[!UICONTROL Content] 메뉴](/help/content-design/content-menu.md)에 새 _[!UICONTROL Media Gallery]_&#x200B;옵션이 표시됩니다.
+   이제 [[!UICONTROL Content] 메뉴](/help/content-design/content-menu.md)에 새 _[!UICONTROL Media Gallery]_옵션이 표시됩니다.
 
 >[!NOTE]
 >
->새 [!DNL Media Gallery]의 전체 기능을 사용하려면 초기 동기화를 위해 `media.gallery.synchronization` 및 `media.content.synchronization` 큐 소비자가 시작해야 합니다. 자세한 내용은 _구성 가이드_&#x200B;의 [메시지 큐 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ko)를 참조하십시오.
+>새 [!DNL Media Gallery]의 전체 기능을 사용하려면 초기 동기화를 위해 `media.gallery.synchronization` 및 `media.content.synchronization` 큐 소비자가 시작해야 합니다. 자세한 내용은 _구성 가이드_&#x200B;의 [메시지 큐 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)를 참조하십시오.
 
 ## 새 [!DNL Media Gallery]에 액세스
 
@@ -56,7 +57,7 @@ Adobe Commerce 또는 Magento Open Source 2.4를 사용하면 판매자는 새�
 
 1. **[!UICONTROL Add a New Page]**&#x200B;을(를) 클릭합니다.
 
-   기존 페이지를 편집하려면 _[!UICONTROL Action]_&#x200B;열을 사용하여&#x200B;**[!UICONTROL Select]**&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택할 수 있습니다.
+   기존 페이지를 편집하려면 _[!UICONTROL Action]_열을 사용하여&#x200B;**[!UICONTROL Select]**을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**을(를) 선택할 수 있습니다.
 
 1. **[!UICONTROL Content]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
@@ -70,7 +71,7 @@ Adobe Commerce 또는 Magento Open Source 2.4를 사용하면 판매자는 새�
 
 [!DNL Media Gallery]에 대해 자세히 알아보려면 다음 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411047?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
 
 [adobe-stock]: https://stock.adobe.com
 

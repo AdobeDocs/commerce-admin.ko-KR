@@ -3,9 +3,10 @@ title: 새 제품 목록 위젯
 description: 새 제품 목록 위젯을 사용하여 가장 최근에 추가된 제품 목록을 표시하는 방법에 대해 알아봅니다.
 exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 feature: Page Content, Products
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -18,11 +19,11 @@ ht-degree: 0%
 
 ## 1단계: 각 제품을 새 제품으로 설정
 
-![Magento Open Source](../assets/open-source.svg) 이 단계는 Magento Open Source 전용입니다.
+![Magento Open Source](../assets/open-source.svg) 이 단계는 Magento Open Source에만 적용됩니다.
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce 스토어의 경우 [업데이트 예약](content-staging-scheduled-update.md)을 참조한 다음 이 페이지의 2단계를 계속 진행하십시오.
 
-_[!UICONTROL Set Product as New]_&#x200B;날짜 범위 설정은 예약된 업데이트에서만 구성할 수 있습니다.
+_[!UICONTROL Set Product as New]_날짜 범위 설정은 예약된 업데이트에서만 구성할 수 있습니다.
 
 제품을 새 제품으로 설정하면 _새 제품_ 목록에 제품이 추가됩니다. 목록에 더 이상 포함하지 않으려는 경우 언제든지 설정을 다시 변경할 수 있습니다.
 
@@ -46,7 +47,7 @@ _[!UICONTROL Set Product as New]_&#x200B;날짜 범위 설정은 예약된 업�
 
 1. 오른쪽 상단에서 **[!UICONTROL Add Widget]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Settings]_&#x200B;섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Settings]_섹션에서 다음을 수행합니다.
 
    - **[!UICONTROL Type]**&#x200B;을(를) `Catalog New Products List`(으)로 설정합니다.
 
@@ -56,7 +57,7 @@ _[!UICONTROL Set Product as New]_&#x200B;날짜 범위 설정은 예약된 업�
 
    ![새 제품 목록 위젯 설정](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Storefront Properties]_&#x200B;섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Storefront Properties]_섹션에서 다음을 수행합니다.
 
    - **[!UICONTROL Widget Title]**&#x200B;의 경우 위젯에 대한 설명 제목을 입력합니다. 이 제목은 _관리자_&#x200B;에서만 볼 수 있습니다.
 
@@ -70,7 +71,7 @@ _[!UICONTROL Set Product as New]_&#x200B;날짜 범위 설정은 예약된 업�
 
 ## 3단계: 위치 선택
 
-1. _[!UICONTROL Layout Updates]_&#x200B;섹션에서&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Layout Updates]_섹션에서&#x200B;**[!UICONTROL Add Layout Update]**을(를) 클릭합니다.
 
 1. **[!UICONTROL Display On]**&#x200B;을(를) `Specified Page.`(으)로 설정
 
@@ -96,7 +97,7 @@ _[!UICONTROL Set Product as New]_&#x200B;날짜 범위 설정은 예약된 업�
 1. **[!UICONTROL Display Products]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Products` - 가장 최근에 추가된 항목부터 차례로 제품을 나열합니다.
-   - `New Products` - _new_(으)로 식별된 제품만 나열합니다. 제품은 _[!UICONTROL Set Product As New From/To]_&#x200B;에 지정된 날짜 범위 동안 새로운 것으로 간주됩니다. 새 제품을 정의하지 않고 날짜 범위가 만료되면 목록이 비어 있습니다.
+   - `New Products` - _new_(으)로 식별된 제품만 나열합니다. 제품은 _[!UICONTROL Set Product As New From/To]_에 지정된 날짜 범위 동안 새로운 것으로 간주됩니다. 새 제품을 정의하지 않고 날짜 범위가 만료되면 목록이 비어 있습니다.
 
 1. 여러 페이지가 있는 목록에 탐색 컨트롤을 제공하려면 **[!UICONTROL Display Page Control]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -120,4 +121,4 @@ _[!UICONTROL Set Product as New]_&#x200B;날짜 범위 설정은 예약된 업�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**(으)로 이동합니다.
 
-1. 그리드에서 _새 제품_ 목록이 표시될 페이지를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Preview]**&#x200B;링크를 클릭합니다.
+1. 그리드에서 _새 제품_ 목록이 표시될 페이지를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Preview]**링크를 클릭합니다.

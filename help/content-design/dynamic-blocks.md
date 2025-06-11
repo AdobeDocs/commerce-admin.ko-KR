@@ -2,9 +2,10 @@
 title: 동적 블록
 description: 다이내믹 블록을 사용하여 가격 규칙 및 고객 세그먼트의 논리를 기반으로 하는 풍부한 대화형 컨텐츠를 생성합니다.
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!UICONTROL Content] 메뉴](content-menu.md)의 _[!UICONTROL Banner]_&#x200B;옵션은 2.3.1에서 더 이상 사용되지 않으며 2.4.0에서 제거되었습니다. 이 기능은 동적 블록으로 대체됩니다.
+>[[!UICONTROL Content] 메뉴](content-menu.md)의 _[!UICONTROL Banner]_옵션은 2.3.1에서 더 이상 사용되지 않으며 2.4.0에서 제거되었습니다. 이 기능은 동적 블록으로 대체됩니다.
 
 ![[!DNL Page Builder] - 가격 규칙 및 고객 세그먼트가 있는 동적 블록](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
@@ -107,7 +108,7 @@ ht-degree: 0%
 | 필드 | 설명 |
 |--- |--- |
 | [!UICONTROL Layout] | 단계에 행, 열 또는 탭을 추가합니다. |
-| [!UICONTROL Elements] | 텍스트, 머리글, 단추, 분할자 및 HTML 코드를 스테이지의 레이아웃 컨테이너에 추가합니다. |
+| [!UICONTROL Elements] | 텍스트, 머리글, 단추, 디바이더 및 HTML 코드를 스테이지의 레이아웃 컨테이너에 추가합니다. |
 | [!UICONTROL Media] | 이미지, 비디오, 배너, 슬라이더 및 Google 맵을 스테이지의 기존 레이아웃 컨테이너에 추가합니다. |
 | [!UICONTROL Add Content] | 기존 블록, 동적 블록 및 제품을 스테이지에 추가합니다. |
 

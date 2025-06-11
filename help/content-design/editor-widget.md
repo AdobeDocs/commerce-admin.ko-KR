@@ -2,9 +2,10 @@
 title: 편집기에 위젯 삽입
 description: WYSIWYG 편집기의 위젯 도구를 사용하여 페이지에 다양한 콘텐츠 요소를 추가합니다.
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 1. 편집 모드로 페이지, 블록 또는 동적 블록을 엽니다.
 
-1. _[!UICONTROL Content]_&#x200B;섹션으로 이동하여 편집기를 지원하는 요소를 클릭합니다.
+1. _[!UICONTROL Content]_섹션으로 이동하여 편집기를 지원하는 요소를 클릭합니다.
 
 1. 위젯을 표시할 위치에 커서를 놓고 _위젯 삽입_ 아이콘을 클릭합니다.
 

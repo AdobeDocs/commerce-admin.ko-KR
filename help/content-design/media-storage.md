@@ -3,9 +3,10 @@ title: 미디어 스토리지
 description: 미디어 저장소를 통해 서버에 저장된 Commerce 미디어 파일을 구성하고 액세스하는 방법에 대해 알아봅니다.
 exl-id: 5cf1bb20-d747-4a12-8558-e167c229efe8
 feature: Page Content, Media
-source-git-commit: 7dae6b6d387c796c5ff472293c6590fabaa83e85
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -28,9 +29,9 @@ ht-degree: 0%
 
    ![이미지 삽입 아이콘](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   이 작업은 _[!UICONTROL Insert/edit image]_&#x200B;대화 상자를 엽니다.
+   이 작업은 _[!UICONTROL Insert/edit image]_대화 상자를 엽니다.
 
-1. _[!UICONTROL Source]_&#x200B;후_&#x200B;검색&#x200B;_아이콘(![검색 아이콘](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"})을 클릭합니다.
+1. _[!UICONTROL Source]_후_&#x200B;검색&#x200B;_아이콘(![검색 아이콘](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"})을 클릭합니다.
 
 1. 왼쪽의 디렉터리 트리에서 다음 중 하나를 수행합니다.
 
@@ -68,7 +69,7 @@ ht-degree: 0%
 
 1. [편집기](editor.md) 도구 모음에서 _이미지 삽입_ 아이콘을 클릭합니다.
 
-1. _[!UICONTROL Source]_&#x200B;후_&#x200B;검색&#x200B;_아이콘(![검색 아이콘](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"})을 클릭합니다.
+1. _[!UICONTROL Source]_후_&#x200B;검색&#x200B;_아이콘(![검색 아이콘](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"})을 클릭합니다.
 
    ![검색 아이콘 선택](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 

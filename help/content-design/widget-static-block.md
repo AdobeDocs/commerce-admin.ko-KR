@@ -2,16 +2,17 @@
 title: 위젯을 사용하여 블록 배치
 description: 정적 블록 위젯을 사용하여 기존 컨텐츠를 스토어 내 어디에나 배치하는 방법에 대해 알아봅니다.
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
 # 위젯을 사용하여 블록 배치
 
-_CMS 정적 블록_ [위젯](widgets.md)을(를) 사용하면 저장소의 어디에나 기존 [콘텐츠 블록](blocks.md)을(를) 배치할 수 있습니다.
+_CMS 정적 블록_ [위젯](widgets.md)을(를) 사용하면 기존 [콘텐츠 블록](blocks.md)을(를) 저장소의 어디에나 배치할 수 있습니다.
 
 ![위젯](./assets/widgets.png){width="700" zoomable="yes"}
 
@@ -27,7 +28,7 @@ _CMS 정적 블록_ [위젯](widgets.md)을(를) 사용하면 저장소의 어�
 
    ![위젯 설정](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Storefront Properties]_&#x200B;섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Storefront Properties]_섹션에서 다음을 수행합니다.
 
    - **[!UICONTROL Widget Title]**&#x200B;의 경우 위젯에 대한 설명 제목을 입력합니다.
 
@@ -43,7 +44,7 @@ _CMS 정적 블록_ [위젯](widgets.md)을(를) 사용하면 저장소의 어�
 
 ## 2단계: 위젯 레이아웃 업데이트 완료
 
-1. _[!UICONTROL Layout Updates]_&#x200B;섹션에서&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Layout Updates]_섹션에서&#x200B;**[!UICONTROL Add Layout Update]**을(를) 클릭합니다.
 
 1. 블록을 표시할 범주, 제품 또는 페이지로 **[!UICONTROL Display On]**&#x200B;을(를) 설정합니다.
 

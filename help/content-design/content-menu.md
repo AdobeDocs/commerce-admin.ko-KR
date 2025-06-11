@@ -2,9 +2,10 @@
 title: '[!UICONTROL Content] 메뉴'
 description: 스토어에서 콘텐츠를 관리하기 위한 여러 기능에 액세스하려면 [!UICONTROL Content] 메뉴를 사용하십시오.
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
-source-git-commit: c036fffe602593a801f9cf1361fdb44f1f7e1d5f
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -13,19 +14,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->새 [[!DNL Media Gallery]](media-gallery.md)을(를) 사용하도록 설정하면 _[!UICONTROL Media]_&#x200B;섹션이 [!DNL Media Gallery]에 액세스할 수 있는 단일 옵션과 함께 표시됩니다.**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**(으)로 이동한 다음 왼쪽 패널에서 **[!UICONTROL Advanced]** > **[!UICONTROL System]**&#x200B;을(를) 선택하여 **[!UICONTROL Enable Old Media Gallery]** 옵션을 `No`(으)로 설정할 수 있습니다.
+>새 [[!DNL Media Gallery]](media-gallery.md)을(를) 사용하도록 설정하면 _[!UICONTROL Media]_섹션이 [!DNL Media Gallery]에 액세스할 수 있는 단일 옵션과 함께 표시됩니다.**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**(으)로 이동한 다음 왼쪽 패널에서 **[!UICONTROL Advanced]** > **[!UICONTROL System]**&#x200B;을(를) 선택하여 **[!UICONTROL Enable Old Media Gallery]** 옵션을 `No`(으)로 설정할 수 있습니다.
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 ![관리자에 표시되는 [!UICONTROL Content] 메뉴](./assets/admin-menu-content.png){width="400" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 ![관리자에 표시되는 [!UICONTROL Content] 메뉴](./assets/admin-menu-content-accs.png){width="400" zoomable="yes"}
 
@@ -46,7 +47,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Content]**&#x200B;을(를) 선택�
 
 >[!NOTE]
 >
->이 메뉴의 _[!UICONTROL Banners]_&#x200B;옵션은 2.3.1에서 더 이상 사용되지 않으며 이제 제거되었습니다. 이 기능은 동적 블록으로 대체됩니다.
+>이 메뉴의 _[!UICONTROL Banners]_옵션은 2.3.1에서 더 이상 사용되지 않으며 이제 제거되었습니다. 이 기능은 동적 블록으로 대체됩니다.
 
 ## [!UICONTROL Design] {#design-features}
 

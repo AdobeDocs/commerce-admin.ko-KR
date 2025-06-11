@@ -3,9 +3,10 @@ title: 주문 및 반품 위젯
 description: 주문 및 반품 위젯을 사용하여 고객의 주문 상태를 확인하고, 송장을 인쇄하고, 선적을 추적할 수 있는 기능을 제공하는 방법에 대해 알아봅니다.
 exl-id: 1c3948e6-a0de-4ee4-8abf-10ab845a94a7
 feature: Page Content, Orders, Returns
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -37,7 +38,7 @@ _주문 및 반품_ 위젯을 통해 게스트는 주문 상태를 확인하고,
 
 1. 오른쪽 상단에서 **[!UICONTROL Add Widget]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Settings]_&#x200B;섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Settings]_섹션에서 다음을 수행합니다.
 
    - **[!UICONTROL Type]**&#x200B;을(를) `Orders and Returns`(으)로 설정합니다.
 
@@ -45,7 +46,7 @@ _주문 및 반품_ 위젯을 통해 게스트는 주문 상태를 확인하고,
 
 1. **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Storefront Properties]_&#x200B;섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Storefront Properties]_섹션에서 다음을 수행합니다.
 
    - **[!UICONTROL Widget Title]**&#x200B;의 경우 위젯에 대한 설명 제목을 입력합니다.
 
@@ -57,7 +58,7 @@ _주문 및 반품_ 위젯을 통해 게스트는 주문 상태를 확인하고,
 
    - (선택 사항) **[!UICONTROL Sort Order]**&#x200B;의 경우 숫자를 입력하여 이 항목이 페이지의 동일한 부분에 있는 다른 항목과 함께 표시되는 순서를 결정합니다. (`0` = 첫 번째, `1` = 두 번째, `3` = 세 번째 등)
 
-1. _[!UICONTROL Layout Updates]_&#x200B;섹션에서&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;을(를) 클릭하고 다음을 수행합니다.
+1. _[!UICONTROL Layout Updates]_섹션에서&#x200B;**[!UICONTROL Add Layout Update]**을(를) 클릭하고 다음을 수행합니다.
 
    - 위젯을 표시할 페이지 형식으로 **[!UICONTROL Display On]**&#x200B;을(를) 설정합니다.
 
