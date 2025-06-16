@@ -3,7 +3,7 @@ title: 디자인 구성
 description: 디자인 구성 을 사용하면 설정을 단일 페이지에 표시하여 디자인 관련 규칙과 구성 설정을 쉽게 편집할 수 있습니다.
 exl-id: 43fec57f-d76d-45a9-812b-ba1947cea46d
 feature: Page Content, Configuration
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+source-git-commit: 91c7748c3aa30f0856ef027ca5391be4dbea240a
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
    이 페이지에는 스토어 보기에 대한 현재 디자인 설정이 표시됩니다.
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
    테마를 지정하지 않으면 시스템 기본 테마가 사용됩니다. 일부 타사 확장은 시스템 기본 테마를 수정합니다.
 
-1. [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 테마를 특정 장치에만 사용하려면 **[!UICONTROL User Agent Rules]**&#x200B;을(를) 설정하십시오.
+1. [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 테마를 특정 장치에만 사용하려면 **[!UICONTROL User Agent Rules]**&#x200B;을(를) 설정하십시오.
 
    ![사용자 에이전트 규칙](./assets/configuration-user-agent-rules.png){width="400" zoomable="yes"}
 
@@ -48,13 +48,13 @@ ht-degree: 0%
    >
    >지정하려는 장치에 대해 여러 규칙을 추가할 수 있습니다. 검색 문자열은 입력한 순서대로 일치합니다.
 
-1. _[!UICONTROL Other Settings]_&#x200B;에서 각 섹션을 확장하고 연결된 항목의 지침에 따라 필요에 따라 설정을 편집합니다.
+1. _[!UICONTROL Other Settings]_에서 각 섹션을 확장하고 연결된 항목의 지침에 따라 필요에 따라 설정을 편집합니다.
 
-   - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls) [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
-   - [[!UICONTROL HTML Head]](page-setup.md#html-head) [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
-   - [[!UICONTROL Header]](page-setup.md#header) [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
-   - [[!UICONTROL Footer]](page-setup.md#footer) [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
-   - [[!UICONTROL Search Engine Robots]](../merchandising-promotions/seo-overview.md#search-engine-robots) [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+   - [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)
+   - [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [[!UICONTROL HTML Head]](page-setup.md#html-head)
+   - [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [[!UICONTROL Header]](page-setup.md#header)
+   - [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [[!UICONTROL Footer]](page-setup.md#footer)
+   - [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [[!UICONTROL Search Engine Robots]](../merchandising-promotions/seo-overview.md#search-engine-robots)
    - [[!UICONTROL Product Image Watermarks]](../catalog/product-image.md#watermarks)
    - [[!UICONTROL Transactional Emails]](../systems/email-templates.md#configure-email-templates)
 
