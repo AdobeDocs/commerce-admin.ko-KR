@@ -63,7 +63,7 @@ Security Scan Tool은 안전한 저장소 환경을 유지 관리하는 데 도�
 
 >[!TIP]
 >
->클라우드 인프라 프로젝트의 Commerce에 대해서는 [보안 검색 도구 설정](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)을 참조하십시오.
+>클라우드 인프라 프로젝트의 Commerce에 대해서는 [보안 검색 도구 설정](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)을 참조하십시오.
 
 검사를 실행하려면:
 
