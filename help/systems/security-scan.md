@@ -4,9 +4,9 @@ description: 향상된 보안 검사를 실행하고 각 Adobe Commerce 및 Mage
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 183b8c52c6d8e2ea1afcc74fe4e2ed8e42efb216
+source-git-commit: bea6570d8d40ec7be8802ae6a793d88b72943e6f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,19 @@ Security Scan Tool은 안전한 저장소 환경을 유지 관리하는 데 도�
 
 >[!NOTE]
 >
->Adobe Commerce에 대한 보안 검색 도구 검사에서 특정 보안 테스트를 제외할 수 없습니다. 그러나 해당되는 경우 [실패 무시](#manage-scan-failures)에서 긍정 오류(false positive)로 셀프 서비스를 수행할 수 있습니다.
+>특정 보안 테스트를 실행하지 않도록 제외할 수 없지만 실패한 검사를 **[!UICONTROL Ignored Results]** 범주로 이동할 수 있습니다. 자세한 내용은 [검사 실패 관리](#manage-scan-failures)를 참조하십시오.
 
 ## 액세스
 
 보안 검색 도구는 사이트 정보를 보호하기 위해 엄격한 액세스 제어 기능을 유지 관리합니다. 이 도구를 사용하려면 Adobe Commerce 계정을 통해 도메인 소유권을 확인해야 하므로 사이트만 검색할 수 있습니다. 각 사이트는 고유한 토큰을 통해 계정에 연결되어 서드파티가 승인하지 않은 검색을 방지합니다.
 
 이 도구는 특히 Adobe Commerce 도메인과 해당 보안 취약점에 중점을 둡니다. 웹 스토어에 다른 플랫폼의 페이지가 포함될 수 있지만 보안 검색 도구는 신뢰할 수 있는 결과를 보장하기 위해 Adobe Commerce 생성 콘텐츠만 스캔해야 합니다. Adobe Commerce이 아닌 페이지를 검색하면 신뢰할 수 없는 취약성 평가가 발생할 수 있습니다.
+
+
+## 검사 결과에 대한 액세스 권한
+
+스캔 결과는 원래 스캔을 설정한 사용자만 액세스할 수 있습니다. 결과를 다른 사용자와 공유하려면 원래 사용자가 PDF 보고서를 수동으로 배포해야 합니다. 또는 스토어 소유자는 [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) 기능을 사용하여 다른 MAGEID와 제출 내용을 공유할 수 있습니다. 다른 개인들도 자신의 계정을 사용하여 스캔을 시작할 수 있습니다. 검사 설정 중에 완료된 검사 및 평가 위험 수준의 알림을 받도록 쉼표로 구분된 이메일 주소 목록을 지정할 수 있습니다.
+
 
 >[!NOTE]
 >
@@ -61,13 +67,14 @@ Security Scan Tool은 안전한 저장소 환경을 유지 관리하는 데 도�
 >
 >허용 목록에 추가하다 네트워크 방화벽 규칙에 이러한 IP 주소를 추가하여 도구를 통해 사이트를 스캔할 수 있습니다. 이 도구는 `80` 및 `443` 포트에만 요청을 게시합니다.
 
+
 ## 검사 실행
 
 검색 프로세스는 알려진 보안 문제에 대해 사이트를 확인하고, 스토어를 공격에 취약하게 만들 수 있는 누락된 Adobe Commerce 패치 및 업데이트를 식별합니다.
 
 >[!TIP]
 >
->클라우드 인프라 프로젝트의 Commerce에 대해서는 [보안 검색 도구 설정](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)을 참조하십시오.
+>클라우드 인프라 프로젝트의 Commerce에 대해서는 [보안 검색 도구 설정](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)을 참조하십시오.
 
 검사를 실행하려면:
 
@@ -80,7 +87,7 @@ Security Scan Tool은 안전한 저장소 환경을 유지 관리하는 데 도�
    1. **[!UICONTROL Terms and Conditions]**&#x200B;을(를) 읽습니다.
    1. 계속하려면 **[!UICONTROL Agree]**&#x200B;을(를) 클릭하십시오.
 
-1. _[!UICONTROL Monitored Websites]_&#x200B;페이지에서&#x200B;**[!UICONTROL +Add Site]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Monitored Websites]_페이지에서&#x200B;**[!UICONTROL +Add Site]**을(를) 클릭합니다.
 
    여러 사이트가 있고 도메인이 다른 경우 각 도메인에 대해 별도의 검사를 구성합니다.
 
@@ -147,7 +154,7 @@ Security Scan Tool은 안전한 저장소 환경을 유지 관리하는 데 도�
 
          빌드 프로세스가 완료되면 변경 사항이 PWA 스토어 전면에 배포됩니다.
 
-1. Commerce 계정의 _[!UICONTROL Security Scan]_&#x200B;페이지로 돌아가서&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;을(를) 클릭하여 도메인의 소유권을 설정합니다.
+1. Commerce 계정의 _[!UICONTROL Security Scan]_페이지로 돌아가서&#x200B;**[!UICONTROL Verify Confirmation Code]**을(를) 클릭하여 도메인의 소유권을 설정합니다.
 
 1. 확인 후 다음 유형 중 하나에 대해 **[!UICONTROL Set Automatic Security Scan]** 옵션을 구성합니다.
 
@@ -191,18 +198,20 @@ Security Scan Tool은 안전한 저장소 환경을 유지 관리하는 데 도�
 - 알려진 긍정 오류(false positive)에 대해 지원 센터에 문의할 필요가 없습니다.
 - 이미 조사한 스캔 실패를 자체 관리하여 시간을 절약할 수 있습니다.
 
-검사 실패를 긍정 오류(false positive)로 표시할 수 있는 일반적인 시나리오는 다음과 같습니다.
+### 스캔 오류를 무시하는 데 적합한 시나리오의 예
 
 - 이미 보안 패치를 적용한 경우 검색 도구에서 감지하지 못했습니다.
-- 감지된 문제가 특정 스토어 구성에 해당되지 않는 경우.
-- 문제를 해결하는 대체 보안 조치를 구현한 경우.
+- 감지된 문제가 특정 저장소 구성(예: 사용자 정의 사용자 로그인 및 등록 페이지)에 적용되지 않는 경우.
+- 문제를 해결하는 대체 보안 조치를 구현한 경우(예: 웹 응용 프로그램 방화벽)
 - 스캔 실패가 비즈니스 요구에 맞게 의도적으로 설정한 구성을 기반으로 하는 경우.
+- 코드 난독화 및/또는 인코딩으로 인해 검사에 실패하는 서드파티 JavaScript 코드를 의도적으로 사용하는 경우.
+
 
 ### 스캔 실패 무시
 
 긍정 오류(false positive)로 식별한 스캔 실패를 관리하려면 다음 단계를 수행하십시오.
 
-1. _[!UICONTROL Monitored Websites]_&#x200B;페이지에서 관리할 사이트의&#x200B;**[!UICONTROL View Report]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Monitored Websites]_페이지에서 관리할 사이트의&#x200B;**[!UICONTROL View Report]**을(를) 클릭합니다.
 
 1. 보고서 보기에서 긍정 오류(false positive)로 표시할 실패한 검사를 찾습니다.
 
@@ -212,13 +221,13 @@ Security Scan Tool은 안전한 저장소 환경을 유지 관리하는 데 도�
 
 1. 선택 내용을 저장하려면 **[!UICONTROL Apply Changes]**&#x200B;을(를) 클릭합니다.
 
-무시된 검사 오류가 _[!UICONTROL Ignored Results]_&#x200B;섹션으로 이동하며 위험 점수에서 제외됩니다.
+무시된 검사 오류가 _[!UICONTROL Ignored Results]_섹션으로 이동하며 위험 점수에서 제외됩니다.
 
 ### 스캔 실패 무시 중지
 
 이전에 무시한 스캔 실패를 활성 모니터링으로 복원해야 하는 경우 다음 단계를 수행합니다.
 
-1. 보고서 보기에서 _[!UICONTROL Ignored Results]_&#x200B;섹션으로 스크롤합니다.
+1. 보고서 보기에서 _[!UICONTROL Ignored Results]_섹션으로 스크롤합니다.
 
 1. 복원할 스캔 실패에 대해 **[!UICONTROL Stop Ignoring]**&#x200B;을(를) 클릭합니다.
 
@@ -226,7 +235,7 @@ Security Scan Tool은 안전한 저장소 환경을 유지 관리하는 데 도�
 
 1. 선택 내용을 저장하려면 **[!UICONTROL Apply Changes]**&#x200B;을(를) 클릭합니다.
 
-검사 오류가 _[!UICONTROL Failed Scans]_&#x200B;섹션으로 다시 이동하며 위험 점수에 포함됩니다.
+검사 오류가 _[!UICONTROL Failed Scans]_섹션으로 다시 이동하며 위험 점수에 포함됩니다.
 
 ### 무시된 스캔 실패 보기
 
