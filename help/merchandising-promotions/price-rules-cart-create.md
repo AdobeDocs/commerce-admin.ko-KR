@@ -3,9 +3,9 @@ title: 장바구니 가격 규칙 만들기
 description: 장바구니 또는 제품 속성을 기반으로 장바구니 가격 규칙을 만드는 방법을 알아봅니다.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: d981a0365cc7768394ca03f4352be45caef87a73
 workflow-type: tm+mt
-source-wordcount: '3386'
+source-wordcount: '3382'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Add New Rule]**&#x200B;을(를) 클릭하고 다음을 수행합니다.
 
-   - _[!UICONTROL Rule Information]_&#x200B;에서&#x200B;**[!UICONTROL Rule Name]**&#x200B;및&#x200B;**[!UICONTROL Description]**&#x200B;을(를) 완료합니다.
+   - _[!UICONTROL Rule Information]_에서&#x200B;**[!UICONTROL Rule Name]**및&#x200B;**[!UICONTROL Description]**을(를) 완료합니다.
 
    - 규칙을 즉시 적용하지 않으려면 **[!UICONTROL Active]**&#x200B;을(를) `No`(으)로 설정하십시오.
 
@@ -59,13 +59,7 @@ ht-degree: 0%
 
 1. 동시에 활성화된 다른 가격 규칙의 작업 설정과 관련하여 이 가격 규칙의 **[!UICONTROL Priority]**&#x200B;을(를) 정의할 숫자를 입력하십시오.
 
-   >[!NOTE]
-   >
-   >_[!UICONTROL Priority]_&#x200B;설정은 두 장바구니 규칙이나 쿠폰 코드가 같은 제품에 동시에 유효한 경우에 중요합니다. 장바구니 작업을 제어하는 설정이 가장 높은 [!UICONTROL Priority] 규칙입니다.  가장 높은 우선 순위에서 가장 낮은 우선 순위는 `0,1,2,3...`입니다._[&#x200B;작업 정의&#x200B;](#step-3-define-the-actions)_단계에서_&#x200B;후속 가격 규칙 삭제&#x200B;_를 참조하십시오.
-
-   >[!NOTE]
-   >
-   >우선 순위가 동일한 장바구니 가격 규칙은 결합된 할인을 생성하지 않습니다. 각 규칙(쿠폰)은 데이터베이스의 장바구니 가격 규칙 ID에 따라 일치하는 제품에 개별적으로 적용됩니다. 할인이 적용되는 순서를 제어하기 위해 Adobe에서는 추가된 각 장바구니 가격 규칙에 대해 다른 우선 순위를 설정하는 것이 좋습니다.
+   여러 장바구니 규칙이나 쿠폰이 동일한 제품에 적용되는 경우, 우선 순위가 가장 높은(가장 낮은 숫자) 규칙이 먼저 적용됩니다. 우선 순위가 같은 규칙은 결합되지 않습니다. 규칙 ID를 기반으로 별도로 적용됩니다. 할인이 적용되는 순서를 제어하려면 고유한 우선 순위를 지정하고, 할인 스태킹을 방지하기 위해 작업 단계에서 [후속 가격 규칙 무시](#step-3-define-the-actions)를 사용하는 것이 좋습니다.
 
 1. 게시된 [RSS 피드](social-rss.md#rss-feeds)에 규칙을 적용하려면 **RSS 피드에서 공개**&#x200B;를 `Yes`(으)로 설정하십시오.
 
@@ -79,17 +73,15 @@ ht-degree: 0%
 
 ## 2단계: 조건 설명
 
-이 단계에서는 프로모션 자격을 부여하기 위해 주문에 대해 충족되어야 하는 조건이 설명되어 있습니다. 규칙은 조건 세트가 충족될 때마다 실행됩니다.
-
-Real-Time CDP의 대상을 사용하는 경우 [이 섹션](#use-real-time-cdp-audiences-to-set-a-condition)으로 건너뜁니다.
-
 >[!NOTE]
 >
->장바구니 가격 규칙은 _[!UICONTROL Conditions]_&#x200B;탭의 조건 집합이 충족될 때마다 장바구니의&#x200B;**_each_**&#x200B;제품에 적용됩니다._[!UICONTROL Actions]_ 탭에 조건을 추가하여 장바구니 가격 규칙의 영향을 받는 제품 수를 제한하십시오.
+>Real-Time CDP의 대상을 사용하는 경우 [이 섹션](#use-real-time-cdp-audiences-to-set-a-condition)으로 건너뜁니다.
 
->[!NOTE]
->
->하나 이상의 조건부 제품 속성에 빈 값이 있으면 장바구니 가격 규칙이 제품에 적용되지 않습니다.
+이 단계에서는 프로모션 자격을 부여하기 위해 주문에 대해 충족되어야 하는 조건이 설명되어 있습니다. 조건은 다음과 같은 방식으로 장바구니 가격 규칙에 영향을 줍니다.
+
+- 장바구니 가격 규칙은 _[!UICONTROL Conditions]_탭의 조건 집합이 충족될 때마다 장바구니의&#x200B;**_each_**제품에 적용됩니다. 장바구니 가격 규칙의 영향을 받는 제품 수를 제한하려면_[!UICONTROL Actions]_ 탭에 조건을 추가하여 장바구니 가격 규칙의 영향을 받는 제품 수를 제한하십시오.
+
+- 하나 이상의 조건부 제품 속성에 빈 값이 있으면 장바구니 가격 규칙이 제품에 적용되지 않습니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Conditions]**&#x200B;을(를) 선택합니다.
 
@@ -219,7 +211,7 @@ Real-Time CDP [대상자](../customers/audience-activation.md)를 기반으로 �
    | `Name` | 대상 이름(예: `Orders over $50`) |
    | `Description` | 대상자에 대한 설명(예: `People who placed an order over $50 in the last month.`). |
    | `Source` | 대상자가 있었던 위치(예: `Experience Platform`)를 나타냅니다. |
-   | `Website` | 대상자를 포함하는 데이터 스트림에 연결한 웹 사이트를 나타냅니다. [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=ko) 확장을 통해 Commerce 인스턴스를 Experience Platform에 연결할 때 이 링크를 만듭니다. |
+   | `Website` | 대상자를 포함하는 데이터 스트림에 연결한 웹 사이트를 나타냅니다. [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html) 확장을 통해 Commerce 인스턴스를 Experience Platform에 연결할 때 이 링크를 만듭니다. |
 
    {style="table-layout:auto"}
 
@@ -239,10 +231,12 @@ Real-Time CDP [대상자](../customers/audience-activation.md)를 기반으로 �
    |------|-----------|
    | `Percent of product price discount` | 최초 가격에서 퍼센트를 차감하여 품목을 할인합니다. 할인은 장바구니에 있는 각 적격 항목에 적용됩니다. 예를 들어 원래 가격보다 10% 낮은 업데이트된 가격을 보려면 [!UICONTROL Discount Amount]에 `10`을(를) 입력하십시오. |
    | `Fixed amount discount` | 장바구니에 있는 각 적격 품목의 최초 가격에서 고정 금액을 차감하여 품목을 할인합니다. 예를 들어 [!UICONTROL Discount Amount]에 `10`을(를) 입력하여 원래 가격보다 $10만큼 저렴한 업데이트된 가격을 입력합니다. |
-   | 장바구니 전체에 대한 고정 금액 할인 | 장바구니 합계에서 고정 금액을 빼서 전체 장바구니를 할인합니다. 예를 들어 장바구니 합계에서 $10를 빼려면 [!UICONTROL Discount Amount]에 10을 입력합니다. 기본적으로 할인율은 장바구니 소계에만 적용됩니다. 소계 및 배송에 별도로 할인을 적용하려면 _[!UICONTROL Apply to Shipping Amount]_&#x200B;옵션을 사용하십시오. |
+   | 장바구니 전체에 대한 고정 금액 할인 | 장바구니 합계에서 고정 금액을 빼서 전체 장바구니를 할인합니다. 예를 들어 장바구니 합계에서 $10를 빼려면 [!UICONTROL Discount Amount]에 10을 입력합니다. 기본적으로 할인율은 장바구니 소계에만 적용됩니다. 소계 및 배송에 별도로 할인을 적용하려면 _[!UICONTROL Apply to Shipping Amount]_옵션을 사용하십시오. |
    | `Buy X get Y free` | 고객이 같은 제품/변형 **의 Y**&#x200B;개 수량을 무료로 받기 위해 구매해야 하는 X 수량을 정의합니다. ([!UICONTROL Discount Amount]은(는) Y입니다.) 할인을 적용하려면 동일한 항목의 X+Y의 총 수량이 장바구니에 있거나 장바구니에 추가되어야 합니다. |
 
    {style="table-layout:auto"}
+
+   - 다른 통화를 사용하는 웹 사이트 간에 고정 금액 할인을 일관되게 적용하려면(글로벌 기본 통화에서 전환하지 않고) **[!UICONTROL Catalog Price Scope]** 옵션을 `Website`(으)로 설정하고 각 사이트에 대한 기본 통화를 정의합니다.
 
    - 기호 없이 **[!UICONTROL Discount Amount]**&#x200B;을(를) 숫자로 입력하십시오. 예를 들어 선택한 할인 옵션에 따라 숫자 10은 퍼센트, 고정 금액 또는 품목 수량을 나타낼 수 있습니다.
 
@@ -334,7 +328,7 @@ Real-Time CDP [대상자](../customers/audience-activation.md)를 기반으로 �
 
 이 비디오를 통해 장바구니 가격 규칙을 만드는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410807?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
 
 ## 필드 설명
 
@@ -347,7 +341,7 @@ Real-Time CDP [대상자](../customers/audience-activation.md)를 기반으로 �
 | [!UICONTROL Active] | (필수) 규칙이 저장소에서 활성 상태인지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Websites] | (필수) 규칙을 사용할 수 있는 웹 사이트를 식별합니다. |
 | [!UICONTROL Customer Groups] | (필수) 규칙이 적용되는 고객 그룹을 식별합니다. |
-| [!UICONTROL Coupon] | (필수) 쿠폰이 규칙과 연결되어 있는지 여부를 나타냅니다. 옵션: <br/>**[!UICONTROL No Coupon]**- 규칙과 연결된 쿠폰이 없습니다.<br/>**[!UICONTROL Specific Coupon]** - 특정 쿠폰이 규칙과 연결되어 있습니다. <br/>**[!UICONTROL Coupon Code]**- 메시지가 표시되면 고객이 입력해야 하는 쿠폰 코드를 입력하여 프로모션을 활용합니다.<br/>**[!UICONTROL Use Auto Generation]** - 프로모션과 함께 사용할 수 있는 여러 쿠폰 코드를 자동으로 생성하려면 확인란을 선택하십시오. <br/>**[!UICONTROL Auto]**- 생성할 쿠폰 코드의 형식을 정의하는 _[!UICONTROL Manage Coupon Codes]_&#x200B;섹션을 표시합니다. |
+| [!UICONTROL Coupon] | (필수) 쿠폰이 규칙과 연결되어 있는지 여부를 나타냅니다. 옵션: <br/>**[!UICONTROL No Coupon]**- 규칙과 연결된 쿠폰이 없습니다.<br/>**[!UICONTROL Specific Coupon]** - 특정 쿠폰이 규칙과 연결되어 있습니다. <br/>**[!UICONTROL Coupon Code]**- 메시지가 표시되면 고객이 입력해야 하는 쿠폰 코드를 입력하여 프로모션을 활용합니다.<br/>**[!UICONTROL Use Auto Generation]** - 프로모션과 함께 사용할 수 있는 여러 쿠폰 코드를 자동으로 생성하려면 확인란을 선택하십시오. <br/>**[!UICONTROL Auto]**- 생성할 쿠폰 코드의 형식을 정의하는 _[!UICONTROL Manage Coupon Codes]_섹션을 표시합니다. |
 | [!UICONTROL Uses per Coupon] | 쿠폰 코드를 사용할 수 있는 횟수를 결정합니다. 제한이 없는 경우 필드를 비워 둡니다. |
 | [!UICONTROL Uses per Customer] | 선택한 고객 그룹에 속하는 등록된 동일한 고객이 장바구니 가격 규칙을 사용할 수 있는 횟수를 결정합니다. NOT LOGGED IN 고객 그룹의 멤버인 게스트 쇼핑객이나 계정에 로그인하지 않고 쇼핑하는 고객에게는 적용되지 않습니다. 제한을 두지 않으려면 비워 둡니다. |
 | [!UICONTROL Priority] | 다른 규칙과 관련한 이 규칙의 우선 순위를 나타내는 숫자입니다. 높은 우선 순위에서 낮은 우선 순위는 `0,1,2,3...`입니다. |
@@ -390,7 +384,7 @@ Real-Time CDP [대상자](../customers/audience-activation.md)를 기반으로 �
 
 | 필드 | 설명 |
 |--- |--- |
-| [!UICONTROL Apply] | 구매에 적용되는 계산 유형을 결정합니다. 옵션: <br/>**[!UICONTROL Percent of product price discount]**- 원래 가격에서 백분율을 뺀 할인 항목입니다. 예를 들어 원래 가격보다 10% 낮은 업데이트된 가격을 보려면 _[!UICONTROL Discount Amount]_&#x200B;에 `10`을(를) 입력하십시오.<br/>**[!UICONTROL Fixed amount discount]**- 장바구니에 있는 각 적격 항목의 원래 가격에서 고정 금액을 빼서 항목을 할인합니다. 예를 들어&#x200B;_[!UICONTROL Discount Amount]_&#x200B;에 `10`을(를) 입력하여 원래 가격보다 $10만큼 저렴한 업데이트된 가격을 입력합니다. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- 장바구니 소계에서 고정 금액을 빼서 전체 장바구니를 할인합니다. 예를 들어 장바구니 소계에서 $10를 빼려면 _[!UICONTROL Discount Amount]_&#x200B;에 `10`을(를) 입력하십시오. 기본적으로 할인율은 장바구니 소계에만 적용됩니다. 소계 및 배송에 별도로 할인을 적용하려면_배송 금액에 적용&#x200B;_을 참조하십시오.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- 고객이 무상으로 수량을 받기 위해 구매해야 하는 수량을 정의합니다. (_[!UICONTROL Discount Amount]_&#x200B;은(는) Y입니다.) |
+| [!UICONTROL Apply] | 구매에 적용되는 계산 유형을 결정합니다. 옵션: <br/>**[!UICONTROL Percent of product price discount]**- 원래 가격에서 백분율을 뺀 할인 항목입니다. 예를 들어 원래 가격보다 10% 낮은 업데이트된 가격을 보려면 _[!UICONTROL Discount Amount]_에 `10`을(를) 입력하십시오.<br/>**[!UICONTROL Fixed amount discount]**- 장바구니에 있는 각 적격 항목의 원래 가격에서 고정 금액을 빼서 항목을 할인합니다. 예를 들어_[!UICONTROL Discount Amount]_&#x200B;에 `10`을(를) 입력하여 원래 가격보다 $10만큼 저렴한 업데이트된 가격을 입력합니다. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- 장바구니 소계에서 고정 금액을 빼서 전체 장바구니를 할인합니다. 예를 들어 장바구니 소계에서 $10를 빼려면 _[!UICONTROL Discount Amount]_에 `10`을(를) 입력하십시오. 기본적으로 할인율은 장바구니 소계에만 적용됩니다. 소계 및 배송에 별도로 할인을 적용하려면_배송 금액에 적용&#x200B;_을 참조하십시오.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- 고객이 무상으로 수량을 받기 위해 구매해야 하는 수량을 정의합니다. (_[!UICONTROL Discount Amount]_&#x200B;은(는) Y입니다.) |
 | [!UICONTROL Discount Amount] | (필수) 제공된 할인 금액. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | 동일한 구매에서 할인을 적용할 수 있는 최대 제품 수를 설정합니다. |
 | [!UICONTROL Discount Qty Step (Buy X)] | `Buy X Get Y Free` 프로모션에서 `X`(으)로 표시되는 제품 수를 설정합니다. 또한 `Fixed amount discount` 및 `Percent of product price discount` 프로모션을 적용하려면 장바구니에 몇 개의 제품을 일괄적으로 추가해야 하는지 정의합니다. |
