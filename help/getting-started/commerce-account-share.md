@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 시작하기 전에 **새 공유 액세스 피부여자**&#x200B;의 [!DNL Commerce] 계정에서 다음 정보를 가져옵니다.
 
-   - 사용자는 account.adobe.com에서 계정에 이미 등록하고 account.magento.com을 통해 로그인해야 합니다. 자세한 내용은 [Commerce 계정 만들기](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)를 참조하십시오.
+   - 사용자는 account.adobe.com에서 계정에 이미 등록하고 account.magento.com을 통해 로그인해야 합니다. 자세한 내용은 [Commerce 계정 만들기](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)를 참조하십시오.
    - `MAGE ID/Account ID (MAG00XXXXXXX)`은(는) _[!UICONTROL Magento]_&#x200B;탭의 왼쪽 위,**로그아웃**&#x200B;링크 바로 위에 표시됩니다.
    - 계정과 연결된 `Email` 주소입니다.
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->_[!UICONTROL Security Tool]_&#x200B;에 대한 액세스 권한을 공유할 필요가 없습니다. MAGE ID를 가진 모든 사용자는 자신의 계정으로 보안 검색 도구를 설정할 수 있습니다. [필요한 메서드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) 중 하나를 사용하여 사이트를 변경하고 도메인의 소유권을 확인하는 데 필요한 권한만 있으면 됩니다.
+>_[!UICONTROL Security Tool]_&#x200B;에 대한 액세스 권한을 공유할 필요가 없습니다. MAGE ID를 가진 모든 사용자는 자신의 계정으로 보안 검색 도구를 설정할 수 있습니다. [필요한 메서드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security-scan) 중 하나를 사용하여 사이트를 변경하고 도메인의 소유권을 확인하는 데 필요한 권한만 있으면 됩니다.
 
 ## 공유 계정 액세스
 
@@ -91,11 +91,11 @@ ht-degree: 0%
 
    ![지원](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   공유 계정의 [Adobe Commerce 도움말 센터](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)를 사용하여 문서 및 문제 해결 정보를 검색하고 알려진 문제에 대한 패치를 찾고 지원 티켓을 만들 수 있습니다.
+   공유 계정의 [Adobe Commerce 도움말 센터](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)를 사용하여 문서 및 문제 해결 정보를 검색하고 알려진 문제에 대한 패치를 찾고 지원 티켓을 만들 수 있습니다.
 
    >[!NOTE]
    >
-   >공유 액세스 권한을 받은 후 Experience League에서 [지원 사례를 제출](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)하려면 먼저 왼쪽 열에서 &quot;([!DNL Commerce])&quot;로 끝나는 조직 이름을 선택해야 합니다.
+   >공유 액세스 권한을 받은 후 Experience League에서 [지원 사례를 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)하려면 먼저 왼쪽 열에서 &quot;([!DNL Commerce])&quot;로 끝나는 조직 이름을 선택해야 합니다.
 
 1. 자신의 계정으로 돌아가려면 브라우저 컨트롤에서 **뒤로**&#x200B;를 클릭하고 **[!UICONTROL Switch Accounts]**&#x200B;을(를) `My Account`(으)로 설정합니다.
 
@@ -109,21 +109,21 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > **[!UICONTROL Delete]**&#x200B;이(가) 표시되지 않으면 **[!UICONTROL Share Name]**&#x200B;에 명명 패턴 `Cloud Shared Access from MAG0XYZ`이(가) 포함되어 있는지 확인하십시오. 계정에 해당 [이름 지정 패턴이 있고 삭제할 수 없는 경우](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), 이는 공유 액세스가 [Commerce 계정](https://account.magento.com/)에서 직접 만들어지지 않고 API에 의해 만들어졌기 때문입니다.
+   > **[!UICONTROL Delete]**&#x200B;이(가) 표시되지 않으면 **[!UICONTROL Share Name]**&#x200B;에 명명 패턴 `Cloud Shared Access from MAG0XYZ`이(가) 포함되어 있는지 확인하십시오. 계정에 해당 [이름 지정 패턴이 있고 삭제할 수 없는 경우](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), 이는 공유 액세스가 [Commerce 계정](https://account.magento.com/)에서 직접 만들어지지 않고 API에 의해 만들어졌기 때문입니다.
    > 
    > 삭제할 수 없는 경우 계정 소유자에게 공유 액세스 계정을 수정하도록 한 다음 계정 권한 부여에서 모든 항목의 선택을 취소합니다. 해당 업데이트 후에는 더 이상 계정 리소스에 액세스할 수 없습니다.
    > ![이미지](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
-   > 또한 사용자가 프로젝트에서 제거되어 더 이상 이메일 알림을 받지 않도록 하십시오. [이전 팀원이 Adobe Commerce 클라우드 알림 이메일을 받습니다](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
+   > 또한 사용자가 프로젝트에서 제거되어 더 이상 이메일 알림을 받지 않도록 하십시오. [이전 팀원이 Adobe Commerce 클라우드 알림 이메일을 받습니다](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. 확인 메시지가 표시되면 **[!UICONTROL Delete User]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]
 >
->이 인터페이스에서 공유 이름이 _MAG에서 클라우드 공유 액세스[XYZ]_&#x200B;인 사용자를 삭제할 수 없습니다. [Cloud 프로젝트를 통해 공유 액세스 권한을 부여받은 사용자를 삭제하는 방법](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)을 참조하세요.
+>이 인터페이스에서 공유 이름이 _MAG에서 클라우드 공유 액세스[XYZ]_&#x200B;인 사용자를 삭제할 수 없습니다. [Cloud 프로젝트를 통해 공유 액세스 권한을 부여받은 사용자를 삭제하는 방법](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users)을 참조하세요.
 
 ## 관련 읽기
 
-[공유 액세스 문제 해결](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+[공유 액세스 문제 해결](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
 
