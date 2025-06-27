@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 시작하기 전에 **새 공유 액세스 피부여자**&#x200B;의 [!DNL Commerce] 계정에서 다음 정보를 가져옵니다.
 
    - 사용자는 account.adobe.com에서 계정에 이미 등록하고 account.magento.com을 통해 로그인해야 합니다. 자세한 내용은 [Commerce 계정 만들기](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)를 참조하십시오.
-   - `MAGE ID/Account ID (MAG00XXXXXXX)`은(는) _[!UICONTROL Magento]_탭의 왼쪽 위,**로그아웃**링크 바로 위에 표시됩니다.
+   - `MAGE ID/Account ID (MAG00XXXXXXX)`은(는) _[!UICONTROL Magento]_&#x200B;탭의 왼쪽 위,**로그아웃**&#x200B;링크 바로 위에 표시됩니다.
    - 계정과 연결된 `Email` 주소입니다.
 
 1. [[!DNL Commerce] 계정](commerce-account-create.md)에 로그인합니다.
@@ -45,26 +45,26 @@ ht-degree: 0%
 
    ![새 사용자 정보](./assets/shared-new-user.png){width="600"}
 
-1. _[!UICONTROL Shared Information]_에서 다음을 수행합니다.
+1. _[!UICONTROL Shared Information]_&#x200B;에서 다음을 수행합니다.
 
    - 공유 계정을 식별하려면 **[!UICONTROL Share Name]**&#x200B;을(를) 입력하십시오. 이 이름은 내부 참조용이며 귀하와 귀하의 계정을 공유하는 사람에게만 표시됩니다.
 
      가장 좋은 방법은 조직 이름을 [!UICONTROL Share Name]&#x200B;(으)로 사용하는 것입니다. `CLOUD SHARED ACCESS FROM MAG XYX`(으)로 시작하는 이름을 사용하지 마십시오.
    - 새 사용자와 개인 연락처 정보를 공유하려면 **[!UICONTROL Your Email]** 및 **[!UICONTROL Your Phone]**&#x200B;을(를) 입력하십시오.
 
-1. _[!UICONTROL Grant Account Permissions]_에서 공유할 각 [!DNL Commerce] 제품 및 서비스의 확인란을 선택합니다.
+1. _[!UICONTROL Grant Account Permissions]_&#x200B;에서 공유할 각 [!DNL Commerce] 제품 및 서비스의 확인란을 선택합니다.
 
    ![계정 권한 부여](./assets/shared-permissions.png){width="600"}
 
 1. **[!UICONTROL Create Shared Access]**&#x200B;을(를) 클릭합니다.
 
-   새 사용자 정보가 공유 액세스 페이지의 _[!UICONTROL Manage Permissions]_섹션에 나타나고 공유 계정에 액세스하는 지침이 포함된 전자 메일 초대장이 새 사용자에게 전송됩니다.
+   새 사용자 정보가 공유 액세스 페이지의 _[!UICONTROL Manage Permissions]_&#x200B;섹션에 나타나고 공유 계정에 액세스하는 지침이 포함된 전자 메일 초대장이 새 사용자에게 전송됩니다.
 
    ![공유 액세스에 대한 권한 관리](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->_[!UICONTROL Security Tool]_에 대한 액세스 권한을 공유할 필요가 없습니다. MAGE ID를 가진 모든 사용자는 자신의 계정으로 보안 검색 도구를 설정할 수 있습니다. [필요한 메서드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) 중 하나를 사용하여 사이트를 변경하고 도메인의 소유권을 확인하는 데 필요한 권한만 있으면 됩니다.
+>_[!UICONTROL Security Tool]_&#x200B;에 대한 액세스 권한을 공유할 필요가 없습니다. MAGE ID를 가진 모든 사용자는 자신의 계정으로 보안 검색 도구를 설정할 수 있습니다. [필요한 메서드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) 중 하나를 사용하여 사이트를 변경하고 도메인의 소유권을 확인하는 데 필요한 권한만 있으면 됩니다.
 
 ## 공유 계정 액세스
 
@@ -72,13 +72,13 @@ ht-degree: 0%
 
 1. 공유 계정에 대한 초대를 받으면 전자 메일의 지침에 따라 자신의 [!DNL Commerce] 계정에 로그인하십시오.
 
-   계정의 왼쪽 탐색 패널에 새 _[!UICONTROL Shared with me]_탭이 있습니다. 오른쪽 상단의_[!UICONTROL Switch Accounts]_ 컨트롤에는 `My Account`에 대한 옵션과 공유 계정 이름이 있습니다.
+   계정의 왼쪽 탐색 패널에 새 _[!UICONTROL Shared with me]_&#x200B;탭이 있습니다. 오른쪽 상단의&#x200B;_[!UICONTROL Switch Accounts]_ 컨트롤에는 `My Account`에 대한 옵션과 공유 계정 이름이 있습니다.
 
    ![나와 공유](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >   _[!UICONTROL Switch Accounts]_컨트롤이 표시되지 않으면 기본 계정 소유자에게 연락하여 올바른 [계정 정보](#set-up-a-shared-account)를 입력했는지 확인하십시오.
+   >   _[!UICONTROL Switch Accounts]_&#x200B;컨트롤이 표시되지 않으면 기본 계정 소유자에게 연락하여 올바른 [계정 정보](#set-up-a-shared-account)를 입력했는지 확인하십시오.
 
 
 1. 공유 계정에 액세스하려면 **[!UICONTROL Switch Accounts]**&#x200B;을(를) 공유 계정의 이름으로 설정하십시오.
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL Shared Access]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Managing Users & Permissions]_에서 해지할 계정을 찾은 다음&#x200B;**[!UICONTROL Delete]**을(를) 클릭합니다.
+1. _[!UICONTROL Managing Users & Permissions]_&#x200B;에서 해지할 계정을 찾은 다음&#x200B;**[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
    >[!NOTE]
    >
