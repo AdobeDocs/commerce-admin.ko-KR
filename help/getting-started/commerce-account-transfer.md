@@ -14,11 +14,11 @@ ht-degree: 0%
 
 비즈니스 책임이 변경되면 Commerce 계정을 새 소유자나 다른 이메일 주소로 전송해야 할 수 있습니다. 이 전송을 수행하려면 계정과 연결된 기본 사용자 이메일을 변경해야 합니다.
 
-다음 정보는 MAGEID(Commerce) 계정을 전송하는 프로세스를 설명합니다. 클라우드 계정(클라우드 프로젝트 또는 New Relic) 소유권에 대한 변경 사항은 포함되지 않습니다. 클라우드 프로젝트 액세스에 대한 자세한 내용은 _Commerce on Cloud Infrastructure Guide_&#x200B;에서 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)를 참조하십시오.
+다음 정보는 MAGEID(Commerce) 계정을 전송하는 프로세스를 설명합니다. 클라우드 계정(클라우드 프로젝트 또는 New Relic) 소유권에 대한 변경 사항은 포함되지 않습니다. 클라우드 프로젝트 액세스에 대한 자세한 내용은 _Commerce on Cloud Infrastructure Guide_&#x200B;에서 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=ko)를 참조하십시오.
 
 >[!IMPORTANT]
 >
->새 계정 소유자가 공유 액세스를 사용하여 확장을 구매한 경우 계정 전송 프로세스가 시작되자마자 해당 확장에 대한 액세스가 손실됩니다. 계정 이전을 요청하기 전에 새 소유자가 [마켓플레이스 계정](https://commercemarketplace.adobe.com/sales/order/history/)에서 구매한 항목에 대한 주문 ID를 검색하고 [마켓플레이스 팀](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)에서 해당 확장에 대한 환불을 요청하는지 확인하십시오. 확장 구매를 다른 계정으로 이전할 수 없습니다.
+>새 계정 소유자가 공유 액세스를 사용하여 확장을 구매한 경우 계정 전송 프로세스가 시작되자마자 해당 확장에 대한 액세스가 손실됩니다. 계정 이전을 요청하기 전에 새 소유자가 [마켓플레이스 계정](https://commercemarketplace.adobe.com/sales/order/history/)에서 구매한 항목에 대한 주문 ID를 검색하고 [마켓플레이스 팀](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)에서 해당 확장에 대한 환불을 요청하는지 확인하십시오. 확장 구매를 다른 계정으로 이전할 수 없습니다.
 
 ## 전송 유형 식별
 
