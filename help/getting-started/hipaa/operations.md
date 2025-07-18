@@ -2,7 +2,7 @@
 title: 작업
 description: HIPAA 지원 오퍼링으로 마이그레이션하고 문제 해결을 위해 보조 스테이징 환경을 사용하기 위한 지침
 exl-id: 058b43de-1cee-4557-b2e3-87ee7422bf9b
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: cedbc2c5c885b7051fef3b0ef01522282b8bb973
 workflow-type: tm+mt
 source-wordcount: '528'
@@ -21,7 +21,7 @@ ht-degree: 0%
 비 HIPAA Commerce 제품에서 HIPAA 지원 제품으로 마이그레이션하는 고객은 다음 지침을 준수해야 합니다.
 
 1. **기존 데이터 공간 삭제**: 마이그레이션하기 전에 Adobe Commerce SaaS 계층에서 중요한 데이터와 중요하지 않은 데이터가 함께 혼합되지 않도록 기존 데이터 공간을 모두 삭제해야 합니다. 데이터 공간을 삭제하는 지원 티켓을 만듭니다.
-1. **새 환경 구성**: 새 HIPAA Commerce 인스턴스의 [Commerce 서비스 커넥터](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas) 설정은 데이터 공간이 삭제된 후에만 구성해야 합니다. 새 HIPAA SaaS 환경은 이전 데이터 소스가 삭제된 후에만 사용해야 합니다. Commerce 서비스 커넥터를 설정하면 새 SaaS 데이터 공간 생성이 자동으로 트리거됩니다.
+1. **새 환경 구성**: 새 HIPAA Commerce 인스턴스의 [Commerce 서비스 커넥터](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/integration-services/saas) 설정은 데이터 공간이 삭제된 후에만 구성해야 합니다. 새 HIPAA SaaS 환경은 이전 데이터 소스가 삭제된 후에만 사용해야 합니다. Commerce 서비스 커넥터를 설정하면 새 SaaS 데이터 공간 생성이 자동으로 트리거됩니다.
 1. **마이그레이션 전략**: SaaS 데이터 공간의 삭제는 취소할 수 없는 프로세스이며 카탈로그 데이터 및 관련 구성을 모두 삭제합니다. 이전 데이터 또는 구성을 전달하려면 마이그레이션 전략이 적용되어 있어야 합니다. 이 전략은 상인의 책임이다. 기존 데이터 공간 삭제에 대한 지원 티켓은 마이그레이션 데이터 백업(해당되는 경우)이 수행된 후에만 만들어야 합니다.
 
 >[!NOTE]
@@ -42,8 +42,8 @@ Adobe Commerce HIPAA 지원 서비스에는 문제 해결 목적으로 Adobe Com
 
 - **비 HIPAA 지원 Commerce 서비스** - 고객은 라이브 검색, 제품 추천, 결제 서비스, 판매 채널 또는 Commerce Intelligence과 같은 Adobe Commerce 서비스를 사용하지 말아야 합니다. 고객은 [HIPAA 지원 서비스](overview.md)만 사용해야 합니다.
 
-- **데이터 연결**—[데이터 연결](https://experienceleague.adobe.com/en/docs/commerce/data-connection/overview) 확장 내의 백 오피스 컬렉터만 HIPAA가 준비되었습니다. 고객은 PHI를 상점 이벤트 및 Audience Activation과 같은 비 HIPAA 준비 데이터 연결 서비스로 보내지 마십시오. 고객은 상점 데이터 수집이 비활성화되어 있는지 확인해야 합니다.
+- **데이터 연결**—[데이터 연결](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/overview) 확장 내의 백 오피스 컬렉터만 HIPAA가 준비되었습니다. 고객은 PHI를 상점 이벤트 및 Audience Activation과 같은 비 HIPAA 준비 데이터 연결 서비스로 보내지 마십시오. 고객은 상점 데이터 수집이 비활성화되어 있는지 확인해야 합니다.
 
-- **카탈로그 서비스**—기본적으로 [카탈로그 서비스](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/overview)는 PHI를 처리하지 않으므로 HIPAA 준비 감사 및 규정 준수 범위를 벗어납니다. 고객은 사용 사례에 대한 자체 평가와 법률 자문을 바탕으로 본 서비스를 사용하도록 할 책임이 있습니다. 또한 고객은 PHI를 비 HIPAA 지원 서비스로 전달할 위험을 방지하기 위해 페더레이션 서비스를 통해 카탈로그 서비스를 사용하면 안 됩니다.
+- **카탈로그 서비스**—기본적으로 [카탈로그 서비스](https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/overview)는 PHI를 처리하지 않으므로 HIPAA 준비 감사 및 규정 준수 범위를 벗어납니다. 고객은 사용 사례에 대한 자체 평가와 법률 자문을 바탕으로 본 서비스를 사용하도록 할 책임이 있습니다. 또한 고객은 PHI를 비 HIPAA 지원 서비스로 전달할 위험을 방지하기 위해 페더레이션 서비스를 통해 카탈로그 서비스를 사용하면 안 됩니다.
 
-- **SaaS 데이터 내보내기**—Adobe Commerce의 HIPAA 준비 구성 요소에 대한 데이터만 보내도록 [SaaS 데이터 내보내기](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) 서비스를 구성해야 합니다.
+- **SaaS 데이터 내보내기**—Adobe Commerce의 HIPAA 준비 구성 요소에 대한 데이터만 보내도록 [SaaS 데이터 내보내기](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/overview) 서비스를 구성해야 합니다.
