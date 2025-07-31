@@ -3,9 +3,9 @@ title: 장바구니 관리
 description: 관리자로부터 직접 고객 장바구니를 지원하는 방법을 알아봅니다.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
+source-git-commit: 69cd571b66a81159c2c99e6652907f22142568cb
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 0%
 
 | 단추 | 설명 |
 |--- |--- |
-| [!UICONTROL Clear my shopping cart] | 모든 제품에서 현재 장바구니를 지웁니다. |
-| [!UICONTROL Update Items and Quantities|]&#x200B;**[!UICONTROL Qty]** 필드에 필요한 수량을 입력하고 장바구니의 항목 수를 업데이트합니다. |
+| [!UICONTROL Clear my shopping cart] | 장바구니에서 모든 항목을 제거합니다. |
+| [!UICONTROL Update Items and Quantities|]**[!UICONTROL Qty]** 필드에 필요한 수량을 입력하고 장바구니의 항목 수를 업데이트합니다. |
 | [!UICONTROL Add selections to my cart] | 모든 섹션의 제품을 장바구니에 추가합니다. |
 
 {style="table-layout:auto"}
@@ -55,7 +55,7 @@ ht-degree: 0%
    >
    >고객 레코드를 빠르게 찾으려면 [필터](../getting-started/admin-grid-controls.md) 컨트롤을 사용하십시오.
 
-   _[!UICONTROL Personal Information]_&#x200B;아래의 고객 프로필에서&#x200B;_[!UICONTROL Last Logged In]_ 날짜 및 시간은 고객이 온라인 상태임을 보여 줍니다.
+   _[!UICONTROL Personal Information]_아래의 고객 프로필에서_[!UICONTROL Last Logged In]_ 날짜 및 시간은 고객이 온라인 상태임을 보여 줍니다.
 
    ![온라인 고객의 고객 프로필](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ## 속성별로 장바구니에 제품 추가
 
-1. **[!UICONTROL Products]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Products]**&#x200B;를 확장합니다.
 
 1. 각 열의 맨 위에 있는 필터를 사용하여 제품을 찾습니다.
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 ## SKU별 제품 추가
 
-1. **[!UICONTROL Add to Shopping Cart by SKU]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Add to Shopping Cart by SKU]**&#x200B;를 확장합니다.
 
 1. **[!UICONTROL SKU]**&#x200B;에서 개별적으로 제품을 추가하거나 CSV 파일을 업로드하여 제품을 추가하십시오.
 
@@ -175,10 +175,26 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create Order]**&#x200B;을(를) 클릭합니다.
 
-   _[!UICONTROL Create New Order]_&#x200B;페이지에 장바구니의 항목이 표시되고 그 뒤에 배송 및 결제 정보가 표시됩니다.
+   _[!UICONTROL Create New Order]_페이지에 장바구니의 항목이 표시되고 그 뒤에 배송 및 결제 정보가 표시됩니다.
 
 1. 배송 및 결제 정보를 작성합니다.
 
 1. **[!UICONTROL Submit Order]**&#x200B;을(를) 클릭합니다.
 
 자세한 내용은 [주문 만들기](customer-account-create-order.md)를 참조하세요.
+
+## 장바구니에서 모든 항목 제거
+
+보조 쇼핑 모드에서 고객의 장바구니에서 모든 항목을 제거하는 것은 고객이 다시 시작하기를 원하거나 잘못된 항목을 추가했거나 새 주문을 하기 전에 장바구니를 지워야 하는 경우 유용합니다. 이렇게 하면 장바구니에 고객이 실제로 구매하려는 제품만 포함되어 있는지 확인하는 데 도움이 됩니다.
+
+1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**(으)로 이동합니다.
+
+1. 목록에서 고객 레코드를 편집 모드로 엽니다.
+
+1. 맨 위 단추 모음에서 **[!UICONTROL Manage Shopping Cart]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Clear my shopping cart]**&#x200B;을(를) 클릭합니다.
+
+   ![장바구니 지우기](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
+
+1. 작업을 확인하라는 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
