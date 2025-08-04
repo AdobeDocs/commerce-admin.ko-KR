@@ -3,9 +3,9 @@ title: 가격 범위
 description: 전역 또는 웹 사이트 수준에서 적용되도록 구성할 수 있는 제품 가격에 사용되는 범위에 대해 알아봅니다.
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: bc3977f29c8048a1b8578aa21fa55fa1a4d903f2
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 서로 다른 요인이 한 장소에서 같은 제품의 가격에 영향을 줄 수 있고 다른 장소에서 영향을 줄 수 없습니다. 예를 들어 제품에 대한 추가 배포 비용과 특정 상점에서 판매되는 제품의 가격에 영향을 주는 기타 고려 사항이 있을 수 있습니다. 다음 다이어그램은 기본 통화가 웹 사이트 수준으로 설정된 다중 사이트 설치를 보여 줍니다. 각 웹 사이트와 연관된 스토어 및 스토어 보기는 웹 사이트 수준에서 설정된 제품 가격을 반영합니다.
 
-![Adobe Commerce B2B](../assets/b2b.svg) 공유 카탈로그를 사용하는 경우 _Adobe Commerce B2B 안내서_&#x200B;의 [공유 카탈로그 가격 및 구조 설정](../b2b/catalog-shared-pricing-structure.md)을 참조하세요.
+![Adobe Commerce B2B](../assets/b2b.svg) 공유 카탈로그를 사용하는 경우 [Adobe Commerce B2B 안내서](../b2b/catalog-shared-pricing-structure.md)의 _공유 카탈로그 가격 및 구조 설정_&#x200B;을 참조하세요.
 
 ![가격 범위 다이어그램](./assets/catalog-price-scope.svg){width="550"}
 
@@ -45,6 +45,8 @@ Commerce에서는 각 스토어에 대한 제품 가격 설정을 허용하지 �
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Catalog]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Price]** 탭에서 가격 범위를 전역 대신 `Website`(으)로 설정합니다.
+1. **[!UICONTROL Price]** 탭에서 가격 범위를 `Website` 대신 `Global`(으)로 설정합니다.
 
 1. 제품 편집 페이지를 열고 왼쪽 상단의 범위를 선택한 다음 웹 사이트당 새 가격을 입력하여 가격을 설정합니다.
+
+드문 경우지만 가격 범위가 `Global`(으)로 설정된 경우 Commerce 데이터베이스의 가격이 웹 사이트 수준에서 다를 수 있습니다. 이 문제는 Commerce 외부의 동기화 문제로 인해 발생할 수 있습니다. 이러한 경우 판매자는 매장 수준에서 가격 정리를 수행하고 Commerce Services와 카탈로그 동기화를 실행해야 합니다.
