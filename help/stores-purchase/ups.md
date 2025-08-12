@@ -3,7 +3,7 @@ title: UPS(United Parcel Service)
 description: UPS를 상점의 배송 운송업체로 설정하는 방법에 대해 알아보십시오.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
+source-git-commit: a925827f2d939eeb9e6b3e57c023792ae358cbfc
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -36,7 +36,7 @@ UPS 통합을 사용하려면 [UPS API 시작 안내서](https://developer.ups.c
 
 1. 왼쪽 패널의 **[!UICONTROL Sales]**&#x200B;에서 **[!UICONTROL Delivery Methods]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL UPS]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL UPS]**&#x200B;를 확장합니다.
 
 1. **[!UICONTROL Enabled for Checkout]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -46,9 +46,9 @@ UPS 통합을 사용하려면 [UPS API 시작 안내서](https://developer.ups.c
 
    - 보안 연결을 통해 UPS 배송 시스템에 데이터를 보내려면 **[!UICONTROL Mode]**&#x200B;을(를) `Live`(으)로 설정하십시오. (개발 모드에서는 보안 연결을 통해 데이터를 전송하지 않습니다.)
 
-   - 요청을 보내는 데 필요한 **[!UICONTROL Gateway URL]**&#x200B;을(를) 확인하십시오. 테스트 모드에는 샌드박스 URL(`https://wwwcie.ups.com/`)을 사용하고 라이브 요청에는 프로덕션 URL(`https://onlinetools.ups.com`)을 사용합니다. 지정된 호스트가 있는 각 요청에 대해 각 끝점을 사용해야 합니다.
+   - 요청을 보내는 데 필요한 **[!UICONTROL Gateway URL]**&#x200B;을(를) 확인하십시오. 테스트 모드에는 샌드박스 URL(`https://wwwcie.ups.com/api/rating/`)을 사용하고 라이브 요청에는 프로덕션 URL(`https://onlinetools.ups.com/api/rating/`)을 사용합니다. 지정된 호스트가 있는 각 요청에 대해 각 끝점을 사용해야 합니다.
 
-   - 추적 정보를 가져오는 데 필요한 **[!UICONTROL Tracking URL]**&#x200B;을(를) 확인하십시오. 테스트 모드에는 샌드박스 URL(`https://wwwcie.ups.com/`)을 사용하고 라이브 요청에는 프로덕션 URL(`https://onlinetools.ups.com`)을 사용합니다. 지정된 호스트가 있는 각 요청에 대해 각 끝점을 사용해야 합니다.
+   - 추적 정보를 가져오는 데 필요한 **[!UICONTROL Tracking URL]**&#x200B;을(를) 확인하십시오. 테스트 모드에는 샌드박스 URL(`https://wwwcie.ups.com/api/track/`)을 사용하고 라이브 요청에는 프로덕션 URL(`https://onlinetools.ups.com/api/track/`)을 사용합니다. 지정된 호스트가 있는 각 요청에 대해 각 끝점을 사용해야 합니다.
 
    - **[!UICONTROL Origin of the Shipment]**&#x200B;을(를) 배송이 시작된 지역으로 설정합니다.
 
@@ -62,7 +62,7 @@ UPS 통합을 사용하려면 [UPS API 시작 안내서](https://developer.ups.c
    >[!NOTE]
    >
    >표준 유나이티드 택배 서비스 유형은 사용이 중단될 예정입니다. 새 구성의 경우 기본 `United Parcel Service REST` 형식을 사용하십시오. [배송 레이블](shipping-labels.md).<br/>을 생성하는 데에도 REST 형식이 필요합니다.
-   >2.4.7 릴리스의 경우 `UPS` 및 `UPS XML` 형식이 사용 중지로 예약되어 있고 `UPS REST`이(가) 기본값이므로 **[!UICONTROL UPS Type]**&#x200B;이(가) 제거됩니다. 기본 Adobe Commerce 통합에서 사용하는 통합 택배 서비스(UPS) API는 현재 OAuth 2.0 보안 모델을 지원하지 않으므로 일시적으로 더 이상 사용되지 않습니다.
+   >2.4.7 릴리스의 경우 **[!UICONTROL UPS Type]** 및 `UPS` 형식이 사용 중지로 예약되어 있고 `UPS XML`이(가) 기본값이므로 `UPS REST`이(가) 제거됩니다. 기본 Adobe Commerce 통합에서 사용하는 통합 택배 서비스(UPS) API는 현재 OAuth 2.0 보안 모델을 지원하지 않으므로 일시적으로 더 이상 사용되지 않습니다.
 
    >[!IMPORTANT]
    >
