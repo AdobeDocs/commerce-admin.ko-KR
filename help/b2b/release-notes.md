@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] 릴리스 정보'
 description: ' [!DNL Adobe Commerce B2B] 릴리스의 변경 내용에 대한 정보는 릴리스 정보를 검토하십시오.'
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 706b62170507da90934eeff1d894865b27713b55
+source-git-commit: 298dae1e7ff3ec2af42d70a255075877458eeb4f
 workflow-type: tm+mt
-source-wordcount: '8867'
+source-wordcount: '9030'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,24 @@ B2B 확장에 대한 이러한 릴리스 노트는 다음을 포함하여 Adobe�
 
 >[!NOTE]
 >
->사용 가능한 Adobe Commerce 릴리스에서 지원되는 B2B Commerce 확장 버전에 대한 정보는 [제품 가용성](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=ko)을 참조하십시오.
+>사용 가능한 Adobe Commerce 릴리스에서 지원되는 B2B Commerce 확장 버전에 대한 정보는 [제품 가용성](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html)을 참조하십시오.
+
+## B2B v1.5.3-alpha2
+
+*2025년 8월 12일*
+
+Adobe Commerce 버전 2.4.9-alpha2와 호환 가능
+
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+
+## B2B v1.5.2-p2
+
+*2025년 8월 12일*
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.8-p2, 2.4.7-p7 및 2.4.6-p12 보안 패치 릴리스.
+Adobe Commerce 버전 2.4.7부터 2.4.7-p6까지, 2.4.6부터 2.4.6-p11까지 호환됩니다.
+
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.5.2-p1
 
@@ -29,7 +46,7 @@ B2B 확장에 대한 이러한 릴리스 노트는 다음을 포함하여 Adobe�
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.8-p1, 2.4.7-p6 및 2.4.6-p11 보안 패치 릴리스.
 Adobe Commerce 버전 2.4.7 - 2.4.7-p5, 2.4.6 - 2.4.6-p10과 호환
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-50](https://helpx.adobe.com/kr/security/products/magento/apsb25-50.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B 1.5.2
 
@@ -58,9 +75,9 @@ B2B v1.5.2 릴리스에는 품질 개선 사항 및 버그 수정이 포함되�
 
 ![해결된 문제](../assets/fix.svg) B2B v1.5.2 릴리스에는 협상 가능한 견적에 대한 다음 수정 사항이 포함되어 있습니다.
 
-- &#x200B;<!-- B2B-3252 -->이제 [!UICONTROL Line Item Discount Amount] 필드에서 음수 할인 값을 입력할 수 없도록 입력을 확인합니다.
-- &#x200B;<!-- B2B-3224 -->B2B 고객의 경우 긴 라인 항목 노트가 잘리고 읽기가 어려웠던 사용자 경험 문제를 해결했습니다.
-- &#x200B;<!-- B2B-2865 -->이제 B2B 고객은 견적을 생성할 때 십진수 값(예: 1.5 또는 2.75)을 사용하여 제품 수량을 지정할 수 있습니다.
+- <!-- B2B-3252 -->이제 [!UICONTROL Line Item Discount Amount] 필드에서 음수 할인 값을 입력할 수 없도록 입력을 확인합니다.
+- <!-- B2B-3224 -->B2B 고객의 경우 긴 라인 항목 노트가 잘리고 읽기가 어려웠던 사용자 경험 문제를 해결했습니다.
+- <!-- B2B-2865 -->이제 B2B 고객은 견적을 생성할 때 십진수 값(예: 1.5 또는 2.75)을 사용하여 제품 수량을 지정할 수 있습니다.
 
 ### 견적 템플릿
 
@@ -107,7 +124,7 @@ B2B v1.5.1 릴리스에는 품질 개선 사항 및 버그 수정이 포함되�
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.7-p3+ 및 2.4.6-p8+ 보안 패치 릴리스.
 Adobe Commerce 버전 2.4.8-beta1, 2.4.7 ~ 2.4.7-p2, 2.4.6 ~ 2.4.6-p7과 호환됩니다.
 
-Adobe Commerce B2B 버전 1.5.0은 PHP 8.3과도 호환되며 [GraphQL Application Server](https://experienceleague.adobe.com/ko/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원합니다.
+Adobe Commerce B2B 버전 1.5.0은 PHP 8.3과도 호환되며 [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원합니다.
 
 B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 포함되어 있습니다.
 
@@ -119,13 +136,13 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 ![새로 만들기](../assets/new.svg) **회사 관리**<!--B2B-2901-->—이제 판매자는 지정된 상위 회사에 회사를 할당하여 Adobe Commerce 회사를 계층적 조직으로 보고 관리할 수 있습니다. 회사가 상위에 할당된 경우 상위 회사 관리자가 회사 계정을 관리할 수 있습니다. 승인된 관리자 사용자만 회사 할당을 추가하고 관리할 수 있습니다. 자세한 내용은 [회사 계층 구조 관리](manage-company-hierarchy.md)를 참조하십시오.
 
-- 관리자의 *[!UICONTROL Company Account]* 페이지에 있는 새 *[!UICONTROL Company Hierarchy]* 섹션에서 회사 할당을 추가하고 관리합니다.
+- 관리자의 *[!UICONTROL Company Hierarchy]* 페이지에 있는 새 *[!UICONTROL Company Account]* 섹션에서 회사 할당을 추가하고 관리합니다.
 
 - 새 *[!UICONTROL Company Type]* 설정을 기준으로 회사를 정렬 및 필터링합니다. 회사 격자에서 *[!UICONTROL Company Type]* 열은 회사가 개별 회사인지 조직 계층 구조(상위 또는 하위)의 일부인지 여부를 나타냅니다.
 
-![새로 만들기](../assets/new.svg) **회사 구성을 규모에 맞게 관리**<!--B2B-2849-->—이제 *[!UICONTROL Companies]* 또는 *[!UICONTROL Company Hierarchy]* 그리드에서 회사를 관리할 때 사용할 수 있는 *[!UICONTROL Change company setting]* 일괄 작업을 사용하여 선택한 회사에 대한 회사 구성 설정을 빠르게 변경합니다. 예를 들어 회사 그룹에 대한 새 공유 카탈로그를 만드는 경우 각 회사를 개별적으로 편집하는 대신 단일 작업으로 공유 카탈로그 구성을 변경할 수 있습니다.
+![새로 만들기](../assets/new.svg) **회사 구성을 규모에 맞게 관리**<!--B2B-2849-->—이제 *[!UICONTROL Change company setting]* 또는 *[!UICONTROL Companies]* 그리드에서 회사를 관리할 때 사용할 수 있는 *[!UICONTROL Company Hierarchy]* 일괄 작업을 사용하여 선택한 회사에 대한 회사 구성 설정을 빠르게 변경합니다. 예를 들어 회사 그룹에 대한 새 공유 카탈로그를 만드는 경우 각 회사를 개별적으로 편집하는 대신 단일 작업으로 공유 카탈로그 구성을 변경할 수 있습니다.
 
-![새로 만들기](../assets/new.svg) API 개발자는 새 Company Relations REST API 끝점 `/V1/company/{parentId}/relations`을(를) 사용하여 회사 할당을 만들고 보고 제거할 수 있습니다. *웹 API 개발자 안내서*&#x200B;에서 [회사 개체 관리](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/)를 참조하십시오.
+![새로 만들기](../assets/new.svg) API 개발자는 새 Company Relations REST API 끝점 `/V1/company/{parentId}/relations`을(를) 사용하여 회사 할당을 만들고 보고 제거할 수 있습니다. [웹 API 개발자 안내서](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/)에서 *회사 개체 관리*&#x200B;를 참조하십시오.
 
 ### 회사 계정
 
@@ -159,13 +176,13 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 - **견적을 초안으로 저장**<!--B2B-2566-->—장바구니에서 [견적 요청](quote-request.md)을 만들 때 구매자는 이제 견적을 초안으로 저장하여 판매자와 견적 협상 프로세스를 시작하기 전에 검토하고 업데이트할 수 있습니다. 초안 견적에 만료일이 없습니다. 구매자는 계정 대시보드의 [!UICONTROL My Quotes] 섹션에서 초안 견적을 검토하고 업데이트할 수 있습니다.
 
-- **견적 이름 바꾸기**<!--B2B-2596--> - 이제 구매자는 **[!UICONTROL Rename]** 옵션을 선택하여 [견적 세부 정보](account-dashboard-my-quotes.md#quote-actions) 페이지에서 견적 이름을 변경할 수 있습니다. 이 옵션은 승인된 구매자가 견적을 편집할 때 사용할 수 있습니다. 이름 변경 이벤트는 Quote 내역 로그에 기록됩니다.
+- **견적 이름 바꾸기**<!--B2B-2596--> - 이제 구매자는 [ 옵션을 선택하여 ](account-dashboard-my-quotes.md#quote-actions)견적 세부 정보&#x200B;**[!UICONTROL Rename]** 페이지에서 견적 이름을 변경할 수 있습니다. 이 옵션은 승인된 구매자가 견적을 편집할 때 사용할 수 있습니다. 이름 변경 이벤트는 Quote 내역 로그에 기록됩니다.
 
-- **견적 복제**<!--B2B-2701--> - 구매자와 판매자가 기존 견적을 복사하여 새 견적을 만들 수 있습니다. 책임자 또는 [Storefront](account-dashboard-my-quotes.md#quote-actions)의 [견적 세부 정보 보기](quote-price-negotiation.md#button-bar)에서 **[!UICONTROL Create Copy]**&#x200B;을(를) 선택하여 견적 세부 정보 보기에서 복사본을 만듭니다.
+- **견적 복제**<!--B2B-2701--> - 구매자와 판매자가 기존 견적을 복사하여 새 견적을 만들 수 있습니다. 책임자 또는 **[!UICONTROL Create Copy]** Storefront[의 ](quote-price-negotiation.md#button-bar)견적 세부 정보 보기[에서 ](account-dashboard-my-quotes.md#quote-actions)을(를) 선택하여 견적 세부 정보 보기에서 복사본을 만듭니다.
 
 - **견적 품목을 구매요청 목록으로 이동**<!--B2B-2755-->—이제 구매자가 견적 협상 프로세스에 제품을 포함하지 않기로 결정한 경우 견적에서 제품을 제거하고 구매요청 목록에 저장할 수 있습니다.
 
-- **견적에서 여러 제품 제거**<!--B2B-2881--> - 제품 수가 많은 견적에서 구매자는 이제 견적 세부 정보 페이지의 *[!UICONTROL Actions]* 컨트롤에서 *[!UICONTROL Remove]* 옵션을 사용하여 견적에서 여러 제품을 제거할 수 있습니다. 이전 릴리즈에서는 구매자가 한 번에 하나씩 제품을 삭제해야 했습니다.
+- **견적에서 여러 제품 제거**<!--B2B-2881--> - 제품 수가 많은 견적에서 구매자는 이제 견적 세부 정보 페이지의 *[!UICONTROL Remove]* 컨트롤에서 *[!UICONTROL Actions]* 옵션을 사용하여 견적에서 여러 제품을 제거할 수 있습니다. 이전 릴리즈에서는 구매자가 한 번에 하나씩 제품을 삭제해야 했습니다.
 
 - **라인 항목 할인 잠금**<!--B2B-2597--> - 견적 협상 중에 판매자는 견적 협상 과정에서 할인을 적용할 때 보다 유연하게 라인 항목 할인 잠금을 사용할 수 있습니다. 예를 들어, 판매자는 품목에 특별 라인 품목 할인을 적용하고 추가 할인을 방지하기 위해 품목을 잠글 수 있습니다. 품목이 잠기면 견적 레벨 할인이 적용될 때 품목 가격을 갱신할 수 없습니다. [구매자를 위한 견적 시작](sales-rep-initiates-quote.md)을 참조하세요.
 
@@ -183,13 +200,23 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 ![해결된 문제](../assets/fix.svg) <!--ACP2E-1825-->회사가 차단된 후에는 더 이상 회사와 연결된 사용자가 구매 주문을 할 수 없습니다. 이전에는 회사가 차단되면 회사와 연관된 사용자가 구매 주문을 할 수 있었습니다.
 
+## B2B v1.4.2-p7
+
+*2025년 8월 12일*
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.7-p7+ 및 2.4.6-p12+ 보안 패치 릴리스.
+
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+
+{{b2b-compatibility}}
+
 ## B2B v1.4.2-p6
 
 *2025년 6월 10일*
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.7-p6+ 및 2.4.6-p11+ 보안 패치 릴리스.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-50](https://helpx.adobe.com/kr/security/products/magento/apsb25-50.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 {{b2b-compatibility}}
 
@@ -201,7 +228,7 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 ![새로운 기능](../assets/new.svg) Adobe Commerce 2.4.7-p5+ 및 2.4.6-p10+ 보안 패치 릴리스와 호환성이 추가되었습니다.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-26](https://helpx.adobe.com/kr/security/products/magento/apsb25-26.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 {{b2b-compatibility}}
 
@@ -213,7 +240,7 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 ![새로운 기능](../assets/new.svg) Adobe Commerce 2.4.7-p4+ 및 2.4.6-p9+ 보안 패치 릴리스와 호환성이 추가되었습니다.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-08](https://helpx.adobe.com/kr/security/products/magento/apsb25-08.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 {{b2b-compatibility}}
 
@@ -225,7 +252,7 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 ![새로운 기능](../assets/new.svg) Adobe Commerce 2.4.7-p3+ 및 2.4.6-p8+ 보안 패치 릴리스와 호환성이 추가되었습니다.
 
-![해결된 문제](../assets/fix.svg) [보안 게시판 APSB24-73](https://helpx.adobe.com/kr/security/products/magento/apsb24-73.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg) [보안 게시판 APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 {{b2b-compatibility}}
 
@@ -261,13 +288,13 @@ B2B v1.4.2 릴리스에는 품질 개선 사항 및 버그 수정이 포함되�
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B 버전 1.4.2+는 PHP 8.2와 호환됩니다. Commerce 인스턴스를 버전 2.4.7+로 업그레이드하는 경우 인스턴스가 PHP 버전 8.2를 사용하여 Adobe Commerce B2B 릴리스와의 호환성을 유지하는지 확인하십시오. 또한 B2B 1.4.2+는 현재 [GraphQL 응용 프로그램 서버](https://experienceleague.adobe.com/ko/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원하지 않습니다.
+>Adobe Commerce B2B 버전 1.4.2+는 PHP 8.2와 호환됩니다. Commerce 인스턴스를 버전 2.4.7+로 업그레이드하는 경우 인스턴스가 PHP 버전 8.2를 사용하여 Adobe Commerce B2B 릴리스와의 호환성을 유지하는지 확인하십시오. 또한 B2B 1.4.2+는 현재 [GraphQL 응용 프로그램 서버](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원하지 않습니다.
 
 ## B2B v1.4.1
 
 *2023년 8월 7일*
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=ko). Adobe Commerce 2.4.7-beta1과 호환됩니다.
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Adobe Commerce 2.4.7-beta1과 호환됩니다.
 
 B2B v1.4.1 릴리스에는 품질 개선 사항 및 버그 수정이 포함되어 있습니다.
 
@@ -285,7 +312,7 @@ B2B v1.4.1 릴리스에는 품질 개선 사항 및 버그 수정이 포함되�
 
 *2023년 6월 13일*
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=ko). Adobe Commerce 2.4.7-beta1과 호환
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Adobe Commerce 2.4.7-beta1과 호환
 
 이 릴리스에는 B2B 협상 가능 견적 및 여러 버그 수정에 대한 새로운 기능 및 개선 사항이 포함되어 있습니다.
 
@@ -311,7 +338,7 @@ B2B v1.4.1 릴리스에는 품질 개선 사항 및 버그 수정이 포함되�
 
 ### 알려진 문제
 
-[Adobe Commerce 버전 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=ko)에서 B2B 1.4.0을 설치하거나 업그레이드하는 경우 다음 오류가 발생합니다.
+[Adobe Commerce 버전 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html)에서 B2B 1.4.0을 설치하거나 업그레이드하는 경우 다음 오류가 발생합니다.
 
 ```
 Your requirements could not be resolved to an installable set of packages.
@@ -323,7 +350,15 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-[안정성 태그](https://getcomposer.org/doc/04-schema.md#package-links)가 있는 B2B 보안 패키지에 대한 수동 종속성을 추가하여 B2B 보안 패키지에 대한 수동 종속성을 추가하여 이 문제를 해결할 수 있습니다. 자세한 지침은 [Adobe Commerce 기술 자료](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html?lang=ko)를 참조하세요.
+[안정성 태그](https://getcomposer.org/doc/04-schema.md#package-links)가 있는 B2B 보안 패키지에 대한 수동 종속성을 추가하여 B2B 보안 패키지에 대한 수동 종속성을 추가하여 이 문제를 해결할 수 있습니다. 자세한 지침은 [Adobe Commerce 기술 자료](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html)를 참조하세요.
+
+## B2B v1.3.5-p12
+
+*2025년 8월 12일*
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.6-p12+ 보안 패치 릴리스.
+
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.3.5-p10
 
@@ -333,7 +368,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![새로운 기능](../assets/new.svg) Adobe Commerce 2.4.6-p10 보안 패치 릴리스와 호환성이 추가되었습니다.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-26](https://helpx.adobe.com/kr/security/products/magento/apsb25-26.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.3.5-p9
 
@@ -343,7 +378,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![새로 만들기](../assets/new.svg) Adobe Commerce 2.4.6-p9 보안 패치 릴리스와 호환성이 추가되었습니다.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-08](https://helpx.adobe.com/kr/security/products/magento/apsb25-08.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.3.5-p8
 
@@ -353,7 +388,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![새로 만들기](../assets/new.svg) Adobe Commerce 2.4.6-p8 보안 패치 릴리스와 호환성이 추가되었습니다.
 
-![해결된 문제](../assets/fix.svg) [보안 게시판 APSB24-73](https://helpx.adobe.com/kr/security/products/magento/apsb24-73.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg) [보안 게시판 APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.3.5-p7
 
@@ -375,7 +410,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 >[!NOTE]
 >
->Commerce을 2.4.6에서 [최신 릴리스](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=ko#2.4.6)로 업그레이드한 후 지원되는 B2B 1.3.5 패치 릴리스로 업데이트하십시오. 또는 B2B 확장을 버전 1.3.5에서 버전 1.4.0 이상으로 업그레이드하여 최신 기능을 받으십시오.
+>Commerce을 2.4.6에서 [최신 릴리스](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6)로 업그레이드한 후 지원되는 B2B 1.3.5 패치 릴리스로 업데이트하십시오. 또는 B2B 확장을 버전 1.3.5에서 버전 1.4.0 이상으로 업그레이드하여 최신 기능을 받으십시오.
 
 ![새로 만들기](../assets/new.svg) Adobe Commerce 2.4.6에 대한 지원이 추가되었습니다.
 
@@ -399,6 +434,14 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![해결된 문제](../assets/fix.svg) <!--- ACP2E-6829--> 이제 승인된 견적 요청으로 구매를 완료할 때 **[!UICONTROL Place Order]** 단추가 예상대로 작동합니다. 협상 가능한 견적 `negotiableQuoteCheckoutSessionPlugin` 플러그 인의 문제가 해결되었습니다.
 
+## B2B v1.3.4-p14
+
+*2025년 8월 12일*
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.0 이상 버전
+
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+
 ## B2B v1.3.4-p13
 
 *2025년 6월 10일*
@@ -407,7 +450,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![새로 만들기](../assets/new.svg) Adobe Commerce 2.4.5-p12에 대한 지원이 추가되었습니다.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-50](https://helpx.adobe.com/kr/security/products/magento/apsb25-50.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.3.4-p12
 
@@ -417,7 +460,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![새로 만들기](../assets/new.svg) Adobe Commerce 2.4.5-p12에 대한 지원이 추가되었습니다.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-26](https://helpx.adobe.com/kr/security/products/magento/apsb25-26.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.3.4-p11
 
@@ -427,7 +470,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![새로 만들기](../assets/new.svg) Adobe Commerce 2.4.5-p11에 대한 지원이 추가되었습니다.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-08](https://helpx.adobe.com/kr/security/products/magento/apsb25-08.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.3.4-p10
 
@@ -437,7 +480,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![새로 만들기](../assets/new.svg) Adobe Commerce 2.4.5-p10에 대한 지원이 추가되었습니다.
 
-![해결된 문제](../assets/fix.svg) [보안 게시판 APSB24-73](https://helpx.adobe.com/kr/security/products/magento/apsb24-73.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg) [보안 게시판 APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.3.4
 
@@ -471,7 +514,15 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![해결된 문제](../assets/fix.svg) <!--- ACP2E-607 -->회사 이름이 체크아웃 워크플로의 청구 및 배송 주소 섹션에 예상대로 표시됩니다.
 
-![해결된 문제](../assets/fix.svg) **[!UICONTROL Zero Subtotal Checkout]** 결제 방법을 사용하지 않도록 설정한 경우 <!--- ACP2E-375 -->스토어 크레딧을 사용할 수 없습니다. 이전에는 관리자가 주문을 배치하는 동안 크레딧 저장 확인란이 작동하지 않았습니다. 응용 프로그램에서 스토어 크레딧을 사용하여 주문하지 않았으며 이 오류를 표시했습니다. `The requested Payment Method is not available`.
+![해결된 문제](../assets/fix.svg) <!--- ACP2E-375 --> 결제 방법을 사용하지 않도록 설정한 경우 **[!UICONTROL Zero Subtotal Checkout]**&#x200B;스토어 크레딧을 사용할 수 없습니다. 이전에는 관리자가 주문을 배치하는 동안 크레딧 저장 확인란이 작동하지 않았습니다. 응용 프로그램에서 스토어 크레딧을 사용하여 주문하지 않았으며 이 오류를 표시했습니다. `The requested Payment Method is not available`.
+
+## B2B v1.3.3-p15
+
+*2025년 8월 12일*
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.0 이상 버전
+
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.3.3-p14
 
@@ -481,7 +532,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![새로 만들기](../assets/new.svg) Adobe Commerce 2.4.5-p12에 대한 지원이 추가되었습니다.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-50](https://helpx.adobe.com/kr/security/products/magento/apsb25-50.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.3.3
 
@@ -493,7 +544,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![해결된 문제](../assets/fix.svg) <!--- MC-41985--> 회사 역할이 100,000개 이상인 배포에서 Adobe Commerce 2.3.x에서 Adobe Commerce 2.4.x로 업그레이드하는 데 필요한 시간이 크게 단축되었습니다.
 
-![해결된 문제](../assets/fix.svg) <!--- MC-42153--> **[!UICONTROL Payment on Account]** 결제 방법을 사용하도록 설정하면 POST `V1/order/:orderId/invoice` 요청에서 부분 송장 만들기를 지원합니다. 이전에는 Adobe Commerce에서 다음 오류가 발생했습니다. `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
+![해결된 문제](../assets/fix.svg) <!--- MC-42153--> `V1/order/:orderId/invoice` 결제 방법을 사용하도록 설정하면 POST **[!UICONTROL Payment on Account]** 요청에서 부분 송장 만들기를 지원합니다. 이전에는 Adobe Commerce에서 다음 오류가 발생했습니다. `An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity`. [GitHub-32428](https://github.com/magento/magento2/issues/32428)
 
 ![해결된 문제](../assets/fix.svg) <!--- MC-41975--> 이제 고객의 장바구니에 다른 제품이 포함되어 있을 때 PayPal Payflow Pro가 B2B 협상 가능 견적에 대해 예상대로 작동합니다. 이제 Adobe Commerce이 주문을 성공적으로 처리하고 예상대로 고객에게 이메일을 전송합니다. 이전에는 Adobe Commerce에서 치명적인 오류가 발생했으며 값이 0인 확인 이메일을 고객에게 보냈습니다.
 
@@ -553,7 +604,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![문제 해결](../assets/fix.svg) <!--- MC-41260--> 회사 사용자가 만든 주문에 대한 **[!UICONTROL Return]** 단추를 클릭하면 이제 관리 사용자가 예상대로 반환 만들기 페이지로 리디렉션됩니다. 이전에는 관리자가 주문 내역 페이지로 리디렉션되었습니다.
 
-`bin/magento setup:upgrade` 동안 `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` 메서드를 실행할 때 ![해결된 문제](../assets/fix.svg) [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} <!--- MC-40798--> Adobe Commerce에서 더 이상 메모리 부족 오류가 발생하지 않습니다. 이전에는 Adobe Commerce에서 권한을 초기화할 때 일괄 처리 크기를 사용하지 않고 대신 모든 회사 역할의 컬렉션을 로드했습니다.
+![ 동안 ](../assets/fix.svg) 메서드를 실행할 때 [!BADGE 해결된 문제]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} <!--- MC-40798-->PaaS만`app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` `bin/magento setup:upgrade` Adobe Commerce에서 더 이상 메모리 부족 오류가 발생하지 않습니다. 이전에는 Adobe Commerce에서 권한을 초기화할 때 일괄 처리 크기를 사용하지 않고 대신 모든 회사 역할의 컬렉션을 로드했습니다.
 
 ![해결된 문제](../assets/fix.svg) <!--- MC-40551--> 회사 사용자는 이제 고객 사용자 지정 특성 값을 편집하고 업데이트할 수 있습니다. 이전에는 이러한 속성이 작성 및 편집 사용자 양식과 제대로 바인딩되지 않았습니다. 회사 사용자가 다른 속성 값을 입력할 수 있지만 Adobe Commerce이 이러한 값을 올바르게 저장하지 않았습니다.
 
@@ -561,7 +612,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![해결된 문제](../assets/fix.svg) <!--- MC-40358--> 이제 Adobe Commerce이 B2B 사용자의 사용자 지정 고객 특성 값을 예상대로 저장합니다. 이전에는 사용자 지정 고객 특성이 포함된 회사 계정을 만들면 템플릿 오류가 발생했으며, Adobe Commerce에서 양식을 성공적으로 로드하지 못했습니다. `company_create_account`의 레이아웃에 인수를 추가하면 이 문제가 해결되었습니다.
 
-!&lbrack;모든 사용자 표시, 활성 사용자 표시 및 비활성 사용자 표시와 같은 <!--- MC-41721-->개의 회사 사용자 필터가 예상대로 작동합니다.&rbrack;(../assets/fix.svg) 이전에는 회사 사용자 페이지에서 작업을 필터링하면 JavaScript 오류가 발생했습니다.
+![모든 사용자 표시, 활성 사용자 표시 및 비활성 사용자 표시와 같은 ](../assets/fix.svg)개의 회사 사용자 필터가 예상대로 작동합니다.<!--- MC-41721--> 이전에는 회사 사용자 페이지에서 작업을 필터링하면 JavaScript 오류가 발생했습니다.
 
 ### 회사 신용
 
@@ -605,7 +656,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![해결된 문제](../assets/fix.svg) <!--- MC-40426--> 판매자는 이제 POST `rest/all/V1/requisition_lists` 끝점을 사용하여 고객에 대한 구매 요청 목록을 만들 수 있습니다. 이전에는 Adobe Commerce에서 구매요청 목록을 만들려고 할 때 이 400 오류가 발생했습니다. `Could not save Requisition List`.
 
-![해결된 문제](../assets/fix.svg) <!--- MC-41123--> 장바구니에 품절 제품이 포함되어 있으면 장바구니의 재고 제품에 대해 **[!UICONTROL Add to Requisition List]** 단추가 표시됩니다. 이전에는 장바구니에 두 개의 제품이 들어 있는데 그중 하나가 품절된 경우 두 제품에 대해 _[!UICONTROL Add to Requisition List]_&#x200B;단추가 표시되지 않았습니다.
+![해결된 문제](../assets/fix.svg) <!--- MC-41123--> 장바구니에 품절 제품이 포함되어 있으면 장바구니의 재고 제품에 대해 **[!UICONTROL Add to Requisition List]** 단추가 표시됩니다. 이전에는 장바구니에 두 개의 제품이 들어 있는데 그중 하나가 품절된 경우 두 제품에 대해 _[!UICONTROL Add to Requisition List]_단추가 표시되지 않았습니다.
 
 ![해결된 문제](../assets/fix.svg) <!--- MC-40877--> 이제 REST API를 사용하여 제품을 구매요청 목록에 추가할 수 있습니다.
 
@@ -615,7 +666,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![문제 해결](../assets/fix.svg) <!--- MC-40454--> 이제 사용자 지정 가능한 옵션 `(File)`이(가) 있는 제품을 구매요청 목록의 위시리스트에 추가하면 Adobe Commerce에 올바른 제품 가격이 표시됩니다. 업로드된 파일에 대한 링크도 예상대로 표시됩니다. 이전에는 Adobe Commerce에 잘못된 제품 가격이 표시되고 파일에 대한 링크가 표시되지 않았습니다.
 
-![해결된 문제](../assets/fix.svg) 사용자 지정 가능한 옵션이 `(File)`인 <!--- MC-36383--> 제품을 이제 구매 요청 목록에서 장바구니에 추가할 수 있습니다.
+![해결된 문제](../assets/fix.svg) 사용자 지정 가능한 옵션이 <!--- MC-36383-->인 `(File)` 제품을 이제 구매 요청 목록에서 장바구니에 추가할 수 있습니다.
 
 ### 공유된 카탈로그
 
@@ -669,7 +720,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![해결된 문제](../assets/fix.svg) 빠른 주문을 사용하여 SKU별로 제품을 주문하면 더 이상 CSV 파일에 제품 수량이 중복되지 않습니다. <!--- MC-37427-->
 
-![문제 해결](../assets/fix.svg) 빠른 주문 페이지의 _[!UICONTROL Enter Multiple SKUs]_&#x200B;섹션에 빈 값이 있으면&#x200B;**[!UICONTROL Add to Cart]**&#x200B;단추가 더 이상 차단되지 않습니다. 대신 이제 Adobe Commerce에 유효한 SKU를 입력하라는 메시지가 표시됩니다. <!--- MC-37387-->
+![문제 해결](../assets/fix.svg) 빠른 주문 페이지의 **[!UICONTROL Add to Cart]** 섹션에 빈 값이 있으면 _[!UICONTROL Enter Multiple SKUs]_단추가 더 이상 차단되지 않습니다. 대신 이제 Adobe Commerce에 유효한 SKU를 입력하라는 메시지가 표시됩니다. <!--- MC-37387-->
 
 ![해결된 문제](../assets/fix.svg) 이제 구매요청 목록에서 제품 검토를 제출할 때 Adobe Commerce에서 제품 페이지에 이 메시지를 표시합니다. `You submitted your review for moderation`. 검토는 [보류 중인 검토] 페이지에도 표시됩니다(관리자 **[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**). 이전에는 Adobe Commerce이 보류 중인 검토 목록에 검토를 추가했지만 제품 페이지에 404 오류가 발생했습니다. <!--- MC-37119-->
 
@@ -695,7 +746,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 구매자가 구매 주문을 만든 다음 체크아웃 페이지로 이동할 때 Adobe Commerce에 404 오류가 표시되는 경우가 있습니다. 이 오류는 구매자가 이전에 온라인 결제 방법으로 다른 구매 발주를 만든 후 이전 구매를 완료하지 않고 체크아웃 페이지로 이동한 경우 발생합니다. 구매자는 여전히 구매 발주를 할 수 있습니다. **_해결 방법_**: 없음. <!--- B2B-1605-->
 
-- 특정 결제 방법에 대한 할인은 구매자가 최종 체크아웃 중에 결제 방법을 변경하는 경우에도 구매 발주에 대한 체크아웃 중에 유지됩니다. 이에 따라 고객은 자신이 받을 수 없는 할인을 받을 수 있다. 이 문제는 결제 방법이 변경되더라도 원래 결제 방법에 대한 장바구니 규칙이 계속 적용되기 때문에 발생합니다. **_해결 방법_**: 없음. [Adobe Commerce 2.4.2 B2B 알려진 문제: 결제 방법이 변경된 후에도 온라인 구매 주문에 대한 할인이 유지됩니다.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html?lang=ko) _기술 자료_ 문서를 참조하십시오. <!-- B2B-1012 -->
+- 특정 결제 방법에 대한 할인은 구매자가 최종 체크아웃 중에 결제 방법을 변경하는 경우에도 구매 발주에 대한 체크아웃 중에 유지됩니다. 이에 따라 고객은 자신이 받을 수 없는 할인을 받을 수 있다. 이 문제는 결제 방법이 변경되더라도 원래 결제 방법에 대한 장바구니 규칙이 계속 적용되기 때문에 발생합니다. **_해결 방법_**: 없음. [Adobe Commerce 2.4.2 B2B 알려진 문제: 결제 방법이 변경된 후에도 온라인 구매 주문에 대한 할인이 유지됩니다.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html) _기술 자료_ 문서를 참조하십시오. <!-- B2B-1012 -->
 
 - `deleteRequisitionListOutput` 쿼리는 나머지 구매요청 목록 대신 삭제된 구매요청 목록에 대한 세부 정보를 반환합니다. <!--- MC-39894-->
 
@@ -729,11 +780,11 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 회사 모듈에서 수행한 ![새](../assets/new.svg) 관리 작업이 이제 관리 작업 로그에 기록됩니다. 모든 관련 회사 모듈에서 작업이 기록됩니다. `Company`, `NegotiableQuote`, `CompanyCredit`, `SharedCatalog`. <!--- BUNDLE-180 181 182 183 -->
 
-![해결된 문제](../assets/fix.svg) B2B가 설치된 배포에서 로그인한 관리자가 고객을 삭제할 권한이 없는 경우 Adobe Commerce에서 **고객** 페이지에 더 이상 **[!UICONTROL Delete customer]** 단추가 표시되지 않습니다. <!--- MC-35655-->
+![해결된 문제](../assets/fix.svg) B2B가 설치된 배포에서 로그인한 관리자가 고객을 삭제할 권한이 없는 경우 Adobe Commerce에서 **[!UICONTROL Delete customer]**&#x200B;고객&#x200B;**페이지에 더 이상** 단추가 표시되지 않습니다. <!--- MC-35655-->
 
 ![해결된 문제](../assets/fix.svg) 고객 그리드에서 고객을 편집할 때 회사에 할당된 고객의 고객 그룹이 더 이상 자동으로 변경되지 않습니다. <!--- MC-35254-->
 
-![문제 해결](../assets/fix.svg) 판매자가 공유 카탈로그를 만들 때 카탈로그 권한 설정에서 이 액세스 권한이 고객 그룹에 할당되면 해당 범주의 **[!UICONTROL Display Product Prices]** 및 **[!UICONTROL Add to Cart]** 기능에 대한 사용 권한이 이제 `Allow`(으)로 자동 설정됩니다. 이전에는 카탈로그 권한이 `Allow`.<!--- MC-34792-->(으)로 설정되어 있어도 이 설정이 `Deny`(으)로 자동 설정되었습니다.
+![문제 해결](../assets/fix.svg) 판매자가 공유 카탈로그를 만들 때 카탈로그 권한 설정에서 이 액세스 권한이 고객 그룹에 할당되면 해당 범주의 `Allow` 및 **[!UICONTROL Display Product Prices]** 기능에 대한 사용 권한이 이제 **[!UICONTROL Add to Cart]**(으)로 자동 설정됩니다. 이전에는 카탈로그 권한이 `Deny`.`Allow`(으)로 설정되어 있어도 이 설정이 <!--- MC-34792-->(으)로 자동 설정되었습니다.
 
 ![해결된 문제](../assets/fix.svg) 제품 편집 페이지에서 제품을 편집할 때 더 이상 공유 카탈로그 범주 권한을 덮어쓰지 않습니다.<!--- MC-34777-->
 
@@ -747,11 +798,11 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![문제가 해결되었습니다](../assets/fix.svg) 이제 B2B 기능 구성 탭이 올바르게 열립니다. <!--- MC-35458-->이제 QuickOrder를 사용하여 장바구니에 제품을 추가한 다음 항목을 제거할 수 있습니다. 이전에는 쇼핑객이 QuickOrder를 사용하여 장바구니에 여러 제품을 추가한 다음 제품을 제거해도 제품이 제거되지 않았습니다. <!--- MC-35327-->
 
-![해결된 문제](../assets/fix.svg) 상태가 **필요하지 않음**(으)로 구성된 경우 `region_id`을(를) 지정하지 않고 이제 REST API PUT `/V1/company/:companyId` 요청을 사용하여 회사를 업데이트할 수 있습니다. 이전에는 `region_id`이(가) 필요하지 않았더라도 지정되지 않은 경우 Adobe Commerce에서 오류가 발생했습니다. <!--- MC-35304-->
+![해결된 문제](../assets/fix.svg) 상태가 `/V1/company/:companyId`필요하지 않음`region_id`(으)로 구성된 경우 **을(를) 지정하지 않고 이제 REST API PUT** 요청을 사용하여 회사를 업데이트할 수 있습니다. 이전에는 `region_id`이(가) 필요하지 않았더라도 지정되지 않은 경우 Adobe Commerce에서 오류가 발생했습니다. <!--- MC-35304-->
 
 ![해결된 문제](../assets/fix.svg) REST API(`http://magento.local/rest/V1/company/2`, 여기서 `2`은(는) 회사 ID를 나타냄)를 사용하여 B2B 회사를 만들거나 업데이트할 때 예상대로 응답에 `applicable_payment_method` 또는 `available_payment_methods`에 대한 설정이 포함됩니다. <!--- MC-35248-->
 
-![해결된 문제](../assets/fix.svg) 상점에서 구매 요청 목록을 만들 때 상인이 **[!UICONTROL Save]** 단추를 클릭하는 대신 **Enter** 단추를 사용하면 Adobe Commerce에서 더 이상 404 페이지를 표시하지 않습니다.<!--- MC-35094-->
+![해결된 문제](../assets/fix.svg) 상점에서 구매 요청 목록을 만들 때 상인이 **단추를 클릭하는 대신** Enter **[!UICONTROL Save]** 단추를 사용하면 Adobe Commerce에서 더 이상 404 페이지를 표시하지 않습니다.<!--- MC-35094-->
 
 새 제품이 공개 공유 카탈로그에 할당되면 ![해결된 문제](../assets/fix.svg) 범주 권한이 더 이상 변경되지 않습니다. 이전에는 범주 권한이 중복되었습니다. <!--- MC-34386-->
 
@@ -763,7 +814,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![해결된 문제](../assets/fix.svg) 이제 실제 제품과 가상 제품이 모두 포함된 주문에 대해 다중 배송을 성공적으로 구현할 수 있습니다. <!--- MC-33818-->
 
-![해결된 문제](../assets/fix.svg) 이제 **[!UICONTROL Access Restriction]**&#x200B;이(가) 활성화되고 **[!UICONTROL Restriction Mode]**&#x200B;이(가) `Sales: Login Only`(으)로 설정된 경우 판매자는 내 계정 및 회사 구조 페이지의 _[!UICONTROL Company Users]_&#x200B;섹션에서 회사 사용자를 만들 수 있습니다. 이전에는 판매자가 사용자를 만들려고 할 때 Adobe Commerce에서 이 오류가 발생했습니다. `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
+![해결된 문제](../assets/fix.svg) 이제 _[!UICONTROL Company Users]_이(가) 활성화되고&#x200B;**[!UICONTROL Access Restriction]**이(가)**[!UICONTROL Restriction Mode]**(으)로 설정된 경우 판매자는 내 계정 및 회사 구조 페이지의 `Sales: Login Only` 섹션에서 회사 사용자를 만들 수 있습니다. 이전에는 판매자가 사용자를 만들려고 할 때 Adobe Commerce에서 이 오류가 발생했습니다. `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
 
 ![해결된 문제](../assets/fix.svg) 고객이 계정 정보를 저장할 때 Adobe Commerce은 더 이상 고객의 고객 그룹을 기본값으로 재설정하지 않습니다. <!--- MC-33554-->
 
@@ -789,7 +840,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![새로 만들기](../assets/new.svg) Adobe Commerce 2.4.0에 대한 지원이 추가되었습니다.
 
-[Divante](https://www.divante.com/)과(와) 커뮤니티 구성원의 Marek Mularczyk의 기여에 대한 감사를 추가하여 ![새](../assets/new.svg) 상점 주문 검색을 추가했습니다.
+![Divante](../assets/new.svg)과(와) 커뮤니티 구성원의 Marek Mularczyk의 기여에 대한 감사를 추가하여 [새](https://www.divante.com/) 상점 주문 검색을 추가했습니다.
 
 ![새](../assets/new.svg) 구매 주문이 향상되고 다시 작성되었습니다. 이제 Adobe Commerce에 기본적으로 포함됩니다.
 
@@ -823,7 +874,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![문제가 해결되었습니다](../assets/fix.svg) 스토어 관리자가 공유 카탈로그에 없는 주문에 제품을 추가할 수 있도록 수정 사항이 추가되었습니다. 이전에는 카탈로그에 없는 항목을 추가할 때 오류 메시지가 표시되었습니다.
 
-![해결 문제](../assets/fix.svg) [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 이전에는 `php bin/magento indexer:set-dimensions-mode catalog_product_price website` 명령을 실행한 다음 공유 카탈로그를 만들려고 하면 오류가 발생합니다. 이 문제가 수정되었습니다.
+![해결 문제](../assets/fix.svg) [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 이전에는 `php bin/magento indexer:set-dimensions-mode catalog_product_price website` 명령을 실행한 다음 공유 카탈로그를 만들려고 하면 오류가 발생합니다. 이 문제가 수정되었습니다.
 
 ![문제를 해결했습니다](../assets/fix.svg) 회사를 추가하고 기본 웹 사이트가 아닌 웹 사이트에 회사 관리자를 할당할 때 잘못된 사이트 ID가 전송되어 오류가 발생했습니다. 이 문제가 수정되었습니다.
 
@@ -847,6 +898,6 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ### 알려진 문제
 
-- Adobe Commerce은 다중 웹 사이트 배포에서 B2B 1.2.0으로 업그레이드하는 동안 예외를 throw합니다. `setup:upgrade`이(가) 실행되면 `PurchaseOrder` 모듈에서 이 오류가 발생합니다. `Module Magento_PurchaseOrder: Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence for moduleMagento_PurchaseOrder`. **해결 방법**: 이제 `magento.com`의 **내 계정** > **다운로드** 섹션에서 사용할 수 있는 `InitPurchaseOrderSalesSequence` 데이터 패치 핫픽스에 `B2B-716 Add NonTransactionableInterface` 인터페이스를 설치합니다.
-- PO(구매 발주)가 승인되기 전에 할인 코드가 만료되면 PO는 할인된 금액을 계속 표시하지만 PO가 승인되면 주문이 할인되지 않은 합계에 배치됩니다. **해결 방법**: 이 문제에 대한 `B2B-709 Purchase Order Discount patch` 핫픽스를 설치하십시오. 핫픽스는 이제 `magento.com`의 **내 계정** > **다운로드** 섹션에서 사용할 수 있습니다.
+- Adobe Commerce은 다중 웹 사이트 배포에서 B2B 1.2.0으로 업그레이드하는 동안 예외를 throw합니다. `setup:upgrade`이(가) 실행되면 `PurchaseOrder` 모듈에서 이 오류가 발생합니다. `Module Magento_PurchaseOrder: Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence for moduleMagento_PurchaseOrder`. **해결 방법**: 이제 `B2B-716 Add NonTransactionableInterface`의 `InitPurchaseOrderSalesSequence`내 계정&#x200B;**>**&#x200B;다운로드&#x200B;**섹션에서 사용할 수 있는** 데이터 패치 핫픽스에 `magento.com` 인터페이스를 설치합니다.
+- PO(구매 발주)가 승인되기 전에 할인 코드가 만료되면 PO는 할인된 금액을 계속 표시하지만 PO가 승인되면 주문이 할인되지 않은 합계에 배치됩니다. **해결 방법**: 이 문제에 대한 `B2B-709 Purchase Order Discount patch` 핫픽스를 설치하십시오. 핫픽스는 이제 **의**&#x200B;내 계정&#x200B;**>**&#x200B;다운로드`magento.com` 섹션에서 사용할 수 있습니다.
 - 구매 발주의 품목이 품절되거나 구매 발주를 실제 주문으로 전환할 때 수량이 부족한 경우 오류가 발생합니다. 미납주문이 사용으로 설정된 경우 주문이 정상적으로 처리됩니다.
