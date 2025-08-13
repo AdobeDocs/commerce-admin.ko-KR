@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: Commerce 관리자의 [!UICONTROL Sales] &gt; [!UICONTROL Google API] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 5ee52e8d4f2ebb8fc28f13cca53e87c3529f76d3
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Google Analytics](./assets/google-api-analytics-ee.png)<!-- zoom -->
 
-<!-- [Google Analytics](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 | ----- | ------------------------------------------ | ----------- |
@@ -26,7 +26,6 @@ ht-degree: 0%
 | [!UICONTROL Account Type] | 스토어 뷰 | ![Adobe Commerce](../../assets/adobe-logo.svg)(Adobe Commerce만 해당) Google Analytics 계정 유형에 따라 구성 옵션을 결정합니다. 옵션: Universal Analytics(기본값) / Google Tag Manager |
 | [!UICONTROL Account Number] | 스토어 뷰 | [!DNL Google Analytics] 계정을 만들 때 할당된 계정 번호 또는 추적 코드입니다. |
 | [!UICONTROL Anonymize IP] | 스토어 뷰 | [!DNL Google Analytics] 결과에 나타나는 IP 주소에서 식별 정보를 제거할지 여부를 결정합니다. |
-| [!UICONTROL Enable Content Experiments] | 스토어 뷰 | 동일한 페이지의 서로 다른 버전을 최대 10개까지 테스트하는 데 사용할 수 있는 [Google 콘텐츠 실험](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207)을 활성화합니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -54,7 +53,7 @@ ht-degree: 0%
 
 ![Google AdWords](./assets/google-api-google-adwords.png)<!-- zoom -->
 
-<!-- [Google AdWords](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- [Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 | ----- | ------------------------------------------ | ----------- |
@@ -65,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Color] | 스토어 뷰 | 전환 레이블의 색상을 결정합니다. [색상 선택기](https://www.w3schools.com/colors/colors_picker.asp)를 사용하여 16진수 값을 선택합니다. 이 16진수 값은 AdWords 스크립트의 `google_conversion_color` 변수에 할당됩니다. 예: ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | 스토어 뷰 | [!DNL Google Site Stats] 알림과 함께 표시되는 텍스트 레이블입니다. 이 텍스트 문자열은 AdWords 스크립트의 `~` 변수에 할당됩니다. 예: &quot;쇼핑해 주셔서 감사합니다!&quot; |
 | [!UICONTROL Conversion Value Type] | 스토어 뷰 | 전환이 발생하는 시기를 결정하는 데 사용되는 값 유형을 지정합니다. 옵션: <br/>**`Dynamic`**- 동적 주문 금액을 기준으로 전환이 발생했는지 확인합니다.<br/>**`Constant`** - 입력한 값을 기반으로 전환이 발생했는지 확인합니다. |
-| [!UICONTROL Conversion Value] | 스토어 뷰 | _[!UICONTROL Constant]_&#x200B;전환 값 형식에 사용되는 값을 지정합니다. |
+| [!UICONTROL Conversion Value] | 스토어 뷰 | _[!UICONTROL Constant]_전환 값 형식에 사용되는 값을 지정합니다. |
 | [!UICONTROL Send Order Currency] | 스토어 뷰 | AdWords(기본 통화가 다른 웹 사이트의 경우)에서 거래별 통화 전환 값을 활성화합니다. |
 
 {style="table-layout:auto"}
@@ -78,15 +77,14 @@ ht-degree: 0%
 
 ![Google Analytics4](./assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
 
-<!-- [Google Analytics4](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics4](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 | ----- | ------------------------------------------ | ----------- |
-| [!UICONTROL Enable] | 스토어 뷰 | 스토어에 대해 Google Analytics 4를 활성화합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable] | 스토어 뷰 | 스토어에 Google Analytics 4를 활성화합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Account Type] | 스토어 뷰 | ![Adobe Commerce](../../assets/adobe-logo.svg)(Adobe Commerce만 해당) Google Analytics 계정 유형에 따라 구성 옵션을 결정합니다. 옵션: `Google Analytics4`(기본값) / `Google Tag Manager` |
 | [!UICONTROL Measurement ID] | 스토어 뷰 | Google Analytics 계정을 만들 때 지정된 계정 번호 또는 추적 코드입니다. |
 | [!UICONTROL Anonymize IP] | 스토어 뷰 | Google Analytics 결과에 나타나는 IP 주소에서 식별 정보가 제거되는지 여부를 결정합니다. |
-| [!UICONTROL Enable Content Experiments] | 스토어 뷰 | 동일한 페이지의 서로 다른 버전을 최대 10개까지 테스트하는 데 사용할 수 있는 [Google 콘텐츠 실험](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207)을 활성화합니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -114,7 +112,7 @@ ht-degree: 0%
 
 ![Google AdWords](./assets/google-api-gtag-google-adwords.png)<!-- zoom -->
 
-<!-- -- Google AdWords](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- -- Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 | ----- | ------------------------------------------ | ----------- |
@@ -125,7 +123,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Color] | 스토어 뷰 | 전환 레이블의 색상을 결정합니다. [색상 선택기](https://www.w3schools.com/colors/colors_picker.asp)를 사용하여 16진수 값을 선택합니다. 이 16진수 값은 AdWords 스크립트의 `google_conversion_color` 변수에 할당됩니다. 예: ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | 스토어 뷰 | Google 사이트 상태 알림과 함께 표시되는 텍스트 레이블입니다. 이 텍스트 문자열은 AdWords 스크립트의 `~` 변수에 할당됩니다. 예: &quot;쇼핑해 주셔서 감사합니다!&quot; |
 | [!UICONTROL Conversion Value Type] | 스토어 뷰 | 전환이 발생하는 시기를 결정하는 데 사용되는 값 유형을 지정합니다. 옵션: <br/>**`Dynamic`**- 동적 주문 금액을 기준으로 전환이 발생했는지 확인합니다.<br/>**`Constant`** - 입력한 값을 기반으로 전환이 발생했는지 확인합니다. |
-| [!UICONTROL Conversion Value] | 스토어 뷰 | _[!UICONTROL Constant]_&#x200B;전환 값 형식에 사용되는 값을 지정합니다. |
+| [!UICONTROL Conversion Value] | 스토어 뷰 | _[!UICONTROL Constant]_전환 값 형식에 사용되는 값을 지정합니다. |
 | [!UICONTROL Send Order Currency] | 스토어 뷰 | AdWords(기본 통화가 다른 웹 사이트의 경우)에서 거래별 통화 전환 값을 활성화합니다. |
 
 {style="table-layout:auto"}

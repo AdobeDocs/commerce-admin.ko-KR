@@ -3,9 +3,9 @@ title: Google 사이트 도구
 description: 콘텐츠를 최적화하고, 트래픽을 분석하고, 카탈로그를 쇼핑 집계자 및 마켓플레이스에 연결하는 데 사용할 수 있는 Google 도구 통합에 대해 알아봅니다.
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 스토어 구성은 다음의 Google 도구와 통합되어 콘텐츠를 최적화하고, 트래픽을 분석하고, 카탈로그를 쇼핑 집선 및 마켓플레이스에 연결하는 데 도움이 됩니다.
 
-- [Google Analytics](google-analytics.md) - _Google Universal Analytics_&#x200B;를 사용하여 추적을 위한 추가 사용자 지정 차원 및 지표를 정의하고 오프라인 및 모바일 앱 상호 작용과 지속적인 업데이트에 액세스할 수 있습니다.
-
-- [Google 콘텐츠 실험](google-content-experiments.md) - Google Analytics 콘텐츠 실험을 사용하여 제품, 카테고리 또는 콘텐츠 페이지에 대한 A/B 테스트를 설정합니다.
+- [Google Analytics](google-analytics.md) - _Google Universal Analytics_&#x200B;을(를) 사용하여 추적을 위한 추가 사용자 지정 차원 및 지표를 정의하고 오프라인 및 모바일 앱 상호 작용과 지속적인 업데이트에 액세스할 수 있습니다.
 
 - [Google 태그 관리자](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용) Google 태그 관리자를 사용하여 마케팅 캠페인 이벤트와 관련된 여러 태그를 관리합니다.
 
@@ -30,7 +28,7 @@ ht-degree: 0%
 
 ### 1단계: Google 설정 업데이트
 
-1. 회사 Google Analytics 계정에 [로그인][1]{: target=&quot;_blank&quot;}.
+1. 회사의 Google Analytics 계정에 [로그인][1]{: target="_blank"}.
 
 1. 왼쪽 사이드바 아래에서 **[!UICONTROL Admin]**&#x200B;을(를) 선택한 다음 편집할 계정으로 이동합니다(해당하는 경우).
 
@@ -47,10 +45,10 @@ ht-degree: 0%
 
 1. _데이터 처리 수정_&#x200B;에 동의합니다.
 
-   Google 광고 데이터 처리 약관은 Google에서 데이터를 처리하는 방법과 GDPR의 적용을 받는 비즈니스의 데이터 보안을 보장하기 위해 취하는 조치를 설명합니다. 또한 법인과 연락처 정보에 대한 기록이 개정과 함께 유지됩니다. [자세히 알아보기][2]{: target=&quot;_blank&quot;}하려면 페이지 맨 위에 있는 메시지의 링크를 클릭하십시오.
+   Google 광고 데이터 처리 약관은 Google에서 데이터를 처리하는 방법과 GDPR의 적용을 받는 비즈니스의 데이터 보안을 보장하기 위해 취하는 조치를 설명합니다. 또한 법인과 연락처 정보에 대한 기록이 개정과 함께 유지됩니다. [자세히 알아보기][2]{: target="_blank"}하려면 페이지 상단의 메시지에서 링크를 클릭하십시오.
 
    - 페이지를 아래로 스크롤하여 **[!UICONTROL Data Processing Amendment]**(으)로 이동합니다.
-   - _Google 광고 데이터 처리 용어_&#x200B;를 읽으려면 **[!UICONTROL Review Amendment]**&#x200B;을(를) 클릭하십시오.
+   - **[!UICONTROL Review Amendment]** Google 광고 데이터 처리 용어&#x200B;_를 읽으려면_&#x200B;을(를) 클릭하십시오.
    - **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
    - **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -82,7 +80,7 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-자세한 내용은 Google 도움말의 [Analytics.js 필드 참조][3]{: target=&quot;_blank&quot;}를 참조하십시오.
+자세한 내용은 Google 도움말의 [Analytics.js 필드 참조][3]{: target="_blank"}를 참조하세요.
 
 기존 `ga.js` 라이브러리를 사용하는 경우 다음 코드 조각을 추가합니다.
 
@@ -92,7 +90,7 @@ ga.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-**_Google 태그 관리자_**&#x200B;에서 사용하는 IP 주소를 익명으로 처리하려면 웹 서버의 `gtag.js` 라이브러리에서 `anonymize_ip` 매개 변수를 `true`(으)로 설정하십시오.
+**_Google 태그 관리자_**&#x200B;에서 사용하는 IP 주소를 익명으로 처리하려면 웹 서버의 `anonymize_ip` 라이브러리에서 `true` 매개 변수를 `gtag.js`(으)로 설정하십시오.
 
 gtag.js
 
@@ -114,7 +112,7 @@ analytics.js
 
 ### 3단계: 개인정보 처리방침 업데이트
 
-[개인정보 처리방침](../getting-started/privacy-policy.md)을 업데이트하여 회사 상태 표시:
+[개인정보 처리방침](../getting-started/privacy-policy.md)을 업데이트하여 회사에 알립니다.
 
 - Google Analytics 사용
 - 개인 정보를 숨기기 위해 IP 주소 마스크

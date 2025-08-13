@@ -2,9 +2,9 @@
 title: Commerce 머천다이징 및 프로모션 소개
 description: 타기팅된 프로모션 및 고객 참여 기회 창출을 위한 Commerce 도구에 대해 알아봅니다.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 7774aa82149faff55591303c7ff2fe2c84797a4a
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1092'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 _머천다이징_&#x200B;은 소매점에서 플로어 플랜 개발 및 제품 프레젠테이션의 예술과 과학을 설명하는 용어입니다. [범주 기반 탐색](../catalog/navigation-top.md)은 매장의 평면도로, 제품의 동적 표시는 매장의 제품 목록에 적용할 수 있는 조건으로 생각할 수 있습니다. 또한 더 많은 제품 판매를 촉진하는 프로그램을 구현할 수 있습니다.
 
-- [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [시각적 머천다이저](visual-merchandiser.md) - 제품을 배치하고 범주 목록에 표시되는 제품을 결정하는 조건을 적용할 수 있는 고급 도구 세트입니다.
+- [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [시각적 머천다이저](visual-merchandiser.md) - 제품을 배치하고 범주 목록에 표시되는 제품을 결정하는 조건을 적용할 수 있는 고급 도구 세트입니다.
 
 - [선물 등록기](gift-registries.md) - 특별한 경우에 사용할 선물 등록기를 만들고 친구 및 가족이 선물 등록기에서 선물을 구입하도록 초대할 수 있는 기능을 고객에게 제공합니다.
 
@@ -27,7 +27,7 @@ _머천다이징_&#x200B;은 소매점에서 플로어 플랜 개발 및 제품 
 
 >[!TIP]
 >
->제품 추천과 이를 통해 구매자에게 최상의 경험을 제공하기 위해 필요한 insight 및 제어 기능을 제공하는 방법에 대해 알아보려면 [제품 추천 사용 안내서](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=ko)를 참조하세요.
+>제품 추천과 이를 통해 구매자에게 최상의 경험을 제공하기 위해 필요한 insight 및 제어 기능을 제공하는 방법에 대해 알아보려면 [제품 추천 사용 안내서](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)를 참조하세요.
 
 ## 프로모션
 
@@ -45,7 +45,7 @@ Adobe Commerce에서 프로모션 기능을 사용하여 제품 관계를 설정
 
 >[!NOTE]
 >
->특정 제품 특성을 기반으로 조건을 정의하려면 [Storefront 속성](../catalog/attribute-product-create.md)의 특성에 대해 **[!UICONTROL Use for Promo Rule Conditions]**&#x200B;을(를) `Yes`(으)로 설정해야 합니다.
+>특정 제품 특성을 기반으로 조건을 정의하려면 **[!UICONTROL Use for Promo Rule Conditions]** Storefront 속성`Yes`의 특성에 대해 [을(를) ](../catalog/attribute-product-create.md)(으)로 설정해야 합니다.
 
 
 ### 가격 규칙
@@ -67,8 +67,8 @@ Adobe Commerce에서 프로모션 기능을 사용하여 제품 관계를 설정
 >[!NOTE]
 >
 >Adobe Commerce 및 Magento Open Source 릴리스 2.4.0 - 2.4.3에는 dotdigital Engagement Cloud와 통합하는 데 사용되는 dotdigital 공급업체가 개발한 확장 프로그램이 포함되어 있습니다. 2.4.4 릴리스부터 이 확장은 더 이상 핵심 릴리스와 번들로 제공되지 않으며 Commerce Marketplace에서 설치하고 업데이트해야 합니다. Marketplace에서는 확장 개발자가 제공하는 현재 설명서에 대한 액세스도 제공합니다.
-><br><br>
->번들 확장을 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [업그레이드 모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko)을 참조하십시오.
+>><br><br>
+>>번들 확장을 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 [업그레이드 안내서](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)의 _업그레이드 모듈_&#x200B;을 참조하십시오.
 
 - [뉴스레터](newsletters.md) - 뉴스레터를 생성하고, 구독자 목록을 관리하고, 콘텐츠를 개발하고, 스토어로 트래픽을 유도합니다.
 
@@ -85,8 +85,6 @@ Adobe Commerce에서 프로모션 기능을 사용하여 제품 관계를 설정
 >2.4.5 릴리스부터 Google 서비스 통합이 GTag API 사용을 지원하도록 업데이트됩니다. GTag는 웹 페이지에 대한 Google 기능과 통합하기 위한 통합 메커니즘으로, Google Services를 통해 컨텐츠를 추적하고 관리할 수 있는 최신 기능과 기회를 지원합니다. 자세한 내용은 [Google Analytics 개발자 설명서](https://developers.google.com/analytics/devguides/collection/gtagjs)를 참조하세요.
 
 - [Google Analytics](google-analytics.md) - Google Universal Analytics를 사용하여 추적을 위한 추가 사용자 지정 차원 및 지표를 정의하고 오프라인 및 모바일 앱 상호 작용을 지원하며 진행 중인 업데이트에 액세스할 수 있습니다.
-
-- [Google 컨텐츠 실험](google-content-experiments.md) - Google Analytics 컨텐츠를 사용하여 제품, 카테고리 또는 컨텐츠 페이지에 대한 A/B 테스트를 설정합니다.
 
 - [Google 태그 관리자](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용) Google 태그 관리자를 사용하여 마케팅 캠페인 이벤트와 관련된 여러 태그를 관리합니다.
 

@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: ' [!DNL Google Tag Manager] 을(를) 사용하여 Adobe Commerce 사이트의 마케팅 캠페인 이벤트와 관련된 많은 태그(코드 조각)를 관리하는 방법을 알아봅니다.'
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: 22a619db0b0673dc520b9bdc5d6cd0c8ffecdf08
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -44,15 +44,15 @@ ht-degree: 0%
 
    - **[!UICONTROL Property Settings]**&#x200B;을(를) 선택하십시오.
 
-   - _[!UICONTROL Advertising Features]_&#x200B;에서&#x200B;**[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;을(를) `On`(으)로 설정합니다.
+   - _[!UICONTROL Advertising Features]_에서&#x200B;**[!UICONTROL Enable Demographics and Interest Reports]**을(를) `On`(으)로 설정합니다.
 
    - **[!UICONTROL Save]** 설정입니다.
 
 1. 전자 상거래 추적을 활성화하려면 다음 작업을 수행하십시오.
 
-   - &#x200B;>**[!UICONTROL Ecommerce Settings]**&#x200B;로 **[!UICONTROL Select View]** 이동합니다.
+   - **[!UICONTROL Select View]** > **[!UICONTROL Ecommerce Settings]**(으)로 이동합니다.
 
-   - 로 `On`설정합니다&#x200B;**[!UICONTROL Enable Ecommerce]**.
+   - **[!UICONTROL Enable Ecommerce]**&#x200B;을(를) `On`(으)로 설정합니다.
 
    - **[!UICONTROL Enable Enhanced Ecommerce Reporting]**&#x200B;을(를) `On`(으)로 설정합니다.
 
@@ -62,15 +62,15 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >일부 설정이 `On`이(가) 아닌 경우 이전 단계를 반복하여 페이지를 저장하고 다시 로드합니다. 모든 설정이 로 설정될 때까지 이 과정을 반복합니다 `On`.
+   >일부 설정이 `On`이(가) 아닌 경우 이전 단계를 반복하여 페이지를 저장하고 다시 로드합니다. 모든 설정이 `On`(으)로 설정될 때까지 이 프로세스를 반복합니다.
 
-## 2 단계. [!DNL Google Tag Manager] 계정 구성
+## 2단계. [!DNL Google Tag Manager] 계정 구성
 
-다음 지침에서는 기본 설정을 사용하여 새 컨테이너를 구성하는 방법을 보여 줍니다. 샘플 [.json(Composer](https://developer.adobe.com/commerce/php/development/composer/) 구성) 파일은 프로세스를 단순화하는 데 사용되며, 가져오기를 통해 새 컨테이너에 태그 생성합니다. 이 예제에서는 기존 컨테이너를 수정하는 대신 컨테이너를 만드는 것이 좋습니다.
+다음 지침은 기본 설정으로 새 컨테이너를 구성하는 방법을 보여 줍니다. 샘플 [Composer](https://developer.adobe.com/commerce/php/development/composer/) 구성(.json) 파일을 사용하여 프로세스를 단순화하고 가져오기를 통해 새 컨테이너에서 태그를 생성합니다. 이 예제에서는 기존 컨테이너를 수정하지 않고 컨테이너를 만드는 것이 좋습니다.
 
 >[!NOTE]
 >
->자세한 내용은 Google의 [컨테이너 내보내기 및 가져오기](https://support.google.com/tagmanager/answer/6106997)를 참조하세요. 이 지침은 새 컨테이너에서 샘플 JSON을 가져오기 위한 연습을 제공합니다.
+>자세한 내용은 Google의 [컨테이너 내보내기 및 가져오기](https://support.google.com/tagmanager/answer/6106997)를 참조하십시오. 이러한 지침은 새 컨테이너에서 샘플 JSON을 가져오는 방법에 대한 설명을 제공합니다.
 
 1. 연결된 파일 [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt)를 다운로드하고 편집기에서 파일을 열고 `GTM_M2_Config.json`(으)로 저장합니다.
 
@@ -94,15 +94,15 @@ ht-degree: 0%
 
 1. 변수에서 참조되는 **[!UICONTROL Google Analytics ID]**&#x200B;을(를) 편집하려면 다음을 수행하십시오.
 
-   - &#x200B;>**[!UICONTROL User-Defined Variables]**&#x200B;로 **[!UICONTROL Variables]** 이동합니다.
+   - **[!UICONTROL Variables]** > **[!UICONTROL User-Defined Variables]**(으)로 이동합니다.
 
-   - 자리 표시자(`UA-xxxxxx-x`)**[!UICONTROL GA ID]**&#x200B;를 선택하고 **[!UICONTROL Google Analytics]** 자신의 .
+   - **[!UICONTROL Google Analytics]**&#x200B;을(를) 선택하고 자리 표시자(`UA-xxxxxx-x`)를 **[!UICONTROL GA ID]**(으)로 업데이트하십시오.
 
-1. Google의 안내에 따라 태그, 트리거 및 변수를 새 컨테이너에 추가합니다.
+1. 태그, 트리거 및 변수를 새 컨테이너에 추가하는 방법에 대한 Google의 지침을 따릅니다.
 
-   다른 컨테이너에 사용하려는 설정이 있는 경우 새 컨테이너로 이동할 수 있습니다.
+   사용할 다른 컨테이너에 설정이 있는 경우 새 컨테이너로 이동할 수 있습니다.
 
-1. 완료되면 클릭합니다 **[!UICONTROL Confirm]** .
+1. 완료되면 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
 1. 새 컨테이너를 게시하려면 Google의 지침을 따르십시오.
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Google API]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Google Analytics]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 구성합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Google Analytics]**&#x200B;를 확장하고 다음을 구성합니다.
 
    ![판매 구성 - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-tag-manager.png){width="600" zoomable="yes"}
 
@@ -145,12 +145,11 @@ ht-degree: 0%
 | [!UICONTROL Enable] | 스토어 뷰 | Google Analytics Enhanced Ecommerce를 사용하여 스토어의 활동을 분석할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Account type] | 스토어 뷰 | 저장소 활동 및 트래픽을 모니터링하는 데 사용되는 Google 추적 코드를 결정합니다. 옵션: `Google Analytics` / `Google Tag Manager` |
 | [!UICONTROL Anonymize IP] | 스토어 뷰 | Google Analytics 결과에 나타나는 IP 주소에서 식별 정보가 제거되는지 여부를 결정합니다. |
-| [!UICONTROL Enable Content Experiments] | 스토어 뷰 | 동일한 페이지의 서로 다른 버전을 최대 10개까지 테스트하는 데 사용할 수 있는 Google 콘텐츠 실험을 활성화합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Container Id] | 스토어 뷰 | 저장소에 대해 [!DNL Google Tag Manager]이(가) 이미 설치 및 구성된 경우 컨테이너 ID가 이 필드에 자동으로 표시됩니다. |
 | [!UICONTROL List property for the catalog page] | 스토어 뷰 | 카탈로그 페이지와 연결된 태그 관리자 속성을 식별합니다. 기본값: `Catalog Page` |
 | [!UICONTROL List property for the cross-sell block] | 스토어 뷰 | 크로스셀 블록과 연결된 Tag Manager 속성을 식별합니다. 기본값: `Cross-sell` |
 | [!UICONTROL List property for the up-sell block] | 스토어 뷰 | 업셀 블록과 연결된 Tag Manager 속성을 식별합니다. 기본값: `Up-sell` |
-| [!UICONTROL List property for the related products block] | 매장 보기 | 관련 제품 블록과 연결된 Tag Manager 속성을 식별합니다. 기본값: `Related Products` |
+| [!UICONTROL List property for the related products block] | 스토어 뷰 | 관련 제품 블록과 연결된 Tag Manager 속성을 식별합니다. 기본값: `Related Products` |
 | [!UICONTROL List property for the search results page] | 스토어 뷰 | 검색 결과 페이지와 연결된 태그 관리자 속성을 식별합니다. 기본값: `Search Results` |
 | [!UICONTROL "Internal Promotions" for promotions field "Label"] | 스토어 뷰 | 내부 프로모션의 레이블과 연결된 태그 관리자 속성을 식별합니다. 기본값: `Label` |
 
@@ -171,15 +170,15 @@ Google AdWords 계정이 있는 경우 전환을 추적하는 태그를 만들 �
    - 전환 ID
    - 전환 레이블
 
-   도움이 필요한 경우 Google [지원 사이트를](https://support.google.com/tagmanager/answer/6105160) 방문 하세요.
+   도움이 필요하면 Google의 [지원 사이트](https://support.google.com/tagmanager/answer/6105160)를 방문하세요.
 
-1. [!DNL Google Tag Manager] 대시보드에서 을 클릭하고 **[!UICONTROL Google AdWords]** 다음을 수행합니다.
+1. [!DNL Google Tag Manager] 대시보드에서 **[!UICONTROL Google AdWords]**&#x200B;을(를) 클릭하고 다음을 수행합니다.
 
-   - 제목 자리 표시자를 클릭하고 새 태그 이름을 입력합니다.
+   - 제목 자리 표시자를 클릭하고 새 태그의 이름을 입력합니다.
 
-   - 에서 **[!UICONTROL Choose Product]**&#x200B;을 선택합니다 **[!UICONTROL Google AdWords]**.
+   - **[!UICONTROL Choose Product]**&#x200B;에서 **[!UICONTROL Google AdWords]**&#x200B;을(를) 선택합니다.
 
-   - 에서 _[!UICONTROL Choose a Tag Type]_&#x200B;을 선택하고&#x200B;**[!UICONTROL AdWords Conversion Tracking]**&#x200B;클릭합니다&#x200B;**[!UICONTROL Continue]**.
+   - _[!UICONTROL Choose a Tag Type]_에서&#x200B;**[!UICONTROL AdWords Conversion Tracking]**을(를) 선택하고&#x200B;**[!UICONTROL Continue]**을(를) 클릭합니다.
 
 1. AdWords 계정에서 **[!UICONTROL Conversion ID]** 및 **[!UICONTROL Conversion Label]**&#x200B;을(를) 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
@@ -189,7 +188,7 @@ Google AdWords 계정이 있는 경우 전환을 추적하는 태그를 만들 �
 
 1. **[!UICONTROL Fire On]**&#x200B;에서 **[!UICONTROL Some Pages]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Choose Pages]_&#x200B;섹션에서 다음 설정을 완료합니다.
+1. _[!UICONTROL Choose Pages]_섹션에서 다음 설정을 완료합니다.
 
    - **[!UICONTROL Name]** - 페이지 설명의 이름을 입력합니다.
 
@@ -229,7 +228,7 @@ Google AdWords 계정이 있는 경우 전환을 추적하는 태그를 만들 �
 
 #### 변수 구성 가져오기
 
-CSP 임시 변수는 예제 컨테이너 [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt)에 포함되어 있습니다. 이 코드를 작업 영역으로 가져와서 변수를 만들 수 있습니다.
+CSP 임시 변수는 예제 컨테이너 [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt)에 포함되어 있습니다. 이 코드를 작업 공간으로 가져와서 변수를 만들 수 있습니다.
 
 #### 수동으로 변수 만들기
 

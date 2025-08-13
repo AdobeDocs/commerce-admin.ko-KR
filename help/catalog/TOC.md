@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce 및 Magento Open Source 관리자와 전�
 breadcrumb-title: 카탈로그 관리
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 5703ca88d085d39c36ab1edca70e4e802b625e7a
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -31,18 +31,18 @@ ht-degree: 1%
       + [카탈로그 검색 구성](search-configuration.md)
       + [검색 결과](search-results.md)
       + [검색어 관리](search-terms.md)
-+ 범주 {#categories}
++ 카테고리 {#categories}
    + [카테고리 개요](categories.md)
    + [루트 범주 및 계층](category-root.md)
    + [숨겨진 범주](category-hidden.md)
-   + 범주을(를) 만들고 업데이트합니다. {#create}
+   + 범주 만들기 및 업데이트 {#create}
       + [범주 만들기](category-create.md)
       + [컨텐츠 설정](categories-content-settings.md)
       + [디스플레이 설정](categories-display-settings.md)
       + [검색 엔진 최적화 설정](categories-search-engine-optimization.md)
       + [디자인 설정](categories-custom-design.md)
       + [범주 수정](category-modify.md)
-   + 범주의 제품 {#products-in-category}
+   + 범주 내 제품 {#products-in-category}
       + [제품 할당](categories-product-assignments.md)
       + [범주 제품 정렬](category-products-sort.md)
       + [범주 제품 추가 및 제거](category-products-add.md)
@@ -84,20 +84,19 @@ ht-degree: 1%
       + [이미지 및 비디오](product-images-and-video.md)
       + [검색 엔진 최적화](product-search-engine-optimization.md)
       + [관련 제품, 상향 판매 및 교차 판매](related-products-up-sells-cross-sells.md)
-      + [제품 보기 최적화](product-view-optimization.md)
       + [사용자 정의 가능한 옵션](settings-advanced-custom-options.md)
       + [웹 사이트의 제품](settings-basic-websites.md)
       + [디자인](settings-advanced-design.md)
       + [자동 설정](product-autosettings.md)
       + [선물 옵션](product-gift-options.md)
-+ 제품 특성 {#product-attributes}
++ 제품 속성 {#product-attributes}
    + [속성 개요](product-attributes.md)
    + [속성 입력 유형](attributes-input-types.md)
    + [제품에 속성 추가](product-attributes-add.md)
    + [제품 견본](swatches.md)
-   + 특성을(를) 만들고 업데이트합니다. {#create}
+   + 속성 만들기 및 업데이트 {#create}
       + [속성 만들기 및 삭제](attribute-product-create.md)
       + [벌크 업데이트](bulk-product-attribute-update.md)
       + [속성 집합](attribute-sets.md)
-+ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
++ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
