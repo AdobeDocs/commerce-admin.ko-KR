@@ -44,7 +44,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Property Settings]**&#x200B;을(를) 선택하십시오.
 
-   - _[!UICONTROL Advertising Features]_에서&#x200B;**[!UICONTROL Enable Demographics and Interest Reports]**을(를) `On`(으)로 설정합니다.
+   - _[!UICONTROL Advertising Features]_&#x200B;에서&#x200B;**[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;을(를) `On`(으)로 설정합니다.
 
    - **[!UICONTROL Save]** 설정입니다.
 
@@ -178,7 +178,7 @@ Google AdWords 계정이 있는 경우 전환을 추적하는 태그를 만들 �
 
    - **[!UICONTROL Choose Product]**&#x200B;에서 **[!UICONTROL Google AdWords]**&#x200B;을(를) 선택합니다.
 
-   - _[!UICONTROL Choose a Tag Type]_에서&#x200B;**[!UICONTROL AdWords Conversion Tracking]**을(를) 선택하고&#x200B;**[!UICONTROL Continue]**을(를) 클릭합니다.
+   - _[!UICONTROL Choose a Tag Type]_&#x200B;에서&#x200B;**[!UICONTROL AdWords Conversion Tracking]**&#x200B;을(를) 선택하고&#x200B;**[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
 1. AdWords 계정에서 **[!UICONTROL Conversion ID]** 및 **[!UICONTROL Conversion Label]**&#x200B;을(를) 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
@@ -188,7 +188,7 @@ Google AdWords 계정이 있는 경우 전환을 추적하는 태그를 만들 �
 
 1. **[!UICONTROL Fire On]**&#x200B;에서 **[!UICONTROL Some Pages]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Choose Pages]_섹션에서 다음 설정을 완료합니다.
+1. _[!UICONTROL Choose Pages]_&#x200B;섹션에서 다음 설정을 완료합니다.
 
    - **[!UICONTROL Name]** - 페이지 설명의 이름을 입력합니다.
 

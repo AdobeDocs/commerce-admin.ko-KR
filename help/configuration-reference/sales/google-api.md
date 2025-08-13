@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Color] | 스토어 뷰 | 전환 레이블의 색상을 결정합니다. [색상 선택기](https://www.w3schools.com/colors/colors_picker.asp)를 사용하여 16진수 값을 선택합니다. 이 16진수 값은 AdWords 스크립트의 `google_conversion_color` 변수에 할당됩니다. 예: ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | 스토어 뷰 | [!DNL Google Site Stats] 알림과 함께 표시되는 텍스트 레이블입니다. 이 텍스트 문자열은 AdWords 스크립트의 `~` 변수에 할당됩니다. 예: &quot;쇼핑해 주셔서 감사합니다!&quot; |
 | [!UICONTROL Conversion Value Type] | 스토어 뷰 | 전환이 발생하는 시기를 결정하는 데 사용되는 값 유형을 지정합니다. 옵션: <br/>**`Dynamic`**- 동적 주문 금액을 기준으로 전환이 발생했는지 확인합니다.<br/>**`Constant`** - 입력한 값을 기반으로 전환이 발생했는지 확인합니다. |
-| [!UICONTROL Conversion Value] | 스토어 뷰 | _[!UICONTROL Constant]_전환 값 형식에 사용되는 값을 지정합니다. |
+| [!UICONTROL Conversion Value] | 스토어 뷰 | _[!UICONTROL Constant]_&#x200B;전환 값 형식에 사용되는 값을 지정합니다. |
 | [!UICONTROL Send Order Currency] | 스토어 뷰 | AdWords(기본 통화가 다른 웹 사이트의 경우)에서 거래별 통화 전환 값을 활성화합니다. |
 
 {style="table-layout:auto"}
@@ -123,7 +123,7 @@ ht-degree: 0%
 | [!UICONTROL Conversion Color] | 스토어 뷰 | 전환 레이블의 색상을 결정합니다. [색상 선택기](https://www.w3schools.com/colors/colors_picker.asp)를 사용하여 16진수 값을 선택합니다. 이 16진수 값은 AdWords 스크립트의 `google_conversion_color` 변수에 할당됩니다. 예: ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | 스토어 뷰 | Google 사이트 상태 알림과 함께 표시되는 텍스트 레이블입니다. 이 텍스트 문자열은 AdWords 스크립트의 `~` 변수에 할당됩니다. 예: &quot;쇼핑해 주셔서 감사합니다!&quot; |
 | [!UICONTROL Conversion Value Type] | 스토어 뷰 | 전환이 발생하는 시기를 결정하는 데 사용되는 값 유형을 지정합니다. 옵션: <br/>**`Dynamic`**- 동적 주문 금액을 기준으로 전환이 발생했는지 확인합니다.<br/>**`Constant`** - 입력한 값을 기반으로 전환이 발생했는지 확인합니다. |
-| [!UICONTROL Conversion Value] | 스토어 뷰 | _[!UICONTROL Constant]_전환 값 형식에 사용되는 값을 지정합니다. |
+| [!UICONTROL Conversion Value] | 스토어 뷰 | _[!UICONTROL Constant]_&#x200B;전환 값 형식에 사용되는 값을 지정합니다. |
 | [!UICONTROL Send Order Currency] | 스토어 뷰 | AdWords(기본 통화가 다른 웹 사이트의 경우)에서 거래별 통화 전환 값을 활성화합니다. |
 
 {style="table-layout:auto"}

@@ -67,8 +67,8 @@ Adobe Commerce에서 프로모션 기능을 사용하여 제품 관계를 설정
 >[!NOTE]
 >
 >Adobe Commerce 및 Magento Open Source 릴리스 2.4.0 - 2.4.3에는 dotdigital Engagement Cloud와 통합하는 데 사용되는 dotdigital 공급업체가 개발한 확장 프로그램이 포함되어 있습니다. 2.4.4 릴리스부터 이 확장은 더 이상 핵심 릴리스와 번들로 제공되지 않으며 Commerce Marketplace에서 설치하고 업데이트해야 합니다. Marketplace에서는 확장 개발자가 제공하는 현재 설명서에 대한 액세스도 제공합니다.
->><br><br>
->>번들 확장을 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 [업그레이드 안내서](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)의 _업그레이드 모듈_&#x200B;을 참조하십시오.
+>&#x200B;><br><br>
+>&#x200B;>번들 확장을 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 [업그레이드 안내서](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)의 _업그레이드 모듈_&#x200B;을 참조하십시오.
 
 - [뉴스레터](newsletters.md) - 뉴스레터를 생성하고, 구독자 목록을 관리하고, 콘텐츠를 개발하고, 스토어로 트래픽을 유도합니다.
 
