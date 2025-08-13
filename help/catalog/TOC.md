@@ -98,5 +98,5 @@ ht-degree: 1%
       + [속성 만들기 및 삭제](attribute-product-create.md)
       + [벌크 업데이트](bulk-product-attribute-update.md)
       + [속성 집합](attribute-sets.md)
-+ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
 
