@@ -3,9 +3,9 @@ title: 쿠폰 코드
 description: 조건 세트가 충족될 때 장바구니 가격 규칙과 함께 쿠폰 코드를 사용하여 할인을 적용하는 방법에 대해 알아봅니다.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,17 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 >우선 순위가 동일한 장바구니 가격 규칙은 결합된 할인을 생성하지 않습니다. 각 규칙(쿠폰)은 데이터베이스의 장바구니 가격 규칙 ID에 따라 일치하는 제품에 개별적으로 적용됩니다. 할인이 적용되는 순서를 제어하기 위해 Adobe에서는 추가된 각 장바구니 가격 규칙에 대해 다른 우선 순위를 설정하는 것이 좋습니다.
 
 ## 쿠폰 코드 구성
+
+>[!BEGINSHADEBOX]
+
+기본적으로 Commerce에서는 쿠폰 코드를 만드는 두 가지 방법을 지원합니다.
+
+1. 단일 특정 쿠폰 코드 만들기
+1. 여러 _임의_ 쿠폰 코드 생성 중
+
+가져오고 장바구니 가격 규칙과 연결할 쿠폰 코드 목록이 이미 있는 경우 [Commerce Marketplace](https://marketplace.magento.com/)에서 확장을 사용하는 것이 좋습니다.
+
+>[!ENDSHADEBOX]
 
 자동 생성된 쿠폰 코드의 길이 및 포맷은 구성에 의해 제어된다. 문자는 모든 숫자, 모든 문자 또는 그 조합으로 설정할 수 있습니다. 대시를 설정된 간격으로 삽입하여 쉽게 읽을 수 있으며, 접두어와 접미어를 추가하여 코드를 특정 캠페인 또는 이니셔티브와 연결할 수 있습니다.
 
@@ -62,7 +73,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
 >[!NOTE]
 >
->[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 쿠폰을 만들기 전에 `bin/magento cron:run` 명령을 사용하여 cron이 실행 중인지 확인하십시오. 자세한 내용은 _구성 가이드_&#x200B;의 [명령줄에서 cron 실행](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko#run-cron-from-the-command-line)을 참조하십시오.
+>[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 쿠폰을 만들기 전에 `bin/magento cron:run` 명령을 사용하여 cron이 실행 중인지 확인하십시오. 자세한 내용은 [구성 가이드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)의 _명령줄에서 cron 실행_&#x200B;을 참조하십시오.
 
 ### 방법 1: 특정 쿠폰 만들기
 
@@ -101,7 +112,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
       - **[!UICONTROL Update Name]** 및 **[!UICONTROL Description]**&#x200B;을(를) 입력하십시오.
 
-      - 일정( ![일정 아이콘](../assets/icon-calendar.png))에서 **시작 날짜** 및 **[!UICONTROL End Date]**&#x200B;을(를) 선택하십시오. 날짜 범위를 비워 두면 규칙이 만료되지 않습니다.
+      - 일정( **일정 아이콘**)에서 **[!UICONTROL End Date]**&#x200B;시작 날짜![ 및 ](../assets/icon-calendar.png)을(를) 선택하십시오. 날짜 범위를 비워 두면 규칙이 만료되지 않습니다.
 
       - 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -131,7 +142,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
    >
    >여러 고객이 동시에 동일한 쿠폰을 동시에 사용하는 경우, 쿠폰 처리가 지연돼 설정한 사용 한도를 넘어설 수 있기 때문이다.
 
-1. 아래로 스크롤하여 **[!UICONTROL Manage Coupon Codes]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
+1. 아래로 스크롤하여 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Manage Coupon Codes]**&#x200B;를 확장하고 다음을 수행합니다.
 
    ![장바구니 가격 규칙 - 쿠폰 코드 관리](./assets/manage-coupon-codes.png){width="600" zoomable="yes"}
 
@@ -168,11 +179,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
 파일 형식을 선택하고 **[!UICONTROL Export]**&#x200B;을(를) 클릭하여 쿠폰 코드를 CSV 또는 Excel XML 파일로 내보낼 수 있습니다.
 
-쿠폰 코드를 삭제하려면 목록에서 하나 이상의 코드를 선택합니다. **[!UICONTROL Actions]** 선택기에서 `Delete`을(를) 선택한 다음 **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
-
->[!NOTE]
->
->Commerce에서는 여러 쿠폰 코드를 구성할 수 있지만, 고객은 장바구니에서 하나의 쿠폰 코드만 사용할 수 있습니다. 장바구니에서 동시에 두 개 이상의 쿠폰 코드를 사용할 수 있도록 하려면 [Commerce Marketplace](https://marketplace.magento.com/)의 해당 확장을 사용하는 것이 좋습니다.
+쿠폰 코드를 삭제하려면 목록에서 하나 이상의 코드를 선택합니다. `Delete` 선택기에서 **[!UICONTROL Actions]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
 ## 쿠폰 보고서
 
