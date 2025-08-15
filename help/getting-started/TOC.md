@@ -5,10 +5,10 @@ breadcrumb-title: 시작
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
+source-git-commit: b45824312b02204f1031b04c215ca42c5298d824
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 1%
    + [계정 보안](commerce-account-secure.md)
    + [계정 공유](commerce-account-share.md)
    + [계정 양도](commerce-account-transfer.md)
-+ 사이트 준수 {#compliance}
++ 사이트 규정 준수 {#compliance}
    + Adobe Commerce의 HIPAA 준비{#hipaa-ready-service}
       + [개요](hipaa/overview.md)
       + [운영 지침](hipaa/operations.md)
-   + 개인 정보 {#privacy}
+   + 개인 정보 보호 {#privacy}
       + [개인정보 처리방침 저장](privacy-policy.md)
       + [CCPA 규정 준수](compliance-ccpa.md)
       + [GDPR 준수](compliance-gdpr.md)
@@ -38,23 +38,18 @@ ht-degree: 1%
 + 관리자 {#admin}
    + [관리자란 무엇입니까?](admin.md)
    + [관리자 계정](admin-signin.md)
-   + Adobe IMS(Identity Management 서비스) 통합 {#ims}
+   + Adobe Identity Management 서비스(IMS) 통합 {#ims}
       + [IMS 통합 개요](adobe-ims-integration-overview.md)
       + [IMS와의 Admin 통합 구성](adobe-ims-config.md)
       + [IMS와의 Admin 통합 비활성화](adobe-ims-disable.md)
-   + Adobe Experience Cloud 통합 {#unifiedexperience}
-      + [개요](admin-unified-experience-integration-overview.md)
-      + [통합 구성](admin-unified-experience-integration-configure.md)
-      + [Experience Cloud 통합 관리](admin-unified-experience-integration-manage.md)
-      + [릴리스 정보](admin-unified-experience-release-notes.md)
-   + 관리 도구 및 작업 영역 {#tools}
+   + 관리 도구 및 작업 공간 {#tools}
       + [Workspace](admin-workspace.md)
       + [관리 사이드바](admin-menu.md)
       + [대시보드](admin-dashboard.md)
       + [메시지 받은 편지함](admin-message-inbox.md)
       + [그리드 컨트롤](admin-grid-controls.md)
       + [작업 제어](admin-actions-control.md)
-+ 상점 {#storefront}
++ 상점 앞 {#storefront}
    + [가게 앞이 뭐죠?](storefront.md)
    + [향상된 스토어 경험](enhanced-experiences.md)
 + 기본 설정 및 구성 {#setup}
@@ -62,7 +57,7 @@ ht-degree: 1%
    + [세부 정보 저장](store-details.md)
    + [상점 첫 브랜딩](storefront-branding.md)
    + [사전 실행 검사 목록](prelaunch-checklist.md)
-+ 표준 보고 {#reporting}
++ 표준 보고  {#reporting}
    + [보고서 메뉴](reports-menu.md)
    + [마케팅 보고서](marketing-reports.md)
    + [보고서 검토](review-reports.md)
@@ -76,5 +71,5 @@ ht-degree: 1%
    + [에코시스템](resources.md)
    + [확장](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
++ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
