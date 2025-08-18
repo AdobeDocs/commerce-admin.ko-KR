@@ -3,9 +3,9 @@ title: ' [!DNL Commerce] 계정 만들기 및 액세스'
 description: 구입한 제품 및 서비스를 관리하는  [!DNL Commerce] 계정에 대해 알아봅니다.
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: d5f5405c9470e77327f2978f503cec800a440b5d
+source-git-commit: d036962b767be0817dbd14d679e89ab4d4f03455
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -13,17 +13,13 @@ ht-degree: 0%
 
 # [!DNL Commerce] 계정에 액세스
 
-[!DNL Commerce] 웹 사이트에서 계정에 액세스할 수 있습니다. [!DNL Commerce] 계정의 대시보드에서 구입한 제품 및 서비스와 관련된 정보와 연락처 및 청구 정보를 찾을 수 있습니다. 일부 정보는 라이선스 소유자에게만 표시됩니다.
-
-[!DNL Commerce] 웹 사이트에서 계정에 액세스할 수 있습니다. 계정 대시보드에는 구매한 제품, 서비스, 연락처 또는 청구 세부 정보가 표시됩니다. 일부 정보는 라이선스 소유자에게만 표시됩니다.
+[!DNL Commerce] 웹 사이트에서 [!DNL Commerce] 계정에 액세스할 수 있습니다. [!DNL Commerce] 계정의 대시보드에서 구입한 제품 및 서비스와 관련된 정보와 연락처 및 청구 정보를 찾을 수 있습니다. 일부 정보는 라이선스 소유자에게만 표시됩니다.
 
 ![내 [!DNL Commerce] 계정](./assets/home-acct.png){width="700"}
 
 [!DNL Commerce] 계정 로그인은 저장소 관리자 로그인과 별개입니다. 일반적으로 각각에 대해 서로 다른 자격 증명을 사용하며 각 시스템에 대한 액세스는 독립적으로 관리됩니다.
 
-그러나 Adobe Commerce 및 Adobe Business 제품에 대한 로그인을 간소화하려는 사용자는 매장 관리자에 로그인하도록 Adobe ID을 구성할 수 있습니다. [Adobe ID과 Commerce Admin Integration 구성](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/ims/adobe-ims-config)
-
-Commerce 및 스토어 관리 로그인은 서로 다른 자격 증명과 독립적으로 관리되는 액세스 권한을 가진 별도의 로그인입니다. 하지만 저장소 관리자에 로그인하도록 Adobe ID을 구성하여 액세스를 간소화할 수 있습니다. *Commerce용 IMS 통합 안내서*&#x200B;에서 [Adobe ID과 Commerce Admin Integration 구성]을 참조하십시오.
+그러나 Adobe Commerce 및 Adobe Business 제품에 대한 로그인을 간소화하려는 사용자는 스토어 관리자에 로그인하도록 Adobe ID을 구성할 수 있습니다. [Commerce용 IMS 통합 안내서](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)의 *Adobe ID과 Commerce Admin 통합 구성*.
 
 >[!NOTE]
 >
@@ -31,7 +27,7 @@ Commerce 및 스토어 관리 로그인은 서로 다른 자격 증명과 독립
 
 ## [!DNL Commerce] 계정에 로그인
 
-Commerce 계정에 액세스하려면 Adobe ID이 필요합니다. Commerce 계정이 이미 있지만 Adobe ID이 없는 경우 로그인 프로세스 중에 만들 수 있습니다.
+Commerce 계정에 액세스하려면 Adobe ID이 필요합니다. 이미 [!DNL Commerce] 계정이 있지만 2022년 8월 이후 계정에 로그인하지 않은 경우 로그인 프로세스 중에 Adobe ID을 만들어야 합니다.
 
 >[!WARNING]
 >
