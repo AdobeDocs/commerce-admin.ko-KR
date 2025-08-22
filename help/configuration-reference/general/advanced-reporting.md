@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_은(는) [Adobe Commerce Intelligence][1]{:target="_blank"}에서 제공하는 클라우드 기반 서비스입니다. 자세한 내용은 [시작 안내서][2]{:target="_blank"}의_&#x200B;고급 보고&#x200B;_를 참조하십시오.
+_[!DNL Advanced Reporting]_&#x200B;은(는) [Adobe Commerce Intelligence][1]{:target="_blank"}에서 제공하는 클라우드 기반 서비스입니다. 자세한 내용은 [시작 안내서][2]{:target="_blank"}의_&#x200B;고급 보고&#x200B;_를 참조하십시오.
 
 ![고급 보고](./assets/advanced-reporting.png)<!-- zoom -->
 

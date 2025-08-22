@@ -156,6 +156,7 @@ ht-degree: 0%
     2분 전 LIMIT 1
     부터 CATALOGCategoryCount > 0
 AND appName = &#39;&lt;your_app_name>&#39;
+
 #### 활성 제품
 
 지정된 기간 동안 제품별 응용 프로그램 이벤트 수를 반환합니다.
@@ -175,6 +176,7 @@ AND appName = &#39;&lt;your_app_name>&#39;
     2분 전 LIMIT 1
     부터 CATALOGProductActiveCount > 0
 AND APPName = &#39;&lt;your_app_name>&#39;
+
 #### 구성 가능한 제품
 
 지정된 기간 동안 구성 가능한 제품에 대한 평균 애플리케이션 이벤트 수를 반환합니다.
@@ -194,6 +196,7 @@ AND APPName = &#39;&lt;your_app_name>&#39;
     2분 전 LIMIT 1
     부터 CATALOGProductConfigurableCount > 0
 AND appName = &#39;&lt;your_app_name>&#39;
+
 #### 제품 개수(모두)
 
 모든 제품에 대한 총 응용 프로그램 이벤트 수를 반환합니다.
@@ -213,6 +216,7 @@ AND appName = &#39;&lt;your_app_name>&#39;
     2분 전 LIMIT 1
     부터 CATALOGProductCount > 0
 AND APPName = &#39;&lt;your_app_name>&#39;
+
 #### 고객 수
 
 고객별 평균 애플리케이션 이벤트 수를 반환합니다.
@@ -257,7 +261,7 @@ AND APPName = &#39;&lt;your_app_name>&#39;
 
     평균(StoreViewCount), 평균(WebsiteCount) 선택
     크론에서
-    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; 시계열 2분
+    WHERE appName = &#39;&lt;your_app_name&gt;&#39; 시계열 2분
 
 #### 현재 웹 사이트 및 스토어 수
 
