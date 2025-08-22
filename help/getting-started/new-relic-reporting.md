@@ -4,16 +4,17 @@ description: New Relic APM 서비스용 소프트웨어를 포함하여 클라�
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-source-git-commit: 0651a2489a396ab142b60a8678d6c7590fd5f9ee
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
 
 # [!DNL New Relic] 보고
 
-[New Relic][1]은(는) 응용 프로그램 상호 작용을 분석하고 개선하는 데 도움이 되는 소프트웨어 분석 서비스입니다. 클라우드 인프라의 Adobe Commerce 계정에는 [!DNL New Relic APM] 서비스용 소프트웨어가 포함되어 있습니다. 자세한 내용은 _New Relic on Cloud Infrastructure Guide_&#x200B;의 [Commerce 서비스][4]를 참조하십시오.
+[New Relic][1]은(는) 응용 프로그램 상호 작용을 분석하고 개선하는 데 도움이 되는 소프트웨어 분석 서비스입니다. 클라우드 인프라의 Adobe Commerce 계정에는 [!DNL New Relic APM] 서비스용 소프트웨어가 포함되어 있습니다. 자세한 내용은 [New Relic on Cloud Infrastructure Guide][4]의 _Commerce 서비스_&#x200B;를 참조하십시오.
 
 ## 1단계: [!DNL New Relic] 계정에 등록
 
@@ -23,13 +24,13 @@ ht-degree: 0%
 
 1. 사이트의 지침을 따르십시오. 메시지가 표시되면 먼저 설치할 제품을 선택합니다.
 
-1. 계정 중에 상거래 구성을 완료하는 데 필요한 다음 자격 증명을 찾으십시오.
+1. 계정에 있는 동안 Commerce 구성을 완료하는 데 필요한 다음 자격 증명을 찾습니다.
 
-   | 선택 | 설명 |
+   | 옵션 | 설명 |
    | ------ | ----------- |
    | 계정 ID | [!DNL New Relic] 계정 대시보드에서 계정 ID는 URL의 `/accounts` 뒤에 있는 숫자입니다. |
-   | 애플리케이션 ID | [!DNL New Relic] 계정 대시보드에서 **[!UICONTROL New Relic APM]**&#x200B;을(를) 클릭합니다. 메뉴에서 **[!UICONTROL Applications]**&#x200B;을(를) 선택합니다. 그런 다음 애플리케이션을 선택합니다. 애플리케이션 ID는 다음 URL 뒤에 있는 번호입니다. `/applications/` |
-   | Relic API 키 새로 만들기 | [!DNL New Relic] 계정 대시보드에서 **[!UICONTROL Account Settings]**&#x200B;을(를) 클릭합니다. 통합 아래의 왼쪽 메뉴에서 **[!UICONTROL Data Sharing]**&#x200B;을(를) 선택합니다. 이 페이지에서 API 키를 생성, 재생성 또는 삭제할 수 있습니다. |
+   | 애플리케이션 ID | [!DNL New Relic] 계정 대시보드에서 **[!UICONTROL New Relic APM]**&#x200B;을(를) 클릭합니다. 메뉴에서 **[!UICONTROL Applications]**&#x200B;을(를) 선택합니다. 그런 다음 애플리케이션을 선택합니다. 응용 프로그램 ID는 URL의 `/applications/` 뒤에 있는 번호입니다. |
+   | New Relic API 키 | [!DNL New Relic] 계정 대시보드에서 **[!UICONTROL Account Settings]**&#x200B;을(를) 클릭합니다. 통합 아래의 왼쪽 메뉴에서 **[!UICONTROL Data Sharing]**&#x200B;을(를) 선택합니다. 이 페이지에서 API 키를 생성, 재생성 또는 삭제할 수 있습니다. |
    | Insights API 키 | [!DNL New Relic] 계정 대시보드에서 **[!UICONTROL Insights]**&#x200B;을(를) 클릭합니다. 관리 아래의 왼쪽 메뉴에서 **[!UICONTROL API Keys]**&#x200B;을(를) 선택합니다. Insights API 키가 이 페이지에 표시됩니다. 필요한 경우 키 삽입 옆에 있는 더하기 기호(**+**)를 클릭하여 키를 생성합니다. |
 
    {style="table-layout:auto"}
@@ -53,7 +54,7 @@ ht-degree: 0%
 >[!NOTE]
 >이러한 구성 옵션은 클라우드 인프라의 Adobe Commerce에는 적용되지 않습니다.
 >
->Pro 플랜을 사용하는 경우 New Relic이 이미 [사전 구성되어 있고 기본적으로 활성화되어 있습니다](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=ko). 스타터 플랜을 사용하는 경우 설정 프로세스의 일부인 [New Relic 구성 단계](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html?lang=ko#configure-new-relic-for-starter-environment)를 완료해야 합니다.
+>Pro 플랜을 사용하는 경우 New Relic이 이미 [사전 구성되어 있고 기본적으로 활성화되어 있습니다](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). 스타터 플랜을 사용하는 경우 설정 프로세스의 일부인 [New Relic 구성 단계](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment)를 완료해야 합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
@@ -87,7 +88,7 @@ ht-degree: 0%
 
 ## 4단계: [!DNL New Relic] 보고에 Cron 사용
 
-1. **[!UICONTROL Cron]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Cron]**&#x200B;를 확장합니다.
 
    ![New Relic 크론 구성](./assets/new-relic-reporting-cron.png){width="600"}
 
@@ -97,7 +98,7 @@ ht-degree: 0%
 
 ## [!DNL New Relic]개 쿼리
 
-[!DNL New Relic Insights] 데이터는 [!DNL New Relic Query Language] (NRQL)에 작성된 문 및 포함할 수 있는 사용자 지정 매개 변수를 기반으로 합니다. 임시 쿼리에서 데이터를 반환하거나 대시보드에 저장된 쿼리에서 데이터를 반환할 수 있습니다. 자세한 내용은 [!DNL New Relic] 설명서에서 [NRQL 참조][6]를 참조하십시오.
+[!DNL New Relic Insights] 데이터는 [!DNL New Relic Query Language]&#x200B;(NRQL)에 작성된 문 및 포함할 수 있는 사용자 지정 매개 변수를 기반으로 합니다. 임시 쿼리에서 데이터를 반환하거나 대시보드에 저장된 쿼리에서 데이터를 반환할 수 있습니다. 자세한 내용은 [ 설명서에서 ][6]NRQL 참조[!DNL New Relic]를 참조하십시오.
 
 ### 관리 이벤트
 
@@ -129,16 +130,16 @@ ht-degree: 0%
 
 관리자 사용자 이름, 기간 및 애플리케이션 이름을 포함하여 최근 관리자 작업에 대한 세부 정보를 반환합니다.
 
-    SELECT AdminName, 기간, 이름
-    FROM 트랜잭션
-    WHERE appName=&#39;&lt;your_app_name>&#39; AND AdminName IS NOT NULL
-    AND AdminName !&lt;/your_app_name>= &#39;N/A&#39; 제한 50
+    AdminName, duration, name
+    트랜잭션에서 
+    WHERE appName=&#39;&lt;your_app_name>&#39; 및 AdminName이 NULL이 아님
+    및 AdminName != &#39;N/A&#39; 제한 50
 
-### Cron 이벤트
+### 크론 이벤트
 
 #### 범주 수
 
-지정된 기간 동안의 범주별 애플리케이션 이벤트 수를 반환합니다.
+지정된 기간 동안 카테고리별 응용 프로그램 이벤트 수를 반환합니다.
 
     SELECT average(CatalogCategoryCount)
     FROM Cron
@@ -149,13 +150,12 @@ ht-degree: 0%
 
 지정된 기간 동안 카탈로그에 있는 응용 프로그램 이벤트의 카테고리별 평균 수를 반환합니다.
 
-    SELECT average(CatalogCategoryCount)
-    FROM Cron
+    SELECT AVERAGE(CatalogCategoryCount)
+    FROM CRON
     WHERE CatalogCategoryCount IS NOT NULL
-    AND CatalogCategoryCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 minutes ago LIMIT 1
-&lt;/your_app_name>
-
+    2분 전 LIMIT 1
+    부터 CATALOGCategoryCount > 0
+AND appName = &#39;&lt;your_app_name>&#39;
 #### 활성 제품
 
 지정된 기간 동안 제품별 응용 프로그램 이벤트 수를 반환합니다.
@@ -173,9 +173,8 @@ ht-degree: 0%
     FROM CRON
     WHERE CatalogProductActiveCount IS NOT NULL
     2분 전 LIMIT 1
-부터 CATALOGProductActiveCount > 0
-    AND APPName = &#39;&lt;your_app_name>&#39;
-
+    부터 CATALOGProductActiveCount > 0
+AND APPName = &#39;&lt;your_app_name>&#39;
 #### 구성 가능한 제품
 
 지정된 기간 동안 구성 가능한 제품에 대한 평균 애플리케이션 이벤트 수를 반환합니다.
@@ -193,9 +192,8 @@ ht-degree: 0%
     FROM CRON
     WHERE CatalogProductConfigurableCount IS NOT NULL
     2분 전 LIMIT 1
-부터 CATALOGProductConfigurableCount > 0
-    AND appName = &#39;&lt;your_app_name>&#39;
-
+    부터 CATALOGProductConfigurableCount > 0
+AND appName = &#39;&lt;your_app_name>&#39;
 #### 제품 개수(모두)
 
 모든 제품에 대한 총 응용 프로그램 이벤트 수를 반환합니다.
@@ -213,9 +211,8 @@ ht-degree: 0%
     FROM CRON
     WHERE CatalogProductCount IS NOT NULL
     2분 전 LIMIT 1
-부터 CATALOGProductCount > 0
-    AND APPName = &#39;&lt;your_app_name>&#39;
-
+    부터 CATALOGProductCount > 0
+AND APPName = &#39;&lt;your_app_name>&#39;
 #### 고객 수
 
 고객별 평균 애플리케이션 이벤트 수를 반환합니다.
@@ -260,7 +257,7 @@ ht-degree: 0%
 
     평균(StoreViewCount), 평균(WebsiteCount) 선택
     크론에서
-    WHERE appName = &#39;&lt;your_app_name&gt;&#39; 시계열 2분
+    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; 시계열 2분
 
 #### 현재 웹 사이트 및 스토어 수
 
@@ -308,31 +305,31 @@ ht-degree: 0%
 
 고객 이름과 방문 기간을 포함하여 최근 활동에 대해 정의된 수의 레코드를 반환합니다.
 
-    SELECT CustomerName, 기간, 이름
-    FROM 트랜잭션
+    SELECT CustomerName, duration, name
+    FROM Transaction
     WHERE appName=&#39;&lt;your_app_name>&#39;
     AND CustomerName IS NOT NULL
-    AND CustomerName !&lt;/your_app_name>= &#39;N/A&#39; 제한 50
+    AND CustomerName != &#39;N/A&#39; 제한 50
 
-### 주문
+### 주문 수
 
-#### 발생한 주문 수
+#### 수행한 주문 수
 
-지정된 기간 동안 발생한 주문 수를 반환합니다.
+지정된 기간 동안 수행한 주문 수를 반환합니다.
 
-    SELECT count(Order)
-    FROM 트랜잭션 SINCE 1일 전
+    SELECT COUNT(Order)
+    1일 전 이후의 트랜잭션에서
 
 #### 총 주문 가격
 
 지정된 기간 동안 주문된 라인 항목의 총 수를 반환합니다.
 
-    SELECT sum(orderValue)
-    FROM 트랜잭션 SINCE 1일 전
+    SELECT SUM(orderValue)
+    1일 전 이후의 트랜잭션에서
 
-#### 주문한 총 광고 항목 수
+#### 주문한 총 라인 항목
 
-지정된 기간 동안 주문한 총 라인 항목 수를 반환합니다.
+지정된 기간 동안 주문된 라인 항목의 총 수를 반환합니다.
 
     SELECT SUM(lineItemCount)
     1일 전 이후의 트랜잭션에서
@@ -340,6 +337,6 @@ ht-degree: 0%
 
 [1]: https://newrelic.com/
 [3]: https://docs.newrelic.com/docs/agents/php-agent/getting-started/new-relic-php
-[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=ko
-[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko
+[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html
+[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
 [6]: https://docs.newrelic.com/docs/insights/new-relic-insights/using-new-relic-query-language/nrql-reference

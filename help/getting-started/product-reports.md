@@ -1,18 +1,19 @@
 ---
 title: 제품 보고서
-description: Adobe Commerce 및 Magento Open Source에서 사용할 수 있는 제품 보고서는 보고 주문한 제품, 베스트셀러, 재고 수준 및 다운로드에 대한 통찰력을 제공합니다.
+description: Adobe Commerce 및 Magento Open Source에서 사용할 수 있는 제품 보고서는 보고 주문한 제품, 베스트셀러, 재고 수준 및 다운로드에 대한 insight을 제공합니다.
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
 feature: Products, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # 제품 보고서
 
-제품 보고서는 보고 주문한 제품, 베스트셀러, 재고 수준 및 다운로드에 대한 통찰력을 제공합니다.
+제품 보고서는 보고 주문한 제품, 베스트셀러, 재고 수준 및 다운로드에 대한 insight을 제공합니다.
 
 ## [!UICONTROL Product Views Report]
 

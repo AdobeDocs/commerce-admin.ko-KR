@@ -3,9 +3,10 @@ title: 보고서 검토
 description: 사이트에서 기본 제공 검토 기능을 사용하는 경우 검토 보고서는 고객별 및 제품별 제품 검토에 대한 정보를 제공합니다.
 exl-id: f337c0fc-a8fd-43ef-82db-f11741e6dc76
 feature: Reporting, Customers, Products
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---

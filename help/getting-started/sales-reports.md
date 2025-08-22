@@ -3,9 +3,10 @@ title: 영업 보고서
 description: ' [!DNL Commerce] 영업 보고서를 통해 주문, 세금, 송장, 배송, 환불, 쿠폰 및 PayPal 결제를 추적할 수 있습니다.'
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -101,7 +102,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Show Report]**&#x200B;을(를) 클릭합니다.
 
-[!UICONTROL Coupons Report]을(를) 사용하여 프로모션 캠페인에 대한 데이터를 수집하는 방법에 대한 자세한 내용은 _머천다이징 및 프로모션 안내서_&#x200B;의 [쿠폰 보고](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report)를 참조하십시오.
+[!UICONTROL Coupons Report]을(를) 사용하여 프로모션 캠페인에 대한 데이터를 수집하는 방법에 대한 자세한 내용은 [머천다이징 및 프로모션 안내서](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report)의 _쿠폰 보고_&#x200B;를 참조하십시오.
 
 <!--- ![Coupons Report](./assets/sales-coupons.png) need coupon data  -->
 
@@ -113,7 +114,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>*
 
 ![PayPal 결제 보고서](./assets/reports-sales-paypal-settlement.png){width="600"}
 
-[!UICONTROL PayPal Settlement Reports]을(를) 사용하여 자금 결제에 영향을 주는 각 PayPal 거래에 대한 정보를 검색하는 방법에 대한 자세한 내용은 _저장 및 구매 경험 안내서_&#x200B;에서 [PayPal 결제 보고서](../stores-purchase/paypal-settlement-reports.md)를 참조하십시오.
+[!UICONTROL PayPal Settlement Reports]을(를) 사용하여 자금 결제에 영향을 주는 각 PayPal 거래에 대한 정보를 검색하는 방법에 대한 자세한 내용은 [저장 및 구매 경험 안내서](../stores-purchase/paypal-settlement-reports.md)에서 _PayPal 결제 보고서_&#x200B;를 참조하십시오.
 
 ## [!UICONTROL Braintree Settlement Report]
 
