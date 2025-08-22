@@ -4,7 +4,7 @@ description: New Relic APM 서비스용 소프트웨어를 포함하여 클라�
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
 source-wordcount: '1399'
@@ -54,7 +54,7 @@ ht-degree: 0%
 >[!NOTE]
 >이러한 구성 옵션은 클라우드 인프라의 Adobe Commerce에는 적용되지 않습니다.
 >
->Pro 플랜을 사용하는 경우 New Relic이 이미 [사전 구성되어 있고 기본적으로 활성화되어 있습니다](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). 스타터 플랜을 사용하는 경우 설정 프로세스의 일부인 [New Relic 구성 단계](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment)를 완료해야 합니다.
+>Pro 플랜을 사용하는 경우 New Relic이 이미 [사전 구성되어 있고 기본적으로 활성화되어 있습니다](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=ko). 스타터 플랜을 사용하는 경우 설정 프로세스의 일부인 [New Relic 구성 단계](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html?lang=ko#configure-new-relic-for-starter-environment)를 완료해야 합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
@@ -341,6 +341,6 @@ AND APPName = &#39;&lt;your_app_name>&#39;
 
 [1]: https://newrelic.com/
 [3]: https://docs.newrelic.com/docs/agents/php-agent/getting-started/new-relic-php
-[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html
-[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
+[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=ko
+[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko
 [6]: https://docs.newrelic.com/docs/insights/new-relic-insights/using-new-relic-query-language/nrql-reference

@@ -3,7 +3,7 @@ title: '[!DNL Commerce Intelligence]개 도구'
 description: Adobe Commerce 및 Magento Open Source 판매자가 Commerce Intelligence 도구를 사용하여 건전한 비즈니스 의사 결정에 사용되는 insight을 얻는 방법에 대해 알아봅니다.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
 source-wordcount: '1179'
@@ -178,6 +178,6 @@ select distinct base_currency_code from sales_order;
 {style="table-layout:auto"}
 
 
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html
+[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=ko
 [2]: https://developer.adobe.com/commerce/php/development/advanced-reporting/
-[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
+[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko

@@ -3,7 +3,7 @@ title: 마케팅 보고서
 description: 마케팅 보고서는 장바구니 상태, 검색어 사용 및 뉴스레터 전송에 대한 정보를 제공합니다.
 exl-id: 3ff6d4f7-ab8d-4e4e-b9e9-b12e3a08de62
 feature: Marketing Tools, Reporting
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
 source-wordcount: '215'
