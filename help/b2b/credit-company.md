@@ -74,7 +74,7 @@ ht-degree: 0%
 | [!UICONTROL Operation] | 거래와 연계된 활동 유형. 값: <br/>**[!UICONTROL Allocated]**- 회사에 할당된 크레딧.<br/>**[!UICONTROL Updated]** - 다음 필드 중 하나에 변경 내용이 적용되었습니다. [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- 주문이 완료되었습니다.<br/>**[!UICONTROL Reimbursed]** - 미상환 잔액이 환급되었습니다. <br/>**[!UICONTROL Refunded]**- 대변 메모 금액이 환불되었습니다.<br/>**[!UICONTROL Reverted]** - 주문이 취소되었으며 금액이 크레딧 잔액으로 반환되었습니다. |
 | [!UICONTROL Amount] | 다음 거래 유형과 연결된 거래 금액: `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>구매 금액의 경우 금액은 저장소의 표시 통화와 신용 통화 설정의 형식으로 표시되며 현재 전환율(해당되는 경우)이 표시됩니다. 예: <br/>EUR 20,000.00($22,400.00) <br/>USD/EUR 0.8928 |
 | [!UICONTROL Outstanding Balance] | 상환된 금액에서 계정입금 방법을 사용하여 수행한 모든 주문의 총 납기를 뺀 금액입니다. 양은 양수 또는 음수 값으로 나타날 수 있습니다. <br/>**[!UICONTROL Positive value]**- 선금이 양수 값으로 표시됩니다.<br/>**[!UICONTROL Negative value]** - 기한이 음수 값으로 표시됩니다. |
-| [!UICONTROL Available Credit] | _[!UICONTROL Credit Limit]_및_[!UICONTROL Outstanding Balance]_&#x200B;의 합계입니다. 기업이 신용 한도를 초과한 경우 금액은 음의 값으로 나타난다. |
+| [!UICONTROL Available Credit] | _[!UICONTROL Credit Limit]_&#x200B;및_[!UICONTROL Outstanding Balance]_&#x200B;의 합계입니다. 기업이 신용 한도를 초과한 경우 금액은 음의 값으로 나타난다. |
 | [!UICONTROL Credit Limit] | 회사에 대한 크레딧 금액. |
 | [!UICONTROL Updated By] | 작업을 시작한 사람의 이름입니다. |
 | [!UICONTROL Custom Reference Number] | 트랜잭션과 연결된 사용자 지정 참조 번호입니다. |
@@ -167,7 +167,7 @@ ht-degree: 0%
 
 ## 우수 사례
 
-* 
+* &#x200B;
    * **신용 정책 관리** - 회사 신용 관리 시 고객 결제 내역 및 비즈니스 관계를 기반으로 신용 한도를 설정하는 명확한 정책을 설정합니다. 미결 잔액과 지급 패턴을 정기적으로 검토하여 위험을 평가하고, 항상 감사 목적으로 상세한 이유가 있는 신용 설정 변경 사항을 문서화합니다.
 
 지급을 신속하게 처리하여 정확한 잔액을 유지하고 신용 통화 설정이 각 회사의 주요 업무 운영과 일치하는지 확인합니다.
