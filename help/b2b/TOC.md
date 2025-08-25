@@ -5,7 +5,7 @@ breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 63585845dc51a0be31102dfe3e4b9074225c490d
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 6%
@@ -34,7 +34,7 @@ ht-degree: 6%
       + [회사 사용자 계정](account-company-users.md)
       + [회사 역할 및 권한](account-company-roles-permissions.md)
       + [회사 구조 정의](account-company-structure.md)
-+ 회사 관리 {#company-management}
++ 회사 경영 {#company-management}
    + [개요](manage-companies.md)
    + [회사 계층 관리](manage-company-hierarchy.md)
 + 공유된 카탈로그 {#shared-catalogs}
@@ -68,4 +68,4 @@ ht-degree: 6%
 + 참조 {#reference}
    + [이전 버전과 호환 불가능한 변경 사항](backward-incompatible-changes.md)
    + [패키지](packages.md)
-+ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
++ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
