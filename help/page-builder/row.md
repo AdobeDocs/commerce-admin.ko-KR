@@ -3,7 +3,7 @@ title: 레이아웃 - 행
 description: ' [!DNL Page Builder] 스테이지에서 행을 추가하는 데 사용되는 Row 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 0%
@@ -38,7 +38,7 @@ _Row_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.md#
 
 ## 행 추가
 
-1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서 새&#x200B;**[!UICONTROL Row]**&#x200B;을(를) 첫 번째 행 바로 아래에 있는 단계로 드래그합니다.
+1. [!DNL Page Builder] 아래의 _[!UICONTROL Layout]_패널에서 새&#x200B;**[!UICONTROL Row]**을(를) 첫 번째 행 바로 아래에 있는 단계로 드래그합니다.
 
 1. 행의 서식을 지정하려면 행 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _설정_(![설정 아이콘](./assets/pb-icon-settings.png){width="20"}) 아이콘을 선택합니다.
 
@@ -114,7 +114,7 @@ _모양_ 설정을 사용하여 콘텐츠가 행에 표시되는 방식을 결�
 
 ### 이미지 유형 설정
 
-_[!UICONTROL Background Type]_&#x200B;을(를) `Image`(으)로 설정하는 경우 다음 설정을 사용하여 배경 이미지 표시를 정의합니다.
+_[!UICONTROL Background Type]_을(를) `Image`(으)로 설정하는 경우 다음 설정을 사용하여 배경 이미지 표시를 정의합니다.
 
 ![배경 이미지](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
@@ -258,3 +258,5 @@ _배경 유형_&#x200B;을(를) `Video`(으)로 설정하는 경우 다음 설�
   {style="table-layout:auto"}
 
   ![여백 및 패딩](./assets/pb-layout-row-settings-margin-padding-default.png){width="600" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

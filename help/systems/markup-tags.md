@@ -3,7 +3,7 @@ title: 마크업 태그
 description: 스토어의 개체를 참조할 수 있는 코드 조각이 포함된 마크업 태그에 대해 알아봅니다.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 마크업 태그
 
-마크업 태그는 변수, URL, 이미지 또는 블록과 같은 저장소의 개체에 대한 상대 참조가 있는 코드 조각을 포함하는 지시문입니다. 마크업 태그는 편집기를 사용할 수 있는 모든 곳에서 사용할 수 있으며 [전자 메일](email-templates.md) 및 [뉴스레터](../merchandising-promotions/newsletter-template.md) 템플릿과 다른 유형의 [콘텐츠](../content-design/introduction.md#content) HTML에 통합됩니다.
+마크업 태그는 변수, URL, 이미지 또는 블록과 같은 저장소의 개체에 대한 상대 참조가 있는 코드 조각을 포함하는 지시문입니다. 마크업 태그는 편집기를 사용할 수 있는 모든 곳에서 사용할 수 있으며 [이메일](email-templates.md) 및 [뉴스레터](../merchandising-promotions/newsletter-template.md) 템플릿의 HTML과 다른 유형의 [콘텐츠](../content-design/introduction.md#content)에 통합됩니다.
 
-마크업 태그는 중괄호로 묶이며 [위젯 도구]를 통해 생성하거나 HTML 컨텐츠에 직접 입력할 수 있습니다. 예를 들어 전체 경로를 페이지에 하드 코딩하는 대신 마크업 태그를 사용하여 스토어 URL을 나타낼 수 있습니다. 다음 예에 포함된 마크업 태그는 다음과 같습니다.
+마크업 태그는 중괄호로 묶이며 위젯 도구에서 생성하거나 HTML 컨텐츠에 직접 입력할 수 있습니다. 예를 들어 전체 경로를 페이지에 하드 코딩하는 대신 마크업 태그를 사용하여 스토어 URL을 나타낼 수 있습니다. 다음 예에 포함된 마크업 태그는 다음과 같습니다.
 
 {{$include /help/_includes/directives-caution.md}}
 
@@ -44,7 +44,7 @@ Dynamic media URL 마크업 태그는 CDN(Content Delivery Network)에 저장된
 
 ## 템플릿 태그
 
-템플릿 태그는 PHTML 템플릿 파일을 참조하며 CMS 페이지나 정적 블록에 블록을 표시하는 데 사용할 수 있습니다. 다음 예제의 코드를 페이지나 블록에 추가하여 Contact Us 양식을 표시할 수 있습니다.
+템플릿 태그는 PHTML 템플릿 파일을 참조하며 CMS 페이지 또는 정적 블록에 블록을 표시하는 데 사용할 수 있습니다. 다음 예제의 코드를 페이지나 블록에 추가하여 Contact Us 양식을 표시할 수 있습니다.
 
 \{\{block class=&quot;Magento\Contact\Block\ContactForm&quot; name=&quot;contactForm&quot; template=&quot;Magento_Contact::form.phtml&quot;}}
 
@@ -96,7 +96,7 @@ Store URL 태그는 웹 사이트의 기본 URL을 나타내며 도메인 이름
 
 다음 예제에서 URL 키는 작은 따옴표로 묶여 있고 전체 마크업 태그는 중괄호로 묶여 있습니다. 앵커 태그와 함께 사용할 경우 마크업 태그는 앵커의 큰따옴표 안에 배치됩니다. 혼동을 피하기 위해 중첩된 각 따옴표에 대해 작은 따옴표와 큰 따옴표를 번갈아 사용할 수 있습니다.
 
-전체 URL로 시작하는 경우 `.com/`을(를) 통해 URL의 HTTP 주소(`http://` 또는 `https://`) 부분을 삭제합니다. 그 자리에 여는 작은 따옴표를 통해 위에 있는 저장소 URL 마크업 태그를 입력합니다.
+전체 URL로 시작하는 경우 `http://`을(를) 통해 URL의 HTTP 주소(`https://` 또는 `.com/`) 부분을 삭제합니다. 그 자리에 여는 작은 따옴표를 통해 위에 있는 저장소 URL 마크업 태그를 입력합니다.
 
 #### URL 마크업 태그 저장
 
@@ -122,8 +122,10 @@ Store URL 태그는 웹 사이트의 기본 URL을 나타내며 도메인 이름
 
 \&lt;a href=&quot;\{\{markup tag goes here}}&quot;>링크 텍스트\&lt;/a>
 
-링크를 표시할 CMS 페이지, 블록, 배너 또는 이메일 템플릿의 코드에 완료된 앵커 태그를 붙여넣습니다.
+완성된 앵커 태그를 링크를 표시할 CMS 페이지, 블록, 배너 또는 이메일 템플릿의 코드에 붙여넣습니다.
 
 ### 마크업을 사용한 전체 링크
 
 \&lt;a href=&quot;\{\{store url=&#39;apparel/shoes&#39;}}&quot;>신발 판매\&lt;/a>
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

@@ -2,8 +2,8 @@
 title: 위젯
 description: 다양한 콘텐츠를 표시하고 스토어의 특정 블록 참조에 배치할 수 있도록 해 주는 코드 조각을 제공하는 위젯에 대해 알아봅니다.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -43,3 +43,5 @@ ht-degree: 0%
 | [!UICONTROL Wish List Search] | 이 옵션을 사용하여 고객에게 위시리스트 소유자의 이름 또는 이메일 주소로 공개적으로 사용 가능한 위시리스트를 검색할 수 있는 기능을 제공합니다. 스토어 고객은 다른 고객에 속한 위시리스트를 찾거나, 이를 보고 제품을 주문하거나, 제품을 자신의 위시리스트에 추가할 수 있습니다. |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

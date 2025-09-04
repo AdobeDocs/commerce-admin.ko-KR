@@ -3,7 +3,7 @@ title: 요소 - 텍스트
 description: ' [!DNL Page Builder] 스테이지에서 텍스트 컨테이너를 추가하는 데 사용되는 Text 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 요소 - 텍스트
 
-_Text_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.md#stage)에서 WYSIWYG(&quot;표시되는 것은 얻는 것&quot;) 편집기가 있는 텍스트 컨테이너를 추가하십시오. 또한 편집기 도구 모음에서 텍스트에 링크, 이미지, [변수](../systems/variables-predefined.md) 및 위젯을 추가할 수 있습니다.
+_단계_&#x200B;에서 WYSIWYG(&quot;What You See Is What You Get&quot;) 편집기가 있는 텍스트 컨테이너를 추가하려면 [[!DNL Page Builder] Text](workspace.md#stage) 콘텐츠 형식을 사용하십시오. 또한 편집기 도구 모음에서 텍스트에 링크, 이미지, [변수](../systems/variables-predefined.md) 및 위젯을 추가할 수 있습니다.
 
 ![배너의 서식 있는 텍스트](./assets/pb-storefont-banner-with-button.png){width="700"}
 
@@ -114,7 +114,7 @@ _Text_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.md
 
 1. 필요에 따라 콘텐츠를 업데이트합니다.
 
-1. 필요에 따라 _[!UICONTROL Advanced]_&#x200B;설정을 업데이트합니다.
+1. 필요에 따라 _[!UICONTROL Advanced]_설정을 업데이트합니다.
 
    - 상위 컨테이너 내의 텍스트 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하세요.
 
@@ -170,3 +170,5 @@ _Text_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.md
      {style="table-layout:auto"}
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

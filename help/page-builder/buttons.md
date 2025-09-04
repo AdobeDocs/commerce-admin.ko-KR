@@ -3,7 +3,7 @@ title: 요소 - 단추
 description: ' [!DNL Page Builder] 스테이지에서 개별 단추 또는 단추 집합을 추가하는 데 사용되는 Buttons 콘텐츠 형식에 대해 알아봅니다.'
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 요소 - 단추
 
-[[!DNL Page Builder] 단계](workspace.md#stage)에서 개별 단추 또는 단추 집합을 추가하려면 _단추_ 콘텐츠 형식을 사용하십시오. 가로 또는 세로 방향으로 단추를 배열하고 스테이지의 행, 열, 탭 및 배너에 직접 추가할 수 있습니다.
+_단계_&#x200B;에서 개별 단추 또는 단추 집합을 추가하려면 [[!DNL Page Builder] 단추](workspace.md#stage) 콘텐츠 형식을 사용하십시오. 가로 또는 세로 방향으로 단추를 배열하고 스테이지의 행, 열, 탭 및 배너에 직접 추가할 수 있습니다.
 
 ![상점 앞에 단추가 있는 배너](./assets/pb-storefont-banner-with-button.png){width="600" zoomable="yes"}
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
      ![단추 링크의 범주 선택](./assets/pb-elements-button-settings-button-link-category-search.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Page]** - CMS 페이지 이름(일부 또는 전체)을 입력하거나 빈 필드를 클릭하여 전체 목록을 표시합니다. 그런 다음 검색 결과 목록에서 페이지 이름을 선택합니다.
+   - **[!UICONTROL Page]** - CMS 페이지의 이름(일부 또는 전체)을 입력하거나 빈 필드를 클릭하여 전체 목록을 표시합니다. 그런 다음 검색 결과 목록에서 페이지 이름을 선택합니다.
 
      ![단추 링크에 대한 CMS 페이지 선택](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
    ![단추 컨테이너 도구 상자](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. _[!UICONTROL Appearance]_&#x200B;에서&#x200B;**[!UICONTROL Stacked]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL Appearance]_에서&#x200B;**[!UICONTROL Stacked]**을(를) 선택합니다.
 
 1. **[!UICONTROL All Buttons are same size]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -243,7 +243,7 @@ ht-degree: 0%
 
 ## 고급 설정 변경
 
-개별 단추 및 단추 컨테이너에 대한 _[!UICONTROL Advanced]_&#x200B;설정을 수정할 수 있습니다.
+개별 단추 및 단추 컨테이너에 대한 _[!UICONTROL Advanced]_설정을 수정할 수 있습니다.
 
 1. 상위 컨테이너 내의 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하십시오.
 
@@ -300,3 +300,5 @@ ht-degree: 0%
 
 [advanced-settings]: #change-advanced-settings
 [button-container]: #change-settings-for-a-button-container
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

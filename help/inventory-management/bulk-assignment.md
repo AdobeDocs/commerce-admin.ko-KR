@@ -3,7 +3,7 @@ title: 일괄 재고 출처 지정 및 지정 취소
 description: 소스 할당 도구를 사용하여 제품에 대한 소스 할당을 관리하는 방법을 알아봅니다.
 exl-id: 1f1e81a5-fb06-46b7-84ca-7feea4942093
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 _소스 할당_ 도구를 사용하여 제품에 하나 이상의 소스를 추가하십시오. 이 도구는 사용자 지정 소스를 만들고 기본 재고 또는 사용자 지정 재고에 할당하고 새 위치와 재고를 준비할 때 도움이 됩니다.
 
-새 사용자 지정 소스를 추가한 후 관리자를 통해 또는 [가져오기 기능](inventory-import-export.md)을 사용하여 제품당 [재고 수량](quantities-assign-per-product.md) 또는 여러 제품에 대한 재고 수량을 추가할 수 있습니다.
+새 사용자 지정 소스를 추가한 후 관리자를 통해 또는 [가져오기 기능](quantities-assign-per-product.md)을 사용하여 제품당 [재고 수량](inventory-import-export.md) 또는 여러 제품에 대한 재고 수량을 추가할 수 있습니다.
 
 ![선택한 제품에 대한 인벤토리 소스 추가](assets/inventory-bulk-assign-sources.gif)
 
@@ -65,3 +65,5 @@ _소스 할당_ 도구를 사용하여 제품에 하나 이상의 소스를 추�
 1. **[!UICONTROL Unassign Sources]**&#x200B;을(를) 클릭합니다.
 
    ![선택한 제품에서 소스 제거](assets/inventory-bulk-unassign-sources-summary.png){width="600" zoomable="yes"}
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

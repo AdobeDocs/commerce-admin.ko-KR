@@ -3,7 +3,7 @@ title: 요소 - 분할자
 description: ' [!DNL Page Builder] 단계의 콘텐츠 섹션 사이에 시각적 구분으로 규칙을 추가하는 데 사용되는 분할기 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -60,7 +60,7 @@ _분할기_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](worksp
 
 1. 다음 방법 중 하나를 사용하여 구분선 **[!UICONTROL Line Color]**&#x200B;을(를) 변경합니다.
 
-   - 올바른 [HTML 색상 이름][1]을(를) 입력하십시오. 예: `Teal`.
+   - 올바른 [HTML 색 이름][1]을(를) 입력하십시오. 예: `Teal`.
    - 16진수 색상 값을 입력합니다. 예: `#008080`.
 
    완료되면 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
@@ -73,7 +73,7 @@ _분할기_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](worksp
 
    ![선 색, 두께 및 폭 설정](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. 필요에 따라 _[!UICONTROL Advanced]_&#x200B;설정을 업데이트합니다.
+1. 필요에 따라 _[!UICONTROL Advanced]_설정을 업데이트합니다.
 
    - 부모 컨테이너 내의 구분선 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하세요.
 
@@ -157,3 +157,5 @@ _분할기_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](worksp
    ![복제된 구분선을 위치로 이동](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
 
 [1]: https://en.wikipedia.org/wiki/Web_colors
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

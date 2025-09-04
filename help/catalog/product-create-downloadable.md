@@ -3,7 +3,7 @@ title: 다운로드 가능한 제품
 description: 디지털 파일로 제공할 수 있는 다운로드 가능한 제품을 만드는 방법을 알아봅니다.
 exl-id: c3dd4c5f-adc1-4a8f-a9da-7f0dedd1ee34
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 0%
@@ -39,11 +39,11 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Catalog]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Downloadable Product Options]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Downloadable Product Options]_를 확장합니다.
 
    ![다운로드 가능한 제품 옵션](../configuration-reference/catalog/assets/catalog-downloadable-product-options.png){width="700" zoomable="yes"}
 
-   이러한 구성 옵션에 대한 자세한 목록이 필요하면 _구성 참조_&#x200B;에서 [_다운로드 가능한 제품 옵션_](../configuration-reference/catalog/catalog.md#downloadable-product-options)&#x200B;을 참조하십시오.
+   이러한 구성 옵션에 대한 자세한 목록이 필요하면 [_구성 참조_](../configuration-reference/catalog/catalog.md#downloadable-product-options)&#x200B;에서 _다운로드 가능한 제품 옵션_&#x200B;을 참조하십시오.
 
 1. 다운로드를 사용할 수 있을 때 주문 프로세스의 상태를 확인하려면 **[!UICONTROL Order Item Status to Enable Downloads]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ### 2단계: 속성 세트 선택
 
-샘플 데이터에는 다운로드 가능한 제품에 대한 특수 필드가 있는 _다운로드 가능_&#x200B;이라는 [특성 집합](attribute-sets.md)이(가) 포함되어 있습니다. 제품을 저장하기 전에 기존 템플릿을 사용하거나 다른 템플릿을 만들 수 있습니다.
+샘플 데이터에는 다운로드 가능한 제품에 대한 특수 필드가 있는 [다운로드 가능](attribute-sets.md)이라는 _특성 집합_&#x200B;이(가) 포함되어 있습니다. 제품을 저장하기 전에 기존 템플릿을 사용하거나 다른 템플릿을 만들 수 있습니다.
 
 제품의 템플릿으로 사용되는 속성 세트를 선택하려면 다음 중 하나를 수행합니다.
 
@@ -143,11 +143,11 @@ ht-degree: 0%
    >
    >[Inventory management](../inventory-management/introduction.md)을(를) 사용하도록 설정하면 단일 Source 판매자가 이 섹션에서 수량을 설정합니다. 다중 Source 판매자는 소스 섹션에서 소스 및 수량을 추가합니다. 다음 _소스 및 수량 할당(Inventory management)_ 섹션을 참조하십시오.
 
-1. `Catalog, Search`의 기본 **[!UICONTROL Visibility]** 설정을 사용합니다.
+1. **[!UICONTROL Visibility]**&#x200B;의 기본 `Catalog, Search` 설정을 사용합니다.
 
 1. [새 제품 목록](../content-design/widget-new-products-list.md)에 제품을 포함하려면 **[!UICONTROL Set Product as New]** 확인란을 선택하십시오.
 
-1. 제품에 _[!UICONTROL Categories]_&#x200B;을(를) 할당하려면&#x200B;**[!UICONTROL Select…]**&#x200B;상자를 클릭하고 다음 중 하나를 수행합니다.
+1. 제품에 _[!UICONTROL Categories]_을(를) 할당하려면&#x200B;**[!UICONTROL Select…]**상자를 클릭하고 다음 중 하나를 수행합니다.
 
    **기존 범주 선택**:
 
@@ -178,15 +178,15 @@ ht-degree: 0%
 
 ### 5단계: 다운로드 가능한 정보 완료
 
-아래로 스크롤하여 _[!UICONTROL Downloadable Information]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고&#x200B;**[!UICONTROL Is this downloadable product?]**&#x200B;확인란을 선택합니다.
+아래로 스크롤하여 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Downloadable Information]_를 확장하고&#x200B;**[!UICONTROL Is this downloadable product?]**확인란을 선택합니다.
 
-활성화하면 _[!UICONTROL Downloadable Information]_&#x200B;섹션에 두 부분이 있습니다. 첫 번째 부분에서는 각 다운로드 링크에 대해 설명하고 두 번째 부분에서는 각 샘플 파일에 대해 설명합니다. 이러한 옵션 중 많은 옵션의 기본값은 [configuration](#configure-the-download-options)에서 설정할 수 있습니다.
+활성화하면 _[!UICONTROL Downloadable Information]_섹션에 두 부분이 있습니다. 첫 번째 부분에서는 각 다운로드 링크에 대해 설명하고 두 번째 부분에서는 각 샘플 파일에 대해 설명합니다. 이러한 옵션 중 많은 옵션의 기본값은 [configuration](#configure-the-download-options)에서 설정할 수 있습니다.
 
 ![다운로드 가능한 정보](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### 링크 완료
 
-1. _[!UICONTROL Links]_&#x200B;섹션에서 다운로드 링크의 머리글로 사용할&#x200B;**[!UICONTROL Title]**&#x200B;을(를) 입력합니다.
+1. _[!UICONTROL Links]_섹션에서 다운로드 링크의 머리글로 사용할&#x200B;**[!UICONTROL Title]**을(를) 입력합니다.
 
 1. 해당하는 경우 **[!UICONTROL Links can be purchased separately]** 확인란을 선택하십시오.
 
@@ -201,7 +201,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >외부 리소스에 대한 링크를 다운로드 가능한 제품으로 사용할 수 없습니다. 유효한 링크 도메인은 `env.php` 파일에서 프로그래밍 방식으로 미리 정의되어 있습니다(_구성 안내서_&#x200B;의 [env.php 참조](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=ko) 참조).
+   >외부 리소스에 대한 링크를 다운로드 가능한 제품으로 사용할 수 없습니다. 유효한 링크 도메인은 `env.php` 파일에서 프로그래밍 방식으로 미리 정의되어 있습니다([구성 안내서](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html)의 _env.php 참조_ 참조).
 
    - **[!UICONTROL Shareable]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
@@ -222,7 +222,7 @@ ht-degree: 0%
 
 #### 샘플 작성
 
-1. _[!UICONTROL Samples]_&#x200B;섹션에서 샘플 머리글로 사용할&#x200B;**[!UICONTROL Title]**&#x200B;을(를) 입력합니다.
+1. _[!UICONTROL Samples]_섹션에서 샘플 머리글로 사용할&#x200B;**[!UICONTROL Title]**을(를) 입력합니다.
 
 1. 각 샘플에 대한 정보를 완료하려면 **[!UICONTROL Add Link]**&#x200B;을(를) 클릭합니다.
 
@@ -254,7 +254,7 @@ ht-degree: 0%
 - [디자인](settings-advanced-design.md)
 - [선물 옵션](product-gift-options.md)
 
-### 7단계: 제품 Publish
+### 7단계: 제품 게시
 
 제품을 카탈로그에 게시할 준비가 되었으면 **[!UICONTROL Enable Product]**&#x200B;을(를) `Yes`(으)로 설정하고 다음 중 하나를 수행하십시오.
 
@@ -262,7 +262,7 @@ ht-degree: 0%
 
 - 오른쪽 상단에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-- 스토어에서 제품을 보려면 _관리자_( ![메뉴 화살표](../assets/icon-menu-down-arrow-black.png)) 메뉴에서 **[!UICONTROL Customer View]**&#x200B;을(를) 선택하십시오.
+- 스토어에서 제품을 보려면 **[!UICONTROL Customer View]**&#x200B;관리자&#x200B;_(_&#x200B;메뉴 화살표![) 메뉴에서 ](../assets/icon-menu-down-arrow-black.png)을(를) 선택하십시오.
 
   저장소가 새 브라우저 탭에서 열립니다.
 
@@ -270,11 +270,11 @@ ht-degree: 0%
 
 **메서드 2:** 저장 및 닫기
 
-_[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
+_[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
 
 ## Storefront 경험
 
-고객 계정 대시보드에서 _[!UICONTROL My Downloadable Products]_&#x200B;페이지가 다운로드 가능한 각 제품 순서에 연결됩니다. 주문이 완료되면 고객의 계정에서 다운로드를 사용할 수 있습니다.
+고객 계정 대시보드에서 _[!UICONTROL My Downloadable Products]_페이지가 다운로드 가능한 각 제품 순서에 연결됩니다. 주문이 완료되면 고객의 계정에서 다운로드를 사용할 수 있습니다.
 
 ![내 다운로드 가능한 제품](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
@@ -288,7 +288,7 @@ _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png)
 | [!UICONTROL Status] | 주문 처리 상태. |
 | [!UICONTROL Remaining Downloads] | 다운로드한 제품에 대해 사용 가능한 다운로드 수입니다. |
 
-_&#x200B;**계정 대시보드에서 제품 파일을 다운로드하려면**&#x200B;_
+_**계정 대시보드에서 제품 파일을 다운로드하려면**_
 
 1. 계정 대시보드에서 고객이 **[!UICONTROL My Downloadable Products]**&#x200B;을(를) 선택합니다.
 
@@ -297,3 +297,5 @@ _&#x200B;**계정 대시보드에서 제품 파일을 다운로드하려면**&#x
 1. 다운로드 창의 오른쪽 아래 모서리에서 _다운로드_ 아이콘을 클릭합니다.
 
 1. 파일을 다운로드 위치에서 찾아 원하는 위치에 저장합니다.
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

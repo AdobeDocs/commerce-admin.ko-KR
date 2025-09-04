@@ -3,7 +3,7 @@ title: 콘텐츠 추가 - 차단
 description: ' [!DNL Page Builder] 스테이지에 재사용 가능한 블록을 추가하는 데 사용되는 블록 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -146,3 +146,5 @@ _블록_ 콘텐츠 형식을 사용하여 기존의 활성 [블록](../content-d
 1. 블록 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _제거_(![제거 아이콘](./assets/pb-icon-remove.png)) 아이콘을 선택합니다.
 
 1. 확인 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

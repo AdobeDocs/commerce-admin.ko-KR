@@ -3,7 +3,7 @@ title: 단순 제품
 description: 개별적으로 또는 그룹화되거나, 구성 가능하거나, 번들 제품의 일부로 판매할 수 있는 간단한 제품을 만드는 방법에 대해 알아봅니다.
 exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Simple Product]**&#x200B;을(를) 선택합니다.
+1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Simple Product]**을(를) 선택합니다.
 
    ![간단한 제품 추가](./assets/product-add-simple.png){width="700" zoomable="yes"}
 
@@ -81,9 +81,9 @@ ht-degree: 0%
 
 1. 제품의 **[!UICONTROL Weight]**&#x200B;을(를) 입력하십시오.
 
-1. `Catalog, Search`의 기본 **[!UICONTROL Visibility]** 설정을 사용합니다.
+1. **[!UICONTROL Visibility]**&#x200B;의 기본 `Catalog, Search` 설정을 사용합니다.
 
-1. 제품에 _[!UICONTROL Categories]_&#x200B;을(를) 할당하려면&#x200B;**[!UICONTROL Select…]**&#x200B;상자를 클릭하고 다음 중 하나를 수행합니다.
+1. 제품에 _[!UICONTROL Categories]_을(를) 할당하려면&#x200B;**[!UICONTROL Select…]**상자를 클릭하고 다음 중 하나를 수행합니다.
 
    **기존 범주 선택**:
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 - [디자인](settings-advanced-design.md)
 - [선물 옵션](product-gift-options.md)
 
-## 6단계: 제품 Publish
+## 6단계: 제품 게시
 
 1. 제품을 카탈로그에 게시할 준비가 되면 **[!UICONTROL Enable Product]** 스위치를 `Yes`(으)로 설정하십시오.
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
       - 오른쪽 상단에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-      - 스토어에서 제품을 보려면 _관리자_(![메뉴 화살표](../assets/icon-menu-down-arrow-black.png)) 메뉴에서 **[!UICONTROL Customer View]**&#x200B;을(를) 선택하세요.
+      - 스토어에서 제품을 보려면 **[!UICONTROL Customer View]**&#x200B;관리자&#x200B;_(_&#x200B;메뉴 화살표![) 메뉴에서 ](../assets/icon-menu-down-arrow-black.png)을(를) 선택하세요.
 
      저장소가 새 브라우저 탭에서 열립니다.
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
    - **메서드 2:** 저장 및 닫기
 
-     _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
+     _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
 
 ## 기억해야 할 사항
 
@@ -149,3 +149,5 @@ ht-degree: 0%
 - 단순 제품 구성은 특정 제품에 대해 구성 가능한 제품 구성을 무시합니다.
 
 - 간단한 제품에는 다양한 유형의 입력이 있는 사용자 정의 옵션이 있을 수 있으므로 단일 SKU에서 다양한 제품 변형을 판매할 수 있습니다.
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

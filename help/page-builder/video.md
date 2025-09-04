@@ -3,7 +3,7 @@ title: 미디어 - 비디오
 description: YouTube 또는 Vimeo에서 호스팅되는 비디오를  [!DNL Page Builder] 스테이지에 추가하는 데 사용되는 비디오 콘텐츠 유형에 대해 알아봅니다.
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 0%
@@ -26,7 +26,7 @@ _Video_ 콘텐츠 형식을 사용하여 [YouTube][1] 또는 [Vimeo][2]에서 �
 |--- |--- |--- |
 | 이동 | ![이동 아이콘](./assets/pb-icon-move.png){width="25"} | 비디오를 스테이지의 다른 위치로 이동합니다. |
 | (레이블) | [!UICONTROL Video] | 현재 콘텐츠 컨테이너를 비디오로 식별합니다. 이미지 컨테이너 위로 마우스를 가져가면 도구 상자를 볼 수 있습니다. |
-| 설정 | ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} | 비디오 및 컨테이너의 속성을 변경할 수 있는 _[!UICONTROL Edit Video]_&#x200B;페이지를 엽니다. |
+| 설정 | ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} | 비디오 및 컨테이너의 속성을 변경할 수 있는 _[!UICONTROL Edit Video]_페이지를 엽니다. |
 | 숨기기 | ![아이콘 숨기기](./assets/pb-icon-hide.png){width="25"} | 현재 비디오를 숨깁니다. |
 | 표시 | ![아이콘 표시](./assets/pb-icon-show.png){width="25"} | 숨겨진 비디오를 표시합니다. |
 | 복제 | ![중복 아이콘](./assets/pb-icon-duplicate.png){width="25"} | 비디오를 복사합니다. |
@@ -170,3 +170,5 @@ _Video_ 콘텐츠 형식을 사용하여 [YouTube][1] 또는 [Vimeo][2]에서 �
 
 [1]: https://www.youtube.com/
 [2]: https://vimeo.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

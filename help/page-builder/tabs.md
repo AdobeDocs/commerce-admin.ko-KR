@@ -3,7 +3,7 @@ title: 레이아웃 - 탭
 description: ' [!DNL Page Builder] 스테이지에서 탭 집합을 추가하는 데 사용되는 Tab 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
-source-git-commit: 67bf39e8c09d6169ec5ec5e2f396e973476af56a
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 0%
@@ -56,7 +56,7 @@ _탭_ 콘텐츠 형식을 사용하여 작업할 때 개별 탭과 하나 이상
 
 ## 개별 탭 추가
 
-1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Tabs]**&#x200B;자리 표시자를 스테이지 또는 스테이지의 행 또는 열로 직접 드래그합니다.
+1. [!DNL Page Builder] 아래의 _[!UICONTROL Layout]_패널에서&#x200B;**[!UICONTROL Tabs]**자리 표시자를 스테이지 또는 스테이지의 행 또는 열로 직접 드래그합니다.
 
    ![탭을 행으로 드래그](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -326,3 +326,5 @@ _탭_ 콘텐츠 형식을 사용하여 작업할 때 개별 탭과 하나 이상
 
 [background]: #background
 [advanced]: #advanced
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,7 +3,7 @@ title: 가상 제품
 description: 멤버십, 서비스, 보증 또는 구독과 같은 유형의 항목이 아닌 항목을 나타내는 가상 제품을 만드는 방법을 알아봅니다.
 exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 가상 제품 또는 디지털 상품은 멤버십, 서비스, 보증 또는 구독 및 책, 음악, 비디오 또는 기타 제품의 디지털 다운로드와 같은 유형 이외의 항목을 나타냅니다. 가상 제품은 개별적으로 판매하거나 [그룹화된 제품](product-create-grouped.md), [구성 가능한 제품](product-create-configurable.md) 또는 [번들 제품](product-create-bundle.md) 제품 형식의 일부로 포함할 수 있습니다.
 
-_[!UICONTROL Weight]_&#x200B;필드가 없는 것 외에 가상 제품과 간단한 제품을 만드는 과정은 동일합니다. 다음 지침은 [제품 템플릿](attribute-sets.md), 필수 필드 및 기본 설정을 사용하여 가상 제품을 만드는 프로세스를 보여 줍니다. 기본 사항을 완료하면 필요에 따라 다른 제품 설정을 완료할 수 있습니다.
+_[!UICONTROL Weight]_필드가 없는 것 외에 가상 제품과 간단한 제품을 만드는 과정은 동일합니다. 다음 지침은 [제품 템플릿](attribute-sets.md), 필수 필드 및 기본 설정을 사용하여 가상 제품을 만드는 프로세스를 보여 줍니다. 기본 사항을 완료하면 필요에 따라 다른 제품 설정을 완료할 수 있습니다.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ _[!UICONTROL Weight]_&#x200B;필드가 없는 것 외에 가상 제품과 간단
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Virtual Product]**&#x200B;을(를) 선택합니다.
+1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Virtual Product]**을(를) 선택합니다.
 
    ![가상 제품 추가](./assets/product-add-virtual.png){width="700" zoomable="yes"}
 
@@ -69,11 +69,11 @@ _[!UICONTROL Weight]_&#x200B;필드가 없는 것 외에 가상 제품과 간단
 
 1. 재고가 있는 제품의 **[!UICONTROL Quantity]**&#x200B;을(를) 입력하고 다음을 수행합니다.
 
-   - `In Stock`의 기본 **[!UICONTROL Stock Status]** 설정을 사용합니다.
+   - **[!UICONTROL Stock Status]**&#x200B;의 기본 `In Stock` 설정을 사용합니다.
 
      가상 제품이 제공되지 않았으므로 **[!UICONTROL Weight]** 필드가 사용되지 않습니다.
 
-   - `Catalog, Search`의 기본 **[!UICONTROL Visibility]** 설정을 사용합니다.
+   - **[!UICONTROL Visibility]**&#x200B;의 기본 `Catalog, Search` 설정을 사용합니다.
 
    >[!NOTE]
    >
@@ -116,9 +116,9 @@ _[!UICONTROL Weight]_&#x200B;필드가 없는 것 외에 가상 제품과 간단
 
 >[!NOTE]
 >
->_[!UICONTROL Is this downloadable product?]_&#x200B;옵션은 기본적으로 비활성화되어 있습니다. 가상 제품에 대해 이 기능을 사용하도록 설정하면 제품을 [다운로드 가능](product-create-downloadable.md#downloadable-product)합니다.
+>_[!UICONTROL Is this downloadable product?]_옵션은 기본적으로 비활성화되어 있습니다. 가상 제품에 대해 이 기능을 사용하도록 설정하면 제품을 [다운로드 가능](product-create-downloadable.md#downloadable-product)합니다.
 
-## 6단계: 제품 Publish
+## 6단계: 제품 게시
 
 1. 제품을 카탈로그에 게시할 준비가 되면 **[!UICONTROL Enable Product]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -128,7 +128,7 @@ _[!UICONTROL Weight]_&#x200B;필드가 없는 것 외에 가상 제품과 간단
 
       - 오른쪽 상단에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-      - 스토어에서 제품을 보려면 _관리자_( ![메뉴 화살표](../assets/icon-menu-down-arrow-black.png)) 메뉴에서 **[!UICONTROL Customer View]**&#x200B;을(를) 선택하십시오.
+      - 스토어에서 제품을 보려면 **[!UICONTROL Customer View]**&#x200B;관리자&#x200B;_(_&#x200B;메뉴 화살표![) 메뉴에서 ](../assets/icon-menu-down-arrow-black.png)을(를) 선택하십시오.
 
      저장소가 새 브라우저 탭에서 열립니다.
 
@@ -136,7 +136,7 @@ _[!UICONTROL Weight]_&#x200B;필드가 없는 것 외에 가상 제품과 간단
 
    - **메서드 2:** 저장 및 닫기
 
-     _[!UICONTROL Save]_(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
+     _[!UICONTROL Save]_(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
 
 ## 기억해야 할 사항
 
@@ -145,3 +145,5 @@ _[!UICONTROL Weight]_&#x200B;필드가 없는 것 외에 가상 제품과 간단
 - 가상 제품은 단순한 제품과 매우 유사하지만 무게는 없습니다.
 
 - 장바구니에 유형의 제품이 없는 한 체크아웃 중에는 배송 옵션이 나타나지 않습니다.
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

@@ -4,7 +4,7 @@ description: Commerce 관리자의 [!UICONTROL Advanced] &gt; [!UICONTROL System
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 1%
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 ![고급 구성 - 메일 전송 설정](./assets/system-mail-sending-settings.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [전자 메일 통신 구성](../../systems/email-communications.md)을 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/email-communications.md)에서 _전자 메일 통신 구성_&#x200B;을 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 ![고급 구성 - 통화](./assets/system-currency.png)<!-- zoom -->
 
-이 설정을 변경하는 방법에 대한 자세한 내용은 _저장 및 구매 경험 안내서_&#x200B;에서 [통화 구성](../../stores-purchase/currency-configuration.md)을 참조하세요.
+이 설정을 변경하는 방법에 대한 자세한 내용은 [저장 및 구매 경험 안내서](../../stores-purchase/currency-configuration.md)에서 _통화 구성_&#x200B;을 참조하세요.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -119,7 +119,7 @@ ht-degree: 1%
 
 ![고급 구성 - 보안](./assets/system-security.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [세션 관리](../../systems/security-session-management.md)를 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/security-session-management.md)에서 _세션 관리_&#x200B;를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 ![고급 구성 - 알림](./assets/system-notifications.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [시스템 알림](../../systems/notifications.md)을 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/notifications.md)에서 _시스템 알림_&#x200B;을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -148,13 +148,13 @@ ht-degree: 1%
 
 {{$include /help/_includes/backups-note.md}}
 
-이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [시스템 백업](../../systems/backups.md)을 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/backups.md)에서 _시스템 백업_&#x200B;을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | 글로벌 | Commerce 인스턴스에서 백업을 허용하는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | 글로벌 | (_[!UICONTROL Enable Backup]_&#x200B;이(가) `Yes`(으)로 설정되면 표시됩니다.) Commerce 인스턴스가 정기적으로 자동으로 백업되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | 글로벌 | (_[!UICONTROL Enable Scheduled Backup]_&#x200B;이(가) `Yes`(으)로 설정된 경우 표시됩니다.) 백업에 포함된 Commerce 인스턴스의 요소를 결정합니다. 옵션: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Enable Scheduled Backup] | 글로벌 | (_[!UICONTROL Enable Backup]_이(가) `Yes`(으)로 설정되면 표시됩니다.) Commerce 인스턴스가 정기적으로 자동으로 백업되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | 글로벌 | (_[!UICONTROL Enable Scheduled Backup]_이(가) `Yes`(으)로 설정된 경우 표시됩니다.) 백업에 포함된 Commerce 인스턴스의 요소를 결정합니다. 옵션: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | 글로벌 | ([!UICONTROL Enable Scheduled Backup]이(가) `Yes`(으)로 설정되면 표시됩니다.) 예약된 백업이 시작되는 시간, 분, 초를 지정합니다. |
 | [!UICONTROL Frequency] | 글로벌 | ([!UICONTROL Enable Scheduled Backup]이(가) `Yes`(으)로 설정되어 있을 때 표시됩니다.) 예약된 백업이 수행되는 빈도를 결정합니다. 옵션: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | 글로벌 | ([!UICONTROL Enable Scheduled Backup]이(가) `Yes`(으)로 설정되면 표시됩니다.) 예약된 백업 동안 저장소가 유지 관리 모드에 있는지 여부를 확인합니다. 옵션: `Yes` / `No` |
@@ -167,7 +167,7 @@ ht-degree: 1%
 
 ![고급 구성 - 관리 작업 로그 보관](./assets/system-admin-actions-log-archiving.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [작업 로그 보관](../../systems/action-log-archive.md)을 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/action-log-archive.md)에서 _작업 로그 보관_&#x200B;을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -180,7 +180,7 @@ ht-degree: 1%
 
 ![고급 구성 - 전체 페이지 캐시](./assets/system-full-page-cache.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [전체 페이지 캐싱](../../systems/cache-management.md#full-page-caching)을 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/cache-management.md#full-page-caching)에서 _전체 페이지 캐싱_&#x200B;을 참조하십시오.
 
 ![고급 구성 - 바니시 구성](./assets/system-full-page-cache-varnish.png)<!-- zoom -->
 
@@ -188,7 +188,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | 글로벌 | 전체 페이지 캐시를 관리하는 데 사용할 응용 프로그램을 결정합니다. 옵션: <br/>**`Built-in Application`**- 프로덕션 환경에는 권장되지 않습니다.<br/>**`Varnish Caching`** - 프로덕션 환경에 권장됩니다. |
 | [!UICONTROL TTL for public content] | 글로벌 | 공개 콘텐츠 캐시의 라이프타임(초)을 결정합니다. 기본값: `120` |
-| [!UICONTROL Handles param size] | 글로벌 | [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=ko) HTTP 끝점에서 처리할 최대 [레이아웃 핸들](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) 수를 지정합니다. 크기를 제한하면 보안과 성능을 향상시킬 수 있습니다. 기본값: `100` |
+| [!UICONTROL Handles param size] | 글로벌 | [](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) HTTP 끝점에서 처리할 최대 [`{BASE-URL}/page_cache/block/esi`레이아웃 핸들](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) 수를 지정합니다. 크기를 제한하면 보안과 성능을 향상시킬 수 있습니다. 기본값: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | 글로벌 | 구성 파일을 생성하기 위해 바니시 구성을 제거할 수 있는 IP 주소를 지정합니다. 여러 항목은 쉼표로 구분하십시오. 기본값: `localhost` |
 | [!UICONTROL Backend host] | 글로벌 | 구성 파일을 생성하는 백엔드 호스트를 지정합니다. 기본값: `localhost` |
@@ -205,7 +205,7 @@ ht-degree: 1%
 
 ![고급 구성 - 미디어 - 파일 시스템에 대한 저장소 구성](./assets/system-storage-config-media.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _콘텐츠 및 디자인 가이드_&#x200B;에서 [미디어 데이터베이스 사용](../../content-design/media-storage-database.md)을 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [콘텐츠 및 디자인 가이드](../../content-design/media-storage-database.md)에서 _미디어 데이터베이스 사용_&#x200B;을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -235,7 +235,7 @@ ht-degree: 1%
 
 ![고급 구성 - 일괄 작업](./assets/system-bulk-actions.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [일괄 작업](../../systems/action-log-bulk-actions.md)을 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/action-log-bulk-actions.md)에서 _일괄 작업_&#x200B;을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -249,7 +249,7 @@ ht-degree: 1%
 
 ![고급 구성 - 예약된 가져오기/내보내기 파일 기록 정리](./assets/system-schedule-history-cleaning.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [예약된 가져오기 및 내보내기](../../systems/data-scheduled-import-export.md)를 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/data-scheduled-import-export.md)에서 _예약된 가져오기 및 내보내기_&#x200B;를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -268,7 +268,7 @@ ht-degree: 1%
 
 ![고급 구성 - 이미지 업로드 구성](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -305,7 +305,7 @@ ht-degree: 1%
 
 ![고급 구성 - Adobe Stock 통합](./assets/system-adobe-stock-integration.png)<!-- zoom -->
 
-이러한 설정 구성에 대한 자세한 내용은 _콘텐츠 및 디자인 가이드_&#x200B;에서 [Adobe Stock 통합](../../content-design/adobe-stock.md)을 참조하십시오.
+이러한 설정 구성에 대한 자세한 내용은 [콘텐츠 및 디자인 가이드](../../content-design/adobe-stock.md)에서 _Adobe Stock 통합_&#x200B;을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -315,3 +315,5 @@ ht-degree: 1%
 | [!UICONTROL Test Connection] |  | 테스트를 실행하여 API 키가 Adobe Stock 서비스에 사용할 수 있는지 확인합니다. |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-02-22 09:59:54 -->

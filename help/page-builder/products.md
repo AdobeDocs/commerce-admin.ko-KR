@@ -3,7 +3,7 @@ title: 콘텐츠 추가 - 제품
 description: ' [!DNL Page Builder] 단계에 제품 목록을 추가하는 데 사용되는 제품 콘텐츠 형식에 대해 알아봅니다.'
 exl-id: 8ef38669-a6f6-493b-b963-b0fc4e3bbff4
 feature: Page Builder, Page Content, Products
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1913'
 ht-degree: 0%
@@ -116,7 +116,7 @@ _제품_ 콘텐츠 형식을 사용하여 눈금 또는 회전판 레이아웃�
 
      >[!NOTE]
      >
-     >카테고리 또는 SKU 옵션을 선택하면 `Position`의 **[!UICONTROL Sort By]** 옵션이 제공됩니다. 이 정렬 옵션을 사용하면 제품이 카탈로그에 표시되는 순서와 동일한 순서로 나타납니다.</br>
+     >카테고리 또는 SKU 옵션을 선택하면 **[!UICONTROL Sort By]**&#x200B;의 `Position` 옵션이 제공됩니다. 이 정렬 옵션을 사용하면 제품이 카탈로그에 표시되는 순서와 동일한 순서로 나타납니다.</br>
      >
      >범주 옵션의 경우 위치별로 정렬하면 카탈로그에 표시된 순서와 동일한 순서로 제품이 표시됩니다. SKU 옵션의 경우 위치별로 정렬하면 **[!UICONTROL Product SKUs]** 텍스트 상자에 입력한 순서대로 제품이 표시됩니다.
 
@@ -252,3 +252,5 @@ _제품_ 콘텐츠 형식을 사용하여 눈금 또는 회전판 레이아웃�
 ![스테이지에서 제품 회전 메뉴](./assets/pb-products-admin-carousel.png){width="600"}
 
 이제 [위젯](../content-design/widgets.md)을 사용하여 이 블록을 스토어에 표시할 위치에 배치할 수 있습니다. 또는 [콘텐츠 추가 - 블록](block.md)을 사용하여 기존 페이지, 탭 또는 블록에 블록을 추가할 수 있습니다.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

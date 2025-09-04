@@ -2,7 +2,7 @@
 title: Adobe Commerce B2B 이전 버전과 호환 불가능한 변경 사항
 description: 사용자 지정 코드를 업데이트해야 할 수 있는 Adobe Commerce B2B 릴리스의 변경 사항에 대해 알아봅니다.
 exl-id: 79b66843-3f34-4fe9-9670-53d19b749eb4
-source-git-commit: b869440f08d4c51efbafec94d9cce9f7f5b05b49
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
@@ -28,3 +28,5 @@ Adobe Commerce 릴리스용 B2B에서 이전 버전과 호환되지 않는 모�
 {{$include /help/_includes/backward-incompatible-changes/1.3.4-1.3.5.md}}
 
 {{$include /help/_includes/backward-incompatible-changes/1.3.3-1.3.4.md}}
+
+<!-- Last updated from includes: 2025-04-29 22:23:23 -->

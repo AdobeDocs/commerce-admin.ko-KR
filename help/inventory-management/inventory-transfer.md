@@ -3,7 +3,7 @@ title: 재고를 소스로 이전
 description: 멀티 소스 판매자가 한 소스 위치에서 다른 소스 위치로 제품 재고를 전송하는 방법에 대해 알아봅니다.
 exl-id: 30438412-bc93-4e65-8b6a-5ddb50afa7ff
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -53,3 +53,5 @@ ht-degree: 0%
 1. **[!UICONTROL Transfer Inventory]**&#x200B;을(를) 클릭합니다.
 
    모든 제품 수량은 출처 출처에서 공제되어 목적지 출처에 추가됩니다. 수량 및 판매 가능 수량이 자동으로 업데이트됩니다.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

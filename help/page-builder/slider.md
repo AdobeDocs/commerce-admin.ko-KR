@@ -3,7 +3,7 @@ title: 미디어 - 슬라이더
 description: ' [!DNL Page Builder] 스테이지에 이미지 슬라이드 쇼를 추가하는 데 사용되는 Slider 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '3810'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 |--- |--- |--- |
 | 이동 | ![이동 아이콘](./assets/pb-icon-move.png){width="25"} | 슬라이드를 슬라이더의 다른 위치로 이동합니다. |
 | (레이블) | 슬라이드 번호 | 현재 슬라이드의 수를 식별합니다. |
-| 설정 | ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} | 현재 슬라이드의 속성을 변경할 수 있는 _[!UICONTROL Edit Slide]_&#x200B;페이지를 엽니다. |
+| 설정 | ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} | 현재 슬라이드의 속성을 변경할 수 있는 _[!UICONTROL Edit Slide]_페이지를 엽니다. |
 | 복제 | ![중복 아이콘](./assets/pb-icon-duplicate.png){width="25"} | 현재 슬라이드를 복사합니다. |
 | 제거 | ![제거 아이콘](./assets/pb-icon-remove.png){width="25"} | 슬라이더에서 현재 슬라이드를 삭제합니다. |
 
@@ -42,7 +42,7 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 |--- |--- |--- |
 | 이동 | ![이동 아이콘](./assets/pb-icon-move.png){width="25"} | 슬라이더를 스테이지의 다른 위치로 이동합니다. |
 | (레이블) | [!UICONTROL Slider] | 슬라이더 컨테이너를 식별합니다. |
-| 설정 | ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} | 비디오 및 컨테이너의 속성을 변경할 수 있는 _[!UICONTROL Edit Slider]_&#x200B;페이지를 엽니다. |
+| 설정 | ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} | 비디오 및 컨테이너의 속성을 변경할 수 있는 _[!UICONTROL Edit Slider]_페이지를 엽니다. |
 | 숨기기 | ![아이콘 숨기기](./assets/pb-icon-hide.png){width="25"} | 현재 슬라이더를 숨깁니다. |
 | 표시 | ![아이콘 표시](./assets/pb-icon-show.png){width="25"} | 숨겨진 슬라이더를 표시합니다. |
 | 복제 | ![중복 아이콘](./assets/pb-icon-duplicate.png){width="25"} | 슬라이더를 복사합니다. |
@@ -126,11 +126,11 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
    - [[!UICONTROL Content]](#content)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. 완료되면 오른쪽 상단의 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 _[!UICONTROL Edit Slide]_&#x200B;페이지를 닫습니다.
+1. 완료되면 오른쪽 상단의 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 _[!UICONTROL Edit Slide]_페이지를 닫습니다.
 
 ### 슬라이드에 위젯 추가
 
-다음 단계를 사용하여 [!DNL Page Builder] 단계의 슬라이드에 [위젯 유형](../content-design/widgets.md#widget-types)을(를) 추가할 수 있습니다.
+다음 단계를 사용하여 [ 단계의 슬라이드에 ](../content-design/widgets.md#widget-types)위젯 유형[!DNL Page Builder]을(를) 추가할 수 있습니다.
 
 1. 슬라이드에 표시할 [위젯을 만듭니다](../content-design/widget-create.md).
 
@@ -256,7 +256,7 @@ Slider 콘텐츠 유형을 사용하여 작업하는 경우 개별 슬라이드�
 
 ### 이미지 유형 설정
 
-_[!UICONTROL Background Type]_&#x200B;을(를) `Image`(으)로 설정하는 경우 다음 설정을 사용하여 배경 이미지 표시를 정의합니다.
+_[!UICONTROL Background Type]_을(를) `Image`(으)로 설정하는 경우 다음 설정을 사용하여 배경 이미지 표시를 정의합니다.
 
 ![배경 이미지가 있는 배너](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -338,9 +338,9 @@ _배경 유형_&#x200B;을(를) `Video`(으)로 설정하는 경우 다음 설�
 
 1. 슬라이더 하단에 있는 탐색 점을 클릭하여 개별 슬라이드의 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
-1. _[!UICONTROL Content]_&#x200B;섹션에서 슬라이드와 함께 표시할&#x200B;**[!UICONTROL Message Text]**&#x200B;을(를) 입력합니다.
+1. _[!UICONTROL Content]_섹션에서 슬라이드와 함께 표시할&#x200B;**[!UICONTROL Message Text]**을(를) 입력합니다.
 
-1. _[!UICONTROL Content]_&#x200B;섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Message Text]**&#x200B;편집기를 사용하여 배너 텍스트를 입력하고 서식을 지정합니다.
+1. _[!UICONTROL Content]_섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Message Text]**편집기를 사용하여 배너 텍스트를 입력하고 서식을 지정합니다.
 
    텍스트 링크, 이미지 및 위젯과 같은 요소를 삽입할 수도 있습니다.
 
@@ -367,7 +367,7 @@ _배경 유형_&#x200B;을(를) `Video`(으)로 설정하는 경우 다음 설�
      ![연결할 페이지 선택](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
 
    <div class="bs-callout-info" markdown="1">
-   2.4.1 릴리스부터 [!DNL Page Builder]은(는) 상점에서의 표시 문제로 인해 더 이상 중첩 텍스트 내에서 슬라이드 및 링크 연결을 지원하지 않습니다. _[!UICONTROL Message Text]_&#x200B;에서 링크를 사용하는 경우 _[!UICONTROL Link]_ 옵션을 구성할 수 없습니다. 전체 슬라이드에 하나의 링크를 사용하려는 경우 텍스트에서 모든 링크를 제거할 수 있습니다.
+   2.4.1 릴리스부터 [!DNL Page Builder]은(는) 상점에서의 표시 문제로 인해 더 이상 중첩 텍스트 내에서 슬라이드 및 링크 연결을 지원하지 않습니다. _[!UICONTROL Message Text]_에서 링크를 사용하는 경우 _[!UICONTROL Link]_ 옵션을 구성할 수 없습니다. 전체 슬라이드에 하나의 링크를 사용하려는 경우 텍스트에서 모든 링크를 제거할 수 있습니다.
 
    ![링크 구성이 차단됨](./assets/pb-nested-link-blocked.png){width="300"}
    </div>
@@ -614,10 +614,12 @@ _배경 유형_&#x200B;을(를) `Video`(으)로 설정하는 경우 다음 설�
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
-1. _페이지_ 그리드에서 페이지를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 선택합니다.
+1. _페이지_ 그리드에서 페이지를 찾은 다음 **[!UICONTROL View]** 열에서 _[!UICONTROL Action]_을(를) 선택합니다.
 
    ![슬라이더 미리 보기 - 표준 보기](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
 
    슬라이더를 미리 볼 때 모바일 디바이스에서 슬라이더가 어떻게 표시되는지 볼 수 있도록 창 크기를 조정합니다.
 
    ![슬라이더 미리 보기 - 모바일 보기](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

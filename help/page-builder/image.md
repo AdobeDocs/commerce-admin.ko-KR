@@ -1,9 +1,9 @@
 ---
 title: 미디어 - 이미지
-description: ' [!DNL Page Builder] 스테이지에 JPG, GIF 또는 PNG 이미지를 추가하는 데 사용되는 이미지 콘텐츠 유형에 대해 알아봅니다.'
+description: JPG, GIF 또는 PNG 이미지를  [!DNL Page Builder] 스테이지에 추가하는 데 사용되는 이미지 콘텐츠 유형에 대해 알아봅니다.
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -58,7 +58,7 @@ _이미지_ 콘텐츠 형식을 사용하여 JPG, GIF 또는 PNG 이미지를 [[
    >
    >최대 파일 크기는 4MB입니다. 지원되는 파일 유형은 JPG, GIF 및 PNG입니다.
 
-   - _&#x200B;**새 이미지 업로드**&#x200B;_: 이 메서드를 사용하여 시스템에서 새 이미지 파일을 업로드합니다.
+   - _**새 이미지 업로드**_: 이 메서드를 사용하여 시스템에서 새 이미지 파일을 업로드합니다.
 
       - **[!UICONTROL Upload Image]**&#x200B;을(를) 클릭합니다.
 
@@ -66,7 +66,7 @@ _이미지_ 콘텐츠 형식을 사용하여 JPG, GIF 또는 PNG 이미지를 [[
 
      또는 시스템에서 이미지 파일을 드래그하여 _카메라_( ![카메라 아이콘](./assets/pb-icon-camera.png){width="20"} ) 아이콘에 놓을 수도 있습니다.
 
-   - _&#x200B;**기존 에셋 선택**&#x200B;_: 이 메서드를 사용하여 미디어 저장소/갤러리에서 기존 이미지 에셋을 선택합니다.
+   - _**기존 에셋 선택**_: 이 메서드를 사용하여 미디어 저장소/갤러리에서 기존 이미지 에셋을 선택합니다.
 
       - **[!UICONTROL Select from Gallery]**&#x200B;을(를) 클릭합니다.
 
@@ -76,7 +76,7 @@ _이미지_ 콘텐츠 형식을 사용하여 JPG, GIF 또는 PNG 이미지를 [[
 
         ![선택한 이미지 추가](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _&#x200B;**Adobe Stock 이미지 검색 및 선택**&#x200B;_: 이 메서드를 사용하여 Adobe Stock에서 이미지를 찾습니다.
+   - _**Adobe Stock 이미지 검색 및 선택**_: 이 메서드를 사용하여 Adobe Stock에서 이미지를 찾습니다.
 
      >[!NOTE]
      >
@@ -107,13 +107,13 @@ _이미지_ 콘텐츠 형식을 사용하여 JPG, GIF 또는 PNG 이미지를 [[
 
 1. 현재 **[!UICONTROL Image]**&#x200B;을(를) 변경하려면 다음 중 하나를 실행하십시오.
 
-   - _&#x200B;**새 이미지 업로드**&#x200B;_: 이 메서드를 사용하여 시스템에서 새 이미지 파일을 업로드합니다.
+   - _**새 이미지 업로드**_: 이 메서드를 사용하여 시스템에서 새 이미지 파일을 업로드합니다.
 
       - **[!UICONTROL Upload Image]**&#x200B;을(를) 클릭합니다.
 
       - 갤러리와 대상 컨테이너에 추가할 이미지를 찾아 선택합니다.
 
-   - _&#x200B;**기존 에셋 선택**&#x200B;_: 이 메서드를 사용하여 미디어 저장소/갤러리에서 기존 이미지 에셋을 선택합니다.
+   - _**기존 에셋 선택**_: 이 메서드를 사용하여 미디어 저장소/갤러리에서 기존 이미지 에셋을 선택합니다.
 
       - **[!UICONTROL Select from Gallery]**&#x200B;을(를) 클릭합니다.
 
@@ -258,3 +258,5 @@ _이미지_ 콘텐츠 형식을 사용하여 JPG, GIF 또는 PNG 이미지를 [[
   | [!UICONTROL Padding] | 컨테이너의 모든 측면 안쪽 가장자리에 적용되는 빈 공간의 양입니다. |
 
   {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,8 +3,8 @@ title: 시스템 백업
 description: 파일 시스템, 데이터베이스 및 미디어 파일을 포함하여 시스템 백업을 만들고 예약하는 방법에 대해 알아봅니다.
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Adobe Commerce 및 Magento Open Source을 사용하면 파일 시스템, 데이�
 
 1. 왼쪽 패널에서 **[!UICONTROL Advanced]**&#x200B;을(를) 확장하고 **[!UICONTROL System]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Backup Settings]**&#x200B;에서 ![확장 선택기](../assets/icon-display-expand.png)을 확장합니다.
+1. ![에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Backup Settings]**&#x200B;을 확장합니다.
 
 1. **[!UICONTROL Enabled Schedule Backup]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -66,3 +66,5 @@ Adobe Commerce 및 Magento Open Source을 사용하면 파일 시스템, 데이�
 1. 메시지가 표시되면 작업을 확인합니다.
 
 
+
+<!-- Last updated from includes: 2023-02-22 09:59:54 -->

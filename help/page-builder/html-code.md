@@ -1,9 +1,9 @@
 ---
 title: 요소 - HTML 코드
-description: ' [!DNL Page Builder] 스테이지에서 HTML, CSS 및 JavaScript 코드 조각을 추가하는 데 사용되는 HTML 코드 콘텐츠 유형에 대해 알아봅니다.'
+description: ' [!DNL Page Builder] 스테이지에서 HTML, CSS 및 JavaScript 코드의 조각을 추가하는 데 사용되는 HTML 코드 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: 556394327a6eff9282acb09bdd16777dd3fee360
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 요소 - HTML 코드
 
-_HTML 코드_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](workspace.md#stage)에서 HTML, CSS 및 JavaScript 코드의 코드 조각을 추가하십시오. 예를 들어 사용자 지정 HTML을 추가하고 페이지의 요소에 적용할 수 있는 CSS 클래스를 선언할 수 있습니다. 또는 서드파티 공급자로부터 받은 로고, 버튼 또는 배너에 대한 코드 조각을 추가할 수 있습니다.
+_HTML 코드_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](workspace.md#stage)에서 HTML, CSS 및 JavaScript 코드의 코드 조각을 추가하십시오. 예를 들어, 사용자 지정 HTML을 추가하고 페이지의 요소에 적용할 수 있는 CSS 클래스를 선언할 수 있습니다. 또는 서드파티 공급자로부터 받은 로고, 버튼 또는 배너에 대한 코드 조각을 추가할 수 있습니다.
 
 ## HTML 코드 도구 상자
 
@@ -66,9 +66,9 @@ _HTML 코드_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](work
 
    빨간색 가이드라인을 사용하여 행, 열 또는 탭 집합에서 다른 콘텐츠 컨테이너 앞 또는 뒤에 구분선을 배치합니다.
 
-   ![HTML 코드 자리 표시자를 스테이지로 드래그하는 중](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
+   ![HTML 코드 자리 표시자를 스테이지로 드래그](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. HTML 컨테이너 위로 마우스를 가져가면 도구 상자를 표시하고 _설정_(![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ), 아이콘을 선택합니다.
+1. 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ), 아이콘을 선택하려면 HTML 컨테이너 위로 마우스를 가져갑니다.
 
 1. 텍스트 상자에 준비한 포함 Google 글꼴 코드와 스타일 선언을 붙여넣습니다.
 
@@ -76,7 +76,7 @@ _HTML 코드_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](work
 
    ![HTML 코드 및 스타일](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. 나머지 설정을 필요에 따라 업데이트하십시오(자세한 내용은 [HTML 코드 설정 변경](#html-settings)을 참조하십시오).
+1. 나머지 설정은 필요에 따라 업데이트하십시오(자세한 내용은 [HTML 코드 설정 변경](#html-settings)을 참조하십시오).
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
@@ -84,13 +84,13 @@ _HTML 코드_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](work
 
 ### 3단계: 페이지 미리보기
 
-1. _[!UICONTROL Currently Active]_&#x200B;섹션에서&#x200B;**[!UICONTROL Enable Page]**&#x200B;을(를) `Yes`(으)로 설정합니다.
+1. _[!UICONTROL Currently Active]_섹션에서&#x200B;**[!UICONTROL Enable Page]**을(를) `Yes`(으)로 설정합니다.
 
    ![페이지 사용](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
-1. 그리드에서 페이지를 찾은 다음 _[!UICONTROL Actions]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 선택합니다.
+1. 그리드에서 페이지를 찾은 다음 **[!UICONTROL View]** 열에서 _[!UICONTROL Actions]_을(를) 선택합니다.
 
    ![새 글꼴 패밀리로 페이지 머리글을 미리 봅니다](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
@@ -106,11 +106,11 @@ _HTML 코드_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](work
 
    | 단추 | 설명 |
    | ------ | ----------- |
-   | 위젯 삽입... | [HTML] 텍스트 상자의 커서 위치에 위젯을 삽입하려면 을 클릭합니다. |
-   | 이미지 삽입... | HTML 텍스트 상자의 커서 위치에 업로드된 이미지 또는 갤러리의 이미지를 삽입하려면 를 클릭합니다. |
+   | 위젯 삽입... | HTML 텍스트 상자의 커서 위치에 위젯을 삽입하려면 를 클릭합니다. |
+   | 이미지 삽입... | 업로드된 이미지 또는 갤러리의 이미지를 HTML 텍스트 상자의 커서 위치에 삽입하려면 를 클릭합니다. |
    | 변수 삽입... | 를 클릭하여 HTML 텍스트 상자의 커서 위치에 변수를 삽입합니다. |
 
-1. 필요에 따라 _[!UICONTROL Advanced]_&#x200B;설정을 업데이트합니다.
+1. 필요에 따라 _[!UICONTROL Advanced]_설정을 업데이트합니다.
 
    - 상위 컨테이너 내에서 코드 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하십시오.
 
@@ -164,3 +164,5 @@ _HTML 코드_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](work
      | [!UICONTROL Padding] | 컨테이너의 모든 측면 안쪽 가장자리에 적용되는 빈 공간의 양입니다. 옵션: `Top` / `Right` / `Bottom` / `Left` |
 
 [1]: https://fonts.google.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->
