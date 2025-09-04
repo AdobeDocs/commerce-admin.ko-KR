@@ -68,7 +68,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을 확장합니다.
 
@@ -104,7 +104,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
 1. 맵 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
-1. _[!UICONTROL Edit Map]_페이지의 오른쪽 상단 모서리에서&#x200B;**[!UICONTROL Add Location]**을(를) 클릭합니다.
+1. _[!UICONTROL Edit Map]_&#x200B;페이지의 오른쪽 상단 모서리에서&#x200B;**[!UICONTROL Add Location]**&#x200B;을(를) 클릭합니다.
 
 1. 지도에서 PIN과 연결할 **[!UICONTROL Location Name]**&#x200B;을(를) 입력하십시오.
 
@@ -148,7 +148,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   새 위치는 맵과 _[!UICONTROL Edit Map]_페이지의 맵 위치 그리드에 나타납니다.
+   새 위치는 맵과 _[!UICONTROL Edit Map]_&#x200B;페이지의 맵 위치 그리드에 나타납니다.
 
    ![[!DNL Page Builder] - 위치 그리드 매핑](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
@@ -160,7 +160,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을 확장합니다.
 
@@ -197,7 +197,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
    {style="table-layout:auto"}
 
-1. 필요에 따라 _[!UICONTROL Advanced]_설정을 수정합니다.
+1. 필요에 따라 _[!UICONTROL Advanced]_&#x200B;설정을 수정합니다.
 
    - 컨테이너에 추가된 맵 콘텐츠의 가로 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택합니다.
 
@@ -266,7 +266,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을 확장합니다.
 

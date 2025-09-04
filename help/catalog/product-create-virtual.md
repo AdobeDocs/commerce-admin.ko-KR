@@ -14,7 +14,7 @@ ht-degree: 0%
 
 가상 제품 또는 디지털 상품은 멤버십, 서비스, 보증 또는 구독 및 책, 음악, 비디오 또는 기타 제품의 디지털 다운로드와 같은 유형 이외의 항목을 나타냅니다. 가상 제품은 개별적으로 판매하거나 [그룹화된 제품](product-create-grouped.md), [구성 가능한 제품](product-create-configurable.md) 또는 [번들 제품](product-create-bundle.md) 제품 형식의 일부로 포함할 수 있습니다.
 
-_[!UICONTROL Weight]_필드가 없는 것 외에 가상 제품과 간단한 제품을 만드는 과정은 동일합니다. 다음 지침은 [제품 템플릿](attribute-sets.md), 필수 필드 및 기본 설정을 사용하여 가상 제품을 만드는 프로세스를 보여 줍니다. 기본 사항을 완료하면 필요에 따라 다른 제품 설정을 완료할 수 있습니다.
+_[!UICONTROL Weight]_&#x200B;필드가 없는 것 외에 가상 제품과 간단한 제품을 만드는 과정은 동일합니다. 다음 지침은 [제품 템플릿](attribute-sets.md), 필수 필드 및 기본 설정을 사용하여 가상 제품을 만드는 프로세스를 보여 줍니다. 기본 사항을 완료하면 필요에 따라 다른 제품 설정을 완료할 수 있습니다.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ _[!UICONTROL Weight]_필드가 없는 것 외에 가상 제품과 간단한 제�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Virtual Product]**을(를) 선택합니다.
+1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Virtual Product]**&#x200B;을(를) 선택합니다.
 
    ![가상 제품 추가](./assets/product-add-virtual.png){width="700" zoomable="yes"}
 
@@ -116,7 +116,7 @@ _[!UICONTROL Weight]_필드가 없는 것 외에 가상 제품과 간단한 제�
 
 >[!NOTE]
 >
->_[!UICONTROL Is this downloadable product?]_옵션은 기본적으로 비활성화되어 있습니다. 가상 제품에 대해 이 기능을 사용하도록 설정하면 제품을 [다운로드 가능](product-create-downloadable.md#downloadable-product)합니다.
+>_[!UICONTROL Is this downloadable product?]_&#x200B;옵션은 기본적으로 비활성화되어 있습니다. 가상 제품에 대해 이 기능을 사용하도록 설정하면 제품을 [다운로드 가능](product-create-downloadable.md#downloadable-product)합니다.
 
 ## 6단계: 제품 게시
 
@@ -136,7 +136,7 @@ _[!UICONTROL Weight]_필드가 없는 것 외에 가상 제품과 간단한 제�
 
    - **메서드 2:** 저장 및 닫기
 
-     _[!UICONTROL Save]_(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
+     _[!UICONTROL Save]_(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
 ## 기억해야 할 사항
 

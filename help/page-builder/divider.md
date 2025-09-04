@@ -73,7 +73,7 @@ _분할기_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](worksp
 
    ![선 색, 두께 및 폭 설정](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. 필요에 따라 _[!UICONTROL Advanced]_설정을 업데이트합니다.
+1. 필요에 따라 _[!UICONTROL Advanced]_&#x200B;설정을 업데이트합니다.
 
    - 부모 컨테이너 내의 구분선 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하세요.
 

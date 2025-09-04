@@ -161,7 +161,7 @@ _단계_&#x200B;에서 개별 단추 또는 단추 집합을 추가하려면 [[!
 
    ![단추 컨테이너 도구 상자](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. _[!UICONTROL Appearance]_에서&#x200B;**[!UICONTROL Stacked]**을(를) 선택합니다.
+1. _[!UICONTROL Appearance]_&#x200B;에서&#x200B;**[!UICONTROL Stacked]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL All Buttons are same size]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -243,7 +243,7 @@ _단계_&#x200B;에서 개별 단추 또는 단추 집합을 추가하려면 [[!
 
 ## 고급 설정 변경
 
-개별 단추 및 단추 컨테이너에 대한 _[!UICONTROL Advanced]_설정을 수정할 수 있습니다.
+개별 단추 및 단추 컨테이너에 대한 _[!UICONTROL Advanced]_&#x200B;설정을 수정할 수 있습니다.
 
 1. 상위 컨테이너 내의 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하십시오.
 

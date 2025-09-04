@@ -20,7 +20,7 @@ _Column_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.
 
 ## 2.4.5 릴리스의 업데이트
 
-사용자가 이제 _[!DNL Columns]_을(를) 개별 열의 상위 컨테이너로 사용하도록 2.4.5 릴리스에서 페이지 빌더 기능이 업데이트되었습니다. 이 새 컨테이너는 배경에 대한 속성도 지원하므로 열을 행으로 둘러싸지 않아도 됩니다. 불필요한 마크업을 줄이고 상점 표시 및 경험을 세밀하게 제어할 수 있습니다.
+사용자가 이제 _[!DNL Columns]_&#x200B;을(를) 개별 열의 상위 컨테이너로 사용하도록 2.4.5 릴리스에서 페이지 빌더 기능이 업데이트되었습니다. 이 새 컨테이너는 배경에 대한 속성도 지원하므로 열을 행으로 둘러싸지 않아도 됩니다. 불필요한 마크업을 줄이고 상점 표시 및 경험을 세밀하게 제어할 수 있습니다.
 
 그룹의 다른 열 위나 아래에 열을 끌어 쌓아 [!DNL Columns] 컨테이너의 레이아웃을 변경할 수 있습니다. 이렇게 하면 개발자가 맞춤화할 필요 없이 수행할 수 있는 새로운 다양한 레이아웃 조합이 열립니다.
 
@@ -54,7 +54,7 @@ _Column_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.
 
 ## 열 추가
 
-1. [!DNL Page Builder] 아래의 _[!UICONTROL Layout]_패널에서&#x200B;**[!UICONTROL Column]**을(를) 스테이지로 드래그합니다.
+1. [!DNL Page Builder] 아래의 _[!UICONTROL Layout]_&#x200B;패널에서&#x200B;**[!UICONTROL Column]**&#x200B;을(를) 스테이지로 드래그합니다.
 
    ![열을 스테이지로 드래그](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -100,11 +100,11 @@ _Column_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.
 
    - 열 위로 마우스를 가져가 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
-   - _[!UICONTROL Advanced]_섹션까지 아래로 스크롤하고 네 개의&#x200B;**[!UICONTROL Padding]**값을 모두 `0`(으)로 설정합니다.
+   - _[!UICONTROL Advanced]_&#x200B;섹션까지 아래로 스크롤하고 네 개의&#x200B;**[!UICONTROL Padding]**&#x200B;값을 모두 `0`(으)로 설정합니다.
 
      ![패딩 제로 사용](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-   - 오른쪽 상단 모서리에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 _[!UICONTROL Edit Column]_페이지를 닫습니다.
+   - 오른쪽 상단 모서리에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 _[!UICONTROL Edit Column]_&#x200B;페이지를 닫습니다.
 
 1. 작업 영역의 오른쪽 위 모서리에 있는 _전체 화면 닫기_( ![전체 화면 닫기 아이콘](./assets/pb-icon-reduce.png){width="20"} ) 아이콘을 클릭한 다음 오른쪽 위 모서리에 있는 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -170,7 +170,7 @@ _Column_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.
 
    - **[!UICONTROL Background Repeat]** - 배경 이미지를 반복하여 공백을 채우려면 이 설정 `Yes`을(를) 변경하십시오.
 
-1. 필요에 따라 _[!UICONTROL Advanced]_설정을 업데이트합니다.
+1. 필요에 따라 _[!UICONTROL Advanced]_&#x200B;설정을 업데이트합니다.
 
    - 열에 추가되는 콘텐츠 컨테이너의 가로 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택합니다.
 
