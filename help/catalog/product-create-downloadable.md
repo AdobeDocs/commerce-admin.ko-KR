@@ -201,7 +201,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >외부 리소스에 대한 링크를 다운로드 가능한 제품으로 사용할 수 없습니다. 유효한 링크 도메인은 `env.php` 파일에서 프로그래밍 방식으로 미리 정의되어 있습니다([구성 안내서](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html)의 _env.php 참조_ 참조).
+   >외부 리소스에 대한 링크를 다운로드 가능한 제품으로 사용할 수 없습니다. 유효한 링크 도메인은 `env.php` 파일에서 프로그래밍 방식으로 미리 정의되어 있습니다([구성 안내서](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=ko)의 _env.php 참조_ 참조).
 
    - **[!UICONTROL Shareable]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
