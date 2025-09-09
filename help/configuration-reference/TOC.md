@@ -5,10 +5,10 @@ breadcrumb-title: 구성 참조
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '159'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,6 @@ ht-degree: 1%
    - [연락처](./general/contacts.md)
    - [보고서](./general/reports.md)
    - [콘텐츠 관리](./general/content-management.md)
-   - [New Relic 보고](./general/new-relic-reporting.md)
    - [고급 보고](./general/advanced-reporting.md)
 - 카탈로그 {#catalog}
    - [카탈로그](./catalog/catalog.md)
@@ -52,7 +51,7 @@ ht-degree: 1%
    - [프로모션](./customers/promotions.md)
    - [선물 등록](./customers/gift-registry.md)
    - [지속적인 장바구니](./customers/persistent-shopping-cart.md)
-- 영업 {#sales}
+- 판매 {#sales}
    - [판매](./sales/sales.md)
    - [영업 이메일](./sales/sales-emails.md)
    - [따옴표](./sales/quotes.md)
@@ -84,5 +83,5 @@ ht-degree: 1%
    - [관리자](./advanced/admin.md)
    - [시스템](./advanced/system.md)
    - [개발자](./advanced/developer.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

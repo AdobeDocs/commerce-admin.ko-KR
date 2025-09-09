@@ -5,9 +5,9 @@ breadcrumb-title: 시작
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: b45824312b02204f1031b04c215ca42c5298d824
+source-git-commit: 0ea13aa32745f6ba5045c2aeec54926857525836
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -66,10 +66,9 @@ ht-degree: 0%
    + [제품 보고서](product-reports.md)
    + [비공개 판매 보고서](private-sales-reports.md)
    + [Commerce Intelligence 도구](business-intelligence.md)
-   + [New Relic 보고](new-relic-reporting.md)
 + 리소스 {#resources}
    + [에코시스템](resources.md)
    + [확장](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
++ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
