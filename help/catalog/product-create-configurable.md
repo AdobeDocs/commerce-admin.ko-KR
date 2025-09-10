@@ -3,7 +3,7 @@ title: 구성 가능한 제품
 description: 쇼핑객에게 다양한 선택 항목을 제공하는 구성 가능한 제품을 만드는 방법을 알아봅니다.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 0cb594144a03eda985be3a86e45c93452281e9d5
+source-git-commit: ee7928b50ddd07e757c71ce5bed84619f1437410
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 0%
@@ -33,7 +33,6 @@ ht-degree: 0%
 | [!UICONTROL Scope] | `Global` |
 | [!UICONTROL Catalog Input Type for Store Owner] | 제품 변형에 사용되는 특성의 입력 형식은 `Dropdown`, `Visual Swatch` 또는 `Text Swatch` 중 하나여야 합니다. |
 | [!UICONTROL Values Required] | `Yes` |
-| [!UICONTROL Use for Promo Rule Conditions] | `Yes` |
 
 {style="table-layout:auto"}
 
@@ -41,7 +40,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Configurable Product]**&#x200B;을(를) 선택합니다.
+1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Configurable Product]**을(를) 선택합니다.
 
    ![구성 가능한 제품 추가](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
@@ -93,7 +92,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >구성 가능한 제품의 **재고 상태**&#x200B;는 **_반수동으로_** 제어된 설정입니다. 이는 자사의 하위 제품들의 재고 현황에 의해 부분적으로 통제된다. [재고 상태 구성](#configure-the-stock-status) 섹션에 설명된 **_여러 조건_** 재고 상태 계산의 일부입니다.
+   >구성 가능한 제품의 **재고 상태**&#x200B;는 **_반수동으로_** 제어된 설정입니다. 이는 자사의 하위 제품들의 재고 현황에 의해 부분적으로 통제된다. **_재고 상태 구성_** 섹션에 설명된 [여러 조건](#configure-the-stock-status) 재고 상태 계산의 일부입니다.
 
 1. 제품 **[!UICONTROL Weight]**&#x200B;을(를) 입력하십시오.
 
@@ -101,7 +100,7 @@ ht-degree: 0%
 >
 >구성 가능한 제품에는 항상 무게가 있어야 합니다. 드롭다운 목록에서 **[!UICONTROL This item has no weight]**&#x200B;을(를) 선택하면 제품을 저장한 후 자동으로 **[!UICONTROL This item has weight]**(으)로 변경됩니다.
 
-1. `Catalog, Search`의 기본 **[!UICONTROL Visibility]** 설정을 사용합니다.
+1. **[!UICONTROL Visibility]**&#x200B;의 기본 `Catalog, Search` 설정을 사용합니다.
 
 1. [새 제품](../content-design/widget-new-products-list.md) 목록에 제품을 포함하려면 **[!UICONTROL Set Product as New]** 확인란을 선택하십시오.
 
@@ -139,7 +138,7 @@ ht-degree: 0%
 
 ### 1단계: 속성 선택
 
-1. 위에서 계속 _[!UICONTROL Configurations]_&#x200B;섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Create Configurations]**&#x200B;을(를) 클릭합니다.
+1. 위에서 계속 _[!UICONTROL Configurations]_섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Create Configurations]**을(를) 클릭합니다.
 
    ![구성](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -279,7 +278,7 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 
 ### 5단계: 제품 이미지 추가
 
-1. 아래로 스크롤하여 _[!UICONTROL Images and Videos]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. 아래로 스크롤하여 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Images and Videos]_를 확장합니다.
 
 1. _카메라_ 타일을 클릭하고 구성 가능한 제품에 사용할 기본 이미지를 찾습니다.
 
@@ -311,7 +310,7 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 
       - 오른쪽 상단에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-      - 스토어에서 제품을 보려면 _관리자_( ![메뉴 화살표](../assets/icon-menu-down-arrow-black.png)) 메뉴에서 **[!UICONTROL Customer View]**&#x200B;을(를) 선택하십시오.
+      - 스토어에서 제품을 보려면 **[!UICONTROL Customer View]**&#x200B;관리자&#x200B;_(_&#x200B;메뉴 화살표![) 메뉴에서 ](../assets/icon-menu-down-arrow-black.png)을(를) 선택하십시오.
 
      저장소가 새 브라우저 탭에서 열립니다.
 
@@ -319,7 +318,7 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 
    - **메서드 2:** 저장 및 닫기
 
-     _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
+     _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
 
 ### 8단계: 장바구니 썸네일 구성
 
@@ -329,7 +328,7 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Shopping Cart]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Shopping Cart]_를 확장합니다.
 
 1. **[!UICONTROL Configurable Product Image]**&#x200B;을(를) `Product Thumbnail Itself`(으)로 설정합니다.
 
@@ -355,9 +354,9 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 
 #### 기본 소스/스톡만 해당:
 
-- 관리 사용자, 파일 가져오기 또는 API 호출에 의해 구성 가능한 제품 재고 상태가 **_수동으로_**&#x200B;인 경우 **_수동으로_**&#x200B;이(가) 관리 사용자, 파일 가져오기 또는 API 호출에 의해 `In stock`(으)로 변경될 때까지 **_관리_** 및 **_Storefront_**&#x200B;에서 `Out of Stock`(으)로 유지됩니다. `Out of Stock` 그 하위 상품의 재고 현황에 의해 통제할 수 없다.
+- 관리 사용자, 파일 가져오기 또는 API 호출에 의해 구성 가능한 제품 재고 상태가 **_수동으로_**&#x200B;인 경우 `Out of Stock`수동으로`Out of Stock`이(가) 관리 사용자, 파일 가져오기 또는 API 호출에 의해 **_(으)로 변경될 때까지_**&#x200B;관리&#x200B;**_및_** Storefront **_에서_**(으)로 유지됩니다. `In stock` 그 하위 상품의 재고 현황에 의해 통제할 수 없다.
 
-- 관리 사용자, 파일 가져오기 또는 API 호출이 구성 가능한 제품 재고 상태를 **_수동으로_**(으)로 설정한 경우 재고 상태는 **_관리자_** 및 **_상점_**&#x200B;에서 하위 제품의 재고 상태로 제어되는 **_자동으로_**&#x200B;입니다.`In Stock`
+- 관리 사용자, 파일 가져오기 또는 API 호출이 구성 가능한 제품 재고 상태를 **_수동으로_**(으)로 설정한 경우 재고 상태는 `In Stock`관리자&#x200B;**_및_**&#x200B;상점&#x200B;**_에서 하위 제품의 재고 상태로 제어되는_**&#x200B;자동으로&#x200B;**_입니다._**
 
 >[!NOTE]
 >
@@ -365,11 +364,11 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 
 #### 하나 이상의 사용자 지정 소스/재고 포함:
 
-- 관리 사용자, 파일 가져오기 또는 API 호출에 의해 구성 가능한 제품 재고 상태 값이 **_수동으로_** `Out of Stock`(으)로 설정된 경우 관리 사용자, 파일 가져오기 또는 API 호출에 의해 **_수동으로_**&#x200B;이(가) `In Stock`(으)로 변경될 때까지 **_관리_** 및 **_Storefront_**&#x200B;에서 `Out of Stock`(으)로 유지됩니다. 하위 제품의 재고 상태로 **_제어할 수 없습니다_**.
+- 관리 사용자, 파일 가져오기 또는 API 호출에 의해 구성 가능한 제품 재고 상태 값이 **_수동으로_** `Out of Stock`(으)로 설정된 경우 관리 사용자, 파일 가져오기 또는 API 호출에 의해 `Out of Stock`수동으로&#x200B;**_이(가)_**(으)로 변경될 때까지 **_관리_** 및 **_Storefront_**&#x200B;에서 `In Stock`(으)로 유지됩니다. 하위 제품의 재고 상태로 **_제어할 수 없습니다_**.
 
 - 관리 사용자, 파일 가져오기 또는 API 호출이 구성 가능한 제품 재고 상태 값을 **_수동으로_** `In Stock`(으)로 설정한 경우 재고 상태는 **_Storefront_**&#x200B;에서만 하위 제품의 재고 상태로 제어되는 **_자동으로_**&#x200B;입니다.
 
-- 관리 사용자, 파일 가져오기 또는 API 호출에 의해 구성 가능한 제품 재고 상태 값이 **_수동으로_**&#x200B;인 경우 **_관리_**&#x200B;에서 `In Stock`(으)로 유지됩니다. **_수동으로_**&#x200B;이(가) 관리 사용자, 파일 가져오기 또는 API 호출에 의해 `Out of Stock`(으)로 변경되었습니다. `In Stock` 하위 제품의 재고 상태로 **_제어할 수 없습니다_**.
+- 관리 사용자, 파일 가져오기 또는 API 호출에 의해 구성 가능한 제품 재고 상태 값이 **_수동으로_**&#x200B;인 경우 `In Stock`관리`In Stock`에서 **_(으)로 유지됩니다._**&#x200B;수동으로&#x200B;**_이(가) 관리 사용자, 파일 가져오기 또는 API 호출에 의해_**(으)로 변경되었습니다. `Out of Stock` 하위 제품의 재고 상태로 **_제어할 수 없습니다_**.
 
 ## 기억해야 할 사항
 
@@ -377,7 +376,7 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 
 - 구성 가능한 제품에 대한 [재고 상태](../inventory-management/sources-stocks.md)는 반수동으로 제어되는 설정입니다. 제품 이용가능성을 직접 나타내는 단순한 제품의 재고 상태와는 다르다. 구성 가능한 제품의 경우 재고 상태는 다중 기준 재고 상태 계산의 일부입니다.
 
-- 구성 가능한 하위 제품은 사용자 지정 옵션이 없는 **간단한 제품 또는 가상 제품일 수 있습니다**. 사용자 지정 하위 제품을 가상화하려면 각 제품에 대한 **[!UICONTROL Weight]** 설정에 대해 `Тhis item has no weight`을(를) 선택해야 합니다.
+- 구성 가능한 하위 제품은 사용자 지정 옵션이 없는 **간단한 제품 또는 가상 제품일 수 있습니다**. 사용자 지정 하위 제품을 가상화하려면 각 제품에 대한 `Тhis item has no weight` 설정에 대해 **[!UICONTROL Weight]**&#x200B;을(를) 선택해야 합니다.
 
 - 모든 하위 제품은 모든 웹 사이트, 스토어 및 스토어 보기에 대해 구성 가능한 제품 **_전역적으로_**&#x200B;에서 동시에 할당되고 할당이 해제됩니다.
 
@@ -389,6 +388,6 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 
 - 장바구니의 썸네일 이미지는 구성 가능한 제품 레코드 또는 제품 변형의 이미지를 표시하도록 설정할 수 있습니다.
 
-- 관리자의 특성 편집 페이지에서 **[!UICONTROL Update Product Preview Image]** 옵션 값을 `No`(으)로 설정하여 견본을 선택할 때 [견본 특성](swatches.md#create-swatches-for-products)이(가) 해당 단순 제품 이미지를 표시하지 않도록 구성할 수 있습니다.
+- 관리자의 특성 편집 페이지에서 [ 옵션 값을 ](swatches.md#create-swatches-for-products)(으)로 설정하여 견본을 선택할 때 **[!UICONTROL Update Product Preview Image]**&#x200B;견본 특성`No`이(가) 해당 단순 제품 이미지를 표시하지 않도록 구성할 수 있습니다.
 
 - 테마는 사용자가 제품 구성 간을 전환할 때 이미지 갤러리가 작동하는 방식을 제어합니다. _Blank_ 테마의 기본 동작은 상위 구성 가능한 제품 이미지를 선택한 제품 변형으로 재정의하는 것입니다. Luma 테마의 경우 기본 동작은 선택한 제품 변형 이미지를 상위 구성 가능한 제품 이미지에 앞에 추가하는 것입니다.
