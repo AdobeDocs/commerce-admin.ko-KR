@@ -2,10 +2,10 @@
 title: 위젯
 description: 다양한 콘텐츠를 표시하고 스토어의 특정 블록 참조에 배치할 수 있도록 해 주는 코드 조각을 제공하는 위젯에 대해 알아봅니다.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: a5e42a412d09a8e6306ef6eb72e65675fc244091
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Order by SKU] | SKU별 주문은 모든 쇼핑객을 위한 편의로 스토어에 표시하거나 특정 고객 그룹만 사용할 수 있습니다. 구매자는 SKU별 주문 블록에 SKU 및 수량 정보를 직접 입력하거나 고객 계정에서 CSV 파일을 업로드할 수 있습니다. |
 | [!UICONTROL Orders and Returns] | 이 옵션을 사용하여 주문 상태를 확인하고 상품을 반품하도록 요청을 제출할 수 있습니다. 위젯은 계정에 로그인하지 않은 게스트 및 고객에게만 표시됩니다. |
 | [!UICONTROL Recently Compared Products] | 최근에 비교한 제품 블록을 표시합니다. 포함된 제품 수를 지정하고 목록 또는 제품 그리드로 형식을 지정할 수 있습니다. |
-| [!UICONTROL Recently Viewed Products] | 최근에 본 제품 블록을 표시하려면 이 옵션을 사용합니다. 포함된 제품 수를 지정하고 목록 또는 제품 격자로 형식을 지정할 수 있습니다. |
+| [!UICONTROL Recently Viewed Products] | 최근에 본 제품 블록을 표시하려면 이 옵션을 사용합니다. 포함된 제품 수를 지정하고 목록 또는 제품 격자로 형식을 지정할 수 있습니다. 위젯은 실시간 가격 업데이트를 표시하지 않을 수 있습니다. 구매자는 제품 페이지에서 현재 가격을 보려면 제품을 클릭해야 합니다. |
 | [!UICONTROL Wish List Search] | 이 옵션을 사용하여 고객에게 위시리스트 소유자의 이름 또는 이메일 주소로 공개적으로 사용 가능한 위시리스트를 검색할 수 있는 기능을 제공합니다. 스토어 고객은 다른 고객에 속한 위시리스트를 찾거나, 이를 보고 제품을 주문하거나, 제품을 자신의 위시리스트에 추가할 수 있습니다. |
 
 {style="table-layout:auto"}
