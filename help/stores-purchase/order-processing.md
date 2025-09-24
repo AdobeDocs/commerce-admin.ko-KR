@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 표에서 순서를 찾습니다.
 
-1. _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL View]**을(를) 클릭합니다.
+1. _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 
 1. 주문 상태 확인:
 
