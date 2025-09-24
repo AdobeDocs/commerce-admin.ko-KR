@@ -99,7 +99,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->결제 서비스 확장을 설치하고 구성할 때 이 기능을 지원하는 결제 방법에 대한 자세한 내용은 [결제 서비스 안내서](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)를 참조하십시오.
+>결제 서비스 확장을 설치하고 구성할 때 이 기능을 지원하는 결제 방법에 대한 자세한 내용은 [결제 서비스 안내서](https://experienceleague.adobe.com/ko/docs/commerce/payment-services/guide-overview)를 참조하십시오.
 
 ## 3단계: 주문 실행
 

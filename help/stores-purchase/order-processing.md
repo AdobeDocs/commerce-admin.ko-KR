@@ -169,7 +169,7 @@ ht-degree: 0%
 
 ### 사용자 지정 순서 특성
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 사용자 정의 주문 속성을 사용하면 비즈니스 요구 사항에 관련된 추가 정보를 주문과 연결할 수 있습니다.
 
