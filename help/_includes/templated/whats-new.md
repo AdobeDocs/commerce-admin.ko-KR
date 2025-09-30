@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7262125cb9cb246cdefef934aa708726c832648f
+source-git-commit: 245fa229bde5135cb25d6bc33cf05b1430c37d43
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 2%
+source-wordcount: '163'
+ht-degree: 3%
 
 ---
 # 새로운 기능 템플릿
@@ -23,7 +23,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service 관리에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">사용자 지정 순서 특성</a>을 보고 편집하는 방법에 대한 정보를 추가했습니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service 관리에서 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">사용자 지정 순서 특성</a>을 보고 편집하는 방법에 대한 정보를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -45,7 +45,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements">구성 가능한 제품</a> 주제의 "제품 변형 특성 요구 사항" 테이블에서 프로모션 규칙 조건 사용 특성을 제거했습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-configurable#product-variation-attribute-requirements">구성 가능한 제품</a> 주제의 "제품 변형 특성 요구 사항" 테이블에서 프로모션 규칙 조건 사용 특성을 제거했습니다.</p>
 </td>
       <td>
         기술
@@ -53,7 +53,7 @@ ht-degree: 2%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/7035acbe2b974ab8bdb4904e769856f0646211ea">커밋</a></td>
     </tr>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/segments/customer-segment-create">고객 세그먼트</a> 조건의 각 유형에 대한 설명을 추가했습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create">고객 세그먼트</a> 조건의 각 유형에 대한 설명을 추가했습니다.</p>
 </td>
       <td>
         기술
@@ -75,7 +75,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>더 이상 사용되지 않는 New Relic <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/new-relic-reporting">보고</a> 기능 문서를 제거했습니다.</p>
+      <td><p>더 이상 사용되지 않는 New Relic <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting">보고</a> 기능 문서를 제거했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -97,7 +97,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">쿠폰 코드 만들기</a>에 대한 기본 방법을 명확히 하고 확장을 사용하여 사용자 지정 쿠폰 코드 목록을 가져오기 위한 지침을 제공했습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">쿠폰 코드 만들기</a>에 대한 기본 방법을 명확히 하고 확장을 사용하여 사용자 지정 쿠폰 코드 목록을 가져오기 위한 지침을 제공했습니다.</p>
 </td>
       <td>
         기술
@@ -119,42 +119,12 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>2025년 8월 B2B 보안 패치 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/release-notes">릴리스 노트</a>를 추가했습니다.</p>
+      <td><p>2025년 8월 B2B 보안 패치 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">릴리스 노트</a>를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/0ff127d55e62cc13241d9b6285f36a1bb56d8162">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2025년 7월 31일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>계층화된 탐색에서 구성 가능한 제품에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">가격 필터링</a>의 예상 동작을 명확히 했습니다.</p>
-</td>
-      <td>
-        기술
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3227227b6cf4f159b40fda8a5a165a7097f8a0bd">커밋</a></td>
-    </tr>
-    <tr>
-      <td><p>보조 쇼핑 모드에서 고객의 장바구니에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage">모든 항목을 제거</a>하는 방법을 명확히 설명했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/193248c1fce55c950b22ec8d86613d23be1ead11">커밋</a></td>
     </tr>
   </tbody>
 </table>
