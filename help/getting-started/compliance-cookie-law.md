@@ -3,9 +3,9 @@ title: 쿠키 법률 준수
 description: Adobe Commerce 및 Magento Open Source은 쿠키 사용에 관한 여러 국가의 법률에 발맞추기 위해 상인에게 고객 동의를 얻는 방법 선택을 제공합니다.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: abdd70f63ce9ce49ea7e6552951c644480f6024f
+source-git-commit: 3276729b2da1068e7c3d236d568ac745a97d71be
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[일반 데이터 보호 규정](compliance-gdpr.md)을 준수하도록 기본 [Google 개인 정보 설정](../merchandising-promotions/google-tools.md#google-privacy-settings)을(를) 수정하는 경우 Google Analytics 쿠키 사용에 대한 사용자 동의를 얻을 필요는 없습니다.
+>[일반 데이터 보호 규정](../merchandising-promotions/google-tools.md#google-privacy-settings)을 준수하도록 기본 [Google 개인 정보 설정](compliance-gdpr.md)을(를) 수정하는 경우 Google Analytics 쿠키 사용에 대한 사용자 동의를 얻을 필요는 없습니다.
 
 ## 쿠키 제한 모드
 
@@ -206,15 +206,15 @@ Admin Analytics 모듈에서 간접적으로 설정합니다. 방문자가 클�
 
 페이지 빌더 모듈에서 설정합니다. 관리자가 이전에 특정 작업을 명시적으로 해제한 경우 관리자에게 확인하도록 요청하는 후속 프롬프트가 열리지 않도록 하는 플래그를 포함합니다. 상점의 관리 영역에서만 사용됩니다. 쇼핑객에게는 해당되지 않습니다.
 
-#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
+#### `accordion-{VARIABLE}-{VARIABLE}`
 
 저장소의 관리 영역에서만 탭 기능 구현의 일부로 사용됩니다. 쇼핑객에게는 해당되지 않습니다.
 
 ## 제품 추천 쿠키
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객을 위한 제품 권장 사항에서 다음 쿠키를 사용합니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객을 위한 제품 권장 사항에서 다음 쿠키를 사용합니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
 
-- `mg_dnt`: 사이트에서 쿠키 동의를 관리할 사용자 지정 코드가 있는 경우 [Adobe Commerce 데이터 수집을 제한](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/developer/setting-cookie)할 수 있습니다.
+- `mg_dnt`: 사이트에서 쿠키 동의를 관리할 사용자 지정 코드가 있는 경우 [Adobe Commerce 데이터 수집을 제한](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)할 수 있습니다.
 - `user_allowed_save_cookie`: [쿠키 제한 모드](#cookie-restriction-mode)에 사용됩니다.
 - `authentication_flag`: 쇼핑객이 로그인했는지 또는 로그아웃했는지 여부를 나타냅니다. 이 쿠키는 `dataservices_customer_id` 쿠키와 동시에 업데이트됩니다.
 - `dataservices_customer_id`: 쇼핑객이 로그인했는지 또는 로그아웃했는지 여부를 나타냅니다. 이 쿠키에는 시스템에 있는 고객의 고유 ID가 포함되어 있습니다.
@@ -222,9 +222,19 @@ Admin Analytics 모듈에서 간접적으로 설정합니다. 방문자가 클�
 - `dataservices_cart_id`: 쇼핑객의 장바구니 작업을 식별합니다. 이 쿠키에는 시스템에 있는 고객의 고유한 장바구니 ID가 포함되어 있습니다.
 - `dataservices_product_context`: 구매자의 제품 상호 작용을 식별합니다. 이 쿠키에는 시스템에 있는 고객의 고유한 견적 ID가 포함되어 있습니다.
 
+### 제품 추천 로컬 저장소 데이터
+
+다음 데이터는 라이브 검색 또는 제품 권장 사항이 설치될 때 Luma 테마를 사용하여 스토어를 위한 로컬 저장소에 저장됩니다.
+
+- `ds-cart`: Luma별 기능에 대한 장바구니 정보를 저장합니다.
+- `ds-cart-order`: 장바구니 기능에 대한 주문 정보를 저장합니다.
+- `ds-purchase-history`: 고객 구매 내역을 추적합니다.
+- `ds-view-history-time-decay`: 제품 보기 기록을 시간 기반 가치 감소와 함께 저장
+- `ds-logged-in`: 고객 로그인 상태를 나타냅니다. 이 데이터는 고객이 로그인하고 쿠키 제한 모드가 활성화된 경우에도 저장되는 경우에만 존재합니다. 이 데이터는 쿠키 제한 모드가 활성화되면 사용자 동의 상태에 관계없이 Commerce이 로컬 저장소에 저장하는 유일한 데이터입니다.
+
 ## 추가 쿠키
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객에 대해 다음 쿠키가 설정됩니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객에 대해 다음 쿠키가 설정됩니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
 
 - `mg`: Snowploy JavaScript 추적기에서 설정합니다. 자세한 내용은 [Snowploy 설명서](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/)에서 확인할 수 있습니다.
 - `com.adobe.alloy.getTld`: 현재 웹 페이지의 호스트 이름을 고려할 때 이 도메인은 https://publicsuffix.org에 설명된 &quot;공용 접미사&quot;가 아닌 최상위 도메인입니다. 기본적으로 이 도메인은 쿠키를 허용할 수 있는 가장 상위 도메인입니다. 이 쿠키는 [Alloy Web SDK](https://github.com/adobe/alloy)의 일부입니다.
