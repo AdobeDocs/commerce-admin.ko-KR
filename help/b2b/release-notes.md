@@ -92,9 +92,9 @@ B2B v1.5.2 릴리스에는 품질 개선 사항 및 버그 수정이 포함되�
 
 ![해결된 문제](../assets/fix.svg) B2B v1.5.2 릴리스에는 협상 가능한 견적에 대한 다음 수정 사항이 포함되어 있습니다.
 
-- <!-- B2B-3252 -->이제 [!UICONTROL Line Item Discount Amount] 필드에서 음수 할인 값을 입력할 수 없도록 입력을 확인합니다.
-- <!-- B2B-3224 -->B2B 고객의 경우 긴 라인 항목 노트가 잘리고 읽기가 어려웠던 사용자 경험 문제를 해결했습니다.
-- <!-- B2B-2865 -->이제 B2B 고객은 견적을 생성할 때 십진수 값(예: 1.5 또는 2.75)을 사용하여 제품 수량을 지정할 수 있습니다.
+- &#x200B;<!-- B2B-3252 -->이제 [!UICONTROL Line Item Discount Amount] 필드에서 음수 할인 값을 입력할 수 없도록 입력을 확인합니다.
+- &#x200B;<!-- B2B-3224 -->B2B 고객의 경우 긴 라인 항목 노트가 잘리고 읽기가 어려웠던 사용자 경험 문제를 해결했습니다.
+- &#x200B;<!-- B2B-2865 -->이제 B2B 고객은 견적을 생성할 때 십진수 값(예: 1.5 또는 2.75)을 사용하여 제품 수량을 지정할 수 있습니다.
 
 ### 견적 템플릿
 
@@ -193,9 +193,9 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 - **견적을 초안으로 저장**<!--B2B-2566-->—장바구니에서 [견적 요청](quote-request.md)을 만들 때 구매자는 이제 견적을 초안으로 저장하여 판매자와 견적 협상 프로세스를 시작하기 전에 검토하고 업데이트할 수 있습니다. 초안 견적에 만료일이 없습니다. 구매자는 계정 대시보드의 [!UICONTROL My Quotes] 섹션에서 초안 견적을 검토하고 업데이트할 수 있습니다.
 
-- **견적 이름 바꾸기**<!--B2B-2596--> - 이제 구매자는 [ 옵션을 선택하여 ](account-dashboard-my-quotes.md#quote-actions)견적 세부 정보&#x200B;**[!UICONTROL Rename]** 페이지에서 견적 이름을 변경할 수 있습니다. 이 옵션은 승인된 구매자가 견적을 편집할 때 사용할 수 있습니다. 이름 변경 이벤트는 Quote 내역 로그에 기록됩니다.
+- **견적 이름 바꾸기**<!--B2B-2596--> - 이제 구매자는 [&#x200B; 옵션을 선택하여 &#x200B;](account-dashboard-my-quotes.md#quote-actions)견적 세부 정보&#x200B;**[!UICONTROL Rename]** 페이지에서 견적 이름을 변경할 수 있습니다. 이 옵션은 승인된 구매자가 견적을 편집할 때 사용할 수 있습니다. 이름 변경 이벤트는 Quote 내역 로그에 기록됩니다.
 
-- **견적 복제**<!--B2B-2701--> - 구매자와 판매자가 기존 견적을 복사하여 새 견적을 만들 수 있습니다. 책임자 또는 **[!UICONTROL Create Copy]** Storefront[의 ](quote-price-negotiation.md#button-bar)견적 세부 정보 보기[에서 ](account-dashboard-my-quotes.md#quote-actions)을(를) 선택하여 견적 세부 정보 보기에서 복사본을 만듭니다.
+- **견적 복제**<!--B2B-2701--> - 구매자와 판매자가 기존 견적을 복사하여 새 견적을 만들 수 있습니다. 책임자 또는 **[!UICONTROL Create Copy]** Storefront[의 &#x200B;](quote-price-negotiation.md#button-bar)견적 세부 정보 보기[에서 &#x200B;](account-dashboard-my-quotes.md#quote-actions)을(를) 선택하여 견적 세부 정보 보기에서 복사본을 만듭니다.
 
 - **견적 품목을 구매요청 목록으로 이동**<!--B2B-2755-->—이제 구매자가 견적 협상 프로세스에 제품을 포함하지 않기로 결정한 경우 견적에서 제품을 제거하고 구매요청 목록에 저장할 수 있습니다.
 
@@ -655,7 +655,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![문제 해결](../assets/fix.svg) <!--- MC-41260--> 회사 사용자가 만든 주문에 대한 **[!UICONTROL Return]** 단추를 클릭하면 이제 관리 사용자가 예상대로 반환 만들기 페이지로 리디렉션됩니다. 이전에는 관리자가 주문 내역 페이지로 리디렉션되었습니다.
 
-![ 동안 ](../assets/fix.svg) 메서드를 실행할 때 [!BADGE 해결된 문제]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} <!--- MC-40798-->PaaS만`app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` `bin/magento setup:upgrade` Adobe Commerce에서 더 이상 메모리 부족 오류가 발생하지 않습니다. 이전에는 Adobe Commerce에서 권한을 초기화할 때 일괄 처리 크기를 사용하지 않고 대신 모든 회사 역할의 컬렉션을 로드했습니다.
+![&#x200B; 동안 &#x200B;](../assets/fix.svg) 메서드를 실행할 때 [!BADGE 해결된 문제]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} <!--- MC-40798-->PaaS만`app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` `bin/magento setup:upgrade` Adobe Commerce에서 더 이상 메모리 부족 오류가 발생하지 않습니다. 이전에는 Adobe Commerce에서 권한을 초기화할 때 일괄 처리 크기를 사용하지 않고 대신 모든 회사 역할의 컬렉션을 로드했습니다.
 
 ![해결된 문제](../assets/fix.svg) <!--- MC-40551--> 회사 사용자는 이제 고객 사용자 지정 특성 값을 편집하고 업데이트할 수 있습니다. 이전에는 이러한 속성이 작성 및 편집 사용자 양식과 제대로 바인딩되지 않았습니다. 회사 사용자가 다른 속성 값을 입력할 수 있지만 Adobe Commerce이 이러한 값을 올바르게 저장하지 않았습니다.
 
@@ -663,7 +663,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![해결된 문제](../assets/fix.svg) <!--- MC-40358--> 이제 Adobe Commerce이 B2B 사용자의 사용자 지정 고객 특성 값을 예상대로 저장합니다. 이전에는 사용자 지정 고객 특성이 포함된 회사 계정을 만들면 템플릿 오류가 발생했으며, Adobe Commerce에서 양식을 성공적으로 로드하지 못했습니다. `company_create_account`의 레이아웃에 인수를 추가하면 이 문제가 해결되었습니다.
 
-![모든 사용자 표시, 활성 사용자 표시 및 비활성 사용자 표시와 같은 ](../assets/fix.svg)개의 회사 사용자 필터가 예상대로 작동합니다.<!--- MC-41721--> 이전에는 회사 사용자 페이지에서 작업을 필터링하면 JavaScript 오류가 발생했습니다.
+![모든 사용자 표시, 활성 사용자 표시 및 비활성 사용자 표시와 같은 &#x200B;](../assets/fix.svg)개의 회사 사용자 필터가 예상대로 작동합니다.<!--- MC-41721--> 이전에는 회사 사용자 페이지에서 작업을 필터링하면 JavaScript 오류가 발생했습니다.
 
 ### 회사 신용
 
@@ -707,7 +707,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![해결된 문제](../assets/fix.svg) <!--- MC-40426--> 판매자는 이제 POST `rest/all/V1/requisition_lists` 끝점을 사용하여 고객에 대한 구매 요청 목록을 만들 수 있습니다. 이전에는 Adobe Commerce에서 구매요청 목록을 만들려고 할 때 이 400 오류가 발생했습니다. `Could not save Requisition List`.
 
-![해결된 문제](../assets/fix.svg) <!--- MC-41123--> 장바구니에 품절 제품이 포함되어 있으면 장바구니의 재고 제품에 대해 **[!UICONTROL Add to Requisition List]** 단추가 표시됩니다. 이전에는 장바구니에 두 개의 제품이 들어 있는데 그중 하나가 품절된 경우 두 제품에 대해 _[!UICONTROL Add to Requisition List]_단추가 표시되지 않았습니다.
+![해결된 문제](../assets/fix.svg) <!--- MC-41123--> 장바구니에 품절 제품이 포함되어 있으면 장바구니의 재고 제품에 대해 **[!UICONTROL Add to Requisition List]** 단추가 표시됩니다. 이전에는 장바구니에 두 개의 제품이 들어 있는데 그중 하나가 품절된 경우 두 제품에 대해 _[!UICONTROL Add to Requisition List]_&#x200B;단추가 표시되지 않았습니다.
 
 ![해결된 문제](../assets/fix.svg) <!--- MC-40877--> 이제 REST API를 사용하여 제품을 구매요청 목록에 추가할 수 있습니다.
 
@@ -771,7 +771,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![해결된 문제](../assets/fix.svg) 빠른 주문을 사용하여 SKU별로 제품을 주문하면 더 이상 CSV 파일에 제품 수량이 중복되지 않습니다. <!--- MC-37427-->
 
-![문제 해결](../assets/fix.svg) 빠른 주문 페이지의 **[!UICONTROL Add to Cart]** 섹션에 빈 값이 있으면 _[!UICONTROL Enter Multiple SKUs]_단추가 더 이상 차단되지 않습니다. 대신 이제 Adobe Commerce에 유효한 SKU를 입력하라는 메시지가 표시됩니다. <!--- MC-37387-->
+![문제 해결](../assets/fix.svg) 빠른 주문 페이지의 **[!UICONTROL Add to Cart]** 섹션에 빈 값이 있으면 _[!UICONTROL Enter Multiple SKUs]_&#x200B;단추가 더 이상 차단되지 않습니다. 대신 이제 Adobe Commerce에 유효한 SKU를 입력하라는 메시지가 표시됩니다. <!--- MC-37387-->
 
 ![해결된 문제](../assets/fix.svg) 이제 구매요청 목록에서 제품 검토를 제출할 때 Adobe Commerce에서 제품 페이지에 이 메시지를 표시합니다. `You submitted your review for moderation`. 검토는 [보류 중인 검토] 페이지에도 표시됩니다(관리자 **[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**). 이전에는 Adobe Commerce이 보류 중인 검토 목록에 검토를 추가했지만 제품 페이지에 404 오류가 발생했습니다. <!--- MC-37119-->
 
@@ -865,7 +865,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ![해결된 문제](../assets/fix.svg) 이제 실제 제품과 가상 제품이 모두 포함된 주문에 대해 다중 배송을 성공적으로 구현할 수 있습니다. <!--- MC-33818-->
 
-![해결된 문제](../assets/fix.svg) 이제 _[!UICONTROL Company Users]_이(가) 활성화되고&#x200B;**[!UICONTROL Access Restriction]**이(가)**[!UICONTROL Restriction Mode]**(으)로 설정된 경우 판매자는 내 계정 및 회사 구조 페이지의 `Sales: Login Only` 섹션에서 회사 사용자를 만들 수 있습니다. 이전에는 판매자가 사용자를 만들려고 할 때 Adobe Commerce에서 이 오류가 발생했습니다. `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
+![해결된 문제](../assets/fix.svg) 이제 _[!UICONTROL Company Users]_&#x200B;이(가) 활성화되고&#x200B;**[!UICONTROL Access Restriction]**&#x200B;이(가)**[!UICONTROL Restriction Mode]**(으)로 설정된 경우 판매자는 내 계정 및 회사 구조 페이지의 `Sales: Login Only` 섹션에서 회사 사용자를 만들 수 있습니다. 이전에는 판매자가 사용자를 만들려고 할 때 Adobe Commerce에서 이 오류가 발생했습니다. `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
 
 ![해결된 문제](../assets/fix.svg) 고객이 계정 정보를 저장할 때 Adobe Commerce은 더 이상 고객의 고객 그룹을 기본값으로 재설정하지 않습니다. <!--- MC-33554-->
 
