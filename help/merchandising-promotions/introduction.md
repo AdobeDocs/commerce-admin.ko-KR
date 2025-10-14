@@ -45,7 +45,7 @@ Adobe Commerce에서 프로모션 기능을 사용하여 제품 관계를 설정
 
 >[!NOTE]
 >
->특정 제품 특성을 기반으로 조건을 정의하려면 **[!UICONTROL Use for Promo Rule Conditions]** Storefront 속성`Yes`의 특성에 대해 [을(를) ](../catalog/attribute-product-create.md)(으)로 설정해야 합니다.
+>특정 제품 특성을 기반으로 조건을 정의하려면 **[!UICONTROL Use for Promo Rule Conditions]** Storefront 속성`Yes`의 특성에 대해 [을(를) &#x200B;](../catalog/attribute-product-create.md)(으)로 설정해야 합니다.
 
 
 ### 가격 규칙

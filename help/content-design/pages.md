@@ -17,7 +17,7 @@ ht-degree: 0%
 
 저장 수명이 긴 콘텐츠는 경우에 따라 _항상 사용 가능한 콘텐츠_&#x200B;라고도 합니다. 항상 사용되는 콘텐츠의 예로는 고객 성공 사례, _방법_ 지침 및 자주 묻는 질문(FAQ)이 있습니다. 이와 달리 자연적으로 상하기 쉬운 내용에는 이벤트, 업계 뉴스, 보도 자료 등이 포함된다.
 
-![샘플 Luma 저장소 ](./assets/storefront-about-us.png){width="700" zoomable="yes"}에 포함된 미국 정보 페이지
+![샘플 Luma 저장소 &#x200B;](./assets/storefront-about-us.png){width="700" zoomable="yes"}에 포함된 미국 정보 페이지
 
 ## 핵심 콘텐츠 페이지
 

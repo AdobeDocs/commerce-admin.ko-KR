@@ -112,7 +112,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
       - **[!UICONTROL Update Name]** 및 **[!UICONTROL Description]**&#x200B;을(를) 입력하십시오.
 
-      - 일정( **일정 아이콘**)에서 **[!UICONTROL End Date]**&#x200B;시작 날짜![ 및 ](../assets/icon-calendar.png)을(를) 선택하십시오. 날짜 범위를 비워 두면 규칙이 만료되지 않습니다.
+      - 일정( **일정 아이콘**)에서 **[!UICONTROL End Date]**&#x200B;시작 날짜![&#x200B; 및 &#x200B;](../assets/icon-calendar.png)을(를) 선택하십시오. 날짜 범위를 비워 두면 규칙이 만료되지 않습니다.
 
       - 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -142,7 +142,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
    >
    >여러 고객이 동시에 동일한 쿠폰을 동시에 사용하는 경우, 쿠폰 처리가 지연돼 설정한 사용 한도를 넘어설 수 있기 때문이다.
 
-1. 아래로 스크롤하여 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Manage Coupon Codes]**&#x200B;를 확장하고 다음을 수행합니다.
+1. 아래로 스크롤하여 ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Manage Coupon Codes]**&#x200B;를 확장하고 다음을 수행합니다.
 
    ![장바구니 가격 규칙 - 쿠폰 코드 관리](./assets/manage-coupon-codes.png){width="600" zoomable="yes"}
 

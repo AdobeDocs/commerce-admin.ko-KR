@@ -35,7 +35,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;페이지에는 스토어와 고객 간
 
 1. 목록에서 청구 계약을 찾은 다음 을(를) 클릭하여 엽니다.
 
-각 청구 계약 페이지는 두 개의 탭(_[!UICONTROL General Information]_&#x200B;및_[!UICONTROL Related Orders]_)으로 구성됩니다.
+각 청구 계약 페이지는 두 개의 탭(_[!UICONTROL General Information]_&#x200B;및&#x200B;_[!UICONTROL Related Orders]_)으로 구성됩니다.
 
 #### 일반 정보
 

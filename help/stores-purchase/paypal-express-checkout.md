@@ -580,5 +580,5 @@ _스마트 결제 단추_ 기능을 사용하면 결제, 제품 세부 사항, �
 [3]: https://manager.paypal.com/
 [4]: https://www.paypalobjects.com/en_AU/vhelp/paypalmanager_help/credit_card_numbers.htm
 [5]: https://www.paypal.com/rs/webapps/mpp/express-checkout
-[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout
+[6]: https://demo.paypal.com/us/demo/navigation?merchant=bigbox&page=incontextProductCheckout
 [7]: https://developer.paypal.com/docs/api-basics/sandbox/

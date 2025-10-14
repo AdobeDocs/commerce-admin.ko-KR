@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Catalog]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Downloadable Product Options]_&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Downloadable Product Options]_&#x200B;를 확장합니다.
 
    ![다운로드 가능한 제품 옵션](../configuration-reference/catalog/assets/catalog-downloadable-product-options.png){width="700" zoomable="yes"}
 
@@ -178,7 +178,7 @@ ht-degree: 0%
 
 ### 5단계: 다운로드 가능한 정보 완료
 
-아래로 스크롤하여 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Downloadable Information]_&#x200B;를 확장하고&#x200B;**[!UICONTROL Is this downloadable product?]**&#x200B;확인란을 선택합니다.
+아래로 스크롤하여 ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Downloadable Information]_&#x200B;를 확장하고&#x200B;**[!UICONTROL Is this downloadable product?]**&#x200B;확인란을 선택합니다.
 
 활성화하면 _[!UICONTROL Downloadable Information]_&#x200B;섹션에 두 부분이 있습니다. 첫 번째 부분에서는 각 다운로드 링크에 대해 설명하고 두 번째 부분에서는 각 샘플 파일에 대해 설명합니다. 이러한 옵션 중 많은 옵션의 기본값은 [configuration](#configure-the-download-options)에서 설정할 수 있습니다.
 
@@ -262,7 +262,7 @@ ht-degree: 0%
 
 - 오른쪽 상단에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-- 스토어에서 제품을 보려면 **[!UICONTROL Customer View]**&#x200B;관리자&#x200B;_(_&#x200B;메뉴 화살표![) 메뉴에서 ](../assets/icon-menu-down-arrow-black.png)을(를) 선택하십시오.
+- 스토어에서 제품을 보려면 **[!UICONTROL Customer View]**&#x200B;관리자&#x200B;_(_&#x200B;메뉴 화살표![) 메뉴에서 &#x200B;](../assets/icon-menu-down-arrow-black.png)을(를) 선택하십시오.
 
   저장소가 새 브라우저 탭에서 열립니다.
 

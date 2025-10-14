@@ -83,7 +83,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >_[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;및_[!UICONTROL Stock Sources]_ 엔터티 형식의 경우 다음과 같은 가져오기 동작이 표시됩니다. `Add/Update`, `Replace` 및 `Delete`. _고객 재무_, _고객 기본 파일_ 및 _고객 및 주소_ 엔터티 형식의 경우 다음과 같은 가져오기 동작이 표시됩니다. `Add/Update Complex Data`, `Delete Entities` 및 `Custom Action`.
+     >_[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;및&#x200B;_[!UICONTROL Stock Sources]_ 엔터티 형식의 경우 다음과 같은 가져오기 동작이 표시됩니다. `Add/Update`, `Replace` 및 `Delete`. _고객 재무_, _고객 기본 파일_ 및 _고객 및 주소_ 엔터티 형식의 경우 다음과 같은 가져오기 동작이 표시됩니다. `Add/Update Complex Data`, `Delete Entities` 및 `Custom Action`.
 
    - **[!UICONTROL Start Time]** — 가져오기가 시작되도록 예약된 시간, 분 및 초로 설정합니다.
 

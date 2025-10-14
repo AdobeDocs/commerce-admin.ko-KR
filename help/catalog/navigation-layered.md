@@ -72,7 +72,7 @@ _예: 결과 없이 표시된 필터링 가능한 견본 값_
 
 1. 카테고리 트리에서 레이어 탐색을 사용할 카테고리를 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Display Settings]**&#x200B;을(를) 확장하고 **[!UICONTROL Anchor]**&#x200B;을(를) `Yes`(으)로 설정합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Display Settings]**&#x200B;을(를) 확장하고 **[!UICONTROL Anchor]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
    ![범주 표시 설정](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
 

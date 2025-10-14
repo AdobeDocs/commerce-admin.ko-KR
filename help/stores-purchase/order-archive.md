@@ -121,7 +121,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Actions]** 컨트롤을 `Move to Archive`(으)로 설정하고 순서가 보관된 메시지를 찾습니다.
 
-   ![선택한 주문을 보관 위치로 이동 ](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
+   ![선택한 주문을 보관 위치로 이동 &#x200B;](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >

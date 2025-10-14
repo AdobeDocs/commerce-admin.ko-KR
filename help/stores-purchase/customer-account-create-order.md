@@ -28,7 +28,7 @@ ht-degree: 0%
 
    ![Workspace 헤더](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
-   [을(를) 클릭하여 ](orders.md#orders-workspace)작업 영역 순서 지정&#x200B;**[!UICONTROL Create New Order]**&#x200B;에서 순서를 만들 수도 있습니다.
+   [을(를) 클릭하여 &#x200B;](orders.md#orders-workspace)작업 영역 순서 지정&#x200B;**[!UICONTROL Create New Order]**&#x200B;에서 순서를 만들 수도 있습니다.
 
 ## 2단계: 제품 추가
 

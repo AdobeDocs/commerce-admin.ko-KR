@@ -31,7 +31,7 @@ Dynamic media URL은 이미지 또는 기타 미디어 에셋에 대한 상대 �
 
 1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL WYSIWYG Options]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL WYSIWYG Options]**&#x200B;를 확장합니다.
 
    ![WYSIWYG 옵션](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
 

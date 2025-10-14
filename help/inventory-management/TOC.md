@@ -15,7 +15,7 @@ ht-degree: 5%
 # [!DNL Inventory Management] 사용 안내서 {#inventory}
 
 - [Inventory management 안내서](guide-overview.md)
-- [ [!DNL Inventory Management] 소개](introduction.md)
+- [&#x200B; [!DNL Inventory Management] 소개](introduction.md)
 - [릴리스 정보](release-notes.md)
 - 인벤토리 기본 사항 {#basics}
    - [소스 및 재고](sources-stocks.md)
@@ -29,7 +29,7 @@ ht-degree: 5%
    - [인벤토리 확장 및 재구성](expand-restructure.md)
 - 구성 {#configuration}
    - [개요](configuration.md)
-   - [ [!DNL Inventory Management] 사용](enable.md)
+   - [&#x200B; [!DNL Inventory Management] 사용](enable.md)
    - [글로벌 옵션 구성](global-options.md)
    - [제품 옵션 구성](product-options.md)
    - [미납 주문 구성](backorders.md)

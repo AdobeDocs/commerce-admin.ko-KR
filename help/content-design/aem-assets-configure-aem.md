@@ -83,7 +83,7 @@ AEM Assets 작성 환경에서 메타데이터 프로필을 만들어 Commerce �
 
 1. Commerce 통합을 위한 메타데이터 프로필을 **[!UICONTROL Create]**&#x200B;합니다.
 
-   ![AEM 작성자 관리자 추가 메타데이터 프로필 ](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
+   ![AEM 작성자 관리자 추가 메타데이터 프로필 &#x200B;](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
 
 1. Commerce 메타데이터에 대한 탭을 추가합니다.
 

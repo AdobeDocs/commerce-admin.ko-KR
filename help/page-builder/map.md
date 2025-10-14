@@ -262,7 +262,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
 ### 격자 크기 변경
 
-눈금 크기는 [ 단계의 ](column.md)열[!DNL Page Builder]과(와) 관련된 맵의 크기를 결정합니다. 기본적으로 맵은 너비가 12열이며 최대 16열입니다.
+눈금 크기는 [&#x200B; 단계의 &#x200B;](column.md)열[!DNL Page Builder]과(와) 관련된 맵의 크기를 결정합니다. 기본적으로 맵은 너비가 12열이며 최대 16열입니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 

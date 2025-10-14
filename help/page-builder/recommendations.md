@@ -37,7 +37,7 @@ _제품 권장 사항_ 콘텐츠 형식을 사용하여 CMS 페이지, 블록 �
 
 ## 기존 추천 단위 추가
 
-1. [ 페이지 유형에 대해 이미 ](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/admin/create)추천 단위를 만들었습니다[!DNL Page Builder].
+1. [&#x200B; 페이지 유형에 대해 이미 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/admin/create)추천 단위를 만들었습니다[!DNL Page Builder].
 
 >[!NOTE]
 >

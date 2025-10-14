@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # [!DNL Page Builder] Workspace
 
-[[!DNL Page Builder] 이(가) 활성화](setup.md)되면 _[!UICONTROL Content]_&#x200B;섹션 및 콘텐츠 만들기 프로세스가 수정되어 CMS [!DNL Page Builder]페이지[, ](../content-design/page-add.md)제품[ 및 ](../catalog/product-content.md)범주[ 페이지, ](../catalog/categories-content-settings.md)블록[ 및 ](../content-design/block-add.md)동적 블록[에 대한 고급 ](../content-design/dynamic-blocks.md) 도구를 사용합니다. 이 섹션에는_&#x200B;콘텐츠 제목&#x200B;_필드, 콘텐츠 미리 보기 및 전체 화면 [!DNL Page Builder] 작업 영역에 대한 쉬운 액세스 권한이 포함됩니다.
+[[!DNL Page Builder] 이(가) 활성화](setup.md)되면 _[!UICONTROL Content]_&#x200B;섹션 및 콘텐츠 만들기 프로세스가 수정되어 CMS [!DNL Page Builder]페이지[, &#x200B;](../content-design/page-add.md)제품[&#x200B; 및 &#x200B;](../catalog/product-content.md)범주[&#x200B; 페이지, &#x200B;](../catalog/categories-content-settings.md)블록[&#x200B; 및 &#x200B;](../content-design/block-add.md)동적 블록[에 대한 고급 &#x200B;](../content-design/dynamic-blocks.md) 도구를 사용합니다. 이 섹션에는_&#x200B;콘텐츠 제목&#x200B;_필드, 콘텐츠 미리 보기 및 전체 화면 [!DNL Page Builder] 작업 영역에 대한 쉬운 액세스 권한이 포함됩니다.
 
-![ 미리 보기가 있는 [!DNL Page Builder]콘텐츠 섹션](./assets/pb-content-preview.png){width="700" zoomable="yes"}
+![&#x200B; 미리 보기가 있는 [!DNL Page Builder]콘텐츠 섹션](./assets/pb-content-preview.png){width="700" zoomable="yes"}
 
 ## 컨텐츠 제목
 
@@ -91,7 +91,7 @@ _[!UICONTROL Layout]_&#x200B;패널의 [!DNL Page Builder] 섹션은 행, 열 �
 
 기본적으로 [!DNL Page Builder] 단계는 비어 있습니다. 패널에서 스테이지로 레이아웃 콘텐츠 유형을 드래그할 때 페이지의 다른 레이아웃 컨테이너 위, 아래 또는 내부에 배치할 수 있습니다. 행은 스테이지에 직접 추가될 수만 있습니다.
 
-레이아웃 콘텐츠 형식 및 단계 ![[!DNL Page Builder]이(가) 있는 ](./assets/pb-stage-toolbox.png){width="600" zoomable="yes"} 패널
+레이아웃 콘텐츠 형식 및 단계 ![[!DNL Page Builder]이(가) 있는 &#x200B;](./assets/pb-stage-toolbox.png){width="600" zoomable="yes"} 패널
 
 | 레이아웃 컨텐츠 유형 | 설명 |
 | ------------------- |------------ |
@@ -119,7 +119,7 @@ _[!UICONTROL Elements]_&#x200B;패널의 [!DNL Page Builder] 섹션을 사용하
 
 ### 미디어
 
-_[!UICONTROL Media]_&#x200B;패널의 [!DNL Page Builder] 섹션을 사용하여 [!DNL Google Maps]단계[[!DNL Page Builder] 의 모든 레이아웃 컨테이너에 이미지, 비디오, 배너, 슬라이더 및 ](workspace.md#stage)을(를) 추가하십시오. 미디어 콘텐츠 유형을 패널에서 스테이지로 드래그하면 콘텐츠 유형에 해당하는 옵션 도구 상자가 있는 컨테이너가 표시됩니다.
+_[!UICONTROL Media]_&#x200B;패널의 [!DNL Page Builder] 섹션을 사용하여 [!DNL Google Maps]단계[[!DNL Page Builder] 의 모든 레이아웃 컨테이너에 이미지, 비디오, 배너, 슬라이더 및 &#x200B;](workspace.md#stage)을(를) 추가하십시오. 미디어 콘텐츠 유형을 패널에서 스테이지로 드래그하면 콘텐츠 유형에 해당하는 옵션 도구 상자가 있는 컨테이너가 표시됩니다.
 
 미디어 콘텐츠 형식이 있는 ![[!DNL Page Builder] 패널](./assets/pb-media-content-types.png){width="600" zoomable="yes"}
 

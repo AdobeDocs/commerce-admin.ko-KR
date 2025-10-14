@@ -44,7 +44,7 @@ _Column_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.
 
 ## 열 그리드
 
-[grid](workspace.md)을(를) 사용하면 콘텐츠가 열에서 일관되게 정렬되고 데스크톱 및 모바일 장치에서 페이지가 올바르게 렌더링됩니다. 자세한 내용은 [ 구성의 ](setup.md)고급 콘텐츠 도구[!DNL Page Builder] 섹션을 참조하십시오.
+[grid](workspace.md)을(를) 사용하면 콘텐츠가 열에서 일관되게 정렬되고 데스크톱 및 모바일 장치에서 페이지가 올바르게 렌더링됩니다. 자세한 내용은 [&#x200B; 구성의 &#x200B;](setup.md)고급 콘텐츠 도구[!DNL Page Builder] 섹션을 참조하십시오.
 
 ![한 열이 있는 행의 눈금 나누기](./assets/pb-layout-column-one-grid.png){width="500" zoomable="yes"}
 
@@ -64,7 +64,7 @@ _Column_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.
 
 1. 열 그룹의 왼쪽 상단 모서리에서 _Grid_ 도구(![Grid 컨트롤](./assets/pb-icon-grid-control.png))를 클릭하고 필요에 따라 눈금 크기를 조정합니다.
 
-   격자에 컨텐츠를 배치하면 컨텐츠를 일관되게 정렬하고 데스크탑 및 모바일 장치에서 페이지를 올바르게 렌더링하는 데 도움이 됩니다. 자세한 내용은 [ 구성의 ](../configuration-reference/general/content-management.md)고급 콘텐츠 도구[!DNL Page Builder] 섹션을 참조하십시오.
+   격자에 컨텐츠를 배치하면 컨텐츠를 일관되게 정렬하고 데스크탑 및 모바일 장치에서 페이지를 올바르게 렌더링하는 데 도움이 됩니다. 자세한 내용은 [&#x200B; 구성의 &#x200B;](../configuration-reference/general/content-management.md)고급 콘텐츠 도구[!DNL Page Builder] 섹션을 참조하십시오.
 
    ![두 열의 눈금 나누기](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
 

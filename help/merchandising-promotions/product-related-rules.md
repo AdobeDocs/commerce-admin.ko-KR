@@ -28,8 +28,8 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL ID] | 관련된 각 제품 규칙에 할당된 고유 숫자 식별자입니다 |
 | [!UICONTROL Rule] | 관련 제품 규칙의 이름 |
-| [!UICONTROL Start] | 동적 일정 필드(_[!UICONTROL To:]_&#x200B;및_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 시작 날짜를 기준으로 목록을 필터링합니다. |
-| [!UICONTROL End] | 동적 일정 필드(_[!UICONTROL To:]_&#x200B;및_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 종료 날짜를 기준으로 목록을 필터링합니다. |
+| [!UICONTROL Start] | 동적 일정 필드(_[!UICONTROL To:]_&#x200B;및&#x200B;_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 시작 날짜를 기준으로 목록을 필터링합니다. |
+| [!UICONTROL End] | 동적 일정 필드(_[!UICONTROL To:]_&#x200B;및&#x200B;_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 종료 날짜를 기준으로 목록을 필터링합니다. |
 | [!UICONTROL Priority] | 규칙에 대해 정의된 우선 순위를 기준으로 목록을 필터링하려면 이 필드에 텍스트를 입력합니다. |
 | [!UICONTROL Applies To] | 이 옵션은 `Related Products`, `Up-sells` 및 `Cross-sells`에 적용되는 규칙 목록을 필터링합니다. |
 | [!UICONTROL Status] | 이 옵션을 사용하여 규칙 상태(`Active` 또는 `Inactive`)를 기준으로 목록을 필터링합니다. |

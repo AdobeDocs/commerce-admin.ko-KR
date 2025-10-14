@@ -223,7 +223,7 @@ Real-Time CDP [대상자](../customers/audience-activation.md)를 기반으로 �
 
 1. **[!UICONTROL Actions]**&#x200B;까지 아래로 스크롤한 다음 섹션을 ![확장 선택기](../assets/icon-display-expand.png)합니다.
 
-   ![장바구니 가격 규칙 - 작업 ](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
+   ![장바구니 가격 규칙 - 작업 &#x200B;](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Apply]**&#x200B;을(를) 다음 할인 옵션 중 하나로 설정합니다.
 

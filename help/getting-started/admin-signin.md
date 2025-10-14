@@ -156,7 +156,7 @@ _[!UICONTROL Sign In]_&#x200B;페이지에 로그아웃되었다는 메시지가
 
 1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
-[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US
+[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
 
 ## 관리자에 대한 보안 액세스 유지
 

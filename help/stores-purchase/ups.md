@@ -36,7 +36,7 @@ UPS 통합을 사용하려면 [UPS API 시작 안내서](https://developer.ups.c
 
 1. 왼쪽 패널의 **[!UICONTROL Sales]**&#x200B;에서 **[!UICONTROL Delivery Methods]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL UPS]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL UPS]**&#x200B;를 확장합니다.
 
 1. **[!UICONTROL Enabled for Checkout]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 

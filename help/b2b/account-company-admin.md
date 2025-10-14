@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 새 회사 관리자의 **[!UICONTROL Job Title]**&#x200B;을(를) 입력하십시오.
 
-   이 작업을 수행하면 양식이 지워지고 필수 _[!UICONTROL First Name]_&#x200B;및_[!UICONTROL Last Name]_ 필드가 강조 표시됩니다.
+   이 작업을 수행하면 양식이 지워지고 필수 _[!UICONTROL First Name]_&#x200B;및&#x200B;_[!UICONTROL Last Name]_ 필드가 강조 표시됩니다.
 
 1. 새 회사 관리자의 **[!UICONTROL Email]** 주소를 입력하십시오.
 

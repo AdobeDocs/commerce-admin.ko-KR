@@ -278,7 +278,7 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 
 ### 5단계: 제품 이미지 추가
 
-1. 아래로 스크롤하여 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Images and Videos]_&#x200B;를 확장합니다.
+1. 아래로 스크롤하여 ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Images and Videos]_&#x200B;를 확장합니다.
 
 1. _카메라_ 타일을 클릭하고 구성 가능한 제품에 사용할 기본 이미지를 찾습니다.
 
@@ -310,7 +310,7 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 
       - 오른쪽 상단에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-      - 스토어에서 제품을 보려면 **[!UICONTROL Customer View]**&#x200B;관리자&#x200B;_(_&#x200B;메뉴 화살표![) 메뉴에서 ](../assets/icon-menu-down-arrow-black.png)을(를) 선택하십시오.
+      - 스토어에서 제품을 보려면 **[!UICONTROL Customer View]**&#x200B;관리자&#x200B;_(_&#x200B;메뉴 화살표![) 메뉴에서 &#x200B;](../assets/icon-menu-down-arrow-black.png)을(를) 선택하십시오.
 
      저장소가 새 브라우저 탭에서 열립니다.
 
@@ -328,7 +328,7 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Shopping Cart]_&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Shopping Cart]_&#x200B;를 확장합니다.
 
 1. **[!UICONTROL Configurable Product Image]**&#x200B;을(를) `Product Thumbnail Itself`(으)로 설정합니다.
 
@@ -388,6 +388,6 @@ _여러 Source 판매자가 [Inventory management](../inventory-management/intro
 
 - 장바구니의 썸네일 이미지는 구성 가능한 제품 레코드 또는 제품 변형의 이미지를 표시하도록 설정할 수 있습니다.
 
-- 관리자의 특성 편집 페이지에서 [ 옵션 값을 ](swatches.md#create-swatches-for-products)(으)로 설정하여 견본을 선택할 때 **[!UICONTROL Update Product Preview Image]**&#x200B;견본 특성`No`이(가) 해당 단순 제품 이미지를 표시하지 않도록 구성할 수 있습니다.
+- 관리자의 특성 편집 페이지에서 [&#x200B; 옵션 값을 &#x200B;](swatches.md#create-swatches-for-products)(으)로 설정하여 견본을 선택할 때 **[!UICONTROL Update Product Preview Image]**&#x200B;견본 특성`No`이(가) 해당 단순 제품 이미지를 표시하지 않도록 구성할 수 있습니다.
 
 - 테마는 사용자가 제품 구성 간을 전환할 때 이미지 갤러리가 작동하는 방식을 제어합니다. _Blank_ 테마의 기본 동작은 상위 구성 가능한 제품 이미지를 선택한 제품 변형으로 재정의하는 것입니다. Luma 테마의 경우 기본 동작은 선택한 제품 변형 이미지를 상위 구성 가능한 제품 이미지에 앞에 추가하는 것입니다.

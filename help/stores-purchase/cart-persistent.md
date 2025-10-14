@@ -28,7 +28,7 @@ ht-degree: 0%
 
 영구 장바구니가 [사용](#configure-a-persistent-cart)인 경우 워크플로는 다음에 따라 달라집니다.
 
-- _[!UICONTROL Enable Remember Me]_&#x200B;및_[!UICONTROL Clear Persistence on Log Out]_ 설정의 값
+- _[!UICONTROL Enable Remember Me]_&#x200B;및&#x200B;_[!UICONTROL Clear Persistence on Log Out]_ 설정의 값
 - 고객이 _[!UICONTROL Remember Me]_&#x200B;확인란을 선택 또는 선택 취소하기로 결정함
 - 영구 쿠키가 지워지면
 

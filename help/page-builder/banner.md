@@ -50,7 +50,7 @@ _배너_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](workspace
 
    ![배너 콘텐츠 형식을 스테이지로 드래그](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   _[!UICONTROL Upload Image]_&#x200B;및_[!UICONTROL Select from Gallery]_ 버튼이 포함되어 있으므로 스테이지에서 직접 배너 콘텐츠를 빠르게 변경할 수 있습니다. _[!UICONTROL Edit Banner]_&#x200B;페이지에서 내용을 변경할 수도 있습니다.
+   _[!UICONTROL Upload Image]_&#x200B;및&#x200B;_[!UICONTROL Select from Gallery]_ 버튼이 포함되어 있으므로 스테이지에서 직접 배너 콘텐츠를 빠르게 변경할 수 있습니다. _[!UICONTROL Edit Banner]_&#x200B;페이지에서 내용을 변경할 수도 있습니다.
 
 1. 배너 자리 표시자를 클릭하여 [텍스트 편집기](../content-design/editor.md)를 표시하고 배너의 콘텐츠를 입력합니다.
 

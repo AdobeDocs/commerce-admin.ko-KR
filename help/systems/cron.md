@@ -31,7 +31,7 @@ Adobe Commerce 및 Magento Open Source은 정기적으로 스크립트를 실행
 - 시스템 그리드 업데이트 및 리인덱싱 주문
 - 보류 중인 지급 수명
 
-cron 작업 중에 생성된 URL이 정확하도록 저장소의 [기본 URL](../stores-purchase/store-urls.md)이(가) 올바르게 설정되어 있는지 확인하십시오. 클라우드 인프라의 Adobe Commerce에 대해서는 _Cloud Infrastructure의 Commerce 안내서_&#x200B;에서 [cron 작업 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=ko)을 참조하십시오. 온-프레미스의 경우 _구성 가이드_&#x200B;에서 [구성 및 실행 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko)을(를) 참조하십시오.
+cron 작업 중에 생성된 URL이 정확하도록 저장소의 [기본 URL](../stores-purchase/store-urls.md)이(가) 올바르게 설정되어 있는지 확인하십시오. 클라우드 인프라의 Adobe Commerce에 대해서는 _Cloud Infrastructure의 Commerce 안내서_&#x200B;에서 [cron 작업 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=ko)을 참조하십시오. 온-프레미스의 경우 _구성 가이드_&#x200B;에서 [구성 및 실행 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko)을(를) 참조하십시오.
 
 ## cron 구성
 

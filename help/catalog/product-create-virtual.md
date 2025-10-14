@@ -128,7 +128,7 @@ _[!UICONTROL Weight]_&#x200B;필드가 없는 것 외에 가상 제품과 간단
 
       - 오른쪽 상단에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-      - 스토어에서 제품을 보려면 **[!UICONTROL Customer View]**&#x200B;관리자&#x200B;_(_&#x200B;메뉴 화살표![) 메뉴에서 ](../assets/icon-menu-down-arrow-black.png)을(를) 선택하십시오.
+      - 스토어에서 제품을 보려면 **[!UICONTROL Customer View]**&#x200B;관리자&#x200B;_(_&#x200B;메뉴 화살표![) 메뉴에서 &#x200B;](../assets/icon-menu-down-arrow-black.png)을(를) 선택하십시오.
 
      저장소가 새 브라우저 탭에서 열립니다.
 

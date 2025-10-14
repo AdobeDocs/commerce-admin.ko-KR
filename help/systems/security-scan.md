@@ -57,7 +57,7 @@ Adobe Commerce 및 Magento Open Source 사이트에서 보안 위험 및 맬웨�
 
       1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
       1. 목록에서 사이트를 찾은 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
-      1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL HTML Head]**&#x200B;를 확장합니다.
+      1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL HTML Head]**&#x200B;를 확장합니다.
       1. **[!UICONTROL Scripts and Style Sheets]**(으)로 스크롤한 다음 기존 코드의 끝에 있는 텍스트 상자를 클릭합니다. 확인 코드를 텍스트 상자에 붙여 넣습니다.
 
          ![스크립트 및 스타일 시트](./assets/scan-paste-code.png){width="600" zoomable="yes"}

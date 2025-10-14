@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. _편집_ 모드로 제품을 엽니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Sources]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Sources]**&#x200B;를 확장합니다.
 
    이 섹션에서는 출처를 수정하고 재고 수량을 업데이트하는 등의 작업을 수행할 수 있습니다.
 

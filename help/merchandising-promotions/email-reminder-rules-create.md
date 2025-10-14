@@ -66,7 +66,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Emails and Labels]**&#x200B;을(를) 선택합니다.
 
-   ![전자 메일 미리 알림 규칙 - 전자 메일 및 레이블 템플릿 ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![전자 메일 미리 알림 규칙 - 전자 메일 및 레이블 템플릿 &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Email Templates]** 섹션에서 [스토어 계층 구조](../getting-started/websites-stores-views.md)의 각 웹 사이트 및 스토어 보기에 사용할 전자 메일 템플릿을 선택합니다.
 

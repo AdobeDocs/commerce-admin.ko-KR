@@ -27,7 +27,7 @@ Adobe Commerce 및 Magento Open Source을 사용하면 파일 시스템, 데이�
 
 1. 왼쪽 패널에서 **[!UICONTROL Advanced]**&#x200B;을(를) 확장하고 **[!UICONTROL System]**&#x200B;을(를) 선택합니다.
 
-1. ![에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Backup Settings]**&#x200B;을 확장합니다.
+1. ![에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Backup Settings]**&#x200B;을 확장합니다.
 
 1. **[!UICONTROL Enabled Schedule Backup]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 

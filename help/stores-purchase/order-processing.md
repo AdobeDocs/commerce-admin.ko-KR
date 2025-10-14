@@ -84,7 +84,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**[!UICONTROL Sales / Archive]**&#x200B;송장[, ](../systems/permissions-user-roles.md)대변 메모&#x200B;_및_&#x200B;배송&#x200B;_주문 탭을 보려면 관리자 사용자에게 역할 범위에 대한_&#x200B;개의 _권한_&#x200B;이 있어야 합니다.
+>**[!UICONTROL Sales / Archive]**&#x200B;송장[, &#x200B;](../systems/permissions-user-roles.md)대변 메모&#x200B;_및_&#x200B;배송&#x200B;_주문 탭을 보려면 관리자 사용자에게 역할 범위에 대한_&#x200B;개의 _권한_&#x200B;이 있어야 합니다.
 
 ### 단추 막대
 

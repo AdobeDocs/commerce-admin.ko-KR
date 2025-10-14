@@ -49,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL 3DS Secure authentication] | 웹 사이트 | [3DS 보안 인증을 사용하거나 사용하지 않도록 설정](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html?lang=ko#3ds). 옵션: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | 웹 사이트 | 신용 카드 필드가 체크아웃 페이지에 표시되도록 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Vault enabled] | 스토어 뷰 | [신용 카드 보관](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=ko)을 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | 스토어 뷰 | 보관된 결제 방법을 사용하여 [ 관리자 ](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=ko)에서 고객에 대한 주문을 완료하는 기능을 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | 스토어 뷰 | 보관된 결제 방법을 사용하여 [&#x200B; 관리자 &#x200B;](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html?lang=ko)에서 고객에 대한 주문을 완료하는 기능을 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | 웹 사이트 | 디버그 모드를 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}

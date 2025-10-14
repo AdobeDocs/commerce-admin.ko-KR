@@ -147,7 +147,7 @@ ht-degree: 0%
 
    그렇지 않으면 **[!UICONTROL Save and Continue Edit]**&#x200B;을(를) 클릭하고 이전 단계를 반복하여 주소를 추가합니다.
 
-   선택한 _[!UICONTROL Default Billing]_&#x200B;및_[!UICONTROL Default Shipping]_ 주소가 전체 목록 위에 있는 [!UICONTROL Addresses] 페이지에 새 주소가 표시됩니다.
+   선택한 _[!UICONTROL Default Billing]_&#x200B;및&#x200B;_[!UICONTROL Default Shipping]_ 주소가 전체 목록 위에 있는 [!UICONTROL Addresses] 페이지에 새 주소가 표시됩니다.
 
    ![주소 보기](assets/address-list.png){width="600" zoomable="yes"}
 

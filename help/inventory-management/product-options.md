@@ -52,7 +52,7 @@ ht-degree: 0%
 | [!UICONTROL Source Item Status] | 글로벌 | 제품의 현재 가용성을 결정합니다. 옵션:<br />`In Stock` - 제품을 구매할 수 있도록 설정합니다.<br />`Out of Stock` - 미납주문을 활성화하지 않으면 제품을 구매할 수 없게 하고 카탈로그에서 목록을 제거합니다. |
 | [!UICONTROL Qty] | 글로벌 | 각 출처 또는 위치에 대한 현재고 금액. |
 | [!UICONTROL Notify Quantity] | 글로벌 | _[!UICONTROL Notify Quantity Use Default]_&#x200B;을(를) 선택하지 않은 경우 이 특정 원본의&#x200B;_[!UICONTROL Notify for Quantity Below]_&#x200B;에 대한 양입니다. |
-| [!UICONTROL Notify Quantity Use Default] | 글로벌 | 제품 _[!UICONTROL Advanced Inventory]_&#x200B;의_[!UICONTROL Notify for Quantity Below]_&#x200B;에 대한 기본 설정 또는 저장소 구성의 전역 설정을 사용함을 나타냅니다. |
+| [!UICONTROL Notify Quantity Use Default] | 글로벌 | 제품 _[!UICONTROL Advanced Inventory]_&#x200B;의&#x200B;_[!UICONTROL Notify for Quantity Below]_&#x200B;에 대한 기본 설정 또는 저장소 구성의 전역 설정을 사용함을 나타냅니다. |
 
 ## 고급 제품 옵션
 

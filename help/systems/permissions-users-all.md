@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단에서 **[!UICONTROL Add New User]**&#x200B;을(를) 클릭합니다.
 
-   기존 사용자를 편집하려면 그리드에서 사용자 이름을 클릭합니다. 필요에 따라 _[!UICONTROL User Info]_&#x200B;및_[!UICONTROL User Role]_ 섹션을 수정할 수 있습니다.
+   기존 사용자를 편집하려면 그리드에서 사용자 이름을 클릭합니다. 필요에 따라 _[!UICONTROL User Info]_&#x200B;및&#x200B;_[!UICONTROL User Role]_ 섹션을 수정할 수 있습니다.
 
 1. _[!UICONTROL Account Information]_&#x200B;섹션에서 다음을 수행합니다.
 

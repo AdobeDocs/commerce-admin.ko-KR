@@ -44,7 +44,7 @@ ht-degree: 0%
 
 1. 목록에서 제품을 찾은 다음 를 클릭하여 레코드를 엽니다.
 
-1. **[!UICONTROL Search Engine Optimization]** 섹션에서 ![확장 선택기 ](../assets/icon-display-expand.png)을(를) 확장합니다.
+1. **[!UICONTROL Search Engine Optimization]** 섹션에서 ![확장 선택기 &#x200B;](../assets/icon-display-expand.png)을(를) 확장합니다.
 
    ![제품 검색 엔진 최적화 - 영구 리디렉션](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 

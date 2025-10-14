@@ -59,7 +59,7 @@ Adobe Commerce 또는 Magento Open Source 설치에 다중 사이트 또는 다�
 
 1. 그리드의 _[!UICONTROL Store View]_&#x200B;열에서 편집할 보기의 이름을 클릭합니다.
 
-   기본 보기를 편집할 때 _[!UICONTROL Store]_&#x200B;및_[!UICONTROL Status]_ 필드를 사용할 수 없습니다.
+   기본 보기를 편집할 때 _[!UICONTROL Store]_&#x200B;및&#x200B;_[!UICONTROL Status]_ 필드를 사용할 수 없습니다.
 
    ![스토어 보기 - 기본 보기 편집](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

@@ -104,7 +104,7 @@ Assets은 [페이지 추가 또는 편집](page-add.md), [카테고리 만들기
 
 >[!NOTE]
 >
->_다음에서 사용_ 기능을 사용하려면 [!UICONTROL Media Gallery Image Optimization]구성 설정[에서 ](media-gallery-image-optimization.md)을(를) 사용하도록 설정해야 합니다.
+>_다음에서 사용_ 기능을 사용하려면 [!UICONTROL Media Gallery Image Optimization]구성 설정[에서 &#x200B;](media-gallery-image-optimization.md)을(를) 사용하도록 설정해야 합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**(으)로 이동합니다.
 

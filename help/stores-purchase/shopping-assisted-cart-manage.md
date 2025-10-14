@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ## 속성별로 장바구니에 제품 추가
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Products]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Products]**&#x200B;를 확장합니다.
 
 1. 각 열의 맨 위에 있는 필터를 사용하여 제품을 찾습니다.
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 ## SKU별 제품 추가
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Add to Shopping Cart by SKU]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Add to Shopping Cart by SKU]**&#x200B;를 확장합니다.
 
 1. **[!UICONTROL SKU]**&#x200B;에서 개별적으로 제품을 추가하거나 CSV 파일을 업로드하여 제품을 추가하십시오.
 

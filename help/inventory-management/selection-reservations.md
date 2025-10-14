@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->프로그래밍 방식으로 [ 시스템을 사용하는 방법에 대한 자세한 내용은 ](https://developer.adobe.com/commerce/php/development/framework/inventory-management/)개발자 설명서[!DNL Inventory Management]를 참조하세요.
+>프로그래밍 방식으로 [&#x200B; 시스템을 사용하는 방법에 대한 자세한 내용은 &#x200B;](https://developer.adobe.com/commerce/php/development/framework/inventory-management/)개발자 설명서[!DNL Inventory Management]를 참조하세요.
 
 ## Source 선택 알고리즘
 
