@@ -28,7 +28,7 @@ B2B 확장에 대한 이러한 릴리스 노트는 다음을 포함하여 Adobe�
 
 Adobe Commerce 버전 2.4.9-alpha3과 호환 가능
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-94](https://helpx.adobe.com/kr/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.5.3-alpha2
 
@@ -45,7 +45,7 @@ Adobe Commerce 버전 2.4.9-alpha2와 호환 가능
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.8-p3, 2.4.7-p8 및 2.4.6-p13 보안 패치 릴리스.
 Adobe Commerce 버전 2.4.7 - 2.4.7-p7, 2.4.6 - 2.4.6-p12와 호환됩니다.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-94](https://helpx.adobe.com/kr/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.5.2-p2
 
@@ -223,7 +223,7 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.7-p8+ 및 2.4.6-p13+ 보안 패치 릴리스.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-94](https://helpx.adobe.com/kr/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 {{b2b-compatibility}}
 
@@ -385,7 +385,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.6-p13+ 보안 패치 릴리스.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-94](https://helpx.adobe.com/kr/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.3.5-p12
 
@@ -475,7 +475,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.0 이상 버전
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-94](https://helpx.adobe.com/kr/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.3.4-p14
 
@@ -565,7 +565,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.0 이상 버전
 
-![해결된 문제](../assets/fix.svg) [보안 게시판 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg) [보안 게시판 APSB25-94](https://helpx.adobe.com/kr/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.3.3-p15
 

@@ -48,5 +48,5 @@ PCI(Payment Card Industry)는 인터넷을 통해 신용 카드로 결제할 수
 
 비즈니스 규모가 커지면 매년 규정 준수 보고서를 제출해야 할 수도 있습니다. 가맹점 수준에 비례해 PCI 신고 요건이 늘어나지만 연간 2만건 이하의 신용카드 거래를 처리하는 사업자에 대해서는 면제된다. 자세한 내용은 [PCI 보안 표준 위원회][2] 웹 사이트를 참조하십시오.
 
-[1]: https://business.adobe.com/products/magento/pci-compliance.html
+[1]: https://business.adobe.com/kr/products/magento/pci-compliance.html
 [2]: https://www.pcisecuritystandards.org/index.php

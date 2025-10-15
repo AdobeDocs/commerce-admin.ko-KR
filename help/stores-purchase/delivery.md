@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Temando의 종료로 인해 [!DNL Magento Shipping]에 대한 지원이 2.4.0에서 제거되었습니다. Commerce의 새로운 배송 구현에 대한 자세한 상태 정보 및 권장 사항은 [제품 정보](https://business.adobe.com/products/magento/shipping.html){:target="_blank"} 페이지를 참조하십시오.
+>Temando의 종료로 인해 [!DNL Magento Shipping]에 대한 지원이 2.4.0에서 제거되었습니다. Commerce의 새로운 배송 구현에 대한 자세한 상태 정보 및 권장 사항은 [제품 정보](https://business.adobe.com/kr/products/magento/shipping.html){:target="_blank"} 페이지를 참조하십시오.
 
 ## 기본 게재 방법
 

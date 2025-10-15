@@ -40,4 +40,4 @@ Adobe Commerce 또는 Magento Open Source 사이트가 손상된 것으로 의�
 
 1. **보고서**: Commerce에서 특정 취약성을 발견했다고 생각되면 [Adobe 문제를 열고](https://hackerone.com/adobe?type=team) 기술 세부 정보를 포함하십시오.
 
-1. **업그레이드**: 연중무휴 24시간 지원을 통해 안심하고 [클라우드 아키텍처의 Adobe Commerce](https://business.adobe.com/products/magento/cloud-delivery.html)(으)로 업그레이드할 수 있습니다.
+1. **업그레이드**: 연중무휴 24시간 지원을 통해 안심하고 [클라우드 아키텍처의 Adobe Commerce](https://business.adobe.com/kr/products/magento/cloud-delivery.html)(으)로 업그레이드할 수 있습니다.

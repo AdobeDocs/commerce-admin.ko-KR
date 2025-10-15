@@ -109,7 +109,7 @@ ht-degree: 0%
 
 ### 오픈 소스 질문
 
-마켓플레이스 지원 팀은 [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) 및 [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) 사이트와 관련된 문제만 해결합니다. Magento Open Source에 대한 질문이 있으면 [커뮤니티 포럼](https://community.magento.com/)에 문의하거나 [Magento Open Source을 지원할 수 있는 파트너에게 문의](https://business.adobe.com/products/magento/partners.html)하십시오.
+마켓플레이스 지원 팀은 [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) 및 [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) 사이트와 관련된 문제만 해결합니다. Magento Open Source에 대한 질문이 있으면 [커뮤니티 포럼](https://community.magento.com/)에 문의하거나 [Magento Open Source을 지원할 수 있는 파트너에게 문의](https://business.adobe.com/kr/products/magento/partners.html)하십시오.
 
 ### 환불 요청
 
@@ -143,4 +143,4 @@ Marketplace 지원 팀에서는 다른 계정으로 구매를 전송할 수 없�
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/kr/products/magento/magento-commerce.html

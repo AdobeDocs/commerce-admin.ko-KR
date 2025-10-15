@@ -20,7 +20,7 @@ Adobe Commerce B2B 확장 `magento/extension-b2b`은(는) 지원되는 모든 Ad
 
 ## 요구 사항
 
-- [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html), 지원되는 모든 버전
+- [Adobe Commerce](https://business.adobe.com/kr/products/magento/magento-commerce.html), 지원되는 모든 버전
 - PHP 8.1, 8.2 및 8.3(B2B 1.5.0 필요)
 - [!DNL Composer]
 

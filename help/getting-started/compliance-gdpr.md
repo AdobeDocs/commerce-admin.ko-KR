@@ -51,6 +51,6 @@ GDPR을 준수하는 기업은 CCPA에 따라 추가적인 의무가 있을 수 
 
 - 데이터 흐름 다이어그램 및 데이터베이스 엔터티 매핑에 대해서는 [개인 정보 참조][2]{: target=&quot;_blank&quot;}를 참조하십시오.
 
-[1]: https://business.adobe.com/privacy/general-data-protection-regulation.html
+[1]: https://business.adobe.com/kr/privacy/general-data-protection-regulation.html
 [2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=ko
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
