@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 제품 속성 만들기 및 삭제
 
-제품이나 _[!UICONTROL Product Attributes]_페이지에서 작업하는 동안 특성을 만들 수 있습니다. 다음 단계에서는_[!UICONTROL Stores]_ 메뉴에서 특성을 만드는 방법을 보여 줍니다.
+제품이나 _[!UICONTROL Product Attributes]_&#x200B;페이지에서 작업하는 동안 특성을 만들 수 있습니다. 다음 단계에서는&#x200B;_[!UICONTROL Stores]_ 메뉴에서 특성을 만드는 방법을 보여 줍니다.
 
 ## 1단계: 기본 속성 속성 설명
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. [!UICONTROL Dropdown] 및 [!UICONTROL Multiple Select] 입력 유형에 대해 다음을 수행합니다.
 
-   - _[!UICONTROL Manage Options]_에서&#x200B;**[!UICONTROL Add Option]**을(를) 클릭합니다.
+   - _[!UICONTROL Manage Options]_&#x200B;에서&#x200B;**[!UICONTROL Add Option]**&#x200B;을(를) 클릭합니다.
 
    - 목록에 표시할 첫 번째 값을 입력합니다.
 
@@ -70,9 +70,9 @@ ht-degree: 0%
 
    ![제품 특성 - 고급 속성](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
-   사용 가능한 옵션은 _[!UICONTROL Catalog Input Type for Store Owner]_설정에 따라 다릅니다.
+   사용 가능한 옵션은 _[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;설정에 따라 다릅니다.
 
-1. **[!UICONTROL Scope]**&#x200B;스토어 계층 구조[에서 특성을 사용할 수 있는 위치를 나타내려면 ](../getting-started/websites-stores-views.md)을(를) 설정하십시오.
+1. **[!UICONTROL Scope]**&#x200B;스토어 계층 구조[에서 특성을 사용할 수 있는 위치를 나타내려면 &#x200B;](../getting-started/websites-stores-views.md)을(를) 설정하십시오.
 
 1. 중복 값 항목을 방지하려면 **[!UICONTROL Unique Value]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -91,8 +91,8 @@ ht-degree: 0%
 
 1. 이 특성을 [제품 목록](products-list.md)에 추가하려면 다음 옵션을 `Yes`(으)로 설정하십시오.
 
-   - **열 옵션에 추가** - 특성을 _[!UICONTROL Products]_목록에 열로 포함합니다.
-   - **필터 옵션에서 사용** - _[!UICONTROL Products]_목록의 열 헤더에 필터 컨트롤을 추가합니다.
+   - **열 옵션에 추가** - 특성을 _[!UICONTROL Products]_&#x200B;목록에 열로 포함합니다.
+   - **필터 옵션에서 사용** - _[!UICONTROL Products]_&#x200B;목록의 열 헤더에 필터 컨트롤을 추가합니다.
 
 ## 3단계: 필드 레이블 입력
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
    ![제품 특성 - 상점 속성](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
-   사용 가능한 옵션은 _[!UICONTROL Catalog Input Type for Store Owner]_설정에 따라 다릅니다.
+   사용 가능한 옵션은 _[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;설정에 따라 다릅니다.
 
 1. 특성을 검색할 수 있게 하려면 **[!UICONTROL Use in Search]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
