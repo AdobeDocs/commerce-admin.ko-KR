@@ -3,16 +3,16 @@ title: 제품 속성 만들기 및 삭제
 description: 카탈로그에 있는 제품의 특정 특성을 설명하는 데 사용되는 제품 특성을 만들고 제거하는 방법에 대해 알아봅니다.
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: 3768fc8896dd353e5cc29b4fe82862d6653d6348
+source-git-commit: ab91c19cda6a89219fc8946dad4a0a70d0991b38
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
 
 # 제품 속성 만들기 및 삭제
 
-제품이나 _[!UICONTROL Product Attributes]_&#x200B;페이지에서 작업하는 동안 특성을 만들 수 있습니다. 다음 단계에서는&#x200B;_[!UICONTROL Stores]_ 메뉴에서 특성을 만드는 방법을 보여 줍니다.
+제품이나 _[!UICONTROL Product Attributes]_페이지에서 작업하는 동안 특성을 만들 수 있습니다. 다음 단계에서는_[!UICONTROL Stores]_ 메뉴에서 특성을 만드는 방법을 보여 줍니다.
 
 ## 1단계: 기본 속성 속성 설명
 
@@ -31,7 +31,7 @@ ht-degree: 0%
    | `Text Field` | 텍스트를 위한 한 줄 입력 필드입니다. |
    | `Text Area` | 제품 설명과 같은 텍스트 단락을 입력하기 위한 여러 줄 입력 필드입니다. WYSIWYG 편집기 를 사용하여 HTML 태그로 텍스트 서식을 지정하거나 텍스트에 태그를 직접 입력할 수 있습니다. |
    | `Text Editor` | 속성 위치에서 완전히 작동하는 텍스트 편집기입니다. |
-   | 날짜 | [기본 설정 형식](attributes-input-types.md#date-and-time-options) 및 [시간대](../getting-started/store-details.md#locale-options)로 날짜 값을 표시합니다. 날짜 값은 목록 또는 달력(![달력 아이콘](../assets/icon-calendar.png))에서 선택할 수 있습니다. <br/><br/>**_참고:_**&#x200B;시스템 구성에 따라_관리자&#x200B;_사용자는 필드에 날짜를 직접 입력하거나 일정 또는 목록에서 날짜를 선택할 수 있습니다. 날짜 및 시간 값 지정에 대한 자세한 내용은 [날짜 및 시간 옵션](attributes-input-types.md#date-and-time-options)을 참조하세요. |
+   | 날짜 | [기본 설정 형식](attributes-input-types.md#date-and-time-options) 및 [시간대](../getting-started/store-details.md#locale-options)로 날짜 값을 표시합니다. 날짜 값은 목록 또는 달력(![달력 아이콘](../assets/icon-calendar.png))에서 선택할 수 있습니다. <br/><br/>**_참고:_** 시스템 구성에 따라 _관리자_ 사용자는 필드에 날짜를 직접 입력하거나 달력 또는 목록에서 날짜를 선택할 수 있습니다. 날짜 및 시간 값 지정에 대한 자세한 내용은 [날짜 및 시간 옵션](attributes-input-types.md#date-and-time-options)을 참조하세요. |
    | `Yes/No` | `Yes` 및 `No`의 사전 정의된 옵션이 있는 드롭다운 목록을 표시합니다. |
    | `Dropdown` | 단일 선택 항목만 허용하는 값의 드롭다운 목록을 표시합니다. 드롭다운 입력 유형은 [구성 가능한 제품](product-create-configurable.md)의 주요 구성 요소입니다. |
    | `Multiple Select` | 다중 선택을 허용하는 값의 드롭다운 목록을 표시합니다. |
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. [!UICONTROL Dropdown] 및 [!UICONTROL Multiple Select] 입력 유형에 대해 다음을 수행합니다.
 
-   - _[!UICONTROL Manage Options]_&#x200B;에서&#x200B;**[!UICONTROL Add Option]**&#x200B;을(를) 클릭합니다.
+   - _[!UICONTROL Manage Options]_에서&#x200B;**[!UICONTROL Add Option]**을(를) 클릭합니다.
 
    - 목록에 표시할 첫 번째 값을 입력합니다.
 
@@ -66,13 +66,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >[!UICONTROL Attribute Code] 필드의 `type` 값은 사용하지 않는 것이 좋습니다. `type` 값이 시스템 용도로 예약되어 있기 때문에 오류가 발생할 수 있습니다.
+   >`type` 필드의 [!UICONTROL Attribute Code] 값은 사용하지 않는 것이 좋습니다. `type` 값이 시스템 용도로 예약되어 있기 때문에 오류가 발생할 수 있습니다.
 
    ![제품 특성 - 고급 속성](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
-   사용 가능한 옵션은 _[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;설정에 따라 다릅니다.
+   사용 가능한 옵션은 _[!UICONTROL Catalog Input Type for Store Owner]_설정에 따라 다릅니다.
 
-1. [스토어 계층 구조](../getting-started/websites-stores-views.md)에서 특성을 사용할 수 있는 위치를 나타내려면 **[!UICONTROL Scope]**&#x200B;을(를) 설정하십시오.
+1. **[!UICONTROL Scope]**&#x200B;스토어 계층 구조[에서 특성을 사용할 수 있는 위치를 나타내려면 ](../getting-started/websites-stores-views.md)을(를) 설정하십시오.
 
 1. 중복 값 항목을 방지하려면 **[!UICONTROL Unique Value]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -91,8 +91,8 @@ ht-degree: 0%
 
 1. 이 특성을 [제품 목록](products-list.md)에 추가하려면 다음 옵션을 `Yes`(으)로 설정하십시오.
 
-   - **열 옵션에 추가** - 특성을 _[!UICONTROL Products]_&#x200B;목록에 열로 포함합니다.
-   - **필터 옵션에서 사용** - _[!UICONTROL Products]_&#x200B;목록의 열 헤더에 필터 컨트롤을 추가합니다.
+   - **열 옵션에 추가** - 특성을 _[!UICONTROL Products]_목록에 열로 포함합니다.
+   - **필터 옵션에서 사용** - _[!UICONTROL Products]_목록의 열 헤더에 필터 컨트롤을 추가합니다.
 
 ## 3단계: 필드 레이블 입력
 
@@ -104,13 +104,17 @@ ht-degree: 0%
 
    ![제품 특성 - 제목 관리](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
 
+   >[!NOTE]
+   >
+   > 라이브 검색에서 이 속성을 패싯으로 사용하려면 저장소별 레이블을 지정해야 합니다. 없으면 Facet 구성 페이지에 속성 이름이 올바르게 표시되지 않을 수 있습니다. 구성을 업데이트하려면 [Live Search 안내서](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)의 Live Search 환경 설정 목록&#x200B;_에서_&#x200B;편집 옵션을 사용하여 레이블을 수동으로 편집하십시오.
+
 ## 4단계: 상점 속성 설명
 
 1. 왼쪽 탐색에서 **[!UICONTROL Storefront Properties]**&#x200B;을(를) 선택합니다.
 
    ![제품 특성 - 상점 속성](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
-   사용 가능한 옵션은 _[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;설정에 따라 다릅니다.
+   사용 가능한 옵션은 _[!UICONTROL Catalog Input Type for Store Owner]_설정에 따라 다릅니다.
 
 1. 특성을 검색할 수 있게 하려면 **[!UICONTROL Use in Search]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -173,7 +177,7 @@ ht-degree: 0%
 
 속성을 삭제하기 전에 현재 카탈로그의 제품에서 이 속성을 사용하고 있지 않은지 확인하십시오. 특성을 사용 중인지 확인하는 쉬운 방법은 [내보내기](../systems/data-export.md) 도구를 사용하여 제품 엔터티 특성 목록을 확인하는 것입니다. 속성이 목록에 포함되지 않으면 카탈로그의 제품에서 사용되지 않습니다.
 
-**_특성을 삭제하려면:_**
+특성을 삭제하려면 **_To:_**
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**(으)로 이동합니다.
 
