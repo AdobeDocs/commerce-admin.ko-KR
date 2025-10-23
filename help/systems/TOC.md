@@ -5,10 +5,10 @@ breadcrumb-title: 관리 시스템 안내서
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 9c200a46a30d51b4844fff24d864b629b8400f33
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 3%
+source-wordcount: '188'
+ht-degree: 4%
 
 ---
 
@@ -35,20 +35,22 @@ ht-degree: 3%
 - 데이터 전송 {#data-transfer}
    - [개요](data-transfer.md)
    - [CSV 파일](data-csv.md)
-   - 가져오기{#import}
+   - 가져오기 {#import}
       - [가져오기 프로세스](data-import.md)
       - [제품 이미지](data-import-product-images.md)
    - [내보내기](data-export.md)
    - [제품 데이터 속성 참조](data-attributes-product.md)
    - [고객 데이터 속성 참조](data-attributes-customer.md)
    - [세율 데이터 업데이트](data-transfer-tax-rates.md)
-   - 예제 {#examples}
+   - 예 {#examples}
       - [번들 제품 가져오기](data-transfer-bundle-products.md)
       - [구성 가능한 제품 가져오기](data-transfer-configurable-products.md)
       - [다운로드 가능한 제품 가져오기](data-transfer-downloadable-products.md)
       - [계층 가격 데이터 가져오기](data-import-price-tier.md)
    - [예약된 가져오기 및 내보내기](data-scheduled-import-export.md)
-   - [데이터 관리 대시보드](data-dashboard.md)
+   - Commerce 서비스를 위한 데이터 동기화 {#data-sync}
+      - [데이터 관리 대시보드](data-dashboard.md)
+      - [데이터 피드 동기화 상태](data-feed-sync-status.md)
 - 작업 로그 {#action-logs}
    - [개요](action-log.md)
    - [작업 로그 보고서](action-log-report.md)
@@ -77,6 +79,6 @@ ht-degree: 3%
    - [세션 관리](security-session-management.md)
    - [브라우저 기능 감지](security-browser-capabilities-detection.md)
    - [보안 문제 보고](security-issue-reporting.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 
