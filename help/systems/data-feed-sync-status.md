@@ -1,17 +1,17 @@
 ---
-title: 데이터 피드 상태 모니터링
+title: 데이터 피드 동기화 상태 모니터링
 description: 데이터 내보내기 동기화를 모니터링하고  [!DNL Catalog Service], [!DNL Live Search] 및 [!DNL Product Recommendations]에 대한 피드 처리와 관련된 문제 또는 지연을 식별합니다.
 feature: Products, Customers, Data Import/Export
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 433d3fd4dc10a81b685262c1e3c06a0da5778841
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 4cc5f5842e772ead9785b8280557a7b5b8f26419
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
 
 
-# 데이터 피드 상태 모니터링
+# 데이터 피드 동기화 상태 모니터링
 
 Adobe Commerce 관리자는 Commerce 관리자의 데이터 피드 동기화 상태 페이지를 사용하여 Adobe Commerce에서 연결된 Commerce 서비스로 내보낸 데이터의 동기화 상태를 모니터링할 수 있습니다.
 
@@ -19,7 +19,7 @@ Adobe Commerce 관리자는 Commerce 관리자의 데이터 피드 동기화 상
 
 이 페이지에서는 제품 및 범주 데이터를 Commerce에서 [!DNL Product Recommendations], [!DNL Live Search] 및 [!DNL Catalog Service]과 같은 외부 서비스로 전송하는 데이터 내보내기 피드의 상태와 성능에 대한 실시간 통찰력을 제공합니다.
 
-동기화 상태 페이지에는 내보내기 상태만 표시됩니다. 성공 상태는 데이터가 게시를 위해 SaaS 데이터베이스로 성공적으로 내보내졌음을 나타냅니다. [데이터 관리 대시보드](data-dashboard.md)를 사용하여 Commerce 데이터베이스에서 연결된 서비스로 전송되는 데이터를 추적합니다.
+동기화 상태 페이지에는 내보내기 상태만 표시됩니다. 성공 상태는 데이터를 성공적으로 내보내고 연결된 Commerce 서비스에서 사용할 수 있음을 나타냅니다. 실제 엔터티 동기화 상태를 보려면 [데이터 관리 대시보드](data-dashboard.md)를 사용하십시오.
 
 피드 상태 모니터링은 데이터 일관성을 보장하고 내보내기 프로세스 중에 발생하는 모든 문제를 신속하게 해결할 수 있습니다. 관리자는 다음 작업을 수행할 수 있습니다.
 
@@ -38,30 +38,30 @@ Adobe Commerce 관리자는 Commerce 관리자의 데이터 피드 동기화 상
 
 >[!TIP]
 >
->데이터 동기화 프로세스에 대한 자세한 내용은 [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/data-synchronization)*에서 *SaaS 데이터 내보내기와 데이터 동기화*&#x200B;를 참조하십시오.
+>데이터 동기화 프로세스에 대한 자세한 내용은 [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization)에서 *SaaS 데이터 내보내기와 데이터 동기화*&#x200B;를 참조하십시오.
 
 ## 확장 설치
 
 데이터 피드 상태 페이지는 다음 Commerce 서비스에 대한 활성 라이선스가 있는 모든 Commerce 판매자가 사용할 수 있습니다.
 
-* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/guide-overview)
-* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/ko/docs/commerce/live-search/guide-overview)
-* 활성 라이선스가 있는 [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/guide-overview).
+* [[!DNL Product Recommendations v6.0.0+]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
+* [[!DNL Live Search v4.1.0+]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview)
+* 활성 라이선스가 있는 [[!DNL Catalog Service v1.17+]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview).
 
 **요구 사항**
 
 * PHP 8.1, 8.2, 8.3 또는 8.4
 * Adobe Commerce 2.4.4+
-* [Adobe Commerce 데이터 내보내기 확장](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/manage-extension), 버전 103.4.15 이상
+* [Adobe Commerce 데이터 내보내기 확장](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/manage-extension), 버전 103.4.15 이상
 * [repo.magento.com에 액세스](https://repo.magento.com)
 
-  키를 생성하고 필요한 권한을 얻으려면 [인증 키 가져오기](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오. 클라우드 설치의 경우 [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/authentication-keys)를 참조하십시오.
+  키를 생성하고 필요한 권한을 얻으려면 [인증 키 가져오기](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오. 클라우드 설치의 경우 [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys)를 참조하십시오.
 
 * Adobe Commerce 애플리케이션 서버의 명령줄에 액세스합니다.
 
 ### 설치 단계
 
-작성기를 사용하여 `adobe-commerce/module-data-exporter-status` 모듈 추가:
+작성기를 사용하여 `magento/module-data-exporter-status` 모듈 추가:
 
 ```shell
 composer require magento/module-data-exporter-status
@@ -69,13 +69,13 @@ composer require magento/module-data-exporter-status
 
 자세한 설치 단계는 다음 안내서를 참조하십시오.
 
-* [클라우드 인프라에서 Adobe Commerce에 확장 설치](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* [클라우드 인프라에서 Adobe Commerce에 확장 설치](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 
-* [확장 Adobe Commerce 온-프레미스 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)
+* [확장 Adobe Commerce 온-프레미스 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## 데이터 피드 상태 페이지 액세스
 
-Commerce 관리자의 **[!DNL System]** > 데이터 전송 > **[!DNL Data Feed SyncStatus]**&#x200B;에서 Commerce 관리자의 데이터 피드 상태 페이지에 액세스합니다.
+Commerce 관리자의 **[!DNL System]** > 데이터 전송 > **[!DNL Data Feed Sync Status]**&#x200B;에서 Commerce 관리자의 데이터 피드 상태 페이지에 액세스합니다.
 
 데이터 피드 내보내기 활동을 요약하는 ![데이터 피드 동기화 상태 페이지](assets/data-feed-sync-status.png)
 
@@ -133,7 +133,7 @@ Commerce 관리자의 **[!DNL System]** > 데이터 전송 > **[!DNL Data Feed S
 
 >[!TIP]
 >
->인덱스 처리에 대한 자세한 내용은 [인덱스 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management) 항목을 참조하십시오.
+>인덱스 처리에 대한 자세한 내용은 [인덱스 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) 항목을 참조하십시오.
 
 #### 로그 백로그 변경
 
@@ -165,7 +165,7 @@ Commerce 데이터베이스에서 제품 및 카테고리 관련 엔터티를 �
 
 >[!NOTE]
 >
->Adobe은 또한 개발자와 시스템 통합자가 동기화 작업을 관리하고 추적하는 데 사용할 수 있는 명령줄 인터페이스 도구와 시스템 로그를 제공합니다. 자세한 내용은 [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/saas-data-export/overview)를 참조하십시오.
+>Adobe은 또한 개발자와 시스템 통합자가 동기화 작업을 관리하고 추적하는 데 사용할 수 있는 명령줄 인터페이스 도구와 시스템 로그를 제공합니다. 자세한 내용은 [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)를 참조하십시오.
 
 ### 실패한 내보내기 관리
 
@@ -265,5 +265,5 @@ Commerce 데이터베이스에서 제품 및 카테고리 관련 엔터티를 �
 
 >[!MORELIKETHIS]
 >
->* [데이터 관리 대시보드](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-dashboard)
->* [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/saas-data-export/overview)
+>* [데이터 관리 대시보드](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard)
+>* [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview)
