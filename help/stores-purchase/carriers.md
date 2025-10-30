@@ -3,9 +3,9 @@ title: 운송 회사 설정
 description: 상점에 사용할 수 있는 상업용 배송 계정에 대한 지원에 대해 알아보십시오.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Commerce 설치에 대한 추가 배송 서비스는 [Commerce Marketplace](../getting-started/commerce-marketplace.md)를 참조하십시오.
+>Commerce 설치에 대한 추가 배송 서비스는 [Commerce Marketplace](../getting-started/commerce-marketplace.md)을(를) 참조하십시오.
 
 고객에게 다양한 운송 회사를 제공하기 전에 다음 단계를 완료해야 합니다.
 
@@ -42,3 +42,20 @@ ht-degree: 0%
 1. 운송회사와 운송 계정을 개설합니다.
 
 1. 계정 번호 또는 사용자 ID와 시스템에 대한 게이트웨이 URL을 스토어 구성에 입력합니다.
+
+### USPS Web Tools API 사용 중단
+
+Adobe Commerce 버전 2.4.6, 2.4.7 및 2.4.8에서는 기존 Web Tools API를 사용하여 USPS와 즉시 통합이 가능합니다. USPS는 기존 Web Tools API를 대체하는 REST 기반 플랫폼인 USPS API를 도입했습니다.
+
+USPS는 2026년 1월 25일에 기존 Web Tools API를 중단합니다. 이 날짜 이후에 Web Tools API에 대한 모든 요청이 실패합니다.
+
+USPS 배송 서비스의 중단을 방지하려면 2026년 1월 25일 전에 다음 작업을 수행하십시오.
+
+- [USPS REST API 마이그레이션 품질 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html)&#x200B;(AC-1520)를 적용하여 USPS REST API와 통합에 대한 지원을 추가하십시오.
+
+- REST API를 사용하도록 Commerce USPS 구성을 업데이트합니다.
+
+   - [USPS 배송 회사 구성](usps.md)
+
+   - [배송 레이블 구성](shipping-label-create.md)
+

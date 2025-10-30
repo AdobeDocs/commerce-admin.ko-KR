@@ -3,9 +3,9 @@ title: 미국 우편 서비스(USPS)
 description: USPS를 상점의 배송 운송업체로 설정하는 방법에 대해 알아봅니다.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,13 @@ ht-degree: 0%
 
 ## 2단계: 스토어에 대해 USPS 활성화
 
+{{$include /help/_includes/usps-api-type-configuration-note.md}}
+
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Delivery Methods]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL USPS]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL USPS]**&#x200B;를 확장합니다.
 
    >[!NOTE]
    >
@@ -34,17 +36,28 @@ ht-degree: 0%
 
 1. **[!UICONTROL Enabled for Checkout]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
-1. 필요한 경우 **[!UICONTROL Gateway URL]**&#x200B;을(를) 입력하여 USPS 배송 속도에 액세스하십시오.
+1. USPS REST API를 사용하는 경우 **[!UICONTROL USPS Type]**&#x200B;을(를) `USPS Rest APIs`(으)로 설정하십시오.
 
-   >[!IMPORTANT]
-   >
-   >2021년 6월 24일부터 USPS Web Tools 는 모든 비보안 HTTP 엔드포인트에 대한 지원을 제거합니다. 이 변경 후에는 비보안 HTTP 끝점에 대한 모든 Web Tools API 요청이 실패합니다. **[!UICONTROL Gateway URL]**&#x200B;에서 보안 HTTPS 끝점을 사용하는지 확인하십시오.
+   USPS Web Tools API를 사용하는 경우 **[!UICONTROL USPS Type]**&#x200B;을(를) `USPS Web Tools API`(으)로 설정하십시오.
+
+1. 필요한 경우 **[!UICONTROL Gateway URL]**&#x200B;을(를) 입력하여 USPS 배송 속도에 액세스하십시오.
 
    필드는 기본적으로 미리 설정되어 있으며 일반적으로 변경할 필요가 없습니다.
 
 1. 체크아웃 중에 표시되는 이 배송 방법에 대한 **[!UICONTROL Title]**&#x200B;을(를) 입력하십시오.
 
-1. USPS 계정의 **[!UICONTROL User ID]** 및 **[!UICONTROL Password]**&#x200B;을(를) 입력하십시오.
+1. USPS에서 제공한 자격 증명을 사용하여 다음 필드를 완료합니다.
+
+   USPS Rest API를 사용하는 경우 다음 자격 증명을 제공해야 합니다.
+
+   - **[!UICONTROL Consumer Key]**
+   - **[!UICONTROL Consumer Secret]**
+   - **[!UICONTROL Pricing Options]**
+
+   USPS Web Tools API를 사용하는 경우 다음 자격 증명을 제공해야 합니다.
+
+   - **[!UICONTROL User ID]**
+   - **[!UICONTROL Password]**
 
 1. **[!UICONTROL Mode]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
@@ -128,7 +141,6 @@ ht-degree: 0%
    `0` = 첫 번째, `1` = 두 번째, `2` = 세 번째 등입니다.
 
 1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
-
 
 [1]: https://secure.shippingapis.com/registration/
 [2]: https://www.usps.com/business/web-tools-apis/welcome.htm

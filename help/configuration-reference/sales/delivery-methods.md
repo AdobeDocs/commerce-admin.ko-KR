@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Commerce 관리자의 [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '3792'
+source-wordcount: '4148'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![고정 속도](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![무료 배송](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
-<!-- [Free Shipping](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![테이블 속도](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ![매장 내 배달](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![UPS XML 계정 설정](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 ![UPS 패키지 정보](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information]https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -147,19 +147,19 @@ ht-degree: 0%
 | [!UICONTROL Minimum Package Weight] | 웹 사이트 | UPS에서 지정한 대로 패키지를 지정할 수 있는 최소 가중치를 설정합니다. 주문한 제품의 무게가 최소 포장 무게보다 작은 경우 이 배송 옵션을 사용할 수 없습니다. 최소 중량을 확인하려면 운송 업체에 문의하십시오. |
 | [!UICONTROL Calculate Handling Fee] | 웹 사이트 | 테이블 요금 배송에 대한 처리 수수료 계산 방법을 설정합니다. 옵션: <br>**`Fixed`**- 수수료는 정률입니다.<br>**`Percent`** - 취급 수수료는 주문 금액의 백분율로 적용됩니다. |
 | [!UICONTROL Handling Applied] | 웹 사이트 | 각 주문에 처리 비용이 적용되는지 또는 주문 내의 각 패키지에 적용되는지를 지정합니다. |
-| [!UICONTROL Handling Fee] | 웹 사이트 | 배송비 가격에 포함된 처리를 설정합니다. 취급 수수료는 고정 금액 또는 백분율로 설정할 수 있습니다. <br/><br/>**_참고:_**&#x200B;백분율을 입력할 경우 25%의 경우 십진수 형식 `0.25`을(를) 사용하십시오. |
+| [!UICONTROL Handling Fee] | 웹 사이트 | 배송비 가격에 포함된 처리를 설정합니다. 취급 수수료는 고정 금액 또는 백분율로 설정할 수 있습니다. <br/><br/>**_참고:_** 백분율을 입력할 경우 25%의 경우 십진수 형식 `0.25`을(를) 사용하십시오. |
 
 {style="table-layout:auto"}
 
 ![UPS 허용 메서드](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | 웹 사이트 | 고객에게 제공되는 UPS 배송 방법을 지정합니다. 배송 요금은 선택한 배송 방법을 기준으로 계산됩니다. |
-| [!UICONTROL Free Method] | 웹 사이트 | UPS를 통해 무료 배송 방법에 사용되는 방법을 식별합니다. 무료 배송을 비활성화하려면 &quot;없음&quot;을 선택하십시오. <br/><br/>**_참고:_**&#x200B;이 메서드는 기본 [무료 배송](../../stores-purchase/shipping-free.md)과 비슷하지만 체크아웃 중에 UPS 배송 옵션으로 나타납니다. |
+| [!UICONTROL Free Method] | 웹 사이트 | UPS를 통해 무료 배송 방법에 사용되는 방법을 식별합니다. 무료 배송을 비활성화하려면 &quot;없음&quot;을 선택하십시오. <br/><br/>**_참고:_** 이 메서드는 기본 [무료 배송](../../stores-purchase/shipping-free.md)과 비슷하지만 체크아웃 중에 UPS 배송 옵션으로 나타납니다. |
 | [!UICONTROL Free Shipping Amount Threshold] | 웹 사이트 | 주문 금액이 무료 배송 임계값을 충족하면 무료 배송이 적용되는지 여부를 결정합니다. 옵션: `Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | 웹 사이트 | 무료 배송에 대한 자격이 부여되기 위해 주문이 도달해야 하는 최소 총 금액을 설정합니다. |
 | [!UICONTROL Displayed Error Message] | 스토어 뷰 | 어떤 이유로든 이 배송 방법을 사용할 수 없을 때 표시되는 오류 메시지. |
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ![UPS 적용 국가 및 기타 설정](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -195,9 +195,26 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
+다음 필드는 [USPS REST API 마이그레이션 품질 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html)을(를) 적용한 경우에만 사용할 수 있습니다(AC-1520). 이 패치를 사용하면 Web Tools API를 대체하는 REST 기반 플랫폼인 USPS API를 지원할 수 있습니다. 자세한 내용은 [USPS Web Tools API 사용 중단](../../stores-purchase/carriers.md)을 참조하십시오.
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL USPS Type] | 웹 사이트 | 사용할 **USPS Rest API** 또는 **USPS Web Tools API**&#x200B;를 선택하십시오. |
+| [!UICONTROL Consumer Key] | 웹 사이트 | REST API에 대한 USPS 발송자 계정 클라이언트 ID입니다. |
+| [!UICONTROL Consumer Secret] | 웹 사이트 | REST API에 대한 USPS 발송자 계정 클라이언트 암호 키. |
+| [!UICONTROL Account Type] | 웹 사이트 | USPS 결제 계정 유형. 옵션: REST API에 대한 `"EPS"`(엔터프라이즈 결제 시스템) 또는 `"PERMIT"`(허가 임프린트). <br/><br/>**_Note:_** 이 필드는 선택 사항입니다. 그러나 배송 레이블 만들기를 사용하려면 필수입니다. |
+| [!UICONTROL Pricing Options] | 웹 사이트 | USPS 가격 옵션: **소매** 또는 **상업용**. 적용된 배송 요금에 영향을 줍니다. REST API의 기본값은 **Commercial**&#x200B;입니다. |
+| [!UICONTROL Account Number] | 웹 사이트 | REST API 결제에 사용되는 USPS **계정 번호**&#x200B;입니다.  <br/><br/>**_Note:_** 이 필드는 선택 사항입니다. 그러나 배송 레이블 만들기를 사용하려면 필수입니다. |
+| [!UICONTROL Customer Registration Identifier(CRID)] | 웹 사이트 | 고객 등록 식별 번호(CRID)는 REST API를 위한 위치에서 비즈니스를 고유하게 식별하는 USPS 생성 숫자 코드입니다.  <br/><br/>**_Note:_** 이 필드는 선택 사항입니다. 그러나 배송 레이블 만들기를 사용하려면 필수입니다. |
+| [!UICONTROL Mailer Identifier(MID)] | 웹 사이트 | MID(Mailer Identifier)는 발송자를 식별하는 데 사용되는 지능형 메일 바코드 내의 필드입니다. MID는 USPS에서 REST API에 대해 요청하는 메일 소유자, 메일링 에이전트 또는 기타 서비스 공급자에게 할당됩니다.  <br/><br/>**_Note:_** 이 필드는 선택 사항입니다. 그러나 배송 레이블 만들기를 사용하려면 필수입니다. |
+| [!UICONTROL Manifest MID] | 웹 사이트 | REST API용 매니페스트에 지정된 고유한 메일러 식별자입니다.  <br/><br/>**_Note:_** 이 필드는 선택 사항입니다. 그러나 배송 레이블 만들기를 사용하려면 필수입니다. |
+| [!UICONTROL AES/ITN] | 웹 사이트 | USPS AES - 자동화된 내보내기 시스템/ITN - REST API에 대한 내부 트랜잭션 번호. <br/><br/>**_Note:_** 이 필드는 일반적으로 선택 사항이지만 다음과 같은 경우 배송 레이블 생성을 사용하도록 설정해야 합니다. <ul><li>선적 시 각 유형의 상품(<a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>의 일정 B 내보내기 코드로 정의됨)은 $2,500 이하의 값으로 평가되며 내보내기 라이선스가 필요하지 않습니다. 또는</li><li>그 화물은 가격에 상관없이 캐나다로 보내지고 있어서 수출 허가증이 필요 없다.</li></ul> |
+
+{style="table-layout:auto"}
+
 ![USPS 패키징 설정](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -212,26 +229,26 @@ ht-degree: 0%
 
 ![USPS 처리 비용 설정](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | 웹 사이트 | 테이블 요금 배송에 대한 처리 수수료 계산 방법을 설정합니다. 옵션: <br/>**`Fixed`**- 수수료는 정률입니다.<br/>**`Percent`** - 취급 수수료는 주문 금액의 백분율로 적용됩니다. |
 | [!UICONTROL Handling Applied] | 웹 사이트 | 각 주문에 처리 비용이 적용되는지 또는 주문 내의 각 패키지에 적용되는지를 지정합니다. |
-| [!UICONTROL Handling Fee] | 웹 사이트 | 배송비 가격에 포함된 처리를 설정합니다. 취급 수수료는 고정 금액 또는 백분율로 설정할 수 있습니다. <br/><br/>**_참고:_**&#x200B;백분율을 입력할 때 25%의 경우 십진수 형식 `0.25`을(를) 사용하십시오. |
+| [!UICONTROL Handling Fee] | 웹 사이트 | 배송비 가격에 포함된 처리를 설정합니다. 취급 수수료는 고정 금액 또는 백분율로 설정할 수 있습니다. <br/><br/>**_Note:_** 백분율을 입력할 때 25%의 십진수 형식 `0.25`을(를) 사용하십시오. |
 
 {style="table-layout:auto"}
 
 ![USPS 허용 메서드](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | 웹 사이트 | 고객에게 제공되는 허용된 USPS 배송 방법을 지정합니다. 배송 요금은 선택한 배송 방법을 기준으로 계산됩니다. |
-| [!UICONTROL Free Method] | 웹 사이트 | USPS를 통해 무료 배송 방법을 설정하거나 `None`을(를) 선택하여 비활성화할 수 있습니다. <br/><br/>**_참고:_**&#x200B;이 배송 방법은 스토어의 무료 배송 방법과 유사하지만 USPS 배송 옵션으로 나열되고 USPS 배송으로 식별됩니다. |
+| [!UICONTROL Free Method] | 웹 사이트 | USPS를 통해 무료 배송 방법을 설정하거나 `None`을(를) 선택하여 비활성화할 수 있습니다. <br/><br/>**_참고:_** 이 배송 방법은 스토어의 무료 배송 방법과 유사하지만 USPS 배송 옵션으로 나열되고 USPS 배송으로 식별됩니다. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | 웹 사이트 | 무료 배송을 위해 충족해야 하는 최소 주문 금액을 설정합니다. |
 | [!UICONTROL Displayed Error Message] | 스토어 뷰 | 어떤 이유로든 USPS를 사용할 수 없을 때 표시되는 오류 메시지입니다. |
 
@@ -239,7 +256,7 @@ ht-degree: 0%
 
 ![USPS 적용 국가](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -253,7 +270,7 @@ ht-degree: 0%
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### FedEx 계정 설정
 
@@ -291,7 +308,7 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Calculate Handling Fee] | 웹 사이트 | 취급 수수료를 계산하는 데 사용되는 방법을 결정합니다. 옵션: `Fixed Fee` / `Percentage` <br/><br/>**_참고:_**&#x200B;처리 요금은 선택 사항이며 FedEx 배송 비용에 추가되는 추가 요금으로 표시됩니다. |
+| [!UICONTROL Calculate Handling Fee] | 웹 사이트 | 취급 수수료를 계산하는 데 사용되는 방법을 결정합니다. 옵션: `Fixed Fee` / `Percentage` <br/><br/>**_Note:_** 처리 요금은 선택 사항이며 FedEx 배송 비용에 추가되는 추가 비용으로 표시됩니다. |
 | [!UICONTROL Handling Applied] | 웹 사이트 | 취급 수수료를 적용하는 방법을 결정합니다. 옵션: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | 웹 사이트 | 금액을 계산하는 데 사용되는 방법에 따라 처리 수수료로 청구되는 금액을 지정합니다. 요금이 고정 요금을 기준으로 하는 경우 `4.90`과(와) 같이 금액을 소수로 입력하십시오. 처리 수수료가 주문의 백분율을 기준으로 하는 경우 백분율로 금액을 입력합니다. 예를 들어 주문의 6%를 부과하려면 값을 `.06`(으)로 입력합니다. |
 
@@ -306,7 +323,7 @@ ht-degree: 0%
 | [!UICONTROL Residential Delivery] | 웹 사이트 | B2C(Business-to-Consumer) 또는 B2B(Business-to-Business)를 판매하는지 여부에 따라 다음 중 하나로 설정합니다. <br/>**`Yes`**- B2C 게재용<br/>**`No`** - B2B 게재용 |
 | [!UICONTROL Allowed Methods] | 웹 사이트 | 목록에서 지원하는 운송 방법을 선택합니다. 방법은 FedEx 계정, 배송 빈도 및 크기, 해외 배송 허용 여부에 따라 다릅니다. 상인으로서, 당신은 지상 운송만 제공하기로 결정할 수 있습니다. |
 | [!UICONTROL Hub ID] | 웹 사이트 | [!DNL Smart Post] 메서드와 함께 사용되는 FedEx에서 제공한 ID입니다. |
-| [!UICONTROL Free Method] | 웹 사이트 | 목록에서 무료 배송 오퍼에 사용할 배송 방법을 선택합니다. <br/><br/>**_참고:_**&#x200B;이 배송 방법은 일반 무료 배송 방법과 유사하지만 FedEx 배송 옵션에 나열되어 있으며 FedEx 배송으로 식별됩니다. |
+| [!UICONTROL Free Method] | 웹 사이트 | 목록에서 무료 배송 오퍼에 사용할 배송 방법을 선택합니다. <br/><br/>**_참고:_** 이 배송 방법은 일반 무료 배송 방법과 유사하지만 FedEx 배송 옵션 내에 나열되며 FedEx 배송으로 식별됩니다. |
 | [!UICONTROL Free Shipping Amount Threshold] | 웹 사이트 | 무료 배송에 최소 주문 금액이 필요한지 여부를 결정합니다. 옵션: <br/>**`Enable`**- 최소 금액을 충족하는 주문에 대해 무료 FedEx 배송을 활성화합니다.<br/>**`Disable`** - 최소 주문으로 무료 FedEx 배송을 사용하지 않도록 설정합니다. |
 | [!UICONTROL Free Shipping Amount Threshold] | 웹 사이트 | 무료 배송에 필요한 최소 주문 금액을 지정합니다. |
 | [!UICONTROL Displayed Error Message] | 스토어 뷰 | FedEx가 어떤 이유로든 사용할 수 없을 때 나타나는 메시지입니다. 기본 메시지를 사용하거나 다른 메시지를 입력할 수 있습니다. |
@@ -331,7 +348,7 @@ ht-degree: 0%
 
 ![DHL 계정 설정](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -347,7 +364,7 @@ ht-degree: 0%
 
 ![DHL 패키지 설정](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -363,7 +380,7 @@ ht-degree: 0%
 
 ![DHL 허용 메서드](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -379,13 +396,13 @@ ht-degree: 0%
 
 ![DHL 적용 국가](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | _[!UICONTROL DHL applicable countries]_ |  |  |
 | [!UICONTROL Ship to Applicable Countries] | 웹 사이트 | 고객이 이 배송 방법을 사용할 수 있는 국가를 지정합니다. 옵션: <br/>**모든 허용된 국가** - 모든 허용된 국가가 무료 배송 방법을 사용할 수 있습니다. [!UICONTROL General] 구성 페이지에 허용된 국가가 지정되었습니다. <br/>**특정 국가** - 이 배송 옵션을 특정 국가로 배송 목록에 지정된 국가로 제한합니다. |
-| [!UICONTROL Ship to Specific Countries] | 웹 사이트 | DHL 선적을 보낼 수 있는 국가를 지정합니다. [!UICONTROL Ship to Applicable Countries] 옵션에서 `Specific Countries`을(를) 선택한 경우 이 선택된 국가 목록이 사용됩니다. |
+| [!UICONTROL Ship to Specific Countries] | 웹 사이트 | DHL 선적을 보낼 수 있는 국가를 지정합니다. `Specific Countries` 옵션에서 [!UICONTROL Ship to Applicable Countries]을(를) 선택한 경우 이 선택된 국가 목록이 사용됩니다. |
 | [!UICONTROL Show Method if Not Applicable] | 웹 사이트 | 체크아웃 중에 DHL이 배송 방법으로 나타나는 시점을 결정합니다. 옵션: <br/>**`Yes`**- DHL은 주문에 적용되지 않더라도 체크아웃 중에 항상 배송 옵션으로 나타납니다.<br/>**`No`** - DHL은 주문에 적용할 수 있는 경우(즉, 주문 중량이 최대 중량을 초과하는 경우) 체크아웃 중에 배송 옵션으로 나타납니다. |
 | [!UICONTROL Debug] | 웹 사이트 | 오류 정보가 있는 로그 파일을 만듭니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 중에 다른 게재 방법과 함께 나열할 때 DHL이 표시되는 순서를 결정하는 숫자입니다. 목록의 맨 위에 배치하려면 `0`을(를) 입력하십시오. |
