@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Delivery Methods]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL USPS]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL USPS]**&#x200B;를 확장합니다.
 
    >[!NOTE]
    >
