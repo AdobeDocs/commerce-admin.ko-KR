@@ -3,9 +3,9 @@ title: ' [!DNL Commerce] 계정 만들기 및 액세스'
 description: 구입한 제품 및 서비스를 관리하는  [!DNL Commerce] 계정에 대해 알아봅니다.
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: d036962b767be0817dbd14d679e89ab4d4f03455
+source-git-commit: 2b0959de64e139d3f652e1cd5edb744c0a8489a3
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 [!DNL Commerce] 계정 로그인은 저장소 관리자 로그인과 별개입니다. 일반적으로 각각에 대해 서로 다른 자격 증명을 사용하며 각 시스템에 대한 액세스는 독립적으로 관리됩니다.
 
-그러나 Adobe Commerce 및 Adobe Business 제품에 대한 로그인을 간소화하려는 사용자는 스토어 관리자에 로그인하도록 Adobe ID을 구성할 수 있습니다. [Commerce용 IMS 통합 안내서](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/ims/adobe-ims-config)의 *Adobe ID과 Commerce Admin 통합 구성*.
+그러나 Adobe Commerce 및 Adobe Business 제품에 대한 로그인을 간소화하려는 사용자는 스토어 관리자에 로그인하도록 Adobe ID을 구성할 수 있습니다. [Commerce용 IMS 통합 안내서](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)의 *Adobe ID과 Commerce Admin 통합 구성*.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## [!DNL Commerce] 계정에 로그인
 
-Commerce 계정에 액세스하려면 Adobe ID이 필요합니다. 이미 [!DNL Commerce] 계정이 있지만 2022년 8월 이후 계정에 로그인하지 않은 경우 로그인 프로세스 중에 Adobe ID을 만들어야 합니다.
+Commerce 계정에 액세스하려면 Adobe ID이 필요합니다. 기존 [!DNL Commerce] 계정이 있지만 2022년 8월 이후 로그인하지 않은 경우 로그인 프로세스 중에 Adobe ID을 만들어야 합니다. 이 단계를 완료해야 계정에 로그인할 수 있습니다.
 
 >[!WARNING]
 >
