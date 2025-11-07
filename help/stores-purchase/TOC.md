@@ -5,9 +5,9 @@ breadcrumb-title: 저장 및 구매 경험
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 2e5d8c81cbf20612d1351da2f5474f13f353c34c
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '314'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 + [경험 저장 및 구매 안내서](guide-overview.md)
 + [스토어 및 구매 경험 소개](introduction.md)
-+ 사이트 및 저장소 관리 {#site-store}
++ 사이트 및 스토어 관리 {#site-store}
    + [스토어 메뉴](stores-menu.md)
    + [저장소 및 사이트 구조](stores.md)
    + [보기 저장](store-views.md)
@@ -51,7 +51,7 @@ ht-degree: 3%
       + [장바구니 관리](shopping-assisted-cart-manage.md)
       + [주문 만들기](customer-account-create-order.md)
       + [고객 주문 업데이트](order-update.md)
-   + 체크아웃{#checkout}
+   + 체크아웃 {#checkout}
       + [개요](checkout-process.md)
       + [한 페이지 체크아웃](checkout-one-page.md)
       + [게스트 체크아웃](checkout-guest.md)
@@ -94,7 +94,7 @@ ht-degree: 3%
       + [0 소계 체크아웃](zero-subtotal-checkout.md)
 + 주문 흐름 관리 {#order-management}
    + [판매 메뉴](sales-menu.md)
-   + 주문 {#orders}
+   + 주문 수 {#orders}
       + [개요](orders.md)
       + [워크플로우 및 처리](order-processing.md)
       + [주문 배송](order-ship.md)
@@ -107,7 +107,7 @@ ht-degree: 3%
    + 대변 메모 {#credit-memos}
       + [개요](credit-memos.md)
       + [대변 메모 발행](credit-memo-create.md)
-   + 반환{#returns}
+   + 반환 {#returns}
       + [개요](returns.md)
       + [반환 구성](rma-configure.md)
       + [속성 반환](attributes-returns.md)
@@ -121,7 +121,7 @@ ht-degree: 3%
       + [정액 요금](shipping-flat-rate.md)
       + [테이블 속도](shipping-table-rate.md)
       + [매장 내 배달](shipping-in-store-delivery.md)
-   + 운송업체 {#shipping-carriers}
+   + 운송 회사 {#shipping-carriers}
       + [운송 회사 설정](carriers.md)
       + [UPS](ups.md)
       + [USPS](usps.md)
@@ -131,5 +131,3 @@ ht-degree: 3%
       + [배송 레이블 개요](shipping-labels.md)
       + [배송 레이블 구성](shipping-label-configure.md)
       + [배송 레이블 만들기](shipping-label-create.md)
-+ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
-

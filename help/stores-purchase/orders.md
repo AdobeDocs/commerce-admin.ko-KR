@@ -3,18 +3,18 @@ title: 주문 수
 description: 관리자에서 주문을 찾는 데 사용되는 주문 작업 공간 및 검색 기능에 대해 알아봅니다.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: c60f0af09fb1af08deea49216aff340eea59f1b4
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
 
 # 주문 수
 
-_주문_ 그리드는 현재 주문을 모두 나열하고 [워크플로](order-processing.md)를 통해 진행 상황과 [주문 상태](order-status.md)를 추적합니다. 기본 프로세스를 쉽게 이해할 수 있는 방법은 주문이 [인보이스](invoices.md)가 되고 인보이스가 [선적](shipments.md)이 되는 것입니다. 격자는 프로세스의 첫 번째 단계를 나타내며, 여기서 기존 주문을 [업데이트](order-update.md)하고 주문을 만들 수 있습니다.
+_주문_ 그리드는 현재 주문을 모두 나열하고 [워크플로](order-status.md)를 통해 진행 상황과 [주문 상태](order-processing.md)를 추적합니다. 기본 프로세스를 쉽게 이해할 수 있는 방법은 주문이 [인보이스](invoices.md)가 되고 인보이스가 [선적](shipments.md)이 되는 것입니다. 격자는 프로세스의 첫 번째 단계를 나타내며, 여기서 기존 주문을 [업데이트](order-update.md)하고 주문을 만들 수 있습니다.
 
-일반적으로 주문은 고객이 상점에서 체크아웃 프로세스를 완료할 때 생성됩니다. 그러나 고객의 도움이 필요한 경우 _주문_ 그리드에서 또는 고객 계정에서 직접 [장바구니](shopping-assisted-cart-manage.md) 또는 [주문 만들기](customer-account-create-order.md)에 액세스할 수도 있습니다.
+일반적으로 주문은 고객이 상점에서 체크아웃 프로세스를 완료할 때 생성됩니다. 그러나 고객의 도움이 필요한 경우 [주문](shopping-assisted-cart-manage.md) 그리드에서 또는 고객 계정에서 직접 [장바구니](customer-account-create-order.md) 또는 _주문 만들기_&#x200B;에 액세스할 수도 있습니다.
 
 ## 주문 작업 공간
 
@@ -83,7 +83,7 @@ Orders 작업 영역에서는 현재 주문을 모두 나열하며, 기존 주�
 
 {style="table-layout:auto"}
 
-### 작업
+### 액션
 
 특정 주문에 작업을 적용하려면 각 주문의 첫 번째 열에서 확인란을 선택합니다. 모든 주문을 선택하거나 선택 취소하려면 열 맨 위에 있는 컨트롤을 사용합니다.
 
@@ -111,7 +111,7 @@ Orders 작업 영역에서는 현재 주문을 모두 나열하며, 기존 주�
 | [!UICONTROL Grand Total (Base)] | 주문의 총 합계입니다. |
 | [!UICONTROL Grand Total (Purchased)] | 주문에서 구매한 제품의 총 합계입니다. |
 | [!UICONTROL Status] | 현재 주문 상태. |
-| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;에서 순서를 편집 모드로 엽니다. |
+| [!UICONTROL Action] | _[!UICONTROL View]_에서 순서를 편집 모드로 엽니다. |
 | [!UICONTROL Allocated sources] | 해당 특정 주문에 할당된 소스. |
 
 {style="table-layout:auto"}
@@ -149,7 +149,7 @@ Orders 작업 영역에서는 현재 주문을 모두 나열하며, 기존 주�
 
 ### 검색 필터링
 
-1. 선택한 검색 필터를 표시하려면 _필터_( ![단계 아이콘](../assets/icon-filter-search.png)) 탭을 클릭합니다.
+1. 선택한 검색 필터를 표시하려면 _필터_( ![Funnel 아이콘](../assets/icon-filter-search.png) ) 탭을 클릭합니다.
 
    ![필터 순서 지정](./assets/order-search-filter.png){width="600" zoomable="yes"}
 
@@ -183,9 +183,3 @@ Orders 작업 영역에서는 현재 주문을 모두 나열하며, 기존 주�
 
 {style="table-layout:auto"}
 
-## 리소스 문제 해결
-
-주문 문제 해결에 대한 도움말은 다음 Commerce 지원 기술 자료 문서를 참조하십시오.
-
-- [주문 표시 오류](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=ko)
-- [Admin의 주문 그리드에 주문이 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

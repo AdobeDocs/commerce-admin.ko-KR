@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce 및 Magento Open Source에는 판매를 �
 breadcrumb-title: 머천다이징 및 프로모션
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
+source-git-commit: 93a564fd06089fbc6ca8b42a06718fed05655ef4
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '259'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 1%
       - [이메일 미리 알림 만들기](email-reminder-rules-create.md)
 - 검색 엔진 최적화 {#seo}
    - [SEO 개요 및 우수 사례](seo-overview.md)
-   - [메타데이터](meta-data.md)
+   - [Meta 데이터](meta-data.md)
    - [사이트 맵](sitemap-xml.md)
    - URL 재작성 {#url-rewrites}
       - [개요 및 구성](url-rewrite.md)
@@ -86,5 +86,3 @@ ht-degree: 1%
    - [Google Analytics](google-analytics.md)
    - [Google 태그 관리자](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
-

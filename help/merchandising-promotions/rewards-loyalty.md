@@ -3,9 +3,9 @@ title: 보상 및 충성도 프로그램
 description: 고객 참여를 유도하고 고객 충성도를 홍보하는 데 사용할 수 있는 보상 포인트 시스템에 대해 알아봅니다.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 7a505b1dc953286aa9879e77bd322d9681513096
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Adobe Commerce의 _보상 포인트_ 시스템을 사용하면 고객 참여를 
 
 1. 왼쪽 패널에서 **[!UICONTROL Customers]**&#x200B;을(를) 확장하고 **[!UICONTROL Reward Points]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Reward Points]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Reward Points]**&#x200B;를 확장하고 다음을 수행합니다.
 
    - 보상 포인트를 활성화하려면 **[!UICONTROL Enable Reward Points Functionality]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -90,7 +90,7 @@ Adobe Commerce의 _보상 포인트_ 시스템을 사용하면 고객 참여를 
 
 이 단계에서는 다양한 고객 활동에 대해 획득 가능한 보상 포인트 개수를 명시한다. 고객이 포인트가 할당된 작업을 완료하면 획득한 포인트의 수를 나타내는 메시지가 고객에게 표시됩니다.
 
-1. **[!UICONTROL Actions for Acquiring Reward Points by Customer]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Actions for Acquiring Reward Points by Customer]**&#x200B;를 확장합니다.
 
    ![고객 구성 - 고객이 보상 포인트를 획득하는 작업](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
@@ -122,7 +122,7 @@ Adobe Commerce의 _보상 포인트_ 시스템을 사용하면 고객 참여를 
 
 ### 3단계. 이메일 알림 설정 완료
 
-1. **[!UICONTROL Email Notification Settings]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Email Notification Settings]**&#x200B;를 확장합니다.
 
    ![고객 구성 - 보상 포인트 이메일 알림](../configuration-reference/customers/assets/reward-points-email-notification-settings.png){width="600" zoomable="yes"}
 
@@ -144,7 +144,7 @@ Adobe Commerce의 _보상 포인트_ 시스템을 사용하면 고객 참여를 
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**(으)로 이동합니다.
 
-1. 그리드에서 고객을 찾고 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 그리드에서 고객을 찾고 **[!UICONTROL Edit]** 열에서 _[!UICONTROL Action]_을(를) 클릭합니다.
 
 1. _고객 정보_&#x200B;에서 **[!UICONTROL Reward Points]** 섹션을 선택하세요.
 
@@ -164,7 +164,7 @@ Adobe Commerce의 _보상 포인트_ 시스템을 사용하면 고객 참여를 
 
 1. **[!UICONTROL Save Customer]**&#x200B;을(를) 클릭합니다.
 
-보상 포인트와 관련된 모든 작업이 상점 앞의 고객 계정에 있는 _[!UICONTROL Reward Points History]_&#x200B;블록에 표시됩니다.
+보상 포인트와 관련된 모든 작업이 상점 앞의 고객 계정에 있는 _[!UICONTROL Reward Points History]_블록에 표시됩니다.
 
 ## 필드 설명
 
@@ -183,8 +183,3 @@ Adobe Commerce의 _보상 포인트_ 시스템을 사용하면 고객 참여를 
 
 {style="table-layout:auto"}
 
-## 리소스 문제 해결
-
-보상 포인트 문제를 해결하는 데 대한 도움말을 보려면 다음 Commerce 지원 기술 문서를 참조하십시오.
-
-- [404 오류 - 다중 배송 체크아웃 시 보상 포인트 제거](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=ko)

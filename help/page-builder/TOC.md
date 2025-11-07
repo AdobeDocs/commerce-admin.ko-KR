@@ -1,14 +1,14 @@
 ---
 user-guide-title: '[!DNL Page Builder] 사용 안내서'
-user-guide-description: ' [!DNL Page Builder] 기능을 사용하여 시각적 스토리텔링을 강화하고 고객 참여도와 충성도를 높이는 사용자 지정 레이아웃으로 콘텐츠가 풍부한 페이지를 만드는 방법에 대해 알아봅니다.'
+user-guide-description: ' [!DNL Page Builder] 기능을 사용하여 시각적 storytelling을 개선하고 고객 참여 및 충성도를 높이는 사용자 지정 레이아웃으로 콘텐츠가 풍부한 페이지를 만드는 방법에 대해 알아봅니다.'
 breadcrumb-title: '[!DNL Page Builder]'
 topic: Commerce, Content Management
 feature: Page Builder
 role: User
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 516b605ba357f093bdd1cf1e92df18202d16a800
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: d36acfb2c87af08c3d4a711a161183d76fcba312
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '92'
 ht-degree: 8%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 8%
 # [!DNL Page Builder] 사용 안내서 {#page-builder}
 
 - [[!DNL Page Builder] 사용 안내서](guide-overview.md)
-- [&#x200B; [!DNL Page Builder] 소개](introduction.md)
+- [ [!DNL Page Builder] 소개](introduction.md)
 - [릴리스 정보](release-notes.md)
 - [구성 및 설정](setup.md)
 - 연습 {#walkthrough}
@@ -47,5 +47,3 @@ ht-degree: 8%
    - [제품](products.md)
    - [제품 추천](recommendations.md)
 - [템플릿](templates.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
-

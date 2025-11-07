@@ -4,10 +4,10 @@ user-guide-description: ' [!DNL Inventory Management] 기능을 사용하여 판
 breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: b9a2bf31efd5ed04098a1e24ed4d779ba74cb1b9
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 5%
+source-wordcount: '132'
+ht-degree: 7%
 
 ---
 
@@ -15,21 +15,21 @@ ht-degree: 5%
 # [!DNL Inventory Management] 사용 안내서 {#inventory}
 
 - [Inventory management 안내서](guide-overview.md)
-- [&#x200B; [!DNL Inventory Management] 소개](introduction.md)
+- [ [!DNL Inventory Management] 소개](introduction.md)
 - [릴리스 정보](release-notes.md)
 - 인벤토리 기본 사항 {#basics}
    - [소스 및 재고](sources-stocks.md)
    - [Source 선택 및 예약](selection-reservations.md)
    - [주문 및 예약 상태](order-status.md)
    - [제품 유형](product-types.md)
-- 시작{#get-started}
+- 시작하기 {#get-started}
    - [Commerce 업그레이드](migrate.md)
    - [설치 및 업데이트](install-update.md)
    - [판매자 소싱](merchant-sourcing.md)
    - [인벤토리 확장 및 재구성](expand-restructure.md)
 - 구성 {#configuration}
    - [개요](configuration.md)
-   - [&#x200B; [!DNL Inventory Management] 사용](enable.md)
+   - [ [!DNL Inventory Management] 사용](enable.md)
    - [글로벌 옵션 구성](global-options.md)
    - [제품 옵션 구성](product-options.md)
    - [미납 주문 구성](backorders.md)
@@ -38,7 +38,7 @@ ht-degree: 5%
    - 제품 경고 {#product-alerts}
       - [제품 경고 설정](alert-setup.md)
       - [Stock 메시지 시나리오](stock-messages.md)
-- 소스 관리{#sources}
+- 소스 관리 {#sources}
    - [개요](sources-manage.md)
    - [소스 추가](sources-add.md)
    - [소스 비활성화](sources-disable.md)
@@ -58,5 +58,3 @@ ht-degree: 5%
    - [개요](shipments.md)
    - [배송 만들기](shipments-create.md)
 - [CLI 참조](cli.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
-
