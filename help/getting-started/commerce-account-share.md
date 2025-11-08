@@ -112,7 +112,7 @@ ht-degree: 0%
    > **[!UICONTROL Delete]**&#x200B;이(가) 표시되지 않으면 **[!UICONTROL Share Name]**&#x200B;에 명명 패턴 `Cloud Shared Access from MAG0XYZ`이(가) 포함되어 있는지 확인하십시오. 계정에 해당 [이름 지정 패턴이 있고 삭제할 수 없는 경우](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), 이는 공유 액세스가 [Commerce 계정](https://account.magento.com/)에서 직접 만들어지지 않고 API에 의해 만들어졌기 때문입니다.
    > 
    > 삭제할 수 없는 경우 계정 소유자에게 공유 액세스 계정을 수정하도록 한 다음 계정 권한 부여에서 모든 항목의 선택을 취소합니다. 해당 업데이트 후에는 더 이상 계정 리소스에 액세스할 수 없습니다.
-   > ![이미지](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
+   > ![이미지](https://git.corp.adobe.com/AdobeDocs/commerce-admin.ko-KR/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
    > 또한 사용자가 프로젝트에서 제거되어 더 이상 이메일 알림을 받지 않도록 하십시오. [이전 팀원이 Adobe Commerce 클라우드 알림 이메일을 받습니다](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
