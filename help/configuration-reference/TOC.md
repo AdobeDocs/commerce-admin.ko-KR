@@ -5,9 +5,9 @@ breadcrumb-title: 구성 참조
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 2e8662ac7bc0b372a74d071f68355efdad96006e
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '159'
 ht-degree: 2%
 
 ---
@@ -83,4 +83,4 @@ ht-degree: 2%
    - [관리자](./advanced/admin.md)
    - [시스템](./advanced/system.md)
    - [개발자](./advanced/developer.md)
-
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

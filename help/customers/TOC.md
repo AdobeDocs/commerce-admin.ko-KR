@@ -2,9 +2,9 @@
 user-guide-title: 고객 관리 안내서
 breadcrumb-title: 고객 관리
 feature: Customers
-source-git-commit: b58e5e2dc660b58be694bd7896d8596e9ef48c04
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -55,4 +55,4 @@ ht-degree: 0%
    + [고객 세그먼트 만들기 및 삭제](customer-segment-create.md)
    + [가격 규칙의 고객 세그먼트](customer-segment-price-rule.md)
    + [고객 세그먼트 보고서](customer-segment-reports.md)
-
++ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
