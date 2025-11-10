@@ -49,7 +49,7 @@ Adobe Commerce에서 URL 재작성 도구는 제품, 카테고리 또는 페이�
 
 다음 비디오를 통해 URL 재작성 관리에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410127?captions=kor&quality=12&learn=on)
 
 ## URL 재작성 만들기
 

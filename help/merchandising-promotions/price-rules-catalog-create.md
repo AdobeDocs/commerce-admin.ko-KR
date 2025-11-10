@@ -219,7 +219,7 @@ ht-degree: 0%
 
 이 비디오를 통해 카탈로그 가격 규칙 만들기에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410851?captions=kor&quality=12&learn=on)
 
 ## 필드 설명
 
