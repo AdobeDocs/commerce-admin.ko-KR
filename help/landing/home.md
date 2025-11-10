@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![관리자 설명서](./assets/banner-user-home.png) {#documentation}
+# &#x200B;<!-- use banner as heading -->![관리자 설명서](./assets/banner-user-home.png) {#documentation}
 
 세계 최고의 디지털 상거래 플랫폼인 차세대 플랫폼에 오신 것을 환영합니다. Adobe Commerce은 온라인 상인에게 온라인 스토어의 모양, 콘텐츠 및 기능에 대한 탁월한 유연성과 통제력을 제공합니다. 관리자는 강력한 마케팅, 검색 엔진 최적화 및 제품 관리 도구를 통해 고유한 비즈니스 요구 사항에 맞는 사이트를 만들 수 있습니다.
 

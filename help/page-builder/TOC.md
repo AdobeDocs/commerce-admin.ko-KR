@@ -17,7 +17,7 @@ ht-degree: 8%
 # [!DNL Page Builder] 사용 안내서 {#page-builder}
 
 - [[!DNL Page Builder] 사용 안내서](guide-overview.md)
-- [ [!DNL Page Builder] 소개](introduction.md)
+- [&#x200B; [!DNL Page Builder] 소개](introduction.md)
 - [릴리스 정보](release-notes.md)
 - [구성 및 설정](setup.md)
 - 연습 {#walkthrough}
