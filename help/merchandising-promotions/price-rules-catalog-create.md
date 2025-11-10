@@ -3,9 +3,9 @@ title: 카탈로그 가격 규칙 만들기
 description: 조건 세트가 충족될 때마다 특정 제품에 할인을 적용하는 카탈로그 가격 규칙을 만드는 방법을 알아봅니다.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 3011d0287c74fd39b44e180733343c39d1cadea7
+source-git-commit: 5e21259c196419f9a337795f9bec29f0737e84ca
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1727'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단에서 **[!UICONTROL Add New Rule]**&#x200B;을(를) 클릭합니다.
 
-   _[!UICONTROL Rule Information]_&#x200B;섹션에는&#x200B;**[!UICONTROL Conditions]**&#x200B;및&#x200B;**[!UICONTROL Actions]**&#x200B;에 대한 확장 가능한 섹션이 포함되어 있습니다.
+   _[!UICONTROL Rule Information]_섹션에는&#x200B;**[!UICONTROL Conditions]**및&#x200B;**[!UICONTROL Actions]**에 대한 확장 가능한 섹션이 포함되어 있습니다.
 
    ![카탈로그 가격 규칙 - 정보](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -45,6 +45,10 @@ ht-degree: 0%
 
    날짜를 입력하거나 **[!UICONTROL Calendar]**(![달력 아이콘](../assets/icon-calendar.png))을 사용하여 날짜를 선택할 수 있습니다. 날짜를 비워 두면 가격 규칙이 저장될 때 규칙이 활성화됩니다.
 
+   >[!NOTE]
+   >
+   >`From` 및 `To` 필드는 Adobe Commerce의 카탈로그 가격 규칙 구성 페이지에서 제거되었으며 카탈로그 가격 규칙에서 직접 수정할 수 없습니다. 가격 규칙 활성화 일정을 설정하려면 예약된 업데이트를 만들어야 합니다.
+
 1. 다른 규칙과 관련하여 이 규칙의 **[!UICONTROL Priority]**&#x200B;을(를) 설정하려면 숫자를 입력하세요.
 
    **[!UICONTROL Priority]** 설정은 제품이 여러 가격 규칙에 대한 조건을 충족할 때 적용되는 규칙을 결정합니다. 우선 순위가 가장 높은 규칙(예: 0, 1, 2, 3...과 같은 가장 낮은 숫자)이 적용됩니다.
@@ -57,7 +61,7 @@ ht-degree: 0%
 
 - `[!UICONTROL Category]` 제품 특성 조건을 번들 또는 그룹화된 제품에 추가하는 경우 모든 하위 항목이 동일한 범주를 공유하는 경우에만 가격 규칙이 올바르게 적용됩니다. 하위 항목이 같은 범주에 있지 않은 경우 [장바구니 가격 규칙](price-rules-cart-create.md) 프로모션을 대신 사용하십시오.&quot;
 
-1. 아래로 스크롤하여 **[!UICONTROL Conditions]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. 아래로 스크롤하여 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Conditions]**&#x200B;를 확장합니다.
 
    첫 번째 조건은 기본적으로 나타나고 다음과 같이 표시됩니다.
 
@@ -89,7 +93,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_SKU_ 제품 특성 및 구성 가능한 제품과 함께 `is not one of` 조건을 사용하는 경우 상위 및 하위 제품 SKU를 모두 선택해야 합니다. 규칙에 모든 하위 SKU가 나열되지 않도록 구성 가능한 제품 및 해당 하위 제품의 일반 SKU 부분과 함께 `does not contain` 조건을 사용할 수 있습니다.
+   >`is not one of`SKU _제품 특성 및 구성 가능한 제품과 함께_ 조건을 사용하는 경우 상위 및 하위 제품 SKU를 모두 선택해야 합니다. 규칙에 모든 하위 SKU가 나열되지 않도록 구성 가능한 제품 및 해당 하위 제품의 일반 SKU 부분과 함께 `does not contain` 조건을 사용할 수 있습니다.
 
    선택한 조건이 문에 나타나고 그 뒤에 굵은 링크가 두 개 더 나타납니다. 옵션은 선택하는 조건 속성에 따라 다릅니다. 성명은 이제 말합니다.
 
@@ -203,9 +207,9 @@ ht-degree: 0%
 
 1. 규칙 속성 업데이트:
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **[!UICONTROL Edit]**&#x200B;을(를) 클릭하여 _[!UICONTROL Rule Information]_&#x200B;페이지를 표시합니다.
+   - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **[!UICONTROL Edit]**&#x200B;을(를) 클릭하여 _[!UICONTROL Rule Information]_페이지를 표시합니다.
 
-   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 목록에서 규칙을 클릭하여 _[!UICONTROL Rule Information]_&#x200B;페이지를 표시합니다.
+   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 목록에서 규칙을 클릭하여 _[!UICONTROL Rule Information]_페이지를 표시합니다.
 
 1. 규칙이 올바르게 작동하는지 테스트합니다.
 
@@ -215,7 +219,7 @@ ht-degree: 0%
 
 이 비디오를 통해 카탈로그 가격 규칙 만들기에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410851?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## 필드 설명
 
@@ -242,7 +246,7 @@ ht-degree: 0%
 
 | 필드 | 설명 |
 |-----|-----------|
-| [!UICONTROL Apply] | 구매에 적용되는 계산 유형을 결정합니다. 옵션: <br/>**[!UICONTROL Apply as percentage of original]**- 일반 가격의 백분율을 뺀 할인 항목.<br/>**[!UICONTROL Apply as fixed amount]** - 정가에서 고정 금액을 빼서 항목을 할인합니다. <br/>**[!UICONTROL Adjust final price to this percentage]**- 최종 가격을 정가의 백분율로 조정합니다.<br/>**[!UICONTROL Adjust final price to discount value]** - 최종 가격을 고정 및 할인된 금액으로 설정합니다. <br/><br/>**_참고:_**&#x200B;일반 가격은 고급 가격(특별/계층/그룹) 또는 프로모션 할인이 없는 기본 제품 가격을 나타냅니다. 최종가격은 장바구니에 나타나는 할인된 가격을 의미한다. <br/>다음 공식을 사용하여&#x200B;**_최종&#x200B;_**&#x200B;제품 가격이&#x200B;**_최소&#x200B;_**&#x200B;관련 가격으로 계산됩니다. <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | 구매에 적용되는 계산 유형을 결정합니다. 옵션: <br/>**[!UICONTROL Apply as percentage of original]**- 일반 가격의 백분율을 뺀 할인 항목.<br/>**[!UICONTROL Apply as fixed amount]** - 정가에서 고정 금액을 빼서 항목을 할인합니다. <br/>**[!UICONTROL Adjust final price to this percentage]**- 최종 가격을 정가의 백분율로 조정합니다.<br/>**[!UICONTROL Adjust final price to discount value]** - 최종 가격을 고정 및 할인된 금액으로 설정합니다. <br/><br/>**_참고:_** 일반 가격은 고급 가격(특별/계층/그룹) 또는 프로모션 할인이 없는 기본 제품 가격을 나타냅니다. 최종가격은 장바구니에 나타나는 할인된 가격을 의미한다. <br/>다음 공식을 사용하여 **_최종_** 제품 가격이 **_최소_** 관련 가격으로 계산됩니다. <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | (필수) 제공된 할인 금액. |
 | [!UICONTROL Discard Subsequent Rules] | 이 구매에 추가 규칙을 적용할 수 있는지 여부를 결정합니다. 동일한 구매에 여러 할인을 적용하지 않으려면 `Yes`을(를) 선택하십시오. 옵션: `Yes` / `No` |
 
