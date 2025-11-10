@@ -140,7 +140,7 @@ Commerce은 내부적으로 ID 기반 URL을 사용하지만 고객을 위해 SE
 
 1. **[!UICONTROL General]**&#x200B;이(가) 확장된 왼쪽 패널에서 **[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Search Engine Optimization]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Search Engine Optimization]**&#x200B;를 확장합니다.
 
    ![일반 구성 - 웹 검색 엔진 최적화](../configuration-reference/general/assets/web-search-engine-optimization.png){width="600" zoomable="yes"}
 
