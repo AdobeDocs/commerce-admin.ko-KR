@@ -58,4 +58,4 @@ ht-degree: 7%
    - [개요](shipments.md)
    - [배송 만들기](shipments-create.md)
 - [CLI 참조](cli.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko)

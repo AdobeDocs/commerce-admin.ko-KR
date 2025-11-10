@@ -91,4 +91,4 @@ ht-degree: 4%
    - [스테이징 대시보드](content-staging-dashboard.md)
    - [캠페인 항목 추가](content-staging-add-item.md)
    - [캠페인 미리 보기](content-staging-preview.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko)

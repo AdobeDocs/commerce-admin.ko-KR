@@ -131,4 +131,4 @@ ht-degree: 3%
       + [배송 레이블 개요](shipping-labels.md)
       + [배송 레이블 구성](shipping-label-configure.md)
       + [배송 레이블 만들기](shipping-label-create.md)
-+ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko)

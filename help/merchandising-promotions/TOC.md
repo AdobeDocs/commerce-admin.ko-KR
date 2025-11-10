@@ -86,4 +86,4 @@ ht-degree: 1%
    - [Google Analytics](google-analytics.md)
    - [Google 태그 관리자](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko)

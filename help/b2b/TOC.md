@@ -68,4 +68,4 @@ ht-degree: 6%
 + 참조 {#reference}
    + [이전 버전과 호환 불가능한 변경 사항](backward-incompatible-changes.md)
    + [패키지](packages.md)
-+ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko)

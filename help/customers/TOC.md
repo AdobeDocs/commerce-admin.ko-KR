@@ -55,4 +55,4 @@ ht-degree: 0%
    + [고객 세그먼트 만들기 및 삭제](customer-segment-create.md)
    + [가격 규칙의 고객 세그먼트](customer-segment-price-rule.md)
    + [고객 세그먼트 보고서](customer-segment-reports.md)
-+ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko)
