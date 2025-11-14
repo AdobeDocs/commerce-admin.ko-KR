@@ -4,9 +4,9 @@ description: 향상된 보안 검사를 실행하고 각 Adobe Commerce 및 Mage
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 5dd564185975216361918bda4954ed4a6fc8fee4
+source-git-commit: 425004ece49f96fa102e9f46b9c5d15c89233334
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Adobe Commerce 및 Magento Open Source 사이트에서 보안 위험 및 맬웨�
 - 사이트의 진행 상황을 추적 및 모니터링하는 기간별 보안 보고서에 액세스합니다.
 - 모든 권장 작업과 함께 성공 및 실패한 검사를 표시하는 검사 보고서에 액세스합니다.
 
-보안 검색 도구는 [Commerce/Magento 계정](../getting-started/commerce-account-create.md)의 대시보드에서 무료로 사용할 수 있습니다. 자세한 내용은 [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)에서 _보안 검색 도구 설정_&#x200B;을 참조하십시오.
+보안 검색 도구는 [Commerce/Magento 계정](../getting-started/commerce-account-create.md)의 대시보드에서 무료로 사용할 수 있습니다. 자세한 내용은 [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool)에서 _보안 검색 도구 설정_&#x200B;을 참조하십시오.
 
 ![보안 검사 도구](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
@@ -44,7 +44,7 @@ Adobe Commerce 또는 Magento Open Source 사이트에 대한 보안 검색 도�
    1. **[!UICONTROL Terms and Conditions]**&#x200B;을(를) 읽습니다.
    1. 계속하려면 **[!UICONTROL Agree]**&#x200B;을(를) 클릭하십시오.
 
-3. _[!UICONTROL Monitored Websites]_&#x200B;페이지에서&#x200B;**[!UICONTROL +Add Site]**&#x200B;을(를) 클릭합니다.
+3. _[!UICONTROL Monitored Websites]_페이지에서&#x200B;**[!UICONTROL +Add Site]**을(를) 클릭합니다.
 
    여러 사이트가 있고 도메인이 다른 경우 각 도메인에 대해 별도의 검사를 구성합니다.
 
@@ -68,14 +68,14 @@ Adobe Commerce 또는 Magento Open Source 사이트에 대한 보안 검색 도�
 
    1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
    1. 목록에서 사이트를 찾은 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
-   1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL HTML Head]**&#x200B;를 확장합니다.
+   1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL HTML Head]**&#x200B;를 확장합니다.
    1. **[!UICONTROL Scripts and Style Sheets]**(으)로 스크롤한 다음 기존 코드의 끝에 있는 텍스트 상자를 클릭합니다. 확인 코드를 텍스트 상자에 붙여 넣습니다.
 
       ![스크립트 및 스타일 시트](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
    1. 완료되면 **[!UICONTROL Save Configuration]**&#x200B;을(를) 클릭합니다.
 
-1. Commerce 계정의 _[!UICONTROL Security Scan]_&#x200B;페이지로 돌아가서&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;을(를) 클릭하여 도메인의 소유권을 설정합니다.
+1. Commerce 계정의 _[!UICONTROL Security Scan]_페이지로 돌아가서&#x200B;**[!UICONTROL Verify Confirmation Code]**을(를) 클릭하여 도메인의 소유권을 설정합니다.
 
 >[!TAB PWA 상점]
 
@@ -117,7 +117,7 @@ Adobe Commerce 또는 Magento Open Source 사이트에 대한 보안 검색 도�
 
       빌드 프로세스가 완료되면 변경 사항이 PWA 저장소에 배포됩니다.
 
-1. Commerce 계정의 _[!UICONTROL Security Scan]_&#x200B;페이지로 돌아가서&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;을(를) 클릭하여 도메인의 소유권을 설정합니다.
+1. Commerce 계정의 _[!UICONTROL Security Scan]_페이지로 돌아가서&#x200B;**[!UICONTROL Verify Confirmation Code]**을(를) 클릭하여 도메인의 소유권을 설정합니다.
 
 >[!TAB AEM 상점]
 
@@ -134,6 +134,10 @@ Adobe Commerce 또는 Magento Open Source 사이트에 대한 보안 검색 도�
    1. AEM 상점 프로젝트 디렉터리 아래에서 `head.html`(으)로 이동합니다.
    1. 복사된 확인 코드(생성된 HTML 콘텐츠 또는 META 태그)를 `head.html` 파일에 추가하고 변경 사항을 저장합니다.
 
+   >[!NOTE]
+   >
+   >사이트 소유권 확인은 AEM 상점 프로젝트 디렉터리의 `head.html` 파일에 확인이 직접 추가된 경우에만 작동합니다. 문서 작성 또는 범용 편집기와 같은 웹 페이지 편집 도구를 통해 추가할 수 없습니다.
+
    ![확인 코드 복사](./assets/code-aem.png){width="600" zoomable="yes"}
 
 1. Git CLI 도구를 사용하여 이러한 변경 사항을 스테이징하고, 커밋하고, 프로젝트 저장소에 푸시합니다.
@@ -146,7 +150,7 @@ Adobe Commerce 또는 Magento Open Source 사이트에 대한 보안 검색 도�
 
    빌드 프로세스가 완료되면 변경 사항이 AEM 스토어 전면에 배포됩니다.
 
-1. Commerce 계정의 _[!UICONTROL Security Scan]_&#x200B;페이지로 돌아가서&#x200B;**[!UICONTROL Verify Confirmation Code]**&#x200B;을(를) 클릭하여 도메인의 소유권을 설정합니다.
+1. Commerce 계정의 _[!UICONTROL Security Scan]_페이지로 돌아가서&#x200B;**[!UICONTROL Verify Confirmation Code]**을(를) 클릭하여 도메인의 소유권을 설정합니다.
 
 >[!ENDTABS]
 
@@ -205,7 +209,7 @@ Adobe Commerce 또는 Magento Open Source 사이트에 대한 보안 검색 도�
 
 긍정 오류(false positive)로 식별한 스캔 실패를 관리하려면 다음 단계를 수행하십시오.
 
-1. _[!UICONTROL Monitored Websites]_&#x200B;페이지에서 관리할 사이트의&#x200B;**[!UICONTROL View Report]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Monitored Websites]_페이지에서 관리할 사이트의&#x200B;**[!UICONTROL View Report]**을(를) 클릭합니다.
 
 1. 보고서 보기에서 긍정 오류(false positive)로 표시할 실패한 검사를 찾습니다.
 
@@ -215,13 +219,13 @@ Adobe Commerce 또는 Magento Open Source 사이트에 대한 보안 검색 도�
 
 1. 선택 내용을 저장하려면 **[!UICONTROL Apply Changes]**&#x200B;을(를) 클릭합니다.
 
-무시된 검사 오류가 _[!UICONTROL Ignored Results]_&#x200B;섹션으로 이동하며 위험 점수에서 제외됩니다.
+무시된 검사 오류가 _[!UICONTROL Ignored Results]_섹션으로 이동하며 위험 점수에서 제외됩니다.
 
 ### 스캔 실패 무시 중지
 
 이전에 무시한 스캔 실패를 활성 모니터링으로 복원해야 하는 경우 다음 단계를 수행합니다.
 
-1. 보고서 보기에서 _[!UICONTROL Ignored Results]_&#x200B;섹션으로 스크롤합니다.
+1. 보고서 보기에서 _[!UICONTROL Ignored Results]_섹션으로 스크롤합니다.
 
 1. 복원할 스캔 실패에 대해 **[!UICONTROL Stop Ignoring]**&#x200B;을(를) 클릭합니다.
 
@@ -229,7 +233,7 @@ Adobe Commerce 또는 Magento Open Source 사이트에 대한 보안 검색 도�
 
 1. 선택 내용을 저장하려면 **[!UICONTROL Apply Changes]**&#x200B;을(를) 클릭합니다.
 
-검사 오류가 _[!UICONTROL Failed Scans]_&#x200B;섹션으로 다시 이동하며 위험 점수에 포함됩니다.
+검사 오류가 _[!UICONTROL Failed Scans]_섹션으로 다시 이동하며 위험 점수에 포함됩니다.
 
 ### 무시된 스캔 실패 보기
 
