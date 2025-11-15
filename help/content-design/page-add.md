@@ -2,10 +2,10 @@
 title: 페이지 추가 및 제거
 description: ' [!DNL Commerce] 스토어에서 사용되는 콘텐츠 페이지를 추가하고 제거하는 방법에 대해 알아봅니다.'
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 7ef8b9a1c56e4c8ee5ce8d3be30bf336c35a6241
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ ht-degree: 0%
 ### 2단계: 콘텐츠 완료
 
 [고급 콘텐츠 도구 구성](../configuration-reference/general/content-management.md)에 따라 페이지 콘텐츠를 추가하십시오.
+
+>[!NOTE]
+>
+>페이지 빌더 콘텐츠 편집기에는 기본 스토어 보기에 사용할 수 없는 CMS 페이지 요소의 미리보기가 표시되지 않습니다. 예를 들어 기본이 아닌 저장소 보기 에만 할당된 CMS 블록은 미리 볼 수 없습니다. 이 경우 먼저 CMS 페이지를 게시해야 합니다. 그런 다음 Storefront에서 직접 이 페이지를 볼 수 있습니다. 또는 [!UICONTROL Pages] 열에서 CMS 페이지 [!UICONTROL View]을(를) 선택하여 관리자의 [!UICONTROL Action] 그리드에서 페이지를 볼 수 있습니다.
 
 #### 페이지 빌더 콘텐츠 도구 사용
 
@@ -78,7 +82,7 @@ ht-degree: 0%
 
 1. 검색 엔진이 페이지를 인덱싱하는 데 사용할 수 있는 높은 값 **[!UICONTROL Meta Keywords]**&#x200B;을(를) 선택하십시오.
 
-   여러 단어는 쉼표로 구분하십시오. 메타 키워드는 일부 검색 엔진에서 무시되지만 다른 검색 엔진에서 사용됩니다.
+   여러 단어는 쉼표로 구분하십시오. Meta 키워드는 일부 검색 엔진에서 무시되지만 다른 검색 엔진에서 사용됩니다.
 
 1. **[!UICONTROL Meta Description]**&#x200B;의 경우 검색 결과 목록 페이지에 대한 간단한 설명을 입력하십시오.
 
@@ -146,13 +150,13 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택하여 페이지 그리드로 돌아갑니다.
 
-1. 그리드에서 페이지를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 선택합니다.
+1. 그리드에서 페이지를 찾은 다음 **[!UICONTROL View]** 열에서 _[!UICONTROL Action]_을(를) 선택합니다.
 
 1. 그리드로 돌아가려면 브라우저 창의 왼쪽 상단 모서리에서 **[!UICONTROL Back]**&#x200B;을(를) 클릭합니다.
 
 ### 8단계: 페이지 게시
 
-1. 그리드의 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
+1. 그리드의 **[!UICONTROL Edit]** 열에서 _[!UICONTROL Action]_을(를) 선택합니다.
 
 1. **[!UICONTROL Enable Page]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -166,7 +170,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**(으)로 이동합니다.
 
-1. 그리드에서 복제할 페이지를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 그리드에서 복제할 페이지를 찾은 다음 **[!UICONTROL Edit]** 열에서 _[!UICONTROL Action]_을(를) 클릭합니다.
 
 1. **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Duplicate]**&#x200B;을(를) 선택합니다.
 
@@ -184,7 +188,7 @@ ht-degree: 0%
 
    - 필요에 따라 **[!UICONTROL Page Title]**&#x200B;을(를) 업데이트합니다.
 
-   - **[!UICONTROL Search Engine Optimization]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)을(를) 확장하고 중복 페이지에 사용할 고유한 **[!UICONTROL URL Key]**&#x200B;을(를) 입력합니다.
+   - ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Search Engine Optimization]**&#x200B;을(를) 확장하고 중복 페이지에 사용할 고유한 **[!UICONTROL URL Key]**&#x200B;을(를) 입력합니다.
 
      ![임시 URL 키](./assets/page-search-engine-optimization-url-key-duplicate.png){width="600" zoomable="yes"}
 
@@ -207,7 +211,7 @@ ht-degree: 0%
 
 ## 페이지 삭제
 
-생성된 페이지를 제거하는 방법에는 두 가지가 있습니다. _[!UICONTROL Pages]_&#x200B;눈금 또는&#x200B;_[!UICONTROL Edit]_ 페이지에서 제거할 수 있습니다.
+생성된 페이지를 제거하는 방법에는 두 가지가 있습니다. _[!UICONTROL Pages]_눈금 또는_[!UICONTROL Edit]_ 페이지에서 제거할 수 있습니다.
 
 ### 방법 1: 페이지 그리드에서 페이지 제거
 
@@ -225,7 +229,7 @@ ht-degree: 0%
 
 1. 삭제할 페이지를 찾습니다.
 
-1. 페이지 엔터티의 _[!UICONTROL Actions]_&#x200B;열에서&#x200B;**[!UICONTROL Select]**&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
+1. 페이지 엔터티의 _[!UICONTROL Actions]_열에서&#x200B;**[!UICONTROL Select]**을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**을(를) 선택합니다.
 
 1. 단추 모음에서 **[!UICONTROL Delete Page]**&#x200B;을(를) 클릭합니다.
 
