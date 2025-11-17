@@ -3,7 +3,7 @@ title: 미국 우편 서비스(USPS)
 description: USPS를 상점의 배송 운송업체로 설정하는 방법에 대해 알아봅니다.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
+source-git-commit: be8a4e9d7cbcf34452724f8055980007794f525f
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Delivery Methods]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL USPS]**&#x200B;를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL USPS]**&#x200B;를 확장합니다.
 
    >[!NOTE]
    >
@@ -144,3 +144,5 @@ ht-degree: 0%
 
 [1]: https://secure.shippingapis.com/registration/
 [2]: https://www.usps.com/business/web-tools-apis/welcome.htm
+
+<!-- Last updated from includes: 2025-10-29 05:34:15 -->
