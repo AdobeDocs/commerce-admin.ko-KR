@@ -77,7 +77,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Commerce 및 Magento Open Source 2.4.0부터 웹 설치 마법사가 제거되며, 명령줄을 사용하여 인스턴스를 [설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) 또는 [업그레이드](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)해야 합니다. 이 요구 사항에는 [모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) 및 [확장](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)도 포함됩니다.
+>Adobe Commerce 및 Magento Open Source 2.4.0부터 웹 설치 마법사가 제거되며, 명령줄을 사용하여 인스턴스를 [설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=ko) 또는 [업그레이드](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=ko)해야 합니다. 이 요구 사항에는 [모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko) 및 [확장](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=ko)도 포함됩니다.
 
 [!DNL Marketplace] 구매에 대한 설치 프로세스는 Commerce의 _온-프레미스_ 설치와 [Adobe 클라우드 아키텍처][4]에 호스팅된 설치의 경우와 다릅니다.
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 ### 오픈 소스 질문
 
-마켓플레이스 지원 팀은 [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) 및 [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) 사이트와 관련된 문제만 해결합니다. Magento Open Source에 대한 질문이 있으면 [커뮤니티 포럼](https://community.magento.com/)에 문의하거나 [Magento Open Source을 지원할 수 있는 파트너에게 문의](https://business.adobe.com/products/magento/partners.html)하십시오.
+마켓플레이스 지원 팀은 [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) 및 [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) 사이트와 관련된 문제만 해결합니다. Magento Open Source에 대한 질문이 있으면 [커뮤니티 포럼](https://community.magento.com/)에 문의하거나 [Magento Open Source을 지원할 수 있는 파트너에게 문의](https://business.adobe.com/kr/products/magento/partners.html)하십시오.
 
 ### 환불 요청
 
@@ -143,4 +143,4 @@ Marketplace 지원 팀에서는 다른 계정으로 구매를 전송할 수 없�
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/kr/products/magento/magento-commerce.html
