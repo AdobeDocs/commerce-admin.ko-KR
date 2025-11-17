@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: 판매자에게 선별된 솔루션을 제공하고 자격을 갖춘 개발자에게 번창하는 비즈니스를 구축할 수 있는 도구, 플랫폼 및 주요 위치를 제공하는  [!DNL Commerce Marketplace]에 대해 알아봅니다.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 7b5c331625e4c4dab0e41156722c4a8deb4aa4c0
+source-git-commit: 17ec998812d21ab5815546e0f015965c2d35c853
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## [!DNL Marketplace] 자격 증명
 
-[!DNL Commerce Marketplace]에서 구입한 확장을 설치하려면 먼저 [!DNL Commerce] 계정에 로그인하여 활성 액세스 키가 있는지 확인하십시오. [[!DNL Marketplace]][1] 또는 [Magento.com][6]의 헤더에서 [!DNL Commerce] 계정에 로그인할 수 있습니다.
+[!DNL Commerce Marketplace]에서 구입한 확장을 설치하려면 먼저 [!DNL Commerce] 계정에 로그인하여 활성 액세스 키가 있는지 확인하십시오. [!DNL Commerce] 또는 [[!DNL Marketplace]][1]Magento.com[의 헤더에서 ][6] 계정에 로그인할 수 있습니다.
 
 액세스 키는 [!DNL Commerce] 설치를 [!DNL Commerce] 계정과 동기화하고 자격 증명을 확인하는 데 사용되는 공개 및 개인 키 집합입니다. 계정이 동기화되면 Commerce Marketplace에서 확장 또는 모듈을 설치하거나 [!DNL Commerce] 설치를 업그레이드할 때마다 개인 키를 입력해야 합니다.
 
@@ -53,13 +53,13 @@ ht-degree: 0%
 
 1. [!DNL Commerce] 계정에 로그인합니다.
 
-1. _[!UICONTROL My Account]_&#x200B;페이지에서&#x200B;**[!UICONTROL Marketplace]**&#x200B;탭을 선택합니다.
+1. _[!UICONTROL My Account]_페이지에서&#x200B;**[!UICONTROL Marketplace]**탭을 선택합니다.
 
 1. 이름 옆의 오른쪽 상단 모서리에서 아래쪽 화살표를 클릭하고 **[!UICONTROL My Profile]**&#x200B;을(를) 선택합니다.
 
    ![내 [!DNL Marketplace] 프로필](./assets/marketplace-profile.png){width="600"}
 
-1. _[!UICONTROL My Products]_&#x200B;아래의&#x200B;_[!UICONTROL Marketplace]_ 탭에서 **[!UICONTROL Access Keys]**&#x200B;을(를) 클릭하고 다음 중 하나를 수행합니다.
+1. _[!UICONTROL Marketplace]_아래의_[!UICONTROL My Products]_ 탭에서 **[!UICONTROL Access Keys]**&#x200B;을(를) 클릭하고 다음 중 하나를 수행합니다.
 
    - Marketplace 구매를 위한 액세스 키 세트가 이미 있는지 확인하십시오. 다양한 용도로 여러 액세스 키 세트를 만들 수 있습니다.
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Commerce 및 Magento Open Source 2.4.0부터 웹 설치 마법사가 제거되며, 명령줄을 사용하여 인스턴스를 [설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=ko) 또는 [업그레이드](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=ko)해야 합니다. 이 요구 사항에는 [모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko) 및 [확장](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=ko)도 포함됩니다.
+>Adobe Commerce 및 Magento Open Source 2.4.0부터 웹 설치 마법사가 제거되며, 명령줄을 사용하여 인스턴스를 [설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) 또는 [업그레이드](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)해야 합니다. 이 요구 사항에는 [모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) 및 [확장](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)도 포함됩니다.
 
 [!DNL Marketplace] 구매에 대한 설치 프로세스는 Commerce의 _온-프레미스_ 설치와 [Adobe 클라우드 아키텍처][4]에 호스팅된 설치의 경우와 다릅니다.
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 확장 설치 또는 사용에 대한 도움이 필요한 경우 확장과 함께 제공되는 설명서를 먼저 살펴보십시오. 질문에 대한 답변을 찾을 수 없는 경우 확장 목록에 있는 연락처 정보를 사용하여 개발자에게 직접 문의하십시오. 마켓플레이스에서 구매한 항목이 사용자의 요구를 충족하지 않는 경우 구입일로부터 25일 이내에 [환불을 요청](#refund-requests)할 수 있습니다. Adobe은 모든 환불 요청을 검토하고 (승인된 경우) 적절한 환불을 발행합니다. Commerce Marketplace 관련 문제의 경우:
 
-방법 1: [Adobe Commerce 마켓플레이스](https://commercemarketplace.adobe.com/)&#x200B;(으)로 이동하여 페이지 하단으로 이동한 다음 [!UICONTROL Contact Us]을(를) 클릭하면 티켓을 제출하는 양식이 열립니다.
+방법 1: [Adobe Commerce 마켓플레이스 - 연락처](https://commercemarketplace.adobe.com/contact-us/) 양식에서 지원 요청을 제출합니다.
 
 방법 2: [이메일 지원](mailto:commercemarketplacesupport@adobe.com).
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 ### 오픈 소스 질문
 
-마켓플레이스 지원 팀은 [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) 및 [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) 사이트와 관련된 문제만 해결합니다. Magento Open Source에 대한 질문이 있으면 [커뮤니티 포럼](https://community.magento.com/)에 문의하거나 [Magento Open Source을 지원할 수 있는 파트너에게 문의](https://business.adobe.com/kr/products/magento/partners.html)하십시오.
+마켓플레이스 지원 팀은 [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) 및 [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) 사이트와 관련된 문제만 해결합니다. Magento Open Source에 대한 질문이 있으면 [커뮤니티 포럼](https://community.magento.com/)에 문의하거나 [Magento Open Source을 지원할 수 있는 파트너에게 문의](https://business.adobe.com/products/magento/partners.html)하십시오.
 
 ### 환불 요청
 
@@ -143,4 +143,4 @@ Marketplace 지원 팀에서는 다른 계정으로 구매를 전송할 수 없�
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/kr/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/products/magento/magento-commerce.html
