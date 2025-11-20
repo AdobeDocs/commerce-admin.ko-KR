@@ -25,7 +25,7 @@ ht-degree: 6%
 | 디자인 | 디자인 도구를 사용하여 상점의 [테마](themes.md) 및 [페이지 레이아웃](page-layout.md)을 제어할 수 있습니다. [[!UICONTROL Design Configuration]](configuration.md)을(를) 사용하면 설정을 한 페이지에 표시하여 디자인 관련 규칙과 구성 설정을 쉽게 편집할 수 있습니다. |
 | 컨텐츠 요소 | 안내서의 이 섹션에서는 콘텐츠 [페이지](pages.md) 및 [블록](blocks.md)을(를) 만들고 관리하기 위한 자세한 정보를 찾을 수 있으며 [위젯](widgets.md)을(를) 사용하여 다이내믹 콘텐츠를 추가할 수 있습니다. |
 | [WYSIWYG 편집기](editor.md) | 편집기를 사용하면 콘텐츠의 _What You See Is What You Get_(WYSIWYG) 보기에서 작업하는 동안 입력하고 형식을 지정할 수 있습니다. |
-| 미디어 | [미디어 저장소](media-storage.md)를 사용하면 서버에 저장된 미디어 파일을 구성하고 액세스할 수 있습니다. 미디어 에셋을 업로드하고 [Adobe Stock을 ](adobe-stock.md)과(와) 통합[!DNL Commerce]하여 스토어에서 사용할 수 있는 수많은 미디어 에셋에 액세스할 수 있습니다. |
+| 미디어 | [미디어 저장소](media-storage.md)를 사용하면 서버에 저장된 미디어 파일을 구성하고 액세스할 수 있습니다. 미디어 에셋을 업로드하고 [Adobe Stock을 &#x200B;](adobe-stock.md)과(와) 통합[!DNL Commerce]하여 스토어에서 사용할 수 있는 수많은 미디어 에셋에 액세스할 수 있습니다. |
 | [콘텐츠 스테이징](content-staging.md) | 콘텐츠 스테이징은 비즈니스 팀이 관리자로부터 직접 스토어에 대한 광범위한 콘텐츠 업데이트를 쉽게 만들고, 미리 보고, 예약할 수 있도록 합니다. |
 
 {style="table-layout:auto"}
