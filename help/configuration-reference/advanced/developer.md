@@ -4,7 +4,7 @@ description: Commerce 관리자의 [!UICONTROL Advanced] &gt; [!UICONTROL Develo
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: ac364c1b3cab3988c135ade2c6de799c915cee8c
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ![프론트엔드 개발 워크플로](./assets/developer-frontend-development-workflow.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;의 [프론트엔드 개발 워크플로](../../systems/developer-tools.md#frontend-development-workflow)를 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/developer-tools.md#frontend-development-workflow)의 _프론트엔드 개발 워크플로_&#x200B;를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 ![개발자 클라이언트 제한 사항](./assets/developer-developer-client-restrictions.png)<!-- zoom -->
 
-이 설정을 변경하는 방법에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;의 [클라이언트 제한](../../systems/developer-tools.md#client-restrictions)을 참조하십시오.
+이 설정을 변경하는 방법에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/developer-tools.md#client-restrictions)의 _클라이언트 제한_&#x200B;을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -47,12 +47,12 @@ ht-degree: 1%
 
 ![템플릿 설정](./assets/developer-template-settings.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [리소스 파일 최적화](../../systems/developer-tools.md#optimizing-resource-files)를 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/developer-tools.md#optimizing-resource-files)에서 _리소스 파일 최적화_&#x200B;를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Allow Symlinks] | 스토어 뷰 | [심볼 링크](https://en.wikipedia.org/wiki/Symbolic_link)를 사용하면 사이트가 보안 위험에 노출될 수 있으므로 프로덕션 스토어에는 사용하지 않는 것이 좋습니다. |
-| [!UICONTROL Minify Html] | 스토어 뷰 | 저장소 템플릿에 대한 HTML이 최소화되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Minify Html] | 스토어 뷰 | 스토어 템플릿용 HTML이 최소화되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 ![디버그](./assets/developer-debug.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [템플릿 경로 힌트](../../systems/developer-tools.md#template-path-hints)를 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/developer-tools.md#template-path-hints)에서 _템플릿 경로 힌트_&#x200B;를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 ![인라인 번역](./assets/developer-translate-inline.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [인라인 번역](../../systems/developer-tools.md#translate-inline)을 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/developer-tools.md#translate-inline)에서 _인라인 번역_&#x200B;을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 ![JavaScript 설정](./assets/developer-javascript-settings.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [리소스 파일 최적화](../../systems/developer-tools.md#optimizing-resource-files)를 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/developer-tools.md#optimizing-resource-files)에서 _리소스 파일 최적화_&#x200B;를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -105,7 +105,7 @@ ht-degree: 1%
 
 ![CSS 설정](./assets/developer-css-settings.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [리소스 파일 최적화](../../systems/developer-tools.md#optimizing-resource-files)를 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/developer-tools.md#optimizing-resource-files)에서 _리소스 파일 최적화_&#x200B;를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -121,7 +121,7 @@ ht-degree: 1%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | 글로벌 | 이미지를 렌더링하는 데 사용할 어댑터를 지정합니다. 어댑터 설정을 변경한 후 카탈로그 이미지 캐시를 플러시합니다. 옵션: `PHP GD2` / `ImageMagick` <br/><br/>**_참고:_**&#x200B;ICO 파일 형식은 ImageMagik 어댑터에서만 지원됩니다. |
+| [!UICONTROL Image Adapter] | 글로벌 | 이미지를 렌더링하는 데 사용할 어댑터를 지정합니다. 어댑터 설정을 변경한 후 카탈로그 이미지 캐시를 플러시합니다. 옵션: `PHP GD2` / `ImageMagick` <br/><br/>**_Note:_** ICO 파일 형식은 ImageMagick 어댑터에서만 지원됩니다. |
 
 {style="table-layout:auto"}
 
