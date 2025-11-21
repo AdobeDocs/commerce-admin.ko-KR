@@ -3,7 +3,7 @@ title: 제품 데이터 속성 참조
 description: 제품 데이터 가져오기 및 내보내기 작업을 수행할 때 이 제품 데이터 속성 참조를 사용합니다.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 976efad9fb4bb53f6f102fde534001d254cd3b9c
+source-git-commit: 3d02b1f6b3051aab133a57497bd0c30ac60bffde
 workflow-type: tm+mt
 source-wordcount: '2496'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 | 속성 | 설명 |
 |--- |--- |
-| `sku` | (필수) 재고 유지 단위는 재고를 추적하는 데 사용되는 고유한 영숫자 식별자입니다. SKU는 최대 64자까지 사용할 수 있습니다. 예: `sku123`<br/>**_참고:_**&#x200B;SKU가 64자를 초과하면 가져오기가 실패합니다. |
+| `sku` | (필수) 재고 유지 단위는 재고를 추적하는 데 사용되는 고유한 영숫자 식별자입니다. SKU는 최대 64자까지 사용할 수 있습니다. 예: `sku123`<br/>**_Note:_** SKU가 64자를 초과하면 가져오기가 실패합니다. |
 | `store_view_code` | 제품을 사용할 수 있는 특정 스토어 보기를 식별합니다. 비어 있는 경우 기본 스토어 보기에서 제품을 사용할 수 있습니다. 예: `storeview1`, `english`, `spanish` |
 | `attribute_set_code` | 제품 유형에 따라 제품을 특정 속성 세트 또는 제품 템플릿에 할당합니다. 예를 들어 `default`<br><br>제품을 만든 후에는 가져오기 기능을 사용하여 특성 집합을 변경할 수 없습니다. 그러나 관리자에서 속성 세트를 변경하고 제품을 다시 내보내 CSV 파일 을 업데이트할 수 있습니다. |
 | `product_type` | 제품 유형을 나타냅니다. 값:<br/>`simple` — 일반적으로 단일 단위로 판매되거나 고정 수량으로 판매되는 유형 품목.<br/>`grouped` — 세트로 판매되는 별도의 제품 그룹입니다.<br/>`configurable` — 구매하기 전에 고객이 선택해야 하는 여러 옵션이 있는 제품입니다. 개별 SKU를 사용하는 개별 제품을 나타내므로 각 변형 세트에 대해 인벤토리를 관리할 수 있습니다. 예를 들어 구성 가능한 제품에 대한 색상 및 크기의 조합은 카탈로그의 특정 SKU와 연결됩니다.<br/>`virtual` — 배송이 필요하지 않고 재고에 보관되지 않는 유형의 제품이 아닙니다. 서비스, 멤버십 및 구독이 이러한 예입니다.<br/>`bundle` — 함께 판매되는 간단한 제품의 사용자 지정 가능한 제품 세트입니다. |
@@ -38,10 +38,10 @@ ht-degree: 0%
 | `special_price_from_date` | 특별가격이 유효한 기간의 시작일. |
 | `special_price_to_date` | 특별 가격이 유효한 기간의 마지막 일자. |
 | `url_key` | 제품을 식별하는 URL의 부분입니다. 기본값은 제품 이름을 기반으로 합니다. 예: `product-name` |
-| save_rewrites_history | 새 `url_key`(으)로 값 `1`이(가) 제공된 경우 이전 URL이 새 URL로 리디렉션되도록 새 301 URL 다시 쓰기가 생성됩니다. |
+| save_rewrites_history | 새 `1`(으)로 값 `url_key`이(가) 제공된 경우 이전 URL이 새 URL로 리디렉션되도록 새 301 URL 다시 쓰기가 생성됩니다. |
 | `meta_title` | 메타 제목은 브라우저의 제목 표시줄 및 탭과 검색 결과 목록에 나타납니다. 메타 제목은 제품에 고유해야 하고, 고가치 키워드를 통합해야 하며, 길이가 70자 미만이어야 합니다. |
-| `meta_keywords` | 메타 키워드는 검색 엔진에만 표시되며 일부 검색 엔진에서는 무시됩니다. 높은 값의 키워드를 쉼표로 구분하여 선택합니다. 예: `keyword1`, `keyword2`, `keyword3` |
-| `meta_description` | 메타 설명은 검색 결과 목록에 대한 제품에 대한 간략한 개요를 제공합니다. 메타 설명은 150-160자 사이여야 하지만 필드에는 최대 255자를 사용할 수 있습니다. |
+| `meta_keywords` | Meta 키워드는 검색 엔진에만 표시되며 일부 검색 엔진에서는 무시됩니다. 높은 값의 키워드를 쉼표로 구분하여 선택합니다. 예: `keyword1`, `keyword2`, `keyword3` |
+| `meta_description` | Meta 설명은 검색 결과 목록에 대한 제품에 대한 간략한 개요를 제공합니다. 메타 설명은 150-160자 사이여야 하지만 필드에는 최대 255자를 사용할 수 있습니다. |
 | `base_image` | 제품 페이지의 기본 이미지에 대한 상대 경로입니다. Commerce은 파일을 알파벳 폴더 구조로 내부적으로 저장합니다. 내보낸 데이터에서 각 이미지의 정확한 위치를 확인할 수 있습니다. 예를 들어 `/sample_data/m/b/mb01-blue-0.jpg`<br/>새 이미지를 업로드하거나 기존 이미지에 쓰려면 파일 이름 앞에 슬래시를 입력하십시오. 예: `/image.jpg` |
 | `base_image_label` | 기본 이미지와 연결된 레이블입니다. |
 | `small_image` | 카탈로그 페이지에 사용되는 작은 이미지의 파일 이름으로, 앞에 슬래시가 붙습니다. 예: `/image.jpg` |
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 | 속성 | 설명 |
 |--- |--- |
-| `sku` | (필수) 재고 유지 단위는 재고를 추적하는 데 사용되는 고유한 영숫자 식별자입니다. SKU는 최대 64자까지 사용할 수 있습니다. 예: `sku123`<br/>**_참고:_**&#x200B;SKU가 64자를 초과하면 가져오기가 실패합니다. |
+| `sku` | (필수) 재고 유지 단위는 재고를 추적하는 데 사용되는 고유한 영숫자 식별자입니다. SKU는 최대 64자까지 사용할 수 있습니다. 예: `sku123`<br/>**_Note:_** SKU가 64자를 초과하면 가져오기가 실패합니다. |
 | `tier_price_website` | [웹 사이트 코드](../stores-purchase/stores.md#add-websites)은(는) 계층 가격을 사용할 수 있는 각 웹 사이트를 식별합니다. 예: `-  website1 -  All Websites [USD]` |
 | `tier_price_customer` | 계층 가격을 사용할 수 있는 [고객 그룹](../customers/customer-groups.md)을(를) 식별합니다. 예: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
 | `tier_price_customer_group` | 계층 가격을 사용할 수 있는 고객 그룹을 식별합니다. 예: `-  ALL GROUPS -  NOT LOGGED IN -  General -  Wholesale -  Retailer` |
