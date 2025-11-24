@@ -3,9 +3,9 @@ title: 쿠키 법률 준수
 description: Adobe Commerce 및 Magento Open Source은 쿠키 사용에 관한 여러 국가의 법률에 발맞추기 위해 상인에게 고객 동의를 얻는 방법 선택을 제공합니다.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 3276729b2da1068e7c3d236d568ac745a97d71be
+source-git-commit: b90164030569f18bfd10fd52f12e3bbd22626b63
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Adobe Commerce 및 Magento Open Source의 기본 쿠키는 판매자가 [GDPR](c
 
 #### `guest-view`
 
-게스트 주문을 게스트에 연결합니다(게스트 계정이 없기 때문).
+게스트 주문을 게스트에 연결합니다(게스트 계정이 없기 때문). 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `login_redirect`
 
@@ -84,31 +84,31 @@ Adobe Commerce 및 Magento Open Source의 기본 쿠키는 판매자가 [GDPR](c
 
 #### `mage-banners-cache-storage`
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) 배너 콘텐츠를 로컬에 저장하여 성능을 개선합니다. 배너 콘텐츠는 판매자가 웹 사이트에 표시하는 모든 콘텐츠입니다.
+배너 기능을 위한 ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용) 로컬 저장소입니다. 배너 콘텐츠를 로컬에 저장하여 성능을 개선합니다. 배너 콘텐츠에는 쇼핑객에게 정보를 표시하는 일반 웹 사이트 자산이 포함됩니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `mage-messages`
 
-쿠키 동의 메시지 및 다양한 오류 메시지와 같이 사용자에게 표시되는 오류 메시지 및 기타 알림을 추적합니다. 메시지가 쇼핑객에게 표시된 후 쿠키에서 삭제됩니다. 이 쿠키를 비활성화하는 옵션은 없습니다. 이는 오류 메시지와 같은 일회성 정보가 사용자에게 전달되는 방식입니다.
+쿠키 동의 메시지 및 다양한 오류 메시지와 같이 사용자에게 표시되는 오류 메시지 및 기타 알림을 추적합니다. 메시지가 쇼핑객에게 표시된 후 쿠키에서 삭제됩니다. 이 쿠키를 비활성화하는 옵션은 없습니다. 이는 오류 메시지와 같은 일회성 정보가 사용자에게 전달되는 방식입니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `product_data_storage`(로컬 저장소)
 
-최근에 본 항목 및 &quot;제품 비교&quot; 기능을 사용하는 데 사용되는 제품 데이터에 대한 구성을 저장합니다. 사용자의 특정 설정을 저장합니다(예: 최근에 제품을 보았거나 비교한 제품인 경우).
+최근에 본 항목 및 &quot;제품 비교&quot; 기능을 사용하는 데 사용되는 제품 데이터에 대한 구성을 저장합니다. 사용자의 특정 설정을 저장합니다(예: 최근에 제품을 보았거나 비교한 제품인 경우). 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `recently_compared_product`(로컬 저장소)
 
-최근에 비교한 제품의 제품 ID를 저장합니다.
+최근에 비교한 제품의 제품 ID를 저장합니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `recently_compared_product_previous`(로컬 저장소)
 
-쉽게 탐색할 수 있도록 이전에 비교한 제품의 제품 ID를 저장합니다.
+쉽게 탐색할 수 있도록 이전에 비교한 제품의 제품 ID를 저장합니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `recently_viewed_product`(로컬 저장소)
 
-쉽게 탐색할 수 있도록 최근에 본 제품의 제품 ID를 저장합니다.
+쉽게 탐색할 수 있도록 최근에 본 제품의 제품 ID를 저장합니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `recently_viewed_product_previous`(로컬 저장소)
 
-쉽게 탐색할 수 있도록 최근에 본 제품의 제품 ID를 저장합니다.
+쉽게 탐색할 수 있도록 최근에 본 제품의 제품 ID를 저장합니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `remove_from_cart`
 
@@ -120,51 +120,47 @@ SendFriend([친구에게 이메일 보내기](../stores-purchase/email-a-friend.
 
 #### `X-Magento-Vary`
 
-캐시에서 새 페이지 버전을 제공해야 하는 시기를 나타냅니다. 웹 사이트 성능을 지원합니다.
+캐시에서 새 페이지 버전을 제공해야 하는 시기를 나타냅니다. 웹 사이트 성능을 지원합니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `form_key`
 
-요청이 실제 소스에서 온 것인지 아니면 잘못된 액터에서 온 것인지를 확인하는 데 도움이 되어 CSRF(크로스 사이트 요청 위조) 공격을 방지하기 위해 임의로 생성된 값을 유지하는 보안 메커니즘입니다. CSRF 공격을 방지하는 업계 표준 방법입니다.
+요청이 실제 소스에서 온 것인지 아니면 잘못된 액터에서 온 것인지를 확인하는 데 도움이 되어 CSRF(크로스 사이트 요청 위조) 공격을 방지하기 위해 임의로 생성된 값을 유지하는 보안 메커니즘입니다. CSRF 공격을 방지하는 업계 표준 방법입니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `mage-cache-sessid`
 
-세션 만료 후 브라우저에서 로컬 저장소를 정리할 시기를 결정하는 데 유용합니다. 로컬 저장소를 정리해야 하는지 여부를 확인하는 데 사용됩니다. 이 쿠키가 없으면 로컬 저장소 정리가 트리거됩니다.
+세션 만료 후 브라우저에서 로컬 저장소를 정리할 시기를 결정하는 데 유용합니다. 로컬 저장소를 정리해야 하는지 여부를 확인하는 데 사용됩니다. 이 쿠키가 없으면 로컬 저장소 정리가 트리거됩니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `mage-cache-storage`
 
-전자 상거래 기능을 활성화하는 방문자별 콘텐츠의 로컬 저장소입니다. 기본적으로 사용되지 않지만, 사용 중인 경우 체크아웃을 신속하게 처리하는 데 사용되므로 누군가가 나갔다가 돌아올 때 기본 사용자 정보를 사용할 수 있습니다.
+전자 상거래 기능을 활성화하는 방문자별 콘텐츠의 로컬 저장소입니다. 기본적으로 사용되지 않지만, 사용 중인 경우 체크아웃을 신속하게 처리하는 데 사용되므로 누군가가 나갔다가 돌아올 때 기본 사용자 정보를 사용할 수 있습니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `mage-cache-storage-section-invalidation`
 
-무효화 및 제거해야 하는 페이지의 섹션과 관련된 정보를 저장합니다.
+무효화 및 제거해야 하는 페이지의 섹션과 관련된 정보를 저장합니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `persistent_shopping_cart`
 
-영구 장바구니의 키 ID를 저장하여 익명 구매자에 대한 장바구니 복원을 가능하게 합니다.
+영구 장바구니의 키 ID를 저장하여 익명 구매자에 대한 장바구니 복원을 가능하게 합니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `private_content_version`
 
-고객 콘텐츠가 있는 페이지에 임의의 고유 번호 및 시간을 추가하여 서버에서 캐시되지 않도록 합니다. 이 변수는 PHP에서 JavaScript as a cookie로 JavaScript에서 로컬 저장소로 설정됩니다.
+고객 콘텐츠가 있는 페이지에 임의의 고유 번호 및 시간을 추가하여 서버에서 캐시되지 않도록 합니다. 이 변수는 PHP에서 JavaScript as a cookie로 JavaScript에서 로컬 저장소로 설정됩니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `section_data_ids`
 
-위시리스트 표시 및 체크아웃 정보와 같이 고객이 시작한 작업과 관련된 고객별 정보를 저장합니다.
+위시리스트 표시 및 체크아웃 정보와 같이 고객이 시작한 작업과 관련된 고객별 정보를 저장합니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `store`
 
-쇼핑객이 선택한 특정 매장 보기/로케일을 추적합니다.
-
-#### `mage-banners-cache-storage`
-
-배너 기능을 위한 ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용) 로컬 저장소입니다. 배너는 쇼핑객에게 표시되는 모든 정보를 일반 웹 사이트 자산으로 의미합니다.
+쇼핑객이 선택한 특정 매장 보기/로케일을 추적합니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `PHPSESSID`
 
-상점 첫 화면에서 사용자 세션을 추적합니다. 이것은 최종 제품을 사용하는 쇼핑객입니다.
+상점 첫 화면에서 사용자 세션을 추적합니다. 이것은 최종 제품을 사용하는 쇼핑객입니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `admin`
 
-관리측에서 사용자 세션을 추적합니다.
+관리측에서 사용자 세션을 추적합니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `loggedOutReasonCode`
 
@@ -172,31 +168,31 @@ SendFriend([친구에게 이메일 보내기](../stores-purchase/email-a-friend.
 
 #### `section_data_clean`
 
-사용자가 스토어 보기를 전환할 때 설정됩니다. 이 쿠키가 있으면 JavaScript이 페이지의 특정 섹션을 다시 로드하여 올바른 스토어 보기를 반영합니다.
+사용자가 스토어 보기를 전환할 때 설정됩니다. 이 쿠키가 있으면 JavaScript이 페이지의 특정 섹션을 다시 로드하여 올바른 스토어 보기를 반영합니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `lang`
 
-Admin Analytics 모듈에서 간접적으로 설정합니다. 상점의 관리 영역에서만 사용됩니다. 쇼핑객에게는 해당되지 않습니다.
+Admin Analytics 모듈에서 간접적으로 설정합니다. 상점의 관리 영역에서만 사용됩니다. 쇼핑객에게는 해당되지 않습니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `s_fid`
 
-Admin Analytics 모듈에서 간접적으로 설정합니다. 대체 고유 방문자 ID 시간/날짜 스탬프입니다. 타사 쿠키 제한 사항으로 인해 표준 `s_vi` 쿠키를 사용할 수 없는 경우 고유 방문자를 식별하는 데 사용됩니다. 상점의 관리 영역에서만 사용됩니다. 쇼핑객에게는 해당되지 않습니다.
+Admin Analytics 모듈에서 간접적으로 설정합니다. 대체 고유 방문자 ID 시간/날짜 스탬프입니다. 타사 쿠키 제한 사항으로 인해 표준 `s_vi` 쿠키를 사용할 수 없는 경우 고유 방문자를 식별하는 데 사용됩니다. 상점의 관리 영역에서만 사용됩니다. 쇼핑객에게는 해당되지 않습니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `s_cc`
 
-Admin Analytics 모듈에서 간접적으로 설정합니다. 쿠키가 활성화되어 있는지 확인하기 위해 JavaScript 코드로 설정하고 읽습니다. 상점의 관리 영역에서만 사용됩니다. 쇼핑객에게는 해당되지 않습니다.
+Admin Analytics 모듈에서 간접적으로 설정합니다. 쿠키가 활성화되어 있는지 확인하기 위해 JavaScript 코드로 설정하고 읽습니다. 상점의 관리 영역에서만 사용됩니다. 쇼핑객에게는 해당되지 않습니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `apt.sid`
 
-Admin Analytics 모듈에서 간접적으로 사용하는 Gainsight PX 라이브러리로 설정됩니다. 이 쿠키의 목적은 제품의 최상위 도메인에서 지속적인 세션 ID 추적을 허용하는 것이며 활성 세션에 대한 참조 ID로 사용됩니다. 상점의 관리 영역에서만 사용됩니다. 쇼핑객에게는 해당되지 않습니다.
+Admin Analytics 모듈에서 간접적으로 사용하는 Gainsight PX 라이브러리로 설정됩니다. 이 쿠키의 목적은 제품의 최상위 도메인에서 지속적인 세션 ID 추적을 허용하는 것이며 활성 세션에 대한 참조 ID로 사용됩니다. 상점의 관리 영역에서만 사용됩니다. 쇼핑객에게는 해당되지 않습니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `apt.uid`
 
-Admin Analytics 모듈에서 간접적으로 사용하는 Gainsight PX 라이브러리로 설정됩니다. 이 쿠키의 목적은 제품의 최상위 도메인에서 지속적인 ID 추적을 허용하는 것이며 사용자 엔티티에 대한 참조 ID로 사용됩니다. 상점의 관리 영역에서만 사용됩니다. 쇼핑객에게는 해당되지 않습니다.
+Admin Analytics 모듈에서 간접적으로 사용하는 Gainsight PX 라이브러리로 설정됩니다. 이 쿠키의 목적은 제품의 최상위 도메인에서 지속적인 ID 추적을 허용하는 것이며 사용자 엔티티에 대한 참조 ID로 사용됩니다. 상점의 관리 영역에서만 사용됩니다. 쇼핑객에게는 해당되지 않습니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `s_sq`
 
-Admin Analytics 모듈에서 간접적으로 설정합니다. 방문자가 클릭하는 위치와 클릭하는 내용에 대한 데이터를 수집하는 ClickMap 기능에서 사용됩니다. 클릭할 때마다 정보를 저장합니다. 상점의 관리 영역에서만 사용됩니다. 쇼핑객에게는 해당되지 않습니다.
+Admin Analytics 모듈에서 간접적으로 설정합니다. 방문자가 클릭하는 위치와 클릭하는 내용에 대한 데이터를 수집하는 ClickMap 기능에서 사용됩니다. 클릭할 때마다 정보를 저장합니다. 상점의 관리 영역에서만 사용됩니다. 쇼핑객에게는 해당되지 않습니다. 시스템 안정성을 유지하려면 이 쿠키를 비활성화하지 마십시오.
 
 #### `pagebuilder_modal_dismissed`
 
@@ -206,15 +202,15 @@ Admin Analytics 모듈에서 간접적으로 설정합니다. 방문자가 클�
 
 페이지 빌더 모듈에서 설정합니다. 관리자가 이전에 특정 작업을 명시적으로 해제한 경우 관리자에게 확인하도록 요청하는 후속 프롬프트가 열리지 않도록 하는 플래그를 포함합니다. 상점의 관리 영역에서만 사용됩니다. 쇼핑객에게는 해당되지 않습니다.
 
-#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
+#### `accordion-{VARIABLE}-{VARIABLE}`
 
 저장소의 관리 영역에서만 탭 기능 구현의 일부로 사용됩니다. 쇼핑객에게는 해당되지 않습니다.
 
 ## 제품 추천 쿠키
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객을 위한 제품 권장 사항에서 다음 쿠키를 사용합니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객을 위한 제품 권장 사항에서 다음 쿠키를 사용합니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
 
-- `mg_dnt`: 사이트에서 쿠키 동의를 관리할 사용자 지정 코드가 있는 경우 [Adobe Commerce 데이터 수집을 제한](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/developer/setting-cookie)할 수 있습니다.
+- `mg_dnt`: 사이트에서 쿠키 동의를 관리할 사용자 지정 코드가 있는 경우 [Adobe Commerce 데이터 수집을 제한](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)할 수 있습니다.
 - `user_allowed_save_cookie`: [쿠키 제한 모드](#cookie-restriction-mode)에 사용됩니다.
 - `authentication_flag`: 쇼핑객이 로그인했는지 또는 로그아웃했는지 여부를 나타냅니다. 이 쿠키는 `dataservices_customer_id` 쿠키와 동시에 업데이트됩니다.
 - `dataservices_customer_id`: 쇼핑객이 로그인했는지 또는 로그아웃했는지 여부를 나타냅니다. 이 쿠키에는 시스템에 있는 고객의 고유 ID가 포함되어 있습니다.
@@ -234,7 +230,7 @@ Admin Analytics 모듈에서 간접적으로 설정합니다. 방문자가 클�
 
 ## 추가 쿠키
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객에 대해 다음 쿠키가 설정됩니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객에 대해 다음 쿠키가 설정됩니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
 
 - `mg`: Snowploy JavaScript 추적기에서 설정합니다. 자세한 내용은 [Snowploy 설명서](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/)에서 확인할 수 있습니다.
 - `com.adobe.alloy.getTld`: 현재 웹 페이지의 호스트 이름을 고려할 때 이 도메인은 https://publicsuffix.org에 설명된 &quot;공용 접미사&quot;가 아닌 최상위 도메인입니다. 기본적으로 이 도메인은 쿠키를 허용할 수 있는 가장 상위 도메인입니다. 이 쿠키는 [Alloy Web SDK](https://github.com/adobe/alloy)의 일부입니다.
