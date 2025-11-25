@@ -4,7 +4,7 @@ description: Commerce 관리자의 [!UICONTROL Advanced] &gt; [!UICONTROL Admin]
 exl-id: 546b8d01-9611-4415-ab2b-29be560316f5
 role: Admin
 feature: Configuration, Admin Workspace
-source-git-commit: e05d13f79ceb2fe24c1931fefb48317ebd36d1fc
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ![시작 페이지](./assets/admin-startup-page.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _시작 안내서_&#x200B;에서 [시작 페이지 변경](../../getting-started/admin-dashboard.md#change-the-startup-page)을 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [시작 안내서](../../getting-started/admin-dashboard.md#change-the-startup-page)에서 _시작 페이지 변경_&#x200B;을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |---------------------------|------------------------------------------------------------------------|------------------------------------------------------------------|
@@ -60,7 +60,7 @@ ht-degree: 0%
 | `Reports` | [`Marketing`](../../getting-started/marketing-reports.md) | `Products in Cart`<br />`Search Terms`<br />`Abandoned Carts`<br />`Newsletter Problem Reports` |
 |                                                         | [`Reviews`](../../getting-started/review-reports.md) | `By Customer`<br/> `By Products`<br/> |
 |                                                         | [`Sales`](../../getting-started/sales-reports.md) | `Orders`<br/>`Tax`<br/>`Invoiced`<br/>`Shipping`<br/>`Refunds`<br/>`Coupons`<br/>`PayPal Settlement`<br/>`Braintree Settlement` |
-|                                                         | `System Insights` | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=ko) ![Adobe Commerce](../../assets/adobe-logo.svg) |
+|                                                         | `System Insights` | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) ![Adobe Commerce](../../assets/adobe-logo.svg) |
 |                                                         | [`Customers`](../../getting-started/customer-reports.md) | `Order Total`<br/>`Order Count`<br/>`New`<br/>`Wish Lists`<br/>`Segments`<br/> |
 |                                                         | [`Products`](../../getting-started/product-reports.md) | `Views`<br/>`Bestsellers`<br/>`Low Stock`<br/>`Ordered`<br/>`Downloads` |
 |                                                         | [`Private Sales`](../../getting-started/private-sales-reports.md) ![Adobe Commerce](../../assets/adobe-logo.svg) | `Invitations`<br/>`Invited Customers`<br/>`Conversions` |
@@ -94,7 +94,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 | Field        | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Enable       | Global                                                                 | Determines if the Commerce instance uses the Experience Cloud integration. Before enabling this feature, review the [requirements and configuration instructions](../../getting-started/admin-unified-experience-integration-overview.md). Options: Yes/No.                                                                                                                    |
-| Project Name | Global                                                                 | Identifies the instance in the Experience Cloud Commerce Projects workspace when the Unified Experience is enabled. The name can contain only alphanumeric characters and spaces. Defaults to the [cloud environment name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=ko#pro-environment-architecture). |
+| Project Name | Global                                                                 | Identifies the instance in the Experience Cloud Commerce Projects workspace when the Unified Experience is enabled. The name can contain only alphanumeric characters and spaces. Defaults to the [cloud environment name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html#pro-environment-architecture). |
 
 {style="table-layout:auto"}
 
@@ -104,7 +104,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![관리자 기본 URL](./assets/admin-admin-base-url.png)<!-- zoom -->
 
-이러한 옵션 설정에 대한 자세한 내용은 _저장 및 구매 경험 안내서_&#x200B;에서 [기본 URL 구성](../../stores-purchase/store-urls.md#configure-the-base-url)을 참조하십시오.
+이러한 옵션 설정에 대한 자세한 내용은 [저장 및 구매 경험 안내서](../../stores-purchase/store-urls.md#configure-the-base-url)에서 _기본 URL 구성_&#x200B;을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -119,7 +119,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![보안](./assets/admin-security.png)<!-- zoom -->
 
-이러한 옵션 설정에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [관리 보안 구성](../../systems/security-admin.md)을 참조하십시오.
+이러한 옵션 설정에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/security-admin.md)에서 _관리 보안 구성_&#x200B;을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -142,7 +142,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![대시보드](./assets/admin-dashboard.png)<!-- zoom -->
 
-이러한 옵션 설정에 대한 자세한 내용은 _시작 안내서_&#x200B;의 [관리 대시보드](../../getting-started/admin-dashboard.md)를 참조하십시오.
+이러한 옵션 설정에 대한 자세한 내용은 [시작 안내서](../../getting-started/admin-dashboard.md)의 _관리 대시보드_&#x200B;를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |----------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![관리 그리드](./assets/admin-admin-grids.png)<!-- zoom -->
 
-이러한 옵션 설정에 대한 자세한 내용은 _카탈로그 관리 가이드_&#x200B;의 [제품 표시 제한](../../catalog/products-list.md#limit-product-display)을 참조하세요.
+이러한 옵션 설정에 대한 자세한 내용은 [카탈로그 관리 가이드](../../catalog/products-list.md#limit-product-display)의 _제품 표시 제한_&#x200B;을 참조하세요.
 
 >[!NOTE]
 >
@@ -162,14 +162,14 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |-----------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Limit Number of Products in Grid] | 글로벌 | 격자에 표시되는 제품 수가 _[!UICONTROL Records Limit]_&#x200B;값으로 제한되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Limit Number of Products in Grid] | 글로벌 | 격자에 표시되는 제품 수가 _[!UICONTROL Records Limit]_값으로 제한되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Records Limit] | 글로벌 | 제품 격자에 있는 제품의 수 제한을 설정합니다. 기본 최소값은 `20000`입니다. |
 
 ## [!UICONTROL CAPTCHA]
 
 ![CAPTCHA](./assets/admin-captcha.png)<!-- zoom -->
 
-이러한 옵션 설정에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;의 [CAPTCHA](../../systems/security-captcha.md)을(를) 참조하십시오.
+이러한 옵션 설정에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/security-captcha.md)의 _CAPTCHA_&#x200B;을(를) 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |-------------------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -191,7 +191,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![관리자 작업 로깅](./assets/admin-actions-logging.png)<!-- zoom -->
 
-이러한 옵션 설정에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;의 [작업 로그 보관](../../systems/action-log-archive.md)을 참조하십시오.
+이러한 옵션 설정에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/action-log-archive.md)의 _작업 로그 보관_&#x200B;을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |-----------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -203,7 +203,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![관리자 사용](./assets/admin-usage.png)<!-- zoom -->
 
-이러한 옵션 설정에 대한 자세한 내용은 _시작 안내서_&#x200B;에서 [사용 데이터 수집](../../getting-started/admin.md#usage-data-collection)을(를) 참조하십시오.
+이러한 옵션 설정에 대한 자세한 내용은 [시작 안내서](../../getting-started/admin.md#usage-data-collection)에서 _사용 데이터 수집_&#x200B;을(를) 참조하십시오.
 
 | 필드 | 범위 | 설명 |
 |------------------------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

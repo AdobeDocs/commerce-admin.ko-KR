@@ -3,9 +3,9 @@ title: 운송 회사 설정
 description: 상점에 사용할 수 있는 상업용 배송 계정에 대한 지원에 대해 알아보십시오.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ USPS는 2026년 1월 25일에 기존 Web Tools API를 중단합니다. 이 날�
 
 USPS 배송 서비스의 중단을 방지하려면 2026년 1월 25일 전에 다음 작업을 수행하십시오.
 
-- [USPS REST API 마이그레이션 품질 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html)&#x200B;(AC-1520)를 적용하여 USPS REST API와 통합에 대한 지원을 추가하십시오.
+- [USPS REST API 마이그레이션 품질 패치](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)를 적용하여 USPS REST API와 통합에 대한 지원을 추가합니다.
 
 - REST API를 사용하도록 Commerce USPS 구성을 업데이트합니다.
 

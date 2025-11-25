@@ -3,7 +3,7 @@ title: 향상된 Storefront 환경
 description: 고객 참여, 유지 및 충성도를 극대화하는 데 도움이 되도록 설계된 다양한 도구에 대해 알아봅니다.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=ko)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -28,7 +28,7 @@ Adobe Commerce 및 Magento Open Source에는 _검색 엔진에 친숙한_ 웹 �
 
 - **사용자 지정 URL** - [사용자 지정 URL](../stores-purchase/store-urls.md)을 지정하여 짧고, 깔끔하고, 기억하기 쉽게 만듭니다. 또한 검색하기 쉬운 URL을 자동으로 생성하여 구매 경로를 간소화할 수 있습니다.
 
-- **메타데이터** - 검색 엔진이 제품을 더 쉽게 찾고 색인화하는 데 도움이 되는 특정 기준을 선택하여 검색 엔진 등급을 개선합니다. 제품, 범주 및 콘텐츠 페이지에 대한 [메타데이터](../merchandising-promotions/meta-data.md)를 입력할 수 있습니다.
+- **Meta 데이터** - 검색 엔진이 제품을 더 쉽게 찾고 색인화하는 데 도움이 되는 특정 기준을 선택하여 검색 엔진 등급을 개선합니다. 제품, 범주 및 콘텐츠 페이지에 대한 [메타데이터](../merchandising-promotions/meta-data.md)를 입력할 수 있습니다.
 
 - **사이트 맵** - 스토어 바닥글에서 [사이트 맵](../merchandising-promotions/sitemap-xml.md)에 대한 링크를 통해 고객에게 카탈로그 구조의 개요를 제공하고 스토어의 모든 범주 및 제품에 대한 링크를 제공합니다. Google 사이트 맵과 쉽게 통합됩니다.
 
@@ -84,7 +84,7 @@ Adobe Commerce과 Magento Open Source은 쇼핑 경험을 조정하고 고객이
 
 ## 비즈니스 프로세스 및 수익성 최적화
 
-- **[!DNL Advanced Reporting]** - [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=ko)에서 제공하는 동적 제품, 주문 및 고객 보고서를 통해 중요한 통찰력을 한눈에 얻을 수 있습니다.
+- **[!DNL Advanced Reporting]** - [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html)에서 제공하는 동적 제품, 주문 및 고객 보고서를 통해 중요한 통찰력을 한눈에 얻을 수 있습니다.
 
 - **대시보드 스냅숏** - 사이트에서 관심 있는 항목을 파악하는 것은 마케팅 예산을 최대화하는 데 중요합니다. 대시보드에 있는 이 [정보](admin-dashboard.md)를 사용하여 단골 고객에게 교차 및 상향 판매해야 하는 항목 또는 판매해야 하는 제품을 결정하십시오.
 
