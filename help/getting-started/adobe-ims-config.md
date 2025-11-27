@@ -47,7 +47,7 @@ Commerce Admin 사용자는 로그인하려면 Adobe ID으로 계정을 만들�
 
 ## 통합 구성
 
-시스템 액세스 권한이 있는 관리자 또는 개발자가 다음 단계를 완료하면 모든 관리자의 Commerce 관리자 로그인 페이지에 _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_단추가 표시됩니다.
+시스템 액세스 권한이 있는 관리자 또는 개발자가 다음 단계를 완료하면 모든 관리자의 Commerce 관리자 로그인 페이지에 _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;단추가 표시됩니다.
 
 ### 1단계: Adobe 조직 ID 가져오기
 
