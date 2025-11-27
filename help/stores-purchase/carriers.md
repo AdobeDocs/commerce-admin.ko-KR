@@ -51,7 +51,7 @@ USPS는 2026년 1월 25일에 기존 Web Tools API를 중단합니다. 이 날�
 
 USPS 배송 서비스의 중단을 방지하려면 2026년 1월 25일 전에 다음 작업을 수행하십시오.
 
-- [USPS REST API 마이그레이션 품질 패치](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)를 적용하여 USPS REST API와 통합에 대한 지원을 추가합니다.
+- [USPS REST API 마이그레이션 품질 패치](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)를 적용하여 USPS REST API와 통합에 대한 지원을 추가합니다.
 
 - REST API를 사용하도록 Commerce USPS 구성을 업데이트합니다.
 

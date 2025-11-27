@@ -3,7 +3,7 @@ title: URL 저장
 description: 스토어 URL과 기본 URL 및 스토어 코드를 구성하는 방법에 대해 알아봅니다.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '1529'
@@ -41,13 +41,13 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 1. 왼쪽 패널의 _일반_&#x200B;에서 **[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Base URL]**&#x200B;를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Base URL]**&#x200B;를 확장합니다.
 
    - **[!UICONTROL Base URL]** — 스토어의 정규화된 기본 URL을 입력합니다. 스토어의 추가 URL 키로 URL을 확장할 수 있도록 URL은 슬래시로 끝나야 합니다. 예: `http://yourdomain.com/`
 
      >[!NOTE]
      >
-     >_[!UICONTROL Base Link URL]_&#x200B;필드의 자리 표시자를 변경하지 마십시오. 기본 URL에 대한 상대 링크를 만드는 데 사용되는 자리 표시자입니다.
+     >_[!UICONTROL Base Link URL]_필드의 자리 표시자를 변경하지 마십시오. 기본 URL에 대한 상대 링크를 만드는 데 사용되는 자리 표시자입니다.
 
    - **[!UICONTROL Base URL for Static View Files]** — (선택 사항) 다음 자리 표시자로 시작하는 경로를 입력하여 정적 보기 파일의 기본 URL에 대한 대체 위치를 지정합니다.
 
@@ -92,7 +92,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
    - **[!UICONTROL Use Secure URLs on Storefront]**
    - **[!UICONTROL Use Secure URLs in Admin]**
 
-1. _[!UICONTROL Enhanced Security Settings]_&#x200B;의 경우 다음을 수행합니다.
+1. _[!UICONTROL Enhanced Security Settings]_의 경우 다음을 수행합니다.
 
    - **[!UICONTROL Enable HTTP Strict Transport Security (HSTS)]** — 저장소에 보안 HTTPS 페이지 요청만 표시하려면 `Yes`(으)로 설정하십시오.
 
@@ -112,9 +112,9 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널의 _[!UICONTROL General]_&#x200B;에서&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 패널의 _[!UICONTROL General]_에서&#x200B;**[!UICONTROL Web]**을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL URL Options]**&#x200B;를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL URL Options]**&#x200B;를 확장합니다.
 
 1. **[!UICONTROL Add Store Code]**&#x200B;을(를) 기본 설정으로 설정:
 
@@ -138,7 +138,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 ## 사용자 지정 관리자 URL 사용
 
-[보안 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=ko)로서, Adobe에서는 기본 _관리_ 대신 고유한 관리 URL을 사용하거나 _백엔드_&#x200B;와 같은 일반적인 용어를 사용할 것을 권장합니다. 부적합한 행위자로부터 사이트를 직접 보호하지는 않지만 무단 액세스를 시도하는 스크립트에 대한 노출을 줄일 수 있습니다.
+[보안 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)로서, Adobe에서는 기본 _관리_ 대신 고유한 관리 URL을 사용하거나 _백엔드_&#x200B;와 같은 일반적인 용어를 사용할 것을 권장합니다. 부적합한 행위자로부터 사이트를 직접 보호하지는 않지만 무단 액세스를 시도하는 스크립트에 대한 노출을 줄일 수 있습니다.
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 >[!NOTE]
 >
->서버에서 구성 파일을 편집하는 방법을 모르는 경우 사전 예방차원에서 관리자 URL을 직접 변경하지 마십시오. 클라우드 인프라에 배포된 Adobe Commerce 프로젝트의 경우 [Adobe Commerce on Cloud Infrastructure 안내서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=ko#admin-url)의 *지침*&#x200B;에 따라 관리 URL을 변경하십시오.
+>서버에서 구성 파일을 편집하는 방법을 모르는 경우 사전 예방차원에서 관리자 URL을 직접 변경하지 마십시오. 클라우드 인프라에 배포된 Adobe Commerce 프로젝트의 경우 [Adobe Commerce on Cloud Infrastructure 안내서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url)의 *지침*&#x200B;에 따라 관리 URL을 변경하십시오.
 
 ### 방법 1: 관리자의 변경
 
@@ -162,7 +162,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 1. 왼쪽 패널에서 **[!UICONTROL Advanced]**&#x200B;을(를) 확장하고 **[!UICONTROL Admin]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Admin Base URL]**&#x200B;를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Admin Base URL]**&#x200B;를 확장합니다.
 
 1. 사용자 지정 URL에 대한 구성 옵션을 설정합니다.
 
@@ -200,7 +200,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
    >[!TIP]
    >
-   >클라우드 인프라의 Adobe Commerce의 경우 클라우드 UI에서 `ADMIN_URL` 변수를 사용하여 사용자 지정 관리 경로를 설정할 수 있습니다. [Cloud Infrastructure의 Commerce 안내서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=ko)에서 _관리 변수 항목_&#x200B;을(를) 참조하십시오.
+   >클라우드 인프라의 Adobe Commerce의 경우 클라우드 UI에서 `ADMIN_URL` 변수를 사용하여 사용자 지정 관리 경로를 설정할 수 있습니다. [Cloud Infrastructure의 Commerce 안내서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html)에서 _관리 변수 항목_&#x200B;을(를) 참조하십시오.
 
    - **기본 관리자 경로**
 
@@ -220,7 +220,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 1. 다음 방법 중 하나를 사용하여 캐시를 지웁니다.
 
-   - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.**[!UICONTROL Flush Magento Cache]**&#x200B;을(를) 클릭합니다.
+   - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.**[!UICONTROL Flush Magento Cache]**을(를) 클릭합니다.
    - 서버에서 다음을 실행합니다.
 
      ```bash
@@ -259,7 +259,7 @@ bin/magento setup:config:set --backend-frontname="backend_front_name"
 
 1. 다음 방법 중 하나를 사용하여 캐시를 지웁니다.
 
-   - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.**[!UICONTROL Flush Magento Cache]**&#x200B;을(를) 클릭합니다.
+   - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.**[!UICONTROL Flush Magento Cache]**을(를) 클릭합니다.
    - 서버에서 다음을 실행합니다.
 
      ```bash
