@@ -80,7 +80,7 @@ Commerce 구성에는 사이트를 인덱싱하는 웹 크롤러 및 봇에 대�
 
    ![전역 디자인 구성](./assets/design-configuration-grid.png){width="700" zoomable="yes"}
 
-1. 아래로 스크롤하여 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Search Engine Robots]**&#x200B;를 확장하고 다음을 수행합니다.
+1. 아래로 스크롤하여 ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Search Engine Robots]**&#x200B;를 확장하고 다음을 수행합니다.
 
    ![디자인 구성 - 검색 엔진 로봇](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
 
