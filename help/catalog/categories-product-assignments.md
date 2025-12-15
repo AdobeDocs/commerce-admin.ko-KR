@@ -3,20 +3,20 @@ title: 범주 제품 할당
 description: '[!UICONTROL Products in Category] 설정을 사용하여 현재 범주에 할당된 제품을 제어하는 방법에 대해 알아봅니다.'
 exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
 feature: Catalog Management, Categories, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: eb78c90debf31c8e28b3710584e6865dae1cb6a4
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # 범주 제품 할당
 
-범주의 경우 _[!UICONTROL Products in Category]_&#x200B;섹션을 사용하여 현재 범주에 할당된 제품을 검토하십시오. 각 열의 맨 위에 있는 검색 필터는 카테고리에서 제품을 추가하거나 제거하는 데 사용됩니다. 조건 집합이 충족될 때 [카테고리 규칙](../merchandising-promotions/category-product-rules.md)(![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce만 해당)을 사용하여 제품 선택을 동적으로 변경할 수도 있습니다. 자세한 내용은 [시각적 머천다이저](../merchandising-promotions/visual-merchandiser.md))를 참조하십시오.
+범주의 경우 _[!UICONTROL Products in Category]_섹션을 사용하여 현재 범주에 할당된 제품을 검토하십시오. 각 열의 맨 위에 있는 검색 필터는 카테고리에서 제품을 추가하거나 제거하는 데 사용됩니다. 조건 집합이 충족될 때 [카테고리 규칙](../merchandising-promotions/category-product-rules.md)(![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce만 해당)을 사용하여 제품 선택을 동적으로 변경할 수도 있습니다. 자세한 내용은 [시각적 머천다이저](../merchandising-promotions/visual-merchandiser.md))를 참조하십시오.
 
 >[!TIP]
 >
->범주 규칙을 설정하는 동안 이 범주가 저장될 때 해당 규칙에 따라 제품이 _정렬됨_, _일치됨_, _할당됨_ 및 _할당되지 않음_&#x200B;됩니다&#x200B;**_전용_**. 새 제품을 카탈로그에 추가할 때 규칙에 따라 할당되도록 하려면 **규칙별로 제품과 일치하도록 설정된 각 범주를 다시 저장해야 합니다**. 또한 제품 재고 상태가 `In Stock` 또는 `Out of Stock`(으)로 변경되고 **자동 정렬** 규칙에 따라 범주의 제품이 _정렬됨_&#x200B;인 경우 **[!UICONTROL Save Category]**&#x200B;을(를) 클릭해야 합니다.
+>범주 규칙을 설정하는 동안 이 범주가 저장될 때 해당 규칙에 따라 제품이 _정렬됨_, _일치됨_, _할당됨_ 및 _할당되지 않음_&#x200B;됩니다&#x200B;**_전용_**. 새 제품을 카탈로그에 추가할 때 규칙에 따라 할당되도록 하려면 **규칙별로 제품과 일치하도록 설정된 각 범주를 다시 저장해야 합니다**. 또한 제품 재고 상태가 `In Stock` 또는 `Out of Stock`(으)로 변경되고 _자동 정렬_ 규칙에 따라 범주의 제품이 **정렬됨**&#x200B;인 경우 **[!UICONTROL Save Category]**&#x200B;을(를) 클릭해야 합니다.
 
 ![범주 제품](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->_재고_ 열에는 _&#x200B;**선택한 범주 범위**&#x200B;_&#x200B;에 대해서만 사용 가능한 제품 수량이 표시됩니다. 제품에 대해 여러 주식을 관리하는 경우 해당 범위 간에 전환하여 _Category Products_ 그리드에 다른 _Stock_ 열 값을 표시해야 합니다.
+>_재고_ 열에는 _**선택한 범주 범위**_&#x200B;에 대해서만 사용 가능한 제품 수량이 표시됩니다. 제품에 대해 여러 주식을 관리하는 경우 해당 범위 간에 전환하여 _Category Products_ 그리드에 다른 _Stock_ 열 값을 표시해야 합니다.
 
 ## 범주 규칙 적용
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 | 옵션 | 설명 |
 |--- |--- |
-| [!UICONTROL Attribute] | 조건의 기반으로 사용되는 속성을 결정합니다. 옵션: <br/>**[!UICONTROL Clone Category ID(s)]**- Category ID를 기준으로 여러 범주에서 제품을 정렬 및 순서 없이 동적으로 복제합니다.<br/>**[!UICONTROL Color]** - 색상을 기준으로 제품을 포함합니다. <br/>**[!UICONTROL Date Created (days ago)]**- 제품이 카탈로그에 추가된 이후 일 수를 기준으로 제품을 포함합니다.<br/>**[!UICONTROL Date Modified (days ago)]** - 제품을 마지막으로 수정한 이후 일 수를 기준으로 제품을 포함합니다. <br/>**[!UICONTROL Name]**- 제품 이름을 기반으로 제품을 포함합니다.<br/>**[!UICONTROL Price]** - 가격에 따라 제품을 포함합니다. <br/>**[!UICONTROL Quantity]**- 재고 수량에 따라 제품을 포함합니다.<br/>**&#x200B; SKU &#x200B;**- SKU를 기반으로 하는 제품을 포함합니다. |
+| [!UICONTROL Attribute] | 조건의 기반으로 사용되는 속성을 결정합니다. 옵션: <br/>**[!UICONTROL Clone Category ID(s)]**- Category ID를 기준으로 여러 범주에서 제품을 정렬 및 순서 없이 동적으로 복제합니다.<br/>**[!UICONTROL Color]** - 색상을 기준으로 제품을 포함합니다. <br/>**[!UICONTROL Date Created (days ago)]**- 제품이 카탈로그에 추가된 이후 일 수를 기준으로 제품을 포함합니다.<br/>**[!UICONTROL Date Modified (days ago)]** - 제품을 마지막으로 수정한 이후 일 수를 기준으로 제품을 포함합니다. <br/>**[!UICONTROL Name]**- 제품 이름을 기반으로 제품을 포함합니다.<br/>**[!UICONTROL Price]** - 가격에 따라 제품을 포함합니다. <br/>**[!UICONTROL Quantity]**- 재고 수량에 따라 제품을 포함합니다.<br/>** SKU **- SKU를 기반으로 하는 제품을 포함합니다. |
 | [!UICONTROL Operator] | 조건을 충족하기 위해 속성 값에 적용되는 연산자를 지정합니다. 연산자를 지정하지 않으면 `Equal`이(가) 기본값으로 사용됩니다. 옵션: `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | 조건을 충족하기 위해 특성이 가져야 하는 값을 지정합니다. |
 | [!UICONTROL Logic] | 여러 조건을 정의하는 데 사용되며 다른 조건이 추가될 때만 나타납니다. 옵션: `OR` / `AND` |
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->하위 옵션이 있는 구성 가능한 제품의 수량은 모든 판매 가능한 하위 제품 수량을 결합하여 계산됩니다. 자주색, 빨간색 및 노란색 색상 옵션과 각각의 수량이 다른 구성 가능한 제품 _지구력 피트니스 탱크_&#x200B;의 예를 생각해 보십시오. 이 시나리오에서 상위 제품 수량은 자주색, 빨간색 및 노란색 하위 제품의 판매 가능 수량을 합한 것입니다.
+>하위 옵션이 있는 구성 가능한 제품의 수량은 모든 하위 제품 수량을 결합하여 계산됩니다. 자주색, 빨간색 및 노란색 색상 옵션과 각각의 수량이 다른 구성 가능한 제품 _지구력 피트니스 탱크_&#x200B;의 예를 생각해 보십시오. 이 시나리오에서 상위 제품 수량은 자주색, 빨간색 및 노란색 색상 하위 제품의 결합 수량입니다.
 
 ## 컨트롤
 
