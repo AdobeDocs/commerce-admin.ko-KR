@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Configurable Product]**을(를) 선택합니다.
+1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Configurable Product]**&#x200B;을(를) 선택합니다.
 
    ![구성 가능한 제품 추가](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 ### 6단계: 변형 속성 선택
 
-1. _[!UICONTROL Configurations]_섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Create Configurations]**을(를) 클릭합니다.
+1. _[!UICONTROL Configurations]_&#x200B;섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Create Configurations]**&#x200B;을(를) 클릭합니다.
 
    ![구성](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -254,7 +254,7 @@ ht-degree: 0%
 
 **[!UICONTROL Quantity]** 입력.
 
-[Inventory management ](../inventory-management/introduction.md):_을(를) 사용하는 여러 Source 판매자(_M)
+[Inventory management &#x200B;](../inventory-management/introduction.md):_을(를) 사용하는 여러 Source 판매자(_M)
 
 생성된 모든 제품 변형에 대해 출처를 지정하고 수량을 추가합니다.
 
@@ -274,7 +274,7 @@ ht-degree: 0%
 
 각 특성 값에 대해 **[!UICONTROL Quantity]**&#x200B;을(를) 입력하십시오.
 
-[Inventory management ](../inventory-management/introduction.md):_을(를) 사용하는 여러 Source 판매자(_M)
+[Inventory management &#x200B;](../inventory-management/introduction.md):_을(를) 사용하는 여러 Source 판매자(_M)
 
 생성된 모든 제품 변형에 대해 출처를 지정하고 수량을 추가합니다.
 
@@ -302,7 +302,7 @@ ht-degree: 0%
 
 ### 10단계: 제품 이미지 추가
 
-1. 아래로 스크롤하여 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Images and Videos]_를 확장합니다.
+1. 아래로 스크롤하여 ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Images and Videos]_&#x200B;를 확장합니다.
 
 1. _카메라_ 타일을 클릭하고 구성 가능한 제품에 사용할 기본 이미지를 찾습니다.
 
@@ -338,7 +338,7 @@ ht-degree: 0%
 
    - 오른쪽 상단에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   - 스토어에서 제품을 보려면 **[!UICONTROL Customer View]**&#x200B;관리자&#x200B;_(_&#x200B;메뉴 화살표![) 메뉴에서 ](../assets/icon-menu-down-arrow-black.png)을(를) 선택하십시오.
+   - 스토어에서 제품을 보려면 **[!UICONTROL Customer View]**&#x200B;관리자&#x200B;_(_&#x200B;메뉴 화살표![) 메뉴에서 &#x200B;](../assets/icon-menu-down-arrow-black.png)을(를) 선택하십시오.
 
    저장소가 새 브라우저 탭에서 열립니다.
 
@@ -346,7 +346,7 @@ ht-degree: 0%
 
    **메서드 2: 저장 및 닫기**
 
-   _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
+   _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
 ## 재고 상태 구성
 
@@ -394,7 +394,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Shopping Cart]_를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Shopping Cart]_&#x200B;를 확장합니다.
 
 1. **[!UICONTROL Configurable Product Image]**&#x200B;을(를) `Product Thumbnail Itself`(으)로 설정합니다.
 
