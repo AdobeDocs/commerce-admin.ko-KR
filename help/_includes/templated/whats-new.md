@@ -1,7 +1,7 @@
 ---
-source-git-commit: 9e99733bef6e3a4434a57cdc822065c92db77db2
+source-git-commit: c0e04ffd76d69be3a7d508dd72930f54d97ea382
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '332'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## 새로운 기능
 
 이 섹션에는 지난 60일 동안 변경된 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2025년 12월 17일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>고객이 체크아웃 중에 보상 포인트를 사용하거나 크레딧을 저장하는 경우 세금을 계산하는 방법을 명확히 하기 위해 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">보상 및 충성도 항목</a>을 업데이트했습니다.</p>
+</td>
+      <td>
+        피드백
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1154cd5ced746ac6dfd609946528f281774bbaaa">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2025년 12월 11일
 
@@ -23,7 +45,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><code class="language-plaintext highlighter-rouge">NOFOLLOW</code>SEO 설명서<a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/seo-overview">에서 </a> 로봇 메타 지시문에 대한 설명을 업데이트했습니다.<br /><em>문제 <a href="https://github.com/AdobeDocs/commerce-admin.ko-KR/issues/82">#82</a>을(를) 수정합니다.</em></p>
+      <td><p><code class="language-plaintext highlighter-rouge">NOFOLLOW</code>SEO 설명서<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview">에서 </a> 로봇 메타 지시문에 대한 설명을 업데이트했습니다.<br /><em>문제 <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>을(를) 수정합니다.</em></p>
 </td>
       <td>
         기술, 피드백
@@ -45,7 +67,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">쿠키 법률 준수</a>에 대해 비활성화해서는 안 되는 기본 쿠키에 대한 정보가 추가되었습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">쿠키 법률 준수</a>에 대해 비활성화해서는 안 되는 기본 쿠키에 대한 정보가 추가되었습니다.</p>
 </td>
       <td>
         기술
@@ -67,7 +89,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/elements/pages/page-add">페이지 추가 및 제거</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/workspace">페이지 빌더 Workspace</a> 주제에 CMS 페이지에서 페이지 빌더 미리 보기를 사용할 수 있는 방법에 대한 지침을 추가했습니다. 기본 스토어 보기에서 사용할 수 없는 경우 미리보기에 콘텐츠가 표시되지 않습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add">페이지 추가 및 제거</a> 및 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace">페이지 빌더 Workspace</a> 주제에 CMS 페이지에서 페이지 빌더 미리 보기를 사용할 수 있는 방법에 대한 지침을 추가했습니다. 기본 스토어 보기에서 사용할 수 없는 경우 미리보기에 콘텐츠가 표시되지 않습니다.</p>
 </td>
       <td>
         기술, 피드백
@@ -89,7 +111,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>Commerce 상점이 Adobe Experience Manager 사이트로 배포된 판매자를 지원하기 위해 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security-scan">보안 검색 도구</a>를 업데이트했습니다.</p>
+      <td><p>Commerce 상점이 Adobe Experience Manager 사이트로 배포된 판매자를 지원하기 위해 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan">보안 검색 도구</a>를 업데이트했습니다.</p>
 </td>
       <td>
         기술
@@ -111,7 +133,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">카탈로그 가격 규칙에 대한 예약된 변경 내용</a> 항목에서 종료 날짜가 지정되지 않은 경우 특정 시간에 활성 가격 규칙 판매를 종료하는 방법을 명확히 설명했습니다.<br />예제, 개념 정의를 개선하고 웹 서버 다시 쓰기 및 표준 URL에 대한 추가 URL 관리 구성 지침을 그룹화하기 위해 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL 다시 쓰기</a> 주제를 재구성했습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">카탈로그 가격 규칙에 대한 예약된 변경 내용</a> 항목에서 종료 날짜가 지정되지 않은 경우 특정 시간에 활성 가격 규칙 판매를 종료하는 방법을 명확히 설명했습니다.<br />예제, 개념 정의를 개선하고 웹 서버 다시 쓰기 및 표준 URL에 대한 추가 URL 관리 구성 지침을 그룹화하기 위해 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL 다시 쓰기</a> 주제를 재구성했습니다.</p>
 </td>
       <td>
         기술, 피드백
@@ -133,7 +155,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>USPS Web Tools API에서 USPS REST API로 마이그레이션하기 위한 지침과 함께 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers">운송 회사 설정</a> 지침을 업데이트했습니다.</p>
+      <td><p>USPS Web Tools API에서 USPS REST API로 마이그레이션하기 위한 지침과 함께 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers">운송 회사 설정</a> 지침을 업데이트했습니다.</p>
 </td>
       <td>
         기술, 피드백
@@ -155,56 +177,12 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>연결된 Commerce 서비스(Live Search, 제품 권장 사항, 카탈로그 서비스)에 게시하기 위해 Adobe Commerce에서 Commerce SaaS 데이터베이스로의 데이터 내보내기 피드 동기화를 모니터링하는 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">데이터 피드 동기화 상태 확장</a>에 대한 설명서를 추가했습니다. 데이터 동기화 상태 페이지는 Commerce 관리자의 시스템 메뉴에서 사용할 수 있습니다.</p>
+      <td><p>연결된 Commerce 서비스(Live Search, 제품 권장 사항, 카탈로그 서비스)에 게시하기 위해 Adobe Commerce에서 Commerce SaaS 데이터베이스로의 데이터 내보내기 피드 동기화를 모니터링하는 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">데이터 피드 동기화 상태 확장</a>에 대한 설명서를 추가했습니다. 데이터 동기화 상태 페이지는 Commerce 관리자의 시스템 메뉴에서 사용할 수 있습니다.</p>
 </td>
       <td>
         새 주제
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3a91e33221d7bcd6a42ae9c5da18a70e5d697d15">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2025년 10월 20일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe 앱에 안전하게 액세스할 수 있도록 SSO(Single Sign-On)를 구성하는 방법에 대한 정보를 Commerce 판매자 설명서의 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/ims/adobe-ims-config#identity-and-single-sign-on">Adobe ID과 Commerce 관리 통합 구성</a> 주제에 추가했습니다.</p>
-</td>
-      <td>
-        기술, 피드백
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9e399378ac6360936b7c0bd5f08355793976c096">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2025년 10월 14일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>2025년 10월 B2B 보안 패치 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/release-notes">릴리스 노트</a>를 추가했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/86cc342b9e210b706ee7f37d9db551c17f3af944">커밋</a></td>
     </tr>
   </tbody>
 </table>
