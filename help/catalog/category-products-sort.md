@@ -3,9 +3,9 @@ title: 범주 제품 정렬
 description: 카테고리에서 제품의 위치를 수동으로 또는 사전 정의된 정렬 순서를 적용하여 정의하는 방법에 대해 알아봅니다.
 exl-id: 09c66a5d-57d4-4e78-a8d8-e3047c1bd35a
 feature: Catalog Management, Categories, Products
-source-git-commit: 14c3eb7d54776382bfa196efdac446d42c8dc940
+source-git-commit: 5aea3aa13ab0eb74866fc0cbcbfe08b5099abe95
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 
 제품을 위치로 끌어다 놓거나 사전 정의된 정렬 순서를 적용하여 범주의 제품 위치를 수동으로 지정할 수 있습니다. 기본적으로 제품은 재고 수준, 연령, 색상, 이름, SKU 및 가격으로 정렬할 수 있습니다. 자동 정렬은 현재 정렬 순서를 무시하고 수동으로 설정된 모든 드래그 앤 드롭 위치를 재설정합니다. [Visual Merchandiser](../configuration-reference/catalog/visual-merchandiser.md) 구성에서 목록에 포함될 제품에 필요한 색상 정렬 순서 및 최소 재고 수준을 설정합니다.
 
->[!NOTE]
->
->범주 페이지에서 `Out of stock` 제품은 항상 모든 정렬 유형의 제품 목록에 **_after_** `In Stock` 제품으로 표시됩니다.
-
 각 [스토어 보기](../stores-purchase/stores.md#add-stores)에 대해 별도로 카테고리 옵션을 설정하여 제품 선택, 목록에서의 상대 위치 및 카테고리 규칙에 사용할 수 있는 특성을 결정할 수 있습니다. 그러나 카탈로그에는 단일 **_글로벌_** 정렬 순서 및 제품 위치가 있으며 모든 [스토어 보기](../stores-purchase/store-views.md), 스토어 및 웹 사이트에서 공유됩니다.
 
 ## 1단계: 구성 범위 설정
@@ -28,7 +24,7 @@ ht-degree: 0%
 
 1. 필요한 경우 설정이 적용되는 **[!UICONTROL Store View]**&#x200B;을(를) 선택하십시오.
 
-   다중 스토어 설치의 경우 _[!UICONTROL Store View]_&#x200B;설정은 스토어 내에서 사용 가능한 모든 보기에 정렬 순서를 적용합니다.
+   다중 스토어 설치의 경우 _[!UICONTROL Store View]_설정은 스토어 내에서 사용 가능한 모든 보기에 정렬 순서를 적용합니다.
 
 1. 왼쪽의 범주 트리에서 편집할 범주를 선택합니다.
 
@@ -38,9 +34,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->제품 특성으로 범주를 정렬하면 속성 값이 같은 제품도 _[!UICONTROL Product ID]_&#x200B;을(를) 기준으로 오름차순으로 정렬됩니다.
+>제품 특성으로 범주를 정렬하면 속성 값이 같은 제품도 _[!UICONTROL Product ID]_을(를) 기준으로 오름차순으로 정렬됩니다.
 
-_[!UICONTROL Products in Category]_&#x200B;섹션에서 타일(![타일 보기](../assets/icon-view-tiles.png) ) 아이콘을 클릭하여 제품 타일을 격자로 표시합니다. 제품을 정렬하려면 수동 또는 자동 방법을 사용합니다.
+_[!UICONTROL Products in Category]_섹션에서 타일(![타일 보기](../assets/icon-view-tiles.png) ) 아이콘을 클릭하여 제품 타일을 격자로 표시합니다. 제품을 정렬하려면 수동 또는 자동 방법을 사용합니다.
 
 ![제품 타일](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 

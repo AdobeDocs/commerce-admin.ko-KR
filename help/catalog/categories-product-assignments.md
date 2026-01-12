@@ -3,16 +3,16 @@ title: 범주 제품 할당
 description: '[!UICONTROL Products in Category] 설정을 사용하여 현재 범주에 할당된 제품을 제어하는 방법에 대해 알아봅니다.'
 exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
 feature: Catalog Management, Categories, Products
-source-git-commit: eb78c90debf31c8e28b3710584e6865dae1cb6a4
+source-git-commit: 5aea3aa13ab0eb74866fc0cbcbfe08b5099abe95
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
 
 # 범주 제품 할당
 
-범주의 경우 _[!UICONTROL Products in Category]_&#x200B;섹션을 사용하여 현재 범주에 할당된 제품을 검토하십시오. 각 열의 맨 위에 있는 검색 필터는 카테고리에서 제품을 추가하거나 제거하는 데 사용됩니다. 조건 집합이 충족될 때 [카테고리 규칙](../merchandising-promotions/category-product-rules.md)(![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce만 해당)을 사용하여 제품 선택을 동적으로 변경할 수도 있습니다. 자세한 내용은 [시각적 머천다이저](../merchandising-promotions/visual-merchandiser.md))를 참조하십시오.
+범주의 경우 _[!UICONTROL Products in Category]_섹션을 사용하여 현재 범주에 할당된 제품을 검토하십시오. 각 열의 맨 위에 있는 검색 필터는 카테고리에서 제품을 추가하거나 제거하는 데 사용됩니다. 조건 집합이 충족될 때 [카테고리 규칙](../merchandising-promotions/category-product-rules.md)(![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce만 해당)을 사용하여 제품 선택을 동적으로 변경할 수도 있습니다. 자세한 내용은 [시각적 머천다이저](../merchandising-promotions/visual-merchandiser.md))를 참조하십시오.
 
 >[!TIP]
 >
@@ -22,11 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->범주 페이지에서 `Out of stock` 제품은 항상 모든 정렬 유형의 제품 목록에 **_after_** `In Stock` 제품으로 표시됩니다.
-
->[!NOTE]
->
->_재고_ 열에는 _&#x200B;**선택한 범주 범위**&#x200B;_&#x200B;에 대해서만 사용 가능한 제품 수량이 표시됩니다. 제품에 대해 여러 주식을 관리하는 경우 해당 범위 간에 전환하여 _Category Products_ 그리드에 다른 _Stock_ 열 값을 표시해야 합니다.
+>_재고_ 열에는 _**선택한 범주 범위**_&#x200B;에 대해서만 사용 가능한 제품 수량이 표시됩니다. 제품에 대해 여러 주식을 관리하는 경우 해당 범위 간에 전환하여 _Category Products_ 그리드에 다른 _Stock_ 열 값을 표시해야 합니다.
 
 ## 범주 규칙 적용
 
@@ -80,7 +76,7 @@ ht-degree: 0%
 
 | 옵션 | 설명 |
 |--- |--- |
-| [!UICONTROL Attribute] | 조건의 기반으로 사용되는 속성을 결정합니다. 옵션: <br/>**[!UICONTROL Clone Category ID(s)]**- Category ID를 기준으로 여러 범주에서 제품을 정렬 및 순서 없이 동적으로 복제합니다.<br/>**[!UICONTROL Color]** - 색상을 기준으로 제품을 포함합니다. <br/>**[!UICONTROL Date Created (days ago)]**- 제품이 카탈로그에 추가된 이후 일 수를 기준으로 제품을 포함합니다.<br/>**[!UICONTROL Date Modified (days ago)]** - 제품을 마지막으로 수정한 이후 일 수를 기준으로 제품을 포함합니다. <br/>**[!UICONTROL Name]**- 제품 이름을 기반으로 제품을 포함합니다.<br/>**[!UICONTROL Price]** - 가격에 따라 제품을 포함합니다. <br/>**[!UICONTROL Quantity]**- 재고 수량에 따라 제품을 포함합니다.<br/>**&#x200B; SKU &#x200B;**- SKU를 기반으로 하는 제품을 포함합니다. |
+| [!UICONTROL Attribute] | 조건의 기반으로 사용되는 속성을 결정합니다. 옵션: <br/>**[!UICONTROL Clone Category ID(s)]**- Category ID를 기준으로 여러 범주에서 제품을 정렬 및 순서 없이 동적으로 복제합니다.<br/>**[!UICONTROL Color]** - 색상을 기준으로 제품을 포함합니다. <br/>**[!UICONTROL Date Created (days ago)]**- 제품이 카탈로그에 추가된 이후 일 수를 기준으로 제품을 포함합니다.<br/>**[!UICONTROL Date Modified (days ago)]** - 제품을 마지막으로 수정한 이후 일 수를 기준으로 제품을 포함합니다. <br/>**[!UICONTROL Name]**- 제품 이름을 기반으로 제품을 포함합니다.<br/>**[!UICONTROL Price]** - 가격에 따라 제품을 포함합니다. <br/>**[!UICONTROL Quantity]**- 재고 수량에 따라 제품을 포함합니다.<br/>** SKU **- SKU를 기반으로 하는 제품을 포함합니다. |
 | [!UICONTROL Operator] | 조건을 충족하기 위해 속성 값에 적용되는 연산자를 지정합니다. 연산자를 지정하지 않으면 `Equal`이(가) 기본값으로 사용됩니다. 옵션: `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | 조건을 충족하기 위해 특성이 가져야 하는 값을 지정합니다. |
 | [!UICONTROL Logic] | 여러 조건을 정의하는 데 사용되며 다른 조건이 추가될 때만 나타납니다. 옵션: `OR` / `AND` |
