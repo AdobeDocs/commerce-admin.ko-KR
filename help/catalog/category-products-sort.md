@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 필요한 경우 설정이 적용되는 **[!UICONTROL Store View]**&#x200B;을(를) 선택하십시오.
 
-   다중 스토어 설치의 경우 _[!UICONTROL Store View]_설정은 스토어 내에서 사용 가능한 모든 보기에 정렬 순서를 적용합니다.
+   다중 스토어 설치의 경우 _[!UICONTROL Store View]_&#x200B;설정은 스토어 내에서 사용 가능한 모든 보기에 정렬 순서를 적용합니다.
 
 1. 왼쪽의 범주 트리에서 편집할 범주를 선택합니다.
 
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->제품 특성으로 범주를 정렬하면 속성 값이 같은 제품도 _[!UICONTROL Product ID]_을(를) 기준으로 오름차순으로 정렬됩니다.
+>제품 특성으로 범주를 정렬하면 속성 값이 같은 제품도 _[!UICONTROL Product ID]_&#x200B;을(를) 기준으로 오름차순으로 정렬됩니다.
 
-_[!UICONTROL Products in Category]_섹션에서 타일(![타일 보기](../assets/icon-view-tiles.png) ) 아이콘을 클릭하여 제품 타일을 격자로 표시합니다. 제품을 정렬하려면 수동 또는 자동 방법을 사용합니다.
+_[!UICONTROL Products in Category]_&#x200B;섹션에서 타일(![타일 보기](../assets/icon-view-tiles.png) ) 아이콘을 클릭하여 제품 타일을 격자로 표시합니다. 제품을 정렬하려면 수동 또는 자동 방법을 사용합니다.
 
 ![제품 타일](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 
