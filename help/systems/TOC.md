@@ -5,9 +5,9 @@ breadcrumb-title: 관리 시스템 안내서
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '194'
 ht-degree: 4%
 
 ---
@@ -71,12 +71,13 @@ ht-degree: 4%
    - [관리자 보안 구성](security-admin.md)
    - CAPTCHA {#captcha}
       - [표준 CAPTCHA](security-captcha.md)
-      - [Google recaptcha](security-google-recaptcha.md)
-   - 이중 인증(2FA) {#2fa}
+      - [Google reCAPTCHA V3 및 V2](security-google-recaptcha.md)
+      - [Google reCAPTCHA 엔터프라이즈](security-google-recaptcha-enterprise.md)
+   - 이중 인증(2FA) {#tfa}
       - [개요](security-two-factor-authentication.md)
       - [2FA에 대한 사용자 계정 설정](security-two-factor-authentication-use.md)
       - [2FA 관리](security-two-factor-authentication-manage.md)
    - [세션 관리](security-session-management.md)
    - [브라우저 기능 감지](security-browser-capabilities-detection.md)
    - [보안 문제 보고](security-issue-reporting.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

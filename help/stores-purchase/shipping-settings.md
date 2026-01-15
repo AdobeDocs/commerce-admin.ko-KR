@@ -3,9 +3,9 @@ title: 배송 설정
 description: 스토어에 대한 원산지 및 배송 정책을 정의하는 배송 설정을 구성하는 방법에 대해 알아봅니다.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Shipping Settings]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Origin]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 완료합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Origin]**&#x200B;를 확장하고 다음을 완료합니다.
 
    - [!UICONTROL Country]
    - [!UICONTROL Region / State]
    - [!UICONTROL ZIP / Postal Code]
    - [!UICONTROL City]
-   - [!UICONTROL Street Address] (필요한 경우 2행)
+   - [!UICONTROL Street Address]&#x200B;(필요한 경우 2행)
 
 1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Shipping Settings]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Shipping Policy Parameters]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Shipping Policy Parameters]**&#x200B;를 확장합니다.
 
 1. **[!UICONTROL Apply Custom Shipping Policy]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Multishipping Settings]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Options]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Options]**&#x200B;를 확장합니다.
 
    ![여러 주소 배달 옵션](../configuration-reference/sales/assets/multishipping-settings-options.png){width="600" zoomable="yes"}
 
@@ -81,3 +81,36 @@ ht-degree: 0%
 >[!NOTE]
 >
 >![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B) 배송 주소가 여러 개인 주문의 경우 [계정에 대한 결제](../b2b/enable-basic-features.md#configure-payment-on-account) 결제 방법이 활성화되어 있더라도 체크아웃 중에는 사용할 수 없습니다.
+
+## 이메일 발송 추적 URL
+
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+
+[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+
+기본적으로 쇼핑객 이메일에 전송된 배송 추적 번호는 일반 텍스트입니다. 사용자 지정 추적 URL 기능을 활성화하여 이러한 추적 번호를 클릭 가능한 링크로 변환할 수 있습니다. 이 기능을 사용하면 다양한 운송회사의 URL을 추적할 템플릿을 정의할 수 있습니다. 각 템플릿에는 추적 웹 사이트에 대한 전체 URL과 추적 번호에 대한 자리 표시자가 포함됩니다. Commerce은 자리 표시자를 이메일의 실제 추적 번호로 바꿉니다.
+
+지원되는 배송 운송업체는 다음과 같습니다.
+
+- 미국 우편 서비스(USPS)
+- UPS(United Parcel Service)
+- 페더럴 익스프레스(페덱스)
+- DHL 익스프레스(DHL)
+
+사용자 지정 추적 URL을 활성화하거나 편집하려면:
+
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+
+1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Shipping Settings]**&#x200B;을(를) 선택합니다.
+
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Shipment Tracking URLs]**&#x200B;를 확장합니다.
+
+1. **[!UICONTROL Enable Custom Tracking URLs]**&#x200B;을(를) `Yes`(으)로 설정합니다.
+
+1. 지원되는 각 통신사에 대해 기본 URL 템플릿이 제공됩니다. 이러한 값을 변경해야 하는 경우 해당 필드에 새 URL 템플릿을 입력합니다. 실제 추적 번호의 자리 표시자로 `{{tracking_number}}`을(를) 사용합니다. 예를 들어 UPS에서 URL을 `https://www.ups.com/newtracker?tracknumber`(으)로 변경하면 새 추적 URL 템플릿은 다음과 같이 표시될 수 있습니다.
+
+   ```text
+   https://www.ups.com/newtracker?tracknumber={{tracking_number}}
+   ```
+
+1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.

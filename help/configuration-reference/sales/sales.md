@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales]'
 description: Commerce 관리자의 [!UICONTROL Sales] &gt; [!UICONTROL Sales] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 29091aab-e608-4e68-a6fe-f2808c78581c
 feature: Configuration, Orders
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1263'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ![일반](./assets/sales-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ![체크아웃 합계 정렬 순서](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
 
-<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
+<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 ![순서 바꾸기](./assets/sales-reorder.png)<!-- zoom -->
 
-<!-- [Reorder](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
+<!-- [Reorder](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -67,12 +67,12 @@ ht-degree: 1%
 
 ![인보이스 및 포장 명세서 디자인](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
 
-<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Logo for PDF Print-outs] | 스토어 뷰 | PDF 송장 및 포장 명세서 헤더에 나타나는 로고 파일을 식별합니다. 허용되는 파일 형식: <br/>JPG/JPEG <br/>TIF/TIFF <br/>PNG |
-| [!UICONTROL Logo for HTML Print View] | 스토어 뷰 | 송장 및 포장 명세서 HTML 인쇄 보기의 헤더에 나타나는 로고 파일을 식별합니다. 허용되는 파일 형식: <br/>JPG /JPEG <br/>GIF <br/>PNG |
+| [!UICONTROL Logo for HTML Print View] | 스토어 뷰 | 송장 및 포장 명세서 HTML 인쇄 보기의 헤더에 표시되는 로고 파일을 식별합니다. 허용되는 파일 형식: <br/>JPG /JPEG <br/>GIF <br/>PNG |
 | [!UICONTROL Address] | 스토어 뷰 | 송장 및 포장 명세서에 표시하려는 상점 주소. |
 
 {style="table-layout:auto"}
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 ![최소 주문 금액](./assets/sales-minimum-order-amount.png)<!-- zoom -->
 
-<!-- [Minimum Order Amount](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
+<!-- [Minimum Order Amount](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 ![대시보드](./assets/sales-dashboard.png)<!-- zoom -->
 
-<!-- [Dashboard](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
+<!-- [Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -113,7 +113,7 @@ ht-degree: 1%
 
 ![주문 크론 설정](./assets/sales-orders-cron-settings.png)<!-- zoom -->
 
-<!-- [Orders Cron Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/cron) -->
+<!-- [Orders Cron Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -121,11 +121,23 @@ ht-degree: 1%
 
 {style="table-layout:auto"}
 
+## [!UICONTROL Promotions]
+
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+
+[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 프로덕션 환경에서 릴리스를 사용하기 전에 예정된 변경 사항을 테스트할 시간을 제공하기 위해 먼저 샌드박스 환경에서 새 릴리스를 사용할 수 있도록 합니다."}
+
+![프로모션 설정](./assets/sales-promotions-settings.png)<!-- zoom -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | 글로벌 | 계층 가격 수량이 [(으)로 설정된 경우 카탈로그 가격 규칙에 대해 ](../../catalog/product-price-tier.md)계층 가격 설정`1`을 사용합니다.  옵션: `Yes` / `No` |
+
 ## [!UICONTROL Gift Options]
 
 ![선물 옵션](./assets/sales-gift-options.png)<!-- zoom -->
 
-<!-- [Gift Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
+<!-- [Gift Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -143,7 +155,7 @@ ht-degree: 1%
 
 ![최소 광고 가격](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
 
-<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
+<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -173,7 +185,7 @@ ht-degree: 1%
 
 ![SKU 설정별 주문](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
-<!-- [Order by SKU Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
+<!-- [Order by SKU Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
 
 ![고객 그룹에 대한 SKU별 주문 설정](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
@@ -188,7 +200,7 @@ ht-degree: 1%
 
 ![즉시 구매](./assets/sales-instant-purchase.png)<!-- zoom -->
 
-<!-- [Instant Purchase](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
+<!-- [Instant Purchase](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -216,7 +228,7 @@ ht-degree: 1%
 
 ![주문, 송장, 배송, 대변 메모 보관](./assets/sales-orders-invoices-shipments-credit-memos-archiving.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _저장 및 구매 경험 안내서_&#x200B;에서 [주문 보관 구성](../../stores-purchase/order-archive.md#configure-the-order-archive)을 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [저장 및 구매 경험 안내서](../../stores-purchase/order-archive.md#configure-the-order-archive)에서 _주문 보관 구성_&#x200B;을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -232,7 +244,7 @@ ht-degree: 1%
 
 ![RMA 설정](./assets/sales-rma-settings.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 _저장 및 구매 경험 안내서_&#x200B;에서 [반환 구성](../../stores-purchase/rma-configure.md)을 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 [저장 및 구매 경험 안내서](../../stores-purchase/rma-configure.md)에서 _반환 구성_&#x200B;을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

@@ -1,9 +1,9 @@
 ---
 title: 코드 조각
 description: 특정 에디션에 적용되는 기능이나 페이지를 참고하기 위해 노트 및 시각적 요소를 재사용함
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+source-git-commit: 37013190b0ddfff6c70aeb5bc7ba1693959c01d1
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -13,19 +13,19 @@ ht-degree: 0%
 ## EE 전용 기능 {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerce 기능" src="../assets/adobe-logo.svg" width="20" height="20" /> Adobe Commerce의 전용 기능(<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko#product-editions">자세히 알아보기</a>)</td></tr>
+<tr><td><img alt="Adobe Commerce 기능" src="../assets/adobe-logo.svg" width="20" height="20" /> Adobe Commerce의 전용 기능(<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">자세히 알아보기</a>)</td></tr>
 </table>
 
 ## B2B 전용 기능 {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce B2B 기능" src="../assets/b2b.svg" width="20" height="20" /> <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ko">Adobe Commerce B2B</a>에서만 사용할 수 있는 전용 기능</td></tr>
+<tr><td><img alt="Adobe Commerce B2B 기능" src="../assets/b2b.svg" width="20" height="20" /> <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html">Adobe Commerce B2B</a>에서만 사용할 수 있는 전용 기능</td></tr>
 </table>
 
 ## CE 전용 기능 {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Magento Open Source 기능" src="../assets/open-source.svg" width="20" height="20" /> Magento Open Source에는 대체 메서드가 필요합니다(<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko#product-editions">자세히 알아보기</a>).</td></tr>
+<tr><td><img alt="Magento Open Source 기능" src="../assets/open-source.svg" width="20" height="20" /> Magento Open Source에는 대체 메서드가 필요합니다(<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">자세히 알아보기</a>).</td></tr>
 </table>
 
 ## IMS 관리자 인증 메모 {#ims-admin-note}
@@ -56,11 +56,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->가격 규칙은 다른 시스템 규칙과 함께 자동으로 처리됩니다. 처리 빈도는 [cron 구성](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko)에 따라 다릅니다. 가격 규칙을 만들 때 시스템에 들어갈 충분한 시간을 허용합니다. 시스템에 있는지 확인하려면 규칙을 테스트하십시오.
+>가격 규칙은 다른 시스템 규칙과 함께 자동으로 처리됩니다. 처리 빈도는 [cron 구성](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html)에 따라 다릅니다. 가격 규칙을 만들 때 시스템에 들어갈 충분한 시간을 허용합니다. 시스템에 있는지 확인하려면 규칙을 테스트하십시오.
 
 ## 구성 설정 {#config}
 
-저장소 구성 설정에 액세스하려면 **[!UICONTROL Stores]**&#x200B;관리&#x200B;_[!UICONTROL Settings]_&#x200B;사이드바에서&#x200B;**[!UICONTROL Configuration]**>_ > _을(를) 선택하십시오.
+저장소 구성 설정에 액세스하려면 **[!UICONTROL Stores]**&#x200B;관리&#x200B;_[!UICONTROL Settings]_사이드바에서&#x200B;**[!UICONTROL Configuration]**>_ > _을(를) 선택하십시오.
 
 ## UPS API 사용 중단 {#ups-api}
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 >
 >2024년 6월부터 Adobe Commerce 판매자는 더 이상 현재 UPS 통합과 거래할 수 없습니다. 이는 기본 Adobe Commerce 통합에서 사용하는 UPS(United Parcel Service) API가 현재 필요한 OAuth 2.0 보안 모델을 지원하지 않기 때문입니다. 통합을 사용하려면 [UPS 개발자 플랫폼에서 애플리케이션을 만들고](https://developer.ups.com/get-started)하여 OAuth 2.0에 필요한 자격 증명을 얻으십시오. Commerce UPS 배송 구성에서 새 자격 증명을 `username` 및 `password`(으)로 사용합니다. 보안 모델 변경에 대한 자세한 내용은 [개발자 포털 액세스 키 마이그레이션 안내서_](https://developer.ups.com/oauth-developer-guide)를 참조하십시오. <br/>
 >
->판매자는 SOAP API에서 OAuth 2.0 인증 프로토콜을 지원하는 RESTful API로 마이그레이션하려면 스토어에 [품질 패치 업데이트를 적용](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html?lang=ko)해야 합니다.
+>판매자는 SOAP API에서 OAuth 2.0 인증 프로토콜을 지원하는 RESTful API로 마이그레이션하려면 스토어에 [품질 패치 업데이트를 적용](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html)해야 합니다.
 
 
 ## 사용 가능한 설명서 {#docs-links}
@@ -76,9 +76,9 @@ ht-degree: 0%
 | 설명서 리소스 | 설명 |
 |----------------------- | ----------- |
 | [Adobe Commerce 2.4 관리 사용 안내서](../landing/home.md) | 관리자에서 작업하는 상인을 위한 설명서 및 리소스입니다. |
-| [Adobe Commerce 설명서용 서비스](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko) | 판매자가 비즈니스의 주요 구성 요소를 스토어와 통합하는 데 도움이 되는 머천다이징 서비스 컬렉션을 지원하는 설명서입니다. |
-| [Cloud Infrastructure의 Commerce 안내서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html?lang=ko) | 관리되고 자동화된 호스팅 클라우드 플랫폼에서의 Adobe Commerce 배포에 대한 단계별 절차. |
-| [Adobe Commerce 2.4 Operational Guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html?lang=ko) | Adobe Commerce on Cloud 및 온프레미스 프로젝트를 개발, 배포 및 유지 관리하기 위한 개념, 프로세스, 도구 및 모범 사례에 대한 시스템 설명서입니다. |
+| [Adobe Commerce 설명서용 서비스](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html) | 판매자가 비즈니스의 주요 구성 요소를 스토어와 통합하는 데 도움이 되는 머천다이징 서비스 컬렉션을 지원하는 설명서입니다. |
+| [Cloud Infrastructure의 Commerce 안내서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 관리되고 자동화된 호스팅 클라우드 플랫폼에서의 Adobe Commerce 배포에 대한 단계별 절차. |
+| [Adobe Commerce 2.4 Operational Guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Adobe Commerce on Cloud 및 온프레미스 프로젝트를 개발, 배포 및 유지 관리하기 위한 개념, 프로세스, 도구 및 모범 사례에 대한 시스템 설명서입니다. |
 | [Adobe Commerce 2.4 개발자 설명서](https://developer.adobe.com/commerce/docs) | Adobe Commerce을 사용자 정의하고 타사 시스템과 통합하는 데 사용되는 개발자 중심의 설명서입니다. |
 
 {style="table-layout:auto"}
@@ -87,4 +87,22 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B 버전 1.4.2+는 PHP 8.2와 호환됩니다. Commerce 인스턴스를 버전 2.4.7+로 업그레이드하는 경우 인스턴스가 PHP 버전 8.2를 사용하여 Adobe Commerce B2B 릴리스와의 호환성을 유지하는지 확인하십시오. 또한 B2B 1.4.2+ 릴리스는 [GraphQL Application Server](https://experienceleague.adobe.com/ko/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원하지 않습니다.
+>Adobe Commerce B2B 버전 1.4.2+는 PHP 8.2와 호환됩니다. Commerce 인스턴스를 버전 2.4.7+로 업그레이드하는 경우 인스턴스가 PHP 버전 8.2를 사용하여 Adobe Commerce B2B 릴리스와의 호환성을 유지하는지 확인하십시오. 또한 B2B 1.4.2+ 릴리스는 [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원하지 않습니다.
+
+## reCAPTCHA 양식 목록 {#recaptcha-forms-list}
+
+- [!UICONTROL Enable for Customer Login]
+- [!UICONTROL Enable for Forgot Password]
+- [!UICONTROL Enable for Create New Customer Account]
+- [!UICONTROL Enable for Edit Customer Account]
+- [!UICONTROL Enable for Create New Company Account]&#x200B;(Adobe Commerce B2B에서만 사용 가능)
+- [!UICONTROL Enable for Contact Us]
+- [!UICONTROL Enable for Product Review]
+- [!UICONTROL Enable for Newsletter Subscription]
+- [!UICONTROL Enable for Gift Card]&#x200B;(Adobe Commerce 전용)
+- [!UICONTROL Enable for Invitation Create Account]
+- [!UICONTROL Enable for Send To Friend] - [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+- [!UICONTROL Enable for Checkout/Placing Order]
+- [!UICONTROL Enable for Wishlist Sharing]
+- [!UICONTROL Enable for Coupon Codes]
+- [!UICONTROL Enable for PayPal PayflowPro payment form] - [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
