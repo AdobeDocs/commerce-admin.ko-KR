@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Shipping Settings]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Origin]**&#x200B;를 확장하고 다음을 완료합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Origin]**&#x200B;를 확장하고 다음을 완료합니다.
 
    - [!UICONTROL Country]
    - [!UICONTROL Region / State]
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Shipping Settings]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Shipping Policy Parameters]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Shipping Policy Parameters]**&#x200B;를 확장합니다.
 
 1. **[!UICONTROL Apply Custom Shipping Policy]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Multishipping Settings]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Options]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Options]**&#x200B;를 확장합니다.
 
    ![여러 주소 배달 옵션](../configuration-reference/sales/assets/multishipping-settings-options.png){width="600" zoomable="yes"}
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Shipping Settings]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Shipment Tracking URLs]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Shipment Tracking URLs]**&#x200B;를 확장합니다.
 
 1. **[!UICONTROL Enable Custom Tracking URLs]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 

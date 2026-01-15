@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. 제품을 편집 모드로 엽니다.
 
-1. _[!UICONTROL Price]_필드 아래에서&#x200B;**[!UICONTROL Advanced Pricing]**을(를) 클릭합니다.
+1. _[!UICONTROL Price]_&#x200B;필드 아래에서&#x200B;**[!UICONTROL Advanced Pricing]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Tier Price]_섹션에서&#x200B;**[!UICONTROL Add]**을(를) 클릭합니다.
+1. _[!UICONTROL Tier Price]_&#x200B;섹션에서&#x200B;**[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
    여러 가격의 계층을 만드는 경우 각 추가 수준에 대해 **[!UICONTROL Add]**&#x200B;을(를) 클릭하면 모든 계층을 동시에 작업할 수 있습니다. 그룹의 각 계층에는 동일한 웹 사이트 및 고객 그룹 또는 공유 카탈로그 할당이 있지만 수량 및 가격은 다릅니다.
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >할인된 가격을 받으려면 _[!UICONTROL Price]_필드가 아닌_[!UICONTROL Special Price]_ 필드에 정의된 값에 대해 정의된 백분율이 계산됩니다.
+     >할인된 가격을 받으려면 _[!UICONTROL Price]_&#x200B;필드가 아닌&#x200B;_[!UICONTROL Special Price]_ 필드에 정의된 값에 대해 정의된 백분율이 계산됩니다.
 
      ![계층 가격(백분율)](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 

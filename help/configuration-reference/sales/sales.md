@@ -131,7 +131,7 @@ ht-degree: 1%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | 글로벌 | 계층 가격 수량이 [(으)로 설정된 경우 카탈로그 가격 규칙에 대해 ](../../catalog/product-price-tier.md)계층 가격 설정`1`을 사용합니다.  옵션: `Yes` / `No` |
+| [!UICONTROL Apply Catalog Price Rule on Grouped Price] | 글로벌 | 계층 가격 수량이 [(으)로 설정된 경우 카탈로그 가격 규칙에 대해 &#x200B;](../../catalog/product-price-tier.md)계층 가격 설정`1`을 사용합니다.  옵션: `Yes` / `No` |
 
 ## [!UICONTROL Gift Options]
 

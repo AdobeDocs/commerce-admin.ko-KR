@@ -56,7 +56,7 @@ Adobe Commerce as a Cloud Service 스토어프론트에 대해 Google reCAPTCHA 
 
 ## 2단계: Storefront용 Google reCAPTCHA 구성
 
-1. _[!UICONTROL Security]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**을(를) 선택합니다.
+1. _[!UICONTROL Security]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**&#x200B;을(를) 선택합니다.
 
 1. 다음과 같이 **[!UICONTROL reCAPTCHA Enterprise]** 섹션을 완료합니다.
 
