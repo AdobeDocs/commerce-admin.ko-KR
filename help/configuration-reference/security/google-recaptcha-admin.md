@@ -3,7 +3,7 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel]'
 description: Commerce 관리자의 [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] 페이지에서 구성 설정을 검토하십시오.
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
 workflow-type: tm+mt
 source-wordcount: '559'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Google reCAPTCHA를 구성하려면 `PHP.ini` 파일에 다음 설정이 포함되어 있는지 확인해야 합니다. `allow_url_fopen = 1`. 이 경우 개발자 지원이 필요할 수 있습니다. [설치 안내서](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html)의 _필수 PHP 설정_&#x200B;을 참조하세요.
+>Google reCAPTCHA를 구성하려면 `PHP.ini` 파일에 다음 설정이 포함되어 있는지 확인해야 합니다. `allow_url_fopen = 1`. 이 경우 개발자 지원이 필요할 수 있습니다. [설치 안내서](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=ko)의 _필수 PHP 설정_&#x200B;을 참조하세요.
 
 {{config}}
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--|--|--|
-| [!UICONTROL Enable for Login] | 글로벌 | [관리자 로그인](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html)에 사용할 수 있는 reCAPTCHA의 유형을 결정합니다. 옵션:<br/>**`No`**- (기본값) 관리자 로그인의 유효성을 검사하지 않습니다.<br />**`reCAPTCHA v2 ("I am not a robot")`** - 사용자가 _로봇이 아닙니다_ 확인란을 선택해야 합니다.<br />**`Invisible reCAPTCHA v2`**- 점수를 기반으로 상호 작용하지 않고 백그라운드에서 사용자 동작을 확인합니다.<br/>**`Invisible reCAPTCHA v3`** - (권장) 상호 작용 점수를 기반으로 백그라운드에서 사용자 동작을 확인합니다. |
-| [!UICONTROL Enable for Forgot Password] | 글로벌 | [관리자 암호 재설정](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password)을 요청할 수 있는 reCAPTCHA의 유형을 결정합니다. 옵션:<br/>**`No`**- (기본값) 암호 재설정 요청의 유효성을 검사하지 않습니다.<br />**`reCAPTCHA v2 ("I am not a robot")`** - 사용자가 _로봇이 아닙니다_ 확인란을 선택해야 합니다.<br />**`Invisible reCAPTCHA v2`**- 점수를 기반으로 상호 작용하지 않고 백그라운드에서 사용자 동작을 확인합니다.<br/>**`Invisible reCaptcha v3`** - (권장) 상호 작용 점수를 기반으로 백그라운드에서 사용자 동작을 확인합니다. |
+| [!UICONTROL Enable for Login] | 글로벌 | [관리자 로그인](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=ko)에 사용할 수 있는 reCAPTCHA의 유형을 결정합니다. 옵션:<br/>**`No`**- (기본값) 관리자 로그인의 유효성을 검사하지 않습니다.<br />**`reCAPTCHA v2 ("I am not a robot")`** - 사용자가 _로봇이 아닙니다_ 확인란을 선택해야 합니다.<br />**`Invisible reCAPTCHA v2`**- 점수를 기반으로 상호 작용하지 않고 백그라운드에서 사용자 동작을 확인합니다.<br/>**`Invisible reCAPTCHA v3`** - (권장) 상호 작용 점수를 기반으로 백그라운드에서 사용자 동작을 확인합니다. |
+| [!UICONTROL Enable for Forgot Password] | 글로벌 | [관리자 암호 재설정](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=ko#reset-your-password)을 요청할 수 있는 reCAPTCHA의 유형을 결정합니다. 옵션:<br/>**`No`**- (기본값) 암호 재설정 요청의 유효성을 검사하지 않습니다.<br />**`reCAPTCHA v2 ("I am not a robot")`** - 사용자가 _로봇이 아닙니다_ 확인란을 선택해야 합니다.<br />**`Invisible reCAPTCHA v2`**- 점수를 기반으로 상호 작용하지 않고 백그라운드에서 사용자 동작을 확인합니다.<br/>**`Invisible reCaptcha v3`** - (권장) 상호 작용 점수를 기반으로 백그라운드에서 사용자 동작을 확인합니다. |
 
 {style="table-layout:auto"}
