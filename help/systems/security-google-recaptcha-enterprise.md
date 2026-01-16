@@ -3,14 +3,17 @@ title: Google reCAPTCHA 엔터프라이즈
 description: 봇 및 사기 행위로부터 Adobe Commerce as a Cloud Service 매장을 보호하기 위해 Google reCAPTCHA Enterprise를 구성하는 방법을 알아봅니다.
 role: Admin
 feature: Configuration, Security
-source-git-commit: 5181e6dcbffdca87dd6c376c36f7c9d0a3fbc015
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: dde1d634a1c6c7435668a8ad6084b926cc0d6193
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
 
 # Google reCAPTCHA 엔터프라이즈
+
+[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 예정된 변경 사항이 프로덕션에 롤아웃되기 전에 테스트할 수 있도록 먼저 샌드박스에 대한 업데이트를 릴리스합니다."}
 
 [Google reCAPTCHA Enterprise](https://cloud.google.com/security/products/recaptcha#protect-against-fraud-and-abuse-with-modern-bot-protection-and-fraud-prevention-platform)는 사람 사용자와 보트를 구별하기 위해 적응형 위험 분석 및 머신 러닝을 사용하여 Adobe Commerce as a Cloud Service 상점 앞에 고급 봇 보호를 제공합니다. 이를 통해 사이트에서 사기성 활동, 스팸 및 남용을 방지할 수 있습니다.
 
@@ -56,7 +59,7 @@ Adobe Commerce as a Cloud Service 스토어프론트에 대해 Google reCAPTCHA 
 
 ## 2단계: Storefront용 Google reCAPTCHA 구성
 
-1. _[!UICONTROL Security]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL Security]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**을(를) 선택합니다.
 
 1. 다음과 같이 **[!UICONTROL reCAPTCHA Enterprise]** 섹션을 완료합니다.
 
@@ -66,7 +69,7 @@ Adobe Commerce as a Cloud Service 스토어프론트에 대해 Google reCAPTCHA 
 
    - **[!UICONTROL Service Account JSON]**&#x200B;의 경우 [1단계: Google reCAPTCHA Enterprise 설정](#step-1-set-up-google-recaptcha-enterprise)에서 다운로드한 서비스 계정 JSON 키 파일의 내용을 복사합니다.
 
-   - **[!UICONTROL Minimum Score Threshold]**&#x200B;의 경우 사용자 상호 작용이 잠재적 위험으로 플래그가 지정된 시기를 식별하는 최소 점수(0.0-1.0)를 입력하십시오. 여기서 1.0은 일반적인 사용자 상호 작용이고 0.0은 봇일 수 있습니다.
+   - **[!UICONTROL Minimum Score Threshold]**&#x200B;에 사용자 인터랙션에 잠재적 위험이 있는 것으로 플래그가 지정된 경우를 식별하려면 최소 점수(0.0-1.0)를 입력하십시오. 점수 1.0은 일반적인 사용자 상호 작용이며 0.0은 봇일 가능성이 높습니다.
 
    - **[!UICONTROL Badge Position]**&#x200B;의 경우 각 페이지에서 보이지 않는 reCAPTCHA 배지의 위치를 선택하십시오. 옵션: `Inline` / `Bottom Right` / `Bottom Left`.
 
@@ -74,7 +77,7 @@ Adobe Commerce as a Cloud Service 스토어프론트에 대해 Google reCAPTCHA 
 
    - **[!UICONTROL Language Code]**&#x200B;의 경우 Google reCAPTCHA 텍스트 및 메시징에 사용되는 언어를 지정하는 [2자 코드](https://developers.google.com/recaptcha/docs/language)를 입력하십시오.
 
-   - **[!UICONTROL Validation Failure Message]**&#x200B;의 경우, 유효성 검사가 실패하면 선택적으로 상점 앞에 표시되는 메시지를 변경합니다.
+   - **[!UICONTROL Validation Failure Message]**&#x200B;의 경우, 유효성 검사가 성공하지 못할 때 선택적으로 상점 앞에 표시되는 메시지를 변경합니다.
 
 
 1. **[!UICONTROL Storefront]** 섹션을 확장하고 보호할 각 상점 양식을 **[!UICONTROL reCAPTCHA Enterprise]**(으)로 설정합니다.
