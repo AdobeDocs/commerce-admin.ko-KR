@@ -36,4 +36,4 @@ ht-degree: 0%
 
 ## Adobe AI에서 제공하는 제품 추천
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) [Adobe AI에서 제공하는 제품 권장 사항](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)은(는) 집계된 방문자 데이터를 심층 분석하는 인공 지능 및 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 간소화합니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) [Adobe AI에서 제공하는 제품 권장 사항](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=ko)은(는) 집계된 방문자 데이터를 심층 분석하는 인공 지능 및 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 간소화합니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
