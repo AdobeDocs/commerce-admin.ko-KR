@@ -3,7 +3,7 @@ title: 제품 설정 - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 description: 제품의 경우 [!UICONTROL Related Products, Up-Sells, and Cross-Sells] 설정은 제품 페이지에서 추가 제품 선택을 강조 표시하는 간단한 프로모션 블록을 정의합니다.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 36c91007d21834b49351c8b53c617e442deebaa0
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 제품 설정 - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-_[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;섹션을 사용하여 고객이 관심을 가질 수 있는 추가 제품을 제공하는 간단한 홍보용 블록을 설정합니다. 자세한 내용은 [제품 관계](../merchandising-promotions/product-relationships.md)를 참조하세요.
+_[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_섹션을 사용하여 고객이 관심을 가질 수 있는 추가 제품을 제공하는 간단한 홍보용 블록을 설정합니다. 자세한 내용은 [제품 관계](../merchandising-promotions/product-relationships.md)를 참조하세요.
 
 ![관련 제품, 상향 판매 및 교차 판매](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
@@ -33,9 +33,9 @@ _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;섹션을 사�
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **Adobe Sensei에서 제공하는 제품 권장 사항**&#x200B;을 사용하면 집계된 방문자 데이터를 심층 분석할 수 있는 인공 지능 및 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 단순화할 수 있습니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
+>![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **Adobe AI에서 제공하는 제품 권장 사항**을 사용하면 집계된 방문자 데이터를 심층 분석할 수 있는 인공 지능과 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 단순화할 수 있습니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
 ><br/>
->수동으로 구성한 제품 권장 사항 및 상향 판매에 대한 대안으로 이 Adobe 개발 확장을 사용하는 방법에 대한 자세한 내용은 _[제품 권장 사항 안내서](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=ko)_&#x200B;를 참조하십시오.
+>수동으로 구성한 제품 권장 사항 및 상향 판매에 대한 대안으로 이 Adobe 개발 확장을 사용하는 방법에 대한 자세한 내용은 _[제품 권장 사항 안내서](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_&#x200B;를 참조하십시오.
 
 ## 관련 제품
 
@@ -47,7 +47,7 @@ _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;섹션을 사�
 
 1. 제품을 편집 모드로 엽니다.
 
-1. 아래로 스크롤하여 **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. 아래로 스크롤하여 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**&#x200B;를 확장합니다.
 
 1. **[!UICONTROL Add Related Products]**&#x200B;을(를) 클릭합니다.
 
@@ -69,7 +69,7 @@ _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;섹션을 사�
 
 1. 제품을 편집 모드로 엽니다.
 
-1. 아래로 스크롤하여 **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. 아래로 스크롤하여 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**&#x200B;를 확장합니다.
 
 1. **[!UICONTROL Add Up-Sell Products]**&#x200B;을(를) 클릭합니다.
 
@@ -95,11 +95,11 @@ _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;섹션을 사�
 
 ![장바구니에서 교차 판매](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 
-**_크로스셀 제품을 선택하려면:_**
+**_교차 판매 제품 선택:_**
 
 1. 제품을 편집 모드로 엽니다.
 
-1. 아래로 스크롤하여 **[!UICONTROL Related Products, Up-Sells, and Cross-Sells]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. 아래로 스크롤하여 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Related Products, Up-Sells, and Cross-Sells]**&#x200B;를 확장합니다.
 
 1. **[!UICONTROL Add Cross-Sell Products]**&#x200B;을(를) 클릭합니다.
 
