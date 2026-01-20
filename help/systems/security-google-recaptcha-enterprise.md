@@ -3,17 +3,15 @@ title: Google reCAPTCHA 엔터프라이즈
 description: 봇 및 사기 행위로부터 Adobe Commerce as a Cloud Service 매장을 보호하기 위해 Google reCAPTCHA Enterprise를 구성하는 방법을 알아봅니다.
 role: Admin
 feature: Configuration, Security
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: dde1d634a1c6c7435668a8ad6084b926cc0d6193
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
 
 # Google reCAPTCHA 엔터프라이즈
-
-[!BADGE 샌드박스]{type=Caution tooltip="나열된 항목은 현재 샌드박스 환경에서만 사용할 수 있습니다. Adobe은 예정된 변경 사항이 프로덕션에 롤아웃되기 전에 테스트할 수 있도록 먼저 샌드박스에 대한 업데이트를 릴리스합니다."}
 
 [Google reCAPTCHA Enterprise](https://cloud.google.com/security/products/recaptcha#protect-against-fraud-and-abuse-with-modern-bot-protection-and-fraud-prevention-platform)는 사람 사용자와 보트를 구별하기 위해 적응형 위험 분석 및 머신 러닝을 사용하여 Adobe Commerce as a Cloud Service 상점 앞에 고급 봇 보호를 제공합니다. 이를 통해 사이트에서 사기성 활동, 스팸 및 남용을 방지할 수 있습니다.
 
@@ -59,7 +57,7 @@ Adobe Commerce as a Cloud Service 스토어프론트에 대해 Google reCAPTCHA 
 
 ## 2단계: Storefront용 Google reCAPTCHA 구성
 
-1. _[!UICONTROL Security]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL Security]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**을(를) 선택합니다.
 
 1. 다음과 같이 **[!UICONTROL reCAPTCHA Enterprise]** 섹션을 완료합니다.
 
