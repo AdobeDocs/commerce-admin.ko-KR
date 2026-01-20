@@ -44,7 +44,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Shipment Tracking URLs]
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 ![전달 정책 매개 변수](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
 

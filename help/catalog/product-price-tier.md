@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## 카탈로그 가격 규칙에 대한 계층 가격 책정 활성화
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 이전 버전의 Commerce에서는 계층 가격을 카탈로그 가격 규칙과 함께 사용할 수 없었습니다. 카탈로그 규칙은 계층 가격 구성을 무시하고 원래 기본 가격에서 할인만 계산했습니다. 이제 Adobe Commerce as a Cloud Service을 사용하여 카탈로그 가격 규칙 계산에 계층 가격을 포함하도록 선택할 수 있습니다.
 

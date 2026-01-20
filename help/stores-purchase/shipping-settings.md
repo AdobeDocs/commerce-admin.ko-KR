@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ## 이메일 발송 추적 URL
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 기본적으로 쇼핑객 이메일에 전송된 배송 추적 번호는 일반 텍스트입니다. 사용자 지정 추적 URL 기능을 활성화하여 이러한 추적 번호를 클릭 가능한 링크로 변환할 수 있습니다. 이 기능을 사용하면 다양한 운송회사의 URL을 추적할 템플릿을 정의할 수 있습니다. 각 템플릿에는 추적 웹 사이트에 대한 전체 URL과 추적 번호에 대한 자리 표시자가 포함됩니다. Commerce은 자리 표시자를 이메일의 실제 추적 번호로 바꿉니다.
 
