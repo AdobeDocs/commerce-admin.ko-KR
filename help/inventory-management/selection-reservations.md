@@ -3,7 +3,7 @@ title: Source 알고리즘 및 예약
 description: 판매 가능 수량을 업데이트하기 위해 백그라운드에서 실행되는 Source 선택 알고리즘 및 예약 시스템에 대해 알아봅니다.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2196'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->프로그래밍 방식으로 [&#x200B; 시스템을 사용하는 방법에 대한 자세한 내용은 &#x200B;](https://developer.adobe.com/commerce/php/development/framework/inventory-management/)개발자 설명서[!DNL Inventory Management]를 참조하세요.
+>프로그래밍 방식으로 [ 시스템을 사용하는 방법에 대한 자세한 내용은 ](https://developer.adobe.com/commerce/php/development/framework/inventory-management/)개발자 설명서[!DNL Inventory Management]를 참조하세요.
 
 ## Source 선택 알고리즘
 
@@ -66,7 +66,7 @@ SSA는 타사 지원 및 비용 효율적인 배송 추천을 위한 맞춤형 �
 
 운송 이행에 가장 가까운 출처를 찾기 위한 거리 및 시간을 계산하는 두 가지 옵션이 있습니다.
 
-- **Google 맵** - [Google 맵 플랫폼][1] 서비스를 사용하여 배송 대상 주소와 원본 위치(주소 및 GPS 좌표) 간의 거리 및 시간을 계산합니다. 이 옵션은 소스의 위도와 경도를 사용합니다. [Geocoding API][2] 및 [Distance Matrix API][3]를 사용하려면 Google API 키가 필요합니다. 이 옵션을 사용하려면 Google 결제 플랜이 필요하며 Google을 통해 요금이 발생할 수 있습니다.
+- **Google 맵** - [Google 맵 플랫폼](https://cloud.google.com/maps-platform/) 서비스를 사용하여 배송 대상 주소와 원본 위치(주소 및 GPS 좌표) 간의 거리 및 시간을 계산합니다. 이 옵션은 소스의 위도와 경도를 사용합니다. [Geocoding API](https://developers.google.com/maps/documentation/geocoding/start) 및 [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start)를 사용하려면 Google API 키가 필요합니다. 이 옵션을 사용하려면 Google 결제 플랜이 필요하며 Google을 통해 요금이 발생할 수 있습니다.
 
 - **오프라인 계산** - 다운로드하고 가져온 지오코드 데이터를 사용하여 거리를 계산하여 배송 대상 주소와 가장 가까운 원본을 확인합니다. 이 옵션은 배송 주소 및 출처의 국가 코드를 사용합니다. 이 옵션을 구성하려면 명령줄을 사용하여 지오코드를 처음 다운로드하고 가져오려면 개발자 지원이 필요할 수 있습니다.
 
@@ -82,7 +82,7 @@ SSA는 타사 지원 및 비용 효율적인 배송 추천을 위한 맞춤형 �
 
 >[!NOTE]
 >
->[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 예약 기능을 사용하려면 `inventory.reservations.updateSalabilityStatus` 메시지 큐 소비자가 계속 실행해야 합니다. 실행 중인지 확인하려면 `bin/magento queue:consumers:list` 명령을 사용합니다. 메시지 큐 소비자가 나열되지 않은 경우 `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`을(를) 시작합니다.
+>[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 예약 기능을 사용하려면 `inventory.reservations.updateSalabilityStatus` 메시지 큐 소비자가 계속 실행해야 합니다. 실행 중인지 확인하려면 `bin/magento queue:consumers:list` 명령을 사용합니다. 메시지 큐 소비자가 나열되지 않은 경우 `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`을(를) 시작합니다.
 
 ### 예약 주문
 
@@ -188,7 +188,7 @@ SSA는 타사 지원 및 비용 효율적인 배송 추천을 위한 맞춤형 �
 
 `inventory_cleanup_reservations` cron 작업이 SQL 쿼리를 실행하여 예약 데이터베이스 테이블을 지웁니다. 기본적으로 매일 자정에 실행되지만, 시간과 빈도를 구성할 수 있습니다. cron 작업은 수량 값의 합계가 0인 전체 예약 시퀀스를 찾기 위해 데이터베이스를 쿼리하는 스크립트를 실행합니다. 같은 날(또는 기타 구성된 시간)에 시작된 특정 제품의 모든 예약이 보상되면 cron job은 예약을 한 번에 모두 삭제합니다.
 
-`inventory_reservations_cleanup` cron 작업이 `inventory.reservations.cleanup` 메시지 큐 소비자와 다릅니다. 소비자는 제품이 제거된 후 제품 SKU별로 예약을 비동기적으로 삭제하는 반면, cron 작업은 전체 예약 테이블을 지웁니다. 스토어 구성에서 [**카탈로그와 동기화**](../configuration-reference/catalog/inventory.md) 스톡 옵션을 사용하도록 설정하는 경우 소비자가 필요합니다. [구성 가이드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ko)에서 _메시지 큐 관리_&#x200B;를 참조하십시오.
+`inventory_reservations_cleanup` cron 작업이 `inventory.reservations.cleanup` 메시지 큐 소비자와 다릅니다. 소비자는 제품이 제거된 후 제품 SKU별로 예약을 비동기적으로 삭제하는 반면, cron 작업은 전체 예약 테이블을 지웁니다. 스토어 구성에서 [**카탈로그와 동기화**](../configuration-reference/catalog/inventory.md) 스톡 옵션을 사용하도록 설정하는 경우 소비자가 필요합니다. [구성 가이드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)에서 _메시지 큐 관리_&#x200B;를 참조하십시오.
 
 단 하루 만에 생성된 모든 최초 예약은 당일 보상이 되지 않는 경우가 많다. 이런 상황은 고객이 크론 작업이 시작되기 직전에 주문을 넣거나 은행 송금 등 오프라인 결제수단으로 구매하는 경우 발생할 수 있다. 보상된 예약 시퀀스들은 그것들이 모두 보상될 때까지 데이터베이스에 남아있다. 이 방법은 각 예약의 합계가 0이기 때문에 예약 계산에 방해가 되지 않습니다.
 
@@ -220,8 +220,5 @@ SSA는 타사 지원 및 비용 효율적인 배송 추천을 위한 맞춤형 �
 
 {{$include /help/_includes/unassign-source.md}}
 
-[1]: https://cloud.google.com/maps-platform/
-[2]: https://developers.google.com/maps/documentation/geocoding/start
-[3]: https://developers.google.com/maps/documentation/distance-matrix/start
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->

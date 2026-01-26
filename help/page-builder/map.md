@@ -3,18 +3,18 @@ title: 미디어 - 맵
 description: ' [!DNL Google Maps] Platform에서  [!DNL Page Builder] Stage로 맵을 추가하는 데 사용되는 맵 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
 
 # 미디어 - 맵
 
-_맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [[!DNL Page Builder] 단계](workspace.md#stage)로의 맵을 추가하십시오. 예를 들어, 블록에 맵을 추가한 다음 [정보](../content-design/pages.md#about-us) 및 [연락처](../getting-started/store-details.md#contact-us-form) 페이지에 블록을 추가할 수 있습니다.
+_맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼](https://cloud.google.com/maps-platform/)에서 [[!DNL Page Builder] 단계](workspace.md#stage)로의 맵을 추가하십시오. 예를 들어, 블록에 맵을 추가한 다음 [정보](../content-design/pages.md#about-us) 및 [연락처](../getting-started/store-details.md#contact-us-form) 페이지에 블록을 추가할 수 있습니다.
 
-[!DNL Google Maps] 플랫폼을 최대한 활용하려면 맵을 사용자 지정하고, 스토어 위치를 강조 표시하고, Google [위치][2]를 사용하여 스토어에 대한 풍부한 정보를 모든 [!DNL Google Maps]에 추가할 수 있습니다.
+[!DNL Google Maps] 플랫폼을 최대한 활용하려면 맵을 사용자 지정하고, 스토어 위치를 강조 표시하고, Google [위치](https://cloud.google.com/maps-platform/places/)를 사용하여 스토어에 대한 풍부한 정보를 모든 [!DNL Google Maps]에 추가할 수 있습니다.
 
 ## Google 맵 포함의 이점
 
@@ -50,7 +50,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
 ## 책임자에 대해 [!DNL Google Maps] 구성
 
-맵을 추가하기 전에 먼저 [ 플랫폼의 무료 평가판을 위해 ][3]계정[!DNL Google Maps]을(를) 열어야 합니다. 무료 체험은 12개월 동안 지속되며 300달러의 크레딧이 포함됩니다. 크레딧을 소진하면 Google에서 귀하의 허가 없이 귀하의 계정에 청구하지 않습니다.
+맵을 추가하기 전에 먼저 [ 플랫폼의 무료 평가판을 위해 ](https://cloud.google.com/maps-platform/user-guide/)계정[!DNL Google Maps]을(를) 열어야 합니다. 무료 체험은 12개월 동안 지속되며 300달러의 크레딧이 포함됩니다. 크레딧을 소진하면 Google에서 귀하의 허가 없이 귀하의 계정에 청구하지 않습니다.
 
 ### 1단계: [!DNL Google Maps] API 키 가져오기
 
@@ -60,7 +60,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
 1. 프로젝트 드롭다운을 클릭하고 API 키를 추가할 프로젝트를 선택하거나 만듭니다.
 
-1. API 자격 증명을 구성하려면 [ 설명서의 ][4]지침[!DNL Google Maps]을(를) 따르십시오.
+1. API 자격 증명을 구성하려면 [ 설명서의 ](https://developers.google.com/maps/documentation/javascript/get-api-key)지침[!DNL Google Maps]을(를) 따르십시오.
 
 1. API 키를 클립보드에 복사합니다.
 
@@ -68,7 +68,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을 확장합니다.
 
@@ -104,7 +104,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
 1. 맵 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
-1. _[!UICONTROL Edit Map]_&#x200B;페이지의 오른쪽 상단 모서리에서&#x200B;**[!UICONTROL Add Location]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Edit Map]_페이지의 오른쪽 상단 모서리에서&#x200B;**[!UICONTROL Add Location]**을(를) 클릭합니다.
 
 1. 지도에서 PIN과 연결할 **[!UICONTROL Location Name]**&#x200B;을(를) 입력하십시오.
 
@@ -112,7 +112,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
    또는 **[!UICONTROL Position]** 상자에서 표시된 맵의 핀을 끌 수 있습니다.
 
-   필요한 경우 새 브라우저 창에서 [[!DNL Google Maps]][5]&#x200B;(으)로 이동하여 다음 방법 중 하나를 사용하여 좌표를 가져옵니다.
+   필요한 경우 새 브라우저 창에서 [[!DNL Google Maps]](https://www.google.com/maps)&#x200B;(으)로 이동하여 다음 방법 중 하나를 사용하여 좌표를 가져옵니다.
 
    ![좌표 매핑](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
 
@@ -148,7 +148,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   새 위치는 맵과 _[!UICONTROL Edit Map]_&#x200B;페이지의 맵 위치 그리드에 나타납니다.
+   새 위치는 맵과 _[!UICONTROL Edit Map]_페이지의 맵 위치 그리드에 나타납니다.
 
    ![[!DNL Page Builder] - 위치 그리드 매핑](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
@@ -160,13 +160,13 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을 확장합니다.
 
-1. **[!UICONTROL Google Maps Style]** 텍스트 상자에서 [맵 스타일 만들기][6]를 클릭합니다.
+1. **[!UICONTROL Google Maps Style]** 텍스트 상자에서 [맵 스타일 만들기](https://mapstyle.withgoogle.com/)를 클릭합니다.
 
-   이 작업은 별도의 탭에서 [[!DNL Google Maps] 플랫폼 스타일 지정 마법사][6]를 엽니다. 이 탭에서 [!DNL Google Maps] 플랫폼 프로젝트의 스타일을 정의할 수 있습니다.
+   이 작업은 별도의 탭에서 [[!DNL Google Maps] 플랫폼 스타일 지정 마법사](https://mapstyle.withgoogle.com/)를 엽니다. 이 탭에서 [!DNL Google Maps] 플랫폼 프로젝트의 스타일을 정의할 수 있습니다.
 
 1. **[!UICONTROL Create a Style]**&#x200B;을(를) 클릭하고 제공된 지침을 따릅니다.
 
@@ -197,7 +197,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
    {style="table-layout:auto"}
 
-1. 필요에 따라 _[!UICONTROL Advanced]_&#x200B;설정을 수정합니다.
+1. 필요에 따라 _[!UICONTROL Advanced]_설정을 수정합니다.
 
    - 컨테이너에 추가된 맵 콘텐츠의 가로 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택합니다.
 
@@ -262,11 +262,11 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
 ### 격자 크기 변경
 
-눈금 크기는 [&#x200B; 단계의 &#x200B;](column.md)열[!DNL Page Builder]과(와) 관련된 맵의 크기를 결정합니다. 기본적으로 맵은 너비가 12열이며 최대 16열입니다.
+눈금 크기는 [ 단계의 ](column.md)열[!DNL Page Builder]과(와) 관련된 맵의 크기를 결정합니다. 기본적으로 맵은 너비가 12열이며 최대 16열입니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을 확장합니다.
 
@@ -284,11 +284,5 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼][1]에서 [
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
-[1]: https://cloud.google.com/maps-platform/
-[2]: https://cloud.google.com/maps-platform/places/
-[3]: https://cloud.google.com/maps-platform/user-guide/
-[4]: https://developers.google.com/maps/documentation/javascript/get-api-key
-[5]: https://www.google.com/maps
-[6]: https://mapstyle.withgoogle.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

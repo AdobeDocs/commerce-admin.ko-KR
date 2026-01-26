@@ -3,7 +3,7 @@ title: 인벤토리 소스 추가
 description: 창고, 오프라인 매장, 물류 센터 또는 직송업체와 같은 위치에 대한 소스를 만드는 방법에 대해 알아봅니다.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    ![소스 관리](assets/inventory-sources.png)
 
-1. **[!UICONTROL General]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL General]**&#x200B;를 확장하고 다음을 수행합니다.
 
    - 인벤토리 원본을 식별하려면 고유한 **[!UICONTROL Name]**&#x200B;을(를) 입력하십시오.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Latitude]** 및 **[!UICONTROL Longitude]**&#x200B;의 경우 협업공간 위치의 GPS(Global Positioning System) 좌표를 입력하십시오.
 
-     [Google 지도][1]를 사용하여 GPS 좌표를 찾으려면 검색 상자에 주소를 입력하십시오. 맵에서 마커를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL What's here?]**&#x200B;을(를) 선택합니다. GPS 좌표는 거리 주소 아래의 세부 정보 상자에 나타납니다.
+     [Google 지도](https://www.google.com/maps)를 사용하여 GPS 좌표를 찾으려면 검색 상자에 주소를 입력하십시오. 맵에서 마커를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL What's here?]**&#x200B;을(를) 선택합니다. GPS 좌표는 거리 주소 아래의 세부 정보 상자에 나타납니다.
 
      ![일반 소스 옵션](assets/inventory-source-general.png)
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
      기본 Source은 매장 픽업 주문의 픽업 위치로 사용할 수 없습니다.
 
-1. **[!UICONTROL Contact Info]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Contact Info]**&#x200B;를 확장하고 다음을 수행합니다.
 
    - **[!UICONTROL Contact Name]**&#x200B;의 경우 해당 위치에 기본 연락처의 전체 이름을 입력하십시오.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
      ![연락처 정보](assets/inventory-source-contact-info.png)
 
-1. **[!UICONTROL Address Data]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Address Data]**&#x200B;를 확장하고 다음을 수행합니다.
 
    - **[!UICONTROL Country]** 선택.
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
      ![주소 데이터](assets/inventory-source-address.png)
 
-1. 이전 단계에서 원본을 픽업 위치로 설정한 경우 **[!UICONTROL Pickup Location]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 위치에 대한 자세한 정보를 제공합니다.
+1. 이전 단계에서 원본을 픽업 위치로 설정한 경우 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Pickup Location]**&#x200B;를 확장하고 위치에 대한 자세한 정보를 제공합니다.
 
    - 픽업 위치의 **[!UICONTROL Frontend Name]**&#x200B;을(를) 입력하십시오.
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
      ![픽업 위치](assets/inventory-pickup-location.png)
 
-   소스를 픽업 위치로 사용할 때 전자 메일 알림을 구성하는 방법에 대한 자세한 내용은 _구성 참조 안내서_&#x200B;의 [판매 전자 메일](../configuration-reference/sales/sales-emails.md)을(를) 참조하십시오.
+   소스를 픽업 위치로 사용할 때 전자 메일 알림을 구성하는 방법에 대한 자세한 내용은 [구성 참조 안내서](../configuration-reference/sales/sales-emails.md)의 _판매 전자 메일_&#x200B;을(를) 참조하십시오.
 
 1. 작업을 저장하려면 다음 중 하나를 수행합니다.
 
@@ -123,5 +123,3 @@ ht-degree: 0%
 | **[!UICONTROL Pickup Location]** | |
 | [!UICONTROL Frontend Name] | 상점 앞에 표시되는 소스의 픽업 위치 이름. |
 | [!UICONTROL Frontend Description] | 상점 앞에 표시되는 소스의 픽업 위치에 대한 설명. 첨부된 이미지를 포함할 수 있습니다. |
-
-[1]: https://www.google.com/maps

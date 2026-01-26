@@ -3,9 +3,9 @@ title: '[!DNL Google Analytics]'
 description: ' [!DNL Google Analytics] 을(를) 사용하여 Commerce 사이트에 유용한 지표를 수집하는 방법을 알아봅니다.'
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 사이트에 대한 [!DNL Google Analytics] 4 설정이 없는 경우 다음 방법 중 하나를 따르십시오.
 
 - [처음으로 Analytics 데이터 수집 설정](https://support.google.com/analytics/answer/9304153)
-- [Google Analytics 4를  [!DNL Universal Analytics]을(를) 사용하여 사이트에 추가](https://support.google.com/analytics/answer/9744165)
+- [사이트에 Google Analytics 4 추가 [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)
 
 ### 2단계: Commerce 구성 완료
 
@@ -41,9 +41,9 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Google API]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Google GTag]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Google GTag]**&#x200B;를 확장합니다.
 
-1. **[!UICONTROL Google Analytics4]** 하위 섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
+1. ![ 하위 섹션의 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Google Analytics4]**&#x200B;를 확장하고 다음을 수행합니다.
 
    - **[!UICONTROL Enable]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    - 콘텐츠에 대한 A/B 테스트 및 기타 성능 테스트를 수행하려면 **콘텐츠 실험**&#x200B;을 `Yes`(으)로 설정하십시오.
 
-   ![영업 구성 - Google Analytics 4용 Google API](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}
+   ![판매 구성 - Google Analytics 4용 Google API](../configuration-reference/sales/assets/google-api-gtag-google-analytics4.png){width="600" zoomable="yes"}
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->2023년 7월 1일부터 표준 Universal Analytics 속성은 더 이상 데이터를 처리하지 않습니다. [!DNL Universal Analytics]을(를) 계속 사용하는 경우 [Google Analytics 4 사용을 준비](https://support.google.com/analytics/answer/10759417)하는 것이 좋습니다.
+>2023년 7월 1일부터 표준 Universal Analytics 속성은 더 이상 데이터를 처리하지 않습니다. [!DNL Universal Analytics]을(를) 계속 사용하는 경우 앞으로 [Google Analytics 4 사용을 준비](https://support.google.com/analytics/answer/10759417)하는 것이 좋습니다.
 
 ### 1단계: Google Universal Analytics 설정
 
-Google 웹 사이트를 방문하여 [Google Universal Analytics][1] 계정에 등록하십시오.
+Google 웹 사이트를 방문하여 [Google Universal Analytics](https://support.google.com/analytics/answer/2817075?hl=en) 계정에 등록하십시오.
 
 ### 2단계: Commerce 구성 완료
 
@@ -75,7 +75,7 @@ Google 웹 사이트를 방문하여 [Google Universal Analytics][1] 계정에 �
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Google API]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Google Analytics]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Google Analytics]**&#x200B;를 확장하고 다음을 수행합니다.
 
    - **[!UICONTROL Enable]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -89,15 +89,15 @@ Google 웹 사이트를 방문하여 [Google Universal Analytics][1] 계정에 �
 
 ## 향상된 전자 상거래
 
-Enhanced Ecommerce는 고객의 쇼핑 및 구매 행동에 대한 통찰력을 제공하는 [!DNL Google Universal Analytics]용 플러그인입니다. 고객이 장바구니에 품목을 추가하거나, 체크아웃 프로세스를 시작하거나, 구매를 완료하는 경우와 같이 향상된 전자 상거래 기능을 사용하여 주요 고객 활동에 대한 보고서를 생성할 수 있습니다. 구매하지 않고 카트를 버리는 쇼핑객의 패턴을 식별하고 분석할 수도 있습니다.
+향상된 Ecommerce는 고객의 쇼핑 및 구매 행동에 insight을 제공하는 [!DNL Google Universal Analytics]용 플러그인입니다. 고객이 장바구니에 품목을 추가하거나, 체크아웃 프로세스를 시작하거나, 구매를 완료하는 경우와 같이 향상된 전자 상거래 기능을 사용하여 주요 고객 활동에 대한 보고서를 생성할 수 있습니다. 구매하지 않고 카트를 버리는 쇼핑객의 패턴을 식별하고 분석할 수도 있습니다.
 
-다음 지침은 향상된 전자 상거래 데이터 및 보고서를 생성하도록 [!DNL Universal Analytics]을(를) 사용하여 [!DNL Google Tag Manager]을(를) 구성하는 방법을 보여 줍니다.
+다음 지침은 향상된 전자 상거래 데이터 및 보고서를 생성하도록 [!DNL Google Tag Manager]을(를) 사용하여 [!DNL Universal Analytics]을(를) 구성하는 방법을 보여 줍니다.
 
 ### 1단계. Google 계정에 등록
 
 1. [Google 태그 관리자](google-tag-manager.md) 계정에 등록하고 Commerce 구성을 완료하십시오.
 
-1. 새 [Google Universal Analytics][1] 계정에 등록하십시오.
+1. 새 [Google Universal Analytics](https://support.google.com/analytics/answer/2817075?hl=en) 계정에 등록하십시오.
 
 ### 2단계. 향상된 전자 상거래 구성
 
@@ -213,6 +213,3 @@ Enhanced Ecommerce는 고객의 쇼핑 및 구매 행동에 대한 통찰력을 
 1. 완료되면 **[!UICONTROL Preview]**&#x200B;을(를) 클릭하고 태그가 올바르게 작동하는지 확인하십시오.
 
 1. 설정을 확인한 후 **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
-
-
-[1]: https://support.google.com/analytics/answer/2817075?hl=en

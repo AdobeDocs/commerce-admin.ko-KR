@@ -1,9 +1,9 @@
 ---
 title: '[!DNL Commerce]개 업그레이드'
-description: Adobe Commerce 및 Magento Open Source 업그레이드가 카탈로그 및 [!DNL Inventory Management] 구성에 어떻게 영향을 주는지 알아보세요.
+description: Adobe Commerce 및 Magento Open Source 업그레이드가 카탈로그 및 [!DNL Inventory Management] 구성에 어떤 영향을 미치는지 알아보세요.
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
-source-git-commit: 392d8550741fe6fca3ea1301575c9ebb5e2483bd
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -54,9 +54,9 @@ Magento Open Source 2.4.x 또는 Adobe Commerce 2.4.x를 설치할 때 다음과
 
 ## [!DNL Commerce Order Management] 및 [!DNL Inventory Management]
 
-[Commerce Order Management(MCOM)][1]이(가) [!DNL Inventory Management]과(와) 호환되지 않습니다. MCOM 모듈을 설치하면 단일 및 다중 소스 관리, 재고, 예약 등을 포함하여 [!DNL Commerce]에 모든 재고 관리 기능을 제공합니다. [!DNL Inventory Management] 모듈은 기본적으로 비활성화되어 있습니다.
+[Commerce Order Management(MCOM)](https://commerce-docs.github.io/oms-documentation-archive/)이(가) [!DNL Inventory Management]과(와) 호환되지 않습니다. MCOM 모듈을 설치하면 단일 및 다중 소스 관리, 재고, 예약 등을 포함하여 [!DNL Commerce]에 모든 재고 관리 기능을 제공합니다. [!DNL Inventory Management] 모듈은 기본적으로 비활성화되어 있습니다.
 
-MCOM은 고급 옴니채널 주문 관리, 글로벌 인벤토리 및 다중 소싱, 스토어 투 웨어하우스 이행 및 중앙 집중식 고객 서비스를 위한 광범위한 기능과 서비스를 제공합니다. 전체 기능 목록은 [MCOM 기능 목록][2]을 참조하세요.
+MCOM은 고급 옴니채널 주문 관리, 글로벌 인벤토리 및 다중 소싱, 스토어 투 웨어하우스 이행 및 중앙 집중식 고객 서비스를 위한 광범위한 기능과 서비스를 제공합니다. 전체 기능 목록은 [MCOM 기능 목록](https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/)을 참조하세요.
 
 [!DNL Inventory Management]은(는) 처리 중인 주문, 현재고, 재고에 대한 사용 가능한 재고 및 확장 개발에 대한 API를 추적하는 추가 옵션을 사용하여 기존 [!DNL Commerce] 기능을 확장합니다.
 
@@ -71,6 +71,3 @@ MCOM은 고급 옴니채널 주문 관리, 글로벌 인벤토리 및 다중 소
 - 인벤토리 관리에 [!DNL Order Management System]을(를) 사용합니다. 현재 커넥터가 [!DNL Inventory Management] 인터페이스를 지원하지 않습니다. Adobe Commerce 2.4.0으로 업그레이드하는 OMS 판매자의 경우 이러한 모듈을 비활성화해야 합니다.
 
 자세한 내용은 [설치 및 업데이트](install-update.md)를 참조하세요.
-
-[1]: https://commerce-docs.github.io/oms-documentation-archive/
-[2]: https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/

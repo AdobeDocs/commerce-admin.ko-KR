@@ -3,7 +3,7 @@ title: '[!DNL Page Builder] 연습 2부: 블록'
 description: ' [!DNL Page Builder]을(를) 사용할 때 단순 블록과 동적 블록의 차이점을 알아봅니다.'
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![상점 첫 화면의 동적 블록](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
 
-이 연습에서는 필수 구성 요소 및 [다운로드한 샘플 파일](./assets/simple-page-assets.zip)을(를) 포함하여 [파트1: 단순 페이지](1-simple-page.md)를 완료한 것으로 가정합니다. 이 연습 연습의 각 부분을 순서대로 따르십시오.
+이 연습에서는 필수 구성 요소 및 [다운로드한 샘플 파일](1-simple-page.md)을(를) 포함하여 [파트1: 단순 페이지](./assets/simple-page-assets.zip)를 완료한 것으로 가정합니다. 이 연습 연습의 각 부분을 순서대로 따르십시오.
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 1. 스테이지의 오른쪽 위 모서리에서 _전체 화면 닫기_(![전체 화면 닫기 아이콘](./assets/pb-icon-reduce.png)) 아이콘을 클릭합니다.
 
-   이 아이콘을 클릭하면 미리 보기가 표시된 블록의 _[!UICONTROL Content]_&#x200B;섹션으로 돌아갑니다.
+   이 아이콘을 클릭하면 미리 보기가 표시된 블록의 _[!UICONTROL Content]_섹션으로 돌아갑니다.
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
@@ -72,17 +72,17 @@ ht-degree: 0%
 
 스토어에 대해 [!DNL Google Maps]이(가) 이미 구성된 경우 이 단계를 건너뛰고 다음 단계로 진행할 수 있습니다.
 
-1. [Google Cloud Platform Console](https://console.cloud.google.com/google/maps-apis/overview)(으)로 이동합니다.
+1. [Google Cloud Platform Console](https://console.cloud.google.com/google/maps-apis/overview)&#x200B;(으)로 이동합니다.
 
 1. 프로젝트 드롭다운을 클릭하고 API 키를 추가할 프로젝트를 선택하거나 만듭니다.
 
-1. API 자격 증명을 구성하려면 [!DNL Google Maps] 설명서의 [지침][1]을(를) 따르십시오.
+1. API 자격 증명을 구성하려면 [ 설명서의 ](https://developers.google.com/maps/documentation/javascript/get-api-key)지침[!DNL Google Maps]을(를) 따르십시오.
 
 1. API 키를 클립보드에 복사합니다.
 
 1. [!DNL Commerce] 관리자로 돌아가서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을 확장합니다.
 
@@ -102,11 +102,11 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**(으)로 이동합니다.
 
-1. 그리드에서 첫 번째 자습서에서 만든 _[!UICONTROL Simple Page]_&#x200B;을(를) 찾은 다음&#x200B;_[!UICONTROL Action]_ 열에서 **[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
+1. 그리드에서 첫 번째 자습서에서 만든 _[!UICONTROL Simple Page]_을(를) 찾은 다음&#x200B;**[!UICONTROL Edit]**열에서_[!UICONTROL Action]_&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Content]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 **[!UICONTROL Edit with Page Builder]** 또는 콘텐츠 미리 보기 영역 내부를 클릭합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Content]**&#x200B;를 확장하고 **[!UICONTROL Edit with Page Builder]** 또는 콘텐츠 미리 보기 영역 내부를 클릭합니다.
 
-1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Row]**&#x200B;자리 표시자를 스테이지의 맨 위로 드래그합니다.
+1. [!DNL Page Builder] 아래의 _[!UICONTROL Layout]_패널에서&#x200B;**[!UICONTROL Row]**자리 표시자를 스테이지의 맨 위로 드래그합니다.
 
    ![단계 맨 위에 행 추가](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 1. 스테이지의 오른쪽 위 모서리에서 _전체 화면 닫기_(![전체 화면 닫기 아이콘](./assets/pb-icon-reduce.png)) 아이콘을 클릭합니다.
 
-   이 아이콘을 클릭하면 미리보기가 표시된 페이지의 _[!UICONTROL Content]_&#x200B;섹션으로 돌아갑니다.
+   이 아이콘을 클릭하면 미리보기가 표시된 페이지의 _[!UICONTROL Content]_섹션으로 돌아갑니다.
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
@@ -172,17 +172,17 @@ ht-degree: 0%
 
 ### 2단계: 설정 완료
 
-_[!UICONTROL Content]_&#x200B;섹션까지 아래로 스크롤하여 빈 [!DNL Page Builder] 콘텐츠 미리 보기를 표시하고&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;을(를) 클릭합니다. 그런 다음 다음 다음 작업을 완료하십시오.
+_[!UICONTROL Content]_섹션까지 아래로 스크롤하여 빈 [!DNL Page Builder] 콘텐츠 미리 보기를 표시하고&#x200B;**[!UICONTROL Edit with Page Builder]**을(를) 클릭합니다. 그런 다음 다음 다음 작업을 완료하십시오.
 
 **작업 1:** 배경 이미지 추가
 
 1. 행 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _설정_(![설정 아이콘](./assets/pb-icon-settings.png){width="20"}) 아이콘을 선택합니다.
 
-1. _[!UICONTROL Appearance]_&#x200B;에서&#x200B;**[!UICONTROL Full Bleed]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL Appearance]_에서&#x200B;**[!UICONTROL Full Bleed]**을(를) 선택합니다.
 
 1. **[!UICONTROL Minimum Height]**&#x200B;에 대해 `400px`을(를) 입력하십시오.
 
-1. **[!UICONTROL Select from Gallery]**&#x200B;을(를) 클릭하고 첫 번째 자습서에서 업로드한 `wide-banner-background.png` 이미지를 선택하여 _[!UICONTROL Background]_&#x200B;섹션으로 스크롤하고&#x200B;**[!UICONTROL Background Image]**&#x200B;을(를) 설정합니다.
+1. _[!UICONTROL Background]_을(를) 클릭하고 첫 번째 자습서에서 업로드한&#x200B;**[!UICONTROL Background Image]**이미지를 선택하여&#x200B;**[!UICONTROL Select from Gallery]**섹션으로 스크롤하고 `wide-banner-background.png`을(를) 설정합니다.
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
@@ -190,7 +190,7 @@ _[!UICONTROL Content]_&#x200B;섹션까지 아래로 스크롤하여 빈 [!DNL P
 
 **작업 2:** 열 추가
 
-_[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Column]**&#x200B;자리 표시자를 행으로 드래그합니다.
+[!DNL Page Builder] 아래의 _[!UICONTROL Layout]_패널에서&#x200B;**[!UICONTROL Column]**자리 표시자를 행으로 드래그합니다.
 
 ![열 형식을 행으로 드래그하는 중](./assets/pb-tutorial2-column-drag.png){width="600" zoomable="yes"}
 
@@ -264,7 +264,7 @@ _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;*
 
 1. 스테이지의 오른쪽 위 모서리에서 _전체 화면 닫기_(![전체 화면 닫기 아이콘](./assets/pb-icon-reduce.png)) 아이콘을 클릭합니다.
 
-   이 아이콘을 클릭하면 미리 보기가 표시된 동적 블록의 _[!UICONTROL Content]_&#x200B;섹션으로 돌아갑니다.
+   이 아이콘을 클릭하면 미리 보기가 표시된 동적 블록의 _[!UICONTROL Content]_섹션으로 돌아갑니다.
 
 1. 오른쪽 상단에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -272,7 +272,7 @@ _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;*
 
 1. 편집 모드에서 _티셔츠 프로모션_ 동적 블록을 다시 엽니다.
 
-1. **[!UICONTROL Related Promotions]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 **[!UICONTROL Add Cart Price Rules]**&#x200B;을(를) 클릭합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Related Promotions]**&#x200B;를 확장하고 **[!UICONTROL Add Cart Price Rules]**&#x200B;을(를) 클릭합니다.
 
    ![관련 프로모션](./assets/pb-dynamic-blocks-related-promotions.png){width="600" zoomable="yes"}
 
@@ -290,15 +290,15 @@ _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;*
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**(으)로 이동합니다.
 
-1. [첫 번째 연습 연습 연습](1-simple-page.md)에서 만든 _단순 페이지_&#x200B;를 찾아 편집 모드로 엽니다.
+1. _첫 번째 연습 연습 연습_&#x200B;에서 만든 [단순 페이지](1-simple-page.md)를 찾아 편집 모드로 엽니다.
 
-1. **[!UICONTROL Content]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 **[!UICONTROL Edit with Page Builder]**&#x200B;을(를) 클릭합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Content]**&#x200B;를 확장하고 **[!UICONTROL Edit with Page Builder]**&#x200B;을(를) 클릭합니다.
 
 1. 동적 블록과 같은 이미지를 사용하여 맨 위 행에 마우스를 올려 놓으면 도구 상자와 _제거_(![제거 아이콘](./assets/pb-icon-remove.png){width="20"}) 아이콘이 표시됩니다.
 
    페이지에서 행 제거를 확인하려면 **[!UICONTROL OK]** 을(를) 클릭합니다.
 
-1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서 새&#x200B;**[!UICONTROL Row]**&#x200B;자리 표시자를 스테이지의 맨 위로 드래그합니다.
+1. [!DNL Page Builder] 아래의 _[!UICONTROL Layout]_패널에서 새&#x200B;**[!UICONTROL Row]**자리 표시자를 스테이지의 맨 위로 드래그합니다.
 
 1. [!DNL Page Builder] 패널에서 **[!UICONTROL Add Content]**&#x200B;을(를) 확장하고 **[!UICONTROL Dynamic Block]** 자리 표시자를 새 행으로 드래그합니다.
 
@@ -308,11 +308,11 @@ _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;*
 
    ![동적 블록 도구 상자](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Edit Dynamic Block]_&#x200B;페이지에서&#x200B;**[!UICONTROL Select Dynamic Block]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Edit Dynamic Block]_페이지에서&#x200B;**[!UICONTROL Select Dynamic Block]**을(를) 클릭합니다.
 
    ![동적 블록 선택](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
-1. 만든 _[!DNL Tee Shirt Promo]_&#x200B;동적 블록을 찾아&#x200B;**[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
+1. 만든 _[!DNL Tee Shirt Promo]_동적 블록을 찾아&#x200B;**[!UICONTROL Select]**을(를) 클릭합니다.
 
    동적 블록 정보의 요약이 아래에 나타납니다.
 
@@ -326,7 +326,7 @@ _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;*
 
 1. 스테이지의 오른쪽 위 모서리에서 _전체 화면 닫기_(![전체 화면 닫기 아이콘](./assets/pb-icon-reduce.png)) 아이콘을 클릭합니다.
 
-   이 아이콘을 클릭하면 미리보기가 표시된 페이지의 _[!UICONTROL Content]_&#x200B;섹션으로 돌아갑니다.
+   이 아이콘을 클릭하면 미리보기가 표시된 페이지의 _[!UICONTROL Content]_섹션으로 돌아갑니다.
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
@@ -342,9 +342,9 @@ _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;*
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**(으)로 이동합니다.
 
-1. 그리드에서 _[!DNL Tee Shirt Promo]_&#x200B;동적 블록을 찾아 편집 모드로 엽니다.
+1. 그리드에서 _[!DNL Tee Shirt Promo]_동적 블록을 찾아 편집 모드로 엽니다.
 
-1. **[!UICONTROL Content]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 **[!UICONTROL Edit with Page Builder]**&#x200B;을(를) 클릭합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Content]**&#x200B;를 확장하고 **[!UICONTROL Edit with Page Builder]**&#x200B;을(를) 클릭합니다.
 
 1. 열 너비를 변경합니다.
 
@@ -368,7 +368,7 @@ _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;*
 
 1. 스테이지의 오른쪽 위 모서리에서 _전체 화면 닫기_(![전체 화면 닫기 아이콘](./assets/pb-icon-reduce.png)) 아이콘을 클릭합니다.
 
-   이 아이콘을 클릭하면 미리 보기가 표시된 동적 블록의 _[!UICONTROL Content]_&#x200B;섹션으로 돌아갑니다.
+   이 아이콘을 클릭하면 미리 보기가 표시된 동적 블록의 _[!UICONTROL Content]_섹션으로 돌아갑니다.
 
 1. 오른쪽 상단에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -405,5 +405,3 @@ _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;*
 차단 연습을 완료했습니다. 참고용으로 작업한 것을 잊지 말아라.
 
 준비가 되면 [파트3: 카탈로그 콘텐츠](3-catalog-content.md)로 진행하십시오.
-
-[1]: https://developers.google.com/maps/documentation/javascript/get-api-key

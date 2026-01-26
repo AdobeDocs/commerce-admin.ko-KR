@@ -3,9 +3,9 @@ title: ' [!DNL Commerce] 계정 보안 설정'
 description: 2단계 인증을 사용하여  [!DNL Commerce] 계정을 보호하는 방법을 알아봅니다.
 exl-id: 4847b5cb-a93a-40d0-8c31-c30afa27c0ce
 feature: User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1677'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ TFA를 사용하려면 개인 장치(예: 스마트폰, 태블릿, 컴퓨터)에
 
 ## 이중 인증 활성화
 
-1. [[!DNL Commerce] 계정][1]{:target=&quot;_blank&quot;}에 로그인합니다.
+1. [[!DNL Commerce] 계정](https://account.magento.com/customer/account/login){:target="_blank"}에 로그인합니다.
 
 1. 왼쪽 탐색 창에서 **[!UICONTROL Account Settings]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Two-factor Authentication]**&#x200B;을(를) 선택합니다.
 
@@ -96,7 +96,7 @@ TFA를 사용하려면 개인 장치(예: 스마트폰, 태블릿, 컴퓨터)에
 
 ## 확인 코드를 사용하여 로그인
 
-1. [!DNL Commerce] [계정 로그인][1]{:target=&quot;_blank&quot;}(으)로 이동합니다.
+1. [!DNL Commerce] [계정 로그인](https://account.magento.com/customer/account/login){:target="_blank"}(으)로 이동합니다.
 
 1. 사용자 이름과 암호 자격 증명을 입력한 다음 **[!UICONTROL Login]**&#x200B;을(를) 선택합니다.
 
@@ -108,7 +108,7 @@ TFA를 사용하려면 개인 장치(예: 스마트폰, 태블릿, 컴퓨터)에
 
 ## 복구 코드를 사용하여 로그인
 
-1. [!DNL Commerce] [계정 로그인][1]{:target=&quot;_blank&quot;}(으)로 이동합니다.
+1. [!DNL Commerce] [계정 로그인](https://account.magento.com/customer/account/login){:target="_blank"}(으)로 이동합니다.
 
 1. 사용자 이름과 암호 자격 증명을 입력한 다음 **[!UICONTROL Login]**&#x200B;을(를) 선택합니다.
 
@@ -122,7 +122,7 @@ TFA를 사용하려면 개인 장치(예: 스마트폰, 태블릿, 컴퓨터)에
 
 ## 복구 이메일을 사용하여 로그인
 
-1. [[!DNL Commerce] 계정][1]{:target=&quot;_blank&quot;}에 로그인합니다.
+1. [[!DNL Commerce] 계정](https://account.magento.com/customer/account/login){:target="_blank"}에 로그인합니다.
 
 1. 사용자 이름과 암호 자격 증명을 입력한 다음 **[!UICONTROL Login]**&#x200B;을(를) 선택합니다.
 
@@ -140,7 +140,7 @@ TFA를 사용하려면 개인 장치(예: 스마트폰, 태블릿, 컴퓨터)에
 
 ## 복구 코드 보기
 
-1. [!DNL Commerce] [계정 로그인][1]{:target=&quot;_blank&quot;}(으)로 이동합니다.
+1. [!DNL Commerce] [계정 로그인](https://account.magento.com/customer/account/login){:target="_blank"}(으)로 이동합니다.
 
 1. 사용자 이름과 암호 자격 증명을 입력한 다음 **[!UICONTROL Login]**&#x200B;을(를) 선택합니다.
 
@@ -168,7 +168,7 @@ TFA를 사용하려면 개인 장치(예: 스마트폰, 태블릿, 컴퓨터)에
 
 ## 새 복구 코드 생성
 
-1. [!DNL Commerce] [계정 로그인][1]{:target=&quot;_blank&quot;}(으)로 이동합니다.
+1. [!DNL Commerce] [계정 로그인](https://account.magento.com/customer/account/login){:target="_blank"}(으)로 이동합니다.
 
 1. 사용자 이름과 암호 자격 증명을 입력한 다음 **[!UICONTROL Login]**&#x200B;을(를) 선택합니다.
 
@@ -190,7 +190,7 @@ TFA를 사용하려면 개인 장치(예: 스마트폰, 태블릿, 컴퓨터)에
 
 ## 복구 이메일 변경
 
-1. [!DNL Commerce] [계정 로그인][1]{:target=&quot;_blank&quot;}(으)로 이동합니다.
+1. [!DNL Commerce] [계정 로그인](https://account.magento.com/customer/account/login){:target="_blank"}(으)로 이동합니다.
 
 1. 사용자 이름과 암호 자격 증명을 입력한 다음 **[!UICONTROL Login]**&#x200B;을(를) 선택합니다.
 
@@ -218,7 +218,7 @@ TFA를 사용하려면 개인 장치(예: 스마트폰, 태블릿, 컴퓨터)에
 
 ## 2단계 인증 애플리케이션 변경
 
-1. [!DNL Commerce] [계정 로그인][1]{:target=&quot;_blank&quot;}(으)로 이동합니다.
+1. [!DNL Commerce] [계정 로그인](https://account.magento.com/customer/account/login){:target="_blank"}(으)로 이동합니다.
 
 1. 사용자 이름과 암호 자격 증명을 입력한 다음 **[!UICONTROL Login]**&#x200B;을(를) 선택합니다.
 
@@ -270,7 +270,7 @@ TFA를 사용하려면 개인 장치(예: 스마트폰, 태블릿, 컴퓨터)에
 >
 >조직 보안 정책에 Adobe Commerce 계정에 대한 다단계 인증이 필요한 경우 2단계 인증을 비활성화할 수 없습니다.
 
-1. [!DNL Commerce] [계정 로그인][1]{:target=&quot;_blank&quot;}(으)로 이동합니다.
+1. [!DNL Commerce] [계정 로그인](https://account.magento.com/customer/account/login){:target="_blank"}(으)로 이동합니다.
 
 1. 사용자 이름과 암호 자격 증명을 입력한 다음 **[!UICONTROL Login]**&#x200B;을(를) 선택합니다.
 
@@ -287,5 +287,3 @@ TFA를 사용하려면 개인 장치(예: 스마트폰, 태블릿, 컴퓨터)에
    시스템에서 [!DNL Commerce] 계정에서 TFA가 비활성화되었음을 나타내는 전자 메일 확인을 보냅니다.
 
    ![TFA 비활성화](./assets/2fa-disable.png){width="400"}
-
-[1]: https://account.magento.com/customer/account/login

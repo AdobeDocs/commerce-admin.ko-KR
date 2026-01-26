@@ -3,18 +3,18 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: 판매자에게 선별된 솔루션을 제공하고 자격을 갖춘 개발자에게 번창하는 비즈니스를 구축할 수 있는 도구, 플랫폼 및 주요 위치를 제공하는  [!DNL Commerce Marketplace]에 대해 알아봅니다.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 17ec998812d21ab5815546e0f015965c2d35c853
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce 마켓플레이스
 
-[Adobe Commerce Marketplace][1]은(는) 판매자에게 선별된 솔루션을 제공하고 자격을 갖춘 개발자에게 번창하는 비즈니스를 구축할 수 있는 도구, 플랫폼 및 주요 위치를 제공하는 애플리케이션 스토어입니다. [!DNL Commerce Marketplace]은(는) 무료로 사용할 수 있는 확장과 판매 중인 다른 확장을 제공합니다. 구매는 신용 카드 또는 [PayPal][2]&#x200B;(으)로 결제할 수 있습니다.
+[Adobe Commerce Marketplace](https://marketplace.magento.com/)은(는) 판매자에게 선별된 솔루션을 제공하고 자격을 갖춘 개발자에게 번창하는 비즈니스를 구축할 수 있는 도구, 플랫폼 및 주요 위치를 제공하는 애플리케이션 스토어입니다. [!DNL Commerce Marketplace]은(는) 무료로 사용할 수 있는 확장과 판매 중인 다른 확장을 제공합니다. 구매는 신용 카드 또는 [PayPal](https://www.paypal.com/us/home)&#x200B;(으)로 결제할 수 있습니다.
 
-[!DNL Commerce Marketplace]에서 사용할 수 있는 모든 확장이 광범위한 검토를 통과했습니다. [확장 품질 프로그램][3]&#x200B;(EQP)은 [!DNL Commerce]개의 전문 지식, 개발 지침 및 확인 도구를 결합하여 Commerce Marketplace의 모든 확장이 코딩 표준 및 모범 사례를 충족하도록 합니다. 검토 프로세스에는 자동화된 검사와 수동 QA 검토가 모두 포함됩니다. 이 과정에서 각 확장의 구조와 코드를 검사하고 바이러스/맬웨어 감염의 증거 및 표절 징후를 검사합니다. 문서, 코딩 구조, 성능, 확장성, 보안 및 [!DNL Commerce] 코어와의 호환성에 중점을 두고 [!DNL Commerce] 엔지니어가 심층 기술 검사와 온전성 검사를 수행합니다.
+[!DNL Commerce Marketplace]에서 사용할 수 있는 모든 확장이 광범위한 검토를 통과했습니다. [확장 품질 프로그램](https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/)&#x200B;(EQP)은 [!DNL Commerce]개의 전문 지식, 개발 지침 및 확인 도구를 결합하여 Commerce Marketplace의 모든 확장이 코딩 표준 및 모범 사례를 충족하도록 합니다. 검토 프로세스에는 자동화된 검사와 수동 QA 검토가 모두 포함됩니다. 이 과정에서 각 확장의 구조와 코드를 검사하고 바이러스/맬웨어 감염의 증거 및 표절 징후를 검사합니다. 문서, 코딩 구조, 성능, 확장성, 보안 및 [!DNL Commerce] 코어와의 호환성에 중점을 두고 [!DNL Commerce] 엔지니어가 심층 기술 검사와 온전성 검사를 수행합니다.
 
 다른 원본에서 확장을 구입할 수 있지만 [!DNL Commerce Marketplace]에서 사용할 수 있는 확장만 Extension Quality 프로그램 내에서 광범위한 기술 및 마케팅 검토를 통해 확인됩니다.
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## [!DNL Marketplace] 자격 증명
 
-[!DNL Commerce Marketplace]에서 구입한 확장을 설치하려면 먼저 [!DNL Commerce] 계정에 로그인하여 활성 액세스 키가 있는지 확인하십시오. [!DNL Commerce] 또는 [[!DNL Marketplace]][1]Magento.com[의 헤더에서 ][6] 계정에 로그인할 수 있습니다.
+[!DNL Commerce Marketplace]에서 구입한 확장을 설치하려면 먼저 [!DNL Commerce] 계정에 로그인하여 활성 액세스 키가 있는지 확인하십시오. [!DNL Commerce][[!DNL Marketplace] 또는 ](https://marketplace.magento.com/)Magento.com[의 헤더에서 ](https://business.adobe.com/products/magento/magento-commerce.html) 계정에 로그인할 수 있습니다.
 
 액세스 키는 [!DNL Commerce] 설치를 [!DNL Commerce] 계정과 동기화하고 자격 증명을 확인하는 데 사용되는 공개 및 개인 키 집합입니다. 계정이 동기화되면 Commerce Marketplace에서 확장 또는 모듈을 설치하거나 [!DNL Commerce] 설치를 업그레이드할 때마다 개인 키를 입력해야 합니다.
 
@@ -53,13 +53,13 @@ ht-degree: 0%
 
 1. [!DNL Commerce] 계정에 로그인합니다.
 
-1. _[!UICONTROL My Account]_&#x200B;페이지에서&#x200B;**[!UICONTROL Marketplace]**&#x200B;탭을 선택합니다.
+1. _[!UICONTROL My Account]_페이지에서&#x200B;**[!UICONTROL Marketplace]**탭을 선택합니다.
 
 1. 이름 옆의 오른쪽 상단 모서리에서 아래쪽 화살표를 클릭하고 **[!UICONTROL My Profile]**&#x200B;을(를) 선택합니다.
 
    ![내 [!DNL Marketplace] 프로필](./assets/marketplace-profile.png){width="600"}
 
-1. _[!UICONTROL Marketplace]_&#x200B;아래의&#x200B;_[!UICONTROL My Products]_ 탭에서 **[!UICONTROL Access Keys]**&#x200B;을(를) 클릭하고 다음 중 하나를 수행합니다.
+1. _[!UICONTROL Marketplace]_아래의_[!UICONTROL My Products]_ 탭에서 **[!UICONTROL Access Keys]**&#x200B;을(를) 클릭하고 다음 중 하나를 수행합니다.
 
    - Marketplace 구매를 위한 액세스 키 세트가 이미 있는지 확인하십시오. 다양한 용도로 여러 액세스 키 세트를 만들 수 있습니다.
 
@@ -77,9 +77,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Commerce 및 Magento Open Source 2.4.0부터 웹 설치 마법사가 제거되며, 명령줄을 사용하여 인스턴스를 [설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=ko) 또는 [업그레이드](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=ko)해야 합니다. 이 요구 사항에는 [모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko) 및 [확장](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=ko)도 포함됩니다.
+>Adobe Commerce 및 Magento Open Source 2.4.0부터 웹 설치 마법사가 제거되며, 명령줄을 사용하여 인스턴스를 [설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) 또는 [업그레이드](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)해야 합니다. 이 요구 사항에는 [모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) 및 [확장](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)도 포함됩니다.
 
-[!DNL Marketplace] 구매에 대한 설치 프로세스는 Commerce의 _온-프레미스_ 설치와 [Adobe 클라우드 아키텍처][4]에 호스팅된 설치의 경우와 다릅니다.
+[!DNL Marketplace] 구매에 대한 설치 프로세스는 Commerce의 _온-프레미스_ 설치와 [Adobe 클라우드 아키텍처](https://www.adobe.com/commerce/magento/enterprise.html)에 호스팅된 설치의 경우와 다릅니다.
 
 ![Commerce Marketplace](./assets/marketplace.png){width="600"}
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 ### 오픈 소스 질문
 
-마켓플레이스 지원 팀은 [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) 및 [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) 사이트와 관련된 문제만 해결합니다. Magento Open Source에 대한 질문이 있으면 [커뮤니티 포럼](https://community.magento.com/)에 문의하거나 [Magento Open Source을 지원할 수 있는 파트너에게 문의](https://business.adobe.com/kr/products/magento/partners.html)하십시오.
+마켓플레이스 지원 팀은 [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) 및 [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) 사이트와 관련된 문제만 해결합니다. Magento Open Source에 대한 질문이 있으면 [커뮤니티 포럼](https://community.magento.com/)에 문의하거나 [Magento Open Source을 지원할 수 있는 파트너에게 문의](https://business.adobe.com/products/magento/partners.html)하십시오.
 
 ### 환불 요청
 
@@ -138,9 +138,3 @@ Marketplace 지원 팀에서는 다른 계정으로 구매를 전송할 수 없�
 기본 계정을 통해 Commerce 인스턴스를 [공유](commerce-account-share.md)할 수 있습니다. 공유 액세스는 기본 계정의 하위 계정에 특별한 권한을 부여합니다. 공유 액세스 포인트는 기본 계정에서 생성됩니다. 기본 계정은 Commerce 권한 계정, 주 판매자 계정 또는 조직 내에서 공유되는 계정일 수 있습니다.
 
 이러한 특수 권한은 Adobe Commerce에 기본 권한과 동일한 수준의 액세스 권한을 부여하지만, Adobe Commerce Marketplace 또는 개발자 포털로 이월되지 않습니다. 즉, 마켓플레이스의 하위 계정에서 확장을 구입하는 것은 기본 계정과 공유할 수 없습니다. 공유 액세스는 단방향 거리입니다(기본 계정에서 하위 계정으로). 하위 계정이 기본으로 다시 공유하려고 할 때는 작동하지 않습니다.
-
-[1]: https://marketplace.magento.com/
-[2]: https://www.paypal.com/us/home
-[3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
-[4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/kr/products/magento/magento-commerce.html

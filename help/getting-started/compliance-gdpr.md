@@ -3,9 +3,9 @@ title: GDPR 준수
 description: GDPR(General Data Protection Regulation)에 대해 알아봅니다. GDPR은 유럽 연합 및 유럽 경제 영역에서 모든 개인에 대한 데이터 보호 및 개인정보 보호를 규정하는 법입니다.
 exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -37,20 +37,16 @@ GDPR(General Data Protection Regulation)은 유럽 연합 및 유럽 경제 영�
 - CCPA에는 추가 데이터 인벤토리 및 매핑 요구 사항이 있습니다.
 - 규정에는 서로 다른 개인정보 처리방침 요구 사항이 있습니다.
 
-GDPR을 준수하는 기업은 CCPA에 따라 추가적인 의무가 있을 수 있습니다. 자세한 내용은 [CCPA 팩트시트][3]{:target=&quot;_blank&quot;}를 참조하십시오.
+GDPR을 준수하는 기업은 CCPA에 따라 추가적인 의무가 있을 수 있습니다. 자세한 내용은 [CCPA 팩트시트](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}를 참조하세요.
 
 ## 우수 사례
 
-- 모든 스토어에 대한 현재 [개인정보 처리방침](../getting-started/privacy-policy.md)을(를) 검사하여 적용 가능한 법적 요구 사항(GDPR 및 CCPA를 포함하되 이에 국한되지 않음)에 부합하는지 확인하십시오.
+- 모든 스토어에 대한 현재 [개인정보 처리방침](../getting-started/privacy-policy.md)을 검토하여 적용 가능한 법적 요구 사항(GDPR 및 CCPA를 포함하되 이에 국한되지 않음)에 부합하는지 확인하십시오.
 
 - [Google 설정](../merchandising-promotions/google-tools.md#google-privacy-settings)을 업데이트하여 개인 데이터 사용에 대한 법적 의무를 준수하는지 확인하세요.
 
 - 투명성 유지 및 철저한 문서화 유지.
 
-- Adobe을 통해 판매자가 관련 법적 의무를 준수하는 방법을 알아보려면 [웹 사이트][1]{:target=&quot;_blank&quot;}를 방문하십시오.
+- Adobe을 통해 판매자가 관련 법적 의무를 준수하는 방법을 알아보려면 [웹 사이트](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}를 방문하세요.
 
-- 데이터 흐름 다이어그램 및 데이터베이스 엔터티 매핑에 대해서는 [개인 정보 참조][2]{: target=&quot;_blank&quot;}를 참조하십시오.
-
-[1]: https://business.adobe.com/kr/privacy/general-data-protection-regulation.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=ko
-[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
+- 데이터 흐름 다이어그램 및 데이터베이스 엔터티 매핑에 대해서는 [개인 정보 참조](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}를 참조하십시오.

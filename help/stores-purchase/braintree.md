@@ -3,8 +3,8 @@ title: Braintree
 description: 스토어에서 Braintree을 온라인 결제 솔루션으로 설정하는 방법에 대해 알아봅니다.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2890'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->예기치 않은 카드 요금에 대한 도움이 필요한 경우 [구독 취소](https://helpx.adobe.com/kr/manage-account/using/cancel-subscription.html) 페이지를 방문하여 도움을 받으십시오.
+>예기치 않은 카드 요금에 대한 도움이 필요한 경우 [구독 취소](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) 페이지를 방문하여 도움을 받으십시오.
 
 Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 가능한 체크아웃 경험을 제공합니다. [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo 및 로컬 결제 방법을 지원합니다. Braintree은 거래가 Braintree 시스템에서 이루어지기 때문에 가맹점의 PCI 규정 준수 부담을 줄입니다. Braintree Payments 통합은 [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/)에서 개발되었습니다.
 
@@ -26,7 +26,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
 ## 1단계: Braintree 자격 증명 가져오기
 
-[Braintree 결제][1]&#x200B;(으)로 이동하여 계정에 등록하십시오.
+[Braintree 결제](https://www.braintreepayments.com/)&#x200B;(으)로 이동하여 계정에 등록하십시오.
 
 ## 2단계: 기본 설정 완료
 
@@ -36,9 +36,9 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
    - Commerce 설치 시 왼쪽 상단 모서리에서 구성이 적용되는 **[!UICONTROL Store View]**&#x200B;을(를) 선택하십시오.
 
-   - _[!UICONTROL Merchant Location]_&#x200B;섹션에서&#x200B;**[!UICONTROL Merchant Country]**&#x200B;이(가) 회사 위치로 설정되어 있는지 확인합니다.
+   - _[!UICONTROL Merchant Location]_섹션에서&#x200B;**[!UICONTROL Merchant Country]**이(가) 회사 위치로 설정되어 있는지 확인합니다.
 
-1. _[!UICONTROL Recommended Solutions]_&#x200B;의_[!UICONTROL Braintree Payments] ([GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [릴리스 정보](https://support.gene.co.uk/support/solutions/articles/35000278668)_섹션)에서&#x200B;**[!UICONTROL Configure]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Recommended Solutions]_의_[!UICONTROL Braintree Payments]([GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [릴리스 정보](https://support.gene.co.uk/support/solutions/articles/35000278668)_섹션)에서&#x200B;**[!UICONTROL Configure]**을(를) 클릭합니다.
 
    ![Braintree 구성](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
@@ -46,14 +46,14 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
 1. Braintree 트랜잭션에 대한 현재 운영 체제 **[!UICONTROL Environment]**&#x200B;을(를) `Sandbox` 또는 `Production`(으)로 설정
 
-   샌드박스에서 구성을 테스트할 때 Braintree에서 권장하는 [신용 카드 번호][2]만 사용하십시오. Braintree을 사용하여 프로덕션으로 이동할 준비가 되면 **[!UICONTROL Environment]**&#x200B;을(를) `Production`(으)로 설정하십시오.
+   샌드박스에서 구성을 테스트할 때 Braintree에서 권장하는 [신용 카드 번호](https://developers.braintreepayments.com/reference/general/testing/php)만 사용하십시오. Braintree을 사용하여 프로덕션으로 이동할 준비가 되면 **[!UICONTROL Environment]**&#x200B;을(를) `Production`(으)로 설정하십시오.
 
    ![기본 자격 증명 설정](../configuration-reference/sales/assets/payment-methods-braintree-basic-config.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Payment Action]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `Authorize Only` - 구매를 승인하고 자금을 보류합니다. 판매자가 _회수_&#x200B;할 때까지 고객의 은행 계좌에서 금액이 인출되지 않습니다.|
-   - `Intent Sale` - 구매 금액이 승인되어 고객 계정에서 즉시 인출됩니다. **_참고:_** 이 값은 2.3.x 및 이전 릴리스의 _승인 및 캡처_&#x200B;입니다.|
+   - `Intent Sale` - 구매 금액이 승인되어 고객 계정에서 즉시 인출됩니다. **_Note:_** 이 값은 2.3.x 및 이전 릴리스의 _승인 및 캡처_&#x200B;입니다.|
 
 1. Braintree 계정의 **[!UICONTROL Sandbox Merchant ID / Merchant ID]**&#x200B;을(를) 입력하십시오.
 
@@ -76,7 +76,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
 ## 3단계: 고급 설정 완료
 
-1. **[!UICONTROL Advanced Braintree Settings]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advanced Braintree Settings]**&#x200B;를 확장합니다.
 
    ![고급 설정](../configuration-reference/sales/assets/payment-methods-braintree-advanced-config.png){width="550" zoomable="yes"}
 
@@ -90,7 +90,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
 1. 관리자를 통해 주문한 주문에 대해 고급 사기 도구 검사의 일부로 평가를 위해 트랜잭션을 보내지 못하게 하려면 **[!UICONTROL Skip Fraud Checks on Admin Orders]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
-1. 임계값이 충족되거나 초과될 때 `Advanced Fraud Protection` 검사를 무시하도록 **[!UICONTROL Bypass Fraud Protection Threshold]**&#x200B;을(를) 설정하십시오.
+1. 임계값이 충족되거나 초과될 때 **[!UICONTROL Bypass Fraud Protection Threshold]** 검사를 무시하도록 `Advanced Fraud Protection`을(를) 설정하십시오.
 
    이 필드를 비워 두면 이 옵션이 비활성화됩니다.
 
@@ -133,7 +133,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 1. **[!UICONTROL Payment from Applicable Countries]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
 
    ![국가별 설정](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png){width="600" zoomable="yes"}
 
@@ -252,7 +252,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
      >[!NOTE]
      >
-     >PayPal 크레딧은 미국과 영국에서만 사용할 수 있습니다. _[!UICONTROL Merchant Country]_&#x200B;필드에 대해 선택한 값이 `US` 또는 `UK`이(가) 아닌 경우 PayPal 크레딧을 사용할 수 없습니다.
+     >PayPal 크레딧은 미국과 영국에서만 사용할 수 있습니다. _[!UICONTROL Merchant Country]_필드에 대해 선택한 값이 `US` 또는 `UK`이(가) 아닌 경우 PayPal 크레딧을 사용할 수 없습니다.
 
    - Braintree에서 결제 옵션으로 [!DNL PayPal PayLater]을(를) 포함하려면 **[!UICONTROL Enable PayPal PayLater through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -278,7 +278,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 1. PayPal에서 처리하는 Braintree 트랜잭션에 대해 **[!UICONTROL Payment from Applicable Countries]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
 
    ![Braintree 설정을 통한 PayPal 2](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
@@ -298,7 +298,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
 1. 패키지 추적 정보를 PayPal로 보내려면 **[!UICONTROL Send Package Tracking]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
-   패키지 추적 정보는 PayPal 거래/주문에 대해서만 PayPal로 전송됩니다. [!UICONTROL Package Tracking] 기능이 제대로 작동하려면 [!UICONTROL Send Cart Line Items for PayPal] 구성 필드를 활성화해야 합니다.
+   패키지 추적 정보는 PayPal 거래/주문에 대해서만 PayPal로 전송됩니다. [!UICONTROL Send Cart Line Items for PayPal] 기능이 제대로 작동하려면 [!UICONTROL Package Tracking] 구성 필드를 활성화해야 합니다.
 
 1. PayPal을 통해 구매자나 결제자에게 패키지 추적 업데이트를 알리려면 **[!UICONTROL Use PayPal's "Notify Payer" functionality]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -310,13 +310,13 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
 ### [!UICONTROL Mini-Cart and Cart Page]
 
-이 섹션의 옵션 및 설정은 _[!UICONTROL Location]_&#x200B;필드의 설정에 따라 다릅니다.
+이 섹션의 옵션 및 설정은 _[!UICONTROL Location]_필드의 설정에 따라 다릅니다.
 
 1. **[!UICONTROL PayPal Button Type]**&#x200B;을(를) 다음 세 가지 유형의 단추 중 하나로 설정합니다. `PayPal Button` / `PayPal Pay Later Button` / `PayPal Credit Button`
 
 **[!UICONTROL PayPal Button]**
 
-이 섹션의 옵션 및 설정은 _[!UICONTROL PayPal Button Type]_&#x200B;필드에서 선택한 단추 유형에 따라 다릅니다.
+이 섹션의 옵션 및 설정은 _[!UICONTROL PayPal Button Type]_필드에서 선택한 단추 유형에 따라 다릅니다.
 
 1. 선택한 위치의 상점 앞에 PayPal 단추를 표시하려면 **[!UICONTROL Show PayPal Button]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -399,7 +399,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 4. **[!UICONTROL Verify for Applicable Countries]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Verify for Specific Countries]_&#x200B;목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Verify for Specific Countries]_목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
 
    ![3D 확인 설정](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 
@@ -419,9 +419,9 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
      **_이름 설명자의 문자_**
 
-     _옵션 1:_ `Company`은(는) 3자여야 하며 `Product`은(는) 최대 18자일 수 있습니다.
+     _Option 1 :_`Company`은(는) 3자여야 하며 `Product`은(는) 최대 18자일 수 있습니다.
 
-     _옵션 2:_ `Company`은(는) 7자여야 하며 `Product`은(는) 최대 14자일 수 있습니다.
+     _Option 2 :_`Company`은(는) 7자여야 하며 `Product`은(는) 최대 14자일 수 있습니다.
 
      _옵션 3_: `Company`은(는) 12자여야 하며 `Product`은(는) 9자까지 가능합니다.
 
@@ -441,7 +441,4 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
 ## 2.4 업그레이드 정보
 
-Adobe Commerce 및 Magento Open Source 2.4.0부터 Braintree 확장이 릴리스에 포함됩니다. Marketplace Braintree 확장이 설치된 2.4.0 이전 버전에서 Commerce 2.4.x로 마이그레이션하는 경우 해당 확장(`paypal/module-braintree` 또는 `gene/module-braintree`)을 제거하고 `Magento_Braintree` 대신 `PayPal_Braintree` 네임스페이스를 사용하도록 코드 사용자 지정을 업데이트해야 합니다. Commerce Marketplace에 배포된 핵심 Commerce Braintree 결제 번들 확장 기능 및 확장 기능의 구성 설정이 유지되며 이러한 이전 버전과 함께 배치된 결제는 정상적으로 캡처, 무효화 또는 환급될 수 있습니다.
-
-[1]: https://www.braintreepayments.com/
-[2]: https://developers.braintreepayments.com/reference/general/testing/php
+Adobe Commerce 및 Magento Open Source 2.4.0부터 Braintree 확장이 릴리스에 포함됩니다. Marketplace Braintree 확장이 설치된 2.4.0 이전 버전에서 Commerce 2.4.x로 마이그레이션하는 경우 해당 확장(`paypal/module-braintree` 또는 `gene/module-braintree`)을 제거하고 `PayPal_Braintree` 대신 `Magento_Braintree` 네임스페이스를 사용하도록 코드 사용자 지정을 업데이트해야 합니다. Commerce Marketplace에 배포된 핵심 Commerce Braintree 결제 번들 확장 기능 및 확장 기능의 구성 설정이 유지되며 이러한 이전 버전과 함께 배치된 결제는 정상적으로 캡처, 무효화 또는 환급될 수 있습니다.

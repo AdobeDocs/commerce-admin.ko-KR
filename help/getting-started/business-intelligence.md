@@ -3,8 +3,8 @@ title: '[!DNL Commerce Intelligence]개 도구'
 description: Adobe Commerce 및 Magento Open Source 판매자가 Commerce Intelligence 도구를 사용하여 건전한 비즈니스 의사 결정에 사용되는 insight을 얻는 방법에 대해 알아봅니다.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 0%
@@ -17,13 +17,13 @@ Commerce Intelligence 도구를 사용하여 건전한 비즈니스 의사 결�
 
 ## [!DNL Commerce Intelligence] 계정
 
-Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개의 보고서가 있는 5개의 대시보드에 액세스할 수 있습니다. 이러한 보고서는 데이터에 대한 통찰력을 제공하고 &quot;매월 주문이 어떻게 증가하고 있습니까?&quot;, &quot;가장 충성스러운 고객은 누구입니까?&quot;, &quot;내 쿠폰 전략이 작동하고 있습니까?&quot;와 같은 질문에 답변하기 위해 설계되었습니다. 이 도구 집합에 대한 자세한 내용은 [Commerce Intelligence 사용 안내서][1]를 참조하세요.
+Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개의 보고서가 있는 5개의 대시보드에 액세스할 수 있습니다. 이러한 보고서는 데이터에 대한 통찰력을 제공하고 &quot;매월 주문이 어떻게 증가하고 있습니까?&quot;, &quot;가장 충성스러운 고객은 누구입니까?&quot;, &quot;내 쿠폰 전략이 작동하고 있습니까?&quot;와 같은 질문에 답변하기 위해 설계되었습니다. 이 도구 집합에 대한 자세한 내용은 [Commerce Intelligence 사용 안내서](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html)를 참조하세요.
 
 ## [!DNL Advanced Reporting]
 
 [!DNL Advanced Reporting]은(는) Adobe Commerce 및 Magento Open Source에 포함되어 있습니다. 이 기능을 사용하면 비즈니스 요구 사항에 맞는 개인화된 대시보드를 사용하여 제품, 주문 및 고객 데이터를 기반으로 하는 동적 보고서 세트에 액세스할 수 있습니다. [!DNL Advanced Reporting]이(가) 분석에 [!DNL Commerce Intelligence]을(를) 사용하는 동안 [!DNL Advanced Reporting]을(를) 사용하기 위해 Commerce Intelligence 계정이 필요하지 않습니다.
 
-기술 정보는 개발자 설명서에서 [[!DNL Advanced Reporting]][2]{:target="_blank"} 항목을 참조하십시오.
+기술 정보는 개발자 설명서에서 [[!DNL Advanced Reporting]](https://developer.adobe.com/commerce/php/development/advanced-reporting/){:target="_blank"} 항목을 참조하십시오.
 
 >[!NOTE]
 >
@@ -39,15 +39,15 @@ Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개
 
 * 오류 없이 [!DNL Commerce]을(를) 설치하거나 업그레이드해야 합니다.
 
-* [!DNL Commerce]스토어 URL[에 대한 &#x200B;](../stores-purchase/store-urls.md) 구성에서 스토어 보기에 대한 **[!UICONTROL Base URL (Secure)]** 설정은 보안 URL을 가리켜야 합니다. 예: `https://yourdomain.com`.
+* [!DNL Commerce]스토어 URL[에 대한 ](../stores-purchase/store-urls.md) 구성에서 스토어 보기에 대한 **[!UICONTROL Base URL (Secure)]** 설정은 보안 URL을 가리켜야 합니다. 예: `https://yourdomain.com`.
 
 * 저장소 URL에 대한 [!DNL Commerce] 구성에서 **[!UICONTROL Use Secure URLs on Storefront]** 및 **[!UICONTROL Use Secure URLs in Admin]**&#x200B;을(를) `Yes`(으)로 설정해야 합니다.
 
-* [[!DNL Commerce] crontab][3]이(가) 만들어지고 설치된 서버에서 cron 작업이 실행되고 있습니다.
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html)이(가) 만들어지고 설치된 서버에서 cron 작업이 실행되고 있습니다.
 
 >[!NOTE]
 >
->[!DNL Advanced Reporting]은(는) 단일 [!DNL Commerce]기본 통화[를 계속 사용한 &#x200B;](../stores-purchase/currency-configuration.md) 설치에서만 사용할 수 있습니다.
+>[!DNL Advanced Reporting]은(는) 단일 [!DNL Commerce]기본 통화[를 계속 사용한 ](../stores-purchase/currency-configuration.md) 설치에서만 사용할 수 있습니다.
 
 
 ### 1단계: [!DNL Advanced Reporting] 사용
@@ -122,7 +122,7 @@ Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개
 
 ### 단일 기준 통화 확인
 
-[!DNL Advanced Reporting]은(는) 설치 이후 단일 [!DNL Commerce]기본 통화[만 사용한 &#x200B;](../stores-purchase/currency-configuration.md) 설치에서만 사용할 수 있습니다. 그 결과 내역(history)에서 모든 주문은 동일한 기본 통화를 사용합니다. 기본 통화를 변경하고 다른 기본 통화로 처리된 주문 내역이 있는 경우 [!DNL Advanced Reporting]이(가) 작동하지 않습니다.
+[!DNL Advanced Reporting]은(는) 설치 이후 단일 [!DNL Commerce]기본 통화[만 사용한 ](../stores-purchase/currency-configuration.md) 설치에서만 사용할 수 있습니다. 그 결과 내역(history)에서 모든 주문은 동일한 기본 통화를 사용합니다. 기본 통화를 변경하고 다른 기본 통화로 처리된 주문 내역이 있는 경우 [!DNL Advanced Reporting]이(가) 작동하지 않습니다.
 
 저장소에 여러 기본 통화가 있는지 확인하기 위해 다음 MySQL 예제를 사용하여 명령줄에서 [!DNL Commerce] 데이터베이스를 쿼리할 수 있습니다. 데이터 구조와 일치하도록 테이블 이름을 변경해야 할 수 있습니다.
 
@@ -176,8 +176,3 @@ select distinct base_currency_code from sales_order;
 | [!UICONTROL Best Selling Products by Revenue] | 정의된 기간 동안 스토어 보기를 통해 제품을 판매하여 생성된 매출 및 베스트셀러 제품을 나열합니다. |
 
 {style="table-layout:auto"}
-
-
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=ko
-[2]: https://developer.adobe.com/commerce/php/development/advanced-reporting/
-[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko

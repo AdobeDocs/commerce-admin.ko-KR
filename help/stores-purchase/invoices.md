@@ -3,9 +3,9 @@ title: 인보이스
 description: 주문 처리 및 고객 서비스 작업을 지원하기 위해 송장을 만들고 인쇄하는 방법에 대해 알아봅니다.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 >
 >`Gift Card`, `Store Credit`, `Reward Points` 또는 기타 오프라인 결제 방법을 사용하여 수행한 주문에 대해 송장이 자동으로 만들어지지 않습니다.
 
-주문에 대한 송장을 인쇄하려면 먼저 생성해야 합니다. PDF을 보거나 인쇄하려면 먼저 [Adobe Acrobat Reader][1]와 같은 PDF 판독기를 다운로드하여 설치하십시오.
+주문에 대한 송장을 인쇄하려면 먼저 생성해야 합니다. PDF을 보거나 인쇄하려면 먼저 [Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader 가져오기")와 같은 PDF 리더를 다운로드하여 설치하십시오.
 
-**_주문 청구서 보내기:_**
+**_주문 송장 발부:_**
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**(으)로 이동합니다.
 
@@ -71,7 +71,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
    >[!NOTE]
    >
-   >특정 [결제 방법](../configuration-reference/sales/payment-methods.md)에 대한 [결제 작업](../configuration-reference/sales/payment-methods.md#payment-actions)이(가) `Authorize and Capture`(으)로 설정되어 송장이 자동 생성되면 _[!UICONTROL Invoice]_&#x200B;옵션이 표시되지 않습니다. 또한 주문이 수행되고 결제 방법에 대한 결제 작업이 `Authorize`(으)로 설정되어 있고 주문에 대한 송장이 발행된 경우에도 마찬가지입니다.
+   >특정 _[!UICONTROL Invoice]_결제 방법[에 대한 ](../configuration-reference/sales/payment-methods.md#payment-actions)결제 작업[이(가) ](../configuration-reference/sales/payment-methods.md)(으)로 설정되어 송장이 자동 생성되면 `Authorize and Capture` 옵션이 표시되지 않습니다. 또한 주문이 수행되고 결제 방법에 대한 결제 작업이 `Authorize`(으)로 설정되어 있고 주문에 대한 송장이 발행된 경우에도 마찬가지입니다.
 
    ![송장 판매 주문](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -121,17 +121,17 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
 ## 인보이스 인쇄
 
-송장은 개별적으로 또는 배치로 인쇄할 수 있습니다. 그러나 송장을 인쇄하려면 먼저 주문에 대해 송장을 생성해야 합니다. 인쇄용 PDF 송장에 고해상도 로고를 업로드하고 헤더에 [주문 ID](../stores-purchase/sales-documents.md#add-reference-ids)을 포함할 수 있습니다. 로고 및 주소를 사용하여 인보이스 템플릿을 사용자 지정하려면 [로고 요구 사항 PDF](../stores-purchase/sales-documents.md#image-formats)을 참조하세요.
+송장은 개별적으로 또는 배치로 인쇄할 수 있습니다. 그러나 송장을 인쇄하려면 먼저 주문에 대해 송장을 생성해야 합니다. 인쇄용 PDF 송장에 고해상도 로고를 업로드하고 헤더에 [주문 ID](../stores-purchase/sales-documents.md#add-reference-ids)을 포함할 수 있습니다. 로고 및 주소를 사용하여 인보이스 템플릿을 사용자 지정하려면 [PDF 로고 요구 사항](../stores-purchase/sales-documents.md#image-formats)을 참조하세요.
 
 >[!NOTE]
 >
->PDF을 보거나 인쇄하려면 PDF 판독기가 있어야 합니다. [Adobe Reader][1]을(를) 무료로 다운로드할 수 있습니다.
+>PDF을 보거나 인쇄하려면 PDF 판독기가 있어야 합니다. [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader 가져오기")를 무료로 다운로드할 수 있습니다.
 
 ### 단일 청구서 인쇄
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**(으)로 이동합니다.
 
-1. _[!UICONTROL Invoices]_&#x200B;그리드에서 송장을 찾은 다음_&#x200B;작업&#x200B;_열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Invoices]_그리드에서 송장을 찾은 다음&#x200B;**[!UICONTROL View]**작업_ 열에서 _을(를) 클릭합니다.
 
 1. 송장의 맨 위에서 **[!UICONTROL Print]**&#x200B;을(를) 클릭하여 송장의 PDF을 생성합니다.
 
@@ -141,12 +141,10 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**(으)로 이동합니다.
 
-1. _[!UICONTROL Invoices]_&#x200B;그리드에서 인쇄할 각 송장의 확인란을 선택합니다.
+1. _[!UICONTROL Invoices]_그리드에서 인쇄할 각 송장의 확인란을 선택합니다.
 
 1. **[!UICONTROL Actions]** 컨트롤을 `PDF Invoices`(으)로 설정합니다.
 
    ![여러 송장 인쇄](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 인보이스는 프린터로 보내거나 저장할 수 있는 단일 PDF 파일에 저장됩니다.
-
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader 가져오기"

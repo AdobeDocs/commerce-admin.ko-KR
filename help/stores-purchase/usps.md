@@ -3,9 +3,9 @@ title: 미국 우편 서비스(USPS)
 description: USPS를 상점의 배송 운송업체로 설정하는 방법에 대해 알아봅니다.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: c9acf475eeadcd249467e4cc89fe61d37230bd7d
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ## 1단계: USPS 배송 계정 열기
 
-[USPS 웹 도구][1] 계정을 엽니다. 등록 프로세스를 완료하면 사용자 ID와 USPS 테스트 서버에 대한 URL을 받게 됩니다.
+[USPS 웹 도구](https://secure.shippingapis.com/registration/) 계정을 엽니다. 등록 프로세스를 완료하면 사용자 ID와 USPS 테스트 서버에 대한 URL을 받게 됩니다.
 
-[USPS 웹 도구][1] 계정을 열 수도 있습니다. 등록 프로세스를 완료하면 사용자 ID와 USPS 테스트 서버에 대한 URL을 받게 됩니다. USPS 웹 도구에 대한 자세한 내용은 [기술 설명서][2]를 참조하세요.
+[USPS 웹 도구](https://secure.shippingapis.com/registration/) 계정을 열 수도 있습니다. 등록 프로세스를 완료하면 사용자 ID와 USPS 테스트 서버에 대한 URL을 받게 됩니다. USPS 웹 도구에 대한 자세한 내용은 [기술 설명서](https://www.usps.com/business/web-tools-apis/welcome.htm)를 참조하세요.
 
 ## 2단계: 스토어에 대해 USPS 활성화
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Delivery Methods]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL USPS]**&#x200B;를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL USPS]**&#x200B;를 확장합니다.
 
    >[!NOTE]
    >
@@ -142,7 +142,5 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
-[1]: https://secure.shippingapis.com/registration/
-[2]: https://www.usps.com/business/web-tools-apis/welcome.htm
 
 <!-- Last updated from includes: 2025-11-26 10:55:00 -->

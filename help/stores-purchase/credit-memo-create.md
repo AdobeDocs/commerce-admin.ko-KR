@@ -3,7 +3,7 @@ title: 대변 메모 발행
 description: 송장이 발행된 주문에 대한 대변 메모를 생성하고 인쇄하는 방법에 대해 알아봅니다.
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2132'
 ht-degree: 0%
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 그리드에서 순서를 찾아 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 
-1. 단추 모음에 _[!UICONTROL Credit Memo]_&#x200B;단추가 표시되면 다음 중 하나를 실행하십시오.
+1. 단추 모음에 _[!UICONTROL Credit Memo]_단추가 표시되면 다음 중 하나를 실행하십시오.
 
    - `offline` 환불을 발급하려면 #6단계로 이동하십시오.
    - `online` 환불을 발급하려면 #4단계를 계속 진행하십시오.
@@ -272,7 +272,7 @@ ht-degree: 0%
 
 ## 대변 메모 인쇄
 
-완료된 대변 메모를 인쇄하거나 보려면 PDF 판독기가 설치되어 있어야 합니다. [Adobe Reader][1]을(를) 무료로 다운로드할 수 있습니다.
+완료된 대변 메모를 인쇄하거나 보려면 PDF 리더가 설치되어 있어야 합니다. [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader 가져오기")를 무료로 다운로드할 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**(으)로 이동합니다.
 
@@ -299,6 +299,3 @@ ht-degree: 0%
    - 문서를 저장하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하고 프롬프트에 따라 파일을 컴퓨터에 저장합니다. 다운로드가 완료되면 Adobe Reader에서 PDF을 열고 문서를 인쇄합니다.
 
    - 문서를 보려면 **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다. 인쇄용 PDF 대변 메모가 Adobe Reader에서 열립니다. 여기에서 대변 메모를 인쇄하거나 컴퓨터에 저장할 수 있습니다.
-
-
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader 가져오기"

@@ -3,7 +3,7 @@ title: 세부 정보 저장
 description: 스토어에 대한 기본 정보를 업데이트하는 방법을 알아봅니다.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: dc07b53c27fd99c2c0dc7ee4602640d551e509cf
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1936'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Store Information]
 
-_[!UICONTROL Store Information]_&#x200B;섹션은 판매 문서 및 기타 통신에 나타나는 기본 정보를 제공합니다.
+_[!UICONTROL Store Information]_섹션은 판매 문서 및 기타 통신에 나타나는 기본 정보를 제공합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 탐색 패널의 **[!UICONTROL General]**&#x200B;에서 **[!UICONTROL General]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Store Information]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Store Information]**&#x200B;를 확장합니다.
 
    ![일반 구성 - 정보 저장](./assets/general-store-information.png){width="700"}
 
@@ -67,7 +67,7 @@ _[!UICONTROL Store Information]_&#x200B;섹션은 판매 문서 및 기타 통�
 
 1. **[!UICONTROL General]** 아래의 왼쪽 탐색 패널에서 **[!UICONTROL General]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Locale Options]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Locale Options]**&#x200B;를 확장합니다.
 
    ![일반 구성 - 로케일 옵션](./assets/general-locale-options.png){width="700"}
 
@@ -97,7 +97,7 @@ _[!UICONTROL Store Information]_&#x200B;섹션은 판매 문서 및 기타 통�
 
 1. 왼쪽 탐색 패널의 **[!UICONTROL General]**&#x200B;에서 **[!UICONTROL General]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL State Options]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL State Options]**&#x200B;를 확장합니다.
 
    ![일반 구성 - 상태 옵션](./assets/general-state-options.png){width="700"}
 
@@ -123,7 +123,7 @@ _[!UICONTROL Store Information]_&#x200B;섹션은 판매 문서 및 기타 통�
 
 1. **[!UICONTROL General]** 아래의 왼쪽 탐색 패널에서 **[!UICONTROL General]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Country Options]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Country Options]**&#x200B;를 확장합니다.
 
    >[!NOTE]
    >
@@ -169,11 +169,11 @@ _[!UICONTROL Store Information]_&#x200B;섹션은 판매 문서 및 기타 통�
 
 국가 구성 문제를 해결하는 데 대한 도움말을 보려면 다음 [!DNL Commerce] 지원 기술 문서를 참조하십시오.
 
-- [국가를 추가하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=ko)
+- [국가를 추가하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 판매자 위치 설정은 [결제 방법](../stores-purchase/payments.md)을 구성하는 데 사용됩니다. 이 설정에 대한 값이 없으면 [기본 국가](#uicontrol-country-options) 설정이 사용됩니다.
 
@@ -181,7 +181,7 @@ _[!UICONTROL Store Information]_&#x200B;섹션은 판매 문서 및 기타 통�
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
 
-1. **판매자 위치** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 **[!UICONTROL Merchant Country]**&#x200B;을(를) 선택합니다.
+1. ![판매자 위치](../assets/icon-display-expand.png) 섹션에서 **확장 선택기**&#x200B;를 확장하고 **[!UICONTROL Merchant Country]**&#x200B;을(를) 선택합니다.
 
    ![판매자 위치 설정](./assets/payment-methods-merchant-location.png){width="600"}
 
@@ -215,7 +215,7 @@ _[!UICONTROL Store Information]_&#x200B;섹션은 판매 문서 및 기타 통�
 
 ### 2단계: 생성된 링크에 대한 기본 URL 설정
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 일부 고객 응대 이메일에는 고객이 암호를 재설정하는 데 도움이 되는 링크 등 스토어에 대한 링크가 포함되어 있습니다. Storefront 링크가 작동하도록 하려면 storefront의 기본 URL을 정의해야 합니다.
 
@@ -229,13 +229,13 @@ _[!UICONTROL Store Information]_&#x200B;섹션은 판매 문서 및 기타 통�
 
 ### 3단계: 스토어의 이메일 주소 구성
 
-인스턴스가 프로비저닝될 때 [!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}개의 보낸 사람 전자 메일 주소가 구성됩니다. 이러한 주소를 변경해야 하는 경우 지원 티켓을 만드십시오.
+인스턴스가 프로비저닝될 때 [!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}개의 보낸 사람 전자 메일 주소가 구성됩니다. 이러한 주소를 변경해야 하는 경우 지원 티켓을 만드십시오.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 탐색 패널의 **[!UICONTROL General]**&#x200B;에서 **[!UICONTROL Store Email Addresses]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL General Contact]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL General Contact]**&#x200B;를 확장하고 다음을 수행합니다.
 
    ![일반 구성 - 전자 메일 주소 저장](./assets/store-email-addresses-general-contact.png){width="600"}
 
@@ -291,11 +291,11 @@ Luma 샘플 데이터에는 스토어에 대해 페이지를 사용자 지정하
 
 1. **[!UICONTROL General]** 아래의 왼쪽 탐색 패널에서 **[!UICONTROL Contacts]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Contact Us]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)을(를) 확장하고 **[!UICONTROL Enable Contact Us]**&#x200B;을(를) `Yes`(으)로 설정합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Contact Us]**&#x200B;을(를) 확장하고 **[!UICONTROL Enable Contact Us]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
    ![일반 구성 - 연락처](./assets/contacts-contact-us.png){width="600"}
 
-1. **[!UICONTROL Email Options]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 전자 메일 연락처 옵션을 설정합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Email Options]**&#x200B;를 확장하고 전자 메일 연락처 옵션을 설정합니다.
 
    ![일반 구성 - 전자 메일 옵션](./assets/contacts-email-options.png){width="600"}
 
@@ -343,6 +343,4 @@ Luma 샘플 데이터에는 스토어에 대해 사용자 지정할 수 있는 _
 >
 >2.4.0 릴리스부터 연락처 양식은 더 이상 CMS 블록 또는 CMS 페이지 내에서 호출할 수 없습니다. 연락처 양식의 모든 사용자 지정은 레이아웃 xml 또는 사용자 지정 테마 템플릿을 사용하여 수행해야 합니다.
 
-기본적으로 쇼핑객은 상점 첫 페이지의 바닥글에 있는 _연락처 링크_&#x200B;를 사용하여 연락처 양식에 액세스합니다. 연락처 페이지 사용자 지정에 대한 자세한 내용은 [프론트엔드 개발자 안내서][theme-guide]를 참조하세요.
-
-[theme-guide]: https://developer.adobe.com/commerce/frontend-core/guide/themes/
+기본적으로 쇼핑객은 상점 첫 페이지의 바닥글에 있는 _연락처 링크_&#x200B;를 사용하여 연락처 양식에 액세스합니다. 연락처 페이지 사용자 지정에 대한 자세한 내용은 [프론트엔드 개발자 안내서](https://developer.adobe.com/commerce/frontend-core/guide/themes/)를 참조하세요.

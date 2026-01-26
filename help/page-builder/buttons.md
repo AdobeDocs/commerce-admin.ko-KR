@@ -3,7 +3,7 @@ title: 요소 - 단추
 description: ' [!DNL Page Builder] 스테이지에서 개별 단추 또는 단추 집합을 추가하는 데 사용되는 Buttons 콘텐츠 형식에 대해 알아봅니다.'
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -107,7 +107,7 @@ _단계_&#x200B;에서 개별 단추 또는 단추 집합을 추가하려면 [[!
 
      ![단추 링크에 대한 CMS 페이지 선택](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
-1. 필요에 따라 [고급 설정][advanced-settings]을 완료합니다.
+1. 필요에 따라 [고급 설정](#change-advanced-settings)을 완료합니다.
 
 1. 완료되면 오른쪽 상단의 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
@@ -135,7 +135,7 @@ _단계_&#x200B;에서 개별 단추 또는 단추 집합을 추가하려면 [[!
 
    ![문의하기 단추 설정](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png){width="600" zoomable="yes"}
 
-1. 필요에 따라 [고급 설정][advanced-settings]을 완료합니다.
+1. 필요에 따라 [고급 설정](#change-advanced-settings)을 완료합니다.
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
@@ -161,13 +161,13 @@ _단계_&#x200B;에서 개별 단추 또는 단추 집합을 추가하려면 [[!
 
    ![단추 컨테이너 도구 상자](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. _[!UICONTROL Appearance]_&#x200B;에서&#x200B;**[!UICONTROL Stacked]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL Appearance]_에서&#x200B;**[!UICONTROL Stacked]**을(를) 선택합니다.
 
 1. **[!UICONTROL All Buttons are same size]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
    ![같은 크기의 스택 단추](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
 
-1. [단추 컨테이너에 대한 설정 변경][button-container]의 설명을 사용하여 나머지 설정을 필요에 따라 업데이트합니다.
+1. [단추 컨테이너에 대한 설정 변경](#change-settings-for-a-button-container)의 설명을 사용하여 나머지 설정을 필요에 따라 업데이트합니다.
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
@@ -214,7 +214,7 @@ _단계_&#x200B;에서 개별 단추 또는 단추 집합을 추가하려면 [[!
 
      {style="table-layout:auto"}
 
-1. 필요에 따라 [고급 설정][advanced-settings]을 완료합니다.
+1. 필요에 따라 [고급 설정](#change-advanced-settings)을 완료합니다.
 
 1. 설정을 저장하고 [!DNL Page Builder] 작업 영역으로 돌아가려면 오른쪽 상단의 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -237,13 +237,13 @@ _단계_&#x200B;에서 개별 단추 또는 단추 집합을 추가하려면 [[!
 
      `Yes`(으)로 설정된 경우 컨테이너의 모든 단추는 가장 긴 단추 텍스트의 길이에 따라 크기가 같습니다.
 
-1. 필요에 따라 [고급 설정][advanced-settings]을 완료합니다.
+1. 필요에 따라 [고급 설정](#change-advanced-settings)을 완료합니다.
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
 ## 고급 설정 변경
 
-개별 단추 및 단추 컨테이너에 대한 _[!UICONTROL Advanced]_&#x200B;설정을 수정할 수 있습니다.
+개별 단추 및 단추 컨테이너에 대한 _[!UICONTROL Advanced]_설정을 수정할 수 있습니다.
 
 1. 상위 컨테이너 내의 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하십시오.
 
@@ -298,7 +298,5 @@ _단계_&#x200B;에서 개별 단추 또는 단추 집합을 추가하려면 [[!
 
    {style="table-layout:auto"}
 
-[advanced-settings]: #change-advanced-settings
-[button-container]: #change-settings-for-a-button-container
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,7 +3,7 @@ title: Google 사이트 도구
 description: 콘텐츠를 최적화하고, 트래픽을 분석하고, 카탈로그를 쇼핑 집계자 및 마켓플레이스에 연결하는 데 사용할 수 있는 Google 도구 통합에 대해 알아봅니다.
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### 1단계: Google 설정 업데이트
 
-1. 회사의 Google Analytics 계정에 [로그인][1]{: target="_blank"}.
+1. 회사의 Google Analytics 계정에 [로그인](https://www.google.com/analytics/){: target="_blank"}.
 
 1. 왼쪽 사이드바 아래에서 **[!UICONTROL Admin]**&#x200B;을(를) 선택한 다음 편집할 계정으로 이동합니다(해당하는 경우).
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. _데이터 처리 수정_&#x200B;에 동의합니다.
 
-   Google 광고 데이터 처리 약관은 Google에서 데이터를 처리하는 방법과 GDPR의 적용을 받는 비즈니스의 데이터 보안을 보장하기 위해 취하는 조치를 설명합니다. 또한 법인과 연락처 정보에 대한 기록이 개정과 함께 유지됩니다. [자세히 알아보기][2]{: target="_blank"}하려면 페이지 상단의 메시지에서 링크를 클릭하십시오.
+   Google 광고 데이터 처리 약관은 Google에서 데이터를 처리하는 방법과 GDPR의 적용을 받는 비즈니스의 데이터 보안을 보장하기 위해 취하는 조치를 설명합니다. 또한 법인과 연락처 정보에 대한 기록이 개정과 함께 유지됩니다. [자세히 알아보기](https://support.google.com/analytics/answer/3379636){: target="_blank"}하려면 페이지 상단의 메시지에서 링크를 클릭하십시오.
 
    - 페이지를 아래로 스크롤하여 **[!UICONTROL Data Processing Amendment]**(으)로 이동합니다.
    - **[!UICONTROL Review Amendment]** Google 광고 데이터 처리 용어&#x200B;_를 읽으려면_&#x200B;을(를) 클릭하십시오.
@@ -80,7 +80,7 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-자세한 내용은 Google 도움말의 [Analytics.js 필드 참조][3]{: target="_blank"}를 참조하세요.
+자세한 내용은 Google 도움말의 [Analytics.js 필드 참조](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference){: target="_blank"}를 참조하세요.
 
 기존 `ga.js` 라이브러리를 사용하는 경우 다음 코드 조각을 추가합니다.
 
@@ -98,7 +98,7 @@ gtag.js
 : `gtag('event', 'your_event', { 'anonymize_ip': true })`
 ```
 
-자세한 내용은 Google 도움말의 [Analytics에서 IP 익명화][4]를 참조하십시오.
+자세한 내용은 Google 도움말의 [Analytics에서 IP 익명화](https://support.google.com/analytics/answer/2763052)를 참조하십시오.
 
 #### SSL 강제 적용
 
@@ -118,8 +118,3 @@ analytics.js
 - 개인 정보를 숨기기 위해 IP 주소 마스크
 - 이(가) Google 데이터 공유를 해제함
 - Google Analytics 쿠키와 함께 다른 Google 서비스를 사용하지 않음
-
-[1]: https://www.google.com/analytics/
-[2]: https://support.google.com/analytics/answer/3379636
-[3]: https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference
-[4]: https://support.google.com/analytics/answer/2763052

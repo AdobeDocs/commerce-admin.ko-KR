@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
 description: Commerce 관리자의 [!UICONTROL General] &gt; [!UICONTROL Web] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -18,12 +18,12 @@ ht-degree: 0%
 
 ![웹 > 일반 옵션](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 필드 | 범위 | 설명 |
 |  ---  |  ---  |  ---  |
 | [!UICONTROL Add Store Code to URLs] | 글로벌 | 웹 서버 재작성을 사용하도록 설정한 경우 에서는 현재 보기의 스토어 코드를 URL에 삽입합니다. 옵션: `Yes` / `No`. <br />이 필드를 `Yes`(으)로 설정하면 URL 다시 쓰기가 올바르게 매핑되고 모든 페이지가 성공적으로 열리는지 확인하기 위해 브라우저 URL에 저장소 코드를 포함해야 합니다. _404 페이지를 찾을 수 없음_ 오류가 발생하지 않습니다. |
-| [!UICONTROL Auto-redirect to Base URL] | 스토어 뷰 | (단일 스토어 설정의 경우) 사이트에 끊어진 링크가 있으면 은 트래픽을 &quot;404 페이지를 찾을 수 없음&quot; 메시지가 있는 페이지가 아닌 기본 URL로 리디렉션합니다. 옵션:` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_중요:_**&#x200B;다중 스토어 설정의 기본 URL로 자동 리디렉션을 사용하지 마십시오. |
+| [!UICONTROL Auto-redirect to Base URL] | 스토어 뷰 | (단일 스토어 설정의 경우) 사이트에 끊어진 링크가 있으면 은 트래픽을 &quot;404 페이지를 찾을 수 없음&quot; 메시지가 있는 페이지가 아닌 기본 URL로 리디렉션합니다. 옵션:` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_Important:_** 다중 스토어 설정의 기본 URL로 자동 리디렉션을 사용하지 마십시오. |
 | [!UICONTROL Catalog media URL format] | 글로벌 | 제품 및 범주에 할당된 [URL 형식](../../catalog/catalog-urls.md)을(를) 정의합니다. 옵션: 이미지 변형당 고유 해시(레거시 모드) 변환된 파일 이름을 고유한 해시 값으로 정의합니다. 쿼리 매개 변수를 기반으로 한 이미지 최적화는 쿼리 매개 변수에 따라 [이미지 최적화](../../content-design/media-gallery-image-optimization.md) 프로세스를 정의합니다. |
 
 {style="table-layout:auto"}
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![웹 > 검색 엔진 최적화](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ![웹 > 기본 URL](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ![웹 > 기본 URL(보안)](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -69,7 +69,7 @@ ht-degree: 0%
 | [!UICONTROL Secure Base URL for User Media Files] | 스토어 뷰 | 카탈로그 이미지 및 기타 미디어 파일의 위치를 가리키는 경로입니다. 파일은 비보안 또는 보안 채널에 있을 수 있습니다. 자리 표시자는 기본 URL을 나타내는 데 사용됩니다. Commerce 설치 시 폴더 구조가 동일한 사이트가 여러 개 있는 경우 각각에 대해 서로 다른 미디어 폴더를 사용할 수 있습니다. 이렇게 하면 각 미디어 폴더를 개별적으로 백업하고 롤백할 수 있습니다. Commerce 설치 외부에 미디어 폴더를 지정할 수도 있습니다. |
 | [!UICONTROL Use Secure URLs on Storefront] | 스토어 뷰 | 도메인에 보안 인증서가 있는 경우 SSL 암호화를 사용하거나 사용하지 않고 Storefront를 실행하도록 선택할 수 있습니다. 옵션:<br />**`Yes`**- 저장소 URL은 `https`(으)로 시작하여 페이지가 암호화된 보안 프로토콜로 전달됨을 나타냅니다.<br />**`No`** - 저장소 URL은 `http`(으)로 시작하여 보안 프로토콜 없이 페이지가 전달됨을 나타냅니다. |
 | [!UICONTROL Use Secure URLs in Admin] | 글로벌 | 도메인에 보안 인증서가 있는 경우 SSL 암호화를 사용하거나 사용하지 않고 저장소 관리자를 실행하도록 선택할 수 있습니다. 옵션: <br />**`Yes`**- 페이지가 암호화된 보안 프로토콜로 제공됨을 나타내기 위해 관리자 URL이 `https`(으)로 시작됩니다.<br />**`No`** - 관리 URL은 `http`(으)로 시작하여 보안 프로토콜 없이 페이지가 전달됨을 나타냅니다.<br /> 저장소와 관리자 모두에 대해 보안 URL을 사용하도록 설정하면 `HSTS`을(를) 사용하도록 설정하고 구성하는 두 개의 추가 필드가 나타납니다. |
-| [!UICONTROL Enable HTTP Strict Transport Security (HSTS)] | 스토어 뷰 | 사용하도록 설정하면 [`HSTS`][1]에서 &quot;man in the middle&quot; 공격에 대한 보안 측정을 제공하고 사용자가 &quot;잘못된 인증서&quot; 메시지를 재정의하지 못하도록 합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable HTTP Strict Transport Security (HSTS)] | 스토어 뷰 | 사용하도록 설정하면 [`HSTS`](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html)에서 &quot;man in the middle&quot; 공격에 대한 보안 측정을 제공하고 사용자가 &quot;잘못된 인증서&quot; 메시지를 재정의하지 못하도록 합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Upgrade Insecure Requests] | 스토어 뷰 | 사용하도록 설정하면 브라우저에서 받은 비보안(`HTTP`) 요청을 보안(`HTTPS`) 프로토콜로 변환합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Offloader Header] | 글로벌 | 클라이언트와 부하 분산 장치 간의 프로토콜을 식별하기 위해 서버 구성의 `offloader_header` 값을 지정합니다. 대부분의 Commerce 설치에서는 기본값인 `X-Forwarded-Proto`(XFP)을 사용하여 프로토콜을 `HTTP` 또는 `HTTPS`(으)로 식별합니다. |
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 ![웹 > 기본 페이지](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 ![기본 레이아웃](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/design/layout/page-layout) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![웹 > 기본 쿠키 설정](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ![웹 > 세션 유효성 검사](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 ![웹 > 브라우저 기능 검색](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -150,5 +150,3 @@ ht-degree: 0%
 | [!UICONTROL Show Notice if Local Storage is Disabled] | 스토어 뷰 | 로컬 캐시가 비활성화된 경우 메시지를 표시합니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}
-
-[1]: https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html

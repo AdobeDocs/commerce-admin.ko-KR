@@ -3,10 +3,10 @@ title: Adobe Stock 이미지에 라이센스 부여
 description: 법적 액세스 권한을 확보하고 Adobe Stock 워터마크를 제거하려면 Adobe Stock 이미지에 라이선스를 부여하십시오.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 9d6dade372d4b931bec9aec9b9bfeedc3107ad1e
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 **전제 조건**
 
-Adobe Stock 라이선스 기능은 [Adobe Stock 통합](./adobe-stock.md)이 설치 및 구성된 경우에만 사용할 수 있습니다. [Adobe Stock][adobe-stock] 이미지에 라이선스를 부여하려면 유료 Adobe Stock 플랜과 [Adobe 계정][adobe-signin]이 필요합니다.
+Adobe Stock 라이선스 기능은 [Adobe Stock 통합](./adobe-stock.md)이 설치 및 구성된 경우에만 사용할 수 있습니다. [Adobe Stock](https://stock.adobe.com) 이미지에 라이선스를 부여하려면 유료 Adobe Stock 플랜과 [Adobe 계정](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)이 필요합니다.
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +47,7 @@ Adobe Stock 라이선스 기능은 [Adobe Stock 통합](./adobe-stock.md)이 설
 
    >[!NOTE]
    >
-   >이미지에 라이선스를 부여하려면 계정에서 [Adobe Stock 크레딧][stock-credits]을(를) 사용할 수 있어야 합니다.
+   >이미지에 라이선스를 부여하려면 계정에서 [Adobe Stock 크레딧](https://helpx.adobe.com/stock/help/credit-packs.html)을(를) 사용할 수 있어야 합니다.
 
 ## 표준 미디어 스토리지에서 이미지 라이센스 부여
 
@@ -63,7 +63,7 @@ Adobe Stock 라이선스 기능은 [Adobe Stock 통합](./adobe-stock.md)이 설
 
      >[!NOTE]
      >
-     >이미지에 라이선스를 부여하려면 계정에서 [Adobe Stock 크레딧][stock-credits]을(를) 사용할 수 있어야 합니다.
+     >이미지에 라이선스를 부여하려면 계정에서 [Adobe Stock 크레딧](https://helpx.adobe.com/stock/help/credit-packs.html)을(를) 사용할 수 있어야 합니다.
 
    이 작업은 이미지를 [미디어 저장소](./media-storage.md)에 저장하는 데 사용되는 파일 이름을 지정하라는 메시지를 표시합니다. 기본 파일 이름이 제공되지만 기본 설정에 따라 이름을 사용자 지정할 수 있습니다.
 
@@ -72,9 +72,3 @@ Adobe Stock 라이선스 기능은 [Adobe Stock 통합](./adobe-stock.md)이 설
 1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
    페이지가 미디어 스토리지로 리디렉션되고 저장된 미리보기가 표시됩니다.
-
-[access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
-[view-details]: adobe-stock-manage.md#view-image-details
-[stock-credits]: https://helpx.adobe.com/kr/stock/help/credit-packs.html
-[adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/kr/manage-account/using/access-adobe-id-account.html

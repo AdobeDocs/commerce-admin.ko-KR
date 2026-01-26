@@ -3,7 +3,7 @@ title: 관리자 계정
 description: 관리자 계정과 2단계 인증을 사용하여 관리자에 로그인하는 방법에 대해 알아봅니다.
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: 54fdc97156c602337c983de5fddfafd7c50a67e1
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
@@ -36,19 +36,19 @@ ht-degree: 0%
 
 ### 1단계: 이중 인증 설정
 
-스토어의 _관리자_&#x200B;에 로그인하려면 먼저 2단계 인증 솔루션을 설정하고 사용할 준비가 되어 있어야 합니다. 각 솔루션에서 사용하는 인증 프로세스에 대한 자세한 내용은 [이중 인증 사용](../systems/security-two-factor-authentication-use.md)을 참조하세요. 기본적으로 [!DNL Commerce]은(는) [Google Authenticator][1]를 지원합니다.
+스토어의 _관리자_&#x200B;에 로그인하려면 먼저 2단계 인증 솔루션을 설정하고 사용할 준비가 되어 있어야 합니다. 각 솔루션에서 사용하는 인증 프로세스에 대한 자세한 내용은 [이중 인증 사용](../systems/security-two-factor-authentication-use.md)을 참조하세요. 기본적으로 [!DNL Commerce]은(는) [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US)를 지원합니다.
 
 스토어에 대해 지원되는 2FA 솔루션을 [!DNL Commerce] 시스템 관리자에게 문의하십시오. 그런 다음 공급자의 지침에 따라 선호하는 2FA 솔루션의 설정을 완료합니다.
 
 ### 2단계: 관리자에 로그인
 
-1. [!DNL Commerce] 설치 중에 지정된 _관리자_ URL을 입력하십시오.
+1. _설치 중에 지정된_&#x200B;관리자[!DNL Commerce] URL을 입력하십시오.
 
    기본 _관리자_ URL은 `https://www.yourdomain.com/your-custom-admin-domain`과(와) 비슷합니다.
 
    >[!NOTE]
    >
-   >이 설명서는 대부분의 예에서 `admin`을(를) 기본 URL로 사용하지만 스토어의 _관리자_&#x200B;에 대해 고유하고 알아맞히기 어려운 [사용자 지정 URL](../stores-purchase/store-urls.md)을(를) 선택하는 것이 좋습니다.
+   >이 설명서는 대부분의 예에서 `admin`을(를) 기본 URL로 사용하지만 스토어의 [관리자](../stores-purchase/store-urls.md)에 대해 고유하고 알아맞히기 어려운 _사용자 지정 URL_&#x200B;을(를) 선택하는 것이 좋습니다.
 
    페이지에 책갈피를 추가하거나 바탕 화면에 바로 가기를 저장하여 쉽게 액세스할 수 있습니다.
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 계정에 할당된 마지막 4개의 암호 재사용은 허용되지 않습니다.
 
-1. _관리자_ 계정과 연결된 **[!UICONTROL Email Address]**&#x200B;을(를) 입력하십시오.
+1. **[!UICONTROL Email Address]**&#x200B;관리자&#x200B;_계정과 연결된_&#x200B;을(를) 입력하십시오.
 
    ![암호를 잊음](./assets/admin-sign-in-forgot-password.png){width="400"}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
    ![로그아웃](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Sign In]_&#x200B;페이지에 로그아웃되었다는 메시지가 표시됩니다. 컴퓨터를 무인 상태로 둘 때마다_&#x200B;관리자&#x200B;_에서 로그아웃합니다.
+_[!UICONTROL Sign In]_페이지에 로그아웃되었다는 메시지가 표시됩니다. 컴퓨터를 무인 상태로 둘 때마다_&#x200B;관리자&#x200B;_에서 로그아웃합니다.
 
 ## 계정 정보 편집
 
@@ -136,7 +136,7 @@ _[!UICONTROL Sign In]_&#x200B;페이지에 로그아웃되었다는 메시지가
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL Advanced]**&#x200B;을(를) 확장하고 **[!UICONTROL Admin]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Security]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Security]**&#x200B;를 확장합니다.
 
 1. **관리자 계정 공유**&#x200B;에 대해 `Yes`을(를) 선택하십시오.
 
@@ -150,19 +150,18 @@ _[!UICONTROL Sign In]_&#x200B;페이지에 로그아웃되었다는 메시지가
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL Advanced]**&#x200B;을(를) 확장하고 **[!UICONTROL Admin]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Security]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Security]**&#x200B;를 확장합니다.
 
 1. **[!UICONTROL Login is Case Sensitive]** 필드를 `Yes`(으)로 설정합니다.
 
 1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
-[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
 
 ## 관리자에 대한 보안 액세스 유지
 
 관리자의 보안을 보장하려면 관리자 액세스 권한이 있는 사용자 및 역할에 대해 정기적인 감사를 수행하십시오.
 
-또한 [관리 기본 URL 구성을 업데이트](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/advanced/admin#admin-base-url)하여 기본 `/admin` 끝점을 사용자 지정 경로로 변경하는 것이 좋습니다. 사용자 지정 경로를 구성하면 다음과 같은 보안 이점이 있습니다.
+또한 [관리 기본 URL 구성을 업데이트](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url)하여 기본 `/admin` 끝점을 사용자 지정 경로로 변경하는 것이 좋습니다. 사용자 지정 경로를 구성하면 다음과 같은 보안 이점이 있습니다.
 
 **향상된 보안**: 기본 &quot;관리자&quot; 경로는 널리 알려져 있으며 악의적인 행위자가 무차별 강제 공격을 시도하는 경우가 많습니다. 고유한 사용자 지정 값으로 변경함으로써 무단 액세스 시도 위험을 크게 줄일 수 있습니다.
 
@@ -174,4 +173,4 @@ _[!UICONTROL Sign In]_&#x200B;페이지에 로그아웃되었다는 메시지가
 
 >[!NOTE]
 >
->위반이 의심되는 경우 알 수 없는 모든 관리자 사용자를 제거하고 모든 관리자 암호를 재설정하고 [보안 작업 계획](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security)을 검토하여 추가 단계를 검토하십시오.
+>위반이 의심되는 경우 알 수 없는 모든 관리자 사용자를 제거하고 모든 관리자 암호를 재설정하고 [보안 작업 계획](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security)을 검토하여 추가 단계를 검토하십시오.

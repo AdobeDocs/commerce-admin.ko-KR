@@ -3,9 +3,9 @@ title: PCI 규정 준수 지침
 description: 인터넷을 통해 신용 카드로 결제하는 비즈니스의 PCI(Payment Card Industry) 요구 사항에 대한 정보를 검토하십시오.
 exl-id: b9fff131-bea3-4d7a-bbf7-e98b284387d3
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ PCI(Payment Card Industry)는 인터넷을 통해 신용 카드로 결제할 수
 
 ![checkbox](../assets/checkbox.png) - 시스템 암호 및 기타 보안 매개 변수에 대해 공급업체에서 제공한 기본값을 사용하지 마십시오.
 
-![checkbox](../assets/checkbox.png) - Protect이 카드 소지자 데이터를 저장했습니다.
+![checkbox](../assets/checkbox.png) - 저장된 카드 소지자 데이터를 보호합니다.
 
 ![checkbox](../assets/checkbox.png) - 개방형 공용 네트워크를 통한 카드 소지자 데이터 전송을 암호화합니다.
 
@@ -40,13 +40,10 @@ PCI(Payment Card Industry)는 인터넷을 통해 신용 카드로 결제할 수
 
 ![checkbox](../assets/checkbox.png) - 정보 보안을 다루는 정책을 관리합니다.
 
-자세한 내용은 [PCI 규정 준수에 대한 Adobe 방법][1]{:target=&quot;_blank&quot;}을 참조하십시오.
+자세한 내용은 [PCI 규정 준수에 대한 Adobe 접근 방식](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}을 참조하세요.
 
 >[!NOTE]
 >
 >이 콘텐츠는 정보 제공 목적으로만 사용되며 법률적인 조언으로 해석되어서는 안 됩니다. 비즈니스가 법적 의무를 준수하는지 여부 및 방법을 결정하려면 법률 고문과 상의하십시오.
 
-비즈니스 규모가 커지면 매년 규정 준수 보고서를 제출해야 할 수도 있습니다. 가맹점 수준에 비례해 PCI 신고 요건이 늘어나지만 연간 2만건 이하의 신용카드 거래를 처리하는 사업자에 대해서는 면제된다. 자세한 내용은 [PCI 보안 표준 위원회][2] 웹 사이트를 참조하십시오.
-
-[1]: https://business.adobe.com/kr/products/magento/pci-compliance.html
-[2]: https://www.pcisecuritystandards.org/index.php
+비즈니스 규모가 커지면 매년 규정 준수 보고서를 제출해야 할 수도 있습니다. 가맹점 수준에 비례해 PCI 신고 요건이 늘어나지만 연간 2만건 이하의 신용카드 거래를 처리하는 사업자에 대해서는 면제된다. 자세한 내용은 [PCI 보안 표준 위원회](https://www.pcisecuritystandards.org/index.php) 웹 사이트를 참조하십시오.

@@ -3,24 +3,24 @@ title: Google AdWords
 description: 판매 또는 기타 중요한 작업으로 이어지는 광고 클릭을 측정하기 위해 Google AdWords 전환 추적을 위해 Commerce 스토어를 구성하는 방법에 대해 알아봅니다.
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
 # Google AdWords
 
-[Google AdWords][1]은(는) Google 검색 결과와 Google Display Network의 회사 페이지에 광고를 배치하는 데 사용할 수 있는 서비스입니다. AdWords 대시보드에는 캠페인을 관리하고, 응답을 추적하고, 결과를 측정하는 도구가 포함되어 있습니다.
+[Google AdWords](https://www.google.com/adwords/)은(는) Google 검색 결과와 Google Display Network의 회사 페이지에 광고를 배치하는 데 사용할 수 있는 서비스입니다. AdWords 대시보드에는 캠페인을 관리하고, 응답을 추적하고, 결과를 측정하는 도구가 포함되어 있습니다.
 
-전환 추적은 판매 또는 기타 중요한 작업으로 이어지는 광고 클릭 수를 보여줍니다. 주문이 제출된 후 고객에게 표시되는 _성공_ 페이지는 판매 후에만 표시되므로 전환을 추적하는 데 사용됩니다. 스토어에 대한 Google AdWords 구성을 완료한 후에는 Commerce에 이미 필요한 정보가 있으므로 전환 추적 스크립트를 성공 페이지에 복사할 필요가 없습니다. 자세한 내용은 [Google AdWords 도움말][2]을 참조하세요.
+전환 추적은 판매 또는 기타 중요한 작업으로 이어지는 광고 클릭 수를 보여줍니다. 주문이 제출된 후 고객에게 표시되는 _성공_ 페이지는 판매 후에만 표시되므로 전환을 추적하는 데 사용됩니다. 스토어에 대한 Google AdWords 구성을 완료한 후에는 Commerce에 이미 필요한 정보가 있으므로 전환 추적 스크립트를 성공 페이지에 복사할 필요가 없습니다. 자세한 내용은 [Google AdWords 도움말](https://support.google.com/adwords/answer/6095821)을 참조하세요.
 
-![Google 검색 결과에서 광고 Adobe](./assets/google-adwords-adobe-ad.png){width="500"}
+![Google 검색 결과의 Adobe 광고](./assets/google-adwords-adobe-ad.png){width="500"}
 
 ## 1단계. Google AdWords 캠페인 만들기
 
-1. [Google AdWords][3]을(를) 방문하여 계정에 등록하십시오.
+1. [Google AdWords](https://ads.google.com/)을(를) 방문하여 계정에 등록하십시오.
 
 1. 지침에 따라 캠페인을 만듭니다.
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Google API]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Google AdWords]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Google AdWords]**&#x200B;를 확장하고 다음을 수행합니다.
 
    - **[!UICONTROL Enable]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -90,7 +90,7 @@ ht-degree: 0%
       - `2` - Google 추적에 대한 추가 정보에 대한 링크가 있는 두 줄 알림을 표시합니다.
       - `3` - 고객 알림을 표시하지 않습니다.
 
-   - Google 사이트 상태 알림 레이블에 사용할 **[!UICONTROL Conversion Color]**&#x200B;에 대한 [16진수 코드][4]{:target=&quot;_blank&quot;}를 입력합니다.
+   - Google 사이트 상태 알림 레이블에 사용할 [에 대한 ](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"}16진수 코드&#x200B;**[!UICONTROL Conversion Color]**&#x200B;을(를) 입력하십시오.
 
    - Google Sites 상태 알림에 나타나는 **[!UICONTROL Conversion Label]**&#x200B;에 대한 암호화된 텍스트를 입력합니다.
 
@@ -125,15 +125,10 @@ ht-degree: 0%
    - `Dynamic` - 동적 주문 금액 값을 기반으로 전환이 발생했는지 확인합니다.
    - `Constant` - 입력된 특정 값을 기준으로 전환이 발생했는지 확인합니다.
 
-   _상수_ 전환 값 형식의 경우 _[!UICONTROL Order Amount]_&#x200B;에 대한 특정&#x200B;**[!UICONTROL Value]**&#x200B;을(를) 입력하여 전환으로 정규화하십시오.
+   _상수_ 전환 값 형식의 경우 **[!UICONTROL Value]**&#x200B;에 대한 특정 _[!UICONTROL Order Amount]_을(를) 입력하여 전환으로 정규화하십시오.
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
 ## 4단계. 구성 확인
 
 몇 시간 안에 Google AdWords 대시보드의 추적 상태가 `Unverified`에서 `No recent conversions` 또는 `Recording conversions`(으)로 변경됩니다. 누군가 광고를 클릭하여 구매하면 대시보드 및 캠페인 보고서의 전환 작업 페이지에 전환이 표시됩니다.
-
-[1]: https://www.google.com/adwords/
-[2]: https://support.google.com/adwords/answer/6095821
-[3]: https://ads.google.com/
-[4]: https://www.w3schools.com/colors/colors_picker.asp

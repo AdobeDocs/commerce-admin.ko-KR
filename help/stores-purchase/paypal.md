@@ -3,8 +3,8 @@ title: PayPal 결제 솔루션
 description: 스토어에 사용할 수 있는 PayPal 결제 솔루션 통합에 대해 알아봅니다.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -22,7 +22,7 @@ PayPal은 온라인 결제 분야의 글로벌 리더이며 고객이 온라인�
 
 ## PayPal 비즈니스 계정
 
-스토어에서 결제 방법으로 PayPal을 제공하려면 PayPal [비즈니스 계정][1] 및/또는 [PayPal 결제 계정][2]이 있어야 합니다. 계정 요구 사항은 각 PayPal 솔루션의 설명에 명시되어 있습니다. PayPal 판매자 계정은 상점에서 구매한 항목에 적용되는 [사기 필터](#paypal-fraud-management-filters)를 관리하는 데에도 사용됩니다.
+스토어에서 결제 방법으로 PayPal을 제공하려면 PayPal [비즈니스 계정](https://manager.paypal.com/) 및/또는 [PayPal 결제 계정](https://developer.paypal.com/docs/payflow/payflow-gateway/)이 있어야 합니다. 계정 요구 사항은 각 PayPal 솔루션의 설명에 명시되어 있습니다. PayPal 판매자 계정은 상점에서 구매한 항목에 적용되는 [사기 필터](#paypal-fraud-management-filters)를 관리하는 데에도 사용됩니다.
 
 Payflow Pro용 PayPal Express Checkout 또는 Express Checkout을 사용하는 고객은 PayPal 구매자 계정이 있어야 합니다. 판매자가 _PayPal 계정 선택 사항_&#x200B;을 사용하도록 설정하면 PayPal 결제 표준(일부 국가의 웹 사이트 결제 표준)을 직접 사용하거나 구매자 계정을 통해 사용할 수 있습니다. 기본적으로 이 매개변수를 활성화하여 고객이 신용 카드 정보를 입력하거나 PayPal을 사용하여 구매자 계정을 만들 수 있습니다. 비활성화되면 고객은 구매하기 전에 먼저 PayPal 구매자 계정을 만들어야 합니다.
 
@@ -30,7 +30,7 @@ Website Payments Pro, Website Payments Pro Payflow Edition, Payflow Pro Gateway 
 
 ## PayPal 크레딧 및 PayLater
 
-PayPal PayLater는 고객에게 신속한 금융 서비스를 제공하므로 고객에게 추가 비용 없이 지금 구매하고 시간 경과에 따라 결제할 수 있습니다. 고객이 PayPal Credit 옵션을 선택할 때는 요금이 부과되지 않으며, 일반 PayPal 거래 수수료만 지불합니다. 자세한 내용은 [PayPal 웹 사이트][3]를 참조하세요.
+PayPal PayLater는 고객에게 신속한 금융 서비스를 제공하므로 고객에게 추가 비용 없이 지금 구매하고 시간 경과에 따라 결제할 수 있습니다. 고객이 PayPal Credit 옵션을 선택할 때는 요금이 부과되지 않으며, 일반 PayPal 거래 수수료만 지불합니다. 자세한 내용은 [PayPal 웹 사이트](https://www.paypal.com/us/business/buy-now-pay-later)를 참조하세요.
 
 당신이 융자를 광고할 때 당신의 매출을 증대시키세요. PayPal은 PayPal PayLater로 자금을 조달하여 브라우저를 구매자로 전환하도록 도와줍니다. 고객은 추가 비용 없이 선불로 지불하는 동안 시간이 지남에 따라 비용을 지불할 수 있습니다. PayPal 무료 배너 광고를 사용하여 고객이 PayPal로 체크아웃할 때 결제 옵션으로 PayPal 금융을 광고합니다. PayPal Advertising 프로그램은 추가 구매를 생성하고 평균 구매 크기를 15% 이상 증가시키는 것으로 나타났습니다.
 
@@ -40,7 +40,7 @@ PayPal PayLater는 고객에게 신속한 금융 서비스를 제공하므로 �
 >
 >2.4.3 릴리스부터 PayPal PayLater는 PayPal이 포함된 배포에서 지원됩니다. 이 기능을 통해 구매자는 구매 시 전체 금액을 지불하는 대신 2주 단위로 주문 금액을 지불하는 것이 가능하다. PayPal 크레딧 경험은 더 이상 사용되지 않습니다.
 
-미국 판매자의 경우 [PayPal Express 체크아웃](paypal-express-checkout.md) 결제 옵션에 대해 PayPal 크레딧이 기본적으로 활성화됩니다. 이 결제 방법에 대해 사용하지 않도록 설정하려면 [PayPal Express 체크아웃 구성](paypal-express-checkout.md#features)의 _기능_ 섹션을 참조하세요.
+미국 판매자의 경우 [PayPal Express 체크아웃](paypal-express-checkout.md) 결제 옵션에 대해 PayPal 크레딧이 기본적으로 활성화됩니다. 이 결제 방법에 대해 사용하지 않도록 설정하려면 _PayPal Express 체크아웃 구성_&#x200B;의 [기능](paypal-express-checkout.md#features) 섹션을 참조하세요.
 
 PayPal 크레딧은 다른 PayPal 결제 솔루션에 대해 기본적으로 비활성화되지만, 지원 솔루션에 대한 결제 방법 구성에서 활성화할 수 있습니다.
 
@@ -100,10 +100,10 @@ PayPal은 귀사의 비즈니스를 위한 두 가지 지불 게이트웨이 솔
 
 PayPal 사기 행위 관리 필터를 사용하면 사기성 거래를 보다 쉽게 감지하고 대응할 수 있으며, 더 위험한 지불에 대해 플래그 지정, 검토 보류 또는 거부하도록 구성할 수 있습니다. Commerce [주문 상태](order-status.md) 값과 관련된 작업이 사기 행위 필터 설정에 따라 변경되었습니다.
 
-| 작업 | 결과 |
+| 액션 | 결과 |
 | --- | --- |
 | [!UICONTROL Review] | 의심되는 주문은 주문 시 _결제 검토_ 상태를 받습니다. 관리자 또는 PayPal 측에서 주문을 검토하고 결제를 승인하거나 취소할 수 있습니다. **[!UICONTROL Accept Payment]** 또는 **[!UICONTROL Deny Payment]**&#x200B;을(를) 클릭하면 주문에 대한 새 트랜잭션이 만들어지지 않습니다. <br/><br/>PayPal 사이트에서 거래 상태를 변경하는 경우 관리자의 [순서] 페이지에서 **[!UICONTROL Get Payment Update]**&#x200B;을 클릭하여 변경 내용을 적용해야 합니다. **[!UICONTROL Accept Payment]** 또는 **[!UICONTROL Deny Payment]**&#x200B;을(를) 클릭하면 PayPal 사이트에서 변경한 내용이 적용됩니다. |
-| [!UICONTROL Deny] | 해당 거래는 페이팔에서 거부되기 때문에 고객이 의심 주문을 할 수 없습니다. <br/><br/>관리자의 결제를 거부하려면 페이지의 오른쪽 상단에 있는 **[!UICONTROL Deny Payment]**&#x200B;을(를) 클릭하십시오. 주문 상태가 `Canceled`(으)로 변경되고 거래가 취소되며 고객 계정에서 자금이 해제됩니다. 주문 보기의 _[!UICONTROL Comments History]_&#x200B;섹션에 해당 정보가 추가됩니다. |
+| [!UICONTROL Deny] | 해당 거래는 페이팔에서 거부되기 때문에 고객이 의심 주문을 할 수 없습니다. <br/><br/>관리자의 결제를 거부하려면 페이지의 오른쪽 상단에 있는 **[!UICONTROL Deny Payment]**&#x200B;을(를) 클릭하십시오. 주문 상태가 `Canceled`(으)로 변경되고 거래가 취소되며 고객 계정에서 자금이 해제됩니다. 주문 보기의 _[!UICONTROL Comments History]_섹션에 해당 정보가 추가됩니다. |
 | [!UICONTROL Flag] | 의심되는 주문이 배치되면 상태 `Processing`을(를) 가져옵니다. 해당 거래는 머천트 계좌 거래 목록에 플래그로 표시되어 있다. |
 
 {style="table-layout:auto"}
@@ -185,8 +185,3 @@ PayPal Express 체크아웃 및 PayPal 웹사이트 결제 표준은 다음 국�
 - 우루과이
 - 베네수엘라
 - 베트남
-
-
-[1]: https://manager.paypal.com/
-[2]: https://developer.paypal.com/docs/payflow/payflow-gateway/
-[3]: https://www.paypal.com/us/business/buy-now-pay-later

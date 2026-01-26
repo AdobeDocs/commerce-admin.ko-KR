@@ -3,9 +3,9 @@ title: 요소 - HTML 코드
 description: ' [!DNL Page Builder] 스테이지에서 HTML, CSS 및 JavaScript 코드의 조각을 추가하는 데 사용되는 HTML 코드 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ _HTML 코드_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](work
 
 ## HTML 코드 추가
 
-다음 예제에서는 [Google Font][1] 코드를 포함하고 현재 스타일시트를 재정의하는 사용자 지정 제목 클래스를 선언하는 방법을 보여 줍니다.
+다음 예제에서는 [Google Font](https://fonts.google.com/) 코드를 포함하고 현재 스타일시트를 재정의하는 사용자 지정 제목 클래스를 선언하는 방법을 보여 줍니다.
 
 ### 1단계: Google 글꼴 선택
 
-1. [Google 글꼴][1] 사이트를 방문하여 사용할 글꼴 모음을 선택하십시오.
+1. [Google 글꼴](https://fonts.google.com/) 사이트를 방문하여 사용할 글꼴 모음을 선택하십시오.
 
 1. 페이지의 `<head>` 섹션에 포함할 생성된 코드를 복사하여 임시로 텍스트 편집기에 붙여 넣습니다.
 
@@ -84,13 +84,13 @@ _HTML 코드_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](work
 
 ### 3단계: 페이지 미리보기
 
-1. _[!UICONTROL Currently Active]_&#x200B;섹션에서&#x200B;**[!UICONTROL Enable Page]**&#x200B;을(를) `Yes`(으)로 설정합니다.
+1. _[!UICONTROL Currently Active]_섹션에서&#x200B;**[!UICONTROL Enable Page]**을(를) `Yes`(으)로 설정합니다.
 
    ![페이지 사용](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
-1. 그리드에서 페이지를 찾은 다음 **[!UICONTROL View]** 열에서 _[!UICONTROL Actions]_&#x200B;을(를) 선택합니다.
+1. 그리드에서 페이지를 찾은 다음 **[!UICONTROL View]** 열에서 _[!UICONTROL Actions]_을(를) 선택합니다.
 
    ![새 글꼴 패밀리로 페이지 머리글을 미리 봅니다](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
@@ -110,7 +110,7 @@ _HTML 코드_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](work
    | 이미지 삽입... | 업로드된 이미지 또는 갤러리의 이미지를 HTML 텍스트 상자의 커서 위치에 삽입하려면 를 클릭합니다. |
    | 변수 삽입... | 를 클릭하여 HTML 텍스트 상자의 커서 위치에 변수를 삽입합니다. |
 
-1. 필요에 따라 _[!UICONTROL Advanced]_&#x200B;설정을 업데이트합니다.
+1. 필요에 따라 _[!UICONTROL Advanced]_설정을 업데이트합니다.
 
    - 상위 컨테이너 내에서 코드 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하십시오.
 
@@ -163,6 +163,5 @@ _HTML 코드_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](work
      | [!UICONTROL Margins] | 컨테이너의 모든 면 바깥쪽 가장자리에 적용되는 빈 공간의 양입니다. 옵션: `Top` / `Right` / `Bottom` / `Left` |
      | [!UICONTROL Padding] | 컨테이너의 모든 측면 안쪽 가장자리에 적용되는 빈 공간의 양입니다. 옵션: `Top` / `Right` / `Bottom` / `Left` |
 
-[1]: https://fonts.google.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->
