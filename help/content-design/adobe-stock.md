@@ -3,10 +3,10 @@ title: Adobe Stock 통합
 description: Adobe Stock을  [!DNL Commerce] 인스턴스와 통합하여 스토어에서 사용할 수 있는 수많은 미디어 자산에 액세스합니다.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 9aec049cfaa12f342d66f45a75af0ce50a23c2c8
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Adobe Stock 서비스는 기업에게 모든 광고 프로젝트를 위해 고�
 
 Adobe Stock 이미지에 라이선스를 부여하려면 다음 작업을 수행하십시오.
 
-- [Adobe 계정](https://helpx.adobe.com/kr/manage-account/using/access-adobe-id-account.html)
+- [Adobe 계정](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
 - 계정과 연결된 유료 [Adobe Stock](https://stock.adobe.com) 플랜
 
 ## [!DNL Commerce]과(와) Adobe Stock 통합
@@ -42,9 +42,9 @@ Adobe Commerce에 대한 Adobe Stock 통합 구성은 두 단계 프로세스입
 
 1. [Adobe Developer Console](https://developer.adobe.com/console/home)&#x200B;(으)로 이동합니다.
 
-1. _[!UICONTROL Quick Start]_&#x200B;에서&#x200B;**[!UICONTROL Create new project]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Quick Start]_에서&#x200B;**[!UICONTROL Create new project]**을(를) 클릭합니다.
 
-1. _[!UICONTROL Project overview]_&#x200B;블록에서&#x200B;**[!UICONTROL Add API]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Project overview]_블록에서&#x200B;**[!UICONTROL Add API]**을(를) 클릭합니다.
 
 1. 통합 목록에서 **[!UICONTROL Adobe Stock]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
@@ -62,7 +62,7 @@ Adobe Commerce에 대한 Adobe Stock 통합 구성은 두 단계 프로세스입
    - 모든 마침표(`.`)는 두 개의 백슬래시(`\\`)로 이스케이프해야 합니다.
    - 패턴 끝에 `.*`을(를) 추가합니다.
 
-   이전 기본 리디렉션 URI의 예제를 사용하면 `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`이(가) 됩니다.
+   이전 기본 리디렉션 URI의 예제를 사용하면 패턴은 `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`이(가) 됩니다.
 
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
