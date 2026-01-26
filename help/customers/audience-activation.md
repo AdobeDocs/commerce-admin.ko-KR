@@ -164,12 +164,12 @@ _2023년 3월 31일_
 
 - Adobe Commerce 버전 2.4.4 이상 설치
 - Real-Time CDP의 대상으로 Adobe Commerce [활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html)
-- 관리자에서 [ 확장을 ](#install-the-extension)설치[!DNL Audience Activation]
-- 관리에서 [ 확장을 ](#configure-the-extension)구성[!DNL Audience Activation]
+- 관리자에서 [&#x200B; 확장을 &#x200B;](#install-the-extension)설치[!DNL Audience Activation]
+- 관리에서 [&#x200B; 확장을 &#x200B;](#configure-the-extension)구성[!DNL Audience Activation]
 
 ### 확장 설치
 
-[!DNL Audience Activation]marketplace[에서 ](https://commercemarketplace.adobe.com/magento-audiences.html) 확장을 설치하거나 다음 명령을 실행하십시오.
+[!DNL Audience Activation]marketplace[에서 &#x200B;](https://commercemarketplace.adobe.com/magento-audiences.html) 확장을 설치하거나 다음 명령을 실행하십시오.
 
 ```bash
 composer require magento/audiences
@@ -187,11 +187,11 @@ composer require magento/audiences
 
 1. **[!UICONTROL Datastream ID]** 필드에 Adobe Commerce을 Real-Time CDP의 대상으로 [활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters)할 때 만든 데이터 스트림의 ID를 붙여넣습니다.
 
-   이 데이터 스트림은 Commerce 웹 사이트의 데이터를 Real-Time CDP으로 전송하여 쇼핑객이 대상자에 속하는지 확인합니다. 아직 데이터 스트림을 만들지 않은 경우 Experience Platform에서 [만들기](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create)하고, Real-Time CDP의 Commerce 대상과 관리자의 [](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) 확장에 [[!DNL Data Connection]추가](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection)합니다.
+   이 데이터 스트림은 Commerce 웹 사이트의 데이터를 Real-Time CDP으로 전송하여 쇼핑객이 대상자에 속하는지 확인합니다. 아직 데이터 스트림을 만들지 않은 경우 Experience Platform에서 [만들기](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create)하고, Real-Time CDP의 Commerce 대상과 관리자의 [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) 확장에 [[!DNL Data Connection]추가](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection)합니다.
 
    >[!NOTE]
    >
-   >데이터 스트림 ID를 지정할 때 [ 확장에서 ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection)특정 웹 사이트에 연결[!DNL Data Connection]합니다. Commerce 스토어에 여러 개의 웹 사이트가 있는 경우 Real-Time CDP의 각 웹 사이트에 대해 [대상을 만들고](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) 각각에 대해 다른 데이터 스트림 ID를 사용하십시오.
+   >데이터 스트림 ID를 지정할 때 [&#x200B; 확장에서 &#x200B;](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection)특정 웹 사이트에 연결[!DNL Data Connection]합니다. Commerce 스토어에 여러 개의 웹 사이트가 있는 경우 Real-Time CDP의 각 웹 사이트에 대해 [대상을 만들고](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) 각각에 대해 다른 데이터 스트림 ID를 사용하십시오.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
@@ -337,7 +337,7 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 }
 ```
 
-`dynamicBlocks`개발자 설명서[에서 ](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/) GraphQL 쿼리에 대해 자세히 알아보세요.
+`dynamicBlocks`개발자 설명서[에서 &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/) GraphQL 쿼리에 대해 자세히 알아보세요.
 
 ## Adobe Experience Platform Mobile SDK을 사용하여 대상자 검색
 
