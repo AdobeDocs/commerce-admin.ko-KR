@@ -3,7 +3,7 @@ title: Adobe Stock 통합
 description: Adobe Stock을  [!DNL Commerce] 인스턴스와 통합하여 스토어에서 사용할 수 있는 수많은 미디어 자산에 액세스합니다.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '399'
@@ -28,7 +28,7 @@ Adobe Stock 서비스는 기업에게 모든 광고 프로젝트를 위해 고�
 
 Adobe Stock 이미지에 라이선스를 부여하려면 다음 작업을 수행하십시오.
 
-- [Adobe 계정](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- [Adobe 계정](https://helpx.adobe.com/kr/manage-account/using/access-adobe-id-account.html)
 - 계정과 연결된 유료 [Adobe Stock](https://stock.adobe.com) 플랜
 
 ## [!DNL Commerce]과(와) Adobe Stock 통합

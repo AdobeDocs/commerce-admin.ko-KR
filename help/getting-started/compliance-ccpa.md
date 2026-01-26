@@ -111,8 +111,8 @@ GDPR을 준수하는 기업은 CCPA에 따라 추가적인 의무가 있을 수 
 
 1. 각 버전에 적용할 수 있는 데이터 흐름 다이어그램 및 데이터베이스 엔티티 매핑에 대해서는 다음 항목을 참조하십시오.
 
-   - [개인 정보 참조(2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-   - [개인 정보 참조(1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+   - [개인 정보 참조(2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=ko)
+   - [개인 정보 참조(1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=ko)
 
    ![다이어그램](./assets/privacy-frontend-diagram.svg)
 

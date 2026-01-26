@@ -161,7 +161,7 @@ _[!UICONTROL Sign In]_&#x200B;페이지에 로그아웃되었다는 메시지가
 
 관리자의 보안을 보장하려면 관리자 액세스 권한이 있는 사용자 및 역할에 대해 정기적인 감사를 수행하십시오.
 
-또한 [관리 기본 URL 구성을 업데이트](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url)하여 기본 `/admin` 끝점을 사용자 지정 경로로 변경하는 것이 좋습니다. 사용자 지정 경로를 구성하면 다음과 같은 보안 이점이 있습니다.
+또한 [관리 기본 URL 구성을 업데이트](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/advanced/admin#admin-base-url)하여 기본 `/admin` 끝점을 사용자 지정 경로로 변경하는 것이 좋습니다. 사용자 지정 경로를 구성하면 다음과 같은 보안 이점이 있습니다.
 
 **향상된 보안**: 기본 &quot;관리자&quot; 경로는 널리 알려져 있으며 악의적인 행위자가 무차별 강제 공격을 시도하는 경우가 많습니다. 고유한 사용자 지정 값으로 변경함으로써 무단 액세스 시도 위험을 크게 줄일 수 있습니다.
 
@@ -173,4 +173,4 @@ _[!UICONTROL Sign In]_&#x200B;페이지에 로그아웃되었다는 메시지가
 
 >[!NOTE]
 >
->위반이 의심되는 경우 알 수 없는 모든 관리자 사용자를 제거하고 모든 관리자 암호를 재설정하고 [보안 작업 계획](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security)을 검토하여 추가 단계를 검토하십시오.
+>위반이 의심되는 경우 알 수 없는 모든 관리자 사용자를 제거하고 모든 관리자 암호를 재설정하고 [보안 작업 계획](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security)을 검토하여 추가 단계를 검토하십시오.

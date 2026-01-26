@@ -40,7 +40,7 @@ PCI(Payment Card Industry)는 인터넷을 통해 신용 카드로 결제할 수
 
 ![checkbox](../assets/checkbox.png) - 정보 보안을 다루는 정책을 관리합니다.
 
-자세한 내용은 [PCI 규정 준수에 대한 Adobe 접근 방식](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}을 참조하세요.
+자세한 내용은 [PCI 규정 준수에 대한 Adobe 접근 방식](https://business.adobe.com/kr/products/magento/pci-compliance.html){:target="_blank"}을 참조하세요.
 
 >[!NOTE]
 >

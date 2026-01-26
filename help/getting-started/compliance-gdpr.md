@@ -47,6 +47,6 @@ GDPR을 준수하는 기업은 CCPA에 따라 추가적인 의무가 있을 수 
 
 - 투명성 유지 및 철저한 문서화 유지.
 
-- Adobe을 통해 판매자가 관련 법적 의무를 준수하는 방법을 알아보려면 [웹 사이트](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}를 방문하세요.
+- Adobe을 통해 판매자가 관련 법적 의무를 준수하는 방법을 알아보려면 [웹 사이트](https://business.adobe.com/kr/privacy/general-data-protection-regulation.html){:target="_blank"}를 방문하세요.
 
-- 데이터 흐름 다이어그램 및 데이터베이스 엔터티 매핑에 대해서는 [개인 정보 참조](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}를 참조하십시오.
+- 데이터 흐름 다이어그램 및 데이터베이스 엔터티 매핑에 대해서는 [개인 정보 참조](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=ko){: target="_blank"}를 참조하십시오.

@@ -3,7 +3,7 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Advanced Reporting]'
 description: Commerce 관리자의 [!UICONTROL General] &gt; [!UICONTROL Advanced Reporting] 페이지에서 구성 설정을 검토하십시오.
 exl-id: 3f6311c8-3849-4608-8f2c-64359bd3edbc
 feature: Configuration, Commerce Intelligence
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '109'
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_&#x200B;은(는) [Adobe Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html){:target="_blank"}에서 제공하는 클라우드 기반 서비스입니다. 자세한 내용은 [시작 안내서](https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting){:target="_blank"}의_&#x200B;고급 보고&#x200B;_를 참조하십시오.
+_[!DNL Advanced Reporting]_&#x200B;은(는) [Adobe Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=ko){:target="_blank"}에서 제공하는 클라우드 기반 서비스입니다. 자세한 내용은 [시작 안내서](https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html?lang=ko#advanced-reporting){:target="_blank"}의_&#x200B;고급 보고&#x200B;_를 참조하십시오.
 
 ![고급 보고](./assets/advanced-reporting.png)<!-- zoom -->
 
-<!-- [Advanced Reporting](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
+<!-- [Advanced Reporting](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

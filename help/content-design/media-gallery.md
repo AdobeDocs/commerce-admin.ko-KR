@@ -3,7 +3,7 @@ title: ' [!DNL Media Gallery]'
 description: 미디어 갤러리를 사용하여 서버에서 미디어 파일을 구성하고 관리합니다.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '330'
@@ -41,7 +41,7 @@ Adobe Commerce 또는 Magento Open Source 2.4를 사용하면 판매자는 새�
 
 >[!NOTE]
 >
->새 [!DNL Media Gallery]의 전체 기능을 사용하려면 초기 동기화를 위해 `media.gallery.synchronization` 및 `media.content.synchronization` 큐 소비자가 시작해야 합니다. 자세한 내용은 [구성 가이드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)의 _메시지 큐 관리_&#x200B;를 참조하십시오.
+>새 [!DNL Media Gallery]의 전체 기능을 사용하려면 초기 동기화를 위해 `media.gallery.synchronization` 및 `media.content.synchronization` 큐 소비자가 시작해야 합니다. 자세한 내용은 [구성 가이드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ko)의 _메시지 큐 관리_&#x200B;를 참조하십시오.
 
 ## 새 [!DNL Media Gallery]에 액세스
 
