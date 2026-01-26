@@ -22,4 +22,4 @@ _블록_&#x200B;은(는) 페이지의 어디에나 배치할 수 있는 모듈�
 
 다음 비디오를 시청하여 정적 및 [동적 블록](dynamic-blocks.md)에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411071?captions=kor&quality=12&learn=on)
