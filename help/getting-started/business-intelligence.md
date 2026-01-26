@@ -39,7 +39,7 @@ Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개
 
 * 오류 없이 [!DNL Commerce]을(를) 설치하거나 업그레이드해야 합니다.
 
-* [!DNL Commerce]스토어 URL[에 대한 ](../stores-purchase/store-urls.md) 구성에서 스토어 보기에 대한 **[!UICONTROL Base URL (Secure)]** 설정은 보안 URL을 가리켜야 합니다. 예: `https://yourdomain.com`.
+* [!DNL Commerce]스토어 URL[에 대한 &#x200B;](../stores-purchase/store-urls.md) 구성에서 스토어 보기에 대한 **[!UICONTROL Base URL (Secure)]** 설정은 보안 URL을 가리켜야 합니다. 예: `https://yourdomain.com`.
 
 * 저장소 URL에 대한 [!DNL Commerce] 구성에서 **[!UICONTROL Use Secure URLs on Storefront]** 및 **[!UICONTROL Use Secure URLs in Admin]**&#x200B;을(를) `Yes`(으)로 설정해야 합니다.
 
@@ -47,7 +47,7 @@ Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개
 
 >[!NOTE]
 >
->[!DNL Advanced Reporting]은(는) 단일 [!DNL Commerce]기본 통화[를 계속 사용한 ](../stores-purchase/currency-configuration.md) 설치에서만 사용할 수 있습니다.
+>[!DNL Advanced Reporting]은(는) 단일 [!DNL Commerce]기본 통화[를 계속 사용한 &#x200B;](../stores-purchase/currency-configuration.md) 설치에서만 사용할 수 있습니다.
 
 
 ### 1단계: [!DNL Advanced Reporting] 사용
@@ -122,7 +122,7 @@ Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개
 
 ### 단일 기준 통화 확인
 
-[!DNL Advanced Reporting]은(는) 설치 이후 단일 [!DNL Commerce]기본 통화[만 사용한 ](../stores-purchase/currency-configuration.md) 설치에서만 사용할 수 있습니다. 그 결과 내역(history)에서 모든 주문은 동일한 기본 통화를 사용합니다. 기본 통화를 변경하고 다른 기본 통화로 처리된 주문 내역이 있는 경우 [!DNL Advanced Reporting]이(가) 작동하지 않습니다.
+[!DNL Advanced Reporting]은(는) 설치 이후 단일 [!DNL Commerce]기본 통화[만 사용한 &#x200B;](../stores-purchase/currency-configuration.md) 설치에서만 사용할 수 있습니다. 그 결과 내역(history)에서 모든 주문은 동일한 기본 통화를 사용합니다. 기본 통화를 변경하고 다른 기본 통화로 처리된 주문 내역이 있는 경우 [!DNL Advanced Reporting]이(가) 작동하지 않습니다.
 
 저장소에 여러 기본 통화가 있는지 확인하기 위해 다음 MySQL 예제를 사용하여 명령줄에서 [!DNL Commerce] 데이터베이스를 쿼리할 수 있습니다. 데이터 구조와 일치하도록 테이블 이름을 변경해야 할 수 있습니다.
 

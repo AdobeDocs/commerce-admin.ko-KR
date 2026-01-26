@@ -128,7 +128,7 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 **[!UICONTROL XML Sitemap]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Categories Options]**&#x200B;를 확장하고 다음을 수행합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Categories Options]**&#x200B;를 확장하고 다음을 수행합니다.
 
    >[!NOTE]
    >
@@ -150,7 +150,7 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
 
    이러한 옵션에 대한 자세한 목록이 필요하면 [구성 참조](../configuration-reference/catalog/xml-sitemap.md#categories-options)에서 _범주 옵션_&#x200B;을 참조하십시오.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Products Options]**&#x200B;를 확장하고 필요에 따라 **[!UICONTROL Frequency]** 및 **[!UICONTROL Priority]** 설정을 완료합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Products Options]**&#x200B;를 확장하고 필요에 따라 **[!UICONTROL Frequency]** 및 **[!UICONTROL Priority]** 설정을 완료합니다.
 
    이러한 옵션에 대한 자세한 목록은 [구성 참조](../configuration-reference/catalog/xml-sitemap.md#products-options)에서 _제품 옵션_&#x200B;을 참조하십시오.
 
@@ -162,13 +162,13 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
 
    ![카탈로그 구성 - XML 사이트 맵 제품](../configuration-reference/catalog/assets/xml-sitemap-products-options.png){width="600" zoomable="yes"}
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL CMS Pages Options]**&#x200B;를 확장하고 필요에 따라 **[!UICONTROL Frequency]** 및 **[!UICONTROL Priority]** 설정을 완료합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL CMS Pages Options]**&#x200B;를 확장하고 필요에 따라 **[!UICONTROL Frequency]** 및 **[!UICONTROL Priority]** 설정을 완료합니다.
 
    ![카탈로그 구성 - XML 사이트 맵 CMS 페이지](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
    이러한 옵션에 대한 자세한 목록이 필요하면 [구성 참조](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options)에서 _CMS 페이지 옵션_&#x200B;을 참조하십시오.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Store Url Options]**&#x200B;를 확장하고 필요에 따라 **[!UICONTROL Frequency]** 및 **[!UICONTROL Priority]** 설정을 완료합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Store Url Options]**&#x200B;를 확장하고 필요에 따라 **[!UICONTROL Frequency]** 및 **[!UICONTROL Priority]** 설정을 완료합니다.
 
    ![카탈로그 구성 - XML 사이트 맵 저장소 URL](./assets/xml-sitemap.png){width="600" zoomable="yes"}
 
@@ -178,7 +178,7 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
 
 ### 2단계. 생성 설정 완료
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Generation Settings]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Generation Settings]**&#x200B;를 확장합니다.
 
    필요한 경우 **시스템 값 사용** 확인란의 선택을 취소하여 이러한 설정을 변경합니다.
 
@@ -204,7 +204,7 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
 
 ### 3단계. 사이트 맵 파일 제한 설정
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Sitemap File Limits]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Sitemap File Limits]**&#x200B;를 확장합니다.
 
    ![카탈로그 구성 - XML 사이트 맵 파일 제한](../configuration-reference/catalog/assets/xml-sitemap-sitemap-file-limits.png){width="600" zoomable="yes"}
 
@@ -220,7 +220,7 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
 
 ### 4단계. 검색 엔진 제출 설정 설정
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Search Engine Submission Settings]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Search Engine Submission Settings]**&#x200B;를 확장합니다.
 
    ![카탈로그 구성 - XML 사이트 맵 검색 엔진 제출 설정](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
 

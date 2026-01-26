@@ -110,7 +110,7 @@ ht-degree: 0%
 
    ![로그아웃](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Sign In]_페이지에 로그아웃되었다는 메시지가 표시됩니다. 컴퓨터를 무인 상태로 둘 때마다_&#x200B;관리자&#x200B;_에서 로그아웃합니다.
+_[!UICONTROL Sign In]_&#x200B;페이지에 로그아웃되었다는 메시지가 표시됩니다. 컴퓨터를 무인 상태로 둘 때마다_&#x200B;관리자&#x200B;_에서 로그아웃합니다.
 
 ## 계정 정보 편집
 
@@ -136,7 +136,7 @@ _[!UICONTROL Sign In]_페이지에 로그아웃되었다는 메시지가 표시�
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL Advanced]**&#x200B;을(를) 확장하고 **[!UICONTROL Admin]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Security]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Security]**&#x200B;를 확장합니다.
 
 1. **관리자 계정 공유**&#x200B;에 대해 `Yes`을(를) 선택하십시오.
 
@@ -150,7 +150,7 @@ _[!UICONTROL Sign In]_페이지에 로그아웃되었다는 메시지가 표시�
 
 1. 왼쪽 탐색 패널에서 **[!UICONTROL Advanced]**&#x200B;을(를) 확장하고 **[!UICONTROL Admin]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Security]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Security]**&#x200B;를 확장합니다.
 
 1. **[!UICONTROL Login is Case Sensitive]** 필드를 `Yes`(으)로 설정합니다.
 

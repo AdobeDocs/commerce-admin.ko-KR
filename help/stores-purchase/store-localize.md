@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Scope]** 드롭다운에서 구성할 저장소 보기를 선택하고 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
-1. *[!UICONTROL General]* 구성 페이지에서 ![ 섹션의 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Locale Options]**&#x200B;를 확장합니다.
+1. *[!UICONTROL General]* 구성 페이지에서 ![&#x200B; 섹션의 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Locale Options]**&#x200B;를 확장합니다.
 
 1. **[!UICONTROL Use Website]** 확인란의 선택을 취소하고 보기에 할당할 언어로 **[!UICONTROL Locale]**&#x200B;을(를) 설정합니다.
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Manage Labels]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Manage Titles]_섹션에서 각 스토어 보기에 대해 번역된 레이블을 입력합니다.
+1. _[!UICONTROL Manage Titles]_&#x200B;섹션에서 각 스토어 보기에 대해 번역된 레이블을 입력합니다.
 
    ![번역된 레이블 입력](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -104,15 +104,15 @@ ht-degree: 0%
 
 1. _기본 정보_&#x200B;의 경우 **[!UICONTROL Category Name]**&#x200B;을(를) 번역하세요.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Content]_를 확장하고&#x200B;**[!UICONTROL Description]**을(를) 번역합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Content]_&#x200B;를 확장하고&#x200B;**[!UICONTROL Description]**&#x200B;을(를) 번역합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Search Engine Optimization Settings]**&#x200B;를 확장하고 다음 필드를 번역합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Search Engine Optimization Settings]**&#x200B;를 확장하고 다음 필드를 번역합니다.
 
    - **[!UICONTROL Meta Title]**
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. _[!UICONTROL Search Engine Optimization Settings]_섹션에서 다음을 수행하여&#x200B;**[!UICONTROL URL Key]**을(를) 번역합니다.
+1. _[!UICONTROL Search Engine Optimization Settings]_&#x200B;섹션에서 다음을 수행하여&#x200B;**[!UICONTROL URL Key]**&#x200B;을(를) 번역합니다.
 
    - 필드의 오른쪽에 있는 **[!UICONTROL Use Default Value]** 확인란의 선택을 취소합니다.
 

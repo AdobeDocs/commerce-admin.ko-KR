@@ -24,7 +24,7 @@ ht-degree: 0%
 
    ![소스 관리](assets/inventory-sources.png)
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL General]**&#x200B;를 확장하고 다음을 수행합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL General]**&#x200B;를 확장하고 다음을 수행합니다.
 
    - 인벤토리 원본을 식별하려면 고유한 **[!UICONTROL Name]**&#x200B;을(를) 입력하십시오.
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
      기본 Source은 매장 픽업 주문의 픽업 위치로 사용할 수 없습니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Contact Info]**&#x200B;를 확장하고 다음을 수행합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Contact Info]**&#x200B;를 확장하고 다음을 수행합니다.
 
    - **[!UICONTROL Contact Name]**&#x200B;의 경우 해당 위치에 기본 연락처의 전체 이름을 입력하십시오.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
      ![연락처 정보](assets/inventory-source-contact-info.png)
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Address Data]**&#x200B;를 확장하고 다음을 수행합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Address Data]**&#x200B;를 확장하고 다음을 수행합니다.
 
    - **[!UICONTROL Country]** 선택.
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
      ![주소 데이터](assets/inventory-source-address.png)
 
-1. 이전 단계에서 원본을 픽업 위치로 설정한 경우 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Pickup Location]**&#x200B;를 확장하고 위치에 대한 자세한 정보를 제공합니다.
+1. 이전 단계에서 원본을 픽업 위치로 설정한 경우 ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Pickup Location]**&#x200B;를 확장하고 위치에 대한 자세한 정보를 제공합니다.
 
    - 픽업 위치의 **[!UICONTROL Frontend Name]**&#x200B;을(를) 입력하십시오.
 

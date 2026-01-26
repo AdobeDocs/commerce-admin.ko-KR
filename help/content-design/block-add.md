@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 표시된 콘텐츠 도구 세트를 사용하여 블록의 콘텐츠를 추가합니다.
 
-   - [페이지 빌더](../page-builder/introduction.md)가 활성화된 경우 **[!UICONTROL Edit with Page Builder]**&#x200B;작업 영역[에서 페이지 빌더 도구를 사용하려면 ](../page-builder/workspace.md)을(를) 선택하십시오.
+   - [페이지 빌더](../page-builder/introduction.md)가 활성화된 경우 **[!UICONTROL Edit with Page Builder]**&#x200B;작업 영역[에서 페이지 빌더 도구를 사용하려면 &#x200B;](../page-builder/workspace.md)을(를) 선택하십시오.
 
      ![페이지 빌더 작업 영역](./assets/pb-workspace-block.png){width="500" zoomable="yes"}
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ## Lightbox 또는 슬라이더 추가
 
-- [을(를) 사용하면 스토어에 ](../page-builder/slider.md)슬라이더[[!DNL Page Builder]](../page-builder/introduction.md)를 쉽게 추가할 수 있습니다. 슬라이더는 자동으로 재생되도록 설정하거나 탐색 단추를 사용하여 수동으로 제어할 수 있습니다.
+- [을(를) 사용하면 스토어에 &#x200B;](../page-builder/slider.md)슬라이더[[!DNL Page Builder]](../page-builder/introduction.md)를 쉽게 추가할 수 있습니다. 슬라이더는 자동으로 재생되도록 설정하거나 탐색 단추를 사용하여 수동으로 제어할 수 있습니다.
 
   ![페이지 빌더 슬라이더](./assets/pb-tutorial3-slider-tee-shirt-promo.png){width="600" zoomable="yes"}
 

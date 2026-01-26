@@ -87,7 +87,7 @@ ht-degree: 0%
 
    - 계정에 다른 사용자를 추가하려면 **[!UICONTROL Add User]**&#x200B;을(를) 클릭합니다. 링크는 사용자 관리 제목 바로 위에 있습니다.
 
-   - _[!UICONTROL Add User]_양식의 다음 섹션에서 필수 필드를 작성합니다.
+   - _[!UICONTROL Add User]_&#x200B;양식의 다음 섹션에서 필수 필드를 작성합니다.
 
       - [!UICONTROL Admin Confirmation]
       - [!UICONTROL User Information]
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 1. Commerce 설치에 웹 사이트, 스토어 또는 보기가 여러 개 있는 경우 이 구성을 적용할 스토어 보기로 **[!UICONTROL Store View]**&#x200B;을(를) 설정합니다.
 
-1. _[!UICONTROL Merchant Location]_섹션에서 비즈니스가 있는&#x200B;**[!UICONTROL Merchant Country]**을(를) 선택합니다.
+1. _[!UICONTROL Merchant Location]_&#x200B;섹션에서 비즈니스가 있는&#x200B;**[!UICONTROL Merchant Country]**&#x200B;을(를) 선택합니다.
 
    이 설정은 구성에 나타나는 PayPal 솔루션의 선택을 결정합니다.
 
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 #### PayPal 크레딧 광고
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advertise PayPal Credit]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advertise PayPal Credit]**&#x200B;를 확장합니다.
 
    ![PayPal 크레딧 알림](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
@@ -179,7 +179,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Publisher ID]**&#x200B;을(를) 입력하십시오.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Home Page]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Home Page]**&#x200B;를 확장합니다.
 
    ![PayPal 크레딧 홈 페이지 설정 알림](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
 
@@ -207,11 +207,11 @@ ht-degree: 0%
 
 #### PayPal PayLater 광고
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advertise PayPal PayLater]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advertise PayPal PayLater]**&#x200B;를 확장합니다.
 
 1. **[!UICONTROL Enable PayPal PayLater]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Home Page]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Home Page]**&#x200B;를 확장합니다.
 
    ![PayPal 크레딧 홈 페이지 설정 알림](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
 
@@ -283,7 +283,7 @@ ht-degree: 0%
 
 ### 4단계: 기본 설정 완료
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Basic Settings - PayPal Payflow Pro]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Basic Settings - PayPal Payflow Pro]**&#x200B;를 확장합니다.
 
    ![기본 설정 - PayPal Payflow Pro_](../configuration-reference/sales/assets/payment-methods-paypal-payflow-pro-basic-settings.png){width="600" zoomable="yes"}
 
@@ -310,14 +310,14 @@ ht-degree: 0%
 
 ### 5단계: 고급 설정 완료
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;를 확장합니다.
 
    ![고급 설정 - PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payflow-pro-advanced-settings.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Payment Applicable From]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
 
 1. 결제 시스템과의 통신을 로그 파일에 기록하려면 **[!UICONTROL Debug Mode]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -339,7 +339,7 @@ ht-degree: 0%
 
 주소 확인 시스템에서 불일치를 식별할 때 트랜잭션이 거부되어야 하는 시기를 확인하려면 다양한 시나리오를 처리하는 방법을 지정하십시오.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL CVV and AVS Settings]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL CVV and AVS Settings]**&#x200B;를 확장합니다.
 
    ![CVV 및 AVS 설정 - PayPal Payflow Pro](./assets/payflow-pro-cvv-avs.png){width="600" zoomable="yes"}
 
@@ -353,7 +353,7 @@ ht-degree: 0%
 
 #### 결제 보고서 설정
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Settlement Report Settings]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Settlement Report Settings]**&#x200B;를 확장합니다.
 
    ![결제 보고서 설정 - PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
@@ -396,7 +396,7 @@ ht-degree: 0%
 
 프론트엔드 경험 설정을 사용하여 사이트에 표시할 PayPal 로고를 선택하고 PayPal 판매자 페이지의 모양을 사용자 지정합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Frontend Experience Settings]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Frontend Experience Settings]**&#x200B;를 확장합니다.
 
    ![프론트엔드 경험 설정 - PayPal Payflow Pro](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
@@ -432,7 +432,7 @@ ht-degree: 0%
 
 ### 단계 6: PayPal Express 체크아웃에 대한 기본 설정 완료
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Basic Settings - PayPal Express Checkout]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Basic Settings - PayPal Express Checkout]**&#x200B;를 확장합니다.
 
    ![빠른 체크아웃 기본 설정](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
@@ -449,11 +449,11 @@ ht-degree: 0%
    - `Authorization` - 구매를 승인하고 자금을 보류합니다. 판매자가 _캡처한_&#x200B;이 될 때까지 금액이 인출되지 않습니다.
    - `Sale` - 구매 금액이 승인되어 고객 계정에서 즉시 인출됩니다.
 
-1. 제품 페이지에 _[!UICONTROL Check out with PayPal]_단추를 표시하려면&#x200B;**[!UICONTROL Display on Product Details Page]**을(를) `Yes`(으)로 설정하십시오.
+1. 제품 페이지에 _[!UICONTROL Check out with PayPal]_&#x200B;단추를 표시하려면&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
 ### 7단계: PayPal Express 체크아웃에 대한 고급 설정 완료
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;를 확장합니다.
 
    ![빠른 체크아웃 고급 설정](../configuration-reference/sales/assets/payment-methods-paypal-payments-pro-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
 
@@ -462,7 +462,7 @@ ht-degree: 0%
 1. **[!UICONTROL Payment Applicable From]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 국가의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 항목을 클릭합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 항목을 클릭합니다.
 
 1. 결제 시스템과의 통신을 로그 파일에 기록하려면 **[!UICONTROL Debug Mode]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 

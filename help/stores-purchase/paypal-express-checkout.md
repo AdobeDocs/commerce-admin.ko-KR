@@ -20,7 +20,7 @@ PayPal Express Checkout은 고객에게 신용카드 또는 개인 PayPal 계정
 >**PSD2 요구 사항:** <br/>
 >2019년 9월 14일부터 유럽 은행은 [PSD2](../getting-started/compliance-payment-services-directive.md) 요구 사항을 충족하지 않는 결제를 거절할 수 있습니다. 모든 요구 사항은 PayPal에서 처리되므로 PayPal Express Checkout에서 PSD2를 준수하는 데 필요한 작업은 없습니다.
 
-현재 PayPal 계정이 있는 고객은 _[!UICONTROL Check out with PayPal]_단추를 클릭하여 한 단계로 구매할 수 있습니다. Express Checkout은 독립 실행형으로 사용하거나 PayPal 올인원 솔루션 중 하나와 함께 사용할 수 있습니다. 이미 온라인에서 신용카드를 받고 있다면, 페이팔로 결제하기를 선호하는 신규 고객을 유치하기 위한 추가 옵션으로 &#39;익스프레스 체크아웃&#39;을 제공하면 된다.
+현재 PayPal 계정이 있는 고객은 _[!UICONTROL Check out with PayPal]_&#x200B;단추를 클릭하여 한 단계로 구매할 수 있습니다. Express Checkout은 독립 실행형으로 사용하거나 PayPal 올인원 솔루션 중 하나와 함께 사용할 수 있습니다. 이미 온라인에서 신용카드를 받고 있다면, 페이팔로 결제하기를 선호하는 신규 고객을 유치하기 위한 추가 옵션으로 &#39;익스프레스 체크아웃&#39;을 제공하면 된다.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ PayPal Express Checkout은 고객에게 신용카드 또는 개인 PayPal 계정
 
 다른 결제 방식과 달리 페이팔 익스프레스 체크아웃은 제품 페이지, 미니 장바구니, 장바구니에서 일반적인 체크아웃 워크플로 시작 시 고객이 체크아웃할 수 있도록 했다.
 
-1. **고객 주문** - 고객이 _[!UICONTROL Check out with PayPal]_단추를 클릭/탭합니다.
+1. **고객 주문** - 고객이 _[!UICONTROL Check out with PayPal]_&#x200B;단추를 클릭/탭합니다.
 1. **고객이 PayPal 사이트로 리디렉션됨** - 고객이 거래를 완료하기 위해 PayPal 사이트로 리디렉션됩니다.
 1. **고객이 PayPal 계정에 로그인함** - 거래를 완료하려면 고객이 PayPal 계정에 로그인해야 합니다. 결제 시스템은 PayPal 계정의 청구 및 배송 정보를 사용합니다.
 1. **고객이 체크아웃 페이지로 돌아가기** - 고객이 주문을 검토하도록 스토어의 체크아웃 페이지로 다시 리디렉션됩니다.
@@ -52,7 +52,7 @@ PayPal의 _직접 체크아웃_&#x200B;을 사용하면 보다 간편하게 온�
 
 ![PayPal 컨텍스트 내 체크아웃 데모](./assets/storefront-paypal-in-context.png){width="700" zoomable="yes"}
 
-[_PayPal 컨텍스트 내 체크아웃 데모_](https://demo.paypal.com/us/demo/navigation?merchant=bigbox&amp;page=incontextProductCheckout)
+[_PayPal 컨텍스트 내 체크아웃 데모_](https://demo.paypal.com/us/demo/navigation?merchant=bigbox&page=incontextProductCheckout)
 
 [!DNL PayPal Express Checkout]에 대한 저장소를 구성할 때 이 옵션을 활성화할 수 있습니다.
 
@@ -94,19 +94,19 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 
 1. 설치에 웹 사이트, 스토어 또는 보기가 여러 개 있는 경우 이 구성을 적용할 스토어 보기로 **[!UICONTROL Store View]**&#x200B;을(를) 설정합니다.
 
-1. _[!UICONTROL Merchant Location]_섹션에서 비즈니스가 있는&#x200B;**[!UICONTROL Merchant Country]**을(를) 선택합니다.
+1. _[!UICONTROL Merchant Location]_&#x200B;섹션에서 비즈니스가 있는&#x200B;**[!UICONTROL Merchant Country]**&#x200B;을(를) 선택합니다.
 
    이 설정은 구성에 나타나는 PayPal 솔루션의 선택을 결정합니다.
 
    ![판매자 국가](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Recommended Solutions]_에서&#x200B;**[!UICONTROL Configure]**에 대해&#x200B;**[!UICONTROL PayPal Express Checkout]**을(를) 클릭합니다.
+1. _[!UICONTROL Recommended Solutions]_&#x200B;에서&#x200B;**[!UICONTROL Configure]**&#x200B;에 대해&#x200B;**[!UICONTROL PayPal Express Checkout]**&#x200B;을(를) 클릭합니다.
 
    ![PayPal Express 체크아웃 구성](./assets/paypal-express-checkout.png){width="600"}
 
 ### 2단계: PayPal 계정 활성화 및 연결
 
-1. 필요한 경우 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Required PayPal Settings]**&#x200B;를 확장합니다.
+1. 필요한 경우 ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Required PayPal Settings]**&#x200B;를 확장합니다.
 
    ![PayPal 계정 연결](./assets/paypal-express-required.png){width="600" zoomable="yes"}
 
@@ -133,7 +133,7 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 
 ### 3단계: 필요한 PayPal 설정 완료
 
-1. 필요한 경우 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Express Checkout]**&#x200B;를 확장합니다.
+1. 필요한 경우 ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Express Checkout]**&#x200B;를 확장합니다.
 
    ![PayPal Express 체크 아웃 필수 설정](./assets/paypal-express-settings.png){width="600" zoomable="yes"}
 
@@ -182,7 +182,7 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 
 #### PayPal 크레딧 광고
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advertise PayPal Credit]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advertise PayPal Credit]**&#x200B;를 확장합니다.
 
 1. 계정 정보를 보려면 **[!UICONTROL Get Publisher ID from PayPal]**&#x200B;을(를) 클릭하고 지침을 따르십시오.
 
@@ -190,7 +190,7 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 
    ![PayPal 크레딧 알림](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Home Page]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Home Page]**&#x200B;를 확장합니다.
 
 1. 페이지에 배너를 배치하려면 **[!UICONTROL Display]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -218,11 +218,11 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 
 #### PayPal PayLater 광고
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advertise PayPal PayLater]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advertise PayPal PayLater]**&#x200B;를 확장합니다.
 
 1. **[!UICONTROL Enable PayPal PayLater]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Home Page]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Home Page]**&#x200B;를 확장합니다.
 
 1. 페이지에 배너를 배치하려면 **[!UICONTROL Display]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -294,7 +294,7 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 
 ### 5단계: 기본 설정 완료
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Basic Settings - PayPal Express Checkout]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Basic Settings - PayPal Express Checkout]**&#x200B;를 확장합니다.
 
    ![기본 설정](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-basic-settings.png){width="600" zoomable="yes"}
 
@@ -312,7 +312,7 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
    - `Sale` - 구매 금액이 승인되어 고객 계정에서 즉시 인출됩니다.
    - `Order` - 주문 금액이 PayPal의 고객 잔고, 은행 계좌 또는 신용 카드에서 수집되거나 승인되지 않습니다. 주문 결제 행위는 PayPal 결제 시스템과 가맹점 간의 계약을 나타냅니다. 머천트는 최대 29일 동안 고객 구매자 계정에서 주문된 총액까지 하나 이상의 금액을 캡처할 수 있습니다. 펀드가 주문된 후 판매사는 이후 29일 동안 언제든지 펀드를 캡처할 수 있다. 하나 이상의 송장을 생성하여 주문 금액을 캡처하는 작업은 Commerce 관리자만 수행할 수 있습니다.
 
-1. 제품 페이지에 _[!UICONTROL Check out with PayPal]_단추를 표시하려면&#x200B;**[!UICONTROL Display on Product Details Page]**을(를) `Yes`(으)로 설정하십시오.
+1. 제품 페이지에 _[!UICONTROL Check out with PayPal]_&#x200B;단추를 표시하려면&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
 1. 결제 작업이 `Order`(으)로 설정된 경우 다음을 완료하십시오.
 
@@ -324,7 +324,7 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 
 ### 6단계: 고급 설정 완료
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;를 확장합니다.
 
    ![고급 설정 - PayPal Express 체크아웃](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-advanced-settings.png){width="600" zoomable="yes"}
 
@@ -333,7 +333,7 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 1. **[!UICONTROL Payment Applicable From]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 국가의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 항목을 클릭합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 항목을 클릭합니다.
 
 1. 결제 시스템과의 통신을 로그 파일에 기록하려면 **[!UICONTROL Debug Mode]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -366,7 +366,7 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
    >
    >이 기능은 PayPal 기술 지원을 통해 판매자 계정에 대해 활성화되어야 합니다.
 
-1. (선택 사항) 고객 계정에 사용 가능한 활성 청구 계약이 없을 때 고객이 PayPal 결제 시스템의 스토어와 **[!UICONTROL Billing Agreement Signup]**&#x200B;청구 계약[에 서명할 수 있도록 ](paypal-billing-agreements.md)을(를) 설정합니다.
+1. (선택 사항) 고객 계정에 사용 가능한 활성 청구 계약이 없을 때 고객이 PayPal 결제 시스템의 스토어와 **[!UICONTROL Billing Agreement Signup]**&#x200B;청구 계약[에 서명할 수 있도록 &#x200B;](paypal-billing-agreements.md)을(를) 설정합니다.
 
    - `Auto` - 고객은 빠른 체크아웃 흐름 중에 청구 계약에 서명하거나 다른 결제 방법을 사용할 수 있습니다.
    - `Ask Customer` - 고객은 빠른 체크아웃 흐름 중에 청구 계약에 서명할지 여부를 결정할 수 있습니다.
@@ -392,7 +392,7 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 
 [청구 계약](paypal-billing-agreements.md)은(는) 여러 주문에서 사용하도록 PayPal에서 승인한 판매자와 고객 간의 판매 계약입니다. 체크아웃 프로세스 중에 청구 계약 결제 옵션은 이미 귀사와 청구 계약을 체결한 고객에게만 표시됩니다. PayPal이 계약을 승인한 후에는 결제 시스템에서 고유한 참조 ID를 발행하여 계약과 연관된 각 주문을 식별합니다. 구매 주문과 마찬가지로 고객이 귀사와 설정할 수 있는 청구 계약 수에는 제한이 없습니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL PayPal Billing Agreement Settings]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL PayPal Billing Agreement Settings]**&#x200B;를 확장합니다.
 
    ![결제 계약 설정](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png){width="600" zoomable="yes"}
 
@@ -410,7 +410,7 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 1. **[!UICONTROL Payment Applicable From]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 국가의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 상태에서 각 국가를 클릭합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 상태에서 각 국가를 클릭합니다.
 
 1. 로그 파일에 결제 시스템과의 통신을 기록하려면 **[!UICONTROL Debug Mode]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -426,7 +426,7 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 
 #### 결제 보고서 설정
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Settlement Report Settings]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Settlement Report Settings]**&#x200B;를 확장합니다.
 
    ![결제 보고서 설정](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
@@ -469,7 +469,7 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 
 프론트엔드 경험 설정을 사용하여 사이트에 표시할 PayPal 로고를 선택하고 PayPal 판매자 페이지의 모양을 사용자 지정합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Frontend Experience Settings]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Frontend Experience Settings]**&#x200B;를 확장합니다.
 
    ![프론트엔드 환경 설정](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
@@ -562,7 +562,7 @@ _스마트 결제 단추_ 기능을 사용하면 결제, 제품 세부 사항, �
 
 기능 설정을 사용하면 이 PayPal 솔루션과 관련된 특정 기능을 비활성화할 수 있습니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Features]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Features]**&#x200B;를 확장합니다.
 
    ![체크아웃 페이지 설정](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings3.png){width="600" zoomable="yes"}
 

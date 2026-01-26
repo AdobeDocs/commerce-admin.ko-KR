@@ -36,9 +36,9 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
    - Commerce 설치 시 왼쪽 상단 모서리에서 구성이 적용되는 **[!UICONTROL Store View]**&#x200B;을(를) 선택하십시오.
 
-   - _[!UICONTROL Merchant Location]_섹션에서&#x200B;**[!UICONTROL Merchant Country]**이(가) 회사 위치로 설정되어 있는지 확인합니다.
+   - _[!UICONTROL Merchant Location]_&#x200B;섹션에서&#x200B;**[!UICONTROL Merchant Country]**&#x200B;이(가) 회사 위치로 설정되어 있는지 확인합니다.
 
-1. _[!UICONTROL Recommended Solutions]_의_[!UICONTROL Braintree Payments]([GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [릴리스 정보](https://support.gene.co.uk/support/solutions/articles/35000278668)_섹션)에서&#x200B;**[!UICONTROL Configure]**을(를) 클릭합니다.
+1. _[!UICONTROL Recommended Solutions]_&#x200B;의_[!UICONTROL Braintree Payments] ([GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [릴리스 정보](https://support.gene.co.uk/support/solutions/articles/35000278668)_섹션)에서&#x200B;**[!UICONTROL Configure]**&#x200B;을(를) 클릭합니다.
 
    ![Braintree 구성](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
@@ -76,7 +76,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
 ## 3단계: 고급 설정 완료
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advanced Braintree Settings]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advanced Braintree Settings]**&#x200B;를 확장합니다.
 
    ![고급 설정](../configuration-reference/sales/assets/payment-methods-braintree-advanced-config.png){width="550" zoomable="yes"}
 
@@ -133,7 +133,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 1. **[!UICONTROL Payment from Applicable Countries]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
 
    ![국가별 설정](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png){width="600" zoomable="yes"}
 
@@ -252,7 +252,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
      >[!NOTE]
      >
-     >PayPal 크레딧은 미국과 영국에서만 사용할 수 있습니다. _[!UICONTROL Merchant Country]_필드에 대해 선택한 값이 `US` 또는 `UK`이(가) 아닌 경우 PayPal 크레딧을 사용할 수 없습니다.
+     >PayPal 크레딧은 미국과 영국에서만 사용할 수 있습니다. _[!UICONTROL Merchant Country]_&#x200B;필드에 대해 선택한 값이 `US` 또는 `UK`이(가) 아닌 경우 PayPal 크레딧을 사용할 수 없습니다.
 
    - Braintree에서 결제 옵션으로 [!DNL PayPal PayLater]을(를) 포함하려면 **[!UICONTROL Enable PayPal PayLater through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -278,7 +278,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 1. PayPal에서 처리하는 Braintree 트랜잭션에 대해 **[!UICONTROL Payment from Applicable Countries]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
 
    ![Braintree 설정을 통한 PayPal 2](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
@@ -310,13 +310,13 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
 ### [!UICONTROL Mini-Cart and Cart Page]
 
-이 섹션의 옵션 및 설정은 _[!UICONTROL Location]_필드의 설정에 따라 다릅니다.
+이 섹션의 옵션 및 설정은 _[!UICONTROL Location]_&#x200B;필드의 설정에 따라 다릅니다.
 
 1. **[!UICONTROL PayPal Button Type]**&#x200B;을(를) 다음 세 가지 유형의 단추 중 하나로 설정합니다. `PayPal Button` / `PayPal Pay Later Button` / `PayPal Credit Button`
 
 **[!UICONTROL PayPal Button]**
 
-이 섹션의 옵션 및 설정은 _[!UICONTROL PayPal Button Type]_필드에서 선택한 단추 유형에 따라 다릅니다.
+이 섹션의 옵션 및 설정은 _[!UICONTROL PayPal Button Type]_&#x200B;필드에서 선택한 단추 유형에 따라 다릅니다.
 
 1. 선택한 위치의 상점 앞에 PayPal 단추를 표시하려면 **[!UICONTROL Show PayPal Button]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -399,7 +399,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 4. **[!UICONTROL Verify for Applicable Countries]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Verify for Specific Countries]_목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Verify for Specific Countries]_&#x200B;목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
 
    ![3D 확인 설정](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 

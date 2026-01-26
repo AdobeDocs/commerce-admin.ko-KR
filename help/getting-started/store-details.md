@@ -18,13 +18,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Store Information]
 
-_[!UICONTROL Store Information]_섹션은 판매 문서 및 기타 통신에 나타나는 기본 정보를 제공합니다.
+_[!UICONTROL Store Information]_&#x200B;섹션은 판매 문서 및 기타 통신에 나타나는 기본 정보를 제공합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 탐색 패널의 **[!UICONTROL General]**&#x200B;에서 **[!UICONTROL General]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Store Information]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Store Information]**&#x200B;를 확장합니다.
 
    ![일반 구성 - 정보 저장](./assets/general-store-information.png){width="700"}
 
@@ -67,7 +67,7 @@ _[!UICONTROL Store Information]_섹션은 판매 문서 및 기타 통신에 나
 
 1. **[!UICONTROL General]** 아래의 왼쪽 탐색 패널에서 **[!UICONTROL General]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Locale Options]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Locale Options]**&#x200B;를 확장합니다.
 
    ![일반 구성 - 로케일 옵션](./assets/general-locale-options.png){width="700"}
 
@@ -97,7 +97,7 @@ _[!UICONTROL Store Information]_섹션은 판매 문서 및 기타 통신에 나
 
 1. 왼쪽 탐색 패널의 **[!UICONTROL General]**&#x200B;에서 **[!UICONTROL General]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL State Options]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL State Options]**&#x200B;를 확장합니다.
 
    ![일반 구성 - 상태 옵션](./assets/general-state-options.png){width="700"}
 
@@ -123,7 +123,7 @@ _[!UICONTROL Store Information]_섹션은 판매 문서 및 기타 통신에 나
 
 1. **[!UICONTROL General]** 아래의 왼쪽 탐색 패널에서 **[!UICONTROL General]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Country Options]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Country Options]**&#x200B;를 확장합니다.
 
    >[!NOTE]
    >
@@ -235,7 +235,7 @@ _[!UICONTROL Store Information]_섹션은 판매 문서 및 기타 통신에 나
 
 1. 왼쪽 탐색 패널의 **[!UICONTROL General]**&#x200B;에서 **[!UICONTROL Store Email Addresses]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL General Contact]**&#x200B;를 확장하고 다음을 수행합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL General Contact]**&#x200B;를 확장하고 다음을 수행합니다.
 
    ![일반 구성 - 전자 메일 주소 저장](./assets/store-email-addresses-general-contact.png){width="600"}
 
@@ -291,11 +291,11 @@ Luma 샘플 데이터에는 스토어에 대해 페이지를 사용자 지정하
 
 1. **[!UICONTROL General]** 아래의 왼쪽 탐색 패널에서 **[!UICONTROL Contacts]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Contact Us]**&#x200B;을(를) 확장하고 **[!UICONTROL Enable Contact Us]**&#x200B;을(를) `Yes`(으)로 설정합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Contact Us]**&#x200B;을(를) 확장하고 **[!UICONTROL Enable Contact Us]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
    ![일반 구성 - 연락처](./assets/contacts-contact-us.png){width="600"}
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Email Options]**&#x200B;를 확장하고 전자 메일 연락처 옵션을 설정합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Email Options]**&#x200B;를 확장하고 전자 메일 연락처 옵션을 설정합니다.
 
    ![일반 구성 - 전자 메일 옵션](./assets/contacts-email-options.png){width="600"}
 

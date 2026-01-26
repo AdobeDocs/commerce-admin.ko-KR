@@ -19,7 +19,7 @@ Adobe Commerce 또는 Magento Open Source 2.4를 사용하면 판매자는 새�
 
 >[!NOTE]
 >
->[_[!UICONTROL Images and Videos]_제품 섹션](../catalog/product-image.md#upload-an-image)에 추가된 제품 이미지는 [!DNL Media Gallery]에서 관리되지 않습니다._[!UICONTROL Content]_ 제품 섹션 필드에 사용된 이미지만 새 [!DNL Media Gallery]에 표시되고 필터링됩니다.
+>[_[!UICONTROL Images and Videos]_&#x200B;제품 섹션](../catalog/product-image.md#upload-an-image)에 추가된 제품 이미지는 [!DNL Media Gallery]에서 관리되지 않습니다._[!UICONTROL Content]_ 제품 섹션 필드에 사용된 이미지만 새 [!DNL Media Gallery]에 표시되고 필터링됩니다.
 
 ## 새 [!DNL Media Gallery] 사용
 
@@ -37,7 +37,7 @@ Adobe Commerce 또는 Magento Open Source 2.4를 사용하면 판매자는 새�
 
 1. 메시지가 표시되면 시스템 메시지에서 **[!UICONTROL Cache Management]** 링크를 클릭하고 잘못된 캐시를 새로 고칩니다.
 
-   이제 [[!UICONTROL Content] 메뉴](/help/content-design/content-menu.md)에 새 _[!UICONTROL Media Gallery]_옵션이 표시됩니다.
+   이제 [[!UICONTROL Content] 메뉴](/help/content-design/content-menu.md)에 새 _[!UICONTROL Media Gallery]_&#x200B;옵션이 표시됩니다.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Adobe Commerce 또는 Magento Open Source 2.4를 사용하면 판매자는 새�
 
 ## 새 [!DNL Media Gallery]에 액세스
 
-[!DNL Media Gallery]페이지를 추가 또는 편집[할 때 콘텐츠 메뉴에서 새 ](/help/content-design/page-add.md)에 액세스할 수 있습니다. [카테고리를 만들거나 편집](/help/catalog/category-create.md)하거나 [콘텐츠 편집기를 사용하여 이미지를 삽입](/help/content-design/editor-insert-image.md)할 때도 액세스할 수 있습니다.
+[!DNL Media Gallery]페이지를 추가 또는 편집[할 때 콘텐츠 메뉴에서 새 &#x200B;](/help/content-design/page-add.md)에 액세스할 수 있습니다. [카테고리를 만들거나 편집](/help/catalog/category-create.md)하거나 [콘텐츠 편집기를 사용하여 이미지를 삽입](/help/content-design/editor-insert-image.md)할 때도 액세스할 수 있습니다.
 
 [!UICONTROL Media Gallery] 메뉴를 통해 새 [!UICONTROL Content]에 액세스하려면:
 
@@ -57,9 +57,9 @@ Adobe Commerce 또는 Magento Open Source 2.4를 사용하면 판매자는 새�
 
 1. **[!UICONTROL Add a New Page]**&#x200B;을(를) 클릭합니다.
 
-   기존 페이지를 편집하려면 _[!UICONTROL Action]_열을 사용하여&#x200B;**[!UICONTROL Select]**을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**을(를) 선택할 수 있습니다.
+   기존 페이지를 편집하려면 _[!UICONTROL Action]_&#x200B;열을 사용하여&#x200B;**[!UICONTROL Select]**&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택할 수 있습니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Content]**&#x200B;를 확장하고 다음을 수행합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Content]**&#x200B;를 확장하고 다음을 수행합니다.
 
    - [페이지 빌더를 사용하도록 설정](../page-builder/setup.md)한 경우 **[!UICONTROL Media]** 패널을 확장하고 **[!UICONTROL Image]** 자리 표시자를 대상 컨테이너로 끕니다. **[!UICONTROL Select from Gallery]**&#x200B;을(를) 클릭합니다.
 

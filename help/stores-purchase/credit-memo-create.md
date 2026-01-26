@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 그리드에서 순서를 찾아 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 
-1. 단추 모음에 _[!UICONTROL Credit Memo]_단추가 표시되면 다음 중 하나를 실행하십시오.
+1. 단추 모음에 _[!UICONTROL Credit Memo]_&#x200B;단추가 표시되면 다음 중 하나를 실행하십시오.
 
    - `offline` 환불을 발급하려면 #6단계로 이동하십시오.
    - `online` 환불을 발급하려면 #4단계를 계속 진행하십시오.

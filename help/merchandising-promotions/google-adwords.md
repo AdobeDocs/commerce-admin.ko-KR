@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Google API]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Google AdWords]**&#x200B;를 확장하고 다음을 수행합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Google AdWords]**&#x200B;를 확장하고 다음을 수행합니다.
 
    - **[!UICONTROL Enable]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -90,7 +90,7 @@ ht-degree: 0%
       - `2` - Google 추적에 대한 추가 정보에 대한 링크가 있는 두 줄 알림을 표시합니다.
       - `3` - 고객 알림을 표시하지 않습니다.
 
-   - Google 사이트 상태 알림 레이블에 사용할 [에 대한 ](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"}16진수 코드&#x200B;**[!UICONTROL Conversion Color]**&#x200B;을(를) 입력하십시오.
+   - Google 사이트 상태 알림 레이블에 사용할 [에 대한 &#x200B;](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"}16진수 코드&#x200B;**[!UICONTROL Conversion Color]**&#x200B;을(를) 입력하십시오.
 
    - Google Sites 상태 알림에 나타나는 **[!UICONTROL Conversion Label]**&#x200B;에 대한 암호화된 텍스트를 입력합니다.
 
@@ -125,7 +125,7 @@ ht-degree: 0%
    - `Dynamic` - 동적 주문 금액 값을 기반으로 전환이 발생했는지 확인합니다.
    - `Constant` - 입력된 특정 값을 기준으로 전환이 발생했는지 확인합니다.
 
-   _상수_ 전환 값 형식의 경우 **[!UICONTROL Value]**&#x200B;에 대한 특정 _[!UICONTROL Order Amount]_을(를) 입력하여 전환으로 정규화하십시오.
+   _상수_ 전환 값 형식의 경우 **[!UICONTROL Value]**&#x200B;에 대한 특정 _[!UICONTROL Order Amount]_&#x200B;을(를) 입력하여 전환으로 정규화하십시오.
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 

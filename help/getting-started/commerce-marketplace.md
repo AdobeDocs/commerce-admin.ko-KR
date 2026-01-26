@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## [!DNL Marketplace] 자격 증명
 
-[!DNL Commerce Marketplace]에서 구입한 확장을 설치하려면 먼저 [!DNL Commerce] 계정에 로그인하여 활성 액세스 키가 있는지 확인하십시오. [!DNL Commerce][[!DNL Marketplace] 또는 ](https://marketplace.magento.com/)Magento.com[의 헤더에서 ](https://business.adobe.com/products/magento/magento-commerce.html) 계정에 로그인할 수 있습니다.
+[!DNL Commerce Marketplace]에서 구입한 확장을 설치하려면 먼저 [!DNL Commerce] 계정에 로그인하여 활성 액세스 키가 있는지 확인하십시오. [!DNL Commerce][[!DNL Marketplace] 또는 &#x200B;](https://marketplace.magento.com/)Magento.com[의 헤더에서 &#x200B;](https://business.adobe.com/products/magento/magento-commerce.html) 계정에 로그인할 수 있습니다.
 
 액세스 키는 [!DNL Commerce] 설치를 [!DNL Commerce] 계정과 동기화하고 자격 증명을 확인하는 데 사용되는 공개 및 개인 키 집합입니다. 계정이 동기화되면 Commerce Marketplace에서 확장 또는 모듈을 설치하거나 [!DNL Commerce] 설치를 업그레이드할 때마다 개인 키를 입력해야 합니다.
 
@@ -53,13 +53,13 @@ ht-degree: 0%
 
 1. [!DNL Commerce] 계정에 로그인합니다.
 
-1. _[!UICONTROL My Account]_페이지에서&#x200B;**[!UICONTROL Marketplace]**탭을 선택합니다.
+1. _[!UICONTROL My Account]_&#x200B;페이지에서&#x200B;**[!UICONTROL Marketplace]**&#x200B;탭을 선택합니다.
 
 1. 이름 옆의 오른쪽 상단 모서리에서 아래쪽 화살표를 클릭하고 **[!UICONTROL My Profile]**&#x200B;을(를) 선택합니다.
 
    ![내 [!DNL Marketplace] 프로필](./assets/marketplace-profile.png){width="600"}
 
-1. _[!UICONTROL Marketplace]_아래의_[!UICONTROL My Products]_ 탭에서 **[!UICONTROL Access Keys]**&#x200B;을(를) 클릭하고 다음 중 하나를 수행합니다.
+1. _[!UICONTROL Marketplace]_&#x200B;아래의&#x200B;_[!UICONTROL My Products]_ 탭에서 **[!UICONTROL Access Keys]**&#x200B;을(를) 클릭하고 다음 중 하나를 수행합니다.
 
    - Marketplace 구매를 위한 액세스 키 세트가 이미 있는지 확인하십시오. 다양한 용도로 여러 액세스 키 세트를 만들 수 있습니다.
 

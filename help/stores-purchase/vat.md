@@ -70,7 +70,7 @@ Commerce은 둘 다 동일한 국가에 있는 경우 판매자 또는 고객 �
 
 1. **[!UICONTROL Add New Tax Rule]**&#x200B;을(를) 클릭합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Additional Settings]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Additional Settings]**&#x200B;를 확장합니다.
 
    ![제품 세금 클래스 설정](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
 
@@ -201,7 +201,7 @@ VAT ID 유효성 검사가 활성화된 경우 등록 후 각 고객은 VAT ID �
 
 고객이 VAT 번호 및 기타 주소 필드를 지정하고 저장을 선택하면 시스템이 주소를 저장하고 VAT ID 유효성 검사 요청을 유럽 위원회 서버로 전송합니다. 검증 결과에 따라 기본 그룹 중 하나가 고객에게 지정됩니다. 고객 또는 관리자가 기본 주소의 VAT ID를 변경하거나 전체 기본 주소를 변경하는 경우 이 그룹을 변경할 수 있습니다. 경우에 따라 한 페이지 체크아웃 중에 그룹을 일시적으로 변경할 수 있습니다(그룹 변경이 에뮬레이트됨).
 
-활성화된 경우 _[!UICONTROL Customer Information]_페이지에서 확인란을 선택하여 개별 고객에 대한 VAT ID 유효성 검사를 재정의할 수 있습니다.
+활성화된 경우 _[!UICONTROL Customer Information]_&#x200B;페이지에서 확인란을 선택하여 개별 고객에 대한 VAT ID 유효성 검사를 재정의할 수 있습니다.
 
 ### 체크아웃 워크플로우
 
@@ -285,7 +285,7 @@ VAT ID 유효성 검사를 효과적으로 사용하기 위해 [세금 규칙](t
 
 1. 왼쪽 패널에서 **[!UICONTROL Customers]**&#x200B;을(를) 확장하고 **[!UICONTROL Customer Configuration]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Create New Account Options]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Create New Account Options]**&#x200B;를 확장합니다.
 
    다음 예에서는 VAT 검증과 관련이 없는 일반 고객 설정이 어둡습니다.
 
@@ -303,7 +303,7 @@ VAT ID 유효성 검사를 효과적으로 사용하기 위해 [세금 규칙](t
 
 1. 왼쪽 패널에서 **[!UICONTROL General]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL General]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Store Information]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Store Information]**&#x200B;를 확장합니다.
 
    ![정보 저장](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
@@ -317,7 +317,7 @@ VAT ID 유효성 검사를 효과적으로 사용하기 위해 [세금 규칙](t
 
 #### 5단계: EU 회원국 목록 확인
 
-1. _일반_ 구성 페이지에서 계속 ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Countries Options]**&#x200B;를 확장합니다.
+1. _일반_ 구성 페이지에서 계속 ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Countries Options]**&#x200B;를 확장합니다.
 
    ![국가 옵션](../configuration-reference/general/assets/general-country-options.png){width="600" zoomable="yes"}
 
