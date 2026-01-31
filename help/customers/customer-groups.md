@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Add New Customer Group]**&#x200B;을(를) 클릭합니다.
 
-1. [!DNL **Group Name]**의 경우 그룹을 식별하려면 32자 미만의 고유 이름을 입력하십시오.
+1. [!DNL **Group Name]**&#x200B;의 경우 그룹을 식별하려면 32자 미만의 고유 이름을 입력하십시오.
 
 1. 그룹에 적용되는 **[!UICONTROL Tax Class]**&#x200B;을(를) 선택하십시오.
 
