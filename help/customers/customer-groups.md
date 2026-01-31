@@ -3,9 +3,9 @@ title: 고객 그룹
 description: 고객 그룹을 사용하여 그룹에 지정된 고객 및 그룹과 연관된 세금 분류에 사용할 수 있는 할인을 결정합니다.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 17469d27128030b54fad6cf563a4b53f5f119eed
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Add New Customer Group]**&#x200B;을(를) 클릭합니다.
 
-1. [!DNL **Group Name]**&#x200B;의 경우 그룹을 식별하려면 32자 미만의 고유 이름을 입력하십시오.
+1. [!DNL **Group Name]**의 경우 그룹을 식별하려면 32자 미만의 고유 이름을 입력하십시오.
 
 1. 그룹에 적용되는 **[!UICONTROL Tax Class]**&#x200B;을(를) 선택하십시오.
 
@@ -69,6 +69,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >회사 그룹을 변경한 후, 회사 사용자는 로그아웃하고 Storefront에 로그인하여 카탈로그에서 새로운 가격을 확인해야 합니다.
+>고객이 회사에 할당되면 고객 그룹은 읽기 전용이 되며 관리자가 업데이트할 수 없습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**(으)로 이동합니다.
 
@@ -110,4 +111,4 @@ ht-degree: 0%
 
 이 데모를 시청하여 고객 그룹을 만드는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410172/?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)
