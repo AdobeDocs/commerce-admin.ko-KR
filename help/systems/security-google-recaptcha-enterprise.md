@@ -3,10 +3,10 @@ title: Google reCAPTCHA 엔터프라이즈
 description: 봇 및 사기 행위로부터 Adobe Commerce as a Cloud Service 매장을 보호하기 위해 Google reCAPTCHA Enterprise를 구성하는 방법을 알아봅니다.
 role: Admin
 feature: Configuration, Security
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
-source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+source-git-commit: 3bc89a2dcecc91bbb4b3df285b6e1dd7c64bc477
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >이 기능은 관리자에 대한 reCAPTCHA 지원을 제공하지 않습니다.
+
+[reCAPTCHA 통합](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-auth/recaptcha/)은(는) reCAPTCHA Enterprise에 대한 지원을 상점에 추가하는 방법에 대해 설명합니다.
 
 다른 Google reCAPTCHA 버전 구성에 대한 자세한 내용은 [Google reCAPTCHA V3 및 V2](security-google-recaptcha.md)을(를) 참조하십시오.
 
@@ -57,9 +59,11 @@ Adobe Commerce as a Cloud Service 스토어프론트에 대해 Google reCAPTCHA 
 
 ## 2단계: Storefront용 Google reCAPTCHA 구성
 
-1. _[!UICONTROL Security]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**&#x200B;을(를) 선택합니다.
+1. Adobe Commerce _Admin_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 다음과 같이 **[!UICONTROL reCAPTCHA Enterprise]** 섹션을 완료합니다.
+1. _[!UICONTROL Security]_을(를) 확장하고&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**을(를) 선택합니다.
+
+1. **[!UICONTROL reCAPTCHA Enterprise]** 섹션까지 아래로 스크롤한 후 다음과 같이 구성을 완료합니다.
 
    - **[!UICONTROL Site Key]**&#x200B;의 경우 Google 클라우드 콘솔에서 reCAPTCHA Enterprise 사이트 키를 복사하여 붙여넣으십시오.
 
