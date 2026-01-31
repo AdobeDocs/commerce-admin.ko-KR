@@ -61,7 +61,7 @@ Adobe Commerce as a Cloud Service 스토어프론트에 대해 Google reCAPTCHA 
 
 1. Adobe Commerce _Admin_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL Security]_을(를) 확장하고&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**을(를) 선택합니다.
+1. _[!UICONTROL Security]_&#x200B;을(를) 확장하고&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL reCAPTCHA Enterprise]** 섹션까지 아래로 스크롤한 후 다음과 같이 구성을 완료합니다.
 
