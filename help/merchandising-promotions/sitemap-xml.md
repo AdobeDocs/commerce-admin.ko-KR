@@ -3,10 +3,10 @@ title: 사이트 맵
 description: Commerce 사이트의 모든 페이지와 이미지를 색인화하기 위해 사이트 맵을 구성하는 방법에 대해 알아봅니다.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: c9af0854f60da74959b5d1d822b342def417b0f9
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 321a9fb0f3c6d86aad520b76ff717c0b07ac37f0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce as a Cloud Service의 경우 Commerce Storefront 설명서에서 [SEO 지침](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=ko)을 참조하십시오
+>Adobe Commerce as a Cloud Service의 경우 Commerce Storefront 설명서에서 [SEO 지침](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)을 참조하십시오
 
-사이트 맵은 검색 엔진이 스토어를 인덱싱하는 방식을 개선하고 웹 크롤러가 간과할 수 있는 페이지를 찾도록 설계되었습니다. 사이트 맵은 모든 페이지 및 이미지를 색인화하도록 구성할 수 있습니다.
+사이트 맵은 검색 엔진이 스토어를 색인화하는 방식을 개선하며 웹 웹 크롤러가 간과할 수 있는 페이지를 찾도록 설계되었습니다. 사이트 맵은 모든 페이지 및 이미지를 색인화하도록 구성할 수 있습니다.
 
 사용하도록 설정하면 Commerce에서 지정한 위치에 설치 위치에 저장된 `sitemap.xml` 파일을 만듭니다. 이 구성을 통해 업데이트 빈도와 각 콘텐츠 유형에 대한 우선 순위를 설정할 수 있습니다. 사이트 맵은 사이트의 콘텐츠가 변경될 때마다(일별, 주별 또는 월별) 자주 업데이트해야 합니다.
 
-사이트가 개발 중인 동안에는 사이트 색인화를 방지하기 위해 웹 크롤러에 대한 지침을 `robots.txt` 파일에 포함할 수 있습니다. 그런 다음 론치 전에 지침을 변경하여 사이트를 인덱싱할 수 있습니다.
+사이트가 개발 중인 동안에는 사이트 색인화를 방지하기 위해 웹 웹 크롤러에 대한 `robots.txt` 파일에 지침을 포함할 수 있습니다. 그런 다음 론치 전에 지침을 변경하여 사이트를 인덱싱할 수 있습니다.
 
-자세한 내용은 [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=ko)에서 _사이트 맵 및 robots.txt 추가_&#x200B;를 참조하십시오.
+자세한 내용은 [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html)에서 _사이트 맵 및 robots.txt 추가_&#x200B;를 참조하십시오.
 
 ![사이트 맵 표](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 3단계. robots.txt 구성 및 활성화(선택 사항)
 
-인덱싱할 사이트의 부분을 크롤링하도록 검색 엔진에 지시하는 지침과 함께 [검색 엔진 로봇](seo-overview.md#search-engine-robots) 구성을 완료하십시오.
+사이트의 인덱싱할 부분을 검색 엔진에서 크롤링으로 보내는 지침과 함께 [검색 엔진 로봇](seo-overview.md#search-engine-robots) 구성을 완료합니다.
 
 ## 4단계. 검색 엔진에 사이트 맵 제출
 
@@ -102,7 +102,7 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
    
 >[!NOTE]
 >
->사이트에서 [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=ko) 웹 서버 엔진을 사용하는 경우 웹 사이트의 루트에서 [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) 파일을 업데이트하여 다른 사이트 맵 요청을 적절한 위치로 이동해야 합니다.
+>사이트에서 [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html) 웹 서버 엔진을 사용하는 경우 웹 사이트의 루트에서 [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) 파일을 업데이트하여 다른 사이트 맵 요청을 적절한 위치로 이동해야 합니다.
 
 ## 열 설명
 
@@ -128,7 +128,7 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 **[!UICONTROL XML Sitemap]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Categories Options]**&#x200B;를 확장하고 다음을 수행합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Categories Options]**&#x200B;를 확장하고 다음을 수행합니다.
 
    >[!NOTE]
    >
@@ -150,7 +150,7 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
 
    이러한 옵션에 대한 자세한 목록이 필요하면 [구성 참조](../configuration-reference/catalog/xml-sitemap.md#categories-options)에서 _범주 옵션_&#x200B;을 참조하십시오.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Products Options]**&#x200B;를 확장하고 필요에 따라 **[!UICONTROL Frequency]** 및 **[!UICONTROL Priority]** 설정을 완료합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Products Options]**&#x200B;를 확장하고 필요에 따라 **[!UICONTROL Frequency]** 및 **[!UICONTROL Priority]** 설정을 완료합니다.
 
    이러한 옵션에 대한 자세한 목록은 [구성 참조](../configuration-reference/catalog/xml-sitemap.md#products-options)에서 _제품 옵션_&#x200B;을 참조하십시오.
 
@@ -162,13 +162,13 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
 
    ![카탈로그 구성 - XML 사이트 맵 제품](../configuration-reference/catalog/assets/xml-sitemap-products-options.png){width="600" zoomable="yes"}
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL CMS Pages Options]**&#x200B;를 확장하고 필요에 따라 **[!UICONTROL Frequency]** 및 **[!UICONTROL Priority]** 설정을 완료합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL CMS Pages Options]**&#x200B;를 확장하고 필요에 따라 **[!UICONTROL Frequency]** 및 **[!UICONTROL Priority]** 설정을 완료합니다.
 
    ![카탈로그 구성 - XML 사이트 맵 CMS 페이지](../configuration-reference/catalog/assets/xml-sitemap-cms-pages-options.png){width="600" zoomable="yes"}
 
    이러한 옵션에 대한 자세한 목록이 필요하면 [구성 참조](../configuration-reference/catalog/xml-sitemap.md#cms-pages-options)에서 _CMS 페이지 옵션_&#x200B;을 참조하십시오.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Store Url Options]**&#x200B;를 확장하고 필요에 따라 **[!UICONTROL Frequency]** 및 **[!UICONTROL Priority]** 설정을 완료합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Store Url Options]**&#x200B;를 확장하고 필요에 따라 **[!UICONTROL Frequency]** 및 **[!UICONTROL Priority]** 설정을 완료합니다.
 
    ![카탈로그 구성 - XML 사이트 맵 저장소 URL](./assets/xml-sitemap.png){width="600" zoomable="yes"}
 
@@ -178,7 +178,7 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
 
 ### 2단계. 생성 설정 완료
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Generation Settings]**&#x200B;를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Generation Settings]**&#x200B;를 확장합니다.
 
    필요한 경우 **시스템 값 사용** 확인란의 선택을 취소하여 이러한 설정을 변경합니다.
 
@@ -204,7 +204,7 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
 
 ### 3단계. 사이트 맵 파일 제한 설정
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Sitemap File Limits]**&#x200B;를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Sitemap File Limits]**&#x200B;를 확장합니다.
 
    ![카탈로그 구성 - XML 사이트 맵 파일 제한](../configuration-reference/catalog/assets/xml-sitemap-sitemap-file-limits.png){width="600" zoomable="yes"}
 
@@ -220,37 +220,10 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
 
 ### 4단계. 검색 엔진 제출 설정 설정
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Search Engine Submission Settings]**&#x200B;를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Search Engine Submission Settings]**&#x200B;를 확장합니다.
 
    ![카탈로그 구성 - XML 사이트 맵 검색 엔진 제출 설정](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
 
-1. `robots.txt` 파일을 사용하여 사이트를 크롤링하는 검색 엔진에 대한 지침을 제공하는 경우 **[!UICONTROL Enable Submission to Robots.txt]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+1. `robots.txt` 파일을 사용하여 크롤링에 대한 지침을 사이트에 제공하는 엔진을 검색하는 경우 **[!UICONTROL Enable Submission to Robots.txt]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
-
-## 큰 카탈로그에 대한 일괄 사이트 맵 생성 활성화
-
-큰 카탈로그가 있는 스토어의 경우 다음 대체 cron 작업을 사용하여 일괄 사이트 맵 생성을 활성화합니다. 이 접근 방식은 데이터를 더 작은 증분으로 처리하므로 PHP 메모리 소진의 위험을 크게 줄이고 광범위한 제품 데이터가 있는 사이트에 대해서도 사이트 맵 생성이 성공적으로 완료되도록 합니다.
-
-`app/code/Magento/Sitemap/etc/config.xml`에서 바꾸기:
-
-```xml
-<jobs>
-  <sitemap_generate>
-    <schedule>
-      <cron_expr>0 0 * * *</cron_expr>
-    </schedule>
-  </sitemap_generate>
-</jobs>
-```
-
-포함:
-
-```xml
-<jobs>
-  <sitemap_generate_batch>
-    <schedule>
-      <cron_expr>0 0 * * *</cron_expr>
-    </schedule>
-  </sitemap_generate_batch>></jobs>
-```
