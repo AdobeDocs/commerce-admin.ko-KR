@@ -112,9 +112,9 @@ Adobe Commerce 및 Magento Open Source의 기본 쿠키는 판매자가 [GDPR](c
 
 ## 제품 추천 쿠키
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객을 위한 제품 권장 사항에서 다음 쿠키를 사용합니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객을 위한 제품 권장 사항에서 다음 쿠키를 사용합니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
 
-- `mg_dnt`: 사이트에서 쿠키 동의를 관리할 사용자 지정 코드가 있는 경우 [Adobe Commerce 데이터 수집을 제한](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)할 수 있습니다.
+- `mg_dnt`: 사이트에서 쿠키 동의를 관리할 사용자 지정 코드가 있는 경우 [Adobe Commerce 데이터 수집을 제한](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/developer/setting-cookie)할 수 있습니다.
 - `user_allowed_save_cookie`: [쿠키 제한 모드](#cookie-restriction-mode)에 사용됩니다.
 - `authentication_flag`: 쇼핑객이 로그인했는지 또는 로그아웃했는지 여부를 나타냅니다. 이 쿠키는 `dataservices_customer_id` 쿠키와 동시에 업데이트됩니다.
 - `dataservices_customer_id`: 쇼핑객이 로그인했는지 또는 로그아웃했는지 여부를 나타냅니다. 이 쿠키에는 시스템에 있는 고객의 고유 ID가 포함되어 있습니다.
@@ -134,8 +134,8 @@ Adobe Commerce 및 Magento Open Source의 기본 쿠키는 판매자가 [GDPR](c
 
 ## 추가 쿠키
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객에 대해 다음 쿠키가 설정됩니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객에 대해 다음 쿠키가 설정됩니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
 
 - `mg`: Snowploy JavaScript 추적기에서 설정합니다. 자세한 내용은 [Snowploy 설명서](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/)에서 확인할 수 있습니다.
 - `com.adobe.alloy.getTld`: 현재 웹 페이지의 호스트 이름을 고려할 때 이 도메인은 https://publicsuffix.org에 설명된 &quot;공용 접미사&quot;가 아닌 최상위 도메인입니다. 기본적으로 이 도메인은 쿠키를 허용할 수 있는 가장 상위 도메인입니다. 이 쿠키는 [Alloy Web SDK](https://github.com/adobe/alloy)의 일부입니다.
-- `aep-segments-membership`: 쇼핑객이 속한 세그먼트와 같은 [대상 정보](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)를 포함합니다.
+- `aep-segments-membership`: 쇼핑객이 속한 세그먼트와 같은 [대상 정보](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/audience-activation)를 포함합니다.
