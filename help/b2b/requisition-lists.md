@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 계정의 사이드바에서 **[!UICONTROL My Requisition Lists]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Requisition Lists]_페이지에서&#x200B;**[!UICONTROL Create New Requisition List]**을(를) 클릭합니다.
+1. _[!UICONTROL Requisition Lists]_&#x200B;페이지에서&#x200B;**[!UICONTROL Create New Requisition List]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Requisition List Name]** 및 **[!UICONTROL Description]**&#x200B;을(를) 입력합니다.
 
