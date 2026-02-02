@@ -3,7 +3,7 @@ title: 구매요청 목록
 description: 구매요청 목록과 자주 주문하는 제품을 장바구니에 쉽게 추가하는 데 사용하는 방법에 대해 알아봅니다.
 exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
 feature: B2B
-source-git-commit: 7e4eef8a6862667b9ab11cd07f85eb4b5ac9a6e4
+source-git-commit: 5f46c4b29c7ee08faf3785c767d3130a277767df
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 구매요청 목록
 
-구매 요청 목록을 사용하면 목록에서 바로 장바구니에 품목이 추가되므로 자주 주문하는 제품을 구매할 때 시간이 절약됩니다. 구매자는 다양한 공급업체, 구매자, 팀, 캠페인 또는 워크플로를 간소화하는 기타 모든 제품의 제품에 중점을 두는 여러 목록을 유지 관리할 수 있습니다. 로그인한 사용자와 게스트 모두가 사용할 수 있습니다.
+구매 요청 목록을 사용하면 목록에서 바로 장바구니에 품목이 추가되므로 자주 주문하는 제품을 구매할 때 시간이 절약됩니다. 구매자는 다양한 공급업체, 구매자, 팀, 캠페인 또는 워크플로를 간소화하는 기타 모든 제품의 제품에 중점을 두는 여러 목록을 유지 관리할 수 있습니다. 로그인한 사용자는 구매요청 목록 기능을 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 계정의 사이드바에서 **[!UICONTROL My Requisition Lists]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Requisition Lists]_&#x200B;페이지에서&#x200B;**[!UICONTROL Create New Requisition List]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Requisition Lists]_페이지에서&#x200B;**[!UICONTROL Create New Requisition List]**을(를) 클릭합니다.
 
 1. **[!UICONTROL Requisition List Name]** 및 **[!UICONTROL Description]**&#x200B;을(를) 입력합니다.
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 1. [!UICONTROL Items Quoted] 탭에서 이동할 제품을 선택합니다.
 
-1. 제품 라인 항목에 대해 [!UICONTROL Actions] 열의 [!UICONTROL Select] 드롭다운을 사용하여 **[!UICONTROL Move to Requisition list]**&#x200B;을(를) 선택합니다.
+1. 제품 라인 항목에 대해 [!UICONTROL Select] 열의 [!UICONTROL Actions] 드롭다운을 사용하여 **[!UICONTROL Move to Requisition list]**&#x200B;을(를) 선택합니다.
 
 1. 선택한 품목에 대한 구매요청 목록을 선택합니다.
 
@@ -133,7 +133,7 @@ B2B 견적에 대한 자세한 내용은 [내 견적](account-dashboard-my-quote
 
 1. 계정 대시보드의 사이드바에서 **[!UICONTROL My Requisition Lists]**&#x200B;을(를) 선택합니다.
 
-1. 구매요청 목록 목록에서 _작업_ 열의 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
+1. 구매요청 목록 목록에서 **[!UICONTROL View]**&#x200B;작업&#x200B;_열의_&#x200B;을(를) 클릭합니다.
 
 ### 모든 storefront 페이지에서
 
