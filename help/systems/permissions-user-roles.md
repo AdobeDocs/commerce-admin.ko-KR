@@ -26,9 +26,9 @@ ht-degree: 0%
 
 ### 1단계: 역할 이름 추가
 
-1. _[!UICONTROL Role Information]_에서 설명&#x200B;**[!UICONTROL Role Name]**을(를) 입력하십시오.
+1. _[!UICONTROL Role Information]_&#x200B;에서 설명&#x200B;**[!UICONTROL Role Name]**&#x200B;을(를) 입력하십시오.
 
-1. _[!UICONTROL Current User Identity Verification]_에서 암호를 입력하십시오.
+1. _[!UICONTROL Current User Identity Verification]_&#x200B;에서 암호를 입력하십시오.
 
    ![시스템 권한 - 역할 정보](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
@@ -49,9 +49,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >`Custom` 역할 범위를 가진 사용자는 제한된 스토어에 할당된 경우 웹 사이트 및 범주를 만들거나, 제품을 범주에 할당하거나, _[!UICONTROL All Store Views]_범위에서 제품을 편집할 수 없습니다. 이러한 사용자는 액세스 권한이 없는 범위에 영향을 주는 다른_&#x200B;전역&#x200B;_작업도 수행할 수 없습니다.
+   >`Custom` 역할 범위를 가진 사용자는 제한된 스토어에 할당된 경우 웹 사이트 및 범주를 만들거나, 제품을 범주에 할당하거나, _[!UICONTROL All Store Views]_&#x200B;범위에서 제품을 편집할 수 없습니다. 이러한 사용자는 액세스 권한이 없는 범위에 영향을 주는 다른_&#x200B;전역&#x200B;_작업도 수행할 수 없습니다.
 
-1. _[!UICONTROL Roles Resources]_에서&#x200B;**[!UICONTROL Resource Access]**을(를) `Custom`(으)로 설정합니다.
+1. _[!UICONTROL Roles Resources]_&#x200B;에서&#x200B;**[!UICONTROL Resource Access]**&#x200B;을(를) `Custom`(으)로 설정합니다.
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Sales / Archive]**, _[!UICONTROL Invoices]_및_[!UICONTROL Credit Memos]_ 순서 _[!UICONTROL Shipments]_탭[을 보려면 관리자 사용자에게 역할 범위에 대한 ](../stores-purchase/order-processing.md) 권한이 있어야 합니다.
+   >**[!UICONTROL Sales / Archive]**, _[!UICONTROL Invoices]_&#x200B;및_[!UICONTROL Credit Memos]_ 순서 _[!UICONTROL Shipments]_&#x200B;탭[을 보려면 관리자 사용자에게 역할 범위에 대한 &#x200B;](../stores-purchase/order-processing.md) 권한이 있어야 합니다.
 
 1. 완료되면 **[!UICONTROL Save Role]**&#x200B;을(를) 클릭합니다.
 
@@ -75,13 +75,13 @@ ht-degree: 0%
 
 ## 사용자에게 역할 할당
 
-1. _[!UICONTROL Roles]_그리드에서 레코드를 편집 모드로 엽니다.
+1. _[!UICONTROL Roles]_&#x200B;그리드에서 레코드를 편집 모드로 엽니다.
 
-1. _[!UICONTROL Current User Identity Verification]_에서 사용자 계정 암호를 입력합니다.
+1. _[!UICONTROL Current User Identity Verification]_&#x200B;에서 사용자 계정 암호를 입력합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Role Users]**&#x200B;을(를) 선택합니다.
 
-   _[!UICONTROL Role Users]_옵션은 새 역할이 저장된 후에만 나타납니다.
+   _[!UICONTROL Role Users]_&#x200B;옵션은 새 역할이 저장된 후에만 나타납니다.
 
    ![역할에 할당된 사용자 계정](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
