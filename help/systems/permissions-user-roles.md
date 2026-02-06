@@ -123,7 +123,7 @@ ht-degree: 0%
 
 이 비디오를 통해 사용자 역할 관리에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443514?captions=kor&quality=12&learn=on)
 
 ## 역할 리소스
 
