@@ -3,9 +3,9 @@ title: 인보이스
 description: 주문 처리 및 고객 서비스 작업을 지원하기 위해 송장을 만들고 인쇄하는 방법에 대해 알아봅니다.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: 80cc27c4247230eb5e43bca46a34d358f9f0bcea
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
    >[!NOTE]
    >
-   >특정 _[!UICONTROL Invoice]_&#x200B;결제 방법[에 대한 &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions)결제 작업[이(가) &#x200B;](../configuration-reference/sales/payment-methods.md)(으)로 설정되어 송장이 자동 생성되면 `Authorize and Capture` 옵션이 표시되지 않습니다. 또한 주문이 수행되고 결제 방법에 대한 결제 작업이 `Authorize`(으)로 설정되어 있고 주문에 대한 송장이 발행된 경우에도 마찬가지입니다.
+   >특정 _[!UICONTROL Invoice]_결제 방법[에 대한 ](../configuration-reference/sales/payment-methods.md#payment-actions)결제 작업[이(가) ](../configuration-reference/sales/payment-methods.md)(으)로 설정되어 송장이 자동 생성되면 `Authorize and Capture` 옵션이 표시되지 않습니다. 또한 주문이 수행되고 결제 방법에 대한 결제 작업이 `Authorize`(으)로 설정되어 있고 주문에 대한 송장이 발행된 경우에도 마찬가지입니다.
 
    ![송장 판매 주문](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -131,7 +131,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**(으)로 이동합니다.
 
-1. _[!UICONTROL Invoices]_&#x200B;그리드에서 송장을 찾은 다음&#x200B;**[!UICONTROL View]**&#x200B;작업_ 열에서 _을(를) 클릭합니다.
+1. _[!UICONTROL Invoices]_그리드에서 송장을 찾은 다음&#x200B;**[!UICONTROL View]**작업_ 열에서 _을(를) 클릭합니다.
 
 1. 송장의 맨 위에서 **[!UICONTROL Print]**&#x200B;을(를) 클릭하여 송장의 PDF을 생성합니다.
 
@@ -141,10 +141,24 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**(으)로 이동합니다.
 
-1. _[!UICONTROL Invoices]_&#x200B;그리드에서 인쇄할 각 송장의 확인란을 선택합니다.
+1. _[!UICONTROL Invoices]_그리드에서 인쇄할 각 송장의 확인란을 선택합니다.
 
 1. **[!UICONTROL Actions]** 컨트롤을 `PDF Invoices`(으)로 설정합니다.
 
    ![여러 송장 인쇄](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 인보이스는 프린터로 보내거나 저장할 수 있는 단일 PDF 파일에 저장됩니다.
+
+## 사용자 정의 캡처 금액
+
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+
+판매자에게 부분 캡처 및 특수 결제 시나리오에 대한 보다 높은 유연성을 제공하기 위해 Invoice API는 확장 속성을 사용하여 사용자 정의 캡처 금액을 지원합니다.
+
+송장을 생성할 때 사용자 정의 금액을 수집하기 위해 REST를 호출할 수 있습니다.  [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) REST 끝점을 사용하고 페이로드의 `extension_attributes.custom_capture_amount` 필드에 사용자 지정 양을 지정하십시오.
+
+>[!NOTE]
+>
+>이 기능을 활성화하려면 지원 담당자에게 문의하십시오.
+>
+>법적 제한으로 인해 사용자 정의 캡처 금액은 북미(NA) 지역 및 결제 오버캡처가 허용된 기타 지역에서만 사용할 수 있습니다.

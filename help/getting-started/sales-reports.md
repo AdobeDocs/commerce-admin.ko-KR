@@ -3,8 +3,7 @@ title: 영업 보고서
 description: ' [!DNL Commerce] 영업 보고서를 통해 주문, 세금, 송장, 배송, 환불, 쿠폰 및 PayPal 결제를 추적할 수 있습니다.'
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -131,6 +130,8 @@ _관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>*
 1. **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
 
 ## 통계 새로 고침
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 판매 보고서를 생성함으로써 성능에 미치는 영향을 줄이기 위해 [!DNL Commerce]에서는 각 보고서에 필요한 통계를 계산하고 저장합니다. 보고서가 생성될 때마다 통계를 다시 계산하지 않고, 통계를 새로 고치지 않는 한 저장된 통계가 사용됩니다. 가장 최근 데이터를 포함하려면 판매 보고서가 생성되기 전에 보고서 통계를 새로 고쳐야 합니다.
 

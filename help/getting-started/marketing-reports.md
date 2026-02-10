@@ -3,10 +3,9 @@ title: 마케팅 보고서
 description: 마케팅 보고서는 장바구니 상태, 검색어 사용 및 뉴스레터 전송에 대한 정보를 제공합니다.
 exl-id: 3ff6d4f7-ab8d-4e4e-b9e9-b12e3a08de62
 feature: Marketing Tools, Reporting
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -23,6 +22,8 @@ ht-degree: 0%
 
 ## [!UICONTROL Search Terms Report]
 
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+
 [검색어](../catalog/search-terms.md#search-terms-report) 보고서는 고객이 각 스토어 보기에서 찾고 있는 내용을 보여줍니다. 이 보고서에는 카탈로그에 있는 일치하는 항목의 수와 검색어가 사용된 횟수가 포함됩니다.
 
 ![검색어 보고서](./assets/search-terms.png){width="600"}
@@ -34,6 +35,8 @@ ht-degree: 0%
 ![포기한 장바구니 보고서](./assets/abandoned-carts.png){width="600"}
 
 ## [!UICONTROL Newsletter Problems Report]
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 [!UICONTROL Newsletter Problems Report]에 전송 실패한 뉴스레터 큐에 대한 정보가 포함되어 있습니다. 이 보고서에는 각 가입자의 이름, 대기열 날짜와 제목, 오류에 대한 정보가 포함됩니다.
 

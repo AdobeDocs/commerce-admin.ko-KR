@@ -3,10 +3,9 @@ title: 제품 보고서
 description: Adobe Commerce 및 Magento Open Source에서 사용할 수 있는 제품 보고서는 보고 주문한 제품, 베스트셀러, 재고 수준 및 다운로드에 대한 insight을 제공합니다.
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
 feature: Products, Reporting
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -16,6 +15,8 @@ ht-degree: 0%
 제품 보고서는 보고 주문한 제품, 베스트셀러, 재고 수준 및 다운로드에 대한 insight을 제공합니다.
 
 ## [!UICONTROL Product Views Report]
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 [!UICONTROL Product Views Report]은(는) 시간 간격 또는 날짜 범위 동안 본 제품을 표시합니다. 이 보고서에는 제품 이름, 가격 및 보기 수가 포함됩니다.
 
@@ -48,6 +49,8 @@ _관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Products]
 ![주문 제품 보고서](./assets/products-ordered.png){width="600"}
 
 ## [!UICONTROL Downloads Report]
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 [!UICONTROL Downloads Report]은(는) 지정된 시간 간격 또는 날짜 범위 동안의 모든 다운로드를 나열합니다. 이 보고서에는 제품 이름, 다운로드 링크 및 SKU와 구매 및 다운로드 수가 포함됩니다.
 

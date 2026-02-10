@@ -3,8 +3,7 @@ title: 고객 보고서
 description: Adobe Commerce 및 Magento Open Source에서 사용할 수 있는 고객 보고서는 insight을 지정된 기간 또는 날짜 범위 동안 고객 활동에 제공합니다.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 1%
@@ -109,6 +108,8 @@ _관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Customers
 {style="table-layout:auto"}
 
 ## [!UICONTROL Customer Wish List Report]
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용)
 
