@@ -71,7 +71,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
    >[!NOTE]
    >
-   >특정 _[!UICONTROL Invoice]_결제 방법[에 대한 ](../configuration-reference/sales/payment-methods.md#payment-actions)결제 작업[이(가) ](../configuration-reference/sales/payment-methods.md)(으)로 설정되어 송장이 자동 생성되면 `Authorize and Capture` 옵션이 표시되지 않습니다. 또한 주문이 수행되고 결제 방법에 대한 결제 작업이 `Authorize`(으)로 설정되어 있고 주문에 대한 송장이 발행된 경우에도 마찬가지입니다.
+   >특정 _[!UICONTROL Invoice]_&#x200B;결제 방법[에 대한 &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions)결제 작업[이(가) &#x200B;](../configuration-reference/sales/payment-methods.md)(으)로 설정되어 송장이 자동 생성되면 `Authorize and Capture` 옵션이 표시되지 않습니다. 또한 주문이 수행되고 결제 방법에 대한 결제 작업이 `Authorize`(으)로 설정되어 있고 주문에 대한 송장이 발행된 경우에도 마찬가지입니다.
 
    ![송장 판매 주문](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -131,7 +131,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**(으)로 이동합니다.
 
-1. _[!UICONTROL Invoices]_그리드에서 송장을 찾은 다음&#x200B;**[!UICONTROL View]**작업_ 열에서 _을(를) 클릭합니다.
+1. _[!UICONTROL Invoices]_&#x200B;그리드에서 송장을 찾은 다음&#x200B;**[!UICONTROL View]**&#x200B;작업_ 열에서 _을(를) 클릭합니다.
 
 1. 송장의 맨 위에서 **[!UICONTROL Print]**&#x200B;을(를) 클릭하여 송장의 PDF을 생성합니다.
 
@@ -141,7 +141,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**(으)로 이동합니다.
 
-1. _[!UICONTROL Invoices]_그리드에서 인쇄할 각 송장의 확인란을 선택합니다.
+1. _[!UICONTROL Invoices]_&#x200B;그리드에서 인쇄할 각 송장의 확인란을 선택합니다.
 
 1. **[!UICONTROL Actions]** 컨트롤을 `PDF Invoices`(으)로 설정합니다.
 
