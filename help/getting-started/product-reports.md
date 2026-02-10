@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Views Report]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 [!UICONTROL Product Views Report]은(는) 시간 간격 또는 날짜 범위 동안 본 제품을 표시합니다. 이 보고서에는 제품 이름, 가격 및 보기 수가 포함됩니다.
 
@@ -50,7 +50,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Products]
 
 ## [!UICONTROL Downloads Report]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 [!UICONTROL Downloads Report]은(는) 지정된 시간 간격 또는 날짜 범위 동안의 모든 다운로드를 나열합니다. 이 보고서에는 제품 이름, 다운로드 링크 및 SKU와 구매 및 다운로드 수가 포함됩니다.
 

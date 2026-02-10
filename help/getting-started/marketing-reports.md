@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Search Terms Report]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 [검색어](../catalog/search-terms.md#search-terms-report) 보고서는 고객이 각 스토어 보기에서 찾고 있는 내용을 보여줍니다. 이 보고서에는 카탈로그에 있는 일치하는 항목의 수와 검색어가 사용된 횟수가 포함됩니다.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Newsletter Problems Report]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 [!UICONTROL Newsletter Problems Report]에 전송 실패한 뉴스레터 큐에 대한 정보가 포함되어 있습니다. 이 보고서에는 각 가입자의 이름, 대기열 날짜와 제목, 오류에 대한 정보가 포함됩니다.
 
