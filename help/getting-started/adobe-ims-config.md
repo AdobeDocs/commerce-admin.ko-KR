@@ -3,7 +3,7 @@ title: ID를 사용하여 Commerce 관리 통합 구성
 description: Adobe Commerce Admin 사용자 계정 로그인을 Adobe ID과 통합하려면 이 선택적 절차를 따르십시오.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 source-git-commit: e1518775bf43f5493b61d21951a0b1126dfc49aa
 workflow-type: tm+mt
 source-wordcount: '875'
@@ -34,8 +34,8 @@ ht-degree: 0%
 
 이 통합을 구성하는 관리자는 모듈을 사용하는 동안 다음 자격 증명이 필요합니다.
 
-* 조직 ID([Adobe Admin Console](https://adminconsole.adobe.com/)에서 가져옴)이며, 길이는 24자 이상이어야 합니다. 인증된 사용자는 이 IMS 조직에 속해야 합니다. 조직 ID 찾기에 대한 자세한 내용은 [Experience Cloud의 조직](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)을 참조하세요.
-* 2FA는 모듈을 활성화하기 위해 Adobe Admin Console의 조직 수준에서 적용되어야 합니다. [인증 설정](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification)을 확인하세요.
+* 조직 ID([Adobe Admin Console](https://adminconsole.adobe.com/)에서 가져옴)이며, 길이는 24자 이상이어야 합니다. 인증된 사용자는 이 IMS 조직에 속해야 합니다. 조직 ID 찾기에 대한 자세한 내용은 [Experience Cloud의 조직](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)을 참조하세요.
+* 2FA는 모듈을 활성화하기 위해 Adobe Admin Console의 조직 수준에서 적용되어야 합니다. [인증 설정](https://helpx.adobe.com/kr/enterprise/using/authentication-settings.html#two-step-verification)을 확인하세요.
 * 클라이언트 ID
 * 클라이언트 암호
 * [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials)에서 API 키를 검색한 후 클라이언트 ID 및 클라이언트 암호를 사용할 수 있습니다.
@@ -82,9 +82,9 @@ Commerce Admin 사용자는 로그인하려면 Adobe ID으로 계정을 만들�
 
 >[!TIP]
 >
->CSV 파일에서 사용자 정보를 업로드하여 여러 사용자 계정을 만들 수 있습니다. [여러 사용자 관리](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)를 참조하십시오.
+>CSV 파일에서 사용자 정보를 업로드하여 여러 사용자 계정을 만들 수 있습니다. [여러 사용자 관리](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html)를 참조하십시오.
 
-1. [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)에서 **[!UICONTROL Users]** > **[!UICONTROL Users]**(으)로 이동합니다.
+1. [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)에서 **[!UICONTROL Users]** > **[!UICONTROL Users]**(으)로 이동합니다.
 
 1. **[!UICONTROL Add User]**&#x200B;을(를) 클릭합니다.
 
@@ -115,4 +115,4 @@ Adobe Commerce에 활성화 성공 또는 실패 여부를 나타내는 메시�
 
 ## ID 및 SSO(Single Sign-On)
 
-Adobe ID, Enterprise ID 및 Federated ID을 포함한 ID 구성 옵션과 Adobe 앱에 대한 보안 액세스를 위해 SSO(Single Sign-On)를 구성하는 방법에 대한 자세한 내용은 [Enterprise Admin Console](https://helpx.adobe.com/enterprise/using/set-up-identity.html) 설명서의 *ID 및 SSO 설정*&#x200B;을 참조하십시오.
+Adobe ID, Enterprise ID 및 Federated ID을 포함한 ID 구성 옵션과 Adobe 앱에 대한 보안 액세스를 위해 SSO(Single Sign-On)를 구성하는 방법에 대한 자세한 내용은 [Enterprise Admin Console](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html) 설명서의 *ID 및 SSO 설정*&#x200B;을 참조하십시오.
