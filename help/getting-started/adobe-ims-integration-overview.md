@@ -3,10 +3,10 @@ title: Adobe IMS(Identity Management Service) 통합 개요
 description: Adobe Commerce Admin 로그인과 Adobe IMS의 선택적 통합을 소개합니다.
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 484351d7db33139e3339ccea82e7a96f5ea7966e
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,13 @@ Commerce Admin IMS 통합에 필요한 모듈은 Adobe Commerce 핵심 릴리스
 
 ## IMS와 통합 후 관리 워크플로우 및 인터페이스 변경 사항
 
-이 통합이 활성화되면 Commerce 관리자 사용자는 관리자에서 관리자 사용자를 만드는 것과 같이 재인증이 필요한 일상적인 작업을 수행할 때 기본 Commerce 관리자 로그인 및 인증 워크플로가 변경됩니다. 모듈을 사용하려면 Adobe 조직 수준에서 2단계 인증(2FA)을 적용해야 합니다. 기본 관리자 로그인 및 2FA가 비활성화되고 _[!UICONTROL Sign In with Adobe ID]_&#x200B;단추가 기본 관리자 로그인 양식을 대체합니다. 권한은 여전히 관리자로부터 관리됩니다.
+이 통합이 활성화되면 Commerce 관리자 사용자는 관리자에서 관리자 사용자를 만드는 것과 같이 재인증이 필요한 일상적인 작업을 수행할 때 기본 Commerce 관리자 로그인 및 인증 워크플로가 변경됩니다. 모듈을 사용하려면 Adobe 조직 수준에서 2단계 인증(2FA)을 적용해야 합니다. 기본 관리자 로그인 및 2FA가 비활성화되고 _[!UICONTROL Sign In with Adobe ID]_단추가 기본 관리자 로그인 양식을 대체합니다. 권한은 여전히 관리자로부터 관리됩니다.
+
+>
+>
+>AdobeIms 통합은 전역적으로 적용됩니다. 활성화되면 모든 사용자는 AdobeIms를 통해 인증해야 합니다. 개별 사용자를 이 구성에서 제외할 수 없습니다.
+>
+>**영향을 완전히 이해한 후에만 이 통합을 사용하도록 설정하십시오.**
 
 ## IMS와 Admin 통합이 Commerce 암호에 미치는 영향
 
