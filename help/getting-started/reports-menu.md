@@ -28,7 +28,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Reports]**&#x200B;을(를) 선택�
 
 ### [!UICONTROL Reviews]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 [검토 보고서](review-reports.md) 제품 선택에는 고객별 및 제품별 항목이 포함됩니다.
 
@@ -38,9 +38,9 @@ _관리자_ 사이드바에서 **[!UICONTROL Reports]**&#x200B;을(를) 선택�
 
 ### [!UICONTROL System Insights]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
-(Adobe Commerce만 해당) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html)은(는) 24시간 연중무휴 실시간 성능 모니터링, 보고서 및 권장 사항을 통해 클라우드 인프라에 Adobe Commerce을 설치하는 데 대한 시스템 통찰력을 제공합니다.
+(Adobe Commerce만 해당) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=ko)은(는) 24시간 연중무휴 실시간 성능 모니터링, 보고서 및 권장 사항을 통해 클라우드 인프라에 Adobe Commerce을 설치하는 데 대한 시스템 통찰력을 제공합니다.
 
 ### [!UICONTROL Customers]
 
@@ -52,18 +52,18 @@ _관리자_ 사이드바에서 **[!UICONTROL Reports]**&#x200B;을(를) 선택�
 
 ### [!UICONTROL Private Sales]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 (Adobe Commerce만 해당) [개인 판매 및 이벤트](private-sales-reports.md)에 대한 보고서 선택에는 초대, 초대된 고객 및 전환이 포함됩니다.
 
 ### [!UICONTROL Statistics]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 [통계](sales-reports.md#refresh-statistics)는 통계 데이터를 계산 및 저장하여 보고서 생성의 성능 영향을 줄이는 도구입니다. 보고서가 생성될 때마다 통계를 다시 계산하는 대신 통계를 새로 고칠 때까지 저장된 통계가 사용됩니다.
 
 ### [!DNL Commerce Intelligence]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 통합된 [[!DNL Commerce Intelligence]](business-intelligence.md) 도구는 전략적 비즈니스 의사 결정에 필요한 insight을 제공합니다.
