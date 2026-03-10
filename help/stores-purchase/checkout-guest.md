@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 등록된 이메일에 대한 게스트 주문 액세스 허용
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 기본적으로 비활성화되어 있는 저장소 수준 구성(선택 사항)을 사용하면 게스트 구매자가 등록된 고객 계정과 일치하는 이메일 주소를 사용하여 수행한 주문을 추적할 수 있습니다.
 
