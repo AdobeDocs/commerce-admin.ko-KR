@@ -3,10 +3,10 @@ title: 미디어 갤러리 자산 관리
 description: Adobe Stock 통합을 통해 얻은 업로드된 미디어 파일 및 에셋을 관리하는 방법을 알아봅니다.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 7052319eb322cbf219aacebf4ba7642dbeb5ca96
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # 미디어 갤러리 자산 관리
 
 새 [미디어 갤러리](media-gallery.md)에서는 업로드된 미디어 파일 및 [Adobe Stock 통합](adobe-stock.md)을 통해 얻은 자산을 관리하는 도구를 제공합니다. Adobe Stock [이미지 미리 보기](adobe-stock-save-preview.md)를 저장한 경우 새 미디어 갤러리에서 이미지를 [라이선스](adobe-stock-license-image.md)할 수도 있습니다.
+
+Assets은 `pub/media/wysywig`, `pub/media/catalog/category` 또는 모듈에서 추가한 다른 폴더에만 업로드할 수 있습니다.
 
 ## 에셋 업로드
 
@@ -23,7 +25,7 @@ ht-degree: 0%
 
 1. 업로드할 파일을 선택합니다.
 
-   선택한 에셋은 선택한 폴더(또는 폴더를 선택하지 않은 경우 스토리지 루트)에 자동으로 업로드됩니다.
+   선택한 에셋은 선택한 폴더에 자동으로 업로드됩니다.
 
 ## 자산 세부 사항 보기
 
@@ -104,7 +106,7 @@ Assets은 [페이지 추가 또는 편집](page-add.md), [카테고리 만들기
 
 >[!NOTE]
 >
->_다음에서 사용_ 기능을 사용하려면 [!UICONTROL Media Gallery Image Optimization]구성 설정[에서 &#x200B;](media-gallery-image-optimization.md)을(를) 사용하도록 설정해야 합니다.
+>_다음에서 사용_ 기능을 사용하려면 [!UICONTROL Media Gallery Image Optimization]구성 설정[에서 ](media-gallery-image-optimization.md)을(를) 사용하도록 설정해야 합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**(으)로 이동합니다.
 
