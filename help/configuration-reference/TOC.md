@@ -5,10 +5,10 @@ breadcrumb-title: 구성 참조
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: ae472bb3be3b9095c4c8b5869c4a4d247cb2aef1
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 3%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 2%
    - [XML 사이트 맵](./catalog/xml-sitemap.md)
    - [RSS 피드](./catalog/rss-feeds.md)
    - [친구에게 이메일 보내기](./catalog/email-to-a-friend.md)
+   - [제품 파일 속성](./catalog/product-file-attributes.md)
 - 보안 {#security}
    - [2FA](./security/2fa.md)
    - [Google reCAPTCHA 관리 패널](./security/google-recaptcha-admin.md)
@@ -83,4 +84,4 @@ ht-degree: 2%
    - [관리자](./advanced/admin.md)
    - [시스템](./advanced/system.md)
    - [개발자](./advanced/developer.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
