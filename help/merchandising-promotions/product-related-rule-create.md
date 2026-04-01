@@ -3,9 +3,9 @@ title: 관련 제품 규칙 만들기
 description: 관련 제품, 상향 판매 및 교차 판매를 표시하기 위해 트리거할 수 있는 관련 제품 규칙을 만드는 방법을 알아봅니다.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: cea943cd7f4d148c885fbd113c3bc08bfdf63ea0
+source-git-commit: 68178cb3ed493c35e92549e1ee084b1c0402264c
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    - 규칙이 특정 [고객 세그먼트](../customers/customer-segments.md)에 적용되는 경우 **[!UICONTROL Customer Segments]**&#x200B;을(를) `Specified`(으)로 설정하고 목록에서 고객 세그먼트를 선택하십시오.
 
-   - 규칙이 특정 [Real-Time CDP 대상](../customers/audience-activation.md)에 적용되는 경우 **[!UICONTROL Real-Time CDP Audience]**&#x200B;을(를) `Specified`(으)로 설정하고 목록에서 Real-Time CDP 대상을 선택하십시오. 이 기능은 Beta 버전입니다. Beta 프로그램에 참여하려면 [dataconnection@adobe.com](mailto:dataconnection@adobe.com)(으)로 요청을 보내십시오.
+   - 규칙이 특정 [Real-Time CDP 대상](../customers/audience-activation.md)에 적용되는 경우 **[!UICONTROL Real-Time CDP Audience]**&#x200B;을(를) `Specified`(으)로 설정하고 목록에서 Real-Time CDP 대상을 선택하십시오.
 
      ![관련 제품 규칙 - Real-Time CDP 대상](./assets/rtcdp-related-products.png){width="500"}
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 관련 제품 규칙을 만드는 방법에 대해 알아보려면 이 비디오 를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411065?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/343837?quality=12&learn=on)
 
 ## 필드 설명
 
