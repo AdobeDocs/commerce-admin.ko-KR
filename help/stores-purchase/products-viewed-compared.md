@@ -21,7 +21,7 @@ _최근에 본 항목 및 최근에 비교한 항목_ 블록은 일반적으로 
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Catalog]**&#x200B;을(를) 선택합니다.
 
-1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Recently Viewed/Compared Products]**&#x200B;를 확장합니다.
+1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Recently Viewed/Compared Products]**&#x200B;를 확장합니다.
 
    ![카탈로그 구성 - 최근에 본 제품/비교한 제품](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
 
