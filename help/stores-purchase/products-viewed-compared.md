@@ -3,9 +3,10 @@ title: 최근에 보거나 비교한 제품
 description: 최근에 보고 비교한 제품에 대한 상점 컨텐츠 블록을 구성하는 방법에 대해 알아봅니다.
 exl-id: a4580835-68c2-4eb0-825e-0939eeab921b
 feature: Products, Storefront
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 6848b28d05bc3da12d0ecdeb32d6515c7be7cdfb
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -20,11 +21,11 @@ _최근에 본 항목 및 최근에 비교한 항목_ 블록은 일반적으로 
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Catalog]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Recently Viewed/Compared Products]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. ![ 섹션에서 ](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Recently Viewed/Compared Products]**&#x200B;를 확장합니다.
 
    ![카탈로그 구성 - 최근에 본 제품/비교한 제품](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
 
-   이러한 각 구성 설정에 대한 자세한 설명은 _구성 참조 안내서_&#x200B;에서 [최근에 본 제품/비교한 제품](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products)을 참조하세요.
+   이러한 각 구성 설정에 대한 자세한 설명은 [구성 참조 안내서](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products)에서 _최근에 본 제품/비교한 제품_&#x200B;을 참조하세요.
 
 1. **[!UICONTROL Synchronize widget products with backend storage]**&#x200B;을(를) 설정하여 제품 ID와 같은 제품 위젯 정보를 데이터베이스의 현재 제품 저장소 가용성과 동기화한 다음 다른 장치에서 이 정보를 다시 사용합니다.
 
