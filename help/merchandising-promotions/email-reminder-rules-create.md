@@ -3,9 +3,9 @@ title: 이메일 미리 알림 만들기
 description: 기존 장바구니 가격 규칙을 사용하는 이메일 미리 알림 규칙을 설정하는 방법을 알아봅니다.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: 43654def3e227127dcf0732962b4f1142a6a3856
+source-git-commit: d605748f04f26952daa467a84431a17bf368dbad
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단에서 **[!UICONTROL Add New Rule]**&#x200B;을(를) 클릭합니다.
 
-1. 다음과 같이 _[!UICONTROL Rule Information]_&#x200B;을(를) 완료합니다.
+1. 다음과 같이 _[!UICONTROL Rule Information]_을(를) 완료합니다.
 
    ![전자 메일 미리 알림 규칙](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -55,9 +55,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >고객에게 일치하는 포기한 장바구니, 위시리스트 또는 두 가지 조합을 두 개 이상 보유한 경우, 이메일 미리 알림은 해당 고객에 대해 한 번만 트리거됩니다. 동일한 이메일 미리 알림을 다시 트리거하려면 _[!UICONTROL Repeat Schedule]_&#x200B;필드를 사용하여 이메일 간격(일)을 설정하십시오. <br/>
+   >고객에게 일치하는 포기한 장바구니, 위시리스트 또는 두 가지 조합을 두 개 이상 보유한 경우, 이메일 미리 알림은 해당 고객에 대해 한 번만 트리거됩니다. 동일한 이메일 미리 알림을 다시 트리거하려면 _[!UICONTROL Repeat Schedule]_필드를 사용하여 이메일 간격(일)을 설정하십시오. <br/>
    >
-   >**_기간이 끝난_**&#x200B;신규&#x200B;**_포기한 장바구니 및 희망 목록_**&#x200B;이후&#x200B;**_에 대해 동일한 고객에 대해 동일한 이메일 미리 알림이_**&#x200B;다시 시도되지 않음&#x200B;_[!UICONTROL Repeat Schedule]_&#x200B;입니다.
+   >**_기간이 끝난_**&#x200B;신규&#x200B;**_포기한 장바구니 및 희망 목록_**&#x200B;이후&#x200B;**_에 대해 동일한 고객에 대해 동일한 이메일 미리 알림이_**&#x200B;다시 시도되지 않음&#x200B;_[!UICONTROL Repeat Schedule]_입니다.
+   >
+   >Adobe Commerce as a Cloud Service에는 단일 규칙을 여러 번 적용할 수 있는 실험 기능이 있습니다. 자세한 내용은 [규칙 반복성](#rule-repeatability)을 참조하십시오.
 
    이메일 미리 알림을 트리거하는 시나리오를 설명하는 조건을 완료합니다.
 
@@ -65,7 +67,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Emails and Labels]**&#x200B;을(를) 선택합니다.
 
-   ![전자 메일 미리 알림 규칙 - 전자 메일 및 레이블 템플릿 &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![전자 메일 미리 알림 규칙 - 전자 메일 및 레이블 템플릿 ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Email Templates]** 섹션에서 [스토어 계층 구조](../getting-started/websites-stores-views.md)의 각 웹 사이트 및 스토어 보기에 사용할 전자 메일 템플릿을 선택합니다.
 
@@ -83,7 +85,7 @@ ht-degree: 0%
 
      ![전자 메일 미리 알림 - 제목 및 설명](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - _[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;섹션에서&#x200B;**[!UICONTROL Rule Title]**&#x200B;기본 저장소 보기&#x200B;**[!UICONTROL Description]**&#x200B;에 대한_ 및 _을(를) 입력하십시오. 여러 스토어 조회수의 경우 각각에 대해 적절한 제목과 설명을 입력합니다.
+   - _[!UICONTROL Titles and Descriptions Per Store View]_섹션에서&#x200B;**[!UICONTROL Rule Title]**기본 저장소 보기&#x200B;**[!UICONTROL Description]**에 대한_ 및 _을(를) 입력하십시오. 여러 스토어 조회수의 경우 각각에 대해 적절한 제목과 설명을 입력합니다.
 
      >[!NOTE]
      >
@@ -91,7 +93,38 @@ ht-degree: 0%
 
      ![제목 및 설명 - 스토어 보기](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
+1. [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} [!DNL Adobe Commerce as a Cloud Service]을(를) 사용하는 경우 [ 확인란을 선택하여 ](#rule-repeatability)규칙 반복 기능[!UICONTROL Rule Repeatability]을 사용하도록 설정할 수 있습니다.
+
+   >[!IMPORTANT]
+   >
+   >규칙 반복성 옵션은 기본적으로 비활성화되어 있는 실험 기능입니다.  옵션 활성화에 대한 자세한 내용은 [규칙 반복 기능](#rule-repeatabilty)을 참조하세요.
+
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+## 규칙 반복 가능성
+
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+
+>[!IMPORTANT]
+>
+>이는 실험적인 기능이며 기본적으로 활성화되어 있지 않습니다. 활성화하려면 Adobe Commerce 고객 성공 관리자에게 문의하거나 지원 티켓을 만드십시오. 향후 릴리스를 통해 모든 Adobe Commerce as a Cloud Service 고객이 사용할 수 있습니다.
+
+규칙 반복 기능을 사용하면 여러 이메일 미리 알림에 대해 단일 규칙을 다시 사용할 수 있습니다. 이 기능은 나중에 동일한 고객에게 규칙을 적용하려는 경우에 유용합니다. 규칙 반복 기능이 없으면 고객이 장바구니를 지우거나 구매를 완료한 후 규칙이 더 이상 적용되지 않습니다.
+
+**[!UICONTROL Rule Repeatability]** 탭에서 **[!UICONTROL General Information]** 확인란을 선택하면 원래 규칙 트리거가 더 이상 적용되지 않은 후 규칙을 사용자에게 다시 적용할 수 있습니다.
+
+![규칙 반복 기능](./assets/rule-repeatability.png){width="600" zoomable="yes"}
+
+>[!BEGINSHADEBOX]
+
+다음 예를 생각해 보십시오.
+
+1일 후 트리거되고 3일 및 5일 후 다시 검색되는 포기한 장바구니 규칙이 있습니다. 사용자가 장바구니를 포기하고 1일 후 포기한 장바구니 이메일 미리 알림을 받습니다. 2일 후 사용자는 구매를 완료하기로 합니다. 장바구니가 더 이상 버려지지 않습니다. 10일 후 사용자는 다른 항목이 있는 새 장바구니를 중단합니다.
+
+- **[!UICONTROL Rule Repeatability]**&#x200B;이(가) 활성화되면 사용자는 새로운 포기한 장바구니 이메일 미리 알림을 받습니다.
+- **[!UICONTROL Rule Repeatability]**&#x200B;을(를) 사용하지 않도록 설정한 경우 사용자는 별도의 포기한 장바구니 전자 메일 미리 알림을 받지 **않습니다**.
+
+>[!ENDSHADEBOX]
 
 ## 트리거 조건
 
