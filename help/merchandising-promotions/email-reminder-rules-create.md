@@ -93,7 +93,7 @@ ht-degree: 0%
 
      ![제목 및 설명 - 스토어 보기](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} [!DNL Adobe Commerce as a Cloud Service]을(를) 사용하는 경우 [&#x200B; 확인란을 선택하여 &#x200B;](#rule-repeatability)규칙 반복 기능[!UICONTROL Rule Repeatability]을 사용하도록 설정할 수 있습니다.
+1. [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} [!DNL Adobe Commerce as a Cloud Service]을(를) 사용하는 경우 [&#x200B; 확인란을 선택하여 &#x200B;](#rule-repeatability)규칙 반복 기능[!UICONTROL Rule Repeatability]을 사용하도록 설정할 수 있습니다.
 
    >[!IMPORTANT]
    >
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ## 규칙 반복 가능성
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 >[!IMPORTANT]
 >
