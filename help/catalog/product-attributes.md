@@ -47,4 +47,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->성능을 위해 제품 특성 구성을 최적화하는 방법에 대한 자세한 내용은 [구현 플레이북](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes)의 _카탈로그 관리 모범 사례_&#x200B;를 참조하세요.
+>성능을 위해 제품 특성 구성을 최적화하는 방법에 대한 자세한 내용은 [구현 플레이북](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes)의 _카탈로그 관리 모범 사례_&#x200B;를 참조하세요.

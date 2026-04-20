@@ -33,7 +33,7 @@ ht-degree: 0%
    >
    >예약된 가져오기/내보내기를 생성하거나 업데이트하면 시스템 구성이 변경됩니다. 저장 후 새 일정 또는 업데이트된 일정을 적용하려면 관리 페이지 상단에 표시되는 캐시 무효화 알림을 해결하고 캐시를 플러시해야 합니다.
 
-1. [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 예약된 각 작업 후에 파일의 사본은 Adobe Commerce 로컬 서버의 `var/log/import_export` 디렉터리에 배치됩니다.
+1. [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 예약된 각 작업 후에 파일의 사본은 Adobe Commerce 로컬 서버의 `var/log/import_export` 디렉터리에 배치됩니다.
 
    각 작업의 세부 사항이 로그에 기록되지 않습니다. 오류가 발생하면 실패한 가져오기/내보내기 작업에 대한 알림과 함께 오류 설명이 전송됩니다.
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 각 가져오기 작업의 세부 정보가 로그에 기록되지 않지만 오류가 발생하면 오류에 대한 설명이 포함된 _가져오기 실패_ 전자 메일을 받게 됩니다. 마지막으로 일정이 잡힌 가져오기 작업의 결과는 [일정이 잡힌 가져오기/내보내기] 페이지의 [마지막 결과] 열에 표시됩니다.
 
-[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 각 가져오기 작업 후에 가져오기 파일의 사본은 Adobe Commerce 또는 Magento Open Source이 배포된 서버의 `var/log/import_export` 디렉터리에 배치됩니다. 타임스탬프, 가져온 엔티티(제품 또는 고객)의 마커 및 작업 유형(이 경우 가져오기)이 가져오기 파일 이름에 추가됩니다.
+[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 각 가져오기 작업 후에 가져오기 파일의 사본은 Adobe Commerce 또는 Magento Open Source이 배포된 서버의 `var/log/import_export` 디렉터리에 배치됩니다. 타임스탬프, 가져온 엔티티(제품 또는 고객)의 마커 및 작업 유형(이 경우 가져오기)이 가져오기 파일 이름에 추가됩니다.
 
 예약된 각 가져오기 작업 후 색인 재지정 작업이 자동으로 수행됩니다. 전면에서는 설명서 등 텍스트 정보의 변화분이 업데이트된 데이터가 데이터베이스로 넘어간 후 반영되며 가격의 변화분은 리인덱싱 작업 후에만 반영된다.
 
@@ -203,7 +203,7 @@ ht-degree: 0%
 
 각 내보내기의 세부 정보는 로그에 기록되지 않지만, 오류가 있는 경우 오류 설명이 포함된 내보내기 실패 이메일을 받게 됩니다. 마지막 내보내기 작업의 결과가 예약된 가져오기/내보내기 페이지의 마지막 결과 열에 나타납니다.
 
-[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 내보낼 때마다 내보내기 파일이 사용자 정의 위치에 배치되고 Adobe Commerce 또는 Magento Open Source이 배포된 서버의 `var/log/import_export` 디렉터리에 복사본이 배치됩니다. 내보낸 엔티티(제품 또는 고객)의 타임스탬프 및 마커와 작업 유형(이 경우 내보내기)이 내보내기 파일 이름에 추가됩니다.
+[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 내보낼 때마다 내보내기 파일이 사용자 정의 위치에 배치되고 Adobe Commerce 또는 Magento Open Source이 배포된 서버의 `var/log/import_export` 디렉터리에 복사본이 배치됩니다. 내보낸 엔티티(제품 또는 고객)의 타임스탬프 및 마커와 작업 유형(이 경우 내보내기)이 내보내기 파일 이름에 추가됩니다.
 
 ### 1단계: 내보내기 설정 완료
 
