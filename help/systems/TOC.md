@@ -2,10 +2,9 @@
 user-guide-title: 관리 시스템 안내서
 user-guide-description: 이 안내서에서는 Adobe Commerce 저장소 내에서 조직 기능을 지원하는 관리 보안, 유지 관리 작업 및 시스템 전체 리소스에 대한 자세한 정보를 제공합니다.
 breadcrumb-title: 관리 시스템 안내서
-hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 4%
@@ -80,4 +79,4 @@ ht-degree: 4%
    - [세션 관리](security-session-management.md)
    - [브라우저 기능 감지](security-browser-capabilities-detection.md)
    - [보안 문제 보고](security-issue-reporting.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

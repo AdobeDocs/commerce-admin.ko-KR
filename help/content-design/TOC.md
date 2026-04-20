@@ -3,9 +3,9 @@ user-guide-title: 콘텐츠 및 디자인 안내서
 user-guide-description: Adobe Commerce 및 Magento Open Source 관리자와 전자 상거래 마케터를 위한 콘텐츠 및 디자인 기능에 대한 포괄적인 정보입니다.
 breadcrumb-title: 컨텐츠 및 디자인
 feature: CMS, Page Content
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '255'
 ht-degree: 4%
 
 ---
@@ -84,11 +84,15 @@ ht-degree: 4%
    - [미디어 파일을 AEM Assets으로 마이그레이션](aem-assets-migrate-data.md)
    - 에셋 관리 {#manage}
       - [Commerce과 함께 AEM Assets 사용](aem-assets-manage.md)
-- 미디어 {#media}
 - 컨텐츠 스테이징 {#staging}
    - [개요](content-staging.md)
    - [업데이트 예약](content-staging-scheduled-update.md)
    - [스테이징 대시보드](content-staging-dashboard.md)
    - [캠페인 항목 추가](content-staging-add-item.md)
    - [캠페인 미리 보기](content-staging-preview.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+
+<!--
+Add above "Content staging" when articles are available?
+- Media {#media}
+-->

@@ -3,10 +3,9 @@ title: 회사 계층 관리
 description: 복잡한 운영 모델을 사용하는 B2B 조직을 지원하기 위해 회사 계층을 구축하고 관리합니다.
 feature: B2B, Companies
 role: Admin
-hide: false
 hidefromtoc: false
 exl-id: a277ed95-7935-4d27-adb2-35116972732b
-source-git-commit: 1fc1e07f20e2c22ac430f384e9e2b278edae405c
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%

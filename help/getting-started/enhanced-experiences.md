@@ -3,7 +3,7 @@ title: 향상된 Storefront 환경
 description: 고객 참여, 유지 및 충성도를 극대화하는 데 도움이 되도록 설계된 다양한 도구에 대해 알아봅니다.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 0%
@@ -14,11 +14,13 @@ ht-degree: 0%
 
 고객이 스토어에서 구매할 수 있도록 하는 표준 요소 외에도 고객 참여, 유지 및 충성도를 극대화하도록 설계된 다양한 도구가 있습니다.
 
-<!-- This is not currently working >[!TIP]
+<!-- 
+This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=ko)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
->Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
+>Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. 
+-->
 
 ## 신규 고객 유치
 
@@ -84,7 +86,7 @@ Adobe Commerce과 Magento Open Source은 쇼핑 경험을 조정하고 고객이
 
 ## 비즈니스 프로세스 및 수익성 최적화
 
-- **[!DNL Advanced Reporting]** - [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=ko)에서 제공하는 동적 제품, 주문 및 고객 보고서를 통해 중요한 통찰력을 한눈에 얻을 수 있습니다.
+- **[!DNL Advanced Reporting]** - [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html)에서 제공하는 동적 제품, 주문 및 고객 보고서를 통해 중요한 통찰력을 한눈에 얻을 수 있습니다.
 
 - **대시보드 스냅숏** - 사이트에서 관심 있는 항목을 파악하는 것은 마케팅 예산을 최대화하는 데 중요합니다. 대시보드에 있는 이 [정보](admin-dashboard.md)를 사용하여 단골 고객에게 교차 및 상향 판매해야 하는 항목 또는 판매해야 하는 제품을 결정하십시오.
 

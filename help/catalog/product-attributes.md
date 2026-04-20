@@ -3,9 +3,9 @@ title: 제품 속성 개요
 description: 제품 특성과 이러한 특성을 사용하여 제품의 특정 특성을 설명하는 방법에 대해 알아봅니다.
 exl-id: e15770ee-fb71-43f0-8c26-e8029935799a
 feature: Catalog Management, Products
-source-git-commit: e0468763b2314e69e8ee4922da9bb9cf65578904
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 색상
 
-임시 색상 설명은 데이터베이스 작업 측면에서 문제가 될 수 있습니다. &quot;Azure Skies&quot; 또는 &quot;Robin Egg Blue&quot;와 같은 색상 이름은 매력이 크지만 검색 기준으로 사용되거나 머천다이징에서 `Color_Family:Blue`을(를) 지정해야 하는 경우 최상의 결과를 반환하지 않을 수 있습니다. 검색 결과 및 계층화된 탐색에서 색상이 표현되는 방식을 고려하고 비즈니스 요구 사항에 맞는 몇 가지 지침을 수립하십시오. 그런 다음 카탈로그 전체에서 색상 속성 값을 할당할 때 일관성을 유지하십시오.
+임시 색상 설명은 데이터베이스 작업 측면에서 문제가 될 수 있습니다. &quot;Azure Skies&quot; 또는 &quot;Robin Egg Blue&quot;와 같은 색상 이름은 매우 매력적이지만 검색 기준으로 사용되거나 머천다이징에서 `Color_Family:Blue`을(를) 지정해야 하는 경우 최상의 결과를 반환하지 않을 수 있습니다. 검색 결과 및 계층화된 탐색에서 색상이 표현되는 방식을 고려하고 비즈니스 요구 사항에 맞는 몇 가지 지침을 수립하십시오. 그런 다음 카탈로그 전체에서 색상 속성 값을 할당할 때 일관성을 유지하십시오.
 
 ## 변형 관리
 
@@ -45,6 +45,6 @@ ht-degree: 0%
 더 나은 구조화와 더 빠른 색인화를 위해 사용되지 않는 제품 속성을 제거합니다.
 
 
->[참고!]
+>[!NOTE]
 >
->성능을 위해 제품 특성 구성을 최적화하는 방법에 대한 자세한 내용은 _구현 플레이북_&#x200B;의 [카탈로그 관리 모범 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes)를 참조하세요.
+>성능을 위해 제품 특성 구성을 최적화하는 방법에 대한 자세한 내용은 [구현 플레이북](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes)의 _카탈로그 관리 모범 사례_&#x200B;를 참조하세요.

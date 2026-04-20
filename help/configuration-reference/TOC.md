@@ -2,10 +2,9 @@
 user-guide-title: 구성 참조 안내서
 user-guide-description: 이 안내서에서는 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**의 _Admin_ 사이드바에서 액세스하는 모든 저장소 구성 설정에 대한 참조 정보를 제공합니다.
 breadcrumb-title: 구성 참조
-hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: ae472bb3be3b9095c4c8b5869c4a4d247cb2aef1
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 3%
@@ -84,4 +83,4 @@ ht-degree: 3%
    - [관리자](./advanced/admin.md)
    - [시스템](./advanced/system.md)
    - [개발자](./advanced/developer.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

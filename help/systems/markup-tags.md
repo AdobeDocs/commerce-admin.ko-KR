@@ -3,7 +3,7 @@ title: 마크업 태그
 description: 스토어의 개체를 참조할 수 있는 코드 조각이 포함된 마크업 태그에 대해 알아봅니다.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -22,35 +22,35 @@ ht-degree: 0%
 
 변수 태그 태그를 사용하여 [사용자 지정 변수](variables-custom.md)를 전자 메일 템플릿, 블록, 뉴스레터 및 콘텐츠 페이지에 삽입할 수 있습니다.
 
-\{\{CustomVar code= &quot;my_custom_variable&quot;}}
+\{\{CustomVar code= &quot;my_custom_variable&quot;\}\}
 
 ## URL 저장
 
 저장소 URL 마크업 태그는 웹 사이트의 기본 URL을 나타내며 도메인 이름을 포함하여 전체 URL의 첫 번째 부분을 대체하는 데 사용됩니다. 이 마크업 태그에는 저장소로 직접 이동하는 버전과 경로가 추가될 때 사용되는 끝에 슬래시(`/`)가 있는 버전, 이렇게 두 가지 버전이 있습니다.
 
-\{\{store url=&#39;apparel/shoes/womens&#39;}}
+\{\{store url=&#39;apparel/shoes/womens&#39;\}\}
 
 ## 미디어 URL
 
 Dynamic media URL 마크업 태그는 CDN(Content Delivery Network)에 저장된 이미지의 위치와 파일 이름을 나타냅니다. 태그를 사용하여 페이지, 블록, 배너 또는 이메일 템플릿에 이미지를 배치할 수 있습니다.
 
-\{\{media url=&#39;shoe-sale.jpg&#39;}}
+\{\{media url=&#39;shoe-sale.jpg&#39;\}\}
 
 ## 블록 ID
 
 블록 ID 마크업 태그는 사용하기 쉬운 태그 중 하나이며, 블록을 CMS 페이지에 직접 배치하는 데 사용하거나 다른 블록 내에 중첩할 수도 있습니다. 이 기술을 사용하여 다양한 프로모션 또는 언어에 대한 블록을 수정할 수 있습니다. 블록 ID 마크업 태그는 해당 식별자로 블록을 참조합니다.
 
-\{\{block id=&#39;block-id&#39;}}
+\{\{block id=&#39;block-id&#39;\}\}
 
 ## 템플릿 태그
 
 템플릿 태그는 PHTML 템플릿 파일을 참조하며 CMS 페이지 또는 정적 블록에 블록을 표시하는 데 사용할 수 있습니다. 다음 예제의 코드를 페이지나 블록에 추가하여 Contact Us 양식을 표시할 수 있습니다.
 
-\{\{block class=&quot;Magento\Contact\Block\ContactForm&quot; name=&quot;contactForm&quot; template=&quot;Magento_Contact::form.phtml&quot;}}
+\{\{block class=&quot;Magento\Contact\Block\ContactForm&quot; name=&quot;contactForm&quot; template=&quot;Magento_Contact::form.phtml&quot;\}\}
 
 다음 예제의 코드는 페이지 또는 블록에 추가하여 카테고리 ID별로 특정 카테고리의 제품 목록을 표시할 수 있습니다.
 
-\{\{block type=&quot;catalog/product_list&quot; category_id=&quot;22&quot; template=&quot;catalog/product/list.phtml&quot;}}
+\{\{block type=&quot;catalog/product_list&quot; category_id=&quot;22&quot; template=&quot;catalog/product/list.phtml&quot;\}\}
 
 ## 위젯 코드
 
@@ -58,11 +58,11 @@ Dynamic media URL 마크업 태그는 CDN(Content Delivery Network)에 저장된
 
 다음 예제의 코드를 페이지나 블록에 추가하여 새 제품 목록을 표시할 수 있습니다.
 
-\{\{widget type=&quot;catalog/product_widget_new&quot; display_type=&quot;new_products&quot; products_count=&quot;10&quot; template=&quot;catalog/product/widget/new/content/new_grid.phtml&quot;}}
+\{\{widget type=&quot;catalog/product_widget_new&quot; display_type=&quot;new_products&quot; products_count=&quot;10&quot; template=&quot;catalog/product/widget/new/content/new_grid.phtml&quot;\}\}
 
 다음 예제의 코드는 페이지 또는 블록에 추가하여 제품 ID별로 특정 제품에 대한 링크를 표시할 수 있습니다.
 
-\{\{widget type=&quot;catalog/product_widget_link&quot; anchor_text=&quot;내 제품 링크&quot; title=&quot;내 제품 링크&quot; template=&quot;catalog/product/widgetlink/link_block.phtml&quot; id_path=&quot;product/31&quot;}}
+\{\{widget type=&quot;catalog/product_widget_link&quot; anchor_text=&quot;내 제품 링크&quot; title=&quot;내 제품 링크&quot; template=&quot;catalog/product/widgetlink/link_block.phtml&quot; id_path=&quot;product/31&quot;\}\}
 
 ## 링크의 마크업 태그 사용
 
@@ -120,12 +120,12 @@ Store URL 태그는 웹 사이트의 기본 URL을 나타내며 도메인 이름
 
 #### 앵커 태그의 마크업
 
-\&lt;a href=&quot;\{\{markup tag goes here}}&quot;>링크 텍스트\&lt;/a>
+\&lt;a href=&quot;\{\{markup tag goes here\}\}&quot;>링크 텍스트\&lt;/a>
 
 완성된 앵커 태그를 링크를 표시할 CMS 페이지, 블록, 배너 또는 이메일 템플릿의 코드에 붙여넣습니다.
 
 ### 마크업을 사용한 전체 링크
 
-\&lt;a href=&quot;\{\{store url=&#39;apparel/shoes&#39;}}&quot;>신발 판매\&lt;/a>
+\&lt;a href=&quot;\{\{store url=&#39;apparel/shoes&#39;\}\}&quot;>신발 판매\&lt;/a>
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->

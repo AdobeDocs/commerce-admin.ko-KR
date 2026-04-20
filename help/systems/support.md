@@ -2,8 +2,8 @@
 title: 지원 도구
 description: 시스템에서 문제를 식별하는 데 사용할 수 있는 제공된 지원 도구에 대해 알아봅니다.
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: addde8c3e41b641712f5b08107c1d68b40cd4159
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
@@ -48,7 +48,7 @@ _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Support]_>
 
 1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL System Report]**(으)로 이동합니다.
 1. **[!UICONTROL New Report]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL Groups]** 목록에서 `Modules`을(를) 선택합니다.
+1. `Modules` 목록에서 **[!UICONTROL Groups]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 1. 보고서가 생성되면 **[!UICONTROL Select]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL View]**&#x200B;을(를) 클릭하여 모든 모듈 버전을 확인합니다.
 1. 보고서를 다운로드하려면 **[!UICONTROL Download]**&#x200B;을(를) 클릭하십시오.
@@ -63,7 +63,7 @@ _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Support]_>
 
 ### 시스템 보고서 세부 정보 보기
 
-1. 필요한 보고서에 대해 _[!UICONTROL Actions]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 선택합니다.
+1. 필요한 보고서에 대해 **[!UICONTROL View]** 열에서 _[!UICONTROL Actions]_을(를) 선택합니다.
 
 1. 왼쪽 패널에서 보고서의 각 섹션을 ![확장 선택기](../assets/icon-display-expand.png)로 확장하여 세부 정보를 봅니다.
 
@@ -80,7 +80,7 @@ _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Support]_>
 | [!UICONTROL Configuration] | 구성<br>`app/etc/env.php`<br>배송 방법<br>결제 방법<br>결제 기능 매트릭스의 데이터 |
 | [!UICONTROL Logs] | 로그 파일<br>상위 시스템 메시지<br>오늘의 상위 시스템 메시지<br>상위 디버그 메시지<br>오늘의 상위 디버그 메시지<br>상위 예외 메시지<br>오늘의 상위 예외 메시지 |
 | [!UICONTROL Attributes] | 사용자 정의 EAV 특성<br>새 EAV 특성<br>엔티티 유형<br>모든 EAV 특성<br>범주 EAV 특성<br>제품 EAV 특성<br>고객 EAV 특성<br>고객 주소 EAV 특성<br>RMA 항목 EAV 특성 |
-| [!UICONTROL Events] | 사용자 지정 전역 이벤트<br>사용자 지정 관리 이벤트<br>사용자 지정 프런트 엔드 이벤트<br>사용자 지정 문서 이벤트<br>사용자 지정 Crontab 이벤트<br>사용자 지정 REST 이벤트<br>사용자 지정 SOAP 이벤트<br>핵심 전역 이벤트<br>핵심 관리 이벤트<br>핵심 프런트 엔드 이벤트<br>핵심 문서 이벤트<br>핵심 Crontab 이벤트<br>핵심 REST 이벤트<br>핵심 SOAP SOAP 이벤트<br>모든 전역 이벤트<br>모든 관리 이벤트<br>모든 프런트 엔드 이벤트<br>모든 Doc 이벤트<br>모든 REST 이벤트<br>모든 이벤트 이벤트<br>모든 Crontab 이벤트 |
+| [!UICONTROL Events] | 사용자 지정 전역 이벤트<br>사용자 지정 관리 이벤트<br>사용자 지정 프런트 엔드 이벤트<br>사용자 지정 문서 이벤트<br>사용자 지정 Crontab 이벤트<br>사용자 지정 REST 이벤트<br>사용자 지정 SOAP 이벤트<br>핵심 전역 이벤트<br>핵심 관리 이벤트<br>핵심 프런트 엔드 이벤트<br>핵심 문서 이벤트<br>핵심 Crontab 이벤트<br>핵심 REST 이벤트<br>핵심 SOAP 이벤트<br>모든 전역 이벤트<br>모든 관리 이벤트<br>모든 프런트 엔드 이벤트<br>모든 Doc 이벤트<br>모든 REST 이벤트<br>모든 이벤트 이벤트<br>모든 Crontab 이벤트 |
 | [!UICONTROL Cron] | 상태 코드별 Cron 일정<br>작업 코드별 Cron 일정<br>Cron 일정 큐의 오류<br>Cron 일정 목록<br>사용자 지정 글로벌 Cron 작업<br>사용자 지정 구성 가능한 Cron 작업<br>핵심 글로벌 Cron 작업<br>핵심 구성 가능한 Cron 작업<br>모든 글로벌 Cron 작업<br>모든 구성 가능한 Cron 작업 |
 | [!UICONTROL Design] | Adminhtml 테마 목록<br>프론트엔드 테마 목록 |
 | [!UICONTROL Stores] | 웹 사이트 트리<br>웹 사이트 목록<br>스토어 목록<br>스토어 보기 목록 |
