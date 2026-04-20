@@ -72,7 +72,7 @@ Commerce 계정 전송 유형은 현재 소유자 및 새 소유자가 사용할
 
 1. **[!UICONTROL Verify]**&#x200B;을(를) 클릭합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447666/?captions=kor&learn=on)
 
 ## 이메일 변경
 
