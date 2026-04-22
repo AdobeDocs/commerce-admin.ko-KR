@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Commerce 관리자의 [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] 페이지에서 구성 설정을 검토하십시오.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 20f97d6ab391b7f5675d6790ab2ec5d24e9dda21
+source-git-commit: f8849b9cf570b2bc3a9d141ddde320ae36a9294a
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3278'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 ![제품 필드 자동 생성](./assets/catalog-product-fields-auto-generation.png)<!-- zoom -->
 
-<!-- [Product Fields Auto-Generation](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/product-workspace#default-field-values) -->
+<!-- [Product Fields Auto-Generation](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/product-workspace#default-field-values) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Mask for SKU] | 글로벌 | 다른 필드의 자리 표시자 값과 입력된 추가 텍스트를 기반으로 SKU 필드의 기본값을 결정합니다. 기본 자리 표시자: <br/>제품 이름 - `{{name}}` |
-| [!UICONTROL Mask for Meta Title] | 글로벌 | 다른 필드의 자리 표시자 값 및 입력된 추가 텍스트를 기반으로 메타 제목 필드의 기본값을 결정합니다. 기본 자리 표시자: <br/>제품 이름 - `{{name}}` |
-| [!UICONTROL Mask for Meta Keywords] | 글로벌 | 다른 필드의 자리 표시자 값 및 입력된 추가 텍스트를 기반으로 _메타 키워드_ 필드의 기본값을 결정합니다. 기본 자리 표시자: <br/>제품 이름 - `{{name}}` |
-| [!UICONTROL Mask for Meta Description] | 글로벌 | 다른 필드의 자리 표시자 값 및 입력된 추가 텍스트를 기반으로 메타 설명 필드의 기본값을 결정합니다. 기본 자리 표시자: <br/>제품 이름 - `{{name}}` <br/>설명 - `{{description}}` |
+| [!UICONTROL Mask for Meta Title] | 글로벌 | 다른 필드의 자리 표시자 값 및 입력된 추가 텍스트를 기반으로 Meta 제목 필드의 기본값을 결정합니다. 기본 자리 표시자: <br/>제품 이름 - `{{name}}` |
+| [!UICONTROL Mask for Meta Keywords] | 글로벌 | 다른 필드의 자리 표시자 값 및 입력된 추가 텍스트를 기반으로 _Meta 키워드_ 필드의 기본값을 결정합니다. 기본 자리 표시자: <br/>제품 이름 - `{{name}}` |
+| [!UICONTROL Mask for Meta Description] | 글로벌 | 다른 필드의 자리 표시자 값 및 입력된 추가 텍스트를 기반으로 Meta 설명 필드의 기본값을 결정합니다. 기본 자리 표시자: <br/>제품 이름 - `{{name}}` <br/>설명 - `{{description}}` |
 
 {style="table-layout:auto"}
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ![제품 리뷰](./assets/catalog-product-reviews.png)<!-- zoom -->
 
-<!-- [Product Reviews](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews) -->
+<!-- [Product Reviews](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ![Storefront](./assets/catalog-storefront.png)<!-- zoom -->
 
-<!-- [Storefront](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/navigation/navigation-product-listings) -->
+<!-- [Storefront](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-product-listings) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | 스토어 뷰 | 그리드 보기에서 기본적으로 페이지당 표시되는 제품 수를 결정합니다. |
 | [!UICONTROL Products per Page on List Allowed Values] | 스토어 뷰 | 목록 보기에 표시되는 제품의 수를 결정합니다. 옵션을 선택하려면 쉼표로 구분된 여러 값을 입력하십시오. |
 | [!UICONTROL Products per Page on List Default Value] | 스토어 뷰 | 목록 보기에서 기본적으로 페이지당 표시되는 제품 수를 결정합니다. |
-| 제품 목록 정렬 기준 | 스토어 뷰 | 검색 결과 목록의 정렬 순서를 결정합니다. 범주의 [표시 설정]과 `Used for Sorting in Product Listing`(으)로 설정된 사용 가능한 특성에 따라 옵션 선택이 결정됩니다. 기본값은 `Use All Available Attributes`(으)로 설정되며 일반적으로 가장 적합한 값, 이름, 가격을 포함합니다. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-storefront/plp-styling)에 적용되지 않습니다. |
+| 제품 목록 정렬 기준 | 스토어 뷰 | 검색 결과 목록의 정렬 순서를 결정합니다. 범주의 [표시 설정]과 `Used for Sorting in Product Listing`(으)로 설정된 사용 가능한 특성에 따라 옵션 선택이 결정됩니다. 기본값은 `Use All Available Attributes`(으)로 설정되며 일반적으로 가장 적합한 값, 이름, 가격을 포함합니다. 이 설정은 [!DNL Live Search] [제품 목록 페이지 위젯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)에 적용되지 않습니다. |
 | [!UICONTROL Allow All Products per Page] | 스토어 뷰 | `Yes`(으)로 설정된 경우 &quot;페이지당 표시&quot; 컨트롤에 `ALL` 옵션을 포함합니다. |
 | [!UICONTROL Remember Category Pagination] | 글로벌 | `Yes`(으)로 설정하면 고객이 [제품 목록](../../catalog/navigation-product-listings.md)에서 한 범주에서 다른 범주로 탐색할 때 현재 범주 페이지 매김 값이 저장됩니다. 값을 저장하면 더 많은 캐시 저장소를 사용하며 검색 엔진이 페이지를 인덱싱하는 방식에 영향을 줄 수 있습니다. 옵션: `Yes` / `No`(기본값) |
 | [!UICONTROL Use Flat Catalog Category] | 글로벌 | [단순 범주 구조](../../catalog/catalog-flat.md)를 사용하도록 설정합니다(권장하지 않음). 옵션: `Yes` / `No` |
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ![제품 알림](./assets/catalog-product-alerts.png)<!-- zoom -->
 
-<!-- [Product Alerts](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
+<!-- [Product Alerts](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ![제품 경고 실행 설정](./assets/catalog-product-alerts-run-settings.png)<!-- zoom -->
 
-<!-- [Product Alerts Run Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
+<!-- [Product Alerts Run Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 ![제품 이미지 자리 표시자](./assets/catalog-product-image-placeholders.png)<!-- zoom -->
 
-<!-- [Product Image Placeholders](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/digital-assets/product-image-config#image-placeholders) -->
+<!-- [Product Image Placeholders](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image-config#image-placeholders) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -116,9 +116,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Recently Viewed/Compared Products]
 
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+
 ![최근에 본 제품/비교한 제품](./assets/catalog-recently-viewed-and-compared-products.png)<!-- zoom -->
 
-<!-- Recently Viewed/Compared Products](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/shopper-tools/products-viewed-compared) -->
+<!-- Recently Viewed/Compared Products](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/products-viewed-compared) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -135,7 +137,7 @@ ht-degree: 0%
 
 ![제품 비디오](./assets/catalog-product-video.png)<!-- zoom -->
 
-<!-- [Product Videos](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/digital-assets/product-video) -->
+<!-- [Product Videos](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-video) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -150,7 +152,7 @@ ht-degree: 0%
 
 ![가격](./assets/catalog-price.png)<!-- zoom -->
 
-<!--Price](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/pricing/catalog-price-scope) -->
+<!--Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/catalog-price-scope) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -163,9 +165,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 섹션에 설명된 표준 검색 구성은 [실시간 검색](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ko)에 따라 다릅니다.
+>이 섹션에 설명된 표준 검색 구성은 [실시간 검색](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)에 따라 다릅니다.
 
-<!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
+<!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
 ![계층화된 탐색 - 자동(가격 범위 조정)](./assets/layered-navigation-equalize-price-range.png)<!-- zoom -->
 
@@ -188,7 +190,7 @@ ht-degree: 0%
 
 ![범주 권한](./assets/catalog-category-permissions.png)<!-- zoom -->
 
-<!-- [Category Permissions](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/categories/category-permissions) -->
+<!-- [Category Permissions](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/category-permissions) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -204,16 +206,16 @@ ht-degree: 0%
 
 ![검색 엔진 최적화](./assets/catalog-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/settings/product-search-engine-optimization) -->
+<!-- [Search Engine Optimization](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/settings/product-search-engine-optimization) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | 스토어 뷰 | _인기 검색어_&#x200B;가 스토어에서 구현되는지 여부를 결정합니다. 이 설정은 [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ko)을(를) 사용하는 스토어에는 적용되지 않습니다. 옵션: `Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | 스토어 뷰 | _인기 검색어_&#x200B;가 스토어에서 구현되는지 여부를 결정합니다. 이 설정은 [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)을(를) 사용하는 스토어에는 적용되지 않습니다. 옵션: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | 스토어 뷰 | html 또는 htm과 같은 접미사를 제품 URL에 적용할지 여부를 결정합니다. 접미사를 사용하면 접미사가 자동으로 적용되므로 접미사 앞에 마침표를 포함하지 마십시오. |
 | [!UICONTROL Category URL Suffix] | 스토어 뷰 | html 또는 htm과 같은 접미사를 범주 URL에 적용할지 여부를 결정합니다. 접미사를 사용하면 접미사가 자동으로 적용되므로 접미사 앞에 마침표를 포함하지 마십시오. |
 | [!UICONTROL Use Categories Path for Product URLs] | 스토어 뷰 | 상점 첫 화면의 제품 URL에 카테고리 경로가 포함되어 있는지 여부를 결정합니다. 이렇게 하면 여러 URL이 동일한 페이지를 가리키게 되어 검색 순위에 영향을 줄 수 있습니다. 자세한 내용은 [표준 메타 태그](../../merchandising-promotions/meta-data.md#canonical-meta-tag)를 참조하세요. |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | 스토어 뷰 | URL 키가 변경될 때마다 영구 리디렉션을 자동으로 만들지 여부를 결정합니다. 구현되면 제품 URL 키 필드 아래에 있는 이전 URL에 대한 사용자 지정 리디렉션 만들기 확인란이 기본적으로 선택됩니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Generate "category/product" URL Rewrites] | 글로벌 | 사용자가 많은 지정된 제품을 포함하는 카테고리를 저장할 때 Adobe Commerce이 데이터를 생성하여 다시 작성 테이블에 저장할지 여부를 결정합니다.  <br/><br/>시스템이 이 설정에 관계없이 제품 URL을 자동으로 확인하므로 이 옵션을 변경해도 Adobe Commerce에서 제품 URL을 확인하는 방법에는 영향을 주지 않습니다. <br/><br/>옵션: `Yes` / `No` <br/><br/>**_중요:_**&#x200B;생성된 데이터를 URL 재작성 테이블에 저장하면 성능이 저하될 수 있습니다. 자세한 내용은 [자동 제품 리디렉션](../../merchandising-promotions/url-redirect-product-automatic.md)을 참조하세요. |
+| [!UICONTROL Generate "category/product" URL Rewrites] | 글로벌 | 사용자가 많은 지정된 제품을 포함하는 카테고리를 저장할 때 Adobe Commerce이 데이터를 생성하여 다시 작성 테이블에 저장할지 여부를 결정합니다.  <br/><br/>시스템이 이 설정에 관계없이 제품 URL을 자동으로 확인하므로 이 옵션을 변경해도 Adobe Commerce에서 제품 URL을 확인하는 방법에는 영향을 주지 않습니다. <br/><br/>옵션: `Yes` / `No` <br/><br/>**_Important:_** 생성된 데이터를 URL 재작성 테이블에 저장하면 성능이 저하될 수 있습니다. 자세한 내용은 [자동 제품 리디렉션](../../merchandising-promotions/url-redirect-product-automatic.md)을 참조하세요. |
 | [!UICONTROL Apply transliteration for product URL] | 스토어 뷰 | 제품 URL을 만들거나 업데이트할 때 음역이 적용되는지 여부를 결정합니다. 옵션: `Yes` / `No`. 기본값은 `Yes`(으)로 설정됩니다. <br/><br/>특정 사용 사례의 경우 음역을 사용하지 않도록 설정해야 합니다. 예를 들어, 중국어로 온라인 스토어를 운영하는 경우 SEO 모범 사례에서는 제품 URL이 제품 이름과 일치하도록 권장합니다. 옵션을 `No`(으)로 설정하면 제품 URL에서 ASCII에 해당하는 문자 대신 한자를 사용할 수 있습니다. |
 | [!UICONTROL Page Title Separator] | 스토어 뷰 | 브라우저 제목 표시줄에서 카테고리 이름과 하위 카테고리를 구분하는 문자를 식별합니다. |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | 스토어 뷰 | 동일한 카테고리 페이지를 가리키는 URL이 여러 개 있는 경우 이 옵션은 표준 메타 태그를 사용하여 검색 엔진이 인덱싱해야 하는 카테고리 URL을 식별합니다. URL에는 메타 태그를 사용하는 카테고리의 전체 이름이 포함되어 있습니다. 이렇게 하면 중복 컨텐츠가 줄어들고 SEO가 향상됩니다. 옵션: `Yes` / `No` |
@@ -225,7 +227,7 @@ ht-degree: 0%
 
 ![범주 위쪽 탐색](./assets/catalog-category-top-navigation.png)<!-- zoom -->
 
-<!-- Category Top Navigation](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/navigation/navigation-top) -->
+<!-- Category Top Navigation](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-top) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -235,7 +237,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-Adobe Commerce에서 지원하는 [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ko) 또는 타사 검색 엔진 서비스를 사용하여 카탈로그 검색을 구성할 수 있습니다. 설치에 대한 지침을 따르십시오.
+Adobe Commerce에서 지원하는 [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) 또는 타사 검색 엔진 서비스를 사용하여 카탈로그 검색을 구성할 수 있습니다. 설치에 대한 지침을 따르십시오.
 
 ### [!DNL Live Search]&#x200B;(으)로 Adobe Commerce
 
@@ -243,7 +245,7 @@ Adobe Commerce에서 지원하는 [[!DNL Live Search]](https://experienceleague.
 
 ![실시간 검색에 대한 카탈로그 검색](./assets/catalog-search-live-search.png)<!-- zoom -->
 
-<!-- [Catalog Search for Live Search](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-configuration) -->
+<!-- [Catalog Search for Live Search](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-configuration) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -260,7 +262,7 @@ Adobe Commerce은 OpenSearch 및 Elasticsearch을 지원합니다. Adobe Commerc
 
 >[!IMPORTANT]
 >
->- 2023년 8월에 Elasticsearch 7의 지원 종료 발표로 인해 Adobe은 모든 Adobe Commerce 고객을 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것을 권장합니다. 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ko)을 참조하십시오.
+>- 2023년 8월에 Elasticsearch 7의 지원 종료 발표로 인해 Adobe은 모든 Adobe Commerce 고객을 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것을 권장합니다. 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 [업그레이드 안내서](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)에서 _OpenSearch로 마이그레이션_&#x200B;을 참조하십시오.
 >- 버전 2.4.4 및 2.4.3-p2에서는 Elasticsearch이라는 레이블이 지정된 모든 필드가 OpenSearch에도 적용됩니다. Elasticsearch 8.x에 대한 지원이 버전 2.4.6에 도입되면 Elasticsearch 구성과 OpenSearch 구성을 구별하기 위해 새 레이블이 생성되었습니다. 그러나 두 구성 옵션은 동일합니다.
 
 ![카탈로그 검색 구성 옵션](./assets/catalog-search-opensearch.png){zoomable="yes"}
@@ -281,10 +283,10 @@ Adobe Commerce은 OpenSearch 및 Elasticsearch을 지원합니다. Adobe Commerc
 | [!UICONTROL OpenSearch HTTP Password] | 글로벌 | _Elasticsearch HTTP 인증 사용_&#x200B;이(가) `Yes`(으)로 설정된 경우 OpenSearch 또는 Elasticsearch HTTP 인증의 암호를 지정합니다. |
 | [!UICONTROL OpenSearch Server Timeout] | 글로벌 | OpenSearch 또는 Elasticsearch 서버에 대한 요청이 시간 초과되기 전 시간(초)을 결정합니다. 기본값: `15` |
 | [!UICONTROL Test Connection] |  | OpenSearch 또는 Elasticsearch 연결을 확인합니다. |
-| [!UICONTROL Enable Search Recommendations] | 스토어 뷰 | 검색 결과가 반환되지 않고 검색 결과 페이지의 `Related search terms` 섹션에 나타날 때 검색 권장 사항이 제공되는지 여부를 결정합니다. 옵션: `Yes` / `No` <br/>예로 설정하면 _[!UICONTROL Search Recommendations Count]_&#x200B;및&#x200B;_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;에 대한 추가 옵션이 표시됩니다. |
+| [!UICONTROL Enable Search Recommendations] | 스토어 뷰 | 검색 결과가 반환되지 않고 검색 결과 페이지의 `Related search terms` 섹션에 나타날 때 검색 권장 사항이 제공되는지 여부를 결정합니다. 옵션: `Yes` / `No` <br/>예로 설정하면 _[!UICONTROL Search Recommendations Count]_및_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;에 대한 추가 옵션이 표시됩니다. |
 | [!UICONTROL Search Recommendations Count] | 스토어 뷰 | 권장 사항으로 제공된 검색어의 수를 지정합니다. 기본적으로 5개를 넘지 않도록 표시됩니다. |
 | [!UICONTROL Show Results Count for Each Recommendation] | 스토어 뷰 | `Yes`(으)로 설정하면 제안된 검색 권장 사항에 대해 검색된 제품 수가 대괄호 안에 표시됩니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Enable Search Suggestions] | 스토어 뷰 | 일반적인 철자 오류에 대한 검색 제안이 표시되는지 여부를 결정합니다. 활성화하면 결과를 반환하지 않고 **검색 결과** 페이지의 `Did you mean` 섹션 아래에 표시되는 모든 요청에 대해 검색 제안이 제공됩니다. 검색 제안은 검색 성능에 영향을 줄 수 있습니다. `Yes`(으)로 설정하면 검색 권장 사항 사용 및 관련 필드에 대한 추가 옵션이 표시됩니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Search Suggestions] | 스토어 뷰 | 일반적인 철자 오류에 대한 검색 제안이 표시되는지 여부를 결정합니다. 활성화하면 결과를 반환하지 않고 `Did you mean`검색 결과&#x200B;**페이지의** 섹션 아래에 표시되는 모든 요청에 대해 검색 제안이 제공됩니다. 검색 제안은 검색 성능에 영향을 줄 수 있습니다. `Yes`(으)로 설정하면 검색 권장 사항 사용 및 관련 필드에 대한 추가 옵션이 표시됩니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | 스토어 뷰 | 제공되는 검색 제안 수를 결정합니다. 예: `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | 스토어 뷰 | 각 제안에 대한 검색 결과 수를 표시할지 여부를 결정합니다. 테마에 따라 숫자는 제안 후 대괄호 안에 나타납니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | 스토어 뷰 | 검색 결과가 반환되기 위해 일치해야 하는 쿼리의 용어 수에 해당하는 값을 지정합니다. 따라서 쇼핑객에게 최적의 결과 관련성이 보장됩니다. 비율 값은 숫자와 관련이 있으며 필요한 경우 내림차순 처리하여 쿼리에서 일치시킬 최소 용어 수로 사용합니다. 값은 음수 또는 양의 정수, 음수 또는 양의 퍼센트, 두 가지의 조합 또는 다중 조합일 수 있다. 자세한 내용은 OpenSearch 설명서의 [minimum_should_match 매개 변수](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/)을 참조하세요. |
@@ -293,7 +295,7 @@ Adobe Commerce은 OpenSearch 및 Elasticsearch을 지원합니다. Adobe Commerc
 
 ![다운로드 가능한 제품 옵션](./assets/catalog-downloadable-product-options.png)<!-- zoom -->
 
-<!-- [Downloadable Product Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/types/product-create-downloadable#configure-the-download-options) -->
+<!-- [Downloadable Product Options](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-downloadable#configure-the-download-options) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -304,7 +306,7 @@ Adobe Commerce은 OpenSearch 및 Elasticsearch을 지원합니다. Adobe Commerc
 | [!UICONTROL Default Link Title] | 스토어 뷰 | 다운로드 가능한 모든 제목의 기본 링크입니다. |
 | [!UICONTROL Opens Links in New Window] | 웹 사이트 | 다운로드 링크가 새 브라우저 창에서 열리는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Use Content Disposition] | 스토어 뷰 | 다운로드 가능한 콘텐츠에 대한 링크를 이메일 첨부 파일 또는 브라우저 창의 인라인 링크로 전달하는 방법을 결정합니다. 옵션: <br/>**`Attachment`**- 다운로드 링크가 전자 메일 첨부 파일로 제공됩니다.<br/>**`Inline`** - 다운로드 링크가 웹 페이지에서 인라인 링크로 제공됩니다. |
-| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 웹 사이트 | 다운로드 가능한 제품을 구입하는 게스트가 계정을 등록하고 로그인하여 체크아웃 프로세스를 완료해야 하는지 여부를 결정합니다. 옵션: <br/>**`Yes`**- 장바구니에 다운로드 가능한 제품이 포함되어 있는 경우, 게스트는 계정을 등록하거나 기존 계정에 로그인하여 구매를 완료해야 합니다.<br/>**`No`** - 다운로드 링크가 이메일 메시지 본문에서 인라인 링크로 전달됩니다.  <br/> _&#x200B;**참고:**&#x200B;_ 게스트 체크 아웃은 [공유 가능]이 `Yes`(으)로 설정된 경우에만 제품을 다운로드할 수 있습니다. |
+| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 웹 사이트 | 다운로드 가능한 제품을 구입하는 게스트가 계정을 등록하고 로그인하여 체크아웃 프로세스를 완료해야 하는지 여부를 결정합니다. 옵션: <br/>**`Yes`**- 장바구니에 다운로드 가능한 제품이 포함되어 있는 경우, 게스트는 계정을 등록하거나 기존 계정에 로그인하여 구매를 완료해야 합니다.<br/>**`No`** - 다운로드 링크가 이메일 메시지 본문에서 인라인 링크로 전달됩니다.  <br/> _**참고:**_ 게스트 체크 아웃은 [공유 가능]이 `Yes`(으)로 설정된 경우에만 제품을 다운로드할 수 있습니다. |
 
 {style="table-layout:auto"}
 
@@ -312,7 +314,7 @@ Adobe Commerce은 OpenSearch 및 Elasticsearch을 지원합니다. Adobe Commerc
 
 ![날짜 및 시간 사용자 지정 옵션](./assets/catalog-date-time-custom-options.png)<!-- zoom -->
 
-<!-- Date & Time Custom Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/attributes-input-types#date-and-time-options) -->
+<!-- Date & Time Custom Options](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types#date-and-time-options) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -329,7 +331,7 @@ Adobe Commerce은 OpenSearch 및 Elasticsearch을 지원합니다. Adobe Commerc
 
 ![카탈로그 이벤트](./assets/catalog-events.png)<!-- zoom -->
 
-<!-- [Catalog Events](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/events/events-private-sales) -->
+<!-- [Catalog Events](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/events-private-sales) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -346,7 +348,7 @@ Adobe Commerce은 OpenSearch 및 Elasticsearch을 지원합니다. Adobe Commerc
 
 ![규칙 기반 제품 관계](./assets/catalog-rule-based-product-relations.png)<!-- zoom -->
 
-<!-- [Rule-Based Product Relations](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) -->
+<!-- [Rule-Based Product Relations](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
