@@ -31,8 +31,8 @@ ht-degree: 0%
 | 필드 | 설명 |
 |--- |--- |
 | 범위 | 동기화된 데이터에 대한 특정 웹 사이트입니다. |
-| [!DNL Product Recommendations] | 동기화 상태, 동기화된 제품 수 및 [에 대해 ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options)표시 가능[!DNL Product Recommendations] 동기화된 제품 테이블을 표시합니다. |
-| [!DNL Live Search] | 동기화 상태, 동기화된 제품 수 및 [에 대해 ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options)표시 가능[!DNL Live Search] 동기화된 제품 테이블을 표시합니다. |
+| [!DNL Product Recommendations] | 동기화 상태, 동기화된 제품 수 및 [에 대해 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options)표시 가능[!DNL Product Recommendations] 동기화된 제품 테이블을 표시합니다. |
+| [!DNL Live Search] | 동기화 상태, 동기화된 제품 수 및 [에 대해 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options)표시 가능[!DNL Live Search] 동기화된 제품 테이블을 표시합니다. |
 | [!DNL Catalog Service] | [!DNL Catalog Service]에 대해 동기화 상태, 동기화된 제품 수 및 동기화된 제품 테이블을 표시합니다. |
 | 설정 | [카탈로그 데이터를 수동으로 다시 동기화](#resync-catalog-data)할 수 있는 대화 상자를 엽니다. |
 | 동기화 상태 | 지난 3시간 내에 Commerce 데이터베이스에서 SaaS 서비스로 전송된 제품 수를 표시합니다. 카탈로그를 자주 업데이트하지 않는 경우 이 값은 0인 경우가 많습니다. 동기화가 진행 중이면 **[!UICONTROL Refresh]**&#x200B;을(를) 클릭하여 업데이트된 개수를 가져옵니다. |
