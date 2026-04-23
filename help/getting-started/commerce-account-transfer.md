@@ -54,7 +54,7 @@ Commerce 계정 전송 유형은 현재 소유자 및 새 소유자가 사용할
 
 1. **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-   이 단계에서는 Adobe ID을 만들고 현재 Commerce 계정(MAGEID)에 연결합니다. 이 계정 링크를 사용하면 _[!UICONTROL Email]_필드의 변경 내용이 차단됩니다. 연관된 이메일 주소의 구성은 Adobe ID 계정에서 관리됩니다.
+   이 단계에서는 Adobe ID을 만들고 현재 Commerce 계정(MAGEID)에 연결합니다. 이 계정 링크를 사용하면 _[!UICONTROL Email]_&#x200B;필드의 변경 내용이 차단됩니다. 연관된 이메일 주소의 구성은 Adobe ID 계정에서 관리됩니다.
 
 1. [account.adobe.com](https://account.adobe.com/)으로 이동합니다.
 
