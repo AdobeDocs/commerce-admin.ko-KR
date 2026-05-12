@@ -3,9 +3,9 @@ title: 미국 우편 서비스(USPS)
 description: USPS를 상점의 배송 운송업체로 설정하는 방법에 대해 알아봅니다.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
+source-git-commit: b0f3256e6e41ce3e605a9564ce0e412efcba9c98
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,7 @@ ht-degree: 0%
 
 ## 1단계: USPS 배송 계정 열기
 
-[USPS 웹 도구](https://secure.shippingapis.com/registration/) 계정을 엽니다. 등록 프로세스를 완료하면 사용자 ID와 USPS 테스트 서버에 대한 URL을 받게 됩니다.
-
-[USPS 웹 도구](https://secure.shippingapis.com/registration/) 계정을 열 수도 있습니다. 등록 프로세스를 완료하면 사용자 ID와 USPS 테스트 서버에 대한 URL을 받게 됩니다. USPS 웹 도구에 대한 자세한 내용은 [기술 설명서](https://www.usps.com/business/web-tools-apis/welcome.htm)를 참조하세요.
+[USPS 개발자 포털](https://developers.usps.com/) 계정을 엽니다. 등록 프로세스를 완료하면 사용자 ID와 USPS 테스트 서버에 대한 URL을 받게 됩니다. USPS API에 대한 자세한 내용은 [기술 설명서](https://developers.usps.com/getting-started)를 참조하세요.
 
 ## 2단계: 스토어에 대해 USPS 활성화
 
@@ -36,15 +34,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Enabled for Checkout]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
-1. USPS API 유형을 설정합니다.
-
-   - USPS REST API를 사용하는 경우 **[!UICONTROL USPS Type]**&#x200B;을(를) `USPS REST API`(으)로 설정하십시오.
-
-   - USPS Web Tools API를 사용하는 경우 **[!UICONTROL USPS Type]**&#x200B;을(를) `USPS Web Tools API`(으)로 설정하십시오.
+1. **[!UICONTROL USPS Type]**&#x200B;을(를) `USPS REST API`(으)로 설정합니다.
 
    >[!NOTE]
    >
-   >USPS Rest API는 USPS와 통합하기 위한 기본 방법입니다. USPS 웹 도구 API는 더 이상 사용되지 않으며 향후 릴리스에서 제거될 수 있습니다.
+   >USPS는 더 이상 USPS Web Tools API를 지원하지 않습니다.
 
 1. 필요한 경우 **[!UICONTROL Gateway URL]**&#x200B;을(를) 입력하여 USPS 배송 속도에 액세스하십시오.
 
@@ -64,7 +58,6 @@ ht-degree: 0%
 
    - **[!UICONTROL User ID]**
    - **[!UICONTROL Password]**
-
 
 1. **[!UICONTROL Mode]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 

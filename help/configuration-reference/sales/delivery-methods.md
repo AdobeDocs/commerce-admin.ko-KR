@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] > [!UICONTROL Delivery Methods]'
 description: Commerce 관리자의 [!UICONTROL Sales] > [!UICONTROL Delivery Methods] 페이지에서 구성 설정을 검토합니다.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
+source-git-commit: 7897d06c5d01eae39612b5d8a4f25514b4901acf
 workflow-type: tm+mt
-source-wordcount: '4555'
+source-wordcount: '4550'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![고정 속도](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![무료 배송](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
-<!-- [Free Shipping](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![테이블 속도](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ![매장 내 배달](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![UPS XML 계정 설정](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 ![UPS 패키지 정보](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information]https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 ![UPS 허용 메서드](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ![UPS 적용 국가 및 기타 설정](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -191,7 +191,7 @@ ht-degree: 0%
 | [!UICONTROL Gateway URL] | 웹 사이트 | 배송 속도를 동적으로 검색하기 위해 USPS 시스템에 연결하는 데 사용되는 URL입니다. |
 | [!UICONTROL Secure Gateway URL] | 웹 사이트 | SSL(Secure Socket Layer)을 통해 USPS 시스템에 연결하여 배송 속도를 동적으로 검색하는 데 사용되는 보안 URL입니다. |
 | [!UICONTROL Title] | 스토어 뷰 | 이 배송 옵션의 제목은 장바구니 체크아웃에 표시되는 것과 같습니다. |
-| [!UICONTROL USPS Type] | 웹 사이트 | 사용할 **USPS Rest API** 또는 **USPS Web Tools API**&#x200B;를 선택하십시오. |
+| [!UICONTROL USPS Type] | 웹 사이트 | **USPS Rest API**&#x200B;를 선택하십시오. **USPS Web Tools API**&#x200B;은(는) 지원되지 않습니다. |
 | [!UICONTROL User ID] | 웹 사이트 | USPS 발송자 계정 사용자 ID입니다. |
 | [!UICONTROL Password] | 웹 사이트 | USPS 발송자 계정 암호입니다. |
 | [!UICONTROL Mode] | 웹 사이트 | USPS 시스템으로 전송되는 데이터에 사용되는 전송 모드를 결정합니다. 옵션은 다음과 같습니다. <br/>**`Development`**- USPS가 Commerce 서버에서 받은 데이터가 SSL을 통해 전송되는지 확인하지 않습니다.<br/>**`Live`** - USPS가 Commerce 서버에서 받은 데이터가 SSL(Secure Socket Layer)을 통해 전송되는지 확인합니다. |
@@ -207,7 +207,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-다음 필드는 [USPS REST API 마이그레이션 품질 패치](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)를 적용한 경우에만 사용할 수 있습니다. 이 패치를 사용하면 Web Tools API를 대체하는 REST 기반 플랫폼인 USPS API를 지원할 수 있습니다. 자세한 내용은 [USPS Web Tools API 사용 중단](../../stores-purchase/carriers.md)을 참조하십시오.
+다음 필드가 표시되지 않으면 [USPS REST API 마이그레이션 품질 패치](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)를 적용해야 합니다. 이 패치를 사용하면 Web Tools API를 대체하는 REST 기반 플랫폼인 USPS API를 지원할 수 있습니다. 자세한 내용은 [USPS Web Tools API 사용 중단](../../stores-purchase/carriers.md)을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -219,14 +219,14 @@ ht-degree: 0%
 | [!UICONTROL Account Number] | 웹 사이트 | REST API 결제에 사용되는 USPS **계정 번호**. <br/><br/>**_참고:_** 이 필드는 선택 사항이지만 배송 레이블 생성을 사용하도록 설정해야 합니다. |
 | [!UICONTROL Customer Registration Identifier(CRID)] | 웹 사이트 | CRID(고객 등록 식별 번호)는 REST API에 대한 위치에서 비즈니스를 고유하게 식별하는 USPS 생성 숫자 코드입니다. <br/><br/>**_참고:_** 이 필드는 선택 사항이지만 배송 레이블 생성을 사용하도록 설정해야 합니다. |
 | [!UICONTROL Mailer Identifier(MID)] | 웹 사이트 | MID(Mailer Identifier)는 발송자를 식별하는 데 사용되는 지능형 메일 바코드 내의 필드입니다. MID는 USPS에서 REST API를 요청하는 메일 소유자, 메일 에이전트 또는 기타 서비스 공급자에게 할당됩니다. <br/><br/>**_참고:_** 이 필드는 선택 사항이지만 배송 레이블을 만들 수 있도록 설정해야 합니다. |
-| [!UICONTROL Manifest MID] | 웹 사이트 | REST API용 매니페스트에 지정된 고유한 메일러 식별자입니다. <br/><br/>**_참고:_** 이 필드는 선택 사항입니다. 그러나 배송 레이블을 만들려면 필요합니다. [AC-15210](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) 패치가 적용된 Magento 2.4.7-p8의 경우 [!UICONTROL Manifest MID]은(는) 필수 필드입니다. |
+| [!UICONTROL Manifest MID] | 웹 사이트 | REST API용 매니페스트에 지정된 고유한 메일러 식별자입니다. <br/><br/>**_참고:_** 이 필드는 선택 사항입니다. 그러나 배송 레이블을 만들려면 필요합니다. [AC-15210](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) 패치가 적용된 Magento 2.4.7-p8의 경우 [!UICONTROL Manifest MID]은(는) 필수 필드입니다. |
 | [!UICONTROL AES/ITN] | 웹 사이트 | USPS AES - 자동화된 내보내기 시스템/ITN - REST API에 대한 내부 트랜잭션 번호. <br/><br/>**_Note:_** 이 필드는 일반적으로 선택 사항이지만 다음과 같은 경우 배송 레이블 생성을 사용하도록 설정해야 합니다. <ul><li>선적 시 각 유형의 상품(<a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>의 일정 B 내보내기 코드로 정의됨)은 $2,500 이하의 값으로 평가되며 내보내기 라이선스가 필요하지 않습니다. 또는</li><li>그 화물은 가격에 상관없이 캐나다로 보내지고 있어서 수출 허가증이 필요 없다.</li></ul> |
 
 {style="table-layout:auto"}
 
 ![USPS 패키징 설정](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -241,7 +241,7 @@ ht-degree: 0%
 
 ![USPS 처리 비용 설정](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -254,7 +254,7 @@ ht-degree: 0%
 
 ![USPS 허용 메서드](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -268,7 +268,7 @@ ht-degree: 0%
 
 ![USPS 적용 국가](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -282,7 +282,7 @@ ht-degree: 0%
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### FedEx 계정 설정
 
@@ -360,7 +360,7 @@ ht-degree: 0%
 
 ![DHL 계정 설정](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -378,7 +378,7 @@ ht-degree: 0%
 
 ![DHL 패키지 설정](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -394,7 +394,7 @@ ht-degree: 0%
 
 ![DHL 허용 메서드](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -410,7 +410,7 @@ ht-degree: 0%
 
 ![DHL 적용 국가](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
