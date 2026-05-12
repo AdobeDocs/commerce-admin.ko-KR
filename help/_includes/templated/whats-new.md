@@ -23,7 +23,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p><code class="language-plaintext highlighter-rouge">numeric</code> 및 <code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types">특성 입력 형식</a>을(를) 추가하고 구성 참조에 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes">제품 파일 특성</a> 페이지를 추가했습니다.</p>
+      <td><p><code class="language-plaintext highlighter-rouge">numeric</code> 및 <code class="language-plaintext highlighter-rouge">file</code> <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/attributes-input-types">특성 입력 형식</a>을(를) 추가하고 구성 참조에 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/config/catalog/product-file-attributes">제품 파일 특성</a> 페이지를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -45,7 +45,7 @@ ht-degree: 3%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">쇼핑객 지원 제공</a>에 Adobe Commerce as a Cloud Service 지침을 추가했습니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">쇼핑객 지원 제공</a>에 Adobe Commerce as a Cloud Service 지침을 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
