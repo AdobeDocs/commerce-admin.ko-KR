@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL Advanced] &gt; [!UICONTROL Admin]'
-description: Commerce 관리자의 [!UICONTROL Advanced] &gt; [!UICONTROL Admin] 페이지에서 구성 설정을 검토하십시오.
+title: '[!UICONTROL Advanced] > [!UICONTROL Admin]'
+description: Commerce 관리자의 [!UICONTROL Advanced] > [!UICONTROL Admin] 페이지에서 구성 설정을 검토합니다.
 exl-id: 546b8d01-9611-4415-ab2b-29be560316f5
 role: Admin
 feature: Configuration, Admin Workspace
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 093c0841141f3e39afdabf25f7ce96c65db35291
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ![시작 페이지](./assets/admin-startup-page.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [시작 안내서](../../getting-started/admin-dashboard.md#change-the-startup-page)에서 _시작 페이지 변경_&#x200B;을 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 _시작 안내서_&#x200B;에서 [시작 페이지 변경](../../getting-started/admin-dashboard.md#change-the-startup-page)을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |---------------------------|------------------------------------------------------------------------|------------------------------------------------------------------|
@@ -60,7 +60,7 @@ ht-degree: 0%
 | `Reports` | [`Marketing`](../../getting-started/marketing-reports.md) | `Products in Cart`<br />`Search Terms`<br />`Abandoned Carts`<br />`Newsletter Problem Reports` |
 |                                                         | [`Reviews`](../../getting-started/review-reports.md) | `By Customer`<br/> `By Products`<br/> |
 |                                                         | [`Sales`](../../getting-started/sales-reports.md) | `Orders`<br/>`Tax`<br/>`Invoiced`<br/>`Shipping`<br/>`Refunds`<br/>`Coupons`<br/>`PayPal Settlement`<br/>`Braintree Settlement` |
-|                                                         | `System Insights` | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=ko) ![Adobe Commerce](../../assets/adobe-logo.svg) |
+|                                                         | `System Insights` | [`Site-Wide Analysis Tool`](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) ![Adobe Commerce](../../assets/adobe-logo.svg) |
 |                                                         | [`Customers`](../../getting-started/customer-reports.md) | `Order Total`<br/>`Order Count`<br/>`New`<br/>`Wish Lists`<br/>`Segments`<br/> |
 |                                                         | [`Products`](../../getting-started/product-reports.md) | `Views`<br/>`Bestsellers`<br/>`Low Stock`<br/>`Ordered`<br/>`Downloads` |
 |                                                         | [`Private Sales`](../../getting-started/private-sales-reports.md) ![Adobe Commerce](../../assets/adobe-logo.svg) | `Invitations`<br/>`Invited Customers`<br/>`Conversions` |
@@ -95,7 +95,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 | Field        | [Scope](../../getting-started/websites-stores-views.md#scope-settings) | Description                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Enable       | Global                                                                 | Determines if the Commerce instance uses the Experience Cloud integration. Before enabling this feature, review the [requirements and configuration instructions](../../getting-started/admin-unified-experience-integration-overview.md). Options: Yes/No.                                                                                                                    |
-| Project Name | Global                                                                 | Identifies the instance in the Experience Cloud Commerce Projects workspace when the Unified Experience is enabled. The name can contain only alphanumeric characters and spaces. Defaults to the [cloud environment name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=ko#pro-environment-architecture). |
+| Project Name | Global                                                                 | Identifies the instance in the Experience Cloud Commerce Projects workspace when the Unified Experience is enabled. The name can contain only alphanumeric characters and spaces. Defaults to the [cloud environment name](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html#pro-environment-architecture). |
 
 {style="table-layout:auto"}
 
@@ -105,12 +105,12 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![관리자 기본 URL](./assets/admin-admin-base-url.png)<!-- zoom -->
 
-이러한 옵션 설정에 대한 자세한 내용은 [저장 및 구매 경험 안내서](../../stores-purchase/store-urls.md#configure-the-base-url)에서 _기본 URL 구성_&#x200B;을 참조하십시오.
+이러한 옵션 설정에 대한 자세한 내용은 _저장 및 구매 경험 안내서_&#x200B;에서 [기본 URL 구성](../../stores-purchase/store-urls.md#configure-the-base-url)을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Use Custom Admin URL] | 글로벌 | 사용자 지정 URL을 사용하여 관리자에 액세스할지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Custom Admin URL] | 글로벌 | 관리자에 액세스할 사용자 지정 URL을 지정합니다. 기본적으로 관리자 URL은 기본 URL과 동일합니다.<br/>**중요:** 관리자 URL은 동일한 Commerce 설치에 있어야 하며 상점 이름과 문서 루트가 같아야 합니다. |
+| [!UICONTROL Custom Admin URL] | 글로벌 | 관리자에 액세스할 사용자 지정 URL을 지정합니다. 기본적으로 관리자 URL은 기본 URL과 같습니다.<br/>**중요:** 관리자 URL은 동일한 Commerce 설치에 있어야 하며 문서 루트는 상점 앞과 같아야 합니다. |
 | [!UICONTROL Use Custom Admin Path] | 글로벌 | 사용자 지정 경로를 사용하여 관리자에 액세스하는지 여부를 결정합니다. 기본 경로는 `admin`입니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Custom Admin Path] | 글로벌 | 기본 관리 경로의 이름을 짐작하기 어려운 이름으로 변경합니다. 사용자 정의 경로 이름을 소문자로 입력합니다. 예: `aardvark` |
 
@@ -120,12 +120,12 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![보안](./assets/admin-security.png)<!-- zoom -->
 
-이러한 옵션 설정에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/security-admin.md)에서 _관리 보안 구성_&#x200B;을 참조하십시오.
+이러한 옵션 설정에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [관리 보안 구성](../../systems/security-admin.md)을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Admin Account Sharing] | 스토어 뷰 | 관리자 사용자가 다른 장치에서 동일한 계정에 동시에 로그인할 수 있는지 여부를 결정합니다. 옵션: <br/>**`Yes`**- 동일한 관리자 계정의 여러 활성 세션을 허용합니다.<br/>**`No`** - 관리자 계정당 하나의 활성 세션만 허용합니다. |
-| [!UICONTROL Password Reset Protection Type] | 스토어 뷰 | 암호 재설정 요청을 관리하는 데 사용할 방법을 결정합니다. 옵션: <br/>**`By IP and Email`**- 알림에서 응답을 받은 후 관리자 계정과 연결된 전자 메일 주소로 암호를 다시 설정할 수 있습니다.<br/>**`By IP`** - 추가 확인 없이 암호를 온라인으로 다시 설정할 수 있습니다. <br/>**`By Email`**- 관리자 계정과 연결된 전자 메일 주소로 전송된 알림에 전자 메일을 통해서만 암호를 재설정할 수 있습니다.<br/>**`None`** - 암호는 저장소 관리자만 재설정할 수 있습니다. |
+| [!UICONTROL Password Reset Protection Type] | 스토어 뷰 | 암호 재설정 요청을 관리하는 데 사용할 방법을 결정합니다. 옵션: <br/>**`By IP and Email`**- 알림에서 응답을 받은 후 관리자 계정과 연결된 전자 메일 주소로 암호를 다시 설정할 수 있습니다.<br/>**`By IP`** - 추가 확인 없이 암호를 온라인으로 다시 설정할 수 있습니다. <br/>**`By Email`**- 관리자 계정과 연결된 전자 메일 주소로 전송된 알림에 전자 메일로 응답해야만 암호를 재설정할 수 있습니다.<br/>**`None`** - 암호는 저장소 관리자만 재설정할 수 있습니다. |
 | [!UICONTROL Recovery Link Expiration Period (hours)] | 글로벌 | 암호 복구 링크가 유효한 상태로 유지되는 시간을 결정합니다. |
 | [!UICONTROL Max Number of Password Reset Requests] | 스토어 뷰 | 시간당 제출할 수 있는 최대 암호 요청 수를 결정합니다. |
 | [!UICONTROL Min Time Between Password Reset Requests] | 스토어 뷰 | 암호 재설정 요청 사이의 최소 시간(분)을 결정합니다. |
@@ -134,6 +134,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 | [!UICONTROL Admin Session Lifetime (seconds)] | 글로벌 | 관리 세션의 길이(초)를 결정합니다. |
 | [!UICONTROL Maximum Login Failures to Lockout Account] | 글로벌 | 계정이 잠기기 전에 관리자가 로그인을 시도할 수 있는 횟수를 결정합니다. 필드가 비어 있으면 최소값이 설정되지 않습니다. 기본값: `6` |
 | [!UICONTROL Lockout Time (minutes)] | 글로벌 | 사용자가 다시 로그인을 시도하기 전에 관리자 계정이 잠기는 시간(분)을 결정합니다. 기본값: `30` |
+| [!UICONTROL Minimum Admin Password Length] | 글로벌 | 관리자 암호에 필요한 최소 문자 수를 결정합니다. 기본값은 7이며, 최소 허용 값은 7입니다. 이 설정은 관리자 암호 변경, 관리자 인터페이스와 CLI의 새로운 관리자 사용자 생성 및 관리자의 암호 재설정 작업에 영향을 줍니다. |
 | [!UICONTROL Password Lifetime (days)] | 글로벌 | 관리자 암호가 만료될 때까지 남은 일 수를 결정합니다. 필드가 비어 있으면 라이프타임이 설정되지 않습니다. 기본값: `90` |
 | [!UICONTROL Password Change] | 글로벌 | 관리자 사용자가 암호를 변경해야 하는지 여부를 결정합니다. 옵션: <br/>**`Forced`**- 계정을 설정한 후 관리자 사용자가 암호를 변경해야 합니다.<br/>**`Recommended`** - 계정을 설정한 후 관리자 사용자가 암호를 변경할 것을 권장합니다. |
 
@@ -143,7 +144,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![대시보드](./assets/admin-dashboard.png)<!-- zoom -->
 
-이러한 옵션 설정에 대한 자세한 내용은 [시작 안내서](../../getting-started/admin-dashboard.md)의 _관리 대시보드_&#x200B;를 참조하십시오.
+이러한 옵션 설정에 대한 자세한 내용은 _시작 안내서_&#x200B;의 [관리 대시보드](../../getting-started/admin-dashboard.md)를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |----------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -155,7 +156,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![관리 그리드](./assets/admin-admin-grids.png)<!-- zoom -->
 
-이러한 옵션 설정에 대한 자세한 내용은 [카탈로그 관리 가이드](../../catalog/products-list.md#limit-product-display)의 _제품 표시 제한_&#x200B;을 참조하세요.
+이러한 옵션 설정에 대한 자세한 내용은 _카탈로그 관리 가이드_&#x200B;의 [제품 표시 제한](../../catalog/products-list.md#limit-product-display)을 참조하세요.
 
 >[!NOTE]
 >
@@ -163,21 +164,21 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |-----------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Limit Number of Products in Grid] | 글로벌 | 격자에 표시되는 제품 수가 _[!UICONTROL Records Limit]_&#x200B;값으로 제한되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Limit Number of Products in Grid] | 글로벌 | 격자에 표시되는 제품 수가 _[!UICONTROL Records Limit]_값으로 제한되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Records Limit] | 글로벌 | 제품 격자에 있는 제품의 수 제한을 설정합니다. 기본 최소값은 `20000`입니다. |
 
 ## [!UICONTROL CAPTCHA]
 
 ![CAPTCHA](./assets/admin-captcha.png)<!-- zoom -->
 
-이러한 옵션 설정에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/security-captcha.md)의 _CAPTCHA_&#x200B;을(를) 참조하십시오.
+이러한 옵션 설정에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;의 [CAPTCHA](../../systems/security-captcha.md)을(를) 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |-------------------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable CAPTCHA in Admin] | 글로벌 | 관리자 로그인에 CAPTCHA를 사용합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Font] | 글로벌 | CAPTCHA를 표시하는 데 사용할 글꼴을 결정합니다. 고유한 글꼴을 추가하려면 글꼴 파일을 Commerce 인스턴스와 동일한 디렉터리에 넣고 `app/code/Magento/Captcha/etc`의 config.xml 파일에 선언을 추가합니다. 기본 글꼴:` LinLibertine` |
 | [!UICONTROL Forms] | 글로벌 | CAPTCHA가 사용되는 양식을 결정합니다. 옵션: `Admin Login` / `Admin Forgot Password` |
-| [!UICONTROL Displaying Mode] | 글로벌 | CAPTCHA가 표시되는 시기를 결정합니다. 옵션: <br/>**`Always`**- 로그인하려면 항상 CAPTCHA가 필요합니다.<br/>**`After number of attempts to login`** - [!UICONTROL Number of Unsuccessful Attempts to Login] 필드를 표시합니다. 허용된 로그인 시도 횟수를 입력합니다. 값이 0(영)이면 표시 모드를 항상 로 설정하는 것과 비슷합니다. 이 옵션은 암호 분실 및 사용자 양식 만들기에 대해서는 다루지 않습니다. CAPTCHA가 활성화되어 있고 나타나도록 설정된 경우 폼에 항상 포함됩니다.<br />**참고**: 실패한 로그인 시도 횟수를 추적하기 위해 하나의 전자 메일 주소와 하나의 IP 주소에서 로그인을 시도한 횟수가 계산됩니다. 동일한 IP 주소에서 허용되는 최대 로그인 시도 횟수는 1,000회입니다. 이 제한은 CAPTCHA가 활성화된 경우에만 적용됩니다. |
+| [!UICONTROL Displaying Mode] | 글로벌 | CAPTCHA가 표시되는 시기를 결정합니다. 옵션: <br/>**`Always`**- 로그인하려면 항상 CAPTCHA가 필요합니다.<br/>**`After number of attempts to login`** - [!UICONTROL Number of Unsuccessful Attempts to Login] 필드를 표시합니다. 허용된 로그인 시도 횟수를 입력합니다. 값이 0(영)이면 표시 모드를 항상 로 설정하는 것과 비슷합니다. 이 옵션은 암호 분실 및 사용자 양식 만들기에 대해서는 다루지 않습니다. CAPTCHA가 활성화되어 있고 나타나도록 설정된 경우 항상 양식에 포함됩니다.<br />**참고**: 실패한 로그인 시도 횟수를 추적하기 위해 하나의 전자 메일 주소와 하나의 IP 주소에서 로그인을 시도합니다. 동일한 IP 주소에서 허용되는 최대 로그인 시도 횟수는 1,000회입니다. 이 제한은 CAPTCHA가 활성화된 경우에만 적용됩니다. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | 글로벌 | 계정이 잠기기 전에 사용자가 로그인을 시도할 수 있는 횟수를 결정합니다. 실패한 로그인 시도 횟수를 추적하기 위해 시스템은 단일 IP 주소의 한 이메일 주소에서 시도 횟수를 추적합니다. 동일한 IP 주소에서 허용되는 최대 시도 횟수는 1,000회입니다. 이 제한은 CAPTCHA가 활성화된 경우에만 적용됩니다. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | 글로벌 | 현재 CAPTCHA의 수명을 결정합니다. CAPTCHA가 만료되면 사용자는 페이지를 다시 로드해야 합니다. |
 | [!UICONTROL Number of Symbols] | 글로벌 | CAPTCHA에 사용되는 기호의 수를 결정합니다. 허용되는 최대값은 `8`입니다. 범위를 지정할 수도 있습니다(예: `5-8`). |
@@ -192,7 +193,7 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![관리자 작업 로깅](./assets/admin-actions-logging.png)<!-- zoom -->
 
-이러한 옵션 설정에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/action-log-archive.md)의 _작업 로그 보관_&#x200B;을 참조하십시오.
+이러한 옵션 설정에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;의 [작업 로그 보관](../../systems/action-log-archive.md)을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |-----------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -204,10 +205,10 @@ The [!UICONTROL Unified Experience] option is available in Adobe Commerce deploy
 
 ![관리자 사용](./assets/admin-usage.png)<!-- zoom -->
 
-이러한 옵션 설정에 대한 자세한 내용은 [시작 안내서](../../getting-started/admin.md#usage-data-collection)에서 _사용 데이터 수집_&#x200B;을(를) 참조하십시오.
+이러한 옵션 설정에 대한 자세한 내용은 _시작 안내서_&#x200B;에서 [사용 데이터 수집](../../getting-started/admin.md#usage-data-collection)을(를) 참조하십시오.
 
 | 필드 | 범위 | 설명 |
 |------------------------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Enable Admin Usage Tracking] | 글로벌 | _관리자_, 관련 제품 및 서비스 사용 경험을 개선하기 위해 Adobe에서 관리자 사용 데이터를 수집할 수 있는 권한을 부여합니다. 데이터 수집을 허용하면 도움말, 도구 설명, 안내 안내서, 온보딩 정보, 기능 공지 등과 같은 대화형 콘텐츠를 _관리자_&#x200B;에게 전달하도록 설계된 _제품 내 지침_&#x200B;도 사용할 수 있습니다. 사용 데이터에서 개별 관리자를 식별할 수 없습니다. 옵션:<br />**`Yes`**- 데이터 수집을 허용하고 _제품 내 지침_을 사용하도록 설정합니다.<br />**`No`** - 데이터 수집을 허용하지 않으며 _제품 내 지침_&#x200B;을 사용하도록 설정하지 않습니다. |
+| [!UICONTROL Enable Admin Usage Tracking] | 글로벌 | _관리자_, 관련 제품 및 서비스 사용 경험을 개선하기 위해 Adobe에서 관리자 사용 데이터를 수집할 수 있는 권한을 부여합니다. 데이터 수집을 허용하면 도움말, 도구 설명, 안내 안내서, 온보딩 정보, 기능 공지 등과 같은 대화형 콘텐츠를 _관리자_&#x200B;에게 전달하도록 설계된 _제품 내 지침_&#x200B;도 사용할 수 있습니다. 사용 데이터에서 개별 관리자를 식별할 수 없습니다. 옵션:<br />**`Yes`**- 데이터 수집을 허용하고 _제품 내 지침_을 사용하도록 설정합니다.<br />**`No`** - 데이터 수집을 허용하지 않으며 _제품 내 지침_&#x200B;을 사용하도록 설정할 수 없습니다. |
 
 {style="table-layout:auto"}

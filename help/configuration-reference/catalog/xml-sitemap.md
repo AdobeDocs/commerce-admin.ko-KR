@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
-description: Commerce 관리자의 [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] 페이지에서 구성 설정을 검토하십시오.
+title: '[!UICONTROL Catalog] > [!UICONTROL XML Sitemap]'
+description: Commerce 관리자의 [!UICONTROL Catalog] > [!UICONTROL XML Sitemap] 페이지에서 구성 설정을 검토합니다.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 4d5699dc5c4dc4b2bcf208bb0e660ba61e28c507
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '381'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ![범주 옵션](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
 
-<!-- [Categories Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Categories Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 ![제품 옵션](./assets/xml-sitemap-products-options.png)<!-- zoom -->
 
-<!-- [Products Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Products Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 ![CMS 페이지 옵션](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
 
-<!-- [CMS Pages Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [CMS Pages Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -67,11 +67,12 @@ ht-degree: 2%
 
 ![생성 설정](./assets/xml-sitemap-generation-settings.png)<!-- zoom -->
 
-<!-- [Generation Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Generation Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | 스토어 뷰 | 저장소에 XML 사이트 맵을 사용할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Generation Method] | 스토어 뷰 | XML 사이트 맵이 생성되는 방법을 결정합니다. `Standard`은(는) 기존의 동기 생성 프로세스를 사용하여 메모리의 모든 데이터를 처리하는 반면, `Batch`은(는) 유연성과 확장성을 높이기 위해 비동기 메모리에 최적화된 배치 모드를 사용합니다. 이 옵션은 2.4.9 릴리스부터 사용할 수 있습니다. 옵션: `Standard` / `Batch` |
 | [!UICONTROL Start Time] | 스토어 뷰 | 사이트 맵이 업데이트되는 시간, 분 및 초를 지정합니다. |
 | [!UICONTROL Frequency] | 스토어 뷰 | 사이트 맵의 업데이트 빈도를 결정합니다. 옵션: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Error Email Recipient] | 스토어 뷰 | 사이트 맵 업데이트 프로세스 중에 오류가 발생하는 경우 알림을 받는 사람의 이메일 주소입니다. 여러 주소의 경우 쉼표로 각각 구분하십시오. |
@@ -84,7 +85,7 @@ ht-degree: 2%
 
 ![사이트 맵 파일 제한](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
-<!-- [Sitemap File Limits](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Sitemap File Limits](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -97,7 +98,7 @@ ht-degree: 2%
 
 ![검색 엔진 제출 설정](./assets/xml-sitemap-search-engine-submission-settings.png)<!-- zoom -->
 
-<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

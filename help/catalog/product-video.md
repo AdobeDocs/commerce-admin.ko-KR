@@ -3,9 +3,9 @@ title: 제품 비디오 추가
 description: Google 계정의 YouTube 데이터 API 키가 필요한 스토어에 대한 제품 비디오를 구성하고 제품에 대한 비디오 링크를 추가하는 방법에 대해 알아봅니다.
 exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
 feature: Catalog Management, Products, Media
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: d9d964d36a7debebaed327111b5c4d76d0a1a005
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Catalog]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Product Video]_&#x200B;를 확장하고&#x200B;**[!UICONTROL YouTube API key]**&#x200B;을(를) 붙여 넣습니다.
+1. _[!UICONTROL Product Video]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고&#x200B;**[!UICONTROL YouTube API key]**을(를) 붙여 넣습니다.
 
    ![제품 비디오 구성](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. 제품을 편집 모드로 엽니다.
 
-1. _[!UICONTROL Images and Videos]_&#x200B;섹션으로 스크롤한 다음 확장합니다.
+1. _[!UICONTROL Images and Videos]_섹션으로 스크롤한 다음 확장합니다.
 
    ![이미지 및 비디오](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
@@ -94,7 +94,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Autostart base video]_&#x200B;구성 옵션이 `Yes`(으)로 설정되어 있지만 비디오가 자동으로 재생되지 않는 경우, 브라우저에 의해 시행되고 Adobe Commerce에서 제어할 수 없는 자동 재생 정책 때문일 수 있습니다. 지원되는 각 브라우저에는 시간이 지남에 따라 변경될 수 있는 자체 자동 재생 정책이 있으며 비디오가 나중에 자동 재생되지 않을 수 있습니다. 권장되는 우수 사례로서, 비즈니스 크리티컬 기능에 대해 자동 재생에 의존해서는 안 되며 지원되는 각 브라우저로 스토어에서 비디오 자동 재생 동작을 테스트해야 합니다.
+   >_[!UICONTROL Autostart base video]_구성 옵션이 `Yes`(으)로 설정되어 있지만 비디오가 자동으로 재생되지 않는 경우, 브라우저에 의해 시행되고 Adobe Commerce에서 제어할 수 없는 자동 재생 정책 때문일 수 있습니다. 지원되는 각 브라우저에는 시간이 지남에 따라 변경될 수 있는 자체 자동 재생 정책이 있으며 비디오가 나중에 자동 재생되지 않을 수 있습니다. 권장되는 우수 사례로서, 비즈니스 크리티컬 기능에 대해 자동 재생에 의존해서는 안 되며 지원되는 각 브라우저로 스토어에서 비디오 자동 재생 동작을 테스트해야 합니다.
+
+## 스토어 보기 수준에서 비디오 역할 관리
+
+특정 저장소 보기 범위(**[!UICONTROL All Store Views]** 아님)에서 작업하는 동안 비디오를 추가하거나 편집하면 비디오 대화 상자의 각 **[!UICONTROL Role]** 옵션에 **[!UICONTROL Use Default Value]** 단추가 표시됩니다. 해당 역할에 대한 기본 범위에서 역할 할당을 상속하려면 이 단추를 클릭합니다.
+
+![새 비디오 - 스토어 보기](./assets/product-video-add-store-scope.png){width="600" zoomable="yes"}
 
 ## API 액세스 유지
 

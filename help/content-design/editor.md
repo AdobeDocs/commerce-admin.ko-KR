@@ -2,10 +2,10 @@
 title: WYSIWYG 편집기
 description: 편집기를 사용하고 _What You See Is What You Get_(WYSIWYG) 보기에서 콘텐츠로 작업하는 방법을 알아봅니다.
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: f7d2ab41318119fc0f3eed32b3619f0b9071c15d
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,17 @@ ht-degree: 0%
 
 WYSIWYG 편집기는 기본적으로 활성화되어 있으며 CMS 페이지 및 블록, 제품 및 카테고리에서 콘텐츠를 편집하는 데 사용할 수 있습니다. 구성에서 편집기를 활성화하거나 비활성화하고 제품 및 카테고리 설명의 미디어 콘텐츠에 대한 [dynamic](../catalog/catalog-urls.md#dynamic-url)이 아닌 정적 URL을 사용하도록 선택할 수 있습니다.
 
-![WYSIWYG 옵션](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+![WYSIWYG 옵션](../configuration-reference/general/assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>TinyMCE는 Magento 2.4.6 이상 버전에서 기본 WYSIWYG 편집기로 Hugerte로 대체되었습니다.
 
 모든 WYSIWYG 옵션에 대한 자세한 설명은 _구성 참조_&#x200B;에서 [콘텐츠 관리](../configuration-reference/general/content-management.md)를 참조하십시오.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL WYSIWYG Options]**&#x200B;을 확장합니다.
 

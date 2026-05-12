@@ -4,9 +4,9 @@ description: 관리 사용자 계정을 만들고 역할을 할당하여 관리 
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-source-git-commit: ad75c77ada34c4d66b1a58a666edadd44d054e17
+source-git-commit: e2644f16f8e8adb77d070ddb66c724c00a15a525
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe ID을 보유하고 있으며 Adobe Commerce 및 Adobe 비즈니스 제품에 간소화된 로그인을 원하는 Adobe Commerce 판매자는 Commerce 인증을 Adobe IMS 인증 워크플로와 통합할 수 있습니다. Commerce 스토어에 대해 이 통합이 활성화되면 각 관리자는 Commerce 자격 증명이 아닌 Adobe 자격 증명을 사용하여 로그인해야 합니다. [Adobe IMS(Identity Management 서비스) 통합 개요](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=ko)를 참조하세요.
+>Adobe ID을 보유하고 있으며 Adobe Commerce 및 Adobe 비즈니스 제품에 간소화된 로그인을 원하는 Adobe Commerce 판매자는 Commerce 인증을 Adobe IMS 인증 워크플로와 통합할 수 있습니다. Commerce 스토어에 대해 이 통합이 활성화되면 각 관리자는 Commerce 자격 증명이 아닌 Adobe 자격 증명을 사용하여 로그인해야 합니다. [Adobe IMS(Identity Management 서비스) 통합 개요](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html)를 참조하세요.
 
 일시적인 사용자 또는 역할의 경우 사용자 계정의 만료 날짜를 설정할 수도 있습니다.
 
@@ -31,9 +31,9 @@ ht-degree: 0%
 
 1. 오른쪽 상단에서 **[!UICONTROL Add New User]**&#x200B;을(를) 클릭합니다.
 
-   기존 사용자를 편집하려면 그리드에서 사용자 이름을 클릭합니다. 필요에 따라 _[!UICONTROL User Info]_&#x200B;및&#x200B;_[!UICONTROL User Role]_ 섹션을 수정할 수 있습니다.
+   기존 사용자를 편집하려면 그리드에서 사용자 이름을 클릭합니다. 필요에 따라 _[!UICONTROL User Info]_및_[!UICONTROL User Role]_ 섹션을 수정할 수 있습니다.
 
-1. _[!UICONTROL Account Information]_&#x200B;섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Account Information]_섹션에서 다음을 수행합니다.
 
    ![사용자 계정 정보](./assets/permissions-user-new.png){width="600" zoomable="yes"}
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >관리자 암호는 7자 이상이어야 하며 문자와 숫자를 모두 포함해야 합니다. 추가 암호 옵션은 [관리자 보안 구성](security-admin.md)을 참조하십시오.
+     >관리자 암호는 7자 이상(기본적으로)이어야 하며 문자와 숫자를 모두 포함해야 합니다. 최소 암호 길이는 관리자 보안 설정에서 구성할 수 있습니다. 추가 암호 옵션은 [관리자 보안 구성](security-admin.md)을 참조하십시오.
 
    - **[!UICONTROL Password Confirmation]**&#x200B;에 대해 암호를 다시 입력하여 암호를 올바르게 입력했는지 확인하십시오.
 
@@ -65,21 +65,21 @@ ht-degree: 0%
 
    만료 날짜 정의는 사용자 또는 역할이 임시적일 때 유용합니다. 만료 날짜 이후에 사용자 계정 상태가 `Inactive`(으)로 변경되며 필요한 경우 업데이트할 수 있습니다.
 
-1. _[!UICONTROL Current User Identity Verification]_&#x200B;에서 사용자 계정 암호를 입력합니다.
+1. _[!UICONTROL Current User Identity Verification]_에서 사용자 계정 암호를 입력합니다.
 
 >[!IMPORTANT]
 >
->_[!UICONTROL Account Information]_&#x200B;섹션이 완료되면 사용자를 저장할 수 있습니다. 새 사용자가&#x200B;_[!UICONTROL Users]_ 그리드에 표시되지만 역할을 할당할 때까지 사용자 이름이 로그인할 수 없습니다.
+>_[!UICONTROL Account Information]_섹션이 완료되면 사용자를 저장할 수 있습니다. 새 사용자가_[!UICONTROL Users]_ 그리드에 표시되지만 역할을 할당할 때까지 사용자 이름이 로그인할 수 없습니다.
 
 ## 사용자 역할 할당
 
 1. 왼쪽 패널에서 **[!UICONTROL User Role]**&#x200B;을(를) 클릭합니다.
 
-   그리드에 기존 사용자 역할이 모두 나열됩니다. 새 스토어의 경우 _[!UICONTROL Administrators]_&#x200B;역할만 사용할 수 있습니다.
+   그리드에 기존 사용자 역할이 모두 나열됩니다. 새 스토어의 경우 _[!UICONTROL Administrators]_역할만 사용할 수 있습니다.
 
    ![관리자 - 새 사용자 역할 추가](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Assigned]_&#x200B;열에서 사용자 역할을 선택합니다.
+1. _[!UICONTROL Assigned]_열에서 사용자 역할을 선택합니다.
 
    [기존 역할을 보거나 추가 사용자 역할을 정의할 수 있습니다](permissions-user-roles.md). 역할이 정의된 후에는 사용자 계정을 편집하여 새 역할을 할당해야 합니다.
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 1. 메시지가 표시되면 암호를 입력하여 ID를 확인한 다음 **[!UICONTROL Save User]**&#x200B;을(를) 다시 클릭합니다.
 
-   _[!UICONTROL Users]_&#x200B;그리드가 열리고 모든 사용자가 나열됩니다.
+   _[!UICONTROL Users]_그리드가 열리고 모든 사용자가 나열됩니다.
 
 ## 관리자 삭제
 
@@ -149,7 +149,7 @@ ht-degree: 0%
 
 ![로그인 화면 경고 - 계정이 일시적으로 비활성화되었습니다](./assets/admin-login-locked-out-message.png){width="300"}
 
-**_관리자 계정을 잠금 해제하려면:_**
+관리자 계정을 잠금 해제하려면 **_1}:_**
 
 1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL Locked Users]**(으)로 이동합니다.
 

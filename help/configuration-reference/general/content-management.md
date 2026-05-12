@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL General] &gt; [!UICONTROL Content Management]'
-description: Commerce 관리자의 [!UICONTROL General] &gt; [!UICONTROL Content Management] 페이지에서 구성 설정을 검토하십시오.
+title: '[!UICONTROL General] > [!UICONTROL Content Management]'
+description: Commerce 관리자의 [!UICONTROL General] > [!UICONTROL Content Management] 페이지에서 구성 설정을 검토합니다.
 exl-id: 67c5e89b-0a7c-4e4f-a5ad-10376c3ef6f9
 feature: Configuration, Page Content
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 5929a2ff26dadda40ecfa9e435a73343caef3cde
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 297dc7bac426a32617df6715ec1590a23f9bc011
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,35 @@ ht-degree: 0%
 
 ## [!UICONTROL WYSIWYG Options]
 
+### [!UICONTROL TinyMCE 6]
+
 ![WYSIWYG 옵션](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 
-<!-- [WYSIWYG Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/wysiwyg/editor) -->
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
-|--- |--- |--- |
+|--- |--- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable WYSIWYG Editor] | 스토어 뷰 | 저장소에 대해 편집기를 사용할 수 있는지 여부를 결정합니다. 옵션: 기본적으로 활성화됨/기본적으로 비활성화됨/완전히 비활성화됨 |
-| [!UICONTROL WYSIWYG Editor] | 웹 사이트 | WYSIWYG 편집기에 사용되는 TinyMCE 편집기의 버전을 결정합니다. 옵션: <br/>**`TinyMCE 5`**- (기본값) TinyMCE 버전 5를 기본 WYSIWYG 편집기로 사용합니다.<br><br>_&#x200B;**&#x200B;참고:**&#x200B;_Adobe Commerce 및 Magento Open Source 2.4.5의 TinyMCE 5.10 라이브러리를 업데이트하면 일부 유형의 URL을 사용하여 이미지나 링크를 업데이트할 때 임의의 JavaScript 실행이 허용된 취약성이 해결됩니다. TinyMCE 3은 2.4.0 릴리스에서 더 이상 사용되지 않으며 2.4.3 릴리스에서 제거되었습니다. TinyMCE 4는 2.4.4 릴리스에서 제거되었습니다. |
-| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | 글로벌 | WYSIWYG 편집기에서 참조되는 미디어 콘텐츠에 [정적 URL](../../content-design/catalog-urls-dynamic-media.md)을(를) 사용할지 여부를 결정합니다. 이 설정은 제품, 카테고리, 페이지 및 블록을 포함하여 WYSIWYG 편집기를 사용할 수 있는 모든 위치에 적용됩니다. 옵션: <br/>**`Yes`**- WYSIWYG 편집기와 함께 삽입된 미디어 콘텐츠에 정적 URL을 사용합니다. 정적 URL은 절대 URL이며 저장소의 [기본 URL](../../stores-purchase/store-urls.md)이(가) 변경되면 중단됩니다.<br/>**`No`**(기본값) - `{{media url="..."}}` 지시문을 기반으로 WYSIWYG 편집기와 함께 삽입된 미디어 콘텐츠에 동적 URL을 사용합니다. 동적 URL은 상대적이며 저장소의 기본 URL이 변경되는 경우 중단되지 않습니다. |
+| [!UICONTROL WYSIWYG Editor] | 웹 사이트 | WYSIWYG 편집기에 사용되는 TinyMCE 편집기의 버전을 결정합니다. 옵션: <br/>**`TinyMCE 6`**- (기본값) TinyMCE 버전 6을 기본 WYSIWYG 편집기로 사용합니다.<br><br>_**&#x200B;참고:**_Adobe Commerce 및 Magento Open Source 2.4.5에서 TinyMCE 5.10 라이브러리를 업데이트하면 일부 유형의 URL을 사용하여 이미지 또는 링크를 업데이트할 때 임의의 JavaScript 실행이 허용된 취약점이 해결됩니다. TinyMCE 3은 2.4.0 릴리스에서 더 이상 사용되지 않으며 2.4.3 릴리스에서 제거되었습니다. TinyMCE 4는 2.4.4 릴리스에서 제거되었습니다. |
+| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | 글로벌 | WYSIWYG 편집기에서 참조되는 미디어 콘텐츠에 [정적 URL](../../content-design/catalog-urls-dynamic-media.md)을(를) 사용할지 여부를 결정합니다. 이 설정은 제품, 카테고리, 페이지 및 블록을 포함하여 WYSIWYG 편집기를 사용할 수 있는 모든 위치에 적용됩니다. 옵션: <br/>**`Yes`**- WYSIWYG 편집기와 함께 삽입된 미디어 콘텐츠에 정적 URL을 사용합니다. 정적 URL은 절대 URL이며 저장소의 [기본 URL](../../stores-purchase/store-urls.md)이(가) 변경되면 중단됩니다.<br/>**`No`** (기본값) - `{{media url="..."}}` 지시문을 기반으로 WYSIWYG 편집기와 함께 삽입되는 미디어 콘텐츠에 동적 URL을 사용합니다. 동적 URL은 상대적이며 저장소의 기본 URL이 변경되는 경우 중단되지 않습니다. |
+
+{style="table-layout:auto"}
+
+>[!NOTE]
+>
+>TinyMCE는 Magento 2.4.6 이상 버전에서 기본 WYSIWYG 편집기로 Hugerte로 대체되었습니다.
+
+### [!UICONTROL HugeRTE]
+
+![WYSIWYG 옵션](./assets/content-management-wysiwyg-options-hugerte.png)<!-- zoom -->
+
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Enable WYSIWYG Editor] | 스토어 뷰 | 저장소에 대해 편집기를 사용할 수 있는지 여부를 결정합니다. 옵션: 기본적으로 활성화됨/기본적으로 비활성화됨/완전히 비활성화됨 |
+| [!UICONTROL WYSIWYG Editor] | 웹 사이트 | WYSIWYG 편집기에 사용되는 Hugerte 편집기의 버전을 결정합니다. |
+| [!UICONTROL Use Static URLs for Media Content in WYSIWYG] | 글로벌 | WYSIWYG 편집기에서 참조되는 미디어 콘텐츠에 [정적 URL](../../content-design/catalog-urls-dynamic-media.md)을(를) 사용할지 여부를 결정합니다. 이 설정은 제품, 카테고리, 페이지 및 블록을 포함하여 WYSIWYG 편집기를 사용할 수 있는 모든 위치에 적용됩니다. 옵션: <br/>**`Yes`**- WYSIWYG 편집기와 함께 삽입된 미디어 콘텐츠에 정적 URL을 사용합니다. 정적 URL은 절대 URL이며 저장소의 [기본 URL](../../stores-purchase/store-urls.md)이(가) 변경되면 중단됩니다.<br/>**`No`** (기본값) - `{{media url="..."}}` 지시문을 기반으로 WYSIWYG 편집기와 함께 삽입되는 미디어 콘텐츠에 동적 URL을 사용합니다. 동적 URL은 상대적이며 저장소의 기본 URL이 변경되는 경우 중단되지 않습니다. |
 
 {style="table-layout:auto"}
 
@@ -35,7 +55,7 @@ ht-degree: 0%
 
 ![CMS 페이지 계층 구조](./assets/content-management-cms-page-hierarchy.png)<!-- zoom -->
 
-<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
+<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -49,11 +69,11 @@ ht-degree: 0%
 
 ![고급 콘텐츠 도구](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
-<!-- [Advanced Content Tools](https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
+<!-- [Advanced Content Tools](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Enable Page Builder] | 글로벌 | [!DNL Page Builder] 고급 콘텐츠 도구를 사용할 수 있는지 확인합니다. 옵션: <br/>**`Yes`**- [!DNL Page Builder] 작업 영역이 페이지, 블록, 제품 및 범주의 콘텐츠 섹션에 표시됩니다.<br/>**`No`** - 표준 CMS 편집 도구는 페이지, 블록, 제품 및 범주의 _[!UICONTROL Content]_&#x200B;섹션에 표시됩니다. |
+| [!UICONTROL Enable Page Builder] | 글로벌 | [!DNL Page Builder] 고급 콘텐츠 도구를 사용할 수 있는지 확인합니다. 옵션: <br/>**`Yes`**- [!DNL Page Builder] 작업 영역이 페이지, 블록, 제품 및 범주의 콘텐츠 섹션에 표시됩니다.<br/>**`No`** - 표준 CMS 편집 도구는 페이지, 블록, 제품 및 범주의 _[!UICONTROL Content]_섹션에 표시됩니다. |
 | [!UICONTROL Enable Page Builder Content Preview] | 글로벌 | 제품 및 범주에 대해 [!DNL Page Builder] 콘텐츠 미리 보기를 사용할지 여부를 결정합니다. 옵션: `Yes` / `No` <br/>**_Note:_** 기본적으로 `Yes`(으)로 설정되지만 미리 보기를 해제하면 제품 또는 범주 양식 내에서 미리 보기를 로드하여 성능 문제가 발생하지 않습니다. |
 | [!UICONTROL Google Maps API Key] | 글로벌 | Google 계정의 [!DNL Google Maps] API 키입니다. |
 | [!UICONTROL Test Key] |  | [!DNL Google Maps] API 키의 유효성을 검사합니다. |

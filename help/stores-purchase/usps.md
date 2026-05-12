@@ -3,9 +3,9 @@ title: 미국 우편 서비스(USPS)
 description: USPS를 상점의 배송 운송업체로 설정하는 방법에 대해 알아봅니다.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Delivery Methods]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL USPS]**&#x200B;를 확장합니다.
+1. **[!UICONTROL USPS]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    >[!NOTE]
    >
@@ -36,9 +36,15 @@ ht-degree: 0%
 
 1. **[!UICONTROL Enabled for Checkout]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
-1. USPS REST API를 사용하는 경우 **[!UICONTROL USPS Type]**&#x200B;을(를) `USPS Rest APIs`(으)로 설정하십시오.
+1. USPS API 유형을 설정합니다.
 
-   USPS Web Tools API를 사용하는 경우 **[!UICONTROL USPS Type]**&#x200B;을(를) `USPS Web Tools API`(으)로 설정하십시오.
+   - USPS REST API를 사용하는 경우 **[!UICONTROL USPS Type]**&#x200B;을(를) `USPS REST API`(으)로 설정하십시오.
+
+   - USPS Web Tools API를 사용하는 경우 **[!UICONTROL USPS Type]**&#x200B;을(를) `USPS Web Tools API`(으)로 설정하십시오.
+
+   >[!NOTE]
+   >
+   >USPS Rest API는 USPS와 통합하기 위한 기본 방법입니다. USPS 웹 도구 API는 더 이상 사용되지 않으며 향후 릴리스에서 제거될 수 있습니다.
 
 1. 필요한 경우 **[!UICONTROL Gateway URL]**&#x200B;을(를) 입력하여 USPS 배송 속도에 액세스하십시오.
 
@@ -48,16 +54,17 @@ ht-degree: 0%
 
 1. USPS에서 제공한 자격 증명을 사용하여 다음 필드를 완료합니다.
 
-   USPS Rest API를 사용하는 경우 다음 자격 증명을 제공해야 합니다.
+   USPS Rest API를 사용하는 경우 다음 자격 증명을 제공합니다.
 
    - **[!UICONTROL Consumer Key]**
    - **[!UICONTROL Consumer Secret]**
    - **[!UICONTROL Pricing Options]**
 
-   USPS Web Tools API를 사용하는 경우 다음 자격 증명을 제공해야 합니다.
+   USPS Web Tools API를 사용하는 경우 다음 자격 증명을 제공합니다.
 
    - **[!UICONTROL User ID]**
    - **[!UICONTROL Password]**
+
 
 1. **[!UICONTROL Mode]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
@@ -100,7 +107,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Handling Fee]**&#x200B;의 청구 금액을 입력하십시오.
 
-   백분율을 입력하려면 십진수 형식을 사용합니다. 예를 들어 25%에 대해 `0.25`을(를) 입력합니다.
+   백분율을 입력하려면 십진수 형식을 사용합니다. 예를 들어 25%에 대해 `25`을(를) 입력합니다.
 
    ![USPS 취급 수수료](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
 
