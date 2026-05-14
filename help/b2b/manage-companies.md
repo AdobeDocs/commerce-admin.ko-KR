@@ -3,11 +3,10 @@ title: 회사 관리
 description: 복잡한 운영 모델을 통해 B2B 조직의 관리 및 관리를 간소화합니다.
 feature: B2B, Companies, Storefront
 role: Admin
-hidefromtoc: false
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 970cc079f101011b5fd55b95715516342db4978e
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---

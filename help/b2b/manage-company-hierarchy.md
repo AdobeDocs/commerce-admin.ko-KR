@@ -3,9 +3,8 @@ title: 회사 계층 관리
 description: 복잡한 운영 모델을 사용하는 B2B 조직을 지원하기 위해 회사 계층을 구축하고 관리합니다.
 feature: B2B, Companies
 role: Admin
-hidefromtoc: false
 exl-id: a277ed95-7935-4d27-adb2-35116972732b
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 970cc079f101011b5fd55b95715516342db4978e
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -119,7 +118,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**(으)로 이동합니다.
 
-1. [!UICONTROL Companies] 그리드에서 **[!UICONTROL Edit]** 열에서 **[!UICONTROL Action]**&#x200B;을(를) 선택하여 상위 회사를 편집합니다.
+1. [!UICONTROL Companies] 그리드에서 **[!UICONTROL Action]** 열에서 **[!UICONTROL Edit]**&#x200B;을(를) 선택하여 상위 회사를 편집합니다.
 
 1. 상위 회사 세부 정보 페이지에서 **[!UICONTROL Company Hierarchy]** 섹션을 확장하여 조직에 포함된 회사를 봅니다.
 
