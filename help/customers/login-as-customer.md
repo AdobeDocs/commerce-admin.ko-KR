@@ -22,7 +22,7 @@ ht-degree: 0%
 
 [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
-_관리자_ 사용자에 대해 _[!UICONTROL Login as Customer]_단추가 활성화되면 여러 페이지에 표시됩니다.
+_관리자_ 사용자에 대해 _[!UICONTROL Login as Customer]_&#x200B;단추가 활성화되면 여러 페이지에 표시됩니다.
 
 * [고객 편집 페이지](../customers/update-account.md)
 * [주문 보기 페이지](../stores-purchase/order-processing.md)
