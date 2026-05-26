@@ -23,7 +23,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>USPS Web Tools API가 2026년 1월 25일에 사용이 중단되었으며 USPS REST API가 이제 유일한 지원 통합 방법임을 반영하도록 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a> 및 관련 통신사 페이지를 업데이트했습니다.</p>
+      <td><p>USPS Web Tools API가 2026년 1월 25일에 사용이 중단되었으며 USPS REST API가 이제 유일한 지원 통합 방법임을 반영하도록 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a> 및 관련 통신사 페이지를 업데이트했습니다.</p>
 </td>
       <td>
         주요 업데이트, 피드백
@@ -31,7 +31,7 @@ ht-degree: 1%
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/13155decdb96b62757e1044bb99dcddb1e1f8036">커밋</a></td>
     </tr>
     <tr>
-      <td><p>새 B2B 회사 고객 가져오기 및 내보내기, 협상 가능한 견적, 구매 발주, 구매요청 목록, 공유 카탈로그, 회사 관리, 장바구니 및 체크아웃, 프레임워크, GraphQL에 대한 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v153">Adobe Commerce B2B v1.5.3 릴리스 정보</a>와 구매요청 목록 내보내기 경로가 <code>var/export/requisition_lists/</code>(으)로 변경되어 게시되었습니다.</p>
+      <td><p>새 B2B 회사 고객 가져오기 및 내보내기, 협상 가능한 견적, 구매 발주, 구매요청 목록, 공유 카탈로그, 회사 관리, 장바구니 및 체크아웃, 프레임워크, GraphQL에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/release-notes#b2b-v153">Adobe Commerce B2B v1.5.3 릴리스 정보</a>와 구매요청 목록 내보내기 경로가 <code>var/export/requisition_lists/</code>(으)로 변경되어 게시되었습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -53,7 +53,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p><code>numeric</code> 및 <code>file</code> <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types">특성 입력 형식</a>을(를) 추가하고 구성 참조에 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes">제품 파일 특성</a> 페이지를 추가했습니다.</p>
+      <td><p><code>numeric</code> 및 <code>file</code> <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/attributes-input-types">특성 입력 형식</a>을(를) 추가하고 구성 참조에 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/config/catalog/product-file-attributes">제품 파일 특성</a> 페이지를 추가했습니다.</p>
 </td>
       <td>
         주요 업데이트
