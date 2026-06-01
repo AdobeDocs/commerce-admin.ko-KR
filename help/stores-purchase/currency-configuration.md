@@ -3,9 +3,9 @@ title: 통화 구성
 description: 기본 통화의 범위를 설정하고 수락하는 통화와 가격 표시에 사용할 통화를 지정하는 방법에 대해 알아봅니다.
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 허용되는 통화와 스토어에서 [가격](../catalog/catalog-price-scope.md)을 표시하는 데 사용할 통화도 지정합니다. 다음 다이어그램에서는 기본 통화의 범위가 웹 사이트 수준에서 설정되어 있으므로 각 웹 사이트가 다른 기본 통화를 가질 수 있습니다.
 
-![통화 범위 다이어그램](./assets/scope-currency-config.svg){width="600" zoomable="yes"}
+![통화 범위 다이어그램](./assets/scope-currency-config.png){width="600" zoomable="yes"}
 
 ## 1단계: 수락된 통화 선택
 
@@ -68,7 +68,7 @@ ht-degree: 0%
    >
    >2.4.6 릴리스부터 [[!DNL Fixer.io]](https://fixer.io/) 서비스는 더 이상 사용되지 않으며 [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api) 서비스로 대체됩니다. 더 이상 사용되지 않는 [!DNL Fixer.io] 계정 대신 APILayer 계정을 사용하는 것이 좋습니다.
 
-   - _[fixer.io 서비스에 연결하려면](https://fixer.io/):_
+   - [fixer.io 서비스에 연결하려면(_T)](https://fixer.io/):_
 
       - **[!UICONTROL Fixer.io]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
      ![일반 구성 - 통화 설정 - Fixer.io 옵션](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
 
-   - _[[!DNL Fixer Api (APILayer)] 서비스](https://apilayer.com/)에 연결하려면:_
+   - [[!DNL Fixer Api (APILayer)] 서비스](https://apilayer.com/):_에 연결하려면(_T)
 
       - **[!UICONTROL Fixer Api (APILayer)]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
      ![일반 구성 - 통화 설정 - Fixer API(APILayer) 옵션](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
 
-   - _[[!DNL Currency Convertor API] 서비스](https://free.currencyconverterapi.com/)에 연결하려면:_
+   - [[!DNL Currency Convertor API] 서비스](https://free.currencyconverterapi.com/):_에 연결하려면(_T)
 
       - **[!UICONTROL Currency Convertor API]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
