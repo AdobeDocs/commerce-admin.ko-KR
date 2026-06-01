@@ -144,13 +144,13 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**(으)로 이동합니다.
 
-   스토어에 사용할 수 있는 각 통화가 _[!UICONTROL Currency]_목록에 나타납니다.
+   스토어에 사용할 수 있는 각 통화가 _[!UICONTROL Currency]_&#x200B;목록에 나타납니다.
 
 1. 필요에 따라 목록에서 설정을 변경합니다.
 
    - 사용할 각 통화에 대해 사용자 지정 기호를 입력하거나 각 통화에 대해 **[!UICONTROL Use Standard]** 확인란을 선택하십시오.
 
-   - 기본 기호를 재정의하려면 _[!UICONTROL Use Standard]_확인란의 선택을 취소하고 사용할 기호를 입력합니다.
+   - 기본 기호를 재정의하려면 _[!UICONTROL Use Standard]_&#x200B;확인란의 선택을 취소하고 사용할 기호를 입력합니다.
 
    >[!NOTE]
    >
