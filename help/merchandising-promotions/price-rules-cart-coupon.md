@@ -3,9 +3,9 @@ title: 쿠폰 코드
 description: 조건 세트가 충족될 때 장바구니 가격 규칙과 함께 쿠폰 코드를 사용하여 할인을 적용하는 방법에 대해 알아봅니다.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
+source-git-commit: 5aad8247242294c42c36378a743f747dcd73647c
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '2338'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
 >[!NOTE]
 >
->[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 쿠폰을 만들기 전에 `bin/magento cron:run` 명령을 사용하여 cron이 실행 중인지 확인하십시오. 자세한 내용은 [구성 가이드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko#run-cron-from-the-command-line)의 _명령줄에서 cron 실행_&#x200B;을 참조하십시오.
+>[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 쿠폰을 만들기 전에 `bin/magento cron:run` 명령을 사용하여 cron이 실행 중인지 확인하십시오. 자세한 내용은 _구성 가이드_&#x200B;의 [명령줄에서 cron 실행](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko#run-cron-from-the-command-line)을 참조하십시오.
 
 ### 방법 1: 특정 쿠폰 만들기
 
@@ -112,7 +112,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
       - **[!UICONTROL Update Name]** 및 **[!UICONTROL Description]**&#x200B;을(를) 입력하십시오.
 
-      - 일정( **일정 아이콘**)에서 **[!UICONTROL End Date]**&#x200B;시작 날짜![&#x200B; 및 &#x200B;](../assets/icon-calendar.png)을(를) 선택하십시오. 날짜 범위를 비워 두면 규칙이 만료되지 않습니다.
+      - 일정( ![일정 아이콘](../assets/icon-calendar.png))에서 **시작 날짜** 및 **[!UICONTROL End Date]**&#x200B;을(를) 선택하십시오. 날짜 범위를 비워 두면 규칙이 만료되지 않습니다.
 
       - 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -142,7 +142,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
    >
    >여러 고객이 동시에 동일한 쿠폰을 동시에 사용하는 경우, 쿠폰 처리가 지연돼 설정한 사용 한도를 넘어설 수 있기 때문이다.
 
-1. 아래로 스크롤하여 ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Manage Coupon Codes]**&#x200B;를 확장하고 다음을 수행합니다.
+1. 아래로 스크롤하여 **[!UICONTROL Manage Coupon Codes]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
    ![장바구니 가격 규칙 - 쿠폰 코드 관리](./assets/manage-coupon-codes.png){width="600" zoomable="yes"}
 
@@ -179,7 +179,70 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
 파일 형식을 선택하고 **[!UICONTROL Export]**&#x200B;을(를) 클릭하여 쿠폰 코드를 CSV 또는 Excel XML 파일로 내보낼 수 있습니다.
 
-쿠폰 코드를 삭제하려면 목록에서 하나 이상의 코드를 선택합니다. `Delete` 선택기에서 **[!UICONTROL Actions]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
+쿠폰 코드를 삭제하려면 목록에서 하나 이상의 코드를 선택합니다. **[!UICONTROL Actions]** 선택기에서 `Delete`을(를) 선택한 다음 **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
+
+### 방법 3: 사용자 정의 쿠폰 코드
+
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+
+[장바구니 가격 규칙](price-rules-cart.md)을 만든 후 사용자 지정 쿠폰 코드를 규칙에 수동으로 추가할 수 있습니다.
+
+1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**(으)로 이동한 다음 사용자 지정 쿠폰 코드를 추가할 규칙을 선택합니다.
+
+1. **[!UICONTROL Manage Coupon Codes]** 섹션을 확장하고 **[!UICONTROL Add Coupon Code]**&#x200B;을(를) 클릭합니다.
+
+   ![사용자 지정 쿠폰 코드](./assets/custom-coupon-codes.png){width="600" zoomable="yes"}
+
+1. **[!UICONTROL Add Custom Coupon]** 대화 상자에서 장바구니 가격 규칙에 사용할 쿠폰 코드를 입력하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+   ![쿠폰 코드 추가](./assets/add-custom-coupon.png){width="600" zoomable="yes"}
+
+1. 장바구니 가격 규칙을 업데이트하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오.
+
+사용자 지정 쿠폰 코드를 삭제하려면 그리드에서 삭제할 코드를 선택한 다음 **[!UICONTROL Actions]** 선택기에서 **[!UICONTROL Delete]**&#x200B;을(를) 선택하십시오.
+
+사용자 지정 쿠폰 코드를 편집하거나 사용 세부 정보를 보려면 **[!UICONTROL Actions]** 열에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭하십시오.
+
+&lt;InlineAlert variant="info" slots="text"/>
+
+장바구니 가격 규칙에 속하는 기본 쿠폰 코드는 편집하거나 삭제할 수 없습니다.
+
+![쿠폰 코드 편집](./assets/edit-coupon-code.png){width="600" zoomable="yes"}
+
+#### 사용자 지정 쿠폰 코드 일괄 가져오기
+
+사전 정의된 쿠폰 코드 목록이 있는 경우 각 코드를 개별적으로 추가하는 대신 CSV 파일의 장바구니 가격 규칙에 첨부할 수 있습니다. CSV 파일은 쿠폰 코드가 있는 단일 열로 구성되어야 합니다.
+
+1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**(으)로 이동한 다음 사용자 지정 쿠폰 코드를 가져올 규칙을 선택하십시오.
+
+1. **[!UICONTROL Manage Coupon Codes]** 섹션을 확장하고 **[!UICONTROL Import]**&#x200B;을(를) 클릭합니다.
+
+   >[!NOTE]
+   >
+   >**[!UICONTROL Coupon]**&#x200B;이(가) `Specific Coupon`(으)로 설정되고 **[!UICONTROL Use Auto Generation]**&#x200B;이(가) 꺼진 상태로 저장된 장바구니 가격 규칙에서 **[!UICONTROL Import]** 단추를 사용할 수 있습니다.
+
+1. **[!UICONTROL Import Coupons]** 대화 상자에서 **[!UICONTROL Choose File]**&#x200B;을(를) 클릭하고 가져올 쿠폰 코드가 포함된 CSV 파일을 선택합니다.
+
+   CSV 파일은 다음 요구 사항을 충족해야 합니다.
+
+   | 요구 사항 | 값 |
+   | ------------- | ------- |
+   | 파일당 최대 코드 | 1,000 |
+   | 최대 파일 크기 | 512KB |
+   | 최대 코드 길이 | 코드당 255자 |
+   | 코드 복제 | 동일한 파일 내에서는 허용되지 않음 |
+
+   {style="table-layout:auto"}
+
+   파일을 선택하면 대화 상자에 가져올 준비가 된 코드 수와 파일의 첫 번째 코드 샘플을 표시하는 **[!UICONTROL Preview]**&#x200B;이(가) 표시됩니다.
+
+   ![쿠폰 가져오기 대화 상자](./assets/import-custom-coupons.png){width="600" zoomable="yes"}
+
+1. **[!UICONTROL Import]**&#x200B;을(를) 클릭합니다. 대화 상자에는 가져오기를 위해 대기 중인 코드 수와 건너뛴 기존 코드 목록이 포함된 요약이 표시됩니다.
+
+   ![쿠폰 결과 가져오기](./assets/import-coupons-result.png){width="600" zoomable="yes"}
+
+가져오기 진행 상황과 자세한 결과를 모니터링하려면 **[!UICONTROL View progress in Bulk Actions Log]**&#x200B;을(를) 클릭하거나 **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**(으)로 이동하십시오. 각 가져오기는&#x200B;**[!UICONTROL Bulk Actions]**&#x200B;에서 단일 항목으로 나타나고 항목을 선택합니다.
 
 ## 쿠폰 보고서
 
