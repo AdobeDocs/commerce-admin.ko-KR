@@ -3,7 +3,7 @@ title: 쿠폰 코드
 description: 조건 세트가 충족될 때 장바구니 가격 규칙과 함께 쿠폰 코드를 사용하여 할인을 적용하는 방법에 대해 알아봅니다.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5aad8247242294c42c36378a743f747dcd73647c
+source-git-commit: d3f6c3468fa63068018e854820e932b897f925bd
 workflow-type: tm+mt
 source-wordcount: '2338'
 ht-degree: 0%
@@ -226,7 +226,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
    CSV 파일은 다음 요구 사항을 충족해야 합니다.
 
    | 요구 사항 | 값 |
-   | ------------- | ------- |
+   |-------------|-------|
    | 파일당 최대 코드 | 1,000 |
    | 최대 파일 크기 | 512KB |
    | 최대 코드 길이 | 코드당 255자 |
