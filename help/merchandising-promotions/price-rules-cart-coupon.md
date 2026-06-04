@@ -3,7 +3,7 @@ title: 쿠폰 코드
 description: 조건 세트가 충족될 때 장바구니 가격 규칙과 함께 쿠폰 코드를 사용하여 할인을 적용하는 방법에 대해 알아봅니다.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5aad8247242294c42c36378a743f747dcd73647c
+source-git-commit: d3f6c3468fa63068018e854820e932b897f925bd
 workflow-type: tm+mt
 source-wordcount: '2338'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
 >[!NOTE]
 >
->[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 쿠폰을 만들기 전에 `bin/magento cron:run` 명령을 사용하여 cron이 실행 중인지 확인하십시오. 자세한 내용은 _구성 가이드_&#x200B;의 [명령줄에서 cron 실행](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko#run-cron-from-the-command-line)을 참조하십시오.
+>[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 쿠폰을 만들기 전에 `bin/magento cron:run` 명령을 사용하여 cron이 실행 중인지 확인하십시오. 자세한 내용은 _구성 가이드_&#x200B;의 [명령줄에서 cron 실행](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)을 참조하십시오.
 
 ### 방법 1: 특정 쿠폰 만들기
 
@@ -183,7 +183,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
 ### 방법 3: 사용자 정의 쿠폰 코드
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 [장바구니 가격 규칙](price-rules-cart.md)을 만든 후 사용자 지정 쿠폰 코드를 규칙에 수동으로 추가할 수 있습니다.
 
@@ -203,7 +203,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
 사용자 지정 쿠폰 코드를 편집하거나 사용 세부 정보를 보려면 **[!UICONTROL Actions]** 열에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭하십시오.
 
-&lt;InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
 장바구니 가격 규칙에 속하는 기본 쿠폰 코드는 편집하거나 삭제할 수 없습니다.
 
@@ -226,7 +226,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
    CSV 파일은 다음 요구 사항을 충족해야 합니다.
 
    | 요구 사항 | 값 |
-   | ------------- | ------- |
+   |-------------|-------|
    | 파일당 최대 코드 | 1,000 |
    | 최대 파일 크기 | 512KB |
    | 최대 코드 길이 | 코드당 255자 |
@@ -242,7 +242,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
    ![쿠폰 결과 가져오기](./assets/import-coupons-result.png){width="600" zoomable="yes"}
 
-가져오기 진행 상황과 자세한 결과를 모니터링하려면 **[!UICONTROL View progress in Bulk Actions Log]**&#x200B;을(를) 클릭하거나 **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**(으)로 이동하십시오. 각 가져오기는&#x200B;**[!UICONTROL Bulk Actions]**&#x200B;에서 단일 항목으로 나타나고 항목을 선택합니다.
+가져오기 진행 상황과 자세한 결과를 모니터링하려면 **[!UICONTROL View progress in Bulk Actions Log]**&#x200B;을(를) 클릭하거나 **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**(으)로 이동하십시오. 각 가져오기는&#x200B;**[!UICONTROL Bulk Actions]**에서 단일 항목으로 나타나고 항목을 선택합니다.
 
 ## 쿠폰 보고서
 
