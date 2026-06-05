@@ -1,8 +1,8 @@
 ---
-source-git-commit: 22d954e993e915fc76355ecea03a4382303c8ef5
+source-git-commit: b824e3f0d3c14b75910af9a2def17ce21b599d9b
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 1%
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 # 새로운 기능 템플릿
@@ -10,6 +10,50 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 섹션에는 지난 60일 동안 변경된 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 6월 3일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Service에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">사용자 지정 쿠폰을 만들기</a> 코드를 만드는 기능이 추가되었습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/4b59525dc5d2d9a8ec1fe4271bf4c9dee8e02c15">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 6월 2일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>가져오기 작업 중에 불필요한 URL-rewrite가 생성되지 않도록 하는 방법에 대한 지침으로 Commerce <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/import/data-import">데이터 가져오기</a> 설명서를 업데이트했습니다.</p>
+</td>
+      <td>
+        피드백, 기술
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b224cff0c5db4c1b318d3e7165aa34f4662f7e3e">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 5월 12일
 
