@@ -80,4 +80,4 @@ ht-degree: 0%
 
 이 비디오를 통해 Inventory management 소스 및 재고에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410199?captions=kor&quality=12&learn=on)

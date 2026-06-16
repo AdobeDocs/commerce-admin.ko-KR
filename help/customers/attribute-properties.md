@@ -189,4 +189,4 @@ ht-degree: 0%
 
 고객 특성 만들기에 대한 시연은 다음 비디오에서 살펴보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410187?captions=kor&quality=12&learn=on)

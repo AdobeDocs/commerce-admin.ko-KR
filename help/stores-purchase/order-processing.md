@@ -268,4 +268,4 @@ ht-degree: 0%
 
 이 비디오를 통해 주문 처리 및 상태에 대해 자세히 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410801/?captions=kor&quality=12&learn=on)
