@@ -3,20 +3,27 @@ title: 공유 카탈로그 관리
 description: 공유 카탈로그 페이지에서 사용할 수 있는 정보 및 도구에 대해 알아봅니다.
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 feature: B2B, Companies, Catalog Management
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/q2dtQ-y3ByGhtMNp68-3lN-PqZJ-1mRX4BMCu0lfB54
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: 969
 ht-degree: 0%
 
 ---
 
 # 공유 카탈로그 관리
 
-_[!UICONTROL Shared Catalogs]_&#x200B;페이지에서는 공유 카탈로그를 관리하는 데 필요한 도구에 액세스할 수 있습니다. 이 페이지는 필터 및 작업 컨트롤이 있는 표준 관리 작업 영역과 유사합니다. 그리드는 기본 공개 공유 카탈로그를 비롯한 모든 공유 카탈로그와 설정한 사용자 지정 카탈로그를 나열합니다.
+_[!UICONTROL Shared Catalogs]_페이지에서는 공유 카탈로그를 관리하는 데 필요한 도구에 액세스할 수 있습니다. 이 페이지는 필터 및 작업 컨트롤이 있는 표준 관리 작업 영역과 유사합니다. 그리드는 기본 공개 공유 카탈로그를 비롯한 모든 공유 카탈로그와 설정한 사용자 지정 카탈로그를 나열합니다.
 
 ## 제품 선택 업데이트
 
-공유 카탈로그 그리드의 _[!UICONTROL Action]_&#x200B;열에서 공유 카탈로그의 제품 선택을 쉽게 업데이트할 수 있습니다. 변경한 내용은 연결된 회사 계정의 구성원에게 표시됩니다. 이 프로세스는 구성 범위를 변경할 수 없다는 점을 제외하고 새 [카탈로그 구조](catalog-shared-pricing-structure.md)에 대한 제품을 선택하는 것과 기본적으로 동일합니다.
+공유 카탈로그 그리드의 _[!UICONTROL Action]_열에서 공유 카탈로그의 제품 선택을 쉽게 업데이트할 수 있습니다. 변경한 내용은 연결된 회사 계정의 구성원에게 표시됩니다. 이 프로세스는 구성 범위를 변경할 수 없다는 점을 제외하고 새 [카탈로그 구조](catalog-shared-pricing-structure.md)에 대한 제품을 선택하는 것과 기본적으로 동일합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**(으)로 이동합니다.
 
@@ -28,7 +35,7 @@ _[!UICONTROL Shared Catalogs]_&#x200B;페이지에서는 공유 카탈로그를 
 
    공유 카탈로그가 처음 저장된 후에는 범위를 변경할 수 없으므로 첫 번째 항목을 건너뛸 수 있습니다.
 
-특정 제품을 사용하여 작업하는 경우 _[!UICONTROL Products In Shared Catalog]_&#x200B;섹션에는 제품을 사용할 수 있는 각 공유 카탈로그가 나열됩니다. 자세한 내용은 [공유 카탈로그에 제품 추가](catalog-shared-product-add.md)를 참조하세요.
+특정 제품을 사용하여 작업하는 경우 _[!UICONTROL Products In Shared Catalog]_섹션에는 제품을 사용할 수 있는 각 공유 카탈로그가 나열됩니다. 자세한 내용은 [공유 카탈로그에 제품 추가](catalog-shared-product-add.md)를 참조하세요.
 
 공유 카탈로그의 ![제품](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -40,7 +47,7 @@ _[!UICONTROL Shared Catalogs]_&#x200B;페이지에서는 공유 카탈로그를 
 
 1. 업데이트할 그리드의 공유 카탈로그에 대해 **[!UICONTROL Action]** 열로 이동하여 **[!UICONTROL Set Pricing and Structure]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Catalog Structure]_&#x200B;페이지에서&#x200B;**[!UICONTROL Configure]**&#x200B;을(를) 클릭하고 다음 중 하나를 수행합니다.
+1. _[!UICONTROL Catalog Structure]_페이지에서&#x200B;**[!UICONTROL Configure]**을(를) 클릭하고 다음 중 하나를 수행합니다.
 
    - 페이지 상단의 진행 표시기에서 **[!UICONTROL Pricing]**&#x200B;을(를) 클릭합니다.
    - 오른쪽 상단에서 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
@@ -53,7 +60,7 @@ _[!UICONTROL Shared Catalogs]_&#x200B;페이지에서는 공유 카탈로그를 
 
 >[!NOTE]
 >
->**[B2B 릴리스 1.3.0](release-notes.md#b2b-v130) 이상** — 공유 카탈로그를 만들 때 카탈로그 권한 설정에서 이 액세스 권한이 할당된 고객 그룹의 경우 카탈로그에 대한 각 [범주 권한](../catalog/category-permissions.md)이 _[!UICONTROL Display Product Prices]_&#x200B;에 대해 `Allow`(으)로 설정되고&#x200B;_[!UICONTROL Add to Cart]_&#x200B;에 대해 (으)로 설정됩니다. 이전에는 카탈로그 권한이 `Allow`(으)로 설정되어 있어도 이 설정이 `Deny`(으)로 자동 설정되었습니다.
+>**[B2B 릴리스 1.3.0](release-notes.md#b2b-v130) 이상** — 공유 카탈로그를 만들 때 카탈로그 권한 설정에서 이 액세스 권한이 할당된 고객 그룹의 경우 카탈로그에 대한 각 [범주 권한](../catalog/category-permissions.md)이 _[!UICONTROL Display Product Prices]_에 대해 `Allow`(으)로 설정되고_[!UICONTROL Add to Cart]_&#x200B;에 대해 (으)로 설정됩니다. 이전에는 카탈로그 권한이 `Allow`(으)로 설정되어 있어도 이 설정이 `Deny`(으)로 자동 설정되었습니다.
 
 >[!IMPORTANT]
 >
@@ -120,7 +127,7 @@ _[!UICONTROL Shared Catalogs]_&#x200B;페이지에서는 공유 카탈로그를 
 | 필드 | 설명 |
 |--- |--- |
 | [!UICONTROL Name] | 관리자 전체와 사용 가능한 고객 계정에서 공유 카탈로그를 식별합니다. 카탈로그 이름은 설명적이어야 하며 길이는 32자 이하여야 합니다. 이름이 같은 두 개의 공유 카탈로그를 가질 수 없습니다. 최대 문자 수: 32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]** - 지정된 특정 회사에서만 사용할 수 있는 사용자 지정 가격 카탈로그를 식별합니다.<br/>**[!UICONTROL Public]**- 모든 게스트 방문자 및 회사와 연결되어 있지 않은 로그인 고객에게 사용할 수 있는 공유 카탈로그를 식별합니다. Adobe Commerce B2B 설치 시 &quot;기본&quot; 공용 공유 카탈로그가 생성되지만 관리자가 구성해야 합니다. 공개 공유 카탈로그는 한 번에 하나만 존재할 수 있습니다. |
+| [!UICONTROL Type] | **[!UICONTROL Custom]** - 지정된 특정 회사에서만 사용할 수 있는 사용자 지정 가격 카탈로그를 식별합니다.<br/>**[!UICONTROL Public]**- 모든 게스트 방문자 및 회사와 연관되지 않은 로그인 고객에게 사용할 수 있는 공유 카탈로그를 식별합니다. Adobe Commerce B2B 설치 시 &quot;기본&quot; 공용 공유 카탈로그가 생성되지만 관리자가 구성해야 합니다. 공개 공유 카탈로그는 한 번에 하나만 존재할 수 있습니다. |
 | [!UICONTROL Customer Tax Class] | 카탈로그에서 구매한 항목에 사용할 세금 분류를 결정합니다. 옵션에는 사용 가능한 모든 세금 분류가 포함됩니다. |
 | [!UICONTROL Description] | 카탈로그 사용 방법에 대한 간단한 설명. |
 

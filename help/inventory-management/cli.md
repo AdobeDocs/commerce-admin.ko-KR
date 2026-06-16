@@ -4,10 +4,15 @@ description: 인벤토리 데이터 및 구성 설정을 관리하기 위해  [!
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: https://experienceleague.adobe.com/jdlLgwIe50ExZ2giXBiGf5cG8L4DQDZe4psbB16F5JE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: 858
 ht-degree: 0%
 
 ---
@@ -27,8 +32,8 @@ ht-degree: 0%
 
 [!DNL Inventory Management]은(는) 두 가지 명령을 제공하여 예약 불일치를 확인하고 해결합니다.
 
-- [&#39;인벤토리:reservation:목록 불일치&#39;](#list-inconsistencies-command)
-- [&#39;인벤토리:reservation:만들기-보상&#39;](#create-compensations-command)
+- [`inventory:reservation:list-inconsistencies`](#list-inconsistencies-command)
+- [`inventory:reservation:create-compensations`](#create-compensations-command)
 
 ### 예약 불일치의 원인
 
@@ -48,7 +53,7 @@ ht-degree: 0%
 
 다음 구성 및 이벤트로 인해 예약 불일치가 발생할 수 있습니다.
 
-- **최종 상태(완료, 취소됨 또는 마감됨)가 아닌 주문과 함께 2.3.x로 업그레이드하십시오.** [!DNL Inventory Management]이(가) 이러한 주문에 대해 보상 예약을 만들지만 판매 가능 수량에서 차감하는 초기 예약을 입력하거나 사용하지 않습니다. 2.1.x 또는 2.2.x에서 Adobe Commerce 또는 Magento Open Source v2.3.x로 업그레이드한 후 이러한 명령을 사용하는 것이 좋습니다. 대기 중인 주문이 있는 경우 명령은 판매 가능 수량 및 판매 및 주문 이행에 대한 예약을 올바르게 갱신합니다.
+- **최종 상태(완료, 취소됨 또는 마감됨)가 아닌 주문으로 2.3.x로 업그레이드하십시오.** [!DNL Inventory Management]은(는) 이러한 주문에 대해 보상 예약을 만들지만, 판매 가능 수량에서 차감하는 초기 예약을 입력하거나 가지고 있지 않습니다. 2.1.x 또는 2.2.x에서 Adobe Commerce 또는 Magento Open Source v2.3.x로 업그레이드한 후 이러한 명령을 사용하는 것이 좋습니다. 대기 중인 주문이 있는 경우 명령은 판매 가능 수량 및 판매 및 주문 이행에 대한 예약을 올바르게 갱신합니다.
 - **재고를 관리하지 않고 나중에 이 구성을 변경합니다.** 구성에서 **[!UICONTROL Manage Stock]**&#x200B;이(가) `No`(으)로 설정된 2.3.x를 사용할 수 있습니다. [!DNL Commerce]은(는) 주문 배치 및 배송 이벤트에 예약하지 않습니다. 나중에 **[!UICONTROL Manage Stock]** 구성을 사용하도록 설정하고 일부 주문이 만들어지면 해당 주문을 처리하고 이행할 때 보상 예약으로 판매 가능 수량이 손상됩니다.
 - **주문이 웹 사이트에 제출되는 동안 웹 사이트에 대한 재고를 다시 할당합니다**. 초기 예약은 초기 재고에 대해 입력하고 모든 보상 예약은 신규 재고에 대해 입력합니다.
 - **모든 예약의 합계가 `0`(으)로 확인되지 않을 수 있습니다.** 최종 상태(완료, 취소됨, 마감됨)의 주문 범위에 있는 모든 예약은 `0`(으)로 확인되어야 하며 판매 가능한 수량 보류가 모두 지워집니다.

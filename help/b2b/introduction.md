@@ -3,9 +3,16 @@ title: ' [!DNL Adobe Commerce B2B] 소개'
 description: 기업 고객의 요구 사항을 충족하기 위해 통합 B2B 기능을 사용하는 방법에 대해 알아봅니다.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/dt7QZnXH9yO6vMFJBIgt4g43XVfk6Da1gyXEMqqvJlo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: 829
 ht-degree: 2%
 
 ---
@@ -40,9 +47,9 @@ Adobe Commerce 스토어의 B2B 확장 [설치](install.md) 및 [지원](enable-
 
 Adobe Commerce용 서비스는 Adobe Commerce 및 Magento Open Source에 확장 기능을 제공하는 호스팅 서비스입니다. B2B 워크플로를 지원하는 서비스는 다음과 같습니다.
 
-* [카탈로그 서비스](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=ko)
-* [실시간 검색](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html?lang=ko)
-* [제품 추천](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=ko)
+* [카탈로그 서비스](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
+* [라이브 검색](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)
+* [제품 추천](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
 
 ## 공유된 카탈로그
 

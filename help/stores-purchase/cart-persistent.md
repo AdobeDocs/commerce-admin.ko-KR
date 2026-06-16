@@ -3,9 +3,15 @@ title: 장바구니 지속성
 description: 지속적인 장바구니가 구매되지 않은 장바구니 항목을 추적하고 고객의 다음 방문을 위해 정보를 저장하는 방법에 대해 알아봅니다.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/CZFFzI8KEfpQQAEHB46wW6Bk4BK-4zbdkvZ9h9nROr0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: 1050
 ht-degree: 0%
 
 ---
@@ -28,17 +34,17 @@ ht-degree: 0%
 
 영구 장바구니가 [사용](#configure-a-persistent-cart)인 경우 워크플로는 다음에 따라 달라집니다.
 
-- _[!UICONTROL Enable Remember Me]_&#x200B;및&#x200B;_[!UICONTROL Clear Persistence on Log Out]_ 설정의 값
-- 고객이 _[!UICONTROL Remember Me]_&#x200B;확인란을 선택 또는 선택 취소하기로 결정함
+- _[!UICONTROL Enable Remember Me]_및_[!UICONTROL Clear Persistence on Log Out]_ 설정의 값
+- 고객이 _[!UICONTROL Remember Me]_확인란을 선택 또는 선택 취소하기로 결정함
 - 영구 쿠키가 지워지면
 
 고객 세션이 만료되면 다음 조건에서 `Not Jane Smith?` 링크가 페이지 헤더에 표시됩니다.
-- 로그인한 고객이 _[!UICONTROL Remember Me]_&#x200B;옵션을 선택했으며 영구 쿠키가 적용됩니다.
-- _[!UICONTROL Clear Persistence on Sign Out]_&#x200B;을(를) `No`(으)로 설정하여 시스템을 구성할 때 고객이 로그아웃합니다.
+- 로그인한 고객이 _[!UICONTROL Remember Me]_옵션을 선택했으며 영구 쿠키가 적용됩니다.
+- _[!UICONTROL Clear Persistence on Sign Out]_을(를) `No`(으)로 설정하여 시스템을 구성할 때 고객이 로그아웃합니다.
 
 로그인 세션이 만료되더라도 시스템은 현재 디바이스에 장바구니 콘텐츠 기록을 유지합니다. `Not Jane Smith?` 링크를 통해 고객은 지속 세션을 종료하고 게스트로 작업을 시작하거나 다른 고객이나 동일한 고객으로 로그인할 수 있습니다.
 
-고객이 로그인할 때 _[!UICONTROL Remember Me]_&#x200B;확인란을 선택한 경우 스토어에서 별도의 영구 쿠키를 만들고 유지 관리합니다. 이 쿠키는 고객이 브라우저를 닫거나 다른 사이트로 이동하여 로그인한 세션이 만료된 후에도 고객의 장바구니에 액세스할 수 있도록 합니다.
+고객이 로그인할 때 _[!UICONTROL Remember Me]_확인란을 선택한 경우 스토어에서 별도의 영구 쿠키를 만들고 유지 관리합니다. 이 쿠키는 고객이 브라우저를 닫거나 다른 사이트로 이동하여 로그인한 세션이 만료된 후에도 고객의 장바구니에 액세스할 수 있도록 합니다.
 
 이 동일한 고객이 로그인하는 동안 또는 지속 세션이 활성화된 동안 여러 브라우저를 사용하여 스토어를 방문하는 경우 페이지를 새로 고칠 때 한 브라우저의 장바구니 콘텐츠에 대한 고객의 변경 사항이 다른 브라우저에 반영됩니다.
 
@@ -48,7 +54,7 @@ ht-degree: 0%
 
 ### &quot;내 정보 저장&quot; 확인란 동작
 
-로그인 페이지, 인증 팝업, 체크아웃 로그인 또는 새 계정을 만들 때 로그인 세션이 만료될 때 현재 장치에서 장바구니 콘텐츠에 액세스할 수 있도록 _[!UICONTROL Remember Me]_&#x200B;확인란을 선택할 수 있습니다.
+로그인 페이지, 인증 팝업, 체크아웃 로그인 또는 새 계정을 만들 때 로그인 세션이 만료될 때 현재 장치에서 장바구니 콘텐츠에 액세스할 수 있도록 _[!UICONTROL Remember Me]_확인란을 선택할 수 있습니다.
 
 | 나 기억나니? | 결과 |
 | ------------ |  ------ |
@@ -58,8 +64,8 @@ ht-degree: 0%
 {style="table-layout:auto"}
 
 ![고객 로그인 정보 저장](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
-![내 인증 기억 팝업](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
-![체크아웃 로그인 정보 저장](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
+![내 정보 저장 인증 팝업](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
+![내 로그인 정보 저장](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### 로그아웃 시 지속성 지우기 비헤이비어
 

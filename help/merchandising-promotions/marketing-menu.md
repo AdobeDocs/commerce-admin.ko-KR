@@ -2,9 +2,15 @@
 title: '[!UICONTROL Marketing] 메뉴'
 description: Commerce 관리에는 프로모션, 통신, SEO 및 사용자 생성 컨텐츠를 관리하기 위한 액세스 도구를 제공하는 [!UICONTROL Marketing] 메뉴가 포함되어 있습니다.
 exl-id: fc0e554b-1bff-45da-bd6f-73e9b1a4fdef
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+TQID: https://experienceleague.adobe.com/UZFSZIsLZvPv50Cg8xmpJ0oW7WEfYvcHEiedDhO2qc0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: 319
 ht-degree: 0%
 
 ---
@@ -17,13 +23,13 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 ![Commerce 관리자 - 마케팅 메뉴](./assets/admin-menu-marketing-ee.png){width="600" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 ![Commerce 관리자 - 마케팅 메뉴](./assets/admin-menu-marketing-ee-accs.png){width="600" zoomable="yes"}
 
@@ -43,7 +49,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Marketing]**&#x200B;을(를) 클릭
 
 ### [!UICONTROL Private Sales]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 {{ee-feature}}
 
@@ -61,6 +67,6 @@ _관리자_ 사이드바에서 **[!UICONTROL Marketing]**&#x200B;을(를) 클릭
 
 ### [!UICONTROL User Content]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 사용자가 생성한 [제품 리뷰](product-reviews.md)를 통합하여 커뮤니티를 만들고 매출을 늘리십시오.

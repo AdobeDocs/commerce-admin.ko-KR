@@ -3,9 +3,15 @@ title: 견적 협상
 description: 견적 협상 워크플로우와 구매자를 위한 작업 방법에 대해 알아봅니다.
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-source-git-commit: ec00288f33af2abb785d1b37dd67aaf1ebe35c06
+TQID: https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: 2249
 ht-degree: 0%
 
 ---
@@ -33,7 +39,7 @@ ht-degree: 0%
 
 1. 관리 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**(으)로 이동합니다.
 
-   새 요청이 _[!UICONTROL Quotes]_&#x200B;표에 나타납니다.
+   새 요청이 _[!UICONTROL Quotes]_표에 나타납니다.
 
 1. _작업_ 열에서 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 
@@ -41,13 +47,13 @@ ht-degree: 0%
 
 ## 2단계: 견적 수정
 
-1. _[!UICONTROL Quote & Account Information]_&#x200B;에서_&#x200B;달력&#x200B;_(![달력 아이콘](../assets/icon-calendar.png)) 아이콘을 클릭합니다.
+1. _[!UICONTROL Quote & Account Information]_에서_&#x200B;달력&#x200B;_(![달력 아이콘](../assets/icon-calendar.png)) 아이콘을 클릭합니다.
 
    ![견적 및 계정 정보](./assets/quote-details-account-information.png){width="575" zoomable="yes"}
 
 1. 견적에 대해 **[!UICONTROL Expiration Date]**&#x200B;을(를) 선택하십시오.
 
-1. _[!UICONTROL Quote Totals]_&#x200B;섹션까지 아래로 스크롤하고 필요에 따라&#x200B;**[!UICONTROL Negotiated Price]**&#x200B;을(를) 업데이트합니다.
+1. _[!UICONTROL Quote Totals]_섹션까지 아래로 스크롤하고 필요에 따라&#x200B;**[!UICONTROL Negotiated Price]**을(를) 업데이트합니다.
 
    ![협상 가격 업데이트](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -65,7 +71,7 @@ ht-degree: 0%
 
 ### 라인 항목 업데이트 적용
 
-필요한 경우 _[!UICONTROL Items Quoted]_&#x200B;섹션에서 라인 항목 변경 내용을 적용합니다.
+필요한 경우 _[!UICONTROL Items Quoted]_섹션에서 라인 항목 변경 내용을 적용합니다.
 
 ![라인 항목 업데이트 적용](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
@@ -100,19 +106,19 @@ ht-degree: 0%
 
 1. **[!UICONTROL Proposed Shipping Price]** 입력.
 
-   제안된 배송 가격을 반영하도록 _[!UICONTROL Quote Totals]_&#x200B;이(가) 업데이트됩니다.
+   제안된 배송 가격을 반영하도록 _[!UICONTROL Quote Totals]_이(가) 업데이트됩니다.
 
 ### 지원 문서 첨부
 
 1. _댓글 추가_ 상자에서 **[!UICONTROL Attach file]**&#x200B;을(를) 클릭합니다.
 
-   기본적으로 [첨부된 파일](../configuration-reference/sales/quotes.md)은(는) DOC, DOCX, XLS, XLSX, PDF, TXT, JPG 또는 JPEG, PNG 파일 형식 중 최대 2MB일 수 있습니다.
+   기본적으로 [첨부된 파일](../configuration-reference/sales/quotes.md)은(는) DOC, DOCX, XLS, XLSX, PDF, TXT, JPG 또는 JPEG, PNG 파일 형식에서 최대 2MB일 수 있습니다.
 
 1. 디렉토리에서 파일을 선택합니다.
 
 ## 3단계: 견적 수준 정보 업데이트 및 회신 보내기
 
-1. _[!UICONTROL Comments]_&#x200B;탭의&#x200B;_[!UICONTROL Negotiation]_ 섹션에서 **[!UICONTROL Add your comment]** 섹션에 회신을 입력합니다.
+1. _[!UICONTROL Comments]_탭의_[!UICONTROL Negotiation]_ 섹션에서 **[!UICONTROL Add your comment]** 섹션에 회신을 입력합니다.
 
 1. 지원 문서를 포함하려면 **[!UICONTROL Attach file]**&#x200B;을(를) 클릭하고 디렉터리에서 파일을 선택하십시오.
 
@@ -120,7 +126,7 @@ ht-degree: 0%
 
 1. 견적에 할인을 적용하려면
 
-   - _[!UICONTROL Negotiated Price]_&#x200B;섹션의&#x200B;_[!UICONTROL Quote Totals]_&#x200B;에서 다음 할인 유형 중 하나를 선택하십시오.
+   - _[!UICONTROL Negotiated Price]_섹션의_[!UICONTROL Quote Totals]_&#x200B;에서 다음 할인 유형 중 하나를 선택하십시오.
 
       - `Percentage Discount`: 할인율을 적용하면 원래 가격이 특정 비율로 줄어듭니다.
       - `Amount Discount`: 금액 할인은 고정 가격 인하를 적용합니다.
@@ -160,7 +166,7 @@ ht-degree: 0%
 
 | 단추 | 설명 |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | 변경 내용을 저장하지 않고 _[!UICONTROL Quotes]_&#x200B;페이지로 돌아갑니다. |
+| [!UICONTROL Back] | 변경 내용을 저장하지 않고 _[!UICONTROL Quotes]_페이지로 돌아갑니다. |
 | [!UICONTROL Print] | 견적을 프린터로 보내거나 PDF 파일로 저장합니다. |
 | [!UICONTROL Create Copy] | 원래 이름에 `(copy)`이(가) 추가된 현재 견적의 복사본을 만들고 엽니다. [!UICONTROL Name] 필드를 편집하여 새 견적의 이름을 바꾸십시오. 새 견적을 초안으로 저장하거나 고객에게 전송하여 처리합니다. |
 | 템플릿 만들기 | 현재 견적을 기반으로 견적 템플리트를 생성합니다. 견적 템플리트는 구매자와 판매자가 여러 견적에 적용할 수 있는 계약 및 가격 조건에 동의할 수 있도록 함으로써 견적 협상을 간소화합니다. . 계약 시 구매자는 견적 요청(RFQ) 프로세스를 다시 시작하는 대신 후속 주문에 대해 템플릿에서 사전 승인된 연결 견적을 생성할 수 있습니다. |
@@ -234,7 +240,7 @@ ht-degree: 0%
 
 | 필드 | 설명 |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Comments] | 협상 섹션의 주석 탭은 구매자에게 견적에 대한 메시지를 입력하는 데 사용됩니다. <br/>**[!UICONTROL Add your comment]**- 댓글은 협상 프로세스 중에 구매자와 통신하는 데 사용됩니다. Quote에서 제공되는 할인 또는 Quote Request 가 거부되는 이유를 설명하려면 Comments 를 사용합니다.<br/>**[!UICONTROL Attach file]** - [첨부 파일](configure-quotes.md)에 대한 최대 파일 크기 및 지원되는 파일 형식은 구성에 따라 결정됩니다. 기본적으로 첨부된 파일은 최대 2MB이며 DOC, DOCX, XLS, XLSX, PDF, TXT, JPG 또는 JPEG, PNG 파일 형식 중 하나가 될 수 있습니다. |
+| [!UICONTROL Comments] | 협상 섹션의 주석 탭은 구매자에게 견적에 대한 메시지를 입력하는 데 사용됩니다. <br/>**[!UICONTROL Add your comment]**- 댓글은 협상 프로세스 중에 구매자와 통신하는 데 사용됩니다. Quote에서 제공되는 할인 또는 Quote Request 가 거부되는 이유를 설명하려면 Comments 를 사용합니다.<br/>**[!UICONTROL Attach file]** - [첨부 파일](configure-quotes.md)에 대한 최대 파일 크기 및 지원되는 파일 형식은 구성에 따라 결정됩니다. 기본적으로 첨부된 파일은 최대 2MB이며 DOC, DOCX, XLS, XLSX, PDF, TXT, JPG 또는 JPEG, PNG 파일 형식 중 하나일 수 있습니다. |
 | [!UICONTROL History Log] | 이 탭에는 날짜, 견적 상태 및 의견이 포함된 견적의 전체 내역이 표시됩니다. |
 
 {style="table-layout:auto"}
@@ -244,7 +250,7 @@ ht-degree: 0%
 | 필드 | 설명 |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Total Cost] | 견적에 포함된 품목의 판매자에 대한 총 비용. |
-| [!UICONTROL Catalog Total Price  (Incl./Excl. Tax)] | 견적의 기준으로 사용되는 공유된 카탈로그 또는 기본 카탈로그의 가격에 따른 견적에 포함된 품목의 총 가격(세금 미포함). 구성의 [하위 합계 표시](../configuration-reference/sales/tax.md) 설정에 따라 계산에 사용된 값을 표시하려면 섹션을 확장합니다. 옵션: <br/>**[!UICONTROL Subtotal (Excl. Tax)]**- 예상 세금을 제외한 카탈로그 총 가격.<br/>**[!UICONTROL Subtotal (Incl. Tax)]** - 예상 세금이 없는 카탈로그 총 가격. <br/>**[!UICONTROL Estimated Tax]**- 카탈로그 총 가격에 적용될 것으로 예상되는 세액. |
+| [!UICONTROL Catalog Total Price  (Incl./Excl. Tax)] | 견적의 기준으로 사용되는 공유된 카탈로그 또는 기본 카탈로그의 가격에 따른 견적에 포함된 품목의 총 가격(세금 미포함). 구성의 [하위 합계 표시](../configuration-reference/sales/tax.md) 설정에 따라 계산에 사용된 값을 표시하려면 섹션을 확장합니다. 옵션: <br/>**[!UICONTROL Subtotal (Excl. Tax)]**- 예상 세금을 제외한 카탈로그 총 가격.<br/>**[!UICONTROL Subtotal (Incl. Tax)]** - 예상 세금이 없는 카탈로그 총 가격. <br/>**[!UICONTROL Estimated Tax]**- 카탈로그 총 가격에 적용될 것으로 예상되는 세액 |
 | 협상 가격 | 구매자에게 제공되는 할인은 다음 중 하나를 기반으로 할 수 있습니다. <br/>**[!UICONTROL Percentage Discount]**- 할인율(백분율).<br/>**[!UICONTROL Amount Discount]** - 고정 금액으로서의 할인. <br/>**[!UICONTROL Proposed Price]**- 판매자가 제안한 가격.<p>견적의 모든 항목에 잠긴 항목 할인이 있는 경우 추가 할인을 적용할 수 없으므로 [!UICONTROL Negotiated Price] 섹션이 비활성화됩니다.</p><p>제품에 잠기지 않은 라인 품목 할인이 있는 경우 라인 품목 할인과 견적 레벨 할인이 모두 제품 가격에 적용됩니다.</p> |
 | [!UICONTROL Quote Subtotal (Incl./Excl. Tax)] | 구성의 [세금 계산](../configuration-reference/sales/tax.md) 설정에 따라 세금이 부과되거나 부과되지 않은 견적의 각 라인 항목에 대한 총 제안 가격. |
 | [!UICONTROL Shipping & Handling] | 견적의 운송 정보 섹션에 있는 제안된 운송 가격 필드에 판매자가 입력한 금액. 해당 필드가 비어 있는 경우 금액은 선택한 배송 방법을 기반으로 합니다. |

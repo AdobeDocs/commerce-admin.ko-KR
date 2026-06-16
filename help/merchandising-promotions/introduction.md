@@ -2,9 +2,15 @@
 title: Commerce 머천다이징 및 프로모션 소개
 description: 타기팅된 프로모션 및 고객 참여 기회 창출을 위한 Commerce 도구에 대해 알아봅니다.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
+TQID: https://experienceleague.adobe.com/2ZEsUmKW8TQM53KFXWxyQGb9h4yFXHsjnFu8q25PCT8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: 1049
 ht-degree: 1%
 
 ---
@@ -17,7 +23,7 @@ ht-degree: 1%
 
 _머천다이징_&#x200B;은 소매점에서 플로어 플랜 개발 및 제품 프레젠테이션의 예술과 과학을 설명하는 용어입니다. [범주 기반 탐색](../catalog/navigation-top.md)은 매장의 평면도로, 제품의 동적 표시는 매장의 제품 목록에 적용할 수 있는 조건으로 생각할 수 있습니다. 또한 더 많은 제품 판매를 촉진하는 프로그램을 구현할 수 있습니다.
 
-- [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [시각적 머천다이저](visual-merchandiser.md) - 제품을 배치하고 범주 목록에 표시되는 제품을 결정하는 조건을 적용할 수 있는 고급 도구 세트입니다.
+- [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [시각적 머천다이저](visual-merchandiser.md) - 제품을 배치하고 범주 목록에 표시되는 제품을 결정하는 조건을 적용할 수 있는 고급 도구 세트입니다.
 
 - [선물 등록기](gift-registries.md) - 특별한 경우에 사용할 선물 등록기를 만들고 친구 및 가족이 선물 등록기에서 선물을 구입하도록 초대할 수 있는 기능을 고객에게 제공합니다.
 
@@ -27,7 +33,7 @@ _머천다이징_&#x200B;은 소매점에서 플로어 플랜 개발 및 제품 
 
 >[!TIP]
 >
->제품 추천과 이를 통해 구매자에게 최상의 경험을 제공하기 위해 필요한 insight 및 제어 기능을 제공하는 방법에 대해 알아보려면 [제품 추천 사용 안내서](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=ko)를 참조하세요.
+>제품 추천과 이를 통해 구매자에게 최상의 경험을 제공하기 위해 필요한 insight 및 제어 기능을 제공하는 방법에 대해 알아보려면 [제품 추천 사용 안내서](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)를 참조하세요.
 
 ## 프로모션
 
@@ -45,7 +51,7 @@ Adobe Commerce에서 프로모션 기능을 사용하여 제품 관계를 설정
 
 >[!NOTE]
 >
->특정 제품 특성을 기반으로 조건을 정의하려면 **[!UICONTROL Use for Promo Rule Conditions]** Storefront 속성`Yes`의 특성에 대해 [을(를) &#x200B;](../catalog/attribute-product-create.md)(으)로 설정해야 합니다.
+>특정 제품 특성을 기반으로 조건을 정의하려면 [Storefront 속성](../catalog/attribute-product-create.md)의 특성에 대해 **[!UICONTROL Use for Promo Rule Conditions]**&#x200B;을(를) `Yes`(으)로 설정해야 합니다.
 
 
 ### 가격 규칙
@@ -67,8 +73,7 @@ Adobe Commerce에서 프로모션 기능을 사용하여 제품 관계를 설정
 >[!NOTE]
 >
 >Adobe Commerce 및 Magento Open Source 릴리스 2.4.0 - 2.4.3에는 dotdigital Engagement Cloud와 통합하는 데 사용되는 dotdigital 공급업체가 개발한 확장 프로그램이 포함되어 있습니다. 2.4.4 릴리스부터 이 확장은 더 이상 핵심 릴리스와 번들로 제공되지 않으며 Commerce Marketplace에서 설치하고 업데이트해야 합니다. Marketplace에서는 확장 개발자가 제공하는 현재 설명서에 대한 액세스도 제공합니다.
-><br><br>
->번들 확장을 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 [업그레이드 안내서](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko)의 _업그레이드 모듈_&#x200B;을 참조하십시오.
+><br><br>>번들 확장을 사용 및 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [업그레이드 모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)을 참조하십시오.
 
 - [뉴스레터](newsletters.md) - 뉴스레터를 생성하고, 구독자 목록을 관리하고, 콘텐츠를 개발하고, 스토어로 트래픽을 유도합니다.
 

@@ -3,9 +3,15 @@ title: 제품 관계
 description: 타겟팅된 구매자에게 제품을 홍보하는 데 사용할 수 있는 제품 관계 유형에 대해 알아봅니다.
 exl-id: 180352dc-65bf-4264-8287-9bf30f368ca1
 feature: Merchandising, Products
-source-git-commit: 36c91007d21834b49351c8b53c617e442deebaa0
+TQID: https://experienceleague.adobe.com/mmA3M8qPKv36IeDNiVlolUmI-SqUbGew3UZqdOUCpUo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: 262
 ht-degree: 0%
 
 ---
@@ -34,6 +40,6 @@ ht-degree: 0%
 
 ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) [관련 제품 규칙](product-related-rules.md)은(는) 고객에게 관련 제품, 상향 판매 및 교차 판매로 제공되는 제품 선택을 타깃팅할 수 있는 기능을 제공합니다.
 
-## Adobe AI에서 제공하는 제품 추천
+## Adobe AI 기반의 제품 추천
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) [Adobe AI에서 제공하는 제품 권장 사항](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=ko)은(는) 집계된 방문자 데이터를 심층 분석하는 인공 지능 및 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 간소화합니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) [Adobe AI에서 제공하는 제품 권장 사항](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html)은(는) 집계된 방문자 데이터를 심층 분석하는 데 인공 지능 및 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 간소화합니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.

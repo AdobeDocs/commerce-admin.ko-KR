@@ -3,10 +3,15 @@ title: 새 테마 설치
 description: Adobe Commerce 또는 Magento Open Source 스토어의 새 테마 설치에 대해 알아봅니다.
 exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 feature: Page Content, Themes
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: https://experienceleague.adobe.com/95FY93Orarr7iijUGev462alrGf6eVxUZGkc0dvMX-o
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: 190
 ht-degree: 0%
 
 ---
@@ -17,7 +22,7 @@ ht-degree: 0%
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-시작하기 전에 올바른 [[!DNL Commerce] 액세스 키](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=ko) 집합이 있는지 확인하십시오.
+시작하기 전에 올바른 [[!DNL Commerce] 액세스 키](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) 집합이 있는지 확인하십시오.
 
 [!DNL Commerce] 스토어에 테마를 추가하려면 [!DNL Commerce Marketplace]에서 사용할 수 있는 지침을 따르십시오.
 

@@ -3,9 +3,14 @@ title: AEM Assets 사용
 description: AEM Assets을 사용하여 스토어 미디어 에셋을 관리합니다.
 feature: CMS, Media
 exl-id: 55144019-8ba2-4392-b5dd-216e2ee9daf2
-source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
+TQID: https://experienceleague.adobe.com/c9tgs7PAobBnFZUKX0Zkpik9-kt5O5RXSTYQ61l2sBc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: 182
 ht-degree: 0%
 
 ---
@@ -20,9 +25,9 @@ AEM Assets에서 에셋을 편집한 후 에셋을 승인하고 재처리하여 
 
 자세한 내용은 다음 AEM Assets 설명서를 참조하십시오.
 
-- [디지털 자산 재처리](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+- [디지털 자산 재처리](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-- [자산 승인](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+- [에셋 승인](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
 ## 범주 콘텐츠에 자산 추가
 

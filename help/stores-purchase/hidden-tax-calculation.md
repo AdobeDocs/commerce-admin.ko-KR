@@ -3,10 +3,15 @@ title: 숨겨진 세금 계산
 description: 세금이 포함된 할인이 있을 때 숨겨진 세금 계산을 구성하는 방법을 알아봅니다.
 exl-id: be2000b1-09d7-4a28-814a-f5da7591e387
 feature: Invoices, Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/KkluEZ6WopfZzfFvnd0XA93av21JP0mxXBS4A4czvA0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 0%
+source-wordcount: 350
+ht-degree: 1%
 
 ---
 
@@ -69,7 +74,7 @@ _숨겨진 세금_&#x200B;은(는) 할인 금액이 있는 VAT 금액입니다. 
 
 1. 고객이 일반적으로 할인된 가격을 이해하는 방법(주문 총액):
 
-   _세금을 포함한 항목의 전체 가격&#x200B;**할인**&#x200B;할인 금액: $100 - $8.33 = $91.67_
+   _세금을 포함한 항목의 전체 가격&#x200B;**할인**할인 금액: $100 - $8.33 = $91.67_
 
 1. **Commerce에서 할인된 가격을 계산하는 방법**(공식의 경우 앞부분 참조):
 

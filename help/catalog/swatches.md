@@ -3,9 +3,15 @@ title: 제품 견본
 description: 구성 가능한 제품 목록에 대한 견본을 정의하는 방법을 알아봅니다.
 exl-id: 6163cec4-5d84-4e2c-ba5c-3c22ac4e3f28
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/RB77PDf2GytxFg3OXgYJB68pwKl4BfERcC5xn4bPSso
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: 1175
 ht-degree: 0%
 
 ---
@@ -20,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->관리자의 [!UICONTROL Attribute Edit] 페이지에서 _[!UICONTROL Update Product Preview Image]_&#x200B;옵션 값을 `No`(으)로 설정하여 견본을 선택할 때 해당 단순 제품 이미지를 표시하지 않도록 견본 특성을 구성할 수 있습니다.
+>관리자의 [!UICONTROL Attribute Edit] 페이지에서 _[!UICONTROL Update Product Preview Image]_옵션 값을 `No`(으)로 설정하여 견본을 선택할 때 해당 단순 제품 이미지를 표시하지 않도록 견본 특성을 구성할 수 있습니다.
 
 ## 텍스트 기반 견본
 
@@ -30,7 +36,7 @@ ht-degree: 0%
 
 ## 레이어 탐색의 색상 견본
 
-color 특성의 _[!UICONTROL Use in Layered Navigation]_&#x200B;속성이 `Yes`(으)로 설정된 경우 계층화된 탐색에서도 견본을 사용할 수 있습니다. 다음 예제에서는 레이어 탐색의 텍스트 기반 및 색상 이미지 견본을 모두 보여 줍니다.
+color 특성의 _[!UICONTROL Use in Layered Navigation]_속성이 `Yes`(으)로 설정된 경우 계층화된 탐색에서도 견본을 사용할 수 있습니다. 다음 예제에서는 레이어 탐색의 텍스트 기반 및 색상 이미지 견본을 모두 보여 줍니다.
 
 ![계층화된 탐색에 표시된 견본](./assets/storefront-swatches-layered-navigation.png){width="700" zoomable="yes"}
 
@@ -58,7 +64,7 @@ color 특성의 _[!UICONTROL Use in Layered Navigation]_&#x200B;속성이 `Yes`(
 
 1. 제품 표시 페이지에서 견본을 선택할 때 해당하는 간단한 제품 이미지를 표시하지 않으려면 **[!UICONTROL Update Product Preview Image]**&#x200B;을(를) `No`(으)로 설정하십시오.
 
-1. _[!UICONTROL Manage Swatch (Values of Your Attribute)]_&#x200B;에서&#x200B;**[!UICONTROL Add Swatch]**&#x200B;을(를) 클릭하고 다음을 수행합니다.
+1. _[!UICONTROL Manage Swatch (Values of Your Attribute)]_에서&#x200B;**[!UICONTROL Add Swatch]**을(를) 클릭하고 다음을 수행합니다.
 
    ![견본 값 관리](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -106,9 +112,9 @@ color 특성의 _[!UICONTROL Use in Layered Navigation]_&#x200B;속성이 `Yes`(
 
 1. 제품 표시 페이지에서 견본을 선택할 때 해당하는 간단한 제품 이미지를 표시하지 않으려면 **[!UICONTROL Update Product Preview Image]**&#x200B;을(를) `No`(으)로 설정하십시오.
 
-1. _[!UICONTROL Manage Swatch]_(특성 값)에서&#x200B;**[!UICONTROL Add Swatch]**&#x200B;을(를) 클릭하고 다음을 수행합니다.
+1. _[!UICONTROL Manage Swatch]_(특성 값)에서&#x200B;**[!UICONTROL Add Swatch]**을(를) 클릭하고 다음을 수행합니다.
 
-   - _[!UICONTROL Swatch]_&#x200B;열에서 새 견본을 클릭하여 메뉴를 표시하고&#x200B;**[!UICONTROL Upload a file]**&#x200B;을(를) 선택합니다.
+   - _[!UICONTROL Swatch]_열에서 새 견본을 클릭하여 메뉴를 표시하고&#x200B;**[!UICONTROL Upload a file]**을(를) 선택합니다.
 
    - 준비한 견본 파일로 이동하여 업로드할 파일을 선택합니다.
 

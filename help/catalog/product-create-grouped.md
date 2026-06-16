@@ -3,9 +3,15 @@ title: 그룹화된 제품
 description: 그룹으로 표시되는 간단한 독립 실행형 제품으로 구성된 그룹화된 제품을 만드는 방법을 알아봅니다.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
+TQID: https://experienceleague.adobe.com/-DMUSccWFP4b7NwCSbsOva58MknalK5oMSsElF-8Gzg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: 1084
 ht-degree: 0%
 
 ---
@@ -26,7 +32,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Grouped Product]**&#x200B;을(를) 선택합니다.
+1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Grouped Product]**을(를) 선택합니다.
 
    ![그룹화된 제품 추가](./assets/product-add-grouped.png){width="700" zoomable="yes"}
 
@@ -119,7 +125,7 @@ ht-degree: 0%
 
 1. 제품 그룹에 추가하려면 **[!UICONTROL Add Selected Products]**&#x200B;을(를) 클릭합니다.
 
-   선택한 제품이 _[!UICONTROL Grouped Products]_&#x200B;섹션에 표시됩니다.
+   선택한 제품이 _[!UICONTROL Grouped Products]_섹션에 표시됩니다.
 
    [Inventory management](../inventory-management/sources-stocks.md)을(를) 가진 다중 Source 판매자의 경우, 그리드에는 각 할당된 원본 및 재고 금액이 있는 **[!UICONTROL Quantity per Source]** 열이 포함되어 있습니다.
 
@@ -144,7 +150,7 @@ ht-degree: 0%
 - [디자인](settings-advanced-design.md)
 - [선물 옵션](product-gift-options.md)
 
-## 6단계: 제품 Publish
+## 6단계: 제품 게시
 
 1. 제품을 카탈로그에 게시할 준비가 되면 **[!UICONTROL Enable Product]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -162,7 +168,7 @@ ht-degree: 0%
 
    **메서드 2:** 저장 및 닫기
 
-   - _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
+   - _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
 
 ## 7단계: 장바구니 썸네일 구성(선택 사항)
 

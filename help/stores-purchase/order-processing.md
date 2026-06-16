@@ -3,9 +3,16 @@ title: 주문 워크플로우 및 처리
 description: 주문 워크플로우, 각 단계에 적용되는 상태 및 이 프로세스를 통해 주문을 이동하는 방법에 대해 알아봅니다.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 82f040fa34cf96af6f1e9752f8d9f1ddeab9f84c
+TQID: https://experienceleague.adobe.com/GSPZ5Z-3WpnZ-dPRnSqD4ud--cX78Q7lSHGQDuapg4U
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: 1834
 ht-degree: 0%
 
 ---
@@ -38,7 +45,7 @@ ht-degree: 0%
 
 1. 표에서 순서를 찾습니다.
 
-1. _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL View]**을(를) 클릭합니다.
 
 1. 주문 상태 확인:
 
@@ -84,7 +91,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**[!UICONTROL Sales / Archive]**&#x200B;송장[, &#x200B;](../systems/permissions-user-roles.md)대변 메모&#x200B;_및_&#x200B;배송&#x200B;_주문 탭을 보려면 관리자 사용자에게 역할 범위에 대한_&#x200B;개의 _권한_&#x200B;이 있어야 합니다.
+>_송장_, _대변 메모_ 및 _배송_ 주문 탭을 보려면 관리자 사용자에게 역할 범위에 대한 **[!UICONTROL Sales / Archive]**&#x200B;개의 [권한](../systems/permissions-user-roles.md)이 있어야 합니다.
 
 ### 단추 막대
 
@@ -169,7 +176,7 @@ ht-degree: 0%
 
 ### 사용자 지정 순서 특성
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 사용자 정의 주문 속성을 사용하면 비즈니스 요구 사항에 관련된 추가 정보를 주문과 연결할 수 있습니다.
 
@@ -250,4 +257,4 @@ ht-degree: 0%
 
 이 비디오를 통해 주문 처리 및 상태에 대해 자세히 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410801/?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

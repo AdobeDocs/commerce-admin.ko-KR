@@ -5,14 +5,21 @@ seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: 관리 사용 안내서
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: 03bb78d1f0c138687e377cc751b4ca62ac87013d
+TQID: https://experienceleague.adobe.com/zoHXvfhkWovXcAk0S9hTpQOTIHbLYhfjyFqc-cCjLLE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cbid: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: 727
 ht-degree: 0%
 
 ---
 
-# &#x200B;<!-- use banner as heading -->![관리자 설명서](./assets/banner-user-home.png) {#documentation}
+# <!-- use banner as heading -->![관리자 설명서](./assets/banner-user-home.png) {#documentation}
 
 세계 최고의 디지털 상거래 플랫폼인 차세대 플랫폼에 오신 것을 환영합니다. Adobe Commerce은 온라인 상인에게 온라인 스토어의 모양, 콘텐츠 및 기능에 대한 탁월한 유연성과 통제력을 제공합니다. 관리자는 강력한 마케팅, 검색 엔진 최적화 및 제품 관리 도구를 통해 고유한 비즈니스 요구 사항에 맞는 사이트를 만들 수 있습니다.
 
@@ -22,7 +29,7 @@ ht-degree: 0%
 
 Adobe Commerce은 상인과 브랜드가 온라인 및 물리적 공간에서 고객 중심의 디지털 상거래 경험을 통해 매출을 가속화할 수 있도록 하는 애자일 B2B 및 B2C 상거래 플랫폼입니다. SLA가 보장된 온프레미스 및 관리 클라우드에 이르기까지 가장 유연한 배포 모델을 제공하므로 중간 규모 및 엔터프라이즈 조직을 위한 최고의 선택입니다. Adobe Commerce은 API 우선 통합 및 완전히 맞춤화가 가능한 확장을 지원하며 마케팅부터 머천다이징 및 이행에 이르기까지 가장 풍부한 엔터프라이즈급 상거래 경험 기능 세트를 제공합니다. Adobe Commerce은 다른 상거래 플랫폼과 마찬가지로 유연성과 확장성을 제공하기 위해 오픈 소스 코드 기반으로 구축됩니다.
 
-Adobe Commerce에 포함된 고급 기능 목록을 보려면 _릴리스 정보_&#x200B;에서 [Commerce 기능](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=ko)을 참조하세요.
+Adobe Commerce에 포함된 고급 기능 목록을 보려면 _릴리스 정보_&#x200B;에서 [Commerce 기능](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html)을 참조하세요.
 
 ## Magento Open Source 코드 베이스
 
@@ -44,7 +51,7 @@ Magento Open Source은 Adobe이 Adobe Commerce에 공식적으로 기여하고 �
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온-프레미스 프로젝트에만 적용됩니다."}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온-프레미스 프로젝트에만 적용됩니다."}
     <div><em>이 기능 세트는 복잡한 조직 구조와 다양한 역할 및 구매 권한 수준을 가진 여러 직원을 가진 회사를 주로 사용하는 판매자(판매자)의 요구를 충족하도록 설계되었습니다.</em>
     <br></div>
   </td>
@@ -81,7 +88,7 @@ Magento Open Source은 Adobe이 Adobe Commerce에 공식적으로 기여하고 �
 <tr>
     <td valign="top">
        <img alt="페이지 빌더" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온-프레미스 프로젝트에만 적용됩니다."}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온-프레미스 프로젝트에만 적용됩니다."}
     <div><em>[!DNL Page Builder]을(를) 사용하면 사용자 지정 레이아웃으로 콘텐츠가 풍부한 페이지를 쉽게 만들 수 있습니다. 이러한 기능은 품질을 향상시키고 사용자 지정 페이지를 제작하는 시간과 비용을 줄이기 위해 설계되었습니다.</em></div>
   </td>
 </tr>

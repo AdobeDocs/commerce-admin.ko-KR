@@ -3,9 +3,16 @@ title: 범주 권한
 description: 카테고리를 사용하여 제품 가격 표시를 제어하고, 장바구니에 제품을 추가할 수 있는 고객 그룹을 결정하고 랜딩 페이지를 지정하는 방법을 알아봅니다.
 exl-id: d80a0545-918e-4c08-9f37-4aa3cd7771f4
 feature: Catalog Management, Categories, Customers, Configuration
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/dtRyq4TsN2ruBV9iQvyFAhv6RUqBFVpzRiqPVqSxJEA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: 780
 ht-degree: 0%
 
 ---
@@ -24,7 +31,7 @@ ht-degree: 0%
 
 ![로그인한 사용자에게 &quot;컬렉션&quot; 범주 표시](./assets/storefront-category-permissions-logged-in.png){width="600" zoomable="yes"}
 
-활성화되면 각 범주에 필요한 액세스 권한을 적용할 수 있는 새 _[!UICONTROL Category Permissions]_&#x200B;섹션이 [범주] 페이지에 나타납니다. 서로 다른 웹 사이트 및 고객 그룹에 대해 각 카테고리에 여러 권한 규칙을 추가할 수 있습니다.
+활성화되면 각 범주에 필요한 액세스 권한을 적용할 수 있는 새 _[!UICONTROL Category Permissions]_섹션이 [범주] 페이지에 나타납니다. 서로 다른 웹 사이트 및 고객 그룹에 대해 각 카테고리에 여러 권한 규칙을 추가할 수 있습니다.
 
 ## 1단계: 범주 권한 구성
 
@@ -74,7 +81,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Allow Browsing Category]_&#x200B;설정이 웹 사이트의 모든 범주에 적용되지만 각 스토어 보기에 대해 다른 랜딩 페이지를 구성할 수 있습니다.
+   >_[!UICONTROL Allow Browsing Category]_설정이 웹 사이트의 모든 범주에 적용되지만 각 스토어 보기에 대해 다른 랜딩 페이지를 구성할 수 있습니다.
 
 ### [!UICONTROL Display Product Prices]
 

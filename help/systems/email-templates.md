@@ -3,9 +3,15 @@ title: 이메일 템플릿
 description: 이메일 템플릿과 이를 사용하여 고객에 대한 커뮤니케이션을 지원하고 브랜드를 강화하는 방법에 대해 알아봅니다.
 exl-id: dfe28c77-607e-41e4-b872-3a07bcd67962
 feature: Communications, Configuration
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/b2RVtAEBH78pLiFPb-HKBbhGhLa-npNL54-cvmlEosA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: 1153
 ht-degree: 0%
 
 ---
@@ -36,8 +42,8 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 | 로고 차원 | 1 x (디스플레이 크기) | 3 x (이미지 크기) |
 |----------|----|----|
-| 너비: | 168픽셀 | 504픽셀 |
-| 높이: | 48픽셀 | 144픽셀 |
+| 너비: | 168 px | 504 px |
+| 높이: | 48 px | 144 px |
 
 {style="table-layout:auto"}
 
@@ -47,15 +53,15 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 ![트랜잭션 전자 메일 디자인](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
-구성 설정의 자세한 목록을 보려면 [_콘텐츠 및 디자인 가이드_](../content-design/configuration.md)&#x200B;에서 _트랜잭션 전자 메일_&#x200B;을 참조하세요.
+구성 설정의 자세한 목록을 보려면 _콘텐츠 및 디자인 가이드_&#x200B;에서 [_트랜잭션 전자 메일_](../content-design/configuration.md)&#x200B;을 참조하세요.
 
 ## 1단계. 로고 업로드
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 구성할 저장소 보기를 찾은 다음 **[!UICONTROL Edit]** 열에서 _[!UICONTROL Action]_&#x200B;을(를) 클릭합니다.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
-1. _[!UICONTROL Other Settings]_&#x200B;에서 ![&#x200B; 섹션의 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Transactional Emails]**&#x200B;를 확장합니다.
+1. _[!UICONTROL Other Settings]_에서&#x200B;**[!UICONTROL Transactional Emails]**섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. 준비된 **[!UICONTROL Logo Image]**&#x200B;을(를) 업로드하려면 **[!UICONTROL Upload]**&#x200B;을(를) 클릭하고 시스템에서 파일을 선택하십시오.
 
@@ -208,9 +214,9 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
-| `New Registry` | **페이지:** [!UICONTROL &#x200B; Customers] > [[!UICONTROL &#x200B; Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**섹션:** [!UICONTROL Owner Notification]<br/>**필드:** [!UICONTROL Email Template] |
-| `Registry Sharing` | **페이지:** [!UICONTROL &#x200B; Customers] > [[!UICONTROL &#x200B; Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**섹션:** [!UICONTROL Gift Registry Sharing]<br/>**필드:** [!UICONTROL Email Template] |
-| `Registry Update` | **페이지:** [!UICONTROL &#x200B; Customers] > [[!UICONTROL &#x200B; Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**섹션:** [!UICONTROL Gift Registry Update]<br/>**필드:** [!UICONTROL Email Template] |
+| `New Registry` | **페이지:** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**섹션:** [!UICONTROL Owner Notification]<br/>**필드:** [!UICONTROL Email Template] |
+| `Registry Sharing` | **페이지:** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**섹션:** [!UICONTROL Gift Registry Sharing]<br/>**필드:** [!UICONTROL Email Template] |
+| `Registry Update` | **페이지:** [!UICONTROL  Customers] > [[!UICONTROL  Gift Registry]](../configuration-reference/customers/gift-registry.md) <br/>**섹션:** [!UICONTROL Gift Registry Update]<br/>**필드:** [!UICONTROL Email Template] |
 
 {style="table-layout:auto"}
 
@@ -218,8 +224,8 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
-| `Order is Ready for Pickup` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Order Ready For Pickup in Store]<br/>**필드:** [!UICONTROL Order Ready For Pickup Email Template] |
-| `Order is Ready for Pickup For Guest` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Order Ready For Pickup in Store]<br/>**필드:** [!UICONTROL Order Ready For Pickup Email Template for Guest] |
+| `Order is Ready for Pickup` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Order Ready For Pickup in Store]<br/>**필드:** [!UICONTROL Order Ready For Pickup Email Template] |
+| `Order is Ready for Pickup For Guest` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Order Ready For Pickup in Store]<br/>**필드:** [!UICONTROL Order Ready For Pickup Email Template for Guest] |
 
 {style="table-layout:auto"}
 
@@ -237,12 +243,12 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
-| `Declined Quote` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Quote]<br/>**필드:** [!UICONTROL Declined Quote Template (to Buyer)] |
-| `Expiration Date Reset` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Quote]<br/>**필드:** [!UICONTROL Expiration Date Reset]<br/> **페이지:** [!UICONTROL Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Quote]<br/>**필드:** [!UICONTROL Order Ready For Pickup Email Template] |
-| `Expiration Warning` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Quote]<br/>**필드:** [!UICONTROL Quote Expiration (in 48 hrs)] |
-| `Expiration Warning1` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Quote]<br/>**필드:** [!UICONTROL Quote Expiration (in 24 hrs)] |
-| `New Quote` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Quote]<br/>**필드:** [!UICONTROL New Quote Template (to Seller)] |
-| `Updated Quote` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Quote]<br/>**필드:** [!UICONTROL Updated Quote Template (to Seller)] |
+| `Declined Quote` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Quote]<br/>**필드:** [!UICONTROL Declined Quote Template (to Buyer)] |
+| `Expiration Date Reset` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Quote]<br/>**필드:** [!UICONTROL Expiration Date Reset]<br/> **페이지:** [!UICONTROL Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Quote]<br/>**필드:** [!UICONTROL Order Ready For Pickup Email Template] |
+| `Expiration Warning` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Quote]<br/>**필드:** [!UICONTROL Quote Expiration (in 48 hrs)] |
+| `Expiration Warning1` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Quote]<br/>**필드:** [!UICONTROL Quote Expiration (in 24 hrs)] |
+| `New Quote` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Quote]<br/>**필드:** [!UICONTROL New Quote Template (to Seller)] |
+| `Updated Quote` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Quote]<br/>**필드:** [!UICONTROL Updated Quote Template (to Seller)] |
 
 {style="table-layout:auto"}
 
@@ -250,9 +256,9 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
-| `Subscription Confirmation` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**섹션:** [!UICONTROL &#x200B; Subscription Options]<br/>**필드:** [!UICONTROL Confirmation Email Template] |
-| `Subscription Success` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**섹션:** [!UICONTROL &#x200B; Subscription Options]<br/>**필드:** [!UICONTROL Success Email Template] |
-| `Unsubscription Success` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**섹션:** [!UICONTROL &#x200B; Subscription Options]<br/>**필드:** [!UICONTROL Unsubscription Email Template] |
+| `Subscription Confirmation` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**섹션:** [!UICONTROL  Subscription Options]<br/>**필드:** [!UICONTROL Confirmation Email Template] |
+| `Subscription Success` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**섹션:** [!UICONTROL  Subscription Options]<br/>**필드:** [!UICONTROL Success Email Template] |
+| `Unsubscription Success` | **페이지:** [!UICONTROL Customers] > [[!UICONTROL Newsletter]](../configuration-reference/customers/newsletter.md)<br/>**섹션:** [!UICONTROL  Subscription Options]<br/>**필드:** [!UICONTROL Unsubscription Email Template] |
 
 {style="table-layout:auto"}
 
@@ -270,15 +276,15 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
-| `Approved Purchase Order` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Approved Purchase Order] |
-| `Approved, requires payment` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Approved, requires payment details (to Buyer)] |
-| `Comment added to Purchase Order` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Comment added to Purchase Order] |
-| `Created and Auto-approved Purchase Order` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Created and Automatically approved Purchase Order (to Buyer)] |
-| `Created and automatically approved, requires payment details` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Created and automatically approved, requires payment details (to Buyer)] |
-| `Created and requires Approval Purchase Order` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Created and requires Approval Purchase Order (to Buyer)] |
-| `Error creating Order from Purchase Order` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Error creating Order from Purchase Order (to Buyer)] |
-| `Purchase Order requires Approval` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Purchase Order requires Approval (to Approver)] |
-| `Rejected Purchase Order` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Rejected Purchase Order (to Buyer)] |
+| `Approved Purchase Order` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Approved Purchase Order] |
+| `Approved, requires payment` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Approved, requires payment details (to Buyer)] |
+| `Comment added to Purchase Order` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Comment added to Purchase Order] |
+| `Created and Auto-approved Purchase Order` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Created and Automatically approved Purchase Order (to Buyer)] |
+| `Created and automatically approved, requires payment details` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Created and automatically approved, requires payment details (to Buyer)] |
+| `Created and requires Approval Purchase Order` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Created and requires Approval Purchase Order (to Buyer)] |
+| `Error creating Order from Purchase Order` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Error creating Order from Purchase Order (to Buyer)] |
+| `Purchase Order requires Approval` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Purchase Order requires Approval (to Approver)] |
+| `Rejected Purchase Order` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL Purchase Order Approval]<br/>**필드:** [!UICONTROL Rejected Purchase Order (to Buyer)] |
 
 {style="table-layout:auto"}
 
@@ -309,13 +315,13 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
-| `New RMA` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL &#x200B; RMA]<br/>**필드:** [!UICONTROL RMA Email Template] |
-| `New RMA for Guest` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL &#x200B; RMA]<br/>**필드:** [!UICONTROL RMA Email Template for Guest] |
-| `RMA Admin Comments` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL &#x200B; RMA Admin Comments]<br/>**필드:** [!UICONTROL RMA Comment Email Template] |
-| `RMA Admin Comments for Guest` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL &#x200B; RMA Admin Comments]<br/>**필드:** [!UICONTROL RMA Comment Email Template for Guest] |
-| `RMA Authorization` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL &#x200B; RMA Authorization]<br/>**필드:** [!UICONTROL RMA Authorization Email Template] |
-| `RMA Authorization for Guest` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL &#x200B; RMA Authorization]<br/>**필드:** [!UICONTROL RMA Authorization Email Template for Guest] |
-| `RMA Customer Comments` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL RMA Customer Comments]<br/>**필드:** [!DNL RMA Comment Email Template] |
+| `New RMA` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL  RMA]<br/>**필드:** [!UICONTROL RMA Email Template] |
+| `New RMA for Guest` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL  RMA]<br/>**필드:** [!UICONTROL RMA Email Template for Guest] |
+| `RMA Admin Comments` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL  RMA Admin Comments]<br/>**필드:** [!UICONTROL RMA Comment Email Template] |
+| `RMA Admin Comments for Guest` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL  RMA Admin Comments]<br/>**필드:** [!UICONTROL RMA Comment Email Template for Guest] |
+| `RMA Authorization` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL  RMA Authorization]<br/>**필드:** [!UICONTROL RMA Authorization Email Template] |
+| `RMA Authorization for Guest` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL  RMA Authorization]<br/>**필드:** [!UICONTROL RMA Authorization Email Template for Guest] |
+| `RMA Customer Comments` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md) <br/>**섹션:** [!UICONTROL RMA Customer Comments]<br/>**필드:** [!DNL RMA Comment Email Template] |
 
 {style="table-layout:auto"}
 
@@ -323,38 +329,38 @@ Commerce 이메일은 HTML 및 일반 텍스트 이메일 클라이언트에서 
 
 | 템플릿 | 구성 경로 |
 |--- |--- |
-| `Credit Memo Update` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Credit Memo Contents]<br/>**필드:** [!UICONTROL Credit Memo Comment Email Template] |
-| `Credit Memo Update (Magento/luma)` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Credit Memo Comments]<br/>**필드:** [!UICONTROL Credit Memo Comment Email Template] |
-| `Credit Memo Update for Guest` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Credit Memo Comments]<br/>**필드:** [!UICONTROL Credit Memo Comment Email Template for Guest] |
-| `Credit Memo Update for Guest (Magento/luma)` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Credit Memo Comments]<br/>**필드:** [!UICONTROL Credit Memo Comment Email Template for Guest] |
-| `Invoice Update` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Invoice Comments]<br/>**필드:** [!UICONTROL Invoice Comment Email Template] |
-| `Invoice Update (Magento/luma)` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Invoice Comments]<br/>**필드:** [!UICONTROL Invoice Comment Email Template] |
-| `Invoice Update for Guest` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Invoice Comments]<br/>**필드:** [!UICONTROL Invoice Comment Email Template for Guest] |
-| `Invoice Update for Guest (Magento/luma)` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Invoice Comments]<br/>**필드:** [!UICONTROL Invoice Comment Email Template for Guest] |
-| `New Credit Memo` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Credit Memo]<br/>**필드:** [!UICONTROL Credit Memo Email Template] |
-| `New Credit Memo (Magento/luma)` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]]../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Credit Memo]<br/>**필드:** [!UICONTROL Credit Memo Email Template] |
-| `New Credit Memo for Guest` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Credit Memo]<br/>**필드:** [!UICONTROL Credit Memo Email Template for Guest] |
-| `New Credit Memo for Guest (Magento/luma)` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Credit Memo]<br/>**필드:** [!UICONTROL Credit Memo Email Template for Guest] |
-| `New Invoice` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Invoice]<br/>**필드:** [!UICONTROL Invoice Email Template] |
-| `New Invoice (Magento/luma)` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Invoice]<br/>**필드:** [!UICONTROL Invoice Email Template] |
-| `New Invoice for Guest` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Invoice]<br/>**필드:** [!UICONTROL Invoice Email Template for Guest] |
-| `New Invoice for Guest (Magento/luma)` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Invoice]<br/>**필드:** [!UICONTROL Invoice Email Template for Guest] |
-| `New Order` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Order]<br/>**필드:** [!UICONTROL New Order Confirmation Template] |
-| `New Order (Magento/luma)` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Order]<br/>**필드:** [!UICONTROL New Order Confirmation Template] |
-| `New Order for Guest` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Order]<br/>**필드:** [!UICONTROL New Order Confirmation Template for Guest] |
-| `New Order for Guest (Magento/luma)` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Order]<br/>**필드:** [!UICONTROL New Order Confirmation Template for Guest] |
-| `New Shipment` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Shipment]<br/>**필드:** [!UICONTROL Shipment Email Template] |
-| `New Shipment (Magento/luma)` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Shipment]<br/>**필드:** [!UICONTROL Shipment Email Template] |
-| `New Shipment for Guest` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Shipment]<br/>**필드:** [!UICONTROL Shipment Email Template for Guest] |
-| `New Shipment for Guest (Magento/luma)` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Shipment]<br/>**필드:** [!UICONTROL Shipment Email Template for Guest] |
-| `Order Update` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Order Comments]<br/>**필드:** [!UICONTROL Order Comment Email Template] |
-| `Order Update (Magento/luma)` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Order Comments]<br/>**필드:** [!UICONTROL Order Comment Email Template] |
-| `Order Update for Guest` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Order Comments]<br/>**필드:** [!UICONTROL Order Comment Email Template for Guest] |
-| `Order Update for Guest (Magento/luma)` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Order Comments]<br/>**필드:** [!UICONTROL Order Comment Email Template for Guest] |
-| `Shipment Update` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Shipment Comments]<br/>**필드:** [!UICONTROL Shipment Comment Email Template] |
-| `Shipment Update (Magento/luma)` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Shipment Comments]<br/>**필드:** [!UICONTROL Shipment Comment Email Template] |
-| `Shipment Update for Guest` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Shipment Comments]<br/>**필드:** [!UICONTROL Shipment Comment Email Template for Guest] |
-| `Shipment Update for Guest (Magento/luma)` | **페이지:** [!UICONTROL &#x200B; Sales] > [[!UICONTROL &#x200B; Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Shipment Comments]<br/>**필드:** [!UICONTROL Shipment Comment Email Template for Guest] |
+| `Credit Memo Update` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Credit Memo Contents]<br/>**필드:** [!UICONTROL Credit Memo Comment Email Template] |
+| `Credit Memo Update (Magento/luma)` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Credit Memo Comments]<br/>**필드:** [!UICONTROL Credit Memo Comment Email Template] |
+| `Credit Memo Update for Guest` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Credit Memo Comments]<br/>**필드:** [!UICONTROL Credit Memo Comment Email Template for Guest] |
+| `Credit Memo Update for Guest (Magento/luma)` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Credit Memo Comments]<br/>**필드:** [!UICONTROL Credit Memo Comment Email Template for Guest] |
+| `Invoice Update` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Invoice Comments]<br/>**필드:** [!UICONTROL Invoice Comment Email Template] |
+| `Invoice Update (Magento/luma)` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Invoice Comments]<br/>**필드:** [!UICONTROL Invoice Comment Email Template] |
+| `Invoice Update for Guest` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Invoice Comments]<br/>**필드:** [!UICONTROL Invoice Comment Email Template for Guest] |
+| `Invoice Update for Guest (Magento/luma)` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Invoice Comments]<br/>**필드:** [!UICONTROL Invoice Comment Email Template for Guest] |
+| `New Credit Memo` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Credit Memo]<br/>**필드:** [!UICONTROL Credit Memo Email Template] |
+| `New Credit Memo (Magento/luma)` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]]../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Credit Memo]<br/>**필드:** [!UICONTROL Credit Memo Email Template] |
+| `New Credit Memo for Guest` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Credit Memo]<br/>**필드:** [!UICONTROL Credit Memo Email Template for Guest] |
+| `New Credit Memo for Guest (Magento/luma)` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Credit Memo]<br/>**필드:** [!UICONTROL Credit Memo Email Template for Guest] |
+| `New Invoice` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Invoice]<br/>**필드:** [!UICONTROL Invoice Email Template] |
+| `New Invoice (Magento/luma)` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Invoice]<br/>**필드:** [!UICONTROL Invoice Email Template] |
+| `New Invoice for Guest` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Invoice]<br/>**필드:** [!UICONTROL Invoice Email Template for Guest] |
+| `New Invoice for Guest (Magento/luma)` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Invoice]<br/>**필드:** [!UICONTROL Invoice Email Template for Guest] |
+| `New Order` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Order]<br/>**필드:** [!UICONTROL New Order Confirmation Template] |
+| `New Order (Magento/luma)` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Order]<br/>**필드:** [!UICONTROL New Order Confirmation Template] |
+| `New Order for Guest` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Order]<br/>**필드:** [!UICONTROL New Order Confirmation Template for Guest] |
+| `New Order for Guest (Magento/luma)` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Order]<br/>**필드:** [!UICONTROL New Order Confirmation Template for Guest] |
+| `New Shipment` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Shipment]<br/>**필드:** [!UICONTROL Shipment Email Template] |
+| `New Shipment (Magento/luma)` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Shipment]<br/>**필드:** [!UICONTROL Shipment Email Template] |
+| `New Shipment for Guest` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Shipment]<br/>**필드:** [!UICONTROL Shipment Email Template for Guest] |
+| `New Shipment for Guest (Magento/luma)` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Shipment]<br/>**필드:** [!UICONTROL Shipment Email Template for Guest] |
+| `Order Update` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Order Comments]<br/>**필드:** [!UICONTROL Order Comment Email Template] |
+| `Order Update (Magento/luma)` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Order Comments]<br/>**필드:** [!UICONTROL Order Comment Email Template] |
+| `Order Update for Guest` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Order Comments]<br/>**필드:** [!UICONTROL Order Comment Email Template for Guest] |
+| `Order Update for Guest (Magento/luma)` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Order Comments]<br/>**필드:** [!UICONTROL Order Comment Email Template for Guest] |
+| `Shipment Update` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Shipment Comments]<br/>**필드:** [!UICONTROL Shipment Comment Email Template] |
+| `Shipment Update (Magento/luma)` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Shipment Comments]<br/>**필드:** [!UICONTROL Shipment Comment Email Template] |
+| `Shipment Update for Guest` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Shipment Comments]<br/>**필드:** [!UICONTROL Shipment Comment Email Template for Guest] |
+| `Shipment Update for Guest (Magento/luma)` | **페이지:** [!UICONTROL  Sales] > [[!UICONTROL  Sales Emails]](../configuration-reference/sales/sales-emails.md)<br/>**섹션:** [!UICONTROL Shipment Comments]<br/>**필드:** [!UICONTROL Shipment Comment Email Template for Guest] |
 
 {style="table-layout:auto"}
 

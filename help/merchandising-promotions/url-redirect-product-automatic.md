@@ -3,10 +3,16 @@ title: 자동 리디렉션
 description: Commerce 스토어에서 제품 또는 카테고리의 URL 키가 변경될 때마다 자동 리디렉션을 생성하도록 구성하는 방법에 대해 알아봅니다.
 exl-id: fbde09d3-a1a3-4bac-a850-4c74c99fe714
 feature: Categories, Products, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: https://experienceleague.adobe.com/Vscg-TDdLnzKjdi-SMwrcpR-QDPvlHpPzgmcLe63-4Q
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: 571
 ht-degree: 0%
 
 ---
@@ -36,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 스토어 보기 또는 웹 사이트 범위에 대해 URL 재작성을 생성할 수 있습니다. 관리자의 URL 재작성 범위를 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;**[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**&#x200B;로 설정합니다._[!UICONTROL Product URL Rewrite Scope]_ 필드에서 범위를 선택합니다.
+> 스토어 보기 또는 웹 사이트 범위에 대해 URL 재작성을 생성할 수 있습니다. 관리자의 URL 재작성 범위를 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**로 설정합니다._[!UICONTROL Product URL Rewrite Scope]_ 필드에서 범위를 선택합니다.
 
 ## 제품 URL 자동 리디렉션
 
@@ -44,7 +50,7 @@ ht-degree: 0%
 
 1. 목록에서 제품을 찾은 다음 를 클릭하여 레코드를 엽니다.
 
-1. **[!UICONTROL Search Engine Optimization]** 섹션에서 ![확장 선택기 &#x200B;](../assets/icon-display-expand.png)을(를) 확장합니다.
+1. **[!UICONTROL Search Engine Optimization]** 섹션에서 ![확장 선택기 ](../assets/icon-display-expand.png)을(를) 확장합니다.
 
    ![제품 검색 엔진 최적화 - 영구 리디렉션](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 

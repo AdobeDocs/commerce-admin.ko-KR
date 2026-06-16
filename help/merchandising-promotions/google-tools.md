@@ -3,9 +3,15 @@ title: Google 사이트 도구
 description: 콘텐츠를 최적화하고, 트래픽을 분석하고, 카탈로그를 쇼핑 집계자 및 마켓플레이스에 연결하는 데 사용할 수 있는 Google 도구 통합에 대해 알아봅니다.
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/P-IniOyLDfDk8oe1v9ysmRV6yC7IWpxUBaFF--2YMCg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: 662
 ht-degree: 0%
 
 ---
@@ -48,7 +54,7 @@ ht-degree: 0%
    Google 광고 데이터 처리 약관은 Google에서 데이터를 처리하는 방법과 GDPR의 적용을 받는 비즈니스의 데이터 보안을 보장하기 위해 취하는 조치를 설명합니다. 또한 법인과 연락처 정보에 대한 기록이 개정과 함께 유지됩니다. [자세히 알아보기](https://support.google.com/analytics/answer/3379636){: target="_blank"}하려면 페이지 상단의 메시지에서 링크를 클릭하십시오.
 
    - 페이지를 아래로 스크롤하여 **[!UICONTROL Data Processing Amendment]**(으)로 이동합니다.
-   - **[!UICONTROL Review Amendment]** Google 광고 데이터 처리 용어&#x200B;_를 읽으려면_&#x200B;을(를) 클릭하십시오.
+   - _Google 광고 데이터 처리 용어_&#x200B;를 읽으려면 **[!UICONTROL Review Amendment]**&#x200B;을(를) 클릭하십시오.
    - **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
    - **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -90,7 +96,7 @@ ga.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-**_Google 태그 관리자_**&#x200B;에서 사용하는 IP 주소를 익명으로 처리하려면 웹 서버의 `anonymize_ip` 라이브러리에서 `true` 매개 변수를 `gtag.js`(으)로 설정하십시오.
+**_Google 태그 관리자_**&#x200B;에서 사용하는 IP 주소를 익명으로 처리하려면 웹 서버의 `gtag.js` 라이브러리에서 `anonymize_ip` 매개 변수를 `true`(으)로 설정하십시오.
 
 gtag.js
 

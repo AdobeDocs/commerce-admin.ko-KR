@@ -2,10 +2,16 @@
 title: 페이지 설정
 description: 저장소 페이지의 기본 부분에 대한 기본값을 구성하는 방법에 대해 알아봅니다.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: https://experienceleague.adobe.com/EmzCKKd7dZaBu0LECyK-BcnpaS7lu-8YvAJWSfviFXM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: 991
 ht-degree: 0%
 
 ---
@@ -28,7 +34,7 @@ HTML Head 섹션의 설정은 HTML 페이지의 `<head>` 태그에 해당하며 
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
 1. _기타 설정_&#x200B;에서 **[!UICONTROL HTML Head]** 섹션의 ![확장 선택기](../assets/icon-display-expand.png)을 확장합니다.
 
@@ -85,7 +91,7 @@ HTML Head 섹션의 설정은 HTML 페이지의 `<head>` 태그에 해당하며 
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
 1. _기타 설정_&#x200B;에서 **[!UICONTROL Header]** 섹션의 ![확장 선택기](../assets/icon-display-expand.png)을 확장합니다.
 
@@ -119,7 +125,7 @@ HTML Head 섹션의 설정은 HTML 페이지의 `<head>` 태그에 해당하며 
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
 1. _기타 설정_&#x200B;에서 **[!UICONTROL Footer]** 섹션의 ![확장 선택기](../assets/icon-display-expand.png)을 확장합니다.
 

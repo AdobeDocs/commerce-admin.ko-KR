@@ -2,10 +2,15 @@
 title: 편집기에 이미지 삽입
 description: WYSIWYG 편집기를 사용하면 미디어 저장소에서 이미지를 삽입하거나, 다른 서버에 있는 이미지에 연결하거나, Adobe Stock 에셋을 사용할 수 있습니다.
 exl-id: 591830c9-6dba-4738-a6e7-cf5f93b3c319
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: https://experienceleague.adobe.com/0SlAN-Ija-mUYhkTfmC4QEfuGPw73szU5-7dqwcFKtc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: 374
 ht-degree: 0%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 0%
 
 1. 편집 모드로 페이지, 블록 또는 동적 블록을 엽니다.
 
-1. _[!UICONTROL Content]_&#x200B;섹션으로 이동하여 편집기를 지원하는 요소를 클릭합니다.
+1. _[!UICONTROL Content]_섹션으로 이동하여 편집기를 지원하는 요소를 클릭합니다.
 
 1. 이미지를 표시할 위치에 커서를 놓습니다.
 
@@ -30,7 +35,7 @@ ht-degree: 0%
 
    ![이미지 삽입 아이콘](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   이 작업은 _[!UICONTROL Insert/edit image]_&#x200B;대화 상자를 엽니다.
+   이 작업은 _[!UICONTROL Insert/edit image]_대화 상자를 엽니다.
 
 1. **Source**&#x200B;의 경우 _검색_ 아이콘을 클릭하고 사용할 이미지 에셋의 위치와 일치하는 메서드를 사용하십시오.
 

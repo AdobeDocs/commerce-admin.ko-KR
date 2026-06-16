@@ -3,9 +3,16 @@ title: 제품 보고서
 description: Adobe Commerce 및 Magento Open Source에서 사용할 수 있는 제품 보고서는 보고 주문한 제품, 베스트셀러, 재고 수준 및 다운로드에 대한 insight을 제공합니다.
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
 feature: Products, Reporting
-source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
+TQID: https://experienceleague.adobe.com/p-OvSmP7Kr3z5W3bMSiCiFMP70wBuixcrNlm-FsaMZE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: b163681a-206a-42ba-bd07-70110b1df195id: bd0aa680-a881-4f35-9dcf-843b0574bc5f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: 271
 ht-degree: 0%
 
 ---
@@ -16,7 +23,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Views Report]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 [!UICONTROL Product Views Report]은(는) 시간 간격 또는 날짜 범위 동안 본 제품을 표시합니다. 이 보고서에는 제품 이름, 가격 및 보기 수가 포함됩니다.
 
@@ -50,7 +57,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Products]
 
 ## [!UICONTROL Downloads Report]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 [!UICONTROL Downloads Report]은(는) 지정된 시간 간격 또는 날짜 범위 동안의 모든 다운로드를 나열합니다. 이 보고서에는 제품 이름, 다운로드 링크 및 SKU와 구매 및 다운로드 수가 포함됩니다.
 

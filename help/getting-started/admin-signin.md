@@ -3,9 +3,16 @@ title: 관리자 계정
 description: 관리자 계정과 2단계 인증을 사용하여 관리자에 로그인하는 방법에 대해 알아봅니다.
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
+TQID: https://experienceleague.adobe.com/p40Sr3TPKp2QrTiMdwzmGL04lO6f8xK8fCLcbOebV7M
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: 1214
 ht-degree: 0%
 
 ---
@@ -110,7 +117,7 @@ ht-degree: 0%
 
    ![로그아웃](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Sign In]_&#x200B;페이지에 로그아웃되었다는 메시지가 표시됩니다. 컴퓨터를 무인 상태로 둘 때마다_&#x200B;관리자&#x200B;_에서 로그아웃합니다.
+_[!UICONTROL Sign In]_페이지에 로그아웃되었다는 메시지가 표시됩니다. 컴퓨터를 무인 상태로 둘 때마다_&#x200B;관리자&#x200B;_에서 로그아웃합니다.
 
 ## 계정 정보 편집
 
@@ -161,7 +168,7 @@ _[!UICONTROL Sign In]_&#x200B;페이지에 로그아웃되었다는 메시지가
 
 관리자의 보안을 보장하려면 관리자 액세스 권한이 있는 사용자 및 역할에 대해 정기적인 감사를 수행하십시오.
 
-또한 [관리 기본 URL 구성을 업데이트](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/advanced/admin#admin-base-url)하여 기본 `/admin` 끝점을 사용자 지정 경로로 변경하는 것이 좋습니다. 사용자 지정 경로를 구성하면 다음과 같은 보안 이점이 있습니다.
+또한 [관리 기본 URL 구성을 업데이트](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url)하여 기본 `/admin` 끝점을 사용자 지정 경로로 변경하는 것이 좋습니다. 사용자 지정 경로를 구성하면 다음과 같은 보안 이점이 있습니다.
 
 **향상된 보안**: 기본 &quot;관리자&quot; 경로는 널리 알려져 있으며 악의적인 행위자가 무차별 강제 공격을 시도하는 경우가 많습니다. 고유한 사용자 지정 값으로 변경함으로써 무단 액세스 시도 위험을 크게 줄일 수 있습니다.
 
@@ -173,4 +180,4 @@ _[!UICONTROL Sign In]_&#x200B;페이지에 로그아웃되었다는 메시지가
 
 >[!NOTE]
 >
->위반이 의심되는 경우 알 수 없는 모든 관리자 사용자를 제거하고 모든 관리자 암호를 재설정하고 [보안 작업 계획](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security)을 검토하여 추가 단계를 검토하십시오.
+>위반이 의심되는 경우 알 수 없는 모든 관리자 사용자를 제거하고 모든 관리자 암호를 재설정하고 [보안 작업 계획](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security)을 검토하여 추가 단계를 검토하십시오.

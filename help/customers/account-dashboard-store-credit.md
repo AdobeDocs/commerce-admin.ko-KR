@@ -3,9 +3,15 @@ title: 고객 계정 대시보드에 크레딧 저장
 description: 고객 계정 대시보드의 [!UICONTROL Store Credit] 페이지에는 향후 구매에 적용할 수 있는 반환 및 환불 금액이 나열됩니다.
 exl-id: 9273b9a3-6095-4fc9-ad6f-3e4a6da60a89
 feature: Customers, Storefront, Checkout
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+TQID: https://experienceleague.adobe.com/I64vMgYhCmEBnFluH3uTqF5aqdy-YEZc-0bbKfiVfe4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: 219
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-고객 계정 대시보드의 _[!UICONTROL Store Credit]_&#x200B;페이지에는 향후 구매에 적용할 수 있는 반환 및 환불 금액이 나열됩니다. 또한 고객은 기프트 카드에서 해당 금액을 사용할 수 있습니다.
+고객 계정 대시보드의 _[!UICONTROL Store Credit]_페이지에는 향후 구매에 적용할 수 있는 반환 및 환불 금액이 나열됩니다. 또한 고객은 기프트 카드에서 해당 금액을 사용할 수 있습니다.
 
 ![고객 스토어 크레딧](assets/account-dashboard-store-credit.png){width="700" zoomable="yes"}
 
@@ -54,4 +60,4 @@ ht-degree: 0%
 
 1. 스토어 크레딧을 사용할 수 있는 경우 고객은 **스토어 크레딧 사용**&#x200B;을 클릭합니다.
 
-1. 고객이 스토어 크레딧 사용에 대해 마음이 바뀌면 _[!UICONTROL Order Summary]_&#x200B;섹션에서&#x200B;**[!UICONTROL Remove]**&#x200B;을(를) 클릭합니다.
+1. 고객이 스토어 크레딧 사용에 대해 마음이 바뀌면 _[!UICONTROL Order Summary]_섹션에서&#x200B;**[!UICONTROL Remove]**을(를) 클릭합니다.

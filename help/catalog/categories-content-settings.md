@@ -3,16 +3,23 @@ title: 범주 - 콘텐츠 설정
 description: '[!UICONTROL Content] 설정을 사용하여 범주 페이지에 표시되는 추가 콘텐츠를 정의하는 방법에 대해 알아봅니다.'
 exl-id: 988083e1-0993-4e08-b5e6-8b0855e56467
 feature: Catalog Management, Categories, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/PKCKw4i-EDB10X3AU-daMiyVMT96naqRLF8vrVBp24s
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: 450
 ht-degree: 0%
 
 ---
 
 # 범주 - 콘텐츠 설정
 
-_[!UICONTROL Content]_&#x200B;설정에 따라 범주 페이지에 표시되는 추가 콘텐츠가 결정됩니다. 카테고리 제품 목록 외에도 페이지에 이미지, 설명 및 CMS 블록이 포함될 수 있습니다. [[!DNL Page Builder]](../page-builder/introduction.md) 콘텐츠 도구를 사용하여 범주 설명을 정의할 수 있습니다.
+_[!UICONTROL Content]_설정에 따라 범주 페이지에 표시되는 추가 콘텐츠가 결정됩니다. 카테고리 제품 목록 외에도 페이지에 이미지, 설명 및 CMS 블록이 포함될 수 있습니다. [[!DNL Page Builder]](../page-builder/introduction.md) 콘텐츠 도구를 사용하여 범주 설명을 정의할 수 있습니다.
 
 ## [!DNL Page Builder]에 범주 설명 추가
 
@@ -28,7 +35,7 @@ _[!UICONTROL Content]_&#x200B;설정에 따라 범주 페이지에 표시되는 
 
 ## [!DNL Page Builder] 미리 보기
 
-[!DNL Page Builder] (으)로 만든 콘텐츠가 있는 기존 범주에 대해 _콘텐츠_ 섹션을 확장하면 범주 페이지에 나타나는 대로 **[!UICONTROL Description]** 콘텐츠의 미리 보기를 표시합니다. 콘텐츠 영역을 클릭하면 필요한 업데이트를 수행할 수 있는 [!DNL Page Builder] 작업 영역이 열립니다.
+[!DNL Page Builder]&#x200B;(으)로 만든 콘텐츠가 있는 기존 범주에 대해 _콘텐츠_ 섹션을 확장하면 범주 페이지에 나타나는 대로 **[!UICONTROL Description]** 콘텐츠의 미리 보기를 표시합니다. 콘텐츠 영역을 클릭하면 필요한 업데이트를 수행할 수 있는 [!DNL Page Builder] 작업 영역이 열립니다.
 
 ![설명 미리 보기](../page-builder/assets/pb-product-category-content-preview.png){width="500" zoomable="yes"}
 
@@ -38,7 +45,7 @@ _[!UICONTROL Content]_&#x200B;설정에 따라 범주 페이지에 표시되는 
 
 텍스트 상자에 일반 ASCII 문자만 입력합니다. 워드 프로세서에서 텍스트를 붙여넣는 경우, 먼저 일반 .TXT 파일로 저장하여 보이지 않는 제어 문자를 제거합니다.
 
-자세한 내용은 [WYSIWYG 편집기](../content-design/editor.md)를 참조하십시오.
+자세한 내용은 [WYSIWYG 편집기](../content-design/editor.md)를 참조하세요.
 
 1. 편집 모드에서 범주를 엽니다.
 
@@ -50,7 +57,7 @@ _[!UICONTROL Content]_&#x200B;설정에 따라 범주 페이지에 표시되는 
 
    오른쪽 아래 모서리를 드래그하여 텍스트 상자의 높이를 변경할 수 있습니다.
 
-## 범주 페이지에 CMS 블록 추가
+## 카테고리 페이지에 CMS 블록 추가
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**(으)로 이동합니다.
 

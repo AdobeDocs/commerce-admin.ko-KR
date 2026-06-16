@@ -3,9 +3,15 @@ title: 장바구니
 description: 스토어에서 구매 경험의 중요한 부분인 장바구니에 대해 알아봅니다.
 exl-id: f1ccbe5b-fe9d-4ad2-9125-b2d2367bbec3
 feature: Shopping Cart
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/F4yLQrf-M9YkPyjc3YZmmIM0KtuzuOFWN9D0sfupGCk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: 190
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 장바구니는 _구매_&#x200B;와(과) _포기_&#x200B;의 교차 지점에서 구매할 경로의 끝에 있으며 스토어에서 가장 중요한 페이지 중 하나입니다. 장바구니는 할인 쿠폰 및 예상 배송비와 세금과 함께 주문 합계가 계산되는 위치입니다. 그것은 당신의 신뢰 배지와 씰을 보여주는 좋은 장소이며 하나의 마지막 항목을 제공하는 이상적인 기회입니다. 장바구니에 특정 품목이 나타날 때마다 교차 판매 임펄스 구매로 제공할 품목을 선택할 수 있습니다.
 
-![장바구니 페이지에는 구매자가 주문 &#x200B;](./assets/storefront-cart-full.png){width="700" zoomable="yes"}에 대한 제품을 관리하는 데 사용할 수 있는 도구가 표시됩니다.
+![장바구니 페이지에는 구매자가 주문 ](./assets/storefront-cart-full.png){width="700" zoomable="yes"}에 대한 제품을 관리하는 데 사용할 수 있는 도구가 표시됩니다.
 
 - 쇼핑객이 사용할 수 있는 도구를 결정하고 표시를 수정하려면 [장바구니 옵션](cart-configuration.md)을 구성하십시오.
 - 쇼핑객이 장바구니의 콘텐츠를 유지할 수 있도록 [장바구니 지속성](cart-persistent.md) 동작을 구성하십시오.

@@ -1,12 +1,19 @@
 ---
-title: '[!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists]'
-description: Commerce 관리자의 [!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists] 페이지에서 구성 설정을 검토하십시오.
+title: '[!UICONTROL Customers] > [!UICONTROL Requisition Lists]'
+description: Commerce 관리자의 [!UICONTROL Customers] > [!UICONTROL Requisition Lists] 페이지에서 구성 설정을 검토합니다.
 exl-id: 3720d9de-a5cc-4c44-a42a-af7409021f52
 feature: Configuration, B2B
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/QJ3Q02so-AZ-Z-A8cg3eL0ign6CxY50hdqaqZZsKbxE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 0%
+source-wordcount: 125
+ht-degree: 1%
 
 ---
 
@@ -18,7 +25,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce B2B를 설치하고 활성화하면 회사별 기능을 사용하여 구매 경험을 개인화할 수 있습니다. Adobe Commerce B2B는 B2B 및 B2C 모델을 모두 지원하는 통합 솔루션입니다. B2B 기능에 대한 자세한 내용은 [_Adobe Commerce B2B 사용 안내서_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ko)를 참조하십시오.
+>Adobe Commerce B2B를 설치하고 활성화하면 회사별 기능을 사용하여 구매 경험을 개인화할 수 있습니다. Adobe Commerce B2B는 B2B 및 B2C 모델을 모두 지원하는 통합 솔루션입니다. B2B 기능에 대한 자세한 내용은 [_Adobe Commerce B2B 사용 안내서_](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -28,7 +35,7 @@ ht-degree: 0%
 
 ![일반](./assets/requisition-lists-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/requisition-lists/configure-requisition-lists) -->
+<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/requisition-lists/configure-requisition-lists) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

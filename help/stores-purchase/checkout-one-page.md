@@ -3,9 +3,15 @@ title: 한 페이지 체크아웃
 description: 한 페이지 체크아웃 프로세스를 통해 간소화된 스토어 체크아웃 프로세스를 제공하는 방법에 대해 알아봅니다.
 exl-id: c91347b6-bb6f-44e7-b470-f237bf430d5f
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/rY0sw7iSq7-4Y5EPQ1cL8bJ7cuqdDfDqvjEQvH-jsvM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: 181
 ht-degree: 0%
 
 ---
@@ -16,7 +22,7 @@ ht-degree: 0%
 
 기본적으로 한 페이지 체크아웃이 활성화됩니다. 사용자 지정 통합 또는 체크아웃 확장 기능을 구현하는 경우 한 페이지 체크아웃을 비활성화해야 할 수 있습니다.
 
-**_한 페이지 체크 아웃을 사용하지 않도록 설정하려면:_**
+**_한 페이지 체크아웃을 사용하지 않도록 설정하려면:_**
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 

@@ -3,9 +3,15 @@ title: 경험 저장 및 구매 안내서
 description: Adobe Commerce 및 Magento Open Source 관리에서 근무하는 고객 서비스 에이전트와 영업 관리자를 위한 스토어 정의 및 판매 처리 기능에 대한 포괄적인 정보입니다.
 exl-id: 01c075a5-d9ac-4edb-82de-35a52748b800
 recommendations: noCatalog
-source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
+TQID: https://experienceleague.adobe.com/-vgGkgypw4Udfa1OKZVkTjQL88VAiyGHRvsPJaus1dw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: 446
 ht-degree: 0%
 
 ---

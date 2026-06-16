@@ -3,16 +3,22 @@ title: ' [!DNL Inventory Management] 제품 옵션 구성'
 description: ' [!DNL Inventory Management] 제품 구성 옵션을 구성하는 방법을 알아봅니다.'
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
-source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
+TQID: https://experienceleague.adobe.com/Fz3Z2nuzHQygjnE5EZYNYi2riXQ1fV2Ufn0sNmjns2s
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: 910
 ht-degree: 0%
 
 ---
 
 # [!DNL Inventory Management] 제품 옵션 구성
 
-이러한 구성은 편집된 제품에만 적용되며, 전역 웹 사이트 수준에서 모든 구성을 재정의합니다. 제품을 편집할 때 _[!UICONTROL Sources]_&#x200B;섹션 및&#x200B;_[!UICONTROL Advanced Inventory]_ 페이지를 통해 이러한 설정을 수정합니다.
+이러한 구성은 편집된 제품에만 적용되며, 전역 웹 사이트 수준에서 모든 구성을 재정의합니다. 제품을 편집할 때 _[!UICONTROL Sources]_섹션 및_[!UICONTROL Advanced Inventory]_ 페이지를 통해 이러한 설정을 수정합니다.
 
 - 소스별 제품 옵션 구성
 - 고급 인벤토리에 대한 제품 옵션 구성
@@ -49,10 +55,10 @@ ht-degree: 0%
 | [!UICONTROL Source Code] | 글로벌 | [source](sources-manage.md)에 대한 고유 코드입니다. |
 | [!UICONTROL Name] | 글로벌 | 소스의 고유 이름입니다. |
 | [!UICONTROL Status] | 글로벌 | 카탈로그에서 제품이 활성화 또는 비활성화되었습니다. |
-| [!UICONTROL Source Item Status] | 글로벌 | 제품의 현재 가용성을 결정합니다. 옵션:<br />`In Stock` - 제품을 구매할 수 있도록 설정합니다.<br />`Out of Stock` - 미납주문을 활성화하지 않으면 제품을 구매할 수 없게 하고 카탈로그에서 목록을 제거합니다. |
+| [!UICONTROL Source Item Status] | 글로벌 | 제품의 현재 가용성을 결정합니다. 옵션:<br />`In Stock` - 제품을 구입할 수 있도록 설정합니다.<br />`Out of Stock` - 미납주문을 활성화하지 않으면 는 제품을 구매할 수 없게 하고 카탈로그에서 목록을 제거합니다. |
 | [!UICONTROL Qty] | 글로벌 | 각 출처 또는 위치에 대한 현재고 금액. |
-| [!UICONTROL Notify Quantity] | 글로벌 | _[!UICONTROL Notify Quantity Use Default]_&#x200B;을(를) 선택하지 않은 경우 이 특정 원본의&#x200B;_[!UICONTROL Notify for Quantity Below]_&#x200B;에 대한 양입니다. |
-| [!UICONTROL Notify Quantity Use Default] | 글로벌 | 제품 _[!UICONTROL Advanced Inventory]_&#x200B;의&#x200B;_[!UICONTROL Notify for Quantity Below]_&#x200B;에 대한 기본 설정 또는 저장소 구성의 전역 설정을 사용함을 나타냅니다. |
+| [!UICONTROL Notify Quantity] | 글로벌 | _[!UICONTROL Notify Quantity Use Default]_을(를) 선택하지 않은 경우 이 특정 원본의_[!UICONTROL Notify for Quantity Below]_&#x200B;에 대한 양입니다. |
+| [!UICONTROL Notify Quantity Use Default] | 글로벌 | 제품 _[!UICONTROL Advanced Inventory]_의_[!UICONTROL Notify for Quantity Below]_&#x200B;에 대한 기본 설정 또는 저장소 구성의 전역 설정을 사용함을 나타냅니다. |
 
 ## 고급 제품 옵션
 
@@ -74,9 +80,9 @@ ht-degree: 0%
 
    | 값 | 설명 |
    | ----- | ----- |
-   | 양수 | _[!UICONTROL Backorders]_&#x200B;을(를) 사용하지 않도록 설정한 상태에서 양수 값을 입력하십시오. |
-   | 0 | _[!UICONTROL Backorders]_&#x200B;이(가) 활성화된 상태에서 `0`을(를) 입력하면 무한 미납주문을 허용합니다. |
-   | 음수 금액 | _[!UICONTROL Backorders]_&#x200B;이(가) 활성화된 경우 음수 값을 입력하는 것이 좋습니다. 금액은 판매 가능 수량에 추가됩니다. 예를 들어 `-50`을(를) 입력하여 이 수량까지 주문을 허용합니다. |
+   | 양수 | _[!UICONTROL Backorders]_을(를) 사용하지 않도록 설정한 상태에서 양수 값을 입력하십시오. |
+   | 0 | _[!UICONTROL Backorders]_이(가) 활성화된 상태에서 `0`을(를) 입력하면 무한 미납주문을 허용합니다. |
+   | 음수 금액 | _[!UICONTROL Backorders]_이(가) 활성화된 경우 음수 값을 입력하는 것이 좋습니다. 금액은 판매 가능 수량에 추가됩니다. 예를 들어 `-50`을(를) 입력하여 이 수량까지 주문을 허용합니다. |
 
 1. **[!UICONTROL Minimum Qty Allowed in Shopping Cart]** 입력.
 
@@ -112,9 +118,9 @@ ht-degree: 0%
 | [!UICONTROL Out-of-Stock Threshold] | 글로벌 | 제품이 품절된 것으로 간주되는 재고 수준을 결정합니다. 옵션:<br />양수 값 - 미납주문을 사용하지 않도록 설정한 경우 양수를 입력합니다.<br />영(0) - 미납주문을 사용할 수 있는 경우 0을 입력하면 무제한으로 미납주문을 할 수 있습니다.<br />음수 값 - 미납주문을 사용할 수 있는 경우 음수 금액을 입력하는 것이 좋습니다. 금액은 판매 가능 수량에 추가됩니다. 예를 들어 `-50`을(를) 입력하여 이 수량까지 주문을 허용합니다. |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | 글로벌 | 단일 주문으로 구매할 수 있는 제품의 최소 수를 결정합니다. |
 | [!UICONTROL Maximum Qty Allowed in Shopping Cart] | 글로벌 | 단일 주문으로 구매할 수 있는 제품의 최대 수를 결정합니다. |
-| [!UICONTROL Qty Uses Decimals] | 글로벌 | 고객이 주문 수량을 입력할 때 정수가 아닌 소수점 값을 사용할 수 있는지 여부를 결정합니다. 옵션:<br />`Yes` - 값을 정수가 아닌 소수로 입력할 수 있습니다. 소수점 이하 자리수는 중량, 부피 또는 길이로 판매되는 제품에 적합합니다.<br />`No` - 수량 값을 정수로 입력해야 합니다. |
+| [!UICONTROL Qty Uses Decimals] | 글로벌 | 고객이 주문 수량을 입력할 때 정수가 아닌 소수점 값을 사용할 수 있는지 여부를 결정합니다. 옵션:<br />`Yes` - 값을 정수가 아닌 소수로 입력할 수 있습니다. 소수 값은 무게, 부피 또는 길이별로 판매되는 제품에 적합합니다.<br />`No` - 수량 값을 정수로 입력해야 합니다. |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | 글로벌 | 제품의 부품을 별도로 배송할 수 있는지 여부를 결정합니다. 이 옵션은 **[!UICONTROL Qty Uses Decimals]** = `Yes`일 때 표시됩니다. |
-| [!UICONTROL Backorders] | 글로벌 | 미납주문 관리 방법을 결정합니다. 미납주문은 주문의 처리 상태를 변경하지 않습니다. 상품은 재고가 있는지 여부와 관계없이 주문 즉시 펀드가 승인 또는 포착된다. 제품은 출시될 때 발송됩니다. 활성화된 경우 재고 부족 임계값에 대해 음수를 입력하는 것이 좋습니다. 옵션:<br/>`No Backorders` - 제품 재고가 없을 때 미납주문을 허용하지 않습니다.<br />`Allow Qty Below 0` - 수량이 0보다 작을 때 미납주문을 허용합니다.<br />`Allow Qty Below 0 and Notify Customer` - 수량이 영(0) 이하로 떨어지면 미납주문을 수락하지만, 주문을 계속 할 수 있음을 고객에게 알립니다. |
+| [!UICONTROL Backorders] | 글로벌 | 미납주문 관리 방법을 결정합니다. 미납주문은 주문의 처리 상태를 변경하지 않습니다. 상품은 재고가 있는지 여부와 관계없이 주문 즉시 펀드가 승인 또는 포착된다. 제품은 출시될 때 발송됩니다. 활성화된 경우 재고 부족 임계값에 대해 음수를 입력하는 것이 좋습니다. 옵션:<br/>`No Backorders` - 제품이 품절되었을 때 미납주문을 허용하지 않습니다.<br />`Allow Qty Below 0` - 수량이 영(0) 아래로 떨어지면 미납주문을 받습니다.<br />`Allow Qty Below 0 and Notify Customer` - 수량이 영(0) 미만으로 떨어질 때 미납주문을 수락하지만 고객에게 주문을 계속 진행할 수 있음을 알립니다. |
 | [!UICONTROL Enable Qty Increments] | 글로벌 | 제품이 수량 단위로 판매될 수 있는지 여부를 결정합니다. 증분 은 단일 제품으로 구매해야 하는 제품 항목 수를 구성, 그룹화 및 번들 제품의 하위 항목으로 설정합니다. |
 
 >[!NOTE]

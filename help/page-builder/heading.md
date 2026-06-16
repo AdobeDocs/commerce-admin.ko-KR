@@ -3,24 +3,30 @@ title: 요소 - 제목
 description: 제목 수준이 H1부터 H6까지 있는 텍스트 컨테이너를  [!DNL Page Builder] 단계까지 추가하는 데 사용되는 제목 콘텐츠 유형에 대해 알아봅니다.
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/5oFGY5Vemq0aLKOaCQ5DTIvfj0Zzvd1qVKkuDjS-kgM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: 940
 ht-degree: 0%
 
 ---
 
 # 요소 - 제목
 
-제목 수준은 콘텐츠를 구성하고 검색 엔진이 각 페이지를 색인화하는 데 도움이 되는 계층을 설정합니다. _단계_&#x200B;에서 [[!DNL Page Builder] 제목](workspace.md#stage) 콘텐츠 형식을 사용하여 H1부터 H6까지의 제목 수준이 있는 텍스트 컨테이너를 단계에 추가하십시오. 머리글은 현재 테마와 연결된 스타일시트에 따라 서식이 지정됩니다.
+제목 수준은 콘텐츠를 구성하고 검색 엔진이 각 페이지를 색인화하는 데 도움이 되는 계층을 설정합니다. [[!DNL Page Builder] 단계](workspace.md#stage)에서 _제목_ 콘텐츠 형식을 사용하여 H1부터 H6까지의 제목 수준이 있는 텍스트 컨테이너를 단계에 추가하십시오. 머리글은 현재 테마와 연결된 스타일시트에 따라 서식이 지정됩니다.
 
-[&#x200B; 섹션의 &#x200B;](workspace.md)콘텐츠 제목&#x200B;_[!UICONTROL Content]_&#x200B;필드를 사용하여 H1 제목을 페이지 맨 위에 추가할 수 있습니다. 그러나 이 필드는 이전 [!DNL Commerce] 버전의 레거시이며 이전 콘텐츠를 지원하기 위해 제공됩니다. 이 필드에서는 [!DNL Page Builder]의 고급 기능을 사용하지 않습니다. 콘텐츠 제목 필드를 비워 두고 [!DNL Page Builder] 제목 콘텐츠 형식을 사용하여 모든 수준의 제목을 페이지에 추가하는 것이 좋습니다.
+_[!UICONTROL Content]_섹션의 [콘텐츠 제목](workspace.md) 필드를 사용하여 H1 제목을 페이지 맨 위에 추가할 수 있습니다. 그러나 이 필드는 이전 [!DNL Commerce] 버전의 레거시이며 이전 콘텐츠를 지원하기 위해 제공됩니다. 이 필드에서는 [!DNL Page Builder]의 고급 기능을 사용하지 않습니다. 콘텐츠 제목 필드를 비워 두고 [!DNL Page Builder] 제목 콘텐츠 형식을 사용하여 모든 수준의 제목을 페이지에 추가하는 것이 좋습니다.
 
 다음 예제에서는 Luma 테마로 서식을 지정할 때 컨텐츠 제목과 제목 컨텐츠 유형이 어떻게 표시되는지 보여줍니다.
 
 ![상점 첫 화면의 콘텐츠 제목 및 제목 수준](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
-_패널의_&#x200B;요소[!DNL Page Builder] 섹션에서 머리글을 스테이지의 행, 열 또는 탭 집합으로 드래그할 수 있습니다. 제목 수준과 맞춤은 스테이지의 편집기 도구 모음에서 제어하거나 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 컨트롤을 사용하여 제어할 수 있습니다.
+[!DNL Page Builder] 패널의 _요소_ 섹션에서 머리글을 스테이지의 행, 열 또는 탭 집합으로 드래그할 수 있습니다. 제목 수준과 맞춤은 스테이지의 편집기 도구 모음에서 제어하거나 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 컨트롤을 사용하여 제어할 수 있습니다.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -74,7 +80,7 @@ _패널의_&#x200B;요소[!DNL Page Builder] 섹션에서 머리글을 스테이
 
    머리글 편집기에서 이 콘텐츠를 업데이트할 수도 있습니다.
 
-1. 필요에 따라 _[!UICONTROL Advanced]_&#x200B;설정을 업데이트합니다.
+1. 필요에 따라 _[!UICONTROL Advanced]_설정을 업데이트합니다.
 
    - 상위 컨테이너 내의 머리글 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하세요.
 

@@ -3,20 +3,26 @@ title: 카탈로그 검색 구성
 description: 스토어에 대한 카탈로그 검색을 구성하는 방법에 대해 알아봅니다.
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/8--7GCHftJl4i1oLVSQqII9Odv-mOXOqrdIyyXmGwrE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: 834
 ht-degree: 0%
 
 ---
 
 # 카탈로그 검색 구성
 
-카탈로그 검색 구성에는 두 가지 변형이 있습니다. 첫 번째 메서드는 [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ko)을(를) 설치할 때 사용할 수 있는 설정을 설명합니다. 두 번째 메서드는 [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html?lang=ko){:target="_blank"}을(를) 사용하는 기본 Adobe Commerce의 구성 설정을 설명합니다.
+카탈로그 검색 구성에는 두 가지 변형이 있습니다. 첫 번째 메서드는 [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)을(를) 설치할 때 사용할 수 있는 설정을 설명합니다. 두 번째 메서드는 [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}을(를) 사용하는 기본 Adobe Commerce의 구성 설정을 설명합니다.
 
 >[!NOTE]
 >
->클라우드 인프라 프로젝트의 경우 [_Commerce on Cloud Infrastructure Guide_](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/service/opensearch)의 추가 지침을 참조하십시오.
+>클라우드 인프라 프로젝트의 경우 [_Commerce on Cloud Infrastructure Guide_](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch)의 추가 지침을 참조하십시오.
 
 ## 방법 1: [!DNL Live Search]이(가) 있는 Adobe Commerce
 
@@ -36,7 +42,7 @@ ht-degree: 0%
 
    기본값은 `100`입니다. `0` 값을 입력하면 두 번째로 입력한 검색어와 결과가 모두 캐시됩니다.
 
-1. [storefront pop over](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html?lang=ko)에서 반환된 결과를 사용할 수 있는 최대 줄 수를 변경하려면 다른 **[!UICONTROL Autocomplete Limit]** 값을 입력하십시오.
+1. [storefront pop over](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html)에서 반환된 결과를 사용할 수 있는 최대 줄 수를 변경하려면 다른 **[!UICONTROL Autocomplete Limit]** 값을 입력하십시오.
 
    라인 수를 제한하면 검색 성능이 향상되고 반환된 목록의 크기가 줄어듭니다. 기본값은 `8`줄입니다.
 
@@ -44,7 +50,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->- 2023년 8월의 [!DNL Elasticsearch 7] 지원 종료 발표로 인해 모든 Adobe Commerce 고객은 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것이 좋습니다. 제품을 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ko)을 참조하십시오.
+>- 2023년 8월의 [!DNL Elasticsearch 7] 지원 종료 발표로 인해 모든 Adobe Commerce 고객은 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것이 좋습니다. 제품을 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html)을 참조하십시오.
 >- 버전 2.4.4 및 2.4.3-p2에서는 Elasticsearch이라는 레이블이 지정된 모든 필드가 OpenSearch에도 적용됩니다. Elasticsearch 8.x에 대한 지원이 버전 2.4.6에 도입되면 Elasticsearch 구성과 OpenSearch 구성을 구별하기 위해 새 레이블이 생성되었습니다. 그러나 두 구성 옵션은 동일합니다.
 
 ### 1단계: 일반 검색 옵션 구성

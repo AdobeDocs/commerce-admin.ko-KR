@@ -3,9 +3,16 @@ title: GDPR 준수
 description: GDPR(General Data Protection Regulation)에 대해 알아봅니다. GDPR은 유럽 연합 및 유럽 경제 영역에서 모든 개인에 대한 데이터 보호 및 개인정보 보호를 규정하는 법입니다.
 exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
 feature: Compliance
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/KoEiKz5hg35mPMhjHnCpcvzLhq-BymF9aJOn0y3Vcis
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+subfeature_v2: id: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: 518
 ht-degree: 0%
 
 ---
@@ -47,6 +54,6 @@ GDPR을 준수하는 기업은 CCPA에 따라 추가적인 의무가 있을 수 
 
 - 투명성 유지 및 철저한 문서화 유지.
 
-- Adobe을 통해 판매자가 관련 법적 의무를 준수하는 방법을 알아보려면 [웹 사이트](https://business.adobe.com/kr/privacy/general-data-protection-regulation.html){:target="_blank"}를 방문하세요.
+- Adobe을 통해 판매자가 관련 법적 의무를 준수하는 방법을 알아보려면 [웹 사이트](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}를 방문하세요.
 
-- 데이터 흐름 다이어그램 및 데이터베이스 엔터티 매핑에 대해서는 [개인 정보 참조](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=ko){: target="_blank"}를 참조하십시오.
+- 데이터 흐름 다이어그램 및 데이터베이스 엔터티 매핑에 대해서는 [개인 정보 참조](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}를 참조하십시오.

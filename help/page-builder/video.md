@@ -3,9 +3,15 @@ title: 미디어 - 비디오
 description: YouTube 또는 Vimeo에서 호스팅되는 비디오를  [!DNL Page Builder] 스테이지에 추가하는 데 사용되는 비디오 콘텐츠 유형에 대해 알아봅니다.
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/rgFMtNXv6jerPV7rthqTFteR8XlJ1bVc7ziBjwAlAMk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: 947
 ht-degree: 0%
 
 ---
@@ -26,7 +32,7 @@ _Video_ 콘텐츠 형식을 사용하여 [YouTube](https://www.youtube.com/) 또
 |--- |--- |--- |
 | 이동 | ![이동 아이콘](./assets/pb-icon-move.png){width="25"} | 비디오를 스테이지의 다른 위치로 이동합니다. |
 | (레이블) | [!UICONTROL Video] | 현재 콘텐츠 컨테이너를 비디오로 식별합니다. 이미지 컨테이너 위로 마우스를 가져가면 도구 상자를 볼 수 있습니다. |
-| 설정 | ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} | 비디오 및 컨테이너의 속성을 변경할 수 있는 _[!UICONTROL Edit Video]_&#x200B;페이지를 엽니다. |
+| 설정 | ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} | 비디오 및 컨테이너의 속성을 변경할 수 있는 _[!UICONTROL Edit Video]_페이지를 엽니다. |
 | 숨기기 | ![아이콘 숨기기](./assets/pb-icon-hide.png){width="25"} | 현재 비디오를 숨깁니다. |
 | 표시 | ![아이콘 표시](./assets/pb-icon-show.png){width="25"} | 숨겨진 비디오를 표시합니다. |
 | 복제 | ![중복 아이콘](./assets/pb-icon-duplicate.png){width="25"} | 비디오를 복사합니다. |

@@ -3,9 +3,16 @@ title: 쿠키 법률 준수
 description: Adobe Commerce 및 Magento Open Source은 쿠키 사용에 관한 여러 국가의 법률에 발맞추기 위해 상인에게 고객 동의를 얻는 방법 선택을 제공합니다.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: c68b464025c00acd4aea6a23aef97fb440e2ed05
+TQID: https://experienceleague.adobe.com/rc1dM34EmsdcQn1gZYxuk1umalquicEvruNlFyRldLI
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: bcbf87e7-9b75-4596-bffe-0f376b4c73a7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: 2322
 ht-degree: 0%
 
 ---
@@ -16,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[일반 데이터 보호 규정](../merchandising-promotions/google-tools.md#google-privacy-settings)을 준수하도록 기본 [Google 개인 정보 설정](compliance-gdpr.md)을(를) 수정하는 경우 Google Analytics 쿠키 사용에 대한 사용자 동의를 얻을 필요는 없습니다.
+>[일반 데이터 보호 규정](compliance-gdpr.md)을 준수하도록 기본 [Google 개인 정보 설정](../merchandising-promotions/google-tools.md#google-privacy-settings)을(를) 수정하는 경우 Google Analytics 쿠키 사용에 대한 사용자 동의를 얻을 필요는 없습니다.
 
 ## 쿠키 제한 모드
 
@@ -112,9 +119,9 @@ Adobe Commerce 및 Magento Open Source의 기본 쿠키는 판매자가 [GDPR](c
 
 ## 제품 추천 쿠키
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객을 위한 제품 권장 사항에서 다음 쿠키를 사용합니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객을 위한 제품 권장 사항에서 다음 쿠키를 사용합니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
 
-- `mg_dnt`: 사이트에서 쿠키 동의를 관리할 사용자 지정 코드가 있는 경우 [Adobe Commerce 데이터 수집을 제한](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/developer/setting-cookie)할 수 있습니다.
+- `mg_dnt`: 사이트에서 쿠키 동의를 관리할 사용자 지정 코드가 있는 경우 [Adobe Commerce 데이터 수집을 제한](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie)할 수 있습니다.
 - `user_allowed_save_cookie`: [쿠키 제한 모드](#cookie-restriction-mode)에 사용됩니다.
 - `authentication_flag`: 쇼핑객이 로그인했는지 또는 로그아웃했는지 여부를 나타냅니다. 이 쿠키는 `dataservices_customer_id` 쿠키와 동시에 업데이트됩니다.
 - `dataservices_customer_id`: 쇼핑객이 로그인했는지 또는 로그아웃했는지 여부를 나타냅니다. 이 쿠키에는 시스템에 있는 고객의 고유 ID가 포함되어 있습니다.
@@ -134,8 +141,8 @@ Adobe Commerce 및 Magento Open Source의 기본 쿠키는 판매자가 [GDPR](c
 
 ## 추가 쿠키
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객에 대해 다음 쿠키가 설정됩니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) Adobe Commerce 고객에 대해 다음 쿠키가 설정됩니다. 이 쿠키는 [DataServices 모듈](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure)과 함께 설치됩니다.
 
 - `mg`: Snowploy JavaScript 추적기에서 설정합니다. 자세한 내용은 [Snowploy 설명서](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/)에서 확인할 수 있습니다.
 - `com.adobe.alloy.getTld`: 현재 웹 페이지의 호스트 이름을 고려할 때 이 도메인은 https://publicsuffix.org에 설명된 &quot;공용 접미사&quot;가 아닌 최상위 도메인입니다. 기본적으로 이 도메인은 쿠키를 허용할 수 있는 가장 상위 도메인입니다. 이 쿠키는 [Alloy Web SDK](https://github.com/adobe/alloy)의 일부입니다.
-- `aep-segments-membership`: 쇼핑객이 속한 세그먼트와 같은 [대상 정보](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/audience-activation)를 포함합니다.
+- `aep-segments-membership`: 쇼핑객이 속한 세그먼트와 같은 [대상 정보](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation)를 포함합니다.

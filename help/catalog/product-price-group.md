@@ -3,9 +3,15 @@ title: 그룹 가격 책정
 description: 그룹 가격을 사용하여 스토어의 고객 그룹에 따라 할인된 항목의 가격을 설정하는 방법에 대해 알아봅니다.
 exl-id: bc5be23f-64eb-47c3-beda-01168abfbf96
 feature: Catalog Management, Products, Customers
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/OCeX5pLtUzWdwOW5W8qpI4DCeab2PTAVi5xF8HUr91A
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: 333
 ht-degree: 0%
 
 ---
@@ -34,9 +40,9 @@ ht-degree: 0%
 
 1. 제품을 편집 모드로 엽니다.
 
-1. _[!UICONTROL Price]_&#x200B;필드 아래에서&#x200B;**[!UICONTROL Advanced Pricing]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Price]_필드 아래에서&#x200B;**[!UICONTROL Advanced Pricing]**을(를) 클릭합니다.
 
-1. _[!UICONTROL Customer Group Price]_&#x200B;섹션에서&#x200B;**[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Customer Group Price]_섹션에서&#x200B;**[!UICONTROL Add]**을(를) 클릭합니다.
 
    스토어에 [Adobe Commerce B2B](../b2b/introduction.md)이(가) 포함되어 있고 [공유 카탈로그](../b2b/catalog-shared.md)가 활성화되어 있는 경우 이 섹션에는 _[!UICONTROL Catalog and Tier Price]_(으)로 레이블이 지정됩니다.
 

@@ -2,28 +2,35 @@
 title: 고객 관리 소개
 description: Commerce 고객 관리 기능을 사용하여 스토어에 대한 고객 경험을 향상시키는 방법을 알아봅니다.
 exl-id: 1af76dd0-3f22-4ed1-b05c-75025b813e60
-source-git-commit: 20869a0fd5ef9be388a61b05265f6a05c48d60c2
+TQID: https://experienceleague.adobe.com/dZMTst5fXUHmrXr4DaxHzR46wDrTptlbBGsiN-lYKkk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+subfeature_v2: id: d9ced453-36f4-4eb5-b2f3-1d593e32476bid: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 224
 ht-degree: 0%
 
 ---
 
 # 고객 관리 소개
 
-_[!UICONTROL Customers]_&#x200B;메뉴를 통해 고객 계정 관리 도구에 액세스할 수 있으며 스토어에서 온라인 상태의 사용자를 확인할 수 있습니다.
+_[!UICONTROL Customers]_메뉴를 통해 고객 계정 관리 도구에 액세스할 수 있으며 스토어에서 온라인 상태의 사용자를 확인할 수 있습니다.
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 ![고객 메뉴](assets/admin-menu-customers.png){width="300" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 ![고객 메뉴](assets/admin-menu-customers-accs.png){width="300" zoomable="yes"}
 

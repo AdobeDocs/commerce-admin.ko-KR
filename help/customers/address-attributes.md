@@ -3,9 +3,15 @@ title: 고객 주소 속성
 description: 고객 주소 속성과 이러한 속성 속성을 구성하는 방법에 대해 알아봅니다.
 exl-id: 637a0f81-4d8f-40cb-a1b6-537229b2ce5b
 feature: Customers, Configuration
-source-git-commit: 40c4e6ea44e73b0c5e471f415dafbafe8afddc56
+TQID: https://experienceleague.adobe.com/3u6Rg6pbR1cexQ4gokhMnafNKKR9aL2PAWj9PfP-ZSg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: 1615
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-고객 주소 특성 집합은 고객 계정에서 또는 [체크아웃](account-dashboard-address-book.md)하는 동안 [주소록](../stores-purchase/checkout-process.md)에 입력된 거리 주소의 속성을 결정합니다.
+고객 주소 특성 집합은 고객 계정에서 또는 [체크아웃](../stores-purchase/checkout-process.md)하는 동안 [주소록](account-dashboard-address-book.md)에 입력된 거리 주소의 속성을 결정합니다.
 
 사용자 정의 주소 속성을 설정하여 선택적 이메일 주소, Skype 계정, 대체 전화번호, 건물 또는 카운티와 같은 추가 정보를 제공할 수 있습니다. 그런 다음 사용자 지정 특성을 판매 문서를 만드는 데 사용되는 [주소 템플릿](address-templates.md)에 통합할 수 있습니다. 사용자 지정 주소 특성을 만드는 프로세스는 [고객 특성](attribute-properties.md)을(를) 만드는 프로세스와 거의 동일합니다.
 
@@ -61,7 +67,7 @@ ht-degree: 0%
 
 1. 필드에 초기 값을 할당하려면 **[!UICONTROL Default Value]**&#x200B;을(를) 입력하십시오.
 
-1. 레코드를 저장하기 전에 필드에 입력한 데이터의 정확성을 확인하려면 필드에 사용할 수 있는 데이터 형식으로 **[!UICONTROL Input Validation]**&#x200B;을(를) 설정하십시오. 사용 가능한 값은 지정된 _[!UICONTROL Input Type]_&#x200B;에 따라 다릅니다.
+1. 레코드를 저장하기 전에 필드에 입력한 데이터의 정확성을 확인하려면 필드에 사용할 수 있는 데이터 형식으로 **[!UICONTROL Input Validation]**&#x200B;을(를) 설정하십시오. 사용 가능한 값은 지정된 _[!UICONTROL Input Type]_에 따라 다릅니다.
 
    - `None` - 데이터 입력 중에 필드에 입력 유효성 검사가 없습니다.
    - `Alphanumeric` - 데이터를 입력하는 동안 숫자(0-9)와 영문자(a-z, A-Z)의 조합을 사용할 수 있습니다. 특수 문자를 포함하려면 다음 단계에서 [!UICONTROL Escape HTML Entities]을(를) 참조하십시오.
@@ -129,14 +135,14 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Default Label] | 관리자 및 상점 첫 화면에서 속성을 식별하는 기본 레이블입니다. |
 | [!UICONTROL Attribute Code] | 시스템 내에서 속성을 식별하는 고유 코드입니다. 코드는 길이가 최대 21자이며 공백이나 특수 문자를 포함할 수 없습니다. 공백 대신 밑줄 기호를 사용할 수 있습니다. |
-| [!UICONTROL Input Type] | 데이터 입력에 사용되는 [입력 컨트롤](../catalog/attributes-input-types.md)을 결정합니다. 옵션: <br/>**`Text Field`**- 한 줄 텍스트 필드입니다.<br/>**`Text Area`** - 여러 줄 텍스트 영역입니다. <br/>**`Multiple Line`**- 여러 줄 주소(여러 줄 주소)와 유사하게 특성에 대해 여러 텍스트 줄을 만듭니다. 개별 데이터 입력 라인의 수는 2개에서 20개까지 지정할 수 있습니다.<br/>**`Date`** - 팝업 달력이 있는 날짜 필드를 표시합니다.<br/>**`Dropdown`**- 하나의 값만 선택할 수 있는 드롭다운 목록입니다.<br/>**`Multiple Select`** - 여러 값을 선택할 수 있는 드롭다운 목록입니다. <br/>**`Yes/No`**- `Yes` 또는 `No` 값을 선택할 수 있는 필드입니다.<br/>**`File (attachment)`** - 파일을 업로드하고 고객 특성과 연결할 수 있는 필드입니다. <br/>**`Image File`**- 갤러리에 이미지를 업로드하고 고객 특성과 연결할 수 있는 필드입니다. |
+| [!UICONTROL Input Type] | 데이터 입력에 사용되는 [입력 컨트롤](../catalog/attributes-input-types.md)을 결정합니다. 옵션: <br/>**`Text Field`**- 한 줄 텍스트 필드입니다.<br/>**`Text Area`** - 여러 줄 텍스트 영역입니다. <br/>**`Multiple Line`**- 여러 줄 주소(여러 줄 주소)와 유사하게 특성에 대해 여러 텍스트 줄을 만듭니다. 개별 데이터 입력 줄의 수는 2개에서 20개까지 지정할 수 있습니다.<br/>**`Date`** - 팝업 달력이 있는 날짜 필드를 표시합니다.<br/>**`Dropdown`**- 하나의 값만 선택할 수 있는 드롭다운 목록입니다.<br/>**`Multiple Select`** - 여러 값을 선택할 수 있는 드롭다운 목록입니다. <br/>**`Yes/No`**- `Yes` 또는 `No` 값 중 하나만 선택할 수 있는 필드입니다.<br/>**`File (attachment)`** - 파일을 업로드하고 고객 특성과 연결할 수 있는 첨부 파일 필드입니다. <br/>**`Image File`**- 갤러리에 이미지를 업로드하고 고객 특성과 연결할 수 있는 필드입니다. |
 | [!UICONTROL Values Required] | 필드에 값을 입력해야 하는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Default Value] | 특성의 초기 값을 지정합니다. |
-| [!UICONTROL Input Validation] | 옵션 선택은 입력 유형에 따라 결정됩니다. 옵션: <br/>**`None`**- 데이터 입력 중에 필드에 입력 유효성 검사가 없습니다.<br/>**`Alphanumeric`** - 데이터를 입력하는 동안 숫자(0-9)와 영문자(a-z, A-Z)의 조합을 사용할 수 있습니다. <br/>**`Alphanumeric with Space`**- 거리 주소의 공백이 통신사 최대 길이 요구 사항을 충족하도록 허용합니다. 체크아웃 시 고객은 문자(a-z, A-Z), 숫자(0-9) 및 공백을 입력할 수 있습니다. 주소를 저장하면 추가 공백이 잘립니다.<br/>**`Numeric Only`** - 데이터를 입력하는 동안 숫자(0-9)만 허용합니다. <br/>**`Alpha Only`**- 데이터를 입력하는 동안 영문자만 허용합니다(a-z, A-Z).<br/>**&#x200B; URL &#x200B;**- 데이터를 입력하는 동안 URL만 허용합니다.<br/>**`Email`** - 데이터를 입력하는 동안 전자 메일 주소만 허용합니다. <br/>**`Length Only`**- 필드에 입력한 데이터의 길이를 기반으로 입력의 유효성을 검사합니다.<br/><br/>**&#x200B;참고:**&#x200B;_Telephone_, _City_, _Street_와 같은 시스템 정의 특성의 경우&#x200B;**[!UICONTROL Input Validation]**&#x200B;설정 외에 기본 제공 서버측 유효성 검사가 항상 적용됩니다. 이러한 기본 규칙은 각 필드에 허용된 문자를 제한하며 재정의할 수 없습니다.**[!UICONTROL Input Validation]**&#x200B;설정은 더 많은 제약 조건만 추가합니다. |
+| [!UICONTROL Input Validation] | 옵션 선택은 입력 유형에 따라 결정됩니다. 옵션: <br/>**`None`**- 데이터 입력 중에 필드에 입력 유효성 검사가 없습니다.<br/>**`Alphanumeric`** - 데이터를 입력하는 동안 숫자(0-9)와 영문자(a-z, A-Z)의 조합을 사용할 수 있습니다. <br/>**`Alphanumeric with Space`**- 거리 주소의 공백이 통신사 최대 길이 요구 사항을 충족하도록 허용합니다. 체크아웃 시 고객은 문자(a-z, A-Z), 숫자(0-9) 및 공백을 입력할 수 있습니다. 주소를 저장하면 추가 공백이 잘립니다.<br/>**`Numeric Only`** - 데이터를 입력하는 동안 숫자만 허용합니다(0-9). <br/>**`Alpha Only`**- 데이터를 입력하는 동안 영문자만 허용합니다(a-z, A-Z).<br/>** URL **- 데이터를 입력하는 동안 URL만 허용합니다.<br/>**`Email`** - 데이터를 입력하는 동안 이메일 주소만 허용합니다. <br/>**`Length Only`**- 필드에 입력한 데이터의 길이를 기반으로 입력의 유효성을 검사합니다.<br/><br/>**&#x200B;참고:**_Telephone_, _City_, _Street_와 같은 시스템 정의 특성의 경우&#x200B;**[!UICONTROL Input Validation]**설정 외에 기본 제공 서버측 유효성 검사가 항상 적용됩니다. 이러한 기본 규칙은 각 필드에 허용된 문자를 제한하며 재정의할 수 없습니다.**[!UICONTROL Input Validation]**설정은 더 많은 제약 조건만 추가합니다. |
 | [!UICONTROL Input/Output Filter] | 레코드가 저장되기 전에 텍스트 필드, 텍스트 영역 또는 여러 줄 입력 유형에 입력된 값에 전처리 필터를 적용합니다. 옵션: <br/>**`None`**- 필드에 입력한 텍스트에 필터를 적용하지 않습니다.<br/>**`Strip HTML Tags`** - 텍스트에서 HTML 태그를 제거합니다. 이 필터는 HTML 태그가 포함된 다른 소스의 필드에 붙여넣은 데이터를 정리하는 데 도움이 될 수 있습니다. <br/>**`Escape HTML Entities`**- 텍스트에 있는 특수 문자를 유효한 HTML 이스케이프 시퀀스(예: `amp;`)로 변환합니다. 이스케이프 시퀀스는 앰퍼샌드와 세미콜론 사이에 있으며, 타이포그래퍼의 스마트 따옴표, 저작권 기호 및 상표 기호에 자주 사용됩니다. 이스케이프 시퀀스를 사용하여 보다 작음(`<`) 및 보다 큼(`>`) 기호, 코드에서도 사용되는 앰퍼샌드 문자 등의 문자를 식별합니다. 이 필터는 워드 프로세서에서 데이터베이스 필드에 붙여넣는 특수 문자를 정리하는 데 도움이 될 수 있습니다. |
 | [!UICONTROL Add to Column Options] | 특성이 [Customers](./customers-all.md) 표에 열로 포함되는지 여부를 지정합니다. 옵션: `Yes` / `No` |
 | 필터 옵션에서 사용 | 특성이 그리드에서 검색 작업을 위한 필터로 사용될 수 있는지 여부를 지정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Grid Filter Condition Type] | 표에서 검색 작업의 속성에 대한 필터 일치 조건을 지정합니다. 표의 _[!UICONTROL Search by keyword]_&#x200B;필드에는 영향을 주지 않습니다. 옵션: `Partial Match` / `Prefix Match` / `Full Match` |
+| [!UICONTROL Grid Filter Condition Type] | 표에서 검색 작업의 속성에 대한 필터 일치 조건을 지정합니다. 표의 _[!UICONTROL Search by keyword]_필드에는 영향을 주지 않습니다. 옵션: `Partial Match` / `Prefix Match` / `Full Match` |
 | [!UICONTROL Use in Search Options] | 속성 값을 검색 작업에서 키워드로 사용할 수 있는지 여부를 지정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Use in Customer Segment] | 특성이 [고객 세그먼트](./customer-segments.md) 조건에 포함되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 

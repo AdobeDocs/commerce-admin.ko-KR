@@ -3,10 +3,17 @@ title: 범주 제품 추가 및 제거
 description: 범주에서 제품을 추가하고 제거하는 방법에 대해 알아봅니다.
 exl-id: 3b71028e-8679-425a-9ac7-77bf692d0194
 feature: Catalog Management, Categories, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/0WjaBF8dHDq8YSqE1gFt0-JKwbn9IFrRlFwl2Se7mkI
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 0%
+source-wordcount: 267
+ht-degree: 1%
 
 ---
 
@@ -30,15 +37,15 @@ ht-degree: 0%
 
    ![모든 제품 검색 탭](./assets/search-all-product.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Assign]_&#x200B;열에서 추가하려는 각 제품에 대해 옵션을 `Yes`(으)로 전환합니다.
+1. _[!UICONTROL Assign]_열에서 추가하려는 각 제품에 대해 옵션을 `Yes`(으)로 전환합니다.
 
    표시된 모든 제품을 포함하려면 열 헤더의 메뉴 화살표를 클릭하고 **[!UICONTROL Select All]**&#x200B;을(를) 선택할 수 있습니다.
 
 1. 변경 내용을 적용하려면 **[!UICONTROL Save and Close]**&#x200B;을(를) 클릭합니다.
 
-### 작업
+### 액션
 
-| 작업 | 설명 |
+| 액션 | 설명 |
 |--- |--- |
 | [!UICONTROL Select All] | 목록에 있는 모든 레코드의 확인란을 선택합니다. |
 | [!UICONTROL Unselect All] | 목록의 모든 레코드 확인란을 선택 취소합니다. |
@@ -67,10 +74,10 @@ ht-degree: 0%
 
 1. 왼쪽의 범주 트리에서 편집할 범주를 선택합니다.
 
-1. _[!UICONTROL Products in Category]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Products in Category]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. 제거할 제품을 찾습니다.
 
-1. _[!UICONTROL Actions]_&#x200B;열에서&#x200B;**[!UICONTROL Unassign]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Actions]_열에서&#x200B;**[!UICONTROL Unassign]**을(를) 클릭합니다.
 
 1. 변경 내용을 적용하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.

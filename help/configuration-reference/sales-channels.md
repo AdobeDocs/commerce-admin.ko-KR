@@ -1,11 +1,17 @@
 ---
-title: '[!UICONTROL Sales Channels] &gt; [!UICONTROL Global Settings]'
-description: Commerce 관리자의 [!UICONTROL Sales Channels] &gt; [!UICONTROL Global Settings] 페이지에서 구성 설정을 검토하십시오.
+title: '[!UICONTROL Sales Channels] > [!UICONTROL Global Settings]'
+description: Commerce 관리자의 [!UICONTROL Sales Channels] > [!UICONTROL Global Settings] 페이지에서 구성 설정을 검토합니다.
 exl-id: 28a5ef4b-265e-457a-9480-96763785b5fd
 feature: Configuration, Sales Channels
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+TQID: https://experienceleague.adobe.com/jnjAspEdJbx3unjmoqgH12JEiLz4ThbgFGeFOArOonU
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: 225
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 {{config}}
 
-이러한 설정은 [[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/install.html?lang=ko)을(를) 설치할 때 사용할 수 있습니다.
+이러한 설정은 [[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/install.html)을(를) 설치할 때 사용할 수 있습니다.
 
 ![Sales Channel 설정](./assets/config-sales-channel-global-settings.png)<!-- zoom -->
 

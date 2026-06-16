@@ -3,9 +3,15 @@ title: 재고에 대한 재고 출처 우선 순위 지정
 description: 출처를 선적 및 재고 공제를 결정할 때 사용되는 우선순위에서 맨위에서 맨아래로 정렬하는 방법에 대해 알아봅니다.
 exl-id: 16db3ee3-ce99-40dd-b1a3-fcb145b1298f
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/oPgeuN3-Il-yf3zpG2r4PNAmNbf-4gmz5-GFngM3-Ng
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: 210
 ht-degree: 0%
 
 ---
@@ -26,7 +32,7 @@ ht-degree: 0%
 
 1. _편집_ 모드로 주식을 엽니다.
 
-1. 필요한 경우 _[!UICONTROL Sources]_&#x200B;탭을 확장합니다.
+1. 필요한 경우 _[!UICONTROL Sources]_탭을 확장합니다.
 
 1. ![정렬 아이콘](assets/icon-sort.png)을 사용하여 소스를 맨 위(첫 번째)에서 맨 아래(마지막)로 우선 순위에 놓습니다.
 

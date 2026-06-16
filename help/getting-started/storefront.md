@@ -3,9 +3,15 @@ title: 가게 앞이 뭐죠?
 description: 스토어에서 고객에게 쇼핑 경험을 지원하기 위해 제공할 수 있는 페이지 및 기능 요소에 대해 알아봅니다.
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 8145531bf9aa2764bd52a6e121112beca2e25158
+TQID: https://experienceleague.adobe.com/b8JEobTQ3fDladcIZj5Bt7eaYPN7-p7PsB-siKLITCw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: 1223
 ht-degree: 0%
 
 ---
@@ -32,7 +38,7 @@ Edge Delivery Services에서 제공하는 [!DNL **Commerce Storefront**]&#x200B;
 
 Edge Delivery Services에서 제공하는 Commerce Storefront는 판매자와 개발자 모두에게 도움이 되는 몇 가지 주요 기능을 제공합니다. 이러한 기능을 통해 기업은 매력적인 쇼핑 경험을 만들 수 있을 뿐만 아니라 필요에 따라 매장을 맞춤화하고 확장할 수 있는 유연성을 유지할 수 있습니다.
 
-Commerce Storefront 설정 및 최적화에 대한 자세한 정보와 지침은 [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/ko/docs/commerce)를 참조하십시오.
+Commerce Storefront 설정 및 최적화에 대한 자세한 정보와 지침은 [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/en/docs/commerce)를 참조하십시오.
 
 >[!BEGINTABS]
 
@@ -81,7 +87,7 @@ Headless 구현을 통해 개발자는 프론트엔드 프레젠테이션 레이
 
 ### [!DNL Live Search]
 
-Adobe Commerce용 [[!DNL Live Search]](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)을(를) 사용하면 스토어에서 빠르고, 관련성이 높고, 직관적인 검색 환경을 제공할 수 있으며, Adobe Commerce에서 추가 비용 없이 사용할 수 있습니다.
+Adobe Commerce용 [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)을(를) 사용하면 스토어에서 빠르고, 관련성이 높고, 직관적인 검색 환경을 제공할 수 있으며, Adobe Commerce에서 추가 비용 없이 사용할 수 있습니다.
 
 ![실시간 검색 예 - 입력한 대로 검색](./assets/storefront-search-as-you-type.png){width="700"}
 

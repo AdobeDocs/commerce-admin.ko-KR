@@ -1,11 +1,18 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Gift Cards]'
-description: Commerce 관리자의 [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] 페이지에서 구성 설정을 검토하십시오.
+title: '[!UICONTROL Sales] > [!UICONTROL Gift Cards]'
+description: Commerce 관리자의 [!UICONTROL Sales] > [!UICONTROL Gift Cards] 페이지에서 구성 설정을 검토합니다.
 exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 feature: Configuration, Gift
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/J-VH-mdaM7HrMRHJMNmmbBPggm1hjtHHWTh3q-5en0w
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: d9ced453-36f4-4eb5-b2f3-1d593e32476b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: 333
 ht-degree: 1%
 
 ---
@@ -20,7 +27,7 @@ ht-degree: 1%
 
 ![기프트 카드 전자 메일 설정](./assets/gift-cards-gift-card-email-settings.png)<!-- zoom -->
 
-<!-- [Gift Card Email Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
+<!-- [Gift Card Email Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -33,12 +40,12 @@ ht-degree: 1%
 
 ![기프트 카드 일반 설정](./assets/gift-cards-gift-card-general-settings.png)<!-- zoom -->
 
-<!-- [Gift Card General Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
+<!-- [Gift Card General Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Redeemable] | 글로벌 | 기프트 카드 소지자가 그 가치를 현금으로 상환할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No`. |
-| [!UICONTROL Lifetime (days)] | 글로벌 | 카드가 유효한 일수를 결정합니다. 비워 두면 카드가 만료되지 않습니다. <br/><br/>**_중요:_**&#x200B;일부 지역에서는 기프트 카드에 만료 데이터를 설정할 수 없습니다. 기프트 카드의 라이프타임을 정하기 전에 현지 법률을 확인하십시오. |
+| [!UICONTROL Lifetime (days)] | 글로벌 | 카드가 유효한 일수를 결정합니다. 비워 두면 카드가 만료되지 않습니다. <br/><br/>**_Important:_** 일부 지역에서 기프트 카드에 만료 데이터를 설정하는 것은 불법입니다. 기프트 카드의 라이프타임을 정하기 전에 현지 법률을 확인하십시오. |
 | [!UICONTROL Allow Gift Message] | 스토어 뷰 | 기프트 카드를 구입한 고객이 기프트 메시지를 포함하는 옵션을 사용할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No`. |
 | [!UICONTROL Gift Message Maximum Length] | 스토어 뷰 | 기프트 카드 메시지에 사용할 수 있는 최대 문자 수를 결정합니다. 기본값: 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | 글로벌 | 고객이 주문을 할 때 또는 주문 송장이 발행될 때 기프트 카드 계정이 생성되는지 여부를 결정합니다. 옵션: `Ordered` / `Invoiced` |
@@ -49,7 +56,7 @@ ht-degree: 1%
 
 ![기프트 카드 계정 관리에서 보낸 전자 메일](./assets/gift-cards-email-sent-from-account.png)<!-- zoom -->
 
-<!-- [Email Sent from Gift Card Account Management](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
+<!-- [Email Sent from Gift Card Account Management](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -62,7 +69,7 @@ ht-degree: 1%
 
 ![기프트 카드 계정 일반 설정](./assets/gift-cards-gift-card-account-general-settings.png)<!-- zoom -->
 
-<!-- [Gift Card Account General Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
+<!-- [Gift Card Account General Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

@@ -3,9 +3,15 @@ title: 복수 출처 출하 생성
 description: 멀티 소스 판매자가 배송을 만들고 보내는 방법을 알아봅니다.
 exl-id: d2995139-0fc3-4379-a4ec-b0d38ed566bb
 feature: Inventory, Shipping/Delivery
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/IpRJ-mlwOVkNJymlJFV8o-aQp1oDU-xyNE7C6iVDR2E
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: 393
 ht-degree: 0%
 
 ---
@@ -54,9 +60,9 @@ ht-degree: 0%
 
      ![Source 선택 및 수량 입력](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. _[!UICONTROL New Shipment]_&#x200B;페이지를 검토하고 필요에 따라 추가 변경 내용을 입력하십시오.
+1. _[!UICONTROL New Shipment]_페이지를 검토하고 필요에 따라 추가 변경 내용을 입력하십시오.
 
-   _[!UICONTROL Inventory]_&#x200B;섹션에는 소스, 제품 배송, 총 주문 수량 및 배송할 수량이 표시됩니다.
+   _[!UICONTROL Inventory]_섹션에는 소스, 제품 배송, 총 주문 수량 및 배송할 수량이 표시됩니다.
 
    ![배송에 대한 인벤토리 세부 정보(예: 부분 배송)](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

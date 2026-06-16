@@ -3,9 +3,15 @@ title: '[!DNL Google Analytics]'
 description: ' [!DNL Google Analytics] 을(를) 사용하여 Commerce 사이트에 유용한 지표를 수집하는 방법을 알아봅니다.'
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/3YXwPB-1yDciblELQDGHXfnv1hwPJAW4Us0iG6vCf0k
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: 766
 ht-degree: 0%
 
 ---
@@ -31,7 +37,7 @@ ht-degree: 0%
 사이트에 대한 [!DNL Google Analytics] 4 설정이 없는 경우 다음 방법 중 하나를 따르십시오.
 
 - [처음으로 Analytics 데이터 수집 설정](https://support.google.com/analytics/answer/9304153)
-- [사이트에 Google Analytics 4 추가 [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)
+- [ [!DNL Universal Analytics]이(가) 있는 사이트에 Google Analytics 4 추가](https://support.google.com/analytics/answer/9744165)
 
 ### 2단계: Commerce 구성 완료
 
@@ -41,9 +47,9 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Google API]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Google GTag]**&#x200B;를 확장합니다.
+1. **[!UICONTROL Google GTag]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
-1. ![&#x200B; 하위 섹션의 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Google Analytics4]**&#x200B;를 확장하고 다음을 수행합니다.
+1. **[!UICONTROL Google Analytics4]** 하위 섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
    - **[!UICONTROL Enable]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -75,7 +81,7 @@ Google 웹 사이트를 방문하여 [Google Universal Analytics](https://suppor
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Google API]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Google Analytics]**&#x200B;를 확장하고 다음을 수행합니다.
+1. **[!UICONTROL Google Analytics]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
    - **[!UICONTROL Enable]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -91,7 +97,7 @@ Google 웹 사이트를 방문하여 [Google Universal Analytics](https://suppor
 
 향상된 Ecommerce는 고객의 쇼핑 및 구매 행동에 insight을 제공하는 [!DNL Google Universal Analytics]용 플러그인입니다. 고객이 장바구니에 품목을 추가하거나, 체크아웃 프로세스를 시작하거나, 구매를 완료하는 경우와 같이 향상된 전자 상거래 기능을 사용하여 주요 고객 활동에 대한 보고서를 생성할 수 있습니다. 구매하지 않고 카트를 버리는 쇼핑객의 패턴을 식별하고 분석할 수도 있습니다.
 
-다음 지침은 향상된 전자 상거래 데이터 및 보고서를 생성하도록 [!DNL Google Tag Manager]을(를) 사용하여 [!DNL Universal Analytics]을(를) 구성하는 방법을 보여 줍니다.
+다음 지침은 향상된 전자 상거래 데이터 및 보고서를 생성하도록 [!DNL Universal Analytics]을(를) 사용하여 [!DNL Google Tag Manager]을(를) 구성하는 방법을 보여 줍니다.
 
 ### 1단계. Google 계정에 등록
 
@@ -120,7 +126,7 @@ Google 웹 사이트를 방문하여 [Google Universal Analytics](https://suppor
    |--- |--- |--- |
    | `addToCart` | 사용자 지정 이벤트 |  |
    | `checkout` | 사용자 지정 이벤트 |  |
-   | `checkout only` | 페이지 보기 | 페이지 URL이 RegEx /checkout/.* |
+   | `checkout only` | 페이지 보기 | 페이지 URL이 RegEx /checkout/.*와 일치함 |
    | `checkoutOption` | 사용자 지정 이벤트 |  |
    | `gtm.dom` | 사용자 지정 이벤트 |  |
    | `productClick` | 사용자 지정 이벤트 |  |

@@ -3,10 +3,16 @@ title: 영업 문서
 description: Commerce 스토어에 대한 고객 주문 및 이행 지원을 위해 판매 문서를 구성하는 방법에 대해 알아봅니다.
 exl-id: 869d79ca-688a-4032-a95c-c66ebf7f2775
 feature: Invoices
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/0SZsaPiyOc4E-0e34IDvWATtKz9HMaeZAIMhKeysvTg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 0%
+source-wordcount: 474
+ht-degree: 1%
 
 ---
 
@@ -16,7 +22,7 @@ ht-degree: 0%
 
 ## 송장 및 포장 명세서 구성
 
-상점 첫 페이지에 사용된 로고 이미지와 달리 PDF 인보이스 및 기타 판매 문서에 대한 로고는 고해상도 300 dpi 이미지가 될 수 있습니다. 로고 크기를 조정할 때 종횡비를 유지하도록 주의하십시오. 높이에 맞게 로고의 크기를 조정하고, 오른쪽의 사용하지 않는 공간에 대해서는 걱정하지 마십시오.
+상점 첫 페이지에 사용된 로고 이미지와 달리 PDF 인보이스 및 기타 판매 문서에 대한 로고는 고해상도 300dpi 이미지가 될 수 있습니다. 로고 크기를 조정할 때 종횡비를 유지하도록 주의하십시오. 높이에 맞게 로고의 크기를 조정하고, 오른쪽의 사용하지 않는 공간에 대해서는 걱정하지 마십시오.
 
 ![샘플 로고](./assets/logo-pdf.png){width="200"}
 
@@ -55,11 +61,11 @@ ht-degree: 0%
 | 형식 | 요구 사항 |
 |--- |------------------------------------------|
 | **_PDF_** |  |
-| 파일 형식 | JPG(JPEG), PNG, TIF(TIFF) |
+| 파일 포맷 | JPG(JPEG), PNG, TIF(TIFF) |
 | 이미지 크기 | 최대 1080픽셀 너비 x 270픽셀 높이 |
 | 해결 방법 | 300 DPI 권장 |
 | **_HTML_** |  |
-| 파일 형식 | JPG(JPEG), PNG, GIF |
+| 파일 포맷 | JPG(JPEG), PNG, GIF |
 | 이미지 크기 | 테마에 의해 결정됩니다. |
 | 해결 방법 | 72 또는 96 DPI |
 
@@ -69,7 +75,7 @@ ht-degree: 0%
 
 주문 ID와 고객 IP 주소는 주문과 함께 제공되는 영업 문서의 헤더에 포함될 수 있습니다. 기본적으로 주문 ID와 고객 IP 주소는 모두 송장, 선적 포장 명세서 및 대변 메모의 헤더에 나타납니다.
 
-![판매 구성 - PDF 출력](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
+![판매 구성 - PDF 인쇄물](./assets/config-sales-pdf-print-outs.png){width="600" zoomable="yes"}
 
 **_주문 ID 설정을 변경하려면:_**
 

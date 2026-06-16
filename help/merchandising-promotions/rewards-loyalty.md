@@ -3,9 +3,15 @@ title: 보상 및 충성도 프로그램
 description: 고객 참여를 유도하고 고객 충성도를 홍보하는 데 사용할 수 있는 보상 포인트 시스템에 대해 알아봅니다.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: b0e9087016f7a6ce682e84feb931f7ad870e6420
+TQID: https://experienceleague.adobe.com/JESAxbyi9FqEIfr053Mz9Z7PcHt7tmdSwdDlxmhiVQQ
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: 1402
 ht-degree: 0%
 
 ---
@@ -56,7 +62,7 @@ Adobe Commerce의 _보상 포인트_ 시스템을 사용하면 고객 참여를 
 
 1. 왼쪽 패널에서 **[!UICONTROL Customers]**&#x200B;을(를) 확장하고 **[!UICONTROL Reward Points]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Reward Points]**&#x200B;를 확장하고 다음을 수행합니다.
+1. **[!UICONTROL Reward Points]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
    - 보상 포인트를 활성화하려면 **[!UICONTROL Enable Reward Points Functionality]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -94,7 +100,7 @@ Adobe Commerce의 _보상 포인트_ 시스템을 사용하면 고객 참여를 
 
 이 단계에서는 다양한 고객 활동에 대해 획득 가능한 보상 포인트 개수를 명시한다. 고객이 포인트가 할당된 작업을 완료하면 획득한 포인트의 수를 나타내는 메시지가 고객에게 표시됩니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Actions for Acquiring Reward Points by Customer]**&#x200B;를 확장합니다.
+1. **[!UICONTROL Actions for Acquiring Reward Points by Customer]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![고객 구성 - 고객이 보상 포인트를 획득하는 작업](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
@@ -126,7 +132,7 @@ Adobe Commerce의 _보상 포인트_ 시스템을 사용하면 고객 참여를 
 
 ### 3단계. 이메일 알림 설정 완료
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Email Notification Settings]**&#x200B;를 확장합니다.
+1. **[!UICONTROL Email Notification Settings]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![고객 구성 - 보상 포인트 이메일 알림](../configuration-reference/customers/assets/reward-points-email-notification-settings.png){width="600" zoomable="yes"}
 
@@ -148,7 +154,7 @@ Adobe Commerce의 _보상 포인트_ 시스템을 사용하면 고객 참여를 
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**(으)로 이동합니다.
 
-1. 그리드에서 고객을 찾고 **[!UICONTROL Edit]** 열에서 _[!UICONTROL Action]_&#x200B;을(를) 클릭합니다.
+1. 그리드에서 고객을 찾고 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
 1. _고객 정보_&#x200B;에서 **[!UICONTROL Reward Points]** 섹션을 선택하세요.
 
@@ -168,7 +174,7 @@ Adobe Commerce의 _보상 포인트_ 시스템을 사용하면 고객 참여를 
 
 1. **[!UICONTROL Save Customer]**&#x200B;을(를) 클릭합니다.
 
-보상 포인트와 관련된 모든 작업이 상점 앞의 고객 계정에 있는 _[!UICONTROL Reward Points History]_&#x200B;블록에 표시됩니다.
+보상 포인트와 관련된 모든 작업이 상점 앞의 고객 계정에 있는 _[!UICONTROL Reward Points History]_블록에 표시됩니다.
 
 ## 필드 설명
 
@@ -180,7 +186,7 @@ Adobe Commerce의 _보상 포인트_ 시스템을 사용하면 고객 참여를 
 | [!UICONTROL Amount] | 가산 또는 감산 금액 |
 | [!UICONTROL Rate] | [보상 환율](reward-exchange-rates.md) |
 | [!UICONTROL Website] | 보상 포인트 내역이 지정된 웹 사이트 |
-| [!UICONTROL Reason] | 점수를 부여하는 이유:<br>**[!UICONTROL Making purchases]**— 고객이 구매할 때마다 점수를 획득할 수 있습니다.<br>**[!UICONTROL Registering on the site]** - 등록 시 발생(한 번).<br>**[!UICONTROL Subscribing to a newsletter]**- 최초 구독(한 번)에 대해 누적됩니다.<br>**[!UICONTROL Sending Invitations]** — 친구를 초대하여 사이트에 참여하여 점수를 획득합니다.<br>**[!UICONTROL Converting Invitations to Customer]**— 사이트에 등록하는 주요 친구를 포함하여 보내는 모든 초대에 대해 포인트를 적립합니다.<br>**[!UICONTROL Converting Invitations to Order]** — 전송된 초대장을 통해 각 판매에 대한 포인트를 획득합니다.<br>**[!UICONTROL Review Submission]**— 제품 리뷰를 제출하면 점수를 획득합니다. |
+| [!UICONTROL Reason] | 점수를 부여하는 이유:<br>**[!UICONTROL Making purchases]**— 고객이 구매할 때마다 점수를 획득할 수 있습니다.<br>**[!UICONTROL Registering on the site]** - 등록 시 발생(한 번).<br>**[!UICONTROL Subscribing to a newsletter]**- 최초 구독(한 번)에 대해 적립됩니다.<br>**[!UICONTROL Sending Invitations]** — 친구를 사이트에 초대하여 점수를 획득합니다.<br>**[!UICONTROL Converting Invitations to Customer]**— 보내는 모든 초대에 포인트를 적립, 사이트에 등록된 주요 친구를 적립합니다.<br>**[!UICONTROL Converting Invitations to Order]** — 전송된 초대장을 통해 각 판매에 대해 포인트를 획득합니다.<br>**[!UICONTROL Review Submission]**— 제품 리뷰를 제출하면 점수를 획득할 수 있습니다. |
 | [!UICONTROL Created] | 보상 포인트 업데이트 날짜 및 시간 |
 | [!UICONTROL Expired] | 만료된 보상 포인트 수 |
 | [!UICONTROL Comment] | 포인트를 추가 또는 뺄 때의 주석 |

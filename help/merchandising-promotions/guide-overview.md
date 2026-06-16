@@ -2,9 +2,15 @@
 title: 머천다이징 및 프로모션 안내서
 description: 타겟팅된 할인 및 이벤트를 포함하여 Adobe Commerce의 머천다이징 및 프로모션 기능에 대한 자세한 정보를 살펴보십시오.
 exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+TQID: https://experienceleague.adobe.com/f9lPMTBQ31EhxEwyRSSKkLyXxTVPlgxJ1IfE7eokxgk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: 373
 ht-degree: 0%
 
 ---
@@ -19,7 +25,7 @@ ht-degree: 0%
 | ------- | ----------- |
 | [소개](introduction.md) | Commerce 인스턴스를 사용한 머천다이징 및 프로모션 기능에 대한 개요입니다. |
 | [마케팅 메뉴](marketing-menu.md) | 프로모션, 커뮤니케이션, SEO 및 사용자 생성 콘텐츠를 관리하기 위한 여러 기능에 액세스하려면 [!UICONTROL Marketing] 메뉴를 사용하십시오. |
-| [시각적 머천다이저](visual-merchandiser.md) | [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 제품을 배치하고 범주 목록에 표시되는 제품을 결정하는 조건을 적용할 수 있는 이 고급 도구 집합을 살펴봅니다. |
+| [시각적 머천다이저](visual-merchandiser.md) | [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 제품을 배치하고 범주 목록에 표시되는 제품을 결정하는 조건을 적용할 수 있는 이 고급 도구 집합을 살펴봅니다. |
 | [선물 등록](gift-registries.md) | 고객에게 특별한 경우에 사용할 선물 등록기를 만들고, 친구 및 가족이 선물 등록기에서 선물을 구입하도록 초대할 수 있는 기능을 제공합니다. |
 | [보상 및 충성도 프로그램](rewards-loyalty.md) | 고객 참여를 유도하고 고객 충성도를 홍보하는 프로그램을 구현합니다. |
 | [개인 판매 및 이벤트](events-private-sales.md) | 제한된 기간 영업을 만들거나, 특정 회원으로 판매를 제한하거나, 독립 실행형 개인 영업 페이지를 만듭니다. |

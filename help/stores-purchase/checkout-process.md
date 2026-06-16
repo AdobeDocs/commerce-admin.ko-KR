@@ -3,9 +3,16 @@ title: 체크아웃 프로세스 및 옵션
 description: Adobe Commerce 및 Magento Open Source 체크아웃 프로세스에서 트랜잭션을 완료하는 데 필요한 정보를 수집하고 체크아웃 페이지에서 프로세스의 각 단계를 고객을 안내하는 방법을 알아봅니다.
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/pBCZkoYfSX-cqBu-wsS8eFynW3NUfT56MOWwuxpCGrc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: 1098
 ht-degree: 0%
 
 ---
@@ -36,9 +43,9 @@ ht-degree: 0%
 
 #### 주소 추가
 
-1. _[!UICONTROL Shipping Address]_&#x200B;섹션 아래쪽에서 고객이&#x200B;**[!UICONTROL + New Address]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Shipping Address]_섹션 아래쪽에서 고객이&#x200B;**[!UICONTROL + New Address]**을(를) 클릭합니다.
 
-1. _[!UICONTROL Shipping Address]_&#x200B;양식을 완료합니다.
+1. _[!UICONTROL Shipping Address]_양식을 완료합니다.
 
    기본적으로 고객의 이름과 성은 양식에 나타납니다.
 
@@ -148,7 +155,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Terms and Conditions] | 스토어 뷰 | 고객이 구매하기 전에 판매의 [약관](terms-and-conditions.md)에 동의해야 하는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | 스토어 뷰 | 체크아웃하는 동안 청구 주소의 위치를 결정합니다. 옵션: `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | 스토어 뷰 | 체크아웃 중에 주문 요약에 표시할 수 있는 최대 항목 수를 결정합니다. 기본값은 `10`입니다. |
-| [!UICONTROL Enable Address Search] | 웹 사이트 | ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) 고객이 _배송_&#x200B;과 _검토 및 결제_ 단계에 [주소 검색](checkout-address-search.md) 기능을 사용할 수 있는지 여부를 결정합니다. 이 기능을 사용하도록 설정하면 _[!UICONTROL Number of Customer Addresses Limit]_&#x200B;을(를) 사용하여 체크 아웃 중에 이 기능을 활성화하는 데 필요한 저장된 주소 수를 설정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Address Search] | 웹 사이트 | ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) 고객이 _배송_&#x200B;과 _검토 및 결제_ 단계에 [주소 검색](checkout-address-search.md) 기능을 사용할 수 있는지 여부를 결정합니다. 이 기능을 사용하도록 설정하면 _[!UICONTROL Number of Customer Addresses Limit]_을(를) 사용하여 체크 아웃 중에 이 기능을 활성화하는 데 필요한 저장된 주소 수를 설정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Number of Customer Addresses Limit] | 웹 사이트 | ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) 주소 검색이 **[!UICONTROL Enabled]**&#x200B;인 경우 체크 아웃 중에 이 기능을 활성화하는 데 필요한 저장된 주소 수를 결정합니다. 고객의 저장된 주소 수가 이 수를 충족하거나 초과하면 _배송_ 및 _검토 및 결제_ 단계에서 기본 주소만 렌더링됩니다. 고객은 검색 기능을 사용하여 선택한 주소를 변경할 수 있습니다. 기본값은 10입니다. |
 
 {style="table-layout:auto"}

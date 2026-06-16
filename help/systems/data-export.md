@@ -3,9 +3,15 @@ title: 데이터 내보내기
 description: 데이터 내보내기 필터 및 속성과 스토어에서 데이터를 내보내는 방법에 대해 알아봅니다.
 exl-id: 80e7a2fc-beaa-416e-a00f-a3cad5055975
 feature: Products, Customers, Data Import/Export
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+TQID: https://experienceleague.adobe.com/492se11mto54gQuwodcRcALtCf7LJe3GGKQntW9kkWQ
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: 821
 ht-degree: 0%
 
 ---
@@ -80,7 +86,7 @@ SKU와 같이 특정 값이 있는 레코드만 포함하려면 필터 필드에
 
 1. 아래로 스크롤하여 페이지의 오른쪽 아래 모서리에 있는 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-   작업이 완료되면 메시지 큐를 통해 파일이 처리됩니다(cron 작업이 실행 중인지 확인). 내보낸 파일이 `var/export/ folder`에 저장됩니다. 메시지 대기열에 대한 자세한 내용은 _구성 가이드_&#x200B;에서 [메시지 대기열 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=ko)를 참조하십시오.
+   작업이 완료되면 메시지 큐를 통해 파일이 처리됩니다(cron 작업이 실행 중인지 확인). 내보낸 파일이 `var/export/ folder`에 저장됩니다. 메시지 대기열에 대한 자세한 내용은 _구성 가이드_&#x200B;에서 [메시지 대기열 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html)를 참조하십시오.
 
    내보낸 CSV 파일을 스프레드시트로 저장하거나 연 다음 데이터를 편집하고 다시 스토어로 가져올 수 있습니다.
 
@@ -92,4 +98,4 @@ SKU와 같이 특정 값이 있는 레코드만 포함하려면 필터 필드에
 
 데이터 내보내기 문제를 해결하는 데 대한 도움말을 보려면 다음 Commerce 지원 기술 문서를 참조하십시오.
 
-- [내보낸 제품 .csv 파일이 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=ko)
+- [내보낸 제품 .csv 파일이 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)

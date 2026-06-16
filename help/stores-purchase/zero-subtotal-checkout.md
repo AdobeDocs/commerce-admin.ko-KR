@@ -3,9 +3,15 @@ title: 0 소계 체크아웃
 description: 스토어에서 오프라인 결제 방법으로 제로 소계를 설정하는 방법에 대해 알아봅니다.
 exl-id: c14ce289-8292-41d9-a448-f493c784f35c
 feature: Checkout, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/WCWo0jvFkqHnwLX7QnAcJ1vDs66sdrtpba5hoxd-JKc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: 347
 ht-degree: 0%
 
 ---
@@ -24,13 +30,13 @@ _소계 체크아웃 제로_&#x200B;는 할인이 적용된 후 과세되는 소
 
 시간을 절약하기 위해 소계 주문 0개를 자동 송장 발행으로 설정할 수 있습니다.
 
-**_소계 체크 아웃을 구성하려면:_**
+**_소계 체크아웃 0개를 구성하려면:_**
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Other Payment Methods]_&#x200B;에서&#x200B;**[!UICONTROL Zero Subtotal Checkout]**&#x200B;섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Other Payment Methods]_에서&#x200B;**[!UICONTROL Zero Subtotal Checkout]**섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![0 소계 체크아웃](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
 
@@ -52,12 +58,12 @@ _소계 체크아웃 제로_&#x200B;는 할인이 적용된 후 과세되는 소
 
    >[!NOTE]
    >
-   >_[!UICONTROL New Order Status]_&#x200B;이(가) `Processing`(으)로 설정되고&#x200B;_[!UICONTROL Automatically Invoice All Items]_&#x200B;이(가) `No`(으)로 설정된 경우 [주문 상태](order-status.md#custom-order-status) 페이지에서 **[!UICONTROL Order State]** = `Pending` 및 **[!UICONTROL Default Status]** = `No` 매핑에 대해 **[!UICONTROL Order Status]** = `Processing`도 할당해야 합니다.
+   >_[!UICONTROL New Order Status]_이(가) `Processing`(으)로 설정되고_[!UICONTROL Automatically Invoice All Items]_&#x200B;이(가) `No`(으)로 설정된 경우 [주문 상태](order-status.md#custom-order-status) 페이지에서 **[!UICONTROL Order State]** = `Pending` 및 **[!UICONTROL Default Status]** = `No` 매핑에 대해 **[!UICONTROL Order Status]** = `Processing`도 할당해야 합니다.
 
 1. **[!UICONTROL Payment from Applicable Countries]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 옵션을 클릭합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 옵션을 클릭합니다.
 
 1. **[!UICONTROL Sort Order]**&#x200B;의 경우 체크아웃 중에 표시되는 결제 방법 목록에 이 항목의 위치를 결정하는 번호를 입력하십시오.
 

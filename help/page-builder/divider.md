@@ -3,9 +3,15 @@ title: 요소 - 분할자
 description: ' [!DNL Page Builder] 단계의 콘텐츠 섹션 사이에 시각적 구분으로 규칙을 추가하는 데 사용되는 분할기 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/6OxxIz3QSkS2S8yRRrnrKj8iF60zp-qM3SGZIyJRTeA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: 903
 ht-degree: 0%
 
 ---
@@ -73,7 +79,7 @@ _분할기_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](worksp
 
    ![선 색, 두께 및 폭 설정](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. 필요에 따라 _[!UICONTROL Advanced]_&#x200B;설정을 업데이트합니다.
+1. 필요에 따라 _[!UICONTROL Advanced]_설정을 업데이트합니다.
 
    - 부모 컨테이너 내의 구분선 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하세요.
 

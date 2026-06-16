@@ -2,9 +2,14 @@
 title: 작업 제어
 description: Actions 컨트롤을 사용하여 관리자에서 하나 이상의 레코드에 작업을 적용하는 방법에 대해 알아봅니다.
 exl-id: 03f313a9-bc17-4151-a2c8-8906342f025d
-source-git-commit: a3fb702d0b6e08c3aaaa0d6b5e07aa825026ef76
+TQID: https://experienceleague.adobe.com/N8RFNMBc2i4Surct0luNp7z-qF0lbP6r8T-uEMQ7y-w
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: 430
 ht-degree: 0%
 
 ---
@@ -15,7 +20,7 @@ ht-degree: 0%
 
 필요한 만큼 변경한 다음 한 단계에서 레코드를 업데이트할 수 있습니다. 각 제품에 대해 개별적으로 설정을 변경하는 것보다 훨씬 효율적입니다. 레코드 일괄 처리에 편집 내용을 적용하는 것은 비동기 작업으로, 작업이 완료될 때까지 기다리지 않고 관리자 작업을 계속할 수 있도록 백그라운드에서 실행됩니다. 작업이 완료되면 시스템이 메시지를 표시합니다.
 
-사용 가능한 작업의 선택은 목록마다 다르며, 선택한 작업에 따라 추가 옵션이 나타날 수 있습니다. 예를들어 레코드 그룹의 상태를 변경할 때 추가 옵션을 사용하여 Actions 컨트롤 옆에 _[!UICONTROL Status]_&#x200B;상자가 나타납니다.
+사용 가능한 작업의 선택은 목록마다 다르며, 선택한 작업에 따라 추가 옵션이 나타날 수 있습니다. 예를들어 레코드 그룹의 상태를 변경할 때 추가 옵션을 사용하여 Actions 컨트롤 옆에 _[!UICONTROL Status]_상자가 나타납니다.
 
 ## 1단계: 레코드 선택
 
@@ -31,7 +36,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Actions]** 컨트롤을 적용할 작업으로 설정하십시오.
 
-   **_예:_** 특성 업데이트
+   **_Example:_** 업데이트 특성
 
    - 목록에서 업데이트할 각 레코드의 확인란을 선택합니다.
 
@@ -53,7 +58,7 @@ ht-degree: 0%
 
 ## 확인란 작업
 
-| 작업 | 설명 |
+| 액션 | 설명 |
 |--- |--- |
 | [!UICONTROL Select All] | 목록에 있는 모든 레코드의 확인란을 선택합니다. |
 | [!UICONTROL Unselect All] | 목록의 모든 레코드 확인란을 선택 취소합니다. |

@@ -3,9 +3,15 @@ title: 단순 제품
 description: 개별적으로 또는 그룹화되거나, 구성 가능하거나, 번들 제품의 일부로 판매할 수 있는 간단한 제품을 만드는 방법에 대해 알아봅니다.
 exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/2olR82TlKdkHM3KSRFcOGzeotunoVG1oD2ZRJGdXe9s
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: 607
 ht-degree: 0%
 
 ---
@@ -22,7 +28,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Simple Product]**&#x200B;을(를) 선택합니다.
+1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Simple Product]**을(를) 선택합니다.
 
    ![간단한 제품 추가](./assets/product-add-simple.png){width="700" zoomable="yes"}
 
@@ -81,9 +87,9 @@ ht-degree: 0%
 
 1. 제품의 **[!UICONTROL Weight]**&#x200B;을(를) 입력하십시오.
 
-1. **[!UICONTROL Visibility]**&#x200B;의 기본 `Catalog, Search` 설정을 사용합니다.
+1. `Catalog, Search`의 기본 **[!UICONTROL Visibility]** 설정을 사용합니다.
 
-1. 제품에 _[!UICONTROL Categories]_&#x200B;을(를) 할당하려면&#x200B;**[!UICONTROL Select…]**&#x200B;상자를 클릭하고 다음 중 하나를 수행합니다.
+1. 제품에 _[!UICONTROL Categories]_을(를) 할당하려면&#x200B;**[!UICONTROL Select…]**상자를 클릭하고 다음 중 하나를 수행합니다.
 
    **기존 범주 선택**:
 
@@ -132,7 +138,7 @@ ht-degree: 0%
 
       - 오른쪽 상단에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-      - 스토어에서 제품을 보려면 **[!UICONTROL Customer View]**&#x200B;관리자&#x200B;_(_&#x200B;메뉴 화살표![) 메뉴에서 &#x200B;](../assets/icon-menu-down-arrow-black.png)을(를) 선택하세요.
+      - 스토어에서 제품을 보려면 _관리자_(![메뉴 화살표](../assets/icon-menu-down-arrow-black.png)) 메뉴에서 **[!UICONTROL Customer View]**&#x200B;을(를) 선택하세요.
 
      저장소가 새 브라우저 탭에서 열립니다.
 
@@ -140,7 +146,7 @@ ht-degree: 0%
 
    - **메서드 2:** 저장 및 닫기
 
-     _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
+     _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
 
 ## 기억해야 할 사항
 

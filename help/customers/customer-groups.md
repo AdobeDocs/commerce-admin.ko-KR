@@ -3,9 +3,15 @@ title: 고객 그룹
 description: 고객 그룹을 사용하여 그룹에 지정된 고객 및 그룹과 연관된 세금 분류에 사용할 수 있는 할인을 결정합니다.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: 17469d27128030b54fad6cf563a4b53f5f119eed
+TQID: https://experienceleague.adobe.com/jbqn6jRo2Pg2fARqEyHGLLzVVG0CyuudtGXklpUCaOw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: 445
 ht-degree: 0%
 
 ---
@@ -38,7 +44,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Add New Customer Group]**&#x200B;을(를) 클릭합니다.
 
-1. [!DNL **Group Name]**&#x200B;의 경우 그룹을 식별하려면 32자 미만의 고유 이름을 입력하십시오.
+1. [!DNL **Group Name]**의 경우 그룹을 식별하려면 32자 미만의 고유 이름을 입력하십시오.
 
 1. 그룹에 적용되는 **[!UICONTROL Tax Class]**&#x200B;을(를) 선택하십시오.
 
@@ -111,4 +117,4 @@ ht-degree: 0%
 
 이 데모를 시청하여 고객 그룹을 만드는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410172/?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)

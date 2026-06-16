@@ -3,10 +3,15 @@ title: 콘텐츠 업데이트 예약
 description: 제품에 대한 임시 가격 변경을 예약하는 데 사용되는 이 캠페인 예제를 검토하십시오.
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: 667
 ht-degree: 0%
 
 ---
@@ -24,9 +29,9 @@ ht-degree: 0%
 
 ## 제품에 대한 업데이트 예약
 
-1. _[!UICONTROL Products]_&#x200B;그리드에서 제품을 편집 모드로 엽니다.
+1. _[!UICONTROL Products]_그리드에서 제품을 편집 모드로 엽니다.
 
-1. 페이지 상단의 _[!UICONTROL Scheduled Changes]_&#x200B;상자에서&#x200B;**[!UICONTROL Schedule New Update]**&#x200B;을(를) 클릭합니다.
+1. 페이지 상단의 _[!UICONTROL Scheduled Changes]_상자에서&#x200B;**[!UICONTROL Schedule New Update]**을(를) 클릭합니다.
 
    ![새 업데이트 예약](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
@@ -38,7 +43,7 @@ ht-degree: 0%
 
    - 캘린더(![캘린더 아이콘](../assets/icon-calendar.png)) 도구를 사용하여 캠페인의 **시작 날짜** 및 **종료 날짜**&#x200B;를 선택하십시오.
 
-     끝이 열린 캠페인을 만들려면 종료 날짜를 지정하지 마십시오(비워 둠). 이 예제의 경우 캠페인은 2021년 1월 1일 자정(태평양 표준시 오전 12시)에 시작될 예정입니다.
+     끝이 열린 캠페인을 만들려면 종료 날짜를 지정하지 마십시오(비워 둠). 이 예제의 경우 캠페인은 2021년 1월 1일 자정(오전 12:00시 PST) 부터 시작될 예정입니다.
 
 
      종료 일자 없이 생성된 가격 규칙 캠페인의 경우 종료 일자는 나중에 추가할 수 없습니다. 이러한 경우 캠페인을 만들고 시작 날짜를 이전 캠페인이 종료되고 새 캠페인이 시작되도록 하려는 날짜로 설정해야 합니다. 해당 시작 날짜에 이전 캠페인이 종료되고 새 캠페인이 정의된 대로 시작됩니다.
@@ -49,7 +54,7 @@ ht-degree: 0%
      >
      >캠페인 시작 날짜 및 종료 날짜는 각 웹 사이트의 로컬 시간대에서 변환된 **_default_** 관리 시간대를 사용하여 정의해야 합니다. 예를 들어, 서로 다른 시간대에 여러 웹 사이트가 있지만 미국(기본) 시간대를 기반으로 하는 캠페인을 시작하려면 각 로컬 시간대에 대해 별도의 업데이트를 예약해야 합니다. 이 경우 **[!UICONTROL Start Date]** 및 **[!UICONTROL End Date]**&#x200B;을(를) 각 로컬 웹 사이트 시간대에서 기본 관리 시간대로 변환되도록 설정합니다.
 
-1. 아래로 스크롤하여 _[!UICONTROL Price]_&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Advanced Pricing]**&#x200B;을(를) 클릭합니다.
+1. 아래로 스크롤하여 _[!UICONTROL Price]_을(를) 클릭하고&#x200B;**[!UICONTROL Advanced Pricing]**을(를) 클릭합니다.
 
 1. 예약된 캠페인 동안 제품에 대한 **[!UICONTROL Special Price]**&#x200B;을(를) 입력하고 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 

@@ -3,9 +3,15 @@ title: 주문 보관
 description: 주문 아카이브를 구성하여 성능을 개선하고 조직의 Commerce을 간소화하는 방법에 대해 알아봅니다.
 exl-id: 12025591-bfe2-4f44-9358-a38ea4493b5c
 feature: Orders, Configuration
-source-git-commit: 47f170f1a1dd1c236b99c2e7139bb119368abf47
+TQID: https://experienceleague.adobe.com/Zl8qJPnr8JcSSyIHewPH-GFKBkweyAmh7So9u7vHDSk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: 750
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->_[!UICONTROL Archive]_&#x200B;옵션은 보관이 [사용](../configuration-reference/sales/sales.md)인 경우에만 [[!UICONTROL Sales] 메뉴에 나타납니다](sales-menu.md).
+>_[!UICONTROL Archive]_옵션은 보관이 [사용](../configuration-reference/sales/sales.md)인 경우에만 [[!UICONTROL Sales] 메뉴에 나타납니다](sales-menu.md).
 
 ## 주문 아카이브 구성
 
@@ -52,7 +58,7 @@ ht-degree: 0%
 
 ## 보관된 문서 보기
 
-1. _[!UICONTROL Archive]_&#x200B;아래의&#x200B;_[!UICONTROL Sales]_ 메뉴에서 다음 중 하나를 선택합니다.
+1. _[!UICONTROL Archive]_아래의_[!UICONTROL Sales]_ 메뉴에서 다음 중 하나를 선택합니다.
 
    - **[!UICONTROL Orders]**
    - **[!UICONTROL Invoices]**
@@ -111,7 +117,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
 
-지정된 일수가 지난 후 주문, 송장, 선적 및 대변 메모를 보관하도록 스토어를 구성할 수 있습니다. 주문 및 주문 관련 문서를 아카이브로 이동하거나 이전 상태로 복원할 수 있습니다. 보관된 주문은 삭제되지 않고 관리자로부터 계속 사용할 수 있습니다. 보관된 데이터를 CSV 파일로 내보내고 스프레드시트로 열 수 있습니다. 활성화하면 작업 영역의 맨 위에 _[!UICONTROL Archive]_&#x200B;명령이 나타납니다.
+지정된 일수가 지난 후 주문, 송장, 선적 및 대변 메모를 보관하도록 스토어를 구성할 수 있습니다. 주문 및 주문 관련 문서를 아카이브로 이동하거나 이전 상태로 복원할 수 있습니다. 보관된 주문은 삭제되지 않고 관리자로부터 계속 사용할 수 있습니다. 보관된 데이터를 CSV 파일로 내보내고 스프레드시트로 열 수 있습니다. 활성화하면 작업 영역의 맨 위에 _[!UICONTROL Archive]_명령이 나타납니다.
 
 ## 수동으로 주문 보관
 
@@ -121,7 +127,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Actions]** 컨트롤을 `Move to Archive`(으)로 설정하고 순서가 보관된 메시지를 찾습니다.
 
-   ![선택한 주문을 보관 위치로 이동 &#x200B;](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
+   ![선택한 주문을 보관 위치로 이동 ](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
@@ -131,13 +137,13 @@ ht-degree: 0%
 
 1. 다음 방법 중 하나를 사용하여 아카이브 보기를 엽니다.
 
-   - _[!UICONTROL Orders]_&#x200B;눈금 위의 단추 모음에서&#x200B;**[!UICONTROL Go to Archive]**&#x200B;을(를) 클릭합니다.
+   - _[!UICONTROL Orders]_눈금 위의 단추 모음에서&#x200B;**[!UICONTROL Go to Archive]**을(를) 클릭합니다.
 
    - _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Archive]_>**[!UICONTROL Orders]**(으)로 이동합니다.
 
    >[!NOTE]
    >
-   >주문 페이지와 마찬가지로 보관된 주문 페이지의 제목은 _[!UICONTROL Orders]_&#x200B;입니다. 유일한 차이는&#x200B;_[!UICONTROL Return to Orders Management]_&#x200B;에 대한 단추 모음의 옵션입니다. 또한 페이지의 URL은 주문 보관 상태임을 나타냅니다.
+   >주문 페이지와 마찬가지로 보관된 주문 페이지의 제목은 _[!UICONTROL Orders]_입니다. 유일한 차이는_[!UICONTROL Return to Orders Management]_&#x200B;에 대한 단추 모음의 옵션입니다. 또한 페이지의 URL은 주문 보관 상태임을 나타냅니다.
 
 1. _Action_ 열에서 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 

@@ -3,9 +3,15 @@ title: 통화 구성
 description: 기본 통화의 범위를 설정하고 수락하는 통화와 가격 표시에 사용할 통화를 지정하는 방법에 대해 알아봅니다.
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
+TQID: https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: 826
 ht-degree: 0%
 
 ---
@@ -144,13 +150,13 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**(으)로 이동합니다.
 
-   스토어에 사용할 수 있는 각 통화가 _[!UICONTROL Currency]_&#x200B;목록에 나타납니다.
+   스토어에 사용할 수 있는 각 통화가 _[!UICONTROL Currency]_목록에 나타납니다.
 
 1. 필요에 따라 목록에서 설정을 변경합니다.
 
    - 사용할 각 통화에 대해 사용자 지정 기호를 입력하거나 각 통화에 대해 **[!UICONTROL Use Standard]** 확인란을 선택하십시오.
 
-   - 기본 기호를 재정의하려면 _[!UICONTROL Use Standard]_&#x200B;확인란의 선택을 취소하고 사용할 기호를 입력합니다.
+   - 기본 기호를 재정의하려면 _[!UICONTROL Use Standard]_확인란의 선택을 취소하고 사용할 기호를 입력합니다.
 
    >[!NOTE]
    >

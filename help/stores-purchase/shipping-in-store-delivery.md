@@ -3,9 +3,15 @@ title: 매장 내 배달
 description: 스토어에 대한 매장 내 게재 옵션을 설정하는 방법을 알아봅니다.
 exl-id: bd64b110-5c39-41c6-8a0c-38561b2a5bf4
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/9pETzHXJvXmnJKhRbS7maASWBuMtbTbhJtCRKHekGTo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: 570
 ht-degree: 0%
 
 ---
@@ -18,20 +24,20 @@ ht-degree: 0%
 
 상점 앞에서 체크아웃하는 동안:
 
-1. 고객이 **[!UICONTROL Pick In Store]**&#x200B;을(를) 클릭하거나 _[!UICONTROL In-Store Pickup Delivery]_&#x200B;배송 방법을 선택합니다.
-1. _[!UICONTROL Pick In Store]_&#x200B;체크아웃 탭이 열립니다.
+1. 고객이 **[!UICONTROL Pick In Store]**&#x200B;을(를) 클릭하거나 _[!UICONTROL In-Store Pickup Delivery]_배송 방법을 선택합니다.
+1. _[!UICONTROL Pick In Store]_체크아웃 탭이 열립니다.
 
-고객이 주소를 가지고 있거나 _[!UICONTROL Pick In Store]_&#x200B;탭으로 전환하기 전에 배송 주소 양식을 미리 채운 경우:
+고객이 주소를 가지고 있거나 _[!UICONTROL Pick In Store]_탭으로 전환하기 전에 배송 주소 양식을 미리 채운 경우:
 
 - 구성된 반경 내에서 고객 주소에 가장 가까운 출처는 자동으로 픽업 스토어로 미리 선택됩니다.
-- 고객이 **[!UICONTROL Select Other]**&#x200B;을(를) 클릭하면 _[!UICONTROL Select Store]_&#x200B;검색 양식이 열립니다. 미리 선택한 스토어에 대해 구성된 거리(반경) 내의 스토어만 목록에 표시됩니다. 목록에 있는 모든 상점은 미리 선택한 상점과의 거리를 기준으로 정렬됩니다.
+- 고객이 **[!UICONTROL Select Other]**&#x200B;을(를) 클릭하면 _[!UICONTROL Select Store]_검색 양식이 열립니다. 미리 선택한 스토어에 대해 구성된 거리(반경) 내의 스토어만 목록에 표시됩니다. 목록에 있는 모든 상점은 미리 선택한 상점과의 거리를 기준으로 정렬됩니다.
 - 고객이 검색 필드에 우편 번호나 도시 이름을 입력하면 검색된 위치까지 구성된 거리(반경) 내 점포만 목록에 표시됩니다. 목록의 모든 매장은 검색된 위치까지의 거리로 정렬됩니다.
 - 고객이 검색 필드에서 우편 번호나 도시 이름을 지우면 장바구니의 제품에 지정된 모든 픽업 매장이 고객에게 표시됩니다. 목록의 모든 저장소는 거리(반경) 제한 없이 소스 코드의 오름차순으로 정렬됩니다.
 
-고객이 주소가 없거나 _[!UICONTROL Pick In Store]_&#x200B;탭으로 전환하기 전에 배송 주소 양식을 미리 채우지 않은 경우:
+고객이 주소가 없거나 _[!UICONTROL Pick In Store]_탭으로 전환하기 전에 배송 주소 양식을 미리 채우지 않은 경우:
 
 - 페이지에 _사용 가능한 정보를 기반으로 픽업 위치를 미리 선택할 수 없습니다_ 메시지가 표시됩니다.
-- 고객이 **[!UICONTROL Select Store]**&#x200B;을(를) 클릭하면 _[!UICONTROL Select Store]_&#x200B;검색 양식이 열립니다.
+- 고객이 **[!UICONTROL Select Store]**&#x200B;을(를) 클릭하면 _[!UICONTROL Select Store]_검색 양식이 열립니다.
 - 장바구니의 제품에 할당된 모든 픽업 스토어는 거리(반경) 제한 없이 소스 코드 오름차순으로 표시됩니다.
 - 고객이 검색 필드에 우편 번호나 도시 이름을 입력하면 검색된 위치까지 구성된 거리(반경) 내 점포만 목록에 표시됩니다. 목록의 모든 매장은 검색된 위치까지의 거리로 정렬됩니다.
 
@@ -45,7 +51,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**상점 앞에서 검색 결과가 거리(반경)별로 필터링되어 관련 결과를 표시합니다.**<br><br>
->고객의 배송 주소가 있는 경우 배송 주소에서 거리(반경)를 계산할 기본 위치를 가져옵니다.<br><br>
+>고객의 배송 주소가 있는 경우 배송 주소에서 거리(반경)를 계산할 기본 위치를 사용합니다.<br><br>
 >고객에게 배송 주소가 없는 경우 거리를 계산할 기본 위치는 [기본 세금 대상 계산](../configuration-reference/sales/tax.md#default-tax-destination-calculation) 설정에서 가져옵니다. 이러한 설정은 저장소 보기별로 설정되며, 픽업 저장소 검색이 제대로 작동하도록 기본 세금 대상 계산 설정을 구성해야 합니다.
 
 ## 매장 내 게재 설정

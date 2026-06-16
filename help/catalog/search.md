@@ -3,9 +3,15 @@ title: 카탈로그 검색 개요
 description: 고객이 상점에서 제품을 찾는 데 사용할 수 있는 빠른 검색 및 고급 검색 도구에 대해 알아봅니다.
 exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
 feature: Catalog Management, Search
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/PV3ZrkqHaUZw-2LFHCNKUeDcvJmkvFcuoR3ZxxURP54
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: 541
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ko)은(는) 빠르고, 관련성이 높고, 직관적인 검색 환경을 제공하며, Adobe Commerce에서 추가 비용 없이 사용할 수 있습니다. 이 섹션에서는 [!DNL Live Search]과(와) 다를 수 있는 표준 검색 기능에 대해 설명합니다.
+>[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)은(는) 빠르고, 관련성이 높고, 직관적인 검색 환경을 제공하며, Adobe Commerce에서 추가 비용 없이 사용할 수 있습니다. 이 섹션에서는 [!DNL Live Search]과(와) 다를 수 있는 표준 검색 기능에 대해 설명합니다.
 
 탐색만 의존한 고객보다 검색을 이용하는 사람이 구매를 할 가능성이 높다는 연구결과가 나왔다. 실제로 일부 연구에 따르면, 검색을 이용하는 사람들은 구매에 성공할 가능성이 거의 두 배이다.
 
@@ -32,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)이(가) 설치되고 [[!DNL Storefront Popover]](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-storefront/storefront-popover) 위젯이 활성화되면 검색 상자가 &quot;입력한 대로 검색&quot;을 반환하여 팝업이 표시됩니다.
+>[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)이(가) 설치되고 [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover) 위젯이 활성화되면 검색 상자가 &quot;입력한 대로 검색&quot;을 반환하여 팝업이 표시됩니다.
 
 스토어 헤더의 검색 상자는 방문자가 카탈로그에서 제품을 찾을 수 있도록 도와줍니다. 검색 텍스트는 전체 또는 부분 제품 이름 또는 제품을 설명하는 다른 단어 또는 구문일 수 있습니다. 사람들이 제품을 찾는 데 사용하는 검색어는 관리자로부터 관리할 수 있습니다.
 
@@ -48,7 +54,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->여기에 설명된 고급 양식 검색 기능은 [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ko)에 적용되지 않습니다.
+>여기에 설명된 고급 양식 검색 기능은 [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)에 적용되지 않습니다.
 
 고급 검색을 사용하면 쇼핑객이 양식에 입력한 값을 기반으로 카탈로그를 검색할 수 있습니다. 양식에는 여러 필드가 있으므로 단일 검색에 여러 매개 변수가 포함될 수 있습니다. 결과는 기준에 일치하는 카탈로그의 모든 제품 목록입니다. 고급 검색 링크가 저장소의 바닥글에 있습니다.
 

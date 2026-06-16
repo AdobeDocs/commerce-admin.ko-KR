@@ -3,9 +3,15 @@ title: 제품에 속성 추가
 description: 카탈로그의 제품에 속성을 추가하는 방법을 알아봅니다.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 45d69ccc1a5a6a7b8d072465c19829a76dde826d
+TQID: https://experienceleague.adobe.com/UjUC1RvGmumw8smkucJTNMYlrnQ43uurysnPdD48eog
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: 867
 ht-degree: 0%
 
 ---
@@ -36,7 +42,7 @@ ht-degree: 0%
 
 ![특성 속성](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Attribute Properties]_&#x200B;에서 특성을 식별할&#x200B;**[!UICONTROL Attribute Label]**&#x200B;을(를) 입력하십시오.
+1. _[!UICONTROL Attribute Properties]_에서 특성을 식별할&#x200B;**[!UICONTROL Attribute Label]**을(를) 입력하십시오.
 
 1. 데이터 입력에 사용할 **[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;을(를) [입력 컨트롤](attributes-input-types.md) 유형으로 설정하십시오.
 
@@ -85,11 +91,11 @@ ht-degree: 0%
 
 1. 특성을 제품 표에 열로 포함하려면 **[!UICONTROL Add to Column Options]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
-1. 이 열로 _[!UICONTROL Products]_&#x200B;그리드를 필터링하려면&#x200B;**[!UICONTROL Use in Filter Options]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+1. 이 열로 _[!UICONTROL Products]_그리드를 필터링하려면&#x200B;**[!UICONTROL Use in Filter Options]**을(를) `Yes`(으)로 설정하십시오.
 
 ## 4단계: 필드 레이블 입력
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Manage titles]**&#x200B;를 확장합니다.
+1. **[!UICONTROL Manage titles]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. 필드의 레이블로 사용할 **[!UICONTROL Title]**&#x200B;을(를) 입력하십시오.
 
@@ -99,11 +105,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 라이브 검색에서 이 속성을 패싯으로 사용하려면 저장소별 레이블을 지정해야 합니다. 없으면 Facet 구성 페이지에 속성 이름이 올바르게 표시되지 않을 수 있습니다. 구성을 업데이트하려면 [Live Search 안내서](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)의 Live Search 환경 설정 목록&#x200B;_에서_&#x200B;편집 옵션을 사용하여 레이블을 수동으로 편집하십시오.
+   > 라이브 검색에서 이 속성을 패싯으로 사용하려면 저장소별 레이블을 지정해야 합니다. 없으면 Facet 구성 페이지에 속성 이름이 올바르게 표시되지 않을 수 있습니다. 구성을 업데이트하려면 _Live Search 안내서_&#x200B;의 Live Search 환경 설정 목록](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)에서 [편집 옵션을 사용하여 레이블을 수동으로 편집하십시오.
 
 ## 5단계: 상점 속성 설명
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Storefront Properties]**&#x200B;를 확장합니다.
+1. **[!UICONTROL Storefront Properties]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![Storefront 속성](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
@@ -119,7 +125,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Use in Search]_&#x200B;설정이 `No`(으)로 설정되어 있으면&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ 설정이 표시되지 않고 [!UICONTROL Use in Layered Navigation] 설정 값이 있는 검색에서 제품 특성이 사용되지 않습니다.
+   >_[!UICONTROL Use in Search]_설정이 `No`(으)로 설정되어 있으면_[!UICONTROL Use in Search Results Layered Navigation]_ 설정이 표시되지 않고 [!UICONTROL Use in Layered Navigation] 설정 값이 있는 검색에서 제품 특성이 사용되지 않습니다.
 
 1. 검색 결과 페이지의 레이어 탐색에서 특성을 사용하려면 **[!UICONTROL Use in Search Results Layered Navigation]**&#x200B;을(를) `Yes`(으)로 설정하고 **[!UICONTROL Position]** 필드에 숫자를 입력하십시오.
 
@@ -127,7 +133,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Position]_&#x200B;필드는 기본적으로 흐리게 표시되어 있으므로 이 설정을 수정하려면 먼저 특성을 저장해야 합니다.
+   >_[!UICONTROL Position]_필드는 기본적으로 흐리게 표시되어 있으므로 이 설정을 수정하려면 먼저 특성을 저장해야 합니다.
 
 1. 가격 규칙에서 특성을 사용하려면 **[!UICONTROL Use for Promo Rule Conditions]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 

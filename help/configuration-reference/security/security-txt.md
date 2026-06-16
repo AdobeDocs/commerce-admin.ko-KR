@@ -1,12 +1,18 @@
 ---
-title: '[!UICONTROL Security] &gt; [!UICONTROL Security.txt]'
-description: Commerce 관리자의 [!UICONTROL Security] &gt; [!UICONTROL Security.txt] 페이지에서 구성 설정을 검토하십시오.
+title: '[!UICONTROL Security] > [!UICONTROL Security.txt]'
+description: Commerce 관리자의 [!UICONTROL Security] > [!UICONTROL Security.txt] 페이지에서 구성 설정을 검토합니다.
 exl-id: 26385864-cfd8-456b-91b2-bf5d019c09e1
 feature: Configuration, Security, Site Management
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+TQID: https://experienceleague.adobe.com/fXStEab1k6GKC5Tj7CStSGou3uNB-wJk5rZ-7EiFkcg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 0%
+source-wordcount: 360
+ht-degree: 1%
 
 ---
 
@@ -44,7 +50,7 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Encryption] | 웹 사이트 | 보안 연구자가 암호화된 통신을 전송하는 데 사용할 수 있는 암호화 키의 위치를 가리키는 URL입니다. _&#x200B;**이 필드에 암호화 키를 입력하지 마십시오.**&#x200B;_ <br/><br/>신뢰할 수 있는 원본에서 가져온 키인지 확인하는 것은 연구자의 책임입니다. 연구자들은 그 키가 디지털 서명을 생성하는데 사용된 것과 같다고 가정해서는 안 된다. 예: <br />웹 서버의 OpenPGP 키 - `https://mystore.com/pgp-key.txt` |
+| [!UICONTROL Encryption] | 웹 사이트 | 보안 연구자가 암호화된 통신을 전송하는 데 사용할 수 있는 암호화 키의 위치를 가리키는 URL입니다. _**이 필드에 암호화 키를 입력하지 마십시오.**_ <br/><br/>신뢰할 수 있는 원본의 키인지 확인하는 것은 연구자의 책임입니다. 연구자들은 그 키가 디지털 서명을 생성하는데 사용된 것과 같다고 가정해서는 안 된다. 예: <br />웹 서버의 OpenPGP 키 - `https://mystore.com/pgp-key.txt` |
 | [!UICONTROL Acknowledgments] | 웹 사이트 | 보안 연구자가 인정되는 스토어의 페이지를 가리키는 URL(예: `https://mystore.com/hall-of-fame.html`). 향후 공격을 방지하려면 취약성 문제에 대한 구체적인 정보를 밝히지 않고 일반적인 설명만 포함하십시오. 예:<br />다음 연구자에게 감사드립니다.<br />(yyyy/mm/dd) Justin Thyme - SQL 삽입 |
 | [!UICONTROL Preferred Languages] | 웹 사이트 | 최소 하나 이상의 기본 보안 보고 언어를 지정합니다. 여러 개의 두 문자 [언어 코드](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)는 쉼표로 구분하십시오. 지정한 모든 언어의 우선 순위는 동일합니다. 예를들어, 영어, 스페인어, 프랑스어를 지정하려면 `en, es, fr`을(를) 입력합니다. |
 | [!UICONTROL Hiring] | 웹 사이트 | 보안 관련 작업 위치를 나열하는 사이트의 페이지 URL. 예: `https://mystore.com/jobs.html` |

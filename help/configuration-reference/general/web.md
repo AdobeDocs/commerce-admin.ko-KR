@@ -1,11 +1,17 @@
 ---
-title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
-description: Commerce 관리자의 [!UICONTROL General] &gt; [!UICONTROL Web] 페이지에서 구성 설정을 검토하십시오.
+title: '[!UICONTROL General] > [!UICONTROL Web]'
+description: Commerce 관리자의 [!UICONTROL General] > [!UICONTROL Web] 페이지에서 구성 설정을 검토합니다.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/31ifTtUvNwjEouPwT5N2cQyr6CUrEblmMULOolo6Amw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: 1809
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 ![웹 > 일반 옵션](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 필드 | 범위 | 설명 |
 |  ---  |  ---  |  ---  |
@@ -32,7 +38,7 @@ ht-degree: 0%
 
 ![웹 > 검색 엔진 최적화](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -44,7 +50,7 @@ ht-degree: 0%
 
 ![웹 > 기본 URL](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -59,7 +65,7 @@ ht-degree: 0%
 
 ![웹 > 기본 URL(보안)](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -79,7 +85,7 @@ ht-degree: 0%
 
 ![웹 > 기본 페이지](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -96,13 +102,13 @@ ht-degree: 0%
 
 ![기본 레이아웃](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/design/layout/page-layout) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Default Product Layout] | 글로벌 | 제품 페이지에 기본적으로 사용되는 [레이아웃](../../content-design/page-layout.md)을(를) 결정합니다. 옵션: <br/>**`No layout updates`**- 기본적으로 제품 페이지에 대해 레이아웃 업데이트를 사용할 수 없습니다.<br/>**`Empty`** - 기본적으로 은 제품 페이지에 빈 레이아웃을 사용합니다. <br/>**`1 column`**- 기본적으로 은 제품 페이지에 대해 단일 열 레이아웃을 사용합니다.<br/>**`2 columns with left bar`** - 기본적으로 에서는 제품 페이지의 왼쪽에 사이드바가 있는 2열 레이아웃을 사용합니다. <br/>**`2 columns with right bar`**- 기본적으로 제품 페이지의 오른쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`3 columns`** - 기본적으로 은 제품 페이지의 왼쪽과 오른쪽에 사이드바가 있는 3열 레이아웃을 사용합니다.<br/>**`Page -- Full Width`**- ([!DNL Page Builder] 필요) 기본적으로 제품 페이지의 페이지 — 전체 너비 레이아웃을 사용합니다.<br/>**`Category - Full Width`** - ([!DNL Page Builder] 필요) 기본적으로 제품 페이지에 대해 범주 - 전체 너비 레이아웃을 사용합니다. <br/>**`Product - Full Width`**- ([!DNL Page Builder] 필요) 기본적으로 제품 페이지의 제품 - 전체 너비 레이아웃을 사용합니다. |
-| [!UICONTROL Default Category Layout] | 글로벌 | 범주 페이지에 기본적으로 사용되는 [레이아웃](../../content-design/page-layout.md)을 결정합니다. 옵션: <br/>**`No layout updates`**- 기본적으로 범주 페이지에는 레이아웃 업데이트를 사용할 수 없습니다.<br/>**`Empty`** - 기본적으로, 범주 페이지에 빈 레이아웃을 사용합니다. <br/>**`1 column`**- 기본적으로 범주 페이지에 대해 단일 열 레이아웃을 사용합니다.<br/>**`2 columns with left bar`** - 기본적으로, 범주 페이지의 경우 왼쪽에 사이드바가 있는 2열 레이아웃을 사용합니다. <br/>**`2 columns with right bar`**- 기본적으로 범주 페이지의 오른쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`3 columns`** - 기본적으로 은 범주 페이지의 왼쪽과 오른쪽에 사이드바가 있는 3열 레이아웃을 사용합니다.<br/>**`Page - Full Width`**- ([!DNL Page Builder] 필요) 기본적으로 범주 페이지에 대한 페이지 - 전체 너비 레이아웃을 사용합니다.<br/>**`Category - Full Width`** - ([!DNL Page Builder] 필요) 기본적으로 범주 페이지의 범주 - 전체 너비 레이아웃을 사용합니다. <br/>**`Product - Full Width`**- ([!DNL Page Builder] 필요) 기본적으로 범주 페이지에 대해 제품 - 전체 너비 레이아웃을 사용합니다. |
-| 기본 페이지 레이아웃 | 글로벌 | CMS 페이지에 기본적으로 사용되는 [레이아웃](../../content-design/page-layout.md)을(를) 결정합니다. 옵션: <br/>**`No layout updates`**- 기본적으로 CMS 페이지에 대해 레이아웃 업데이트를 사용할 수 없습니다.<br/>**`Empty`** - 기본적으로 은(는) CMS 페이지에 대해 빈 레이아웃을 사용합니다. <br/>**`1 column`**- 기본적으로 은(는) CMS 페이지에 대해 단일 열 레이아웃을 사용합니다.<br/>**`2 columns with left bar`** - 기본적으로 은(는) CMS 페이지의 왼쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`2 columns with right bar`**- 기본적으로 은(는) CMS 페이지의 오른쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`3 columns`** - 기본적으로 은 CMS 페이지의 왼쪽과 오른쪽에 사이드바가 있는 3열 레이아웃을 사용합니다.<br/>**`Page - Full Width`**- ([!UICONTROL Page Builder] 필요) 기본적으로 CMS 페이지에 대한 페이지 - 전체 너비 레이아웃을 사용합니다.<br/>**`Category - Full Width`** - ([!UICONTROL Page Builder] 필요) 기본적으로 CMS 페이지에 대해 범주 - 전체 너비 레이아웃을 사용합니다. <br/>**`Product - Full Width`**- ([!DNL Page Builder] 필요) 기본적으로 CMS 페이지에 대한 제품 - 전체 너비 레이아웃을 사용합니다. |
+| [!UICONTROL Default Product Layout] | 글로벌 | 제품 페이지에 기본적으로 사용되는 [레이아웃](../../content-design/page-layout.md)을(를) 결정합니다. 옵션: <br/>**`No layout updates`**- 기본적으로 제품 페이지에 대해 레이아웃 업데이트를 사용할 수 없습니다.<br/>**`Empty`** - 기본적으로 은 제품 페이지에 빈 레이아웃을 사용합니다. <br/>**`1 column`**- 기본적으로 은 제품 페이지에 대해 단일 열 레이아웃을 사용합니다.<br/>**`2 columns with left bar`** - 기본적으로 에서는 제품 페이지의 왼쪽에 사이드바가 있는 2열 레이아웃을 사용합니다. <br/>**`2 columns with right bar`**- 기본적으로 은 제품 페이지의 오른쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`3 columns`** - 기본적으로 은(는) 제품 페이지의 왼쪽 및 오른쪽에 사이드바가 있는 3열 레이아웃을 사용합니다.<br/>**`Page -- Full Width`**- ([!DNL Page Builder] 필요) 기본적으로 제품 페이지의 페이지 — 전체 너비 레이아웃을 사용합니다.<br/>**`Category - Full Width`** - ([!DNL Page Builder] 필요) 기본적으로 제품 페이지에 대해 범주 - 전체 너비 레이아웃을 사용합니다. <br/>**`Product - Full Width`**- ([!DNL Page Builder] 필요) 기본적으로 제품 페이지의 제품 - 전체 너비 레이아웃을 사용합니다. |
+| [!UICONTROL Default Category Layout] | 글로벌 | 범주 페이지에 기본적으로 사용되는 [레이아웃](../../content-design/page-layout.md)을 결정합니다. 옵션: <br/>**`No layout updates`**- 기본적으로 범주 페이지에는 레이아웃 업데이트를 사용할 수 없습니다.<br/>**`Empty`** - 기본적으로 은 범주 페이지에 빈 레이아웃을 사용합니다. <br/>**`1 column`**- 기본적으로 은 범주 페이지에 단일 열 레이아웃을 사용합니다.<br/>**`2 columns with left bar`** - 기본적으로 은(는) 범주 페이지의 왼쪽에 사이드바가 있는 2열 레이아웃을 사용합니다. <br/>**`2 columns with right bar`**- 기본적으로 은(는) 범주 페이지의 오른쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`3 columns`** - 기본적으로 범주 페이지의 왼쪽 및 오른쪽에 사이드바가 있는 3열 레이아웃을 사용합니다.<br/>**`Page - Full Width`**- ([!DNL Page Builder] 필요) 기본적으로 범주 페이지에 대해 [페이지 - 전체 너비] 레이아웃을 사용합니다.<br/>**`Category - Full Width`** - ([!DNL Page Builder] 필요) 기본적으로 범주 페이지에 대한 범주 - 전체 너비 레이아웃을 사용합니다. <br/>**`Product - Full Width`**- ([!DNL Page Builder] 필요) 기본적으로 범주 페이지에 대해 제품 - 전체 너비 레이아웃을 사용합니다. |
+| 기본 페이지 레이아웃 | 글로벌 | CMS 페이지에 기본적으로 사용되는 [레이아웃](../../content-design/page-layout.md)을(를) 결정합니다. 옵션: <br/>**`No layout updates`**- 기본적으로 CMS 페이지에 대해 레이아웃 업데이트를 사용할 수 없습니다.<br/>**`Empty`** - 기본적으로 은(는) CMS 페이지에 대해 빈 레이아웃을 사용합니다. <br/>**`1 column`**- 기본적으로 은(는) CMS 페이지에 대해 단일 열 레이아웃을 사용합니다.<br/>**`2 columns with left bar`** - 기본적으로 CMS 페이지의 왼쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`2 columns with right bar`**- 기본적으로 은 CMS 페이지의 오른쪽에 사이드바가 있는 2열 레이아웃을 사용합니다.<br/>**`3 columns`** - 기본적으로 CMS 페이지의 왼쪽 및 오른쪽에 사이드바가 있는 3열 레이아웃을 사용합니다.<br/>**`Page - Full Width`**- ([!UICONTROL Page Builder] 필요) 기본적으로 CMS 페이지에 대한 페이지 - 전체 너비 레이아웃을 사용합니다.<br/>**`Category - Full Width`** - ([!UICONTROL Page Builder] 필요) 기본적으로 CMS 페이지에 대해 범주 - 전체 너비 레이아웃을 사용합니다. <br/>**`Product - Full Width`**- ([!DNL Page Builder] 필요) 기본적으로 CMS 페이지에 대한 제품 - 전체 너비 레이아웃을 사용합니다. |
 
 {style="table-layout:auto"}
 
@@ -110,7 +116,7 @@ ht-degree: 0%
 
 ![웹 > 기본 쿠키 설정](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -126,7 +132,7 @@ ht-degree: 0%
 
 ![웹 > 세션 유효성 검사](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -141,7 +147,7 @@ ht-degree: 0%
 
 ![웹 > 브라우저 기능 검색](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

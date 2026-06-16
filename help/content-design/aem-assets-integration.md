@@ -3,9 +3,15 @@ title: Commerce용 Adobe Experience Manager Assets 통합
 description: Experience Manager Assets을  [!DNL Commerce] 인스턴스와 통합하여 스토어에서 사용할 수 있는 수많은 미디어 자산에 액세스하는 방법에 대해 알아봅니다.
 feature: CMS, Media, Configuration, Integration
 exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
-source-git-commit: 36defb137a48067fe59b95f0519a7703a38e039d
+TQID: https://experienceleague.adobe.com/Jr8UkbpstIBaxOiic0GhFX5N8-Jw2R30q-PIFkGGy2Q
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: da3860b0-d637-47df-bef0-273751180266id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: 417
 ht-degree: 0%
 
 ---
@@ -40,7 +46,7 @@ Commerce용 Adobe Experience Manager(AEM) Assets 통합은 AEM as a Digital Asse
 
 이 비디오를 통해 Adobe Commerce과 AEM Assets이 함께 콘텐츠 워크플로를 간소화하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447891?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3447837)
 
 ## 다음 단계
 
@@ -48,4 +54,4 @@ Commerce용 Adobe Experience Manager(AEM) Assets 통합은 AEM as a Digital Asse
 
 ## 지원
 
-정보가 필요하거나 이 안내서에서 다루지 않는 질문이 있는 경우 AEM Assets 통합 영업 담당자에게 문의하거나 [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#submit-ticket)을 만들어 추가 도움을 받으십시오.
+정보가 필요하거나 이 안내서에서 다루지 않는 질문이 있는 경우 AEM Assets 통합 영업 담당자에게 문의하거나 [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)을 만들어 추가 도움을 받으십시오.

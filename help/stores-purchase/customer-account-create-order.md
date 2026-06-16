@@ -3,16 +3,22 @@ title: 주문 만들기
 description: Commerce 관리에서 고객에 대한 주문을 만드는 방법을 알아봅니다.
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: 0e2d79f6b716f5d59aa9cd60b096608a6b2dbb98
+TQID: https://experienceleague.adobe.com/0TUx-cDuonSkm4G0zWaU95ZKDuB-yhPb0aaEW57K-3g
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: 376
 ht-degree: 0%
 
 ---
 
 # 주문 만들기
 
-지원이 필요한 등록 고객의 경우 책임자로부터 직접 전체 주문을 만들 수 있습니다. _[!UICONTROL Create New Order]_&#x200B;양식에는 고객 계정 대시보드의 활동 요약과 함께 일반 체크아웃 프로세스에 필요한 모든 정보가 포함되어 있습니다.
+지원이 필요한 등록 고객의 경우 책임자로부터 직접 전체 주문을 만들 수 있습니다. _[!UICONTROL Create New Order]_양식에는 고객 계정 대시보드의 활동 요약과 함께 일반 체크아웃 프로세스에 필요한 모든 정보가 포함되어 있습니다.
 
 ![고객에 대한 주문 만들기](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -28,7 +34,7 @@ ht-degree: 0%
 
    ![Workspace 헤더](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
-   [을(를) 클릭하여 &#x200B;](orders.md#orders-workspace)작업 영역 순서 지정&#x200B;**[!UICONTROL Create New Order]**&#x200B;에서 순서를 만들 수도 있습니다.
+   **[!UICONTROL Create New Order]**&#x200B;을(를) 클릭하여 [작업 영역 순서 지정](orders.md#orders-workspace)에서 순서를 만들 수도 있습니다.
 
 ## 2단계: 제품 추가
 
@@ -95,11 +101,11 @@ ht-degree: 0%
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
-   - [[!UICONTROL [사용자 정의 주문 속성]]](../stores-purchase/order-processing.md#custom-order-attributes)
+   - [!UICONTROL [사용자 정의 주문 속성]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
->결제 서비스 확장을 설치하고 구성할 때 이 기능을 지원하는 결제 방법에 대한 자세한 내용은 [결제 서비스 안내서](https://experienceleague.adobe.com/ko/docs/commerce/payment-services/guide-overview)를 참조하십시오.
+>결제 서비스 확장을 설치하고 구성할 때 이 기능을 지원하는 결제 방법에 대한 자세한 내용은 [결제 서비스 안내서](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)를 참조하십시오.
 
 ## 3단계: 주문 실행
 

@@ -3,9 +3,15 @@ title: 나라별 세금 지침
 description: 국가에 따라 권장된 세금 설정을 검토합니다.
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+TQID: https://experienceleague.adobe.com/hs8-0P0zSc-du-ubuYHiw7Yg9ps7SMPudBxcJgh-VCc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: 1337
 ht-degree: 0%
 
 ---
@@ -132,7 +138,7 @@ ht-degree: 0%
 | 세금 계산 | 항목에서 |
 | 택배? | 예 |
 | 할인 적용 | 세전, 세금을 포함한 가격 할인. |
-| 댓글 | B2B 상인이 보다 간단한 부가가치세 공급망 고려사항을 제공할 수 있도록 하였다. 행에 대한 세금 계산도 유효합니다. 그러나 과세 관할에 문의하십시오. 설정은 상인이 공급망에 있고, 판매된 재화가 다른 공급업체가 부가 가치세 리베이트 등을 위해 사용된다고 가정합니다. 이러한 정의는 리베이트 발생 속도를 높이기 위한 항목별 조세를 쉽게 식별할 수 있도록 한다. <br/><br/>**_참고:_**&#x200B;일부 관할권에서는 현재 Commerce에서 지원하지 않는 다른 반올림 전략이 필요하며 일부 관할권에서는 항목 또는 행 수준 세금을 허용하지 않습니다. |
+| 댓글 | B2B 상인이 보다 간단한 VAT supply chain 고려 사항을 제공할 수 있습니다. 행에 대한 세금 계산도 유효합니다. 그러나 과세 관할에 문의하십시오. 설정은 상인이 supply chain에 있고, 판매된 상품이 다른 공급업체에서 VAT 리베이트 등을 위해 사용된다고 가정합니다. 이러한 정의는 리베이트 발생 속도를 높이기 위한 항목별 조세를 쉽게 식별할 수 있도록 한다. <br/><br/>**_참고:_** 일부 관할권에서는 현재 Commerce에서 지원하지 않는 다른 반올림 전략이 필요하며 일부 관할권에서는 항목 또는 행 수준 세금을 허용하지 않습니다. |
 
 {style="table-layout:auto"}
 

@@ -3,9 +3,15 @@ title: 거리 우선순위 알고리즘 구성
 description: 출하 목적지 주소의 위치를 출처 위치와 비교하기 위한 구성을 설정하여 출하를 이행할 가장 가까운 출처를 결정합니다.
 exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
 feature: Inventory, Configuration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/hImn3RZ89qP2ysFEM8lx-plNpFzx9ogMuj92kKqC3Eg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: 832
 ht-degree: 0%
 
 ---
@@ -77,11 +83,11 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 **[!UICONTROL Inventory]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;을(를) 확장하고&#x200B;**[!UICONTROL Provider]**&#x200B;을(를) `Google MAP`(으)로 설정합니다.
+1. _[!UICONTROL Distance Provider for Distance Based SSA]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)을(를) 확장하고&#x200B;**[!UICONTROL Provider]**을(를) `Google MAP`(으)로 설정합니다.
 
    ![거리 기반 SSA의 공급자](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Google Distance Provider]_&#x200B;를 확장하고 설정을 구성합니다.
+1. _[!UICONTROL Google Distance Provider]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 설정을 구성합니다.
 
    - **[!UICONTROL Google API Key]**&#x200B;의 경우 Google 계정에서 복사한 키를 입력하십시오.
 
@@ -128,7 +134,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 **[!UICONTROL Inventory]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;를 확장합니다.
+1. _[!UICONTROL Distance Provider for Distance Based SSA]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. **[!UICONTROL Use system value]** 확인란의 선택을 취소하고 **[!UICONTROL Provider]**&#x200B;을(를) `Offline Calculation`(으)로 설정합니다.
 

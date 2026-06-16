@@ -3,9 +3,15 @@ title: 데이터 전송
 description: 데이터 유효성 검사를 포함한 데이터 전송 지원에 대해 알아봅니다.
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 feature: System, Data Import/Export
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/G-hJ2wQlhL95wmuLLYivfW8AGsbfdu5Cn0pOdGdTQto
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: 519
 ht-degree: 0%
 
 ---
@@ -19,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce은 또한 SaaS 데이터 내보내기를 지원하여 제품 데이터를 Commerce 서버에서 SaaS 서비스로 전송합니다. SaaS 데이터 내보내기는 [제품 추천](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=ko), [라이브 검색](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview) 및 [카탈로그 서비스](https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/guide-overview)를 포함한 Commerce SaaS 서비스와 통합됩니다. 자세한 내용은 [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/overview)를 참조하십시오.
+>Adobe Commerce은 또한 SaaS 데이터 내보내기를 지원하여 제품 데이터를 Commerce 서버에서 SaaS 서비스로 전송합니다. SaaS 데이터 내보내기는 [제품 추천](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html), [라이브 검색](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) 및 [카탈로그 서비스](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)를 포함한 Commerce SaaS 서비스와 통합됩니다. 자세한 내용은 [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)를 참조하십시오.
 
 ## 데이터 유효성 검사
 
