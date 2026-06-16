@@ -5,12 +5,28 @@ exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
 TQID: https://experienceleague.adobe.com/XJPHU9LGy6OSzy6D67S-2qF8Td4d6Wl3Y49LS1roCkw
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2455
@@ -73,7 +89,7 @@ ht-degree: 0%
    >
    >방문자가 등록된 사용자 계정에 로그인하면 _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**(으)로 이동하여 회사 계정을 만들 수 있습니다.
 
-1. _[!UICONTROL Company Information]_섹션에서 고객은 다음을 수행합니다.
+1. _[!UICONTROL Company Information]_&#x200B;섹션에서 고객은 다음을 수행합니다.
 
    * 필수 필드를 완료합니다.
 
@@ -88,7 +104,7 @@ ht-degree: 0%
 
    ![회사 정보](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Legal Address]_섹션의 필수 필드를 완료합니다.
+1. _[!UICONTROL Legal Address]_&#x200B;섹션의 필수 필드를 완료합니다.
 
    * **[!UICONTROL Street Address]**
    * **[!UICONTROL City]**
@@ -99,7 +115,7 @@ ht-degree: 0%
 
    ![법적 주소](./assets/company-legal-address-storefront.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Company Administrator]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Company Administrator]_&#x200B;섹션에서 다음을 수행합니다.
 
    * 회사 관리자의 **[!UICONTROL Email address]**&#x200B;을(를) 입력합니다.
 
@@ -151,7 +167,7 @@ ht-degree: 0%
 
    * 해당하는 경우 계정을 관리할 **[!UICONTROL Sales Representative]**&#x200B;의 관리자 계정을 선택하십시오.
 
-1. _[!UICONTROL Account Information]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Account Information]_&#x200B;섹션에서 다음을 수행합니다.
 
    * 해당되는 경우 다음 필드를 작성합니다.
 
@@ -165,9 +181,9 @@ ht-degree: 0%
 
    ![계정 정보](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. 처음 회사를 만들 때 확장할 때 _[!UICONTROL Company Hierarchy]_그리드가 비어 있습니다. 회사를 저장한 후 회사 계층에 포함할 수 있습니다. [회사 관리](manage-companies.md)를 참조하세요.
+1. 처음 회사를 만들 때 확장할 때 _[!UICONTROL Company Hierarchy]_&#x200B;그리드가 비어 있습니다. 회사를 저장한 후 회사 계층에 포함할 수 있습니다. [회사 관리](manage-companies.md)를 참조하세요.
 
-1. _[!UICONTROL Legal Address]_섹션에서 다음 필수 필드를 작성합니다.
+1. _[!UICONTROL Legal Address]_&#x200B;섹션에서 다음 필수 필드를 작성합니다.
 
    * **[!UICONTROL Street Address]**
    * **[!UICONTROL City]**
@@ -175,7 +191,7 @@ ht-degree: 0%
    * **[!UICONTROL ZIP/Postal Code]**
    * **[!UICONTROL Phone Number]**
 
-1. _[!UICONTROL Company Admin]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Company Admin]_&#x200B;섹션에서 다음을 수행합니다.
 
    * 다음 필수 필드를 완료하십시오.
 
@@ -199,7 +215,7 @@ ht-degree: 0%
 
    ![회사 관리자](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. 고객의 신용 활동에 대한 요약을 표시하는 _[!UICONTROL Company Credit]_섹션에서 섹션의 아래 부분에 있는 필드를 해당하는 수만큼 작성합니다.
+1. 고객의 신용 활동에 대한 요약을 표시하는 _[!UICONTROL Company Credit]_&#x200B;섹션에서 섹션의 아래 부분에 있는 필드를 해당하는 수만큼 작성합니다.
 
    * **[!UICONTROL Credit Currency]**
    * **[!UICONTROL Credit Limit]**
@@ -208,7 +224,7 @@ ht-degree: 0%
 
    ![회사 크레딧](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Advanced Settings]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Advanced Settings]_&#x200B;섹션에서 다음을 수행합니다.
 
    >[!NOTE]
    >

@@ -4,11 +4,19 @@ description: ' [!DNL Page Builder] 스테이지에서 행을 추가하는 데 �
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/69IYa3jE6VTO6PXToXkDhfu8B4-KJw9sv0cO-NgUBOM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1620
@@ -44,7 +52,7 @@ _Row_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.md#
 
 ## 행 추가
 
-1. _[!UICONTROL Layout]_아래의 [!DNL Page Builder] 패널에서 새&#x200B;**[!UICONTROL Row]**을(를) 첫 번째 행 바로 아래에 있는 단계로 드래그합니다.
+1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서 새&#x200B;**[!UICONTROL Row]**&#x200B;을(를) 첫 번째 행 바로 아래에 있는 단계로 드래그합니다.
 
 1. 행의 서식을 지정하려면 행 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _설정_(![설정 아이콘](./assets/pb-icon-settings.png){width="20"}) 아이콘을 선택합니다.
 
@@ -120,7 +128,7 @@ _모양_ 설정을 사용하여 콘텐츠가 행에 표시되는 방식을 결�
 
 ### 이미지 유형 설정
 
-_[!UICONTROL Background Type]_을(를) `Image`(으)로 설정하는 경우 다음 설정을 사용하여 배경 이미지 표시를 정의합니다.
+_[!UICONTROL Background Type]_&#x200B;을(를) `Image`(으)로 설정하는 경우 다음 설정을 사용하여 배경 이미지 표시를 정의합니다.
 
 ![배경 이미지](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 

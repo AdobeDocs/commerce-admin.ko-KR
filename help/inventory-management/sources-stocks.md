@@ -3,11 +3,20 @@ title: 재고 및 소스
 description: 제품, 소스 및 재고 간의 관계에 대해 알아봅니다.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
 TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 809
@@ -45,12 +54,12 @@ ht-degree: 0%
 
 수량은 구매가 가능한 활성 재고의 제품 수입니다. 출하를 완료하거나 재고를 조정하면 제품의 수량이 증가하거나 감소합니다. 장바구니에 제품을 추가해도 이 금액에는 영향을 주지 않습니다. 판매 가능 수량은 판매 채널에 대한 제품 가용성을 추적하고 이 값을 사용하여 구매 가능 재고를 결정합니다. 소스 수에 따라 다음 중 하나의 제품 수량을 확인하고 관리합니다.
 
-- **수량** - 단일 원본 판매자의 경우 _[!UICONTROL Quantity]_열과 값은 사용 가능한 현재고 양을 추적합니다.
-- **Source당 수량** - 다중 원본 판매자의 경우 _[!UICONTROL Quantity per Source]_열과 값은 위치별로 사용 가능한 현재고를 추적합니다. 여러 출처를 추가하는 경우 이 값은 수량을 대체하며 모든 출처와 지정된 수량을 나열합니다.
+- **수량** - 단일 원본 판매자의 경우 _[!UICONTROL Quantity]_&#x200B;열과 값은 사용 가능한 현재고 양을 추적합니다.
+- **Source당 수량** - 다중 원본 판매자의 경우 _[!UICONTROL Quantity per Source]_&#x200B;열과 값은 위치별로 사용 가능한 현재고를 추적합니다. 여러 출처를 추가하는 경우 이 값은 수량을 대체하며 모든 출처와 지정된 수량을 나열합니다.
 
 예약은 장바구니에 제품 추가, 체크아웃 완료, 환불 관리 등 전체 쇼핑 프로세스에 대한 재고 요청을 추적합니다. 예약 가능한 재고 및 재고의 경우 예약 시 판매 가능 수량에서 빼서 체크아웃 프로세스를 통해 주문당 재고 금액을 예약합니다. 예약은 송장 발행 및 제품 배송 시 수량 공제로 전환됩니다.
 
-판매 가능 수량은 구성된 임계값, 예약 또는 판매 금액 및 출처당 수량을 사용하여 제품의 가상 재고(또는 가용성)를 계산합니다. 각 재고에 대해 [!DNL Commerce]은(는) 할당된 모든 원본 및 관련 제품 수량에 액세스합니다. 이 기본 값으로 모든 예약 금액과 _[!UICONTROL Notify for Quantity Below]_임계값을 뺍니다.
+판매 가능 수량은 구성된 임계값, 예약 또는 판매 금액 및 출처당 수량을 사용하여 제품의 가상 재고(또는 가용성)를 계산합니다. 각 재고에 대해 [!DNL Commerce]은(는) 할당된 모든 원본 및 관련 제품 수량에 액세스합니다. 이 기본 값으로 모든 예약 금액과 _[!UICONTROL Notify for Quantity Below]_&#x200B;임계값을 뺍니다.
 
 ![재고 판매 가능 수량 계산](assets/diagram-salable-quantity.png){width="600" zoomable="yes"}
 

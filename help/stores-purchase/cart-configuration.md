@@ -4,11 +4,20 @@ description: 스토어에서 구매 경험을 지원하기 위해 구성할 수 
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
 TQID: https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2417
@@ -57,7 +66,7 @@ _미니 장바구니_에 장바구니에 있는 항목의 요약이 표시됩니
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Mini Cart]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Mini Cart]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![미니 장바구니 구성](../configuration-reference/sales/assets/checkout-mini-cart.png){width="600" zoomable="yes"}
 
@@ -79,7 +88,7 @@ _미니 장바구니_에 장바구니에 있는 항목의 요약이 표시됩니
 
 ### 장바구니 링크 구성
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**에 연결되었습니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;에 연결되었습니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
@@ -327,7 +336,7 @@ Adobe Commerce B2B를 설치하고 활성화하면 _견적_ 기능에 대한 지
 
 1. 선물 포장의 썸네일 **[!UICONTROL Image]**&#x200B;을(를) 업로드하려면 **[!UICONTROL Choose File]**&#x200B;을(를) 클릭하고 디렉터리에서 업로드할 파일을 선택하십시오.
 
-   레코드가 저장된 후 _[!UICONTROL Gift Wrapping Information]_에 이미지의 축소판이 나타납니다.
+   레코드가 저장된 후 _[!UICONTROL Gift Wrapping Information]_&#x200B;에 이미지의 축소판이 나타납니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 

@@ -4,11 +4,22 @@ description: 단일 카탈로그 가격 규칙을 여러 SKU에 적용하는 방
 exl-id: 99023460-0501-45cd-8990-5f2b9ed7b4a2
 feature: Merchandising, Price Rules, Catalog Management
 TQID: https://experienceleague.adobe.com/nChe-8VA4V0nrC46PbeKyh7DB4Ta-0lpcezMV3uHEw0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 367
@@ -26,7 +37,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**(으)로 이동합니다.
 
-1. _[!UICONTROL Attribute Code]_열 상단의 검색 필터에서 `sku`을(를) 입력하고&#x200B;**[!UICONTROL Search]**을(를) 클릭합니다.
+1. _[!UICONTROL Attribute Code]_&#x200B;열 상단의 검색 필터에서 `sku`을(를) 입력하고&#x200B;**[!UICONTROL Search]**&#x200B;을(를) 클릭합니다.
 
 1. 편집 모드에서 `sku` 특성을 열려면 클릭하세요.
 
@@ -51,11 +62,11 @@ ht-degree: 0%
 
    - 다음 줄의 시작 부분에서 _추가_(![아이콘 추가](../assets/icon-add-green-circle.png))를 클릭하고 **[!UICONTROL Product Attribute]** 아래 목록에서 `SKU`을(를) 클릭합니다.
 
-     ![카탈로그 가격 규칙 조건 - SKU는 ](./assets/multiple-skus-condition1a.png){width="600" zoomable="yes"} 중 하나입니다.
+     ![카탈로그 가격 규칙 조건 - SKU는 &#x200B;](./assets/multiple-skus-condition1a.png){width="600" zoomable="yes"} 중 하나입니다.
 
    - 비교를 위해 옵션을 사용할 수 있습니다. SKU 목록에서 하나 이상의 SKU를 찾으려면 `select is one of`. 모두 검색하여 적용해야 하는 SKU 그룹을 찾으려면 `is`을(를) 선택하십시오. `is one of`을(를) 선택하는 것이 좋습니다.
 
-     ![카탈로그 가격 규칙 조건 - SKU는 ](./assets/multiple-skus-condition1b.png){width="600" zoomable="yes"} 중 하나입니다.
+     ![카탈로그 가격 규칙 조건 - SKU는 &#x200B;](./assets/multiple-skus-condition1b.png){width="600" zoomable="yes"} 중 하나입니다.
 
    - 조건을 완료하려면 자세히(**...**) 링크를 클릭하고 사용 가능한 제품 목록의 _선택기_(![목록 아이콘](../assets/icon-list-chooser.png)) 아이콘을 클릭하십시오.
 

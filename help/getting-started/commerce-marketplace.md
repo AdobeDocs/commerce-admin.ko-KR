@@ -4,12 +4,25 @@ description: 판매자에게 선별된 솔루션을 제공하고 자격을 갖�
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
 TQID: https://experienceleague.adobe.com/iWL-VJ99oPBafRQOK16YYTeEUvAoYGK-6bFxPHroYkk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c32adafa-ed01-4b31-997e-2413013911b0id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-subfeature_v2: id: f8ddfd3b-6194-46e8-a176-0e918039be56
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2:
+  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1432
@@ -60,13 +73,13 @@ ht-degree: 0%
 
 1. [!DNL Commerce] 계정에 로그인합니다.
 
-1. _[!UICONTROL My Account]_페이지에서&#x200B;**[!UICONTROL Marketplace]**탭을 선택합니다.
+1. _[!UICONTROL My Account]_&#x200B;페이지에서&#x200B;**[!UICONTROL Marketplace]**&#x200B;탭을 선택합니다.
 
 1. 이름 옆의 오른쪽 상단 모서리에서 아래쪽 화살표를 클릭하고 **[!UICONTROL My Profile]**&#x200B;을(를) 선택합니다.
 
    ![내 [!DNL Marketplace] 프로필](./assets/marketplace-profile.png){width="600"}
 
-1. _[!UICONTROL My Products]_아래의_[!UICONTROL Marketplace]_ 탭에서 **[!UICONTROL Access Keys]**&#x200B;을(를) 클릭하고 다음 중 하나를 수행합니다.
+1. _[!UICONTROL My Products]_&#x200B;아래의&#x200B;_[!UICONTROL Marketplace]_ 탭에서 **[!UICONTROL Access Keys]**&#x200B;을(를) 클릭하고 다음 중 하나를 수행합니다.
 
    - Marketplace 구매를 위한 액세스 키 세트가 이미 있는지 확인하십시오. 다양한 용도로 여러 액세스 키 세트를 만들 수 있습니다.
 

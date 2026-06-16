@@ -6,10 +6,17 @@ level: Experienced
 feature: Inventory, Install
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/-koENBfshZ7WkXih0dee4geUb2Mnx-mtTxUxt-s6yUo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 683
@@ -89,7 +96,7 @@ ht-degree: 0%
 
 ## [!DNL Inventory Management]개 기능 사용
 
-설치, 업그레이드 또는 업데이트 시 Admin의 _[!UICONTROL Manage Stock]_옵션이 기본적으로 사용됩니다. 이 옵션을 사용하면 인벤토리 추적 및 관리를 사용할 수 있지만 모듈 상태에는 영향을 주지 않습니다. 모듈을 비활성화하려면 다음 섹션을 참조하십시오.
+설치, 업그레이드 또는 업데이트 시 Admin의 _[!UICONTROL Manage Stock]_&#x200B;옵션이 기본적으로 사용됩니다. 이 옵션을 사용하면 인벤토리 추적 및 관리를 사용할 수 있지만 모듈 상태에는 영향을 주지 않습니다. 모듈을 비활성화하려면 다음 섹션을 참조하십시오.
 
 구성에 대한 자세한 내용은 [Inventory management 구성](configuration.md)을 참조하십시오.
 

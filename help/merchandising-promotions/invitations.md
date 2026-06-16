@@ -5,12 +5,25 @@ exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
 feature: Promotions/Events, Communications
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/3UEoAOAfcoM6obqizRsQkgBv-C3hi98rMjO6rPGHuL0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-subfeature_v2: id: bd0aa680-a881-4f35-9dcf-843b0574bc5f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: bd0aa680-a881-4f35-9dcf-843b0574bc5f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 664
@@ -26,14 +39,14 @@ ht-degree: 0%
 
 ## 내 초대
 
-고객 계정의 _[!UICONTROL My Invitations]_섹션에는 고객이 보낸 모든 초대가 나열됩니다. 고객은 상점 이벤트, 선물 등록, 위시리스트 등을 위해 친구 및 가족에게 초대장을 보낼 수 있습니다.
+고객 계정의 _[!UICONTROL My Invitations]_&#x200B;섹션에는 고객이 보낸 모든 초대가 나열됩니다. 고객은 상점 이벤트, 선물 등록, 위시리스트 등을 위해 친구 및 가족에게 초대장을 보낼 수 있습니다.
 
 ![내 초대](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 
 ### 초대 워크플로
 
 1. **고객이 초대를 준비합니다**: 계정 대시보드에서 고객이 수신자 목록을 준비하고 초대를 완료합니다. 구성에 따라 사용자 지정 메시지를 포함할 수 있습니다.
-1. **고객이 초대를 보냅니다**: 준비가 되면 고객이 _[!UICONTROL Send Invitations]_단추를 클릭합니다.
+1. **고객이 초대를 보냅니다**: 준비가 되면 고객이 _[!UICONTROL Send Invitations]_&#x200B;단추를 클릭합니다.
 1. **시스템에서 전송을 관리합니다**: 시스템에서 구성에 설정된 숫자에 따라 초대를 일괄적으로 보냅니다.
 1. **고객이 응답을 모니터링함**: 고객은 계정 대시보드의 각 초대 상태를 `Sent`, `Accepted` 또는 `Canceled`(으)로 모니터링합니다.
 

@@ -4,11 +4,22 @@ description: 고객 참여를 유도하고 고객 충성도를 홍보하는 데 
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
 TQID: https://experienceleague.adobe.com/JESAxbyi9FqEIfr053Mz9Z7PcHt7tmdSwdDlxmhiVQQ
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1402
@@ -154,7 +165,7 @@ Adobe Commerce의 _보상 포인트_ 시스템을 사용하면 고객 참여를 
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**(으)로 이동합니다.
 
-1. 그리드에서 고객을 찾고 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 그리드에서 고객을 찾고 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. _고객 정보_&#x200B;에서 **[!UICONTROL Reward Points]** 섹션을 선택하세요.
 
@@ -174,7 +185,7 @@ Adobe Commerce의 _보상 포인트_ 시스템을 사용하면 고객 참여를 
 
 1. **[!UICONTROL Save Customer]**&#x200B;을(를) 클릭합니다.
 
-보상 포인트와 관련된 모든 작업이 상점 앞의 고객 계정에 있는 _[!UICONTROL Reward Points History]_블록에 표시됩니다.
+보상 포인트와 관련된 모든 작업이 상점 앞의 고객 계정에 있는 _[!UICONTROL Reward Points History]_&#x200B;블록에 표시됩니다.
 
 ## 필드 설명
 

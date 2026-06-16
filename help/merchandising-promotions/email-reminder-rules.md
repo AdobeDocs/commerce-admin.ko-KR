@@ -4,11 +4,20 @@ description: 특정 조건 세트가 충족될 때 고객에게 자동으로 전
 exl-id: 3293caca-9dd3-4d64-a80c-58c92a9208e5
 feature: Merchandising, Communications
 TQID: https://experienceleague.adobe.com/13-faUDGh5J3Ry8Dr6ZnMKcBcF9VuHm4fGHS-MGzoyc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 560
@@ -26,7 +35,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->고객에게 일치하는 포기한 장바구니, 위시리스트 또는 두 가지 조합을 두 개 이상 보유한 경우, 이메일 미리 알림은 해당 고객에 대해 한 번만 트리거됩니다. 동일한 이메일 미리 알림을 다시 트리거하려면 _[!UICONTROL Repeat Schedule]_필드를 사용하여 이메일 간격(일)을 설정하십시오.
+>고객에게 일치하는 포기한 장바구니, 위시리스트 또는 두 가지 조합을 두 개 이상 보유한 경우, 이메일 미리 알림은 해당 고객에 대해 한 번만 트리거됩니다. 동일한 이메일 미리 알림을 다시 트리거하려면 _[!UICONTROL Repeat Schedule]_&#x200B;필드를 사용하여 이메일 간격(일)을 설정하십시오.
 
 ![전자 메일 미리 알림](./assets/email-reminders.png){width="700" zoomable="yes"}
 
@@ -50,7 +59,7 @@ ht-degree: 0%
       - `Hourly`
       - `Daily`
 
-   - _[!UICONTROL Frequency]_설정을 기반으로 적절한&#x200B;**[!UICONTROL Interval]**을(를) 설정합니다.
+   - _[!UICONTROL Frequency]_&#x200B;설정을 기반으로 적절한&#x200B;**[!UICONTROL Interval]**&#x200B;을(를) 설정합니다.
 
    - **[!UICONTROL Start Time]**&#x200B;을(를) 24시간 시계에 따라 이메일이 전송되는 시간, 분, 초로 설정합니다.
 

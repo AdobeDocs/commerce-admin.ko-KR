@@ -5,11 +5,21 @@ exl-id: e0da08ab-212f-4977-9387-0b4b40560cfb
 feature: System, Configuration
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/6zjak78aoXbzoHzdnOL4tvXgq4KAAjwMNLlLPax4ovE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: cc250cf1-34eb-4863-80d0-d170d45ea067id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 458
@@ -30,14 +40,14 @@ Adobe Commerce 및 Magento Open Source은 정기적으로 스크립트를 실행
 
 >[!IMPORTANT]
 >
->핵심 구성 요소와 일부 타사 확장이 예상대로 작동하는지 확인하려면 Commerce 서비스를 crontab에 설치해야 합니다. crontab에 서비스를 설치하는 방법에 대한 자세한 내용은 _설치 안내서_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html)의 [지침을 참조하십시오.
+>핵심 구성 요소와 일부 타사 확장이 예상대로 작동하는지 확인하려면 Commerce 서비스를 crontab에 설치해야 합니다. crontab에 서비스를 설치하는 방법에 대한 자세한 내용은 _설치 안내서_[&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html)의 지침을 참조하십시오.
 
 또한 cron 일정에 따라 실행되도록 다음을 구성할 수 있습니다.
 
 - 시스템 그리드 업데이트 및 리인덱싱 주문
 - 보류 중인 지급 수명
 
-cron 작업 중에 생성된 URL이 정확하도록 저장소의 [기본 URL](../stores-purchase/store-urls.md)이(가) 올바르게 설정되어 있는지 확인하십시오. 클라우드 인프라의 Adobe Commerce에 대해서는 _Cloud Infrastructure의 Commerce 안내서_&#x200B;에서 [cron 작업 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)을 참조하십시오. 온-프레미스의 경우 _구성 가이드_&#x200B;에서 [구성 및 실행 ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html)을(를) 참조하십시오.
+cron 작업 중에 생성된 URL이 정확하도록 저장소의 [기본 URL](../stores-purchase/store-urls.md)이(가) 올바르게 설정되어 있는지 확인하십시오. 클라우드 인프라의 Adobe Commerce에 대해서는 _Cloud Infrastructure의 Commerce 안내서_&#x200B;에서 [cron 작업 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)을 참조하십시오. 온-프레미스의 경우 _구성 가이드_&#x200B;에서 [구성 및 실행 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html)을(를) 참조하십시오.
 
 ## cron 구성
 

@@ -4,11 +4,20 @@ description: Commerce 관리자의 [!UICONTROL General] > [!UICONTROL B2B Featur
 exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 feature: Configuration, B2B
 TQID: https://experienceleague.adobe.com/s9-xEtVsEhdegXaObYrfbu-tSvvcqlXVagEw4QJejlk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 347
@@ -45,7 +54,7 @@ ht-degree: 1%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | 웹 사이트 | 활성화되면 세계적으로 사용할 수 있거나 특정 회사에 제한된 사용자 지정 가격으로 조정된 카탈로그를 만들 수 있습니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Enable Shared Catalog direct products price assigning] | 웹 사이트 | _[!UICONTROL Enable Shared Catalog]_필드를 `Yes`(으)로 설정하면 이 옵션을 사용할 수 있습니다. 활성화된 경우 공유 카탈로그에 지정된 제품만 가격 인덱스에 저장됩니다. 공유 카탈로그에 할당되지 않은 제품은 상점 앞에 표시되지 않습니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | 웹 사이트 | _[!UICONTROL Enable Shared Catalog]_&#x200B;필드를 `Yes`(으)로 설정하면 이 옵션을 사용할 수 있습니다. 활성화된 경우 공유 카탈로그에 지정된 제품만 가격 인덱스에 저장됩니다. 공유 카탈로그에 할당되지 않은 제품은 상점 앞에 표시되지 않습니다. 옵션: `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | 웹 사이트 | 활성화되면 회사 구매자는 장바구니에서 견적에 대한 요청을 제출할 수 있습니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}

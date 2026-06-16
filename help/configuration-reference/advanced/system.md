@@ -5,11 +5,21 @@ exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
 TQID: https://experienceleague.adobe.com/9QNzCxuwy1v5xR6YNE4On3woJ4mw-SnWB3m-me-nrb0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1682
@@ -159,8 +169,8 @@ ht-degree: 1%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | 글로벌 | Commerce 인스턴스에서 백업을 허용하는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | 글로벌 | (_[!UICONTROL Enable Backup]_이(가) `Yes`(으)로 설정된 경우 표시됩니다.) Commerce 인스턴스가 정기적으로 자동 백업되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | 글로벌 | (_[!UICONTROL Enable Scheduled Backup]_이(가) `Yes`(으)로 설정된 경우 표시됩니다.) 백업에 포함된 Commerce 인스턴스 요소를 결정합니다. 옵션: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Enable Scheduled Backup] | 글로벌 | (_[!UICONTROL Enable Backup]_&#x200B;이(가) `Yes`(으)로 설정된 경우 표시됩니다.) Commerce 인스턴스가 정기적으로 자동 백업되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | 글로벌 | (_[!UICONTROL Enable Scheduled Backup]_&#x200B;이(가) `Yes`(으)로 설정된 경우 표시됩니다.) 백업에 포함된 Commerce 인스턴스 요소를 결정합니다. 옵션: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
 | [!UICONTROL Start Time] | 글로벌 | ([!UICONTROL Enable Scheduled Backup]이(가) `Yes`(으)로 설정된 경우 표시됩니다.) 스케줄 지정 백업이 시작되는 시간, 분, 초를 지정합니다. |
 | [!UICONTROL Frequency] | 글로벌 | ([!UICONTROL Enable Scheduled Backup]이(가) `Yes`(으)로 설정된 경우 표시됩니다.) 스케줄 지정 백업이 수행되는 빈도를 결정합니다. 옵션: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | 글로벌 | ([!UICONTROL Enable Scheduled Backup]이(가) `Yes`(으)로 설정된 경우 표시됩니다.) 예약된 백업 중에 저장소가 유지 관리 모드에 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |

@@ -4,10 +4,15 @@ description: 기존  [!DNL Page Builder] 콘텐츠를 템플릿으로 저장한 
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/P61L0tgCPw78m-241VFZrlTugCZT3sRlHhHRyr-ARNs
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 477
@@ -35,7 +40,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]
 
    템플릿으로 저장 단추가 있는 ![[!DNL Page Builder] 단계](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
 
-   이 작업은 _[!UICONTROL Save Content as Template]_대화 상자를 표시합니다.
+   이 작업은 _[!UICONTROL Save Content as Template]_&#x200B;대화 상자를 표시합니다.
 
    ![[!DNL Page Builder] 템플릿으로 저장 대화 상자](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
 
@@ -61,7 +66,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]
 
    ![[!DNL Page Builder] 템플릿 적용 단추](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Apply Template]_그리드에서 템플릿을 선택하고 행 끝에 있는&#x200B;**[!UICONTROL Apply]**을(를) 클릭합니다.
+1. _[!UICONTROL Apply Template]_&#x200B;그리드에서 템플릿을 선택하고 행 끝에 있는&#x200B;**[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
    전체 템플릿을 보려면 템플릿 썸네일 이미지를 클릭할 수 있습니다. 이 작업은 이미지를 확장하므로 필요에 따라 전체 템플릿을 볼 수 있습니다.
 

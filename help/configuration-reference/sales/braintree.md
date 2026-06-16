@@ -4,11 +4,23 @@ description: Commerce 관리자의 [!UICONTROL Sales] > [!UICONTROL Payment Meth
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
 TQID: https://experienceleague.adobe.com/nYlyPsbZ5YhBI6C6pzOk9Ns-6pA6VME3uzKfRhJ5HLo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2710
@@ -40,12 +52,12 @@ ht-degree: 0%
 | [!UICONTROL Title] | 스토어 뷰 | 기본값: `Credit Card`(Braintree) |
 | [!UICONTROL Environment] | 스토어 뷰 | 옵션: `Sandbox` / `Production` |
 | [!UICONTROL Payment Action] | 스토어 뷰 | 지불이 처리될 때 Braintree에서 수행한 작업을 결정합니다. 옵션: <br/>**`Authorize`**- 고객의 신용 카드에 있는 자금은 승인되지만 계정에서 이체되지 않습니다. 주문이 스토어 관리자에서 생성됩니다. 나중에 판매를 캡처하고 송장을 생성할 수 있습니다.<br/>**`Intent Sale`** (이전 릴리스의 이전 `Authorize and Capture`) - 고객의 신용 카드에 있는 자금은 Braintree에 의해 승인되고 캡처되며, 주문 및 송장은 매장 관리자에서 생성됩니다. |
-| [!UICONTROL Sandbox Merchant ID] | 스토어 뷰 | 전체 샌드박스 게이트웨이 계정에 대한 고유 식별자입니다. _공개 ID_ 또는 _프로덕션 ID_&#x200B;이라고도 하는 판매자 ID는 프로덕션 및 샌드박스 게이트웨이에 대해 다릅니다. 이 필드는 _[!UICONTROL Environment]_필드가 `Sandbox`(으)로 설정된 경우 나타납니다. |
-| [!UICONTROL Sandbox Public Key] | 스토어 뷰 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 공용 식별자입니다. 샌드박스 Braintree 게이트웨이와 연결된 각 사용자에게는 고유한 샌드박스 공개 키가 있습니다. 이 필드는 _[!UICONTROL Environment]_필드가 `Sandbox`(으)로 설정된 경우 나타납니다. |
-| [!UICONTROL Sandbox Private Key] | 스토어 뷰 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 개인 식별자입니다. 샌드박스 Braintree 게이트웨이와 연결된 각 사용자는 샌드박스에 대한 자체 개인 키를 가집니다. 이 필드는 _[!UICONTROL Environment]_필드가 `Sandbox`(으)로 설정된 경우 나타납니다. |
-| [!UICONTROL Merchant ID] | 스토어 뷰 | 게이트웨이에 있을 수 있는 여러 판매자 계정을 포함하여 전체 게이트웨이 계정에 대한 고유 식별자입니다. _공개 ID_ 또는 _프로덕션 ID_&#x200B;이라고도 하는 판매자 ID는 프로덕션 및 샌드박스 게이트웨이에 대해 다릅니다. 이 필드는 _[!UICONTROL Environment]_필드가 `Production`(으)로 설정된 경우 나타납니다. |
-| [!UICONTROL Public Key] | 스토어 뷰 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 공용 식별자입니다. Braintree 게이트웨이와 연결된 각 사용자에게는 고유한 공개 키가 있습니다. 이 필드는 _[!UICONTROL Environment]_필드가 `Production`(으)로 설정된 경우 나타납니다. |
-| [!UICONTROL Private Key] | 스토어 뷰 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 개인 식별자입니다. Braintree 게이트웨이와 연결된 각 사용자에게는 고유한 개인 키가 있습니다. 이 필드는 _[!UICONTROL Environment]_필드가 `Production`(으)로 설정된 경우 나타납니다. |
+| [!UICONTROL Sandbox Merchant ID] | 스토어 뷰 | 전체 샌드박스 게이트웨이 계정에 대한 고유 식별자입니다. _공개 ID_ 또는 _프로덕션 ID_&#x200B;이라고도 하는 판매자 ID는 프로덕션 및 샌드박스 게이트웨이에 대해 다릅니다. 이 필드는 _[!UICONTROL Environment]_&#x200B;필드가 `Sandbox`(으)로 설정된 경우 나타납니다. |
+| [!UICONTROL Sandbox Public Key] | 스토어 뷰 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 공용 식별자입니다. 샌드박스 Braintree 게이트웨이와 연결된 각 사용자에게는 고유한 샌드박스 공개 키가 있습니다. 이 필드는 _[!UICONTROL Environment]_&#x200B;필드가 `Sandbox`(으)로 설정된 경우 나타납니다. |
+| [!UICONTROL Sandbox Private Key] | 스토어 뷰 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 개인 식별자입니다. 샌드박스 Braintree 게이트웨이와 연결된 각 사용자는 샌드박스에 대한 자체 개인 키를 가집니다. 이 필드는 _[!UICONTROL Environment]_&#x200B;필드가 `Sandbox`(으)로 설정된 경우 나타납니다. |
+| [!UICONTROL Merchant ID] | 스토어 뷰 | 게이트웨이에 있을 수 있는 여러 판매자 계정을 포함하여 전체 게이트웨이 계정에 대한 고유 식별자입니다. _공개 ID_ 또는 _프로덕션 ID_&#x200B;이라고도 하는 판매자 ID는 프로덕션 및 샌드박스 게이트웨이에 대해 다릅니다. 이 필드는 _[!UICONTROL Environment]_&#x200B;필드가 `Production`(으)로 설정된 경우 나타납니다. |
+| [!UICONTROL Public Key] | 스토어 뷰 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 공용 식별자입니다. Braintree 게이트웨이와 연결된 각 사용자에게는 고유한 공개 키가 있습니다. 이 필드는 _[!UICONTROL Environment]_&#x200B;필드가 `Production`(으)로 설정된 경우 나타납니다. |
+| [!UICONTROL Private Key] | 스토어 뷰 | 암호화된 데이터에 대한 액세스를 제한하는 사용자별 개인 식별자입니다. Braintree 게이트웨이와 연결된 각 사용자에게는 고유한 개인 키가 있습니다. 이 필드는 _[!UICONTROL Environment]_&#x200B;필드가 `Production`(으)로 설정된 경우 나타납니다. |
 | [!UICONTROL Enable Card Payments] | 웹 사이트 | 고객이 Braintree 신용카드 결제 방법을 결제 방법으로 사용할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Enable Vault for Card Payments] | 웹 사이트 | 활성화하면 은 고객 결제 정보를 위한 안전한 저장소를 제공하므로 고객은 구매 시마다 신용 카드 정보를 다시 입력할 필요가 없습니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Enable Vault CVV Re-verification] | 웹 사이트 | 활성화하면 Braintree 계정의 CVV 규칙 설정에 대한 유효성 검사가 수행됩니다. 옵션: `Yes` / `No` |
@@ -163,7 +175,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Venmo through Braintree] | 웹 사이트 | [!DNL Venmo]이(가) Braintree을 통해 결제 방법으로 포함되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Enable Vault for Venmo] | 웹 사이트 | 고객은 향후 사용을 위해 Venmo 결제 방법을 저장/저장할 수 있습니다. 결제 내역이 저장되면 고객은 데이터를 다시 입력하거나 결제 정보를 재인증하지 않고도 벤모 결제 방식을 사용할 수 있다. 옵션: `Yes` / `No` |
-| [!UICONTROL Payment Action] | 웹 사이트 | 지불이 처리될 때 Braintree에서 수행한 작업을 결정합니다. 옵션: <br/>**`Authorize`**- 고객 카드의 자금이 승인되었지만 고객 계정에서 이체되지 않습니다. 주문이 스토어 관리자에서 생성됩니다. 나중에 판매를 캡처하고 송장을 생성할 수 있습니다.<br/>**`Intent Sale`** - 고객 카드의 자금은 Braintree에 의해 승인되고 캡처되며, 매장 관리자에 주문 및 송장이 만들어집니다. **_참고:_**2.3.x 및 이전 릴리스의_&#x200B;승인 및 캡처_입니다. |
+| [!UICONTROL Payment Action] | 웹 사이트 | 지불이 처리될 때 Braintree에서 수행한 작업을 결정합니다. 옵션: <br/>**`Authorize`**- 고객 카드의 자금이 승인되었지만 고객 계정에서 이체되지 않습니다. 주문이 스토어 관리자에서 생성됩니다. 나중에 판매를 캡처하고 송장을 생성할 수 있습니다.<br/>**`Intent Sale`** - 고객 카드의 자금은 Braintree에 의해 승인되고 캡처되며, 매장 관리자에 주문 및 송장이 만들어집니다. **_참고:_**&#x200B;2.3.x 및 이전 릴리스의_&#x200B;승인 및 캡처_입니다. |
 | [!UICONTROL Sort Order] | 웹 사이트 | 체크아웃 시 Venmo가 다른 결제 방법과 함께 나열되는 순서를 결정합니다. |
 
 {style="table-layout:auto"}
@@ -211,7 +223,7 @@ ht-degree: 0%
 
 **[!UICONTROL Mini-Cart and Cart Page]**
 
-이 섹션의 옵션 및 설정은 _[!UICONTROL Location]_필드의 설정에 따라 다릅니다.
+이 섹션의 옵션 및 설정은 _[!UICONTROL Location]_&#x200B;필드의 설정에 따라 다릅니다.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -219,7 +231,7 @@ ht-degree: 0%
 
 **[!UICONTROL PayPal Button]**
 
-이 섹션의 옵션 및 설정은 _[!UICONTROL PayPal Button Type]_필드에서 선택한 단추 유형에 따라 다릅니다.
+이 섹션의 옵션 및 설정은 _[!UICONTROL PayPal Button Type]_&#x200B;필드에서 선택한 단추 유형에 따라 다릅니다.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

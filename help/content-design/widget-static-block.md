@@ -4,11 +4,18 @@ description: 정적 블록 위젯을 사용하여 기존 컨텐츠를 스토어 
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/LZt31t9uNhrCglxO5L8E0XfVsFrwEKcv2H-TcKF46Ng
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 598
@@ -34,7 +41,7 @@ _CMS 정적 블록_ [위젯](widgets.md)을(를) 사용하면 기존 [콘텐츠 
 
    ![위젯 설정](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Storefront Properties]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Storefront Properties]_&#x200B;섹션에서 다음을 수행합니다.
 
    - **[!UICONTROL Widget Title]**&#x200B;의 경우 위젯에 대한 설명 제목을 입력합니다.
 
@@ -50,7 +57,7 @@ _CMS 정적 블록_ [위젯](widgets.md)을(를) 사용하면 기존 [콘텐츠 
 
 ## 2단계: 위젯 레이아웃 업데이트 완료
 
-1. _[!UICONTROL Layout Updates]_섹션에서&#x200B;**[!UICONTROL Add Layout Update]**을(를) 클릭합니다.
+1. _[!UICONTROL Layout Updates]_&#x200B;섹션에서&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;을(를) 클릭합니다.
 
 1. 블록을 표시할 범주, 제품 또는 페이지로 **[!UICONTROL Display On]**&#x200B;을(를) 설정합니다.
 

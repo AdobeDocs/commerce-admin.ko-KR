@@ -4,11 +4,21 @@ description: 제품 목록 또는 제품 페이지에서 계층 가격을 사용
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 892
@@ -34,9 +44,9 @@ ht-degree: 1%
 
 1. 제품을 편집 모드로 엽니다.
 
-1. _[!UICONTROL Price]_필드 아래에서&#x200B;**[!UICONTROL Advanced Pricing]**을(를) 클릭합니다.
+1. _[!UICONTROL Price]_&#x200B;필드 아래에서&#x200B;**[!UICONTROL Advanced Pricing]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Tier Price]_섹션에서&#x200B;**[!UICONTROL Add]**을(를) 클릭합니다.
+1. _[!UICONTROL Tier Price]_&#x200B;섹션에서&#x200B;**[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
    여러 가격의 계층을 만드는 경우 각 추가 수준에 대해 **[!UICONTROL Add]**&#x200B;을(를) 클릭하면 모든 계층을 동시에 작업할 수 있습니다. 그룹의 각 계층에는 동일한 웹 사이트 및 고객 그룹 또는 공유 카탈로그 할당이 있지만 수량 및 가격은 다릅니다.
 
@@ -62,7 +72,7 @@ ht-degree: 1%
 
      >[!NOTE]
      >
-     >할인된 가격을 받으려면 _[!UICONTROL Special Price]_필드가 아닌_[!UICONTROL Price]_ 필드에 정의된 값에 대해 정의된 백분율이 계산됩니다.
+     >할인된 가격을 받으려면 _[!UICONTROL Special Price]_&#x200B;필드가 아닌&#x200B;_[!UICONTROL Price]_ 필드에 정의된 값에 대해 정의된 백분율이 계산됩니다.
 
      ![계층 가격(백분율)](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 

@@ -4,12 +4,27 @@ description: 회사 페이지와 그리드에서 사용할 수 있는 도구를 
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
 TQID: https://experienceleague.adobe.com/a4IAHlQLzc9pX6V2z8V9nLUaWToWizjdOomV7TfS7to
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2728
@@ -19,17 +34,17 @@ ht-degree: 0%
 
 # 회사 계정 관리
 
-_[!UICONTROL Companies]_페이지에는 상태와 관계없이 모든 현재 회사 계정이 나열됩니다. 승인 보류 중인 요청이 목록 맨 위에 표시됩니다.
+_[!UICONTROL Companies]_&#x200B;페이지에는 상태와 관계없이 모든 현재 회사 계정이 나열됩니다. 승인 보류 중인 요청이 목록 맨 위에 표시됩니다.
 
 ![회사 표](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 *[!UICONTROL Columns]* 컨트롤을 사용하여 그리드에 표시되는 열을 사용자 지정합니다. 검색 및 필터 기능을 사용하여 보기에 표시되는 회사를 사용자 지정합니다.
 
-- _[!UICONTROL Search]_을(를) 사용하여&#x200B;**회사**그리드에서 회사를 찾으십시오.**회사 이름**및&#x200B;**상위**열을 인덱싱합니다.
+- _[!UICONTROL Search]_&#x200B;을(를) 사용하여&#x200B;**회사**&#x200B;그리드에서 회사를 찾으십시오.**회사 이름**&#x200B;및&#x200B;**상위**&#x200B;열을 인덱싱합니다.
 
 - [!UICONTROL Filter]을(를) 사용하여 특정 기준을 충족하는 레코드를 포함하도록 보기를 사용자 지정합니다. 예를 들어 B2B 사이트가 단일 회사 계정과 [회사 계층](manage-companies.md)을 모두 관리하도록 구성된 경우 `[!UICONTROL Company Type - Company]`을(를) 기준으로 필터링하여 단일 회사만 표시하거나 `[!UICONTROL Company Type - Parent]`을(를) 기준으로 필터링하여 각 계층에 대한 상위 회사만 표시할 수 있습니다.
 
-표 위에 있는 _[!UICONTROL Actions]_컨트롤을 사용하여 여러 회사 레코드에 작업을 적용합니다. 예를 들어 각 개별 회사 요청을 승인하는 대신 여러 요청을 선택하여 한 번의 작업으로 계정을 활성화할 수 있습니다. 사용 가능한 작업은 관리자 사용자 계정에 할당된 역할의 [권한](../systems/permissions.md)에 따라 다릅니다.
+표 위에 있는 _[!UICONTROL Actions]_&#x200B;컨트롤을 사용하여 여러 회사 레코드에 작업을 적용합니다. 예를 들어 각 개별 회사 요청을 승인하는 대신 여러 요청을 선택하여 한 번의 작업으로 계정을 활성화할 수 있습니다. 사용 가능한 작업은 관리자 사용자 계정에 할당된 역할의 [권한](../systems/permissions.md)에 따라 다릅니다.
 
 ## 회사 역할 리소스
 
@@ -173,7 +188,7 @@ _[!UICONTROL Companies]_페이지에는 상태와 관계없이 모든 현재 회
 
 1. 표에서 편집할 회사 레코드를 찾습니다.
 
-1. _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**선택.
+1. _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;선택.
 
 1. 회사 정보에 필요한 사항을 변경합니다.
 
@@ -205,7 +220,7 @@ _[!UICONTROL Companies]_페이지에는 상태와 관계없이 모든 현재 회
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**(으)로 이동합니다.
 
-1. 그리드에서 회사를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
+1. 그리드에서 회사를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. 참조용 필드 설명을 사용하여 필요에 따라 각 섹션의 필드 값을 업데이트합니다.
 

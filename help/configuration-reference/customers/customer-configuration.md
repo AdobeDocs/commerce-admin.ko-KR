@@ -4,12 +4,26 @@ description: Commerce 관리자의 [!UICONTROL Customers] > [!UICONTROL Customer
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
 TQID: https://experienceleague.adobe.com/eZF-dmYG4p8BwVNA5SWtj-3y2flfLP1H9CRcPsd1tFI
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1908
@@ -64,7 +78,7 @@ ht-degree: 0%
 | [!UICONTROL Default Welcome Email] | 스토어 뷰 | 기본 _시작_ 전자 메일에 사용된 전자 메일 템플릿을 식별합니다. |
 | [!UICONTROL Default Welcome Email Without Password] | 스토어 뷰 | 아직 암호가 할당되지 않은 관리자가 만든 새 고객 계정에 사용되는 대체 시작 이메일 템플릿입니다. |
 | [!UICONTROL Email Sender] | 스토어 뷰 | 환영 전자 메일의 발신자로 표시되는 스토어 연락처를 식별합니다. |
-| [!UICONTROL Require Emails Confirmation] | 웹 사이트 | 계정 만들기 요청에 고객의 확인이 필요한지 여부를 결정합니다. 옵션: `Yes` / `No`. <br/><br/> _**참고:**_ 버전 2.4.7부터 고객은 브라우저에 관계없이 전자 메일 확인 후 계정에 로그인하려면 전자 메일 및 암호를 다시 입력해야 합니다. |
+| [!UICONTROL Require Emails Confirmation] | 웹 사이트 | 계정 만들기 요청에 고객의 확인이 필요한지 여부를 결정합니다. 옵션: `Yes` / `No`. <br/><br/> _&#x200B;**참고:**&#x200B;_ 버전 2.4.7부터 고객은 브라우저에 관계없이 전자 메일 확인 후 계정에 로그인하려면 전자 메일 및 암호를 다시 입력해야 합니다. |
 | [!UICONTROL Confirmation Link Email] | 스토어 뷰 | 확인 이메일에 사용되는 이메일 템플릿을 식별합니다. 기본 템플릿: `New account confirmation key` |
 | [!UICONTROL Welcome Email] | 스토어 뷰 | 계정이 확인된 후 보내는 환영 메시지에 사용되는 이메일 템플릿을 식별합니다. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | 글로벌 | VAT ID 번호를 입력하고 저장하는 데 사용되는 필드가 상점 첫 화면에서 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
@@ -221,8 +235,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | 웹 사이트 | Commerce 웹 사이트와 연결된 스토어에서 CAPTCHA를 활성화합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Font] | 웹 사이트 | CAPTCHA를 표시하는 데 사용할 글꼴을 결정합니다. 고유한 글꼴을 추가하려면 글꼴 파일을 Commerce 설치와 동일한 디렉터리에 넣고 `app/code/Magento/Captcha/etc`의 `config.xml` 파일에 선언을 추가합니다. |
-| [!UICONTROL Forms] | 웹 사이트 | CAPTCHA가 사용되는 양식을 결정합니다. 옵션: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro`([보안 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) 참조) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_**참고:**_ 사용자 만들기, 암호 찾기 및 Payflow Pro 양식은 선택 시 항상 활성화됩니다. |
-| [!UICONTROL Displaying Mode] | 웹 사이트 | CAPTCHA가 표시되는 시기를 결정합니다. 옵션: <br/>**`Always`**- 로그인하려면 항상 CAPTCHA가 필요합니다.<br/>**`After number of attempts to login`** - 이 옵션은 관리자 로그인 양식에만 적용됩니다. 선택하면 _[!UICONTROL Number of Unsuccessful Attempts to Login]_필드가 나타납니다. 허용할 로그인 시도 횟수를 입력합니다. 값 `0`(영)은(는) [!UICONTROL Displaying Mode]을(를) `Always`(으)로 설정하는 것과 비슷합니다.<br/>_**참고:**_실패한 로그인 시도 횟수를 추적하려면 하나의 전자 메일 주소와 하나의 IP 주소에서 로그인을 시도합니다. 동일한 IP 주소에서 허용되는 최대 로그인 시도 횟수는 1,000회입니다. 이 제한은 CAPTCHA가 활성화된 경우에만 적용됩니다. |
+| [!UICONTROL Forms] | 웹 사이트 | CAPTCHA가 사용되는 양식을 결정합니다. 옵션: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro`([보안 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) 참조) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**참고:**&#x200B;_ 사용자 만들기, 암호 찾기 및 Payflow Pro 양식은 선택 시 항상 활성화됩니다. |
+| [!UICONTROL Displaying Mode] | 웹 사이트 | CAPTCHA가 표시되는 시기를 결정합니다. 옵션: <br/>**`Always`**- 로그인하려면 항상 CAPTCHA가 필요합니다.<br/>**`After number of attempts to login`** - 이 옵션은 관리자 로그인 양식에만 적용됩니다. 선택하면 _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;필드가 나타납니다. 허용할 로그인 시도 횟수를 입력합니다. 값 `0`(영)은(는) [!UICONTROL Displaying Mode]을(를) `Always`(으)로 설정하는 것과 비슷합니다.<br/>_&#x200B;**참고:**&#x200B;_실패한 로그인 시도 횟수를 추적하려면 하나의 전자 메일 주소와 하나의 IP 주소에서 로그인을 시도합니다. 동일한 IP 주소에서 허용되는 최대 로그인 시도 횟수는 1,000회입니다. 이 제한은 CAPTCHA가 활성화된 경우에만 적용됩니다. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | 웹 사이트 | 계정이 잠기기 전에 고객이 로그인을 시도할 수 있는 횟수를 지정합니다. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | 웹 사이트 | 현재 CAPTCHA의 수명을 결정합니다. CAPTCHA가 만료되면 사용자는 페이지를 다시 로드해야 합니다. |
 | [!UICONTROL Number of Symbols] | 웹 사이트 | CAPTCHA에 나타나는 기호의 수를 최대 8개로 결정합니다. 예를 들어 5-8과 같은 범위를 지정할 수도 있습니다. |

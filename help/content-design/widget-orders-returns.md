@@ -5,11 +5,20 @@ exl-id: 1c3948e6-a0de-4ee4-8abf-10ab845a94a7
 feature: Page Content, Orders, Returns
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/jWpFWPBwvKr5EnMXdV5-3zAqagGuzPrvOL6-gMiEw-M
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 382
@@ -44,7 +53,7 @@ _주문 및 반품_ 위젯을 통해 게스트는 주문 상태를 확인하고,
 
 1. 오른쪽 상단에서 **[!UICONTROL Add Widget]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Settings]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Settings]_&#x200B;섹션에서 다음을 수행합니다.
 
    - **[!UICONTROL Type]**&#x200B;을(를) `Orders and Returns`(으)로 설정합니다.
 
@@ -52,7 +61,7 @@ _주문 및 반품_ 위젯을 통해 게스트는 주문 상태를 확인하고,
 
 1. **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Storefront Properties]_섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Storefront Properties]_&#x200B;섹션에서 다음을 수행합니다.
 
    - **[!UICONTROL Widget Title]**&#x200B;의 경우 위젯에 대한 설명 제목을 입력합니다.
 
@@ -64,7 +73,7 @@ _주문 및 반품_ 위젯을 통해 게스트는 주문 상태를 확인하고,
 
    - (선택 사항) **[!UICONTROL Sort Order]**&#x200B;의 경우 숫자를 입력하여 이 항목이 페이지의 동일한 부분에 있는 다른 항목과 함께 표시되는 순서를 결정합니다. (`0` = 첫 번째, `1` = 두 번째, `3` = 세 번째 등)
 
-1. _[!UICONTROL Layout Updates]_섹션에서&#x200B;**[!UICONTROL Add Layout Update]**을(를) 클릭하고 다음을 수행합니다.
+1. _[!UICONTROL Layout Updates]_&#x200B;섹션에서&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;을(를) 클릭하고 다음을 수행합니다.
 
    - 위젯을 표시할 페이지 형식으로 **[!UICONTROL Display On]**&#x200B;을(를) 설정합니다.
 

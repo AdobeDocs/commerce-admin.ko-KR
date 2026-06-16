@@ -5,11 +5,21 @@ exl-id: 620b2d60-ce6f-4f31-93bb-18d3dd9cdce6
 feature: Marketing Tools, Promotions/Events
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/nALbSUw8Agac54QLSV4bdCLPse53VywtlMiydvL1L8w
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 496
@@ -95,6 +105,6 @@ ht-degree: 0%
 
 ### 판매 제한
 
-기본적으로 예정된 이벤트나 마감된 이벤트에 나타나는 제품은 일반 판매에 사용할 수 없으며 _[!UICONTROL Add to Cart]_단추는 제품 목록이나 제품 페이지에 나타나지 않습니다.
+기본적으로 예정된 이벤트나 마감된 이벤트에 나타나는 제품은 일반 판매에 사용할 수 없으며 _[!UICONTROL Add to Cart]_&#x200B;단추는 제품 목록이나 제품 페이지에 나타나지 않습니다.
 
-닫힘 이벤트에 대한 _[!UICONTROL Add to Cart]_단추를 복원하려면 이벤트를 삭제해야 합니다([이벤트 업데이트](event-create.md#update-events) 참조). 그러나 제품이 판매 제한이 없는 다른 카테고리와 연결된 경우 해당 버튼을 제품 페이지에서 사용할 수 있습니다. 마찬가지로 판매 제한이 없는 다른 카테고리와 제품이 연결된 경우 티커 블록이 제품 페이지에 표시되지 않습니다.
+닫힘 이벤트에 대한 _[!UICONTROL Add to Cart]_&#x200B;단추를 복원하려면 이벤트를 삭제해야 합니다([이벤트 업데이트](event-create.md#update-events) 참조). 그러나 제품이 판매 제한이 없는 다른 카테고리와 연결된 경우 해당 버튼을 제품 페이지에서 사용할 수 있습니다. 마찬가지로 판매 제한이 없는 다른 카테고리와 제품이 연결된 경우 티커 블록이 제품 페이지에 표시되지 않습니다.

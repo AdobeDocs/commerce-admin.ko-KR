@@ -4,10 +4,16 @@ description: 다이내믹 블록을 사용하여 가격 규칙 및 고객 세그
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/Xbv5IqrZPF2xDERIGOFilHgiXKAyy8yxyXISRj17s0A
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 674
@@ -23,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!UICONTROL Content] 메뉴](content-menu.md)의 _[!UICONTROL Banner]_옵션은 2.3.1에서 더 이상 사용되지 않으며 2.4.0에서 제거되었습니다. 이 기능은 동적 블록으로 대체됩니다.
+>[[!UICONTROL Content] 메뉴](content-menu.md)의 _[!UICONTROL Banner]_&#x200B;옵션은 2.3.1에서 더 이상 사용되지 않으며 2.4.0에서 제거되었습니다. 이 기능은 동적 블록으로 대체됩니다.
 
 ![[!DNL Page Builder] - 가격 규칙 및 고객 세그먼트가 있는 동적 블록](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 

@@ -4,11 +4,18 @@ description: Adobe Commerce 및 Magento Open Source 관리에서  [!DNL Page Bui
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 feature: Page Builder, Configuration
 TQID: https://experienceleague.adobe.com/qXSCIQN-Tpo-n2CTrXy2xzDssA6xQfuWGAVxuRgI-5o
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 403
@@ -18,7 +25,7 @@ ht-degree: 0%
 
 # [!DNL Page Builder] 설정
 
-구성에서 사용하도록 설정된 경우 [!DNL Page Builder]은(는) CMS 페이지, 블록 및 동적 블록에 대한 기본 콘텐츠 만들기 도구입니다. 또한 _[!UICONTROL Enable Advanced CMS]_단추는 범주 및 제품에 대한 옵션으로 [!DNL Page Builder]을(를) 제공합니다. 제품, 카테고리 및 CMS 페이지에 사용할 기본 [페이지 레이아웃](../content-design/page-layout.md)을 선택할 수도 있습니다. [!DNL Page Builder]은(는) WYSIWYG [editor](../content-design/editor.md)을(를) 사용하는 뉴스레터 콘텐츠에 사용할 수 없습니다.
+구성에서 사용하도록 설정된 경우 [!DNL Page Builder]은(는) CMS 페이지, 블록 및 동적 블록에 대한 기본 콘텐츠 만들기 도구입니다. 또한 _[!UICONTROL Enable Advanced CMS]_&#x200B;단추는 범주 및 제품에 대한 옵션으로 [!DNL Page Builder]을(를) 제공합니다. 제품, 카테고리 및 CMS 페이지에 사용할 기본 [페이지 레이아웃](../content-design/page-layout.md)을 선택할 수도 있습니다. [!DNL Page Builder]은(는) WYSIWYG [editor](../content-design/editor.md)을(를) 사용하는 뉴스레터 콘텐츠에 사용할 수 없습니다.
 
 >[!NOTE]
 >
@@ -35,7 +42,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을(를) 확장하고 **[!UICONTROL Enable Page Builder]**&#x200B;이(가) `Yes`(으)로 설정되어 있는지 확인합니다.
 
@@ -67,7 +74,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Default Layouts]**&#x200B;을(를) 확장하고 다음을 수행합니다.
 
@@ -91,7 +98,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
+1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을(를) 확장하고 **[!UICONTROL Enable Page Builder]**&#x200B;을(를) `No`(으)로 설정합니다.
 

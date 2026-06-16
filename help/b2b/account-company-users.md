@@ -5,12 +5,20 @@ exl-id: 36b55f61-e579-4eb8-8f67-0156221d378e
 feature: B2B, Companies, User Account, Storefront
 role: Admin, User
 TQID: https://experienceleague.adobe.com/uCjMHTsVLxAiWNqKxzN-ICfzcWrK9UgIWz-I1eggoHY
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 664
@@ -20,7 +28,7 @@ ht-degree: 0%
 
 # 회사 사용자 계정 관리
 
-상점 맨 앞에는 회사 관리자가 회사 사용자를 할당하며 _[!UICONTROL Company Users]_페이지에서 볼 수 있습니다. 이러한 개인들은 일반적으로 스토어 서비스 및 리소스에 액세스할 수 있는 다양한 수준의 권한을 가진 구매자입니다.
+상점 맨 앞에는 회사 관리자가 회사 사용자를 할당하며 _[!UICONTROL Company Users]_&#x200B;페이지에서 볼 수 있습니다. 이러한 개인들은 일반적으로 스토어 서비스 및 리소스에 액세스할 수 있는 다양한 수준의 권한을 가진 구매자입니다.
 
 회사 관리자는 먼저 [회사 구조](account-company-structure.md)를 설정한 후 필요에 따라 다음 작업을 완료합니다.
 

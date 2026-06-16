@@ -4,12 +4,23 @@ description: 페이지당 표시되는 제품 수와 목록을 정렬하는 데 
 exl-id: 3779d9db-4adb-473b-b9c9-ad066f50b549
 feature: Catalog Management, Products, Page Content
 TQID: https://experienceleague.adobe.com/XC4xwHkJyLCiHNNCAz6huVbN3j-WwCvKumJtjf0uj-I
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: ae62cf09-5996-4921-bda8-fbe67b62e470
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: ae62cf09-5996-4921-bda8-fbe67b62e470
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 792
@@ -23,7 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->제품 특성으로 범주를 정렬하면 속성 값이 같은 제품도 _[!UICONTROL Product ID]_을(를) 기준으로 오름차순으로 정렬됩니다.
+>제품 특성으로 범주를 정렬하면 속성 값이 같은 제품도 _[!UICONTROL Product ID]_&#x200B;을(를) 기준으로 오름차순으로 정렬됩니다.
 
 ![격자로 표시된 제품](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
@@ -41,7 +52,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_가격별 제품 정렬_&#x200B;에 따라 제품 및 가격을 올바르게 표시하려면 [판매세 구성](../configuration-reference/sales/tax.md)의 가격 표시 설정이 같은 값(`Excluding Tax` **또는** `Including Tax`)인지 확인하십시오. _[!UICONTROL Calculation Settings]_에 대해&#x200B;**[!UICONTROL Catalog Prices]**값을 확인하십시오._[!UICONTROL Price Display Settings]_&#x200B;의 경우 **[!UICONTROL Display Product Prices in Catalog]** 값을 확인하십시오. 값이 다른 경우 계층화된 탐색의 가격 필터가 가격별로 제품을 제대로 필터링하고 정렬하지 못할 수 있습니다.
+   >_가격별 제품 정렬_&#x200B;에 따라 제품 및 가격을 올바르게 표시하려면 [판매세 구성](../configuration-reference/sales/tax.md)의 가격 표시 설정이 같은 값(`Excluding Tax` **또는** `Including Tax`)인지 확인하십시오. _[!UICONTROL Calculation Settings]_&#x200B;에 대해&#x200B;**[!UICONTROL Catalog Prices]**&#x200B;값을 확인하십시오._[!UICONTROL Price Display Settings]_&#x200B;의 경우 **[!UICONTROL Display Product Prices in Catalog]** 값을 확인하십시오. 값이 다른 경우 계층화된 탐색의 가격 필터가 가격별로 제품을 제대로 필터링하고 정렬하지 못할 수 있습니다.
 
 1. 기본 **[!UICONTROL List Mode]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
@@ -102,7 +113,7 @@ ht-degree: 0%
 | 제어 | 설명 |
 |--- |--- |
 | ![표 표시](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Grid 또는 List 형식으로 목록을 표시합니다. |
-| ![정렬 기준](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - 목록의 정렬 순서를 변경합니다. _[!UICONTROL Used for Sorting in Product Listing]_storefront 속성은 목록을 정렬하는 데 사용할 수 있는 [제품 특성](../catalog/product-attributes.md)을(를) 결정합니다. |
+| ![정렬 기준](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - 목록의 정렬 순서를 변경합니다. _[!UICONTROL Used for Sorting in Product Listing]_&#x200B;storefront 속성은 목록을 정렬하는 데 사용할 수 있는 [제품 특성](../catalog/product-attributes.md)을(를) 결정합니다. |
 | ![페이지당 표시](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - 페이지당 표시되는 제품 수를 결정합니다. |
 | ![페이지 매김 링크](./assets/control-pagination.png) | 페이지 매김 링크 - 다른 페이지에 대한 탐색 링크. |
 

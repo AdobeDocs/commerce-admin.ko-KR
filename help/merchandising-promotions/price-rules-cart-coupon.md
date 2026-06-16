@@ -4,11 +4,23 @@ description: 조건 세트가 충족될 때 장바구니 가격 규칙과 함께
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
 TQID: https://experienceleague.adobe.com/axmELQfcYT3VH7GBKMh-Z3xdN1v6eROpIp9FDYb6zBg
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
 workflow-type: tm+mt
 source-wordcount: 2338
@@ -209,7 +221,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
 사용자 지정 쿠폰 코드를 편집하거나 사용 세부 정보를 보려면 **[!UICONTROL Actions]** 열에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭하십시오.
 
-<InlineAlert variant="info" slots="text"/>
+&lt;InlineAlert variant="info" slots="text"/>
 
 장바구니 가격 규칙에 속하는 기본 쿠폰 코드는 편집하거나 삭제할 수 없습니다.
 
@@ -248,7 +260,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
    ![쿠폰 결과 가져오기](./assets/import-coupons-result.png){width="600" zoomable="yes"}
 
-가져오기 진행 상황과 자세한 결과를 모니터링하려면 **[!UICONTROL View progress in Bulk Actions Log]**&#x200B;을(를) 클릭하거나 **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**(으)로 이동하십시오. 각 가져오기는&#x200B;**[!UICONTROL Bulk Actions]**에서 단일 항목으로 나타나고 항목을 선택합니다.
+가져오기 진행 상황과 자세한 결과를 모니터링하려면 **[!UICONTROL View progress in Bulk Actions Log]**&#x200B;을(를) 클릭하거나 **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**(으)로 이동하십시오. 각 가져오기는&#x200B;**[!UICONTROL Bulk Actions]**&#x200B;에서 단일 항목으로 나타나고 항목을 선택합니다.
 
 ## 쿠폰 보고서
 

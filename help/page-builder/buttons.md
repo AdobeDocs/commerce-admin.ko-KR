@@ -4,11 +4,19 @@ description: ' [!DNL Page Builder] 스테이지에서 개별 단추 또는 단�
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/-Q-eKvElwVRaCuqHqXfAYmeanp-H-qHXTab0huUhXMM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1588
@@ -167,7 +175,7 @@ ht-degree: 0%
 
    ![단추 컨테이너 도구 상자](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. _[!UICONTROL Appearance]_에서&#x200B;**[!UICONTROL Stacked]**을(를) 선택합니다.
+1. _[!UICONTROL Appearance]_&#x200B;에서&#x200B;**[!UICONTROL Stacked]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL All Buttons are same size]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -249,7 +257,7 @@ ht-degree: 0%
 
 ## 고급 설정 변경
 
-개별 단추 및 단추 컨테이너에 대한 _[!UICONTROL Advanced]_설정을 수정할 수 있습니다.
+개별 단추 및 단추 컨테이너에 대한 _[!UICONTROL Advanced]_&#x200B;설정을 수정할 수 있습니다.
 
 1. 상위 컨테이너 내의 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택하십시오.
 

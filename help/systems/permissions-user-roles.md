@@ -4,12 +4,27 @@ description: 사용자 역할 및 관리 기능에 대한 액세스를 관리하
 exl-id: a70f74d4-72b4-4639-a67d-9fc13df65924
 feature: Admin Workspace, Roles/Permissions, Security
 TQID: https://experienceleague.adobe.com/0Uw-HzqI-FwyKM5-OPmPFUjQYzReftmDsO6j-KeO7Eo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 702
@@ -33,9 +48,9 @@ ht-degree: 0%
 
 ### 1단계: 역할 이름 추가
 
-1. _[!UICONTROL Role Information]_에서 설명&#x200B;**[!UICONTROL Role Name]**을(를) 입력하십시오.
+1. _[!UICONTROL Role Information]_&#x200B;에서 설명&#x200B;**[!UICONTROL Role Name]**&#x200B;을(를) 입력하십시오.
 
-1. _[!UICONTROL Current User Identity Verification]_에서 암호를 입력하십시오.
+1. _[!UICONTROL Current User Identity Verification]_&#x200B;에서 암호를 입력하십시오.
 
    ![시스템 권한 - 역할 정보](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
@@ -56,9 +71,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >`Custom` 역할 범위를 가진 사용자는 제한된 스토어에 할당된 경우 웹 사이트 및 범주를 만들거나, 제품을 범주에 할당하거나, _[!UICONTROL All Store Views]_범위에서 제품을 편집할 수 없습니다. 이러한 사용자는 액세스 권한이 없는 범위에 영향을 주는 다른_&#x200B;전역&#x200B;_작업도 수행할 수 없습니다.
+   >`Custom` 역할 범위를 가진 사용자는 제한된 스토어에 할당된 경우 웹 사이트 및 범주를 만들거나, 제품을 범주에 할당하거나, _[!UICONTROL All Store Views]_&#x200B;범위에서 제품을 편집할 수 없습니다. 이러한 사용자는 액세스 권한이 없는 범위에 영향을 주는 다른_&#x200B;전역&#x200B;_작업도 수행할 수 없습니다.
 
-1. _[!UICONTROL Roles Resources]_에서&#x200B;**[!UICONTROL Resource Access]**을(를) `Custom`(으)로 설정합니다.
+1. _[!UICONTROL Roles Resources]_&#x200B;에서&#x200B;**[!UICONTROL Resource Access]**&#x200B;을(를) `Custom`(으)로 설정합니다.
 
    >[!NOTE]
    >
@@ -74,7 +89,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ 및 _[!UICONTROL Shipments]_순서 [탭](../stores-purchase/order-processing.md)을 보려면 관리자 사용자에게 역할 범위에 대한&#x200B;**[!UICONTROL Sales / Archive]**권한이 있어야 합니다.
+   >_[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ 및 _[!UICONTROL Shipments]_&#x200B;순서 [탭](../stores-purchase/order-processing.md)을 보려면 관리자 사용자에게 역할 범위에 대한&#x200B;**[!UICONTROL Sales / Archive]**&#x200B;권한이 있어야 합니다.
 
 1. 완료되면 **[!UICONTROL Save Role]**&#x200B;을(를) 클릭합니다.
 
@@ -82,13 +97,13 @@ ht-degree: 0%
 
 ## 사용자에게 역할 할당
 
-1. _[!UICONTROL Roles]_그리드에서 레코드를 편집 모드로 엽니다.
+1. _[!UICONTROL Roles]_&#x200B;그리드에서 레코드를 편집 모드로 엽니다.
 
-1. _[!UICONTROL Current User Identity Verification]_에서 사용자 계정 암호를 입력합니다.
+1. _[!UICONTROL Current User Identity Verification]_&#x200B;에서 사용자 계정 암호를 입력합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Role Users]**&#x200B;을(를) 선택합니다.
 
-   _[!UICONTROL Role Users]_옵션은 새 역할이 저장된 후에만 나타납니다.
+   _[!UICONTROL Role Users]_&#x200B;옵션은 새 역할이 저장된 후에만 나타납니다.
 
    ![역할에 할당된 사용자 계정](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 

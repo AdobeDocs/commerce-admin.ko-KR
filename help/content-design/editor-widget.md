@@ -4,10 +4,16 @@ description: WYSIWYG 편집기의 위젯 도구를 사용하여 페이지에 다
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/NdvL4SUXxRGF451r8SpP6JJ5iBa0gJoU4QIqTMefvc8
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 356
@@ -29,7 +35,7 @@ ht-degree: 0%
 
 1. 편집 모드로 페이지, 블록 또는 동적 블록을 엽니다.
 
-1. _[!UICONTROL Content]_섹션으로 이동하여 편집기를 지원하는 요소를 클릭합니다.
+1. _[!UICONTROL Content]_&#x200B;섹션으로 이동하여 편집기를 지원하는 요소를 클릭합니다.
 
 1. 위젯을 표시할 위치에 커서를 놓고 _위젯 삽입_ 아이콘을 클릭합니다.
 

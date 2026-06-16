@@ -5,12 +5,22 @@ exl-id: 969c352c-ff88-4902-8347-334ee8b79afb
 feature: B2B, Companies, Catalog Management
 role: Admin
 TQID: https://experienceleague.adobe.com/UaH40o7aZu8AYc1TuOfvXqxHebFod-rmGg0tobIKzjg
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cbid: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 872
@@ -79,7 +89,7 @@ ht-degree: 0%
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   새 카탈로그가 _[!UICONTROL Shared Catalogs]_표에 나타납니다.
+   새 카탈로그가 _[!UICONTROL Shared Catalogs]_&#x200B;표에 나타납니다.
 
 ### 방법 2: 기존 공유 카탈로그 복제
 
@@ -104,7 +114,7 @@ ht-degree: 0%
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   _[!UICONTROL Shared Catalogs]_표에 고유한 ID와 함께 중복 항목이 나타납니다.
+   _[!UICONTROL Shared Catalogs]_&#x200B;표에 고유한 ID와 함께 중복 항목이 나타납니다.
 
 ## 2단계: 설정 완료
 
@@ -112,7 +122,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**[B2B 릴리스 1.3.0](release-notes.md#b2b-v130) 이상** — 공유 카탈로그를 만들 때 카탈로그 권한 설정에서 이 액세스 권한이 할당된 고객 그룹에 대해 카탈로그에 대한 각 [범주 권한](../catalog/category-permissions.md)이 _[!UICONTROL Allow for the Display Product Prices]_및_[!UICONTROL Add to Cart]_(으)로 설정됩니다. 이전에는 카탈로그 권한이 `Allow`(으)로 설정되어 있어도 이 설정이 `Deny`(으)로 자동 설정되었습니다.
+>**[B2B 릴리스 1.3.0](release-notes.md#b2b-v130) 이상** — 공유 카탈로그를 만들 때 카탈로그 권한 설정에서 이 액세스 권한이 할당된 고객 그룹에 대해 카탈로그에 대한 각 [범주 권한](../catalog/category-permissions.md)이 _[!UICONTROL Allow for the Display Product Prices]_&#x200B;및_[!UICONTROL Add to Cart]_(으)로 설정됩니다. 이전에는 카탈로그 권한이 `Allow`(으)로 설정되어 있어도 이 설정이 `Deny`(으)로 자동 설정되었습니다.
 
 ## 공유된 카탈로그 데모
 

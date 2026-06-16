@@ -6,11 +6,18 @@ feature: Page Content
 topic: Commerce, Localization
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/9jox-v5fCEhPsaex70yQod--qH-Xnp9dkgmuxJGTZd0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 368
@@ -20,7 +27,7 @@ ht-degree: 0%
 
 # 콘텐츠 페이지 번역
 
-스토어에 서로 다른 [언어](../stores-purchase/store-localize.md)의 보기가 여러 개 있고 각 보기의 로케일을 서로 다른 언어로 설정한 경우 그 결과는 부분적으로 번역된 사이트입니다. 다음 단계는 특정 스토어 보기에서 사용할 수 있는 각 페이지의 번역된 버전을 만드는 것입니다. _[!UICONTROL Manage Pages]_목록의 [!UICONTROL Store View] 열은 페이지의 번역된 버전을 포함하는 각 보기를 표시합니다.
+스토어에 서로 다른 [언어](../stores-purchase/store-localize.md)의 보기가 여러 개 있고 각 보기의 로케일을 서로 다른 언어로 설정한 경우 그 결과는 부분적으로 번역된 사이트입니다. 다음 단계는 특정 스토어 보기에서 사용할 수 있는 각 페이지의 번역된 버전을 만드는 것입니다. _[!UICONTROL Manage Pages]_&#x200B;목록의 [!UICONTROL Store View] 열은 페이지의 번역된 버전을 포함하는 각 보기를 표시합니다.
 
 콘텐츠 페이지를 번역하려면 원본과 동일한 URL 키를 가지지만 특정 스토어 보기에 할당된 다른 페이지를 만들어야 합니다. 그런 다음 특정 보기에 대한 페이지를 번역된 텍스트로 업데이트합니다. 다음 예제에서는 스페인어 스토어 보기에 대한 _정보_ 페이지의 번역된 버전을 만드는 방법을 보여 줍니다.
 
@@ -32,7 +39,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Search Engine Optimization]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 **[!UICONTROL URL Key]**&#x200B;을(를) 클립보드에 복사합니다.
 
-1. _[!UICONTROL Pages]_그리드로 돌아가려면 맨 위 단추 모음에서&#x200B;**[!UICONTROL Back]**을(를) 클릭합니다.
+1. _[!UICONTROL Pages]_&#x200B;그리드로 돌아가려면 맨 위 단추 모음에서&#x200B;**[!UICONTROL Back]**&#x200B;을(를) 클릭합니다.
 
 ## 2단계: 번역된 콘텐츠의 페이지 추가
 
