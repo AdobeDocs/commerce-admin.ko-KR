@@ -3,7 +3,7 @@ title: 컨텐츠 스테이징
 description: 콘텐츠 스테이징은 비즈니스 팀이 관리자로부터 직접 스토어에 대한 광범위한 콘텐츠 업데이트를 쉽게 만들고, 미리 보고, 예약할 수 있도록 합니다.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -98,6 +98,6 @@ _campaign_ 용어는 예약된 변경 내용 또는 스테이징 대시보드에
 
 콘텐츠 스테이징 문제를 해결하는 데 대한 도움말은 다음 [!DNL Commerce] 지원 기술 문서를 참조하십시오.
 
-- [컨텐츠 스테이징 문제로 인한 모든 페이지 오류 404](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html)
-- [예약된 컨텐츠 스테이징 업데이트가 오래된 Fastly 캐시와 함께 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html)
-- [공유 카탈로그의 가격에 대한 콘텐츠 스테이징 업데이트를 예약할 수 있습니까?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html)
+- [컨텐츠 스테이징 문제로 인한 모든 페이지 오류 404](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=ko)
+- [예약된 컨텐츠 스테이징 업데이트가 오래된 Fastly 캐시와 함께 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=ko)
+- [공유 카탈로그의 가격에 대한 콘텐츠 스테이징 업데이트를 예약할 수 있습니까?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=ko)

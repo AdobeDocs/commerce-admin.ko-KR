@@ -3,7 +3,7 @@ title: 보고서 검토
 description: 사이트에서 기본 제공 검토 기능을 사용하는 경우 검토 보고서는 고객별 및 제품별 제품 검토에 대한 정보를 제공합니다.
 exl-id: f337c0fc-a8fd-43ef-82db-f11741e6dc76
 feature: Reporting, Customers, Products
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/QM0nxXnljOirZCPAtNwB-pFF9b7yAoIHi45y4u-rCoA
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

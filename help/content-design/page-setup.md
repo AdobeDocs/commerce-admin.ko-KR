@@ -2,7 +2,7 @@
 title: 페이지 설정
 description: 저장소 페이지의 기본 부분에 대한 기본값을 구성하는 방법에 대해 알아봅니다.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/EmzCKKd7dZaBu0LECyK-BcnpaS7lu-8YvAJWSfviFXM
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

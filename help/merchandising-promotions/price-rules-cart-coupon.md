@@ -91,7 +91,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
 >[!NOTE]
 >
->[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 쿠폰을 만들기 전에 `bin/magento cron:run` 명령을 사용하여 cron이 실행 중인지 확인하십시오. 자세한 내용은 _구성 가이드_&#x200B;의 [명령줄에서 cron 실행](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line)을 참조하십시오.
+>[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 쿠폰을 만들기 전에 `bin/magento cron:run` 명령을 사용하여 cron이 실행 중인지 확인하십시오. 자세한 내용은 _구성 가이드_&#x200B;의 [명령줄에서 cron 실행](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko#run-cron-from-the-command-line)을 참조하십시오.
 
 ### 방법 1: 특정 쿠폰 만들기
 
@@ -201,7 +201,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
 ### 방법 3: 사용자 정의 쿠폰 코드
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 [장바구니 가격 규칙](price-rules-cart.md)을 만든 후 사용자 지정 쿠폰 코드를 규칙에 수동으로 추가할 수 있습니다.
 

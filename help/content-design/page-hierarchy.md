@@ -2,7 +2,7 @@
 title: 페이지 계층
 description: 페이지 계층 구조 시스템을 통해 콘텐츠 페이지를 구성하고 페이지 매김, 탐색 및 메뉴를 추가하는 방법에 대해 알아봅니다.
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/FjbEcEVUdtL-3iun4t3ou8ITfI2RI7HmvoqoAkJc71Y
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

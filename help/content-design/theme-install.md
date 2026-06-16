@@ -3,7 +3,7 @@ title: 새 테마 설치
 description: Adobe Commerce 또는 Magento Open Source 스토어의 새 테마 설치에 대해 알아봅니다.
 exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 feature: Page Content, Themes
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/95FY93Orarr7iijUGev462alrGf6eVxUZGkc0dvMX-o
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-시작하기 전에 올바른 [[!DNL Commerce] 액세스 키](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) 집합이 있는지 확인하십시오.
+시작하기 전에 올바른 [[!DNL Commerce] 액세스 키](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=ko) 집합이 있는지 확인하십시오.
 
 [!DNL Commerce] 스토어에 테마를 추가하려면 [!DNL Commerce Marketplace]에서 사용할 수 있는 지침을 따르십시오.
 

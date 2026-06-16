@@ -3,7 +3,7 @@ title: 비공개 판매 보고서
 description: Adobe Commerce에서 사용할 수 있는 개인 판매 보고서는 이벤트 및 개인 판매에 대한 유용한 정보를 제공합니다.
 exl-id: e1c2b01f-500a-475e-b61e-20f3ccbc0e70
 feature: Promotions/Events, Reporting
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/PD538YpWbu4svlU2EQZ3x8Ssgf8Ghj8Yk5cLa1b63eM
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

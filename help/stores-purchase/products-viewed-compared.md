@@ -3,7 +3,7 @@ title: 최근에 보거나 비교한 제품
 description: 최근에 보고 비교한 제품에 대한 상점 컨텐츠 블록을 구성하는 방법에 대해 알아봅니다.
 exl-id: a4580835-68c2-4eb0-825e-0939eeab921b
 feature: Products, Storefront
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/YeayJ1RkE6Muq0wNnd6KAQmmZcyjTQrSZOqEltlj8T8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -2,7 +2,7 @@
 title: Storefront 레이아웃 예
 description: 페이지 레이아웃 옵션의 예를 검토하십시오.
 exl-id: 1cda1175-269b-42b9-bf4e-9bf14483da1d
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/rYnP28GqKMyPGcZSkCWAJAjlA6tNv2Rr-l4DDegU-UQ
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

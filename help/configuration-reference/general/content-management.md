@@ -3,7 +3,7 @@ title: '[!UICONTROL General] > [!UICONTROL Content Management]'
 description: Commerce 관리자의 [!UICONTROL General] > [!UICONTROL Content Management] 페이지에서 구성 설정을 검토합니다.
 exl-id: 67c5e89b-0a7c-4e4f-a5ad-10376c3ef6f9
 feature: Configuration, Page Content
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/0xOspXoBYVeEE3ZvTlwkKNewR9YMAdbmch8RlRcE7S8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ![WYSIWYG 옵션](./assets/content-management-wysiwyg-options.png)<!-- zoom -->
 
-<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ![WYSIWYG 옵션](./assets/content-management-wysiwyg-options-hugerte.png)<!-- zoom -->
 
-<!-- [WYSIWYG Options](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/editor) -->
+<!-- [WYSIWYG Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/wysiwyg/editor) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ![CMS 페이지 계층 구조](./assets/content-management-cms-page-hierarchy.png)<!-- zoom -->
 
-<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
+<!--[CMS Page Hierarchy](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/elements/pages/page-hierarchy) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ![고급 콘텐츠 도구](./assets/content-management-advanced-content-tools.png)<!-- zoom -->
 
-<!-- [Advanced Content Tools](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
+<!-- [Advanced Content Tools](https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/walkthrough/3-catalog-content) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

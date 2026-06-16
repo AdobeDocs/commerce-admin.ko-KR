@@ -3,7 +3,7 @@ title: PayPal Express 체크아웃
 description: 스토어에서 온라인 결제 솔루션으로 PayPal Express Checkout을 설정하는 방법에 대해 알아봅니다.
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

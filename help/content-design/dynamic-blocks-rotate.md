@@ -2,7 +2,7 @@
 title: 회전하는 동적 블록 추가
 description: 회전자에 여러 동적 블록을 추가하여 상점 전면에서 대화형 컨텐츠의 슬라이드 쇼를 표시합니다.
 exl-id: 3d338014-cf26-4171-b48b-d37b3d7b0e81
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/9fMqGoH1y1T0S9Njq9frKcspGhyTVZ-H2OzAJbWwhjU
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

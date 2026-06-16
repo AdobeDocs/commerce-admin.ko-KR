@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 1단계: 언어 팩 설치
 
-언어 팩 확장 설치에 대한 표준 지침을 따르십시오. 확장 설치에 대한 자세한 내용은 _확장 안내서_&#x200B;에서 [일반 CLI 설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)를 참조하십시오.
+언어 팩 확장 설치에 대한 표준 지침을 따르십시오. 확장 설치에 대한 자세한 내용은 _확장 안내서_&#x200B;에서 [일반 CLI 설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=ko)를 참조하십시오.
 
 ## 2단계: 언어에 대한 스토어 보기 만들기
 

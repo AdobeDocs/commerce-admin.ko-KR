@@ -3,7 +3,7 @@ title: 이벤트 만들기 및 업데이트
 description: 카탈로그에서 범주와 연결된 이벤트를 만드는 방법을 알아봅니다.
 exl-id: 6c9f6a33-6785-4c3a-add6-dc2a6b16ed88
 feature: Marketing Tools, Promotions/Events
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/6ipZ7CKTvNo1BGDU6ERhsJpJcKQ9yuoKKxqdIE6iEiM
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

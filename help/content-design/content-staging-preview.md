@@ -3,7 +3,7 @@ title: 캠페인 미리 보기
 description: 캠페인 중 특정 날짜 또는 기간에 대한 미리 보기를 만들고 팀 구성원과 공유합니다.
 exl-id: f05589ae-9fc8-4e51-a504-ab90772b3c3d
 feature: Page Content, Staging
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/oX0wqWTv3MiA6-nMLngP2di0o9JmC-WNkAOm4TOpv74
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ![일반](./assets/sales-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [General](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ![체크아웃 합계 정렬 순서](./assets/sales-checkout-totals-sort-order.png)<!-- zoom -->
 
-<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
+<!-- [Checkout Totals Sort Order](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-totals-sort-order) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 ![순서 바꾸기](./assets/sales-reorder.png)<!-- zoom -->
 
-<!-- [Reorder](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
+<!-- [Reorder](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 ![인보이스 및 포장 명세서 디자인](./assets/sales-invoice-packing-slip-design.png)<!-- zoom -->
 
-<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
+<!-- [Invoice and Packing Slip Design](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/sales-documents) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -97,7 +97,7 @@ ht-degree: 1%
 
 ![최소 주문 금액](./assets/sales-minimum-order-amount.png)<!-- zoom -->
 
-<!-- [Minimum Order Amount](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
+<!-- [Minimum Order Amount](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#minimum-order-amount) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -117,7 +117,7 @@ ht-degree: 1%
 
 ![대시보드](./assets/sales-dashboard.png)<!-- zoom -->
 
-<!-- [Dashboard](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
+<!-- [Dashboard](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/tools/admin-dashboard) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -129,7 +129,7 @@ ht-degree: 1%
 
 ![주문 크론 설정](./assets/sales-orders-cron-settings.png)<!-- zoom -->
 
-<!-- [Orders Cron Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron) -->
+<!-- [Orders Cron Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/cron) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -139,7 +139,7 @@ ht-degree: 1%
 
 ## [!UICONTROL Promotions]
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 ![프로모션 설정](./assets/sales-promotions-settings.png)<!-- zoom -->
 
@@ -151,7 +151,7 @@ ht-degree: 1%
 
 ![선물 옵션](./assets/sales-gift-options.png)<!-- zoom -->
 
-<!-- [Gift Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
+<!-- [Gift Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#gift-options) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -169,7 +169,7 @@ ht-degree: 1%
 
 ![최소 광고 가격](./assets/sales-minimum-advertised-price.png)<!-- zoom -->
 
-<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
+<!-- [Minimum Advertised Price](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/pricing/product-price-minimum-advertised) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -214,7 +214,7 @@ ht-degree: 1%
 
 ![즉시 구매](./assets/sales-instant-purchase.png)<!-- zoom -->
 
-<!-- [Instant Purchase](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
+<!-- [Instant Purchase](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

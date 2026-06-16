@@ -3,7 +3,7 @@ title: 사용자 정의 URL 재작성
 description: 사용자 지정 URL 재작성을 사용하여 Commerce 스토어에서 기타 리디렉션을 관리하는 방법에 대해 알아봅니다.
 exl-id: b15054be-e463-48e6-b6c1-0a8a2141cc01
 feature: Search, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/S79sN1Z6sEUM0IsAv525-RvGmLn7ajkwK7P7hE1Mhrc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

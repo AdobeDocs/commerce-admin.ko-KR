@@ -3,7 +3,7 @@ title: '[!UICONTROL General] > [!UICONTROL Advanced Reporting]'
 description: Commerce 관리자의 [!UICONTROL General] > [!UICONTROL Advanced Reporting] 페이지에서 구성 설정을 검토합니다.
 exl-id: 3f6311c8-3849-4608-8f2c-64359bd3edbc
 feature: Configuration, Commerce Intelligence
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/6As8e-RnZECeC2-Pt5dtjTA0N66WPTuRHzeBn8cMqyo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -33,11 +33,11 @@ ht-degree: 1%
 
 ## [!UICONTROL Advanced Reporting]
 
-_[!DNL Advanced Reporting]_&#x200B;은(는) [Adobe Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html){:target="_blank"}에서 제공하는 클라우드 기반 서비스입니다. 자세한 내용은_&#x200B;시작 안내서&#x200B;_의 [고급 보고](https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting){:target="_blank"}를 참조하십시오.
+_[!DNL Advanced Reporting]_&#x200B;은(는) [Adobe Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=ko){:target="_blank"}에서 제공하는 클라우드 기반 서비스입니다. 자세한 내용은_&#x200B;시작 안내서&#x200B;_의 [고급 보고](https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html?lang=ko#advanced-reporting){:target="_blank"}를 참조하십시오.
 
 ![고급 보고](./assets/advanced-reporting.png)<!-- zoom -->
 
-<!-- [Advanced Reporting](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
+<!-- [Advanced Reporting](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

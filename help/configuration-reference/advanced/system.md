@@ -284,7 +284,7 @@ ht-degree: 1%
 
 ![고급 구성 - 이미지 업로드 구성](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

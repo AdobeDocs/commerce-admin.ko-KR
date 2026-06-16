@@ -3,7 +3,7 @@ title: '[!UICONTROL Services] > [!UICONTROL Commerce Services Connector]'
 description: Commerce 관리자의 [!UICONTROL Services] > [!UICONTROL Commerce Services Connector] 페이지에서 구성 설정을 검토합니다.
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/50XCqY8JMjvf9G-wcHLxvlskSd5noIAB0LIX6xMarL0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-스토어를 Adobe Commerce 서비스에 연결하는 방법은 [Commerce 서비스](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html)를 참조하세요.
+스토어를 Adobe Commerce 서비스에 연결하는 방법은 [Commerce 서비스](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=ko)를 참조하세요.
 
 {{config}}
 
@@ -60,7 +60,7 @@ ht-degree: 2%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Project] | 글로벌 | 모든 SaaS 데이터 공간을 그룹화하는 SaaS 프로젝트의 이름입니다. SaaS 프로젝트가 없는 경우 _프로젝트 만들기_ 단추가 표시됩니다. |
-| [!UICONTROL Data Space] | 글로벌 | 지정된 SaaS 프로젝트의 SaaS 데이터 공간을 나열합니다. SaaS 데이터 공간 수는 [Commerce 라이선스](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html)에 따라 다릅니다.<br />Adobe Commerce - 프로덕션 데이터 공간 1개; 테스트 데이터 공간 2개;<br />Magento Open Source - 프로덕션 데이터 공간 1개; 테스트 데이터 공간 없음 |
+| [!UICONTROL Data Space] | 글로벌 | 지정된 SaaS 프로젝트의 SaaS 데이터 공간을 나열합니다. SaaS 데이터 공간 수는 [Commerce 라이선스](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=ko)에 따라 다릅니다.<br />Adobe Commerce - 프로덕션 데이터 공간 1개; 테스트 데이터 공간 2개;<br />Magento Open Source - 프로덕션 데이터 공간 1개; 테스트 데이터 공간 없음 |
 
 {style="table-layout:auto"}
 

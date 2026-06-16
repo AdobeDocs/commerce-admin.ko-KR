@@ -32,7 +32,7 @@ ht-degree: 3%
 
 ![문의하기](./assets/contacts-contact-us.png)<!-- zoom -->
 
-<!-- [Contact Us](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
+<!-- [Contact Us](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 ![전자 메일 옵션](./assets/contacts-email-options.png)<!-- zoom -->
 
-<!-- [Email Options](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
+<!-- [Email Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

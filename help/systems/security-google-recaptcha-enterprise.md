@@ -3,7 +3,7 @@ title: Google reCAPTCHA 엔터프라이즈
 description: 봇 및 사기 행위로부터 Adobe Commerce as a Cloud Service 매장을 보호하기 위해 Google reCAPTCHA Enterprise를 구성하는 방법을 알아봅니다.
 role: Admin
 feature: Configuration, Security
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 exl-id: 2c88488c-8ff1-41db-b81b-89ad164e134d
 TQID: https://experienceleague.adobe.com/oMZleuJsp2QiDD7IsMDV647LWKm938lNvY4--o6G3c8
 product_v2:

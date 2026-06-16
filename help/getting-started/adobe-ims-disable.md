@@ -3,7 +3,7 @@ title: Adobe ID과 Commerce Admin Integration 비활성화
 description: Adobe IMS와 Adobe Commerce Admin 통합을 비활성화하려면 이 선택적 절차를 따르십시오.
 exl-id: 0cd02b23-873e-4e65-ae1f-dbe4f7d0a476
 feature: Identity Management
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/KL6Cx3ymElo7ROx5SUJtlqtKivnw7-heqPWGksGP-pg
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -34,7 +34,7 @@ Commerce 인스턴스를 Adobe IMS 인증 워크플로와 통합한 판매자는
 
 IMS 통합이 비활성화된 후 Commerce 배포는 기본 Commerce 인증 워크플로 및 암호 정책으로 되돌아갑니다. 이 통합이 활성화되거나 비활성화될 때 관리자 사용자 워크플로우만 영향을 받습니다.
 
-Commerce 관리자 로그인에 대한 개요는 [관리자 계정](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html)을 참조하세요.
+Commerce 관리자 로그인에 대한 개요는 [관리자 계정](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=ko)을 참조하세요.
 
 ## 1단계: 통합 비활성화
 
