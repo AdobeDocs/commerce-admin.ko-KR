@@ -3,9 +3,26 @@ title: 카탈로그 가격 규칙에 대한 예약된 변경 사항
 description: 캠페인의 일부로 일정에 카탈로그 가격 규칙을 적용하고 다른 콘텐츠 변경 사항과 그룹화하는 방법을 알아봅니다.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: e4c18621d0607446b48bf2447ac1a978d33ac24a
+TQID: https://experienceleague.adobe.com/OP-QPlP2xYEQYnxy9bWEiQJyCiMqFu-k2YblXvXSscw
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: 836
 ht-degree: 0%
 
 ---
@@ -112,4 +129,4 @@ ht-degree: 0%
 
    다른 저장소 보기에 대해 예약된 변경 내용을 보려면 미리 보기 페이지의 헤더에서 **[!UICONTROL Scope]**&#x200B;을(를) 클릭하십시오. 미리 보려는 웹 사이트, 스토어 또는 스토어 보기를 선택합니다.
 
-1. 필요한 경우 일정으로 돌아가서 **[!UICONTROL View/Edit]** 열의 _[!UICONTROL Action]_&#x200B;을(를) 클릭하여 다른 예약된 업데이트를 엽니다.
+1. 필요한 경우 일정으로 돌아가서 _[!UICONTROL Action]_&#x200B;열의&#x200B;**[!UICONTROL View/Edit]**&#x200B;을(를) 클릭하여 다른 예약된 업데이트를 엽니다.

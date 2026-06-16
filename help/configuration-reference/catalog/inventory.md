@@ -1,11 +1,26 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]'
-description: Commerce 관리자의 [!UICONTROL Catalog] &gt; [!UICONTROL Inventory] 페이지에서 구성 설정을 검토하십시오.
+title: '[!UICONTROL Catalog] > [!UICONTROL Inventory]'
+description: Commerce 관리자의 [!UICONTROL Catalog] > [!UICONTROL Inventory] 페이지에서 구성 설정을 검토합니다.
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/kxlKhWRjFDUH97FDenycl4nU1QdBWzceDCKfhZ0MTAc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: 1225
 ht-degree: 0%
 
 ---
@@ -108,7 +123,7 @@ ht-degree: 0%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Google API key] | 글로벌 | Google MAP 공급자에 대한 Google API 키를 입력합니다. 키는 [!DNL Google Maps Platform]에서 가져온 것이므로 [!DNL Geocoding API] 및 [!DNL Distance Matrix API]을(를) 사용하도록 설정해야 합니다. 자세한 내용은 _Inventory management 안내서_&#x200B;에서 [거리 우선 순위 알고리즘 구성](../../inventory-management/distance-priority-algorithm.md#configure-the-distance-priority-algorithm)을 참조하십시오. |
-| [!UICONTROL Computation mode] | 글로벌 | 배송 주소 및 재고에 지정된 모든 출처와의 거리를 계산하는 방향 및 경로를 결정합니다. 기본적으로 계산은 운전 모드를 사용합니다. 옵션: <br/>**`Driving`**- 기본 설정이며, 도로 네트워크를 사용하여 표준 주행 방향을 요청합니다.<br/>**`Walking`** - 보행자 경로 및 인도를 사용하여 보행 방향을 요청합니다(가능한 경우). <br/>**`Bicycling`**- 자전거 도로 및 기본 거리를 사용하여 자전거 방향을 요청합니다(현재 미국과 일부 캐나다 도시에서만 사용 가능). |
-| [!UICONTROL Value] | 글로벌 | 운송 대상 주소까지의 출처 위치에 대한 거리 및 시간을 계산하고 반환할 사항을 나타냅니다. 거리 우선순위 알고리즘은 배송지 주소까지의 거리 또는 시간이 가장 짧은 소스를 권장하므로 배송을 이행하는 데 더 빠르고 저렴할 수 있습니다. 옵션: <br/>**`Distance`**- 지표(킬로미터 및 미터) 또는 임페리얼(마일 및 피트) 포인트 사이의 거리를 반환합니다.<br/>**`Time to Destination`** - 원본 위치에서 배송 주소로 이동하는 데 필요한 시간을 시간 및 분 단위로 반환합니다. |
+| [!UICONTROL Computation mode] | 글로벌 | 배송 주소 및 재고에 지정된 모든 출처와의 거리를 계산하는 방향 및 경로를 결정합니다. 기본적으로 계산은 운전 모드를 사용합니다. 옵션: <br/>**`Driving`**- 기본 설정이며, 도로 네트워크를 사용하여 표준 주행 방향을 요청합니다.<br/>**`Walking`** - 보행자 도로 및 보도를 사용하여 보행 방향을 요청합니다(가능한 경우). <br/>**`Bicycling`**- 자전거 도로 및 기본 거리를 사용하여 자전거 방향을 요청합니다(현재 미국과 일부 캐나다 도시에서만 사용 가능). |
+| [!UICONTROL Value] | 글로벌 | 운송 대상 주소까지의 출처 위치에 대한 거리 및 시간을 계산하고 반환할 사항을 나타냅니다. 거리 우선순위 알고리즘은 배송지 주소까지의 거리 또는 시간이 가장 짧은 소스를 권장하므로 배송을 이행하는 데 더 빠르고 저렴할 수 있습니다. 옵션: <br/>**`Distance`**- 지표(킬로미터 및 미터) 또는 임페리얼(마일 및 피트) 포인트 사이의 거리를 반환합니다.<br/>**`Time to Destination`** - 원본 위치에서 배송 주소까지 이동하는 데 필요한 시간을 시간 및 분 단위로 반환합니다. |
 
 {style="table-layout:auto"}

@@ -5,13 +5,27 @@ feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 25964363ca5c4ec849e231d4eccb5f60b682a499
+TQID: https://experienceleague.adobe.com/3Pm-OhN99lY-zrCWWbGn8O-et4mDpWk-nJJ2axnFzEo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: 1320
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Adobe Commerce B2B] 확장 설치
 
@@ -60,7 +74,7 @@ Composer를 사용하여 B2B 확장(`magento/b2b-extension`)을 설치합니다.
 
 >[!TIP]
 >
->클라우드 인프라에 Adobe Commerce Adobe B2B를 설치하는 경우 시작하기 전에 통합 또는 스테이징 환경에 Adobe Commerce 애플리케이션을 배포하는 것이 좋습니다.
+>클라우드 인프라에 Adobe Commerce B2B를 설치하는 경우 시작하기 전에 통합 또는 스테이징 환경에 Adobe Commerce 애플리케이션을 배포하는 것이 좋습니다.
 
 Adobe은 프로젝트에 B2B 확장을 추가할 때 개발 분기에서 작업하는 것을 권장합니다. 분기가 없는 경우 [개발용 분기 만들기](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/cli-branches)를 참조하세요. B2B 확장을 설치할 때 `Magento_B2b` 확장 이름이 `app/etc/config.php` 파일에 자동으로 삽입됩니다. 파일을 직접 편집할 필요는 없습니다.
 

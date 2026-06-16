@@ -3,9 +3,25 @@ title: UPS(United Parcel Service)
 description: UPS를 상점의 배송 운송업체로 설정하는 방법에 대해 알아보십시오.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: a925827f2d939eeb9e6b3e57c023792ae358cbfc
+TQID: https://experienceleague.adobe.com/f612bfVAntUBDK-vzfM4OzI0tMgGblVcZ75gKaKfziQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: 1008
 ht-degree: 0%
 
 ---
@@ -36,7 +52,7 @@ UPS 통합을 사용하려면 [UPS API 시작 안내서](https://developer.ups.c
 
 1. 왼쪽 패널의 **[!UICONTROL Sales]**&#x200B;에서 **[!UICONTROL Delivery Methods]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL UPS]**&#x200B;를 확장합니다.
+1. **[!UICONTROL UPS]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. **[!UICONTROL Enabled for Checkout]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -61,8 +77,8 @@ UPS 통합을 사용하려면 [UPS API 시작 안내서](https://developer.ups.c
 
    >[!NOTE]
    >
-   >표준 유나이티드 택배 서비스 유형은 사용이 중단될 예정입니다. 새 구성의 경우 기본 `United Parcel Service REST` 형식을 사용하십시오. [배송 레이블](shipping-labels.md).<br/>을 생성하는 데에도 REST 형식이 필요합니다.
-   >2.4.7 릴리스의 경우 **[!UICONTROL UPS Type]** 및 `UPS` 형식이 사용 중지로 예약되어 있고 `UPS XML`이(가) 기본값이므로 `UPS REST`이(가) 제거됩니다. 기본 Adobe Commerce 통합에서 사용하는 통합 택배 서비스(UPS) API는 현재 OAuth 2.0 보안 모델을 지원하지 않으므로 일시적으로 더 이상 사용되지 않습니다.
+   >표준 유나이티드 택배 서비스 유형은 사용이 중단될 예정입니다. 새 구성의 경우 기본 `United Parcel Service REST` 형식을 사용하십시오. [배송 레이블](shipping-labels.md).<br/>을 생성하는 데에도 REST 유형이 필요합니다.
+   >2.4.7 릴리스의 경우 `UPS` 및 `UPS XML` 형식이 사용 중지로 예약되어 있고 `UPS REST`이(가) 기본값이므로 **[!UICONTROL UPS Type]**&#x200B;이(가) 제거됩니다. 기본 Adobe Commerce 통합에서 사용하는 통합 택배 서비스(UPS) API는 현재 OAuth 2.0 보안 모델을 지원하지 않으므로 일시적으로 더 이상 사용되지 않습니다.
 
    >[!IMPORTANT]
    >

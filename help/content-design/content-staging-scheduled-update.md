@@ -4,9 +4,20 @@ description: 제품에 대한 임시 가격 변경을 예약하는 데 사용되
 exl-id: 36b7d7f6-4590-4192-a82b-e5f645b05f62
 feature: Page Content, Staging
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
+TQID: https://experienceleague.adobe.com/yR5AygNuuaCFZEMfRpRd-EH6jeSrRUQoVSO--sxF-FE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: 667
 ht-degree: 0%
 
 ---
@@ -38,7 +49,7 @@ ht-degree: 0%
 
    - 캘린더(![캘린더 아이콘](../assets/icon-calendar.png)) 도구를 사용하여 캠페인의 **시작 날짜** 및 **종료 날짜**&#x200B;를 선택하십시오.
 
-     끝이 열린 캠페인을 만들려면 종료 날짜를 지정하지 마십시오(비워 둠). 이 예제의 경우 캠페인은 2021년 1월 1일 자정(태평양 표준시 오전 12시)에 시작될 예정입니다.
+     끝이 열린 캠페인을 만들려면 종료 날짜를 지정하지 마십시오(비워 둠). 이 예제의 경우 캠페인은 2021년 1월 1일 자정(오전 12:00시 PST) 부터 시작될 예정입니다.
 
 
      종료 일자 없이 생성된 가격 규칙 캠페인의 경우 종료 일자는 나중에 추가할 수 없습니다. 이러한 경우 캠페인을 만들고 시작 날짜를 이전 캠페인이 종료되고 새 캠페인이 시작되도록 하려는 날짜로 설정해야 합니다. 해당 시작 날짜에 이전 캠페인이 종료되고 새 캠페인이 정의된 대로 시작됩니다.

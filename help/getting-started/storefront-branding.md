@@ -3,9 +3,24 @@ title: 상점 첫 브랜딩
 description: 스토어의 브랜드 정체성을 정의하는 요소를 변경하는 방법에 대해 알아봅니다.
 exl-id: 91630717-9da7-4d2f-a0d8-adb794a30ee1
 feature: Storefront
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+TQID: https://experienceleague.adobe.com/2IjLVK33ITjn-eFJ0VpmDmlp8SNy-vZ0365An0lm1cA
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: 1313
 ht-degree: 0%
 
 ---
@@ -36,9 +51,9 @@ ht-degree: 0%
 
 지원되는 로고 파일 형식:
 
-| 파일 형식 | 설명 |
+| 파일 포맷 | 설명 |
 |--- |--- |
-| PNG | (Portable Network Graphics) GIF 형식에 대한 이 새로운 대안은 최대 1,600만 색상(24비트)을 지원합니다. 무손실 압축 형식은 텍스트가 선명하지만 일부 형식보다 파일 크기가 큰 고품질 비트맵 이미지를 생성합니다. PNG 형식은 투명 레이어를 지원하며 온라인 보기 및 스트리밍을 위해 설계되었습니다. |
+| PNG | (Portable Network Graphics) GIF 포맷에 대한 이 새로운 대안은 최대 1,600만 색상(24비트)을 지원합니다. 무손실 압축 형식은 텍스트가 선명하지만 일부 형식보다 파일 크기가 큰 고품질 비트맵 이미지를 생성합니다. PNG 형식은 투명 레이어를 지원하며 온라인 보기 및 스트리밍을 위해 설계되었습니다. |
 | GIF | (Graphics Interchange Format) 256색(8비트)으로 제한된 널리 지원되는 이전 비트맵 형식입니다. GIF 형식은 간단한 애니메이션 및 투명 레이어를 지원합니다. |
 | JPG(JPEG) | (Joint Photographic Expert Group) 대부분의 디지털 카메라에서 사용하는 압축된 비트맵 형식입니다. 손실 압축은 일부 데이터 손실을 발생시키며, 이는 때때로 텍스트의 흐릿한 점으로 두드러집니다. |
 
@@ -66,16 +81,16 @@ ht-degree: 0%
 
 _Favicon_&#x200B;은(는) _즐겨찾는 아이콘_&#x200B;의 줄임말이며 각 브라우저 페이지의 탭에 있는 작은 아이콘을 참조합니다. 브라우저에 따라 파비콘이 URL 바로 앞의 주소 표시줄에도 표시됩니다.
 
-파비콘은 일반적으로 크기가 16 x 16픽셀 또는 32 x 32픽셀입니다. [!DNL Commerce]에서 ICO, PNG, APNG, GIF 및 JPG(JPEG) 파일 형식을 허용하지만 모든 브라우저에서 이러한 형식을 지원하는 것은 아닙니다. 파비콘에 사용할 수 있는 가장 널리 지원되는 파일 형식은 ICO입니다. 다른 이미지 파일 형식을 사용할 수는 있지만 모든 브라우저에서 지원되지 않는 형식일 수 있습니다. 온라인에는 ICO 이미지를 생성하거나 이미지를 해당 형식으로 변환하는 데 사용할 수 있는 많은 무료 도구가 있습니다.
+파비콘은 일반적으로 크기가 16 x 16픽셀 또는 32 x 32픽셀입니다. [!DNL Commerce]은(는) 모든 브라우저에서 이러한 형식을 지원하는 것은 아니지만 ICO, PNG, APNG, GIF 및 JPG(JPEG) 파일 형식을 허용합니다. 파비콘에 사용할 수 있는 가장 널리 지원되는 파일 형식은 ICO입니다. 다른 이미지 파일 형식을 사용할 수는 있지만 모든 브라우저에서 지원되지 않는 형식일 수 있습니다. 온라인에는 ICO 이미지를 생성하거나 이미지를 해당 형식으로 변환하는 데 사용할 수 있는 많은 무료 도구가 있습니다.
 
 브라우저 탭의 ![Favicon](./assets/storefront-favicon.png){width="600"}
 
 [!DNL Commerce]은(는) 다음 파일 형식을 favicon으로 지원합니다.
 
-| 파일 형식 | 설명 |
+| 파일 포맷 | 설명 |
 |--- |--- |
-| ICO | 이 이미지 파일 형식은 작은 크기의 컴퓨터 아이콘 이미지를 위해 설계되었습니다. Microsoft® Windows OS에서 주로 사용되는 ICO 포맷은 최대 256 x 256 픽셀 및 8비트 투명도의 1,600만 색상 (24비트)의 이미지를 포함할 수 있습니다. |
-| PNG | (Portable Network Graphics) GIF 형식에 대한 이 새로운 대안은 최대 1,600만 색상(24비트)을 지원합니다. 무손실 압축 형식은 텍스트가 선명하지만 일부 형식보다 파일 크기가 큰 고품질 비트맵 이미지를 생성합니다. PNG 형식은 투명 레이어를 지원하며 온라인 보기 및 스트리밍을 위해 설계되었습니다. |
+| ICO | 이 이미지 파일 형식은 작은 크기의 컴퓨터 아이콘 이미지를 위해 설계되었습니다. ® Windows OS에서 주로 사용되는 ICO 포맷은 최대 256 x 256 픽셀 및 8비트 투명도의 1,600만 색상 (24비트)의 이미지를 포함할 수 있습니다. |
+| PNG | (Portable Network Graphics) GIF 포맷에 대한 이 새로운 대안은 최대 1,600만 색상(24비트)을 지원합니다. 무손실 압축 형식은 텍스트가 선명하지만 일부 형식보다 파일 크기가 큰 고품질 비트맵 이미지를 생성합니다. PNG 형식은 투명 레이어를 지원하며 온라인 보기 및 스트리밍을 위해 설계되었습니다. |
 | APNG | (Animated Portable Network Graphics) 단순 애니메이션을 지원하는 PNG와 유사한 파일 형식입니다. |
 | GIF | (Graphics Interchange Format) 256색(8비트)으로 제한된 널리 지원되는 이전 비트맵 형식입니다. GIF 형식은 간단한 애니메이션 및 투명 레이어를 지원합니다. |
 | JPG(JPEG) | (Joint Photographic Expert Group) 대부분의 디지털 카메라에서 사용하는 압축된 비트맵 형식입니다. 손실 압축은 일부 데이터 손실을 발생시키며, 이는 때때로 텍스트의 흐릿한 점으로 두드러집니다. |

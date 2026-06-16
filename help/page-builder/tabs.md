@@ -3,9 +3,23 @@ title: 레이아웃 - 탭
 description: ' [!DNL Page Builder] 스테이지에서 탭 집합을 추가하는 데 사용되는 Tab 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/p8-6Q5JB1-j0TcS9MCp6VDDM--GG3Rd-dUMYguPbngw
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2039'
+source-wordcount: 2041
 ht-degree: 0%
 
 ---
@@ -56,7 +70,7 @@ _탭_ 콘텐츠 형식을 사용하여 작업할 때 개별 탭과 하나 이상
 
 ## 개별 탭 추가
 
-1. [!DNL Page Builder] 아래의 _[!UICONTROL Layout]_&#x200B;패널에서&#x200B;**[!UICONTROL Tabs]**&#x200B;자리 표시자를 스테이지 또는 스테이지의 행 또는 열로 직접 드래그합니다.
+1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Tabs]**&#x200B;자리 표시자를 스테이지 또는 스테이지의 행 또는 열로 직접 드래그합니다.
 
    ![탭을 행으로 드래그](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 

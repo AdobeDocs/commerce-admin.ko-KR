@@ -3,18 +3,31 @@ title: 주문 수
 description: 관리자에서 주문을 찾는 데 사용되는 주문 작업 공간 및 검색 기능에 대해 알아봅니다.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: c60f0af09fb1af08deea49216aff340eea59f1b4
+TQID: https://experienceleague.adobe.com/mfQL2HinWuVbjDzgR2rmWNCuBNWwiAlJ5LIb0R9BBME
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: 1150
 ht-degree: 0%
 
 ---
 
 # 주문 수
 
-_주문_ 그리드는 현재 주문을 모두 나열하고 [워크플로](order-status.md)를 통해 진행 상황과 [주문 상태](order-processing.md)를 추적합니다. 기본 프로세스를 쉽게 이해할 수 있는 방법은 주문이 [인보이스](invoices.md)가 되고 인보이스가 [선적](shipments.md)이 되는 것입니다. 격자는 프로세스의 첫 번째 단계를 나타내며, 여기서 기존 주문을 [업데이트](order-update.md)하고 주문을 만들 수 있습니다.
+_주문_ 그리드는 현재 주문을 모두 나열하고 [워크플로](order-processing.md)를 통해 진행 상황과 [주문 상태](order-status.md)를 추적합니다. 기본 프로세스를 쉽게 이해할 수 있는 방법은 주문이 [인보이스](invoices.md)가 되고 인보이스가 [선적](shipments.md)이 되는 것입니다. 격자는 프로세스의 첫 번째 단계를 나타내며, 여기서 기존 주문을 [업데이트](order-update.md)하고 주문을 만들 수 있습니다.
 
-일반적으로 주문은 고객이 상점에서 체크아웃 프로세스를 완료할 때 생성됩니다. 그러나 고객의 도움이 필요한 경우 [주문](shopping-assisted-cart-manage.md) 그리드에서 또는 고객 계정에서 직접 [장바구니](customer-account-create-order.md) 또는 _주문 만들기_&#x200B;에 액세스할 수도 있습니다.
+일반적으로 주문은 고객이 상점에서 체크아웃 프로세스를 완료할 때 생성됩니다. 그러나 고객의 도움이 필요한 경우 _주문_ 그리드에서 또는 고객 계정에서 직접 [장바구니](shopping-assisted-cart-manage.md) 또는 [주문 만들기](customer-account-create-order.md)에 액세스할 수도 있습니다.
 
 ## 주문 작업 공간
 

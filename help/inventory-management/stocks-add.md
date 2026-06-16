@@ -2,9 +2,23 @@
 title: 인벤토리 토큰 추가
 description: 재고를 추가하고 판매 채널(웹 사이트)에 소스를 매핑하여 판매 가능한 수량 및 제품 재고에 대한 직접적인 링크를 제공하는 방법에 대해 알아봅니다.
 exl-id: d0032ed7-c0d6-4654-b182-43a165e7dcf6
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/oP-H4hvUmNunTl-hThx4ytzC6qOXa1PhK4P1omwFBUg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: 409
 ht-degree: 0%
 
 ---
@@ -35,9 +49,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >다른 주식에 할당된 웹 사이트 또는 판매 채널을 선택하면 해당 주식에서 할당이 해제됩니다. Sales Channel 지정 재고에 지정되지 않은 모든 사용자는 기본 재고에 지정됩니다.
+   >다른 주식에 할당된 웹 사이트 또는 판매 채널을 선택하면 해당 주식에서 할당이 해제됩니다. 사용자 지정 재고에 지정되지 않은 모든 판매 채널은 기본 재고에 지정됩니다.
 
-   ![주식에 대한 Sales Channel 옵션](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
+   ![주식에 대한 판매 채널 옵션](assets/inventory-sales-channel.png){width="350" zoomable="yes"}
 
 1. **[!UICONTROL Sources]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 기본값을 제외한 모든 스톡에 대해 다음 작업을 수행합니다.
 
@@ -75,4 +89,4 @@ ht-degree: 0%
 | [!UICONTROL Websites] | 특정 웹 사이트에 주식을 _판매 채널_(으)로 할당하여 주식의 [범위](../getting-started/websites-stores-views.md#scope-settings)를 정의합니다. 종목당 하나 이상의 웹 사이트를 선택합니다. 각 웹 사이트는 하나의 주식에만 할당할 수 있습니다. |
 | **[!UICONTROL Sources]** | |
 | [!UICONTROL Assign Sources] | 이 재고에 재고 출처를 지정합니다. 사용자 지정 소스를 기본 스톡에 할당할 수 없습니다. |
-| [!UICONTROL Assigned Sources] | 지정된 소스 목록. ![정렬 아이콘](assets/icon-sort.png)을 사용하여 주문 이행 및 배송을 위한 우선 순위가 지정된 순서로 소스를 끌어다 놓습니다.<br/><br/>**[!UICONTROL Code]**- 원본의 고유 코드 ID입니다.<br/>**[!UICONTROL Name]** - 소스의 이름 설명입니다.<br/>**[!UICONTROL Unassign]**- ![휴지통 아이콘](../assets/icon-delete-trashcan-solid.png)을 사용하여 지정된 원본을 저장소에서 제거합니다. |
+| [!UICONTROL Assigned Sources] | 지정된 소스 목록. ![정렬 아이콘](assets/icon-sort.png)을 사용하여 주문 처리 및 배송을 위한 우선 순위가 지정된 순서로 원본을 끌어서 놓습니다.<br/><br/>**[!UICONTROL Code]**- 원본의 고유 코드 ID입니다.<br/>**[!UICONTROL Name]** - 소스에 대한 이름 설명입니다.<br/>**[!UICONTROL Unassign]**- ![휴지통 아이콘](../assets/icon-delete-trashcan-solid.png)을(를) 사용하여 지정된 원본을 저장소에서 제거합니다. |

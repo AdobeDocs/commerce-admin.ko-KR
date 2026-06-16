@@ -2,16 +2,35 @@
 title: 구성 참조 안내서
 description: 구성 탭, 페이지 및 섹션으로 구성된 모든 Commerce Admin Store 구성 설정에 대한 설명 정보를 검토하십시오.
 exl-id: b0359ba4-3643-4355-9154-adfedb369ec3
-source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
+TQID: https://experienceleague.adobe.com/nxl3Dlf3sQp4YOH-BLpVS0ny4TY8op2TIelYOTGkQ-M
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: 264
 ht-degree: 0%
 
 ---
 
 # 구성 참조 안내서
 
-이 안내서는 Adobe Commerce 또는 Magento Open Source 관리자에서 일하는 판매자 및 시스템 관리자를 위한 것입니다. _>_ > **[!UICONTROL Stores]**&#x200B;의 _[!UICONTROL Settings]_&#x200B;관리자&#x200B;**[!UICONTROL Configuration]**&#x200B;사이드바에서 액세스하는 모든 저장소 구성 설정에 대한 참조 정보를 제공합니다.
+이 안내서는 Adobe Commerce 또는 Magento Open Source 관리자에서 일하는 판매자 및 시스템 관리자를 위한 것입니다. **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;의_&#x200B;관리자&#x200B;_사이드바에서 액세스하는 모든 저장소 구성 설정에 대한 참조 정보를 제공합니다.
 
 Adobe Commerce 및 Magento Open Source의 기능이나 스토어 구성 절차에 대한 자세한 내용은 다루지 않습니다.
 

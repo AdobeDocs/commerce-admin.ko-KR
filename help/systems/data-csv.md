@@ -3,9 +3,23 @@ title: CSV 데이터 파일
 description: 데이터 가져오기 및 내보내기를 지원하기 위해 CSV 파일에 사용되는 구조에 대해 알아봅니다.
 exl-id: 86e362af-2af7-4557-ac49-1efad2f0e976
 feature: Products, Customers, Data Import/Export
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+TQID: https://experienceleague.adobe.com/qeKpxnrPVwIX4MgrHlQRMEVQDOZjFvG3Es39rDwNgx4
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: 718
 ht-degree: 0%
 
 ---
@@ -19,7 +33,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->CSV 파일을 편집하려면 메모장++과 같이 UTF-8 인코딩을 지원하는 프로그램을 사용하는 것이 좋습니다. Microsoft® Excel은 CSV 파일의 열 헤더에 추가 문자를 삽입하므로 데이터를 Commerce으로 다시 가져올 수 없습니다. Mac에서 작업하는 경우 데이터를 CSV(Windows) 형식으로 저장할 수 있습니다.
+>CSV 파일을 편집하려면 메모장++과 같이 UTF-8 인코딩을 지원하는 프로그램을 사용하는 것이 좋습니다. ® Excel은 CSV 파일의 열 헤더에 추가 문자를 삽입하므로 데이터를 Commerce으로 다시 가져올 수 없습니다. Mac에서 작업하는 경우 데이터를 CSV(Windows) 형식으로 저장할 수 있습니다.
 
 CSV 파일의 구조는 데이터베이스와 일치해야 합니다. 각 열 머리글은 열에 표시되는 필드의 속성 코드에 해당합니다. Commerce에서 열 머리글을 읽을 수 있도록 하려면 먼저 저장소에서 데이터를 CSV 파일로 내보냅니다. 그런 다음 데이터를 편집하고 Commerce으로 다시 가져올 수 있습니다.
 

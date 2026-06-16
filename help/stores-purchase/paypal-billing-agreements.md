@@ -4,9 +4,24 @@ description: 스토어에서 PayPal 결제 계약 및 결제 방법을 지원하
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+TQID: https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: 821
 ht-degree: 0%
 
 ---
@@ -35,7 +50,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;페이지에는 스토어와 고객 간
 
 1. 목록에서 청구 계약을 찾은 다음 을(를) 클릭하여 엽니다.
 
-각 청구 계약 페이지는 두 개의 탭(_[!UICONTROL General Information]_&#x200B;및&#x200B;_[!UICONTROL Related Orders]_)으로 구성됩니다.
+각 청구 계약 페이지는 두 개의 탭(_[!UICONTROL General Information]_&#x200B;및_[!UICONTROL Related Orders]_)으로 구성됩니다.
 
 #### 일반 정보
 

@@ -3,9 +3,24 @@ title: 관련 제품 규칙
 description: 관련 제품 규칙과 이러한 규칙을 사용하여 관련 제품, 상향 판매 및 교차 판매를 고객에게 동적으로 표시하는 방법에 대해 알아봅니다.
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-source-git-commit: 68178cb3ed493c35e92549e1ee084b1c0402264c
+TQID: https://experienceleague.adobe.com/-S2cHqetXQ0raH1d7LGRU1zW80jJ2vA9dmgSmvABNEI
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: 879
 ht-degree: 0%
 
 ---
@@ -40,7 +55,7 @@ ht-degree: 0%
 
 언제든지 관련 제품, 상향 판매 및 교차 판매를 표시하기 위해 트리거할 수 있는 몇 가지 활성 규칙이 있을 수 있습니다. 각 규칙의 우선 순위는 제품이 페이지에 표시되는 순서를 결정합니다. 값은 모든 정수로 설정할 수 있으며 `1`의 우선 순위가 가장 높습니다.
 
-제품 관계 규칙에 포함할 수 있는 제품 ID의 수는 `Result Limit` 값(최대 20)에 의해 결정됩니다. 특정 규칙 기반 제품 프로모션을 위해 `Result Limit`과(와) 결합된 `Configurable Maximum` 값은 `Real Limit`이(가) 되며 목록에 나타날 수 있는 실제 일치하는 제품 수를 결정합니다.
+제품 관계 규칙에 포함할 수 있는 제품 ID의 수는 `Result Limit` 값(최대 20)에 의해 결정됩니다. 특정 규칙 기반 제품 프로모션을 위해 `Configurable Maximum`과(와) 결합된 `Result Limit` 값은 `Real Limit`이(가) 되며 목록에 나타날 수 있는 실제 일치하는 제품 수를 결정합니다.
 
 [결과 제한] + [구성 가능한 최대값] = [실제 제한]
 
@@ -71,7 +86,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Catalog]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션을 &#x200B;](../assets/icon-display-expand.png)확장&#x200B;**[!UICONTROL Rules-Based Product Relations]**&#x200B;합니다.
+1. **[!UICONTROL Rules-Based Product Relations]** 섹션을 ![확장](../assets/icon-display-expand.png)합니다.
 
    ![카탈로그 구성 - 규칙 기반 제품 관계](../configuration-reference/catalog/assets/catalog-rule-based-product-relations.png){width="600" zoomable="yes"}
 

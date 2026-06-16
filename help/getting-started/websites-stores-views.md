@@ -3,16 +3,30 @@ title: 사이트, 스토어 및 보기 범위
 description: 고객을 위한 쇼핑 경험을 전달하는 데 사용할 수 있는 웹 사이트, 스토어 및 스토어 조회수의 계층 구조에 대해 알아봅니다.
 exl-id: 80fc1b73-c869-4f1c-b1a1-d61823b91d83
 feature: System, Site Management
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+TQID: https://experienceleague.adobe.com/S8E0BsK2lZqb82QMhyXOIEVUrXWy1X2h943tvF3sMzM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: 687
 ht-degree: 0%
 
 ---
 
 # 사이트, 스토어 및 보기 범위
 
-모든 Adobe Commerce 및 Magento Open Source 설치에는 웹 사이트, 스토어 및 스토어 조회수의 [계층 구조](../stores-purchase/stores.md)가 있습니다. _범위_&#x200B;라는 용어는 계층 구조에서 제품, 특성 또는 범주와 같은 데이터베이스 엔터티의 콘텐츠 요소 또는 구성 설정이 적용되는 위치를 결정합니다. 웹 사이트, 스토어 및 스토어 보기에는 일대다 상위/하위 관계가 있습니다. 단일 설치에는 여러 웹 사이트가 있을 수 있으며 각 웹 사이트에는 여러 스토어와 스토어 보기가 있을 수 있습니다.
+모든 Adobe Commerce 및 Magento Open Source 설치에는 웹 사이트, 스토어 및 스토어 조회수의 [계층](../stores-purchase/stores.md)이 있습니다. _범위_&#x200B;라는 용어는 계층 구조에서 제품, 특성 또는 범주와 같은 데이터베이스 엔터티의 콘텐츠 요소 또는 구성 설정이 적용되는 위치를 결정합니다. 웹 사이트, 스토어 및 스토어 보기에는 일대다 상위/하위 관계가 있습니다. 단일 설치에는 여러 웹 사이트가 있을 수 있으며 각 웹 사이트에는 여러 스토어와 스토어 보기가 있을 수 있습니다.
 
 >[!NOTE]
 >

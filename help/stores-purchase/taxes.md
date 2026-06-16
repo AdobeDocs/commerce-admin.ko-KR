@@ -3,9 +3,23 @@ title: 세금
 description: 로케일의 요구 사항에 따라 세금을 계산하도록 스토어를 구성하는 방법에 대해 알아봅니다.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: 1128
 ht-degree: 0%
 
 ---
@@ -18,7 +32,7 @@ ht-degree: 0%
 >
 >Adobe Commerce 및 Magento Open Source 릴리스 2.4.0 - 2.4.3에는 세금 관리 및 주소 정리를 제공하기 위해 Vertex Cloud와 통합하는 데 사용되는 Vertex 공급업체가 개발한 확장 프로그램이 포함되어 있습니다. 2.4.4 릴리스부터 이 확장은 더 이상 핵심 릴리스와 번들로 제공되지 않으며 Commerce Marketplace 또는 공급업체에서 직접 설치하고 업데이트해야 합니다. 확장 및 설명서에 대한 자세한 내용은 [Vertex에 문의](https://marketplace.magento.com/partner/vertex_inc)하십시오.<br><br>
 >
->번들 확장을 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. [업그레이드 안내서](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko)에서 _업그레이드 모듈_&#x200B;을 참조하세요.
+>번들 확장을 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. _업그레이드 안내서_&#x200B;에서 [업그레이드 모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko)을 참조하세요.
 
 ## 빠른 참조
 
@@ -107,5 +121,5 @@ _&#x200B;**디지털 상품 세금 정보를 수집하려면:**&#x200B;_
 
 추가 리소스:
 
-- [유럽 연합 세금 및 관세 위원회](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)
-- [EU 1015 공급 장소 변경](https://www2.deloitte.com/global/en/services/tax.html)
+- [유럽 세관 위원회](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)
+- [EU 1015 공급처 변경 사항](https://www2.deloitte.com/global/en/services/tax.html)

@@ -3,9 +3,25 @@ title: ' [!DNL Page Builder]의 릴리스 정보'
 description: 모든 [!DNL Page Builder] 릴리스에 대한 정보는 릴리스 정보를 검토하십시오.
 exl-id: 81abe2f9-ed48-49fe-bbf0-70699d7106b2
 feature: Page Builder, Release Notes
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/gw4-6vCpburzac-VmejAMajwHjHNCTPmVkBUi5qOsuk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2813'
+source-wordcount: 2839
 ht-degree: 0%
 
 ---
@@ -33,7 +49,7 @@ ht-degree: 0%
 ![새로 만들기](../assets/new.svg) <!-- Issue 594 -->**열 그룹에 새로운 다중 행 열 지원이 추가됨** - 이 기능을 사용하면 사용자는 하나의 [!DNL Columns] 그룹 내에서 여러 열의 행을 조작하여 열 레이아웃을 보다 유연하게 만들 수 있습니다.
 <!--- PB-108-->
 
-새 [&#x200B; 그룹 사용에 대한 자세한 내용은 &#x200B;](./column.md)레이아웃 - 열[!DNL Columns]을 참조하세요.
+새 [!DNL Columns] 그룹 사용에 대한 자세한 내용은 [레이아웃 - 열](./column.md)을 참조하세요.
 
 ## Commerce 2.4.4용 1.7.1
 
@@ -49,7 +65,7 @@ ht-degree: 0%
 
 ![해결된 문제](../assets/fix.svg) 이제 페이지 빌더에 글꼴 크기 옵션 메뉴에 예상대로 모든 옵션이 표시됩니다. 이전에는 일부 옵션이 표시되지 않았습니다. <!--- AC-1056-->
 
-![문제를 해결했습니다](../assets/fix.svg) `phpgt/dom` 확장에 대한 `magento/magento2-page-builder` 작성기 종속성을 최신 버전으로 업그레이드했습니다. <!--- magento/magento2-page-builder/pull/779-->
+![문제를 해결했습니다](../assets/fix.svg) `magento/magento2-page-builder` 확장에 대한 `phpgt/dom` 작성기 종속성을 최신 버전으로 업그레이드했습니다. <!--- magento/magento2-page-builder/pull/779-->
 
 ![해결된 문제](../assets/fix.svg) 슬라이더를 작은 열에 표시할 때 페이지 빌더에서 더 이상 링크 삽입 및 이미지 삽입 대화 상자의 크기를 조정하지 않습니다. <!--- AC-973-->
 
@@ -61,7 +77,7 @@ ht-degree: 0%
 
 ![문제를 해결했습니다](../assets/fix.svg) 이미지 삽입/편집 및 링크 삽입/편집 대화 상자의 위치를 사용하여 예외 항목을 수정했습니다. <!--- AC-397-->
 
-배너용 ![텍스트 편집기](../assets/fix.svg)를 클릭하면 **해결된 문제** 페이지 빌더에서 더 이상 오류가 발생하지 않습니다. <!--- AC-398-->
+배너용 **텍스트 편집기**&#x200B;를 클릭하면 ![해결된 문제](../assets/fix.svg) 페이지 빌더에서 더 이상 오류가 발생하지 않습니다. <!--- AC-398-->
 
 ![해결된 문제](../assets/fix.svg) Page Builder가 업그레이드 중에 더 이상 모든 동적 블록을 하나의 언어로 변환하지 않습니다. <!--- MC-42265-->
 
@@ -181,7 +197,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!DNL Page Builder] 콘텐츠를 저장하기 위해 추가 데이터베이스 엔터티를 만든 경우 _이(가) 해당 엔터티를_&#x200B;에 추가해야`etc/di.xml`합니다. 그렇지 않으면 엔터티에 저장된 [!DNL Page Builder] 콘텐츠가 업데이트되지 않아 데이터 손실 및 표시 문제가 발생할 수 있습니다. 예를 들어, [!DNL Page Builder] 콘텐츠를 저장하는 블로그 엔터티를 만든 경우 업그레이드 라이브러리에서 블로그에 사용된 `etc/di.xml` 콘텐츠 형식을 업데이트할 수 있도록 블로그 엔터티를 `UpgradableEntitiesPool` 파일에 [!DNL Page Builder] 형식으로 추가해야 합니다. 업그레이드 라이브러리 사용에 대한 자세한 내용과 지침은 [Page Builder 개발자 안내서](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/)의 _콘텐츠 형식 업그레이드_&#x200B;를 참조하십시오.
+>[!DNL Page Builder] 콘텐츠를 저장하기 위해 추가 데이터베이스 엔터티를 만든 경우 _이(가) 해당 엔터티를 `etc/di.xml`에 추가해야_&#x200B;합니다. 그렇지 않으면 엔터티에 저장된 [!DNL Page Builder] 콘텐츠가 업데이트되지 않아 데이터 손실 및 표시 문제가 발생할 수 있습니다. 예를 들어, [!DNL Page Builder] 콘텐츠를 저장하는 블로그 엔터티를 만든 경우 업그레이드 라이브러리에서 블로그에 사용된 [!DNL Page Builder] 콘텐츠 형식을 업데이트할 수 있도록 블로그 엔터티를 `etc/di.xml` 파일에 `UpgradableEntitiesPool` 형식으로 추가해야 합니다. 업그레이드 라이브러리 사용에 대한 자세한 내용과 지침은 _Page Builder 개발자 안내서_&#x200B;의 [콘텐츠 형식 업그레이드](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/)를 참조하십시오.
 
 ![새로 만들기](../assets/new.svg) **새 모양 추가에 대한 설명서** - 기존 또는 사용자 지정 콘텐츠 형식에 대한 [모양 추가](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/)에 대한 개발자 정보가 게시되었습니다.
 
@@ -208,7 +224,7 @@ ht-degree: 0%
 
 ## Adobe Commerce 2.3.4용 1.2.0
 
-![새로 만들기](../assets/new.svg) PWA Studio과의 **[!DNL Page Builder]통합** - PWA Studio의 Venia 앱에 [!DNL Page Builder] 콘텐츠 렌더링을 추가했습니다. 이제 PWA Studio Venia 앱에서 [!DNL Page Builder] 콘텐츠를 볼 수 있습니다. 이 새로운 기능에 대한 모든 정보는 [!DNL Page Builder]PWA Studio[ 내의 ] 설명서를 참조하십시오.
+![새로 만들기](../assets/new.svg) PWA Studio과의 **[!DNL Page Builder]통합** - PWA Studio의 Venia 앱에 [!DNL Page Builder] 콘텐츠 렌더링을 추가했습니다. 이제 PWA Studio Venia 앱에서 [!DNL Page Builder] 콘텐츠를 볼 수 있습니다. 이 새로운 기능에 대한 모든 정보는 [PWA Studio] 내의 [!DNL Page Builder] 설명서를 참조하십시오.
 
 ![새로 만들기](../assets/new.svg) **추가된 제품 회전 메뉴** - <!-- PB-77, PB-173, PB-175 -->제품 콘텐츠 형식에서는 이제 필요에 따라 회전 메뉴를 사용자 지정하는 여러 옵션을 포함하여 제품을 회전 메뉴/슬라이더 형식으로 표시하는 옵션을 제공합니다.
 

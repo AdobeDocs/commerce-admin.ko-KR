@@ -3,9 +3,24 @@ title: 페이지 추가 및 제거
 description: ' [!DNL Commerce] 스토어에서 사용되는 콘텐츠 페이지를 추가하고 제거하는 방법에 대해 알아봅니다.'
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 7ef8b9a1c56e4c8ee5ce8d3be30bf336c35a6241
+TQID: https://experienceleague.adobe.com/NUP56gvdWU0EMfq9HSMD9GG1YcZhFgYaEIXVQqtxl4U
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: 1216
 ht-degree: 0%
 
 ---
@@ -40,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->페이지 빌더 콘텐츠 편집기에는 기본 스토어 보기에 사용할 수 없는 CMS 페이지 요소의 미리보기가 표시되지 않습니다. 예를 들어 기본이 아닌 저장소 보기 에만 할당된 CMS 블록은 미리 볼 수 없습니다. 이 경우 먼저 CMS 페이지를 게시해야 합니다. 그런 다음 Storefront에서 직접 이 페이지를 볼 수 있습니다. 또는 [!UICONTROL Pages] 열에서 CMS 페이지 [!UICONTROL View]을(를) 선택하여 관리자의 [!UICONTROL Action] 그리드에서 페이지를 볼 수 있습니다.
+>페이지 빌더 콘텐츠 편집기에는 기본 스토어 보기에 사용할 수 없는 CMS 페이지 요소의 미리보기가 표시되지 않습니다. 예를 들어 기본이 아닌 저장소 보기 에만 할당된 CMS 블록은 미리 볼 수 없습니다. 이 경우 먼저 CMS 페이지를 게시해야 합니다. 그런 다음 Storefront에서 직접 이 페이지를 볼 수 있습니다. 또는 [!UICONTROL Action] 열에서 CMS 페이지 [!UICONTROL View]을(를) 선택하여 관리자의 [!UICONTROL Pages] 그리드에서 페이지를 볼 수 있습니다.
 
 #### 페이지 빌더 콘텐츠 도구 사용
 
@@ -150,13 +165,13 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택하여 페이지 그리드로 돌아갑니다.
 
-1. 그리드에서 페이지를 찾은 다음 **[!UICONTROL View]** 열에서 _[!UICONTROL Action]_&#x200B;을(를) 선택합니다.
+1. 그리드에서 페이지를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 선택합니다.
 
 1. 그리드로 돌아가려면 브라우저 창의 왼쪽 상단 모서리에서 **[!UICONTROL Back]**&#x200B;을(를) 클릭합니다.
 
 ### 8단계: 페이지 게시
 
-1. 그리드의 **[!UICONTROL Edit]** 열에서 _[!UICONTROL Action]_&#x200B;을(를) 선택합니다.
+1. 그리드의 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Enable Page]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -170,7 +185,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**(으)로 이동합니다.
 
-1. 그리드에서 복제할 페이지를 찾은 다음 **[!UICONTROL Edit]** 열에서 _[!UICONTROL Action]_&#x200B;을(를) 클릭합니다.
+1. 그리드에서 복제할 페이지를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Duplicate]**&#x200B;을(를) 선택합니다.
 
@@ -188,7 +203,7 @@ ht-degree: 0%
 
    - 필요에 따라 **[!UICONTROL Page Title]**&#x200B;을(를) 업데이트합니다.
 
-   - ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Search Engine Optimization]**&#x200B;을(를) 확장하고 중복 페이지에 사용할 고유한 **[!UICONTROL URL Key]**&#x200B;을(를) 입력합니다.
+   - **[!UICONTROL Search Engine Optimization]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)을(를) 확장하고 중복 페이지에 사용할 고유한 **[!UICONTROL URL Key]**&#x200B;을(를) 입력합니다.
 
      ![임시 URL 키](./assets/page-search-engine-optimization-url-key-duplicate.png){width="600" zoomable="yes"}
 

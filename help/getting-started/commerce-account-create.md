@@ -4,13 +4,28 @@ description: 구입한 제품 및 서비스를 관리하는  [!DNL Commerce] 계
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: 96acaff3e614a5758fdc51bc5de70ce0507a970a
+TQID: https://experienceleague.adobe.com/yLnMGRFDtzHhx0bEg5QhKJWc2cr-psvuq9RMEhbHX0s
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+subfeature_v2:
+  - id: d41d3a54-9721-475c-abd6-295bebfba9e4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: 1154
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Commerce] 계정에 액세스
 
@@ -22,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**[!UICONTROL Billing History]** 계정 페이지의 [!DNL Commerce] 섹션에는 청구 시스템 업데이트 전에 생성된 송장만 표시됩니다.
+>[!DNL Commerce] 계정 페이지의 **[!UICONTROL Billing History]** 섹션에는 청구 시스템 업데이트 전에 생성된 송장만 표시됩니다.
 >
 >새 송장이 나열되지 않으면 새 시스템으로 전환되어 이 페이지에서 액세스할 수 없습니다.
 
@@ -30,7 +45,7 @@ ht-degree: 0%
 
 [!DNL Commerce] 계정 로그인은 저장소 관리자 로그인과 별개입니다. 일반적으로 각각에 대해 서로 다른 자격 증명을 사용하며 각 시스템에 대한 액세스는 독립적으로 관리됩니다.
 
-그러나 Adobe Commerce 및 Adobe Business 제품에 대한 로그인을 간소화하려는 사용자는 스토어 관리자에 로그인하도록 Adobe ID을 구성할 수 있습니다. [Commerce용 IMS 통합 안내서](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/ims/adobe-ims-config)의 *Adobe ID과 Commerce Admin 통합 구성*.
+그러나 Adobe Commerce 및 Adobe Business 제품에 대한 로그인을 간소화하려는 사용자는 스토어 관리자에 로그인하도록 Adobe ID을 구성할 수 있습니다. *Commerce용 IMS 통합 안내서*&#x200B;의 [Adobe ID과 Commerce Admin 통합 구성](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/ims/adobe-ims-config).
 
 >[!NOTE]
 >

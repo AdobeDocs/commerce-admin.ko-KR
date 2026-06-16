@@ -2,16 +2,30 @@
 title: 관리자 메시지 받은 편지함
 description: Adobe 및  [!DNL Commerce] 시스템에서 중요하고 유용한 메시지를 제공하는 관리자 메시지 받은 편지함에 대해 알아봅니다.
 exl-id: c53bb0e4-9f18-4d40-8cc4-8c3b485f8d68
-source-git-commit: 7b6d70e2f3052af69075790cec1f396e2505bf8b
+TQID: https://experienceleague.adobe.com/3RgVAR8efVGsjazQsH8-3Ohfw1h8SDuqLyCDzMYAAng
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: 393
 ht-degree: 0%
 
 ---
 
 # 관리자 메시지 받은 편지함
 
-스토어는 정기적으로 Adobe에서 메시지를 수신합니다. 메시지는 중요도별로 평가되며 시스템 업데이트, 패치, 새로운 릴리스, 예약된 유지 관리 또는 예정된 이벤트를 의미할 수 있습니다. 헤더의 벨 아이콘은 받은 편지함에서 읽지 않은 메시지 수를 나타냅니다.
+스토어는 Adobe에서 정기적으로 메시지를 수신합니다. 메시지는 중요도별로 평가되며 시스템 업데이트, 패치, 새로운 릴리스, 예약된 유지 관리 또는 예정된 이벤트를 의미할 수 있습니다. 헤더의 벨 아이콘은 받은 편지함에서 읽지 않은 메시지 수를 나타냅니다.
 
 ![관리자 - 받는 메시지](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 

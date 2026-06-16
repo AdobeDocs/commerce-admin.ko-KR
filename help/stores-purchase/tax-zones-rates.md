@@ -3,9 +3,22 @@ title: 조세 구역 및 세율
 description: 세금을 징수 및 송금하는 각 지리적 영역에 대한 세율을 정의하는 방법을 알아봅니다.
 exl-id: d8eb0743-d277-438d-91ed-fc711a6ba3ae
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/HHCiYX6ihYArvccmTswjnZ5SNP09D29Srn2JvWiw4tY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: 380
 ht-degree: 0%
 
 ---
@@ -36,7 +49,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Zip/Post is Range]** 확인란을 선택하고 **[!UICONTROL Range From]** 및 **[!UICONTROL Range To]**&#x200B;의 첫 번째 및 마지막 우편 번호를 입력하여 범위를 정의합니다.
 
-     ![ZIP/Post 범위](./assets/tax-rate-new-zip-post-range.png){width="600" zoomable="yes"}
+     ![ZIP/게시물이 범위임](./assets/tax-rate-new-zip-post-range.png){width="600" zoomable="yes"}
 
    - 세율이 적용되는 **[!UICONTROL State]**&#x200B;을(를) 선택합니다.
 

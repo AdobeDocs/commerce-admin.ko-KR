@@ -3,9 +3,29 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: 판매자에게 선별된 솔루션을 제공하고 자격을 갖춘 개발자에게 번창하는 비즈니스를 구축할 수 있는 도구, 플랫폼 및 주요 위치를 제공하는  [!DNL Commerce Marketplace]에 대해 알아봅니다.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 9441c181a4272607d91bbaf5d410d8e433cb144f
+TQID: https://experienceleague.adobe.com/iWL-VJ99oPBafRQOK16YYTeEUvAoYGK-6bFxPHroYkk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2:
+  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: 1432
 ht-degree: 0%
 
 ---
@@ -28,22 +48,22 @@ ht-degree: 0%
 
 - [Adobe Commerce에 대한 I/O 이벤트 설정](https://developer.adobe.com/commerce/extensibility/events/)
 - [Adobe Commerce에 대한 이벤트 구성](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
-- [관리자 UI SDK 설정](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
+- [관리 UI SDK 설정](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [확장을 앱으로 변환](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### App Builder 리소스
 
 - [Commerce App Builder 개요](https://developer.adobe.com/commerce/extensibility/app-development/)
-- [Adobe Developer App Builder에 대한 API Mesh 설정](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
+- [Adobe Developer App Builder용 API Mesh 설정](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
 - [App Builder 앱 배포](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [App Builder 앱용 CI/CD](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
 - App Builder/Developer Console 시작하기
-   - [App Builder 시작](https://developer.adobe.com/app-builder/docs/getting_started/)
+   - [App Builder 시작하기](https://developer.adobe.com/app-builder/docs/getting_started/)
    - [프로젝트 및 작업 공간 이해](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
 
 ## [!DNL Marketplace] 자격 증명
 
-[!DNL Commerce Marketplace]에서 구입한 확장을 설치하려면 먼저 [!DNL Commerce] 계정에 로그인하여 활성 액세스 키가 있는지 확인하십시오. [!DNL Commerce][[!DNL Marketplace] 또는 &#x200B;](https://marketplace.magento.com/)Magento.com[의 헤더에서 &#x200B;](https://business.adobe.com/kr/products/magento/magento-commerce.html) 계정에 로그인할 수 있습니다.
+[!DNL Commerce Marketplace]에서 구입한 확장을 설치하려면 먼저 [!DNL Commerce] 계정에 로그인하여 활성 액세스 키가 있는지 확인하십시오. [[!DNL Marketplace]](https://marketplace.magento.com/) 또는 [Magento.com](https://business.adobe.com/kr/products/magento/magento-commerce.html)의 헤더에서 [!DNL Commerce] 계정에 로그인할 수 있습니다.
 
 액세스 키는 [!DNL Commerce] 설치를 [!DNL Commerce] 계정과 동기화하고 자격 증명을 확인하는 데 사용되는 공개 및 개인 키 집합입니다. 계정이 동기화되면 Commerce Marketplace에서 확장 또는 모듈을 설치하거나 [!DNL Commerce] 설치를 업그레이드할 때마다 개인 키를 입력해야 합니다.
 
@@ -59,7 +79,7 @@ ht-degree: 0%
 
    ![내 [!DNL Marketplace] 프로필](./assets/marketplace-profile.png){width="600"}
 
-1. _[!UICONTROL Marketplace]_&#x200B;아래의&#x200B;_[!UICONTROL My Products]_ 탭에서 **[!UICONTROL Access Keys]**&#x200B;을(를) 클릭하고 다음 중 하나를 수행합니다.
+1. _[!UICONTROL My Products]_&#x200B;아래의&#x200B;_[!UICONTROL Marketplace]_ 탭에서 **[!UICONTROL Access Keys]**&#x200B;을(를) 클릭하고 다음 중 하나를 수행합니다.
 
    - Marketplace 구매를 위한 액세스 키 세트가 이미 있는지 확인하십시오. 다양한 용도로 여러 액세스 키 세트를 만들 수 있습니다.
 
@@ -77,7 +97,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Commerce 및 Magento Open Source 2.4.0부터 웹 설치 마법사가 제거되며, 명령줄을 사용하여 인스턴스를 [설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=ko) 또는 [업그레이드](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=ko)해야 합니다. 이 요구 사항에는 [모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko) 및 [확장](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=ko)도 포함됩니다.
+>Adobe Commerce 및 Magento Open Source 2.4.0부터 웹 설치 마법사가 제거되며, 명령줄을 사용하여 인스턴스를 [설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) 또는 [업그레이드](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=ko)해야 합니다. 이 요구 사항에는 [모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko) 및 [확장](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=ko)도 포함됩니다.
 
 [!DNL Marketplace] 구매에 대한 설치 프로세스는 Commerce의 _온-프레미스_ 설치와 [Adobe 클라우드 아키텍처](https://www.adobe.com/commerce/magento/enterprise.html)에 호스팅된 설치의 경우와 다릅니다.
 

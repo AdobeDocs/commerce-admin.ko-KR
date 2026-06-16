@@ -3,9 +3,26 @@ title: 구성 가능한 제품
 description: 쇼핑객에게 다양한 선택 항목을 제공하는 구성 가능한 제품을 만드는 방법을 알아봅니다.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 6fcbcd3b7cace10f0841a46b3cd27343862b3f3b
+TQID: https://experienceleague.adobe.com/-T3-DNO39JLnWyhjbXzzSbA0NJ3QeGtnQgyjJBOQn-I
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: 1994
 ht-degree: 0%
 
 ---
@@ -14,7 +31,7 @@ ht-degree: 0%
 
 구성 가능한 제품은 변형(예: 색상 또는 크기)에 대한 드롭다운 옵션과 함께 단일 제품으로 표시됩니다. 각 변형은 자체 SKU를 사용하는 별도의 간단한 제품으로, 사용자 지정 옵션이 있는 간단한 제품과 달리 개별 인벤토리 추적을 가능하게 합니다.
 
-**각 변형에 대한 인벤토리를 추적해야 하는 여러 옵션(색상, 크기, 재질 등)이 있는 제품에 가장 적합합니다.** 초기 설정이 더 오래 걸리지만 더 나은 확장성을 제공합니다.
+**다양한 옵션(색상, 크기, 재질 등)이 있는** 제품에 가장 적합합니다. 각 변형에 대한 재고를 추적해야 하는 경우. 초기 설정이 더 오래 걸리지만 더 나은 확장성을 제공합니다.
 
 ![구성 가능한 제품](./assets/product-configurable.png){width="700" zoomable="yes"}
 
@@ -112,7 +129,7 @@ ht-degree: 0%
    >
    >구성 가능한 제품에는 항상 무게가 있어야 합니다. 드롭다운에서 **[!UICONTROL This item has no weight]**&#x200B;을(를) 선택하면 제품을 저장할 때 자동으로 **[!UICONTROL This item has weight]**(으)로 변경됩니다.
 
-1. **[!UICONTROL Visibility]**&#x200B;의 기본 `Catalog, Search` 설정을 사용합니다.
+1. `Catalog, Search`의 기본 **[!UICONTROL Visibility]** 설정을 사용합니다.
 
 1. [새 제품](../content-design/widget-new-products-list.md) 목록에 제품을 포함하려면 **[!UICONTROL Set Product as New]** 확인란을 선택하십시오.
 
@@ -302,7 +319,7 @@ ht-degree: 0%
 
 ### 10단계: 제품 이미지 추가
 
-1. 아래로 스크롤하여 ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Images and Videos]_&#x200B;를 확장합니다.
+1. 아래로 스크롤하여 _[!UICONTROL Images and Videos]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. _카메라_ 타일을 클릭하고 구성 가능한 제품에 사용할 기본 이미지를 찾습니다.
 
@@ -338,7 +355,7 @@ ht-degree: 0%
 
    - 오른쪽 상단에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   - 스토어에서 제품을 보려면 **[!UICONTROL Customer View]**&#x200B;관리자&#x200B;_(_&#x200B;메뉴 화살표![) 메뉴에서 &#x200B;](../assets/icon-menu-down-arrow-black.png)을(를) 선택하십시오.
+   - 스토어에서 제품을 보려면 _관리자_( ![메뉴 화살표](../assets/icon-menu-down-arrow-black.png)) 메뉴에서 **[!UICONTROL Customer View]**&#x200B;을(를) 선택하십시오.
 
    저장소가 새 브라우저 탭에서 열립니다.
 
@@ -382,7 +399,7 @@ ht-degree: 0%
 
 ### 수동 재고 상태 변경
 
-관리 사용자 작업, 파일 가져오기 또는 API 호출을 통해 재고 상태를 수동으로 `Out of Stock`(으)로 설정하는 경우 수동으로 다시 `Out of Stock`(으)로 변경할 때까지 관리 및 상점 모두에서 `In Stock` 상태로 유지됩니다. 하위 제품 재고 상태의 영향을 받지 않습니다.
+관리 사용자 작업, 파일 가져오기 또는 API 호출을 통해 재고 상태를 수동으로 `Out of Stock`(으)로 설정하는 경우 수동으로 다시 `In Stock`(으)로 변경할 때까지 관리 및 상점 모두에서 `Out of Stock` 상태로 유지됩니다. 하위 제품 재고 상태의 영향을 받지 않습니다.
 
 ## 시스템 구성(선택 사항)
 
@@ -394,7 +411,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;_[!UICONTROL Shopping Cart]_&#x200B;를 확장합니다.
+1. _[!UICONTROL Shopping Cart]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. **[!UICONTROL Configurable Product Image]**&#x200B;을(를) `Product Thumbnail Itself`(으)로 설정합니다.
 
@@ -408,7 +425,7 @@ ht-degree: 0%
 
 - **인벤토리 추적:** 사용자 지정 옵션이 있는 간단한 제품과 달리 구성 가능한 제품은 각 변형에 대한 인벤토리를 독립적으로 추적합니다.
 
-- **하위 제품 유형:** 하위 제품은 사용자 지정 옵션이 없는 **단순 또는 가상 제품일 수 있습니다**. 하위 제품을 가상화하려면 각 하위 제품에 대한 `Тhis item has no weight` 설정에 대해 **[!UICONTROL Weight]**&#x200B;을(를) 선택하십시오.
+- **하위 제품 유형:** 하위 제품은 사용자 지정 옵션이 없는 **단순 또는 가상 제품일 수 있습니다**. 하위 제품을 가상화하려면 각 하위 제품에 대한 **[!UICONTROL Weight]** 설정에 대해 `Тhis item has no weight`을(를) 선택하십시오.
 
 - **전역 할당:** 하위 제품은 모든 웹 사이트, 스토어 및 스토어 보기에서 동시에 구성 가능한 제품 **전역**&#x200B;에서 할당되고 할당이 해제됩니다.
 
@@ -418,6 +435,6 @@ ht-degree: 0%
 
 - **장바구니 썸네일:** 장바구니 썸네일은 구성 가능한 제품 레코드 또는 제품 변형의 이미지를 표시할 수 있습니다. 위의 [시스템 구성](#system-configuration-optional)을 참조하십시오.
 
-- **특성 편집 페이지에서**&#x200B;을(를) [(으)로 설정하여 견본을 선택할 때 견본 동작:](swatches.md#create-swatches-for-products) **[!UICONTROL Update Product Preview Image]**&#x200B;견본 특성`No`이(가) 해당 단순 제품 이미지를 표시하지 않도록 구성할 수 있습니다.
+- **특성 편집 페이지에서&#x200B;**&#x200B;[!UICONTROL Update Product Preview Image]&#x200B;**을(를) `No`(으)로 설정하여 견본을 선택할 때 견본 동작:** [견본 특성](swatches.md#create-swatches-for-products)이(가) 해당 단순 제품 이미지를 표시하지 않도록 구성할 수 있습니다.
 
 - **이미지 갤러리 동작:** 테마는 사용자가 제품 구성 사이를 전환할 때 이미지 갤러리가 작동하는 방식을 제어합니다. _Blank_ 테마에 대한 기본 동작은 선택한 변형을 사용하여 상위 구성 가능한 제품 이미지를 재정의합니다. Luma 테마의 경우 기본 동작은 선택한 변형 이미지를 상위 구성 가능한 제품 이미지에 앞에 추가하는 것입니다.

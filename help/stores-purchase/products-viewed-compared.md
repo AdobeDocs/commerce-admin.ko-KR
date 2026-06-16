@@ -4,9 +4,24 @@ description: 최근에 보고 비교한 제품에 대한 상점 컨텐츠 블록
 exl-id: a4580835-68c2-4eb0-825e-0939eeab921b
 feature: Products, Storefront
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 6848b28d05bc3da12d0ecdeb32d6515c7be7cdfb
+TQID: https://experienceleague.adobe.com/YeayJ1RkE6Muq0wNnd6KAQmmZcyjTQrSZOqEltlj8T8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: 254
 ht-degree: 0%
 
 ---
@@ -21,11 +36,11 @@ _최근에 본 항목 및 최근에 비교한 항목_ 블록은 일반적으로 
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Catalog]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Recently Viewed/Compared Products]**&#x200B;를 확장합니다.
+1. **[!UICONTROL Recently Viewed/Compared Products]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![카탈로그 구성 - 최근에 본 제품/비교한 제품](../configuration-reference/catalog/assets/catalog-recently-viewed-and-compared-products.png){width="600" zoomable="yes"}
 
-   이러한 각 구성 설정에 대한 자세한 설명은 [구성 참조 안내서](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products)에서 _최근에 본 제품/비교한 제품_&#x200B;을 참조하세요.
+   이러한 각 구성 설정에 대한 자세한 설명은 _구성 참조 안내서_&#x200B;에서 [최근에 본 제품/비교한 제품](../configuration-reference/catalog/catalog.md#recently-viewedcompared-products)을 참조하세요.
 
 1. **[!UICONTROL Synchronize widget products with backend storage]**&#x200B;을(를) 설정하여 제품 ID와 같은 제품 위젯 정보를 데이터베이스의 현재 제품 저장소 가용성과 동기화한 다음 다른 장치에서 이 정보를 다시 사용합니다.
 

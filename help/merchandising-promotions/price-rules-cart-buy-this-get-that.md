@@ -3,9 +3,24 @@ title: 장바구니 가격 규칙 예 - 구매
 description: 장바구니 가격 규칙을 사용하여 해당 구매 프로모션을 제공하는 예를 검토하십시오.
 exl-id: 49e4f9d1-bc60-4861-baca-a23fe148d1c4
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/hhsxk4QXpulYqJrCBdXNQ9RZireHGb85lCwq8ns38l4
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: 613
 ht-degree: 0%
 
 ---
@@ -91,7 +106,7 @@ SKU는 D123, E123, F123 중 하나입니다.
 
 다음 공식을 사용하여 최대 수량 할인에 대한 정확한 값을 결정합니다.
 
-수식 = `(X+Y) * (M/Y)`
+공식 = `(X+Y) * (M/Y)`
 위치
 `X` = 구매한 항목 수
 `Y` = 사용 가능한 항목 수

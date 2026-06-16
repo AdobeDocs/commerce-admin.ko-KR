@@ -3,9 +3,27 @@ title: 영업 보고서
 description: ' [!DNL Commerce] 영업 보고서를 통해 주문, 세금, 송장, 배송, 환불, 쿠폰 및 PayPal 결제를 추적할 수 있습니다.'
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
+TQID: https://experienceleague.adobe.com/f1I8ZnBMA1HWwLUoR5e94nPPsMd46OLJcBnHhuALSzA
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: b382a22d-d89f-43ea-a98c-4d7d1c29dabd
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: 699
 ht-degree: 0%
 
 ---
@@ -101,7 +119,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Show Report]**&#x200B;을(를) 클릭합니다.
 
-[!UICONTROL Coupons Report]을(를) 사용하여 프로모션 캠페인에 대한 데이터를 수집하는 방법에 대한 자세한 내용은 [머천다이징 및 프로모션 안내서](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report)의 _쿠폰 보고_&#x200B;를 참조하십시오.
+[!UICONTROL Coupons Report]을(를) 사용하여 프로모션 캠페인에 대한 데이터를 수집하는 방법에 대한 자세한 내용은 _머천다이징 및 프로모션 안내서_&#x200B;의 [쿠폰 보고](../merchandising-promotions/price-rules-cart-coupon.md#coupons-report)를 참조하십시오.
 
 <!--- ![Coupons Report](./assets/sales-coupons.png) need coupon data  -->
 
@@ -113,7 +131,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>*
 
 ![PayPal 결제 보고서](./assets/reports-sales-paypal-settlement.png){width="600"}
 
-[!UICONTROL PayPal Settlement Reports]을(를) 사용하여 자금 결제에 영향을 주는 각 PayPal 거래에 대한 정보를 검색하는 방법에 대한 자세한 내용은 [저장 및 구매 경험 안내서](../stores-purchase/paypal-settlement-reports.md)에서 _PayPal 결제 보고서_&#x200B;를 참조하십시오.
+[!UICONTROL PayPal Settlement Reports]을(를) 사용하여 자금 결제에 영향을 주는 각 PayPal 거래에 대한 정보를 검색하는 방법에 대한 자세한 내용은 _저장 및 구매 경험 안내서_&#x200B;에서 [PayPal 결제 보고서](../stores-purchase/paypal-settlement-reports.md)를 참조하십시오.
 
 ## [!UICONTROL Braintree Settlement Report]
 

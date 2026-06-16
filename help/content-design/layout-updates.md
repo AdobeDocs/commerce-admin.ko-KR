@@ -3,9 +3,22 @@ title: 레이아웃 업데이트
 description: 레이아웃 업데이트를 사용하여 페이지 레이아웃을 사용자 지정하는 방법을 알아봅니다.
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+TQID: https://experienceleague.adobe.com/PjeNmdtN39seTDCdzbt8K7DhoRZgFB3PksoKTJaFLsk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: 1044
 ht-degree: 0%
 
 ---
@@ -31,7 +44,7 @@ ht-degree: 0%
 | `page/html_wrapper` | 이 블록은 기본 레이아웃에 포함되어 있지만 더 이상 사용되지 않으며 이전 버전과의 호환성을 위해 포함되어 있습니다. 이 유형의 블록은 사용하지 마십시오. |
 | `page/html_breadcrumbs` | 이 블록의 이름은 `breadcrumbs`이고 헤더 블록의 자식입니다. 이 블록에는 현재 페이지의 이동 경로가 표시됩니다. 페이지당 이 유형의 블록은 하나만 있을 수 있습니다. |
 | `page/html_footer` | 블록 이름은 `footer`이고 루트 블록의 자식입니다. 바닥글 블록은 페이지 하단에 있는 시각적 바닥글에 해당하며 여러 표준 블록을 포함합니다. 이 유형의 블록은 페이지당 하나만 있을 수 있으며 제거해서는 안 됩니다. |
-| `page/template_links` | 표준 레이아웃에는 이 유형의 두 개의 블록이 있습니다. `top.links` 블록은 헤더 블록의 하위 블록이며 위쪽 탐색 메뉴에 해당합니다. `footer_links` 블록은 바닥글 블록의 하위 블록이며 아래쪽 탐색 메뉴에 해당합니다. <br/><br/>**_참고:_**&#x200B;예제에서와 같이 템플릿 링크를 조작할 수 있습니다. |
+| `page/template_links` | 표준 레이아웃에는 이 유형의 두 개의 블록이 있습니다. `top.links` 블록은 헤더 블록의 하위 블록이며 위쪽 탐색 메뉴에 해당합니다. `footer_links` 블록은 바닥글 블록의 하위 블록이며 아래쪽 탐색 메뉴에 해당합니다. <br/><br/>**_Note:_** 예제에서와 같이 템플릿 링크를 조작할 수 있습니다. |
 | `page/switch` | 표준 레이아웃에는 이 유형의 두 개의 블록이 있습니다. `store_language` 블록은 헤더 블록의 하위 블록이며 최상위 언어 전환기에 해당합니다. `store_switcher` 블록은 바닥글 블록의 자식 블록이며 아래쪽 저장소 전환기에 해당합니다. |
 | 코어/메시지 | 표준 레이아웃에는 이 유형의 두 개의 블록이 있습니다. `global_messages` 블록에 글로벌 메시지가 표시됩니다. `messages` 블록은 다른 모든 메시지를 표시하는 데 사용됩니다. 이러한 블록을 제거하면 고객에게 메시지가 표시되지 않습니다. |
 | `core/text_list` | 이 유형의 블록은 자식 블록을 렌더링하기 위한 자리 표시자로서 [!DNL Commerce] 전체에서 널리 사용됩니다. |

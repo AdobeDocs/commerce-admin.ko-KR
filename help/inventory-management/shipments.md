@@ -3,9 +3,24 @@ title: 재고에서 주문 및 선적 관리
 description: 배송 프로세스를 통해 재고 수량을 관리하기 위한 추가 [!DNL Inventory Management] 기능 및 옵션에 대해 알아봅니다.
 exl-id: cc4ca518-d98c-48f3-9051-6fb3c6fae9fe
 feature: Inventory, Shipping/Delivery
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/snZn77FvwJ-XKXojEtLOEpnPKp-nLZUpkTg6jTA9BY4
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: 736
 ht-degree: 0%
 
 ---
@@ -51,7 +66,7 @@ ht-degree: 0%
 
 단일 출처 판매자는 인기 품목에 대한 주문이 들어올 때 미납주문을 지원하거나 재고 잔고를 위해 부분 선적을 보낼 수도 있습니다.
 
-### Recommendations 및 Source 선택 알고리즘
+### 권장 사항 및 Source 선택 알고리즘
 
 [Source 선택 알고리즘](selection-reservations.md)(SSA)은 부분 및 전체 배송에 대한 권장 사항을 제공합니다. 주문에 대한 선적 송장을 생성할 때 Source 선택 알고리즘에 액세스할 수 있습니다. 출하 페이지를 통해 언제든지 Source 우선순위 또는 거리 우선순위 알고리즘을 실행하여 주문 수량 및 가용 출처를 대응시키는 최상의 옵션을 결정합니다. 시스템은 하나의 출처에서 전체 주문을 출하하고, 주문을 여러 출처에서 복수 부분 출하로 나눌 수 있도록 지원합니다. 즉시 이행 및 순차적 납품을 위해 이러한 옵션에 액세스하여 시간이 지남에 따라 더 적은 금액을 보낼 수 있습니다.
 

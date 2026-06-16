@@ -3,13 +3,34 @@ title: 데이터 피드 동기화 상태 모니터링
 description: 데이터 내보내기 동기화를 모니터링하고  [!DNL Catalog Service], [!DNL Live Search] 및 [!DNL Product Recommendations]에 대한 피드 처리와 관련된 문제 또는 지연을 식별합니다.
 feature: Products, Customers, Data Import/Export
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 3079ee3fe394a73d5ab4168e9e40815c340e386c
+exl-id: 4e1b9da0-450c-4488-8693-1938a948e792
+TQID: https://experienceleague.adobe.com/Y8vYxKS-8iX-bCLSJpAiJOItWlJk348bSMWfk1Cgpbg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: 1689
 ht-degree: 0%
 
 ---
-
 
 # 데이터 피드 동기화 상태 모니터링
 
@@ -58,7 +79,7 @@ Adobe Commerce 관리자는 Commerce 관리자의 데이터 피드 동기화 상
 >[!NOTE]
 >
 >[[!DNL Adobe Commerce as a Cloud Service]](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview) 인스턴스에 데이터 피드 상태 확장을 설치할 필요가 없습니다.
->Commerce 배포에서 제품 권장 사항 v6+, 라이브 검색 v4.1+ 또는 카탈로그 서비스 v1.17+ 중 하나 이상이 활성화된 경우 기본적으로 확장을 사용할 수 있습니다.
+>Commerce 배포에서 제품 추천 v6+, 라이브 검색 v4.1+ 또는 카탈로그 서비스 v1.17+ 중 하나 이상의 서비스를 사용하도록 설정한 경우 기본적으로 확장을 사용할 수 있습니다.
 
 **요구 사항**
 

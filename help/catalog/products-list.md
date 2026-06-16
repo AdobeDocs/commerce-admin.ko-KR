@@ -3,9 +3,27 @@ title: 제품 목록
 description: 제품을 만들고 기존 제품을 편집할 수 있는 관리자의 _[!UICONTROL Products]_ 페이지에 대해 알아봅니다.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 8bb91b80f8ba957676c654e984deb5704b777612
+TQID: https://experienceleague.adobe.com/tCvjmMlTzn0ejytHyuLPIKKpHn7CGiVkrAwJWmvN-Ro
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: 836
 ht-degree: 0%
 
 ---
@@ -97,7 +115,7 @@ _[!UICONTROL Products]_&#x200B;목록에는 카탈로그에 있는 모든 제품
 | [!UICONTROL Special Price To Date] | 특별 가격 프로모션의 마지막 날짜입니다. |
 | [!UICONTROL Cost] | 항목의 실제 비용. |
 | [!UICONTROL Manufacturer] | 제품 제조업체. |
-| [!UICONTROL Meta Keywords] | 제품에 대한 메타 키워드입니다. |
+| [!UICONTROL Meta Keywords] | 제품에 대한 Meta 키워드. |
 | [!UICONTROL Color] | 제품 색상입니다. |
 | [!UICONTROL Set Product as New from Date] | 새 판촉으로 설정된 제품의 첫 번째 날짜입니다. |
 | [!UICONTROL Set Product as New to Date] | 새 판촉으로 설정된 제품의 마지막 날짜입니다. |
@@ -107,7 +125,7 @@ _[!UICONTROL Products]_&#x200B;목록에는 카탈로그에 있는 모든 제품
 | [!UICONTROL Allow Gift Message] | 기프트 카드를 구매하는 고객에게 보내는 기프트 메시지. |
 | [!UICONTROL Special Price] | 제품에 대한 특별 가격. |
 | [!UICONTROL Weight] | 제품 무게. |
-| [!UICONTROL Meta Title] | 제품에 대한 메타 제목입니다. |
+| [!UICONTROL Meta Title] | 제품의 Meta 제목입니다. |
 | [!UICONTROL Meta Description] | 제품 메타데이터 설명. |
 | [!UICONTROL Country of Manufacture] | 제조 국가입니다. |
 | [!UICONTROL New Theme] | 제품에 사용자 지정 테마를 적용했습니다. |

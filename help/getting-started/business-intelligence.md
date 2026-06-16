@@ -4,9 +4,34 @@ description: Adobe Commerce 및 Magento Open Source 판매자가 Commerce Intell
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/fXuvq380YffN-gCcGRcpwN5x-bc1EHcyrUaDFctaLKo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: ae1249e3-cd01-42c9-8377-4223879bf9de
+  - id: bd0aa680-a881-4f35-9dcf-843b0574bc5f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: 1221
 ht-degree: 0%
 
 ---
@@ -39,15 +64,15 @@ Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개
 
 * 오류 없이 [!DNL Commerce]을(를) 설치하거나 업그레이드해야 합니다.
 
-* [!DNL Commerce]스토어 URL[에 대한 &#x200B;](../stores-purchase/store-urls.md) 구성에서 스토어 보기에 대한 **[!UICONTROL Base URL (Secure)]** 설정은 보안 URL을 가리켜야 합니다. 예: `https://yourdomain.com`.
+* [스토어 URL](../stores-purchase/store-urls.md)에 대한 [!DNL Commerce] 구성에서 스토어 보기에 대한 **[!UICONTROL Base URL (Secure)]** 설정은 보안 URL을 가리켜야 합니다. 예: `https://yourdomain.com`.
 
 * 저장소 URL에 대한 [!DNL Commerce] 구성에서 **[!UICONTROL Use Secure URLs on Storefront]** 및 **[!UICONTROL Use Secure URLs in Admin]**&#x200B;을(를) `Yes`(으)로 설정해야 합니다.
 
-* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko)이(가) 만들어지고 설치된 서버에서 cron 작업이 실행되고 있습니다.
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html)이(가) 만들어지고 설치된 서버에서 cron 작업이 실행되고 있습니다.
 
 >[!NOTE]
 >
->[!DNL Advanced Reporting]은(는) 단일 [!DNL Commerce]기본 통화[를 계속 사용한 &#x200B;](../stores-purchase/currency-configuration.md) 설치에서만 사용할 수 있습니다.
+>[!DNL Advanced Reporting]은(는) 단일 [기본 통화](../stores-purchase/currency-configuration.md)를 계속 사용한 [!DNL Commerce] 설치에서만 사용할 수 있습니다.
 
 
 ### 1단계: [!DNL Advanced Reporting] 사용
@@ -122,7 +147,7 @@ Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개
 
 ### 단일 기준 통화 확인
 
-[!DNL Advanced Reporting]은(는) 설치 이후 단일 [!DNL Commerce]기본 통화[만 사용한 &#x200B;](../stores-purchase/currency-configuration.md) 설치에서만 사용할 수 있습니다. 그 결과 내역(history)에서 모든 주문은 동일한 기본 통화를 사용합니다. 기본 통화를 변경하고 다른 기본 통화로 처리된 주문 내역이 있는 경우 [!DNL Advanced Reporting]이(가) 작동하지 않습니다.
+[!DNL Advanced Reporting]은(는) 설치 이후 단일 [기본 통화](../stores-purchase/currency-configuration.md)만 사용한 [!DNL Commerce] 설치에서만 사용할 수 있습니다. 그 결과 내역(history)에서 모든 주문은 동일한 기본 통화를 사용합니다. 기본 통화를 변경하고 다른 기본 통화로 처리된 주문 내역이 있는 경우 [!DNL Advanced Reporting]이(가) 작동하지 않습니다.
 
 저장소에 여러 기본 통화가 있는지 확인하기 위해 다음 MySQL 예제를 사용하여 명령줄에서 [!DNL Commerce] 데이터베이스를 쿼리할 수 있습니다. 데이터 구조와 일치하도록 테이블 이름을 변경해야 할 수 있습니다.
 

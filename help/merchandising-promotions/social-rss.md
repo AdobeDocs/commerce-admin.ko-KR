@@ -3,9 +3,25 @@ title: 소셜 미디어 및 RSS 피드
 description: 소셜 미디어 및 기타 RSS 피드 통합을 추가하여 브랜드 및 제품 인지도를 구축하는 방법에 대해 알아봅니다.
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/jO5CAIJOQ7caLuno4OP4vnhJhIMZahlxL7waFwDyHzY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: 1175
 ht-degree: 0%
 
 ---
@@ -18,15 +34,15 @@ ht-degree: 0%
 
 [Marketplace 확장](../getting-started/commerce-marketplace.md)을 설치하여 스토어를 소셜 네트워크에 연결할 수 있습니다. 또한 스토어 전체에서 페이지에 통합할 수 있는 CMS 블록에 _좋아요_ 단추와 같은 소셜 플러그인을 쉽게 추가할 수 있습니다.
 
-소셜 네트워킹 사이트에는 스토어에 쉽게 추가할 수 있는 다양한 플러그인이 있습니다. 또한 Commerce Marketplace에는 스토어를 소셜 미디어와 통합하는 데 사용할 수 있는 많은 확장이 있습니다. 다음 예제에서는 스토어에 Facebook _Like_ 단추를 추가하는 방법을 보여 줍니다.
+소셜 네트워킹 사이트에는 스토어에 쉽게 추가할 수 있는 다양한 플러그인이 있습니다. 또한 Commerce Marketplace에는 스토어를 소셜 미디어와 통합하는 데 사용할 수 있는 다양한 확장이 있습니다. 다음 예제에서는 Facebook _좋아요_ 단추를 스토어에 추가하는 방법을 보여 줍니다.
 
 >[!NOTE]
 >
->Adobe Commerce에서 기본 _Magento 소셜_ Facebook 통합을 제거했으며 더 이상 확장을 지원하지 않습니다. [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target=&quot;_blank&quot;}(으)로 이동하여 Facebook 통합을 위한 대체 확장을 찾습니다.
+>Adobe Commerce에서 기본 _Magento Social_ Facebook 통합을 제거했으며 더 이상 확장을 지원하지 않습니다. Facebook 통합을 위한 대체 확장을 찾으려면 [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target="_blank"}(으)로 이동하십시오.
 
 ### 1단계. 단추 코드 가져오기
 
-1. 메타 개발자 웹 사이트에서 [단추 설정](https://developers.facebook.com/docs/plugins/like-button) 페이지로 이동합니다.
+1. Meta 개발자 웹 사이트에서 [단추 설정](https://developers.facebook.com/docs/plugins/like-button) 페이지로 이동합니다.
 
 1. **[!UICONTROL URL to Like]**&#x200B;의 경우 스토어에서 _좋아요_&#x200B;를 설정할 페이지의 URL을 입력하세요.
 
@@ -63,7 +79,7 @@ ht-degree: 0%
 
 1. 콘텐츠 도구에 따라 코드 조각을 블록 콘텐츠에 추가합니다.
 
-   - [!DNL Page Builder]을(를) 사용하는 경우 스테이지에 [HTML 코드](../page-builder/html-code.md) 블록을 추가하고 Facebook 사이트에서 복사한 코드 조각을 붙여 넣으십시오. 그렇지 않으면 코드 조각을 **[!UICONTROL Content]** 상자에 붙여 넣으십시오.
+   - [!DNL Page Builder]을(를) 사용하는 경우 [HTML 코드](../page-builder/html-code.md) 블록을 단계에 추가하고 Facebook 사이트에서 복사한 코드 조각을 붙여 넣습니다. 그렇지 않으면 코드 조각을 **[!UICONTROL Content]** 상자에 붙여 넣으십시오.
 
    - 편집기를 사용하여 Facebook 사이트에서 복사한 코드 조각을 **[!UICONTROL Content]** 상자에 붙여 넣습니다.
 

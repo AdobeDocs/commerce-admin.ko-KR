@@ -3,9 +3,25 @@ title: 구매요청 목록
 description: 구매요청 목록과 자주 주문하는 제품을 장바구니에 쉽게 추가하는 데 사용하는 방법에 대해 알아봅니다.
 exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
 feature: B2B
-source-git-commit: 5f46c4b29c7ee08faf3785c767d3130a277767df
+TQID: https://experienceleague.adobe.com/z0EYQuHv119NiEwIZ9kPGXbm-49qA818WrhnXPggbvQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: 624
 ht-degree: 0%
 
 ---
@@ -106,7 +122,7 @@ ht-degree: 0%
 
 1. [!UICONTROL Items Quoted] 탭에서 이동할 제품을 선택합니다.
 
-1. 제품 라인 항목에 대해 [!UICONTROL Select] 열의 [!UICONTROL Actions] 드롭다운을 사용하여 **[!UICONTROL Move to Requisition list]**&#x200B;을(를) 선택합니다.
+1. 제품 라인 항목에 대해 [!UICONTROL Actions] 열의 [!UICONTROL Select] 드롭다운을 사용하여 **[!UICONTROL Move to Requisition list]**&#x200B;을(를) 선택합니다.
 
 1. 선택한 품목에 대한 구매요청 목록을 선택합니다.
 
@@ -133,7 +149,7 @@ B2B 견적에 대한 자세한 내용은 [내 견적](account-dashboard-my-quote
 
 1. 계정 대시보드의 사이드바에서 **[!UICONTROL My Requisition Lists]**&#x200B;을(를) 선택합니다.
 
-1. 구매요청 목록 목록에서 **[!UICONTROL View]**&#x200B;작업&#x200B;_열의_&#x200B;을(를) 클릭합니다.
+1. 구매요청 목록 목록에서 _작업_ 열의 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 
 ### 모든 storefront 페이지에서
 

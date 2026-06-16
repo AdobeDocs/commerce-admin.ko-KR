@@ -1,11 +1,28 @@
 ---
-title: '[!UICONTROL General] &gt; [!UICONTROL General]'
-description: Commerce 관리자의 [!UICONTROL General] &gt; [!UICONTROL General] 페이지에서 구성 설정을 검토하십시오.
+title: '[!UICONTROL General] > [!UICONTROL General]'
+description: Commerce 관리자의 [!UICONTROL General] > [!UICONTROL General] 페이지에서 구성 설정을 검토합니다.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/DD7DU4-tlIuIqWiGmRkKaRtAe-dglczocFvEaoIuxSc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: 1028
 ht-degree: 0%
 
 ---
@@ -71,9 +88,9 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Access Restriction] | 웹 사이트 | 웹 사이트가 제한된 모드에서 작동하는지 확인합니다.<br /> <br />**`Yes`**- 아래 필드에 설정된 방식으로 웹 사이트 액세스가 제한됩니다.<br />**`No`** - 제한이 비활성화되며 다음 설정은 영향을 주지 않습니다. |
 | [!UICONTROL Restriction Mode] | 웹 사이트 | 웹 사이트에 적용되는 액세스 제한 유형을 결정합니다.<br /> <br />**`Website Closed`**- storefront에 대한 모든 액세스가 제한되고 상점 URL이 일시적으로 랜딩 페이지로 리디렉션됩니다. 이 설정은 사이트 유지 관리 중 또는 시작 전에 유용할 수 있습니다.<br />**`Private Sales: Login Only`** - 등록된 고객만 로그인하여 상점에 액세스할 수 있습니다. 모든 storefront URL은 지정된 랜딩 페이지나 로그인 양식으로 일시적으로 리디렉션됩니다. 사용자는 이 모드에서 계정을 만들 수 없습니다.<br />**`Private Sales: Login and Register`**- 사용자가 상점 앞에 액세스하려면 로그인해야 합니다. 사용자가 로그인할 때까지 모든 상점 URL이 일시적으로 로그인 양식으로 리디렉션됩니다. 사이트가 이 모드에 있는 동안 사용자는 계정에 등록할 수 있습니다. |
-| [!UICONTROL Startup Page] | 스토어 뷰 | 웹 사이트가 비공개 판매 모드에 있는 경우 이 설정은 고객이 로그인할 때까지 표시되는 페이지를 결정합니다.<br />  <br />**`To login form`**- 사용자가 로그인할 때까지 로그인 양식으로 리디렉션됩니다.<br />**`To landing page`** - 사용자가 로그인할 때까지 아래에 지정된 정적 페이지로 리디렉션됩니다.<br /> <br />**_중요!_**&#x200B;고객이 로그인하여 전체 사이트에 액세스할 수 있도록 지정한 랜딩 페이지의 로그인 페이지에 대한 링크를 포함해야 합니다. |
+| [!UICONTROL Startup Page] | 스토어 뷰 | 웹 사이트가 비공개 판매 모드에 있는 경우 이 설정은 고객이 로그인할 때까지 표시되는 페이지를 결정합니다.<br />  <br />**`To login form`**- 사용자가 로그인할 때까지 로그인 양식으로 리디렉션됩니다.<br />**`To landing page`** - 사용자가 로그인할 때까지 아래에 지정된 정적 페이지로 리디렉션됩니다.<br /> <br />**_중요!_**&#x200B;고객이 로그인하여 전체 사이트에 액세스할 수 있도록 지정된 랜딩 페이지에서 로그인 페이지에 대한 링크를 포함해야 합니다. |
 | [!UICONTROL Landing Page] | 스토어 뷰 | 웹 사이트가 비공개 판매 모드에 있을 때 나타나는 첫 번째 페이지를 결정합니다. |
-| [!UICONTROL HTTP Response] | 웹 사이트 | 웹 사이트가 닫히고 보트, 크롤러 또는 스파이더가 연결을 시도할 때 전송되는 HTTP 응답을 결정합니다.<br /> <br />**`503 Service unavailable`**- 페이지를 사용할 수 없지만 스파이더가 인덱스를 업데이트해서는 안 됩니다.<br />**`200 OK`** - 랜딩 페이지가 올바르며 사이트의 유일한 페이지로 스파이더가 처리해야 합니다. |
+| [!UICONTROL HTTP Response] | 웹 사이트 | 웹 사이트가 닫히고 봇, 웹 크롤러 또는 스파이더가 연결을 시도할 때 전송되는 HTTP 응답을 결정합니다.<br /> <br />**`503 Service unavailable`**- 페이지를 사용할 수 없지만 스파이더가 인덱스를 업데이트해서는 안 됩니다.<br />**`200 OK`** - 랜딩 페이지가 올바르며 사이트의 유일한 페이지로 스파이더가 처리해야 합니다. |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | 웹 사이트 | _로그인_ 및 _암호 찾기_ 양식의 필드를 이전 항목에서 자동으로 채울지 여부를 결정합니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -107,7 +124,7 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Enable Single-Store Mode] | 글로벌 | 단일 저장소 설치를 사용하도록 설정한 경우 구성 범위 상자 및 관련 필드 레이블을 숨깁니다. 옵션: `Yes` / `No` <br/>**_참고:_**&#x200B;보기가 둘 이상인 저장소의 경우 단일 저장소 모드가 무시됩니다.<br/> 단일 스토어 모드를 사용하면 모든 카탈로그 및 제품 스토어 특정 데이터가 기본 스토어 보기에서 모든 스토어 보기 범위로 복사됩니다. 스토어에 하나의 스토어 뷰만 있는 경우 카탈로그 및 제품 데이터만 복사됩니다. 저장소에 비활성화된 저장소와 활성화된 저장소가 한 개 있는 경우 카탈로그 및 제품 데이터가 복사되지 않습니다.<br/> 단일 저장소 모드를 사용하면 콘텐츠 관련 데이터에 대한 storeview 관련 구성 설정이 무시됩니다. 대신 전역 수준 범위에 정의된 구성 설정을 사용하여 관리 UI와 상점 간 일관성을 보장합니다. |
+| [!UICONTROL Enable Single-Store Mode] | 글로벌 | 단일 스토어 설치에 대해 사용하도록 설정하면 구성 범위 상자 및 관련 필드 레이블을 숨깁니다. 옵션: `Yes` / `No` <br/>**_참고:_** 둘 이상의 보기가 있는 스토어의 경우 단일 스토어 모드가 무시됩니다.<br/> 단일 스토어 모드를 활성화하면 모든 카탈로그 및 제품 스토어 특정 데이터가 기본 스토어 보기에서 모든 스토어 보기 범위로 복사됩니다. 스토어에 하나의 스토어 뷰만 있는 경우 카탈로그 및 제품 데이터만 복사됩니다. 저장소에 비활성화된 저장소가 하나 있고 활성화된 저장소가 하나 있으면 카탈로그 및 제품 데이터가 복사되지 않습니다.<br/> 단일 저장소 모드를 활성화하면 컨텐츠별 데이터에 대한 storeview별 구성 설정이 무시됩니다. 대신 전역 수준 범위에 정의된 구성 설정을 사용하여 관리 UI와 상점 간 일관성을 보장합니다. |
 
 {style="table-layout:auto"}
 

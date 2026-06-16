@@ -1,22 +1,39 @@
 ---
 title: 개인정보 처리방침 저장
-description: 귀하의 개인정보 처리방침은 귀사에서 수집하는 정보의 유형과 그 사용 방법을 설명해야 합니다.
+description: 개인정보 처리방침은 회사에서 수집하는 정보의 유형과 그 사용 방법을 설명해야 합니다.
 exl-id: d8eaa946-2a12-4a36-8f7e-025778ffa7dd
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+TQID: https://experienceleague.adobe.com/643rt9zfz1cfPwuZs9ZFPXmb5Hgi-5lV8zmDqWlZBeA
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: 427
 ht-degree: 0%
 
 ---
 
 # 개인정보 처리방침 저장
 
-스토어에 자체 정보로 업데이트해야 하는 샘플 개인정보 처리방침이 포함되어 있습니다. 귀하의 개인정보 처리방침은 귀사에서 수집하는 정보의 유형과 그 사용 방법을 설명해야 합니다. 또한 스토어를 방문한 사람들의 컴퓨터에 있는 [쿠키](compliance-cookie-law.md#default-cookies)의 파일 이름을 나열해야 합니다. 타사 확장 및 추가 기능과 연결된 모든 추가 쿠키가 목록에 포함되어야 합니다.
+스토어에 자체 정보로 업데이트해야 하는 샘플 개인정보 보호정책이 포함되어 있습니다. 개인정보 처리방침은 회사에서 수집하는 정보의 유형과 그 사용 방법을 설명해야 합니다. 또한 스토어를 방문한 사람들의 컴퓨터에 있는 [쿠키](compliance-cookie-law.md#default-cookies)의 파일 이름을 나열해야 합니다. 타사 확장 및 추가 기능과 연결된 모든 추가 쿠키가 목록에 포함되어야 합니다.
 
 ## 개인 데이터
 
-일반적으로 약칭되는 PI와 PII인 개인 데이터의 분류는 크게 두 가지입니다. Luma 샘플 데이터의 예제 개인정보 처리방침은 개인 식별 정보(PII)를 참조합니다. 그 외에도 다른 국가, 지역, 주의 법적 규정과 연관된 이러한 정의들의 수많은 변형이 있다. 이 일반 토론에는 다음 정의를 사용할 수 있습니다.
+일반적으로 약칭되는 PI와 PII인 개인 데이터의 분류는 크게 두 가지입니다. Luma 샘플 데이터의 예제 개인 정보 정책은 PII(개인 식별 정보)를 참조합니다. 그 외에도 다른 국가, 지역, 주의 법적 규정과 연관된 이러한 정의들의 수많은 변형이 있다. 이 일반 토론에는 다음 정의를 사용할 수 있습니다.
 
 ### 개인 정보(PI)
 
@@ -32,7 +49,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Luma 샘플 데이터에는 사용하기 위해 수정할 수 있는 샘플 개인정보 처리방침이 포함되어 있습니다.
+>Luma 샘플 데이터에는 사용하기 위해 수정할 수 있는 샘플 개인 정보 보호 정책이 포함되어 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**(으)로 이동합니다.
 
@@ -40,7 +57,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >개인정보 처리방침 페이지의 URL 키를 변경하는 경우 트래픽을 새 URL 키로 리디렉션하려면 [사용자 지정 URL 다시 작성](../merchandising-promotions/url-rewrite-custom.md)도 만들어야 합니다. 그렇지 않으면 바닥글의 링크가 `404 Page Not Found`을(를) 반환합니다.
+   >개인정보 처리방침 페이지의 URL 키를 변경하는 경우, 트래픽을 새 URL 키로 리디렉션하려면 [사용자 지정 URL 다시 작성](../merchandising-promotions/url-rewrite-custom.md)도 만들어야 합니다. 그렇지 않으면 바닥글의 링크가 `404 Page Not Found`을(를) 반환합니다.
 
 1. **[!UICONTROL Content]** 섹션을 확장하고 필요한 내용 변경을 수행합니다.
 

@@ -3,9 +3,27 @@ title: 고객 속성 속성
 description: 고객 속성 속성을 구성하는 방법을 알아봅니다.
 exl-id: d464f846-6a1f-43bd-876a-6834605ef794
 feature: Customers, Configuration
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/87E8bc4M62TbP-gRdn-LoRzpZY7sd1o9SbMswZW0ueY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: 1820
 ht-degree: 0%
 
 ---
@@ -47,7 +65,7 @@ ht-degree: 0%
      | `Text Field` | 한 줄 텍스트 필드. |
      | `Text Area` | 제품 설명과 같은 텍스트 단락을 입력하기 위한 여러 줄 입력 필드입니다. WYSIWYG 편집기를 사용하여 HTML 태그로 텍스트 서식을 지정하거나 텍스트에 태그를 직접 입력할 수 있습니다. |
      | `Multiple Line` | 여러 줄 거리 주소와 유사하게 속성에 대해 여러 텍스트 줄을 만듭니다. 개별 데이터 입력 라인의 수는 2개에서 20개까지 지정할 수 있습니다. 필드의 초기 값을 지정하려면 `Default Value`을(를) 사용하십시오. |
-     | `Date` | 선호하는 날짜 형식 및 시간대로 날짜 값을 표시합니다. 날짜 값은 목록 또는 달력(![달력 아이콘](../assets/icon-calendar.png))에서 선택할 수 있습니다. <br/><br/>**_참고:_**&#x200B;시스템 구성에 따라_관리자&#x200B;_사용자는 필드에 날짜를 직접 입력하거나 일정 또는 목록에서 날짜를 선택할 수 있습니다. 날짜 및 시간 값 지정에 대한 자세한 내용은 [날짜 및 시간 옵션](../catalog/attributes-input-types.md#date-and-time-options)을 참조하세요. |
+     | `Date` | 선호하는 날짜 형식 및 시간대로 날짜 값을 표시합니다. 날짜 값은 목록 또는 달력(![달력 아이콘](../assets/icon-calendar.png))에서 선택할 수 있습니다. <br/><br/>**_참고:_**&#x200B;시스템 구성에 따라_&#x200B;관리자_ 사용자는 필드에 날짜를 직접 입력하거나 달력 또는 목록에서 날짜를 선택할 수 있습니다. 날짜 및 시간 값 지정에 대한 자세한 내용은 [날짜 및 시간 옵션](../catalog/attributes-input-types.md#date-and-time-options)을 참조하세요. |
      | `Yes/No` | `Yes` 및 `No`의 사전 정의된 옵션이 있는 드롭다운 목록을 표시합니다. |
      | `Dropdown` | 단일 선택 항목만 허용하는 값의 드롭다운 목록을 표시합니다. 드롭다운 입력 유형은 [구성 가능한 제품](../catalog/product-create-configurable.md)의 주요 구성 요소입니다. |
      | `Multiple Select` | 여러 값을 선택할 수 있는 드롭다운 목록입니다. |
@@ -105,9 +123,9 @@ ht-degree: 0%
 
 1. 특성을 포함할 각 양식에 **[!UICONTROL Forms to Use]**&#x200B;을(를) 설정합니다. 여러 옵션을 선택하려면 Ctrl 키를 누른 채 각 양식을 클릭합니다.
 
-   - [&#39;고객 등록&#39;](customer-sign-in.md)
-   - [&#39;고객 계정 편집&#39;](account-create.md)
-   - [&#39;관리자 체크아웃&#39;](../stores-purchase/checkout-process.md)
+   - [`Customer Registration`](customer-sign-in.md)
+   - [`Customer Account Edit`](account-create.md)
+   - [`Admin Checkout`](../stores-purchase/checkout-process.md)
 
 ## 3단계: 레이블 작성 및 저장
 
@@ -127,10 +145,10 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL Default Label] | 관리자 및 상점 첫 화면에서 속성을 식별하는 기본 레이블입니다. |
 | [!UICONTROL Attribute Code] | 시스템 내에서 속성을 식별하는 고유 코드입니다. 코드는 길이가 최대 60자이며 공백이나 특수 문자를 포함할 수 없습니다. 공백 대신 밑줄 기호를 사용할 수 있습니다. |
-| [!UICONTROL Input Type] | 데이터 입력에 사용되는 입력 컨트롤을 결정합니다. 옵션: <br/>**`Text Field`**- 한 줄 텍스트 필드입니다.<br/>**`Text Area`** - 여러 줄 텍스트 영역입니다. <br/>**`Multiple Line`**- 여러 줄 주소(여러 줄 주소)와 유사하게 특성에 대해 여러 텍스트 줄을 만듭니다. 개별 데이터 입력 라인의 수는 2개에서 20개까지 지정할 수 있습니다.<br/>**`Date`** - 팝업 달력이 있는 날짜 필드를 표시합니다.<br/>**`Dropdown`**- 하나의 값만 선택할 수 있는 드롭다운 목록입니다.<br/>**`Multiple Select`** - 여러 값을 선택할 수 있는 드롭다운 목록입니다. <br/>**`Yes/No`**- `Yes` 또는 `No` 값을 선택할 수 있는 필드입니다.<br/>**`File (attachment)`** - 파일을 업로드하고 고객 특성과 연결할 수 있는 필드입니다. <br/>**`Image File`**- 갤러리에 이미지를 업로드하고 고객 특성과 연결할 수 있는 필드입니다. |
+| [!UICONTROL Input Type] | 데이터 입력에 사용되는 입력 컨트롤을 결정합니다. 옵션: <br/>**`Text Field`**- 한 줄 텍스트 필드입니다.<br/>**`Text Area`** - 여러 줄 텍스트 영역입니다. <br/>**`Multiple Line`**- 여러 줄 주소(여러 줄 주소)와 유사하게 특성에 대해 여러 텍스트 줄을 만듭니다. 개별 데이터 입력 줄의 수는 2개에서 20개까지 지정할 수 있습니다.<br/>**`Date`** - 팝업 달력이 있는 날짜 필드를 표시합니다.<br/>**`Dropdown`**- 하나의 값만 선택할 수 있는 드롭다운 목록입니다.<br/>**`Multiple Select`** - 여러 값을 선택할 수 있는 드롭다운 목록입니다. <br/>**`Yes/No`**- `Yes` 또는 `No` 값 중 하나만 선택할 수 있는 필드입니다.<br/>**`File (attachment)`** - 파일을 업로드하고 고객 특성과 연결할 수 있는 첨부 파일 필드입니다. <br/>**`Image File`**- 갤러리에 이미지를 업로드하고 고객 특성과 연결할 수 있는 필드입니다. |
 | [!UICONTROL Values Required] | 필드에 값을 입력해야 하는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Default Value] | 특성의 초기 값을 지정합니다. |
-| [!UICONTROL Input Validation] | 옵션 선택은 입력 유형에 따라 결정됩니다. 옵션: <br/>**`None`**- 데이터 입력 중에 필드에 입력 유효성 검사가 없습니다.<br/>**`Alphanumeric`** - 데이터를 입력하는 동안 숫자(0-9)와 영문자(a-z, A-Z)의 조합을 사용할 수 있습니다. <br/>**`Alphanumeric with Space`**- 거리 주소의 공백이 통신사의 최대 길이 요구 사항을 준수하도록 허용합니다. 체크아웃 시 고객은 수신자 및 발신자의 거리 주소에 숫자(0-9), 알파벳 문자(a-z, A-Z) 및 공백의 조합을 입력할 수 있습니다. 주소를 저장하면 추가 공백이 트리밍됩니다.<br/>**`Numeric Only`** - 데이터를 입력하는 동안 숫자(0-9)만 허용합니다. <br/>**`Alpha Only`**- 데이터를 입력하는 동안 영문자만 허용합니다(a-z, A-Z).<br/>**`URL`** - 데이터를 입력하는 동안 URL만 허용합니다. <br/>**`Email`**- 데이터를 입력하는 동안 전자 메일 주소만 허용합니다.<br/>**`Length Only`** - 필드에 입력한 데이터의 길이를 기반으로 입력의 유효성을 검사합니다. |
+| [!UICONTROL Input Validation] | 옵션 선택은 입력 유형에 따라 결정됩니다. 옵션: <br/>**`None`**- 데이터 입력 중에 필드에 입력 유효성 검사가 없습니다.<br/>**`Alphanumeric`** - 데이터를 입력하는 동안 숫자(0-9)와 영문자(a-z, A-Z)의 조합을 사용할 수 있습니다. <br/>**`Alphanumeric with Space`**- 거리 주소의 공백이 통신사의 최대 길이 요구 사항을 준수하도록 허용합니다. 체크아웃 시 고객은 수신자 및 발신자의 거리 주소에 숫자(0-9), 알파벳 문자(a-z, A-Z) 및 공백의 조합을 입력할 수 있습니다. 주소를 저장하면 추가 공백이 트리밍됩니다.<br/>**`Numeric Only`** - 데이터를 입력하는 동안 숫자(0-9)만 허용합니다. <br/>**`Alpha Only`**- 데이터를 입력하는 동안 영문자(a-z, A-Z)만 허용합니다.<br/>**`URL`** - 데이터를 입력하는 동안 URL만 허용합니다. <br/>**`Email`**- 데이터를 입력하는 동안 이메일 주소만 허용합니다.<br/>**`Length Only`** - 필드에 입력한 데이터의 길이를 기반으로 입력의 유효성을 검사합니다. |
 | [!UICONTROL Input/Output Filter] | 레코드가 저장되기 전에 텍스트 필드, 텍스트 영역 또는 여러 줄 입력 유형에 입력된 값에 전처리 필터를 적용합니다. 옵션: <br/>**`None`**- 필드에 입력한 텍스트에 필터를 적용하지 않습니다.<br/>**`Strip HTML Tags`** - 텍스트에서 HTML 태그를 제거합니다. 이 필터는 HTML 태그가 포함된 다른 소스의 필드에 붙여넣은 데이터를 정리하는 데 도움이 될 수 있습니다. <br/>**`Escape HTML Entities`**- 텍스트에 있는 특수 문자를 유효한 HTML 이스케이프 시퀀스(예: `amp;`)로 변환합니다. 이스케이프 시퀀스는 앰퍼샌드와 세미콜론 사이에 있으며, 타이포그래퍼의 스마트 따옴표, 저작권 기호 및 상표 기호에 자주 사용됩니다. 이스케이프 시퀀스를 사용하여 보다 작음(`<`) 및 보다 큼(`>`) 기호, 코드에서도 사용되는 앰퍼샌드 문자 등의 문자를 식별합니다. 이 필터는 워드 프로세서에서 데이터베이스 필드에 붙여넣는 특수 문자를 정리하는 데 도움이 될 수 있습니다. |
 | [!UICONTROL Add to Column Options] | 특성이 [Customers](customers-all.md) 표에 열로 포함되는지 여부를 지정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Use in Filter Options] | 특성이 그리드에서 검색 작업을 위한 필터로 사용될 수 있는지 여부를 지정합니다. 옵션: `Yes` / `No` |
@@ -163,7 +181,7 @@ ht-degree: 0%
 | `lastname` | 고객의 성. |
 | `suffix` | 고객 이름과 함께 사용되는 모든 접미사. (예: Jr., Sr. 또는 Esquire) |
 | `email` | 고객의 이메일 주소입니다. |
-| `dob` | 고객의 생년월일  <br><br>**_중요:_**&#x200B;현재 보안 및 개인 정보 보호 모범 사례를 준수하면서 다른 개인 식별자를 사용한 고객의 전체 생년월일(월, 일, 년) 저장과 관련된 모든 잠재적인 법적 및 보안 위험에 유의하십시오. 고객의 전체 생년월일 보관을 제한하고 고객 생년월일을 대안으로 사용하는 것이 좋습니다. |
+| `dob` | 고객의 생년월일  <br><br>**_Important:_** 현재 보안 및 개인 정보 보호 모범 사례를 준수하면서 다른 개인 식별자를 사용한 고객의 전체 생년월일(월, 일, 년) 저장과 관련된 잠재적인 법적 및 보안 위험에 대해 알아보십시오. 고객의 전체 생년월일 보관을 제한하고 고객 생년월일을 대안으로 사용하는 것이 좋습니다. |
 | `taxvat` | 고객에게 할당된 부가가치세(VAT) ID입니다. 이 특성의 기본 레이블은 `VAT Number`입니다. VAT 번호 필드는 관리자로부터 볼 때 모든 운송 및 청구 고객 주소에 항상 표시되지만 필수 필드는 아닙니다. |
 | `gender` | 고객 성별. |
 
@@ -171,4 +189,4 @@ ht-degree: 0%
 
 고객 특성 만들기에 대한 시연은 다음 비디오에서 살펴보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410187?quality=12&learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3410187?captions=kor&quality=12&learn=on)

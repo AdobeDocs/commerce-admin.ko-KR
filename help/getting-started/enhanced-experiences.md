@@ -3,9 +3,34 @@ title: 향상된 Storefront 환경
 description: 고객 참여, 유지 및 충성도를 극대화하는 데 도움이 되도록 설계된 다양한 도구에 대해 알아봅니다.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/dvX5iw-uZFfhD8BXiugyXjeZYAPoNM-rcSdnlICZvXo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: 1775
 ht-degree: 0%
 
 ---
@@ -104,7 +129,7 @@ Adobe Commerce과 Magento Open Source은 쇼핑 경험을 조정하고 고객이
 
 **쇼핑 지원** - [쇼핑 지원](../stores-purchase/shopping-assisted-cart-manage.md)을 통해 고객 서비스 담당자는 고객을 위한 주문을 쉽게 만들 수 있습니다. Adobe Commerce에서 관리자 로 작업 중인 고객 서비스 담당자는 장바구니 컨텐츠에 액세스할 수 있으며, 항목을 위시리스트에서 장바구니로 이동하고, 쿠폰 코드를 적용하는 등의 작업을 수행할 수 있습니다.
 
-**보안** - 주문이 온라인 또는 전화로 이행되는지 여부에 관계없이, [!DNL Commerce]은(는) 시스템 보안을 보호하기 위해 최상의 암호화 및 해시 알고리즘과 함께 [CAPTCHA](../systems/security.md) 및 SSL 암호화를 포함한 [정교한 보안](../systems/security-captcha.md)을 제공합니다.
+**보안** - 주문이 온라인 또는 전화로 이행되는지 여부에 관계없이, [!DNL Commerce]은(는) 시스템 보안을 보호하기 위해 최상의 암호화 및 해시 알고리즘과 함께 [CAPTCHA](../systems/security-captcha.md) 및 SSL 암호화를 포함한 [정교한 보안](../systems/security.md)을 제공합니다.
 
 **주문 처리** - [!DNL Commerce]에서 전체 [주문 처리](../stores-purchase/order-processing.md) 워크플로우를 지원합니다. 주문 상태를 사용자 정의하고 영업 담당자와 고객 간의 커뮤니케이션을 추적하기 쉽습니다.
 

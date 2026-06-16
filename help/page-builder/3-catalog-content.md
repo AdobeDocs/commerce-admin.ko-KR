@@ -3,9 +3,22 @@ title: '[!DNL Page Builder] 연습 3부: 카탈로그 콘텐츠'
 description: ' [!DNL Page Builder] 페이지에 제품 목록을 추가하는 방법을 알아봅니다.'
 exl-id: f2a0dc29-6d8f-4b97-a947-72659c01d0cb
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/aJlgMXqFCj0Fu-BbZ2e8YcfAKYppBedwfNHaGxvlgT0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: 1506
 ht-degree: 0%
 
 ---
@@ -26,11 +39,11 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**(으)로 이동합니다.
 
-1. 첫 번째 연습에서 만들고 두 번째 연습에서 수정한 _단순 페이지_&#x200B;를 찾은 다음 **[!UICONTROL Edit]** 열에서 _[!UICONTROL Action]_&#x200B;을(를) 선택합니다.
+1. 첫 번째 연습에서 만들고 두 번째 연습에서 수정한 _단순 페이지_&#x200B;를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Content]**&#x200B;를 확장하고 **[!UICONTROL Edit with Page Builder]** 또는 콘텐츠 미리 보기 영역 내부를 클릭합니다.
+1. **[!UICONTROL Content]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 **[!UICONTROL Edit with Page Builder]** 또는 콘텐츠 미리 보기 영역 내부를 클릭합니다.
 
-1. [!DNL Page Builder] 아래의 _[!UICONTROL Layout]_&#x200B;패널에서&#x200B;**[!UICONTROL Row]**&#x200B;을(를) 단계 맨 위로 드래그합니다.
+1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Row]**&#x200B;을(를) 단계 맨 위로 드래그합니다.
 
 1. [!DNL Page Builder] 패널에서 **[!UICONTROL Add Content]**&#x200B;을(를) 확장하고 **[!UICONTROL Products]** 자리 표시자를 새 행으로 드래그합니다.
 
@@ -52,7 +65,7 @@ ht-degree: 0%
 
      ![조건에 대한 범주 특성 선택](./assets/pb-add-content-products-settings-condition.png){width="600" zoomable="yes"}
 
-   - 자세히(...) 아이콘을 클릭하여 _[!UICONTROL Category is]..._ 조건 부분을 완료한 다음 _선택기_(![선택기 아이콘](../assets/icon-list-chooser.png)) 아이콘을 클릭합니다.
+   - 자세히(...)를 클릭하여 조건의 _[!UICONTROL Category is]..._ 부분을 완료합니다. 아이콘을 클릭한 다음 _선택기_(![선택기 아이콘](../assets/icon-list-chooser.png)) 아이콘을 클릭합니다.
 
      ![조건 정의](./assets/pb-add-content-products-settings-condition-category-is.png){width="600" zoomable="yes"}
 
@@ -88,7 +101,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!UICONTROL Content] 단추를 보고 Page Builder를 사용하려면 관리자가 [역할 범위](../systems/permissions-user-roles.md)에 대해 [!UICONTROL Edit with Page Builder] 권한을 가지고 있어야 합니다.
+>[!UICONTROL Edit with Page Builder] 단추를 보고 Page Builder를 사용하려면 관리자가 [역할 범위](../systems/permissions-user-roles.md)에 대해 [!UICONTROL Content] 권한을 가지고 있어야 합니다.
 
 이 연습 부분에서는 제품 페이지의 탭 집합 아래에 비디오를 배치하여 제품 페이지를 손쉽게 사용자 정의하는 방법을 알아봅니다. [범주 페이지](../catalog/categories-content-settings.md) 콘텐츠를 업데이트하는 프로세스는 기본적으로 동일합니다.
 
@@ -96,7 +109,7 @@ ht-degree: 0%
 
 1. 이 예제에 사용할 수 있는 간단한 제품을 찾아 편집 모드로 엽니다.
 
-1. 아래로 스크롤하여 ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Content]**&#x200B;를 확장합니다.
+1. 아래로 스크롤하여 **[!UICONTROL Content]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. _[!UICONTROL Description]_&#x200B;옆에 있는&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;을(를) 클릭합니다.
 
@@ -104,7 +117,7 @@ ht-degree: 0%
 
    이전에 [!DNL Page Builder] 없이 제품 설명을 입력한 경우 현재 설명은 [HTML 코드](html-code.md) 컨테이너에 HTML으로 표시됩니다. Luma 테마를 사용하면 제품 설명이 세부 사항 탭에 표시됩니다.
 
-1. [!DNL Page Builder] 아래의 _[!UICONTROL Layout]_&#x200B;패널에서&#x200B;**[!UICONTROL Row]**&#x200B;을(를) 스테이지로 드래그하여 HTML 코드 컨테이너 아래에 놓습니다.
+1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Row]**&#x200B;을(를) 스테이지로 드래그하여 HTML 코드 컨테이너 아래에 놓습니다.
 
    행이 올바른 위치에 있을 때 빨간색 지침이 나타나는지 확인합니다.
 
@@ -130,7 +143,7 @@ ht-degree: 0%
 
    이 옵션을 비워 두면 비디오는 사용 가능한 공간을 채웁니다.
 
-1. 설정을 저장하고 **[!UICONTROL Save]** 작업 영역으로 돌아가려면 [!DNL Page Builder]을(를) 클릭합니다.
+1. 설정을 저장하고 [!DNL Page Builder] 작업 영역으로 돌아가려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    ![콘텐츠 단계의 비디오](./assets/pb-tutorial3-product-video.png){width="600" zoomable="yes"}
 
@@ -194,7 +207,7 @@ ht-degree: 0%
 
    ![[!DNL Page Builder] 입력 형식](./assets/pb-attribute-page-builder.png){width="600" zoomable="yes"}
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Advanced Attribute Properties]**&#x200B;를 확장하고 다음 설정을 만듭니다.
+1. **[!UICONTROL Advanced Attribute Properties]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음 설정을 만듭니다.
 
    - [!UICONTROL Attribute Code]: 공백 대신 하이픈을 사용하여 속성 코드를 소문자로 입력하십시오. 이 예제에서는 `my_page_builder_attribute`을(를) 사용합니다.
    - [!UICONTROL Scope]: 기본값 `Store View`을(를) 사용합니다.
@@ -236,7 +249,7 @@ ht-degree: 0%
 
 1. 목록에서 _[!UICONTROL Default]_&#x200B;특성 집합을 찾아 두 번 클릭하여 편집 모드로 엽니다.
 
-1. _미할당 특성_ 목록에서 새로 만든 특성을 찾아 _[!UICONTROL Groups]_&#x200B;아래의&#x200B;**[!UICONTROL Content]**&#x200B;열로 끌어 옵니다.
+1. _미할당 특성_ 목록에서 새로 만든 특성을 찾아 **[!UICONTROL Content]** 아래의 _[!UICONTROL Groups]_&#x200B;열로 끌어 옵니다.
 
    [!UICONTROL Groups] 열의 특성 위치에 따라 페이지에서 특성이 나타나는 위치가 결정됩니다.
 
@@ -252,12 +265,12 @@ ht-degree: 0%
 
 1. 제품 그리드에서 _내 제품_&#x200B;을 찾아 편집 모드로 엽니다.
 
-1. 아래로 스크롤하여 ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Content]**&#x200B;를 확장합니다.
+1. 아래로 스크롤하여 **[!UICONTROL Content]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    섹션의 맨 위에는 제품 콘텐츠에 대한 두 가지 표준 속성이 있습니다.
 
-   - 표준 WYSIWYG _editor_&#x200B;을 사용하는 [간단한 설명](../content-design/editor.md).
-   - _미리 보기를 표시하는_&#x200B;설명[!DNL Page Builder].
+   - 표준 WYSIWYG [editor](../content-design/editor.md)을 사용하는 _간단한 설명_.
+   - [!DNL Page Builder] 미리 보기를 표시하는 _설명_.
 
    ![제품 콘텐츠](./assets/pb-product-content-edit-with-page-builder.png){width="600" zoomable="yes"}
 

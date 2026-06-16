@@ -3,9 +3,27 @@ title: 이동 경로 추적
 description: 다양한 이동 경로 추적 패턴과 콘텐츠 및 카탈로그 페이지에 표시되도록 구성하는 방법에 대해 알아봅니다.
 exl-id: 2f60d48e-960f-437c-8f8f-a3d06cc0840a
 feature: Catalog Management, Categories, Site Navigation, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/v1hA4y0MmxxTtH3WbspqosZM1JMk4PMyhK1xeLxALOE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: 394
 ht-degree: 0%
 
 ---
@@ -14,7 +32,7 @@ ht-degree: 0%
 
 _이동 경로_&#x200B;은(는) 고객이 저장소의 다른 페이지와 관련하여 현재 있는 위치를 보여 주는 링크 집합입니다. 이동 경로의 링크를 클릭하여 이전 페이지로 돌아갈 수 있습니다.
 
-이동 경로는 콘텐츠 페이지 및 카탈로그 페이지에 나타나도록 구성할 수 있습니다. 이동 경로의 형식과 위치는 테마에 따라 다르지만 일반적으로 헤더 바로 아래에 있습니다. 기본적으로 이동 경로 기록이 CMS 페이지에 표시됩니다.
+이동 경로는 콘텐츠 페이지 및 카탈로그 페이지에 나타나도록 구성할 수 있습니다. 이동 경로의 형식과 위치는 테마에 따라 다르지만 일반적으로 헤더 바로 아래에 있습니다. 기본적으로 이동 경로 추적은 CMS 페이지에 표시됩니다.
 
 ![상점 앞에 표시되는 이동 경로](./assets/storefront-breadcrumb-trail.png){width="700" zoomable="yes"}
 

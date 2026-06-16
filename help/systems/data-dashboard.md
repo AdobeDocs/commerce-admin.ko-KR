@@ -3,9 +3,27 @@ title: 데이터 관리 대시보드
 description: ' [!DNL Catalog Service], [!DNL Live Search] 및 [!DNL Product Recommendation]의 데이터 스트림에 대한 인사이트에 액세스하는 방법에 대해 알아봅니다.'
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: 08d10741838037236c57cb53ead55f3677641496
+TQID: https://experienceleague.adobe.com/5WxRmKbBDfWM4JHypuXKCmrUTn5VjQeAUdLRJUWQXtc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: 802
 ht-degree: 0%
 
 ---
@@ -31,8 +49,8 @@ ht-degree: 0%
 | 필드 | 설명 |
 |--- |--- |
 | 범위 | 동기화된 데이터에 대한 특정 웹 사이트입니다. |
-| [!DNL Product Recommendations] | 동기화 상태, 동기화된 제품 수 및 [에 대해 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/catalog/inventory#stock-options)표시 가능[!DNL Product Recommendations] 동기화된 제품 테이블을 표시합니다. |
-| [!DNL Live Search] | 동기화 상태, 동기화된 제품 수 및 [에 대해 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/catalog/inventory#stock-options)표시 가능[!DNL Live Search] 동기화된 제품 테이블을 표시합니다. |
+| [!DNL Product Recommendations] | 동기화 상태, 동기화된 제품 수 및 [!DNL Product Recommendations]에 대해 [표시 가능](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/catalog/inventory#stock-options) 동기화된 제품 테이블을 표시합니다. |
+| [!DNL Live Search] | 동기화 상태, 동기화된 제품 수 및 [!DNL Live Search]에 대해 [표시 가능](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/catalog/inventory#stock-options) 동기화된 제품 테이블을 표시합니다. |
 | [!DNL Catalog Service] | [!DNL Catalog Service]에 대해 동기화 상태, 동기화된 제품 수 및 동기화된 제품 테이블을 표시합니다. |
 | 설정 | [카탈로그 데이터를 수동으로 다시 동기화](#resync-catalog-data)할 수 있는 대화 상자를 엽니다. |
 | 동기화 상태 | 지난 3시간 내에 Commerce 데이터베이스에서 SaaS 서비스로 전송된 제품 수를 표시합니다. 카탈로그를 자주 업데이트하지 않는 경우 이 값은 0인 경우가 많습니다. 동기화가 진행 중이면 **[!UICONTROL Refresh]**&#x200B;을(를) 클릭하여 업데이트된 개수를 가져옵니다. |

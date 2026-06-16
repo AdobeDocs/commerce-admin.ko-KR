@@ -4,9 +4,25 @@ description: 견적 요청, 견적 수명 및 첨부 파일에 대한 최소 필
 exl-id: 865f6624-df9b-4f78-abfa-1f9a3d82bc0d
 feature: B2B, Companies, Configuration, Quotes
 role: Admin
-source-git-commit: d4c3ea4b49e30ae3af249516d32fb28437d218b8
+TQID: https://experienceleague.adobe.com/RenH7-cnfF8qVEqFQc7IPMVsIp0alug5OgvYlr5piTM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: 296
 ht-degree: 0%
 
 ---
@@ -17,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->견적 구성 옵션 및 견적 협상 기능을 사용하는 기능은 [역할 리소스](../systems/permissions-user-roles.md#role-resources)를 사용하여 제어됩니다. 관리자 사용자 계정에 할당된 관리자 사용자 역할에 대해 이러한 역할 리소스를 선택해야 합니다. 관리자의 견적 함수에 대한 액세스 권한을 부여하려면 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**(으)로 이동하고 역할을 선택한 다음_&#x200B;역할 리소스&#x200B;_트리에서 [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes] (으)로 이동합니다.
+>견적 구성 옵션 및 견적 협상 기능을 사용하는 기능은 [역할 리소스](../systems/permissions-user-roles.md#role-resources)를 사용하여 제어됩니다. 관리자 사용자 계정에 할당된 관리자 사용자 역할에 대해 이러한 역할 리소스를 선택해야 합니다. 관리자의 견적 함수에 대한 액세스 권한을 부여하려면 **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**(으)로 이동하고 역할을 선택한 다음_&#x200B;역할 리소스&#x200B;_트리에서 [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes]&#x200B;(으)로 이동합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 

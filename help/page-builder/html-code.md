@@ -3,9 +3,21 @@ title: 요소 - HTML 코드
 description: ' [!DNL Page Builder] 스테이지에서 HTML, CSS 및 JavaScript 코드의 조각을 추가하는 데 사용되는 HTML 코드 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/ik99YngYtSz14nSTu5-aXkKyJlm20oixkNIVn-O1UyM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: 985
 ht-degree: 0%
 
 ---
@@ -90,7 +102,7 @@ _HTML 코드_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](work
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
-1. 그리드에서 페이지를 찾은 다음 **[!UICONTROL View]** 열에서 _[!UICONTROL Actions]_&#x200B;을(를) 선택합니다.
+1. 그리드에서 페이지를 찾은 다음 _[!UICONTROL Actions]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 선택합니다.
 
    ![새 글꼴 패밀리로 페이지 머리글을 미리 봅니다](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 

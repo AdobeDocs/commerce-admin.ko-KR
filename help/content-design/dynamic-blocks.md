@@ -3,9 +3,20 @@ title: 동적 블록
 description: 다이내믹 블록을 사용하여 가격 규칙 및 고객 세그먼트의 논리를 기반으로 하는 풍부한 대화형 컨텐츠를 생성합니다.
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+TQID: https://experienceleague.adobe.com/Xbv5IqrZPF2xDERIGOFilHgiXKAyy8yxyXISRj17s0A
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: 674
 ht-degree: 0%
 
 ---
@@ -97,7 +108,7 @@ ht-degree: 0%
 | [!UICONTROL Store View] | 동적 블록을 사용할 수 있는 저장소 보기를 지정합니다. |
 | [!UICONTROL Enable Dynamic Block] | 동적 블록을 활성화하거나 비활성화합니다. 옵션: 예 / 아니요 |
 | [!UICONTROL Dynamic Block Name] | 관리자의 동적 블록을 식별하는 수사적 이름입니다. |
-| [!UICONTROL Dynamic Block Type] | [표준 페이지 레이아웃](layout-updates.md)에서 동적 블록이 배치된 위치를 식별합니다. 옵션: <br/>**[!UICONTROL Content Area]**- 동적 블록을 페이지의 기본 [콘텐츠 영역](layout-updates.md)에 배치합니다.<br/>**[!UICONTROL Footer]** - [바닥글](page-setup.md#footer) 페이지에 동적 블록을 배치합니다. <br/>**[!UICONTROL Header]**- [header](page-setup.md#header) 페이지에 동적 블록을 배치합니다.<br/>**[!UICONTROL Left Column]** - 동적 블록을 2열 또는 3열 레이아웃의 [왼쪽 사이드바](page-layout.md#standard-page-layouts)에 배치합니다. <br/>**[!UICONTROL Right Column]**- 동적 블록을 2열 또는 3열 레이아웃의 [오른쪽 사이드바](page-layout.md#standard-page-layouts)에 배치합니다. |
+| [!UICONTROL Dynamic Block Type] | [표준 페이지 레이아웃](layout-updates.md)에서 동적 블록이 배치된 위치를 식별합니다. 옵션: <br/>**[!UICONTROL Content Area]**- 동적 블록을 페이지의 기본 [콘텐츠 영역](layout-updates.md)에 배치합니다.<br/>**[!UICONTROL Footer]** - 동적 블록을 [바닥글](page-setup.md#footer) 페이지에 배치합니다. <br/>**[!UICONTROL Header]**- 동적 블록을 [머리글](page-setup.md#header) 페이지에 배치합니다.<br/>**[!UICONTROL Left Column]** - 동적 블록을 2열 또는 3열 레이아웃의 [왼쪽 사이드바](page-layout.md#standard-page-layouts)에 배치합니다. <br/>**[!UICONTROL Right Column]**- 2열 또는 3열 레이아웃의 [오른쪽 사이드바](page-layout.md#standard-page-layouts)에 동적 블록을 배치합니다. |
 | 고객 세그먼트 | 고객 세그먼트를 동적 블록과 연결하여 볼 수 있는 고객을 결정합니다. |
 | Real-Time CDP 대상 | [Real-Time CDP 대상](../customers/audience-activation.md)을 동적 블록과 연결하여 볼 수 있는 고객을 파악합니다. |
 

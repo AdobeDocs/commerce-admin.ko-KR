@@ -3,9 +3,22 @@ title: 게스트 체크아웃
 description: 스토어에서 게스트 체크아웃 기능을 활성화하는 방법을 알아봅니다.
 exl-id: ce25eba3-7503-46aa-a5cd-9b7d5662164b
 feature: Checkout
-source-git-commit: 347321ec5b0722f06240780136cb29816aab559f
+TQID: https://experienceleague.adobe.com/jxrHQ1knuqHBmM1DsVa9NqdV-XNFdQDWjvwW4kHEyYM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: 247
 ht-degree: 0%
 
 ---
@@ -22,11 +35,11 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Checkout Options]**&#x200B;를 확장합니다.
+1. **[!UICONTROL Checkout Options]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![구성 페이지에서 확장된 체크 아웃 옵션](./assets/checkout-checkout-options.png){width="700" zoomable="yes"}
 
-이러한 각 구성 설정에 대한 자세한 설명은 [구성 참조 안내서](../configuration-reference/sales/checkout.md#checkout-options)의 _체크아웃 옵션_&#x200B;을 참조하세요.
+이러한 각 구성 설정에 대한 자세한 설명은 _구성 참조 안내서_&#x200B;의 [체크아웃 옵션](../configuration-reference/sales/checkout.md#checkout-options)을 참조하세요.
 
 1. 특정 스토어 보기에 대한 설정인 경우 구성이 적용되는 [스토어 보기를 선택](../configuration-reference/scope-change.md#set-the-scope)합니다.
 

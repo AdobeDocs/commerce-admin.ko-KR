@@ -3,9 +3,26 @@ title: '[!DNL Inventory Management] 릴리스 정보'
 description: 모든 [!DNL Inventory Management] 릴리스에 대한 정보는 릴리스 정보를 검토하십시오.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+TQID: https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '3462'
+source-wordcount: 3533
 ht-degree: 0%
 
 ---
@@ -163,7 +180,7 @@ Inventory management 1.2.4(모듈 버전: `magento/inventory-metapackage = 1.2.4
 
 ![해결된 문제](../assets/fix.svg) 매장 내 픽업, 대량 업데이트 및 인벤토리 임계값과 관련된 문제를 해결하기 위한 몇 가지 수정 사항이 있습니다.
 
-![새로 만들기](../assets/new.svg) **기능 테스트.** 새로운 기능 테스트를 도입하고 기존 테스트를 보다 안정적으로 만들기 위한 수정 사항을 제공했습니다.
+![새로 만들기](../assets/new.svg) **기능 테스트.** 새로운 기능 테스트를 도입하고 기존 테스트에 대한 수정 사항을 제공하여 보다 안정적입니다.
 
 ## 1.2.1
 
@@ -171,7 +188,7 @@ Inventory management 1.2.4(모듈 버전: `magento/inventory-metapackage = 1.2.4
 
 ![문제 해결](../assets/fix.svg) `inventory_cleanup_reservations` cron 작업과 관련된 알려진 문제를 해결하고 번들 제품의 매장 픽업 기능과 관련된 문제를 해결했습니다. 이 업데이트에는 스톡 계산, 번들 제품 지원 및 미납주문 기능에 대한 일반적인 개선 사항도 포함됩니다.
 
-![새로 만들기](../assets/new.svg) **기능 테스트.** 매장 내 픽업 기능에 대한 추가 기능을 제공하기 위해 새로운 기능 테스트를 도입했습니다.
+![새로 만들기](../assets/new.svg) **기능 테스트.** 매장 내 픽업 기능에 대한 추가 기능을 제공하는 새로운 기능 테스트를 도입했습니다.
 
 ## 1.2.0
 
@@ -179,17 +196,17 @@ Inventory management 1.2.4(모듈 버전: `magento/inventory-metapackage = 1.2.4
 
 ![해결된 문제](../assets/fix.svg) 원본 할당, 확장 가능한 환경 기능 지원, PHP 7.4, MySQL 8 및 PHPUNIT 9와의 호환성 문제를 해결하기 위한 여러 가지 수정 사항이 있습니다.
 
-![새로 만들기](../assets/new.svg) **매장 내 게재 방법.** 사용자가 체크아웃 중에 픽업 위치로 사용할 원본을 선택할 수 있는 옵션을 추가했습니다. _판매 및 구매 경험 안내서_&#x200B;에서 [매장 내 배달](../stores-purchase/shipping-in-store-delivery.md)을 참조하세요.
+![새로 만들기](../assets/new.svg) **매장 내 배달 방법.** 사용자가 체크아웃 중에 픽업 위치로 사용할 소스를 선택할 수 있는 옵션이 추가되었습니다. _판매 및 구매 경험 안내서_&#x200B;에서 [매장 내 배달](../stores-purchase/shipping-in-store-delivery.md)을 참조하세요.
 
-![새로 만들기](../assets/new.svg) **다중 소스 모드에 대한 번들 제품 지원.** 인벤토리는 여러 원본이 있는 모든 제품 형식을 지원합니다.
+![새로 만들기](../assets/new.svg) **다중 소스 모드에 대한 번들 제품 지원** 재고는 여러 출처가 있는 모든 제품 유형을 지원합니다.
 
-![새로 만들기](../assets/new.svg) **비동기 재고 리인덱싱입니다.**&#x200B;에 비동기적으로 재인덱싱하는 기능이 추가되어 여러 중요한 시나리오의 성능이 향상되었습니다.
+![새로 만들기](../assets/new.svg) **비동기 재고 리인덱싱.** 비동기적으로 재색인화하는 기능이 추가되었으며 여러 중요한 시나리오의 성능이 향상되었습니다.
 
-![새](../assets/new.svg) **대량 인터페이스.** 판매 가능성 검사를 위한 새 대량 인터페이스를 도입했습니다. `\Magento\InventorySalesApi\Api\AreProductsSalableInterface`, `\Magento\InventorySalesApi\Api\AreProductsSalableForRequestedQtyInterface`.
+![새](../assets/new.svg) **대량 인터페이스.** 매출 확인을 위한 새 대량 인터페이스를 도입했습니다. `\Magento\InventorySalesApi\Api\AreProductsSalableInterface`, `\Magento\InventorySalesApi\Api\AreProductsSalableForRequestedQtyInterface`.
 
-![새로 만들기](../assets/new.svg) **테스트 범위가 늘어났습니다.** 새 기능은 검색된 문제 및 해결된 문제에 대한 확장 적용 범위를 포함하여 자동화된 테스트로 다룹니다.
+![새로 만들기](../assets/new.svg) **테스트 범위가 늘어났습니다.** 새로운 기능은 발견된 문제 및 해결된 문제에 대한 확장 적용 범위를 포함하여 자동화된 테스트로 제공됩니다.
 
-![알려진 문제](../assets/bug.svg) **알려진 문제.** 예약 메타데이터에 `object_id` 필드가 없어 `inventory_cleanup_reservations` cron 작업이 제대로 작동하지 않습니다. 이 문제는 [magento/inventory#3046](https://github.com/magento/inventory/pull/3046)에 도입되었습니다.
+![알려진 문제](../assets/bug.svg) **알려진 문제** 예약 메타데이터에 `object_id` 필드가 없어 `inventory_cleanup_reservations` cron 작업이 제대로 작동하지 않습니다. 이 문제는 [magento/inventory#3046](https://github.com/magento/inventory/pull/3046)에 도입되었습니다.
 
 **해결 방법:** 다음 MySQL 쿼리를 실행하여 예약을 수동으로 정리합니다.
 
@@ -204,15 +221,15 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ![문제 해결](../assets/fix.svg) 미납 주문, 대변 메모, 재고 보고서 그리드 부족, &quot;불일치 해결&quot; CLI 도구에 연결된 수정 사항 및 일반 개선 사항과 관련된 문제를 해결하기 위한 수정 사항입니다.
 
-![새로 만들기](../assets/new.svg) **비동기 재고 리인덱싱입니다.**&#x200B;에 비동기적으로 재인덱싱하는 기능이 추가되어 여러 중요한 시나리오의 성능이 향상되었습니다.
+![새로 만들기](../assets/new.svg) **비동기 재고 리인덱싱.** 비동기적으로 재색인화하는 기능이 추가되었으며 여러 중요한 시나리오의 성능이 향상되었습니다.
 
 ## 1.1.5
 
 [!DNL Inventory Management] 1.1.5(모듈 버전: `inventory-composer-metapackage = 1.1.5`)는 버전 2.3.5에서 지원되며 Adobe Commerce의 버전 2.3.4, 2.3.3, 2.3.2, 2.3.1 및 2.3.0과 호환되고, 클라우드 인프라의 Adobe Commerce 및 Magento Open Source 코드 베이스와 호환됩니다.
 
-![새로 만들기](../assets/new.svg) **제품 SKU가 변경되면 인벤토리를 업데이트합니다.** 새 동작: &quot;카탈로그와 동기화&quot;로 전환하기 위해 새 구성 설정을 도입했습니다.
+![새로 만들기](../assets/new.svg) **제품 SKU가 변경되면 인벤토리를 업데이트합니다.** 새 비헤이비어 &quot;카탈로그와 동기화&quot;로 전환하기 위한 새 구성 설정이 도입되었습니다.
 
-![새로 만들기](../assets/new.svg) **기능 테스트.** 테스트 검사 간격을 없애기 위해 새로운 기능 테스트를 도입했습니다. 몇 가지 문제를 해결하여 테스트를 보다 안정적이고 신뢰할 수 있도록 했습니다.)
+![새로 만들기](../assets/new.svg) **기능 테스트.** 테스트 범위 차이를 없애기 위해 새로운 기능 테스트를 도입했습니다. 몇 가지 문제를 해결하여 테스트를 보다 안정적이고 신뢰할 수 있도록 했습니다.)
 
 ![알려진 문제](../assets/bug.svg) 제품 오버셀링을 방지하기 위한 수정 사항, 상점의 &quot;재고 부족&quot; 제품 가시성, 확장 가능한 환경 지원 및 사용자 인터페이스 개선을 위한 다양한 수정 사항.
 
@@ -220,9 +237,9 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.4(모듈 버전: `inventory-composer-metapackage = 1.1.4`)는 버전 2.3.4에서 지원되며 Adobe Commerce의 버전 2.3.3, 2.3.2, 2.3.1 및 2.3.0과 호환되고, 클라우드 인프라의 Adobe Commerce 및 Magento Open Source 코드 베이스와 호환됩니다.
 
-![해결된 문제&#x200B;](../assets/fix.svg)**향상된 성능.** 메모리 사용을 줄이고 응답 없이 프로세스가 중단되는 경우를 방지하기 위해 Inventory Reservations CLI 명령에 번칭 논리를 도입했습니다.
+![해결된 문제&#x200B;](../assets/fix.svg)**향상된 성능** 메모리 사용을 줄이고 프로세스가 응답 없이 중단되는 경우를 방지하기 위해 인벤토리 예약 CLI 명령에 대한 번칭 논리를 도입했습니다.
 
-![새로 만들기&#x200B;](../assets/new.svg)**향상된 테스트 범위.**&#x200B;에서 새로운 기능 테스트를 많이 도입했습니다. 거의 모든 수동 인벤토리 시나리오는 자동화된 테스트로 다룹니다.
+![새로 만들기&#x200B;](../assets/new.svg)**테스트 범위가 늘어났습니다.** 새로운 기능 테스트가 많이 도입되었습니다. 거의 모든 수동 인벤토리 시나리오는 자동화된 테스트로 다룹니다.
 
 ![알려진 문제](../assets/bug.svg) 대변 메모, 그룹화된 제품, 원본 및 재고 대량 작업 관련 문제를 해결하기 위한 다양한 수정 사항이 있습니다.
 
@@ -230,15 +247,15 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.3(모듈 버전: `inventory-composer-metapackage = 1.1.3`)은 버전 2.3.3에서 지원되며 Adobe Commerce의 버전 2.3.2, 2.3.1, 2.3.0, 클라우드 인프라의 Adobe Commerce 및 Magento Open Source 코드 베이스와 호환됩니다.
 
-![해결된 문제&#x200B;](../assets/fix.svg)**Adobe Commerce 및 B2B 기능과의 통합 개선.** [!DNL Inventory Management]이(가) 기본이 아닌 인벤토리 원본 및 재고를 사용하는 웹 사이트에 대해 다음 기능을 올바르게 작동합니다.
+![해결된 문제&#x200B;](../assets/fix.svg)**Adobe Commerce 및 B2B 기능과의 통합 개선** 이제 [!DNL Inventory Management]이(가) 기본이 아닌 인벤토리 원본 및 재고를 사용하는 웹 사이트에 대해 다음 기능을 올바르게 작동합니다.
 
 - SKU별 주문(Adobe Commerce)
 - 빠른 주문(B2B)
 - 구매요청 목록(B2B)
 
-![새로 만들기&#x200B;](../assets/new.svg)**향상된 성능.** 기본 재고 및 원본을 실행하는 웹 사이트에 대해 상점 카탈로그 검색 성능이 향상되었습니다.
+![새로 만들기&#x200B;](../assets/new.svg)**향상된 성능.** 기본 재고 및 소스를 실행하는 웹 사이트에 대해 상점 카탈로그 검색 성능이 개선되었습니다.
 
-![새로 만들기&#x200B;](../assets/new.svg)**향상된 테스트 범위.** 자동화된 기능 및 통합 테스트 범위가 크게 증가했습니다.
+![새로 만들기&#x200B;](../assets/new.svg)**테스트 범위가 늘어났습니다.** 자동화된 기능 및 통합 테스트 범위가 크게 증가했습니다.
 
 ## 1.1.2
 

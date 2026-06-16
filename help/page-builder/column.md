@@ -3,9 +3,25 @@ title: 레이아웃 - 열
 description: ' [!DNL Page Builder] 스테이지에서 페이지를 여러 열로 나누는 데 사용되는 열 콘텐츠 형식에 대해 알아봅니다.'
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/C1KAlwqUH08pZeWxYIK5US61woaInIrLn0PGdSuIaBQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: 1576
 ht-degree: 0%
 
 ---
@@ -44,7 +60,7 @@ _Column_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.
 
 ## 열 그리드
 
-[grid](workspace.md)을(를) 사용하면 콘텐츠가 열에서 일관되게 정렬되고 데스크톱 및 모바일 장치에서 페이지가 올바르게 렌더링됩니다. 자세한 내용은 [&#x200B; 구성의 &#x200B;](setup.md)고급 콘텐츠 도구[!DNL Page Builder] 섹션을 참조하십시오.
+[grid](workspace.md)을(를) 사용하면 콘텐츠가 열에서 일관되게 정렬되고 데스크톱 및 모바일 장치에서 페이지가 올바르게 렌더링됩니다. 자세한 내용은 [!DNL Page Builder] 구성의 [고급 콘텐츠 도구](setup.md) 섹션을 참조하십시오.
 
 ![한 열이 있는 행의 눈금 나누기](./assets/pb-layout-column-one-grid.png){width="500" zoomable="yes"}
 
@@ -54,7 +70,7 @@ _Column_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.
 
 ## 열 추가
 
-1. [!DNL Page Builder] 아래의 _[!UICONTROL Layout]_&#x200B;패널에서&#x200B;**[!UICONTROL Column]**&#x200B;을(를) 스테이지로 드래그합니다.
+1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Column]**&#x200B;을(를) 스테이지로 드래그합니다.
 
    ![열을 스테이지로 드래그](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -64,7 +80,7 @@ _Column_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.
 
 1. 열 그룹의 왼쪽 상단 모서리에서 _Grid_ 도구(![Grid 컨트롤](./assets/pb-icon-grid-control.png))를 클릭하고 필요에 따라 눈금 크기를 조정합니다.
 
-   격자에 컨텐츠를 배치하면 컨텐츠를 일관되게 정렬하고 데스크탑 및 모바일 장치에서 페이지를 올바르게 렌더링하는 데 도움이 됩니다. 자세한 내용은 [&#x200B; 구성의 &#x200B;](../configuration-reference/general/content-management.md)고급 콘텐츠 도구[!DNL Page Builder] 섹션을 참조하십시오.
+   격자에 컨텐츠를 배치하면 컨텐츠를 일관되게 정렬하고 데스크탑 및 모바일 장치에서 페이지를 올바르게 렌더링하는 데 도움이 됩니다. 자세한 내용은 [!DNL Page Builder] 구성의 [고급 콘텐츠 도구](../configuration-reference/general/content-management.md) 섹션을 참조하십시오.
 
    ![두 열의 눈금 나누기](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
 

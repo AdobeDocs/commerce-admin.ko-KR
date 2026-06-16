@@ -3,9 +3,24 @@ title: 위시리스트
 description: 위시리스트와 쇼핑 경험에 추가하고 더 많은 판매를 촉진하는 방법에 대해 알아보십시오.
 exl-id: 42c73566-0e32-4639-9fa2-d504fa161ebc
 feature: Customers, Storefront
-source-git-commit: 9fd909c5ae6d8641bf402456d94facda4a33722d
+TQID: https://experienceleague.adobe.com/neTWJnIbZcaAAMQiX-SV82fTyvOGEeNLhBfxDUh4Ulk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: 395
 ht-degree: 0%
 
 ---
@@ -16,7 +31,7 @@ ht-degree: 0%
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce은 고객 계정당 여러 개의 위시리스트 사용을 지원합니다.
 
-![Magento Open Source](../assets/open-source.svg) Magento Open Source은 고객 계정당 하나의 위시리스트 사용을 지원합니다.
+![Magento Open Source](../assets/open-source.svg) Magento Open Source에서는 고객 계정당 하나의 위시리스트 사용을 지원합니다.
 
 공유 위시 목록은 스토어 이메일 주소에서 전송되지만, 메시지 본문에는 고객의 개인화된 메모가 포함됩니다. 위시리스트를 공유할 때 사용되는 이메일 템플릿을 사용자 정의하고 발신자로 표시되는 스토어 연락처를 선택할 수 있습니다.
 

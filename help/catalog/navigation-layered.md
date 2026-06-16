@@ -3,10 +3,28 @@ title: 계층화된 탐색
 description: 계층화된 탐색을 통해 구매자가 범주, 가격 범위 또는 기타 사용 가능한 속성에 따라 제품을 쉽게 찾을 수 있는 방법에 대해 알아봅니다.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 687169e4333d60eb1b876e24e6855fbb59fb598f
+TQID: https://experienceleague.adobe.com/6mwLiMtF8wB65C5ORHGLw4sZOuinIr91ChBul0Gfc-o
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 0%
+source-wordcount: 1409
+ht-degree: 2%
 
 ---
 
@@ -26,7 +44,7 @@ ht-degree: 0%
 >
 >이 항목에서 설명하는 필터링 가능한 특성 요구 사항은 [Live Search](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)와 다릅니다. 자세한 내용은 [패싯](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/facets/facets)을 참조하세요.
 
-계층화된 탐색을 사용하여 범주별 또는 속성별로 제품을 검색할 수 있습니다. 예를 들어, 쇼핑객이 위쪽 탐색에서 남성/단편 범주를 선택하면 초기 결과에 해당 범주의 모든 제품이 포함됩니다. 특정 스타일, 기후, 색상, 재질, 패턴, 가격(또는 값의 조합)을 선택하여 목록을 추가로 필터링할 수 있습니다. 필터링 가능한 속성은 각 속성 값을 나열하는 확장 섹션에 표시됩니다. 옵션으로 일치하는 결과가 있는 제품 목록을 구성하여 일치하는 제품이 있거나 없는 제품을 포함할 수 있습니다.
+계층화된 탐색을 사용하여 범주별 또는 속성별로 제품을 검색할 수 있습니다. 예를 들어, 쇼핑객이 상단 탐색에서 남성/Shorts 범주를 선택하면 초기 결과에는 해당 범주의 모든 제품이 포함됩니다. 특정 스타일, 기후, 색상, 재질, 패턴, 가격(또는 값의 조합)을 선택하여 목록을 추가로 필터링할 수 있습니다. 필터링 가능한 속성은 각 속성 값을 나열하는 확장 섹션에 표시됩니다. 옵션으로 일치하는 결과가 있는 제품 목록을 구성하여 일치하는 제품이 있거나 없는 제품을 포함할 수 있습니다.
 
 제품 입력 유형과 결합된 속성 속성은 계층화된 탐색에 사용할 수 있는 속성을 결정합니다. 계층화된 탐색은 [_앵커_](categories-display-settings.md) 범주에 대해서만 사용할 수 있지만 검색 결과 페이지에 추가할 수도 있습니다. 각 특성의 **저장소 소유자** 속성에 대한 카탈로그 입력 형식은 `Yes/No`, `Dropdown`, `Multiple Select` 또는 `Price`(으)로 설정해야 합니다. 특성을 필터링할 수 있게 하려면 각 특성의 **계층화된 탐색에서 사용** 속성을 `Filterable (with results)` 또는 `Filterable (no results)` 중 하나로 설정해야 합니다.
 
@@ -72,7 +90,7 @@ _예: 결과 없이 표시된 필터링 가능한 견본 값_
 
 1. 카테고리 트리에서 레이어 탐색을 사용할 카테고리를 선택합니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Display Settings]**&#x200B;을(를) 확장하고 **[!UICONTROL Anchor]**&#x200B;을(를) `Yes`(으)로 설정합니다.
+1. **[!UICONTROL Display Settings]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)을(를) 확장하고 **[!UICONTROL Anchor]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
    ![범주 표시 설정](./assets/category-layered-navigation-anchor.png){width="600" zoomable="yes"}
 
@@ -132,15 +150,15 @@ _예: 결과 없이 표시된 필터링 가능한 견본 값_
 
 | 단계별 가격 10 | 100씩 단계적으로 가격 |
 |----------|--------|
-| US$20.00 - US$29.99 (1) | US$0.00 - $99.99 (4) |
-| US$30.00 - US$39.99 (2) | 100달러 - 199.99달러(5) |
-| US$70.00 - US$79.99 (1) | US$400.00 - US$499.99 (2) |
-| US$100.00 - US$109.99 (1) | 700.00달러 이상(1) |
-| US$120.00 - US$129.99 (2) |   |
-| US$150.00 - US$159.99 (1) |   |
-| US$180.00 - US$189.99 (1) |   |
-| US$420.00 - US$429.99 (1) |   |
-| US$440.00 - US$449.99 (1) |   |
+| $20.00 - $29.99 (1) | $0.00 - $99.99 (4) |
+| $30.00 - $39.99 (2) | $100 - $199.99 (5) |
+| $70.00 - $79.99 (1) | $400.00 - $499.99 (2) |
+| $100.00 - $109.99 (1) | 700.00달러 이상(1) |
+| $120.00 - $129.99 (2) |   |
+| $150.00 - $159.99 (1) |   |
+| $180.00 - $189.99 (1) |   |
+| $420.00 - $429.99 (1) |   |
+| $440.00 - $449.99 (1) |   |
 | 710.00달러 이상(1) |   |
 
 {style="table-layout:auto"}
@@ -155,13 +173,13 @@ _예: 결과 없이 표시된 필터링 가능한 견본 값_
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Catalog]**&#x200B;을(를) 선택합니다.
 
-1. ![계층화된 탐색](../assets/icon-display-expand.png) 섹션에서 _확장 선택기_&#x200B;를 확장합니다.
+1. _계층화된 탐색_ 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    기본적으로 **[!UICONTROL Display Product Count]**&#x200B;은(는) `Yes`(으)로 설정됩니다. 필요한 경우 **[!UICONTROL Use system value]** 확인란의 선택을 취소하여 이 설정을 변경합니다.
 
    ![계층화된 탐색](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
 
-   이러한 구성 옵션의 자세한 목록을 보려면 [구성 참조](../configuration-reference/catalog/catalog.md#layered-navigation)에서 _계층화된 탐색_&#x200B;을 참조하십시오.
+   이러한 구성 옵션의 자세한 목록을 보려면 _구성 참조_&#x200B;에서 [계층화된 탐색](../configuration-reference/catalog/catalog.md#layered-navigation)을 참조하십시오.
 
 1. 다음 섹션의 메서드 중 하나에 대해 **[!UICONTROL Price Navigation Steps Calculation]**&#x200B;을(를) 설정하십시오.
 

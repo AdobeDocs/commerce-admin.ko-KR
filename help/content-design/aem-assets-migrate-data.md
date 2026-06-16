@@ -2,9 +2,25 @@
 title: 미디어 파일을 AEM으로 마이그레이션
 description: Adobe Commerce 또는 외부 소스에서 AEM Assets DAM으로 미디어 파일을 마이그레이션합니다.
 feature: CMS, Media, Integration
-source-git-commit: 094c585b335e5751a1387989d5ba33332c351c57
+exl-id: fead5732-b014-4cd3-a776-98a055a696ab
+TQID: https://experienceleague.adobe.com/2eqYvVrxPO-yFYKtRPUExzxPPxXUy1v9KhR4LYjIBZY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: 892
 ht-degree: 0%
 
 ---
@@ -15,11 +31,11 @@ Adobe Commerce과 Adobe Experience Manager(AEM) 모두 Commerce에서 AEM Assets
 
 ## 사전 요구 사항
 
-| 범주 | 요구 사항 |
+| 카테고리 | 요구 사항 |
 |----------|-------------|
 | **시스템 요구 사항** | <ul><li>AEM Assets으로 프로비저닝된 AEM as a Cloud Service 환경</li><li>충분한 스토리지 용량</li><li>대용량 파일 전송을 위한 네트워크 대역폭</li></ul> |
 | **필요한 액세스 및 권한** | <ul><li>AEM Assets as a Cloud Service에 대한 관리자 액세스</li><li>미디어 파일이 저장된 소스 시스템(Adobe Commerce 또는 외부 시스템)에 액세스</li><li>클라우드 스토리지 서비스에 액세스할 수 있는 적절한 권한</li></ul> |
-| **클라우드 저장소 계정** | <ul><li>AWS S3 또는 Azure Blob 스토리지 계정</li><li>비공개 컨테이너/버킷 구성</li><li>인증 자격 증명</li></ul> |
+| **클라우드 저장소 계정** | <ul><li>AWS S3 또는 Azure Blob 저장소 계정</li><li>비공개 컨테이너/버킷 구성</li><li>인증 자격 증명</li></ul> |
 | **Source 컨텐츠** | <ul><li>마이그레이션할 준비가 된 미디어 파일 구성</li><li>AEM Assets에서 지원하는 <a href="https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/file-format-support#image-formats">형식의 이미지 및 비디오 파일</a>.</li><li>중복 제거된 자산 정리</li></li> |
 | **메타데이터 준비** | <ul><li><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-configure-aem">Commerce 자산에 대해 구성된 AEM Assets 메타데이터 프로필</a></li><li>각 자산에 대해 매핑된 메타데이터 값</li><li>CSV 파일 편집기(예: Microsoft Excel)</li></ul> |
 
@@ -56,7 +72,7 @@ CSV 형식의 메타데이터 매핑 파일을 만들고 미디어 파일이 포
 | assetPath | AEM Assets 저장소에 에셋이 저장되는 전체 경로입니다.<br><br>경로를 사용하여 Commerce 자산을 구성할 하위 폴더를 만드십시오. 예: `content/dam/commerce/<brand>/<type>` | `/content/dam/commerce/<sub-folder>/..<filename>` |
 | dc:title | AEM Assets 에셋의 표시 제목 | 문자열 값(예: `Sample 1`) |
 | dam:status | AEM Assets 에셋의 승인 상태 | `approved` |
-| commerce:position | 제품 갤러리에서 에셋의 위치/순서 | 숫자 값(예: &quot;1&quot;) |
+| commerce:positions | 제품 갤러리에서 에셋의 위치/순서 | 숫자 값(예: &quot;1&quot;) |
 | commerce:isCommerce | 자산이 상거래에 사용되는지 보여 주는 플래그 | `Yes` |
 | commerce:skus | 이 자산과 연결된 제품 SKU | 문자열 값(예: `sample1`) |
 | commerce:roles | 에셋의 역할 또는 이미지 유형(예: `thumbnail`, `main image`, `swatch`) | 세미콜론으로 구분된 여러 값(예: &quot;thumbnail; image; swatch_image; small_image&quot;) |
@@ -107,5 +123,4 @@ assetPath,dc:title{{String}},dam:status{{String}},commerce:positions{{String: mu
 >
 >[일괄 가져오기 도구 비디오 데모](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
 >[팁, 모범 사례 및 제한 사항](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
->[API](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)을(를) 사용하여 에셋 업로드 또는 수집
-
+>[API를 사용하여 에셋 업로드 또는 수집](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)

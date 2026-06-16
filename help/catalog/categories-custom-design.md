@@ -3,9 +3,27 @@ title: 카테고리 - 디자인 설정
 description: '[!UICONTROL Design] 설정을 사용하여 범주의 모양과 느낌, 연결된 모든 제품 페이지 및 페이지 레이아웃을 정의하는 방법에 대해 알아봅니다.'
 exl-id: 6dc216ac-1c52-4196-9c93-e5cad19901b5
 feature: Catalog Management, Categories, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/cRTRPl-UTfAKXY8rmtVKlnAZooVWpTCjSkVSdNHXp28
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 379
 ht-degree: 0%
 
 ---
@@ -24,7 +42,7 @@ _[!UICONTROL Design]_&#x200B;섹션을 통해 범주의 모양과 느낌, 연결
 |--- |--- |
 | [!UICONTROL Use Parent Category Settings] | 현재 범주가 상위 범주에서 디자인 설정을 상속하도록 허용합니다. 이 필드를 사용하면 디자인 섹션의 다른 모든 필드를 사용할 수 없게 됩니다. 옵션: `Yes` / ` No` |
 | [!UICONTROL Theme] | 사용자 지정 테마를 범주에 적용합니다. |
-| [!UICONTROL Layout] | 카테고리 페이지에 다른 레이아웃을 적용합니다. 옵션: <br/>**[!UICONTROL No layout updates]**- 기본적으로 범주 페이지에는 레이아웃 업데이트를 사용할 수 없습니다.<br/>**[!UICONTROL Empty]** - 고유한 페이지 레이아웃을 정의하는 데 사용합니다. (XML에 대한 이해가 필요합니다.) <br/>**[!UICONTROL 1 column]**- 1열 레이아웃을 범주 페이지에 적용합니다.<br/>**[!UICONTROL 2 columns with left bar]** - 왼쪽 사이드바가 있는 2열 레이아웃을 범주 페이지에 적용합니다. <br/>**[!UICONTROL 2 columns with right bar]**- 오른쪽 사이드바가 있는 2열 레이아웃을 범주 페이지에 적용합니다.<br/>**[!UICONTROL 3 columns]** - 범주 페이지에 3열 레이아웃을 적용합니다.<br/>**[!UICONTROL Page -- Full Width]**- ([페이지 빌더](../page-builder/introduction.md) 필요) CMS 페이지의 전체 너비 레이아웃을 범주 페이지에 적용합니다.<br/>**[!UICONTROL Category -- Full Width]** - (페이지 빌더 필요) 범주 페이지에 대한 전체 너비 레이아웃을 범주 페이지에 적용합니다. <br/>**[!UICONTROL Product -- Full Width]**- (Page Builder 필요) 제품 페이지의 전체 너비 레이아웃을 범주 페이지에 적용합니다. |
+| [!UICONTROL Layout] | 카테고리 페이지에 다른 레이아웃을 적용합니다. 옵션: <br/>**[!UICONTROL No layout updates]**- 기본적으로 범주 페이지에는 레이아웃 업데이트를 사용할 수 없습니다.<br/>**[!UICONTROL Empty]** - 고유한 페이지 레이아웃을 정의하는 데 사용합니다. (XML을 이해해야 합니다.) <br/>**[!UICONTROL 1 column]**- 범주 페이지에 1열 레이아웃을 적용합니다.<br/>**[!UICONTROL 2 columns with left bar]** - 왼쪽 사이드바가 있는 2열 레이아웃을 범주 페이지에 적용합니다. <br/>**[!UICONTROL 2 columns with right bar]**- 오른쪽 사이드바가 있는 2열 레이아웃을 범주 페이지에 적용합니다.<br/>**[!UICONTROL 3 columns]** - 3열 레이아웃을 범주 페이지에 적용합니다.<br/>**[!UICONTROL Page -- Full Width]**- ([페이지 빌더](../page-builder/introduction.md) 필요) CMS 페이지의 전체 너비 레이아웃을 범주 페이지에 적용합니다.<br/>**[!UICONTROL Category -- Full Width]** - (페이지 빌더 필요) 범주 페이지에 대한 전체 너비 레이아웃을 범주 페이지에 적용합니다. <br/>**[!UICONTROL Product -- Full Width]**- (페이지 빌더 필요) 제품 페이지의 전체 너비 레이아웃을 범주 페이지에 적용합니다. |
 | [!UICONTROL Custom Layout Update] | 서버에서 사용 가능한 사용자 지정 레이아웃 업데이트 파일을 나열합니다. 범주에 적용할 사용자 정의 레이아웃 업데이트를 선택합니다. |
 | [!UICONTROL Apply Design to Products] | 선택하면 카테고리의 모든 제품에 사용자 지정 설정이 적용됩니다. |
 

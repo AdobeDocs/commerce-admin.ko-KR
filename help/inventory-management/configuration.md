@@ -3,9 +3,25 @@ title: ' [!DNL Inventory Management] 구성'
 description: 소스 가용성, 상점 제품 및 주문 선적을 결정하는  [!DNL Inventory Management] 옵션 구성에 대해 알아봅니다.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
+TQID: https://experienceleague.adobe.com/3ay4K29pe2WkzYT-A5NXh83sHRvd5YJ8aoVqusrbZeE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -34,12 +50,12 @@ ht-degree: 0%
 |--|--|
 | [!UICONTROL Manage Stock] | [!DNL Commerce]에서 모든 인벤토리를 관리할 수 있습니다. 이 제품이나 [!DNL Commerce]의 모든 제품에 대해 재고 관리가 사용되는지 여부를 설정합니다. `Yes`(으)로 설정된 경우 더 많은 옵션을 표시합니다. |
 | [!UICONTROL Only X left Threshold] | 구매 가능한 특정 금액이 남아 있는 경우 알릴 수량을 설정합니다. 이 금액은 재고 수준에서 추적됩니다. |
-| [!UICONTROL Out-of-Stock Threshold] | 안전 재고, 재고 부족 알림을 트리거하고 재고 부족 위험을 완화하는 수량입니다. 이 값은 미납주문에 영향을 줍니다. 옵션:<br />**[!UICONTROL No Backorders]**: 제품이 품절되었을 때 미납주문을 허용하지 않습니다.<br />**[!UICONTROL Allow Qty Below 0]**: 수량이 0보다 작을 때 미납주문을 허용합니다.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: 수량이 영(0) 아래로 떨어지면 미납 주문을 수락하지만, 주문을 계속 할 수 있음을 고객에게 알립니다.<br /><br />**[!UICONTROL Backorders disabled]**: 5 또는 25와 같이 0보다 큰 양수 값을 입력하는 것이 좋습니다. <br/>**[!UICONTROL Backorders enabled]**: -5 또는 -25와 같이 허용되는 미납 주문의 최대 수량에 대한 음수 임계값을 입력하십시오. 값이 0이면 무한 스톡으로 작동합니다. 양의 값은 무시되고 0으로 처리됩니다. |
+| [!UICONTROL Out-of-Stock Threshold] | 안전 재고, 재고 부족 알림을 트리거하고 재고 부족 위험을 완화하는 수량입니다. 이 값은 미납주문에 영향을 줍니다. 옵션:<br />**[!UICONTROL No Backorders]**: 제품이 품절되었을 때 미납주문을 수락하지 않습니다.<br />**[!UICONTROL Allow Qty Below 0]**: 수량이 영(0) 아래로 떨어지면 미납주문을 수락합니다.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: 수량이 영(0) 아래로 떨어지면 미납주문을 수락하지만 주문을 계속 할 수 있음을 고객에게 알립니다.<br /><br />**[!UICONTROL Backorders disabled]**: 5 또는 25와 같이 0보다 큰 양수 값을 입력하는 것이 좋습니다. <br/>**[!UICONTROL Backorders enabled]**: -5 또는 -25와 같이 허용되는 미납 주문의 최대 수량에 대한 음수 임계값을 입력하십시오. 값이 0이면 무한 스톡으로 작동합니다. 양의 값은 무시되고 0으로 처리됩니다. |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | 단일 주문으로 구매할 수 있는 제품의 최소 수량을 설정합니다. |
 | [!UICONTROL Maximum Qty Allowed in Shopping Cart] | 단일 주문으로 구매할 수 있는 제품의 최대 수량을 설정합니다. |
 | [!UICONTROL Qty Uses Decimals] | 제품 수량에 대해 정수가 아닌 십진수를 허용합니다. 이 설정은 중량, 부피 또는 길이로 판매되는 제품에 유용합니다. Source 수준에 지정되며 지정된 소스에 따라 재고 수준에서 계산됩니다. |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | 제품의 부품을 별도로 배송할 수 있는지 여부를 결정합니다. 이 옵션은 **[!UICONTROL Qty Uses Decimals]** = `Yes`일 때 표시됩니다. |
-| [!UICONTROL Backorders] | 미납주문 허용 여부를 나타냅니다. Source 수준에 지정되며 지정된 소스에 따라 재고 수준에서 계산됩니다. 미납주문을 허용하도록 설정된 경우, 재고 부족 임계값에 대해 음수 값을 설정하는 것이 좋습니다([미납주문 구성](backorders.md) 참조). 옵션:<br />**[!UICONTROL No Backorders]**: 제품이 품절되었을 때 미납주문을 허용하지 않습니다.<br />**[!UICONTROL Allow Qty Below 0]**: 수량이 0보다 작을 때 미납주문을 허용합니다.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: 수량이 영(0) 아래로 떨어지면 미납 주문을 수락하지만, 주문을 계속 할 수 있음을 고객에게 알립니다. |
+| [!UICONTROL Backorders] | 미납주문 허용 여부를 나타냅니다. Source 수준에 지정되며 지정된 소스에 따라 재고 수준에서 계산됩니다. 미납주문을 허용하도록 설정된 경우, 재고 부족 임계값에 대해 음수 값을 설정하는 것이 좋습니다([미납주문 구성](backorders.md) 참조). 옵션:<br />**[!UICONTROL No Backorders]**: 제품이 품절되었을 때 미납주문을 수락하지 않습니다.<br />**[!UICONTROL Allow Qty Below 0]**: 수량이 영(0) 아래로 떨어지면 미납주문을 수락합니다.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: 수량이 영(0) 아래로 떨어지면 미납주문을 수락하지만 주문을 계속 할 수 있음을 고객에게 알립니다. |
 | [!UICONTROL Notify for Quantity Below] | 재고 부족을 경고하는 미달 수량 통지를 트리거하는 수량을 설정합니다. 이 금액은 재고 수량이 아니라 판매 수량에 따라 차감됩니다. |
 | [!UICONTROL Enable Qty Increments] | 제품이 수량 단위로 판매될 수 있는지 여부를 결정합니다. 활성화된 경우 증분 단계에서 구매해야 하는 제품의 수량을 입력합니다. 증분 은 단일 제품으로 구매해야 하는 제품 항목 수를 구성, 그룹화 및 번들 제품의 하위 항목으로 설정합니다. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management]은(는) 이 값을 사용하지 않습니다. 반품 또는 대변 메모를 완료하면 제품 수량이 영향을 받는 출처 수량으로 자동 반환됩니다. [제품 옵션 구성](product-options.md)을 참조하세요. |
@@ -58,6 +74,6 @@ ht-degree: 0%
 
 예를 들어 다음과 유사한 구성을 사용하여 스토어에서 미납 주문을 다르게 구성할 수 있습니다.
 
-- _전체:_ 스토어에 대해 미납주문을 사용하도록 설정하고, 재고 부족 임계값을 `-50`(으)로 설정합니다.
+- _Globally :_스토어에 대한 미납 주문을 활성화하고 재고 부족 임계값을 `-50`(으)로 설정합니다.
 
-- _제품:_ 특정 제품에 대한 미납주문을 사용하지 않도록 설정하고, 재고 부족 임계값을 `10`(으)로 설정합니다.
+- _Product :_특정 제품에 대해 미납 주문을 사용하지 않도록 설정하고, 재고 부족 임계값을 `10`(으)로 설정합니다.

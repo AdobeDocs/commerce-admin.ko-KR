@@ -3,9 +3,24 @@ title: 장바구니 관리
 description: 관리자로부터 직접 고객 장바구니를 지원하는 방법을 알아봅니다.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: 69cd571b66a81159c2c99e6652907f22142568cb
+TQID: https://experienceleague.adobe.com/6kRS38XXT2krhGWypaXChWpBdtvfLupBJX2k6cE4y6w
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: 746
 ht-degree: 0%
 
 ---
@@ -65,7 +80,7 @@ ht-degree: 0%
 
 ## 속성별로 장바구니에 제품 추가
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Products]**&#x200B;를 확장합니다.
+1. **[!UICONTROL Products]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. 각 열의 맨 위에 있는 필터를 사용하여 제품을 찾습니다.
 
@@ -113,7 +128,7 @@ ht-degree: 0%
 
 ## SKU별 제품 추가
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Add to Shopping Cart by SKU]**&#x200B;를 확장합니다.
+1. **[!UICONTROL Add to Shopping Cart by SKU]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. **[!UICONTROL SKU]**&#x200B;에서 개별적으로 제품을 추가하거나 CSV 파일을 업로드하여 제품을 추가하십시오.
 

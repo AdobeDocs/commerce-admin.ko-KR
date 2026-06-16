@@ -3,9 +3,25 @@ title: 미디어 - 맵
 description: ' [!DNL Google Maps] Platform에서  [!DNL Page Builder] Stage로 맵을 추가하는 데 사용되는 맵 콘텐츠 유형에 대해 알아봅니다.'
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/0Q0wGtAK-MYI949ELjgcM2Omg2ASHCtlJ2T-so1Uoms
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: 1604
 ht-degree: 0%
 
 ---
@@ -50,7 +66,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼](https://cl
 
 ## 책임자에 대해 [!DNL Google Maps] 구성
 
-맵을 추가하기 전에 먼저 [&#x200B; 플랫폼의 무료 평가판을 위해 &#x200B;](https://cloud.google.com/maps-platform/user-guide/)계정[!DNL Google Maps]을(를) 열어야 합니다. 무료 체험은 12개월 동안 지속되며 300달러의 크레딧이 포함됩니다. 크레딧을 소진하면 Google에서 귀하의 허가 없이 귀하의 계정에 청구하지 않습니다.
+맵을 추가하기 전에 먼저 [!DNL Google Maps] 플랫폼의 무료 평가판을 위해 [계정](https://cloud.google.com/maps-platform/user-guide/)을(를) 열어야 합니다. 무료 체험은 12개월 동안 지속되며 300달러의 크레딧이 포함됩니다. 크레딧을 소진하면 Google에서 귀하의 허가 없이 귀하의 계정에 청구하지 않습니다.
 
 ### 1단계: [!DNL Google Maps] API 키 가져오기
 
@@ -60,11 +76,11 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼](https://cl
 
 1. 프로젝트 드롭다운을 클릭하고 API 키를 추가할 프로젝트를 선택하거나 만듭니다.
 
-1. API 자격 증명을 구성하려면 [&#x200B; 설명서의 &#x200B;](https://developers.google.com/maps/documentation/javascript/get-api-key)지침[!DNL Google Maps]을(를) 따르십시오.
+1. API 자격 증명을 구성하려면 [!DNL Google Maps] 설명서의 [지침](https://developers.google.com/maps/documentation/javascript/get-api-key)을(를) 따르십시오.
 
 1. API 키를 클립보드에 복사합니다.
 
-### 2단계: [!DNL Google Maps]에서 [!DNL Commerce] 구성
+### 2단계: [!DNL Commerce]에서 [!DNL Google Maps] 구성
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
@@ -262,7 +278,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼](https://cl
 
 ### 격자 크기 변경
 
-눈금 크기는 [&#x200B; 단계의 &#x200B;](column.md)열[!DNL Page Builder]과(와) 관련된 맵의 크기를 결정합니다. 기본적으로 맵은 너비가 12열이며 최대 16열입니다.
+눈금 크기는 [!DNL Page Builder] 단계의 [열](column.md)과(와) 관련된 맵의 크기를 결정합니다. 기본적으로 맵은 너비가 12열이며 최대 16열입니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 

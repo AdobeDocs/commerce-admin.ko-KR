@@ -3,9 +3,24 @@ title: 장바구니 가격 규칙
 description: 일련의 조건을 기반으로 장바구니의 항목에 할인을 적용하는 장바구니 가격 규칙에 대해 알아봅니다.
 exl-id: f3038f2a-9d34-4696-a39e-f87fbb1294a2
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/i3G3iGuomU0cjy3aX9eynyzAtpCgQxeEFAyRUdUUu44
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: 451
 ht-degree: 0%
 
 ---
@@ -34,7 +49,7 @@ ht-degree: 0%
 
    - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **[!UICONTROL Edit]**&#x200B;을(를) 클릭하여 규칙 정보 페이지를 표시합니다.
 
-   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 목록에서 규칙을 클릭하여 규칙 정보 페이지를 표시합니다.
+   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 목록에서 규칙을 클릭하여 규칙 정보 페이지를 표시합니다.
 
    여기에서 규칙 설정을 변경할 수 있습니다(규칙 생성과 유사).
 
@@ -49,8 +64,8 @@ ht-degree: 0%
 | [!UICONTROL Status] | 이 옵션을 사용하여 규칙 상태(`Active` 또는 `Inactive`)를 기준으로 목록을 필터링합니다. |
 | [!UICONTROL Web Site] | 이 옵션을 사용하여 규칙에 정의된 웹 사이트를 기준으로 목록을 필터링합니다. |
 | [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **[!UICONTROL Edit]**&#x200B;을(를) 클릭하여 _[!UICONTROL Rule Information]_&#x200B;페이지를 표시하고 규칙 설정을 업데이트합니다(규칙을 만드는 것과 유사). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 규칙을 만들 때 정의된 규칙의 시작 날짜를 기준으로 목록을 필터링하려면 동적 일정 필드(_[!UICONTROL To:]_&#x200B;및&#x200B;_[!UICONTROL From:]_)를 사용합니다. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 규칙을 만들 때 정의된 규칙의 종료 날짜를 기준으로 목록을 필터링하려면 동적 일정 필드(_[!UICONTROL To:]_&#x200B;및&#x200B;_[!UICONTROL From:]_)를 사용합니다. |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 동적 일정 필드(_[!UICONTROL To:]_&#x200B;및_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 시작 날짜를 기준으로 목록을 필터링합니다. |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 동적 일정 필드(_[!UICONTROL To:]_&#x200B;및_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 종료 날짜를 기준으로 목록을 필터링합니다. |
 
 {style="table-layout:auto"}
 

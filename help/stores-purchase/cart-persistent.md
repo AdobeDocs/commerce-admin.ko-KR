@@ -3,9 +3,22 @@ title: 장바구니 지속성
 description: 지속적인 장바구니가 구매되지 않은 장바구니 항목을 추적하고 고객의 다음 방문을 위해 정보를 저장하는 방법에 대해 알아봅니다.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/CZFFzI8KEfpQQAEHB46wW6Bk4BK-4zbdkvZ9h9nROr0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: 1050
 ht-degree: 0%
 
 ---
@@ -28,7 +41,7 @@ ht-degree: 0%
 
 영구 장바구니가 [사용](#configure-a-persistent-cart)인 경우 워크플로는 다음에 따라 달라집니다.
 
-- _[!UICONTROL Enable Remember Me]_&#x200B;및&#x200B;_[!UICONTROL Clear Persistence on Log Out]_ 설정의 값
+- _[!UICONTROL Enable Remember Me]_&#x200B;및_[!UICONTROL Clear Persistence on Log Out]_ 설정의 값
 - 고객이 _[!UICONTROL Remember Me]_&#x200B;확인란을 선택 또는 선택 취소하기로 결정함
 - 영구 쿠키가 지워지면
 
@@ -58,8 +71,8 @@ ht-degree: 0%
 {style="table-layout:auto"}
 
 ![고객 로그인 정보 저장](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
-![내 인증 기억 팝업](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
-![체크아웃 로그인 정보 저장](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
+![내 정보 저장 인증 팝업](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
+![내 로그인 정보 저장](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### 로그아웃 시 지속성 지우기 비헤이비어
 

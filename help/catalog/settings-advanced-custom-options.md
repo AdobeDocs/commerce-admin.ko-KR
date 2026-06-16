@@ -3,9 +3,24 @@ title: 제품 설정 - [!UICONTROL Customizable Options]
 description: 제품의 경우 [!UICONTROL Customizable Options] 설정을 통해 텍스트, 선택 및 날짜 입력 유형을 포함한 옵션을 선택할 수 있습니다.
 exl-id: 7d23c5c5-2b2a-4f2a-b843-9c27b851be5f
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/O5ny4IROYKpKBckgsh7jcjO2qp45Ey9l0t4Fmq1IFBI
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: 821
 ht-degree: 0%
 
 ---
@@ -88,9 +103,9 @@ ht-degree: 0%
 
 | 유형 | 설명 |
 |---------------------|---------------|
-| [!UICONTROL Text] | 고객이 필요한 정보를 입력할 수 있는 입력 라인 또는 텍스트 상자. 옵션:<br />**[!UICONTROL Field]**- 텍스트를 위한 한 줄 입력 필드입니다.<br />**[!UICONTROL Area]** - 여러 줄 입력 필드입니다. 이 유형은 HTML과 같은 고급 서식을 지원하지 않습니다. 최대 문자 를 사용하여 입력할 수 있는 텍스트 길이를 제한하고 관리자에서 입력한 텍스트가 올바르게 표시되는지 확인합니다. |
+| [!UICONTROL Text] | 고객이 필요한 정보를 입력할 수 있는 입력 라인 또는 텍스트 상자. 옵션:<br />**[!UICONTROL Field]**- 텍스트에 대한 한 줄 입력 필드입니다.<br />**[!UICONTROL Area]** - 여러 줄 입력 필드. 이 유형은 HTML과 같은 고급 서식을 지원하지 않습니다. 최대 문자 를 사용하여 입력할 수 있는 텍스트 길이를 제한하고 관리자에서 입력한 텍스트가 올바르게 표시되는지 확인합니다. |
 | [!UICONTROL File] | 고객이 파일을 업로드할 수 있습니다. |
-| [!UICONTROL Select] | 고객이 사용한 입력 유형에 따라 단일 옵션 또는 여러 옵션을 선택할 수 있습니다. 옵션:<br />**[!UICONTROL Drop-down]**- 하나의 선택 항목만 허용하는 옵션의 드롭다운 목록입니다.<br />**[!UICONTROL Radio Buttons]** - 하나의 선택 항목만 허용하는 옵션 집합입니다.<br />**[!UICONTROL Checkbox]**- 확인란은 예/아니요 옵션의 변형입니다. 제품에 확인란이 두 개 이상 있는 경우 여러 항목을 선택할 수 있습니다.<br />**[!UICONTROL Multiple Select]** - 여러 항목을 선택할 수 있는 옵션의 드롭다운 목록 상자입니다. 여러 옵션을 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 옵션을 클릭합니다. |
-| [!UICONTROL Date] | 고객이 날짜 또는 시간을 입력하거나 달력에서 값을 선택할 수 있도록 허용합니다. 옵션: <br />**[!UICONTROL Date]**- 날짜 값에 대한 입력 필드입니다. 날짜를 필드에 직접 입력하거나 목록 또는 달력에서 선택할 수 있습니다. 입력 방법 및 형식은 [날짜 및 시간 옵션](attributes-input-types.md#date-and-time-options) 구성에 따라 결정됩니다.<br />**[!UICONTROL Date & Time]** - 날짜 및 시간 값에 대한 입력 필드.<br />**[!UICONTROL Time]**- 시간 값에 대한 입력 필드. |
+| [!UICONTROL Select] | 고객이 사용한 입력 유형에 따라 단일 옵션 또는 여러 옵션을 선택할 수 있습니다. 옵션:<br />**[!UICONTROL Drop-down]**- 하나의 선택 항목만 허용하는 옵션의 드롭다운 목록입니다.<br />**[!UICONTROL Radio Buttons]** - 하나의 선택 항목만 허용하는 옵션 집합입니다.<br />**[!UICONTROL Checkbox]**- 확인란은 예/아니요 옵션의 변형입니다. 제품에 확인란이 두 개 이상 있으면 여러 항목을 선택할 수 있습니다.<br />**[!UICONTROL Multiple Select]** - 여러 항목을 선택할 수 있는 옵션의 드롭다운 목록 상자입니다. 여러 옵션을 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 옵션을 클릭합니다. |
+| [!UICONTROL Date] | 고객이 날짜 또는 시간을 입력하거나 달력에서 값을 선택할 수 있도록 허용합니다. 옵션: <br />**[!UICONTROL Date]**- 날짜 값에 대한 입력 필드입니다. 날짜를 필드에 직접 입력하거나 목록 또는 달력에서 선택할 수 있습니다. 입력 방법 및 형식은 [날짜 및 시간 옵션](attributes-input-types.md#date-and-time-options) 구성에 따라 결정됩니다.<br />**[!UICONTROL Date & Time]** - 날짜 및 시간 값에 대한 입력 필드입니다.<br />**[!UICONTROL Time]**- 시간 값에 대한 입력 필드. |
 
 {style="table-layout:auto"}

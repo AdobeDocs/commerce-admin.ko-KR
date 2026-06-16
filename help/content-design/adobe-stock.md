@@ -4,9 +4,23 @@ description: Adobe Stock을  [!DNL Commerce] 인스턴스와 통합하여 스토
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 9aec049cfaa12f342d66f45a75af0ce50a23c2c8
+TQID: https://experienceleague.adobe.com/VwiTbOAj5V8s7OWtkq5hfoP4LcvNLPR9QaKStaCdArs
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: 427
 ht-degree: 0%
 
 ---
@@ -55,7 +69,7 @@ Adobe Commerce에 대한 Adobe Stock 통합 구성은 두 단계 프로세스입
    기본 리디렉션 URI는 `${HOST}/${ADMIN_URI}/adobe_ims/oauth/callback/` 형식(예: `https://store.myshop.com/admin_hgkq1l/adobe_ims/oauth/callback/`)입니다. 여기서,
 
    - `${HOST}`은(는) [!DNL Commerce] 정규화된 도메인 이름입니다(예: `https://store.myshop.com`).
-   - `${ADMIN_URI}`은(는) [!DNL Commerce]을(를) 실행하여 검색할 수 있는 `admin_hgkq1l` 관리자 URI(예: `magento info:adminuri`)입니다.
+   - `${ADMIN_URI}`은(는) `magento info:adminuri`을(를) 실행하여 검색할 수 있는 [!DNL Commerce] 관리자 URI(예: `admin_hgkq1l`)입니다.
 
 1. 두 가지 차이점이 있는 리디렉션 URI와 동일한 **[!UICONTROL Redirect URI pattern]**&#x200B;을(를) 지정하십시오.
 
@@ -74,7 +88,7 @@ Adobe Commerce에 대한 Adobe Stock 통합 구성은 두 단계 프로세스입
 
 ### Adobe Stock 통합 구성
 
-[!DNL Commerce] 관리자의 시스템 구성을 설정하려면 _이전 섹션_&#x200B;에서 생성된 _API 키_ 및 [클라이언트 암호](#create-an-adobeio-integration)를 사용하십시오.
+[!DNL Commerce] 관리자의 시스템 구성을 설정하려면 [이전 섹션](#create-an-adobeio-integration)에서 생성된 _API 키_ 및 _클라이언트 암호_&#x200B;를 사용하십시오.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
@@ -92,6 +106,6 @@ Adobe Commerce에 대한 Adobe Stock 통합 구성은 두 단계 프로세스입
 
    ![고급 구성 - Adobe Stock 통합](./assets/system-adobe-stock-integration.png){width="600" zoomable="yes"}
 
-   몇 초 후에 유효성 검사를 수행합니다. 자격 증명이 유효하면 녹색 _연결이 성공했습니다!_&#x200B;개 메시지입니다.
+   몇 초 후에 유효성 검사를 수행합니다. 자격 증명이 유효하면 녹색 _연결 성공!_&#x200B;이 표시됩니다. 메시지.
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.

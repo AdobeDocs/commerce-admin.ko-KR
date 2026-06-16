@@ -1,16 +1,37 @@
 ---
-title: '[!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration]'
-description: Commerce 관리자의 [!UICONTROL Customers] &gt; [!UICONTROL Customer Configuration] 페이지에서 구성 설정을 검토하십시오.
+title: '[!UICONTROL Customers]  > [!UICONTROL Customer Configuration]'
+description: Commerce 관리자의 [!UICONTROL Customers] > [!UICONTROL Customer Configuration] 페이지에서 구성 설정을 검토합니다.
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+TQID: https://experienceleague.adobe.com/eZF-dmYG4p8BwVNA5SWtj-3y2flfLP1H9CRcPsd1tFI
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: 1908
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Customers] > [!UICONTROL Customer Configuration]
+# [!UICONTROL Customers]  > [!UICONTROL Customer Configuration]
 
 {{config}}
 
@@ -22,7 +43,7 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Share Customer Accounts] | 글로벌 | 저장소 계층 구조에서 고객 계정의 범위를 결정합니다. 옵션: <br/>**`Global`**- 고객 계정 정보가 모든 웹 사이트 및 Commerce 설치 저장소의 저장소와 공유됩니다.<br/>**`Per Website`** - 고객 계정 정보는 계정을 만든 웹 사이트로 제한됩니다. |
+| [!UICONTROL Share Customer Accounts] | 글로벌 | 저장소 계층 구조에서 고객 계정의 범위를 결정합니다. 옵션: <br/>**`Global`**- 고객 계정 정보가 모든 웹 사이트 및 Commerce 설치 저장소의 저장소와 공유됩니다.<br/>**`Per Website`** - 고객 계정 정보는 계정이 만들어진 웹 사이트로 제한됩니다. |
 
 {style="table-layout:auto"}
 
@@ -51,7 +72,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Automatic Assignment to Customer Group] | 스토어 뷰 | 고객이 기본 고객 그룹에 자동으로 할당되는지 여부를 결정합니다. 스토어에서 VAT 번호를 표시하려면 스토어에서 VAT 번호 표시를 설정하고 `Yes`을(를) 선택합니다. 옵션: <br/>**`Yes`**- 시스템은 고객 VAT ID의 유효성을 자동으로 검사하지 않으며 고객 그룹을 변경하지도 않습니다.<br/>**`No`** - 시스템 동작은 평소와 같으며 기본 고객 그룹은 기본 그룹 필드에서 설정할 수 있습니다. |
 | [!UICONTROL Default Group] | 스토어 뷰 | 계정이 생성될 때 지정된 초기 고객 그룹을 식별합니다. |
-| [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | 글로벌 | (현재 구성 범위가 `Default Group`(으)로 설정된 경우에만 사용할 수 있습니다.) VAT ID를 기반으로 한 고객 그룹의 자동 변경 기능을 기본적으로 사용할 수 있는지 여부를 선택합니다. 이 설정은 제품 수준에서 재정의할 수 있습니다. 이 설정은 다음과 같은 상황에서 시스템 동작에 영향을 줍니다. <br/> - 고객 기본 주소의 VAT ID 또는 전체 기본 주소가 변경됩니다. <br/> - 이전에 저장된 주소가 없는 등록된 고객 또는 체크아웃 중에 등록한 고객에 대해 체크아웃 중에 고객 그룹 변경이 에뮬레이션되었습니다. <br/>자동 그룹 변경이 활성화되면 첫 번째 경우에는 고객 그룹이 자동으로 변경되고 두 번째 경우에는 일시적으로 에뮬레이트된 고객 그룹이 고객에게 할당됩니다. 자동 그룹 변경이 비활성화된 경우 관리자가 수동으로 변경하지 않는 한 할당된 고객 그룹은 변경되지 않습니다. |
+| [!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID] | 글로벌 | 현재 구성 범위가 `Default Group`(으)로 설정된 경우에만 사용할 수 있습니다. VAT ID를 기반으로 한 고객 그룹의 자동 변경을 기본적으로 사용할지 또는 사용안함으로 설정할지 선택합니다. 이 설정은 제품 수준에서 재정의할 수 있습니다. 이 설정은 다음과 같은 상황에서 시스템 동작에 영향을 줍니다. <br/> - 고객 기본 주소의 VAT ID 또는 전체 기본 주소가 변경됩니다. <br/> - 이전에 저장된 주소가 없는 등록된 고객 또는 체크아웃 중에 등록한 고객의 경우 체크아웃 중에 고객 그룹 변경이 에뮬레이트되었습니다. <br/>자동 그룹 변경이 활성화되면 첫 번째 경우에는 고객 그룹이 자동으로 변경되고 두 번째 경우에는 일시적으로 에뮬레이트된 고객 그룹이 고객에게 할당됩니다. 자동 그룹 변경이 비활성화된 경우 관리자가 수동으로 변경하지 않는 한 할당된 고객 그룹은 변경되지 않습니다. |
 | [!UICONTROL Show VAT Number on Storefront] | 웹 사이트 | VAT 번호가 스토어의 고객에게 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` <br/>은(는) B2B가 아닌 일반 고객 계정에만 영향을 줍니다. 회사 계정에는 별도의 VAT 번호 필드가 있습니다. |
 | [!UICONTROL Default Email Domain] | 스토어 뷰 | 스토어의 기본 이메일 도메인을 식별합니다. 예: `mystore.com` |
 | [!UICONTROL Default Welcome Email] | 스토어 뷰 | 기본 _시작_ 전자 메일에 사용된 전자 메일 템플릿을 식별합니다. |
@@ -117,7 +138,7 @@ ht-degree: 0%
 | [!UICONTROL Show Middle Name (initial)] | 웹 사이트 | 중간 이니셜이 고객 이름의 일부로 포함되는지 여부를 결정합니다. 가운데 이니셜을 사용하는 경우 선택 필드입니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Show Suffix] | 웹 사이트 | 고객 이름에 Jr., Sr., III과 같은 접미사가 끝에 포함되어 있는지 확인합니다. 옵션: `No` / `Optional` / `Required` |
 | [!UICONTROL Suffix Dropdown Options] | 웹 사이트 | 접미어 옵션 목록을 정의합니다. 값을 세미콜론으로 구분합니다. 목록의 맨 위에 빈 값을 표시하려면 첫 번째 값 앞에 세미콜론을 넣습니다. |
-| [!UICONTROL Show Date of Birth] | 웹 사이트 | 고객의 생년월일이 이름 및 주소 양식에 포함되어 있는지 여부를 결정합니다. 옵션: `No` / `Optional` / `Required` <br><br>**_중요:_**&#x200B;현재 보안 및 개인 정보 보호 모범 사례를 준수하려면 다른 개인 식별자를 사용한 고객의 전체 생년월일(월, 일, 년) 저장과 관련된 모든 잠재적인 법적 및 보안 위험에 유의하십시오. 고객의 전체 생년월일 보관을 제한하고 고객 생년월일을 대안으로 사용하는 것이 좋습니다. |
+| [!UICONTROL Show Date of Birth] | 웹 사이트 | 고객의 생년월일이 이름 및 주소 양식에 포함되어 있는지 여부를 결정합니다. 옵션: `No` / `Optional` / `Required` <br><br>**_Important:_** 현재 보안 및 개인 정보 보호 모범 사례를 준수하려면 다른 개인 식별자를 사용한 고객의 전체 생일(월, 일, 년) 저장과 관련된 모든 잠재적인 법적 및 보안 위험에 유의하십시오. 고객의 전체 생년월일 보관을 제한하고 고객 생년월일을 대안으로 사용하는 것이 좋습니다. |
 | [!UICONTROL Show Tax/VAT Number] | 웹 사이트 | 이름 및 주소 양식에 세금 또는 [VAT 번호](../../stores-purchase/vat.md)이(가) 포함되어 있는지 여부를 결정합니다. 옵션: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Gender] | 웹 사이트 | 성별이 이름 및 주소 양식에 포함되는지 여부를 결정합니다. 옵션: `No` / `Optional` / `Required` |
 | [!UICONTROL Show Telephone] | 웹 사이트 | 고객의 전화 번호가 이름과 주소 양식에 포함되어 있는지 여부를 결정합니다. 옵션: `No` / `Optional` / `Required` |
@@ -200,7 +221,7 @@ ht-degree: 0%
 | 템플릿 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Enable Customer Segment Functionality] | 글로벌 | 고객 세그먼트를 사용하여 타깃팅된 프로모션을 만들 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Real-time Check if Customer is Matched by Segment] | 글로벌 | 고객 세그먼트의 유효성을 실시간으로 확인할지 여부를 결정합니다. 옵션: <br/>**[!UICONTROL Yes]**- 고객 세그먼트의 유효성을 실시간으로 확인합니다(기본값).<br/>**[!UICONTROL No]** - 고객 세그먼트가 결합된 단일 조건 SQL 쿼리에 의해 확인됩니다. 이렇게 하면 시스템에 고객 세그먼트가 많은 경우 세그먼트 유효성 검사 성능이 향상됩니다. 그러나 분할 데이터베이스나 등록된 고객이 없는 경우에는 유효성 검사가 작동하지 않습니다. |
+| [!UICONTROL Real-time Check if Customer is Matched by Segment] | 글로벌 | 고객 세그먼트의 유효성을 실시간으로 확인할지 여부를 결정합니다. 옵션: <br/>**[!UICONTROL Yes]**- 고객 세그먼트의 유효성을 실시간으로 확인합니다(기본값).<br/>**[!UICONTROL No]** - 고객 세그먼트는 하나의 결합된 조건 SQL 쿼리를 통해 확인됩니다. 이렇게 하면 시스템에 고객 세그먼트가 많은 경우 세그먼트 유효성 검사 성능이 향상됩니다. 그러나 분할 데이터베이스나 등록된 고객이 없는 경우에는 유효성 검사가 작동하지 않습니다. |
 
 {style="table-layout:auto"}
 
@@ -214,8 +235,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | 웹 사이트 | Commerce 웹 사이트와 연결된 스토어에서 CAPTCHA를 활성화합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Font] | 웹 사이트 | CAPTCHA를 표시하는 데 사용할 글꼴을 결정합니다. 고유한 글꼴을 추가하려면 글꼴 파일을 Commerce 설치와 동일한 디렉터리에 넣고 `app/code/Magento/Captcha/etc`의 `config.xml` 파일에 선언을 추가합니다. |
-| [!UICONTROL Forms] | 웹 사이트 | CAPTCHA가 사용되는 양식을 결정합니다. 옵션: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro`([보안 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=ko) 참조) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**참고:**&#x200B;_ 사용자 만들기, 암호 찾기 및 Payflow Pro 양식은 선택 시 항상 활성화됩니다. |
-| [!UICONTROL Displaying Mode] | 웹 사이트 | CAPTCHA가 표시되는 시기를 결정합니다. 옵션: <br/>**`Always`**- 로그인하려면 항상 CAPTCHA가 필요합니다.<br/>**`After number of attempts to login`** - 이 옵션은 관리자 로그인 양식에만 적용됩니다. 선택하면 _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;필드가 나타납니다. 허용할 로그인 시도 횟수를 입력합니다. `0`(영) 값은 [!UICONTROL Displaying Mode]을(를) `Always`(으)로 설정하는 것과 비슷합니다.<br/>_&#x200B;**참고:**&#x200B;_실패한 로그인 시도 횟수를 추적하려면 하나의 전자 메일 주소와 하나의 IP 주소에서 로그인을 시도한 횟수가 계산됩니다. 동일한 IP 주소에서 허용되는 최대 로그인 시도 횟수는 1,000회입니다. 이 제한은 CAPTCHA가 활성화된 경우에만 적용됩니다. |
+| [!UICONTROL Forms] | 웹 사이트 | CAPTCHA가 사용되는 양식을 결정합니다. 옵션: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro`([보안 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) 참조) <br />`Add Gift Card Code` ![Adobe Commerce](../../assets/adobe-logo.svg) <br />`Create company` ![Adobe Commerce](../../assets/adobe-logo.svg) <br /><br />_&#x200B;**참고:**&#x200B;_ 사용자 만들기, 암호 찾기 및 Payflow Pro 양식은 선택 시 항상 활성화됩니다. |
+| [!UICONTROL Displaying Mode] | 웹 사이트 | CAPTCHA가 표시되는 시기를 결정합니다. 옵션: <br/>**`Always`**- 로그인하려면 항상 CAPTCHA가 필요합니다.<br/>**`After number of attempts to login`** - 이 옵션은 관리자 로그인 양식에만 적용됩니다. 선택하면 _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;필드가 나타납니다. 허용할 로그인 시도 횟수를 입력합니다. 값 `0`(영)은(는) [!UICONTROL Displaying Mode]을(를) `Always`(으)로 설정하는 것과 비슷합니다.<br/>_&#x200B;**참고:**&#x200B;_실패한 로그인 시도 횟수를 추적하려면 하나의 전자 메일 주소와 하나의 IP 주소에서 로그인을 시도합니다. 동일한 IP 주소에서 허용되는 최대 로그인 시도 횟수는 1,000회입니다. 이 제한은 CAPTCHA가 활성화된 경우에만 적용됩니다. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | 웹 사이트 | 계정이 잠기기 전에 고객이 로그인을 시도할 수 있는 횟수를 지정합니다. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | 웹 사이트 | 현재 CAPTCHA의 수명을 결정합니다. CAPTCHA가 만료되면 사용자는 페이지를 다시 로드해야 합니다. |
 | [!UICONTROL Number of Symbols] | 웹 사이트 | CAPTCHA에 나타나는 기호의 수를 최대 8개로 결정합니다. 예를 들어 5-8과 같은 범위를 지정할 수도 있습니다. |

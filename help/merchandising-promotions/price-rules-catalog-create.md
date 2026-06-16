@@ -3,9 +3,26 @@ title: 카탈로그 가격 규칙 만들기
 description: 조건 세트가 충족될 때마다 특정 제품에 할인을 적용하는 카탈로그 가격 규칙을 만드는 방법을 알아봅니다.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 5e21259c196419f9a337795f9bec29f0737e84ca
+TQID: https://experienceleague.adobe.com/rX7YtAYqk0z8140ueglCAzHQUeC2Y-lwRywB5uDdNG4
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: 1730
 ht-degree: 0%
 
 ---
@@ -51,7 +68,7 @@ ht-degree: 0%
 
 1. 다른 규칙과 관련하여 이 규칙의 **[!UICONTROL Priority]**&#x200B;을(를) 설정하려면 숫자를 입력하세요.
 
-   **[!UICONTROL Priority]** 설정은 제품이 여러 가격 규칙에 대한 조건을 충족할 때 적용되는 규칙을 결정합니다. 우선 순위가 가장 높은 규칙(예: 0, 1, 2, 3...과 같은 가장 낮은 숫자)이 적용됩니다.
+   **[!UICONTROL Priority]** 설정은 제품이 여러 가격 규칙에 대한 조건을 충족할 때 적용되는 규칙을 결정합니다. 우선 순위가 가장 높은 규칙(가장 낮은 숫자, 예: 0, 1, 2, 3...) 효력이 발생합니다.
 
 ## 2단계: 조건 정의
 
@@ -61,7 +78,7 @@ ht-degree: 0%
 
 - `[!UICONTROL Category]` 제품 특성 조건을 번들 또는 그룹화된 제품에 추가하는 경우 모든 하위 항목이 동일한 범주를 공유하는 경우에만 가격 규칙이 올바르게 적용됩니다. 하위 항목이 같은 범주에 있지 않은 경우 [장바구니 가격 규칙](price-rules-cart-create.md) 프로모션을 대신 사용하십시오.&quot;
 
-1. 아래로 스크롤하여 ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Conditions]**&#x200B;를 확장합니다.
+1. 아래로 스크롤하여 **[!UICONTROL Conditions]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    첫 번째 조건은 기본적으로 나타나고 다음과 같이 표시됩니다.
 
@@ -93,7 +110,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >`is not one of`SKU _제품 특성 및 구성 가능한 제품과 함께_ 조건을 사용하는 경우 상위 및 하위 제품 SKU를 모두 선택해야 합니다. 규칙에 모든 하위 SKU가 나열되지 않도록 구성 가능한 제품 및 해당 하위 제품의 일반 SKU 부분과 함께 `does not contain` 조건을 사용할 수 있습니다.
+   >_SKU_ 제품 특성 및 구성 가능한 제품과 함께 `is not one of` 조건을 사용하는 경우 상위 및 하위 제품 SKU를 모두 선택해야 합니다. 규칙에 모든 하위 SKU가 나열되지 않도록 구성 가능한 제품 및 해당 하위 제품의 일반 SKU 부분과 함께 `does not contain` 조건을 사용할 수 있습니다.
 
    선택한 조건이 문에 나타나고 그 뒤에 굵은 링크가 두 개 더 나타납니다. 옵션은 선택하는 조건 속성에 따라 다릅니다. 성명은 이제 말합니다.
 

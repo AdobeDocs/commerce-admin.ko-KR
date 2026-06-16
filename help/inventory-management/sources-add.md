@@ -3,9 +3,24 @@ title: 인벤토리 소스 추가
 description: 창고, 오프라인 매장, 물류 센터 또는 직송업체와 같은 위치에 대한 소스를 만드는 방법에 대해 알아봅니다.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: 865
 ht-degree: 0%
 
 ---
@@ -24,7 +39,7 @@ ht-degree: 0%
 
    ![소스 관리](assets/inventory-sources.png)
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL General]**&#x200B;를 확장하고 다음을 수행합니다.
+1. **[!UICONTROL General]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
    - 인벤토리 원본을 식별하려면 고유한 **[!UICONTROL Name]**&#x200B;을(를) 입력하십시오.
 
@@ -46,7 +61,7 @@ ht-degree: 0%
 
      기본 Source은 매장 픽업 주문의 픽업 위치로 사용할 수 없습니다.
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Contact Info]**&#x200B;를 확장하고 다음을 수행합니다.
+1. **[!UICONTROL Contact Info]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
    - **[!UICONTROL Contact Name]**&#x200B;의 경우 해당 위치에 기본 연락처의 전체 이름을 입력하십시오.
 
@@ -58,7 +73,7 @@ ht-degree: 0%
 
      ![연락처 정보](assets/inventory-source-contact-info.png)
 
-1. ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Address Data]**&#x200B;를 확장하고 다음을 수행합니다.
+1. **[!UICONTROL Address Data]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
    - **[!UICONTROL Country]** 선택.
 
@@ -72,7 +87,7 @@ ht-degree: 0%
 
      ![주소 데이터](assets/inventory-source-address.png)
 
-1. 이전 단계에서 원본을 픽업 위치로 설정한 경우 ![&#x200B; 섹션에서 &#x200B;](../assets/icon-display-expand.png)확장 선택기&#x200B;**[!UICONTROL Pickup Location]**&#x200B;를 확장하고 위치에 대한 자세한 정보를 제공합니다.
+1. 이전 단계에서 원본을 픽업 위치로 설정한 경우 **[!UICONTROL Pickup Location]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 위치에 대한 자세한 정보를 제공합니다.
 
    - 픽업 위치의 **[!UICONTROL Frontend Name]**&#x200B;을(를) 입력하십시오.
 
@@ -80,7 +95,7 @@ ht-degree: 0%
 
      ![픽업 위치](assets/inventory-pickup-location.png)
 
-   소스를 픽업 위치로 사용할 때 전자 메일 알림을 구성하는 방법에 대한 자세한 내용은 [구성 참조 안내서](../configuration-reference/sales/sales-emails.md)의 _판매 전자 메일_&#x200B;을(를) 참조하십시오.
+   소스를 픽업 위치로 사용할 때 전자 메일 알림을 구성하는 방법에 대한 자세한 내용은 _구성 참조 안내서_&#x200B;의 [판매 전자 메일](../configuration-reference/sales/sales-emails.md)을(를) 참조하십시오.
 
 1. 작업을 저장하려면 다음 중 하나를 수행합니다.
 
@@ -96,7 +111,7 @@ ht-degree: 0%
 |--|--|
 | [!UICONTROL Back] | 소스 관리 페이지로 돌아갑니다. |
 | [!UICONTROL Reset] | 양식의 모든 필드를 마지막 저장 시 해당 값으로 복원합니다. |
-| [!UICONTROL Save & Continue] | 모든 변경 내용을 저장하고 추가 편집을 위해 양식을 열어 둡니다. 추가 옵션을 보려면 아래쪽 화살표를 클릭하십시오. <br/>**[!UICONTROL Save & Close]**- 현재 레코드에 대한 변경 내용을 저장하고, 양식을 닫은 다음 [소스 관리] 페이지로 돌아갑니다.<br/>**[!UICONTROL Save & New]** - 변경 내용을 저장하고 현재 레코드를 닫은 다음 새 양식을 엽니다. |
+| [!UICONTROL Save & Continue] | 모든 변경 내용을 저장하고 추가 편집을 위해 양식을 열어 둡니다. 추가 옵션을 보려면 아래쪽 화살표를 클릭하십시오.<br/>**[!UICONTROL Save & Close]**- 현재 레코드의 변경 내용을 저장하고 양식을 닫은 다음 [소스 관리] 페이지로 돌아갑니다.<br/>**[!UICONTROL Save & New]** - 변경 내용을 저장하고 현재 레코드를 닫은 다음 새 빈 양식을 엽니다. |
 
 ## 필드 설명
 

@@ -2,9 +2,24 @@
 title: 재고 관리
 description: 재고를 사용하여 판매 채널 소스에 대한 가상 집계된 제품 재고를 나타내는 방법을 알아봅니다.
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/IeG1bA1etAjxiDjSWY83GLNugllHT1mUrZBde45Ha8g
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: 524
 ht-degree: 0%
 
 ---
@@ -15,13 +30,13 @@ ht-degree: 0%
 
 제거하거나 비활성화할 수 없는 기본 스톡으로 시작합니다. 재고에만 판매 채널을 더 추가할 수 있습니다. 기본 Source 소스만 할당됩니다. 이 재고는 단일 소스 판매자, 서드파티 통합 및 가져온 제품에서 사용됩니다.
 
-Sales Channel은 재고를 판매하는 개체를 나타냅니다. 기본적으로 [!DNL Commerce]은(는) 스토어 웹 사이트를 판매 채널로 제공합니다. 판매 채널을 확장해 B2B 고객 그룹과 매장 조회수 등 추가 채널을 지원할 수 있다. 각 판매 채널은 하나의 Stock에만 연결할 수 있습니다.
+판매 채널은 재고를 판매하는 개체를 나타냅니다. 기본적으로 [!DNL Commerce]은(는) 스토어 웹 사이트를 판매 채널로 제공합니다. 판매 채널을 확장해 B2B 고객 그룹과 매장 조회수 등 추가 채널을 지원할 수 있다. 각 판매 채널은 하나의 Stock에만 연결할 수 있습니다.
 
 - **Sales Channel 지원** - 현재 판매 채널에는 기본 제공 웹 사이트가 포함됩니다. B2B 고객 그룹 및 스토어 보기와 같은 사용자 지정 옵션을 포함하도록 판매 채널을 확장할 수 있습니다. 각 판매 채널에는 단일 주식만 지정할 수 있습니다. 단일 주식을 여러 판매 채널에 할당할 수 있습니다.
 - **소스에 매핑** - 각 재고에 하나 이상의 활성화 또는 비활성화 소스가 지정될 수 있으며 제품당 가상 집계된 인벤토리를 계산합니다.
 - **우선 순위 주문 이행** - Source 선택 알고리즘의 기본 우선 순위 알고리즘은 주문을 이행할 때 주식의 원본 목록을 위에서 아래로 사용합니다.
 
-다음 다이어그램은 자전거 상점 상인의 소스 및 Sales Channel과 관련하여 Stock이 작동하는 방식을 정의하는 데 도움이 됩니다.
+다음 다이어그램은 자전거 상점 상인의 소스 및 판매 채널과 관련하여 주식이 작동하는 방식을 정의하는 데 도움이 됩니다.
 
 ![예를 들어 스토어에 대한 재고 다이어그램의](assets/diagram-stock.png){width="600" zoomable="yes"}
 

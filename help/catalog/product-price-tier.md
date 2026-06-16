@@ -3,10 +3,26 @@ title: 계층 가격
 description: 제품 목록 또는 제품 페이지에서 계층 가격을 사용하여 수량 할인을 제공하는 방법에 대해 알아봅니다.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
+TQID: https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 0%
+source-wordcount: 892
+ht-degree: 1%
 
 ---
 
@@ -56,7 +72,7 @@ ht-degree: 0%
 
      >[!NOTE]
      >
-     >할인된 가격을 받으려면 _[!UICONTROL Price]_&#x200B;필드가 아닌&#x200B;_[!UICONTROL Special Price]_ 필드에 정의된 값에 대해 정의된 백분율이 계산됩니다.
+     >할인된 가격을 받으려면 _[!UICONTROL Special Price]_&#x200B;필드가 아닌&#x200B;_[!UICONTROL Price]_ 필드에 정의된 값에 대해 정의된 백분율이 계산됩니다.
 
      ![계층 가격(백분율)](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -86,14 +102,14 @@ ht-degree: 0%
 
    ![카탈로그 가격 규칙에 대한 계층 가격 사용](../configuration-reference/sales/assets/sales-promotions-settings.png){width="700" zoomable="yes"}
 
-1. 카탈로그 가격 규칙으로 타깃팅하려는 각 특정 고객 그룹 또는 공유 카탈로그(예: `1`, `Wholesale` 또는 판매자 정의 그룹)에 대해 `Retail` 수량으로 계층 가격을 정의합니다. `ALL GROUPS` 고객 그룹 및 `Default` 공유 카탈로그를 이 용도로 사용할 수 없습니다. 수량이 `1`인 계층 가격이 정의되지 않은 그룹에 대해 계층 가격을 사용할 수 없습니다.
+1. 카탈로그 가격 규칙으로 타깃팅하려는 각 특정 고객 그룹 또는 공유 카탈로그(예: `Wholesale`, `Retail` 또는 판매자 정의 그룹)에 대해 `1` 수량으로 계층 가격을 정의합니다. `ALL GROUPS` 고객 그룹 및 `Default` 공유 카탈로그를 이 용도로 사용할 수 없습니다. 수량이 `1`인 계층 가격이 정의되지 않은 그룹에 대해 계층 가격을 사용할 수 없습니다.
 
 1. 필요에 따라 `1`보다 큰 수량을 사용하여 추가 계층 가격을 정의합니다. 이러한 추가 계층 가격은 고객이 장바구니에 제품의 추가 수량을 추가할 때 평소와 같이 적용됩니다. 카탈로그 가격 규칙은 이러한 추가 계층 가격에는 적용되지 않습니다.
 
 단일 제품을 구매할 때 카탈로그 가격 규칙과 함께 계층 가격 책정이 작동하는 방식을 보여 주려면 다음 예를 고려하십시오.
 
 - 제품의 기준 가격은 미화 100달러입니다.
-- 수량 `Wholesale`, 고정 가격 90USD의 `1` 고객 그룹에 대해 계층 가격이 정의됩니다.
+- 수량 `1`, 고정 가격 90USD의 `Wholesale` 고객 그룹에 대해 계층 가격이 정의됩니다.
 - 카탈로그 가격 규칙에서는 `Wholesale` 고객 그룹에 대해 10% 할인을 제공합니다.
 
 카탈로그 가격 규칙에 대해 계층 가격을 사용할 수 있는 경우, 시스템은 다음 플로우를 사용하여 최종 가격을 계산합니다.
@@ -110,7 +126,7 @@ ht-degree: 0%
 
 | 고객 그룹 | 계층 가격(수량=1) | 새로운 기준 가격 | 최종 가격 |
 |---|---|---|---|
-| 모든 그룹 | 구성되지 않음 | 100달러 | $100 - 10% = $90 |
-| 도매 | 고정: $85 | US$85 | $85 - 10% = $76.50 |
-| Retailer | 20% 할인 | 80달러 | $80 - 10% = $72.00 |
-| VIP | 15% 할인 | US$85 | $85 - 10% = $76.50 |
+| 모든 그룹 | 구성되지 않음 | $100 | $100 - 10% = $90 |
+| 도매 | 고정: $85 | $85 | $85 - 10% = $76.50 |
+| Retailer | 20% 할인 | $80 | $80 - 10% = $72.00 |
+| VIP | 15% 할인 | $85 | $85 - 10% = $76.50 |

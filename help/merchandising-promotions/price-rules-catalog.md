@@ -3,9 +3,24 @@ title: 카탈로그 가격 규칙
 description: 정의된 조건 집합을 기준으로 할인된 가격으로 구매자에게 제품을 제공하는 데 사용할 수 있는 카탈로그 가격 규칙에 대해 알아봅니다.
 exl-id: 8da95076-d724-41f6-b3ca-e61ff1906b72
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+TQID: https://experienceleague.adobe.com/JZE2DF0tp-XOsKjxo-WaQiwA3Y-FrM4TI5qq-Nze-qo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: 468
 ht-degree: 0%
 
 ---
@@ -18,7 +33,7 @@ ht-degree: 0%
 
 - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) 정의된 규칙을 [동적 블록](../content-design/dynamic-blocks.md)에 연결하여 스토어에서 이벤트 또는 제품을 홍보할 수도 있습니다.
 
-- ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 되풀이하는 프로모션의 경우 프로모션을 실행할 때마다 저장된 규칙을 _활성_ 또는 _비활성_ 상태로 수동으로 설정할 수 있습니다.
+- ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 되풀이하는 프로모션의 경우 프로모션을 실행할 때마다 저장된 규칙을 _활성_ 또는 _비활성_ 상태로 수동으로 설정할 수 있습니다.
 
 ## 카탈로그 가격 규칙 액세스
 
@@ -30,7 +45,7 @@ ht-degree: 0%
 
    - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) _규칙 정보_ 페이지를 표시하려면 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 목록에서 규칙을 클릭하여 규칙 정보 페이지를 표시합니다.
+   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 목록에서 규칙을 클릭하여 규칙 정보 페이지를 표시합니다.
 
    여기에서 규칙에 대한 설정을 변경할 수 있습니다([규칙 만들기](price-rules-catalog-create.md)와 유사).
 
@@ -43,8 +58,8 @@ ht-degree: 0%
 | [!UICONTROL Priority] | ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) 규칙에 대해 정의된 우선 순위를 기준으로 목록을 필터링하려면 이 필드에 텍스트를 입력하십시오. |
 | [!UICONTROL Web Site] | ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) 이 옵션을 사용하여 규칙에 정의된 웹 사이트를 기준으로 목록을 필터링합니다. |
 | [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **[!UICONTROL Edit]**&#x200B;을(를) 클릭하여 규칙 정보를 표시하고 규칙 설정을 업데이트합니다(규칙 만들기와 유사). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 규칙을 만들 때 정의된 규칙의 시작 날짜를 기준으로 목록을 필터링하려면 동적 일정 필드(받는 사람: 및 보낸 사람:)를 사용합니다. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 규칙을 만들 때 정의된 규칙의 종료 날짜를 기준으로 목록을 필터링하려면 동적 일정 필드(받는 사람: 및 보낸 사람:)를 사용합니다. |
-| [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 규칙 상태(`Active` 또는 `Inactive`)를 기준으로 목록을 필터링하려면 이 옵션을 사용합니다. |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 동적 일정 필드(받는 사람: 및 보낸 사람:)를 사용하여 규칙을 만들 때 정의된 규칙의 시작 날짜를 기준으로 목록을 필터링합니다. |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 동적 일정 필드(받는 사람: 및 보낸 사람:)를 사용하여 규칙을 만들 때 정의된 규칙의 종료 날짜를 기준으로 목록을 필터링합니다. |
+| [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 이 옵션을 사용하여 규칙 상태(`Active` 또는 `Inactive`)를 기준으로 목록을 필터링합니다. |
 
 {style="table-layout:auto"}

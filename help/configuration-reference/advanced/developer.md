@@ -1,12 +1,32 @@
 ---
-title: '[!UICONTROL Advanced] &gt; [!UICONTROL Developer]'
-description: Commerce 관리자의 [!UICONTROL Advanced] &gt; [!UICONTROL Developer] 페이지에서 구성 설정을 검토하십시오.
+title: '[!UICONTROL Advanced] > [!UICONTROL Developer]'
+description: Commerce 관리자의 [!UICONTROL Advanced] > [!UICONTROL Developer] 페이지에서 구성 설정을 검토합니다.
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
-source-git-commit: ac364c1b3cab3988c135ade2c6de799c915cee8c
+TQID: https://experienceleague.adobe.com/Cl6rp-pqD6LBM-50gDiPC-7Ox2MDzy-szQDesLTecdQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: 803
 ht-degree: 1%
 
 ---
@@ -23,7 +43,7 @@ ht-degree: 1%
 
 ![프론트엔드 개발 워크플로](./assets/developer-frontend-development-workflow.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/developer-tools.md#frontend-development-workflow)의 _프론트엔드 개발 워크플로_&#x200B;를 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;의 [프론트엔드 개발 워크플로](../../systems/developer-tools.md#frontend-development-workflow)를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -35,7 +55,7 @@ ht-degree: 1%
 
 ![개발자 클라이언트 제한 사항](./assets/developer-developer-client-restrictions.png)<!-- zoom -->
 
-이 설정을 변경하는 방법에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/developer-tools.md#client-restrictions)의 _클라이언트 제한_&#x200B;을 참조하십시오.
+이 설정을 변경하는 방법에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;의 [클라이언트 제한](../../systems/developer-tools.md#client-restrictions)을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -47,7 +67,7 @@ ht-degree: 1%
 
 ![템플릿 설정](./assets/developer-template-settings.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/developer-tools.md#optimizing-resource-files)에서 _리소스 파일 최적화_&#x200B;를 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [리소스 파일 최적화](../../systems/developer-tools.md#optimizing-resource-files)를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -60,7 +80,7 @@ ht-degree: 1%
 
 ![디버그](./assets/developer-debug.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/developer-tools.md#template-path-hints)에서 _템플릿 경로 힌트_&#x200B;를 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [템플릿 경로 힌트](../../systems/developer-tools.md#template-path-hints)를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -74,7 +94,7 @@ ht-degree: 1%
 
 ![인라인 번역](./assets/developer-translate-inline.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/developer-tools.md#translate-inline)에서 _인라인 번역_&#x200B;을 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [인라인 번역](../../systems/developer-tools.md#translate-inline)을 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -87,7 +107,7 @@ ht-degree: 1%
 
 ![JavaScript 설정](./assets/developer-javascript-settings.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/developer-tools.md#optimizing-resource-files)에서 _리소스 파일 최적화_&#x200B;를 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [리소스 파일 최적화](../../systems/developer-tools.md#optimizing-resource-files)를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -105,7 +125,7 @@ ht-degree: 1%
 
 ![CSS 설정](./assets/developer-css-settings.png)<!-- zoom -->
 
-이러한 설정 변경에 대한 자세한 내용은 [관리 시스템 안내서](../../systems/developer-tools.md#optimizing-resource-files)에서 _리소스 파일 최적화_&#x200B;를 참조하십시오.
+이러한 설정 변경에 대한 자세한 내용은 _관리 시스템 안내서_&#x200B;에서 [리소스 파일 최적화](../../systems/developer-tools.md#optimizing-resource-files)를 참조하십시오.
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

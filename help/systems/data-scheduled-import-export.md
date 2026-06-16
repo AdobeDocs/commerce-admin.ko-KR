@@ -3,9 +3,25 @@ title: 예약된 가져오기 및 내보내기
 description: 예약된 데이터 가져오기 및 내보내기 작업을 관리하는 방법에 대해 알아봅니다.
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: 2462
 ht-degree: 0%
 
 ---
@@ -159,7 +175,7 @@ ht-degree: 0%
 | [!UICONTROL Name] | 가져오기의 이름입니다. 서로 다른 예약된 가져오기가 많이 만들어지는 경우 구분하는 데 도움이 됩니다. |
 | [!UICONTROL Description] | (선택 사항) 설명을 입력할 수 있습니다. |
 | [!UICONTROL Entity Type] | 가져올 데이터를 정의합니다. |
-| [!UICONTROL Import Behavior] | 가져오는 엔터티가 데이터베이스에 있을 경우 복잡한 데이터를 처리하는 방법을 정의합니다. 제품에 대한 복잡한 데이터에는 카테고리, 웹 사이트, 사용자 지정 옵션, 계층 가격, 관련 제품, 상향 판매, 교차 판매 및 관련 제품 데이터가 포함됩니다. 고객을 위한 복잡한 데이터에는 주소가 포함됩니다. 옵션:<br>**[!UICONTROL Add/Update Complex Data]**- 데이터베이스의 기존 항목에 대한 기존 복합 데이터에 새 복합 데이터가 추가되거나 업데이트됩니다. 이 값은 기본값입니다.<br>**[!UICONTROL Add/Update]** - 새 데이터가 데이터베이스의 기존 항목에 추가됩니다. 제품에 대해 `sku`을(를) 제외한 모든 필드를 업데이트할 수 있습니다. CSV 파일에 나열되지 않은 여러 필드 값(예: 범주 또는 웹 사이트)은 가져온 후 데이터베이스에 남아 있습니다.<br>**[!UICONTROL Replace]**- 기존 엔터티의 기존 복합 데이터가 대체됩니다.<br>**[!UICONTROL Delete Entities]** - 가져온 엔터티가 데이터베이스에 있으면 데이터베이스에서 삭제됩니다.<br>**[!UICONTROL Custom Action]**- 가져오기 프로세스 중에 기존 복합 엔터티를 사용자 지정합니다. |
+| [!UICONTROL Import Behavior] | 가져오는 엔터티가 데이터베이스에 있을 경우 복잡한 데이터를 처리하는 방법을 정의합니다. 제품에 대한 복잡한 데이터에는 카테고리, 웹 사이트, 사용자 지정 옵션, 계층 가격, 관련 제품, 상향 판매, 교차 판매 및 관련 제품 데이터가 포함됩니다. 고객을 위한 복잡한 데이터에는 주소가 포함됩니다. 옵션:<br>**[!UICONTROL Add/Update Complex Data]**- 데이터베이스의 기존 항목에 대한 기존 복합 데이터에 새 복합 데이터가 추가되거나 업데이트됩니다. 기본값입니다.<br>**[!UICONTROL Add/Update]** - 데이터베이스의 기존 항목에 새 데이터가 추가됩니다. 제품에 대해 `sku`을(를) 제외한 모든 필드를 업데이트할 수 있습니다. CSV 파일에 나열되지 않은 여러 필드 값(예: 범주 또는 웹 사이트)은 가져온 후에도 데이터베이스에 남아 있습니다.<br>**[!UICONTROL Replace]**- 기존 엔터티의 기존 복합 데이터가 대체됩니다.<br>**[!UICONTROL Delete Entities]** - 가져온 엔터티가 데이터베이스에 있으면 데이터베이스에서 삭제됩니다.<br>**[!UICONTROL Custom Action]**- 가져오기 프로세스 중에 기존 복잡한 엔티티를 사용자 정의합니다. |
 | [!UICONTROL Start Time] | 가져오기의 시작 시간, 분 및 초를 설정합니다. |
 | [!UICONTROL Frequency] | 가져오기가 실행되는 빈도를 정의합니다. 옵션: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL On Error] | 파일 유효성 검사 중에 오류가 발견될 경우에 대비하여 시스템 동작을 정의합니다. 옵션:<br>**가져오기 중지** — 유효성 검사 중에 오류가 발견되면 파일을 가져오지 않습니다. 이 값은 기본값입니다.<br>**계속 처리** - 유효성 검사 중에 오류가 발견되었지만 가져올 수 있는 경우 파일을 가져옵니다. |
@@ -318,7 +334,7 @@ ht-degree: 0%
 
 | 필드 | 설명 |
 | ----- | ----------- |
-| [!UICONTROL Server Type] | 내보내기 파일의 위치를 결정합니다. 옵션:<br>**로컬 서버** — Commerce이 배포된 동일한 서버에 내보내기 파일을 배치합니다. 원격 저장소 모듈을 사용하도록 설정하면 `Local Server`이(가) `Remote Storage`(으)로 전환됩니다.<br>**원격 FTP** — 내보내기 파일을 원격 서버에 배치합니다. 자격 증명 및 파일 전송 설정에 대한 추가 옵션이 표시됩니다. |
+| [!UICONTROL Server Type] | 내보내기 파일의 위치를 결정합니다. 옵션:<br>**로컬 서버** — Commerce이 배포된 동일한 서버에 내보내기 파일을 배치합니다. 원격 저장소 모듈을 사용하도록 설정한 경우 `Local Server`이(가) `Remote Storage`(으)로 전환됩니다.<br>**원격 FTP** — 내보내기 파일을 원격 서버에 배치합니다. 자격 증명 및 파일 전송 설정에 대한 추가 옵션이 표시됩니다. |
 | [!UICONTROL File Directory] | 내보내기 파일이 있는 디렉토리를 지정합니다. _[!UICONTROL Server Type]_&#x200B;이(가) `Local Server`(으)로 설정된 경우 Commerce 설치 경로를 기준으로 경로를 지정하십시오. 예: 원격 저장소용 `var/export` 또는 `import_export/export`. |
 
 {style="table-layout:auto"}

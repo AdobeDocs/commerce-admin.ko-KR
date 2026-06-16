@@ -2,9 +2,23 @@
 title: Adobe Commerce 설정용 [!DNL AR Viewer]
 description: 제품 목록의  [!DNL AR Viewer] 확장을 사용하여 3D 모델 자산을 관리하는 방법에 대해 알아봅니다.
 exl-id: e3f081ff-b994-4842-a1f3-613012d33a9c
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+TQID: https://experienceleague.adobe.com/6OlcZ4Psm3INgVm7f-Y9JvqfUdmR6Rg48tcigLAHiaE
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: 313
 ht-degree: 0%
 
 ---
@@ -61,4 +75,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 사용자가 제품에 3d 모델을 추가하는 일련의 데모 비디오를 보려면 _Commerce 비디오 및 Tutorials_&#x200B;의 [Adobe Commerce용 AR 뷰어](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html?lang=ko) 페이지를 참조하십시오.
+> 사용자가 제품에 3d 모델을 추가하는 일련의 데모 비디오를 보려면 _Commerce 비디오 및 자습서_&#x200B;의 [Adobe Commerce용 AR 뷰어](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html?lang=ko) 페이지를 참조하십시오.

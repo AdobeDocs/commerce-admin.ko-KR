@@ -2,9 +2,26 @@
 title: Commerce 머천다이징 및 프로모션 소개
 description: 타기팅된 프로모션 및 고객 참여 기회 창출을 위한 Commerce 도구에 대해 알아봅니다.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
+TQID: https://experienceleague.adobe.com/2ZEsUmKW8TQM53KFXWxyQGb9h4yFXHsjnFu8q25PCT8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: 1049
 ht-degree: 1%
 
 ---
@@ -45,7 +62,7 @@ Adobe Commerce에서 프로모션 기능을 사용하여 제품 관계를 설정
 
 >[!NOTE]
 >
->특정 제품 특성을 기반으로 조건을 정의하려면 **[!UICONTROL Use for Promo Rule Conditions]** Storefront 속성`Yes`의 특성에 대해 [을(를) &#x200B;](../catalog/attribute-product-create.md)(으)로 설정해야 합니다.
+>특정 제품 특성을 기반으로 조건을 정의하려면 [Storefront 속성](../catalog/attribute-product-create.md)의 특성에 대해 **[!UICONTROL Use for Promo Rule Conditions]**&#x200B;을(를) `Yes`(으)로 설정해야 합니다.
 
 
 ### 가격 규칙
@@ -67,8 +84,7 @@ Adobe Commerce에서 프로모션 기능을 사용하여 제품 관계를 설정
 >[!NOTE]
 >
 >Adobe Commerce 및 Magento Open Source 릴리스 2.4.0 - 2.4.3에는 dotdigital Engagement Cloud와 통합하는 데 사용되는 dotdigital 공급업체가 개발한 확장 프로그램이 포함되어 있습니다. 2.4.4 릴리스부터 이 확장은 더 이상 핵심 릴리스와 번들로 제공되지 않으며 Commerce Marketplace에서 설치하고 업데이트해야 합니다. Marketplace에서는 확장 개발자가 제공하는 현재 설명서에 대한 액세스도 제공합니다.
-><br><br>
->번들 확장을 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 [업그레이드 안내서](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko)의 _업그레이드 모듈_&#x200B;을 참조하십시오.
+><br><br>>번들 확장을 사용 및 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [업그레이드 모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko)을 참조하십시오.
 
 - [뉴스레터](newsletters.md) - 뉴스레터를 생성하고, 구독자 목록을 관리하고, 콘텐츠를 개발하고, 스토어로 트래픽을 유도합니다.
 

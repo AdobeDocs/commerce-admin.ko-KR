@@ -1,11 +1,31 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
-description: Commerce 관리자의 [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] 페이지에서 구성 설정을 검토하십시오.
+title: '[!UICONTROL Catalog] > [!UICONTROL Catalog]'
+description: Commerce 관리자의 [!UICONTROL Catalog] > [!UICONTROL Catalog] 페이지에서 구성 설정을 검토합니다.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: f8849b9cf570b2bc3a9d141ddde320ae36a9294a
+TQID: https://experienceleague.adobe.com/YbozeuP9oPvSfHp1zSajemcBuqgkfrkxbfiJmuD625U
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '3278'
+source-wordcount: 3350
 ht-degree: 0%
 
 ---
@@ -178,7 +198,7 @@ ht-degree: 0%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Display Product Count] | 스토어 뷰 | 각 속성, 가격 범위 및 범주 뒤에 제품 카운트가 표시되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Price Navigation Step Calculation] | 스토어 뷰 | [가격 탐색 단계](../../catalog/navigation-layered.md#configure-price-navigation))를 결정하는 데 사용되는 방법을 결정합니다. 옵션: <br/>`Automatic (equalize price ranges)` - 그룹 내 제품의 가격 범위를 기준으로 합니다. <br/>`Automatic (equalize product counts)` - 그룹 내 제품 수를 기준으로 계산합니다. 그룹의 최소 제품 수에 대한 임계값을 설정하여 더 작은 그룹으로 나누어지지 않도록 합니다. <br/>`Manual` - 가격 간격에 입력한 나누기 제한을 사용합니다. |
+| [!UICONTROL Price Navigation Step Calculation] | 스토어 뷰 | [가격 탐색 단계](../../catalog/navigation-layered.md#configure-price-navigation))를 결정하는 데 사용되는 방법을 결정합니다. 옵션: <br/>`Automatic (equalize price ranges)` - 그룹 내 제품의 가격 범위를 기준으로 합니다. <br/>`Automatic (equalize product counts)` - 그룹의 제품 수를 기반으로 합니다. 그룹의 최소 제품 수에 대한 임계값을 설정하여 더 작은 그룹으로 나누어지지 않도록 합니다. <br/>`Manual` - 가격 간격에 입력한 나누기 제한을 사용합니다. |
 | [!UICONTROL Default Price Navigation Step] | 스토어 뷰 | 각 단계에 포함되는 제품 수를 결정합니다. |
 | [!UICONTROL Maximum Number of Price Intervals] | 스토어 뷰 | 레이어 탐색에 나타나는 가격 간격 수에 대한 제한을 설정합니다. |
 
@@ -262,7 +282,7 @@ Adobe Commerce은 OpenSearch 및 Elasticsearch을 지원합니다. Adobe Commerc
 
 >[!IMPORTANT]
 >
->- 2023년 8월에 Elasticsearch 7의 지원 종료 발표로 인해 Adobe은 모든 Adobe Commerce 고객을 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것을 권장합니다. 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 [업그레이드 안내서](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ko)에서 _OpenSearch로 마이그레이션_&#x200B;을 참조하십시오.
+>- 2023년 8월에 Elasticsearch 7의 지원 종료 발표로 인해 Adobe은 모든 Adobe Commerce 고객을 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것을 권장합니다. 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ko)을 참조하십시오.
 >- 버전 2.4.4 및 2.4.3-p2에서는 Elasticsearch이라는 레이블이 지정된 모든 필드가 OpenSearch에도 적용됩니다. Elasticsearch 8.x에 대한 지원이 버전 2.4.6에 도입되면 Elasticsearch 구성과 OpenSearch 구성을 구별하기 위해 새 레이블이 생성되었습니다. 그러나 두 구성 옵션은 동일합니다.
 
 ![카탈로그 검색 구성 옵션](./assets/catalog-search-opensearch.png){zoomable="yes"}
@@ -286,7 +306,7 @@ Adobe Commerce은 OpenSearch 및 Elasticsearch을 지원합니다. Adobe Commerc
 | [!UICONTROL Enable Search Recommendations] | 스토어 뷰 | 검색 결과가 반환되지 않고 검색 결과 페이지의 `Related search terms` 섹션에 나타날 때 검색 권장 사항이 제공되는지 여부를 결정합니다. 옵션: `Yes` / `No` <br/>예로 설정하면 _[!UICONTROL Search Recommendations Count]_&#x200B;및_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;에 대한 추가 옵션이 표시됩니다. |
 | [!UICONTROL Search Recommendations Count] | 스토어 뷰 | 권장 사항으로 제공된 검색어의 수를 지정합니다. 기본적으로 5개를 넘지 않도록 표시됩니다. |
 | [!UICONTROL Show Results Count for Each Recommendation] | 스토어 뷰 | `Yes`(으)로 설정하면 제안된 검색 권장 사항에 대해 검색된 제품 수가 대괄호 안에 표시됩니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Enable Search Suggestions] | 스토어 뷰 | 일반적인 철자 오류에 대한 검색 제안이 표시되는지 여부를 결정합니다. 활성화하면 결과를 반환하지 않고 `Did you mean`검색 결과&#x200B;**페이지의** 섹션 아래에 표시되는 모든 요청에 대해 검색 제안이 제공됩니다. 검색 제안은 검색 성능에 영향을 줄 수 있습니다. `Yes`(으)로 설정하면 검색 권장 사항 사용 및 관련 필드에 대한 추가 옵션이 표시됩니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Search Suggestions] | 스토어 뷰 | 일반적인 철자 오류에 대한 검색 제안이 표시되는지 여부를 결정합니다. 활성화하면 결과를 반환하지 않고 **검색 결과** 페이지의 `Did you mean` 섹션 아래에 표시되는 모든 요청에 대해 검색 제안이 제공됩니다. 검색 제안은 검색 성능에 영향을 줄 수 있습니다. `Yes`(으)로 설정하면 검색 권장 사항 사용 및 관련 필드에 대한 추가 옵션이 표시됩니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | 스토어 뷰 | 제공되는 검색 제안 수를 결정합니다. 예: `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | 스토어 뷰 | 각 제안에 대한 검색 결과 수를 표시할지 여부를 결정합니다. 테마에 따라 숫자는 제안 후 대괄호 안에 나타납니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | 스토어 뷰 | 검색 결과가 반환되기 위해 일치해야 하는 쿼리의 용어 수에 해당하는 값을 지정합니다. 따라서 쇼핑객에게 최적의 결과 관련성이 보장됩니다. 비율 값은 숫자와 관련이 있으며 필요한 경우 내림차순 처리하여 쿼리에서 일치시킬 최소 용어 수로 사용합니다. 값은 음수 또는 양의 정수, 음수 또는 양의 퍼센트, 두 가지의 조합 또는 다중 조합일 수 있다. 자세한 내용은 OpenSearch 설명서의 [minimum_should_match 매개 변수](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/)을 참조하세요. |

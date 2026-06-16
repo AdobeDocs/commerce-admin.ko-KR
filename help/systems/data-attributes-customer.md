@@ -3,9 +3,25 @@ title: 고객 데이터 속성 참조
 description: 고객 데이터 가져오기 및 내보내기 작업을 수행할 때 이 고객 데이터 속성 참조를 사용합니다.
 exl-id: d22ebfed-f439-4a3f-b39e-e957b65c8c21
 feature: Customers, Attributes
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+TQID: https://experienceleague.adobe.com/-s4plXYkrsdNTL-xxMj41AAxtJJ5q1PKiBUcdnaWhlg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: 483
 ht-degree: 0%
 
 ---
@@ -27,7 +43,7 @@ ht-degree: 0%
 | `created_at` | 고객 계정이 생성된 날짜입니다. |
 | `created_in` | 계정이 생성된 스토어 보기입니다. |
 | `disable_auto_group_change` | VAT ID 유효성 검사 중에 고객 그룹을 동적으로 지정할 수 있는지 여부를 결정합니다. |
-| `dob` | 고객의 생년월일 <br><br>**_중요:_**&#x200B;최신 보안 및 개인 정보 보호 모범 사례를 준수하려면 고객의 전체 생년월일(월, 일, 년)의 저장 및 처리를 검토하십시오. 다른 개인 식별자(예:_전체 이름&#x200B;_)와 함께 수집되는 경우 잠재적인 법적 및 보안상의 위험이 있습니다. 고객의 전체 생년월일 저장을 제한하는 것이 좋으며 대신 고객의 생년월일을 대안으로 사용할 것을 제안합니다. |
+| `dob` | 고객의 생년월일 <br><br>**_Important:_** 최신 보안 및 개인 정보 보호 모범 사례를 준수하려면 고객의 전체 생년월일(월, 일, 년)의 저장 및 처리를 검토하십시오. 다른 개인 식별자(예: _전체 이름_)와 함께 수집되는 경우 잠재적인 법적 및 보안상의 위험이 있습니다. 고객의 전체 생년월일 저장을 제한하는 것이 좋으며 대신 고객의 생년월일을 대안으로 사용할 것을 제안합니다. |
 | `firstname` | 고객의 이름입니다. |
 | `gender` | 고객 성별. |
 | `group_id` | 고객이 할당된 고객 그룹의 ID입니다. |

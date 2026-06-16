@@ -3,16 +3,32 @@ title: 판매자 소싱 유형
 description: 비즈니스에 있는 위치 또는 소스의 수를 기반으로 하는 두 가지 소싱 유형에 대해 알아보십시오.
 exl-id: ec928929-5826-4504-9fd0-84256b37cb39
 feature: Inventory, Products
-source-git-commit: 023716935a6657b0dc2317876debe608e65bf010
+TQID: https://experienceleague.adobe.com/-ABDMLnAibksuQGkdEM683g8JwcUSt2DQERC0WJnQiM
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: 486
 ht-degree: 0%
 
 ---
 
 # 판매자 소싱 유형
 
-[!DNL Commerce]은(는) 웹 사이트, 스토어, 창고 및 직송자의 국제적 네트워크에 하나의 웹 사이트를 포함하는 모든 규모의 비즈니스에 대해 [!DNL Inventory Management]을(를) 지원합니다. Adobe Commerce 또는 Magento Open Source을 사용하는 모든 가맹점은 비즈니스 내 위치 또는 소스의 수를 기반으로 두 가지 유형으로 나뉩니다.
+[!DNL Commerce]은(는) 웹 사이트, 스토어, 창고 및 직송자의 국제적 네트워크에 하나의 웹 사이트를 포함하는 모든 규모의 비즈니스에 대해 [!DNL Inventory Management]을(를) 지원합니다. Adobe Commerce 또는 Magento Open Source을 사용하는 모든 가맹점은 비즈니스 내 위치 또는 소스의 수를 기준으로 두 가지 유형으로 나뉩니다.
 
 - 단일 소스 판매자는 한 곳에서 제품을 배송합니다. 사용자 정의 소스 및 재고를 설치에 추가하기 전까지 단일 소스 판매자/모드로 간주됩니다.
 
