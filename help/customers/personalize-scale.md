@@ -84,7 +84,7 @@ Adobe [!DNL Commerce] 데이터 공유에는 다음 두 가지 주요 구성 요
 
 ### 모든 채널에서 규모에 맞게 개인화된 Storefront 경험
 
-Adobe [!DNL Commerce]은(는) 고성능 상점([Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/))을 활용하여 AI 기능을 핵심으로 하고 속도를 기반으로 모든 채널에 개인화된 경험을 제공할 수 있습니다.
+Adobe [!DNL Commerce]은(는) 고성능 상점([Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=ko))을 활용하여 AI 기능을 핵심으로 하고 속도를 기반으로 모든 채널에 개인화된 경험을 제공할 수 있습니다.
 
 Edge Delivery Services을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 

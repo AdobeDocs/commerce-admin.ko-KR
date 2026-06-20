@@ -199,7 +199,7 @@ ht-degree: 1%
 
 ![SKU 설정별 주문](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
-<!-- [Order by SKU Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
+<!-- [Order by SKU Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/cart/order-by-sku) -->
 
 ![고객 그룹에 대한 SKU별 주문 설정](./assets/sales-order-by-sku-settings.png)<!-- zoom -->
 
