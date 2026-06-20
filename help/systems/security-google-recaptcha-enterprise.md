@@ -37,7 +37,7 @@ ht-degree: 0%
 >
 >이 기능은 관리자에 대한 reCAPTCHA 지원을 제공하지 않습니다.
 
-[reCAPTCHA 통합](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-auth/recaptcha/)은(는) reCAPTCHA Enterprise에 대한 지원을 상점에 추가하는 방법에 대해 설명합니다.
+[reCAPTCHA 통합](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-auth/recaptcha/?lang=ko)은(는) reCAPTCHA Enterprise에 대한 지원을 상점에 추가하는 방법에 대해 설명합니다.
 
 다른 Google reCAPTCHA 버전 구성에 대한 자세한 내용은 [Google reCAPTCHA V3 및 V2](security-google-recaptcha.md)을(를) 참조하십시오.
 

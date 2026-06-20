@@ -58,7 +58,7 @@ Admin Adobe IMS integration is disabled.
 
 * 기존 Commerce 암호(즉, IMS 통합 전에 만든 Commerce 암호)를 기억하는 Commerce 관리자 사용자는 이 암호를 사용하여 관리자에 로그인할 수 있습니다.
 
-* 기존 Commerce 암호가 없거나 Commerce 암호를 잊어버린 관리자 사용자는 새 암호를 만들어야 합니다. 새 암호를 만들려면 관리자는 Commerce 로그인 페이지에서 [!UICONTROL Forgot your password?] 기능을 사용하여 새 암호를 만들 수 있습니다. [고객 암호 재설정](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html)을 참조하세요. Commerce은 빈 암호 필드를 허용하지 않습니다.
+* 기존 Commerce 암호가 없거나 Commerce 암호를 잊어버린 관리자 사용자는 새 암호를 만들어야 합니다. 새 암호를 만들려면 관리자는 Commerce 로그인 페이지에서 [!UICONTROL Forgot your password?] 기능을 사용하여 새 암호를 만들 수 있습니다. [고객 암호 재설정](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/configure/password-reset.html?lang=ko)을 참조하세요. Commerce은 빈 암호 필드를 허용하지 않습니다.
 
 ## 통합을 비활성화한 후
 
