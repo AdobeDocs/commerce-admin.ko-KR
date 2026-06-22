@@ -3,21 +3,12 @@ title: Adobe Commerce용 [!DNL AR Viewer]
 description: ' [!DNL AR Viewer] 이(가) Adobe Commerce 인스턴스에 어떤 이점을 줄 수 있는지, 그리고 확장을 성공적으로 온보딩하고 설정하는 방법에 대해 알아봅니다.'
 exl-id: 9f9f3ff3-2402-4f70-9fc7-031dd2bb3916
 TQID: https://experienceleague.adobe.com/ofebqdDS0exPDKJMLB-mpE0eVjRKT5ck91Fm2-7CVjA
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 247
 ht-degree: 0%
@@ -40,9 +31,9 @@ Pixar에서 개발한 [USD(Universal Scene Description)](https://openusd.org/rel
 
 ## [!DNL AR Viewer] 요구 사항
 
-[!DNL AR Viewer]은(는) [!DNL Magento Open Source] 및 Adobe Commerce 모두와 호환됩니다. 지원되는 버전에 대한 자세한 내용은 [라이프사이클 정책](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html?lang=ko){target=_blank}을 참조하십시오.
+[!DNL AR Viewer]은(는) [!DNL Magento Open Source] 및 Adobe Commerce 모두와 호환됩니다. 지원되는 버전에 대한 자세한 내용은 [라이프사이클 정책](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html){target=_blank}을 참조하십시오.
 
-자세한 내용은 [확장 설치 [!DNL AR Viewer] 2&rbrace;를 참조하십시오.](../catalog/ar-viewer-setup.md)
+자세한 내용은 [확장 설치 [!DNL AR Viewer] 2}를 참조하십시오.](../catalog/ar-viewer-setup.md)
 
 [!DNL AR Viewer]을(를) 사용하려면 인스턴스에 사용할 수 있는 다음 항목이 있어야 합니다.
 
@@ -57,3 +48,4 @@ Pixar에서 개발한 [USD(Universal Scene Description)](https://openusd.org/rel
 * `.USDZ`만 해당: 이 기능은 `.USDZ`개의 파일만 지원합니다.
 * `qr-code`: `endroid/qr-code` 버전 4.5가 필요합니다.
 * `Catalog module`: `magento/module-catalog` 버전 104.0.0이 필요합니다.
+
