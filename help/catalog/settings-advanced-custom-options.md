@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 821
 ht-degree: 0%
@@ -109,3 +109,4 @@ ht-degree: 0%
 | [!UICONTROL Date] | 고객이 날짜 또는 시간을 입력하거나 달력에서 값을 선택할 수 있도록 허용합니다. 옵션: <br />**[!UICONTROL Date]**- 날짜 값에 대한 입력 필드입니다. 날짜를 필드에 직접 입력하거나 목록 또는 달력에서 선택할 수 있습니다. 입력 방법 및 형식은 [날짜 및 시간 옵션](attributes-input-types.md#date-and-time-options) 구성에 따라 결정됩니다.<br />**[!UICONTROL Date & Time]** - 날짜 및 시간 값에 대한 입력 필드입니다.<br />**[!UICONTROL Time]**- 시간 값에 대한 입력 필드. |
 
 {style="table-layout:auto"}
+

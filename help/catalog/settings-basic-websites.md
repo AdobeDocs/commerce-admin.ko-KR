@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 168
 ht-degree: 0%
@@ -53,3 +53,4 @@ _[!UICONTROL Product in Websites]_&#x200B;섹션은 [스토어 계층 구조](..
    기본 통화의 범위가 `website`(으)로 설정되어 있으므로 각 웹 사이트에서 다른 가격으로 제품을 판매할 수 있습니다.
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+

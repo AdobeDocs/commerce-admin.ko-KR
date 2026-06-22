@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 716
 ht-degree: 0%
@@ -138,3 +138,4 @@ Google 개발자 [약관](https://developers.google.com/youtube/terms/developer-
 | [!UICONTROL Role] | 스토어에서 미리보기 이미지가 사용되는 방법을 결정합니다. `Base Image`, `Small Image`, `Thumbnail`, `Swatch Image`, `Hide from Product Page` 옵션 조합을 선택할 수 있습니다. |
 
 {style="table-layout:auto"}
+

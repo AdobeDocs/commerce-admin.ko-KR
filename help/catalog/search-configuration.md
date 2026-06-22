@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 834
 ht-degree: 0%
@@ -146,3 +146,4 @@ ht-degree: 0%
 검색어 반환을 위해 검색 결과가 일치해야 하는 쿼리의 최소 용어 수를 제어하려면 **[!UICONTROL Minimum Terms to Match]**&#x200B;에 대한 값을 지정하십시오. 이 값을 지정하면 쇼핑객의 최적의 결과 관련성을 확보할 수 있습니다. 허용되는 값 목록은 OpenSearch 설명서의 [minimum_should_match 매개 변수](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/)을(를) 참조하십시오.
 
 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
+

@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 259
 ht-degree: 0%
@@ -57,3 +57,4 @@ ht-degree: 0%
 | [!UICONTROL Actions] | 할당된 원본의 경우 **[!UICONTROL Unassign]**&#x200B;을(를) 클릭하여 제품에 사용할 수 없는 원본을 만드십시오. 할당되지 않은 원본의 경우 **[!UICONTROL Assign Sources]**&#x200B;을(를) 클릭하여 제품에 사용할 수 있는 원본을 만드십시오. [!UICONTROL Assign Sources] 옵션에 대한 자세한 내용은 [제품당 소스 할당](../inventory-management/sources-assign-per-product.md)을 참조하십시오. |
 
 {style="table-layout:auto"}
+

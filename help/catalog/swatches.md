@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 1175
 ht-degree: 0%
@@ -186,3 +186,4 @@ color 특성의 _[!UICONTROL Use in Layered Navigation]_&#x200B;속성이 `Yes`(
 1. 이미지, 가격 및 수량 구성이 완료되면 오른쪽 상단의 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    구성 섹션의 하단에 현재 제품 변형이 나타납니다. 구성에 만족하면 **[!UICONTROL Generate Products]**&#x200B;을(를) 클릭합니다.
+
