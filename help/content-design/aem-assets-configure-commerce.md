@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 42029ed6d13cd4203c4a5d8300297315aac1abf5
 workflow-type: tm+mt
 source-wordcount: 1703
 ht-degree: 0%
@@ -290,3 +290,4 @@ Commerce 인스턴스에 통합을 추가하고 활성화하여 자격 증명을
 ## 다음 단계
 
 [Adobe Commerce 및 AEM Assets 프로젝트 환경을 연결하고 에셋 동기화를 위한 일치 전략을 선택합니다](aem-assets-setup-synchronization.md)
+
