@@ -3,7 +3,8 @@ user-guide-title: 고객 관리 안내서
 user-guide-description: Adobe Commerce 및 Magento Open Source 관리자를 위한 고객 계정, 그룹 및 세그먼트 관리 기능에 대한 포괄적인 정보입니다.
 breadcrumb-title: 고객 관리
 feature: Customers
-source-git-commit: da825af42f490845527d4298d1ae5191fe3b6a59
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -56,4 +57,4 @@ ht-degree: 0%
    + [고객 세그먼트 만들기 및 삭제](customer-segment-create.md)
    + [가격 규칙의 고객 세그먼트](customer-segment-price-rule.md)
    + [고객 세그먼트 보고서](customer-segment-reports.md)
-+ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko)
++ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

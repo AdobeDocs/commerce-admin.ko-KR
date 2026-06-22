@@ -4,10 +4,11 @@ user-guide-description: ' [!DNL Inventory Management] 기능을 사용하여 판
 breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 7%
+source-wordcount: '143'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 7%
 # [!DNL Inventory Management] 사용 안내서 {#inventory}
 
 - [Inventory management 안내서](guide-overview.md)
-- [&#x200B; [!DNL Inventory Management] 소개](introduction.md)
+- [ [!DNL Inventory Management] 소개](introduction.md)
 - [릴리스 정보](release-notes.md)
 - 인벤토리 기본 사항 {#basics}
    - [소스 및 재고](sources-stocks.md)
@@ -29,7 +30,7 @@ ht-degree: 7%
    - [인벤토리 확장 및 재구성](expand-restructure.md)
 - 구성 {#configuration}
    - [개요](configuration.md)
-   - [&#x200B; [!DNL Inventory Management] 사용](enable.md)
+   - [ [!DNL Inventory Management] 사용](enable.md)
    - [글로벌 옵션 구성](global-options.md)
    - [제품 옵션 구성](product-options.md)
    - [미납 주문 구성](backorders.md)
@@ -58,4 +59,4 @@ ht-degree: 7%
    - [개요](shipments.md)
    - [배송 만들기](shipments-create.md)
 - [CLI 참조](cli.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
