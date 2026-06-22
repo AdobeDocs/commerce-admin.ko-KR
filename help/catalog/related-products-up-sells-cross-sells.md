@@ -4,11 +4,21 @@ description: 제품의 경우 [!UICONTROL Related Products, Up-Sells, and Cross-
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
 TQID: https://experienceleague.adobe.com/J3CJ88ZZGgyukX9EwMHPtkdygTOAhbd41So4GurqEvA
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 602
@@ -18,7 +28,7 @@ ht-degree: 0%
 
 # 제품 설정 - [!UICONTROL Related Products, Up-Sells, and Cross-Sells]
 
-_[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_섹션을 사용하여 고객이 관심을 가질 수 있는 추가 제품을 제공하는 간단한 홍보용 블록을 설정합니다. 자세한 내용은 [제품 관계](../merchandising-promotions/product-relationships.md)를 참조하세요.
+_[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;섹션을 사용하여 고객이 관심을 가질 수 있는 추가 제품을 제공하는 간단한 홍보용 블록을 설정합니다. 자세한 내용은 [제품 관계](../merchandising-promotions/product-relationships.md)를 참조하세요.
 
 ![관련 제품, 상향 판매 및 교차 판매](./assets/product-related-up-sell-cross-sell.png){width="600" zoomable="yes"}
 
@@ -39,7 +49,7 @@ _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_섹션을 사용하여
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **Adobe AI에서 제공하는 제품 권장 사항**을 사용하면 집계된 방문자 데이터를 심층 분석할 수 있는 인공 지능 및 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 단순화할 수 있습니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
+>![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **Adobe AI에서 제공하는 제품 권장 사항**&#x200B;을 사용하면 집계된 방문자 데이터를 심층 분석할 수 있는 인공 지능 및 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 단순화할 수 있습니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
 ><br/>>수동으로 구성한 제품 권장 사항 및 상향 판매에 대한 대안으로 이 Adobe에서 개발한 확장을 사용하는 방법에 대한 자세한 내용은 _[제품 권장 사항 안내서](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_&#x200B;를 참조하십시오.
 
 ## 관련 제품

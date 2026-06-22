@@ -4,11 +4,21 @@ description: 제품의 경우 [!UICONTROL Design] 설정을 사용하여 제품 
 exl-id: 8606ddc7-ca81-4503-94e5-a8276506c0a1
 feature: Catalog Management, Products, Page Content
 TQID: https://experienceleague.adobe.com/u6VzZ9TiovuSopBcBjmpQTKl3pzh3DoXXzpr8akWp-8
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 284
@@ -18,13 +28,13 @@ ht-degree: 0%
 
 # 제품 설정 - [!UICONTROL Design]
 
-_[!UICONTROL Design]_설정을 사용하면 제품 페이지에 다른 테마를 적용하고, 열 레이아웃을 변경하고, 제품 옵션이 표시되는 위치를 결정하고, 사용자 지정 XML 코드를 입력할 수 있습니다.
+_[!UICONTROL Design]_&#x200B;설정을 사용하면 제품 페이지에 다른 테마를 적용하고, 열 레이아웃을 변경하고, 제품 옵션이 표시되는 위치를 결정하고, 사용자 지정 XML 코드를 입력할 수 있습니다.
 
 ![디자인](./assets/product-design-ee.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->각 범주에 대해 디자인 설정이 다른 여러 범주에 동일한 제품이 할당되면 [검색 엔진 최적화 구성 옵션](../configuration-reference/catalog/catalog.md#search-engine-optimization)에서 **[!UICONTROL Use Categories Path for Product URLs]** = `Yes`을(를) 설정하는 것이 좋습니다. 이 설정에 액세스하려면 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동하여&#x200B;**[!UICONTROL Catalog]**을(를) 확장하고 왼쪽 패널의 아래에 있는&#x200B;**[!UICONTROL Catalog]**을(를) 선택한 다음 페이지의&#x200B;**[!UICONTROL Search Engine Optimization]**섹션을 확장합니다.
+>각 범주에 대해 디자인 설정이 다른 여러 범주에 동일한 제품이 할당되면 [검색 엔진 최적화 구성 옵션](../configuration-reference/catalog/catalog.md#search-engine-optimization)에서 **[!UICONTROL Use Categories Path for Product URLs]** = `Yes`을(를) 설정하는 것이 좋습니다. 이 설정에 액세스하려면 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동하여&#x200B;**[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 왼쪽 패널의 아래에 있는&#x200B;**[!UICONTROL Catalog]**&#x200B;을(를) 선택한 다음 페이지의&#x200B;**[!UICONTROL Search Engine Optimization]**&#x200B;섹션을 확장합니다.
 
 | 필드 | [범위](../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |---|---|----|

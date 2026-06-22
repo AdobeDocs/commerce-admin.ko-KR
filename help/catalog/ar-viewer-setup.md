@@ -3,11 +3,19 @@ title: Adobe Commerce 설정용 [!DNL AR Viewer]
 description: 제품 목록의  [!DNL AR Viewer] 확장을 사용하여 3D 모델 자산을 관리하는 방법에 대해 알아봅니다.
 exl-id: e3f081ff-b994-4842-a1f3-613012d33a9c
 TQID: https://experienceleague.adobe.com/6OlcZ4Psm3INgVm7f-Y9JvqfUdmR6Rg48tcigLAHiaE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 313
@@ -39,7 +47,7 @@ ht-degree: 0%
    >
    >`All Store Views` 범위가 업로드에 사용되지 않는 경우에도 새 제품 3D 모델이 _항상_&#x200B;업로드되어 _모두_ 스토어 보기에 표시됩니다. <br/><br/>특정 스토어 보기에서 제품 3D 모델을 숨기려면 해당 스토어 보기로 전환하고 3D 모델에 대한 **[!UICONTROL Hide from Product Page]** 확인란을 선택한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-1. 아래로 스크롤하여 _[!UICONTROL Product 3D Model]_섹션을 확장합니다.
+1. 아래로 스크롤하여 _[!UICONTROL Product 3D Model]_&#x200B;섹션을 확장합니다.
 
    ![메뉴 팝업](assets/ar-viewer-product-options.png){width="700" zoomable="yes"}
 
