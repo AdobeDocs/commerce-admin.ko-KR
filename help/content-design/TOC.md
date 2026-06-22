@@ -3,9 +3,10 @@ user-guide-title: 콘텐츠 및 디자인 안내서
 user-guide-description: Adobe Commerce 및 Magento Open Source 관리자와 전자 상거래 마케터를 위한 콘텐츠 및 디자인 기능에 대한 포괄적인 정보입니다.
 breadcrumb-title: 컨텐츠 및 디자인
 feature: CMS, Page Content
-source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '262'
 ht-degree: 4%
 
 ---
