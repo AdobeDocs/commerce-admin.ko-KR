@@ -122,7 +122,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 라이브 검색에서 이 속성을 패싯으로 사용하려면 저장소별 레이블을 지정해야 합니다. 없으면 Facet 구성 페이지에 속성 이름이 올바르게 표시되지 않을 수 있습니다. 구성을 업데이트하려면 _Live Search 안내서_&#x200B;의 Live Search 환경 설정 목록[&#128279;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)에서 편집 옵션을 사용하여 레이블을 수동으로 편집하십시오.
+   > 라이브 검색에서 이 속성을 패싯으로 사용하려면 저장소별 레이블을 지정해야 합니다. 없으면 Facet 구성 페이지에 속성 이름이 올바르게 표시되지 않을 수 있습니다. 구성을 업데이트하려면 _Live Search 안내서_&#x200B;의 Live Search 환경 설정 목록[&#128279;](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)에서 편집 옵션을 사용하여 레이블을 수동으로 편집하십시오.
 
 ## 4단계: 상점 속성 설명
 
