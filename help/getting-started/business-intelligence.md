@@ -68,7 +68,7 @@ Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개
 
 * 저장소 URL에 대한 [!DNL Commerce] 구성에서 **[!UICONTROL Use Secure URLs on Storefront]** 및 **[!UICONTROL Use Secure URLs in Admin]**&#x200B;을(를) `Yes`(으)로 설정해야 합니다.
 
-* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html)이(가) 만들어지고 설치된 서버에서 cron 작업이 실행되고 있습니다.
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko)이(가) 만들어지고 설치된 서버에서 cron 작업이 실행되고 있습니다.
 
 >[!NOTE]
 >

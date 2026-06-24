@@ -16,7 +16,7 @@ ht-degree: 12%
 - [Adobe Commerce 판매자 설명서](home.md)
 - [시작](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html?lang=ko)
 - [Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html?lang=ko)
-- [카탈로그 관리](https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html)
+- [카탈로그 관리](https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html?lang=ko)
 - [[!DNL Inventory Management]](https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html?lang=ko)
 - [머천다이징 및 프로모션](https://experienceleague.adobe.com/docs/commerce-admin/marketing/guide-overview.html?lang=ko)
 - [컨텐츠 및 디자인](https://experienceleague.adobe.com/docs/commerce-admin/content-design/guide-overview.html?lang=ko)
