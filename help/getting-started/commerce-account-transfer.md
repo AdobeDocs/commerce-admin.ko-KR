@@ -101,7 +101,7 @@ ht-degree: 0%
 
 새 소유자가 전자 메일 주소를 확인한 후 [마지막 단계](#final-steps)를 계속하면 Adobe Commerce 지원에서 [[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/) 프로필과 같은 계정 레코드를 업데이트할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3447666/?captions=kor&learn=on){transcript=true}
 
 ## 이메일 변경만 {#email-change}
 
