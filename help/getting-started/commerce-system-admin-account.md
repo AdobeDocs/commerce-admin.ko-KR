@@ -27,7 +27,7 @@ ht-degree: 0%
 
 현재 시스템 관리자만 Adobe Admin Console for Adobe 제품 및 서비스(Adobe Commerce 외)에서 시스템 관리자 역할을 할당, 변경 또는 제거할 수 있습니다.
 
-새 시스템 관리자를 할당하거나 App Builder을 포함한 다른 Adobe 제품 및 서비스에 대한 기존 관리자 역할을 변경하려면 기존 관리자가 Adobe Admin Console에 로그인하여 조직의 관리자 역할을 업데이트해야 합니다. [관리자 역할](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles)을 참조하세요.
+새 시스템 관리자를 할당하거나 App Builder을 포함한 다른 Adobe 제품 및 서비스에 대한 기존 관리자 역할을 변경하려면 기존 관리자가 Adobe Admin Console에 로그인하여 조직의 관리자 역할을 업데이트해야 합니다. [관리자 역할](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles)을 참조하세요.
 
 ## 새 시스템 관리자 할당
 
