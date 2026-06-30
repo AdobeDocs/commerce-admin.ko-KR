@@ -6,9 +6,9 @@ role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
 nudge: true
-source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
+source-git-commit: 5254ed25a9cc975bb3acd0b4c2d23f1badfb8558
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
    + [계정 보안](commerce-account-secure.md)
    + [계정 공유](commerce-account-share.md)
    + [계정 양도](commerce-account-transfer.md)
+   + [시스템 관리자 액세스 업데이트](commerce-system-admin-account.md)
 + 사이트 규정 준수 {#compliance}
    + Adobe Commerce의 HIPAA 준비{#hipaa-ready-service}
       + [개요](hipaa/overview.md)
@@ -71,4 +72,4 @@ ht-degree: 0%
    + [에코시스템](resources.md)
    + [확장](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko)
++ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
