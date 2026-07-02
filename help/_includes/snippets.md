@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 구성 설정 {#config}
 
-저장소 구성 설정에 액세스하려면 _관리_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**을(를) 선택하십시오.
+저장소 구성 설정에 액세스하려면 _관리_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;을(를) 선택하십시오.
 
 ## UPS API 사용 중단 {#ups-api}
 
