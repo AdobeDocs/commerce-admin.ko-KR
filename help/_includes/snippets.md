@@ -1,7 +1,7 @@
 ---
 title: 코드 조각
 description: 특정 에디션에 적용되는 기능이나 페이지를 참고하기 위해 노트 및 시각적 요소를 재사용함
-source-git-commit: 35147f5ec256445d4cb1dfb2d48d9cfcdc1ff47e
+source-git-commit: df2920f654bf932385e78f8cc894bae0daee017a
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 0%
@@ -13,19 +13,19 @@ ht-degree: 0%
 ## EE 전용 기능 {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerce 기능" src="../assets/adobe-logo.svg" width="20" height="20" /> 이 기능은 Adobe Commerce에서만 사용할 수 있으며 Magento Open Source에서는 사용할 수 없습니다. (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko#product-editions">자세히 알아보기</a>)</td></tr>
+<tr><td><img alt="Adobe Commerce 기능" src="/help/assets/adobe-logo.svg" width="20" height="20" /> 이 기능은 Adobe Commerce에서만 사용할 수 있으며 Magento Open Source에서는 사용할 수 없습니다. (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko#product-editions">자세히 알아보기</a>)</td></tr>
 </table>
 
 ## B2B 전용 기능 {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce B2B 기능" src="../assets/b2b.svg" width="20" height="20" /> <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ko">Adobe Commerce B2B</a>에서만 사용할 수 있는 전용 기능</td></tr>
+<tr><td><img alt="Adobe Commerce B2B 기능" src="/help/assets/b2b.svg" width="20" height="20" /> <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ko">Adobe Commerce B2B</a>에서만 사용할 수 있는 전용 기능</td></tr>
 </table>
 
 ## CE 전용 기능 {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Magento Open Source 기능" src="../assets/open-source.svg" width="20" height="20" /> Magento Open Source에는 대체 메서드가 필요합니다(<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko#product-editions">자세히 알아보기</a>).</td></tr>
+<tr><td><img alt="Magento Open Source 기능" src="/help/assets/open-source.svg" width="20" height="20" /> Magento Open Source에는 대체 메서드가 필요합니다(<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko#product-editions">자세히 알아보기</a>).</td></tr>
 </table>
 
 ## IMS 관리자 인증 메모 {#ims-admin-note}
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->리디렉션 과정에서 URL에 지정된 모든 GET 매개 변수는 보안상의 이유로 제거됩니다.
+>리디렉션 과정에서 보안상의 이유로 URL에 지정된 모든 GET 매개 변수가 제거됩니다.
 
 ## 새 가격 규칙 {#new-price-rule}
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 | 설명서 리소스 | 설명 |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4 관리 사용 안내서](../landing/home.md) | 관리자에서 작업하는 상인을 위한 설명서 및 리소스입니다. |
+| [Adobe Commerce 2.4 관리 사용 안내서](/help/landing/home.md) | 관리자에서 작업하는 상인을 위한 설명서 및 리소스입니다. |
 | [Adobe Commerce 설명서용 서비스](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=ko) | 판매자가 비즈니스의 주요 구성 요소를 스토어와 통합하는 데 도움이 되는 머천다이징 서비스 컬렉션을 지원하는 설명서입니다. |
 | [Cloud Infrastructure의 Commerce 안내서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html?lang=ko) | 관리되고 자동화된 호스팅 클라우드 플랫폼에서의 Adobe Commerce 배포에 대한 단계별 절차. |
 | [Adobe Commerce 2.4 Operational Guides](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html?lang=ko) | Adobe Commerce on Cloud 및 온프레미스 프로젝트를 개발, 배포 및 유지 관리하기 위한 개념, 프로세스, 도구 및 모범 사례에 대한 시스템 설명서입니다. |
@@ -95,14 +95,14 @@ ht-degree: 0%
 - [!UICONTROL Enable for Forgot Password]
 - [!UICONTROL Enable for Create New Customer Account]
 - [!UICONTROL Enable for Edit Customer Account]
-- [!UICONTROL Enable for Create New Company Account] (Available with Adobe Commerce B2B only)
+- [!UICONTROL Enable for Create New Company Account]&#x200B;(Adobe Commerce B2B에서만 사용 가능)
 - [!UICONTROL Enable for Contact Us]
 - [!UICONTROL Enable for Product Review]
 - [!UICONTROL Enable for Newsletter Subscription]
-- [!UICONTROL Enable for Gift Card] (Adobe Commerce only)
+- [!UICONTROL Enable for Gift Card]&#x200B;(Adobe Commerce 전용)
 - [!UICONTROL Enable for Invitation Create Account]
-- [!UICONTROL Enable for Send To Friend] - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+- [!UICONTROL Enable for Send To Friend] - [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 - [!UICONTROL Enable for Checkout/Placing Order]
 - [!UICONTROL Enable for Wishlist Sharing]
 - [!UICONTROL Enable for Coupon Codes]
-- [!UICONTROL Enable for PayPal PayflowPro payment form] - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+- [!UICONTROL Enable for PayPal PayflowPro payment form] - [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
