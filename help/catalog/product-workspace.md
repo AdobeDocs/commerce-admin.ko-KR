@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9958c3ea938ea5ef743f4b347d11e4f833ee1483
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 492
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 # 제품 작업 영역
 
 사용된 속성 세트에 따라 필드 선택이 변경되지만 제품 작업 영역은 기본적으로 모든 제품 유형에 대해 동일합니다. 제품 속성은 양식 상단에 있으며 다음으로 제품 정보의 확장 가능한 섹션이 옵니다. 새 제품을 처음 저장하면 양식의 왼쪽 상단에 _[!UICONTROL Store View]_&#x200B;선택기가 나타납니다.
+
+>[!NOTE]
+>
+>적용된 카탈로그 보강 업데이트는 양식 맨 위와 **[!UICONTROL Content]** 섹션에 제품 이름에 나타납니다. 자세한 내용은 [카탈로그 보강](catalog-enrichment.md)을 참조하세요.
 
 ![제품 작업 공간](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 

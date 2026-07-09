@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 4bd199ede56ca5a34da513beb305cdba02dfe80d
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: 325
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 # 제품 설정 - [!UICONTROL Content]
 
 _[!UICONTROL Content]_&#x200B;섹션은 제품 페이지에 나타나는 기본 제품 설명을 입력하고 편집하는 데 사용됩니다. 짧은 설명은 대부분의 RSS 피드에서 사용할 수 있으며 [테마](../content-design/themes.md)에 따라 카탈로그 목록에도 표시될 수 있습니다.
+
+>[!NOTE]
+>
+>카탈로그 보강은 이 섹션의 제품 이름과 긴 설명에 AI 권장 업데이트를 적용할 수 있습니다. 자세한 내용은 [카탈로그 보강](catalog-enrichment.md)을 참조하세요.
 
 ## [!DNL Page Builder]에 제품 설명 추가
 
