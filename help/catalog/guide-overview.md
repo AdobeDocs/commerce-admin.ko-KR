@@ -5,26 +5,15 @@ seo-title: Adobe Commerce Catalog Management Guide
 seo-description: Describes how to use the product catalog features for Adobe Commerce and Magento Open Source.
 exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
 TQID: https://experienceleague.adobe.com/HJiD3cpDixdbHlBXmMhkHpEd40eyjEfNBu3MzEDhBL0
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: 329
 ht-degree: 5%
 
 ---
@@ -44,6 +33,7 @@ ht-degree: 5%
 | [카탈로그 검색](search.md) | 고객이 상점 첫 화면에서 제품을 찾는 데 사용할 수 있는 도구를 검토하고 제품 카탈로그에 따라 검색 환경을 구성합니다. |
 | [범주](categories.md) | 상점에서의 쇼핑객 경험을 최적화하는 방식으로 카탈로그의 기본 카테고리 구조를 구축합니다. |
 | [제품](products-list.md) | 여러 옵션, 견본, 사용자 정의 가능한 번들을 사용하여 간단한 것부터 복잡한 것까지 제품을 만들 수 있습니다. 다운로드 가능한 제품 및 서비스 및 기타 유형의 항목이 아닌 가상 제품을 만들 수 있습니다. |
+| [카탈로그 보강](catalog-enrichment.md) | 카탈로그가 LLM 및 AI 지원 검색에서 정확하게 표현되도록 AI가 제안한 개선 사항을 검토하고 제품 이름 및 설명에 적용합니다. |
 | [제품 특성](product-attributes.md) | 제품 옵션에 대한 입력 컨트롤을 사용하여 속성을 만들고 제품 페이지에 추가 정보를 제공합니다. |
 
 {style="table-layout:auto"}

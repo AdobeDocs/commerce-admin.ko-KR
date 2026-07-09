@@ -4,24 +4,14 @@ description: 제품의 경우 [!UICONTROL Search Engine Optimization] 설정은 
 exl-id: 78888094-759c-4e45-afcd-65858ee76159
 feature: Catalog Management, Products, Search
 TQID: https://experienceleague.adobe.com/ya6B95jMPXfOYW785xN7WrmbFOwtKXdcr7yXTDvOAcw
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
 workflow-type: tm+mt
-source-wordcount: 504
+source-wordcount: 531
 ht-degree: 0%
 
 ---
@@ -30,15 +20,19 @@ ht-degree: 0%
 
 _검색 엔진 최적화_(SEO)는 검색 엔진에서 페이지를 인덱싱하는 방식을 개선하기 위해 사이트의 내용과 프레젠테이션을 미세 조정하는 방법입니다.
 
-제품에 대한 _[!UICONTROL Search Engine Optimization]_&#x200B;설정은 검색 엔진에서 제품을 색인화하는 데 사용하는 [URL 키](catalog-urls.md) 및 [메타데이터](../merchandising-promotions/meta-data.md) 필드를 지정합니다. 일부 검색 엔진은 메타 키워드를 무시하지만 다른 검색 엔진은 계속 메타 키워드를 사용합니다. 현재 [SEO 모범 사례](../merchandising-promotions/seo-overview.md)는 메타 제목과 메타 설명에 모두 높은 값의 키워드를 통합하는 것입니다.
+제품에 대한 _[!UICONTROL Search Engine Optimization]_설정은 검색 엔진에서 제품을 색인화하는 데 사용하는 [URL 키](catalog-urls.md) 및 [메타데이터](../merchandising-promotions/meta-data.md) 필드를 지정합니다. 일부 검색 엔진은 메타 키워드를 무시하지만 다른 검색 엔진은 계속 메타 키워드를 사용합니다. 현재 [SEO 모범 사례](../merchandising-promotions/seo-overview.md)는 메타 제목과 메타 설명에 모두 높은 값의 키워드를 통합하는 것입니다.
 
 각 메타데이터 필드의 기본값은 구성에 지정된 값을 기반으로 자동 생성될 수 있습니다. 각 필드에는 실제 값으로 대체되는 자리 표시자가 포함됩니다. 자세한 내용은 [제품 필드 자동 생성](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation)을 참조하세요.
+
+>[!NOTE]
+>
+>카탈로그 보강은 LLM 및 AI 지원 검색에 대한 제품 이름과 설명을 개선하는 데 도움이 됩니다. SEO 메타 필드를 대체하지 않습니다. 자세한 내용은 [카탈로그 보강](catalog-enrichment.md)을 참조하세요.
 
 ## SEO 필드 작성
 
 1. 제품을 편집 모드로 엽니다.
 
-1. 아래로 스크롤하여 _[!UICONTROL Search Engine Optimization]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. 아래로 스크롤하여 _[!UICONTROL Search Engine Optimization]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 ![검색 엔진 최적화](./assets/product-search-engine-optimization.png){width="600" zoomable="yes"}
 
