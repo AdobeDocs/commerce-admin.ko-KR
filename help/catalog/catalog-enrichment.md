@@ -4,7 +4,7 @@ description: Adobe Commerce의 기본 카탈로그 강화 기능을 사용하여
 role: Admin, User, Leader
 recommendations: noCatalog
 hide: true
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->카탈로그 보강은 백그라운드에서 [!DNL Commerce Catalog Agent] 및 [!DNL Adobe LLM Optimizer]에 의해 제공됩니다. 데이터 보강 기능을 Commerce 카탈로그 워크플로의 일부로 사용합니다. 승인된 이름 및 설명 업데이트를 적용하기 위해 별도의 LLM Optimizer 통합을 관리하지 않습니다. Commerce 외부에서 보다 광범위한 LLM 모니터링 및 최적화를 보려면 [LLM Optimizer 제품 설명서](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home)를 참조하세요.
+>카탈로그 보강은 백그라운드에서 [!DNL Commerce Catalog Agent] 및 [!DNL Adobe LLM Optimizer]에 의해 제공됩니다. 데이터 보강 기능을 Commerce 카탈로그 워크플로의 일부로 사용합니다. 승인된 이름 및 설명 업데이트를 적용하기 위해 별도의 LLM Optimizer 통합을 관리하지 않습니다. Commerce 외부에서 보다 광범위한 LLM 모니터링 및 최적화를 보려면 [LLM Optimizer 제품 설명서](https://experienceleague.adobe.com/ko/docs/llm-optimizer/using/home)를 참조하세요.
 
 ## 작동 방식 {#how-it-works}
 
@@ -63,8 +63,8 @@ ht-degree: 0%
 
 - LLM 중심의 크롤링과 크롤링 중심의 봇을 통해 을 이용할 수 있습니다. 카탈로그 추천 기능에 대한 인식이 필요합니다.
 - 필수 Commerce 서비스 및 카탈로그 연결이 활성화되었으며 정상입니다. 자세한 내용은 [카탈로그 데이터 보강 사용](#enable-catalog-enrichment)을 참조하세요.
-- [IMS가 구성되었습니다](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
-- [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)에 액세스할 수 있습니다.
+- [IMS가 구성되었습니다](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations).
+- [Adobe Admin Console](https://helpx.adobe.com/kr/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)에 액세스할 수 있습니다.
 
 > IMS 조직이 없는 경우 Adobe 계정 팀에 문의하여 조직을 프로비저닝하십시오.
 
@@ -81,7 +81,7 @@ ht-degree: 0%
    composer update magento/module-catalog-enrichment
    ```
 
-1. 카탈로그 서비스를 아직 설치하지 않은 경우 [그렇게 합니다](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+1. 카탈로그 서비스를 아직 설치하지 않은 경우 [그렇게 합니다](https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
    이제 Commerce 인스턴스에서 **[!UICONTROL Catalog enrichment]**&#x200B;을(를) 사용할 수 있습니다.
 
