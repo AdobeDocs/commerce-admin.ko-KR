@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 389b8a74eca24e33e2421920ad9d4231ecd9b001
+source-git-commit: 69e598995a3f7fbbb23c4cde3bc28334ef2feafe
 workflow-type: tm+mt
-source-wordcount: 1683
+source-wordcount: 1649
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->카탈로그 보강은 [!DNL Adobe LLM Optimizer]에서 백그라운드에서 수행됩니다. 데이터 보강 기능을 Commerce 카탈로그 워크플로의 일부로 사용합니다. 승인된 이름 및 설명 업데이트를 적용하기 위해 별도의 LLM Optimizer 통합을 관리하지 않습니다. Commerce 외부에서 보다 광범위한 LLM 모니터링 및 최적화를 보려면 [LLM Optimizer 제품 설명서](https://experienceleague.adobe.com/ko/docs/llm-optimizer/using/home)를 참조하세요.
+>카탈로그 보강은 백그라운드에서 [!DNL Commerce Catalog Agent] 및 [!DNL Adobe LLM Optimizer]에 의해 제공됩니다. 데이터 보강 기능을 Commerce 카탈로그 워크플로의 일부로 사용합니다. 승인된 이름 및 설명 업데이트를 적용하기 위해 별도의 LLM Optimizer 통합을 관리하지 않습니다. Commerce 외부에서 보다 광범위한 LLM 모니터링 및 최적화를 보려면 [LLM Optimizer 제품 설명서](https://experienceleague.adobe.com/ko/docs/llm-optimizer/using/home)를 참조하세요.
 
 ## 작동 방식 {#how-it-works}
 
-[!DNL Adobe Commerce] 제품 카탈로그는 이름, 설명, 특성, 가격 및 인벤토리와 같은 제품 데이터의 기록 시스템입니다. Adobe Commerce Storefront MCP(Model Context Protocol)는 라이브 카탈로그 데이터를 Adobe AI 경험에 연결합니다. 여기에서 카탈로그 에이전트는 해당 인터페이스를 사용하므로 [!DNL Adobe LLM Optimizer]이(가) 제품 이름과 긴 설명의 차이를 식별하고, 개선 사항을 제안하고, Commerce 관리에서 검토할 수 있도록 승인된 변경 사항을 Commerce에 다시 쓸 수 있습니다.
+[!DNL Adobe Commerce] 제품 카탈로그는 이름, 설명, 특성, 가격 및 인벤토리와 같은 제품 데이터의 기록 시스템입니다. [!DNL Adobe Commerce] Storefront MCP(모델 컨텍스트 프로토콜)는 라이브 카탈로그 데이터를 Adobe AI 경험에 연결합니다. 여기에서 카탈로그 에이전트는 제품 이름과 긴 설명의 차이를 식별하고, 개선 사항을 제안하고, 승인된 변경 사항을 Commerce에 다시 작성하여 Commerce 관리자에서 검토할 수 있습니다.
 
 카탈로그 강화를 통해 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 - LLM 중심의 크롤링과 크롤링 중심의 봇을 통해 을 이용할 수 있습니다. 카탈로그 추천 기능에 대한 인식이 필요합니다.
 - 필수 Commerce 서비스 및 카탈로그 연결이 활성화되었으며 정상입니다. 자세한 내용은 [카탈로그 데이터 보강 사용](#enable-catalog-enrichment)을 참조하세요.
-- [IMS가 구성되었습니다)](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations).
+- [IMS가 구성되었습니다](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations).
 - [Adobe Admin Console](https://helpx.adobe.com/kr/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)에 액세스할 수 있습니다.
 
 > IMS 조직이 없는 경우 Adobe 계정 팀에 문의하여 조직을 프로비저닝하십시오.
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 ### 카탈로그 보강 구성
 
-Adobe LLM Optimizer이 [!DNL Adobe Commerce] 환경에 연결하여 Commerce 관리에서 제안을 표시할 수 있도록 **[!UICONTROL Settings]** 탭에서 카탈로그 강화를 구성합니다.
+[!DNL Commerce Catalog Agent]이(가) [!DNL Adobe Commerce] 환경에 연결하여 Commerce 관리자에서 제안을 표시할 수 있도록 **[!UICONTROL Settings]** 탭에서 카탈로그 강화를 구성합니다.
 
 1. 관리자에서 **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**(으)로 이동합니다.
 1. 페이지 상단의 **[!UICONTROL Scope]** 목록에서 구성할 저장소 보기를 선택하거나 **[!UICONTROL All Store Views]**&#x200B;을(를) 떠나 저장소 보기 간 설정을 관리합니다.
@@ -107,14 +107,13 @@ Adobe LLM Optimizer이 [!DNL Adobe Commerce] 환경에 연결하여 Commerce 관
 1. 저장소 보기에 필요한 연결 세부 정보를 입력합니다.
 
    - **[!UICONTROL Store View URL]**: 스토어 보기에 해당하는 URL(예: `https://brand.example.com/fr/`).
-   - **[!UICONTROL Environment ID]**: 연결에 액세스하는 Adobe Commerce 환경에 대한 고유 식별자입니다.
+   - **[!UICONTROL Environment ID]**: 연결에 액세스하는 [!DNL Adobe Commerce] 환경에 대한 고유 식별자입니다.
    - **[!UICONTROL Website Code]**, **[!UICONTROL Store Code]** 및 **[!UICONTROL Store View Code]**: Commerce 웹 사이트의 웹 사이트, 스토어 및 스토어 보기 코드. 이러한 값은 Commerce 관리자의 코드와 일치해야 합니다.
 
 1. 선택 사항: 환경에 필요한 경우 **[!UICONTROL Host Name]** 및 **[!UICONTROL API Key]**&#x200B;을(를) 입력합니다.
 
-   - **[!UICONTROL Host Name]**: Adobe Commerce 인스턴스의 호스트 이름입니다.
-   - **[!UICONTROL Adobe Commerce Endpoint]**: 이 필드는 사용되지 않습니다.
-   - **[!UICONTROL API Key]**: Adobe Commerce API에 안전하게 액세스하는 데 사용되는 인증 키입니다. 키를 다른 곳에 복사하려면 필드 옆에 있는 **[!UICONTROL Copy]**&#x200B;을(를) 클릭합니다.
+   - **[!UICONTROL Host Name]**: [!DNL Adobe Commerce] 인스턴스의 호스트 이름입니다.
+   - **[!UICONTROL API Key]**: [!DNL Adobe Commerce] API에 안전하게 액세스하는 데 사용되는 인증 키입니다. 키를 다른 곳에 복사하려면 필드 옆에 있는 **[!UICONTROL Copy]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -129,13 +128,12 @@ Adobe LLM Optimizer이 [!DNL Adobe Commerce] 환경에 연결하여 Commerce 관
 | 필드 | 필수 | 설명 |
 | --- | --- | --- |
 | 보기 URL 저장 | 예 | 스토어 보기에 해당하는 URL(예: `https://brand.example.com/fr/`). |
-| 환경 ID | 예 | 연결이 액세스하는 Adobe Commerce 환경에 대한 고유 식별자입니다. |
+| 환경 ID | 예 | 연결에 액세스하는 [!DNL Adobe Commerce] 환경에 대한 고유 식별자입니다. |
 | 웹 사이트 코드 | 예 | Commerce 웹 사이트의 웹 사이트 코드. |
 | 코드 저장 | 예 | Commerce 웹 사이트의 스토어 코드. |
 | 보기 코드 저장 | 예 | Commerce 웹 사이트의 스토어 보기. |
-| 호스트 이름 | 아니요 | Adobe Commerce 인스턴스의 호스트 이름입니다. |
-| Adobe Commerce 엔드포인트 | 아니요 | 이 필드는 사용되지 않습니다. |
-| API 키 | 아니요 | Adobe Commerce API에 안전하게 액세스하는 데 사용되는 인증 키입니다. 모든 프로덕션 자격 증명처럼 처리합니다. |
+| 호스트 이름 | 아니요 | [!DNL Adobe Commerce] 인스턴스의 호스트 이름입니다. |
+| API 키 | 아니요 | [!DNL Adobe Commerce] API에 안전하게 액세스하는 데 사용되는 인증 키입니다. 모든 프로덕션 자격 증명처럼 처리합니다. |
 
 ### 카탈로그 보강 검토 및 적용 {#review-and-apply}
 
@@ -183,7 +181,7 @@ Adobe LLM Optimizer이 [!DNL Adobe Commerce] 환경에 연결하여 Commerce 관
 
    ![보강된 제품 이름](./assets/enriched-product-name.png)
 
-1. 선택 사항: 대신 수동으로 입력한 이름을 유지하려면 **[!UICONTROL Override LLM Optimizer provided Product Name]**&#x200B;을(를) 선택하십시오.
+1. 선택 사항: 대신 수동으로 입력한 이름을 유지하려면 **[!UICONTROL Override Catalog Agent provided Product Name]**&#x200B;을(를) 선택하십시오.
 
    수동 재정의는 제안이 카탈로그와 계속 동기화되는 방식에 영향을 줍니다. 자세한 내용은 [관리자의 수동 재정의](#manual-override-in-the-admin)를 참조하십시오.
 
@@ -193,7 +191,7 @@ Adobe LLM Optimizer이 [!DNL Adobe Commerce] 환경에 연결하여 Commerce 관
 
    ![제품 설명 보강](./assets/enrich-product-description.png)
 
-1. 선택 사항: 수동으로 입력한 설명을 대신 유지하려면 **[!UICONTROL Override LLM Optimizer provided Description]**&#x200B;을(를) 선택합니다.
+1. 선택 사항: 수동으로 입력한 설명을 대신 유지하려면 **[!UICONTROL Override Catalog Agent provided Description]**&#x200B;을(를) 선택합니다.
 
 수동 재정의는 제안이 카탈로그와 계속 동기화되는 방식에 영향을 줍니다. 자세한 내용은 [관리자의 수동 재정의](#manual-override-in-the-admin)를 참조하십시오.
 
