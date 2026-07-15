@@ -1,7 +1,7 @@
 ---
-source-git-commit: b824e3f0d3c14b75910af9a2def17ce21b599d9b
+source-git-commit: cb1485f26f63f12c825258706c68080c30f15b75
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '247'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,50 @@ ht-degree: 2%
 ## 새로운 기능
 
 이 섹션에는 지난 60일 동안 변경된 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 7월 9일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>관리자에서 AI가 제안하는 제품 이름 및 설명 업데이트를 검토하고 적용하기 위한 지침이 포함된 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/catalog-enrichment">카탈로그 보강</a>을 추가하고 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog-menu">카탈로그 메뉴</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/guide-overview">안내서 개요</a> 및 관련 제품 설정 항목에서 주제를 연결했습니다.</p>
+</td>
+      <td>
+        새 주제
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6cd9281329fd909e38e4bbf41159eadfed2f9ad3">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 6월 30일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Admin Console에서 시스템 관리자 할당 관리에 대한 지침과 함께 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">시스템 관리자 액세스 업데이트</a>를 추가했습니다.</p>
+</td>
+      <td>
+        피드백
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/927b633eaa9af471440cfb950b429a60b3df94a8">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 6월 3일
 
@@ -51,36 +95,6 @@ ht-degree: 2%
         피드백, 기술
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b224cff0c5db4c1b318d3e7165aa34f4662f7e3e">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 5월 12일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>USPS Web Tools API가 2026년 1월 25일에 사용이 중단되었으며 USPS REST API가 이제 유일한 지원 통합 방법임을 반영하도록 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a> 및 관련 통신사 페이지를 업데이트했습니다.</p>
-</td>
-      <td>
-        주요 업데이트, 피드백
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/13155decdb96b62757e1044bb99dcddb1e1f8036">커밋</a></td>
-    </tr>
-    <tr>
-      <td><p>새 B2B 회사 고객 가져오기 및 내보내기, 협상 가능한 견적, 구매 발주, 구매요청 목록, 공유 카탈로그, 회사 관리, 장바구니 및 체크아웃, 프레임워크, GraphQL에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/release-notes#b2b-v153">Adobe Commerce B2B v1.5.3 릴리스 정보</a>와 구매요청 목록 내보내기 경로가 <code>var/export/requisition_lists/</code>(으)로 변경되어 게시되었습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/d87900bf27745154d5a643dc828d5c1abc0130df">커밋</a></td>
     </tr>
   </tbody>
 </table>

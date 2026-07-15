@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 69e598995a3f7fbbb23c4cde3bc28334ef2feafe
+source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
 workflow-type: tm+mt
-source-wordcount: 1649
+source-wordcount: 1697
 ht-degree: 0%
 
 ---
@@ -65,8 +65,11 @@ ht-degree: 0%
 - 필수 Commerce 서비스 및 카탈로그 연결이 활성화되었으며 정상입니다. 자세한 내용은 [카탈로그 데이터 보강 사용](#enable-catalog-enrichment)을 참조하세요.
 - [IMS가 구성되었습니다](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations).
 - [Adobe Admin Console](https://helpx.adobe.com/kr/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)에 액세스할 수 있습니다.
+- 조직은 기본 AI 서비스에 대해 GenAI 라이더에 서명하거나 명시적으로 옵트아웃했습니다.
 
-> IMS 조직이 없는 경우 Adobe 계정 팀에 문의하여 조직을 프로비저닝하십시오.
+>[!NOTE]
+>
+>설정의 일부로, Commerce은 귀사에서 카탈로그 강화 기반 AI 서비스를 다루는 GenAI 라이더에 서명했는지 여부를 확인합니다. 아직 라이더에 서명하지 않았거나 옵트아웃하지 않은 경우 카탈로그 강화를 사용하기 전에 라이더에 서명하거나 업데이트하라는 메시지가 표시됩니다.
 
 ## 카탈로그 보강 활성화 {#enable-catalog-enrichment}
 

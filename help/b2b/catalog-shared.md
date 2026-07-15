@@ -3,7 +3,7 @@ title: 공유 카탈로그 개요
 description: Adobe Commerce B2B에서 제공하는 공유 카탈로그와 이를 사용하여 다양한 회사 계정의 사용자 지정 가격으로 제어된 카탈로그를 유지 관리하는 방법에 대해 알아봅니다.
 exl-id: cf7c9099-9b7d-407b-adb9-06a4815624ee
 feature: B2B, Companies, Catalog Management
-TQID: https://experienceleague.adobe.com/9w---IjoMFMTgsCSfjp8E0W7Xlp0dxvExVyLMCAJw-c
+TQID: https://experienceleague.adobe.com/9w%2D%2D%2DIjoMFMTgsCSfjp8E0W7Xlp0dxvExVyLMCAJw-c
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
 feature_v2:
@@ -22,7 +22,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 97a3e3469e45ec9c7e3316f1ce5ca7894ea2ddb7
 workflow-type: tm+mt
 source-wordcount: 597
 ht-degree: 0%
