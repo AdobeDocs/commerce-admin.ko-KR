@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
+source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
 workflow-type: tm+mt
-source-wordcount: 1697
+source-wordcount: 1653
 ht-degree: 0%
 
 ---
@@ -112,11 +112,7 @@ ht-degree: 0%
    - **[!UICONTROL Store View URL]**: 스토어 보기에 해당하는 URL(예: `https://brand.example.com/fr/`).
    - **[!UICONTROL Environment ID]**: 연결에 액세스하는 [!DNL Adobe Commerce] 환경에 대한 고유 식별자입니다.
    - **[!UICONTROL Website Code]**, **[!UICONTROL Store Code]** 및 **[!UICONTROL Store View Code]**: Commerce 웹 사이트의 웹 사이트, 스토어 및 스토어 보기 코드. 이러한 값은 Commerce 관리자의 코드와 일치해야 합니다.
-
-1. 선택 사항: 환경에 필요한 경우 **[!UICONTROL Host Name]** 및 **[!UICONTROL API Key]**&#x200B;을(를) 입력합니다.
-
    - **[!UICONTROL Host Name]**: [!DNL Adobe Commerce] 인스턴스의 호스트 이름입니다.
-   - **[!UICONTROL API Key]**: [!DNL Adobe Commerce] API에 안전하게 액세스하는 데 사용되는 인증 키입니다. 키를 다른 곳에 복사하려면 필드 옆에 있는 **[!UICONTROL Copy]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -135,8 +131,7 @@ ht-degree: 0%
 | 웹 사이트 코드 | 예 | Commerce 웹 사이트의 웹 사이트 코드. |
 | 코드 저장 | 예 | Commerce 웹 사이트의 스토어 코드. |
 | 보기 코드 저장 | 예 | Commerce 웹 사이트의 스토어 보기. |
-| 호스트 이름 | 아니요 | [!DNL Adobe Commerce] 인스턴스의 호스트 이름입니다. |
-| API 키 | 아니요 | [!DNL Adobe Commerce] API에 안전하게 액세스하는 데 사용되는 인증 키입니다. 모든 프로덕션 자격 증명처럼 처리합니다. |
+| 호스트 이름 | 예 | [!DNL Adobe Commerce] 인스턴스의 호스트 이름입니다. |
 
 ### 카탈로그 보강 검토 및 적용 {#review-and-apply}
 
