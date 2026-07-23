@@ -3,25 +3,15 @@ title: 카탈로그 강화
 description: Adobe Commerce의 기본 카탈로그 강화 기능을 사용하여 LLM 및 AI 지원 검색에 대한 제품 이름 및 긴 설명에 AI가 제안하는 개선 사항을 검토하고 적용합니다.
 role: Admin, User, Leader
 recommendations: noCatalog
-hide: true
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
 workflow-type: tm+mt
-source-wordcount: 1653
+source-wordcount: 2182
 ht-degree: 0%
 
 ---
@@ -32,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->카탈로그 보강은 백그라운드에서 [!DNL Commerce Catalog Agent] 및 [!DNL Adobe LLM Optimizer]에 의해 제공됩니다. 데이터 보강 기능을 Commerce 카탈로그 워크플로의 일부로 사용합니다. 승인된 이름 및 설명 업데이트를 적용하기 위해 별도의 LLM Optimizer 통합을 관리하지 않습니다. Commerce 외부에서 보다 광범위한 LLM 모니터링 및 최적화를 보려면 [LLM Optimizer 제품 설명서](https://experienceleague.adobe.com/ko/docs/llm-optimizer/using/home)를 참조하세요.
+>카탈로그 보강은 백그라운드에서 [!DNL Commerce Catalog Agent] 및 [!DNL Adobe LLM Optimizer]에 의해 제공됩니다. 데이터 보강 기능을 Commerce 카탈로그 워크플로의 일부로 사용합니다. 승인된 이름 및 설명 업데이트를 적용하기 위해 별도의 LLM Optimizer 통합을 관리하지 않습니다. Commerce 외부에서 보다 광범위한 LLM 모니터링 및 최적화를 보려면 [LLM Optimizer 제품 설명서](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home)를 참조하세요.
 
 ## 작동 방식 {#how-it-works}
 
@@ -63,8 +53,8 @@ ht-degree: 0%
 
 - LLM 중심의 크롤링과 크롤링 중심의 봇을 통해 을 이용할 수 있습니다. 카탈로그 추천 기능에 대한 인식이 필요합니다.
 - 필수 Commerce 서비스 및 카탈로그 연결이 활성화되었으며 정상입니다. 자세한 내용은 [카탈로그 데이터 보강 사용](#enable-catalog-enrichment)을 참조하세요.
-- [IMS가 구성되었습니다](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations).
-- [Adobe Admin Console](https://helpx.adobe.com/kr/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)에 액세스할 수 있습니다.
+- [IMS가 구성되었습니다](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
+- [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)에 액세스할 수 있습니다.
 - 조직은 기본 AI 서비스에 대해 GenAI 라이더에 서명하거나 명시적으로 옵트아웃했습니다.
 
 >[!NOTE]
@@ -84,7 +74,7 @@ ht-degree: 0%
    composer update magento/module-catalog-enrichment
    ```
 
-1. 카탈로그 서비스를 아직 설치하지 않은 경우 [그렇게 합니다](https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+1. 카탈로그 서비스를 아직 설치하지 않은 경우 [그렇게 합니다](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
    이제 Commerce 인스턴스에서 **[!UICONTROL Catalog enrichment]**&#x200B;을(를) 사용할 수 있습니다.
 
@@ -240,4 +230,37 @@ ht-degree: 0%
 - 제목 또는 설명을 일괄 적용하기 전에 SEO 및 브랜드 팀과 조정합니다.
 - 주요 카탈로그 가져오기 후 제안을 현재 카탈로그 상태에 반영하도록 다시 동기화하거나 다시 분석합니다.
 
-<!--## Examples This section will provide examples of what enrichment before/after looks like:-->
+## 예
+
+다음 예는 카탈로그 보강으로 원시 기술 특성이 쇼핑객 중심의 서사적 제품 사본으로 바뀌는 방식을 보여 줍니다. LLM은 이를 사용하여 쇼핑 질문에 답변할 수 있습니다.
+
+### 예: 기술적 속성이 있는 커피 제품
+
+커피 retailer의 카탈로그에는 중간 크기의 로스트 커피 원두 제품에 대한 기술 사양이 저장되는데, 원두 종류, 원산지 지역, 가공 방법, 로스트 레벨 및 고도 범위가 있습니다. 이들 분야는 제품에 대해 설명하지만 그 가치를 쇼핑객에게 전달하지 않기 때문에 AI 비서는 &quot;어떤 커피가 부드럽고 저산성 향이 나는가?&quot;와 같은 질문에 답할 때 함께 할 일이 거의 없다.
+
+카탈로그 보강은 쇼핑객 관련 특성을 추론하기 위해 상호 작용하는 방법을 통해 기술적 특성과 이유를 읽습니다.
+
+| 기술 속성 | 특성 유추 | 추론 |
+| --- | --- | --- |
+| 허니 프로세스, Medium 로스트 | 낮은 산도 | 꿀을 가공하는 과정에서 콩에 남겨진 과일 점액질이 산성을 억제하고, 미디엄 로스트는 잔류 산성 화합물을 분해한다. |
+| 꿀 가공, 아라비카, Medium 로스트 | 헤이즐넛 맛 | 점액에서 나오는 과일당은 중간 굽기에서 증폭되는 아라비카의 천연 견과류와 결합합니다. |
+| 아라비카 벌꿀법 | 풍부하고 부드러운 입 냄새 | 건조 시 점액에서 흡수된 기름은 점성과 신체를 더해준다. |
+| 꿀 공정, 고도 900-1200m | 캐러멜 함축 | 고랭지 콩의 밀도가 높을수록 더 복잡한 당분이 생기며, 꿀 가공으로 더 깊어집니다. |
+
+카탈로그 보강은 제품 사본에 다음과 같이 추론된 특성을 적용합니다.
+
+- **이전**: &quot;Medium 커피 원두 로스팅 - 아라비카, 브라질 미나스 제라이스, 허니 프로세스, 900-1200m&quot;
+- **후**: &quot;브라질의 미나스 제라이스에서 900-1200m에서 재배된 아라비카 콩, 꿀 가공 및 중간 배소, 독특한 헤이즐넛 특성, 캐러멜 색조 및 낮은 산도를 가진 자연적으로 달콤하고 크리미 있는 입 맛을 냅니다. 일관되고 접근 가능한 스페셜티 커피는 쏟아지는 것을 통해 가장 잘 경험합니다.&quot;
+
+업데이트된 이름과 설명은 Commerce 카탈로그에 직접 저장되므로 상점, LLM 피드 및 이러한 필드를 읽는 기타 채널은 모두 동일한 보강된 사본을 반영합니다.
+
+### 예: 모듈식 가구 구성
+
+가구 retailer은 모듈형 단면 소파를 판매하며 제품 설명에 구성 코드와 패브릭 이름(예: `6 Standard Seats + 6 Standard Sides in Sapphire Navy Corded Velvet`)만 나열되어 있습니다. 이 속기는 재방문 고객이 이해할 수 있지만 AI 어시스턴트에게 제품의 작동 방식 또는 내구성이 뛰어나고 편안한 면에 대한 컨텍스트를 거의 주지 않습니다.
+
+카탈로그 강화를 통해 구성 및 패브릭 속성을 각 구성 요소의 기능과 쇼핑객에게 중요한 이유에 대해 설명하는 설명 형식으로 확장합니다.
+
+- **이전**: &quot;표준 좌석 6개 + 사파이어 네이비 코드 벨벳 표준 좌석 6개&quot;
+- **After**: &quot;이 구성에는 6개의 표준 시트 삽입 세트와 6개의 표준 사이드 인서트가 포함되어 있습니다. 이 인서트는 팔이나 등과 같은 기능을 하며 레이아웃의 모듈식 구성 요소를 형성합니다. 각 시트에는 상승도와 처짐을 방지하기 위해 설계된 3개의 고밀도 레이어가 있는 표준 폼이 있습니다. 사파이어 네이비 코디드 벨벳 커버는 고급스러운 만큼 내구성이 강하며 은은한 광택과 부드럽고 플러시 느낌을 주는 질감의 코드가 특징이다. 커버는 정밀하고 맞춤화된 룩을 위해 손으로 꿰매어져 있으며 기계 세척이 가능하고 변경 가능하기 때문에 귀하의 공간에 따라 단면화가 가능합니다.&quot;
+
+보강된 설명이 카탈로그에 다시 기록되므로 AI는 쇼핑객이 페이지에서 볼 수 있는 레이아웃이나 디자인을 변경하지 않고도 제품의 카탈로그 데이터를 소비하는 다운스트림 채널 또는 피드뿐만 아니라 Commerce의 제품 세부 사항 페이지에서도 사용할 수 있습니다.
