@@ -60,7 +60,7 @@ Adobe 커뮤니티에 소속되어 있고 새 문서를 만들거나 주요 변�
 
 ### Adobe 직원의 주요 변경 사항
 
-Adobe Experience Cloud 솔루션에 대한 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발자이고 기술 문서에 기여하거나 기술 문서를 작성하는 것이 본인의 직무인 경우 개인 리포지토리(`https://github.com/Adobe-Enterprise-Docs/commerce-admin.en`)를 사용해야 합니다.
+Adobe Experience Cloud 솔루션에 대한 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발자이고 기술 문서에 기여하거나 기술 문서를 작성하는 것이 본인의 직무인 경우 개인 리포지토리(`https://github.com/Adobe-Enterprise-Docs/commerce-admin.ko-KR`)를 사용해야 합니다.
 
 ## 도구 및 설정
 
