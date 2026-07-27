@@ -1,7 +1,7 @@
 ---
-source-git-commit: 81482dab56e358bd81c1170029adaef0191509cb
+source-git-commit: 3f4cbfe6fe2ff878022edf80e1781ac5aded0c86
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,11 @@ ht-degree: 0%
 
 ### 후크가 수행하는 작업
 
-- 스테이징된 이미지 파일(PNG, JPG, JPEG, GIF, SVG) 자동 감지
-- `image_optim`을(를) 실행하여 이미지 압축 및 최적화
+- 준비된 이미지 파일(`.png`, `.jpeg`, `.jpg`, `.gif`, `.svg`) 자동 감지
+- `image_optim`을(를) 실행하여 래스터 이미지(`.png`, `.jpeg`, `.jpg`, `.gif`)를 압축하고 최적화합니다.
 - 최적화된 이미지 자동 재스테이지
-- 커밋된 모든 이미지가 올바르게 최적화되었는지 확인
+- 커밋된 모든 래스터 이미지가 올바르게 최적화되었는지 확인
+- 크기 제한에 대해 준비된 SVG를 확인하고 `help/`에서 크기가 초과된 SVG을 참조하는 경우 커밋을 중단합니다(그렇지 않으면 경고만 함).
 
 ### 이점
 
@@ -43,13 +44,13 @@ ht-degree: 0%
 
 ## Adobe 콘텐츠에 대한 귀하의 기여 관련 정보
 
-[Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ko)를 참조하세요.
+[Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)를 참조하세요.
 
 기여 방식은 기여자 및 기여 하고자 하는 변경 사항의 종류에 따라 다릅니다.
 
 ### 사소한 변경 사항
 
-부분 업데이트에 기여하는 경우 문서를 방문하여 문서 하단에 나타나는 피드백 영역을 클릭하고 **자세한 피드백 옵션**&#x200B;을 클릭한 다음 **편집 제안**&#x200B;을 클릭하여 GitHub의 Markdown 소스 파일로 이동하십시오. GitHub UI를 사용하여 업데이트를 만듭니다. 자세한 내용은 일반 [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ko)를 참조하십시오.
+부분 업데이트에 기여하는 경우 문서를 방문하여 문서 하단에 나타나는 피드백 영역을 클릭하고 **자세한 피드백 옵션**&#x200B;을 클릭한 다음 **편집 제안**&#x200B;을 클릭하여 GitHub의 Markdown 소스 파일로 이동하십시오. GitHub UI를 사용하여 업데이트를 만듭니다. 자세한 내용은 일반 [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)를 참조하십시오.
 
 이 저장소의 설명서 및 코드 샘플에 대해 사용자가 제출하는 부분 수정 또는 설명은 Adobe 사용 약관의 적용을 받습니다.
 
@@ -59,13 +60,13 @@ Adobe 커뮤니티에 소속되어 있고 새 문서를 만들거나 주요 변�
 
 ### Adobe 직원의 주요 변경 사항
 
-Adobe Experience Cloud 솔루션에 대한 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발자이고 기술 문서에 기여하거나 기술 문서를 작성하는 것이 본인의 직무인 경우 개인 리포지토리(`https://github.com/Adobe-Enterprise-Docs/commerce-admin.ko-KR`)를 사용해야 합니다.
+Adobe Experience Cloud 솔루션에 대한 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발자이고 기술 문서에 기여하거나 기술 문서를 작성하는 것이 본인의 직무인 경우 개인 리포지토리(`https://github.com/Adobe-Enterprise-Docs/commerce-admin.en`)를 사용해야 합니다.
 
 ## 도구 및 설정
 
 커뮤니티 기여자는 기본 편집에 GitHub UI를 사용하거나 리포지토리를 포크하여 크게 기여할 수 있습니다.
 
-자세한 내용은 [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ko)를 참조하십시오.
+자세한 내용은 [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)를 참조하십시오.
 
 ## Markdown을 사용하여 주제 서식을 지정하는 방법
 
