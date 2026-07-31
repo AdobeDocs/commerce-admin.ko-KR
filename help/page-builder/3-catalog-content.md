@@ -201,7 +201,7 @@ ht-degree: 0%
 
    이 예제에서는 레이블에 `My Page Builder Attribute`을(를) 사용합니다.
 
-1. **[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;을(를) `Page Builder`(으)로 설정합니다. [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+1. **[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;을(를) `Page Builder`(으)로 설정합니다. [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
    사용자 지정 특성을 만들 때 응용 프로그램에 가장 적합한 편집기를 `Page Builder` 또는 표준 WYSIWYG `Text Editor`(으)로 지정할 수 있습니다.
 
