@@ -4,11 +4,23 @@ description: ' [!DNL Page Builder] 스테이지에서 일러스트레이션된 �
 exl-id: 287d866c-8a63-4531-8c1b-40d560a07947
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/Z3u2nUxV3UEj9-yI0miZj36iLikFbcOCJKX2GiLWjVo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 last-update: 2023-09-11
 source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
@@ -57,7 +69,7 @@ _배너_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](workspace
 
    ![배너 콘텐츠 형식을 스테이지로 드래그](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   _[!UICONTROL Upload Image]_및_[!UICONTROL Select from Gallery]_ 버튼이 포함되어 있으므로 스테이지에서 직접 배너 콘텐츠를 빠르게 변경할 수 있습니다. _[!UICONTROL Edit Banner]_페이지에서 내용을 변경할 수도 있습니다.
+   _[!UICONTROL Upload Image]_&#x200B;및_[!UICONTROL Select from Gallery]_ 버튼이 포함되어 있으므로 스테이지에서 직접 배너 콘텐츠를 빠르게 변경할 수 있습니다. _[!UICONTROL Edit Banner]_&#x200B;페이지에서 내용을 변경할 수도 있습니다.
 
 1. 배너 자리 표시자를 클릭하여 [텍스트 편집기](../content-design/editor.md)를 표시하고 배너의 콘텐츠를 입력합니다.
 
@@ -74,7 +86,7 @@ _배너_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] 단계](workspace
    - [[!UICONTROL Background]](#background)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. 완료되면 오른쪽 상단의 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 _[!UICONTROL Edit Banner]_페이지를 닫습니다.
+1. 완료되면 오른쪽 상단의 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 _[!UICONTROL Edit Banner]_&#x200B;페이지를 닫습니다.
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 설정을 적용하고 [!DNL Page Builder] 작업 영역으로 돌아갑니다.
 
@@ -190,7 +202,7 @@ _배경 유형_&#x200B;을(를) `Image`(으)로 설정하는 경우 다음 설�
 
 ### 비디오 유형 설정
 
-_[!UICONTROL Background Type]_을(를) `Video`(으)로 설정하는 경우 다음 설정을 사용하여 배경 이미지 표시를 정의합니다.
+_[!UICONTROL Background Type]_&#x200B;을(를) `Video`(으)로 설정하는 경우 다음 설정을 사용하여 배경 이미지 표시를 정의합니다.
 
 - **[!UICONTROL Video URL]** - 올바른 비디오 URL을 입력하십시오. 유효한 비디오 URL은 다음에 대한 링크일 수 있습니다.
 
@@ -230,7 +242,7 @@ _[!UICONTROL Background Type]_을(를) `Video`(으)로 설정하는 경우 다�
 
 1. 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="25"} ) 아이콘을 선택하려면 배너 컨테이너 위로 마우스를 가져갑니다.
 
-1. _[!UICONTROL Content]_섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Message Text]**편집기를 사용하여 배너 텍스트를 입력하고 서식을 지정합니다.
+1. _[!UICONTROL Content]_&#x200B;섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Message Text]**&#x200B;편집기를 사용하여 배너 텍스트를 입력하고 서식을 지정합니다.
 
    텍스트 링크, 이미지 및 위젯과 같은 요소를 삽입할 수도 있습니다.
 
@@ -247,7 +259,7 @@ _[!UICONTROL Background Type]_을(를) `Video`(으)로 설정하는 경우 다�
 
    >[!NOTE]
    >
-   >2.4.1 릴리스부터 [!DNL Page Builder]은(는) 상점에서의 표시 문제로 인해 더 이상 배너 및 중첩된 텍스트 내의 링크 연결을 지원하지 않습니다. _[!UICONTROL Message Text]_에서 링크를 사용하는 경우_[!UICONTROL Link]_ 옵션을 구성할 수 없습니다. 전체 배너에 대해 하나의 링크를 사용하려는 경우 텍스트에서 모든 링크를 제거할 수 있습니다.<br/>
+   >2.4.1 릴리스부터 [!DNL Page Builder]은(는) 상점에서의 표시 문제로 인해 더 이상 배너 및 중첩된 텍스트 내의 링크 연결을 지원하지 않습니다. _[!UICONTROL Message Text]_&#x200B;에서 링크를 사용하는 경우&#x200B;_[!UICONTROL Link]_ 옵션을 구성할 수 없습니다. 전체 배너에 대해 하나의 링크를 사용하려는 경우 텍스트에서 모든 링크를 제거할 수 있습니다.<br/>
    >
    >![링크 구성이 차단됨](./assets/pb-nested-link-blocked.png){width="200"}
 
