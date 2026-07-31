@@ -4,11 +4,21 @@ description: 제품 특성에 사용할 수 있는 입력 유형에 대해 알�
 exl-id: c35b3b9d-57b0-4c33-abdb-662ac6d0260e
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/8WwqU3ZSqmORqSD2061Pa5MTRqYbH71dOxouz-nLwbo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
 source-wordcount: 804
@@ -27,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Text Field] | 텍스트를 위한 한 줄 입력 필드입니다. |
 | [!UICONTROL Text Area] | 제품 설명과 같은 텍스트 단락을 입력하기 위한 여러 줄 입력 필드입니다. WYSIWYG 편집기 를 사용하여 HTML 태그로 텍스트 서식을 지정하거나 텍스트에 태그를 직접 입력할 수 있습니다. |
 | [!UICONTROL Text Editor] | 속성 위치에서 완전히 작동하는 텍스트 편집기입니다. |
-| [!UICONTROL Date] | [기본 설정 형식](#date-and-time-options) 및 [시간대](../getting-started/store-details.md#locale-options)로 날짜 값을 표시합니다. 날짜 값은 목록 또는 달력(![달력 아이콘](../assets/icon-calendar.png))에서 선택할 수 있습니다. <br/><br/>**_참고:_**시스템 구성에 따라_&#x200B;관리자_ 사용자는 필드에 날짜를 직접 입력하거나 달력 또는 목록에서 날짜를 선택할 수 있습니다. 날짜 및 시간 값 지정에 대한 자세한 내용은 [날짜 및 시간 옵션](#date-and-time-options)을 참조하세요. |
+| [!UICONTROL Date] | [기본 설정 형식](#date-and-time-options) 및 [시간대](../getting-started/store-details.md#locale-options)로 날짜 값을 표시합니다. 날짜 값은 목록 또는 달력(![달력 아이콘](../assets/icon-calendar.png))에서 선택할 수 있습니다. <br/><br/>**_참고:_**&#x200B;시스템 구성에 따라_&#x200B;관리자_ 사용자는 필드에 날짜를 직접 입력하거나 달력 또는 목록에서 날짜를 선택할 수 있습니다. 날짜 및 시간 값 지정에 대한 자세한 내용은 [날짜 및 시간 옵션](#date-and-time-options)을 참조하세요. |
 | [!UICONTROL Date and Time] | 날짜 및 시간 값을 [기본 설정 형식](#date-and-time-options) 및 [표준 시간대](../getting-started/store-details.md#locale-options)로 표시합니다. 날짜 및 시간은 수동으로 입력하거나 달력에서 선택할 수 있습니다. 예제 형식: MM/DD/YYYY HH:MM |
 | [!UICONTROL Yes/No] | `Yes` 및 `No`의 사전 정의된 옵션이 있는 드롭다운 목록을 표시합니다. |
 | 드롭다운 | 단일 선택 항목만 허용하는 값의 드롭다운 목록을 표시합니다. 드롭다운 입력 유형은 [구성 가능한 제품](../catalog/product-create-configurable.md)의 주요 구성 요소입니다. |

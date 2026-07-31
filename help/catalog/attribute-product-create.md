@@ -4,11 +4,21 @@ description: 카탈로그에 있는 제품의 특정 특성을 설명하는 데 
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/6N9gBrz24wtV4ljexgluyonOcjVbP8p2fQUQaLyJo3Q
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
 source-wordcount: 922
@@ -18,7 +28,7 @@ ht-degree: 0%
 
 # 제품 속성 만들기 및 삭제
 
-제품이나 _[!UICONTROL Product Attributes]_페이지에서 작업하는 동안 특성을 만들 수 있습니다. 다음 단계에서는_[!UICONTROL Stores]_ 메뉴에서 특성을 만드는 방법을 보여 줍니다.
+제품이나 _[!UICONTROL Product Attributes]_&#x200B;페이지에서 작업하는 동안 특성을 만들 수 있습니다. 다음 단계에서는&#x200B;_[!UICONTROL Stores]_ 메뉴에서 특성을 만드는 방법을 보여 줍니다.
 
 ## 1단계: 기본 속성 속성 설명
 
@@ -38,7 +48,7 @@ ht-degree: 0%
 
 1. [!UICONTROL Dropdown] 및 [!UICONTROL Multiple Select] 입력 유형에 대해 다음을 수행합니다.
 
-   - _[!UICONTROL Manage Options]_에서&#x200B;**[!UICONTROL Add Option]**을(를) 클릭합니다.
+   - _[!UICONTROL Manage Options]_&#x200B;에서&#x200B;**[!UICONTROL Add Option]**&#x200B;을(를) 클릭합니다.
 
    - 목록에 표시할 첫 번째 값을 입력합니다.
 
@@ -60,7 +70,7 @@ ht-degree: 0%
 
    ![제품 특성 - 고급 속성](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
-   사용 가능한 옵션은 _[!UICONTROL Catalog Input Type for Store Owner]_설정에 따라 다릅니다.
+   사용 가능한 옵션은 _[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;설정에 따라 다릅니다.
 
 1. [스토어 계층 구조](../getting-started/websites-stores-views.md)에서 특성을 사용할 수 있는 위치를 나타내려면 **[!UICONTROL Scope]**&#x200B;을(를) 설정하십시오.
 
@@ -81,8 +91,8 @@ ht-degree: 0%
 
 1. 이 특성을 [제품 목록](products-list.md)에 추가하려면 다음 옵션을 `Yes`(으)로 설정하십시오.
 
-   - **열 옵션에 추가** - 특성을 _[!UICONTROL Products]_목록에 열로 포함합니다.
-   - **필터 옵션에서 사용** - _[!UICONTROL Products]_목록의 열 헤더에 필터 컨트롤을 추가합니다.
+   - **열 옵션에 추가** - 특성을 _[!UICONTROL Products]_&#x200B;목록에 열로 포함합니다.
+   - **필터 옵션에서 사용** - _[!UICONTROL Products]_&#x200B;목록의 열 헤더에 필터 컨트롤을 추가합니다.
 
 ## 3단계: 필드 레이블 입력
 
@@ -96,7 +106,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 라이브 검색에서 이 속성을 패싯으로 사용하려면 저장소별 레이블을 지정해야 합니다. 없으면 Facet 구성 페이지에 속성 이름이 올바르게 표시되지 않을 수 있습니다. 구성을 업데이트하려면 _Live Search 안내서_&#x200B;의 Live Search 환경 설정 목록](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)에서 [편집 옵션을 사용하여 레이블을 수동으로 편집하십시오.
+   > 라이브 검색에서 이 속성을 패싯으로 사용하려면 저장소별 레이블을 지정해야 합니다. 없으면 Facet 구성 페이지에 속성 이름이 올바르게 표시되지 않을 수 있습니다. 구성을 업데이트하려면 _Live Search 안내서_&#x200B;의 Live Search 환경 설정 목록[&#128279;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)에서 편집 옵션을 사용하여 레이블을 수동으로 편집하십시오.
 
 ## 4단계: 상점 속성 설명
 
@@ -104,7 +114,7 @@ ht-degree: 0%
 
    ![제품 특성 - 상점 속성](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
-   사용 가능한 옵션은 _[!UICONTROL Catalog Input Type for Store Owner]_설정에 따라 다릅니다.
+   사용 가능한 옵션은 _[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;설정에 따라 다릅니다.
 
 1. 특성을 검색할 수 있게 하려면 **[!UICONTROL Use in Search]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 

@@ -4,11 +4,18 @@ description: ' [!DNL Page Builder] 페이지에 제품 목록을 추가하는 �
 exl-id: f2a0dc29-6d8f-4b97-a947-72659c01d0cb
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/aJlgMXqFCj0Fu-BbZ2e8YcfAKYppBedwfNHaGxvlgT0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 source-git-commit: f398faf7cb1fef1b04926ac6e475fc7bfa67cb9d
 workflow-type: tm+mt
 source-wordcount: 1533
@@ -32,11 +39,11 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**(으)로 이동합니다.
 
-1. 첫 번째 연습에서 만들고 두 번째 연습에서 수정한 _단순 페이지_&#x200B;를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 선택합니다.
+1. 첫 번째 연습에서 만들고 두 번째 연습에서 수정한 _단순 페이지_&#x200B;를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Content]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 **[!UICONTROL Edit with Page Builder]** 또는 콘텐츠 미리 보기 영역 내부를 클릭합니다.
 
-1. _[!UICONTROL Layout]_아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Row]**을(를) 단계 맨 위로 드래그합니다.
+1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Row]**&#x200B;을(를) 단계 맨 위로 드래그합니다.
 
 1. [!DNL Page Builder] 패널에서 **[!UICONTROL Add Content]**&#x200B;을(를) 확장하고 **[!UICONTROL Products]** 자리 표시자를 새 행으로 드래그합니다.
 
@@ -54,7 +61,7 @@ ht-degree: 0%
 
    - _추가_(![추가 아이콘](../assets/icon-add-green-circle.png)) 아이콘을 클릭합니다.
 
-   - _[!UICONTROL Product Attribute]_에서&#x200B;**[!UICONTROL Category]**을(를) 선택합니다.
+   - _[!UICONTROL Product Attribute]_&#x200B;에서&#x200B;**[!UICONTROL Category]**&#x200B;을(를) 선택합니다.
 
      ![조건에 대한 범주 특성 선택](./assets/pb-add-content-products-settings-condition.png){width="600" zoomable="yes"}
 
@@ -86,7 +93,7 @@ ht-degree: 0%
 
 1. 스테이지의 오른쪽 위 모서리에서 _전체 화면 닫기_(![전체 화면 닫기 아이콘](./assets/pb-icon-reduce.png){width="20"} ) 아이콘을 클릭합니다.
 
-   이 아이콘을 클릭하면 미리보기가 표시된 페이지의 _[!UICONTROL Content]_섹션으로 돌아갑니다.
+   이 아이콘을 클릭하면 미리보기가 표시된 페이지의 _[!UICONTROL Content]_&#x200B;섹션으로 돌아갑니다.
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
@@ -104,13 +111,13 @@ ht-degree: 0%
 
 1. 아래로 스크롤하여 **[!UICONTROL Content]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
-1. _[!UICONTROL Description]_옆에 있는&#x200B;**[!UICONTROL Edit with Page Builder]**을(를) 클릭합니다.
+1. _[!UICONTROL Description]_&#x200B;옆에 있는&#x200B;**[!UICONTROL Edit with Page Builder]**&#x200B;을(를) 클릭합니다.
 
    ![제품 설명 컨텐츠](./assets/pb-catalog-product-content.png){width="600" zoomable="yes"}
 
    이전에 [!DNL Page Builder] 없이 제품 설명을 입력한 경우 현재 설명은 [HTML 코드](html-code.md) 컨테이너에 HTML으로 표시됩니다. Luma 테마를 사용하면 제품 설명이 세부 사항 탭에 표시됩니다.
 
-1. _[!UICONTROL Layout]_아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Row]**을(를) 스테이지로 드래그하여 HTML 코드 컨테이너 아래에 놓습니다.
+1. _[!UICONTROL Layout]_&#x200B;아래의 [!DNL Page Builder] 패널에서&#x200B;**[!UICONTROL Row]**&#x200B;을(를) 스테이지로 드래그하여 HTML 코드 컨테이너 아래에 놓습니다.
 
    행이 올바른 위치에 있을 때 빨간색 지침이 나타나는지 확인합니다.
 
@@ -142,7 +149,7 @@ ht-degree: 0%
 
 1. 스테이지의 오른쪽 위 모서리에서 _전체 화면 닫기_(![전체 화면 닫기 아이콘](./assets/pb-icon-reduce.png){width="20"} ) 아이콘을 클릭합니다.
 
-   이 아이콘을 클릭하면 미리보기가 표시된 페이지의 _[!UICONTROL Content]_섹션으로 돌아갑니다.
+   이 아이콘을 클릭하면 미리보기가 표시된 페이지의 _[!UICONTROL Content]_&#x200B;섹션으로 돌아갑니다.
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Save]** 화살표를 클릭하고 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
@@ -166,17 +173,17 @@ ht-degree: 0%
 
 1. 다음 속성을 사용하여 제품을 만듭니다.
 
-   - 
+   - &#x200B;
      [!UICONTROL 속성 세트]: Default
    - [!UICONTROL Product Name]: 내 제품
-   - 
+   - &#x200B;
      [!UICONTROL SKU]: Tutorial
-   - 
+   - &#x200B;
      [!UICONTROL Price]: 75.00
-   - 
+   - &#x200B;
      [!UICONTROL Quantity]: 100
    - [!UICONTROL Stock Status]: 재고 있음
-   - 
+   - &#x200B;
      [!UICONTROL Weight]: 1
    - [!UICONTROL Categories]: 여성 > 위쪽 > 티
 
@@ -205,20 +212,20 @@ ht-degree: 0%
    - [!UICONTROL Attribute Code]: 공백 대신 하이픈을 사용하여 속성 코드를 소문자로 입력하십시오. 이 예제에서는 `my_page_builder_attribute`을(를) 사용합니다.
    - [!UICONTROL Scope]: 기본값 `Store View`을(를) 사용합니다.
    - [!UICONTROL Default Value]: 특성의 기본값을 입력하십시오.
-   - 
+   - &#x200B;
      [!UICONTROL Unique Value]: `No`
-   - 
+   - &#x200B;
      [!UICONTROL Add to Column Options]: `No`
-   - 
+   - &#x200B;
      [!UICONTROL Use in Filter Options]: `Yes`
 
-1. 왼쪽의 _[!UICONTROL Attribute Information]_패널에서&#x200B;**[!UICONTROL Storefront Properties]**을(를) 선택하고 다음 설정을 만듭니다.
+1. 왼쪽의 _[!UICONTROL Attribute Information]_&#x200B;패널에서&#x200B;**[!UICONTROL Storefront Properties]**&#x200B;을(를) 선택하고 다음 설정을 만듭니다.
 
-   - 
+   - &#x200B;
      [!UICONTROL Use for Promo Rule Conditions]: `Yes`
-   - 
+   - &#x200B;
      [!UICONTROL Visible on Catalog Pages on Storefront]: `Yes`
-   - 
+   - &#x200B;
      [!UICONTROL Used in Product Listing]: `Yes`
 
 1. 완료되면 **[!UICONTROL Save Attribute]**&#x200B;을(를) 클릭합니다.
@@ -227,7 +234,7 @@ ht-degree: 0%
 
    - [!UICONTROL Default Label]: 내 텍스트 편집기 특성
    - [!UICONTROL Catalog Input Type for Store Owner]: 텍스트 편집기
-   - 
+   - &#x200B;
      [!UICONTROL 속성 코드]: `my_text_editor_attribute`
 
 ### 3단계: 제품 속성 세트 업데이트
@@ -240,9 +247,9 @@ ht-degree: 0%
    >
    >라이브 스토어를 변경하지 않으려면 속성 세트를 업데이트하지 않고 따를 수 있습니다.
 
-1. 목록에서 _[!UICONTROL Default]_특성 집합을 찾아 두 번 클릭하여 편집 모드로 엽니다.
+1. 목록에서 _[!UICONTROL Default]_&#x200B;특성 집합을 찾아 두 번 클릭하여 편집 모드로 엽니다.
 
-1. _미할당 특성_ 목록에서 새로 만든 특성을 찾아 **[!UICONTROL Content]** 아래의 _[!UICONTROL Groups]_열로 끌어 옵니다.
+1. _미할당 특성_ 목록에서 새로 만든 특성을 찾아 **[!UICONTROL Content]** 아래의 _[!UICONTROL Groups]_&#x200B;열로 끌어 옵니다.
 
    [!UICONTROL Groups] 열의 특성 위치에 따라 페이지에서 특성이 나타나는 위치가 결정됩니다.
 
