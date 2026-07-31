@@ -4,22 +4,13 @@ description: ' [!DNL Google Maps] Platform에서  [!DNL Page Builder] Stage로 �
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/0Q0wGtAK-MYI949ELjgcM2Omg2ASHCtlJ2T-so1Uoms
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+last-update: 2026-01-26
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1604
 ht-degree: 0%
@@ -84,7 +75,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼](https://cl
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을 확장합니다.
 
@@ -120,7 +111,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼](https://cl
 
 1. 맵 컨테이너 위로 마우스를 가져가 도구 상자를 표시하고 _설정_( ![설정 아이콘](./assets/pb-icon-settings.png){width="20"} ) 아이콘을 선택합니다.
 
-1. _[!UICONTROL Edit Map]_&#x200B;페이지의 오른쪽 상단 모서리에서&#x200B;**[!UICONTROL Add Location]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Edit Map]_페이지의 오른쪽 상단 모서리에서&#x200B;**[!UICONTROL Add Location]**을(를) 클릭합니다.
 
 1. 지도에서 PIN과 연결할 **[!UICONTROL Location Name]**&#x200B;을(를) 입력하십시오.
 
@@ -164,7 +155,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼](https://cl
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   새 위치는 맵과 _[!UICONTROL Edit Map]_&#x200B;페이지의 맵 위치 그리드에 나타납니다.
+   새 위치는 맵과 _[!UICONTROL Edit Map]_페이지의 맵 위치 그리드에 나타납니다.
 
    ![[!DNL Page Builder] - 위치 그리드 매핑](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
@@ -176,7 +167,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼](https://cl
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을 확장합니다.
 
@@ -213,7 +204,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼](https://cl
 
    {style="table-layout:auto"}
 
-1. 필요에 따라 _[!UICONTROL Advanced]_&#x200B;설정을 수정합니다.
+1. 필요에 따라 _[!UICONTROL Advanced]_설정을 수정합니다.
 
    - 컨테이너에 추가된 맵 콘텐츠의 가로 위치를 제어하려면 **[!UICONTROL Alignment]**&#x200B;을(를) 선택합니다.
 
@@ -282,7 +273,7 @@ _맵_ 콘텐츠 형식을 사용하여 [[!DNL Google Maps] 플랫폼](https://cl
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**&#x200B;을 확장합니다.
 

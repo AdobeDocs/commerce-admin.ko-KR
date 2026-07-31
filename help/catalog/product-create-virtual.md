@@ -4,22 +4,13 @@ description: 멤버십, 서비스, 보증 또는 구독과 같은 유형의 항�
 exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/L981f0c-abmRqbEf3A-8CxTgVyzAuN-u1WDuMZAKSP4
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+last-update: 2023-05-22
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 653
 ht-degree: 0%
@@ -30,7 +21,7 @@ ht-degree: 0%
 
 가상 제품 또는 디지털 상품은 멤버십, 서비스, 보증 또는 구독 및 책, 음악, 비디오 또는 기타 제품의 디지털 다운로드와 같은 유형 이외의 항목을 나타냅니다. 가상 제품은 개별적으로 판매하거나 [그룹화된 제품](product-create-grouped.md), [구성 가능한 제품](product-create-configurable.md) 또는 [번들 제품](product-create-bundle.md) 제품 형식의 일부로 포함할 수 있습니다.
 
-_[!UICONTROL Weight]_&#x200B;필드가 없는 것 외에 가상 제품과 간단한 제품을 만드는 과정은 동일합니다. 다음 지침은 [제품 템플릿](attribute-sets.md), 필수 필드 및 기본 설정을 사용하여 가상 제품을 만드는 프로세스를 보여 줍니다. 기본 사항을 완료하면 필요에 따라 다른 제품 설정을 완료할 수 있습니다.
+_[!UICONTROL Weight]_필드가 없는 것 외에 가상 제품과 간단한 제품을 만드는 과정은 동일합니다. 다음 지침은 [제품 템플릿](attribute-sets.md), 필수 필드 및 기본 설정을 사용하여 가상 제품을 만드는 프로세스를 보여 줍니다. 기본 사항을 완료하면 필요에 따라 다른 제품 설정을 완료할 수 있습니다.
 
 >[!NOTE]
 >
@@ -42,7 +33,7 @@ _[!UICONTROL Weight]_&#x200B;필드가 없는 것 외에 가상 제품과 간단
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Virtual Product]**&#x200B;을(를) 선택합니다.
+1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Virtual Product]**을(를) 선택합니다.
 
    ![가상 제품 추가](./assets/product-add-virtual.png){width="700" zoomable="yes"}
 
@@ -132,7 +123,7 @@ _[!UICONTROL Weight]_&#x200B;필드가 없는 것 외에 가상 제품과 간단
 
 >[!NOTE]
 >
->_[!UICONTROL Is this downloadable product?]_&#x200B;옵션은 기본적으로 비활성화되어 있습니다. 가상 제품에 대해 이 기능을 사용하도록 설정하면 제품을 [다운로드 가능](product-create-downloadable.md#downloadable-product)합니다.
+>_[!UICONTROL Is this downloadable product?]_옵션은 기본적으로 비활성화되어 있습니다. 가상 제품에 대해 이 기능을 사용하도록 설정하면 제품을 [다운로드 가능](product-create-downloadable.md#downloadable-product)합니다.
 
 ## 6단계: 제품 게시
 
@@ -142,9 +133,9 @@ _[!UICONTROL Weight]_&#x200B;필드가 없는 것 외에 가상 제품과 간단
 
    - **메서드 1:** 저장 및 미리 보기
 
-      - 오른쪽 상단에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+     - 오른쪽 상단에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-      - 스토어에서 제품을 보려면 _관리자_( ![메뉴 화살표](../assets/icon-menu-down-arrow-black.png)) 메뉴에서 **[!UICONTROL Customer View]**&#x200B;을(를) 선택하십시오.
+     - 스토어에서 제품을 보려면 _관리자_( ![메뉴 화살표](../assets/icon-menu-down-arrow-black.png)) 메뉴에서 **[!UICONTROL Customer View]**&#x200B;을(를) 선택하십시오.
 
      저장소가 새 브라우저 탭에서 열립니다.
 
@@ -152,7 +143,7 @@ _[!UICONTROL Weight]_&#x200B;필드가 없는 것 외에 가상 제품과 간단
 
    - **메서드 2:** 저장 및 닫기
 
-     _[!UICONTROL Save]_(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
+     _[!UICONTROL Save]_(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
 
 ## 기억해야 할 사항
 

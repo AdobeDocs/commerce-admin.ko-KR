@@ -3,10 +3,11 @@ title: 미디어 갤러리 자산 관리
 description: Adobe Stock 통합을 통해 얻은 업로드된 미디어 파일 및 에셋을 관리하는 방법을 알아봅니다.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 7052319eb322cbf219aacebf4ba7642dbeb5ca96
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+last-update: 2026-03-27T00:00:00Z
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -106,7 +107,7 @@ Assets은 [페이지 추가 또는 편집](page-add.md), [카테고리 만들기
 
 >[!NOTE]
 >
->_다음에서 사용_ 기능을 사용하려면 [!UICONTROL Media Gallery Image Optimization]구성 설정[에서 &#x200B;](media-gallery-image-optimization.md)을(를) 사용하도록 설정해야 합니다.
+>_다음에서 사용_ 기능을 사용하려면 [구성 설정](media-gallery-image-optimization.md)에서 [!UICONTROL Media Gallery Image Optimization]을(를) 사용하도록 설정해야 합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**(으)로 이동합니다.
 
