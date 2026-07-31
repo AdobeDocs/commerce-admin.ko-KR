@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: 922
 ht-degree: 0%
 
 ---
@@ -40,25 +40,9 @@ ht-degree: 0%
 
 1. **[!UICONTROL Default Label]**&#x200B;에 대해 특성을 식별하는 레이블을 입력하십시오.
 
-1. 데이터 입력에 사용되는 입력 컨트롤의 형식을 확인하려면 **[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;을(를) 다음 중 하나로 설정하십시오.
+1. 데이터 입력에 사용할 **[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;을(를) [입력 컨트롤](attributes-input-types.md) 유형으로 설정하십시오.
 
-   | 속성 | 설명 |
-   |--- |--- |
-   | `Text Field` | 텍스트를 위한 한 줄 입력 필드입니다. |
-   | `Text Area` | 제품 설명과 같은 텍스트 단락을 입력하기 위한 여러 줄 입력 필드입니다. WYSIWYG 편집기 를 사용하여 HTML 태그로 텍스트 서식을 지정하거나 텍스트에 태그를 직접 입력할 수 있습니다. |
-   | `Text Editor` | 속성 위치에서 완전히 작동하는 텍스트 편집기입니다. |
-   | 날짜 | [기본 설정 형식](attributes-input-types.md#date-and-time-options) 및 [시간대](../getting-started/store-details.md#locale-options)로 날짜 값을 표시합니다. 날짜 값은 목록 또는 달력(![달력 아이콘](../assets/icon-calendar.png))에서 선택할 수 있습니다. <br/><br/>**_참고:_**&#x200B;시스템 구성에 따라_&#x200B;관리자_ 사용자는 필드에 날짜를 직접 입력하거나 달력 또는 목록에서 날짜를 선택할 수 있습니다. 날짜 및 시간 값 지정에 대한 자세한 내용은 [날짜 및 시간 옵션](attributes-input-types.md#date-and-time-options)을 참조하세요. |
-   | `Yes/No` | `Yes` 및 `No`의 사전 정의된 옵션이 있는 드롭다운 목록을 표시합니다. |
-   | `Dropdown` | 단일 선택 항목만 허용하는 값의 드롭다운 목록을 표시합니다. 드롭다운 입력 유형은 [구성 가능한 제품](product-create-configurable.md)의 주요 구성 요소입니다. |
-   | `Multiple Select` | 다중 선택을 허용하는 값의 드롭다운 목록을 표시합니다. |
-   | `Price` | 이 입력 유형은 사전 정의된 속성(가격, 특별 가격, 계층 가격 및 비용)에 추가되는 가격 필드를 생성하는 데 사용됩니다. 사용되는 통화는 시스템 구성에 따라 결정됩니다. |
-   | `Media Image` | 제품 로고, 관리 지침 또는 식품 라벨의 재료와 같은 추가 이미지를 제품과 연결합니다. 미디어 이미지 속성을 제품의 속성 세트에 추가하면 기본, 작은 이미지 및 썸네일과 함께 추가 이미지 유형이 됩니다. 미디어 이미지 특성은 [storefront 미디어 브라우저](catalog-images-video.md#storefront-media-browser)에서 제외할 수 있습니다. |
-   | `Fixed Product Tax` | 로케일의 요구 사항에 따라 [FPT 비율](../stores-purchase/fixed-product-tax.md)을 정의할 수 있습니다. |
-   | `Visual Swatch` | 구성 가능한 제품의 색상, 질감 또는 패턴을 나타내는 견본을 표시합니다. [시각적 견본](swatches.md)을(를) 16진수 색상 값으로 채우거나 옵션의 색상, 재질, 질감 또는 패턴을 나타내는 업로드된 이미지를 표시할 수 있습니다. |
-   | `Text Swatch` | 크기에 자주 사용되는 구성 가능한 제품 옵션의 텍스트 기반 표현입니다. [텍스트 견본](swatches.md#text-based-swatches)에 16진수 색상 값도 포함할 수 있습니다. |
-   | `Page Builder` | 제품 페이지에 매력적인 콘텐츠를 쉽게 추가할 수 있도록 특성 위치에 완전히 기능하는 [Page Builder](../page-builder/introduction.md) 작업 영역입니다. |
-
-   {style="table-layout:auto"}
+   특성이 [구성 가능한 제품](product-create-configurable.md)에 사용되는 경우 `Dropdown`을(를) 선택하십시오. **[!UICONTROL Required]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
 1. 고객이 제품을 구매하기 전에 옵션을 선택하려면 **[!UICONTROL Values Required]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -134,7 +118,7 @@ ht-degree: 0%
 
 1. 특성을 검색할 수 있게 하려면 **[!UICONTROL Use in Search]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
-   - **[!UICONTROL Search Weight]** 값을 설정하여 항목이 검색 결과에 표시되는 위치를 제어합니다. 1(최저 가중치)을 10(최고 가중치)으로 설정합니다.
+   - 항목이 검색 결과에 표시되는 위치를 제어하려면 **[!UICONTROL Search Weight]** 값: 1(최저 가중치)을 10(최고 가중치)으로 설정하십시오.
 
    - 필요에 따라 **[!UICONTROL Visible in Advanced Search]**&#x200B;을(를) 설정합니다. [고급 검색](search.md#advanced-search)에서 자세히 알아보세요.
 
@@ -191,7 +175,7 @@ ht-degree: 0%
 
 속성이 삭제되면 관련 제품 및 속성 세트에서 제거됩니다. 시스템 속성은 저장소의 핵심 기능에 속하며 삭제할 수 없습니다.
 
-속성을 삭제하기 전에 현재 카탈로그의 제품에서 이 속성을 사용하고 있지 않은지 확인하십시오. 특성을 사용 중인지 확인하는 쉬운 방법은 [내보내기](../systems/data-export.md) 도구를 사용하여 제품 엔터티 특성 목록을 확인하는 것입니다. 속성이 목록에 포함되지 않으면 카탈로그의 제품에서 사용되지 않습니다.
+속성을 삭제하기 전에 카탈로그에 있는 제품이 현재 속성을 사용하지 않는지 확인하십시오. 특성을 사용 중인지 확인하는 쉬운 방법은 [내보내기](../systems/data-export.md) 도구를 사용하여 제품 엔터티 특성 목록을 확인하는 것입니다. 목록에 속성이 포함되지 않으면 카탈로그의 어떤 제품도 해당 속성을 사용하지 않습니다.
 
 특성을 삭제하려면 **_To:_**
 

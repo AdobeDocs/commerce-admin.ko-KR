@@ -19,16 +19,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 780
+source-wordcount: 804
 ht-degree: 0%
 
 ---
 
 # 속성 입력 유형
 
-관리자에서 볼 때 속성은 제품을 만들 때 작성하는 필드입니다. 속성에 지정된 입력 유형은 입력할 수 있는 데이터 유형과 필드 또는 입력 컨트롤의 형식을 결정합니다. 고객 관점에서 속성은 제품에 대한 정보를 제공하며, 제품을 구매하기 위해 작성해야 하는 옵션 및 데이터 입력 필드입니다.
+관리자에서 볼 때 속성은 제품을 만들 때 작성하는 필드입니다. 속성에 지정된 입력 유형은 입력할 수 있는 데이터 유형과 필드 또는 입력 컨트롤의 형식을 결정합니다. 고객의 경우 속성은 제품에 대한 정보를 제공하며 제품을 구매하기 위해 완료해야 하는 옵션 및 데이터 입력 필드입니다.
 
 ## 입력 유형
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL Fixed Product Tax] | 로케일의 요구 사항에 따라 [FPT 비율](../stores-purchase/fixed-product-tax.md)을 정의할 수 있습니다. |
 | [!UICONTROL Visual Swatch] | 구성 가능한 제품의 색상, 질감 또는 패턴을 나타내는 견본을 표시합니다. [시각적 견본](swatches.md)을(를) 16진수 색상 값으로 채우거나 옵션의 색상, 재질, 질감 또는 패턴을 나타내는 업로드된 이미지를 표시할 수 있습니다. |
 | [!UICONTROL Text Swatch] | 크기에 자주 사용되는 구성 가능한 제품 옵션의 텍스트 기반 표현입니다. [텍스트 견본](swatches.md)에 16진수 색상 값도 포함할 수 있습니다. |
-| [!UICONTROL Page Builder] | 제품 페이지에 매력적인 콘텐츠를 쉽게 추가할 수 있는 특성 위치의 [[!DNL Page Builder]](../page-builder/workspace.md) 작업 영역입니다. |
+| [!UICONTROL Page Builder] [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} | 제품 페이지에 매력적인 콘텐츠를 쉽게 추가할 수 있는 특성 위치의 [[!DNL Page Builder]](../page-builder/workspace.md) 작업 영역입니다. |
 
 {style="table-layout:auto"}
 
