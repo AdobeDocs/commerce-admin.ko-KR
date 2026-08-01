@@ -22,7 +22,8 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-05-22
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1638
 ht-degree: 0%
@@ -215,8 +216,8 @@ ht-degree: 0%
 
    - **[!UICONTROL File]** 및 **[!UICONTROL Sample]** 파일 모두에 대해 다음 다운로드 배포 방법 중 하나를 선택하십시오.
 
-      - `Upload File` - 서버에 배포 파일을 업로드하려면 이 메서드를 선택하십시오. 파일을 찾아서 업로드하도록 선택합니다.
-      - `URL` - URL에서 배포 파일에 액세스하려면 이 메서드를 선택하십시오. 다운로드 파일의 전체 URL을 입력합니다.
+     - `Upload File` - 서버에 배포 파일을 업로드하려면 이 메서드를 선택하십시오. 파일을 찾아서 업로드하도록 선택합니다.
+     - `URL` - URL에서 배포 파일에 액세스하려면 이 메서드를 선택하십시오. 다운로드 파일의 전체 URL을 입력합니다.
 
    >[!NOTE]
    >
@@ -224,16 +225,16 @@ ht-degree: 0%
 
    - **[!UICONTROL Shareable]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `No` - 고객이 계정에 로그인하여 다운로드 링크에 액세스해야 합니다.
+     - `No` - 고객이 계정에 로그인하여 다운로드 링크에 액세스해야 합니다.
 
-      - `Yes` - 고객이 다른 사용자와 공유할 수 있는 링크를 이메일로 보냅니다.
+     - `Yes` - 고객이 다른 사용자와 공유할 수 있는 링크를 이메일로 보냅니다.
 
-      - `Use Config` - [다운로드 가능한 제품 옵션](../configuration-reference/catalog/catalog.md) 구성에 지정된 메서드를 사용합니다.
+     - `Use Config` - [다운로드 가능한 제품 옵션](../configuration-reference/catalog/catalog.md) 구성에 지정된 메서드를 사용합니다.
 
    - 다음 중 하나를 수행합니다.
 
-      - 고객당 다운로드를 제한하려면 **[!UICONTROL Max. Downloads]**&#x200B;의 최대 개수를 입력하십시오.
-      - 무제한 다운로드를 허용하려면 **[!UICONTROL Unlimited]** 확인란을 선택하십시오.
+     - 고객당 다운로드를 제한하려면 **[!UICONTROL Max. Downloads]**&#x200B;의 최대 개수를 입력하십시오.
+     - 무제한 다운로드를 허용하려면 **[!UICONTROL Unlimited]** 확인란을 선택하십시오.
 
    ![링크 세부 정보](./assets/product-downloadable-link-detail.png){width="600" zoomable="yes"}
 
@@ -253,8 +254,8 @@ ht-degree: 0%
 
    - 다음 분배 방법 중 하나를 선택합니다.
 
-      - `Upload File` - 서버에 배포 파일을 업로드하려면 이 메서드를 선택하십시오. 파일을 찾아서 업로드하도록 선택합니다.
-      - `URL` - URL에서 배포 파일에 액세스하려면 이 메서드를 선택하십시오. 다운로드 파일의 전체 URL을 입력합니다.
+     - `Upload File` - 서버에 배포 파일을 업로드하려면 이 메서드를 선택하십시오. 파일을 찾아서 업로드하도록 선택합니다.
+     - `URL` - URL에서 배포 파일에 액세스하려면 이 메서드를 선택하십시오. 다운로드 파일의 전체 URL을 입력합니다.
 
    - 다른 샘플을 추가하려면 **[!UICONTROL Add Link]**&#x200B;을(를) 클릭하고 이 단계를 반복합니다.
 

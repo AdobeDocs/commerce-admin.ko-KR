@@ -19,7 +19,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-09-11
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1540
 ht-degree: 0%
@@ -76,21 +77,21 @@ _이미지_ 콘텐츠 형식을 사용하여 JPG, GIF 또는 PNG 이미지를 [[
 
    - _&#x200B;**새 이미지 업로드**&#x200B;_: 이 메서드를 사용하여 시스템에서 새 이미지 파일을 업로드합니다.
 
-      - **[!UICONTROL Upload Image]**&#x200B;을(를) 클릭합니다.
+     - **[!UICONTROL Upload Image]**&#x200B;을(를) 클릭합니다.
 
-      - 갤러리와 대상 컨테이너에 추가할 이미지를 찾아 선택합니다.
+     - 갤러리와 대상 컨테이너에 추가할 이미지를 찾아 선택합니다.
 
      또는 시스템에서 이미지 파일을 드래그하여 _카메라_( ![카메라 아이콘](./assets/pb-icon-camera.png){width="20"} ) 아이콘에 놓을 수도 있습니다.
 
    - _&#x200B;**기존 에셋 선택**&#x200B;_: 이 메서드를 사용하여 미디어 저장소/갤러리에서 기존 이미지 에셋을 선택합니다.
 
-      - **[!UICONTROL Select from Gallery]**&#x200B;을(를) 클릭합니다.
+     - **[!UICONTROL Select from Gallery]**&#x200B;을(를) 클릭합니다.
 
-      - 트리를 사용하여 이미지로 이동합니다.
+     - 트리를 사용하여 이미지로 이동합니다.
 
-      - 썸네일을 클릭하고 **[!UICONTROL Add Selected]**&#x200B;을(를) 클릭합니다.
+     - 썸네일을 클릭하고 **[!UICONTROL Add Selected]**&#x200B;을(를) 클릭합니다.
 
-        ![선택한 이미지 추가](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![선택한 이미지 추가](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - _&#x200B;**Adobe Stock 이미지 검색 및 선택**&#x200B;_: 이 메서드를 사용하여 Adobe Stock에서 이미지를 찾습니다.
 
@@ -98,13 +99,13 @@ _이미지_ 콘텐츠 형식을 사용하여 JPG, GIF 또는 PNG 이미지를 [[
      >
      >이 메서드를 사용하려면 관리자에 대해 [Adobe Stock 통합](../content-design/adobe-stock.md)이(가) 구성되어 있어야 합니다.
 
-      - **[!UICONTROL Search Adobe Stock]**&#x200B;을(를) 클릭하고 이미지를 검색합니다.
+     - **[!UICONTROL Search Adobe Stock]**&#x200B;을(를) 클릭하고 이미지를 검색합니다.
 
-      - 미리 보기 또는 라이선스가 부여된 이미지를 갤러리에 저장합니다.
+     - 미리 보기 또는 라이선스가 부여된 이미지를 갤러리에 저장합니다.
 
-        Adobe Stock 자산 작업에 대한 자세한 내용은 [Adobe Stock 이미지 사용](../content-design/adobe-stock-manage.md)을 참조하십시오.
+       Adobe Stock 자산 작업에 대한 자세한 내용은 [Adobe Stock 이미지 사용](../content-design/adobe-stock-manage.md)을 참조하십시오.
 
-      - 갤러리에서 자산 축소판을 선택하고 **[!UICONTROL Add Selected]**&#x200B;을(를) 클릭합니다.
+     - 갤러리에서 자산 축소판을 선택하고 **[!UICONTROL Add Selected]**&#x200B;을(를) 클릭합니다.
 
    플레이스홀더 위치의 대상 컨테이너에 이미지가 표시됩니다. 배경 이미지와 달리 이미지를 현재 컨테이너 내의 다른 위치나 다른 컨테이너로 이동할 수 있습니다.
 
@@ -125,19 +126,19 @@ _이미지_ 콘텐츠 형식을 사용하여 JPG, GIF 또는 PNG 이미지를 [[
 
    - _&#x200B;**새 이미지 업로드**&#x200B;_: 이 메서드를 사용하여 시스템에서 새 이미지 파일을 업로드합니다.
 
-      - **[!UICONTROL Upload Image]**&#x200B;을(를) 클릭합니다.
+     - **[!UICONTROL Upload Image]**&#x200B;을(를) 클릭합니다.
 
-      - 갤러리와 대상 컨테이너에 추가할 이미지를 찾아 선택합니다.
+     - 갤러리와 대상 컨테이너에 추가할 이미지를 찾아 선택합니다.
 
    - _&#x200B;**기존 에셋 선택**&#x200B;_: 이 메서드를 사용하여 미디어 저장소/갤러리에서 기존 이미지 에셋을 선택합니다.
 
-      - **[!UICONTROL Select from Gallery]**&#x200B;을(를) 클릭합니다.
+     - **[!UICONTROL Select from Gallery]**&#x200B;을(를) 클릭합니다.
 
-      - 트리를 사용하여 이미지로 이동합니다.
+     - 트리를 사용하여 이미지로 이동합니다.
 
-      - 썸네일을 클릭하고 **[!UICONTROL Add Selected]**&#x200B;을(를) 클릭합니다.
+     - 썸네일을 클릭하고 **[!UICONTROL Add Selected]**&#x200B;을(를) 클릭합니다.
 
-        ![선택한 이미지 추가](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![선택한 이미지 추가](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - **Adobe Stock 이미지 검색 및 선택**: 이 메서드를 사용하여 Adobe Stock에서 이미지를 찾습니다.
 
@@ -145,13 +146,13 @@ _이미지_ 콘텐츠 형식을 사용하여 JPG, GIF 또는 PNG 이미지를 [[
      >
      >이 메서드를 사용하려면 관리자에 대해 [Adobe Stock 통합](../content-design/adobe-stock.md)이(가) 구성되어 있어야 합니다.
 
-      - **[!UICONTROL Search Adobe Stock]**&#x200B;을(를) 클릭하고 이미지를 검색합니다.
+     - **[!UICONTROL Search Adobe Stock]**&#x200B;을(를) 클릭하고 이미지를 검색합니다.
 
-      - 미리 보기 또는 라이선스가 부여된 이미지를 갤러리에 저장합니다.
+     - 미리 보기 또는 라이선스가 부여된 이미지를 갤러리에 저장합니다.
 
-        Adobe Stock 자산 작업에 대한 자세한 내용은 [Adobe Stock 이미지 사용](../content-design/adobe-stock-manage.md)을 참조하십시오.
+       Adobe Stock 자산 작업에 대한 자세한 내용은 [Adobe Stock 이미지 사용](../content-design/adobe-stock-manage.md)을 참조하십시오.
 
-      - 갤러리에서 자산 축소판을 선택하고 **[!UICONTROL Add Selected]**&#x200B;을(를) 클릭합니다.
+     - 갤러리에서 자산 축소판을 선택하고 **[!UICONTROL Add Selected]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Mobile Image]**&#x200B;을(를) 추가하려면 이전 단계에서 설명한 것과 동일한 방법을 사용하여 모바일 장치에서 표시하는 데 사용할 이미지를 선택하십시오.
 

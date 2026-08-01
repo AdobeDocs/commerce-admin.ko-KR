@@ -17,7 +17,8 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2026-01-26
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 2041
 ht-degree: 0%
@@ -153,11 +154,11 @@ _탭_ 콘텐츠 형식을 사용하여 작업할 때 개별 탭과 하나 이상
 
   다음 세 가지 방법으로 값을 입력할 수 있습니다.
 
-   - 미리 정의된 색상 이름(예: `White`)
+  - 미리 정의된 색상 이름(예: `White`)
 
-   - 색상에 대한 16진수 색상 값(예: `#ffffff`)
+  - 색상에 대한 16진수 색상 값(예: `#ffffff`)
 
-   - 불투명도 비율이 있는 색상의 rgba 값(예: `rgba(255, 255, 255, 0.75)`)
+  - 불투명도 비율이 있는 색상의 rgba 값(예: `rgba(255, 255, 255, 0.75)`)
 
   색상을 선택하려면 _색상 없음_ 상자의 왼쪽에 있는 견본을 클릭합니다.
 
