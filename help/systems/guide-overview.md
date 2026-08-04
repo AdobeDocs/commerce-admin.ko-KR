@@ -22,7 +22,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 07a65f4f5eefdc4e146272eca98010c6e9ba1f7f
 workflow-type: tm+mt
 source-wordcount: 430
 ht-degree: 6%
@@ -42,7 +42,7 @@ ht-degree: 6%
 | [관리자 계정 및 권한](permissions.md) | 저장소 기능에 대한 액세스 권한을 부여하는 데 사용되는 관리자 사용자 계정 및 역할을 관리합니다. |
 | [변수](variables-predefined.md) | 변수를 사용하면 이메일 및 뉴스레터 템플릿과 사이트 및 고객 경험을 지원하는 기타 유형의 콘텐츠를 손쉽게 개인화할 수 있습니다. |
 | [전자 메일 템플릿](email-templates.md) | 이메일 템플릿은 스토어에서 전송되는 자동화된 메시지의 레이아웃, 콘텐츠 및 형식을 정의합니다. 각 트랜잭션 이메일은 특정 유형의 트랜잭션 또는 이벤트와 연결되므로 트랜잭션 이메일이라고 합니다. |
-| [데이터 전송](data-transfer.md) | <ul><li>가져오기 및 내보내기 도구를 사용하면 한 번의 작업으로 여러 레코드를 관리할 수 있습니다. 새 항목을 가져올 수 있을 뿐만 아니라 기존 제품 세트를 업데이트, 대체 및 삭제할 수도 있습니다.</li><li>[[!UICONTROL Data Management Dashboard]](data-dashboard.md)에서 연결된 Commerce 서비스로 전송된 엔터티의 데이터 동기화 상태를 봅니다.</li><li>[[!UICONTROL Data Export Feed Sync Status]](data-feed-sync-status.md) 페이지에서 Commerce SaaS 서비스로 데이터 피드 내보내기에 대한 동기화 상태를 모니터링합니다.</li></ul> |
+| [데이터 전송](data-transfer.md) | <ul><li>가져오기 및 내보내기 도구를 사용하면 한 번의 작업으로 여러 레코드를 관리할 수 있습니다. 새 항목을 가져올 수 있을 뿐만 아니라 기존 제품 세트를 업데이트, 대체 및 삭제할 수도 있습니다.</li><li>[[!UICONTROL Data Management Dashboard]](data-dashboard.md)에서 연결된 Commerce 서비스에 전달된 엔터티의 데이터 동기화 상태를 봅니다.</li><li>[[!UICONTROL Data Feed Sync Status]](data-feed-sync-status.md) 페이지에서 Commerce SaaS 서비스로 데이터 피드 내보내기에 대한 동기화 상태를 모니터링합니다.</li></ul> |
 | [작업 로그](action-log.md) | Adobe Commerce의 경우 작업 로그는 스토어에서 작업하는 관리 사용자가 수행한 모든 변경 사항을 캡처합니다. 이를 통해 스토어에 대한 모든 변경 사항을 추적할 수 있습니다. |
 | 도구 | [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 시스템 관리자에게는 사용 가능한 도구 모음이 있습니다. [지원 도구](support.md)는 시스템의 알려진 문제를 식별하도록 설계되었습니다. 시스템 도구는 일상적인 [index](index-management.md) 및 [cache](cache-management.md) 관리를 수행하고, [시스템을 백업하고](backups.md)예약된 작업을 관리하고[&#128279;](data-scheduled-import-export.md)하며, [개발자 도구](developer-tools.md)의 집합을 사용할 수 있도록 운영 지원을 제공합니다. |
 | [통합](integrations.md) | OAuth 자격 증명의 위치를 설정하고 서드파티 통합을 위한 리디렉션 URL을 제공합니다. |
