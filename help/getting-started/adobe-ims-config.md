@@ -21,10 +21,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e819869f53e1a349be081510b8ab69a260072de1
+source-git-commit: a43dbb4a703f497e496c63f2886832d44e8c7cab
 workflow-type: tm+mt
-source-wordcount: 938
-ht-degree: 1%
+source-wordcount: 916
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 {{ee-feature}}
 
-이 통합은 Commerce을 보유하고 있고 Adobe Commerce 및 Adobe Business 제품에 대한 로그인을 간소화하려는 관리자 권한이 있는 Adobe ID 판매자를 지원합니다. 선택 사항이며 인스턴스별로 활성화되어 있습니다. 활성화된 경우 관리자 사용자 워크플로우만 영향을 받습니다.
+이 통합은 Commerce을 보유하고 있고 Adobe Commerce 및 Adobe Business 제품에 대한 로그인을 간소화하려는 관리자 권한이 있는 Adobe ID 판매자를 지원합니다. 선택 사항이며 인스턴스별로 활성화되어 있습니다. 활성화된 경우 관리자 사용자 워크플로우만 영향을 받습니다. 
 
 >[!IMPORTANT]
 >
@@ -47,12 +47,12 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >Adobe Commerce Admin Console에 대한 액세스 권한이 없는 경우 계정 팀에 액세스 권한 프로비저닝 요청을 제출합니다.
+  >Adobe Admin Console에 대한 액세스 권한이 없는 경우 계정 팀에 액세스 권한 프로비저닝 요청을 제출합니다.
 
 이 통합을 구성하는 관리자는 모듈을 사용하는 동안 다음 자격 증명이 필요합니다.
 
-* 조직 ID([Adobe Admin Console](https://adminconsole.adobe.com/)에서 가져옴)이며, 길이는 24자 이상이어야 합니다. 인증된 사용자는 이 IMS 조직에 속해야 합니다. 조직 ID 찾기에 대한 자세한 내용은 [Experience Cloud의 조직](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)을 참조하십시오.
-* 2FA는 모듈을 활성화하기 위해 Adobe Admin Console의 조직 수준에서 적용되어야 합니다. [인증 설정](https://helpx.adobe.com/kr/enterprise/using/authentication-settings.html#two-step-verification)을 확인하세요.
+* 조직 ID([Adobe Admin Console](https://adminconsole.adobe.com/)에서 가져옴)이며, 길이는 24자 이상이어야 합니다. 인증된 사용자는 이 IMS 조직에 속해야 합니다. 조직 ID 찾기에 대한 자세한 내용은 [Experience Cloud의 조직](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations)을 참조하십시오.
+* 2FA는 모듈을 활성화하기 위해 Adobe Admin Console의 조직 수준에서 적용되어야 합니다. [인증 설정](https://helpx.adobe.com/kr/business/enterprise/manage-your-organization-setup/authentication-settings.html#two-step-verification)을 확인하세요.
 * 클라이언트 ID
 * 클라이언트 암호
 * [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials)에서 API 키를 검색한 후 클라이언트 ID 및 클라이언트 암호를 사용할 수 있습니다.
@@ -85,10 +85,10 @@ Commerce Admin 사용자는 로그인하려면 Adobe ID으로 계정을 만들�
 1. 새로 만든 프로젝트 페이지에서 **[!UICONTROL Add API]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Oauth 2.0 Web]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL Redirect URI]** 지정: `https://<admin_base_url>/adobe_ims_auth/oauth/imscallback`
-1. **[!UICONTROL Redirect URI pattern]** 지정: `https://mcstaging\.example\.com/<admin_path>/adobe_ims_auth/oauth/imscallback.*`
+1. **[!UICONTROL Redirect URI]** 지정: `https://<commerce_base_url>/`
+1. **[!UICONTROL Redirect URI pattern]** 지정: `https://<commerce_base_url>/.*`
 
-   `\\`(으)로 점 앞에 추가하여 호스트 이름에서 점을 이스케이프 처리합니다. URL 끝에 와일드카드를 추가하면 Adobe Commerce 관리자 비밀 키가 지원됩니다.
+   `\\`(으)로 점 앞에 추가하여 호스트 이름에서 점을 이스케이프 처리합니다. 리디렉션 URI 패턴 끝에 와일드카드를 추가하면 Adobe Commerce 관리자 비밀 키가 지원됩니다.
 
 1. **[!UICONTROL Save configured API]**&#x200B;을(를) 클릭합니다.
 1. 생성된 프로젝트에서 [!UICONTROL Client ID] 및 [!UICONTROL Client Secret] 키를 복사합니다.
@@ -99,9 +99,9 @@ Commerce Admin 사용자는 로그인하려면 Adobe ID으로 계정을 만들�
 
 >[!TIP]
 >
->CSV 파일에서 사용자 정보를 업로드하여 여러 사용자 계정을 만들 수 있습니다. [여러 사용자 관리](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html)를 참조하십시오.
+>CSV 파일에서 사용자 정보를 업로드하여 여러 사용자 계정을 만들 수 있습니다. [여러 사용자 관리](https://helpx.adobe.com/kr/business/enterprise/manage-users/user-management-strategies/bulk-upload-users.html)를 참조하십시오.
 
-1. [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)에서 **[!UICONTROL Users]** > **[!UICONTROL Users]**(으)로 이동합니다.
+1. [Adobe Admin Console](https://helpx.adobe.com/kr/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)에서 **[!UICONTROL Users]** > **[!UICONTROL Users]**(으)로 이동합니다.
 
 1. **[!UICONTROL Add User]**&#x200B;을(를) 클릭합니다.
 
@@ -132,4 +132,4 @@ Adobe Commerce에 활성화 성공 또는 실패 여부를 나타내는 메시�
 
 ## ID 및 SSO(Single Sign-On)
 
-Adobe ID, Enterprise ID 및 Federated ID을 포함한 ID 구성 옵션과 Adobe 앱에 대한 보안 액세스를 위해 SSO(Single Sign-On)를 구성하는 방법에 대한 자세한 내용은 *Enterprise Admin Console* 설명서의 [ID 및 SSO 설정](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html)을 참조하십시오.
+ID 구성 및 SSO 설정 지침은 *Enterprise Admin Console* 설명서의 [ID 및 SSO 설정](https://helpx.adobe.com/kr/business/enterprise/set-up-your-organization/set-up-identity.html)을 참조하십시오.
