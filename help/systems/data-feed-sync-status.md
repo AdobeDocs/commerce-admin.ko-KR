@@ -41,10 +41,10 @@ ht-degree: 0%
 
 데이터 피드 동기화 상태 페이지는 다음 서비스 중 하나에 대한 활성 라이선스를 가진 Commerce 판매자에게 추가 비용 없이 제공됩니다.
 
-- [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
-- [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
-- [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
-- [[!DNL Adobe Commerce Optimizer Connector]](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
+- [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/guide-overview)
+- [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)
+- [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/guide-overview)
+- [[!DNL Adobe Commerce Optimizer Connector]](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/overview)
 
 데이터 피드 동기화 상태 페이지는 지원되는 Commerce 서비스 구성에서 자동으로 사용할 수 있습니다. Adobe Commerce 온 클라우드 인프라 및 온프레미스 배포에서 적격 서비스 또는 커넥터가 활성화된 후 페이지가 누락된 경우 아래의 수동 설치 지침을 따르십시오. 제품 관리 SaaS 경험에 Composer 설치 절차를 사용하지 마십시오.
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 
 데이터 동기화 상태 페이지에서 관리할 수 있는 사용 가능한 내보내기 피드 목록은 연결된 Commerce 서비스에 따라 다릅니다.
 
-- **Commerce 서비스가 구성된 [!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service]의 경우:** _SaaS 데이터 내보내기 안내서_&#x200B;에서 [지원되는 피드](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds)를 참조하십시오.
+- **Commerce 서비스가 구성된 [!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service]의 경우:** _SaaS 데이터 내보내기 안내서_&#x200B;에서 [지원되는 피드](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds)를 참조하십시오.
 
-- **[!DNL Adobe Commerce Optimizer Connector]:**(으)로 구성된 Adobe Commerce 온 클라우드 또는 온-프레미스 배포의 경우 _Adobe Commerce Optimizer Connector 안내서_&#x200B;에서 [지원되는 피드](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds)를 참조하세요.
+- **[!DNL Adobe Commerce Optimizer Connector]:**(으)로 구성된 Adobe Commerce 온 클라우드 또는 온-프레미스 배포의 경우 _Adobe Commerce Optimizer Connector 안내서_&#x200B;에서 [지원되는 피드](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds)를 참조하세요.
 
 
 ## 데이터 피드 동기화 상태 요약 {#data-feed-sync-status-summary}
@@ -135,7 +135,7 @@ Commerce 데이터베이스에서 제품 및 카테고리 관련 엔터티를 �
 
 >[!NOTE]
 >
-> Adobe은 또한 개발자와 시스템 통합자가 동기화 작업을 관리하고 추적하는 데 사용할 수 있는 명령줄 인터페이스 도구와 시스템 로그를 제공합니다. 자세한 내용은 [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)를 참조하십시오.
+> Adobe은 또한 개발자와 시스템 통합자가 동기화 작업을 관리하고 추적하는 데 사용할 수 있는 명령줄 인터페이스 도구와 시스템 로그를 제공합니다. 자세한 내용은 [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/overview)를 참조하십시오.
 
 ### 실패한 내보내기 관리 {#manage-failed-exports}
 
@@ -164,12 +164,12 @@ Commerce 데이터베이스에서 제품 및 카테고리 관련 엔터티를 �
 내보내기가 완료된 후 엔드 투 엔드 동기화를 확인하려면 다음 방법 중 하나를 사용하십시오. 이 페이지의 내보내기 상태 제한에 대해서는 [위의 참고](#export-status-scope)를 참조하십시오.
 
 - **[!DNL Adobe Commerce as a Cloud Service] (Commerce 서비스 포함):** 해당 [데이터 관리 대시보드](data-dashboard.md)를 확인하여 다운스트림 가용성을 확인하십시오.
-- **Adobe Commerce on Cloud 또는 Adobe Commerce Optimizer Connector를 사용하는 온-프레미스**: 먼저 Commerce 관리자 내보내기 상태를 확인한 다음 [!DNL Commerce Optimizer Studio]의 [데이터 동기화 페이지](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)를 확인하세요.
-- **[!DNL Adobe Commerce Optimizer] (독립 실행형):** 데이터를 Commerce 백엔드에서 내보내지 않습니다. [!DNL Commerce Optimizer Studio]의 [데이터 동기화 페이지](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)를 사용하여 데이터 가용성을 확인하십시오.
+- **Adobe Commerce on Cloud 또는 Adobe Commerce Optimizer Connector를 사용하는 온-프레미스**: 먼저 Commerce 관리자 내보내기 상태를 확인한 다음 [!DNL Commerce Optimizer Studio]의 [데이터 동기화 페이지](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/data-sync)를 확인하세요.
+- **[!DNL Adobe Commerce Optimizer] (독립 실행형):** 데이터를 Commerce 백엔드에서 내보내지 않습니다. [!DNL Commerce Optimizer Studio]의 [데이터 동기화 페이지](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/data-sync)를 사용하여 데이터 가용성을 확인하십시오.
 
 >[!TIP]
 >
-> 데이터 동기화 프로세스에 대한 자세한 내용은 *SaaS 데이터 내보내기 안내서*&#x200B;에서 [SaaS 데이터 내보내기와 데이터 동기화](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#view-and-manage-the-synchronization-process)를 참조하십시오.
+> 데이터 동기화 프로세스에 대한 자세한 내용은 *SaaS 데이터 내보내기 안내서*&#x200B;에서 [SaaS 데이터 내보내기와 데이터 동기화](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#view-and-manage-the-synchronization-process)를 참조하십시오.
 
 ## 우수 사례 {#best-practices}
 
@@ -195,9 +195,9 @@ ACCS 또는 Adobe Commerce Optimizer: 모듈을 수동으로 설치하지 마십
 
 ### 사전 요구 사항
 
-- Adobe Commerce 2.4.4+. 자세한 요구 사항은 [시스템 요구 사항](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)을 참조하십시오.
-- [Adobe Commerce 데이터 내보내기 확장](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/manage-extension), 버전 103.4.15 이상
-- Adobe Commerce 저장소에서 필요한 패키지를 다운로드할 수 있는 권한이 있는 인증 키입니다. 인증 키를 만들고 필요한 패키지 액세스 권한을 얻으려면 [인증 키 가져오기](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오. 클라우드 설치의 경우 [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys)를 참조하십시오.
+- Adobe Commerce 2.4.4+. 자세한 요구 사항은 [시스템 요구 사항](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/system-requirements)을 참조하십시오.
+- [Adobe Commerce 데이터 내보내기 확장](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/reference/manage-extension), 버전 103.4.15 이상
+- Adobe Commerce 저장소에서 필요한 패키지를 다운로드할 수 있는 권한이 있는 인증 키입니다. 인증 키를 만들고 필요한 패키지 액세스 권한을 얻으려면 [인증 키 가져오기](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오. 클라우드 설치의 경우 [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/authentication-keys)를 참조하십시오.
 - Adobe Commerce 애플리케이션 서버의 명령줄에 액세스합니다.
 
 ### 설치 단계
@@ -210,10 +210,10 @@ composer require magento/module-data-exporter-status
 
 자세한 설치 단계는 다음 안내서를 참조하십시오.
 
-- [클라우드 인프라에 Adobe Commerce 확장 설치](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
-- [Adobe Commerce 온-프레미스에 확장 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
+- [클라우드 인프라에 Adobe Commerce 확장 설치](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+- [Adobe Commerce 온-프레미스에 확장 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 >[!MORELIKETHIS]
 >
 > - [데이터 관리 대시보드](data-dashboard.md)
-> - [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)
+> - [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/overview)
