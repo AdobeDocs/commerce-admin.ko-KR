@@ -1,7 +1,7 @@
 ---
-source-git-commit: acc04085de45edfcd956971aa09732ca91cf5f1a
+source-git-commit: ddb16ac856b75e3a4fcc1bd620b6e5b1dab321d5
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '264'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## 새로운 기능
 
 이 섹션에는 지난 60일 동안 변경된 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 8월 4일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>현재 관리 경험과 일치하도록 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">데이터 피드 동기화 상태</a> 항목을 새로 고치고, 페이지에서 내보내기 상태만 보고하고, Commerce 서비스 라이선스에서 이 기능을 사용할 수 있는 경우 문서화하도록 수정했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9d7ecab0454b1a1041f1bcd8b4fbda8032ebaac5">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 7월 29일
 
@@ -73,50 +95,6 @@ ht-degree: 2%
         피드백
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/927b633eaa9af471440cfb950b429a60b3df94a8">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 6월 3일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes">사용자 지정 쿠폰을 만들기</a> 코드를 만드는 기능이 추가되었습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/4b59525dc5d2d9a8ec1fe4271bf4c9dee8e02c15">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 6월 2일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>가져오기 작업 중에 불필요한 URL-rewrite가 생성되지 않도록 하는 방법에 대한 지침으로 Commerce <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/import/data-import">데이터 가져오기</a> 설명서를 업데이트했습니다.</p>
-</td>
-      <td>
-        피드백, 기술
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b224cff0c5db4c1b318d3e7165aa34f4662f7e3e">커밋</a></td>
     </tr>
   </tbody>
 </table>
