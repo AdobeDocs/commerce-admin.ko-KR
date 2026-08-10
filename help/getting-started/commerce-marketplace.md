@@ -23,9 +23,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1425
 ht-degree: 0%
 
 ---
@@ -58,8 +58,8 @@ ht-degree: 0%
 - [App Builder 앱 배포](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [App Builder 앱용 CI/CD](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
 - App Builder/Developer Console 시작하기
-   - [App Builder 시작하기](https://developer.adobe.com/app-builder/docs/getting_started/)
-   - [프로젝트 및 작업 공간 이해](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
+  - [App Builder 시작하기](https://developer.adobe.com/app-builder/docs/getting_started/)
+  - [프로젝트 및 작업 공간 이해](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
 
 ## [!DNL Marketplace] 자격 증명
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 ### 오픈 소스 질문
 
-마켓플레이스 지원 팀은 [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) 및 [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) 사이트와 관련된 문제만 해결합니다. Magento Open Source에 대한 질문이 있으면 [커뮤니티 포럼](https://community.magento.com/)에 문의하거나 [Magento Open Source을 지원할 수 있는 파트너에게 문의](https://business.adobe.com/kr/products/magento/partners.html)하십시오.
+마켓플레이스 지원 팀은 [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) 및 [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) 사이트와 관련된 문제만 해결합니다. Magento Open Source에 대한 질문이 있으면 Magento Open Source을 지원할 수 있는 [파트너](https://business.adobe.com/kr/products/magento/partners.html)에게 문의하십시오.
 
 ### 환불 요청
 

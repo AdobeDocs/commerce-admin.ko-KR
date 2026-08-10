@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: 2710
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -34,8 +34,10 @@ ht-degree: 0%
 >
 >**Commerce 2.4 마이그레이션:**<br/>
 >2.4.0 이전 버전의 Adobe Commerce 및 Magento Open Source의 경우, 판매자는 [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=braintree)에서 공식 Braintree 결제 통합 확장을 설치하고 구성하여 핵심 통합을 대체하는 것이 좋습니다. 2.4.0부터 확장이 이제 코어 릴리스에 포함됩니다.
-><br/><br/>>Commerce 2.4로 마이그레이션할 때 판매자는 Marketplace에 배포된 확장(`paypal/module-braintree` 또는 `gene/module-braintree`)을 제거하고 `Magento_Braintree` 대신 `PayPal_Braintree` 네임스페이스를 사용하도록 코드 사용자 지정을 업데이트해야 합니다. Commerce용 번들 확장과 Commerce Marketplace에 배포된 확장의 구성 설정이 유지됩니다. 해당 버전의 확장 기능으로 지불된 지불은 정상적으로 캡처, 무효화 또는 환불됩니다.
-><br/><br/>>Commerce 2.4.0으로 업그레이드하면서 이전 2.3.x 버전에서 권장되는 Commerce Marketplace 확장을 사용하지 않는 경우 다중 주소 기능이 Braintree 2.4.0 버전에서 작동하지 않습니다. 쇼핑객이 _여러 주소에 게재_&#x200B;를 선택하면 Braintree 결제 방법이 나타나지 않습니다. 이전에 2.3.x에 대해 권장된 Commerce Marketplace 확장에서 이 다중 주소 문제가 발생했습니다.
+><br/><br/>
+>Commerce 2.4로 마이그레이션할 때 판매자는 Marketplace에 배포된 확장(`paypal/module-braintree` 또는 `gene/module-braintree`)을 제거하고 `Magento_Braintree` 대신 `PayPal_Braintree` 네임스페이스를 사용하도록 코드 사용자 지정을 업데이트해야 합니다. Commerce용 번들 확장과 Commerce Marketplace에 배포된 확장의 구성 설정이 유지됩니다. 해당 버전의 확장 기능으로 지불된 지불은 정상적으로 캡처, 무효화 또는 환불됩니다.
+><br/><br/>
+>Commerce 2.4.0으로 업그레이드하고 이전 2.3.x 버전에서 권장되는 Commerce Marketplace 확장을 사용하지 않는 경우 다중 주소 기능이 Braintree 2.4.0 버전에서 작동하지 않습니다. 쇼핑객이 _여러 주소에 게재_&#x200B;을(를) 선택하면 Braintree 결제 방법이 나타나지 않습니다. 이전에 2.3.x에 대해 권장된 Commerce Marketplace 확장에서 이 다중 주소 문제가 발생했습니다.
 
 {{config}}
 

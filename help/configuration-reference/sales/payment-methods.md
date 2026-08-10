@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
 workflow-type: tm+mt
-source-wordcount: 1746
+source-wordcount: 1850
 ht-degree: 0%
 
 ---
@@ -64,9 +64,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >일부 결제 통합 및 번들 확장은 2.4.x 릴리스에서 제거되었으며 Commerce Marketplace으로 이동되었습니다. [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}에서 최신 공식 결제 통합 확장을 찾을 수 있습니다.
-><br/>>**Amazon Pay** 및 **Klarna**: Adobe Commerce 및 Magento Open Source 릴리스 2.4.0 - 2.4.3에는 이러한 공급업체에서 개발한 확장이 포함되어 있습니다. 2.4.4 릴리스부터 이러한 확장은 더 이상 핵심 릴리스와 번들로 제공되지 않으며 Commerce Marketplace에서 설치하고 업데이트해야 합니다. Marketplace에서는 확장 개발자가 제공하는 현재 설명서에 대한 액세스도 제공합니다.
-><br/>>이러한 번들 확장을 사용 및 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 `composer.json` 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [업그레이드 모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko)을 참조하십시오.<br/>
-><br/>>**Worldpay**, **Eway**, **CyberSource** 및 **Authorize.Net**: 이러한 결제 통합에서 안전하게 전환하는 방법에 대한 자세한 내용은 [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}를 참조하세요.
+><br/>
+>**Amazon Pay** 및 **Klarna**: Adobe Commerce 및 Magento Open Source 릴리스 2.4.0 - 2.4.3에는 이러한 공급업체에서 개발한 확장이 포함되어 있습니다. 2.4.4 릴리스부터 이러한 확장은 더 이상 핵심 릴리스와 번들로 제공되지 않으며 Commerce Marketplace에서 설치하고 업데이트해야 합니다. Marketplace에서는 확장 개발자가 제공하는 현재 설명서에 대한 액세스도 제공합니다.
+><br/>
+>이러한 번들 확장을 사용 및 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 `composer.json` 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [업그레이드 모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko)을 참조하십시오.<br/>
 
 ## 기타 PayPal 메서드
 
