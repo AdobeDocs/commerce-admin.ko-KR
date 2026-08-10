@@ -3,27 +3,14 @@ title: Braintree
 description: 스토어에서 Braintree을 온라인 결제 솔루션으로 설정하는 방법에 대해 알아봅니다.
 exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/UxFg1yY9mnWzuP5pI3N9j4EZ1v34FyED7UQIxVHN42A
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: f2261633-201d-46c5-8a66-999e70527a83
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f2261633-201d-46c5-8a66-999e70527a83
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2973
@@ -35,7 +22,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->예기치 않은 카드 요금에 대한 도움이 필요한 경우 [구독 취소](https://helpx.adobe.com/kr/manage-account/using/cancel-subscription.html) 페이지를 방문하여 도움을 받으십시오.
+>예기치 않은 카드 요금에 대한 도움이 필요한 경우 [구독 취소](https://helpx.adobe.com/manage-account/using/cancel-subscription.html) 페이지를 방문하여 도움을 받으십시오.
 
 Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 가능한 체크아웃 경험을 제공합니다. [!DNL Apple Pay], [!DNL Google Pay], ACH, Venmo 및 로컬 결제 방법을 지원합니다. Braintree은 거래가 Braintree 시스템에서 이루어지기 때문에 가맹점의 PCI 규정 준수 부담을 줄입니다. Braintree Payments 통합은 [GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/)에서 개발되었습니다.
 
@@ -56,9 +43,9 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
    - Commerce 설치 시 왼쪽 상단 모서리에서 구성이 적용되는 **[!UICONTROL Store View]**&#x200B;을(를) 선택하십시오.
 
-   - _[!UICONTROL Merchant Location]_&#x200B;섹션에서&#x200B;**[!UICONTROL Merchant Country]**&#x200B;이(가) 회사 위치로 설정되어 있는지 확인합니다.
+   - _[!UICONTROL Merchant Location]_섹션에서&#x200B;**[!UICONTROL Merchant Country]**이(가) 회사 위치로 설정되어 있는지 확인합니다.
 
-1. _[!UICONTROL Recommended Solutions]_&#x200B;의_[!UICONTROL Braintree Payments] ([GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [릴리스 정보](https://support.gene.co.uk/support/solutions/articles/35000278668)_섹션)에서&#x200B;**[!UICONTROL Configure]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Recommended Solutions]_의_[!UICONTROL Braintree Payments]([GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [릴리스 정보](https://support.gene.co.uk/support/solutions/articles/35000278668)_섹션)에서&#x200B;**[!UICONTROL Configure]**을(를) 클릭합니다.
 
    ![Braintree 구성](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
@@ -73,7 +60,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 1. **[!UICONTROL Payment Action]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `Authorize Only` - 구매를 승인하고 자금을 보류합니다. 판매자가 _회수_&#x200B;할 때까지 고객의 은행 계좌에서 금액이 인출되지 않습니다.|
-   - `Intent Sale` - 구매 금액이 승인되어 고객 계정에서 즉시 인출됩니다. **_Note:_**&#x200B;이 값은 2.3.x 및 이전 릴리스의_&#x200B;승인 및 캡처_입니다.|
+   - `Intent Sale` - 구매 금액이 승인되어 고객 계정에서 즉시 인출됩니다. **_Note:_**이 값은 2.3.x 및 이전 릴리스의_&#x200B;승인 및 캡처_입니다.|
 
 1. Braintree 계정의 **[!UICONTROL Sandbox Merchant ID / Merchant ID]**&#x200B;을(를) 입력하십시오.
 
@@ -153,7 +140,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 1. **[!UICONTROL Payment from Applicable Countries]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
 
    ![국가별 설정](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png){width="600" zoomable="yes"}
 
@@ -272,7 +259,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
      >[!NOTE]
      >
-     >PayPal 크레딧은 미국과 영국에서만 사용할 수 있습니다. _[!UICONTROL Merchant Country]_&#x200B;필드에 대해 선택한 값이 `US` 또는 `UK`이(가) 아닌 경우 PayPal 크레딧을 사용할 수 없습니다.
+     >PayPal 크레딧은 미국과 영국에서만 사용할 수 있습니다. _[!UICONTROL Merchant Country]_필드에 대해 선택한 값이 `US` 또는 `UK`이(가) 아닌 경우 PayPal 크레딧을 사용할 수 없습니다.
 
    - Braintree에서 결제 옵션으로 [!DNL PayPal PayLater]을(를) 포함하려면 **[!UICONTROL Enable PayPal PayLater through Braintree]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -298,7 +285,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 1. PayPal에서 처리하는 Braintree 트랜잭션에 대해 **[!UICONTROL Payment from Applicable Countries]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
 
    ![Braintree 설정을 통한 PayPal 2](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
@@ -330,13 +317,13 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 
 ### [!UICONTROL Mini-Cart and Cart Page]
 
-이 섹션의 옵션 및 설정은 _[!UICONTROL Location]_&#x200B;필드의 설정에 따라 다릅니다.
+이 섹션의 옵션 및 설정은 _[!UICONTROL Location]_필드의 설정에 따라 다릅니다.
 
 1. **[!UICONTROL PayPal Button Type]**&#x200B;을(를) 다음 세 가지 유형의 단추 중 하나로 설정합니다. `PayPal Button` / `PayPal Pay Later Button` / `PayPal Credit Button`
 
 **[!UICONTROL PayPal Button]**
 
-이 섹션의 옵션 및 설정은 _[!UICONTROL PayPal Button Type]_&#x200B;필드에서 선택한 단추 유형에 따라 다릅니다.
+이 섹션의 옵션 및 설정은 _[!UICONTROL PayPal Button Type]_필드에서 선택한 단추 유형에 따라 다릅니다.
 
 1. 선택한 위치의 상점 앞에 PayPal 단추를 표시하려면 **[!UICONTROL Show PayPal Button]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -419,7 +406,7 @@ Braintree은 사기 행위 감지 및 PayPal 통합을 통해 사용자 지정 �
 4. **[!UICONTROL Verify for Applicable Countries]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Verify for Specific Countries]_&#x200B;목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Verify for Specific Countries]_목록이 나타납니다. Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채로 목록에서 고객이 스토어에서 구매할 수 있는 각 국가를 선택합니다.
 
    ![3D 확인 설정](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 
