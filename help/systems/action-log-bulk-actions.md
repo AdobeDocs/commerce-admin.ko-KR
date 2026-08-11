@@ -18,10 +18,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: adab8959a614dc1a714ce53f390f2c1f70c27402
 workflow-type: tm+mt
-source-wordcount: 130
-ht-degree: 3%
+source-wordcount: 157
+ht-degree: 2%
 
 ---
 
@@ -34,6 +34,8 @@ ht-degree: 3%
 ![일괄 작업 로그](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 
 ## 대량 작업 구성
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 

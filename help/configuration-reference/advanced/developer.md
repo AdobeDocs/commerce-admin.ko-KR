@@ -4,6 +4,7 @@ description: Commerce 관리자의 [!UICONTROL Advanced] > [!UICONTROL Developer
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/Cl6rp-pqD6LBM-50gDiPC-7Ox2MDzy-szQDesLTecdQ
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -24,9 +25,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 3ed6388c485699373275912a27df59d25b7245ac
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: 834
 ht-degree: 1%
 
 ---
