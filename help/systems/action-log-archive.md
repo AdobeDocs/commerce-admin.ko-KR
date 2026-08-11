@@ -31,7 +31,7 @@ ht-degree: 0%
 
 관리 [작업](action-log.md) 보관 파일에 서버에 저장된 CSV 로그 파일이 나열됩니다.
 
-[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 구성에서 로그 항목이 저장되는 기간과 로그 항목이 보관되는 빈도를 지정할 수 있습니다. 기본적으로 파일 이름에는 ISO 형식의 현재 날짜가 포함됩니다. `yyyyMMddHH`
+[!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 구성에서 로그 항목이 저장되는 기간과 로그 항목이 보관되는 빈도를 지정할 수 있습니다. 기본적으로 파일 이름에는 ISO 형식의 현재 날짜가 포함됩니다. `yyyyMMddHH`
 
 >[!NOTE]
 >
