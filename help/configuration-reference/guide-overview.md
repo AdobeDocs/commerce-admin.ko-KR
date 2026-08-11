@@ -3,11 +3,24 @@ title: 구성 참조 안내서
 description: 구성 탭, 페이지 및 섹션으로 구성된 모든 Commerce Admin Store 구성 설정에 대한 설명 정보를 검토하십시오.
 exl-id: b0359ba4-3643-4355-9154-adfedb369ec3
 TQID: https://experienceleague.adobe.com/nxl3Dlf3sQp4YOH-BLpVS0ny4TY8op2TIelYOTGkQ-M
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: cc250cf1-34eb-4863-80d0-d170d45ea067id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 3ed6388c485699373275912a27df59d25b7245ac
 workflow-type: tm+mt
 source-wordcount: 624
@@ -17,7 +30,7 @@ ht-degree: 49%
 
 # 구성 참조 안내서
 
-이 안내서는 Adobe Commerce 또는 Magento Open Source 관리자에서 일하는 판매자 및 시스템 관리자를 위한 것입니다. **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**의_&#x200B;관리자&#x200B;_사이드바에서 액세스하는 모든 저장소 구성 설정에 대한 참조 정보를 제공합니다.
+이 안내서는 Adobe Commerce 또는 Magento Open Source 관리자에서 일하는 판매자 및 시스템 관리자를 위한 것입니다. **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;의_&#x200B;관리자&#x200B;_사이드바에서 액세스하는 모든 저장소 구성 설정에 대한 참조 정보를 제공합니다.
 
 Adobe Commerce 및 Magento Open Source의 기능이나 스토어 구성 절차에 대한 자세한 내용은 다루지 않습니다.
 
@@ -25,14 +38,14 @@ Adobe Commerce 및 Magento Open Source의 기능이나 스토어 구성 절차�
 
 | 구성 탭 | 하위 탭 |
 | ----------------- | ---------- |
-| **[!UICONTROL General]** <br/><br/> _[!UICONTROL General]_구성 섹션은 저장소 매개 변수, URL, 테마, 통화, 전자 메일 주소, 저장소 연락처, 편집기 및 대시보드 보고서를 결정합니다. | - [[!UICONTROL General]](./general/general.md)<br>- [[!UICONTROL B2B Features]](./general/b2b-features.md)<br>- [[!UICONTROL Web]](./general/web.md)<br>- [[!UICONTROL Currency Setup]](./general/currency-setup.md)<br>- [[!UICONTROL Store Email Addresses]](./general/store-email-addresses.md)<br>- [[!UICONTROL Contacts]](./general/contacts.md)<br>- [[!UICONTROL Reports]](./general/reports.md)<br>- [[!UICONTROL Content Management]](./general/content-management.md)<br>- [[!UICONTROL Advanced Reporting]](./general/advanced-reporting.md) |
-| **[!UICONTROL Catalog]** <br/><br/> _[!UICONTROL Catalog]_구성 설정은 제품 및 인벤토리 설정을 결정하고, 사이트 맵 및 RSS 피드 생성을 제어하며, 친구와 제품을 공유하는 데 사용되는 전자 메일 템플릿을 지정합니다. | - [[!UICONTROL Catalog]](./catalog/catalog.md)<br>- [[!UICONTROL Visual Merchandiser]](./catalog/visual-merchandiser.md)<br>- [[!UICONTROL Inventory]](./catalog/inventory.md)<br>- [[!UICONTROL XML Sitemap]](./catalog/xml-sitemap.md)<br>- [[!UICONTROL RSS Feeds]](./catalog/rss-feeds.md)<br>- [[!UICONTROL Email to a Friend]](./catalog/email-to-a-friend.md) |
-| **[!UICONTROL Security]** <br/><br/> _[!UICONTROL Security]_구성 설정은 저장소 보안, 이중 인증 및 Google reCAPTCHA 기능을 제어합니다. | - [[!UICONTROL 2FA]](./security/2fa.md)<br>- [[!UICONTROL Google reCAPTCHA Admin Panel]](./security/google-recaptcha-admin.md)<br>- [[!UICONTROL Google reCAPTCHA Storefront]](./security/google-recaptcha-storefront.md)<br>- [[!UICONTROL Security.txt]](./security/security-txt.md) |
-| **[!UICONTROL Customers]** <br/><br/> _[!UICONTROL Customers]_구성 설정은 기본 고객 계정 및 로그인 옵션, 뉴스레터 설정, 위시리스트 및 자동 생성된 쿠폰 코드 형식을 설정합니다. | - [[!UICONTROL Login as Customer]](./customers/login-as-customer.md)<br>- [[!UICONTROL Newsletter]](./customers/newsletter.md)<br>- [[!UICONTROL Company Configuration]](./customers/company-configuration.md)<br>- [[!UICONTROL Customer Configuration]](./customers/customer-configuration.md)<br>- [[!UICONTROL Requisition Lists]](./customers/requisition-lists.md)<br>- [[!UICONTROL Wish List]](./customers/wishlist.md)<br>- [[!UICONTROL Invitations]](./customers/invitations.md)<br>- [[!UICONTROL Reward Points]](./customers/reward-points.md)<br>- [[!UICONTROL Promotions]](./customers/promotions.md)<br>- [[!UICONTROL Gift Registry]](./customers/gift-registry.md)<br>- [[!UICONTROL Persistent Shopping Cart]](./customers/persistent-shopping-cart.md) |
-| **[!UICONTROL Sales]** <br/><br/> _[!UICONTROL Sales]_구성 설정은 체크아웃 및 세금 설정, 결제 및 배송 옵션, 판매 전자 메일 및 PDF 인쇄물, Google API 설정을 결정합니다. | - [[!UICONTROL Sales]](./sales/sales.md)<br>- [[!UICONTROL Sales Emails]](./sales/sales-emails.md)<br>- [[!UICONTROL Quotes]](./sales/quotes.md)<br>- [[!UICONTROL PDF Print-outs]](./sales/pdf-print-outs.md)<br>- [[!UICONTROL Tax]](./sales/tax.md)<br>- [[!UICONTROL Checkout]](./sales/checkout.md)<br>- [[!UICONTROL Shipping Settings]](./sales/shipping-settings.md)<br>- [[!UICONTROL Multishipping Settings]](./sales/multishipping-settings.md)<br>- [[!UICONTROL Delivery Methods]](./sales/delivery-methods.md)<br>- [[!UICONTROL Google API]](./sales/google-api.md)<br>- [[!UICONTROL 3D Secure]](./sales/3d-secure.md)<br>- [[!UICONTROL Gift Cards]](./sales/gift-cards.md)<br>- [[!UICONTROL Payment Methods]](./sales/payment-methods.md) |
-| **[!UICONTROL Sales Channels]** <br/><br/> [!DNL Amazon Sales Channel] 확장이 설치되면 _[!UICONTROL Sales Channels]_설정은 Amazon 스토어와의 자동 통합 작업을 제어합니다. | - [[!UICONTROL Global Settings]](sales-channels.md) |
-| **[!UICONTROL Services]** <br/><br/> _[!UICONTROL Services]_구성 설정은 SOAP 및 OAuth를 포함한 Commerce API 통합 설정을 결정합니다. | - [[!UICONTROL Web API]](./services/magento-web-api.md)<br>- [[!UICONTROL Commerce Services]](./services/saas.md)<br>- [[!UICONTROL OAuth]](./services/oauth.md) |
-| **[!UICONTROL Advanced]** <br/><br/> _[!UICONTROL Advanced]_구성 설정은 기본 관리자 설정, 다양한 시스템 구성 설정, 고급 모듈 컨트롤 및 개발자 도구를 결정합니다. | - [[!UICONTROL Admin]](./advanced/admin.md) [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}<br>- [[!UICONTROL System]](./advanced/system.md) [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}<br>- [[!UICONTROL Developer]](./advanced/developer.md) |
+| **[!UICONTROL General]** <br/><br/> _[!UICONTROL General]_&#x200B;구성 섹션은 저장소 매개 변수, URL, 테마, 통화, 전자 메일 주소, 저장소 연락처, 편집기 및 대시보드 보고서를 결정합니다. | - [[!UICONTROL General]](./general/general.md)<br>- [[!UICONTROL B2B Features]](./general/b2b-features.md)<br>- [[!UICONTROL Web]](./general/web.md)<br>- [[!UICONTROL Currency Setup]](./general/currency-setup.md)<br>- [[!UICONTROL Store Email Addresses]](./general/store-email-addresses.md)<br>- [[!UICONTROL Contacts]](./general/contacts.md)<br>- [[!UICONTROL Reports]](./general/reports.md)<br>- [[!UICONTROL Content Management]](./general/content-management.md)<br>- [[!UICONTROL Advanced Reporting]](./general/advanced-reporting.md) |
+| **[!UICONTROL Catalog]** <br/><br/> _[!UICONTROL Catalog]_&#x200B;구성 설정은 제품 및 인벤토리 설정을 결정하고, 사이트 맵 및 RSS 피드 생성을 제어하며, 친구와 제품을 공유하는 데 사용되는 전자 메일 템플릿을 지정합니다. | - [[!UICONTROL Catalog]](./catalog/catalog.md)<br>- [[!UICONTROL Visual Merchandiser]](./catalog/visual-merchandiser.md)<br>- [[!UICONTROL Inventory]](./catalog/inventory.md)<br>- [[!UICONTROL XML Sitemap]](./catalog/xml-sitemap.md)<br>- [[!UICONTROL RSS Feeds]](./catalog/rss-feeds.md)<br>- [[!UICONTROL Email to a Friend]](./catalog/email-to-a-friend.md) |
+| **[!UICONTROL Security]** <br/><br/> _[!UICONTROL Security]_&#x200B;구성 설정은 저장소 보안, 이중 인증 및 Google reCAPTCHA 기능을 제어합니다. | - [[!UICONTROL 2FA]](./security/2fa.md)<br>- [[!UICONTROL Google reCAPTCHA Admin Panel]](./security/google-recaptcha-admin.md)<br>- [[!UICONTROL Google reCAPTCHA Storefront]](./security/google-recaptcha-storefront.md)<br>- [[!UICONTROL Security.txt]](./security/security-txt.md) |
+| **[!UICONTROL Customers]** <br/><br/> _[!UICONTROL Customers]_&#x200B;구성 설정은 기본 고객 계정 및 로그인 옵션, 뉴스레터 설정, 위시리스트 및 자동 생성된 쿠폰 코드 형식을 설정합니다. | - [[!UICONTROL Login as Customer]](./customers/login-as-customer.md)<br>- [[!UICONTROL Newsletter]](./customers/newsletter.md)<br>- [[!UICONTROL Company Configuration]](./customers/company-configuration.md)<br>- [[!UICONTROL Customer Configuration]](./customers/customer-configuration.md)<br>- [[!UICONTROL Requisition Lists]](./customers/requisition-lists.md)<br>- [[!UICONTROL Wish List]](./customers/wishlist.md)<br>- [[!UICONTROL Invitations]](./customers/invitations.md)<br>- [[!UICONTROL Reward Points]](./customers/reward-points.md)<br>- [[!UICONTROL Promotions]](./customers/promotions.md)<br>- [[!UICONTROL Gift Registry]](./customers/gift-registry.md)<br>- [[!UICONTROL Persistent Shopping Cart]](./customers/persistent-shopping-cart.md) |
+| **[!UICONTROL Sales]** <br/><br/> _[!UICONTROL Sales]_&#x200B;구성 설정은 체크아웃 및 세금 설정, 결제 및 배송 옵션, 판매 전자 메일 및 PDF 인쇄물, Google API 설정을 결정합니다. | - [[!UICONTROL Sales]](./sales/sales.md)<br>- [[!UICONTROL Sales Emails]](./sales/sales-emails.md)<br>- [[!UICONTROL Quotes]](./sales/quotes.md)<br>- [[!UICONTROL PDF Print-outs]](./sales/pdf-print-outs.md)<br>- [[!UICONTROL Tax]](./sales/tax.md)<br>- [[!UICONTROL Checkout]](./sales/checkout.md)<br>- [[!UICONTROL Shipping Settings]](./sales/shipping-settings.md)<br>- [[!UICONTROL Multishipping Settings]](./sales/multishipping-settings.md)<br>- [[!UICONTROL Delivery Methods]](./sales/delivery-methods.md)<br>- [[!UICONTROL Google API]](./sales/google-api.md)<br>- [[!UICONTROL 3D Secure]](./sales/3d-secure.md)<br>- [[!UICONTROL Gift Cards]](./sales/gift-cards.md)<br>- [[!UICONTROL Payment Methods]](./sales/payment-methods.md) |
+| **[!UICONTROL Sales Channels]** <br/><br/> [!DNL Amazon Sales Channel] 확장이 설치되면 _[!UICONTROL Sales Channels]_&#x200B;설정은 Amazon 스토어와의 자동 통합 작업을 제어합니다. | - [[!UICONTROL Global Settings]](sales-channels.md) |
+| **[!UICONTROL Services]** <br/><br/> _[!UICONTROL Services]_&#x200B;구성 설정은 SOAP 및 OAuth를 포함한 Commerce API 통합 설정을 결정합니다. | - [[!UICONTROL Web API]](./services/magento-web-api.md)<br>- [[!UICONTROL Commerce Services]](./services/saas.md)<br>- [[!UICONTROL OAuth]](./services/oauth.md) |
+| **[!UICONTROL Advanced]** <br/><br/> _[!UICONTROL Advanced]_&#x200B;구성 설정은 기본 관리자 설정, 다양한 시스템 구성 설정, 고급 모듈 컨트롤 및 개발자 도구를 결정합니다. | - [[!UICONTROL Admin]](./advanced/admin.md) [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}<br>- [[!UICONTROL System]](./advanced/system.md) [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}<br>- [[!UICONTROL Developer]](./advanced/developer.md) |
 
 {style="table-layout:auto"}
 
