@@ -80,4 +80,4 @@ ht-degree: 0%
 
 [!DNL Inventory Management]개의 원본 및 스톡에 대해 알아보려면 이 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410199?captions=kor&quality=12&learn=on)
