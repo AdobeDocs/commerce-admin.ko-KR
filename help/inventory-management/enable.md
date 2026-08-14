@@ -1,28 +1,17 @@
 ---
 title: ' [!DNL Inventory Management] 사용'
-description: 글로벌 스토어 또는 제품 수준에서  [!DNL Inventory Management] 을(를) 사용하도록 설정하는 방법에 대해 알아봅니다.
+description: 판매 가능 수량 및 이행 추적을 제어하려면  [!DNL Inventory Management] 을(를) 활성화하거나 비활성화하고 스토어 또는 제품 수준에서 재고를 관리합니다.
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/evCX34nY-m7WQnZt3xw7ng6-It7Xlf5DTanjKbP1fCk
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: 309
 ht-degree: 0%
 
 ---
@@ -31,7 +20,12 @@ ht-degree: 0%
 
 제품 인벤토리를 관리하려면 글로벌 스토어 또는 제품 수준에서 [!DNL Inventory Management]을(를) 사용하도록 설정하십시오. _재고 관리_ 옵션이 활성화되면 [!DNL Inventory Management]은(는) 구성된 재고 및 소스를 통해 사이트에서 사용할 수 있는 제품 수량을 자동으로 추적합니다. 모든 기능과 옵션은 활성화되면 추가 구성 없이 추적 및 보고를 시작합니다.
 
-비즈니스는 판매 속도로 실행되고 인벤토리가 업데이트됩니다. 고객이 쇼핑할 때 판매 채널 및 출처별로 사용 가능한 재고에 대한 정확한 업데이트 정보를 받게 됩니다. 고객이 장바구니에 제품을 추가하고 구매를 완료하고 사용자가 주문을 관리하고 납품을 생성하고 환불을 발행할 때 가용 판매 수량이 재고별로 갱신됩니다. 신규 또는 이전된 재고가 출처로 갱신되며, 즉시 온라인 판매에 이용 가능합니다. 미납주문은 무한 주문이나 추가 구성 없이 지정된 임계값까지 완료됩니다. 또한 추천과 함께 하나 이상의 출처에 대해 부분 또는 전체 출하를 입력하고 완료함으로써 주문 이행 및 현재고를 완벽하게 제어할 수 있습니다.
+[!DNL Inventory Management]이(가) 활성화되면 영업 활동에 대한 인벤토리가 업데이트됩니다.
+
+- 고객이 장바구니에 제품을 추가하거나 체크아웃을 완료하거나 주문을 배송하거나 환불할 때 재고당 판매 수량이 갱신됩니다.
+- 출처에서 신규 또는 이전된 재고는 수량을 갱신한 후 온라인 판매에 사용할 수 있게 됩니다.
+- 미납주문은 추가 설정 없이 구성된 임계값을 적용합니다.
+- 알고리즘 권장 사항이나 수동 출처 선택을 사용하여 하나 이상의 출처에서 부분 또는 전체 납품을 생성할 수 있습니다.
 
 >[!NOTE]
 >
@@ -39,7 +33,7 @@ ht-degree: 0%
 
 단일 및 다중 소스 인벤토리에서 이 설정이 작동하는 방식:
 
-- [!DNL Inventory Management]을(를) 사용하려면 _[!UICONTROL Manage Stock]_&#x200B;을(를) 사용하도록 설정하십시오.
+- [!DNL Inventory Management]을(를) 사용하려면 _[!UICONTROL Manage Stock]_을(를) 사용하도록 설정하십시오.
 
 - 제품 수준 구성의 [!UICONTROL Manage Stock] 설정이 저장소 구성을 재정의합니다.
 

@@ -1,32 +1,23 @@
 ---
 title: 인벤토리 소스 관리
-description: 주문 이행을 위해 제품 재고를 관리하고 배송하는 물리적 위치 또는 서비스를 사용할 수 있는 위치를 소스 및 정의하는 방법에 대해 알아봅니다.
+description: 제품 인벤토리를 저장하고 전달하는  [!DNL Inventory Management] 소스를 추가, 편집, 사용 및 사용 안 함으로 설정하는 관리 작업의 개요입니다.
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
 TQID: https://experienceleague.adobe.com/bVWqSGSgW08l7zZ7bLuZIcJUjqmj7Npn55yEdZn-aB0
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: 623
 ht-degree: 0%
 
 ---
 
 # 소스 관리
 
-출처는 주문 이행을 위해 제품 재고를 관리하고 출하하는 물리적 위치 또는 서비스를 사용할 수 있는 물리적 위치입니다. 이러한 위치에는 창고, 오프라인 매장, 물류 센터, 픽업 위치 및 드롭 화주가 포함될 수 있습니다. 이러한 소스에 재고 수량을 할당하면 [!DNL Commerce]에서 재고에 대한 총 판매 가능 제품을 자동으로 집계합니다. 대기업의 경우 모든 위치에 대해 국가 및 대륙별로 다른 지리적 위치에 서비스를 기반으로 한 인벤토리의 유형에 따라 도시의 위치에 여러 소스를 추가하십시오.
+이 항목을 사용하여 소스를 추가, 편집, 활성화 및 비활성화합니다. 소스와 재고 및 판매 가능 수량에 대한 자세한 내용은 [재고 및 소스](sources-stocks.md)를 참조하십시오.
 
 소스를 만들 때 특정 물리적 지리적 위치를 제공하는 것이 좋습니다. 이를 통해 _거리 우선 순위 알고리즘_&#x200B;은(는) 배송 대상 주소의 위치를 사용 가능한 원본 위치와 비교하여 배송을 이행할 가장 가까운 원본을 결정할 수 있습니다. 지리 코드를 사용하는 Google 맵 또는 오프라인 계산을 사용할 수 있습니다. 이 _거리 우선 순위 알고리즘_&#x200B;에 대한 자세한 내용은 [거리 우선 순위 알고리즘 구성](distance-priority-algorithm.md)을 참조하십시오.
 
@@ -51,7 +42,7 @@ ht-degree: 0%
 
 기본 Source을 편집하는 경우 이름 및 코드를 제외한 모든 구성을 편집할 수 있습니다. 단일 소스 판매자의 위치에 일치하는 정보를 추가하는 것이 좋습니다.
 
-_[!UICONTROL Manage Sources]_&#x200B;페이지에는 사용 가능한 모든 인벤토리 위치와 이행 기능이 나열됩니다. 새 인벤토리 소스를 추가하고 기존 위치를 편집할 수 있습니다.
+_[!UICONTROL Manage Sources]_페이지에는 사용 가능한 모든 인벤토리 위치와 이행 기능이 나열됩니다. 새 인벤토리 소스를 추가하고 기존 위치를 편집할 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**(으)로 이동합니다.
 

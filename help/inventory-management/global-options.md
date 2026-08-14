@@ -1,31 +1,24 @@
 ---
 title: ' [!DNL Inventory Management] 전역 옵션 구성'
-description: 웹 사이트의 제품 및 재고에 대한 기본 [!DNL Inventory Management] 구성 옵션을 구성하는 방법에 대해 알아봅니다.
+description: 모든 웹 사이트에서 제품 재고 옵션, 임계값 및 상점 표시에 대한 글로벌 [!DNL Inventory Management] 카탈로그 설정을 구성합니다.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: 657
 ht-degree: 1%
 
 ---
 
 # [!DNL Inventory Management] 전역 옵션 구성
+
+이러한 전역 설정은 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**아래의 전체 카탈로그에 적용됩니다.
 
 웹 사이트의 제품 및 재고에 대한 기본 구성 옵션을 구성합니다. 이러한 설정 중 일부는 [제품 옵션 구성](product-options.md)을 통해 제품별로 재정의할 수 있습니다. 거리 우선 순위 설정을 구성하려면 [거리 우선 순위 알고리즘 구성](distance-priority-algorithm.md)을 참조하십시오.
 
@@ -101,7 +94,7 @@ ht-degree: 1%
 
      >[!NOTE]
      >
-     >_비동기 큐 관리자_&#x200B;를 구성하고 지원하려면 명령줄을 사용하여 명령을 실행해야 합니다. 이 단계에는 개발자 지원이 필요할 수 있습니다. _구성 가이드_&#x200B;에서 [메시지 큐 소비자 시작](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=ko)을 참조하세요.
+     >_비동기 큐 관리자_&#x200B;를 구성하고 지원하려면 명령줄을 사용하여 명령을 실행해야 합니다. 이 단계에는 개발자 지원이 필요할 수 있습니다. _구성 가이드_&#x200B;에서 [메시지 큐 소비자 시작](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html)을 참조하세요.
 
    - 활성화된 경우 **[!UICONTROL Asynchronous batch size]**&#x200B;을(를) 설정합니다. 기본 배치 크기는 100입니다. 벌크 프로세스가 이 양에 도달하면 시스템이 이를 트리거합니다.
 

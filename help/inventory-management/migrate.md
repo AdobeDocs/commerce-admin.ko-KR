@@ -1,26 +1,17 @@
 ---
 title: '[!DNL Commerce]개 업그레이드'
-description: Adobe Commerce 및 Magento Open Source 업그레이드가 카탈로그 및 [!DNL Inventory Management] 구성에 어떤 영향을 미치는지 알아보세요.
+description: Adobe Commerce 2.4.x로 업그레이드하는 것이 카탈로그 인벤토리, 재고 및 [!DNL Inventory Management] 모듈의 동작에 어떻게 영향을 미치는지 알아보세요.
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
 TQID: https://experienceleague.adobe.com/rAnH5pJjtg4ujbQdHow-B6urN090iTTt19mv4sadVnc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ee163e043412ee9719458f2660e116050afa0d1f
 workflow-type: tm+mt
-source-wordcount: 749
+source-wordcount: 754
 ht-degree: 0%
 
 ---
@@ -41,21 +32,21 @@ Magento Open Source 2.4.x 또는 Adobe Commerce 2.4.x를 설치할 때 다음과
   >
   >Default Stock 및 Default Source은 이제 사용되지 않는 `CatalogInventory` 모듈의 일부이므로 사용하지 않는 것이 좋습니다. 대신 사용자 지정 재고 및 소스를 만들고 사용하는 것이 좋습니다.
 
-   - 재고는 장바구니 및 주문을 추적하기 위한 예약과 함께 집계된 가상 판매 가능 수량을 제공하여 동시 체크아웃을 보장합니다.
+  - 재고는 장바구니 및 주문을 추적하기 위한 예약과 함께 집계된 가상 판매 가능 수량을 제공하여 동시 체크아웃을 보장합니다.
 
-   - 카탈로그의 모든 기존 제품은 기본 Source에 할당됩니다. 새 소스를 추가하기 전까지 제품 인터페이스는 변경되지 않습니다. 한 위치의 제품만 출하하는 경우 출처에 대해 다른 차이는 없습니다. 사용자 지정 [원본](sources-add.md)을(를) 만들고 배송 위치당 [수량을 할당](quantities-manage.md)할 수 있습니다.
+  - 카탈로그의 모든 기존 제품은 기본 Source에 할당됩니다. 새 소스를 추가하기 전까지 제품 인터페이스는 변경되지 않습니다. 한 위치의 제품만 출하하는 경우 출처에 대해 다른 차이는 없습니다. 사용자 지정 [원본](sources-add.md)을(를) 만들고 배송 위치당 [수량을 할당](quantities-manage.md)할 수 있습니다.
 
-   - 소스를 픽업 위치로 구성하고 해당 소스에 대해 [수량을 할당](quantities-manage.md)할 수 있습니다.
+  - 소스를 픽업 위치로 구성하고 해당 소스에 대해 [수량을 할당](quantities-manage.md)할 수 있습니다.
 
-   - 웹 사이트가 기본 재고에 할당합니다. 사용자 지정 [재고](stocks-add.md)를 만들어 판매 채널(웹 사이트)과 원본(위치)에 연결할 수 있습니다.
+  - 웹 사이트가 기본 재고에 할당합니다. 사용자 지정 [재고](stocks-add.md)를 만들어 판매 채널(웹 사이트)과 원본(위치)에 연결할 수 있습니다.
 
 - 추가 [구성 옵션](configuration.md)을(를) 제품 및 글로벌 스토어에 추가합니다. 일부 기존 구성 옵션은 업데이트된 옵션 및 비헤이비어를 받습니다.
 
-   - 아래 수량에 대해 통지를 발송하면 판매 가능 수량에서 공제가 이루어집니다.
+  - 아래 수량에 대해 통지를 발송하면 판매 가능 수량에서 공제가 이루어집니다.
 
-   - 재고 부족 임계값은 양수, 0 및 음수 금액을 지원합니다. 미납주문을 사용할 경우 양수는 무시되며 0(또는 무제한)으로 간주됩니다.
+  - 재고 부족 임계값은 양수, 0 및 음수 금액을 지원합니다. 미납주문을 사용할 경우 양수는 무시되며 0(또는 무제한)으로 간주됩니다.
 
-   - 미납주문은 영(무한)과 음수를 지원합니다. 사용가능으로 설정된 경우 아래 수량에 대한 통지는 판매 가능 수량에서 공제되지 않습니다.
+  - 미납주문은 영(무한)과 음수를 지원합니다. 사용가능으로 설정된 경우 아래 수량에 대한 통지는 판매 가능 수량에서 공제되지 않습니다.
 
 - 신규 예약은 잠재적 판매를 추적하여 주문이 출하될 때 수량 공제로 전환합니다. 직접 액세스하거나 예약을 만들 수 없습니다. [!DNL Commerce]은(는) 주문, 배송 및 외상 메모를 통해 막후 예약을 만들고 관리합니다.
 
