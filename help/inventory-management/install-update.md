@@ -1,6 +1,6 @@
 ---
 title: ' [!DNL Inventory Management] 설치, 업데이트 및 제거'
-description: ' [!DNL Inventory Management] 메타패키지를 관리하는 방법을 알아봅니다.'
+description: ' [!DNL Inventory Management] 메타패키지를 설치, 활성화, 비활성화, 제거 또는 업그레이드합니다.'
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
@@ -17,9 +17,9 @@ role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 683
+source-wordcount: 677
 ht-degree: 0%
 
 ---
@@ -98,9 +98,9 @@ ht-degree: 0%
 
 설치, 업그레이드 또는 업데이트 시 Admin의 _[!UICONTROL Manage Stock]_&#x200B;옵션이 기본적으로 사용됩니다. 이 옵션을 사용하면 인벤토리 추적 및 관리를 사용할 수 있지만 모듈 상태에는 영향을 주지 않습니다. 모듈을 비활성화하려면 다음 섹션을 참조하십시오.
 
-구성에 대한 자세한 내용은 [Inventory management 구성](configuration.md)을 참조하십시오.
+구성에 대한 자세한 내용은 [구성 [!DNL Inventory Management]](configuration.md)을 참조하세요.
 
-## Inventory management 비활성화
+## [!DNL Inventory Management] 사용 안 함 {#disable-inventory-management}
 
 >[!IMPORTANT]
 >
@@ -126,7 +126,7 @@ ht-degree: 0%
 >
 >OMS 커넥터 모듈이 설치되어 있는 경우 커넥터 모듈인 `Magento_InventoryMessageBus` 모듈을 비활성화하지 않도록 하십시오. OMS에서 커넥터를 사용해야 합니다.
 
-## Inventory management 제거
+## [!DNL Inventory Management] 제거 {#remove-inventory-management}
 
 >[!IMPORTANT]
 >
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 이 변경 사항이 완료되면 작성기 설치 를 실행하고 이러한 Inventory management 모듈이 자동으로 제거됩니다.
 
-## Inventory management 업그레이드
+## [!DNL Inventory Management] 업그레이드 {#upgrade-inventory-management}
 
 ### 이전 [!DNL Commerce] 버전
 

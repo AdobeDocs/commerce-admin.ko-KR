@@ -1,6 +1,6 @@
 ---
 title: 주문 상태 및 예약
-description: 재고(또는 판매 채널)에 대한 판매 가능 수량 및 출처당 현재고 수량을 업데이트하는 자동 예약 입력 또는 변경사항에 대해 알아봅니다.
+description: 송장발행, 배송, 취소 및 환불이 출처당 예약 및 현재고 수량을 업데이트 [!DNL Inventory Management] 하는 방법을 알아봅니다.
 exl-id: d264cb49-5aa8-4949-ae87-5efcd463d38c
 feature: Inventory, Orders, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/sBHMsUsdmqiIL3Q3GNXDPAlDkEzCNLeXG0L5-1qhdKA
@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 1133
+source-wordcount: 1121
 ht-degree: 0%
 
 ---

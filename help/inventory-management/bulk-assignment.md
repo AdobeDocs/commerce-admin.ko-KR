@@ -1,6 +1,6 @@
 ---
 title: 일괄 재고 출처 지정 및 지정 취소
-description: 소스 할당 도구를 사용하여 제품에 대한 소스 할당을 관리하는 방법을 알아봅니다.
+description: 관리자의 일괄 소스 할당 작업을 사용하여 한 번에 많은 제품에 대한  [!DNL Inventory Management] 소스를 할당하거나 할당 해제할 수 있습니다.
 exl-id: 1f1e81a5-fb06-46b7-84ca-7feea4942093
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/H8UQh7quyOeDq6-hSmf83fzUuJkuSLv0i2dezX-GKRA
@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2023-06-28
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
 workflow-type: tm+mt
-source-wordcount: 328
+source-wordcount: 332
 ht-degree: 0%
 
 ---

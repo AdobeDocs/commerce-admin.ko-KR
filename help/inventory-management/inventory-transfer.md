@@ -1,6 +1,6 @@
 ---
 title: 재고를 소스로 이전
-description: 멀티 소스 판매자가 한 소스 위치에서 다른 소스 위치로 제품 재고를 전송하는 방법에 대해 알아봅니다.
+description: 이행 위치를 변경할 때  [!DNL Inventory Management] 소스 간에 현재고 제품 수량을 이전합니다.
 exl-id: 30438412-bc93-4e65-8b6a-5ddb50afa7ff
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/HV6GQjHa88xgcSAi-LXhyqe7k2QW95VzQ8eG2mGlJ8I
@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2023-10-26
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
 workflow-type: tm+mt
-source-wordcount: 282
+source-wordcount: 278
 ht-degree: 0%
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: Source 알고리즘 및 예약
-description: 판매 가능 수량을 업데이트하기 위해 백그라운드에서 실행되는 Source 선택 알고리즘 및 예약 시스템에 대해 알아봅니다.
+description: ' [!DNL Inventory Management]에서 체크아웃 및 배송 중에 Source 선택 알고리즘 및 예약이 정확한 판매 수량을 유지하는 방법에 대해 알아봅니다.'
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/x3UFGWtRSiodcnEF4Di3yFmR8GY8xoHSvVVsDg-J-qY
@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2026-06-03
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
 workflow-type: tm+mt
-source-wordcount: 2181
+source-wordcount: 2178
 ht-degree: 0%
 
 ---

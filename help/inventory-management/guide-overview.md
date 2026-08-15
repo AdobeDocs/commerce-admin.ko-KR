@@ -1,6 +1,6 @@
 ---
-title: Inventory management 안내서 [!DNL Inventory Management] 안내서
-description: 마이그레이션 및 구성을 포함하여 Adobe Commerce 및 Magento Open Source 관리자를 위한  [!DNL Inventory Management] 에 대한 포괄적인 정보입니다.
+title: '[!DNL Inventory Management] 안내서'
+description: Adobe Commerce 및 Magento Open Source의  [!DNL Inventory Management] 재고, 소스, 수량, 구성, 주문 및 배송에 대한 관리 및 CLI 가이드.
 seo-title: Adobe Commerce Inventory Management Guide
 seo-description: Describes how to use the [!DNL Inventory Management] module in Adobe Commerce or Magento Open Source.
 exl-id: 8013bc13-b057-4ad7-bbed-ee00c2f6e4eb
@@ -24,48 +24,49 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94e419120b8e16848cc1d449650f023f361a2af7
 workflow-type: tm+mt
-source-wordcount: 394
-ht-degree: 0%
+source-wordcount: 329
+ht-degree: 1%
 
 ---
 
-# [!DNL Inventory Management] 안내서 개요
+# [!DNL Inventory Management] 개요
 
-이 안내서는 Adobe Commerce 및 Magento Open Source 관리자에서 작업 중인 관리자를 위한 것입니다. 기능 구성 및 관리를 포함하여 이 모듈 활성화에 대한 자세한 정보를 제공합니다. 이는 핵심 [!DNL Commerce] 구성 및 기능에 대한 기본적인 이해를 전제로 합니다.
+이 안내서는 Adobe Commerce 및 Magento Open Source의 여러 위치에서 재고를 관리하는 관리자를 위한 것입니다. [!DNL Inventory Management] 모듈에 대한 구성 및 관리 절차를 제공하며 핵심 [!DNL Commerce] 기능에 대한 기본적인 이해를 전제로 합니다.
 
-[!DNL Inventory Management]에는 관리자를 위한 두 영역이 있습니다.
-
-- 관리자: 이 영역을 사용하여 구성 UI 및 보고에 액세스합니다.
-- 명령줄 인터페이스: 이 도구를 사용하여 설치 및 백엔드 구성 작업을 실행합니다.
+구성, 보고 및 일상적인 인벤토리 작업에 **관리자**&#x200B;를 사용하십시오. 설치, 업그레이드 및 백엔드 구성에 **명령줄 인터페이스**&#x200B;를 사용하십시오.
 
 이 안내서에서는 다음 주제를 다룹니다.
 
 | 제목 | 설명 |
 | ------- | ----------- |
-| [소개](introduction.md) | Commerce 스토어에서 실제 인벤토리를 정확하게 반영할 수 있도록 여러 위치의 재고를 관리하는 데 사용할 수 있는 [!DNL Inventory Management] 기능의 개요입니다. |
-| [릴리스 정보](release-notes.md) | 모든 [!DNL Inventory Management] 릴리스에 대한 자세한 내용은 릴리스 정보를 검토하십시오. |
-| 인벤토리 기본 사항 | 재고 관리에 대한 기본 사항을 알아보세요. [재고 및 소스](sources-stocks.md), [소스 선택 및 예약](selection-reservations.md), [주문 및 예약 상태](order-status.md), [제품 유형](product-types.md) |
-| 시작하기 | [!DNL Inventory Management] 모듈과 이 모듈이 Commerce 인스턴스 및 스토어 작업에 어떻게 적합한지 알아봅니다. [Commerce 업그레이드](migrate.md), [모듈 설치 및 업데이트](install-update.md), [판매자 소싱 유형](merchant-sourcing.md), [소싱 구조 변경](expand-restructure.md) |
-| [구성](configuration.md) | 소스 가용성, 상점 제품 및 주문 선적을 결정하는 [!DNL Inventory Management] 옵션 구성에 대해 알아봅니다. |
-| [소스 관리](sources-manage.md) | 주문 이행을 위해 제품 재고를 관리하고 배송하는 물리적 위치 또는 서비스를 사용할 수 있는 위치를 소스 및 정의하는 방법에 대해 알아봅니다. |
-| [재고 관리](stocks-manage.md) | 재고를 사용하여 판매 채널 소스에 대한 가상 집계된 제품 재고를 나타내는 방법을 알아봅니다. |
-| [수량 관리](quantities-manage.md) | 새 제품에 대한 소스 및 수량을 할당하거나 기존 제품을 변경하는 방법에 대해 알아봅니다. |
-| [주문 및 배송 관리](shipments.md) | 배송 프로세스를 통해 재고 수량을 관리하기 위한 추가 [!DNL Inventory Management] 기능 및 옵션에 대해 알아봅니다. |
-| [CLI 참조](cli.md) | 인벤토리 데이터 및 구성 설정을 관리하기 위해 [!DNL Inventory Management] 모듈에서 제공하는 명령에 대해 알아봅니다. |
+| [소개](introduction.md) | 기능, 용어 및 [!DNL Inventory Management]이(가) 스토어에 맞는 방법입니다. |
+| [릴리스 정보](release-notes.md) | 모듈 릴리스 내역 및 알려진 문제 |
+| [인벤토리 기본 사항](sources-stocks.md) | [재고 및 소스](sources-stocks.md), [소스 선택 및 예약](selection-reservations.md), [주문 및 예약 상태](order-status.md) 및 [제품 유형](product-types.md)에 대한 개념입니다. |
+| 시작하기 | [Commerce 업그레이드](migrate.md), [설치 및 업데이트](install-update.md), [판매자 소싱 유형](merchant-sourcing.md) 및 [인벤토리 재구성](expand-restructure.md). |
+| [구성](configuration.md) | 상점 첫 화면 표시 및 배송에 대한 글로벌, 제품 및 알고리즘 설정. |
+| [소스 관리](sources-manage.md) | 이행 위치를 생성하고 관리합니다. |
+| [재고 관리](stocks-manage.md) | 소스를 판매 채널에 매핑. |
+| [수량 관리](quantities-manage.md) | 출처당 제품 수량을 지정 및 갱신합니다. |
+| [주문 및 배송 관리](shipments.md) | 주문을 이행하고 재고에서 납품을 관리합니다. |
+| [CLI 참조](cli.md) | 명령줄 인벤토리 및 구성 작업. |
 
 {style="table-layout:auto"}
 
 ## 개발자 정보
 
-모듈 아키텍처, API 및 알고리즘 사용자 지정에 대한 자세한 내용은 개발자 설명서에서 [[!DNL Inventory Management]](https://developer.adobe.com/commerce/webapi/rest/inventory/)을(를) 참조하십시오.
+API, 사용자 정의 및 모듈 아키텍처를 위한 고급 리소스에 액세스합니다. API 및 알고리즘 사용자 지정에 대한 기술적인 세부 정보는 REST API 개발자 설명서에서 [[!DNL Inventory Management]](https://developer.adobe.com/commerce/webapi/rest/inventory/)을(를) 참조하십시오.
 
 ## Commerce 설명서
+
+Adobe Commerce의 모든 부분에 도움이 되는 판매자, 클라우드 및 개발자 안내서를 찾아보십시오. 이러한 리소스는 모든 설정 또는 관리 요구 사항에 사용합니다.
 
 {{docs-links}}
 
 ## 문제 해결 및 지원
+
+지원 문서 및 티켓 시스템을 사용하여 인벤토리 문제를 신속하게 해결할 수 있습니다. 재고 상태 또는 제품 관리에 대한 추가 도움을 받으십시오.
 
 이 안내서에서 다루지 않는 정보가 필요하거나 질문이 있는 경우 다음 리소스를 사용하십시오.
 

@@ -1,6 +1,6 @@
 ---
 title: 제품 경고
-description: 제품 경고와 이를 사용하여 고객에게 제품의 재고 상태 및 가격 변화에 대해 알리는 방법에 대해 알아봅니다.
+description: 재고 및 가격 변경 제품 알림, 전자 메일 서식 파일을 설정하고  [!DNL Inventory Management] 카탈로그 구성에서 설정을 실행합니다.
 exl-id: c9f736c5-7bba-4e3e-804d-5b0fe52c8f9b
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/n1n2tqb97EiM-vXZqifVgMOdBqNRdwNM-pjDI-D-b8M
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 653
+source-wordcount: 650
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 가격 변경 알림을 사용하도록 설정하면 모든 제품 페이지에 _가격 하락 시 알림_ 링크가 나타납니다. 고객은 링크를 클릭하여 제품과 관련된 경고를 구독할 수 있습니다. 스토어에 계정을 만들라는 메시지가 나타납니다. 가격이 변경되거나 제품이 특별 광고될 때마다 경고를 구독한 모든 사용자에게 이메일 알림이 전송됩니다.
 
-## 재고 내 경고
+## 재고 경고
 
 재고 경고는 _이 제품이 재고가 있을 때 알림_&#x200B;이라는 링크를 만듭니다. 재고가 없는 모든 제품에 대해 이 제품이 재고가 있을 때 알림이 표시됩니다. 고객은 링크를 클릭하여 경고를 구독할 수 있습니다. 제품이 재입고되면 고객은 제품을 사용할 수 있다는 이메일 알림을 받게 됩니다. 경고가 있는 제품에는 경고를 구독한 고객을 나열하는 제품 정보 패널의 _제품 경고_ 탭이 있습니다.
 

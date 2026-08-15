@@ -1,6 +1,6 @@
 ---
 title: 재고 관리
-description: 재고를 사용하여 판매 채널 소스에 대한 가상 집계된 제품 재고를 나타내는 방법을 알아봅니다.
+description: 관리에서 재고를 관리하여 소스를 판매 채널에 매핑하고, 이행 우선 순위를 지정하며, 판매 가능 수량을 정확하게 유지합니다.
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
 TQID: https://experienceleague.adobe.com/IeG1bA1etAjxiDjSWY83GLNugllHT1mUrZBde45Ha8g
 product_v2:
@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 524
+source-wordcount: 522
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 |--|--|
 | [!UICONTROL Add New Stock] | 판매 채널에 인벤토리를 매핑하기 위해 새 재고 재고를 입력하는 데 사용되는 _[!UICONTROL New Stock]_&#x200B;양식을 엽니다. |
 
-## Stock 열 설명 관리
+## 재고 열 설명 관리
 
 | 열 | 설명 |
 |--|--|

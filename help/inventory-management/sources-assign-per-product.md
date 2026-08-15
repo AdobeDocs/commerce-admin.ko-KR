@@ -1,6 +1,6 @@
 ---
 title: 제품당 재고 출처 지정
-description: 제품에 재고 소스를 할당하는 방법을 알아봅니다.
+description: 소스당 수량 및 임계값을 설정하기 전에 관리자에서 제품에 하나 이상의  [!DNL Inventory Management] 소스를 지정하십시오.
 exl-id: 7e47be25-633e-4f5d-bb61-0d9e79b6dbad
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/Wjx3w6Z-oNALxNRHw65BZDeCzka3BQvtg-m4a9kp-Y8
@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2023-10-26
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
 workflow-type: tm+mt
-source-wordcount: 151
+source-wordcount: 159
 ht-degree: 0%
 
 ---

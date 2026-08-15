@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Inventory Management] 릴리스 정보'
-description: 모든 [!DNL Inventory Management] 릴리스에 대한 정보는 릴리스 정보를 검토하십시오.
+description: 각 Community Engineering 모듈 버전의 새로운 기능, 수정 사항 및 알려진 문제에 대해서는  [!DNL Inventory Management] 릴리스 정보를 검토하십시오.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
 TQID: https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk
@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 3533
+source-wordcount: 3540
 ht-degree: 0%
 
 ---

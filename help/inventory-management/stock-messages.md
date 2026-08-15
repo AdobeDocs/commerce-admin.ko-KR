@@ -1,6 +1,6 @@
 ---
 title: Stock 메시지 시나리오
-description: 제품 페이지와 카탈로그 페이지의 제품 목록에서 재고 가용성 메시지를 제어하는 구성 설정의 조합에 대해 알아봅니다.
+description: 상점 첫 제품 페이지 및 범주 제품 목록에 표시되는  [!DNL Inventory Management] 주식 가용성 메시지를 구성합니다.
 exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/9kPHtr75C7PkM9vD-2-AeG8JnAfKAao0GKEH9MhkBbU
@@ -18,16 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 353
-ht-degree: 1%
+source-wordcount: 338
+ht-degree: 2%
 
 ---
 
 # Stock 메시지 시나리오
 
-구성 설정의 조합을 사용하여 제품 페이지와 카탈로그 페이지의 제품 목록에서 재고 가용성 메시지를 제어할 수 있습니다.
+다음 섹션의 설정을 사용하여 제품 페이지 및 카탈로그 목록에 재고 가용성 메시지가 표시되는 방식을 구성합니다.
 
 ![&quot;재고 부족&quot; 메시지가 있는 그룹화된 제품](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 

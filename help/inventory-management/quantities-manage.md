@@ -1,6 +1,6 @@
 ---
 title: 재고 수량 관리
-description: 새 제품에 대한 소스 및 수량을 할당하거나 기존 제품을 변경하는 방법에 대해 알아봅니다.
+description: ' [!DNL Inventory Management]의 새 제품 및 기존 제품에 대한 소스 및 소스당 수량을 할당하는 관리 절차의 개요입니다.'
 exl-id: b3d4a4c0-725a-4e62-854f-efb6a5709f73
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/ykiHTLnzZGtJrRdp2wZvlL7YLbEb7iAiYlcbY8K7IX8
@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
 source-wordcount: 325
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 # 재고 수량 관리
 
-다음 정보에서는 신규 제품에 대한 출처와 수량을 지정하거나 기존 제품을 변경하는 방법에 대해 자세히 설명합니다.
+신규 또는 기존 제품에 대한 출처와 수량을 지정하려면 다음 지침을 따르십시오.
 
 제품을 생성할 때 제품을 생성하는 동안 소스와 수량을 지정합니다. 자세한 지침은 [제품 만들기](../catalog/product-create.md)를 참조하세요. 이러한 페이지에는 출처와 출처당 수량에 대한 단일 및 다중 출처 정보가 포함되어 있습니다.
 

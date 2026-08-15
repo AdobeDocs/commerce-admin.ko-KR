@@ -1,6 +1,6 @@
 ---
-title: 인벤토리 토큰 추가
-description: 재고를 추가하고 판매 채널(웹 사이트)에 소스를 매핑하여 판매 가능한 수량 및 제품 재고에 대한 직접적인 링크를 제공하는 방법에 대해 알아봅니다.
+title: 재고 재고 추가
+description: 관리자에서 사용자 정의 재고를 추가하고, 웹 사이트 및 소스를 할당하고, 판매가능한 수량 및 출하에 대해 소스의 우선 순위를 지정합니다.
 exl-id: d0032ed7-c0d6-4654-b182-43a165e7dcf6
 TQID: https://experienceleague.adobe.com/oP-H4hvUmNunTl-hThx4ytzC6qOXa1PhK4P1omwFBUg
 product_v2:
@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: 405
 ht-degree: 0%
 
 ---

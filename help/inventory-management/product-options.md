@@ -1,6 +1,6 @@
 ---
 title: ' [!DNL Inventory Management] 제품 옵션 구성'
-description: ' [!DNL Inventory Management] 제품 구성 옵션을 구성하는 방법을 알아봅니다.'
+description: 글로벌 재고 및 원본 설정을 재정의하는 제품별 [!DNL Inventory Management]  및 고급 재고 옵션을 구성합니다.
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/Fz3Z2nuzHQygjnE5EZYNYi2riXQ1fV2Ufn0sNmjns2s
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: 916
 ht-degree: 0%
 
 ---

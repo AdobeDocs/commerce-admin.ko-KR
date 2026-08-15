@@ -1,6 +1,6 @@
 ---
 title: 인벤토리 가져오기 및 내보내기
-description: 확장된  [!DNL Inventory Management] 옵션과 함께 기본 가져오기 및 내보내기 기능을 사용하여 SKU별로 소스 및 수량을 업데이트합니다.
+description: 기본 카탈로그 데이터 전송 도구를 사용하여 SKU별로  [!DNL Inventory Management] 소스 할당 및 소스당 수량을 가져오고 내보냅니다.
 exl-id: cb2d2e0d-aef8-4b18-b013-9a7b0ab448bd
 feature: Inventory, Data Import/Export
 TQID: https://experienceleague.adobe.com/TrH9Ncak4gPMh-4kejFF0NdCIzjT-xT5-M4eETSQ9FM
@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
 source-wordcount: 510
 ht-degree: 0%

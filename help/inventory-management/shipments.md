@@ -1,6 +1,6 @@
 ---
 title: 재고에서 주문 및 선적 관리
-description: 배송 프로세스를 통해 재고 수량을 관리하기 위한 추가 [!DNL Inventory Management] 기능 및 옵션에 대해 알아봅니다.
+description: 판매 가능 및 현재고 수량이 자동으로 업데이트되므로  [!DNL Inventory Management] 에서 주문, 부분 출하, 환불 및 취소를 관리합니다.
 exl-id: cc4ca518-d98c-48f3-9051-6fb3c6fae9fe
 feature: Inventory, Shipping/Delivery
 TQID: https://experienceleague.adobe.com/snZn77FvwJ-XKXojEtLOEpnPKp-nLZUpkTg6jTA9BY4
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 736
+source-wordcount: 737
 ht-degree: 0%
 
 ---

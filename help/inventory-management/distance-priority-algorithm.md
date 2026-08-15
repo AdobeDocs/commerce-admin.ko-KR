@@ -1,6 +1,6 @@
 ---
 title: 거리 우선순위 알고리즘 구성
-description: 출하 목적지 주소의 위치를 출처 위치와 비교하기 위한 구성을 설정하여 출하를 이행할 가장 가까운 출처를 결정합니다.
+description: Google 맵 또는 오프라인 지오코드를 사용하여 거리 우선순위 Source 선택 알고리즘을 구성하여 가장 가까운 소스를 추천합니다.
 exl-id: 4dec179a-25ac-48db-a84b-4974798272b0
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/hImn3RZ89qP2ysFEM8lx-plNpFzx9ogMuj92kKqC3Eg
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: 876
 ht-degree: 0%
 
 ---
