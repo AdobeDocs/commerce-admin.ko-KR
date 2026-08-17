@@ -2,16 +2,16 @@
 title: 고객 계정 관리
 description: '[!UICONTROL Customers] 그리드를 사용하여 고객 계정을 찾고 개별 고객 계정에 대한 정보에 액세스합니다.'
 exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
-source-git-commit: 0316475a37ee09948b9ba3649e059155212ab1ae
+source-git-commit: 'null'
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
 
 # 고객 계정 관리
 
-_[!UICONTROL Customers]_&#x200B;그리드를 사용하여 고객 계정을 찾습니다. 표준 [작업 공간 컨트롤](../getting-started/admin-workspace.md)을 사용하여 목록을 필터링하고, [열 레이아웃](../getting-started/admin-grid-controls.md)을 변경하고, 보기를 저장하고, 데이터를 내보낼 수 있습니다. 표 위의 [Actions 컨트롤](../getting-started/admin-actions-control.md)을 사용하여 여러 고객 레코드에 작업을 적용할 수 있습니다.
+_[!UICONTROL Customers]_그리드를 사용하여 고객 계정을 찾습니다. 표준 [작업 공간 컨트롤](../getting-started/admin-workspace.md)을 사용하여 목록을 필터링하고, [열 레이아웃](../getting-started/admin-grid-controls.md)을 변경하고, 보기를 저장하고, 데이터를 내보낼 수 있습니다. 표 위의 [Actions 컨트롤](../getting-started/admin-actions-control.md)을 사용하여 여러 고객 레코드에 작업을 적용할 수 있습니다.
 
 ![모든 고객](assets/customers-all-customers.png){width="700" zoomable="yes"}
 
@@ -108,7 +108,7 @@ _[!UICONTROL Customers]_&#x200B;그리드를 사용하여 고객 계정을 찾�
 | **[!UICONTROL Confirmed Email]** | 확인 이메일이 필요한지 여부를 나타냅니다. |
 | **[!UICONTROL Account Created In]** | 고객 계정이 생성된 스토어 보기를 나타냅니다. |
 | **[!UICONTROL Date of Birth]** | 고객의 생년월일. 현재 보안 및 개인 정보 보호 모범 사례를 준수하면서 다른 개인 식별자를 사용한 고객의 전체 생년월일(월, 일, 년) 저장과 관련된 잠재적 법적 및 보안 위험에 대해 알아두어야 합니다. 고객의 전체 생년월일 보관을 제한하고 고객 생년월일을 대안으로 사용하는 것이 좋습니다. |
-| **[!UICONTROL Tax / VAT Number]** | 해당하는 경우 고객에게 할당된 세금 번호 또는 [부가가치세](../stores-purchase/vat.md) 번호입니다. <br/><br/> 이 필드는 VAT 번호와 다릅니다. |
+| **[!UICONTROL Tax / VAT Number]** | 해당하는 경우 고객에게 할당된 세금 번호 또는 [부가가치세](../stores-purchase/vat.md) 번호입니다. <br/><br/> 이 필드는 VAT 번호와 동일하지 않습니다. |
 | **[!UICONTROL Gender]** | 고객의 성별. |
 | **[!UICONTROL Action]** | 편집 - 회사 계정을 편집 모드로 엽니다. |
 
@@ -128,7 +128,7 @@ _[!UICONTROL Customers]_&#x200B;그리드를 사용하여 고객 계정을 찾�
 | **[!UICONTROL Billing Lastname]** | 고객의 청구 주소의 성. |
 | **[!UICONTROL Billing Address]** | 청구 정보를 보낼 주소. |
 | **[!UICONTROL Shipping Address]** | 주문이 배송될 주소입니다. |
-| **[!UICONTROL VAT Number]** | 고객 주소와 연결된 부가가치세 번호. EU에서 판매되는 [디지털 상품](../stores-purchase/taxes.md)의 경우 VAT는 고객의 청구 주소를 기준으로 합니다. <br/><br/> 이 필드는 세금/VAT 번호와 다릅니다. |
+| **[!UICONTROL VAT Number]** | 고객 주소와 연결된 부가가치세 번호. EU에서 판매되는 [디지털 상품](../stores-purchase/taxes.md)의 경우 VAT는 고객의 청구 주소를 기준으로 합니다. <br/><br/> 이 필드는 세금/VAT 번호와 동일하지 않습니다. |
 | **[!UICONTROL Account Lock]** | 계정의 상태를 나타냅니다. 너무 많은 로그인을 시도한 후 보안 조치로서 고객 계정이 [잠김](../customers/password-options.md)될 수 있습니다. 값: `Locked` / `Unlocked` |
 | **[!UICONTROL Status]** | 현재 사용자 상태. 옵션: `Active` / `Inactive` |
 | **[!UICONTROL Customer Type]** | 고객 분류. 옵션: `Individual user` / `Company admin` / `Company user` |
