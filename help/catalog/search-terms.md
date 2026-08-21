@@ -4,27 +4,15 @@ description: 철자가 틀리거나 대체 용어를 사용하여 고객을 리�
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
 TQID: https://experienceleague.adobe.com/3AHIV0QXCL1FhLiGnTQrBKRKdogDxahMxpcm1JWCpf4
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: 1189
 ht-degree: 0%
 
 ---
@@ -67,7 +55,7 @@ ht-degree: 0%
 
    ![검색어 일반 정보](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Search Query]** 상자의 _[!UICONTROL General Information]_&#x200B;아래에 새 검색어로 추가할 단어 또는 구를 입력합니다.
+1. **[!UICONTROL Search Query]** 상자의 _[!UICONTROL General Information]_아래에 새 검색어로 추가할 단어 또는 구를 입력합니다.
 
 1. 스토어를 여러 언어로 사용할 수 있는 경우 해당 **[!UICONTROL Store]** 보기를 선택하십시오.
 
@@ -79,7 +67,7 @@ ht-degree: 0%
 
 ## 검색어 편집
 
-1. _[!UICONTROL Search Terms]_&#x200B;그리드에서 레코드 행을 클릭하여 검색어를 편집 모드로 엽니다.
+1. _[!UICONTROL Search Terms]_그리드에서 레코드 행을 클릭하여 검색어를 편집 모드로 엽니다.
 
 1. 필요한 사항을 변경합니다.
 
@@ -89,7 +77,7 @@ ht-degree: 0%
 
 검색어를 삭제하는 방법에는 그리드 및 편집 페이지에서 두 가지가 있습니다.
 
-_[!UICONTROL Search Terms]_&#x200B;눈금의&#x200B;**메서드 1:**
+_[!UICONTROL Search Terms]_눈금의&#x200B;**메서드 1:**
 
 1. 목록에서 삭제할 용어의 확인란을 선택합니다.
 
@@ -97,7 +85,7 @@ _[!UICONTROL Search Terms]_&#x200B;눈금의&#x200B;**메서드 1:**
 
 1. 완료되면 **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
-_[!UICONTROL Edit a Search Term]_&#x200B;페이지의&#x200B;**메서드 2:**
+_[!UICONTROL Edit a Search Term]_페이지의&#x200B;**메서드 2:**
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**(으)로 이동합니다.
 
@@ -143,7 +131,7 @@ _[!UICONTROL Edit a Search Term]_&#x200B;페이지의&#x200B;**메서드 2:**
 
 Adobe Commerce은 두 가지 다른 동의어 관리 솔루션을 지원합니다.
 
-- 라이브 검색 [동의어](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=ko) 기능은 라이브 검색이 설치된 Adobe Commerce 설치에 사용할 수 있습니다.
+- 라이브 검색 [동의어](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/synonyms/synonyms) 기능은 라이브 검색이 설치된 Adobe Commerce 설치에 사용할 수 있습니다.
 - 이 페이지에 설명된 표준 검색 동의어 기능 은 모든 Adobe Commerce 설치에 대해 즉시 사용할 수 있습니다.
 
 >[!NOTE]
@@ -160,7 +148,7 @@ Adobe Commerce은 두 가지 다른 동의어 관리 솔루션을 지원합니�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**(으)로 이동합니다.
 
-   _[!UICONTROL Search Synonyms]_&#x200B;그리드가 나타납니다. 검색 동의어를 처음 사용하는 경우 그리드가 비어 있습니다.
+   _[!UICONTROL Search Synonyms]_그리드가 나타납니다. 검색 동의어를 처음 사용하는 경우 그리드가 비어 있습니다.
 
    ![동의어 표 검색](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
@@ -183,7 +171,7 @@ Adobe Commerce은 두 가지 다른 동의어 관리 솔루션을 지원합니�
 
 ### 동의어 그룹 편집
 
-1. _[!UICONTROL Search Synonyms]_&#x200B;그리드에서 레코드 행을 클릭하여 편집 모드에서 동의어 그룹을 엽니다.
+1. _[!UICONTROL Search Synonyms]_그리드에서 레코드 행을 클릭하여 편집 모드에서 동의어 그룹을 엽니다.
 
 1. 필요한 사항을 변경합니다.
 
@@ -195,7 +183,7 @@ Adobe Commerce은 두 가지 다른 동의어 관리 솔루션을 지원합니�
 
 검색 동의어 그리드의 **메서드 1:**
 
-1. _[!UICONTROL Search Synonyms]_&#x200B;그리드에서 삭제할 그룹의 확인란을 선택합니다.
+1. _[!UICONTROL Search Synonyms]_그리드에서 삭제할 그룹의 확인란을 선택합니다.
 
 1. 목록의 왼쪽 상단 모서리에서 **[!UICONTROL Actions]**&#x200B;을(를) `Delete`(으)로 설정합니다.
 

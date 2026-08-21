@@ -4,26 +4,15 @@ description: 이중 인증을 관리하고 관리자 사용자에 대한 인증�
 exl-id: 68256214-2d50-4c42-846f-306ffc305f25
 role: Admin
 feature: Configuration, Security, User Account
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/aE-36667-f0E4GSXDjZZmFUkS3wa-xTLUMbVtjwS6qk
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 336
 ht-degree: 0%
@@ -41,7 +30,7 @@ ht-degree: 0%
 - Adobe Commerce 또는 Magento Open Source 설치에 대한 웹 캐시 및 쿠키를 지우는 것도 도움이 될 수 있습니다. Google과 같은 인증자는 생성된 쿠키를 사용하여 액세스 및 기간을 저장합니다. 특정 브라우저 및 스토어 도메인에 대한 쿠키를 지웁니다.
 - 쿠키를 차단하면 [!DNL Google Authenticator]과(와) 같은 일부 인증자가 확인 프로세스를 완료할 수 없습니다. 브라우저에 Adobe Commerce 설치에 대한 쿠키를 허용하는 규칙을 추가합니다.
 
-명령줄에서 인증자를 재설정하고 고급 문제 해결 정보를 보려면 개발자 설명서에서 [2단계 인증](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/)을 참조하십시오.
+명령줄에서 인증자를 재설정하고 고급 문제 해결 정보를 보려면 개발자 설명서에서 [2단계 인증](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication)을 참조하십시오.
 
 **_사용자 계정에 대한 인증자를 재설정하려면:_**
 
@@ -53,11 +42,11 @@ ht-degree: 0%
 
 1. 사용자를 선택하고 편집 모드에서 계정을 엽니다.
 
-1. _[!UICONTROL Current User Identity Verification]_&#x200B;섹션까지 아래로 스크롤하고 암호를 입력합니다.
+1. _[!UICONTROL Current User Identity Verification]_섹션까지 아래로 스크롤하고 암호를 입력합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL 2FA]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Configuration reset]_&#x200B;섹션에서&#x200B;**[!UICONTROL Reset]**&#x200B;및&#x200B;**[!UICONTROL OK]**&#x200B;을(를) 클릭하여 확인합니다.
+1. _[!UICONTROL Configuration reset]_섹션에서&#x200B;**[!UICONTROL Reset]**및&#x200B;**[!UICONTROL OK]**을(를) 클릭하여 확인합니다.
 
    ![사용자 계정 - 2FA 사용](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 

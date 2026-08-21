@@ -3,26 +3,15 @@ title: 스토어 및 구매 경험 소개
 description: 온라인 스토어를 구성하고 관리하는 데 사용되는 기능과 고객을 위한 구매 환경에 대해 알아봅니다.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
 TQID: https://experienceleague.adobe.com/wP31dNMG9kiajirB5WTj-lEhTtHqKnl4FfqPsa3tFxs
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: 673
 ht-degree: 0%
 
 ---
@@ -43,7 +32,7 @@ Adobe Commerce 및 Magento Open Source은 주문이 제출되기 전에 모든 �
 
 >[!TIP]
 >
->![Adobe Commerce B2B](../assets/b2b.svg) Adobe Commerce B2B를 설치하고 활성화하면 회사 계정과 연결된 고객에 대해 _빠른 주문_&#x200B;을 구성할 수 있습니다. 이 기능은 주문하려는 제품의 이름이나 SKU를 알고 있는 경우 주문 프로세스를 몇 번의 클릭으로 줄입니다. 회사 계정에 대해 협상 가능한 견적에 대한 지원을 구성할 수도 있습니다. B2B 기능에 대한 자세한 내용은 [Adobe Commerce B2B 사용 안내서](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=ko)를 참조하십시오.
+>![Adobe Commerce B2B](../assets/b2b.svg) Adobe Commerce B2B를 설치하고 활성화하면 회사 계정과 연결된 고객에 대해 _빠른 주문_&#x200B;을 구성할 수 있습니다. 이 기능은 주문하려는 제품의 이름이나 SKU를 알고 있는 경우 주문 프로세스를 몇 번의 클릭으로 줄입니다. 회사 계정에 대해 협상 가능한 견적에 대한 지원을 구성할 수도 있습니다. B2B 기능에 대한 자세한 내용은 [Adobe Commerce B2B 사용 안내서](/help/b2b/introduction.md)를 참조하십시오.
 
 ## 쇼핑 지원
 
@@ -57,7 +46,7 @@ Adobe Commerce 및 Magento Open Source은 주문이 제출되기 전에 모든 �
 
 이 비디오를 시청하여 판매자 지원 쇼핑에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410204/?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
 
 ## 주문 관리 및 운영
 

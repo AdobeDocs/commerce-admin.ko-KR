@@ -4,23 +4,14 @@ description: Commerce 관리자의 [!UICONTROL Sales] > [!UICONTROL Tax] 페이�
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
 TQID: https://experienceleague.adobe.com/HbW4SJ4D2ktIp2wPFx5Bd1flvKdU6fqayMqjwzWorXE
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1231
+source-wordcount: 1316
 ht-degree: 0%
 
 ---
@@ -30,7 +21,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Adobe Commerce 및 Magento Open Source 릴리스 2.4.0 - 2.4.3에는 [!UICONTROL Vertex Cloud]과(와) 통합하는 데 사용되는 Vertex 공급업체에서 개발한 확장이 포함되어 있습니다. 2.4.4 릴리스부터 이 확장은 더 이상 핵심 릴리스와 번들로 제공되지 않으며 Commerce Marketplace에서 설치하고 업데이트해야 합니다. Marketplace에서는 확장 개발자가 제공하는 현재 설명서에 대한 액세스도 제공합니다.
-><br><br>>번들 확장을 사용 및 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [모듈 및 확장 업그레이드](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko)를 참조하십시오.
+><br><br>
+>번들 확장을 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [모듈 및 확장 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)를 참조하십시오.
 
 {{config}}
 
@@ -55,7 +47,7 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Tax Calculation Method Based On] | 웹 사이트 | 주문에 대한 세금을 계산하는 데 사용되는 방법을 결정합니다. 옵션:<br/>**`Unit Price`**- 세금 계산은 각 제품의 단가를 기반으로 합니다.<br/>**`Row Total`** - 세금 계산은 라인 항목 합계를 기반으로 합니다. <br/>**`Total`**- 세금 계산은 주문 합계를 기반으로 합니다.<br/><br/>_&#x200B;**&#x200B;참고:**&#x200B;_세금 계산 확장이 마켓플레이스에서 설치된 경우(예: _Vertex Cloud_) 확장 서비스가 옵션으로 나열됩니다. |
+| [!UICONTROL Tax Calculation Method Based On] | 웹 사이트 | 주문에 대한 세금을 계산하는 데 사용되는 방법을 결정합니다. 옵션:<br/>**`Unit Price`**- 세금 계산은 각 제품의 단가를 기반으로 합니다.<br/>**`Row Total`** - 세금 계산은 라인 항목 합계를 기반으로 합니다. <br/>**`Total`**- 세금 계산은 주문 합계를 기반으로 합니다.<br/><br/>_**&#x200B;참고:**_세금 계산 확장이 마켓플레이스에서 설치된 경우(예: _Vertex Cloud_) 확장 서비스가 옵션으로 나열됩니다. |
 | [!UICONTROL Tax Calculation Based On] | 웹 사이트 | 세금 계산이 배송 주소, 청구 주소 또는 배송 출처를 기준으로 하는지 여부를 결정합니다. 옵션: `Shipping Address` / `Billing Address` / `Shipping Origin` |
 | [!UICONTROL Catalog Prices] | 웹 사이트 | 카탈로그 가격에 세금이 포함되는지 또는 제외되는지를 결정합니다. 옵션: `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Shipping Prices] | 웹 사이트 | 배송비에 세금을 포함하거나 제외하는 방법을 결정합니다. 옵션: `Excluding Tax` / `Including Tax` |
@@ -139,7 +131,7 @@ ht-degree: 0%
 | [!UICONTROL Display Prices in Product Lists] | 웹 사이트 | 제품 목록에서 FPT의 표시를 제어합니다. 옵션:<br/> **`Including FPT Only`** - 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시되지 않습니다.<br/>**`Including FPT and FPT description`**- 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT. Including FPT description and final price`** - 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT`**- 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액은 별도로 표시되지 않습니다. |
 | [!UICONTROL Display Prices On Product View Page] | 웹 사이트 | 제품 페이지에서 FPT의 표시를 제어합니다. 옵션:<br/> **`Including FPT Only`** - 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시되지 않습니다.<br/>**`Including FPT and FPT description`**- 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT. Including FPT description and final price`** - 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT`**- 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액은 별도로 표시되지 않습니다. |
 | [!UICONTROL Display Prices in Sales Modules] | 웹 사이트 | 장바구니 및 체크아웃 중에 FPT의 표시를 제어합니다. 옵션:<br/> **`Including FPT Only`** - 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시되지 않습니다.<br/>**`Including FPT and FPT description`**- 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT. Including FPT description and final price`** - 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT`**- 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액은 별도로 표시되지 않습니다. |
-| [!UICONTROL Display Prices in Emails] | 웹 사이트 | 이메일에 FPT가 표시되도록 제어합니다. 옵션:<br/> **`Including FPT Only`** - 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시되지 않습니다.<br/>**`Including FPT and FPT description`**- 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시됩니다.<br/>**&#x200B; FPT를 제외하고 있습니다. FPT 설명 및 최종 가격 포함&#x200B;**- 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT`** - 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액은 별도로 표시되지 않습니다. |
+| [!UICONTROL Display Prices in Emails] | 웹 사이트 | 이메일에 FPT가 표시되도록 제어합니다. 옵션:<br/> **`Including FPT Only`** - 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시되지 않습니다.<br/>**`Including FPT and FPT description`**- 표시된 가격에는 고정 제품 세금이 포함됩니다. FPT 금액이 별도로 표시됩니다.<br/>** FPT를 제외하고 있습니다. FPT 설명 및 최종 가격 포함&#x200B;**- 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액이 별도로 표시됩니다.<br/>**`Excluding FPT`** - 표시된 가격에는 고정 제품 세금이 포함되지 않습니다. FPT 금액은 별도로 표시되지 않습니다. |
 | [!UICONTROL Apply Tax to FPT] | 웹 사이트 | FPT 금액에 세금이 적용되는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Include FPT in Subtotal] | 웹 사이트 | FPT가 장바구니 소계에 포함되는지 여부를 결정합니다. 옵션: <br/>**`Yes`**- 장바구니 소계에 FPT를 포함합니다.<br/>**`No`** - FPT는 소계에 포함되지 않으며 장바구니에서 소계 뒤에 배치됩니다. |
 

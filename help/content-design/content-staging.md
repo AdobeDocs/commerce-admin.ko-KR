@@ -3,22 +3,15 @@ title: 컨텐츠 스테이징
 description: 콘텐츠 스테이징은 비즈니스 팀이 관리자로부터 직접 스토어에 대한 광범위한 콘텐츠 업데이트를 쉽게 만들고, 미리 보고, 예약할 수 있도록 합니다.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: 1005
 ht-degree: 0%
 
 ---
@@ -39,7 +32,7 @@ _campaign_ 용어는 예약된 변경 내용 또는 스테이징 대시보드에
 
 모든 예약된 업데이트가 연속적으로 적용되므로 모든 엔티티에 한 번에 하나의 예약된 업데이트만 있을 수 있습니다. 모든 예약된 업데이트는 해당 시간대 내의 모든 스토어 보기에 적용됩니다. 따라서 엔티티는 서로 다른 스토어 보기에 대해 동시에 다른 예약된 업데이트를 가질 수 없습니다. 현재 예약된 업데이트의 영향을 받지 않는 모든 스토어 뷰 내의 모든 엔티티 속성 값은 이전 예약된 업데이트가 아닌 기본값에서 가져옵니다.
 
-다음 개체에 대해 예약된 업데이트가 새로 만들어지면 해당 캠페인이 자리 표시자로 만들어지고 _[!UICONTROL Scheduled Changes]_&#x200B;상자가 페이지 맨 위에 나타납니다. 자리 표시자 캠페인에는 시작 날짜가 있지만 종료 날짜는 없습니다. 캠페인의 일부로 콘텐츠에 대한 업데이트를 예약한 다음 날짜, 시간 또는 스토어 보기별로 변경 사항을 미리 보고 공유할 수 있습니다. 한 객체에 대해 새 캠페인이 생성되면 다른 객체에 대해 예약된 업데이트로 할당할 수 있습니다.
+다음 개체에 대해 예약된 업데이트가 새로 만들어지면 해당 캠페인이 자리 표시자로 만들어지고 _[!UICONTROL Scheduled Changes]_상자가 페이지 맨 위에 나타납니다. 자리 표시자 캠페인에는 시작 날짜가 있지만 종료 날짜는 없습니다. 캠페인의 일부로 콘텐츠에 대한 업데이트를 예약한 다음 날짜, 시간 또는 스토어 보기별로 변경 사항을 미리 보고 공유할 수 있습니다. 한 객체에 대해 새 캠페인이 생성되면 다른 객체에 대해 예약된 업데이트로 할당할 수 있습니다.
 
 - [제품](../catalog/product-scheduled-changes.md)
 - [카테고리](../catalog/category-scheduled-changes.md)
@@ -52,7 +45,7 @@ _campaign_ 용어는 예약된 변경 내용 또는 스테이징 대시보드에
 
 1. **기준 콘텐츠 만들기**
 
-   기준선은 캠페인이 없는 자산의 콘텐츠이며 페이지 상단의 _[!UICONTROL Scheduled Changes]_&#x200B;섹션 아래에 있는 모든 것을 포함합니다. 타임라인에서 해당 위치에 대해 변경 사항이 예약된 활성 캠페인이 없는 경우 기준선 컨텐츠가 항상 사용됩니다.
+   기준선은 캠페인이 없는 자산의 콘텐츠이며 페이지 상단의 _[!UICONTROL Scheduled Changes]_섹션 아래에 있는 모든 것을 포함합니다. 타임라인에서 해당 위치에 대해 변경 사항이 예약된 활성 캠페인이 없는 경우 기준선 컨텐츠가 항상 사용됩니다.
 
 1. **첫 번째 캠페인 만들기**
 
@@ -92,12 +85,12 @@ _campaign_ 용어는 예약된 변경 내용 또는 스테이징 대시보드에
 
 콘텐츠 스테이징에 대해 알아보려면 다음 비디오를 시청하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410857?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
 
 ## 리소스 문제 해결
 
 콘텐츠 스테이징 문제를 해결하는 데 대한 도움말은 다음 [!DNL Commerce] 지원 기술 문서를 참조하십시오.
 
-- [컨텐츠 스테이징 문제로 인한 모든 페이지 오류 404](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=ko)
-- [예약된 컨텐츠 스테이징 업데이트가 오래된 Fastly 캐시와 함께 표시되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html?lang=ko)
-- [공유 카탈로그의 가격에 대한 콘텐츠 스테이징 업데이트를 예약할 수 있습니까?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=ko)
+- [컨텐츠 스테이징 문제로 인한 모든 페이지 오류 404](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27785)
+- [예약된 컨텐츠 스테이징 업데이트가 오래된 Fastly 캐시와 함께 표시되지 않음](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache)
+- [공유 카탈로그의 가격에 대한 콘텐츠 스테이징 업데이트를 예약할 수 있습니까?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog)

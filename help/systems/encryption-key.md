@@ -4,25 +4,16 @@ description: 보안을 개선하기 위해 정기적으로 수행해야 하는 �
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/jC0eV49rzff4ZZ0idMG4ChWZh80Yz43ZTmZ9CjYFhnk
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: 536
 ht-degree: 0%
 
 ---
@@ -31,13 +22,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 단계를 완료하려고 했지만 문제가 있는 경우 [암호화 키 순환 문제 해결: CVE-2024-34102](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) 기술 자료 문서를 참조하십시오.
+>이 단계를 완료하려고 했지만 문제가 있는 경우 [암호화 키 순환 문제 해결: CVE-2024-34102](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27134) 기술 자료 문서를 참조하십시오.
 
 Adobe Commerce과 Magento Open Source은 암호 및 기타 민감한 데이터를 보호하기 위해 암호화 키를 사용합니다. 업계 표준 [!DNL ChaCha20-Poly1305] 알고리즘은 암호화가 필요한 모든 데이터를 암호화하기 위해 256비트 키와 함께 사용됩니다. 여기에는 신용 카드 데이터 및 통합(결제 및 배송 모듈) 암호가 포함됩니다. 또한 강력한 보안 해시 알고리즘(SHA-256)을 사용하여 암호 해독이 필요하지 않은 모든 데이터를 해시합니다.
 
 초기 설치 중에 Commerce에서 암호화 키를 생성하거나 자체 키 중 하나를 입력하라는 메시지가 표시됩니다. 암호화 키 도구를 사용하면 필요에 따라 키를 변경할 수 있습니다. 보안을 향상하기 위해 암호화 키를 정기적으로 변경해야 하며, 언제든지 원본 키가 손상될 수 있습니다.
 
-자세한 내용은 _설치 안내서_&#x200B;의 [고급 온-프레미스 설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=ko) 및 _PHP 개발자 안내서_&#x200B;의 [데이터 다시 암호화](https://developer.adobe.com/commerce/php/development/security/data-encryption/)를 참조하십시오.
+자세한 내용은 _설치 안내서_&#x200B;의 [고급 온-프레미스 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced) 및 _PHP 개발자 안내서_&#x200B;의 [데이터 다시 암호화](https://developer.adobe.com/commerce/php/development/security/data-encryption)를 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -49,7 +40,7 @@ Adobe Commerce과 Magento Open Source은 암호 및 기타 민감한 데이터�
 
 다음 지침은 터미널에 액세스해야 합니다.
 
-1. [유지 관리 모드](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode)를 사용하도록 설정합니다.
+1. [유지 관리 모드](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode)를 사용하도록 설정합니다.
 
    ```bash
    bin/magento maintenance:enable
@@ -85,7 +76,7 @@ Adobe Commerce과 Magento Open Source은 암호 및 기타 민감한 데이터�
    encryption:key:change Change the encryption key inside the env.php file.
    ```
 
-   이 출력이 표시되면 다음 CLI 명령을 실행하고 오류 없이 완료되었는지 확인하십시오. 특정 시스템 구성 값이나 결제 필드를 다시 암호화해야 하는 경우 _PHP 개발 안내서_&#x200B;에서 자세한 [다시 암호화에 대한 안내서](https://developer.adobe.com/commerce/php/development/security/data-encryption/)를 참조하세요.
+   이 출력이 표시되면 다음 CLI 명령을 실행하고 오류 없이 완료되었는지 확인하십시오. 특정 시스템 구성 값이나 결제 필드를 다시 암호화해야 하는 경우 _PHP 개발 안내서_&#x200B;에서 자세한 [다시 암호화에 대한 안내서](https://developer.adobe.com/commerce/php/development/security/data-encryption)를 참조하세요.
 
    ```bash
    bin/magento encryption:key:change

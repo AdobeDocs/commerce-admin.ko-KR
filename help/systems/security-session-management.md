@@ -4,26 +4,16 @@ description: 관리 및 상점 보안을 위해 세션 관리를 구성하는 �
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/0-D87Vrfu7OXkukQCye10VIpN-TLoANPAzb-5CVcf2w
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 795
+source-wordcount: 796
 ht-degree: 0%
 
 ---
@@ -81,7 +71,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 Adobe Commerce 및 Magento Open Source을 사용하면 가능한 세션 고정 공격이나 사용자 세션을 포이즌 또는 납치하려는 시도에 대한 보호 조치로 세션 변수의 유효성을 확인할 수 있습니다. 세션 유효성 검사 설정은 각 저장소 방문 동안 세션 변수의 유효성 검사 방법과 세션 ID가 저장소의 URL에 포함되어 있는지 여부를 결정합니다.
 
-자세한 내용은 _구성 가이드_&#x200B;에서 [세션 저장소에 Redis 사용](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=ko)을 참조하십시오.
+자세한 내용은 _구성 가이드_&#x200B;에서 [세션 저장소에 Redis 사용](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session)을 참조하십시오.
 
 ![일반 구성 - 웹 세션 유효성 검사](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
@@ -93,7 +83,7 @@ Adobe Commerce 및 Magento Open Source을 사용하면 가능한 세션 고정 �
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널에서 _[!UICONTROL General]_&#x200B;을(를) 확장하고&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 패널에서 _[!UICONTROL General]_을(를) 확장하고&#x200B;**[!UICONTROL Web]**을(를) 선택합니다.
 
 1. **[!UICONTROL Session Validation Settings]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 

@@ -4,26 +4,15 @@ description: Adobe Commerce에서 사용할 수 있는 고급 가격 제어 기�
 exl-id: 0f353341-1b6b-4093-bba9-4a1b88323f8a
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/HyKkLwxHzBuyvh-YhjsMec9cMua9owWF--r-DShKnj8
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: 873
 ht-degree: 0%
 
 ---
@@ -34,11 +23,11 @@ Adobe Commerce 및 Magento Open Source은 프로모션이나 제조업체의 광
 
 고급 가격으로 제품 가격을 관리하여 소비자가 더 많은 비용을 지출하고, 사이트 트래픽을 유도하며, 오래된 주식을 지우는 더 나은 가격을 고객에게 제공합니다.
 
-_[!UICONTROL Advanced Pricing]_&#x200B;설정은 특정 고객 그룹 또는 공유 카탈로그에서 사용할 수 있는 특별 가격에 필요한 조건을 정의합니다. 고급 가격은 단순, 가상, 다운로드 가능 및 번들 제품에 적용할 수 있습니다. 다른 제품 유형에 할인된 가격을 적용하려면 [카탈로그 가격 규칙](../merchandising-promotions/price-rules-catalog.md)을 사용하십시오. 자세한 내용은 [가격 범위](catalog-price-scope.md)를 참조하세요.
+_[!UICONTROL Advanced Pricing]_설정은 특정 고객 그룹 또는 공유 카탈로그에서 사용할 수 있는 특별 가격에 필요한 조건을 정의합니다. 고급 가격은 단순, 가상, 다운로드 가능 및 번들 제품에 적용할 수 있습니다. 다른 제품 유형에 할인된 가격을 적용하려면 [카탈로그 가격 규칙](../merchandising-promotions/price-rules-catalog.md)을 사용하십시오. 자세한 내용은 [가격 범위](catalog-price-scope.md)를 참조하세요.
 
 고급 가격 데이터는 제품 페이지와 동기화됩니다. 예를 들어 계층 가격 수량을 업데이트하면 시스템이 제품 페이지의 값을 업데이트합니다.
 
-![Adobe Commerce B2B](../assets/b2b.svg)([Adobe Commerce B2B](./b2b/../introduction.md)에서만 사용 가능) 공유 카탈로그를 사용하는 경우 고급 가격 책정 데이터가 제품 페이지와 공유 카탈로그 모두와 동기화됩니다. 예를 들어 계층 가격 수량을 업데이트하면 공유 카탈로그 및 제품 페이지의 값이 업데이트됩니다. 공유 카탈로그에 표시된 모든 사용자 지정 가격책정은 고객 그룹 가격책정보다 우선합니다. _Adobe Commerce B2B 안내서_&#x200B;의 [공유 카탈로그 가격 및 구조 설정](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html?lang=ko)을 참조하세요.
+![Adobe Commerce B2B](../assets/b2b.svg)([Adobe Commerce B2B](./b2b/../introduction.md)에서만 사용 가능) 공유 카탈로그를 사용하는 경우 고급 가격 책정 데이터가 제품 페이지와 공유 카탈로그 모두와 동기화됩니다. 예를 들어 계층 가격 수량을 업데이트하면 공유 카탈로그 및 제품 페이지의 값이 업데이트됩니다. 공유 카탈로그에 표시된 모든 사용자 지정 가격책정은 고객 그룹 가격책정보다 우선합니다. _Adobe Commerce B2B 안내서_&#x200B;의 [공유 카탈로그 가격 및 구조 설정](/help/b2b/catalog-shared-pricing-structure.md)을 참조하세요.
 
 ![고급 가격](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 
@@ -106,7 +95,7 @@ _[!UICONTROL Advanced Pricing]_&#x200B;설정은 특정 고객 그룹 또는 공
 
 | 항목 | 설명 |
 |----|-----------|
-| [!UICONTROL Website] | 그룹 가격 규칙이 적용되는 웹 사이트를 식별합니다. 이 옵션은 설치에 여러 웹 사이트가 있는 경우에만 나타납니다. <br>**_Important:_**&#x200B;모두 [카탈로그 가격 범위](catalog-price-scope.md) 구성에서_&#x200B;웹 사이트_를 선택하십시오. 그렇지 않으면 **모든** 웹 사이트에 대해 설정된 고급 가격이 표시됩니다. |
+| [!UICONTROL Website] | 그룹 가격 규칙이 적용되는 웹 사이트를 식별합니다. 이 옵션은 설치에 여러 웹 사이트가 있는 경우에만 나타납니다. <br>**_Important:_**모두 [카탈로그 가격 범위](catalog-price-scope.md) 구성에서_&#x200B;웹 사이트_를 선택하십시오. 그렇지 않으면 **모든** 웹 사이트에 대해 설정된 고급 가격이 표시됩니다. |
 | [!UICONTROL Group or Catalog] | (필수) 할인 가격을 받을 수 있는 고객 그룹 또는 공유 카탈로그를 식별합니다. 그룹 또는 카탈로그 필드의 값이 변경되면 이전 설정과 일치하는 해당 사용자 지정 가격 행이 공유 카탈로그에서 삭제됩니다. <br/>**[!UICONTROL ALL GROUPS]**- 모든 고객 그룹에 규칙을 적용합니다. 값이 공유 카탈로그에 적용되지 않으며 고급 가격 책정 데이터의 변경 내용이 공유 카탈로그와 동기화되지 않습니다.<br/>**[!UICONTROL NOT LOGGED IN]** - 계정에 로그인하지 않은 규칙 게스트 및 고객을 적용합니다.<br/>**[!UICONTROL Shared Catalogs]**- 특정 공유 카탈로그에 규칙을 적용합니다. |
 | 수량 | 계층 가격을 받는 데 필요한 수량을 지정합니다. |
 | [!UICONTROL Price] | (필수) 특정 웹 사이트 내에서 고객 그룹의 구성원에 대한 고정 또는 할인 제품 가격을 지정합니다. 옵션: <br/>**[!UICONTROL Fixed]**- (기본값) 할인 가격은 고정 소수점 값으로 입력됩니다. 예를 들어 할인 가격으로 `9.99`을(를) 입력합니다.<br/>**[!UICONTROL Discount]** - 할인 가격은 기본 제품 가격의 백분율(%)로 입력됩니다. 예를 들어 10% 할인에 대해 `10`을(를) 입력하십시오. |

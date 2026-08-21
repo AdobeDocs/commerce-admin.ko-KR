@@ -4,21 +4,12 @@ description: 고객으로 로그인 기능을 사용하면 고객이 본 내용�
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
 TQID: https://experienceleague.adobe.com/-bORZ%2D%2D%2Du2UGZ-JcOT7E8u2i58a1c-Iq57-moezBJ78
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 97a3e3469e45ec9c7e3316f1ce5ca7894ea2ddb7
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1189
 ht-degree: 0%
@@ -35,9 +26,9 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
-_관리자_ 사용자에 대해 _[!UICONTROL Login as Customer]_&#x200B;단추가 활성화되면 여러 페이지에 표시됩니다.
+_관리자_ 사용자에 대해 _[!UICONTROL Login as Customer]_단추가 활성화되면 여러 페이지에 표시됩니다.
 
 * [고객 편집 페이지](../customers/update-account.md)
 * [주문 보기 페이지](../stores-purchase/order-processing.md)
@@ -49,7 +40,7 @@ _관리자_ 사용자에 대해 _[!UICONTROL Login as Customer]_&#x200B;단추�
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 Adobe Commerce as a Cloud Service에서 고객으로 로그인 기능은 직접 로그인 대신 **OTC(일회성 코드)** 워크플로우를 사용합니다. 관리자는 고객을 위해 단기간 동안 사용할 수 있는 코드를 생성합니다. 그런 다음 GraphQL을 통해 고객 액세스 토큰으로 이 코드를 교환할 수 있으므로 판매자 지원 쇼핑 시나리오를 위한 고객 워크플로우로 암호 없는 로그인을 가능하게 합니다.
 
@@ -116,7 +107,7 @@ _고객으로 로그인_&#x200B;을(를) 활성화하려면 Commerce 인스턴�
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 1. 고객이 **[!UICONTROL Account Information]** 페이지로 이동합니다.
 
@@ -128,7 +119,7 @@ _고객으로 로그인_&#x200B;을(를) 활성화하려면 Commerce 인스턴�
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 고객은 `login_as_customer_assistance_allowed` 확장 특성을 **2**(으)로 설정해야 합니다. 이는 관리자의 **고객 편집** 페이지에서 구성하거나 고객을 만들거나 편집할 때 GraphQL을 통해 구성할 수 있습니다.
 
@@ -138,7 +129,7 @@ _고객으로 로그인_&#x200B;을(를) 활성화하려면 Commerce 인스턴�
 
 ![고객 편집 페이지의 고객 동의 확장 특성 구성](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
 
-기존 고객 계정에 대해 GraphQL을 사용하여 이 권한을 설정하려면 [`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/) 또는 [`createCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/) 돌연변이를 사용하여 `allow_remote_shopping_assistance` 입력을 `true`(으)로 설정하십시오.
+기존 고객 계정에 대해 GraphQL을 사용하여 이 권한을 설정하려면 [`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2) 또는 [`createCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2) 돌연변이를 사용하여 `allow_remote_shopping_assistance` 입력을 `true`(으)로 설정하십시오.
 
 >[!ENDTABS]
 
@@ -148,7 +139,7 @@ _고객으로 로그인_&#x200B;을(를) 활성화하려면 Commerce 인스턴�
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > [!UICONTROL _모든 고객_]&#x200B;(으)로 이동합니다.
 
@@ -164,7 +155,7 @@ _고객으로 로그인_&#x200B;을(를) 활성화하려면 Commerce 인스턴�
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 >[!NOTE]
 >
@@ -192,7 +183,7 @@ _고객으로 로그인_&#x200B;을(를) 활성화하려면 Commerce 인스턴�
 
 >[!IMPORTANT]
 >
->생성된 일회용 코드 OTC는 기본적으로 60초 동안 유효하며 한 번 사용 후 무효화됩니다. [지원 티켓](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)을 제출하여 TTL을 구성할 수 있습니다.
+>생성된 일회용 코드 OTC는 기본적으로 60초 동안 유효하며 한 번 사용 후 무효화됩니다. [지원 티켓](https://experienceleague.adobe.com/home?support-tab=home#support)을 제출하여 TTL을 구성할 수 있습니다.
 
 일회용 코드가 생성되면 상점으로 이동하여 다음 자격 증명을 사용하여 로그인하면 일회용 코드를 사용할 수 있습니다.
 

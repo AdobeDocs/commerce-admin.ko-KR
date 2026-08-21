@@ -4,22 +4,15 @@ description: ' [!DNL Inventory Management] 메타패키지를 설치, 활성화,
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/-koENBfshZ7WkXih0dee4geUb2Mnx-mtTxUxt-s6yUo
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: 681
 ht-degree: 0%
 
 ---
@@ -32,7 +25,7 @@ ht-degree: 0%
 
 [!DNL Inventory Management]은(는) 기본적으로 모든 기능이 활성화된 Adobe Commerce 및 Magento Open Source의 2.3.x 및 2.4.x 릴리스에 설치됩니다. 이러한 재고 기능을 활성화하는 데 추가 단계가 필요하지 않습니다. v2.1.x 또는 2.2.x에서 업그레이드하려면 추가 단계가 필요할 수 있습니다. [Inventory management 업그레이드](#upgrade-inventory-management)를 참조하십시오.
 
-[빠른 시작 온-프레미스 설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/composer.html?lang=ko){target="_blank"}에 따른 설치가 권장됩니다. 모든 [!DNL Inventory Management] 모듈을 받으려면 메타패키지로 설치하십시오.
+[빠른 시작 온-프레미스 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer){target="_blank"}에 따른 설치가 권장됩니다. 모든 [!DNL Inventory Management] 모듈을 받으려면 메타패키지로 설치하십시오.
 
 `composer.json` 메타패키지에 있는 다음 줄은 [!DNL Inventory Management]을(를) 설치합니다.
 
@@ -96,7 +89,7 @@ ht-degree: 0%
 
 ## [!DNL Inventory Management]개 기능 사용
 
-설치, 업그레이드 또는 업데이트 시 Admin의 _[!UICONTROL Manage Stock]_&#x200B;옵션이 기본적으로 사용됩니다. 이 옵션을 사용하면 인벤토리 추적 및 관리를 사용할 수 있지만 모듈 상태에는 영향을 주지 않습니다. 모듈을 비활성화하려면 다음 섹션을 참조하십시오.
+설치, 업그레이드 또는 업데이트 시 Admin의 _[!UICONTROL Manage Stock]_옵션이 기본적으로 사용됩니다. 이 옵션을 사용하면 인벤토리 추적 및 관리를 사용할 수 있지만 모듈 상태에는 영향을 주지 않습니다. 모듈을 비활성화하려면 다음 섹션을 참조하십시오.
 
 구성에 대한 자세한 내용은 [구성 [!DNL Inventory Management]](configuration.md)을 참조하세요.
 
@@ -111,7 +104,7 @@ ht-degree: 0%
 * 2.0.x, 2.1.x, 2.2.x 또는 2.3.x에서 2.4.x로 마이그레이션하는 상인의 업그레이드 프로세스 속도를 높입니다.
 * 사용자 지정 또는 서드파티 재고 및 주문 관리 시스템 모듈을 사용합니다.
 
-해당 모듈을 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 _설치 안내서_&#x200B;의 [모듈 사용 또는 사용 안 함](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=ko) 페이지를 참조하십시오.
+해당 모듈을 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 _설치 안내서_&#x200B;의 [모듈 사용 또는 사용 안 함](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules) 페이지를 참조하십시오.
 
 완료되면 시스템은 `<Magento_installation_directory>/app/etc/config.php`에 다음과 같이 시작하는 모듈 및 값 목록을 제공합니다.
 
@@ -253,5 +246,5 @@ ht-degree: 0%
 
 Commerce 업그레이드에 대한 자세한 내용은 다음 안내서를 참조하십시오.
 
-* [Commerce 업데이트 안내서](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ko){target="_blank"}
-* [모듈 활성화 또는 비활성화](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=ko){target="_blank"}
+* [Commerce 업데이트 안내서](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/overview){target="_blank"}
+* [모듈 활성화 또는 비활성화](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules){target="_blank"}

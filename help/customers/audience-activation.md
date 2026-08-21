@@ -5,26 +5,15 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/yzMHk3bclm2kSJ588YKqTUrZzvf-FZNN9qAXGhqFs84
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 1904
+source-wordcount: 1976
 ht-degree: 1%
 
 ---
@@ -43,9 +32,9 @@ Luma 상점 첫 화면 또는 [headless](#headless-support) 상점 첫 화면에
 ![수정](../assets/fix.svg) - 수정 사항 및 개선 사항
 ![버그](../assets/bug.svg) - 알려진 문제
 
-릴리스 일정 및 지원에 대한 자세한 내용은 [예정된 릴리스](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=ko)를 참조하세요.
+릴리스 일정 및 지원에 대한 자세한 내용은 [예정된 릴리스](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule)를 참조하세요.
 
-개발자 설명서를 참조하여 [제품 호환성에 대해 알아보세요](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=ko).
+개발자 설명서를 참조하여 [제품 호환성에 대해 알아보세요](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability).
 
 ## 지원되는 서비스 업데이트
 
@@ -179,7 +168,7 @@ _2023년 3월 31일_
 다음 작업은 Luma 및 헤드리스 상점 구현 모두에 적용됩니다. Adobe Commerce에서 대상을 활성화하려면 다음을 수행해야 합니다.
 
 - Adobe Commerce 버전 2.4.4 이상 설치
-- Real-Time CDP의 대상으로 Adobe Commerce [활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=ko)
+- Real-Time CDP의 대상으로 Adobe Commerce [활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-commerce)
 - 관리자에서 [!DNL Audience Activation] 확장을 [설치](#install-the-extension)
 - 관리에서 [!DNL Audience Activation] 확장을 [구성](#configure-the-extension)
 
@@ -197,23 +186,23 @@ composer require magento/audiences
 
 1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**(으)로 이동합니다.
 
-1. Adobe 계정에 [로그인](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=ko#organizationid)하고 조직 ID를 선택하세요.
+1. Adobe 계정에 [로그인](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#organizationid)하고 조직 ID를 선택하세요.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**(으)로 이동합니다.
 
-1. **[!UICONTROL Datastream ID]** 필드에 Adobe Commerce을 Real-Time CDP의 대상으로 [활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=ko#parameters)할 때 만든 데이터 스트림의 ID를 붙여넣습니다.
+1. **[!UICONTROL Datastream ID]** 필드에 Adobe Commerce을 Real-Time CDP의 대상으로 [활성화](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-commerce#parameters)할 때 만든 데이터 스트림의 ID를 붙여넣습니다.
 
-   이 데이터 스트림은 Commerce 웹 사이트의 데이터를 Real-Time CDP으로 전송하여 쇼핑객이 대상자에 속하는지 확인합니다. 아직 데이터 스트림을 만들지 않은 경우 Experience Platform에서 [만들기](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko#create)하고, Real-Time CDP의 Commerce 대상과 관리자의 [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=ko#data-collection) 확장에 [추가](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html?lang=ko)합니다.
+   이 데이터 스트림은 Commerce 웹 사이트의 데이터를 Real-Time CDP으로 전송하여 쇼핑객이 대상자에 속하는지 확인합니다. 아직 데이터 스트림을 만들지 않은 경우 Experience Platform에서 [만들기](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#create)하고, Real-Time CDP의 Commerce 대상과 관리자의 [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data#data-collection) 확장에 [추가](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-commerce)합니다.
 
    >[!NOTE]
    >
-   >데이터 스트림 ID를 지정할 때 [!DNL Data Connection] 확장에서 [특정 웹 사이트에 연결](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=ko#data-collection)합니다. Commerce 스토어에 여러 개의 웹 사이트가 있는 경우 Real-Time CDP의 각 웹 사이트에 대해 [대상을 만들고](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=ko) 각각에 대해 다른 데이터 스트림 ID를 사용하십시오.
+   >데이터 스트림 ID를 지정할 때 [!DNL Data Connection] 확장에서 [특정 웹 사이트에 연결](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data#data-collection)합니다. Commerce 스토어에 여러 개의 웹 사이트가 있는 경우 Real-Time CDP의 각 웹 사이트에 대해 [대상을 만들고](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination) 각각에 대해 다른 데이터 스트림 ID를 사용하십시오.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. **[!UICONTROL Services]**&#x200B;을(를) 확장하고 **[!UICONTROL [!DNL Data Connection]]**&#x200B;을(를) 선택합니다.
 
-1. [서비스 계정 및 자격 증명 세부 정보를 추가](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=ko#add-service-account-and-credential-details)합니다.
+1. [서비스 계정 및 자격 증명 세부 정보를 추가](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data#add-service-account-and-credential-details)합니다.
 
 ## Commerce에서 Real-Time CDP 대상을 사용하는 위치
 
@@ -225,11 +214,11 @@ composer require magento/audiences
 
 >[!TIP]
 >
->[!DNL Commerce] 데이터를 Real-Time CDP으로 내보내고 대상을 작성한 다음 해당 대상을 [!DNL Commerce]에 활성화하는 방법에 대한 전체 엔드 투 엔드 사용 사례는 [이벤트 데이터를 사용하여 Real-Time CDP에서 대상 만들기 [!DNL Commerce] 를 참조하십시오](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/use-cases/create-audience).
+>[!DNL Commerce] 데이터를 Real-Time CDP으로 내보내고 대상을 작성한 다음 해당 대상을 [!DNL Commerce]에 활성화하는 방법에 대한 전체 엔드 투 엔드 사용 사례는 [이벤트 데이터를 사용하여 Real-Time CDP에서 대상 만들기 [!DNL Commerce] 를 참조하십시오](https://experienceleague.adobe.com/en/docs/commerce/data-connection/use-cases/create-audience).
 
 ## Real-Time CDP 대상 대시보드
 
-**Real-Time CDP 대상** 대시보드를 사용하여 Adobe Commerce 인스턴스 내에서 개인화할 수 있는 모든 [활성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=ko) 대상을 볼 수 있습니다.
+**Real-Time CDP 대상** 대시보드를 사용하여 Adobe Commerce 인스턴스 내에서 개인화할 수 있는 모든 [활성](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations) 대상을 볼 수 있습니다.
 
 **Real-Time CDP 대상** 대시보드에 액세스하려면 _관리자_ 사이드바로 이동한 다음 **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**(으)로 이동하십시오.
 
@@ -259,7 +248,7 @@ AEM 및 PWA과 같은 Headless Adobe Commerce 인스턴스에서 대상을 활�
 
 ### 장바구니 가격 규칙 및 관련 제품 규칙
 
-장바구니 가격 규칙 및 관련 제품 규칙의 경우, 헤드리스 상점 첫 페이지는 [Commerce integration framework(CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html?lang=ko)을(를) 통해 Experience Platform과 통신합니다. 프레임워크는 GraphQL을 사용하여 구현된 서버측 API를 제공합니다. 쇼핑객 세그먼트와 같은 대상 정보는 이름이 `aep-segments-membership`인 GraphQL 헤더 매개 변수를 통해 Commerce으로 전달됩니다.
+장바구니 가격 규칙 및 관련 제품 규칙의 경우, 헤드리스 상점 첫 페이지는 [Commerce integration framework(CIF)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/cif-storefront/integrations/magento)을(를) 통해 Experience Platform과 통신합니다. 프레임워크는 GraphQL을 사용하여 구현된 서버측 API를 제공합니다. 쇼핑객 세그먼트와 같은 대상 정보는 이름이 `aep-segments-membership`인 GraphQL 헤더 매개 변수를 통해 Commerce으로 전달됩니다.
 
 전반적인 아키텍처는 다음과 같습니다.
 
@@ -267,7 +256,7 @@ AEM 및 PWA과 같은 Headless Adobe Commerce 인스턴스에서 대상을 활�
 
 확장을 [설치](#install-the-extension)하고 [구성](#configure-the-extension)하면 Experience Platform Web SDK에 세그먼트 멤버십 형식으로 대상 정보가 포함됩니다.
 
-SDK에서 이러한 세그먼트 멤버십을 캡처하려면 이 [코드 조각](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=ko#example-response-for-custom-personalization-with-attributes)을 참조하십시오.
+SDK에서 이러한 세그먼트 멤버십을 캡처하려면 이 [코드 조각](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization#example-response-for-custom-personalization-with-attributes)을 참조하십시오.
 
 검색되면 해당 세그먼트를 GraphQL 헤더 내에서 Commerce에 전달할 수 있습니다. For example:
 
@@ -353,14 +342,14 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 }
 ```
 
-[개발자 설명서](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/)에서 `dynamicBlocks` GraphQL 쿼리에 대해 자세히 알아보세요.
+[개발자 설명서](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks)에서 `dynamicBlocks` GraphQL 쿼리에 대해 자세히 알아보세요.
 
 ## Adobe Experience Platform Mobile SDK을 사용하여 대상자 검색
 
 Adobe Experience Platform Mobile SDK을 사용하여 Real-Time CDP 대상을 검색할 수 있습니다.
 
 1. Audience Activation 확장 [설치](#install-the-extension).
-1. [모바일 Commerce 사이트에 대한 SDK 설치 및 구성](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/mobile-sdk-epc.html?lang=ko).
+1. [모바일 Commerce 사이트에 대한 SDK 설치 및 구성](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/mobile-sdk-epc).
 
 >[!IMPORTANT]
 >
@@ -434,7 +423,7 @@ For example:
 1. Commerce 인스턴스를 엽니다.
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 1. **[!UICONTROL Services]**&#x200B;을(를) 확장하고 **[!UICONTROL [!DNL Data Connection]]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL Authentication Type]** 필드에 지정한 서버 간 인증 방법이 올바른지 확인하십시오. Adobe에서는 **OAuth**&#x200B;을(를) 사용하는 것이 좋습니다. [JWT는 더 이상 사용되지 않습니다](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console). 현재 모든 인증서는 2026년 3월 1일까지 만료됩니다.
+1. **[!UICONTROL Authentication Type]** 필드에 지정한 서버 간 인증 방법이 올바른지 확인하십시오. Adobe에서는 **OAuth**&#x200B;을(를) 사용하는 것이 좋습니다. [JWT는 더 이상 사용되지 않습니다](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console). 현재 모든 인증서는 2026년 3월 1일까지 만료됩니다.
 
 ### 생성된 토큰에 대한 권한이 충분하지 않음
 
@@ -448,5 +437,5 @@ For example:
 1. 자격 증명을 연 다음 **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Manage destinations]** 권한이 포함된 역할을 추가하십시오.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-1. 콘솔에서 액세스 토큰을 [다시 생성](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ko#generate-access-token)합니다.
-1. 토큰이 [Target 연결 API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections)를 사용하여 올바른 응답을 제공하는지 확인하십시오.
+1. 콘솔에서 액세스 토큰을 [다시 생성](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#generate-access-token)합니다.
+1. 토큰이 [Target 연결 API](https://developer.adobe.com/experience-platform-apis/references/destinations#tag/Target-connections/operation/getTargetConnections)를 사용하여 올바른 응답을 제공하는지 확인하십시오.

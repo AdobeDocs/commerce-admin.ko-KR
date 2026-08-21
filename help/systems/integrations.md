@@ -4,24 +4,14 @@ description: 서드파티 통합을 위해 OAuth 자격 증명 및 리디렉션 
 exl-id: b7632994-b07b-4cdb-b62c-79bc7a3a01c8
 role: Admin, Developer
 feature: System, Integration, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/YeUr7tTCbBIZE93Clfyy-sBxxliuO9rj-SSKhXpMmjU
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 0%
@@ -30,13 +20,13 @@ ht-degree: 0%
 
 # 통합
 
-Commerce 관리에서 통합을 정의하면 서드파티 통합을 위한 OAuth 자격 증명 및 리디렉션 URL의 위치가 설정되고 통합에 필요한 사용 가능한 API 리소스가 식별됩니다. 통합 등록 프로세스에 대한 자세한 내용은 Commerce 개발자 설명서에서 [OAuth 기반 인증](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)을 참조하십시오.
+Commerce 관리에서 통합을 정의하면 서드파티 통합을 위한 OAuth 자격 증명 및 리디렉션 URL의 위치가 설정되고 통합에 필요한 사용 가능한 API 리소스가 식별됩니다. 통합 등록 프로세스에 대한 자세한 내용은 Commerce 개발자 설명서에서 [OAuth 기반 인증](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)을 참조하십시오.
 
 ![통합](./assets/integrations.png){width="700" zoomable="yes"}
 
 ## 온보딩 워크플로우
 
-1. **통합 승인** - **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**&#x200B;페이지로 이동하여 관련 통합을 찾은 다음 권한을 부여합니다.
+1. **통합 승인** - **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integrations]**페이지로 이동하여 관련 통합을 찾은 다음 권한을 부여합니다.
 1. **로그인 확인 및 설정** - 메시지가 표시되면 요청된 액세스 권한을 수락합니다. 서드파티로 리디렉션되면 시스템에 로그인하거나 계정을 만듭니다. 로그인에 성공하면 통합 페이지로 돌아갑니다.
 1. **인증된 통합의 확인을 받습니다** - 시스템이 통합이 인증되었음을 알리는 알림을 보냅니다. 통합을 설정하고 자격 증명을 받은 후 더 이상 액세스 또는 요청 토큰에 대한 호출을 수행할 필요가 없습니다.
 
@@ -64,8 +54,8 @@ Commerce 관리에서 통합을 정의하면 서드파티 통합을 위한 OAuth
 
    - **[!UICONTROL Resource Access]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `All`
-      - `Custom`
+     - `All`
+     - `Custom`
 
    - 사용자 지정 액세스의 경우 필요한 각 리소스의 확인란을 선택합니다.
 
@@ -97,7 +87,7 @@ Commerce 관리에서 통합을 정의하면 서드파티 통합을 위한 OAuth
 
 1. **[!UICONTROL Active]** 상태와의 통합을 찾습니다.
 
-1. _[!UICONTROL Activate]_&#x200B;열에서&#x200B;**[!UICONTROL Reauthorize]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Activate]_열에서&#x200B;**[!UICONTROL Reauthorize]**을(를) 클릭합니다.
 
 1. API 리소스에 대한 액세스를 승인하려면 **[!UICONTROL Reauthorize]**&#x200B;을(를) 클릭하십시오.
 
@@ -119,7 +109,7 @@ Commerce 관리에서 통합을 정의하면 서드파티 통합을 위한 OAuth
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
-자세한 내용은 Commerce 개발자 설명서에서 [익명 웹 API에 대한 액세스 제한](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/)을 참조하십시오.
+자세한 내용은 Commerce 개발자 설명서에서 [익명 웹 API에 대한 액세스 제한](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security)을 참조하십시오.
 
 ## 통합 삭제
 

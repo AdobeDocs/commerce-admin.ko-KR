@@ -4,26 +4,14 @@ description: ' [!DNL Catalog Service], [!DNL Live Search] 및 [!DNL Product Reco
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
 TQID: https://experienceleague.adobe.com/5WxRmKbBDfWM4JHypuXKCmrUTn5VjQeAUdLRJUWQXtc
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 802
+source-wordcount: 780
 ht-degree: 0%
 
 ---
@@ -34,11 +22,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->카탈로그 데이터를 Adobe Commerce Optimizer으로 내보내도록 [Adobe Commerce Optimizer 커넥터](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/overview)를 설치한 경우, 데이터 관리 대시보드가 아니라 Commerce Optimizer Studio의 [데이터 동기화 페이지](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/data-sync)를 사용하여 성공적인 데이터 동기화를 확인하십시오.
+>카탈로그 데이터를 Adobe Commerce Optimizer으로 내보내도록 [Adobe Commerce Optimizer 커넥터](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)를 설치한 경우, 데이터 관리 대시보드가 아니라 Commerce Optimizer Studio의 [데이터 동기화 페이지](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)를 사용하여 성공적인 데이터 동기화를 확인하십시오.
 
 ## 대상자
 
-활성 라이선스가 있는 [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/ko/docs/commerce/live-search/guide-overview) 또는 [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/guide-overview)을(를) 사용하는 모든 Commerce 가맹점에서 추가 비용 없이 데이터 관리 대시보드를 사용할 수 있습니다.
+활성 라이선스가 있는 [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview) 또는 [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)을(를) 사용하는 모든 Commerce 가맹점에서 추가 비용 없이 데이터 관리 대시보드를 사용할 수 있습니다.
 
 데이터 관리 대시보드는 *시스템* > 데이터 전송 > *데이터 관리 대시보드*&#x200B;에 있습니다.
 
@@ -49,8 +37,8 @@ ht-degree: 0%
 | 필드 | 설명 |
 |--- |--- |
 | 범위 | 동기화된 데이터에 대한 특정 웹 사이트입니다. |
-| [!DNL Product Recommendations] | 동기화 상태, 동기화된 제품 수 및 [!DNL Product Recommendations]에 대해 [표시 가능](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/catalog/inventory#stock-options) 동기화된 제품 테이블을 표시합니다. |
-| [!DNL Live Search] | 동기화 상태, 동기화된 제품 수 및 [!DNL Live Search]에 대해 [표시 가능](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/catalog/inventory#stock-options) 동기화된 제품 테이블을 표시합니다. |
+| [!DNL Product Recommendations] | 동기화 상태, 동기화된 제품 수 및 [!DNL Product Recommendations]에 대해 [표시 가능](/help/configuration-reference/catalog/inventory.md#stock-options) 동기화된 제품 테이블을 표시합니다. |
+| [!DNL Live Search] | 동기화 상태, 동기화된 제품 수 및 [!DNL Live Search]에 대해 [표시 가능](/help/configuration-reference/catalog/inventory.md#stock-options) 동기화된 제품 테이블을 표시합니다. |
 | [!DNL Catalog Service] | [!DNL Catalog Service]에 대해 동기화 상태, 동기화된 제품 수 및 동기화된 제품 테이블을 표시합니다. |
 | 설정 | [카탈로그 데이터를 수동으로 다시 동기화](#resync-catalog-data)할 수 있는 대화 상자를 엽니다. |
 | 동기화 상태 | 지난 3시간 내에 Commerce 데이터베이스에서 SaaS 서비스로 전송된 제품 수를 표시합니다. 카탈로그를 자주 업데이트하지 않는 경우 이 값은 0인 경우가 많습니다. 동기화가 진행 중이면 **[!UICONTROL Refresh]**&#x200B;을(를) 클릭하여 업데이트된 개수를 가져옵니다. |
@@ -69,7 +57,7 @@ Commerce 데이터베이스에서 제품을 업데이트하면 시스템 구성�
 
 >[!NOTE]
 >
->Adobe은 또한 개발자와 시스템 통합자가 Commerce SaaS 서비스의 동기화 작업을 관리 및 추적하고 오류를 해결하는 데 사용할 수 있는 명령줄 인터페이스와 시스템 로그를 제공합니다. 자세한 내용은 [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/overview)를 참조하십시오.
+>Adobe은 또한 개발자와 시스템 통합자가 Commerce SaaS 서비스의 동기화 작업을 관리 및 추적하고 오류를 해결하는 데 사용할 수 있는 명령줄 인터페이스와 시스템 로그를 제공합니다. 자세한 내용은 [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)를 참조하십시오.
 
 ### 동기화된 제품 목록
 
@@ -79,7 +67,7 @@ Commerce 데이터베이스에서 제품을 업데이트하면 시스템 구성�
 
 ### 카탈로그 데이터 재동기화
 
-Commerce SaaS 서비스가 항상 최신 제품 정보를 제공하도록 하려면 카탈로그 데이터를 동기화하기 위해 [일정을 구현](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex)해야 합니다.
+Commerce SaaS 서비스가 항상 최신 제품 정보를 제공하도록 하려면 카탈로그 데이터를 동기화하기 위해 [일정을 구현](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex)해야 합니다.
 
 Commerce 데이터베이스에서 SaaS 서비스로 카탈로그 데이터 재동기화를 [수동으로 시작](#manually-resync-catalog)할 수 있지만 하드웨어 리소스의 로드를 늘릴 수 있으므로 권장되지 않습니다. 그러나 다음 시나리오에서는 카탈로그를 수동으로 다시 동기화해야 할 수 있습니다.
 

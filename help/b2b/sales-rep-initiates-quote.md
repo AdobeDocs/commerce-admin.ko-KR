@@ -5,25 +5,15 @@ exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
 TQID: https://experienceleague.adobe.com/CbwUuAqkrVxLcqdbz-gV-x1i-mRHM6y62KPaBeA3sds
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: 823
 ht-degree: 0%
 
 ---
@@ -44,7 +34,7 @@ Sales Rep 는 Quote 또는 Customer Grid에서 Quote 를 생성할 수 있습니
 
 >[!NOTE]
 >
->판매자가 구매자를 위한 견적을 만드는 비디오 데모는 _Commerce 비디오 및 자습서_&#x200B;에서 [영업 담당자 견적 시작](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=ko)을 참조하십시오.
+>판매자가 구매자를 위한 견적을 만드는 비디오 데모는 _Commerce 비디오 및 자습서_&#x200B;에서 [영업 담당자 견적 시작](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote)을 참조하십시오.
 
 ### Quote 그리드에서 Quote 작성
 
@@ -96,7 +86,7 @@ Sales Rep 는 Quote 또는 Customer Grid에서 Quote 를 생성할 수 있습니
 
    >[!NOTE]
    >
-   >라인 항목 할인의 작동 방식에 대한 비디오 데모는 _Commerce 비디오 및 튜토리얼_&#x200B;에서 [영업 담당자가 견적 라인 항목에 할인을 적용](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=ko)합니다.
+   >라인 항목 할인의 작동 방식에 대한 비디오 데모는 _Commerce 비디오 및 튜토리얼_&#x200B;에서 [영업 담당자가 견적 라인 항목에 할인을 적용](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount)합니다.
 
 1. 필요에 따라 견적 수준 할인 적용:
 

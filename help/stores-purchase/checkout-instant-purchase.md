@@ -4,22 +4,14 @@ description: 즉시 구매 와 등록된 고객 계정에 대해 신속한 체�
 exl-id: f299f364-d7e3-4567-8c7b-955129011a19
 feature: Checkout
 TQID: https://experienceleague.adobe.com/sxfhq1vK7ohJBBli3U05dNoOvV2cdHc3j17nwvf3Le4
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 403
+source-wordcount: 404
 ht-degree: 0%
 
 ---
@@ -42,9 +34,9 @@ _즉시 구매_&#x200B;를 통해 고객은 계정에 저장된 정보를 사용
 
   다음 결제 방법을 사용하여 저장된 신용 카드 정보에 안전하게 액세스할 수 있습니다.
 
-   - [Braintree 신용 카드](braintree.md)(3D 보안이 활성화된 경우 즉시 구매는 Braintree 신용 카드와 함께 사용할 수 없음)
-   - [PayPal이 활성화된 Braintree](braintree.md)
-   - [Paypal Payflow Pro](paypal-payflow-pro.md)
+  - [Braintree 신용 카드](braintree.md)(3D 보안이 활성화된 경우 즉시 구매는 Braintree 신용 카드와 함께 사용할 수 없음)
+  - [PayPal이 활성화된 Braintree](braintree.md)
+  - [Paypal Payflow Pro](paypal-payflow-pro.md)
 
 ## 상점 첫 화면에서 즉시 구매
 
@@ -71,11 +63,11 @@ Braintree 또는 Adobe Commerce 및 Magento Open Source용 결제 서비스와 �
 결제 방법을 구성하고 Braintree 또는 결제 서비스에 대한 저장 기능을 활성화하는 방법에 대해 알아봅니다.
 
 - [Braintree](braintree.md)
-- [결제 서비스 설명서](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=ko)
+- [결제 서비스 설명서](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)
 
 ### 3단계: 즉시 구매 활성화
 
-1. _[!UICONTROL Sales]_&#x200B;섹션 아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Sales]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL Sales]_섹션 아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Sales]**을(를) 선택합니다.
 
 1. **[!UICONTROL Instant Purchase]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 

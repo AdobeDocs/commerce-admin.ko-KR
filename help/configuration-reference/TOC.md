@@ -5,9 +5,9 @@ breadcrumb-title: 구성 참조
 role: Admin, Developer, User
 feature: Configuration
 nudge: true
-source-git-commit: 0ea210e1dbc100be876af254c8513506eb043729
+source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '172'
 ht-degree: 2%
 
 ---
@@ -85,4 +85,4 @@ ht-degree: 2%
   - [관리자](./advanced/admin.md)
   - [시스템](./advanced/system.md)
   - [개발자](./advanced/developer.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

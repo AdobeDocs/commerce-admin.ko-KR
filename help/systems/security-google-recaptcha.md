@@ -5,26 +5,15 @@ exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
 TQID: https://experienceleague.adobe.com/5gL6LIi-okCkQAu--QI4aLcyHlCiNZChc5KtA7t99pA
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2:
-  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1095
+source-wordcount: 1096
 ht-degree: 0%
 
 ---
@@ -51,7 +40,7 @@ Google reCAPTCHA는 다음과 같은 여러 가지 방법으로 구현할 수 �
 
 >[!IMPORTANT]
 >
->Google reCAPTCHA를 구성하기 전에 `PHP.ini` 파일에 다음 설정이 포함되어 있는지 확인하십시오. `allow_url_fopen = 1`. 이 경우 개발자 지원이 필요할 수 있습니다. 설치 안내서에서 [필수 PHP 설정](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=ko){:target="_blank"}을 참조하십시오.
+>Google reCAPTCHA를 구성하기 전에 `PHP.ini` 파일에 다음 설정이 포함되어 있는지 확인하십시오. `allow_url_fopen = 1`. 이 경우 개발자 지원이 필요할 수 있습니다. 설치 안내서에서 [필수 PHP 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings){:target="_blank"}을 참조하십시오.
 
 ## 1단계: Google reCAPTCHA 키 생성
 
@@ -90,7 +79,7 @@ Google reCAPTCHA를 사용하려면 API 키 쌍이 필요합니다. 이 키들�
 
 ## 2단계: 관리자용 Google reCAPTCHA 구성
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 1. 관리자 계정에 로그인합니다.
 
@@ -104,7 +93,7 @@ Google reCAPTCHA를 사용하려면 API 키 쌍이 필요합니다. 이 키들�
    >
    >구성할 각 필드에 대해 **[!UICONTROL Use system value]** 확인란의 선택을 취소합니다.
 
-1. _[!DNL reCAPTCHA v2 ("I am not a robot")]_&#x200B;을(를) 사용하려면&#x200B;**[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**&#x200B;섹션을 확장하고 다음을 수행하십시오.
+1. _[!DNL reCAPTCHA v2 ("I am not a robot")]_을(를) 사용하려면&#x200B;**[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**섹션을 확장하고 다음을 수행하십시오.
 
    - **[!UICONTROL Google API Website Key]**&#x200B;의 경우 Google reCAPTCHA 계정을 등록할 때 이 reCAPTCHA 유형에 대해 만든 웹 사이트 키를 입력하십시오.
 
@@ -118,7 +107,7 @@ Google reCAPTCHA를 사용하려면 API 키 쌍이 필요합니다. 이 키들�
 
    ![reCAPTCHA v2 - &quot;로봇이 아닙니다.&quot;](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. _[!DNL reCAPTCHA v2 Invisible]_&#x200B;을(를) 사용하려면&#x200B;**[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;섹션을 확장하고 다음을 수행하십시오.
+1. _[!DNL reCAPTCHA v2 Invisible]_을(를) 사용하려면&#x200B;**[!UICONTROL reCAPTCHA v2 Invisible]**섹션을 확장하고 다음을 수행하십시오.
 
    - **[!UICONTROL Google API Website Key]**&#x200B;의 경우 Google reCAPTCHA 계정을 등록할 때 이 reCAPTCHA 유형에 대해 만든 웹 사이트 키를 입력하십시오.
 
@@ -132,7 +121,7 @@ Google reCAPTCHA를 사용하려면 API 키 쌍이 필요합니다. 이 키들�
 
    ![reCAPTCHA v2 보이지 않음](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. _[!DNL reCAPTCHA v3 Invisible]_&#x200B;을(를) 사용하려면&#x200B;**[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;섹션을 확장하고 다음을 수행하십시오.
+1. _[!DNL reCAPTCHA v3 Invisible]_을(를) 사용하려면&#x200B;**[!UICONTROL reCAPTCHA v3 Invisible]**섹션을 확장하고 다음을 수행하십시오.
 
    - **[!UICONTROL Google API Website Key]**&#x200B;의 경우 Google reCAPTCHA 계정을 등록할 때 이 reCAPTCHA 유형에 대해 만든 웹 사이트 키를 입력하십시오.
 
@@ -162,7 +151,7 @@ Google reCAPTCHA를 사용하려면 API 키 쌍이 필요합니다. 이 키들�
 
 ## 3단계: Storefront용 Google reCAPTCHA 구성
 
-1. _[!UICONTROL Security]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL Security]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Google reCAPTCHA Storefront]**을(를) 선택합니다.
 
 1. 상점 전면에서 사용할 각 reCAPTCHA 유형에 대한 섹션을 완료합니다.
 

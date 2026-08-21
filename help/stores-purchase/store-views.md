@@ -1,22 +1,16 @@
 ---
 title: 보기 저장
-description: 스토어 보기를 추가하고 편집하는 방법에 대해 알아봅니다.
+description: Adobe Commerce에서 상점 보기를 추가하고 편집하는 방법에 대해 알아봅니다. 이 방법을 통해 쇼핑객은 상점 헤더의 언어 선택기를 사용하여 로케일을 전환할 수 있습니다.
 exl-id: aa1f7f1c-a6d0-4ec2-83fe-15fb9646634a
 feature: Site Management, System
 TQID: https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 284
+source-wordcount: 300
 ht-degree: 0%
 
 ---
@@ -68,9 +62,9 @@ Adobe Commerce 또는 Magento Open Source 설치에 다중 사이트 또는 다�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**(으)로 이동합니다.
 
-1. 그리드의 _[!UICONTROL Store View]_&#x200B;열에서 편집할 보기의 이름을 클릭합니다.
+1. 그리드의 _[!UICONTROL Store View]_열에서 편집할 보기의 이름을 클릭합니다.
 
-   기본 보기를 편집할 때 _[!UICONTROL Store]_&#x200B;및_[!UICONTROL Status]_ 필드를 사용할 수 없습니다.
+   기본 보기를 편집할 때 _[!UICONTROL Store]_및_[!UICONTROL Status]_ 필드를 사용할 수 없습니다.
 
    ![스토어 보기 - 기본 보기 편집](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

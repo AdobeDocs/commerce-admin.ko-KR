@@ -3,28 +3,16 @@ title: 개발자 도구
 description: 사용자 지정 프로젝트에서 작업하는 개발자를 지원하는 데 사용할 수 있는 고급 개발자 도구에 대해 알아봅니다.
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/l7Ub5CCeiR6ec3PiRkVXXaVyPaqDMJLf5TqKpIvL7T8
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: cc250cf1-34eb-4863-80d0-d170d45ea067id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1709
+source-wordcount: 1774
 ht-degree: 0%
 
 ---
@@ -45,14 +33,14 @@ ht-degree: 0%
 
 Adobe Commerce 또는 Magento Open Source 인스턴스를 배포하여 _프로덕션_ 또는 _개발자 모드_&#x200B;에서 실행할 수 있습니다. 개발자를 위해 특별히 설계된 도구 및 구성 설정은 저장소가 _개발자 모드_&#x200B;에서 실행되는 동안에만 액세스할 수 있습니다.
 
-적절한 권한이 있는 사용자가 서버의 명령줄에서만 작업 모드를 변경할 수 있습니다. 자세한 내용은 _구성 가이드_&#x200B;에서 [작업 모드 설정](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=ko)을 참조하십시오.
+적절한 권한이 있는 사용자가 서버의 명령줄에서만 작업 모드를 변경할 수 있습니다. 자세한 내용은 _구성 가이드_&#x200B;에서 [작업 모드 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)을 참조하십시오.
 
 판매자 설명서의 대부분의 항목은 프로덕션 모드에서 실행되는 Commerce 인스턴스에 적용됩니다. 그러나 다음 구성 설정 및 도구는 설치가 개발자 모드에서 실행되는 경우에만 사용할 수 있습니다.
 
 ## 프론트엔드 개발 워크플로
 
 프론트엔드 개발 워크플로 유형은 개발 중에 클라이언트측에서 컴파일이 적게 발생하는지 또는 서버측에서 컴파일이 적게 발생하는지를 결정합니다. 추가 기능 및 규칙이 있고 간소화된 코드를 생성하는 CSS의 확장이 더 적습니다. 테마 개발에는 클라이언트측 컴파일 작업을 사용하지 않는 것이 좋습니다. 서버 측 컴파일이 기본 모드입니다. 프로덕션 모드의 저장소에는 개발 워크플로우 옵션을 사용할 수 없습니다.
-Commerce 개발자 설명서에서 [클라이언트측 LESS 컴파일과 서버측 비교](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode/){:target="_blank"}를 참조하십시오.
+Commerce 개발자 설명서에서 [클라이언트측 LESS 컴파일과 서버측 비교](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode){:target="_blank"}를 참조하십시오.
 
 >[!NOTE]
 >
@@ -77,7 +65,7 @@ Commerce 개발자 설명서에서 [클라이언트측 LESS 컴파일과 서버�
 
 정적 파일의 URL에 디지털 서명을 추가하면 브라우저는 파일의 최신 버전을 사용할 수 있는 시기를 감지할 수 있습니다. 디지털 서명을 사용하여 추적할 수 있는 정적 파일에는 JavaScript, CSS, 이미지 및 글꼴이 포함됩니다. 서명은 기본 URL 바로 뒤에 경로에 추가됩니다. 파일의 서명이 브라우저의 캐시에 저장된 것과 다른 경우 파일의 최신 버전이 사용됩니다.
 
-Commerce 개발자 설명서에서 [정적 콘텐츠 서명](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=ko){:target="_blank"}을 참조하십시오.
+Commerce 개발자 설명서에서 [정적 콘텐츠 서명](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/static-content-signing){:target="_blank"}을 참조하십시오.
 
 >[!NOTE]
 >
@@ -109,7 +97,7 @@ Commerce 개발자 설명서에서 [정적 콘텐츠 서명](https://experiencel
 
 기본적으로 Adobe Commerce 및 Magento Open Source은 파일을 병합, 번들 또는 최소화하지 않으며 프로젝트 개발자가 사용해야 하는 파일 최적화 방법을 결정해야 합니다.
 
-자세한 내용은 [성능 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=ko)를 참조하세요.
+자세한 내용은 [성능 모범 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/overview)를 참조하세요.
 
 >[!NOTE]
 >
@@ -159,7 +147,7 @@ Commerce 개발자 설명서에서 [정적 콘텐츠 서명](https://experiencel
 >
 >개발자 클라이언트 제한 사항은 [개발자 모드](../systems/developer-tools.md#operation-modes)에서만 설정할 수 있습니다.
 
-자세한 내용은 _Commerce on Cloud Infrastructure Guide_&#x200B;의 [요청을 허용하는 사용자 지정 VCL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=ko)을 참조하십시오.
+자세한 내용은 _Commerce on Cloud Infrastructure Guide_&#x200B;의 [요청을 허용하는 사용자 지정 VCL](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist)을 참조하십시오.
 
 **_IP 주소를 허용 목록에 추가:_**
 
@@ -187,7 +175,7 @@ Commerce 개발자 설명서에서 [정적 콘텐츠 서명](https://experiencel
 >
 >템플릿 경로 힌트는 [개발자 모드](../systems/developer-tools.md#operation-modes)에서만 편집할 수 있습니다.
 
-Commerce 개발자 설명서에서 [템플릿, 레이아웃 및 스타일 찾기](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug/){:target="_blank"}를 참조하십시오.
+Commerce 개발자 설명서에서 [템플릿, 레이아웃 및 스타일 찾기](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug){:target="_blank"}를 참조하십시오.
 
 ![예제 상점 - 템플릿 경로 힌트](./assets/storefront-template-path-hints.png){width="700" zoomable="yes"}
 
@@ -265,7 +253,7 @@ Commerce 개발자 설명서에서 [번역 개요](https://developer.adobe.com/c
 
    필요에 따라 **[!UICONTROL Use Website]** 확인란의 선택을 취소하여 이 설정을 수정합니다.
 
-   특정 스토어 보기를 편집할 때는 _[!UICONTROL Enabled for Admin]_&#x200B;옵션을 사용할 수 없습니다.
+   특정 스토어 보기를 편집할 때는 _[!UICONTROL Enabled for Admin]_옵션을 사용할 수 없습니다.
 
    ![고급 구성 - 인라인 번역](../configuration-reference/advanced/assets/developer-translate-inline.png){width="600" zoomable="yes"}
 

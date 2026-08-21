@@ -4,21 +4,12 @@ description: 각 웹 사이트, 스토어 또는 스토어 보기에 대해 이�
 exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
 TQID: https://experienceleague.adobe.com/JsYtRQoLNKrCjd9DSPB3z6sgm1ApQA5G-tun03tXX7A
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1314
 ht-degree: 0%
@@ -27,7 +18,7 @@ ht-degree: 0%
 
 # 이메일 템플릿 사용자 지정
 
-Commerce에는 시스템에서 보내는 각 메시지의 본문 섹션에 대한 기본 이메일 템플릿이 포함되어 있습니다. 본문 콘텐츠의 템플릿은 머리글 및 바닥글 템플릿과 결합하여 전체 메시지를 작성합니다. 콘텐츠의 형식이 HTML 및 CSS로 지정되었으며 [변수](variables-predefined.md)를 추가하여 쉽게 편집하고 사용자 지정할 수 있습니다. 각 웹 사이트, 스토어 또는 스토어 보기에 대해 이메일 템플릿을 사용자 지정할 수 있습니다. 사용자 지정 템플릿을 사용하는 경우 [시스템 구성](email-templates.md#configure-email-templates)을 업데이트하여 올바른 템플릿이 사용되었는지 확인하십시오. 전자 메일 템플릿 사용자 지정에서 조건문을 사용하는 방법을 알아보려면 [개발자 설명서](https://developer.adobe.com/commerce/frontend-core/guide/templates/email/#theme-based-customizations-1)를 참조하세요.
+Commerce에는 시스템에서 보내는 각 메시지의 본문 섹션에 대한 기본 이메일 템플릿이 포함되어 있습니다. 본문 콘텐츠의 템플릿은 머리글 및 바닥글 템플릿과 결합하여 전체 메시지를 작성합니다. 콘텐츠의 형식이 HTML 및 CSS로 지정되었으며 [변수](variables-predefined.md)를 추가하여 쉽게 편집하고 사용자 지정할 수 있습니다. 각 웹 사이트, 스토어 또는 스토어 보기에 대해 이메일 템플릿을 사용자 지정할 수 있습니다. 사용자 지정 템플릿을 사용하는 경우 [시스템 구성](email-templates.md#configure-email-templates)을 업데이트하여 올바른 템플릿이 사용되었는지 확인하십시오. 전자 메일 템플릿 사용자 지정에서 조건문을 사용하는 방법을 알아보려면 [개발자 설명서](https://developer.adobe.com/commerce/frontend-core/guide/templates/email#theme-based-customizations-1)를 참조하세요.
 
 ![예 - 환영 전자 메일 미리 보기](./assets/email-template-preview.png){width="500" zoomable="yes"}
 
@@ -47,7 +38,7 @@ Commerce에는 시스템에서 보내는 각 메시지의 본문 섹션에 대�
 | [!UICONTROL Insert Variable] | 커서 위치에서 템플릿에 변수를 삽입합니다. |
 | [!UICONTROL Template Subject] | 템플릿 제목은 제목 열에 표시되며, 목록에서 템플릿을 정렬 및 필터링하는 데 사용할 수 있습니다. |
 | [!UICONTROL Template Content] | HTML에 있는 템플릿의 콘텐츠입니다. |
-| [!UICONTROL Template Styles] | 템플릿 서식을 지정하는 데 필요한 모든 CSS 스타일 선언을 _[!UICONTROL Template Styles]_&#x200B;상자에 입력할 수 있습니다. |
+| [!UICONTROL Template Styles] | 템플릿 서식을 지정하는 데 필요한 모든 CSS 스타일 선언을 _[!UICONTROL Template Styles]_상자에 입력할 수 있습니다. |
 
 {style="table-layout:auto"}
 
@@ -75,7 +66,7 @@ Commerce에는 시스템에서 보내는 각 메시지의 본문 섹션에 대�
 
 1. 템플릿을 구성하는 데 도움이 되는 **[!UICONTROL Template Subject]**&#x200B;을(를) 입력하십시오.
 
-   표에서 템플릿 목록을 _[!UICONTROL Subject]_&#x200B;열로 정렬하고 필터링할 수 있습니다.
+   표에서 템플릿 목록을 _[!UICONTROL Subject]_열로 정렬하고 필터링할 수 있습니다.
 
    ![전자 메일 템플릿 헤더 정보](./assets/email-template-information.png){width="600" zoomable="yes"}
 
@@ -109,7 +100,7 @@ Commerce에는 시스템에서 보내는 각 메시지의 본문 섹션에 대�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 그리드에서 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 그리드에서 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
 1. 아래로 스크롤하여 **[!UICONTROL Transactional Emails]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -141,7 +132,7 @@ Commerce에는 시스템에서 보내는 각 메시지의 본문 섹션에 대�
 
 1. 템플릿을 구성하는 데 도움이 되는 **[!UICONTROL Template Subject]**&#x200B;을(를) 입력하십시오.
 
-   표에서 _[!UICONTROL Subject]_&#x200B;열을 기준으로 템플릿을 정렬 및 필터링할 수 있습니다.
+   표에서 _[!UICONTROL Subject]_열을 기준으로 템플릿을 정렬 및 필터링할 수 있습니다.
 
    ![전자 메일 템플릿 바닥글 - 정보](./assets/email-template-footer-information.png){width="600" zoomable="yes"}
 
@@ -165,7 +156,7 @@ Commerce에는 시스템에서 보내는 각 메시지의 본문 섹션에 대�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 그리드에서 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 그리드에서 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
 1. 아래로 스크롤하여 **[!UICONTROL Transactional Emails]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -229,11 +220,11 @@ Commerce에는 시스템에서 보내는 각 메시지의 본문 섹션에 대�
 
    >[!NOTE]
    >
-   >사용자 지정 스타일은 `{{template config_path="design/email/header_template"}}`이(가) _[!UICONTROL Template Styles]_&#x200B;에 있는 경우에만 전자 메일에 적용됩니다. 기본 헤더 템플릿 없이 사용자 지정 CSS를 사용하려면 여기에 `<style>` HTML 태그 내에서 제공해야 합니다.
+   >사용자 지정 스타일은 `{{template config_path="design/email/header_template"}}`이(가) _[!UICONTROL Template Styles]_에 있는 경우에만 전자 메일에 적용됩니다. 기본 헤더 템플릿 없이 사용자 지정 CSS를 사용하려면 여기에 `<style>` HTML 태그 내에서 제공해야 합니다.
 
 ### 3단계. 구성 업데이트
 
-_[!UICONTROL Currently Used For]_&#x200B;이동 경로에 템플릿 사용 위치가 표시됩니다. 이 예제에서 템플릿 구성은&#x200B;_[!UICONTROL Customer Configuration]_ 페이지, _[!UICONTROL Create New Account Options]_&#x200B;섹션 및&#x200B;_[!UICONTROL Default Welcome Email]_ 필드에 있습니다.
+_[!UICONTROL Currently Used For]_이동 경로에 템플릿 사용 위치가 표시됩니다. 이 예제에서 템플릿 구성은_[!UICONTROL Customer Configuration]_ 페이지, _[!UICONTROL Create New Account Options]_섹션 및_[!UICONTROL Default Welcome Email]_ 필드에 있습니다.
 
 - 페이지 - [!UICONTROL Customer Configuration]
 - 섹션 - [!UICONTROL Create New Account Options]
