@@ -20,9 +20,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: 1131
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [!DNL Commerce] 계정은 클라우드 인프라 또는 온프레미스에 배포된 Adobe Commerce 프로젝트용 Adobe Commerce 서비스를 관리하기 위한 중앙 액세스 지점입니다. 계정 대시보드에서 구독을 보고, Commerce 서비스 API 키를 관리하고, 과거 청구 정보를 검토하고, 조직의 다른 사용자와 공동 작업을 수행할 수 있습니다.
 
-[첫 번째 티켓을 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)하거나 특정 상점 내에서 작업하는 대신 Adobe Commerce 관계를 관리해야 하는 경우 [!DNL Commerce] 계정을 만들거나 액세스하는 것부터 시작하십시오.
+[첫 번째 티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)하거나 특정 상점 내에서 작업하는 대신 Adobe Commerce 관계를 관리해야 하는 경우 [!DNL Commerce] 계정을 만들거나 액세스하는 것부터 시작하십시오.
 
 [!DNL Commerce] 웹 사이트에서 [!DNL Commerce] 계정에 액세스할 수 있습니다. 계정 대시보드에서 구입한 제품 및 서비스와 관련된 정보를 보고 다른 사용자에게 [공유 액세스](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access)를 제공할 수 있습니다. Commerce 서비스 API 키와 같은 일부 정보는 라이선스 소유자에게만 표시됩니다.
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 [!DNL Commerce] 계정 로그인은 저장소 관리자 로그인과 별개입니다. 일반적으로 각각에 대해 서로 다른 자격 증명을 사용하며 각 시스템에 대한 액세스는 독립적으로 관리됩니다.
 
-그러나 Adobe Commerce 및 Adobe Business 제품에 대한 로그인을 간소화하려는 사용자는 스토어 관리자에 로그인하도록 Adobe ID을 구성할 수 있습니다. *Commerce용 IMS 통합 안내서*&#x200B;의 [Adobe ID과 Commerce Admin 통합 구성](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/ims/adobe-ims-config).
+그러나 Adobe Commerce 및 Adobe Business 제품에 대한 로그인을 간소화하려는 사용자는 스토어 관리자에 로그인하도록 Adobe ID을 구성할 수 있습니다. *Commerce용 IMS 통합 안내서*&#x200B;의 [Adobe ID과 Commerce Admin 통합 구성](/help/getting-started/adobe-ims-config.md).
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 공유 액세스를 사용하면 개인 로그인을 사용하지 않고도 동료, 파트너 또는 관리자와 같은 신뢰할 수 있는 사용자에게 사용자를 대신하여 Adobe Commerce 관계를 관리할 수 있는 권한을 부여할 수 있습니다. 여기에는 다른 사용자가 지원 사례를 열고 추적할 수 있는 것이 포함됩니다.
 
-공유 계정 설정에 대한 자세한 단계는 Adobe Commerce 시작 안내서의 [Commerce 계정 공유](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en) 섹션을 참조하십시오.
+공유 계정 설정에 대한 자세한 단계는 Adobe Commerce 시작 안내서의 [Commerce 계정 공유](/help/getting-started/commerce-account-share.md) 섹션을 참조하십시오.
 
 Commerce 지원 사례를 제출하는 방법에 대한 자세한 지침은 [Adobe Commerce 도움말 센터 사용 안내서](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)를 참조하십시오.
 

@@ -26,7 +26,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 2309
 ht-degree: 0%
@@ -134,8 +134,8 @@ GDPR을 준수하는 기업은 CCPA에 따라 추가적인 의무가 있을 수 
 
 1. 각 버전에 적용할 수 있는 데이터 흐름 다이어그램 및 데이터베이스 엔티티 매핑에 대해서는 다음 항목을 참조하십시오.
 
-   - [개인 정보 참조(2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=ko)
-   - [개인 정보 참조(1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=ko)
+   - [개인 정보 참조(2.x)](https://experienceleague.adobe.com/ko/docs/commerce-operations/security-and-compliance/reference/data-m2)
+   - [개인 정보 참조(1.x)](https://experienceleague.adobe.com/ko/docs/commerce-operations/security-and-compliance/reference/data-m1)
 
    ![다이어그램](./assets/privacy-frontend-diagram.svg)
 
@@ -169,8 +169,8 @@ GDPR을 준수하는 기업은 CCPA에 따라 추가적인 의무가 있을 수 
 
    - **삭제 요청**
 
-      - 스토어가 Adobe Commerce Cloud에 호스팅된 판매자는 Adobe 지원 팀에 문의하여 개인 정보를 삭제해야 합니다. 자세한 내용은 Adobe 기술 계정 관리자 또는 고객 지원 센터에 문의하십시오.
-      - Adobe Commerce 또는 Magento Open Source 온프레미스에서 설치를 실행하는 판매자는 요청 시 개인 정보를 삭제하기 위한 자체 프로세스와 스크립트를 구현해야 합니다.
+     - 스토어가 Adobe Commerce Cloud에 호스팅된 판매자는 Adobe 지원 팀에 문의하여 개인 정보를 삭제해야 합니다. 자세한 내용은 Adobe 기술 계정 관리자 또는 고객 지원 센터에 문의하십시오.
+     - Adobe Commerce 또는 Magento Open Source 온프레미스에서 설치를 실행하는 판매자는 요청 시 개인 정보를 삭제하기 위한 자체 프로세스와 스크립트를 구현해야 합니다.
 
 #### 5단계: 필요한 고객 알림에 대한 컨텐츠 작성
 
@@ -186,12 +186,12 @@ GDPR을 준수하는 기업은 CCPA에 따라 추가적인 의무가 있을 수 
 
    - **개인 정보 수집 및 사용 요청을 제출하는 방법**: 개인 사용자가 다음에 대해 수집한 개인 정보를 공개하도록 요청하는 지침:
 
-      - 소비자에 대해 수집한 특정 개인 정보
-      - 소비자에 대해 수집한 개인 정보 범주
-      - 개인 정보가 수집되는 소스의 카테고리
-      - 비즈니스 목적으로 판매하거나 공개한 소비자에 대한 개인 정보의 범주
-      - 개인정보가 영업상 목적으로 판매 또는 공개된 제3자의 범주
-      - 귀사에서 개인 정보를 수집 및/또는 판매하는 이유
+     - 소비자에 대해 수집한 특정 개인 정보
+     - 소비자에 대해 수집한 개인 정보 범주
+     - 개인 정보가 수집되는 소스의 카테고리
+     - 비즈니스 목적으로 판매하거나 공개한 소비자에 대한 개인 정보의 범주
+     - 개인정보가 영업상 목적으로 판매 또는 공개된 제3자의 범주
+     - 귀사에서 개인 정보를 수집 및/또는 판매하는 이유
 
 1. 팀에 콘텐츠를 보내고, 가능한 경우 법률 자문을 구해 검토를 요청합니다.
 
@@ -215,9 +215,9 @@ CCPA 요구 사항을 반영하도록 모든 서비스 공급자 계약을 검�
 
 - **동의 연령**: 미성년자에 대한 개인 정보를 수집하거나 사용하는 경우 다음 요구 사항이 적용될 수 있습니다.
 
-   - **미성년자 &lt; 13**: 13세 미만의 미성년자가 개인 정보 판매를 옵트인하려면 부모 승인이 필요합니다.
+  - **미성년자 &lt; 13**: 13세 미만의 미성년자가 개인 정보 판매를 옵트인하려면 부모 승인이 필요합니다.
 
-   - **미성년자 13~16**: 기업이 해당 조치를 문서화하는 합리적인 절차를 확립하는 경우 만 13세 이상 16세 미만의 미성년자는 개인 정보 판매를 선택할 수 있습니다. 프로세스는 회사의 [개인정보 처리방침](privacy-policy.md)에 설명되어 있어야 합니다. 사업자가 이 연령대의 미성년자로부터 요구를 받으면 나중에 퇴출할 수 있는 권리를 알리고, 그 방법을 설명해야 한다.
+  - **미성년자 13~16**: 기업이 해당 조치를 문서화하는 합리적인 절차를 확립하는 경우 만 13세 이상 16세 미만의 미성년자는 개인 정보 판매를 선택할 수 있습니다. 프로세스는 회사의 [개인정보 처리방침](privacy-policy.md)에 설명되어 있어야 합니다. 사업자가 이 연령대의 미성년자로부터 요구를 받으면 나중에 퇴출할 수 있는 권리를 알리고, 그 방법을 설명해야 한다.
 
   >[!IMPORTANT]
   >

@@ -16,10 +16,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 145
-ht-degree: 0%
+source-wordcount: 157
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 사이트 방문자 중 일부는 마우스가 아닌 키보드 컨트롤을 사용하여 탐색하고 일부는 터치 또는 음성 명령을 사용할 수 있습니다. 키보드 탐색 컨트롤은 브라우저와 플랫폼에 따라 다르지만 Tab 키는 일반적으로 페이지의 필드, 링크 및 단추를 통해 포커스를 이동하는 데 사용됩니다. 자세한 내용은 [키보드 단축키](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts){:target="_blank"}를 참조하세요.
 
-액세스 가능성에 대한 자세한 내용은 개발자 설명서에서 [액세스 가능성 지침](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines/){:target="_blank"}을 참조하십시오.
+액세스 가능성에 대한 자세한 내용은 개발자 설명서에서 [액세스 가능성 지침](https://developer.adobe.com/commerce/admin-developer/pattern-library/general/accessibility-guidelines){:target="_blank"}을 참조하십시오.
 
 ## Windows
 

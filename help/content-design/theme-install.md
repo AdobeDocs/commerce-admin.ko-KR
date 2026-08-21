@@ -15,9 +15,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 190
+source-wordcount: 191
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-시작하기 전에 올바른 [[!DNL Commerce] 액세스 키](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=ko) 집합이 있는지 확인하십시오.
+시작하기 전에 올바른 [[!DNL Commerce] 액세스 키](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) 집합이 있는지 확인하십시오.
 
 [!DNL Commerce] 스토어에 테마를 추가하려면 [!DNL Commerce Marketplace]에서 사용할 수 있는 지침을 따르십시오.
 

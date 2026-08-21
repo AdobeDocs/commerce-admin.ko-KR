@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: 2658
 ht-degree: 1%
 
 ---
@@ -310,7 +310,7 @@ Adobe Commerce의 HIPAA 고객 검색 결과 제한 기능은 PHI(보호 상태 
 | [결제 서비스](https://experienceleague.adobe.com/ko/docs/commerce/payment-services/guide-overview) | 아니요 | 아니요 |
 | [다시 Office 이벤트에 데이터 연결](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events-backoffice) | 예 | 예 |
 | [데이터 연결 상점 이벤트](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events#storefront-events) | 아니요 | 아니요 |
-| [Audience Activation](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/audience-activation) | 아니요 | 아니요 |
+| [Audience Activation](/help/customers/audience-activation.md) | 아니요 | 아니요 |
 
 ### 도구
 

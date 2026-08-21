@@ -1,6 +1,6 @@
 ---
 title: 재고 재고 삭제
-description: 관리에서 사용자 정의 재고를 삭제하고 웹 사이트를 다른 재고에 재할당하여 판매 가능한 수량과 개설 주문이 정확하도록 합니다.
+description: Commerce 관리에서 사용자 정의 재고를 삭제하고 먼저 웹 사이트를 다른 재고에 재할당하여 판매 가능한 수량과 개설 주문을 정확하게 유지하는 방법을 알아봅니다.
 exl-id: 420e0bbf-6382-471d-9ad2-16587191e5e7
 TQID: https://experienceleague.adobe.com/H6WjUk2tfqMqNbGkgkF22XvB8lFINXuLmHotNBeZIyU
 product_v2:
@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 135
+source-wordcount: 141
 ht-degree: 0%
 
 ---

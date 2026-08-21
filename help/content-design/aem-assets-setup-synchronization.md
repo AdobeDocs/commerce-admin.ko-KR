@@ -18,9 +18,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: 560
 ht-degree: 3%
 
 ---
@@ -45,7 +45,7 @@ AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자
 
 - AEM Assets for Commerce 통합에 대한 활성화를 요청하려면 지원 티켓을 만드십시오. 티켓에 Commerce에 연결할 AEM Assets 작성 환경의 **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** 및 **[!UICONTROL IMS Org ID]**&#x200B;을(를) 포함합니다.
 
-- **[!UICONTROL Asset Selector IMS Client ID]** 입력. *AEM Assets 선택기* 설명서에서 [ImsAuthProps](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app)을(를) 참조하십시오.
+- **[!UICONTROL Asset Selector IMS Client ID]** 입력. *AEM Assets 선택기* 설명서에서 [ImsAuthProps](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)을(를) 참조하십시오.
 
 ## 연결 구성
 
@@ -66,7 +66,7 @@ AEM Assets 프로젝트를 식별한 후 Adobe Commerce과 AEM Assets 간에 자
 
 1. **[!UICONTROL Asset Selector IMS Client ID]** 입력.
 
-   [자산 선택기 IMS 클라이언트 ID](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props)은(는) 사용자가 시각적 자산을 Commerce 제품 페이지에 직접 포함할 수 있는 AEM Assets 기능인 [!UICONTROL Assets Selector]에 필요합니다.
+   [자산 선택기 IMS 클라이언트 ID](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)은(는) 사용자가 시각적 자산을 Commerce 제품 페이지에 직접 포함할 수 있는 AEM Assets 기능인 [!UICONTROL Assets Selector]에 필요합니다.
 
 1. Commerce과 자산 일치 서비스 간의 요청을 인증하기 위해 [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)을(를) 선택하십시오.
 

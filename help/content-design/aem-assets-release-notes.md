@@ -14,9 +14,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: 280
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ _2025년 4월 23일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
 
-![새 문제](../assets/new.svg)<!-- Issue ACAP-955 --> 이제 AEM 배달 URL 대신 [사용자 지정 도메인 URL](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization#configure-the-custom-domain-url)을 사용할 수 있습니다. 판매자가 AEM 대시보드에서 **사용자 지정 도메인 이름**&#x200B;을(를) 설정하는 경우 Commerce에서 이 **사용자 지정 도메인 URL**&#x200B;을(를) 추가해야 합니다.
+![새 문제](../assets/new.svg)<!-- Issue ACAP-955 --> 이제 AEM 배달 URL 대신 [사용자 지정 도메인 URL](/help/content-design/aem-assets-setup-synchronization.md#configure-the-custom-domain-url)을 사용할 수 있습니다. 판매자가 AEM 대시보드에서 **사용자 지정 도메인 이름**&#x200B;을(를) 설정하는 경우 Commerce에서 이 **사용자 지정 도메인 URL**&#x200B;을(를) 추가해야 합니다.
 
 ![문제를 해결했습니다](../assets/fix.svg)<!-- Issue ACAP-987 --> AEM Assets 동기화 프로세스에 대한 전체 로그를 개선했습니다.
 
@@ -61,7 +61,7 @@ _2025년 3월 12일_
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.5 이상 릴리스.
 
-![새로운 문제](../assets/new.svg)<!-- Issue ACAP-xx --> 이제 Assets 선택기에서 제품 범주 및 페이지 빌더에서 생성한 콘텐츠와 AEM Assets 이미지를 매핑할 수 있도록 하려면 [Assets 선택기 IMS 클라이언트 ID](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization)가 필요합니다.
+![새로운 문제](../assets/new.svg)<!-- Issue ACAP-xx --> 이제 Assets 선택기에서 제품 범주 및 페이지 빌더에서 생성한 콘텐츠와 AEM Assets 이미지를 매핑할 수 있도록 하려면 [Assets 선택기 IMS 클라이언트 ID](/help/content-design/aem-assets-setup-synchronization.md)가 필요합니다.
 
 ## v1.0.20
 

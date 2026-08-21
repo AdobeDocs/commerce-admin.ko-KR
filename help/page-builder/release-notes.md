@@ -19,7 +19,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 2839
 ht-degree: 0%
@@ -197,9 +197,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[!DNL Page Builder] 콘텐츠를 저장하기 위해 추가 데이터베이스 엔터티를 만든 경우 _이(가) 해당 엔터티를 `etc/di.xml`에 추가해야_&#x200B;합니다. 그렇지 않으면 엔터티에 저장된 [!DNL Page Builder] 콘텐츠가 업데이트되지 않아 데이터 손실 및 표시 문제가 발생할 수 있습니다. 예를 들어, [!DNL Page Builder] 콘텐츠를 저장하는 블로그 엔터티를 만든 경우 업그레이드 라이브러리에서 블로그에 사용된 [!DNL Page Builder] 콘텐츠 형식을 업데이트할 수 있도록 블로그 엔터티를 `etc/di.xml` 파일에 `UpgradableEntitiesPool` 형식으로 추가해야 합니다. 업그레이드 라이브러리 사용에 대한 자세한 내용과 지침은 _Page Builder 개발자 안내서_&#x200B;의 [콘텐츠 형식 업그레이드](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/)를 참조하십시오.
+>[!DNL Page Builder] 콘텐츠를 저장하기 위해 추가 데이터베이스 엔터티를 만든 경우 _이(가) 해당 엔터티를 `etc/di.xml`에 추가해야_&#x200B;합니다. 그렇지 않으면 엔터티에 저장된 [!DNL Page Builder] 콘텐츠가 업데이트되지 않아 데이터 손실 및 표시 문제가 발생할 수 있습니다. 예를 들어, [!DNL Page Builder] 콘텐츠를 저장하는 블로그 엔터티를 만든 경우 업그레이드 라이브러리에서 블로그에 사용된 [!DNL Page Builder] 콘텐츠 형식을 업데이트할 수 있도록 블로그 엔터티를 `etc/di.xml` 파일에 `UpgradableEntitiesPool` 형식으로 추가해야 합니다. 업그레이드 라이브러리 사용에 대한 자세한 내용과 지침은 _Page Builder 개발자 안내서_&#x200B;의 [콘텐츠 형식 업그레이드](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types)를 참조하십시오.
 
-![새로 만들기](../assets/new.svg) **새 모양 추가에 대한 설명서** - 기존 또는 사용자 지정 콘텐츠 형식에 대한 [모양 추가](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/)에 대한 개발자 정보가 게시되었습니다.
+![새로 만들기](../assets/new.svg) **새 모양 추가에 대한 설명서** - 기존 또는 사용자 지정 콘텐츠 형식에 대한 [모양 추가](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances)에 대한 개발자 정보가 게시되었습니다.
 
 ![해결된 문제](../assets/fix.svg) **다양한 수정 사항**
 

@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 1044
+source-wordcount: 1049
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ ht-degree: 0%
 
 ### 2단계: XML로 레이아웃 업데이트 작성
 
-1. [CMS 블록 참조](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/)에 XML로 레이아웃 지침을 작성합니다.
+1. [CMS 블록 참조](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage)에 XML로 레이아웃 지침을 작성합니다.
 
-1. 테마를 위해 XML 파일이 저장된 레이아웃 폴더에 서버의 [레이아웃 지침](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/)을(를) 저장합니다.
+1. 테마를 위해 XML 파일이 저장된 레이아웃 폴더에 서버의 [레이아웃 지침](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions)을(를) 저장합니다.
 
    For example:
 

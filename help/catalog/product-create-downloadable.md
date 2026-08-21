@@ -23,9 +23,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2023-05-22
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1638
+source-wordcount: 1639
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >외부 리소스에 대한 링크를 다운로드 가능한 제품으로 사용할 수 없습니다. 유효한 링크 도메인은 `env.php` 파일에서 프로그래밍 방식으로 미리 정의되어 있습니다(_구성 안내서_&#x200B;의 [env.php 참조](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=ko) 참조).
+   >외부 리소스에 대한 링크를 다운로드 가능한 제품으로 사용할 수 없습니다. 유효한 링크 도메인은 `env.php` 파일에서 프로그래밍 방식으로 미리 정의되어 있습니다(_구성 안내서_&#x200B;의 [env.php 참조](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/files/config-reference-envphp) 참조).
 
    - **[!UICONTROL Shareable]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 

@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 97a3e3469e45ec9c7e3316f1ce5ca7894ea2ddb7
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1189
 ht-degree: 0%
@@ -138,7 +138,7 @@ _고객으로 로그인_&#x200B;을(를) 활성화하려면 Commerce 인스턴�
 
 ![고객 편집 페이지의 고객 동의 확장 특성 구성](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
 
-기존 고객 계정에 대해 GraphQL을 사용하여 이 권한을 설정하려면 [`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/) 또는 [`createCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/) 돌연변이를 사용하여 `allow_remote_shopping_assistance` 입력을 `true`(으)로 설정하십시오.
+기존 고객 계정에 대해 GraphQL을 사용하여 이 권한을 설정하려면 [`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2) 또는 [`createCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2) 돌연변이를 사용하여 `allow_remote_shopping_assistance` 입력을 `true`(으)로 설정하십시오.
 
 >[!ENDTABS]
 

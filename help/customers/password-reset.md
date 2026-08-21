@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 393
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 | 함수 | 설명 |
 | --- | --- |
 | 암호 재설정 | 암호 재설정 이메일은 고객의 이메일 계정으로 직접 전송됩니다. 스토어 관리자가 고객 암호에 액세스할 수 없습니다. |
-| 강제 로그인 | 고객 계정과 연결된 OAuth 액세스 토큰을 취소합니다. 웹 API [통합](../systems/integrations.md)의 일부로 OAuth 토큰이 할당된 고객 계정에서만 사용할 수 있습니다. 자세한 내용은 개발자 설명서에서 [OAuth 기반 인증](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)을 참조하십시오. <br/><br/>상점 또는 관리자로부터 만든 표준 고객 계정에 OAuth 토큰이 없습니다. |
+| 강제 로그인 | 고객 계정과 연결된 OAuth 액세스 토큰을 취소합니다. 웹 API [통합](../systems/integrations.md)의 일부로 OAuth 토큰이 할당된 고객 계정에서만 사용할 수 있습니다. 자세한 내용은 개발자 설명서에서 [OAuth 기반 인증](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)을 참조하십시오. <br/><br/>상점 또는 관리자로부터 만든 표준 고객 계정에 OAuth 토큰이 없습니다. |
 
 {style="table-layout:auto"}
 

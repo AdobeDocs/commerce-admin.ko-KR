@@ -1,6 +1,6 @@
 ---
 title: 로컬라이제이션 저장
-description: 스토어 또는 스토어 보기를 현지화하는 방법에 대해 알아봅니다.
+description: 저장소 또는 저장소 보기를 로케일을 변경하여 현지화하는 방법에 대해 알아봅니다. 로케일은 탐색에 사용되는 번역 테이블, 레이블, 단추 및 링크를 교체합니다.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 1단계: 언어 팩 설치
 
-언어 팩 확장 설치에 대한 표준 지침을 따르십시오. 확장 설치에 대한 자세한 내용은 _확장 안내서_&#x200B;에서 [일반 CLI 설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=ko)를 참조하십시오.
+언어 팩 확장 설치에 대한 표준 지침을 따르십시오. 확장 설치에 대한 자세한 내용은 _확장 안내서_&#x200B;에서 [일반 CLI 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)를 참조하십시오.
 
 ## 2단계: 언어에 대한 스토어 보기 만들기
 

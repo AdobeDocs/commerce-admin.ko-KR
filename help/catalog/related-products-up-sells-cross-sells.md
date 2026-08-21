@@ -19,9 +19,9 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 602
+source-wordcount: 649
 ht-degree: 0%
 
 ---
@@ -50,7 +50,8 @@ _[!UICONTROL Related Products, Up-Sells, and Cross-Sells]_&#x200B;섹션을 사�
 >[!TIP]
 >
 >![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **Adobe AI에서 제공하는 제품 권장 사항**&#x200B;을 사용하면 집계된 방문자 데이터를 심층 분석할 수 있는 인공 지능 및 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 단순화할 수 있습니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
-><br/>>수동으로 구성한 제품 권장 사항 및 상향 판매에 대한 대안으로 이 Adobe에서 개발한 확장을 사용하는 방법에 대한 자세한 내용은 _[제품 권장 사항 안내서](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=ko)_&#x200B;를 참조하십시오.
+><br/>
+>수동으로 구성한 제품 권장 사항 및 상향 판매에 대한 대안으로 이 Adobe 개발 확장을 사용하는 방법에 대한 자세한 내용은 _[제품 권장 사항 안내서](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/guide-overview)_&#x200B;를 참조하십시오.
 
 ## 관련 제품
 

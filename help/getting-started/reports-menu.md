@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 397
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Reports]**&#x200B;을(를) 선택�
 
 [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
-(Adobe Commerce만 해당) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=ko)은(는) 24시간 연중무휴 실시간 성능 모니터링, 보고서 및 권장 사항을 통해 클라우드 인프라에 Adobe Commerce을 설치하는 데 대한 시스템 통찰력을 제공합니다.
+(Adobe Commerce만 해당) [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/site-wide-analysis-tool/access)은(는) 24시간 연중무휴 실시간 성능 모니터링, 보고서 및 권장 사항을 통해 클라우드 인프라에 Adobe Commerce을 설치하는 데 대한 시스템 통찰력을 제공합니다.
 
 ### [!UICONTROL Customers]
 

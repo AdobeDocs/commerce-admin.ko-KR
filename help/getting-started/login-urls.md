@@ -21,9 +21,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 373
+source-wordcount: 374
 ht-degree: 0%
 
 ---
@@ -61,4 +61,4 @@ ht-degree: 0%
 
 [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
-Adobe은 250개 이상의 제품(약 200개는 구성 가능한 제품)이 있는 샘플 저장소, 카테고리, 프로모션 가격 규칙, CMS 페이지, 배너 등을 포함하는 샘플 데이터 세트를 제공합니다. 샘플 데이터는 상점 첫 화면에서 _Luma_ 테마를 사용합니다. [이 샘플 데이터 설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=ko)는 선택 사항이지만, 전자 상거래 비즈니스의 사용자 지정을 테스트하고 개발하는 데 도움이 될 수 있습니다.
+Adobe은 250개 이상의 제품(약 200개는 구성 가능한 제품)이 있는 샘플 저장소, 카테고리, 프로모션 가격 규칙, CMS 페이지, 배너 등을 포함하는 샘플 데이터 세트를 제공합니다. 샘플 데이터는 상점 첫 화면에서 _Luma_ 테마를 사용합니다. [이 샘플 데이터 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/next-steps/sample-data/overview)는 선택 사항이지만, 전자 상거래 비즈니스의 사용자 지정을 테스트하고 개발하는 데 도움이 될 수 있습니다.

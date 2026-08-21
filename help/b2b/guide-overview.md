@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: 425
 ht-degree: 0%
 
 ---
@@ -74,5 +74,5 @@ ht-degree: 0%
 
 이 안내서에서 다루지 않는 정보가 필요하거나 질문이 있는 경우 다음 리소스를 사용하십시오.
 
-- [Adobe Commerce 지원 기술 자료](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=ko)
-- [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#submit-ticket)—추가 지원을 받으려면 티켓을 제출하세요.
+- [Adobe Commerce 지원 기술 자료](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)
+- [지원 티켓](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)—추가 지원을 받으려면 티켓을 제출하세요.

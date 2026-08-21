@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 97a3e3469e45ec9c7e3316f1ce5ca7894ea2ddb7
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 2%
+source-wordcount: 330
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->IMS(Adobe Identity Management Services) 인증을 활성화한 저장소에는 기본 Adobe Commerce 및 2FA(Magento Open Source 2단계 인증)가 비활성화되어 있습니다. Adobe 자격 증명으로 Adobe Commerce 인스턴스에 로그인한 관리자는 많은 관리 작업에 대해 다시 인증할 필요가 없습니다. Adobe IMS는 관리자 가 현재 세션에 로그인할 때 인증을 처리합니다. [Adobe IMS와 Adobe Commerce 통합 개요](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=ko)를 참조하십시오.
+>IMS(Adobe Identity Management Services) 인증을 활성화한 저장소에는 기본 Adobe Commerce 및 2FA(Magento Open Source 2단계 인증)가 비활성화되어 있습니다. Adobe 자격 증명으로 Adobe Commerce 인스턴스에 로그인한 관리자는 많은 관리 작업에 대해 다시 인증할 필요가 없습니다. Adobe IMS는 관리자 가 현재 세션에 로그인할 때 인증을 처리합니다. [Adobe IMS와 Adobe Commerce 통합 개요](/help/getting-started/adobe-ims-integration-overview.md)를 참조하십시오.
 
 {{config}}
 

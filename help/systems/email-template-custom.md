@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1314
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 # 이메일 템플릿 사용자 지정
 
-Commerce에는 시스템에서 보내는 각 메시지의 본문 섹션에 대한 기본 이메일 템플릿이 포함되어 있습니다. 본문 콘텐츠의 템플릿은 머리글 및 바닥글 템플릿과 결합하여 전체 메시지를 작성합니다. 콘텐츠의 형식이 HTML 및 CSS로 지정되었으며 [변수](variables-predefined.md)를 추가하여 쉽게 편집하고 사용자 지정할 수 있습니다. 각 웹 사이트, 스토어 또는 스토어 보기에 대해 이메일 템플릿을 사용자 지정할 수 있습니다. 사용자 지정 템플릿을 사용하는 경우 [시스템 구성](email-templates.md#configure-email-templates)을 업데이트하여 올바른 템플릿이 사용되었는지 확인하십시오. 전자 메일 템플릿 사용자 지정에서 조건문을 사용하는 방법을 알아보려면 [개발자 설명서](https://developer.adobe.com/commerce/frontend-core/guide/templates/email/#theme-based-customizations-1)를 참조하세요.
+Commerce에는 시스템에서 보내는 각 메시지의 본문 섹션에 대한 기본 이메일 템플릿이 포함되어 있습니다. 본문 콘텐츠의 템플릿은 머리글 및 바닥글 템플릿과 결합하여 전체 메시지를 작성합니다. 콘텐츠의 형식이 HTML 및 CSS로 지정되었으며 [변수](variables-predefined.md)를 추가하여 쉽게 편집하고 사용자 지정할 수 있습니다. 각 웹 사이트, 스토어 또는 스토어 보기에 대해 이메일 템플릿을 사용자 지정할 수 있습니다. 사용자 지정 템플릿을 사용하는 경우 [시스템 구성](email-templates.md#configure-email-templates)을 업데이트하여 올바른 템플릿이 사용되었는지 확인하십시오. 전자 메일 템플릿 사용자 지정에서 조건문을 사용하는 방법을 알아보려면 [개발자 설명서](https://developer.adobe.com/commerce/frontend-core/guide/templates/email#theme-based-customizations-1)를 참조하세요.
 
 ![예 - 환영 전자 메일 미리 보기](./assets/email-template-preview.png){width="500" zoomable="yes"}
 

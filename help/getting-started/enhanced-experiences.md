@@ -28,9 +28,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 1775
+source-wordcount: 1776
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Adobe Commerce과 Magento Open Source은 쇼핑 경험을 조정하고 고객이
 
 ## 비즈니스 프로세스 및 수익성 최적화
 
-- **[!DNL Advanced Reporting]** - [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=ko)에서 제공하는 동적 제품, 주문 및 고객 보고서를 통해 중요한 통찰력을 한눈에 얻을 수 있습니다.
+- **[!DNL Advanced Reporting]** - [Business Intelligence](https://experienceleague.adobe.com/ko/docs/commerce-business-intelligence/mbi/getting-started)에서 제공하는 동적 제품, 주문 및 고객 보고서를 통해 중요한 통찰력을 한눈에 얻을 수 있습니다.
 
 - **대시보드 스냅숏** - 사이트에서 관심 있는 항목을 파악하는 것은 마케팅 예산을 최대화하는 데 중요합니다. 대시보드에 있는 이 [정보](admin-dashboard.md)를 사용하여 단골 고객에게 교차 및 상향 판매해야 하는 항목 또는 판매해야 하는 제품을 결정하십시오.
 

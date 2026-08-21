@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 541
+source-wordcount: 543
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ko)은(는) 빠르고, 관련성이 높고, 직관적인 검색 환경을 제공하며, Adobe Commerce에서 추가 비용 없이 사용할 수 있습니다. 이 섹션에서는 [!DNL Live Search]과(와) 다를 수 있는 표준 검색 기능에 대해 설명합니다.
+>[[!DNL Live Search]](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)은(는) 빠르고, 관련성이 높고, 직관적인 검색 환경을 제공하며, Adobe Commerce에서 추가 비용 없이 사용할 수 있습니다. 이 섹션에서는 [!DNL Live Search]과(와) 다를 수 있는 표준 검색 기능에 대해 설명합니다.
 
 탐색만 의존한 고객보다 검색을 이용하는 사람이 구매를 할 가능성이 높다는 연구결과가 나왔다. 실제로 일부 연구에 따르면, 검색을 이용하는 사람들은 구매에 성공할 가능성이 거의 두 배이다.
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->여기에 설명된 고급 양식 검색 기능은 [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ko)에 적용되지 않습니다.
+>여기에 설명된 고급 양식 검색 기능은 [[!DNL Live Search]](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)에 적용되지 않습니다.
 
 고급 검색을 사용하면 쇼핑객이 양식에 입력한 값을 기반으로 카탈로그를 검색할 수 있습니다. 양식에는 여러 필드가 있으므로 단일 검색에 여러 매개 변수가 포함될 수 있습니다. 결과는 기준에 일치하는 카탈로그의 모든 제품 목록입니다. 고급 검색 링크가 저장소의 바닥글에 있습니다.
 

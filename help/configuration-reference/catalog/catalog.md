@@ -23,9 +23,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 3350
+source-wordcount: 3358
 ht-degree: 0%
 
 ---
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 섹션에 설명된 표준 검색 구성은 [실시간 검색](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ko)에 따라 다릅니다.
+>이 섹션에 설명된 표준 검색 구성은 [실시간 검색](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)에 따라 다릅니다.
 
 <!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | 스토어 뷰 | _인기 검색어_&#x200B;가 스토어에서 구현되는지 여부를 결정합니다. 이 설정은 [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ko)을(를) 사용하는 스토어에는 적용되지 않습니다. 옵션: `Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | 스토어 뷰 | _인기 검색어_&#x200B;가 스토어에서 구현되는지 여부를 결정합니다. 이 설정은 [Live Search](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)을(를) 사용하는 스토어에는 적용되지 않습니다. 옵션: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | 스토어 뷰 | html 또는 htm과 같은 접미사를 제품 URL에 적용할지 여부를 결정합니다. 접미사를 사용하면 접미사가 자동으로 적용되므로 접미사 앞에 마침표를 포함하지 마십시오. |
 | [!UICONTROL Category URL Suffix] | 스토어 뷰 | html 또는 htm과 같은 접미사를 범주 URL에 적용할지 여부를 결정합니다. 접미사를 사용하면 접미사가 자동으로 적용되므로 접미사 앞에 마침표를 포함하지 마십시오. |
 | [!UICONTROL Use Categories Path for Product URLs] | 스토어 뷰 | 상점 첫 화면의 제품 URL에 카테고리 경로가 포함되어 있는지 여부를 결정합니다. 이렇게 하면 여러 URL이 동일한 페이지를 가리키게 되어 검색 순위에 영향을 줄 수 있습니다. 자세한 내용은 [표준 메타 태그](../../merchandising-promotions/meta-data.md#canonical-meta-tag)를 참조하세요. |
@@ -257,7 +257,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-Adobe Commerce에서 지원하는 [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ko) 또는 타사 검색 엔진 서비스를 사용하여 카탈로그 검색을 구성할 수 있습니다. 설치에 대한 지침을 따르십시오.
+Adobe Commerce에서 지원하는 [[!DNL Live Search]](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview) 또는 타사 검색 엔진 서비스를 사용하여 카탈로그 검색을 구성할 수 있습니다. 설치에 대한 지침을 따르십시오.
 
 ### [!DNL Live Search]&#x200B;(으)로 Adobe Commerce
 
@@ -282,7 +282,7 @@ Adobe Commerce은 OpenSearch 및 Elasticsearch을 지원합니다. Adobe Commerc
 
 >[!IMPORTANT]
 >
->- 2023년 8월에 Elasticsearch 7의 지원 종료 발표로 인해 Adobe은 모든 Adobe Commerce 고객을 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것을 권장합니다. 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ko)을 참조하십시오.
+>- 2023년 8월에 Elasticsearch 7의 지원 종료 발표로 인해 Adobe은 모든 Adobe Commerce 고객을 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것을 권장합니다. 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)을 참조하십시오.
 >- 버전 2.4.4 및 2.4.3-p2에서는 Elasticsearch이라는 레이블이 지정된 모든 필드가 OpenSearch에도 적용됩니다. Elasticsearch 8.x에 대한 지원이 버전 2.4.6에 도입되면 Elasticsearch 구성과 OpenSearch 구성을 구별하기 위해 새 레이블이 생성되었습니다. 그러나 두 구성 옵션은 동일합니다.
 
 ![카탈로그 검색 구성 옵션](./assets/catalog-search-opensearch.png){zoomable="yes"}

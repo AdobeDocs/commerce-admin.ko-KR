@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 3399
+source-wordcount: 3400
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ ht-degree: 0%
 
    - 쿠폰을 가격 규칙과 연결하려면 **[!UICONTROL Coupon]**&#x200B;을(를) `Specific Coupon`(으)로 설정하고 다음을 수행합니다.
 
-      - 할인을 받기 위해 고객이 입력해야 하는 자유 텍스트 **[!UICONTROL Coupon Code]**&#x200B;을(를) 입력하십시오.
+     - 할인을 받기 위해 고객이 입력해야 하는 자유 텍스트 **[!UICONTROL Coupon Code]**&#x200B;을(를) 입력하십시오.
 
-      - 쿠폰을 사용할 수 있는 횟수에 대한 제한을 설정하려면 다음 옵션을 완료하십시오.
+     - 쿠폰을 사용할 수 있는 횟수에 대한 제한을 설정하려면 다음 옵션을 완료하십시오.
 
      | 옵션 | 설명 |
      |------|-----------|
@@ -228,7 +228,7 @@ Real-Time CDP [대상자](../customers/audience-activation.md)를 기반으로 �
    | `Name` | 대상 이름(예: `Orders over $50`) |
    | `Description` | 대상자에 대한 설명(예: `People who placed an order over $50 in the last month.`). |
    | `Source` | 대상자가 있었던 위치(예: `Experience Platform`)를 나타냅니다. |
-   | `Website` | 대상자를 포함하는 데이터 스트림에 연결한 웹 사이트를 나타냅니다. [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=ko) 확장을 통해 Commerce 인스턴스를 Experience Platform에 연결할 때 이 링크를 만듭니다. |
+   | `Website` | 대상자를 포함하는 데이터 스트림에 연결한 웹 사이트를 나타냅니다. [[!DNL Data Connection]](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/fundamentals/connect-data) 확장을 통해 Commerce 인스턴스를 Experience Platform에 연결할 때 이 링크를 만듭니다. |
 
    {style="table-layout:auto"}
 

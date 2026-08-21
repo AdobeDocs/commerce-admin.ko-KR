@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 3540
+source-wordcount: 3542
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 [!DNL Inventory Management]은(는) 기여자에게 열려 있는 Magento Open Source Community Engineering 특별 프로젝트입니다. 참여하여 참여하려면 [GitHub 프로젝트](https://github.com/magento/inventory) 저장소 및 [Wiki](https://github.com/magento/inventory/wiki)를 참조하여 시작하십시오. 프로젝트에 대해 논의하려면 [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) 채널([자체 등록](https://opensource.magento.com/slack))에 참여하십시오.
 
-지원되는 릴리스와 호환되는 릴리스의 [릴리스 일정](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=ko){target="_blank"}.
+지원되는 릴리스와 호환되는 릴리스의 [릴리스 일정](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/planning/schedule){target="_blank"}.
 
 ## v1.2.7
 
@@ -278,13 +278,13 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
         'Magento_InventoryExportStockApi' => 0,
 ```
 
-![새로 만들기](../assets/new.svg) **대량 부분 스톡 전송 끝점을 추가했습니다** - 현재 대량 전송 끝점은 할당된 모든 수량을 원본에서 대상 원본으로 이동합니다. 새 `/rest/V1/inventory/bulk-partial-source-transfer` 끝점을 사용하면 판매자가 대량 작업으로 부분 주식을 소스에서 소스로 전송할 수 있습니다. 특정 수량을 전송하려면 `sku`, `qty`, `origin_source_code` 및 `destination_source_code`을(를) 사용하여 끝점에 요청을 입력하십시오. 전송: 소스가 `sku`에 할당되었는지, 전송할 충분한 수량이 있는지 확인합니다. REST API 설명서의 [일괄 작업 인벤토리](https://developer.adobe.com/commerce/webapi/rest/inventory/bulk-inventory/){target="_blank"}를 참조하십시오. <!-- https://github.com/magento/inventory/pull/2117 -->
+![새로 만들기](../assets/new.svg) **대량 부분 스톡 전송 끝점을 추가했습니다** - 현재 대량 전송 끝점은 할당된 모든 수량을 원본에서 대상 원본으로 이동합니다. 새 `/rest/V1/inventory/bulk-partial-source-transfer` 끝점을 사용하면 판매자가 대량 작업으로 부분 주식을 소스에서 소스로 전송할 수 있습니다. 특정 수량을 전송하려면 `sku`, `qty`, `origin_source_code` 및 `destination_source_code`을(를) 사용하여 끝점에 요청을 입력하십시오. 전송: 소스가 `sku`에 할당되었는지, 전송할 충분한 수량이 있는지 확인합니다. REST API 설명서의 [일괄 작업 인벤토리](https://developer.adobe.com/commerce/webapi/rest/inventory/bulk-inventory){target="_blank"}를 참조하십시오. <!-- https://github.com/magento/inventory/pull/2117 -->
 
 ![새로 만들기](../assets/new.svg) **추가된 예약 CLI** - 새 명령을 사용하면 예약 불일치를 감지하고 해결할 수 있습니다. 주문이 제출되고 상태가 변경되면 [!DNL Inventory Management]은(는) 초기 예약을 생성하고 보상 예약을 통해 업데이트합니다. 이러한 명령은 주문 ID, SKU 및 Stock ID별로 발견된 불일치 목록을 반환하고 해결할 예약을 만듭니다. 자세한 내용은 [CLI 참조](cli.md)를 참조하십시오. <!-- https://github.com/magento/inventory/pull/2199 https://github.com/magento/inventory/pull/2184 https://github.com/magento/inventory/pull/2171 https://github.com/magento/inventory/pull/2148  -->
 
 ![새로 만들기](../assets/new.svg) **원본 및 SSA 옵션에 대한 성능 개선** - 보내는 동안 원본을 정렬하고 선택하면 원본 수가 많은 주식의 성능이 저하됩니다. 이번 릴리스는 배송에서 SSA 옵션을 검토하고 선택할 때 사용 가능한 소스를 나열하고 정렬하는 데 상당한 성능 향상을 제공합니다. <!-- https://github.com/magento/inventory/pull/2056 https://github.com/magento/inventory/pull/2090 -->
 
-![새로 만들기](../assets/new.svg) **Inventory management에 대한 GraphQL 지원이 추가됨** - 이 릴리스는 새 `magento/module-inventory-graph-ql` 모듈을 설치합니다. 이제 GraphQL [ProductInterface 특성](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/attributes/){target="_blank"}에 [!DNL Inventory Management] 지원을 위한 `only_x_left_in_stock` 및 `stock_status` 특성이 포함됩니다. <!-- https://github.com/magento/inventory/pull/2124 -->
+![새로 만들기](../assets/new.svg) **Inventory management에 대한 GraphQL 지원이 추가됨** - 이 릴리스는 새 `magento/module-inventory-graph-ql` 모듈을 설치합니다. 이제 GraphQL [ProductInterface 특성](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/attributes){target="_blank"}에 [!DNL Inventory Management] 지원을 위한 `only_x_left_in_stock` 및 `stock_status` 특성이 포함됩니다. <!-- https://github.com/magento/inventory/pull/2124 -->
 
 ![새로 만들기](../assets/new.svg) **할당된 소스에 대한 간소화된 UI** - 제품 페이지의 할당된 소스 테이블에는 더 쉬운 업데이트와 많은 소스를 표시할 때 성능 향상을 위해 간소화된 콘텐츠가 있습니다. 소스 이름별 모든 소스 목록(`source_code`에 대해 마우스로 가리키기).
 
@@ -294,7 +294,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.0(모듈 버전: `inventory-composer-metapackage = 1.1.0`)이 지원되며 Adobe Commerce 버전 2.3.0, 클라우드 인프라의 Adobe Commerce 및 Magento Open Source 코드 베이스와 호환됩니다. [!DNL Inventory Management] 1.1.1은 패키지 이름 업데이트로만 릴리스되며, 버전 2.3.1에 대해 지원되고, Adobe Commerce 버전 2.3.0, 클라우드 인프라의 Adobe Commerce 및 Magento Open Source 코드 베이스와 호환됩니다.
 
-![문제가 해결되었습니다](../assets/fix.svg) **단일 및 다중 소스 모드에 대한 Elasticsearch 지원이 추가되었습니다** — 이제 사용자 지정 재고로 Elasticsearch을 구성하고 사용할 수 있습니다. 설치 정보는 [Elasticsearch 서비스 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=ko){target="_blank"}을 참조하십시오. <!-- PR https://github.com/magento/inventory/pull/1943 -->
+![문제가 해결되었습니다](../assets/fix.svg) **단일 및 다중 소스 모드에 대한 Elasticsearch 지원이 추가되었습니다** — 이제 사용자 지정 재고로 Elasticsearch을 구성하고 사용할 수 있습니다. 설치 정보는 [Elasticsearch 서비스 설정](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure/service/elasticsearch){target="_blank"}을 참조하십시오. <!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![해결된 문제](../assets/fix.svg) 많은 작업에서 성능을 크게 향상하기 위해 기본 스톡의 성능 문제를 해결했습니다. 개선 사항은 단일 소스 모드, Source으로 재고 이전, 상점 카테고리 페이지 및 판매 수량 계산에 대한 성능을 향상시킵니다.
 

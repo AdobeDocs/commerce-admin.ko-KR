@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 94e419120b8e16848cc1d449650f023f361a2af7
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 329
+source-wordcount: 327
 ht-degree: 1%
 
 ---
@@ -70,5 +70,5 @@ Adobe Commerce의 모든 부분에 도움이 되는 판매자, 클라우드 및 
 
 이 안내서에서 다루지 않는 정보가 필요하거나 질문이 있는 경우 다음 리소스를 사용하십시오.
 
-- [재고 설치 후 재고 상태가 잘못됨](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html?lang=ko)
-- [지원 티켓](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#submit-ticket)—추가 지원을 받으려면 티켓을 제출하세요.
+- [재고 설치 후 재고 상태가 잘못됨](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-29910)
+- [지원 티켓](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)—추가 지원을 받으려면 티켓을 제출하세요.

@@ -21,7 +21,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1281
 ht-degree: 0%
@@ -192,7 +192,7 @@ ht-degree: 0%
 | **[!UICONTROL Reset]** | 고객 양식에서 저장되지 않은 변경 사항을 이전 값으로 재설정합니다. |
 | **[!UICONTROL Create Order]** | 고객에 대한 주문을 생성합니다. |
 | **[!UICONTROL Reset Password]** | 고객에게 [암호 재설정](../customers/password-reset.md) 링크를 이메일로 보냅니다. |
-| **[!UICONTROL Force Sign-in]** | 고객 계정과 연결된 OAuth 액세스 토큰을 취소합니다. 이 함수는 웹 API [통합](../systems/integrations.md)의 일부로 OAuth 토큰이 할당된 고객 계정에서만 사용할 수 있습니다. 자세한 내용은 개발자 설명서에서 [OAuth 기반 인증](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)을 참조하십시오. |
+| **[!UICONTROL Force Sign-in]** | 고객 계정과 연결된 OAuth 액세스 토큰을 취소합니다. 이 함수는 웹 API [통합](../systems/integrations.md)의 일부로 OAuth 토큰이 할당된 고객 계정에서만 사용할 수 있습니다. 자세한 내용은 개발자 설명서에서 [OAuth 기반 인증](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)을 참조하십시오. |
 | **[!UICONTROL Manage Shopping Cart]** | 관리자가 고객의 장바구니를 관리할 수 있습니다. |
 | **[!UICONTROL Save and Continue Edit]** | 변경 사항을 저장하고 고객 프로필을 열어 둡니다. |
 | **[!UICONTROL Save Customer]** | 변경 사항을 저장하고 고객 프로필을 닫습니다. |

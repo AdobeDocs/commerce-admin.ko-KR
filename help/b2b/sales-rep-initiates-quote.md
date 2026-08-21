@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: 823
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Sales Rep 는 Quote 또는 Customer Grid에서 Quote 를 생성할 수 있습니
 
 >[!NOTE]
 >
->판매자가 구매자를 위한 견적을 만드는 비디오 데모는 _Commerce 비디오 및 자습서_&#x200B;에서 [영업 담당자 견적 시작](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=ko)을 참조하십시오.
+>판매자가 구매자를 위한 견적을 만드는 비디오 데모는 _Commerce 비디오 및 자습서_&#x200B;에서 [영업 담당자 견적 시작](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote)을 참조하십시오.
 
 ### Quote 그리드에서 Quote 작성
 
@@ -96,7 +96,7 @@ Sales Rep 는 Quote 또는 Customer Grid에서 Quote 를 생성할 수 있습니
 
    >[!NOTE]
    >
-   >라인 항목 할인의 작동 방식에 대한 비디오 데모는 _Commerce 비디오 및 튜토리얼_&#x200B;에서 [영업 담당자가 견적 라인 항목에 할인을 적용](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=ko)합니다.
+   >라인 항목 할인의 작동 방식에 대한 비디오 데모는 _Commerce 비디오 및 튜토리얼_&#x200B;에서 [영업 담당자가 견적 라인 항목에 할인을 적용](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount)합니다.
 
 1. 필요에 따라 견적 수준 할인 적용:
 

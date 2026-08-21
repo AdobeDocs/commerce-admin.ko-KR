@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 # 통합
 
-Commerce 관리에서 통합을 정의하면 서드파티 통합을 위한 OAuth 자격 증명 및 리디렉션 URL의 위치가 설정되고 통합에 필요한 사용 가능한 API 리소스가 식별됩니다. 통합 등록 프로세스에 대한 자세한 내용은 Commerce 개발자 설명서에서 [OAuth 기반 인증](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/)을 참조하십시오.
+Commerce 관리에서 통합을 정의하면 서드파티 통합을 위한 OAuth 자격 증명 및 리디렉션 URL의 위치가 설정되고 통합에 필요한 사용 가능한 API 리소스가 식별됩니다. 통합 등록 프로세스에 대한 자세한 내용은 Commerce 개발자 설명서에서 [OAuth 기반 인증](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth)을 참조하십시오.
 
 ![통합](./assets/integrations.png){width="700" zoomable="yes"}
 
@@ -64,8 +64,8 @@ Commerce 관리에서 통합을 정의하면 서드파티 통합을 위한 OAuth
 
    - **[!UICONTROL Resource Access]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `All`
-      - `Custom`
+     - `All`
+     - `Custom`
 
    - 사용자 지정 액세스의 경우 필요한 각 리소스의 확인란을 선택합니다.
 
@@ -119,7 +119,7 @@ Commerce 관리에서 통합을 정의하면 서드파티 통합을 위한 OAuth
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
-자세한 내용은 Commerce 개발자 설명서에서 [익명 웹 API에 대한 액세스 제한](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/)을 참조하십시오.
+자세한 내용은 Commerce 개발자 설명서에서 [익명 웹 API에 대한 액세스 제한](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security)을 참조하십시오.
 
 ## 통합 삭제
 

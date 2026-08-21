@@ -1,6 +1,6 @@
 ---
 title: Storefront 레이아웃 예
-description: 페이지 레이아웃 옵션의 예를 검토하십시오.
+description: 여러 Adobe Commerce 테마에서 열 너비, 기본 컨텐츠 영역 및 사이드바 배치가 변경되는 방법을 보여 주는 상점 첫 페이지 레이아웃 예제를 검토하십시오.
 exl-id: 1cda1175-269b-42b9-bf4e-9bf14483da1d
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/rYnP28GqKMyPGcZSkCWAJAjlA6tNv2Rr-l4DDegU-UQ
@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: 314
 ht-degree: 0%
 
 ---

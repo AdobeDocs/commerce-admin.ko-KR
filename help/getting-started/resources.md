@@ -25,9 +25,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 67cbbb1d57e1306bd250237a9f767e5dbca335e6
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: 386
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Adobe은 성공을 위해 다양한 비즈니스 및 기술 리소스, 자가 �
 
 | 에코시스템 리소스 | 설명 |
 | ------------------ | ----------- |
-| [제품 설명서](https://experienceleague.adobe.com/docs/commerce.html?lang=ko) | 판매자, 디자이너 및 개발자는 설명서를 사용하여 [!DNL Commerce]의 기능을 비즈니스에 적용하는 방법에 대해 보다 자세한 insight을 얻을 수 있습니다. |
+| [제품 설명서](https://experienceleague.adobe.com/ko/docs/commerce) | 판매자, 디자이너 및 개발자는 설명서를 사용하여 [!DNL Commerce]의 기능을 비즈니스에 적용하는 방법에 대해 보다 자세한 insight을 얻을 수 있습니다. |
 | [Commerce 리소스 라이브러리](https://business.adobe.com/kr/resources/commerce.html) | Ebooks, Commerce 백서 및 웨비나에 액세스하여 전문 insight 및 온라인 비즈니스 리소스를 확보하여 스토어를 개발하고 개선하는 데 도움이 됩니다. |
 | [Adobe 제품 보안 문제 응답](https://helpx.adobe.com/kr/security.html) | 보안 경고 레지스트리에 참여하여 잠재적인 취약점에 대한 최신 정보 및 [보안 모범 사례](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf)를 확인하세요. |
 | [블로그](https://business.adobe.com/kr/blog/?ch_Products=Commerce) | 새로운 기능, 트렌드, 모범 사례, 예정된 이벤트 등에 대한 최신 정보는 블로그를 확인하십시오. |

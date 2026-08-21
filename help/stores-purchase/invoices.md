@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1208
 ht-degree: 0%
@@ -100,17 +100,17 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
    - 추적 번호 포함:
 
-      - **[!UICONTROL Add Tracking Number]**&#x200B;을(를) 클릭합니다.
-      - 추적 정보 입력: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ 및 _[!UICONTROL Number]_
+     - **[!UICONTROL Add Tracking Number]**&#x200B;을(를) 클릭합니다.
+     - 추적 정보 입력: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ 및 _[!UICONTROL Number]_
 
      ![Fedex 배송 만들기](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
 
    - 부분 송장을 생성합니다(선택적).
 
-      - _인보이스에 대한 항목_ 섹션에서 인보이스에 특정 항목만 포함하도록 **[!UICONTROL Qty to Invoice]** 열을 업데이트하십시오.
-      - **[!UICONTROL Update Qty's]**&#x200B;을(를) 클릭합니다.
+     - _인보이스에 대한 항목_ 섹션에서 인보이스에 특정 항목만 포함하도록 **[!UICONTROL Qty to Invoice]** 열을 업데이트하십시오.
+     - **[!UICONTROL Update Qty's]**&#x200B;을(를) 클릭합니다.
 
-        ![인보이스에 대한 항목](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
+       ![인보이스에 대한 항목](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
 
 1. 온라인 결제 방법을 주문에 사용한 경우 **[!UICONTROL Amount]**&#x200B;을(를) 적절한 옵션으로 설정하십시오.
 
@@ -170,7 +170,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
 판매자에게 부분 캡처 및 특수 결제 시나리오에 대한 보다 높은 유연성을 제공하기 위해 Invoice API는 확장 속성을 사용하여 사용자 정의 캡처 금액을 지원합니다.
 
-송장을 생성할 때 사용자 정의 금액을 수집하기 위해 REST를 호출할 수 있습니다.  [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) REST 끝점을 사용하고 페이로드의 `extension_attributes.custom_capture_amount` 필드에 사용자 지정 양을 지정하십시오.
+송장을 생성할 때 사용자 정의 금액을 수집하기 위해 REST를 호출할 수 있습니다.  [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas) REST 끝점을 사용하고 페이로드의 `extension_attributes.custom_capture_amount` 필드에 사용자 지정 양을 지정하십시오.
 
 >[!NOTE]
 >

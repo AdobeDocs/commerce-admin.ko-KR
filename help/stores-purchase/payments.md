@@ -23,9 +23,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 867
+source-wordcount: 871
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Adobe Commerce과 Magento Open Source은 매우 다양한 결제 방법 및 서�
 
 >[!TIP]
 >
->Adobe Commerce 및 Magento Open Source용 결제 서비스는 강력하고 안전한 결제 처리를 위해 샌드박스 테스트 및 간단한 설정을 포함한 턴키 셀프 서비스 솔루션을 제공합니다. 이 강력한 도구 집합에 대해 자세히 알아보고 구매자에게 최상의 경험을 제공하기 위해 필요한 insight 및 제어 기능을 제공하는 방법에 대해 알아보려면 [결제 서비스 사용 안내서](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=ko)를 참조하세요. [Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview)의 기본 결제 솔루션입니다.
+>Adobe Commerce 및 Magento Open Source용 결제 서비스는 강력하고 안전한 결제 처리를 위해 샌드박스 테스트 및 간단한 설정을 포함한 턴키 셀프 서비스 솔루션을 제공합니다. 이 강력한 도구 집합에 대해 자세히 알아보고 구매자에게 최상의 경험을 제공하기 위해 필요한 insight 및 제어 기능을 제공하는 방법에 대해 알아보려면 [결제 서비스 사용 안내서](https://experienceleague.adobe.com/ko/docs/commerce/payment-services/guide-overview)를 참조하세요. [Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/overview)의 기본 결제 솔루션입니다.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Adobe Commerce과 Magento Open Source은 매우 다양한 결제 방법 및 서�
 
 - **Amazon Pay** 및 **Klarna**: Adobe Commerce 및 Magento Open Source 릴리스 2.4.0 - 2.4.3에는 이러한 공급업체에서 개발한 확장이 포함되어 있습니다. 2.4.4 릴리스부터 이러한 확장은 더 이상 핵심 릴리스와 번들로 제공되지 않으며 Commerce Marketplace에서 설치하고 업데이트해야 합니다. Marketplace에서는 확장 개발자가 제공하는 현재 설명서에 대한 액세스도 제공합니다.
 
-  이러한 번들형 확장 기능 중 하나를 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 확장 업데이트를 앞으로 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [업그레이드 모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko)을 참조하십시오.
+  이러한 번들형 확장 기능 중 하나를 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 확장 업데이트를 앞으로 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [업그레이드 모듈](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/modules/upgrade)을 참조하십시오.
 
 ## 오프라인 결제 방법
 
@@ -69,7 +69,7 @@ Adobe Commerce과 Magento Open Source은 전 세계 모든 지역에서 판매�
 
 ### 권장 솔루션
 
-- [결제 서비스](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=ko)
+- [결제 서비스](https://experienceleague.adobe.com/ko/docs/commerce/payment-services/guide-overview)
 - [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [PayPal 빠른 체크아웃](paypal-express-checkout.md)
 - [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [Braintree](braintree.md)
 
@@ -112,4 +112,4 @@ PayPal 결제 방법 옵션에 대한 자세한 내용은 [PayPal 결제 솔루�
 
 [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
-결제 문제 해결에 대한 도움말은 [지원 기술 자료](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=ko)를 참조하십시오.
+결제 문제 해결에 대한 도움말은 [지원 기술 자료](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/overview)를 참조하십시오.

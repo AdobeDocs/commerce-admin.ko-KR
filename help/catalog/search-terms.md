@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: 1189
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ _[!UICONTROL Edit a Search Term]_&#x200B;페이지의&#x200B;**메서드 2:**
 
 Adobe Commerce은 두 가지 다른 동의어 관리 솔루션을 지원합니다.
 
-- 라이브 검색 [동의어](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html?lang=ko) 기능은 라이브 검색이 설치된 Adobe Commerce 설치에 사용할 수 있습니다.
+- 라이브 검색 [동의어](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/synonyms/synonyms) 기능은 라이브 검색이 설치된 Adobe Commerce 설치에 사용할 수 있습니다.
 - 이 페이지에 설명된 표준 검색 동의어 기능 은 모든 Adobe Commerce 설치에 대해 즉시 사용할 수 있습니다.
 
 >[!NOTE]

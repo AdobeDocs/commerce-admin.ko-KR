@@ -18,16 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 238
-ht-degree: 2%
+source-wordcount: 246
+ht-degree: 4%
 
 ---
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-스토어를 Adobe Commerce 서비스에 연결하는 방법은 [Commerce 서비스](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=ko)를 참조하세요.
+스토어를 Adobe Commerce 서비스에 연결하는 방법은 [Commerce 서비스](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/integration-services/saas)를 참조하세요.
 
 {{config}}
 
@@ -60,7 +60,7 @@ ht-degree: 2%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Project] | 글로벌 | 모든 SaaS 데이터 공간을 그룹화하는 SaaS 프로젝트의 이름입니다. SaaS 프로젝트가 없는 경우 _프로젝트 만들기_ 단추가 표시됩니다. |
-| [!UICONTROL Data Space] | 글로벌 | 지정된 SaaS 프로젝트의 SaaS 데이터 공간을 나열합니다. SaaS 데이터 공간 수는 [Commerce 라이선스](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=ko)에 따라 다릅니다.<br />Adobe Commerce - 프로덕션 데이터 공간 1개; 테스트 데이터 공간 2개;<br />Magento Open Source - 프로덕션 데이터 공간 1개; 테스트 데이터 공간 없음 |
+| [!UICONTROL Data Space] | 글로벌 | 지정된 SaaS 프로젝트의 SaaS 데이터 공간을 나열합니다. SaaS 데이터 공간 수는 [Commerce 라이선스](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/integration-services/saas)에 따라 다릅니다.<br />Adobe Commerce - 프로덕션 데이터 공간 1개; 테스트 데이터 공간 2개;<br />Magento Open Source - 프로덕션 데이터 공간 1개; 테스트 데이터 공간 없음 |
 
 {style="table-layout:auto"}
 

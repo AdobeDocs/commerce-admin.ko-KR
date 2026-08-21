@@ -23,7 +23,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 336
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 - Adobe Commerce 또는 Magento Open Source 설치에 대한 웹 캐시 및 쿠키를 지우는 것도 도움이 될 수 있습니다. Google과 같은 인증자는 생성된 쿠키를 사용하여 액세스 및 기간을 저장합니다. 특정 브라우저 및 스토어 도메인에 대한 쿠키를 지웁니다.
 - 쿠키를 차단하면 [!DNL Google Authenticator]과(와) 같은 일부 인증자가 확인 프로세스를 완료할 수 없습니다. 브라우저에 Adobe Commerce 설치에 대한 쿠키를 허용하는 규칙을 추가합니다.
 
-명령줄에서 인증자를 재설정하고 고급 문제 해결 정보를 보려면 개발자 설명서에서 [2단계 인증](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication/)을 참조하십시오.
+명령줄에서 인증자를 재설정하고 고급 문제 해결 정보를 보려면 개발자 설명서에서 [2단계 인증](https://developer.adobe.com/commerce/testing/functional-testing-framework/two-factor-authentication)을 참조하십시오.
 
 **_사용자 계정에 대한 인증자를 재설정하려면:_**
 

@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: 1345
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 사이트가 개발 중인 동안에는 사이트 색인화를 방지하기 위해 웹 웹 크롤러에 대한 `robots.txt` 파일에 지침을 포함할 수 있습니다. 그런 다음 론치 전에 지침을 변경하여 사이트를 인덱싱할 수 있습니다.
 
-자세한 내용은 _Commerce on Cloud Infrastructure Guide_&#x200B;에서 [사이트 맵 및 robots.txt 추가](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=ko)를 참조하십시오.
+자세한 내용은 _Commerce on Cloud Infrastructure Guide_&#x200B;에서 [사이트 맵 및 robots.txt 추가](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/robots-sitemap)를 참조하십시오.
 
 ![사이트 맵 표](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -118,7 +118,7 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
    
 >[!NOTE]
 >
->사이트에서 [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=ko) 웹 서버 엔진을 사용하는 경우 웹 사이트의 루트에서 [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) 파일을 업데이트하여 다른 사이트 맵 요청을 적절한 위치로 이동해야 합니다.
+>사이트에서 [Apache](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/web-server/apache) 웹 서버 엔진을 사용하는 경우 웹 사이트의 루트에서 [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) 파일을 업데이트하여 다른 사이트 맵 요청을 적절한 위치로 이동해야 합니다.
 
 ## 열 설명
 
@@ -152,13 +152,13 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
 
    - **[!UICONTROL Frequency]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Always`
-      - `Hourly`
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
-      - `Yearly`
-      - `Never`
+     - `Always`
+     - `Hourly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
+     - `Yearly`
+     - `Never`
 
    - **[!UICONTROL Priority]**&#x200B;에 대해 `0.0`에서 `1.0` 사이의 값을 입력하십시오. 0이 가장 낮은 우선 순위를 갖습니다.
 
@@ -206,16 +206,16 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
 
    - **[!UICONTROL Generation Method]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Standard` - 메모리의 모든 데이터를 처리합니다.
-      - `Batch` - 대용량 카탈로그에 메모리에 최적화된 처리를 사용합니다. 이 옵션은 2.4.9 릴리스부터 사용할 수 있습니다.
+     - `Standard` - 메모리의 모든 데이터를 처리합니다.
+     - `Batch` - 대용량 카탈로그에 메모리에 최적화된 처리를 사용합니다. 이 옵션은 2.4.9 릴리스부터 사용할 수 있습니다.
 
    - 사이트 맵을 업데이트할 시간, 분, 초로 **[!UICONTROL Start Time]**&#x200B;을(를) 설정합니다.
 
    - **[!UICONTROL Frequency]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
    - **[!UICONTROL Error Email Recipient]**&#x200B;의 경우 사이트 맵을 업데이트하는 동안 오류가 발생하면 알림을 받을 사람의 전자 메일 주소를 입력하십시오.
 

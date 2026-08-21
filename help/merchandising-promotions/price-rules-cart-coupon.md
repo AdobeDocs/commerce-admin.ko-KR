@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2338
+source-wordcount: 2339
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
 >[!NOTE]
 >
->[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 쿠폰을 만들기 전에 `bin/magento cron:run` 명령을 사용하여 cron이 실행 중인지 확인하십시오. 자세한 내용은 _구성 가이드_&#x200B;의 [명령줄에서 cron 실행](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko#run-cron-from-the-command-line)을 참조하십시오.
+>[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 쿠폰을 만들기 전에 `bin/magento cron:run` 명령을 사용하여 cron이 실행 중인지 확인하십시오. 자세한 내용은 _구성 가이드_&#x200B;의 [명령줄에서 cron 실행](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#run-cron-from-the-command-line)을 참조하십시오.
 
 ### 방법 1: 특정 쿠폰 만들기
 
@@ -124,23 +124,23 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
      **옵션 1:** 새 업데이트 예약
 
-      - 페이지의 오른쪽 위 모서리에서 **[!UICONTROL Schedule New Update]**&#x200B;을(를) 클릭합니다.
+     - 페이지의 오른쪽 위 모서리에서 **[!UICONTROL Schedule New Update]**&#x200B;을(를) 클릭합니다.
 
-        ![업데이트 예약](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
+       ![업데이트 예약](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
 
-      - **[!UICONTROL Update Name]** 및 **[!UICONTROL Description]**&#x200B;을(를) 입력하십시오.
+     - **[!UICONTROL Update Name]** 및 **[!UICONTROL Description]**&#x200B;을(를) 입력하십시오.
 
-      - 일정( ![일정 아이콘](../assets/icon-calendar.png))에서 **시작 날짜** 및 **[!UICONTROL End Date]**&#x200B;을(를) 선택하십시오. 날짜 범위를 비워 두면 규칙이 만료되지 않습니다.
+     - 일정( ![일정 아이콘](../assets/icon-calendar.png))에서 **시작 날짜** 및 **[!UICONTROL End Date]**&#x200B;을(를) 선택하십시오. 날짜 범위를 비워 두면 규칙이 만료되지 않습니다.
 
-      - 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+     - 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-        ![장바구니 가격 규칙 - 예약된 변경](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
+       ![장바구니 가격 규칙 - 예약된 변경](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
 
      **옵션 2:** 기존 업데이트에 할당:
 
-      - **[!UICONTROL Assign to Another Update]**&#x200B;을(를) 선택합니다.
+     - **[!UICONTROL Assign to Another Update]**&#x200B;을(를) 선택합니다.
 
-      - 목록에서 업데이트를 찾은 다음 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
+     - 목록에서 업데이트를 찾은 다음 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
 
 1. 필요에 따라 [장바구니 가격 규칙](price-rules-cart.md)을 완료합니다.
 
@@ -170,9 +170,9 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
    - **[!UICONTROL Code Format]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Alphanumeric`
-      - `Alphabetical`
-      - `Numeric`
+     - `Alphanumeric`
+     - `Alphabetical`
+     - `Numeric`
 
    - (선택 사항) 코드의 시작 부분에 추가할 **[!UICONTROL Code Prefix]**&#x200B;을(를) 입력합니다.
 
@@ -221,7 +221,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
 사용자 지정 쿠폰 코드를 편집하거나 사용 세부 정보를 보려면 **[!UICONTROL Actions]** 열에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭하십시오.
 
-&lt;InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
 장바구니 가격 규칙에 속하는 기본 쿠폰 코드는 편집하거나 삭제할 수 없습니다.
 
@@ -288,16 +288,16 @@ _쿠폰_ 보고서는 특정 날짜 범위 동안 사용되는 각 쿠폰의 데
 
    - **[!UICONTROL Date Used]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Order Created`
-      - `Order Updated`
+     - `Order Created`
+     - `Order Updated`
 
      _업데이트된 주문_ 보고서는 실시간으로 만들어지며 새로 고침이 필요하지 않습니다.
 
    - 보고서에서 다루는 기간을 정의하려면 **[!UICONTROL Period]**&#x200B;을(를) 다음 중 하나로 설정하십시오.
 
-      - `Day`
-      - `Month`
-      - `Year`
+     - `Day`
+     - `Month`
+     - `Year`
 
    - 보고서의 날짜 범위를 정의하려면 **시작** 및 **종료** 날짜를 M/D/YY 형식으로 입력하십시오.
 
@@ -307,8 +307,8 @@ _쿠폰_ 보고서는 특정 날짜 범위 동안 사용되는 각 쿠폰의 데
 
    - 보고서에 포함된 쿠폰 활동을 정의하려면 다음 중 하나를 수행합니다.
 
-      - 모든 가격 규칙의 모든 쿠폰 활동을 포함하려면 **[!UICONTROL Cart Price Rule]**&#x200B;을(를) `Any`(으)로 설정합니다.
-      - 특정 가격 규칙과 관련된 활동만 포함하려면 **[!UICONTROL Cart Price Rule]**&#x200B;을(를) `Specified`(으)로 설정하고 목록에서 장바구니 가격 규칙을 선택하십시오.
+     - 모든 가격 규칙의 모든 쿠폰 활동을 포함하려면 **[!UICONTROL Cart Price Rule]**&#x200B;을(를) `Any`(으)로 설정합니다.
+     - 특정 가격 규칙과 관련된 활동만 포함하려면 **[!UICONTROL Cart Price Rule]**&#x200B;을(를) `Specified`(으)로 설정하고 목록에서 장바구니 가격 규칙을 선택하십시오.
 
 1. 보고서를 실행할 준비가 되면 **[!UICONTROL Show Report]**&#x200B;을(를) 클릭합니다.
 

@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 157
+source-wordcount: 159
 ht-degree: 0%
 
 ---
@@ -33,6 +33,6 @@ Commerce용 AEM Assets 통합은 Commerce 인스턴스에 다음 로그 파일�
 
 이러한 로그가 너무 커지지 않도록 하려면 시스템 관리자에게 로그 파일 순환 일정을 확인하도록 요청하십시오. 일부 환경에서는 로그 파일이 자동으로 회전되지만 다른 환경에서는 로그 회전을 수동으로 설정해야 합니다. 자세한 내용은 다음 항목을 참조하십시오.
 
-- Adobe Commerce 온-프레미스 설치의 경우 시스템 관리자에게 [로그 순환](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=ko#server-settings)을 설정하도록 요청하세요.
-- 클라우드 인프라 프로젝트의 Adobe Commerce에 대해서는 [로그 보기 및 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=ko)를 참조하십시오.
+- Adobe Commerce 온-프레미스 설치의 경우 시스템 관리자에게 [로그 순환](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/next-steps/configuration#server-settings)을 설정하도록 요청하세요.
+- 클라우드 인프라 프로젝트의 Adobe Commerce에 대해서는 [로그 보기 및 관리](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/test/log-locations)를 참조하십시오.
 

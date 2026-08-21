@@ -22,9 +22,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 285
+source-wordcount: 286
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 - 브라우저의 개인 정보 설정에서 쿠키를 허용하지 않는 경우, 대부분의 브라우저에서 권장 설정을 만드는 방법에 대해 설명하는 [쿠키 사용](../content-design/pages.md#enable-cookies) 페이지로 자동으로 리디렉션하도록 시스템을 구성할 수 있습니다.
 - 브라우저의 개인 정보 설정에서 JavaScript을 허용하지 않는 경우 모든 페이지의 헤더 위에 다음 메시지가 표시되도록 시스템을 구성할 수 있습니다.
 
-자세한 내용은 _설치 가이드_&#x200B;의 [지원되는 브라우저](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=ko#supported-browsers)를 참조하세요.
+자세한 내용은 _설치 가이드_&#x200B;의 [지원되는 브라우저](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/system-requirements#supported-browsers)를 참조하세요.
 
 ## 브라우저 기능 감지 구성
 

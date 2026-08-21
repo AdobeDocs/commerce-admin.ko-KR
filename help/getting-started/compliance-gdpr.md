@@ -22,7 +22,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 518
 ht-degree: 0%
@@ -68,4 +68,4 @@ GDPR을 준수하는 기업은 CCPA에 따라 추가적인 의무가 있을 수 
 
 - Adobe을 통해 판매자가 관련 법적 의무를 준수하는 방법을 알아보려면 [웹 사이트](https://business.adobe.com/kr/privacy/general-data-protection-regulation.html){:target="_blank"}를 방문하세요.
 
-- 데이터 흐름 다이어그램 및 데이터베이스 엔터티 매핑에 대해서는 [개인 정보 참조](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=ko){: target="_blank"}를 참조하십시오.
+- 데이터 흐름 다이어그램 및 데이터베이스 엔터티 매핑에 대해서는 [개인 정보 참조](https://experienceleague.adobe.com/ko/docs/commerce-operations/security-and-compliance/reference/data-m2){: target="_blank"}를 참조하십시오.

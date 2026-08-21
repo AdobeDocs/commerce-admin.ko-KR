@@ -1,6 +1,6 @@
 ---
 title: 범주 수정
-description: 범주를 이동하거나 삭제하는 방법을 알아봅니다.
+description: 카테고리를 카테고리 트리의 새 위치로 이동하거나 카탈로그에서 삭제하는 방법과 그렇게 할 때 제품 링크가 끊어지지 않도록 하는 방법에 대해 알아봅니다.
 exl-id: 7acc2cee-3e95-4d55-864e-6c62ae08eb91
 feature: Catalog Management, Categories
 TQID: https://experienceleague.adobe.com/uLJicknHwUzTRYgirA-nePB75bdjkLUhaHJzM3DZ0lY
@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 211
+source-wordcount: 233
 ht-degree: 0%
 
 ---

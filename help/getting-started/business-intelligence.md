@@ -29,9 +29,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
 workflow-type: tm+mt
-source-wordcount: 1221
+source-wordcount: 1224
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Commerce Intelligence 도구를 사용하여 건전한 비즈니스 의사 결�
 
 ## [!DNL Commerce Intelligence] 계정
 
-Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개의 보고서가 있는 5개의 대시보드에 액세스할 수 있습니다. 이러한 보고서는 데이터에 대한 통찰력을 제공하고 &quot;매월 주문이 어떻게 증가하고 있습니까?&quot;, &quot;가장 충성스러운 고객은 누구입니까?&quot;, &quot;내 쿠폰 전략이 작동하고 있습니까?&quot;와 같은 질문에 답변하기 위해 설계되었습니다. 이 도구 집합에 대한 자세한 내용은 [Commerce Intelligence 사용 안내서](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=ko)를 참조하세요.
+Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개의 보고서가 있는 5개의 대시보드에 액세스할 수 있습니다. 이러한 보고서는 데이터에 대한 통찰력을 제공하고 &quot;매월 주문이 어떻게 증가하고 있습니까?&quot;, &quot;가장 충성스러운 고객은 누구입니까?&quot;, &quot;내 쿠폰 전략이 작동하고 있습니까?&quot;와 같은 질문에 답변하기 위해 설계되었습니다. 이 도구 집합에 대한 자세한 내용은 [Commerce Intelligence 사용 안내서](https://experienceleague.adobe.com/ko/docs/commerce-business-intelligence/mbi/guide-overview)를 참조하세요.
 
 ## [!DNL Advanced Reporting]
 
@@ -68,7 +68,7 @@ Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개
 
 * 저장소 URL에 대한 [!DNL Commerce] 구성에서 **[!UICONTROL Use Secure URLs on Storefront]** 및 **[!UICONTROL Use Secure URLs in Admin]**&#x200B;을(를) `Yes`(으)로 설정해야 합니다.
 
-* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko)이(가) 만들어지고 설치된 서버에서 cron 작업이 실행되고 있습니다.
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)이(가) 만들어지고 설치된 서버에서 cron 작업이 실행되고 있습니다.
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개
 
    * **[!UICONTROL Advanced Reporting Service]**&#x200B;이(가) `Enable`(기본 설정)로 설정되어 있는지 확인하십시오.
 
-   * 서비스가 스토어에서 업데이트된 데이터를 받도록 하려면 **[!UICONTROL Time of day to send data]**&#x200B;을(를) 24시간 시계에 따라 시, 분 및 초로 설정하십시오. 기본적으로 데이터는 오전 2:00에 전송됩니다.
+   * 서비스가 스토어에서 업데이트된 데이터를 받도록 하려면 **[!UICONTROL Time of day to send data]**&#x200B;을(를) 24시간 시계에 따라 시, 분 및 초로 설정하십시오. 기본적으로 데이터는 오전 2시에 전송됩니다.
 
    * **[!UICONTROL Industry Data]**&#x200B;에서 비즈니스를 가장 잘 설명하는 **[!UICONTROL Industry]**&#x200B;을(를) 선택합니다.
 

@@ -1,8 +1,6 @@
 ---
 title: Adobe Commerce 관리 사용 안내서
-description: Adobe Commerce 제품 설명서 찾아보기
-seo-title: Services for Adobe Commerce
-seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
+description: Adobe Commerce 관리에서 자체 도움말 문서 및 튜토리얼을 검색합니다. Commerce 스토어의 구성, 관리 및 문제 해결에 대한 전문가 지원을 받을 수 있습니다.
 breadcrumb-title: 관리 사용 안내서
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 TQID: https://experienceleague.adobe.com/zoHXvfhkWovXcAk0S9hTpQOTIHbLYhfjyFqc-cCjLLE
@@ -32,9 +30,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 nudge: true
 last-update: 2026-08-07
-source-git-commit: 6abaad747203dccb75d8344c20f5e7b657e374eb
+source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: 769
 ht-degree: 0%
 
 ---
@@ -49,7 +47,7 @@ ht-degree: 0%
 
 Adobe Commerce은 상인과 브랜드가 온라인 및 물리적 공간에서 고객 중심의 디지털 상거래 경험을 통해 매출을 가속화할 수 있도록 하는 애자일 B2B 및 B2C 상거래 플랫폼입니다. SLA가 보장된 온프레미스 및 관리 클라우드에 이르기까지 가장 유연한 배포 모델을 제공하므로 중간 규모 및 엔터프라이즈 조직을 위한 최고의 선택입니다. Adobe Commerce은 API 우선 통합 및 완전히 맞춤화가 가능한 확장을 지원하며 마케팅부터 머천다이징 및 이행에 이르기까지 가장 풍부한 엔터프라이즈급 상거래 경험 기능 세트를 제공합니다. Adobe Commerce은 다른 상거래 플랫폼과 마찬가지로 유연성과 확장성을 제공하기 위해 오픈 소스 코드 기반으로 구축됩니다.
 
-Adobe Commerce에 포함된 고급 기능 목록을 보려면 _릴리스 정보_&#x200B;에서 [Commerce 기능](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=ko)을 참조하세요.
+Adobe Commerce에 포함된 고급 기능 목록을 보려면 _릴리스 정보_&#x200B;에서 [Commerce 기능](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/features)을 참조하세요.
 
 ## Magento Open Source 코드 베이스
 

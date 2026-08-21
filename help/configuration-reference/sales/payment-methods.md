@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 1850
+source-wordcount: 1852
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce 및 Magento Open Source용 결제 서비스는 강력하고 안전한 결제 처리를 위해 샌드박스 테스트 및 간단한 설정을 포함한 턴키 셀프 서비스 솔루션을 제공합니다. 이 강력한 도구 집합에 대해 자세히 알아보고 구매자에게 최상의 경험을 제공하기 위해 필요한 insight 및 제어 기능에 대해 알아보려면 [_결제 서비스 사용 안내서_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=ko)를 참조하세요.
+>Adobe Commerce 및 Magento Open Source용 결제 서비스는 강력하고 안전한 결제 처리를 위해 샌드박스 테스트 및 간단한 설정을 포함한 턴키 셀프 서비스 솔루션을 제공합니다. 이 강력한 도구 집합에 대해 자세히 알아보고 구매자에게 최상의 경험을 제공하기 위해 필요한 insight 및 제어 기능에 대해 알아보려면 [_결제 서비스 사용 안내서_](https://experienceleague.adobe.com/ko/docs/commerce/payment-services/guide-overview)를 참조하세요.
 
 {{config}}
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 ><br/>
 >**Amazon Pay** 및 **Klarna**: Adobe Commerce 및 Magento Open Source 릴리스 2.4.0 - 2.4.3에는 이러한 공급업체에서 개발한 확장이 포함되어 있습니다. 2.4.4 릴리스부터 이러한 확장은 더 이상 핵심 릴리스와 번들로 제공되지 않으며 Commerce Marketplace에서 설치하고 업데이트해야 합니다. Marketplace에서는 확장 개발자가 제공하는 현재 설명서에 대한 액세스도 제공합니다.
 ><br/>
->이러한 번들 확장을 사용 및 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 `composer.json` 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [업그레이드 모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko)을 참조하십시오.<br/>
+>이러한 번들 확장을 사용 및 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 `composer.json` 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [업그레이드 모듈](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/modules/upgrade)을 참조하십시오.<br/>
 
 ## 기타 PayPal 메서드
 

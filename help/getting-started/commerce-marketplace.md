@@ -23,9 +23,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1425
+source-wordcount: 1438
 ht-degree: 0%
 
 ---
@@ -47,19 +47,19 @@ ht-degree: 0%
 ### Commerce 리소스
 
 - [Adobe Commerce에 대한 I/O 이벤트 설정](https://developer.adobe.com/commerce/extensibility/events/)
-- [Adobe Commerce에 대한 이벤트 구성](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
+- [Adobe Commerce에 대한 이벤트 구성](https://developer.adobe.com/commerce/extensibility/events/configure-commerce)
 - [관리 UI SDK 설정](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [확장을 앱으로 변환](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### App Builder 리소스
 
 - [Commerce App Builder 개요](https://developer.adobe.com/commerce/extensibility/app-development/)
-- [Adobe Developer App Builder용 API Mesh 설정](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
-- [App Builder 앱 배포](https://developer.adobe.com/app-builder/docs/guides/deployment/)
-- [App Builder 앱용 CI/CD](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
+- [Adobe Developer App Builder용 API Mesh 설정](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/)
+- [App Builder 앱 배포](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/deployment)
+- [App Builder 앱용 CI/CD](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/cicd-for-app-builder-apps)
 - App Builder/Developer Console 시작하기
-  - [App Builder 시작하기](https://developer.adobe.com/app-builder/docs/getting_started/)
-  - [프로젝트 및 작업 공간 이해](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
+  - [App Builder 시작하기](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app)
+  - [프로젝트 및 작업 공간 이해](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces)
 
 ## [!DNL Marketplace] 자격 증명
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Commerce 및 Magento Open Source 2.4.0부터 웹 설치 마법사가 제거되며, 명령줄을 사용하여 인스턴스를 [설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=ko) 또는 [업그레이드](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=ko)해야 합니다. 이 요구 사항에는 [모듈](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=ko) 및 [확장](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=ko)도 포함됩니다.
+>Adobe Commerce 및 Magento Open Source 2.4.0부터 웹 설치 마법사가 제거되며, 명령줄을 사용하여 인스턴스를 [설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/advanced) 또는 [업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade)해야 합니다. 이 요구 사항에는 [모듈](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/modules/upgrade) 및 [확장](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)도 포함됩니다.
 
 [!DNL Marketplace] 구매에 대한 설치 프로세스는 Commerce의 _온-프레미스_ 설치와 [Adobe 클라우드 아키텍처](https://www.adobe.com/commerce/magento/enterprise.html)에 호스팅된 설치의 경우와 다릅니다.
 

@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 412
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ![보안 센터](./assets/product-security-home.png){width="700" zoomable="yes"}
 
-보안 모범 사례에 대한 자세한 내용은 _구현 플레이북_&#x200B;에서 [Commerce 사이트 및 인프라 보호](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=ko)를 참조하십시오.
+보안 모범 사례에 대한 자세한 내용은 _구현 플레이북_&#x200B;에서 [Commerce 사이트 및 인프라 보호](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)를 참조하십시오.
 
 ## 보안 작업 계획
 

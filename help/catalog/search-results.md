@@ -19,10 +19,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 913
-ht-degree: 0%
+source-wordcount: 949
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 페이지에서는 [실시간 검색](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=ko)과(와) 다를 수 있는 표준 검색 기능에 대해 설명합니다.
+>이 페이지에서는 [실시간 검색](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)과(와) 다를 수 있는 표준 검색 기능에 대해 설명합니다.
 
 _검색 결과_ 목록에는 빠른 검색 상자 또는 고급 검색 양식에 입력한 검색 조건과 일치하는 모든 제품이 포함됩니다. 카탈로그의 모든 제품 목록에는 기본적으로 동일한 컨트롤이 있습니다. 유일한 차이점은 하나는 검색 쿼리의 결과이고 다른 하나는 [탐색](navigation.md)의 결과입니다.
 
@@ -46,7 +46,7 @@ _검색 결과_ 목록에는 빠른 검색 상자 또는 고급 검색 양식에
 
 >[!IMPORTANT]
 >
->2023년 8월의 Elasticsearch 7 지원 종료 발표로 인해 모든 Adobe Commerce 고객은 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것이 좋습니다. 제품을 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=ko)을 참조하십시오.
+>2023년 8월의 Elasticsearch 7 지원 종료 발표로 인해 모든 Adobe Commerce 고객은 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것이 좋습니다. 제품을 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)을 참조하십시오.
 
 ## 검색 결과를 확장하기 위한 키워드 매핑
 

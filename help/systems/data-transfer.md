@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: 520
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce은 또한 SaaS 데이터 내보내기를 지원하여 제품 데이터를 Commerce 서버에서 SaaS 서비스로 전송합니다. SaaS 데이터 내보내기는 [제품 추천](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=ko), [라이브 검색](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview) 및 [카탈로그 서비스](https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/guide-overview)를 포함한 Commerce SaaS 서비스와 통합됩니다. 자세한 내용은 [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/overview)를 참조하십시오.
+>Adobe Commerce은 또한 SaaS 데이터 내보내기를 지원하여 제품 데이터를 Commerce 서버에서 SaaS 서비스로 전송합니다. SaaS 데이터 내보내기는 [제품 추천](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/overview), [라이브 검색](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview) 및 [카탈로그 서비스](https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/guide-overview)를 포함한 Commerce SaaS 서비스와 통합됩니다. 자세한 내용은 [SaaS 데이터 내보내기 안내서](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/overview)를 참조하십시오.
 
 ## 데이터 유효성 검사
 

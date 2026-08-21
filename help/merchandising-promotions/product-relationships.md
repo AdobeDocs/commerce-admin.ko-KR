@@ -19,9 +19,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 262
+source-wordcount: 263
 ht-degree: 0%
 
 ---
@@ -52,4 +52,4 @@ ht-degree: 0%
 
 ## Adobe AI 기반의 제품 추천
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) [Adobe AI에서 제공하는 제품 권장 사항](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=ko)은(는) 집계된 방문자 데이터를 심층 분석하는 데 인공 지능 및 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 간소화합니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) [Adobe AI에서 제공하는 제품 권장 사항](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/overview)은(는) 집계된 방문자 데이터를 심층 분석하는 데 인공 지능 및 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 간소화합니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.

@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 783
+source-wordcount: 848
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Commerce Admin API는 Adobe IMS를 사용한 관리자 인증이 Commerce 인스
 
 Adobe IMS 통합이 활성화되면 관리자는 인증이 필요한 Adobe Commerce API 엔드포인트에 대해 [Adobe IMS OAuth 토큰](https://developer.adobe.com/developer-console/docs/guides/authentication/)을 사용해야 합니다. 클라이언트 솔루션은 웹 API 사용을 위해 토큰을 동적으로 가져옵니다. 이 인증 메커니즘은 이 통합 구성의 일부로 REST 및 SOAP 웹 API 영역에 대해 활성화됩니다.
 
-IMS 액세스 토큰을 포함하여 웹 API에서 Commerce 액세스 토큰을 사용하는 방법에 대한 개요는 [토큰 기반 인증](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/)을 참조하십시오.
+IMS 액세스 토큰을 포함하여 웹 API에서 Commerce 액세스 토큰을 사용하는 방법에 대한 개요는 [토큰 기반 인증](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token)을 참조하십시오.
 
 ## Commerce 세션 관리 및 Adobe IMS 액세스 토큰
 
