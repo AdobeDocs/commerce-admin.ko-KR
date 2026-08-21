@@ -228,7 +228,7 @@ Real-Time CDP [대상자](../customers/audience-activation.md)를 기반으로 �
    | `Name` | 대상 이름(예: `Orders over $50`) |
    | `Description` | 대상자에 대한 설명(예: `People who placed an order over $50 in the last month.`). |
    | `Source` | 대상자가 있었던 위치(예: `Experience Platform`)를 나타냅니다. |
-   | `Website` | 대상자를 포함하는 데이터 스트림에 연결한 웹 사이트를 나타냅니다. [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data) 확장을 통해 Commerce 인스턴스를 Experience Platform에 연결할 때 이 링크를 만듭니다. |
+   | `Website` | 대상자를 포함하는 데이터 스트림에 연결한 웹 사이트를 나타냅니다. [[!DNL Data Connection]](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/fundamentals/connect-data) 확장을 통해 Commerce 인스턴스를 Experience Platform에 연결할 때 이 링크를 만듭니다. |
 
    {style="table-layout:auto"}
 

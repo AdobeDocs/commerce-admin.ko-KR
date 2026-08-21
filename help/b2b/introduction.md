@@ -58,9 +58,9 @@ Adobe Commerce 스토어의 B2B 확장 [설치](install.md) 및 [지원](enable-
 
 Adobe Commerce용 서비스는 Adobe Commerce 및 Magento Open Source에 확장 기능을 제공하는 호스팅 서비스입니다. B2B 워크플로를 지원하는 서비스는 다음과 같습니다.
 
-* [카탈로그 서비스](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
-* [라이브 검색](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
-* [제품 추천](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
+* [카탈로그 서비스](https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/guide-overview)
+* [라이브 검색](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)
+* [제품 추천](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/guide-overview)
 
 ## 공유된 카탈로그
 

@@ -41,4 +41,4 @@ CSV 파일에 `downloadable_links`과(와) `downloadable_samples`에 대한 별�
 
   ![예제 데이터 - 다운로드 가능한 샘플이 있는 다운로드 가능한 제품](./assets/data-import-downloadable-samples.png){width="400" zoomable="yes"}
 
-원격 저장소 모듈 사용 및 관리에 대한 자세한 내용은 _구성 가이드_&#x200B;의 [원격 저장소 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage)을 참조하세요.
+원격 저장소 모듈 사용 및 관리에 대한 자세한 내용은 _구성 가이드_&#x200B;의 [원격 저장소 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage)을 참조하세요.

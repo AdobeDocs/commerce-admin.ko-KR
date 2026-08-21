@@ -3,7 +3,7 @@ title: Adobe Commerce의 HIPAA 준비
 description: Adobe Commerce HIPAA 지원 확장 기능을 추가하여 HIPAA 규정 준수를 지원할 수 있는 추가 기능을 사용하는 방법에 대해 알아봅니다.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/0K0f6Rb5ukFbiCj4ySxhl-4-OzJ4Luu2nKwhTHGeYW8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -68,8 +68,8 @@ Adobe Commerce HIPAA 지원 확장, `magento/hipaa-ee`은(는) 클라우드 인�
 
 | Adobe Commerce | 지원됨 | 메모 |
 |----------------|-----------|-------|
-| 2.4.8-p5 | 1.3.0 | 2.4.8-p5 지원에는 [호환성 패치](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-30555)가 필요합니다. |
-| 2.4.7-p4 이상 -p 버전 | 1.2.0 | 2.4.7-p4 지원을 사용하려면 [호환성 패치](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27147)가 필요합니다. |
+| 2.4.8-p5 | 1.3.0 | 2.4.8-p5 지원에는 [호환성 패치](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-30555)가 필요합니다. |
+| 2.4.7-p4 이상 -p 버전 | 1.2.0 | 2.4.7-p4 지원을 사용하려면 [호환성 패치](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-27147)가 필요합니다. |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6-p8 | 1.1.0 | [데이터 서비스](#adobe-commerce-services)에 대한 지원이 1.1.0에 도입되었습니다. |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
@@ -88,7 +88,7 @@ Adobe Commerce HIPAA 지원 확장, `magento/hipaa-ee`은(는) 클라우드 인�
 >[!BEGINSHADEBOX]
 
 - Adobe은 HIPAA 준비 확장에 액세스할 수 있도록 Adobe Commerce 계정을 프로비저닝했습니다.
-- 확장을 설치하려면 [repo.magento.com](https://repo.magento.com)에 액세스하십시오. 키를 생성하고 필요한 권한을 얻으려면 [인증 키 가져오기](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오.
+- 확장을 설치하려면 [repo.magento.com](https://repo.magento.com)에 액세스하십시오. 키를 생성하고 필요한 권한을 얻으려면 [인증 키 가져오기](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오.
 
 >[!ENDSHADEBOX]
 
@@ -96,13 +96,13 @@ Adobe Commerce HIPAA 지원 확장, `magento/hipaa-ee`은(는) 클라우드 인�
 
 >[!NOTE]
 >
->Experience Platform으로 전송되는 백오피스 이벤트 데이터가 HIPAA를 사용할 수 있도록 하려면 [데이터 연결 확장 안내서](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)를 참조하십시오.
+>Experience Platform으로 전송되는 백오피스 이벤트 데이터가 HIPAA를 사용할 수 있도록 하려면 [데이터 연결 확장 안내서](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension)를 참조하십시오.
 
 1. 로컬 워크스테이션에서 Adobe Commerce on cloud infrastructure 프로젝트의 프로젝트 디렉터리로 변경합니다.
 
    >[!NOTE]
    >
-   >Commerce 프로젝트 환경을 로컬로 관리하는 방법에 대한 자세한 내용은 _Adobe Commerce on Cloud Infrastructure 사용 안내서_&#x200B;의 [CLI로 분기 관리](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches)를 참조하십시오.
+   >Commerce 프로젝트 환경을 로컬로 관리하는 방법에 대한 자세한 내용은 _Adobe Commerce on Cloud Infrastructure 사용 안내서_&#x200B;의 [CLI로 분기 관리](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/cli-branches)를 참조하십시오.
 
 1. Adobe Commerce Cloud CLI를 사용하여 업데이트할 환경 분기를 체크아웃합니다.
 
@@ -130,7 +130,7 @@ Adobe Commerce HIPAA 지원 확장, `magento/hipaa-ee`은(는) 클라우드 인�
    git push origin <branch-name>
    ```
 
-   업데이트를 푸시하면 [Commerce 클라우드 배포 프로세스](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process)가 시작되어 변경 내용을 적용합니다. [배포 로그](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations)에서 배포 상태를 확인하십시오.
+   업데이트를 푸시하면 [Commerce 클라우드 배포 프로세스](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/deploy/process)가 시작되어 변경 내용을 적용합니다. [배포 로그](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/test/log-locations)에서 배포 상태를 확인하십시오.
 
 ### 설치 확인
 
@@ -304,12 +304,12 @@ Adobe Commerce의 HIPAA 고객 검색 결과 제한 기능은 PHI(보호 상태 
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | 예 | 예 |
 | Adobe Developer App Builder용 [API Mesh](https://developer.adobe.com/graphql-mesh-gateway/) | 예 | 예 |
-| [SaaS 데이터 내보내기](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | 예 | 예 |
-| [실시간 검색](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | 아니요 | 아니요 |
-| [제품 추천](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | 아니요 | 아니요 |
-| [결제 서비스](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | 아니요 | 아니요 |
-| [다시 Office 이벤트에 데이터 연결](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | 예 | 예 |
-| [데이터 연결 상점 이벤트](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | 아니요 | 아니요 |
+| [SaaS 데이터 내보내기](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/overview) | 예 | 예 |
+| [실시간 검색](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview) | 아니요 | 아니요 |
+| [제품 추천](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/overview) | 아니요 | 아니요 |
+| [결제 서비스](https://experienceleague.adobe.com/ko/docs/commerce/payment-services/guide-overview) | 아니요 | 아니요 |
+| [다시 Office 이벤트에 데이터 연결](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events-backoffice) | 예 | 예 |
+| [데이터 연결 상점 이벤트](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/event-forwarding/events#storefront-events) | 아니요 | 아니요 |
 | [Audience Activation](/help/customers/audience-activation.md) | 아니요 | 아니요 |
 
 ### 도구
@@ -322,7 +322,7 @@ Adobe Commerce용 [보안 검색 도구](../../systems/security-scan.md)를 사�
 - 설치된 모든 확장은 사전 정의된 확장과 일치합니다.
 - 지원되지 않는 Adobe 서비스가 설치되지 않았습니다.
 
-예약된 검사 또는 [수동으로 보고서를 보기](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview)의 세부 정보를 사용하여 전자 메일 알림을 보내도록 [도구를 구성](../../systems/security-scan.md#run-a-security-scan)할 수 있습니다.
+예약된 검사 또는 [수동으로 보고서를 보기](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/launch/overview)의 세부 정보를 사용하여 전자 메일 알림을 보내도록 [도구를 구성](../../systems/security-scan.md#run-a-security-scan)할 수 있습니다.
 
 ## 비활성화된 기능
 
@@ -330,7 +330,7 @@ HIPAA 요구 사항을 준수하기 위해 Adobe Commerce에서 지원하는 일
 
 다음 기능은 HIPAA 준비 모듈에서 기본적으로 비활성화됩니다. 판매자는 자신의 책임으로 이러한 기능을 사용할 수 있습니다.
 
-- **[트랜잭션 전자 메일](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/sendgrid)**—서비스가 HIPAA를 사용할 수 없으므로 SendGrid가 기본적으로 비활성화됩니다. Adobe Commerce은 [AWS 간단한 이메일 서비스](https://docs.aws.amazon.com/ses/) 계정과 함께 사용할 수 있는 통합 옵션을 제공합니다. 구성에 대한 자세한 내용은 고객 기술 계정 관리자 또는 Adobe Commerce 지원 센터에 문의하십시오.
+- **[트랜잭션 전자 메일](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/project/sendgrid)**—서비스가 HIPAA를 사용할 수 없으므로 SendGrid가 기본적으로 비활성화됩니다. Adobe Commerce은 [AWS 간단한 이메일 서비스](https://docs.aws.amazon.com/ses/) 계정과 함께 사용할 수 있는 통합 옵션을 제공합니다. 구성에 대한 자세한 내용은 고객 기술 계정 관리자 또는 Adobe Commerce 지원 센터에 문의하십시오.
 
 - **[게스트 체크아웃](../../stores-purchase/checkout-guest.md)**—이 기능은 로깅, 액세스 제어, PHI 위생 및 계보 등을 포함하여 HIPAA의 다양한 측면에 대한 잠재적인 위험을 제공합니다.
 

@@ -125,7 +125,7 @@ Commerce은 알파벳순으로 구성된 제품 이미지에 대한 고유한 �
 
    단일 `sku`에 대해 여러 이미지를 가져오는 경우 `additional_images` 열에 이미지를 삽입하십시오(아직 추가되지 않은 경우 열 추가). 쉼표로 구분하십시오. `image02.jpg,image03.jpg`
 
-원격 저장소 모듈 사용 및 관리에 대한 자세한 내용은 _구성 가이드_&#x200B;에서 [원격 저장소 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage)을 참조하세요.
+원격 저장소 모듈 사용 및 관리에 대한 자세한 내용은 _구성 가이드_&#x200B;에서 [원격 저장소 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage)을 참조하세요.
 
 >[!NOTE]
 >

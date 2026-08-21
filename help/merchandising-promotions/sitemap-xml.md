@@ -3,7 +3,7 @@ title: 사이트 맵
 description: Commerce 사이트의 모든 페이지와 이미지를 색인화하기 위해 사이트 맵을 구성하는 방법에 대해 알아봅니다.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/1IQk0p0-ZGNEXYKT-BIe-7b4l06psXTCapt6hPDMjzQ
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Adobe Commerce as a Cloud Service의 경우 Commerce Storefront 설명서에서 [SEO 지침](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)을 참조하십시오
+>Adobe Commerce as a Cloud Service의 경우 Commerce Storefront 설명서에서 [SEO 지침](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=ko)을 참조하십시오
 
 사이트 맵은 검색 엔진이 스토어를 색인화하는 방식을 개선하며 웹 웹 크롤러가 간과할 수 있는 페이지를 찾도록 설계되었습니다. 사이트 맵은 모든 페이지 및 이미지를 색인화하도록 구성할 수 있습니다.
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 사이트가 개발 중인 동안에는 사이트 색인화를 방지하기 위해 웹 웹 크롤러에 대한 `robots.txt` 파일에 지침을 포함할 수 있습니다. 그런 다음 론치 전에 지침을 변경하여 사이트를 인덱싱할 수 있습니다.
 
-자세한 내용은 _Commerce on Cloud Infrastructure Guide_&#x200B;에서 [사이트 맵 및 robots.txt 추가](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/robots-sitemap)를 참조하십시오.
+자세한 내용은 _Commerce on Cloud Infrastructure Guide_&#x200B;에서 [사이트 맵 및 robots.txt 추가](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/robots-sitemap)를 참조하십시오.
 
 ![사이트 맵 표](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -118,7 +118,7 @@ Commerce 설치에서 `sitemap.xml` 파일에 대한 링크를 제공하여 사�
    
 >[!NOTE]
 >
->사이트에서 [Apache](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/apache) 웹 서버 엔진을 사용하는 경우 웹 사이트의 루트에서 [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) 파일을 업데이트하여 다른 사이트 맵 요청을 적절한 위치로 이동해야 합니다.
+>사이트에서 [Apache](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/web-server/apache) 웹 서버 엔진을 사용하는 경우 웹 사이트의 루트에서 [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html) 파일을 업데이트하여 다른 사이트 맵 요청을 적절한 위치로 이동해야 합니다.
 
 ## 열 설명
 

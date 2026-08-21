@@ -40,11 +40,11 @@ ht-degree: 0%
 >
 >[!DNL Adobe Identity Management Services]&#x200B;(IMS) 인증을 사용하도록 설정한 저장소에 기본 Adobe Commerce 및 Magento Open Source 2FA가 사용하지 않도록 설정되어 있습니다. Adobe 자격 증명으로 Commerce 인스턴스에 로그인한 관리자는 많은 관리 작업에 대해 다시 인증할 필요가 없습니다. Adobe IMS는 관리자 가 현재 세션에 로그인할 때 인증을 처리합니다. [[!DNL Adobe Identity Management Service] (IMS) 통합 개요](../getting-started/adobe-ims-integration-overview.md)를 참조하십시오.
 
-[보안 센터](https://helpx.adobe.com/security.html){:target="_blank"}를 방문하여 잠재적인 취약점에 대한 최신 뉴스를 받고 Adobe 보안 알림에 등록하며 Adobe 보안 센터에 액세스하세요.
+[보안 센터](https://helpx.adobe.com/kr/security.html){:target="_blank"}를 방문하여 잠재적인 취약점에 대한 최신 뉴스를 받고 Adobe 보안 알림에 등록하며 Adobe 보안 센터에 액세스하세요.
 
 ![보안 센터](./assets/product-security-home.png){width="700" zoomable="yes"}
 
-보안 모범 사례에 대한 자세한 내용은 _구현 플레이북_&#x200B;에서 [Commerce 사이트 및 인프라 보호](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)를 참조하십시오.
+보안 모범 사례에 대한 자세한 내용은 _구현 플레이북_&#x200B;에서 [Commerce 사이트 및 인프라 보호](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)를 참조하십시오.
 
 ## 보안 작업 계획
 
@@ -58,4 +58,4 @@ Adobe Commerce 또는 Magento Open Source 사이트가 손상된 것으로 의�
 
 1. **보고서**: Commerce에서 특정 취약점이 발견되었다고 생각되면 [Adobe에서 문제를 열어](https://hackerone.com/adobe?type=team) 기술적인 세부 정보를 포함하십시오.
 
-1. **업그레이드**: 연중무휴 24시간 지원을 통해 안심하고 [클라우드 아키텍처의 Adobe Commerce](https://business.adobe.com/products/magento/cloud-delivery.html)&#x200B;(으)로 업그레이드할 수 있습니다.
+1. **업그레이드**: 연중무휴 24시간 지원을 통해 안심하고 [클라우드 아키텍처의 Adobe Commerce](https://business.adobe.com/kr/products/magento/cloud-delivery.html)&#x200B;(으)로 업그레이드할 수 있습니다.

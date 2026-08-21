@@ -4,7 +4,7 @@ description: CDN(Content Delivery Network)을 사용하여 미디어 파일을 �
 exl-id: cb612b79-f3e3-4f1b-8cf9-d47886486686
 feature: Page Content, Media, Configuration
 level: Experienced
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/c-Aw3S5unZlMdDG1k080D4CIMcILglNa4ymZxPt6HBk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 # 컨텐츠 전달 네트워크 사용
 
-CDN(Content Delivery Network)을 사용하여 미디어 파일을 저장할 수 있습니다. 클라우드 인프라의 Adobe Commerce에는 Fastly CDN이 포함되어 있습니다(_Commerce on Cloud Infrastructure Guide_&#x200B;의 [Fastly](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/fastly) 참조). _온-프레미스_&#x200B;에 설치된 Commerce 인스턴스에는 특정 CDN과의 통합이 포함되지 않으므로 원하는 CDN을 사용할 수 있습니다.
+CDN(Content Delivery Network)을 사용하여 미디어 파일을 저장할 수 있습니다. 클라우드 인프라의 Adobe Commerce에는 Fastly CDN이 포함되어 있습니다(_Commerce on Cloud Infrastructure Guide_&#x200B;의 [Fastly](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/cdn/fastly) 참조). _온-프레미스_&#x200B;에 설치된 Commerce 인스턴스에는 특정 CDN과의 통합이 포함되지 않으므로 원하는 CDN을 사용할 수 있습니다.
 
 CDN을 구성한 후에는 관리자로부터 구성을 완료해야 합니다. 글로벌 또는 웹 사이트 수준에서 변경할 수 있습니다. CDN을 미디어 저장소에 사용하면 Commerce 저장소 페이지의 미디어에 대한 모든 경로가 구성에 지정된 CDN 경로로 변경됩니다.
 

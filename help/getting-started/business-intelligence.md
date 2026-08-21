@@ -3,7 +3,7 @@ title: '[!DNL Commerce Intelligence]개 도구'
 description: Adobe Commerce 및 Magento Open Source 판매자가 Commerce Intelligence 도구를 사용하여 건전한 비즈니스 의사 결정에 사용되는 insight을 얻는 방법에 대해 알아봅니다.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/fXuvq380YffN-gCcGRcpwN5x-bc1EHcyrUaDFctaLKo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -42,7 +42,7 @@ Commerce Intelligence 도구를 사용하여 건전한 비즈니스 의사 결�
 
 ## [!DNL Commerce Intelligence] 계정
 
-Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개의 보고서가 있는 5개의 대시보드에 액세스할 수 있습니다. 이러한 보고서는 데이터에 대한 통찰력을 제공하고 &quot;매월 주문이 어떻게 증가하고 있습니까?&quot;, &quot;가장 충성스러운 고객은 누구입니까?&quot;, &quot;내 쿠폰 전략이 작동하고 있습니까?&quot;와 같은 질문에 답변하기 위해 설계되었습니다. 이 도구 집합에 대한 자세한 내용은 [Commerce Intelligence 사용 안내서](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/guide-overview)를 참조하세요.
+Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개의 보고서가 있는 5개의 대시보드에 액세스할 수 있습니다. 이러한 보고서는 데이터에 대한 통찰력을 제공하고 &quot;매월 주문이 어떻게 증가하고 있습니까?&quot;, &quot;가장 충성스러운 고객은 누구입니까?&quot;, &quot;내 쿠폰 전략이 작동하고 있습니까?&quot;와 같은 질문에 답변하기 위해 설계되었습니다. 이 도구 집합에 대한 자세한 내용은 [Commerce Intelligence 사용 안내서](https://experienceleague.adobe.com/ko/docs/commerce-business-intelligence/mbi/guide-overview)를 참조하세요.
 
 ## [!DNL Advanced Reporting]
 
@@ -68,7 +68,7 @@ Adobe을 통해 [!DNL Commerce Intelligence] 계정을 활성화하면 약 70개
 
 * 저장소 URL에 대한 [!DNL Commerce] 구성에서 **[!UICONTROL Use Secure URLs on Storefront]** 및 **[!UICONTROL Use Secure URLs in Admin]**&#x200B;을(를) `Yes`(으)로 설정해야 합니다.
 
-* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)이(가) 만들어지고 설치된 서버에서 cron 작업이 실행되고 있습니다.
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)이(가) 만들어지고 설치된 서버에서 cron 작업이 실행되고 있습니다.
 
 >[!NOTE]
 >

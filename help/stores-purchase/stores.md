@@ -48,7 +48,7 @@ Adobe Commerce 또는 Magento Open Source의 단일 설치에는 관리자를 �
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | 각 스토어에는 다른 경로가 있지만 도메인을 공유합니다. |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | 각 스토어에는 주 도메인의 다른 하위 도메인이 있습니다. |
 
-Adobe Commerce의 다중 스토어 설치는 관리자 및 서버의 명령줄에서 구성해야 합니다. Adobe Commerce [구성 안내서](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)에서 서버 환경 구성에 대한 자세한 지침을 제공합니다.
+Adobe Commerce의 다중 스토어 설치는 관리자 및 서버의 명령줄에서 구성해야 합니다. Adobe Commerce [구성 안내서](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)에서 서버 환경 구성에 대한 자세한 지침을 제공합니다.
 
 ### 1단계: 스토어 도메인 선택
 
@@ -120,20 +120,20 @@ Adobe Commerce의 다중 스토어 설치는 관리자 및 서버의 명령줄�
 
 ### 5단계: 서버 구성
 
-여러 웹 사이트를 지원하도록 서버를 구성하려면 _구성 안내서_&#x200B;에서 [여러 웹 사이트 또는 스토어](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)를 참조하십시오.
+여러 웹 사이트를 지원하도록 서버를 구성하려면 _구성 안내서_&#x200B;에서 [여러 웹 사이트 또는 스토어](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)를 참조하십시오.
 
 웹 서버 구성에 대한 도움말을 보려면 다음 리소스를 참조하십시오.
 
-- [NGNX를 사용하여 여러 웹 사이트 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
-- [Apache를 사용하여 여러 웹 사이트 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
+- [NGNX를 사용하여 여러 웹 사이트 설정](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
+- [Apache를 사용하여 여러 웹 사이트 설정](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
 
-클라우드 인프라의 Adobe Commerce에 대해서는 [여러 웹 사이트 또는 스토어 설정](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites)을 참조하십시오.
+클라우드 인프라의 Adobe Commerce에 대해서는 [여러 웹 사이트 또는 스토어 설정](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites)을 참조하십시오.
 
 ## 웹 사이트 추가
 
 동일한 도메인이나 다른 도메인으로 단일 Adobe Commerce 또는 Magento Open Source 설치에서 여러 웹 사이트를 설정할 수 있습니다. 기본적으로 동일한 웹 사이트 아래에 있는 저장소는 동일한 IP 주소 및 도메인을 가지며, 동일한 보안 인증서를 사용하며, 단일 체크아웃 프로세스를 공유합니다. 각 스토어에서 자체 도메인 아래에 전용 체크아웃 프로세스를 갖도록 하려면 각 스토어에 고유한 IP 주소와 별도의 보안 인증서가 있어야 합니다.
 
-Adobe Commerce 또는 Magento Open Source의 다중 사이트 설치는 관리자 및 서버의 명령줄에서 구성해야 합니다. Commerce [구성 안내서](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)에서 서버 환경 구성에 대한 자세한 지침을 제공합니다.
+Adobe Commerce 또는 Magento Open Source의 다중 사이트 설치는 관리자 및 서버의 명령줄에서 구성해야 합니다. Commerce [구성 안내서](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)에서 서버 환경 구성에 대한 자세한 지침을 제공합니다.
 
 ![범위 - 웹 사이트](./assets/scope-multisite.svg){width="550"}
 
@@ -167,11 +167,11 @@ Adobe Commerce 또는 Magento Open Source의 다중 사이트 설치는 관리�
 
 ### 3단계: 서버 구성
 
-여러 웹 사이트를 지원하도록 서버를 구성하려면 _구성 안내서_&#x200B;에서 [여러 웹 사이트 또는 스토어](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)를 참조하십시오.
+여러 웹 사이트를 지원하도록 서버를 구성하려면 _구성 안내서_&#x200B;에서 [여러 웹 사이트 또는 스토어](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)를 참조하십시오.
 
 웹 서버 구성에 대한 도움말을 보려면 다음 튜토리얼을 참조하십시오.
 
-- [NGNX를 사용하여 여러 웹 사이트 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
-- [Apache를 사용하여 여러 웹 사이트 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
+- [NGNX를 사용하여 여러 웹 사이트 설정](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
+- [Apache를 사용하여 여러 웹 사이트 설정](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
 
-클라우드 인프라의 Adobe Commerce에 대해서는 [여러 웹 사이트 또는 스토어 설정](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites)을 참조하십시오.
+클라우드 인프라의 Adobe Commerce에 대해서는 [여러 웹 사이트 또는 스토어 설정](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites)을 참조하십시오.

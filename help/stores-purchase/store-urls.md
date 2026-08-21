@@ -3,7 +3,7 @@ title: URL 저장
 description: 스토어 URL과 기본 URL 및 스토어 코드를 구성하는 방법에 대해 알아봅니다.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/t-vp20uVrUmg-dRVONHjUUcgxzYBT5--uB8U1XorRPs
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -156,7 +156,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 ## 사용자 지정 관리자 URL 사용
 
-[보안 모범 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)로서, Adobe에서는 기본 _관리_ 대신 고유한 관리 URL을 사용하거나 _백엔드_&#x200B;와 같은 일반적인 용어를 사용할 것을 권장합니다. 부적합한 행위자로부터 사이트를 직접 보호하지는 않지만 무단 액세스를 시도하는 스크립트에 대한 노출을 줄일 수 있습니다.
+[보안 모범 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices)로서, Adobe에서는 기본 _관리_ 대신 고유한 관리 URL을 사용하거나 _백엔드_&#x200B;와 같은 일반적인 용어를 사용할 것을 권장합니다. 부적합한 행위자로부터 사이트를 직접 보호하지는 않지만 무단 액세스를 시도하는 스크립트에 대한 노출을 줄일 수 있습니다.
 
 >[!NOTE]
 >
@@ -172,7 +172,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 >[!NOTE]
 >
->서버에서 구성 파일을 편집하는 방법을 모르는 경우 사전 예방차원에서 관리자 URL을 직접 변경하지 마십시오. 클라우드 인프라에 배포된 Adobe Commerce 프로젝트의 경우 *Adobe Commerce on Cloud Infrastructure 안내서*&#x200B;의 [지침](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url)에 따라 관리 URL을 변경하십시오.
+>서버에서 구성 파일을 편집하는 방법을 모르는 경우 사전 예방차원에서 관리자 URL을 직접 변경하지 마십시오. 클라우드 인프라에 배포된 Adobe Commerce 프로젝트의 경우 *Adobe Commerce on Cloud Infrastructure 안내서*&#x200B;의 [지침](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url)에 따라 관리 URL을 변경하십시오.
 
 ### 방법 1: 관리자의 변경
 
@@ -218,7 +218,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
    >[!TIP]
    >
-   >클라우드 인프라의 Adobe Commerce의 경우 클라우드 UI에서 `ADMIN_URL` 변수를 사용하여 사용자 지정 관리 경로를 설정할 수 있습니다. _Cloud Infrastructure의 Commerce 안내서_&#x200B;에서 [관리 변수 항목](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin)을(를) 참조하십시오.
+   >클라우드 인프라의 Adobe Commerce의 경우 클라우드 UI에서 `ADMIN_URL` 변수를 사용하여 사용자 지정 관리 경로를 설정할 수 있습니다. _Cloud Infrastructure의 Commerce 안내서_&#x200B;에서 [관리 변수 항목](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin)을(를) 참조하십시오.
 
    - **기본 관리자 경로**
 

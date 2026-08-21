@@ -66,4 +66,4 @@ Adobe Commerce 및 Magento Open Source의 핵심 기능은 다루지 않습니�
 
 [!DNL Page Builder] 문제를 해결하는 데 대한 도움말을 보려면 다음 [!DNL Commerce] 지원 기술 문서를 참조하십시오.
 
-- [DotDigital [!DNL Page Builder] 양식을 저장하면 빈 페이지가 표시됨](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved)
+- [DotDigital [!DNL Page Builder] 양식을 저장하면 빈 페이지가 표시됨](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved)

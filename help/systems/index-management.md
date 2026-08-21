@@ -3,7 +3,7 @@ title: 색인 관리
 description: 리인덱싱을 트리거하는 작업과 모범 사례를 포함하여 인덱스 관리에 대해 알아봅니다.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/0SKv03rtjLWNP0xXDqRh202Pvtw9XPkfkDiPCsGKgeE
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -37,7 +37,7 @@ Adobe Commerce 및 Magento Open Source은 하나 이상의 항목이 변경될 �
 인덱서는 저장 시 업데이트 또는 예약 시 업데이트로 설정할 수 있습니다. 저장 시만 지원하는 고객 그리드를 제외하고 모든 색인이 두 옵션 중 하나를 사용할 수 있습니다. 저장 시 색인화하면 Commerce은 저장 작업에 대한 색인 재지정을 시작합니다. 색인 관리 페이지는 업데이트를 완료하고 1~2분 내에 색인 재지정 메시지가 나타나도록 캐시를 플러시합니다. 일정에서 리인덱싱하는 경우 일정에 따라 리인덱싱이 cron job으로 실행됩니다. [cron 작업](cron.md)을(를) 사용하여 잘못된 인덱서를 업데이트할 수 없는 경우 시스템 메시지가 나타납니다. 색인 재지정 프로세스 중에는 저장소에 계속 액세스할 수 있습니다.
 
 >[!NOTE]
-> Live Search, Catalog Service 또는 Product Recommendations를 사용하는 Adobe Commerce 판매자는 [SaaS 기반 가격 인덱서](https://experienceleague.adobe.com/en/docs/commerce/price-indexer/price-indexing)를 사용할 수 있습니다.
+> Live Search, Catalog Service 또는 Product Recommendations를 사용하는 Adobe Commerce 판매자는 [SaaS 기반 가격 인덱서](https://experienceleague.adobe.com/ko/docs/commerce/price-indexer/price-indexing)를 사용할 수 있습니다.
 
 색인 재지정이 필요한 경우 페이지 상단에 알림이 표시됩니다. 색인 및 메시지는 색인 재지정 모드 및 수행할 수 있는 작업에 따라 지워집니다. 색인 지정에 대한 자세한 내용은 _PHP 개발자 안내서_&#x200B;에서 [응용 프로그램에서 색인을 구현하는 방법](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing)을 참조하십시오.
 
@@ -97,7 +97,7 @@ Adobe Commerce 및 Magento Open Source은 하나 이상의 항목이 변경될 �
 
 ## 명령줄을 사용하여 색인 재지정
 
-Commerce은 명령줄을 사용하여 추가 색인 재지정 옵션을 제공합니다. 자세한 내용 및 명령 옵션은 _구성 가이드_&#x200B;에서 [색인 재지정](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex){:target="blank"}을 참조하십시오.
+Commerce은 명령줄을 사용하여 추가 색인 재지정 옵션을 제공합니다. 자세한 내용 및 명령 옵션은 _구성 가이드_&#x200B;에서 [색인 재지정](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex){:target="blank"}을 참조하십시오.
 
 ## 인덱스 트리거 이벤트
 
