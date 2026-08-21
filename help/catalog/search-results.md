@@ -4,11 +4,21 @@ description: 제품이 빠른 검색 상자 또는 고급 검색 양식에 입�
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
 TQID: https://experienceleague.adobe.com/66fWLxfEO03dyaOfxN0M-JlUPqupTY4txCRybKxF4n8
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
 source-wordcount: 949
@@ -51,7 +61,7 @@ _검색 결과_ 목록에는 빠른 검색 상자 또는 고급 검색 양식에
 
 ### 1단계: 속성 만들기
 
-1. _[!UICONTROL Products]_목록에서 편집 모드로 `Montana Wind Jacket`(MJ03)을 엽니다.
+1. _[!UICONTROL Products]_&#x200B;목록에서 편집 모드로 `Montana Wind Jacket`(MJ03)을 엽니다.
 1. 오른쪽 상단에서 **[!UICONTROL Add Attribute]**&#x200B;을(를) 클릭합니다.
 1. _특성 선택_ 페이지에서 **[!UICONTROL Create New Attribute]**&#x200B;을(를) 클릭합니다.
 1. 다음과 같이 속성 속성을 완료합니다.
@@ -78,7 +88,7 @@ _검색 결과_ 목록에는 빠른 검색 상자 또는 고급 검색 양식에
 
 ### 2단계: 첫 번째 제품 매핑
 
-1. 제품 설정 페이지에서 아래로 스크롤하여 _[!UICONTROL Attributes]_섹션을 확장합니다.
+1. 제품 설정 페이지에서 아래로 스크롤하여 _[!UICONTROL Attributes]_&#x200B;섹션을 확장합니다.
 1. **[!UICONTROL Search Keywords]** 필드에 이 제품에 매핑할 SKU `MH01`을(를) 입력합니다.
 
    검색 키워드 필드에 공백으로 구분된 여러 SKU를 입력할 수 있습니다. 이 예제에서는 하나만 입력됩니다.
@@ -86,15 +96,15 @@ _검색 결과_ 목록에는 빠른 검색 상자 또는 고급 검색 양식에
    검색 키워드가 있는 ![특성 섹션](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동하여&#x200B;**[!UICONTROL Page Cache]**을(를) 새로 고칩니다.
+1. **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동하여&#x200B;**[!UICONTROL Page Cache]**&#x200B;을(를) 새로 고칩니다.
 
 ### 3단계: 두 번째 제품 매핑
 
-1. _[!UICONTROL Products]_목록에서 `Chaz Kangaroo Hoodie`(MH01)을(를) 편집 모드로 엽니다.
+1. _[!UICONTROL Products]_&#x200B;목록에서 `Chaz Kangaroo Hoodie`(MH01)을(를) 편집 모드로 엽니다.
 1. 아래로 스크롤하여 **[!UICONTROL Attributes]** 섹션을 확장합니다.
 1. **[!UICONTROL Search Keywords]** 필드에 다른 제품 `MJ03`의 SKU를 입력합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동하여&#x200B;**[!UICONTROL Page Cache]**을(를) 새로 고칩니다.
+1. **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동하여&#x200B;**[!UICONTROL Page Cache]**&#x200B;을(를) 새로 고칩니다.
 
 ### 4단계: 상점에서 테스트합니다.
 

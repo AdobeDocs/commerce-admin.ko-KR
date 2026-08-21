@@ -4,11 +4,25 @@ description: Adobe의 기능을 알아보세요 [!DNL Commerce] 쇼핑객을 위
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
 TQID: https://experienceleague.adobe.com/-0DU5NwX3wJZO91Z4jDmIGAXGZGCbtOqy1xJPpIom88
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
 source-wordcount: 2209
@@ -112,7 +126,7 @@ Adobe [!DNL Commerce] 고객은 기본 기능을 사용하고 있으며 다양�
 
 | 사용 사례 | 솔루션 |
 |---|---|
-| **개인화된 사이트 콘텐츠** - 제품 검색 및 카테고리 관심도와 같은 쇼핑객 작업을 기반으로 사이트 배너 및 기타 페이지 콘텐츠를 개인화합니다. A/B 테스트 또는 비즈니스 목표 결과에 따라 최적 콘텐츠를 배포합니다. | **Adobe [!DNL Commerce]만**:<br>세그먼트별 [다이내믹 콘텐츠 블록 배포](/help/content-design/dynamic-blocks.md).<br>**[!DNL Commerce] Real-Time CDP을 사용하여 **:<br>Real-Time CDP에서 프로필 및 대상을 중앙에서 관리하는 동시에 실시간 작업 및 통합 고객 프로필 데이터에 응답하는 대상별 다이내믹 콘텐츠 블록을 배포하려면 [Audience Activation](/help/customers/audience-activation.md)을(를) 사용합니다.<br>**[!DNL Commerce][!DNL Target]**:<br>Adobe [!DNL Target]에서 Adobe [!DNL Commerce] 데이터를 사용하여 콘텐츠, 탐색 항목, 전체 페이지 레이아웃 등 사이트 경험의 모든 부분을 개인화합니다. A/B 테스트 콘텐츠에서 각 고객에 대해 우수성이 검증된 콘텐츠를 자동으로 선택하고 배포합니다.<br>**[!DNL Commerce] AEM Assets을 사용하여&#x200B;**:<br>모든 콘텐츠를 Adobe Experience Manager Assets에 저장합니다. Adobe Commerce 내에서 해당 콘텐츠에 기본적으로 액세스합니다. 생성 AI를 사용하여 다양한 세그먼트나 대상자를 개인화할 수 있는 콘텐츠 변형을 만듭니다. |
+| **개인화된 사이트 콘텐츠** - 제품 검색 및 카테고리 관심도와 같은 쇼핑객 작업을 기반으로 사이트 배너 및 기타 페이지 콘텐츠를 개인화합니다. A/B 테스트 또는 비즈니스 목표 결과에 따라 최적 콘텐츠를 배포합니다. | **Adobe [!DNL Commerce]만**:<br>세그먼트별 [다이내믹 콘텐츠 블록 배포](/help/content-design/dynamic-blocks.md).<br>**[!DNL Commerce] Real-Time CDP을 사용하여 &#x200B;**:<br>Real-Time CDP에서 프로필 및 대상을 중앙에서 관리하는 동시에 실시간 작업 및 통합 고객 프로필 데이터에 응답하는 대상별 다이내믹 콘텐츠 블록을 배포하려면 [Audience Activation](/help/customers/audience-activation.md)을(를) 사용합니다.<br>**[!DNL Commerce]&#x200B;[!DNL Target]**:<br>Adobe [!DNL Target]에서 Adobe [!DNL Commerce] 데이터를 사용하여 콘텐츠, 탐색 항목, 전체 페이지 레이아웃 등 사이트 경험의 모든 부분을 개인화합니다. A/B 테스트 콘텐츠에서 각 고객에 대해 우수성이 검증된 콘텐츠를 자동으로 선택하고 배포합니다.<br>**[!DNL Commerce] AEM Assets을 사용하여&#x200B;**:<br>모든 콘텐츠를 Adobe Experience Manager Assets에 저장합니다. Adobe Commerce 내에서 해당 콘텐츠에 기본적으로 액세스합니다. 생성 AI를 사용하여 다양한 세그먼트나 대상자를 개인화할 수 있는 콘텐츠 변형을 만듭니다. |
 | **행동에 따라 개인화된 온사이트 오퍼** - 제품 검색 및 카테고리 관심도와 같은 쇼핑객 작업에 따라 프로모션을 개인화합니다. A/B 테스트 또는 비즈니스 목표에 따라 다음 최상의 오퍼를 배포합니다. | **Adobe [!DNL Commerce]만**:<br>세그먼트별 카탈로그 및 [장바구니 가격 규칙 배포](/help/merchandising-promotions/price-rules-cart.md).<br>**Real-Time CDP이 포함된 Adobe [!DNL Commerce]**:<br>Real-Time CDP에서 프로필/대상을 중앙에서 관리하면서 대상별 오퍼를 배포하려면 [Audience Activation](/help/customers/audience-activation.md)을(를) 사용하십시오.<br>**이[!DNL Target]**&#x200B;인 Commerce: offer decisioning을 사용하여 배포할 오퍼를 결정하거나 A/B 테스트를 수행하거나 비즈니스 목표를 설정하여 Adobe Commerce에 배포된 오퍼를 안내하십시오. |
 
 ### Analytics 및 인사이트

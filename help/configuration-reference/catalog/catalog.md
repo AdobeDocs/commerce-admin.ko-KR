@@ -4,11 +4,25 @@ description: Commerce 관리자의 [!UICONTROL Catalog] > [!UICONTROL Catalog] �
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
 TQID: https://experienceleague.adobe.com/YbozeuP9oPvSfHp1zSajemcBuqgkfrkxbfiJmuD625U
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
 source-wordcount: 3358
@@ -289,7 +303,7 @@ Adobe Commerce은 OpenSearch 및 Elasticsearch을 지원합니다. Adobe Commerc
 | [!UICONTROL OpenSearch HTTP Password] | 글로벌 | _Elasticsearch HTTP 인증 사용_&#x200B;이(가) `Yes`(으)로 설정된 경우 OpenSearch 또는 Elasticsearch HTTP 인증의 암호를 지정합니다. |
 | [!UICONTROL OpenSearch Server Timeout] | 글로벌 | OpenSearch 또는 Elasticsearch 서버에 대한 요청이 시간 초과되기 전 시간(초)을 결정합니다. 기본값: `15` |
 | [!UICONTROL Test Connection] |  | OpenSearch 또는 Elasticsearch 연결을 확인합니다. |
-| [!UICONTROL Enable Search Recommendations] | 스토어 뷰 | 검색 결과가 반환되지 않고 검색 결과 페이지의 `Related search terms` 섹션에 나타날 때 검색 권장 사항이 제공되는지 여부를 결정합니다. 옵션: `Yes` / `No` <br/>예로 설정하면 _[!UICONTROL Search Recommendations Count]_및_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;에 대한 추가 옵션이 표시됩니다. |
+| [!UICONTROL Enable Search Recommendations] | 스토어 뷰 | 검색 결과가 반환되지 않고 검색 결과 페이지의 `Related search terms` 섹션에 나타날 때 검색 권장 사항이 제공되는지 여부를 결정합니다. 옵션: `Yes` / `No` <br/>예로 설정하면 _[!UICONTROL Search Recommendations Count]_&#x200B;및_[!UICONTROL Shows Results Count for Each Recommendation]_&#x200B;에 대한 추가 옵션이 표시됩니다. |
 | [!UICONTROL Search Recommendations Count] | 스토어 뷰 | 권장 사항으로 제공된 검색어의 수를 지정합니다. 기본적으로 5개를 넘지 않도록 표시됩니다. |
 | [!UICONTROL Show Results Count for Each Recommendation] | 스토어 뷰 | `Yes`(으)로 설정하면 제안된 검색 권장 사항에 대해 검색된 제품 수가 대괄호 안에 표시됩니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | 스토어 뷰 | 일반적인 철자 오류에 대한 검색 제안이 표시되는지 여부를 결정합니다. 활성화하면 결과를 반환하지 않고 **검색 결과** 페이지의 `Did you mean` 섹션 아래에 표시되는 모든 요청에 대해 검색 제안이 제공됩니다. 검색 제안은 검색 성능에 영향을 줄 수 있습니다. `Yes`(으)로 설정하면 검색 권장 사항 사용 및 관련 필드에 대한 추가 옵션이 표시됩니다. 옵션: `Yes` / `No` |
@@ -312,7 +326,7 @@ Adobe Commerce은 OpenSearch 및 Elasticsearch을 지원합니다. Adobe Commerc
 | [!UICONTROL Default Link Title] | 스토어 뷰 | 다운로드 가능한 모든 제목의 기본 링크입니다. |
 | [!UICONTROL Opens Links in New Window] | 웹 사이트 | 다운로드 링크가 새 브라우저 창에서 열리는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Use Content Disposition] | 스토어 뷰 | 다운로드 가능한 콘텐츠에 대한 링크를 이메일 첨부 파일 또는 브라우저 창의 인라인 링크로 전달하는 방법을 결정합니다. 옵션: <br/>**`Attachment`**- 다운로드 링크가 전자 메일 첨부 파일로 제공됩니다.<br/>**`Inline`** - 다운로드 링크가 웹 페이지에서 인라인 링크로 제공됩니다. |
-| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 웹 사이트 | 다운로드 가능한 제품을 구입하는 게스트가 계정을 등록하고 로그인하여 체크아웃 프로세스를 완료해야 하는지 여부를 결정합니다. 옵션: <br/>**`Yes`**- 장바구니에 다운로드 가능한 제품이 포함되어 있는 경우, 게스트는 계정을 등록하거나 기존 계정에 로그인하여 구매를 완료해야 합니다.<br/>**`No`** - 다운로드 링크가 이메일 메시지 본문에서 인라인 링크로 전달됩니다.  <br/> _**참고:**_ 게스트 체크 아웃은 [공유 가능]이 `Yes`(으)로 설정된 경우에만 제품을 다운로드할 수 있습니다. |
+| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | 웹 사이트 | 다운로드 가능한 제품을 구입하는 게스트가 계정을 등록하고 로그인하여 체크아웃 프로세스를 완료해야 하는지 여부를 결정합니다. 옵션: <br/>**`Yes`**- 장바구니에 다운로드 가능한 제품이 포함되어 있는 경우, 게스트는 계정을 등록하거나 기존 계정에 로그인하여 구매를 완료해야 합니다.<br/>**`No`** - 다운로드 링크가 이메일 메시지 본문에서 인라인 링크로 전달됩니다.  <br/> _&#x200B;**참고:**&#x200B;_ 게스트 체크 아웃은 [공유 가능]이 `Yes`(으)로 설정된 경우에만 제품을 다운로드할 수 있습니다. |
 
 {style="table-layout:auto"}
 

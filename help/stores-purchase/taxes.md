@@ -4,11 +4,19 @@ description: 로케일의 요구 사항에 따라 세금을 계산하도록 스�
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
 TQID: https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 1129
@@ -95,7 +103,7 @@ ht-degree: 0%
 - 고객의 배송주소와 성공적 결제 거래 기록을 활용하여 고객의 거주지를 설정할 수 있다. (배송 주소가 결제 제공업체 정보와 일치하는 경우에만 결제가 수락됩니다.)
 - Commerce 데이터베이스 테이블의 데이터 저장소에서 직접 정보를 캡처할 수도 있습니다.
 
-_**디지털 상품 세금 정보를 수집하려면:**_
+_&#x200B;**디지털 상품 세금 정보를 수집하려면:**&#x200B;_
 
 1. 모든 EU 회원국에 대한 세율을 로드합니다.
 

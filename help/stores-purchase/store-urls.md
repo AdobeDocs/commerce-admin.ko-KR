@@ -5,11 +5,23 @@ exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/t-vp20uVrUmg-dRVONHjUUcgxzYBT5--uB8U1XorRPs
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
 source-wordcount: 1611
@@ -53,7 +65,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
      >[!NOTE]
      >
-     >_[!UICONTROL Base Link URL]_필드의 자리 표시자를 변경하지 마십시오. 기본 URL에 대한 상대 링크를 만드는 데 사용되는 자리 표시자입니다.
+     >_[!UICONTROL Base Link URL]_&#x200B;필드의 자리 표시자를 변경하지 마십시오. 기본 URL에 대한 상대 링크를 만드는 데 사용되는 자리 표시자입니다.
 
    - **[!UICONTROL Base URL for Static View Files]** — (선택 사항) 다음 자리 표시자로 시작하는 경로를 입력하여 정적 보기 파일의 기본 URL에 대한 대체 위치를 지정합니다.
 
@@ -98,7 +110,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
    - **[!UICONTROL Use Secure URLs on Storefront]**
    - **[!UICONTROL Use Secure URLs in Admin]**
 
-1. _[!UICONTROL Enhanced Security Settings]_의 경우 다음을 수행합니다.
+1. _[!UICONTROL Enhanced Security Settings]_&#x200B;의 경우 다음을 수행합니다.
 
    - **[!UICONTROL Enable HTTP Strict Transport Security (HSTS)]** — 저장소에 보안 HTTPS 페이지 요청만 표시하려면 `Yes`(으)로 설정하십시오.
 
@@ -118,7 +130,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널의 _[!UICONTROL General]_에서&#x200B;**[!UICONTROL Web]**을(를) 선택합니다.
+1. 왼쪽 패널의 _[!UICONTROL General]_&#x200B;에서&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL URL Options]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -226,7 +238,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 1. 다음 방법 중 하나를 사용하여 캐시를 지웁니다.
 
-   - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.**[!UICONTROL Flush Magento Cache]**을(를) 클릭합니다.
+   - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.**[!UICONTROL Flush Magento Cache]**&#x200B;을(를) 클릭합니다.
    - 서버에서 다음을 실행합니다.
 
      ```bash
@@ -265,7 +277,7 @@ bin/magento setup:config:set --backend-frontname="backend_front_name"
 
 1. 다음 방법 중 하나를 사용하여 캐시를 지웁니다.
 
-   - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.**[!UICONTROL Flush Magento Cache]**을(를) 클릭합니다.
+   - _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동합니다.**[!UICONTROL Flush Magento Cache]**&#x200B;을(를) 클릭합니다.
    - 서버에서 다음을 실행합니다.
 
      ```bash

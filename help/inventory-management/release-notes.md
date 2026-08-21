@@ -4,11 +4,22 @@ description: 각 Community Engineering 모듈 버전의 새로운 기능, 수정
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
 TQID: https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
 source-wordcount: 3542
@@ -133,11 +144,11 @@ Inventory management 1.2.4(모듈 버전: `magento/inventory-metapackage = 1.2.4
 
 ![해결된 문제](../assets/fix.svg) 10,000개 항목을 초과하는 재고 관리가 개선되었습니다. 이전에는 성능 문제로 인해 판매자가 웹 사이트를 시작하기 전에 관리자에서 재고를 편집할 수 없었던 경우가 있었습니다. <!--- MC-42643-->
 
-![문제 해결](../assets/fix.svg) 관리자의 **[!UICONTROL User Roles]** 페이지가 업데이트되어 관리자에게 배달 메서드 구성에 대한 제한된 권한을 제공합니다. _배송 방법_ 섹션의 이름이 _[!UICONTROL Delivery methods]_(으)로 변경되었으며_[!UICONTROL In-Store Pickup]_&#x200B;이(가) _[!UICONTROL Delivery methods]_섹션 아래로 이동되었습니다. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
+![문제 해결](../assets/fix.svg) 관리자의 **[!UICONTROL User Roles]** 페이지가 업데이트되어 관리자에게 배달 메서드 구성에 대한 제한된 권한을 제공합니다. _배송 방법_ 섹션의 이름이 _[!UICONTROL Delivery methods]_(으)로 변경되었으며&#x200B;_[!UICONTROL In-Store Pickup]_&#x200B;이(가) _[!UICONTROL Delivery methods]_&#x200B;섹션 아래로 이동되었습니다. [GitHub-30053](https://github.com/magento/magento2/issues/30053) <!--- MC-41545-->
 
 ![해결된 문제](../assets/fix.svg) API에 의해 대변 메모가 업데이트된 후 Adobe Commerce에서 더 이상 중복 제품 예약을 만들지 않습니다. <!--- MC-41757-->
 
-![해결된 문제](../assets/fix.svg) 체크아웃 워크플로에서 _[!UICONTROL Pick up in Store]_탭에서_[!UICONTROL Shipping]_ 탭으로 전환하면 매장 내 픽업 배달만 사용할 수 있는 경우 더 이상 JavaScript 오류가 트리거되지 않습니다. <!--- MC-42808-->
+![해결된 문제](../assets/fix.svg) 체크아웃 워크플로에서 _[!UICONTROL Pick up in Store]_&#x200B;탭에서&#x200B;_[!UICONTROL Shipping]_ 탭으로 전환하면 매장 내 픽업 배달만 사용할 수 있는 경우 더 이상 JavaScript 오류가 트리거되지 않습니다. <!--- MC-42808-->
 
 ![해결된 문제](../assets/fix.svg) 판매 가능한 제품 수량과 재고 있는 제품 수량이 올바르게 동기화되었습니다. 이전에는 취소된 주문에 대해 재고 예약 보상이 다시 생성되지 않았습니다. <!--- MC-42485-->
 
