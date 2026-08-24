@@ -6,7 +6,7 @@ role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: c67474ee4b72744766421090e30c56c85d687495
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 5%
@@ -69,4 +69,4 @@ ht-degree: 5%
 + 참조 {#reference}
   + [이전 버전과 호환 불가능한 변경 사항](backward-incompatible-changes.md)
   + [패키지](packages.md)
-+ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
++ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
