@@ -4,7 +4,7 @@ description: Commerce 관리자의 [!UICONTROL Advanced] > [!UICONTROL System] �
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/9QNzCxuwy1v5xR6YNE4On3woJ4mw-SnWB3m-me-nrb0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -206,7 +206,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | 글로벌 | 전체 페이지 캐시를 관리하는 데 사용할 응용 프로그램을 결정합니다. 옵션: <br/>**`Built-in Application`**- 프로덕션 환경에는 권장되지 않습니다.<br/>**`Varnish Caching`** - 프로덕션 환경에 권장됩니다. |
 | [!UICONTROL TTL for public content] | 글로벌 | 공개 콘텐츠 캐시의 라이프타임(초)을 결정합니다. 기본값: `120` |
-| [!UICONTROL Handles param size] | 글로벌 | [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP 끝점에서 처리할 최대 [레이아웃 핸들](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) 수를 지정합니다. 크기를 제한하면 보안과 성능을 향상시킬 수 있습니다. 기본값: `100` |
+| [!UICONTROL Handles param size] | 글로벌 | [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP 끝점에서 처리할 최대 [레이아웃 핸들](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) 수를 지정합니다. 크기를 제한하면 보안과 성능을 향상시킬 수 있습니다. 기본값: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | 글로벌 | 구성 파일을 생성하기 위해 바니시 구성을 제거할 수 있는 IP 주소를 지정합니다. 여러 항목은 쉼표로 구분하십시오. 기본값: `localhost` |
 | [!UICONTROL Backend host] | 글로벌 | 구성 파일을 생성하는 백엔드 호스트를 지정합니다. 기본값: `localhost` |
@@ -286,7 +286,7 @@ ht-degree: 1%
 
 ![고급 구성 - 이미지 업로드 구성](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
