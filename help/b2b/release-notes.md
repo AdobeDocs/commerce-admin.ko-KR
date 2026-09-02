@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+source-git-commit: 9d91acc3bebbdaeab13c80ba4b2b3e418e13e42b
 workflow-type: tm+mt
-source-wordcount: 11212
+source-wordcount: 11210
 ht-degree: 0%
 
 ---
@@ -189,7 +189,7 @@ B2B v1.5.3 릴리스에는 품질 개선 사항, 버그 수정 사항 및 [보�
 
 *2026년 5월 12일*
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.8-p5, 2.4.7-p10 및 2.4.6-p15 보안 패치 릴리스.
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.7-p10 및 2.4.6-p15 보안 패치 릴리스.
 Adobe Commerce 버전 2.4.7 - 2.4.7-p10, 2.4.6 - 2.4.6-p15와 호환됩니다.
 
 ![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB26-49](https://helpx.adobe.com/security/products/magento/apsb26-49.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
