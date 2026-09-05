@@ -1,7 +1,7 @@
 ---
-source-git-commit: ddb16ac856b75e3a4fcc1bd620b6e5b1dab321d5
+source-git-commit: 5de2260c4c7324a509aa0f4154220b7ff8bedd73
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '270'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## 새로운 기능
 
 이 섹션에는 지난 60일 동안 변경된 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 8월 31일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>에 대해 지원되는 버전 목록에서 Adobe Commerce 2.4.8-p5를 제거했습니다. 2.4.8 고객은 B2B 버전 1.5.3을 대신 사용해야 합니다.</p>
+</td>
+      <td>
+        기술
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/fab7dc8f780fa68c147a06752dc96bd7b03444a2">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 8월 4일
 
@@ -73,28 +95,6 @@ ht-degree: 2%
         새 주제
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6cd9281329fd909e38e4bbf41159eadfed2f9ad3">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 6월 30일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Admin Console에서 시스템 관리자 할당 관리에 대한 지침과 함께 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">시스템 관리자 액세스 업데이트</a>를 추가했습니다.</p>
-</td>
-      <td>
-        피드백
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/927b633eaa9af471440cfb950b429a60b3df94a8">커밋</a></td>
     </tr>
   </tbody>
 </table>
