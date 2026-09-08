@@ -20,12 +20,13 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 6f1f13b75aa01c5142cc8ea03cef2df6d2d3aaf3
 workflow-type: tm+mt
-source-wordcount: 3400
+source-wordcount: 3608
 ht-degree: 0%
 
 ---
+
 
 # 장바구니 가격 규칙 만들기
 
@@ -73,10 +74,11 @@ ht-degree: 0%
      ![장바구니 가격 규칙 - 쿠폰 설정](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
    - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) _일정_(![일정 아이콘](../assets/icon-calendar.png))을 사용하여 프로모션의 **[!UICONTROL From]** 및 **[!UICONTROL To]** 날짜 범위를 선택하십시오.
+   - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce as a Cloud Service만 해당) _캘린더_(![캘린더 아이콘](../assets/icon-calendar.png))을(를) 사용하여 프로모션의 **[!UICONTROL From]** 및 **[!UICONTROL To]** 날짜 및 시간 범위를 선택하십시오.
 
 1. 동시에 활성화된 다른 가격 규칙의 작업 설정과 관련하여 이 가격 규칙의 **[!UICONTROL Priority]**&#x200B;을(를) 정의할 숫자를 입력하십시오.
 
-   여러 장바구니 규칙이나 쿠폰이 동일한 제품에 적용되는 경우, 우선 순위가 가장 높은(가장 낮은 숫자) 규칙이 먼저 적용됩니다. 우선 순위가 같은 규칙은 결합되지 않습니다. 규칙 ID를 기반으로 별도로 적용됩니다. 할인이 적용되는 순서를 제어하려면 고유한 우선 순위를 지정하고, 할인 스태킹을 방지하기 위해 작업 단계에서 [후속 가격 규칙 무시](#step-3-define-the-actions)를 사용하는 것이 좋습니다.
+   여러 장바구니 규칙이나 쿠폰이 동일한 제품에 적용되는 경우, 우선 순위가 가장 높은(가장 낮은 숫자) 규칙이 먼저 적용됩니다. 우선 순위가 동일한 규칙은 결합되지 않습니다. 규칙 ID를 기반으로 별도로 적용됩니다. 할인이 적용되는 순서를 제어하려면 고유한 우선 순위를 지정하고, 할인 스태킹을 방지하기 위해 작업 단계에서 [후속 가격 규칙 무시](#step-3-define-the-actions)를 사용하는 것이 좋습니다.
 
 1. 게시된 [RSS 피드](social-rss.md#rss-feeds)에 규칙을 적용하려면 **RSS 피드에서 공개**&#x200B;를 `Yes`(으)로 설정하십시오.
 
@@ -250,6 +252,7 @@ Real-Time CDP [대상자](../customers/audience-activation.md)를 기반으로 �
    | `Fixed amount discount` | 장바구니에 있는 각 적격 품목의 최초 가격에서 고정 금액을 차감하여 품목을 할인합니다. 예를 들어 [!UICONTROL Discount Amount]에 `10`을(를) 입력하여 원래 가격보다 $10만큼 저렴한 업데이트된 가격을 입력합니다. |
    | 장바구니 전체에 대한 고정 금액 할인 | 장바구니 합계에서 고정 금액을 빼서 전체 장바구니를 할인합니다. 예를 들어 장바구니 합계에서 $10를 빼려면 [!UICONTROL Discount Amount]에 10을 입력합니다. 기본적으로 할인율은 장바구니 소계에만 적용됩니다. 소계 및 배송에 별도로 할인을 적용하려면 _[!UICONTROL Apply to Shipping Amount]_&#x200B;옵션을 사용하십시오. |
    | `Buy X get Y free` | 고객이 같은 제품/변형 **의 Y**&#x200B;개 수량을 무료로 받기 위해 구매해야 하는 X 수량을 정의합니다. ([!UICONTROL Discount Amount]은(는) Y입니다.) 할인이 적용되려면 동일한 품목의 총 X+Y 수량이 장바구니에 있거나 장바구니에 추가되어야 합니다. |
+   | `Free Gift` | 규칙 조건이 충족되면 무료 선물 제품을 장바구니에 추가합니다. 무료 제품 및 장바구니에 추가할 수량을 선택합니다. <br/><br/>**참고:** ![Adobe Commerce](../assets/adobe-logo.svg) 이 기능은 Adobe Commerce에서만 사용할 수 있으며 Magento Open Source에서는 사용할 수 없는 전용 기능입니다. ([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home#product-editions)) <br/><br/>이 기능은 Luma 상점 앞에서는 지원되지 않습니다. [GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/)을 통해 액세스할 수 있으며 Edge Delivery Services(EDS) 상점 앞에서도 사용할 수 있습니다. |
 
    {style="table-layout:auto"}
 
@@ -363,8 +366,8 @@ Real-Time CDP [대상자](../customers/audience-activation.md)를 기반으로 �
 | [!UICONTROL Uses per Customer] | 선택한 고객 그룹에 속하는 등록된 동일한 고객이 장바구니 가격 규칙을 사용할 수 있는 횟수를 결정합니다. NOT LOGGED IN 고객 그룹의 멤버인 게스트 쇼핑객이나 계정에 로그인하지 않고 쇼핑하는 고객에게는 적용되지 않습니다. 제한을 두지 않으려면 비워 둡니다. |
 | [!UICONTROL Priority] | 다른 규칙과 관련한 이 규칙의 우선 순위를 나타내는 숫자입니다. 높은 우선 순위에서 낮은 우선 순위는 `0,1,2,3...`입니다. |
 | [!UICONTROL Public in RSS Feed] | 스토어의 공개 RSS 피드에 프로모션이 포함되어 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 쿠폰을 사용할 수 있는 첫 번째 날짜입니다. |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 쿠폰을 사용할 수 있는 마지막 날짜입니다. |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 쿠폰을 사용할 수 있는 첫 번째 날짜입니다.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service]만 해당) 쿠폰을 사용할 수 있는 날짜와 시간입니다. |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 전용) 쿠폰을 사용할 수 있는 마지막 날짜입니다.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service]만 해당) 쿠폰을 사용할 수 있는 마지막 날짜 및 시간입니다. |
 
 {style="table-layout:auto"}
 
@@ -401,7 +404,7 @@ Real-Time CDP [대상자](../customers/audience-activation.md)를 기반으로 �
 
 | 필드 | 설명 |
 |--- |--- |
-| [!UICONTROL Apply] | 구매에 적용되는 계산 유형을 결정합니다. 옵션: <br/>**[!UICONTROL Percent of product price discount]**- 원래 가격에서 백분율을 뺀 할인 항목입니다. 예를 들어 원래 가격보다 10% 낮은 업데이트된 가격을 보려면 _[!UICONTROL Discount Amount]_&#x200B;에 `10`을(를) 입력하십시오.<br/>**[!UICONTROL Fixed amount discount]**- 장바구니에 있는 각 적격 항목의 원래 가격에서 고정 금액을 빼서 항목을 할인합니다. 예를 들어&#x200B;_[!UICONTROL Discount Amount]_&#x200B;에 `10`을(를) 입력하여 원래 가격보다 $10만큼 저렴한 업데이트된 가격을 입력합니다. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- 장바구니 소계에서 고정 금액을 빼서 전체 장바구니를 할인합니다. 예를 들어 장바구니 소계에서 $10를 빼려면 _[!UICONTROL Discount Amount]_&#x200B;에 `10`을(를) 입력하십시오. 기본적으로 할인율은 장바구니 소계에만 적용됩니다. 소계 및 배송에 별도로 할인을 적용하려면_배송 금액에 적용&#x200B;_을 참조하십시오.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- 고객이 구매해야 하는 수량을 정의하여 무료로 수량을 받습니다. (_[!UICONTROL Discount Amount]_&#x200B;은(는) Y입니다.) |
+| [!UICONTROL Apply] | 구매에 적용되는 계산 유형을 결정합니다. 옵션: <br/>**[!UICONTROL Percent of product price discount]**- 원래 가격에서 백분율을 뺀 할인 항목입니다. 예를 들어 원래 가격보다 10% 낮은 업데이트된 가격을 보려면 _[!UICONTROL Discount Amount]_&#x200B;에 `10`을(를) 입력하십시오.<br/>**[!UICONTROL Fixed amount discount]**- 장바구니에 있는 각 적격 항목의 원래 가격에서 고정 금액을 빼서 항목을 할인합니다. 예를 들어&#x200B;_[!UICONTROL Discount Amount]_&#x200B;에 `10`을(를) 입력하여 원래 가격보다 $10만큼 저렴한 업데이트된 가격을 입력합니다. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- 장바구니 소계에서 고정 금액을 빼서 전체 장바구니를 할인합니다. 예를 들어 장바구니 소계에서 $10를 빼려면 _[!UICONTROL Discount Amount]_&#x200B;에 `10`을(를) 입력하십시오. 기본적으로 할인율은 장바구니 소계에만 적용됩니다. 소계 및 배송에 별도로 할인을 적용하려면_배송 금액에 적용&#x200B;_을 참조하십시오.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- 고객이 구매해야 하는 수량을 정의하여 무료로 수량을 받습니다. (_[!UICONTROL Discount Amount]_&#x200B;은(는) Y입니다.) <br/>**[!UICONTROL Free Gift]**- 규칙 조건이 충족되면 장바구니에 사은품 제품을 추가합니다. 무료 제품 및 장바구니에 추가할 수량을 선택합니다. ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce 전용). 이 기능은 Luma 상점 전면에서 지원되지 않습니다. [GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/)을 통해 액세스할 수 있으며 Edge Delivery Services(EDS) 상점 앞에서도 사용할 수 있습니다. |
 | [!UICONTROL Discount Amount] | (필수) 제공된 할인 금액. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | 동일한 구매에서 할인을 적용할 수 있는 최대 제품 수를 설정합니다. |
 | [!UICONTROL Discount Qty Step (Buy X)] | `Buy X Get Y Free` 프로모션에서 `X`(으)로 표시되는 제품 수를 설정합니다. 또한 `Fixed amount discount` 및 `Percent of product price discount` 프로모션을 적용하려면 장바구니에 몇 개의 제품을 일괄적으로 추가해야 하는지 정의합니다. |

@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: efbe6e4f07ff66b2deb91127b4f69eca5e4015f1
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1168
 ht-degree: 0%
 
 ---
@@ -157,6 +157,10 @@ ht-degree: 0%
   >하위 옵션이 있는 구성 가능한 제품의 수량은 모든 판매 가능한 하위 제품 수량을 결합하여 계산됩니다. 자주색, 빨간색 및 노란색 색상 옵션과 각각의 수량이 다른 구성 가능한 제품 _기본 피트니스 탱크_&#x200B;가 있는 예를 생각해 보십시오. 이 경우 모제품(기초체력조) 수량은 보라색, 붉은색, 노란색의 아동용품을 합한 판매가능량이다.
 
 - **[!UICONTROL Operator]** - 조건을 충족하도록 특성 값에 적용되는 연산자를 지정합니다. 연산자를 지정하지 않으면 `Equal`이(가) 기본값으로 사용됩니다. 옵션: `Equal`, `Not equal`, `Greater than`, `Greater than or equal to`, `Less than`, `Less than or equal to` 및 `Contains`
+
+  **[!UICONTROL Contains]** 연산자는 쉼표로 구분된 여러 값을 허용하며 속성 값에 논리 OR 연산과 유사하게 둘 중 하나 이상이 포함되어 있는 경우 일치합니다. 예를 들어 **[!UICONTROL Contains]**: `casual, party`은(는) `casual` 또는 `party`을(를) 포함하는 모든 값과 일치합니다.
+
+  이 연산자를 사용하여 각 용어에 대해 별도의 행을 만드는 대신 여러 용어를 하나의 규칙 행으로 조합합니다.
 
 - **[!UICONTROL Value]** - 특성이 조건을 충족해야 하는 값을 지정합니다.
 

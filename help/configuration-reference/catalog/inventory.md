@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+source-git-commit: 449593264c88c9090b26ffbc8e87a8d70d4cbfe9
 workflow-type: tm+mt
-source-wordcount: 1224
+source-wordcount: 1296
 ht-degree: 0%
 
 ---
@@ -69,6 +69,18 @@ ht-degree: 0%
 | [!UICONTROL Enable Qty Increments] | 글로벌 | 품목을 수량 단위로 판매할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
 | [!UICONTROL Qty Increments] | 글로벌 | 수량 증분을 구성하는 제품 수를 설정합니다. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | 글로벌 | 대변 메모에 포함된 항목을 자동으로 재고로 반환할지 여부를 결정합니다. 옵션: `Yes` / `No` |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Per-Source Availability (Storefront)]
+
+![Source 단위 가용성(상점 첫 화면)](./assets/catalog-inventory-per-source-availability.png)<!-- zoom -->
+
+<!-- [Per-Source Availability (Storefront)](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/configuration/global-options) -->
+
+| 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
+|--- |--- |--- |
+| [!UICONTROL Enable sourceAvailability GraphQL Query] | 스토어 뷰 | `Yes`(으)로 설정된 경우 상점 [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} 쿼리는 상점의 판매 채널에 대한 소스 스톡 당 값을 반환합니다. 옵션: `Yes` / `No`. 쿼리에서 SKU를 포함하는 원본을 공개하므로 기본값: `No`. 비활성화되면 쿼리가 오류를 반환합니다. 쿼리에서 반환된 정확한 수량은 소스 수량이 [Stock 옵션](#stock-options) 섹션에 설정된 **[!UICONTROL Only X left Threshold]**&#x200B;에 도달할 때까지 마스킹됩니다. |
 
 {style="table-layout:auto"}
 
