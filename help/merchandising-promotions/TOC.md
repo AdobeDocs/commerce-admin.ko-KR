@@ -5,9 +5,9 @@ breadcrumb-title: 머천다이징 및 프로모션
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: ef07733f89af030f047576770655f6599b370351
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '276'
 ht-degree: 1%
 
 ---
@@ -52,6 +52,7 @@ ht-degree: 1%
     - [장바구니 가격 규칙 개요](price-rules-cart.md)
     - [장바구니 가격 규칙 만들기](price-rules-cart-create.md)
     - [쿠폰 코드](price-rules-cart-coupon.md)
+    - [무료 선물 프로모션](price-rules-cart-free-gift.md)
     - [장바구니 가격 규칙에 대한 예약된 변경 사항](price-rule-cart-scheduled-changes.md)
     - [예: 무료 배송 프로모션](price-rules-cart-free-shipping.md)
     - [예: 이 제품을 구입하면 무료로 제공됩니다.](price-rules-cart-buy-this-get-that.md)
@@ -87,4 +88,4 @@ ht-degree: 1%
   - [Google Analytics](google-analytics.md)
   - [Google 태그 관리자](google-tag-manager.md)
   - [Google Adwords](google-adwords.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
