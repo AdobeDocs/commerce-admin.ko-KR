@@ -230,7 +230,7 @@ Real-Time CDP [대상자](../customers/audience-activation.md)를 기반으로 �
    | `Name` | 대상 이름(예: `Orders over $50`) |
    | `Description` | 대상자에 대한 설명(예: `People who placed an order over $50 in the last month.`). |
    | `Source` | 대상자가 있었던 위치(예: `Experience Platform`)를 나타냅니다. |
-   | `Website` | 대상자를 포함하는 데이터 스트림에 연결한 웹 사이트를 나타냅니다. [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data) 확장을 통해 Commerce 인스턴스를 Experience Platform에 연결할 때 이 링크를 만듭니다. |
+   | `Website` | 대상자를 포함하는 데이터 스트림에 연결한 웹 사이트를 나타냅니다. [[!DNL Data Connection]](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/fundamentals/connect-data) 확장을 통해 Commerce 인스턴스를 Experience Platform에 연결할 때 이 링크를 만듭니다. |
 
    {style="table-layout:auto"}
 
@@ -252,7 +252,7 @@ Real-Time CDP [대상자](../customers/audience-activation.md)를 기반으로 �
    | `Fixed amount discount` | 장바구니에 있는 각 적격 품목의 최초 가격에서 고정 금액을 차감하여 품목을 할인합니다. 예를 들어 [!UICONTROL Discount Amount]에 `10`을(를) 입력하여 원래 가격보다 $10만큼 저렴한 업데이트된 가격을 입력합니다. |
    | 장바구니 전체에 대한 고정 금액 할인 | 장바구니 합계에서 고정 금액을 빼서 전체 장바구니를 할인합니다. 예를 들어 장바구니 합계에서 $10를 빼려면 [!UICONTROL Discount Amount]에 10을 입력합니다. 기본적으로 할인율은 장바구니 소계에만 적용됩니다. 소계 및 배송에 별도로 할인을 적용하려면 _[!UICONTROL Apply to Shipping Amount]_&#x200B;옵션을 사용하십시오. |
    | `Buy X get Y free` | 고객이 같은 제품/변형 **의 Y**&#x200B;개 수량을 무료로 받기 위해 구매해야 하는 X 수량을 정의합니다. ([!UICONTROL Discount Amount]은(는) Y입니다.) 할인이 적용되려면 동일한 품목의 총 X+Y 수량이 장바구니에 있거나 장바구니에 추가되어야 합니다. |
-   | `Free Gift` | 규칙 조건이 충족되면 무료 선물 제품을 장바구니에 추가합니다. 무료 제품 및 장바구니에 추가할 수량을 선택합니다. <br/><br/>**참고:** ![Adobe Commerce](../assets/adobe-logo.svg) 이 기능은 Adobe Commerce에서만 사용할 수 있으며 Magento Open Source에서는 사용할 수 없는 전용 기능입니다. ([자세히 알아보기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home#product-editions)) <br/><br/>이 기능은 Luma 상점 앞에서는 지원되지 않습니다. [GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/)을 통해 액세스할 수 있으며 Edge Delivery Services(EDS) 상점 앞에서도 사용할 수 있습니다. |
+   | `Free Gift` | 규칙 조건이 충족되면 무료 선물 제품을 장바구니에 추가합니다. 무료 제품 및 장바구니에 추가할 수량을 선택합니다. <br/><br/>**참고:** ![Adobe Commerce](../assets/adobe-logo.svg) 이 기능은 Adobe Commerce에서만 사용할 수 있으며 Magento Open Source에서는 사용할 수 없는 전용 기능입니다. ([자세히 알아보기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home#product-editions)) <br/><br/>이 기능은 Luma 상점 앞에서는 지원되지 않습니다. [GraphQl](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/)을 통해 액세스할 수 있으며 Edge Delivery Services(EDS) 상점 앞에서도 사용할 수 있습니다. |
 
    {style="table-layout:auto"}
 
