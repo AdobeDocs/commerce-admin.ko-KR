@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5de2260c4c7324a509aa0f4154220b7ff8bedd73
+source-git-commit: 7023d4aafdb2e44da3b5b00a66f0bf6285ea8890
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '192'
 ht-degree: 2%
 
 ---
@@ -73,28 +73,6 @@ ht-degree: 2%
         주요 업데이트, 새 주제
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/a5d95844e8e81ea4d401e79ebc1f236aab977dcd">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 7월 9일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>관리자에서 AI가 제안하는 제품 이름 및 설명 업데이트를 검토하고 적용하기 위한 지침이 포함된 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/catalog-enrichment">카탈로그 보강</a>을 추가하고 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog-menu">카탈로그 메뉴</a>, <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/guide-overview">안내서 개요</a> 및 관련 제품 설정 항목에서 주제를 연결했습니다.</p>
-</td>
-      <td>
-        새 주제
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6cd9281329fd909e38e4bbf41159eadfed2f9ad3">커밋</a></td>
     </tr>
   </tbody>
 </table>
