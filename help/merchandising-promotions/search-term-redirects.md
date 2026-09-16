@@ -46,7 +46,7 @@ ht-degree: 0%
 | 요구 사항 | 권장 기능 |
 | --- | --- |
 | 표준 [!DNL Adobe Commerce] 검색에서 페이지로 특정 쿼리 보내기 | 지원되는 경우 [검색어 관리](../catalog/search-terms.md)에서 검색어를 구성하십시오. |
-| 제품 순위 또는 검색 결과의 가시성 변경 | [!DNL Live Search] [동의어](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/synonyms/synonyms) 또는 [머천다이징 규칙](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/rules/rules-add)을 사용하십시오. |
+| 제품 순위 또는 검색 결과의 가시성 변경 | [!DNL Live Search] [동의어](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/synonyms/synonyms) 또는 [머천다이징 규칙](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/rules/rules-add)을 사용하십시오. |
 | 이전 제품, 카테고리 또는 CMS URL 리디렉션 | 배포에 적용되는 경우 Commerce [URL 다시 작성](url-rewrite.md) 도구를 사용하십시오. |
 | [!DNL Edge Delivery Services] 경로 리디렉션 | Storefront 또는 CDN 라우팅을 사용합니다. |
 | Storefront 마이그레이션 후 기존 URL 유지 | 기존-새 URL 리디렉션 맵을 만들고 테스트합니다. |
@@ -83,13 +83,13 @@ URL 다시 작성 도구를 지원하는 배포의 경우 **[!UICONTROL Marketin
 
 검색 관련성, 제품 순위 또는 제품 가시성을 변경해야 하는 경우 [!DNL Live Search]을(를) 사용하십시오. 다른 단어가 유사한 제품을 반환해야 할 때 동의어를 사용하십시오. 제품을 부스팅하거나, 묻거나, 다른 등급으로 매겨야 하는 경우 머천다이징 규칙을 사용합니다.
 
-[!DNL Live Search] 검색 동작은 모든 기본 Commerce 검색어 구성에 대해 드롭인 대체 항목으로 간주해서는 안 됩니다. 쿼리가 콘텐츠 또는 캠페인 페이지로 이동해야 하는 경우 요청을 수신하는 상점 또는 에지 라우팅 계층에서 리디렉션을 구현합니다. 자세한 내용은 [[!DNL Live Search] 설명서](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)를 참조하세요.
+[!DNL Live Search] 검색 동작은 모든 기본 Commerce 검색어 구성에 대해 드롭인 대체 항목으로 간주해서는 안 됩니다. 쿼리가 콘텐츠 또는 캠페인 페이지로 이동해야 하는 경우 요청을 수신하는 상점 또는 에지 라우팅 계층에서 리디렉션을 구현합니다. 자세한 내용은 [[!DNL Live Search] 설명서](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)를 참조하세요.
 
 ## Edge Delivery Services
 
 [!DNL Edge Delivery Services]에서 제공하는 Storefront의 경우 Storefront 또는 Edge-routing 계층에서 리디렉션을 관리합니다. [!DNL Adobe Commerce] 관리자 URL이 모든 요청에 대한 제어를 다시 작성한다고 가정하지 마십시오.
 
-문서 작성을 사용하는 경우 사이트의 리디렉션 구성에서 리디렉션 매핑을 유지 관리합니다. 요청이 원본에 도달하기 전에 실행해야 하는 리디렉션의 경우 적절한 CDN 또는 Edge 구성을 사용하십시오. 관련 SEO 지침은 [Commerce Storefront에 대한 SEO 지침](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)을 참조하세요.
+문서 작성을 사용하는 경우 사이트의 리디렉션 구성에서 리디렉션 매핑을 유지 관리합니다. 요청이 원본에 도달하기 전에 실행해야 하는 리디렉션의 경우 적절한 CDN 또는 Edge 구성을 사용하십시오. 관련 SEO 지침은 [Commerce Storefront에 대한 SEO 지침](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=ko)을 참조하세요.
 
 ## Luma에서 마이그레이션
 
