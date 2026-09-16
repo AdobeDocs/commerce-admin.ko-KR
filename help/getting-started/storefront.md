@@ -6,29 +6,40 @@ feature: Storefront
 TQID: https://experienceleague.adobe.com/b8JEobTQ3fDladcIZj5Bt7eaYPN7-p7PsB-siKLITCw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Content reuse
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: 1223
+source-wordcount: '1347'
 ht-degree: 0%
-
 ---
-
 # 가게 앞이 뭐죠?
 
 Adobe Commerce 또는 Magento Open Source 구현 내에서 상점 전면은 상점의 외부 공개 부분입니다. 고객이 쇼핑하고 구매하는 데 사용하는 콘텐츠 및 기능 구성 요소를 제공합니다.
@@ -51,7 +62,7 @@ Edge Delivery Services에서 제공하는 [!DNL **Commerce Storefront**]&#x200B;
 
 Edge Delivery Services에서 제공하는 Commerce Storefront는 판매자와 개발자 모두에게 도움이 되는 몇 가지 주요 기능을 제공합니다. 이러한 기능을 통해 기업은 매력적인 쇼핑 경험을 만들 수 있을 뿐만 아니라 필요에 따라 매장을 맞춤화하고 확장할 수 있는 유연성을 유지할 수 있습니다.
 
-Commerce Storefront 설정 및 최적화에 대한 자세한 정보와 지침은 [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/ko/docs/commerce)를 참조하십시오.
+Commerce Storefront 설정 및 최적화에 대한 자세한 정보와 지침은 [Adobe Commerce Storefront 설명서](https://experienceleague.adobe.com/en/docs/commerce)를 참조하십시오.
 
 >[!BEGINTABS]
 
@@ -100,13 +111,15 @@ Headless 구현을 통해 개발자는 프론트엔드 프레젠테이션 레이
 
 ### [!DNL Live Search]
 
-Adobe Commerce용 [[!DNL Live Search]](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)을(를) 사용하면 스토어에서 빠르고, 관련성이 높고, 직관적인 검색 환경을 제공할 수 있으며, Adobe Commerce에서 추가 비용 없이 사용할 수 있습니다.
+Adobe Commerce용 [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)을(를) 사용하면 스토어에서 빠르고, 관련성이 높고, 직관적인 검색 환경을 제공할 수 있으며, Adobe Commerce에서 추가 비용 없이 사용할 수 있습니다.
 
 ![실시간 검색 예 - 입력한 대로 검색](./assets/storefront-search-as-you-type.png){width="700"}
 
 ### 표준 카탈로그 검색
 
 [표준 카탈로그 검색](../catalog/search.md)을 사용하는 저장소에 오른쪽 상단의 검색 상자와 바닥글의 고급 검색 링크가 있습니다. 구매자가 제출하는 모든 검색어가 저장되므로 고객이 찾고 있는 항목을 정확하게 확인할 수 있습니다. 제안을 제공하고 동의어와 일반적인 철자를 입력할 수 있습니다. 그런 다음 검색어를 입력할 때 특정 페이지를 표시합니다.
+
+[!DNL Live Search] 또는 [!DNL Edge Delivery Services]에 대한 검색어 리디렉션, URL 다시 쓰기 및 라우팅에 대한 지침은 [검색어 리디렉션 및 상점 간 라우팅](../merchandising-promotions/search-term-redirects.md)을 참조하세요.
 
 ![표준 카탈로그 검색 결과의 예](./assets/storefront-search-results-page-full.png){width="700"}
 
@@ -129,7 +142,7 @@ Adobe Commerce용 [[!DNL Live Search]](https://experienceleague.adobe.com/ko/doc
 1. 배송 정보
 
    체크아웃 프로세스의 첫 단계는 고객이 배송 주소 정보를 완성하고 배송 방법을 선택하는 것입니다. 고객이 계정을 보유한 경우 배송 주소가 자동으로 입력되지만 필요한 경우 변경할 수 있습니다.
-게스트 고객이 이전에 등록한 것으로 인식된 이메일 주소를 입력하면 스토어 구성의 [!UICONTROL Enable Guest Checkout Login] 필드가 `Yes`(으)로 설정된 경우 로그인 프롬프트가 표시됩니다(_구성 참조 안내서_&#x200B;의 [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) 참조). 그러나 이 설정은 인증되지 않은 사용자에게 고객 정보를 노출할 수 있습니다.
+   게스트 고객이 이전에 등록한 것으로 인식된 이메일 주소를 입력하면 스토어 구성의 [!UICONTROL Enable Guest Checkout Login] 필드가 `Yes`(으)로 설정된 경우 로그인 프롬프트가 표시됩니다(_구성 참조 안내서_&#x200B;의 [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) 참조). 그러나 이 설정은 인증되지 않은 사용자에게 고객 정보를 노출할 수 있습니다.
 
    ![Storefront 체크아웃 페이지 예제](./assets/storefront-checkout-shipping-full.png){width="700"}
 

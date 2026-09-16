@@ -5,13 +5,11 @@ breadcrumb-title: 머천다이징 및 프로모션
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
 nudge: true
-source-git-commit: ef07733f89af030f047576770655f6599b370351
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '282'
 ht-degree: 1%
-
 ---
-
 
 # Adobe Commerce 머천다이징 및 프로모션 안내서 {#marketing}
 
@@ -74,6 +72,7 @@ ht-degree: 1%
     - [이메일 미리 알림 만들기](email-reminder-rules-create.md)
 - 검색 엔진 최적화 {#seo}
   - [SEO 개요 및 우수 사례](seo-overview.md)
+  - [검색어 리디렉션 및 상점 첫 화면 라우팅](search-term-redirects.md)
   - [Meta 데이터](meta-data.md)
   - [사이트 맵](sitemap-xml.md)
   - URL 재작성 {#url-rewrites}
@@ -88,4 +87,4 @@ ht-degree: 1%
   - [Google Analytics](google-analytics.md)
   - [Google 태그 관리자](google-tag-manager.md)
   - [Google Adwords](google-adwords.md)
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

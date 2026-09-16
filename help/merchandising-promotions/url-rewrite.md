@@ -3,40 +3,53 @@ title: URL 재작성
 description: URL 재작성에 대해 알아보고 Commerce URL 재작성 도구를 사용하여 제품, 카테고리 또는 CMS 페이지와 연결된 URL을 변경하는 방법에 대해 알아봅니다.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/fuILlBHCevV6rfQT-PUiuBPBgWkFXDbFofgde8O5BCM
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: 940
+source-wordcount: '1003'
 ht-degree: 0%
-
 ---
-
 # URL 재작성
 
 >[!TIP]
 >
->Adobe Commerce as a Cloud Service의 경우 Commerce Storefront 설명서에서 [SEO 지침](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=ko)을 참조하십시오
+>Adobe Commerce as a Cloud Service의 경우 Commerce Storefront 설명서에서 [SEO 지침](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/)을 참조하십시오
 
 URL 재작성 도구를 사용하면 제품, 카테고리 또는 CMS 페이지와 연결된 모든 URL을 변경할 수 있습니다. URL 재작성을 만들 때, Commerce은 자동으로 영구 리디렉션을 만들기(301)하므로 이전 URL을 가리키는 모든 링크는 새 주소로 리디렉션됩니다.
+
+소스가 기존 URL이 아닌 구매자가 입력한 쿼리인 경우 검색어 리디렉션을 사용합니다. 자세한 지침은 [검색어 리디렉션 및 상점 경로 지정](search-term-redirects.md)을 참조하세요.
 
 >[!NOTE]
 >
@@ -68,7 +81,7 @@ Adobe Commerce에서 URL 재작성 도구는 제품, 카테고리 또는 페이�
 
 다음 비디오를 통해 URL 재작성 관리에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410127?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
 
 ## URL 재작성 만들기
 
