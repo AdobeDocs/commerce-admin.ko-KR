@@ -1,14 +1,13 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL Product File Attributes]'
-description: Commerce 관리자의 [!UICONTROL Catalog] &gt; [!UICONTROL Product File Attributes] 페이지에서 구성 설정을 검토하십시오.
+title: '[!UICONTROL Catalog] > [!UICONTROL Product File Attributes]'
+description: Commerce 관리자의 [!UICONTROL Catalog] > [!UICONTROL Product File Attributes] 페이지에서 구성 설정을 검토합니다.
 feature: Configuration, Catalog Management
-source-git-commit: 5398555aa025db6ff0eafd758d8e930b81c5e771
+exl-id: 2cf3644a-9269-436c-9264-985a9bc74c24
+source-git-commit: cd54a8c1b6ccf52497bda61919b5bb69c895d960
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 1%
-
+source-wordcount: '79'
+ht-degree: 10%
 ---
-
 # [!UICONTROL Catalog] > [!UICONTROL Product File Attributes]
 
 {{config}}
