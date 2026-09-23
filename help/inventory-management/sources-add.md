@@ -56,7 +56,7 @@ ht-degree: 0%
 
    - 이 인벤토리 원본을 사용할 준비가 되면 **[!UICONTROL Is Enabled]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
-   - 이 원본의 재고를 상점 앞에 표시하려면 **[!UICONTROL Visible on Storefront]**&#x200B;을(를) `Yes`(으)로 설정하십시오. [!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+   - 이 원본의 재고를 상점 앞에 표시하려면 **[!UICONTROL Visible on Storefront]**&#x200B;을(를) `Yes`(으)로 설정하십시오. [!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
      이 옵션은 기본적으로 `No`(으)로 설정됩니다. `Yes`(으)로 설정하면 원본이 쿼리 캐시 수명까지 소요되어 결과에 표시될 수 있습니다. 이 옵션을 `No`(으)로 설정하면 원본이 쿼리 결과에서 즉시 제거됩니다.
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 | [!UICONTROL Name] | (필수) 관리자의 인벤토리 소스를 식별하는 고유한 이름입니다. |
 | [!UICONTROL Code] | (필수) 시스템에서 재고 출처를 식별하는 데 사용되는 고유한 영숫자 코드입니다. 코드를 공백 없이 대문자 또는 소문자 및/또는 숫자로 입력하십시오. 필요한 경우 공백 대신 하이픈이나 밑줄을 사용할 수 있습니다. 소스를 만든 후에는 코드를 편집할 수 없습니다. 소스를 주식에 할당하고 제품 데이터를 내보내기 및/또는 가져올 때 사용되는 고유 ID입니다. |
 | [!UICONTROL Is Enabled] | 인벤토리 소스를 사용할 수 있는지 여부를 결정합니다. 옵션: 예 / 아니요 |
-| [!UICONTROL Visible on Storefront] [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} | Storefront [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL 쿼리가 이 인벤토리 원본에 대한 재고 정보를 반환할 수 있는지 여부를 결정합니다. |
+| [!UICONTROL Visible on Storefront] [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} | Storefront [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL 쿼리가 이 인벤토리 원본에 대한 재고 정보를 반환할 수 있는지 여부를 결정합니다. |
 | [!UICONTROL Description] | 재고 출처 위치에 대한 간략한 설명. 관리자 사용자에게 유용한 세부 정보를 포함합니다. |
 | [!UICONTROL Latitude] | GPS용 인벤토리 소스의 위도 좌표를 지정합니다. 필요에 따라 더하기 또는 빼기 기호 앞에 숫자로 값을 입력합니다. 차수 기호와 글자는 허용되지 않습니다. 예: Latitude 32.7555 |
 | [!UICONTROL Longitude] | GPS용 인벤토리 소스의 경도 좌표를 지정합니다. 필요에 따라 더하기 또는 빼기 기호 앞에 숫자로 값을 입력합니다. 차수 기호와 글자는 허용되지 않습니다. 예: `-97.3308` |
