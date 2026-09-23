@@ -1,30 +1,37 @@
 ---
 title: 인벤토리 소스 추가
-description: 웨어하우스, 저장소, 배포 센터 또는 기타 이행 위치에 대한 관리자의  [!DNL Inventory Management] 소스를 추가하십시오.
+description: 웨어하우스, 저장소, 배포 센터 또는 기타 이행 위치에 대한 관리자의 [!DNL Inventory Management] 원본을 추가하십시오.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: 2e0212c62ed6183d1b66a9260e6177177ca2a61a
 workflow-type: tm+mt
-source-wordcount: 858
+source-wordcount: '1033'
 ht-degree: 0%
-
 ---
-
 # 소스 추가
 
 사용자 정의 소스를 사용하여 여러 위치의 재고 및 주문 이행을 관리합니다. 창고, 오프라인 매장, 물류 센터, 직송업체 등 각 위치에 대한 출처를 생성합니다. 소스를 지정하고 제품당 수량을 업데이트합니다.
@@ -48,6 +55,12 @@ ht-degree: 0%
      이 코드는 대문자와 소문자, 숫자, 대시 및 밑줄을 지원합니다. 코드는 스톡 할당 및 데이터 내보내기/가져오기 시 사용되는 고유 ID입니다.
 
    - 이 인벤토리 원본을 사용할 준비가 되면 **[!UICONTROL Is Enabled]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+
+   - 이 원본의 재고를 상점 앞에 표시하려면 **[!UICONTROL Visible on Storefront]**&#x200B;을(를) `Yes`(으)로 설정하십시오. [!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+
+     이 옵션은 기본적으로 `No`(으)로 설정됩니다. `Yes`(으)로 설정하면 원본이 쿼리 캐시 수명까지 소요되어 결과에 표시될 수 있습니다. 이 옵션을 `No`(으)로 설정하면 원본이 쿼리 결과에서 즉시 제거됩니다.
+
+     [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL 쿼리는 상점에 표시되는 소스의 스톡 정보에 대한 액세스를 제공합니다. [전역 옵션](global-options.md)에서 저장소 보기에 대해 `sourceAvailability` 쿼리를 사용하도록 설정해야 합니다.
 
    - 빠른 참조 또는 추가 세부 정보를 보려면 이 위치에 대한 간략한 **[!UICONTROL Description]**&#x200B;을(를) 입력하십시오.
 
@@ -121,6 +134,7 @@ ht-degree: 0%
 | [!UICONTROL Name] | (필수) 관리자의 인벤토리 소스를 식별하는 고유한 이름입니다. |
 | [!UICONTROL Code] | (필수) 시스템에서 재고 출처를 식별하는 데 사용되는 고유한 영숫자 코드입니다. 코드를 공백 없이 대문자 또는 소문자 및/또는 숫자로 입력하십시오. 필요한 경우 공백 대신 하이픈이나 밑줄을 사용할 수 있습니다. 소스를 만든 후에는 코드를 편집할 수 없습니다. 소스를 주식에 할당하고 제품 데이터를 내보내기 및/또는 가져올 때 사용되는 고유 ID입니다. |
 | [!UICONTROL Is Enabled] | 인벤토리 소스를 사용할 수 있는지 여부를 결정합니다. 옵션: 예 / 아니요 |
+| [!UICONTROL Visible on Storefront] [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} | Storefront [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL 쿼리가 이 인벤토리 원본에 대한 재고 정보를 반환할 수 있는지 여부를 결정합니다. |
 | [!UICONTROL Description] | 재고 출처 위치에 대한 간략한 설명. 관리자 사용자에게 유용한 세부 정보를 포함합니다. |
 | [!UICONTROL Latitude] | GPS용 인벤토리 소스의 위도 좌표를 지정합니다. 필요에 따라 더하기 또는 빼기 기호 앞에 숫자로 값을 입력합니다. 차수 기호와 글자는 허용되지 않습니다. 예: Latitude 32.7555 |
 | [!UICONTROL Longitude] | GPS용 인벤토리 소스의 경도 좌표를 지정합니다. 필요에 따라 더하기 또는 빼기 기호 앞에 숫자로 값을 입력합니다. 차수 기호와 글자는 허용되지 않습니다. 예: `-97.3308` |
