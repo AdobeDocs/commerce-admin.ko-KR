@@ -22,7 +22,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 새 Visible on Storefront 토글을 포함하도록 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/sources/sources-add">소스 추가</a>를 업데이트했습니다. 이제 각 인벤토리 소스에 상점 가시성을 위한 개별 플래그를 지정할 수 있습니다. 소스는 기본적으로 숨겨집니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 새 Visible on Storefront 토글을 포함하도록 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/sources/sources-add">소스 추가</a>를 업데이트했습니다. 이제 각 인벤토리 소스에 상점 가시성을 위한 개별 플래그를 지정할 수 있습니다. 소스는 기본적으로 숨겨집니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -44,7 +44,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>에 대해 지원되는 버전 목록에서 Adobe Commerce 2.4.8-p5를 제거했습니다. 2.4.8 고객은 B2B 버전 1.5.3을 대신 사용해야 합니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>에 대해 지원되는 버전 목록에서 Adobe Commerce 2.4.8-p5를 제거했습니다. 2.4.8 고객은 B2B 버전 1.5.3을 대신 사용해야 합니다.</p>
 </td>
       <td>
         기술
@@ -66,7 +66,7 @@ ht-degree: 2%
   </thead>
   <tbody>
     <tr>
-      <td><p>현재 관리 경험과 일치하도록 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">데이터 피드 동기화 상태</a> 항목을 새로 고치고, 페이지에서 내보내기 상태만 보고하고, Commerce 서비스 라이선스에서 이 기능을 사용할 수 있는 경우 문서화하도록 수정했습니다.</p>
+      <td><p>현재 관리 경험과 일치하도록 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">데이터 피드 동기화 상태</a> 항목을 새로 고치고, 페이지에서 내보내기 상태만 보고하고, Commerce 서비스 라이선스에서 이 기능을 사용할 수 있는 경우 문서화하도록 수정했습니다.</p>
 </td>
       <td>
         주요 업데이트
