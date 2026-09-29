@@ -6,28 +6,38 @@ feature: Customers, Storefront
 TQID: https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
+    internal-label: Privacy
+source-git-commit: 47f4b72b7b4ef201251423522a7917825415cb25
 workflow-type: tm+mt
-source-wordcount: 1281
+source-wordcount: '1281'
 ht-degree: 0%
-
 ---
-
 # 개별 고객 계정 만들기
 
 스토어 방문자는 계정을 열어 구매 및 활동을 관리할 수 있습니다. 고객은 일반적으로 스토어에서 자신의 계정을 만듭니다. 그러나 관리자로부터 직접 고객 계정을 만들 수도 있으므로 전화상으로 고객을 지원하는 데 유용합니다.
@@ -134,7 +144,7 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   >고객 계정이 저장되면 전체 옵션 세트가 왼쪽 패널과 페이지 상단의 메뉴에 나타납니다. _[!UICONTROL Customer View]_&#x200B;탭에는 계정의 요약이 표시됩니다.
+   >고객 계정이 저장되면 전체 옵션 세트가 왼쪽 패널과 페이지 상단의 메뉴에 나타납니다. _[!UICONTROL Customer View]_탭에는 계정의 요약이 표시됩니다.
 
    ![고객 보기](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -165,7 +175,7 @@ ht-degree: 0%
 
    그렇지 않으면 **[!UICONTROL Save and Continue Edit]**&#x200B;을(를) 클릭하고 이전 단계를 반복하여 주소를 추가합니다.
 
-   선택한 _[!UICONTROL Default Billing]_&#x200B;및_[!UICONTROL Default Shipping]_ 주소가 전체 목록 위에 있는 [!UICONTROL Addresses] 페이지에 새 주소가 표시됩니다.
+   선택한 _[!UICONTROL Default Billing]_및_[!UICONTROL Default Shipping]_ 주소가 전체 목록 위에 있는 [!UICONTROL Addresses] 페이지에 새 주소가 표시됩니다.
 
    ![주소 보기](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -175,7 +185,7 @@ ht-degree: 0%
 
 1. 표에서 새 고객 계정을 찾습니다.
 
-1. _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
 1. 페이지 상단의 메뉴 표시줄에서 **[!UICONTROL Reset Password]**&#x200B;을(를) 클릭합니다.
 
@@ -187,7 +197,7 @@ ht-degree: 0%
 
 | 단추 | 설명 |
 |--- |--- |
-| **[!UICONTROL Back]** | 변경 내용을 저장하지 않고 _[!UICONTROL Customers]_&#x200B;페이지로 돌아갑니다. |
+| **[!UICONTROL Back]** | 변경 내용을 저장하지 않고 _[!UICONTROL Customers]_페이지로 돌아갑니다. |
 | **[!UICONTROL Delete Customer]** | 현재 고객을 삭제합니다. 고객과 연관된 완료된 주문은 제거되지 않습니다. |
 | **[!UICONTROL Reset]** | 고객 양식에서 저장되지 않은 변경 사항을 이전 값으로 재설정합니다. |
 | **[!UICONTROL Create Order]** | 고객에 대한 주문을 생성합니다. |
