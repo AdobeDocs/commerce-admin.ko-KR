@@ -5,13 +5,11 @@ breadcrumb-title: 구성 참조
 role: Admin, Developer, User
 feature: Configuration
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: f6c2f4b74fae59264faf75de3c025c596cab048f
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '184'
 ht-degree: 2%
-
 ---
-
 
 # 구성 참조 안내서 {#config}
 
@@ -78,9 +76,12 @@ ht-degree: 2%
 - [영업 채널](./sales-channels.md)
 - 서비스 {#services}
   - [웹 API](./services/magento-web-api.md)
-  - [Commerce 서비스](./services/saas.md)
+  - [Commerce 서비스 커넥터](./services/saas.md)
   - [OAuth](./services/oauth.md)
   - [이메일 비표시](./services/email-suppression.md)
+  - [ACO 카탈로그 보기](./services/aco-catalog-view.md)
+  - [ACO 카탈로그 보기 동기화](./services/aco-catalog-view-sync.md)
+  - [ACO 제한된 액세스 키](./services/aco-restricted-access-keys.md)
 - 고급 {#advanced}
   - [관리자](./advanced/admin.md)
   - [시스템](./advanced/system.md)

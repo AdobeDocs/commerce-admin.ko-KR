@@ -6,25 +6,32 @@ feature: Site Management, System
 TQID: https://experienceleague.adobe.com/Qx4MO7bO5PoWmt4XxYeqsHeCq4Ov2mPp5Q0JAIDeaY4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
+    internal-label: Administration
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
-source-wordcount: 1209
+source-wordcount: '1295'
 ht-degree: 0%
-
 ---
-
 # 저장소 및 사이트 구조
 
 Adobe Commerce 또는 Magento Open Source이 설치되면 기본 웹 사이트, 스토어 및 스토어 보기를 포함하는 계층 구조가 만들어집니다. 필요에 따라 추가 웹 사이트, 스토어 및 스토어 보기를 만들 수 있습니다. 예를 들어 기본 웹 사이트 외에 다른 도메인이 있는 추가 웹 사이트가 있을 수 있습니다. 각 웹 사이트 내에서 여러 스토어를 사용할 수 있으며 각 스토어 내에서 별도의 스토어 보기를 사용할 수 있습니다. 많은 설치에는 한 개의 웹 사이트와 한 개의 스토어가 있지만 서로 다른 언어를 지원하기 위해 여러 스토어 보기가 있습니다.
@@ -154,6 +161,12 @@ Adobe Commerce 또는 Magento Open Source의 다중 사이트 설치는 관리�
      코드는 소문자(a-z) 문자로 시작해야 하며 문자(a-z), 숫자(0-9) 및 밑줄(_) 기호의 조합을 포함할 수 있습니다.
 
    - **[!UICONTROL Sort Order]** — _(선택 사항)_ 이 사이트가 다른 사이트와 함께 나열되는 순서를 확인하려면 숫자를 입력하십시오. 이 사이트를 목록의 맨 위에 표시하려면 0(`0`)을 입력하십시오.
+
+   - **[!UICONTROL Sync prices and price books]** — _(선택 사항)_ [!DNL Adobe Commerce Optimizer Connector]이(가) 설치된 경우 **[!UICONTROL Adobe Commerce Optimizer exporter settings]** 섹션에서 이 옵션을 선택하여 이 웹 사이트의 가격 및 가격 장부를 [!DNL Adobe Commerce Optimizer]과(와) 동기화합니다. [!DNL Adobe Commerce Optimizer Connector for B2B]이(가) 설치된 경우 사용 가능한 B2B 공유 카탈로그에 대한 데이터도 동기화됩니다. [카탈로그 보기 관리](../b2b/catalog-views-manage.md)를 참조하세요.
+
+     ![웹 사이트 만들기 - Adobe Commerce Optimizer 내보내기 설정](./assets/website-optimizer-export-settings.png){width="600" zoomable="yes"}
+
+     초기 동기화 후에 이 설정을 변경하면 전체 다시 인덱싱이 트리거됩니다. *Commerce 커넥터 안내서*&#x200B;에서 [Adobe Commerce Optimizer 범위 내보내기 구성 사용자 지정](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)을 참조하십시오.
 
 1. **[!UICONTROL Save Web Site]**&#x200B;을(를) 클릭합니다.
 

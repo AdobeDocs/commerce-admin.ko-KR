@@ -5,13 +5,11 @@ breadcrumb-title: 관리 시스템 안내서
 role: Admin, Leader
 feature: System
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: af5848a2337563c3d57109b0bd93495a3ab7def0
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '217'
 ht-degree: 4%
-
 ---
-
 
 # 관리 시스템 안내서 {#systems}
 
@@ -51,6 +49,9 @@ ht-degree: 4%
   - Commerce 서비스를 위한 데이터 동기화 {#data-sync}
     - [데이터 관리 대시보드](data-dashboard.md)
     - [데이터 피드 동기화 상태](data-feed-sync-status.md)
+    - 카탈로그 보기 동기화 및 액세스 키 {#catalog-view-sync}
+      - [카탈로그 보기 동기화 상태](catalog-view-sync-status.md)
+      - [제한된 액세스 키](restricted-access-keys.md)
 - 작업 로그 {#action-logs}
   - [개요](action-log.md)
   - [작업 로그 보고서](action-log-report.md)

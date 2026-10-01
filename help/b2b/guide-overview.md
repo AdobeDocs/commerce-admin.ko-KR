@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Adobe Commerce B2B] 안내서'
-description: 설치 및 구성을 포함한  [!DNL Adobe Commerce B2B] 관리자를 위한 포괄적인 정보입니다.
+description: 설치 및 구성을 포함한 [!DNL Adobe Commerce B2B] 관리자를 위한 포괄적인 정보입니다.
 breadcrumb-title: 안내서 개요
 seo-title: "[!DNL Adobe Commerce B2B] Guide"
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
@@ -9,32 +9,45 @@ feature: B2B
 TQID: https://experienceleague.adobe.com/DmVKfLqoxDuPtYvrvZ7a8Mkt2hz4eCFALej-ie2tafk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+    internal-label: Administration
+source-git-commit: 9ce6906c107bd91a980e9e522e454452b7fca6f8
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: '450'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce B2B 안내서
 
 이 안내서는 Adobe Commerce 관리자에서 작업 중인 관리자를 위한 것입니다. 기능 구성 및 관리를 포함하여 이 모듈 설치 및 활성화에 대한 자세한 정보를 제공합니다. 이는 핵심 [!DNL Commerce] 구성 및 기능에 대한 기본적인 이해를 전제로 합니다.
@@ -54,7 +67,7 @@ ht-degree: 0%
 | [기본 B2B 기능 사용](enable-basic-features.md) | [!DNL Adobe Commerce B2B]을(를) 설치한 후에는 스토어에 대해 활성화할 기능을 활성화해야 합니다. |
 | [회사 계정](account-companies.md) | 회사 계정과, 매장에서 B2B 구매자를 위한 지원을 제공하기 위한 기본 빌딩 블록을 제공하는 방법에 대해 알아봅니다. |
 | [회사 관리](manage-companies.md) | B2B Commerce 사이트 관리자가 회사 계층을 구축하여 동일한 비즈니스 기업에 속하는 여러 회사의 관리를 간소화하는 방법에 대해 알아봅니다. |
-| [공유된 카탈로그](catalog-shared.md) | 공유 카탈로그를 사용하여 다양한 회사의 사용자 지정 가격으로 제어된 카탈로그를 유지 관리하는 방법에 대해 알아봅니다. |
+| [공유된 카탈로그](catalog-shared.md) | 공유 카탈로그를 사용하여 다른 회사의 사용자 정의 가격으로 비공개 카탈로그를 유지 관리하는 방법에 대해 알아봅니다. [!DNL Adobe Commerce Optimizer Connector for B2B]을(를) 사용하는 고객의 경우 B2B 공유 카탈로그를 [!DNL Adobe Commerce Optimizer]에 비공개 카탈로그 보기로 동기화하여 고급 머천다이징 기능을 사용하여 상점 경험을 향상시키는 방법에 대해 알아보십시오. |
 | [빠른 주문](quick-order.md) | 빠른 주문 기능과 고객을 위한 활성화에 대해 알아봅니다. |
 | [구매 주문](purchase-order-flow.md) | 기업이 지출을 추적하고 제어할 수 있도록 하는 구매 주문 워크플로우에 대해 알아봅니다. |
 | [따옴표](quotes.md) | 견적 워크플로우와 이 서비스를 회사 계정에 제공하는 방법에 대해 알아봅니다. |

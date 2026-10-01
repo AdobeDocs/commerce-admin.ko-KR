@@ -1,13 +1,11 @@
 ---
 title: 코드 조각
 description: 특정 에디션에 적용되는 기능이나 페이지를 참고하기 위해 노트 및 시각적 요소를 재사용함
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 0%
-
 ---
-
 # 코드 조각
 
 ## EE 전용 기능 {#ee-feature}
@@ -56,7 +54,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->가격 규칙은 다른 시스템 규칙과 함께 자동으로 처리됩니다. 처리 빈도는 [cron 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)에 따라 다릅니다. 가격 규칙을 만들 때 시스템에 들어갈 충분한 시간을 허용합니다. 시스템에 있는지 확인하려면 규칙을 테스트하십시오.
+>가격 규칙은 다른 시스템 규칙과 함께 자동으로 처리됩니다. 처리 빈도는 [cron 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)에 따라 다릅니다. 가격 규칙을 만들 때 시스템에 들어갈 충분한 시간을 허용합니다. 시스템에 있는지 확인한 후 규칙을 테스트합니다.
 
 ## 구성 설정 {#config}
 
@@ -69,7 +67,6 @@ ht-degree: 0%
 >2024년 6월부터 Adobe Commerce 판매자는 더 이상 현재 UPS 통합과 거래할 수 없습니다. 이는 기본 Adobe Commerce 통합에서 사용하는 UPS(United Parcel Service) API가 현재 필요한 OAuth 2.0 보안 모델을 지원하지 않기 때문입니다. 통합을 사용하려면 [UPS 개발자 플랫폼에서 애플리케이션을 만들고](https://developer.ups.com/get-started)하여 OAuth 2.0에 필요한 자격 증명을 얻으십시오. Commerce UPS 배송 구성에서 새 자격 증명을 `username` 및 `password`(으)로 사용합니다. 보안 모델 변경에 대한 자세한 내용은 [개발자 포털 액세스 키 마이그레이션 안내서_](https://developer.ups.com/oauth-developer-guide)를 참조하십시오. <br/>
 >
 >판매자는 SOAP API에서 OAuth 2.0 인증 프로토콜을 지원하는 RESTful API로 마이그레이션하려면 스토어에 [품질 패치 업데이트를 적용](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-27146)해야 합니다.
-
 
 ## 사용 가능한 설명서 {#docs-links}
 

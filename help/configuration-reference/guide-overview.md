@@ -5,29 +5,40 @@ exl-id: b0359ba4-3643-4355-9154-adfedb369ec3
 TQID: https://experienceleague.adobe.com/nxl3Dlf3sQp4YOH-BLpVS0ny4TY8op2TIelYOTGkQ-M
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+    internal-label: Developer tools
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3ed6388c485699373275912a27df59d25b7245ac
+    internal-label: Administration
+source-git-commit: f6c2f4b74fae59264faf75de3c025c596cab048f
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 49%
-
+source-wordcount: '679'
+ht-degree: 50%
 ---
-
 # 구성 참조 안내서
 
 이 안내서는 Adobe Commerce 또는 Magento Open Source 관리자에서 일하는 판매자 및 시스템 관리자를 위한 것입니다. **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;의_&#x200B;관리자&#x200B;_사이드바에서 액세스하는 모든 저장소 구성 설정에 대한 참조 정보를 제공합니다.
@@ -44,7 +55,7 @@ Adobe Commerce 및 Magento Open Source의 기능이나 스토어 구성 절차�
 | **[!UICONTROL Customers]** <br/><br/> _[!UICONTROL Customers]_&#x200B;구성 설정은 기본 고객 계정 및 로그인 옵션, 뉴스레터 설정, 위시리스트 및 자동 생성된 쿠폰 코드 형식을 설정합니다. | - [[!UICONTROL Login as Customer]](./customers/login-as-customer.md)<br>- [[!UICONTROL Newsletter]](./customers/newsletter.md)<br>- [[!UICONTROL Company Configuration]](./customers/company-configuration.md)<br>- [[!UICONTROL Customer Configuration]](./customers/customer-configuration.md)<br>- [[!UICONTROL Requisition Lists]](./customers/requisition-lists.md)<br>- [[!UICONTROL Wish List]](./customers/wishlist.md)<br>- [[!UICONTROL Invitations]](./customers/invitations.md)<br>- [[!UICONTROL Reward Points]](./customers/reward-points.md)<br>- [[!UICONTROL Promotions]](./customers/promotions.md)<br>- [[!UICONTROL Gift Registry]](./customers/gift-registry.md)<br>- [[!UICONTROL Persistent Shopping Cart]](./customers/persistent-shopping-cart.md) |
 | **[!UICONTROL Sales]** <br/><br/> _[!UICONTROL Sales]_&#x200B;구성 설정은 체크아웃 및 세금 설정, 결제 및 배송 옵션, 판매 전자 메일 및 PDF 인쇄물, Google API 설정을 결정합니다. | - [[!UICONTROL Sales]](./sales/sales.md)<br>- [[!UICONTROL Sales Emails]](./sales/sales-emails.md)<br>- [[!UICONTROL Quotes]](./sales/quotes.md)<br>- [[!UICONTROL PDF Print-outs]](./sales/pdf-print-outs.md)<br>- [[!UICONTROL Tax]](./sales/tax.md)<br>- [[!UICONTROL Checkout]](./sales/checkout.md)<br>- [[!UICONTROL Shipping Settings]](./sales/shipping-settings.md)<br>- [[!UICONTROL Multishipping Settings]](./sales/multishipping-settings.md)<br>- [[!UICONTROL Delivery Methods]](./sales/delivery-methods.md)<br>- [[!UICONTROL Google API]](./sales/google-api.md)<br>- [[!UICONTROL 3D Secure]](./sales/3d-secure.md)<br>- [[!UICONTROL Gift Cards]](./sales/gift-cards.md)<br>- [[!UICONTROL Payment Methods]](./sales/payment-methods.md) |
 | **[!UICONTROL Sales Channels]** <br/><br/> [!DNL Amazon Sales Channel] 확장이 설치되면 _[!UICONTROL Sales Channels]_&#x200B;설정은 Amazon 스토어와의 자동 통합 작업을 제어합니다. | - [[!UICONTROL Global Settings]](sales-channels.md) |
-| **[!UICONTROL Services]** <br/><br/> _[!UICONTROL Services]_&#x200B;구성 설정은 SOAP 및 OAuth를 포함한 Commerce API 통합 설정을 결정합니다. | - [[!UICONTROL Web API]](./services/magento-web-api.md)<br>- [[!UICONTROL Commerce Services]](./services/saas.md)<br>- [[!UICONTROL OAuth]](./services/oauth.md) |
+| **[!UICONTROL Services]** <br/><br/> _[!UICONTROL Services]_&#x200B;구성 설정은 SOAP 및 OAuth, Adobe 관리 이메일 억제 및 B2B 동기화용 Adobe Commerce Optimizer 커넥터 및 키 설정을 포함한 Commerce API 통합 설정을 결정합니다. | - [[!UICONTROL Web API]](./services/magento-web-api.md)<br>- [[!UICONTROL Commerce Services Connector]](./services/saas.md)<br>- [[!UICONTROL OAuth]](./services/oauth.md)<br>- [[!UICONTROL Email Suppression]](./services/email-suppression.md)<br>- [[!UICONTROL ACO Catalog View]](./services/aco-catalog-view.md)<br>- [[!UICONTROL ACO Catalog View Sync]](./services/aco-catalog-view-sync.md)<br>- [[!UICONTROL ACO Restricted Access Keys]](./services/aco-restricted-access-keys.md) |
 | **[!UICONTROL Advanced]** <br/><br/> _[!UICONTROL Advanced]_&#x200B;구성 설정은 기본 관리자 설정, 다양한 시스템 구성 설정, 고급 모듈 컨트롤 및 개발자 도구를 결정합니다. | - [[!UICONTROL Admin]](./advanced/admin.md) [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}<br>- [[!UICONTROL System]](./advanced/system.md) [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}<br>- [[!UICONTROL Developer]](./advanced/developer.md) |
 
 {style="table-layout:auto"}
