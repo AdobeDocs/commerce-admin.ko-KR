@@ -39,13 +39,13 @@ _[!UICONTROL Stores]_&#x200B;메뉴는 사용 빈도가 낮지만 Adobe Commerce
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 ![관리자 - 스토어 메뉴](./assets/stores-menu.png){width="500" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 ![관리자 - 스토어 메뉴](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
 
@@ -85,6 +85,6 @@ Adobe Commerce 또는 Magento Open Source 설치에서 [웹 사이트, 스토어
 
 [!DNL Adobe Commerce Optimizer Connector]이(가) 설치되면 웹 사이트를 동기화하고 보기 데이터를 [!DNL Adobe Commerce Optimizer]에 저장할 수 있습니다. 웹 사이트 범위는 [가격 동기화](stores.md#step-1-create-a-website)(가격 및 가격 장부)를 제어합니다. 스토어 보기 범위 제어 [제품 동기화](store-views.md#add-a-store-view)(제품 및 제품 특성).
 
-[!UICONTROL All Stores] 표에 표시되는 동기화 상태 표시기에 대해서는 [Adobe Commerce Optimizer 동기화 상태](store-views.md#optimizer-sync-status)를 참조하십시오. 커넥터 설정 및 구성 동작에 대해서는 *Commerce 커넥터 안내서*&#x200B;에서 [Adobe Commerce Optimizer 범위 내보내기 구성 사용자 지정](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)을 참조하십시오.
+[!UICONTROL All Stores] 표에 표시되는 동기화 상태 표시기에 대해서는 [Adobe Commerce Optimizer 동기화 상태](store-views.md#optimizer-sync-status)를 참조하십시오. 커넥터 설정 및 구성 동작에 대해서는 *Commerce 커넥터 안내서*&#x200B;에서 [Adobe Commerce Optimizer 범위 내보내기 구성 사용자 지정](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)을 참조하십시오.
 
 [!DNL Adobe Commerce Optimizer Connector for B2B]이(가) 설치된 경우 사용 가능한 B2B 공유 카탈로그에 대한 데이터도 동기화됩니다. [카탈로그 보기 관리](../b2b/catalog-views-manage.md)를 참조하세요.

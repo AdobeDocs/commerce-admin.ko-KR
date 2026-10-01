@@ -67,10 +67,10 @@ Adobe Commerce 스토어의 B2B 확장 [설치](install.md) 및 [지원](enable-
 
 Adobe Commerce용 서비스는 Adobe Commerce 및 Magento Open Source에 확장 기능을 제공하는 호스팅 서비스입니다. B2B 워크플로를 지원하는 서비스는 다음과 같습니다.
 
-* [카탈로그 서비스](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
-* [라이브 검색](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
-* [제품 추천](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
-* [Adobe Commerce Optimizer 커넥터](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
+* [카탈로그 서비스](https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/guide-overview)
+* [라이브 검색](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)
+* [제품 추천](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/guide-overview)
+* [Adobe Commerce Optimizer 커넥터](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/overview)
 
 [!DNL Adobe Commerce Optimizer Connector]은(는) Adobe Commerce의 카탈로그 및 가격 데이터를 [!DNL Adobe Commerce Optimizer]에 동기화하여 AI 기반 제품 검색, 권장 사항 및 헤드리스 매장을 지원하는 한편 Adobe Commerce은 기록 시스템으로 유지됩니다.
 
@@ -78,7 +78,7 @@ Adobe Commerce용 서비스는 Adobe Commerce 및 Magento Open Source에 확장 
 >
 >B2B 판매자의 경우 [!DNL Adobe Commerce Optimizer Connector for B2B]이(가) 제한된 액세스 키로 보호되는 보호된 카탈로그 보기로 공유 카탈로그를 [!DNL Adobe Commerce Optimizer]에 자동으로 동기화하므로 계약별 제품 분류와 가격이 두 시스템 간에 계속 동기화됩니다.
 
-자세한 내용은 [[!DNL Adobe Commerce Optimizer Connector] 통합 안내서](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)를 참조하십시오.
+자세한 내용은 [[!DNL Adobe Commerce Optimizer Connector] 통합 안내서](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/overview)를 참조하십시오.
 
 ## 공유된 카탈로그
 

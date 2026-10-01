@@ -72,7 +72,7 @@ ht-degree: 0%
 
    ![스토어 보기 만들기 - Adobe Commerce Optimizer 내보내기 설정](./assets/stores-optimizer-export-settings.png){width="600" zoomable="yes"}
 
-   초기 동기화 후에 이 설정을 변경하면 전체 다시 인덱싱이 트리거됩니다. *Commerce 커넥터 안내서*&#x200B;에서 [Adobe Commerce Optimizer 범위 내보내기 구성 사용자 지정](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)을 참조하십시오.
+   초기 동기화 후에 이 설정을 변경하면 전체 다시 인덱싱이 트리거됩니다. *Commerce 커넥터 안내서*&#x200B;에서 [Adobe Commerce Optimizer 범위 내보내기 구성 사용자 지정](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)을 참조하십시오.
 
 1. **[!UICONTROL Save Store View]**&#x200B;을(를) 클릭합니다.
 
