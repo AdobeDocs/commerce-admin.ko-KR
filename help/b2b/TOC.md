@@ -1,18 +1,16 @@
 ---
 user-guide-title: '[!DNL Adobe Commerce B2B] 안내서'
-user-guide-description: Adobe Commerce에 사용할 수 있는 통합 B2B 기능을 사용하는 방법에 대해 알아봅니다.
+user-guide-description: 회사 계정 및 공유 카탈로그 관리와 같은 Adobe Commerce용 통합 B2B 기능을 사용하는 방법에 대해 알아봅니다.
 breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
 nudge: true
-source-git-commit: c67474ee4b72744766421090e30c56c85d687495
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '182'
 ht-degree: 5%
-
 ---
-
 
 # [!DNL Adobe Commerce B2B] 안내서 {#b2b}
 
@@ -46,6 +44,7 @@ ht-degree: 5%
     + [카탈로그 가격 및 구조 설정](catalog-shared-pricing-structure.md)
     + [회사를 카탈로그에 할당](catalog-shared-assign-companies.md)
   + [공유 카탈로그 관리](catalog-shared-manage.md)
+  + [카탈로그 보기 구성 관리](catalog-views-manage.md)
 + [빠른 주문](quick-order.md)
 + 구매 주문 {#purchase-orders}
   + [회사의 구매 주문](purchase-order-flow.md)
@@ -69,4 +68,4 @@ ht-degree: 5%
 + 참조 {#reference}
   + [이전 버전과 호환 불가능한 변경 사항](backward-incompatible-changes.md)
   + [패키지](packages.md)
-+ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
++ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

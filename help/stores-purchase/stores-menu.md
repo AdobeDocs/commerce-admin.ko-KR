@@ -5,40 +5,47 @@ exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 TQID: https://experienceleague.adobe.com/LEoQUYqvin2UfF55kCMUiEUh8YungghN-VuEwUOu7gY
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
-source-wordcount: 329
+source-wordcount: '430'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Stores] 메뉴
 
-_[!UICONTROL Stores]_&#x200B;메뉴는 사용 빈도가 낮지만 Adobe Commerce 또는 Magento Open Source 설치 전체에서 참조되는 설정에 대한 액세스를 제공합니다. 이러한 기능에는 스토어 계층 설정, 구성, 판매 및 주문 설정, 세금 및 통화, 제품 속성, 제품 검토 등급 및 고객 그룹이 포함됩니다.
+_[!UICONTROL Stores]_메뉴는 사용 빈도가 낮지만 Adobe Commerce 또는 Magento Open Source 설치 전체에서 참조되는 설정에 대한 액세스를 제공합니다. 이러한 기능에는 스토어 계층 설정, 구성, 판매 및 주문 설정, 세금 및 통화, 제품 속성, 제품 검토 등급 및 고객 그룹이 포함됩니다.
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 ![관리자 - 스토어 메뉴](./assets/stores-menu.png){width="500" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 ![관리자 - 스토어 메뉴](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
 
@@ -73,3 +80,11 @@ Adobe Commerce 또는 Magento Open Source 설치에서 [웹 사이트, 스토어
 ### [!UICONTROL Other Settings]
 
 [보상 환율](../merchandising-promotions/reward-exchange-rates.md), [선물 포장](cart-configuration.md#gift-wrap) 및 [선물 등록](../merchandising-promotions/gift-registries.md)에 대한 추가 설정을 관리합니다.
+
+## [!DNL Adobe Commerce Optimizer] 통합
+
+[!DNL Adobe Commerce Optimizer Connector]이(가) 설치되면 웹 사이트를 동기화하고 보기 데이터를 [!DNL Adobe Commerce Optimizer]에 저장할 수 있습니다. 웹 사이트 범위는 [가격 동기화](stores.md#step-1-create-a-website)(가격 및 가격 장부)를 제어합니다. 스토어 보기 범위 제어 [제품 동기화](store-views.md#add-a-store-view)(제품 및 제품 특성).
+
+[!UICONTROL All Stores] 표에 표시되는 동기화 상태 표시기에 대해서는 [Adobe Commerce Optimizer 동기화 상태](store-views.md#optimizer-sync-status)를 참조하십시오. 커넥터 설정 및 구성 동작에 대해서는 *Commerce 커넥터 안내서*&#x200B;에서 [Adobe Commerce Optimizer 범위 내보내기 구성 사용자 지정](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)을 참조하십시오.
+
+[!DNL Adobe Commerce Optimizer Connector for B2B]이(가) 설치된 경우 사용 가능한 B2B 공유 카탈로그에 대한 데이터도 동기화됩니다. [카탈로그 보기 관리](../b2b/catalog-views-manage.md)를 참조하세요.

@@ -6,23 +6,28 @@ topic: Commerce, Localization
 TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
+    internal-label: Optimization
+source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: '808'
 ht-degree: 0%
-
 ---
-
 # 로컬라이제이션 저장
 
 스토어 전체의 페이지에 하드 코딩된 것으로 보이는 대부분의 텍스트는 보기의 로케일을 변경하여 즉시 다른 언어로 변경할 수 있습니다. 로케일을 변경해도 실제로 텍스트가 단어 단위로 번역되지는 않지만 스토어 전체에 사용되는 인터페이스 텍스트를 제공하는 다른 번역 표를 참조합니다. 변경할 수 있는 텍스트에는 탐색 제목, 레이블, 단추 및 링크(예: _내 장바구니_ 및 _내 계정_)가 포함됩니다. [인라인 번역](../configuration-reference/advanced/developer.md) 도구를 사용하여 인터페이스의 텍스트를 터치할 수도 있습니다.
@@ -31,7 +36,7 @@ ht-degree: 0%
 
 ## 1단계: 언어 팩 설치
 
-언어 팩 확장 설치에 대한 표준 지침을 따르십시오. 확장 설치에 대한 자세한 내용은 _확장 안내서_&#x200B;에서 [일반 CLI 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)를 참조하십시오.
+언어 팩 확장 설치에 대한 표준 지침을 따르십시오. 확장 설치에 대한 자세한 내용은 _확장 안내서_&#x200B;에서 [일반 CLI 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)를 참조하십시오.
 
 ## 2단계: 언어에 대한 스토어 보기 만들기
 
@@ -69,6 +74,8 @@ ht-degree: 0%
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
+   [!DNL Adobe Commerce Optimizer Connector for B2B]이(가) 설치된 경우 표시 로케일 변경을 저장하면 카탈로그 보기 동기화 인덱서가 무효화됩니다. 예약된 인덱서가 나중에 [!DNL Adobe Commerce Optimizer]에서 영향을 받는 카탈로그 보기를 다시 빌드합니다. 카탈로그 보기 페이로드는 `general/locale/code`에 구성된 표시 로케일이 아니라 항상 `sources[].locale`에 대한 저장소 보기 코드를 사용합니다. [카탈로그 보기 관리](../b2b/catalog-views-manage.md)를 참조하세요.
+
    로케일의 언어를 변경하면 각 스토어 보기에 대해 제품 이름 및 설명, 카테고리, [CMS](../content-design/page-translate.md) 페이지 및 블록을 포함하여 만든 나머지 콘텐츠를 개별적으로 번역해야 합니다.
 
 ## 제품 현지화
@@ -101,7 +108,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Manage Labels]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Manage Titles]_&#x200B;섹션에서 각 스토어 보기에 대해 번역된 레이블을 입력합니다.
+1. _[!UICONTROL Manage Titles]_섹션에서 각 스토어 보기에 대해 번역된 레이블을 입력합니다.
 
    ![번역된 레이블 입력](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -117,7 +124,7 @@ ht-degree: 0%
 
 1. _기본 정보_&#x200B;의 경우 **[!UICONTROL Category Name]**&#x200B;을(를) 번역하세요.
 
-1. _[!UICONTROL Content]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고&#x200B;**[!UICONTROL Description]**&#x200B;을(를) 번역합니다.
+1. _[!UICONTROL Content]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고&#x200B;**[!UICONTROL Description]**을(를) 번역합니다.
 
 1. **[!UICONTROL Search Engine Optimization Settings]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음 필드를 번역합니다.
 
@@ -125,7 +132,7 @@ ht-degree: 0%
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. _[!UICONTROL Search Engine Optimization Settings]_&#x200B;섹션에서 다음을 수행하여&#x200B;**[!UICONTROL URL Key]**&#x200B;을(를) 번역합니다.
+1. _[!UICONTROL Search Engine Optimization Settings]_섹션에서 다음을 수행하여&#x200B;**[!UICONTROL URL Key]**을(를) 번역합니다.
 
    - 필드의 오른쪽에 있는 **[!UICONTROL Use Default Value]** 확인란의 선택을 취소합니다.
 
