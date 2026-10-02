@@ -29,7 +29,8 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+last-update: 2026-10-01
+source-git-commit: 82862dcdd7667b46cfe7bd08863926ae5bafd24b
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 0%
@@ -41,11 +42,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->파트너 포털과 같이 B2B가 아닌 시나리오에서 개인 카탈로그를 관리하는 데 사용되는 수동으로 만든 키의 경우 [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}에서 키를 관리합니다.
+>파트너 포털과 같이 B2B가 아닌 시나리오에서 개인 카탈로그를 관리하는 데 사용되는 수동으로 만든 키의 경우 [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}에서 키를 관리합니다.
 
 ## 대상자 및 가용성 {#audience}
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 인프라 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 인프라 및 온프레미스 프로젝트에만 적용됩니다."}
 
 [!UICONTROL Restricted Access Keys] 페이지는 B2B 공유 카탈로그를 사용하는 Adobe Commerce on Cloud Infrastructure 및 온-프레미스 상인이 [!DNL Adobe Commerce Optimizer Connector for B2B]과(와) 사용할 수 있습니다. 커넥터가 페이지를 자동으로 설치하고 활성화합니다.
 
@@ -120,4 +121,4 @@ Commerce은 새 키 쌍을 생성하고 개인 키를 저장합니다. 제한된
 > - [서비스 > ACO 제한된 액세스 키](../configuration-reference/services/aco-restricted-access-keys.md) — 기본 키 만료 기간을 구성합니다.
 > - [서비스 > ACO 카탈로그 보기](../configuration-reference/services/aco-catalog-view.md) — 상점 액세스 토큰 라이프타임을 구성하고 발급을 활성화하거나 비활성화합니다.
 > - [제한된 액세스 키 관리](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"}(*Adobe Commerce Optimizer Connector 안내서*) - 이러한 키가 B2B 공유 카탈로그 동기화에 어떻게 적합한지 알아봅니다.
-> - *Adobe Commerce Optimizer 안내서*&#x200B;의 [제한된 액세스 키](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} — 비 B2B 사용 사례에 대한 수동 ACO Studio 기반 키 흐름
+> - *Adobe Commerce Optimizer 안내서*&#x200B;의 [제한된 액세스 키](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} — 비 B2B 사용 사례에 대한 수동 ACO Studio 기반 키 흐름
