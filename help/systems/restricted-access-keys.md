@@ -29,7 +29,8 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+last-update: 2026-10-01
+source-git-commit: 82862dcdd7667b46cfe7bd08863926ae5bafd24b
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 0%
@@ -119,5 +120,5 @@ Commerce은 새 키 쌍을 생성하고 개인 키를 저장합니다. 제한된
 > - [카탈로그 보기 동기화 상태 모니터링](catalog-view-sync-status.md) - 이 키가 보호하는 카탈로그 보기를 모니터링하고 조정합니다.
 > - [서비스 > ACO 제한된 액세스 키](../configuration-reference/services/aco-restricted-access-keys.md) — 기본 키 만료 기간을 구성합니다.
 > - [서비스 > ACO 카탈로그 보기](../configuration-reference/services/aco-catalog-view.md) — 상점 액세스 토큰 라이프타임을 구성하고 발급을 활성화하거나 비활성화합니다.
-> - [제한된 액세스 키 관리](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"}(*Adobe Commerce Optimizer Connector 안내서*) - 이러한 키가 B2B 공유 카탈로그 동기화에 어떻게 적합한지 알아봅니다.
+> - [제한된 액세스 키 관리](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"}(*Adobe Commerce Optimizer Connector 안내서*) - 이러한 키가 B2B 공유 카탈로그 동기화에 어떻게 적합한지 알아봅니다.
 > - *Adobe Commerce Optimizer 안내서*&#x200B;의 [제한된 액세스 키](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} — 비 B2B 사용 사례에 대한 수동 ACO Studio 기반 키 흐름
