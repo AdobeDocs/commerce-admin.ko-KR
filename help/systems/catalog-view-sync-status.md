@@ -190,6 +190,6 @@ ht-degree: 0%
 > - [데이터 피드 동기화 상태](data-feed-sync-status.md)
 > - [서비스 > ACO 카탈로그 보기 동기화](../configuration-reference/services/aco-catalog-view-sync.md) - 삭제 및 만들기 유예 기간 및 드리프트 조정자를 구성합니다.
 > - [제한된 액세스 키 관리](restricted-access-keys.md) — 이 페이지에서 만료가 표시되는 키를 관리합니다.
-> - *Adobe Commerce Optimizer Connector 안내서*&#x200B;의 [B2B 공유 카탈로그에 대한 카탈로그 보기 동기화 모니터링](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)
+> - *Adobe Commerce Optimizer Connector 안내서*&#x200B;의 [B2B 공유 카탈로그에 대한 카탈로그 보기 동기화 모니터링](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)
 > - [비공개 카탈로그 보기](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/private-catalog-view)
 > - [제한된 액세스 키](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/restricted-access-keys)
