@@ -6,27 +6,36 @@ feature: Merchandising, Price Rules, Catalog Management
 TQID: https://experienceleague.adobe.com/rX7YtAYqk0z8140ueglCAzHQUeC2Y-lwRywB5uDdNG4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 6d1de809dfbdccea260fb7d5f8963a5c20cde15c
 workflow-type: tm+mt
-source-wordcount: 1730
+source-wordcount: '1807'
 ht-degree: 0%
-
 ---
-
 # 카탈로그 가격 규칙 만들기
 
 일련의 조건이 충족될 때마다 특정 제품에 할인을 적용하려면 다음 지침을 따르십시오. 카탈로그 가격 규칙 할인은 제품을 장바구니에 담기 전에 적용됩니다.
@@ -37,7 +46,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단에서 **[!UICONTROL Add New Rule]**&#x200B;을(를) 클릭합니다.
 
-   _[!UICONTROL Rule Information]_&#x200B;섹션에는&#x200B;**[!UICONTROL Conditions]**&#x200B;및&#x200B;**[!UICONTROL Actions]**&#x200B;에 대한 확장 가능한 섹션이 포함되어 있습니다.
+   _[!UICONTROL Rule Information]_섹션에는&#x200B;**[!UICONTROL Conditions]**및&#x200B;**[!UICONTROL Actions]**에 대한 확장 가능한 섹션이 포함되어 있습니다.
 
    ![카탈로그 가격 규칙 - 정보](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -58,13 +67,17 @@ ht-degree: 0%
    - 선택할 수 있는 옵션은 _고객_ > _고객 그룹_&#x200B;에서 만들고 관리하는 고객 그룹에 따라 다릅니다.
    - 여러 그룹을 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 상태에서 각 옵션을 클릭합니다.
 
-1. ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 가격 규칙이 적용되는 시기를 확인하려면 **[!UICONTROL From]** 및 **[!UICONTROL To]** 날짜를 입력하십시오.
+1. 가격 규칙에 대한 스케줄을 설정합니다.
 
-   날짜를 입력하거나 **[!UICONTROL Calendar]**(![달력 아이콘](../assets/icon-calendar.png))을 사용하여 날짜를 선택할 수 있습니다. 날짜를 비워 두면 가격 규칙이 저장될 때 규칙이 활성화됩니다.
+   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 가격 규칙이 적용되는 시기를 확인하려면 **[!UICONTROL From]** 및 **[!UICONTROL To]** 날짜를 입력하십시오.
+
+   - ![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service]만 해당) **[!UICONTROL From]** 및 **[!UICONTROL To]** 날짜 및 시간을 입력하여 가격 규칙이 시작되고 끝나는 시기를 확인합니다.
+
+   값을 입력하거나 **[!UICONTROL Calendar]**(![달력 아이콘](../assets/icon-calendar.png))을 사용하여 값을 선택할 수 있습니다.
 
    >[!NOTE]
    >
-   >`From` 및 `To` 필드는 Adobe Commerce의 카탈로그 가격 규칙 구성 페이지에서 제거되었으며 카탈로그 가격 규칙에서 직접 수정할 수 없습니다. 가격 규칙 활성화 일정을 설정하려면 예약된 업데이트를 만들어야 합니다.
+   >Adobe Commerce on Cloud 및 온-프레미스 프로젝트의 경우 카탈로그 가격 규칙 구성 페이지에서 `From` 및 `To` 필드를 사용할 수 없습니다. 가격 규칙 활성화 일정을 설정하려면 [예약된 업데이트](#step-5-schedule-the-rule)를 만들어야 합니다.
 
 1. 다른 규칙과 관련하여 이 규칙의 **[!UICONTROL Priority]**&#x200B;을(를) 설정하려면 숫자를 입력하세요.
 
@@ -224,19 +237,21 @@ ht-degree: 0%
 
 1. 규칙 속성 업데이트:
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **[!UICONTROL Edit]**&#x200B;을(를) 클릭하여 _[!UICONTROL Rule Information]_&#x200B;페이지를 표시합니다.
+   - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **[!UICONTROL Edit]**&#x200B;을(를) 클릭하여 _[!UICONTROL Rule Information]_페이지를 표시합니다.
 
-   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 목록에서 규칙을 클릭하여 _[!UICONTROL Rule Information]_&#x200B;페이지를 표시합니다.
+   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 목록에서 규칙을 클릭하여 _[!UICONTROL Rule Information]_페이지를 표시합니다.
 
 1. 규칙이 올바르게 작동하는지 테스트합니다.
 
    가격 규칙은 매일 밤 다른 시스템 규칙과 함께 자동으로 처리됩니다. 가격 규칙을 만들 때 규칙을 테스트하기 전에 시스템에서 가격 규칙이 올바르게 작동하는지 확인할 수 있는 충분한 시간을 허용하십시오. 새로운 규칙이 추가되면 Commerce은 이에 따라 가격과 우선 순위를 다시 계산합니다.
 
+   [!DNL Adobe Commerce as a Cloud Service]에서 Commerce은 시작 또는 종료 시간에 도달한 활성 규칙을 매 분마다 확인하고 영향을 받는 제품의 가격을 업데이트합니다.
+
 ## 카탈로그 가격 규칙 데모
 
 이 비디오를 통해 카탈로그 가격 규칙 만들기에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410851?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## 필드 설명
 
@@ -250,8 +265,8 @@ ht-degree: 0%
 | [!UICONTROL Customer Groups] | (필수) 규칙이 적용되는 고객 그룹을 식별합니다. |
 | [!UICONTROL Priority] | 다른 규칙과 관련한 이 규칙의 우선 순위를 나타내는 숫자입니다. 높은 우선 순위에서 낮은 우선 순위는 `0,1,2,3...`입니다. |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 저장소에서 규칙이 활성 상태인지 확인합니다. 옵션: `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 가격 규칙이 적용되는 첫 날을 지정합니다. 비워 두면 가격 규칙이 저장될 때 적용됩니다. |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 가격 규칙이 적용되는 마지막 날을 지정합니다. 비워 두면 가격 규칙은 무기한 계속됩니다. |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 가격 규칙이 적용되는 첫 날을 지정합니다. 비워 두면 가격 규칙이 저장될 때 적용됩니다.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service]만 해당) 가격 규칙이 적용되는 날짜와 시간을 지정합니다. 비워 두면 가격 규칙이 저장될 때 적용됩니다. |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 가격 규칙이 적용되는 마지막 날을 지정합니다. 비워 두면 가격 규칙은 무기한 계속됩니다.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service]만 해당) 가격 규칙이 종료되는 날짜와 시간을 지정합니다. 비워 두면 가격 규칙은 무기한 계속됩니다. |
 
 {style="table-layout:auto"}
 
