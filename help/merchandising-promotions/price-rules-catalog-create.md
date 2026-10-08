@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단에서 **[!UICONTROL Add New Rule]**&#x200B;을(를) 클릭합니다.
 
-   _[!UICONTROL Rule Information]_섹션에는&#x200B;**[!UICONTROL Conditions]**및&#x200B;**[!UICONTROL Actions]**에 대한 확장 가능한 섹션이 포함되어 있습니다.
+   _[!UICONTROL Rule Information]_&#x200B;섹션에는&#x200B;**[!UICONTROL Conditions]**&#x200B;및&#x200B;**[!UICONTROL Actions]**&#x200B;에 대한 확장 가능한 섹션이 포함되어 있습니다.
 
    ![카탈로그 가격 규칙 - 정보](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -237,9 +237,9 @@ ht-degree: 0%
 
 1. 규칙 속성 업데이트:
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **[!UICONTROL Edit]**&#x200B;을(를) 클릭하여 _[!UICONTROL Rule Information]_페이지를 표시합니다.
+   - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **[!UICONTROL Edit]**&#x200B;을(를) 클릭하여 _[!UICONTROL Rule Information]_&#x200B;페이지를 표시합니다.
 
-   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 목록에서 규칙을 클릭하여 _[!UICONTROL Rule Information]_페이지를 표시합니다.
+   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 목록에서 규칙을 클릭하여 _[!UICONTROL Rule Information]_&#x200B;페이지를 표시합니다.
 
 1. 규칙이 올바르게 작동하는지 테스트합니다.
 
