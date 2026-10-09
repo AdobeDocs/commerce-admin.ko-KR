@@ -6,25 +6,32 @@ feature: Merchandising, Price Rules, Catalog Management
 TQID: https://experienceleague.adobe.com/JZE2DF0tp-XOsKjxo-WaQiwA3Y-FrM4TI5qq-Nze-qo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 6d1de809dfbdccea260fb7d5f8963a5c20cde15c
 workflow-type: tm+mt
-source-wordcount: 468
+source-wordcount: '518'
 ht-degree: 0%
-
 ---
-
 # 카탈로그 가격 규칙
 
 카탈로그 가격 규칙은 정의된 조건 세트에 따라 할인된 가격으로 구매자에게 제품을 제공하는 데 사용할 수 있습니다. 카탈로그 가격 규칙은 제품을 장바구니에 담기 전에 트리거되므로 [쿠폰 코드](price-rules-cart-coupon.md)를 사용하지 않습니다.
@@ -58,8 +65,8 @@ ht-degree: 0%
 | [!UICONTROL Priority] | ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) 규칙에 대해 정의된 우선 순위를 기준으로 목록을 필터링하려면 이 필드에 텍스트를 입력하십시오. |
 | [!UICONTROL Web Site] | ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) 이 옵션을 사용하여 규칙에 정의된 웹 사이트를 기준으로 목록을 필터링합니다. |
 | [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **[!UICONTROL Edit]**&#x200B;을(를) 클릭하여 규칙 정보를 표시하고 규칙 설정을 업데이트합니다(규칙 만들기와 유사). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 동적 일정 필드(받는 사람: 및 보낸 사람:)를 사용하여 규칙을 만들 때 정의된 규칙의 시작 날짜를 기준으로 목록을 필터링합니다. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 동적 일정 필드(받는 사람: 및 보낸 사람:)를 사용하여 규칙을 만들 때 정의된 규칙의 종료 날짜를 기준으로 목록을 필터링합니다. |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 동적 일정 필드(받는 사람: 및 보낸 사람:)를 사용하여 규칙을 만들 때 정의된 규칙의 시작 날짜를 기준으로 목록을 필터링합니다.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service]만 해당) 동적 일정 필드(받는 사람: 및 보낸 사람:)를 사용하여 규칙의 시작 날짜 및 시간을 기준으로 목록을 필터링합니다. |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 동적 일정 필드(받는 사람: 및 보낸 사람:)를 사용하여 규칙을 만들 때 정의된 규칙의 종료 날짜를 기준으로 목록을 필터링합니다.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service]만 해당) 동적 일정 필드(받는 사람: 및 보낸 사람:)를 사용하여 규칙의 종료 날짜 및 시간을 기준으로 목록을 필터링합니다. |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 이 옵션을 사용하여 규칙 상태(`Active` 또는 `Inactive`)를 기준으로 목록을 필터링합니다. |
 
 {style="table-layout:auto"}

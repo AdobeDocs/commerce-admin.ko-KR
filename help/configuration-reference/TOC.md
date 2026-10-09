@@ -5,9 +5,9 @@ breadcrumb-title: 구성 참조
 role: Admin, Developer, User
 feature: Configuration
 nudge: true
-source-git-commit: f6c2f4b74fae59264faf75de3c025c596cab048f
+source-git-commit: 64df962f11de1b79e72dc31d7bc3cc0cc4b832f0
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '186'
 ht-degree: 2%
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 2%
   - [이메일 주소 저장](./general/store-email-addresses.md)
   - [연락처](./general/contacts.md)
   - [보고서](./general/reports.md)
+  - [벌크 API](./general/bulk-api.md)
   - [콘텐츠 관리](./general/content-management.md)
   - [고급 보고](./general/advanced-reporting.md)
 - 카탈로그 {#catalog}
