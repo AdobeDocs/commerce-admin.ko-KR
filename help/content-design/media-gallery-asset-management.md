@@ -3,15 +3,31 @@ title: 미디어 갤러리 자산 관리
 description: Adobe Stock 통합을 통해 얻은 업로드된 미디어 파일 및 에셋을 관리하는 방법을 알아봅니다.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-last-update: 2026-03-27T00:00:00Z
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+last-update: 2026-03-27
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
-
 ---
-
 # 미디어 갤러리 자산 관리
 
 새 [미디어 갤러리](media-gallery.md)에서는 업로드된 미디어 파일 및 [Adobe Stock 통합](adobe-stock.md)을 통해 얻은 자산을 관리하는 도구를 제공합니다. Adobe Stock [이미지 미리 보기](adobe-stock-save-preview.md)를 저장한 경우 새 미디어 갤러리에서 이미지를 [라이선스](adobe-stock-license-image.md)할 수도 있습니다.

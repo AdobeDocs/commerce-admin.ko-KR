@@ -3,31 +3,41 @@ title: 시스템 백업
 description: 파일 시스템, 데이터베이스 및 미디어 파일을 포함하여 시스템 백업을 만들고 예약하는 방법에 대해 알아봅니다.
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/kx2acbOSrWMJGv3ST6qKAXjLPgL2Lsh16wWvOxNO7FE
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+last-update: 2026-08-20
+TQID: 'https://experienceleague.adobe.com/kx2acbOSrWMJGv3ST6qKAXjLPgL2Lsh16wWvOxNO7FE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2026-08-20
-source-git-commit: b121ee17ac10cfc992f8797d161ec06764322ea1
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: '391'
 ht-degree: 0%
-
 ---
-
 # 시스템 백업
 
 Adobe Commerce 및 Magento Open Source을 사용하면 파일 시스템, 데이터베이스 및 미디어 파일과 같은 시스템의 여러 부분을 백업하고 자동으로 롤백할 수 있습니다. 각 백업에 대한 레코드가 _백업_ 페이지의 그리드에 나타납니다. 목록에서 레코드를 삭제하면 보관된 파일도 삭제됩니다. 데이터베이스 백업 파일은 GZ 형식을 사용하여 압축됩니다. 시스템 백업과 데이터베이스 및 미디어 백업의 경우 TGZ 형식이 사용됩니다. 확장 및 업데이트를 설치하기 전에 백업 도구에 대한 액세스를 제한하고 백업하는 것이 좋습니다.

@@ -2,6 +2,7 @@
 title: 카탈로그 보기 구성 관리
 description: B2B 공유 카탈로그에 대해 만들어진 Adobe Commerce Optimizer 카탈로그 보기를 검토하고 이를 보호하는 제한된 액세스 키를 할당하는 방법을 알아봅니다.
 feature: B2B, Companies, Catalog Management
+last-update: 2026-10-01
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -10,20 +11,29 @@ feature_v2:
     internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
     internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-last-update: 2026-10-01
-source-git-commit: 82862dcdd7667b46cfe7bd08863926ae5bafd24b
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -54,7 +64,7 @@ ht-degree: 0%
 
 토큰 라이프타임을 구성하거나 토큰 발급을 사용하지 않으려면 [서비스 > ACO 카탈로그 보기](/help/configuration-reference/services/aco-catalog-view.md)를 참조하세요.
 
-공유 카탈로그의 _[!UICONTROL Catalog Views]_&#x200B;탭 또는 연결된 회사의&#x200B;_[!UICONTROL Catalog Views]_ 섹션에서 이러한 카탈로그 보기를 검토하고 할당된 키를 관리할 수 있습니다. 둘 다 동일한 카탈로그 보기와 현재 키 할당을 나열합니다. 각 위치에서 정확한 탐색 경로를 보려면 [제한된 액세스 키 편집](#edit-restricted-access-keys)을 참조하십시오.
+공유 카탈로그의 _[!UICONTROL Catalog Views]_탭 또는 연결된 회사의_[!UICONTROL Catalog Views]_ 섹션에서 이러한 카탈로그 보기를 검토하고 할당된 키를 관리할 수 있습니다. 둘 다 동일한 카탈로그 보기와 현재 키 할당을 나열합니다. 각 위치에서 정확한 탐색 경로를 보려면 [제한된 액세스 키 편집](#edit-restricted-access-keys)을 참조하십시오.
 
 [!DNL Adobe Commerce Optimizer]에 대한 공유 카탈로그 데이터 동기화를 모니터링하려면 [카탈로그 보기 동기화 상태 모니터링](/help/systems/catalog-view-sync-status.md)을 참조하세요.
 

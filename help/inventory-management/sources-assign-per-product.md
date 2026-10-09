@@ -1,30 +1,40 @@
 ---
 title: 제품당 재고 출처 지정
-description: 소스당 수량 및 임계값을 설정하기 전에 관리자에서 제품에 하나 이상의  [!DNL Inventory Management] 소스를 지정하십시오.
+description: 소스당 수량 및 임계값을 설정하기 전에 관리에서 제품에 하나 이상의 [!DNL Inventory Management] 소스를 할당하십시오.
 exl-id: 7e47be25-633e-4f5d-bb61-0d9e79b6dbad
 feature: Inventory, Products
-TQID: https://experienceleague.adobe.com/Wjx3w6Z-oNALxNRHw65BZDeCzka3BQvtg-m4a9kp-Y8
+last-update: 2023-10-26
+TQID: 'https://experienceleague.adobe.com/Wjx3w6Z-oNALxNRHw65BZDeCzka3BQvtg-m4a9kp-Y8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2023-10-26
-source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 159
+source-wordcount: '160'
 ht-degree: 0%
-
 ---
-
 # 제품당 소스 할당
 
 수량 및 설정을 수정하기 전에 제품에 [소스](sources-manage.md)를 할당해야 합니다.
@@ -49,7 +59,7 @@ ht-degree: 0%
 
 1. 원본을 추가하려면 **[!UICONTROL Assign Sources]**&#x200B;을(를) 클릭하십시오.
 
-1. _[!UICONTROL Assign Sources]_&#x200B;페이지에서 제품에 할당하려는 각 원본 옆의 확인란을 선택합니다.
+1. _[!UICONTROL Assign Sources]_페이지에서 제품에 할당하려는 각 원본 옆의 확인란을 선택합니다.
 
    ![제품 - 원본 할당](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 
@@ -58,7 +68,7 @@ ht-degree: 0%
 1. 다음 중 하나를 수행하여 저장합니다.
 
    - **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-   - _[!UICONTROL Save]_(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png)) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
+   - _[!UICONTROL Save]_(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png)) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
 
 원본을 할당한 후 각 제품 원본의 [재고 수량](quantities-assign-per-product.md)을(를) 업데이트하세요.
 

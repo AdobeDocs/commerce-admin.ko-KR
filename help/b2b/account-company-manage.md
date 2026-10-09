@@ -3,7 +3,8 @@ title: 회사 계정 관리
 description: 회사 페이지와 그리드에서 사용할 수 있는 도구를 사용하여 Adobe Commerce 스토어의 회사 계정을 관리하는 방법을 알아봅니다.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-TQID: https://experienceleague.adobe.com/a4IAHlQLzc9pX6V2z8V9nLUaWToWizjdOomV7TfS7to
+last-update: 2026-10-01
+TQID: 'https://experienceleague.adobe.com/a4IAHlQLzc9pX6V2z8V9nLUaWToWizjdOomV7TfS7to'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -20,6 +21,8 @@ feature_v2:
     internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
     internal-label: 2FA
@@ -42,25 +45,24 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-last-update: 2026-10-01
-source-git-commit: 82862dcdd7667b46cfe7bd08863926ae5bafd24b
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
 source-wordcount: '2804'
 ht-degree: 0%
 ---
 # 회사 계정 관리
 
-_[!UICONTROL Companies]_&#x200B;페이지에는 상태와 관계없이 모든 현재 회사 계정이 나열됩니다. 승인 보류 중인 요청이 목록 맨 위에 표시됩니다.
+_[!UICONTROL Companies]_페이지에는 상태와 관계없이 모든 현재 회사 계정이 나열됩니다. 승인 보류 중인 요청이 목록 맨 위에 표시됩니다.
 
 ![회사 표](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 *[!UICONTROL Columns]* 컨트롤을 사용하여 그리드에 표시되는 열을 사용자 지정합니다. 검색 및 필터 기능을 사용하여 보기에 표시되는 회사를 사용자 지정합니다.
 
-- _[!UICONTROL Search]_&#x200B;을(를) 사용하여&#x200B;**회사**&#x200B;그리드에서 회사를 찾으십시오.**회사 이름**&#x200B;및&#x200B;**상위**&#x200B;열을 인덱싱합니다.
+- _[!UICONTROL Search]_을(를) 사용하여&#x200B;**회사**그리드에서 회사를 찾으십시오.**회사 이름**및&#x200B;**상위**열을 인덱싱합니다.
 
 - [!UICONTROL Filter]을(를) 사용하여 특정 기준을 충족하는 레코드를 포함하도록 보기를 사용자 지정합니다. 예를 들어 B2B 사이트가 단일 회사 계정과 [회사 계층](manage-companies.md)을 모두 관리하도록 구성된 경우 `[!UICONTROL Company Type - Company]`을(를) 기준으로 필터링하여 단일 회사만 표시하거나 `[!UICONTROL Company Type - Parent]`을(를) 기준으로 필터링하여 각 계층에 대한 상위 회사만 표시할 수 있습니다.
 
-표 위에 있는 _[!UICONTROL Actions]_&#x200B;컨트롤을 사용하여 여러 회사 레코드에 작업을 적용합니다. 예를 들어 각 개별 회사 요청을 승인하는 대신 여러 요청을 선택하여 한 번의 작업으로 계정을 활성화할 수 있습니다. 사용 가능한 작업은 관리자 사용자 계정에 할당된 역할의 [권한](../systems/permissions.md)에 따라 다릅니다.
+표 위에 있는 _[!UICONTROL Actions]_컨트롤을 사용하여 여러 회사 레코드에 작업을 적용합니다. 예를 들어 각 개별 회사 요청을 승인하는 대신 여러 요청을 선택하여 한 번의 작업으로 계정을 활성화할 수 있습니다. 사용 가능한 작업은 관리자 사용자 계정에 할당된 역할의 [권한](../systems/permissions.md)에 따라 다릅니다.
 
 ## 회사 역할 리소스
 
@@ -204,7 +206,7 @@ _[!UICONTROL Companies]_&#x200B;페이지에는 상태와 관계없이 모든 �
 
 1. 표에서 편집할 회사 레코드를 찾습니다.
 
-1. _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;선택.
+1. _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**선택.
 
 1. 회사 정보에 필요한 사항을 변경합니다.
 
@@ -236,7 +238,7 @@ _[!UICONTROL Companies]_&#x200B;페이지에는 상태와 관계없이 모든 �
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**(으)로 이동합니다.
 
-1. 그리드에서 회사를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 그리드에서 회사를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
 1. 참조용 필드 설명을 사용하여 필요에 따라 각 섹션의 필드 값을 업데이트합니다.
 
@@ -246,7 +248,7 @@ _[!UICONTROL Companies]_&#x200B;페이지에는 상태와 관계없이 모든 �
 
 다음 비디오를 통해 회사 계정 관리에 대해 알아볼 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410774?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## 회사 경영
 
@@ -258,7 +260,7 @@ _[!UICONTROL Companies]_&#x200B;페이지에는 상태와 관계없이 모든 �
 
 ## 카탈로그 보기 구성 관리
 
-[!DNL Adobe Commerce Optimizer Connector for B2B] 확장이 설치되어 있는 상태에서 회사 계정의 _[!UICONTROL Catalog Views]_&#x200B;섹션에는 회사에 할당된 공유 카탈로그에서 예상된 [!DNL Adobe Commerce Optimizer] 카탈로그 보기가 나열되며 이를 보호하는 제한된 액세스 키를 관리할 수 있습니다.
+[!DNL Adobe Commerce Optimizer Connector for B2B] 확장이 설치되어 있는 상태에서 회사 계정의 _[!UICONTROL Catalog Views]_섹션에는 회사에 할당된 공유 카탈로그에서 예상된 [!DNL Adobe Commerce Optimizer] 카탈로그 보기가 나열되며 이를 보호하는 제한된 액세스 키를 관리할 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL Companies]**(으)로 이동합니다.
 

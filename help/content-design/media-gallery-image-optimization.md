@@ -1,31 +1,41 @@
 ---
 title: 미디어 갤러리 이미지 최적화
-description: ' [!DNL Commerce] 미디어 자산에 대해 이미지 최적화를 사용하는 방법을 알아봅니다.'
+description: '[!DNL Commerce] 미디어 자산에 대해 이미지 최적화를 사용하는 방법을 알아봅니다.'
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/BTjXX6X70q2Mwm0xPNx-t429R5m93VprCHBDcYgQNpY
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+last-update: 2026-08-20
+TQID: 'https://experienceleague.adobe.com/BTjXX6X70q2Mwm0xPNx-t429R5m93VprCHBDcYgQNpY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2026-08-20
-source-git-commit: b121ee17ac10cfc992f8797d161ec06764322ea1
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 212
+source-wordcount: '213'
 ht-degree: 0%
-
 ---
-
 # 미디어 갤러리 이미지 최적화
 
 새 [미디어 갤러리](media-gallery.md)에서는 성능을 개선하고 상점의 미디어 파일 크기를 줄이는 _이미지 최적화_ 기능을 제공합니다. 이 최적화는 기본적으로 활성화되어 있으며 저장소 구성 설정에서 수정할 수 있습니다.
@@ -47,7 +57,7 @@ ht-degree: 0%
 
 구성에서 _최대 너비_ 및 _최대 높이_ 값이 변경되면 이전에 삽입한 기존의 최적화된 모든 이미지가 업데이트됩니다.
 
-Media Gallery 이미지 최적화를 사용하려면 구성을 변경할 때 최적화된 이미지를 다시 생성하기 위해 `media.gallery.renditions.update` 큐 소비자가 실행 중이어야 합니다. 자세한 내용은 _구성 가이드_&#x200B;의 [메시지 큐 관리](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)를 참조하십시오.
+Media Gallery 이미지 최적화를 사용하려면 구성을 변경할 때 최적화된 이미지를 다시 생성하기 위해 `media.gallery.renditions.update` 큐 소비자가 실행 중이어야 합니다. 자세한 내용은 _구성 가이드_&#x200B;의 [메시지 큐 관리](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)를 참조하십시오.
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}
 
