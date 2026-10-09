@@ -3,30 +3,40 @@ title: 단순 제품
 description: 개별적으로 또는 그룹화되거나, 구성 가능하거나, 번들 제품의 일부로 판매할 수 있는 간단한 제품을 만드는 방법에 대해 알아봅니다.
 exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/2olR82TlKdkHM3KSRFcOGzeotunoVG1oD2ZRJGdXe9s
+last-update: 2023-05-22
+TQID: 'https://experienceleague.adobe.com/2olR82TlKdkHM3KSRFcOGzeotunoVG1oD2ZRJGdXe9s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-last-update: 2023-05-22
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+    internal-label: Administration
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
-source-wordcount: 607
+source-wordcount: '607'
 ht-degree: 0%
-
 ---
-
 # 단순 제품
 
 제품 유형의 강력한 기능을 활용하기 위한 핵심 중 하나는 간단한 독립형 제품을 사용할 시기를 학습하는 것입니다. 간단한 제품은 개별적으로 또는 그룹화되거나, 구성 가능하거나, 번들 제품의 일부로 판매할 수 있습니다. 사용자 지정 옵션이 있는 간단한 제품을 _복합 제품_&#x200B;이라고도 합니다.
