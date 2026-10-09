@@ -22,7 +22,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>10월 Adobe Commerce as a Cloud Service 릴리스에 대한 Adobe Commerce 관리 설명서 업데이트:<br />- 일괄 요청당 구성할 수 없는 최대 엔터티 수를 Adobe Commerce as a Cloud Service의 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/bulk-api">구성 참조</a>에 추가했습니다.<br />- 이제 사전 서명된 파일 업로드를 보호하기 위해 <a href="https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload"><code>initiateUpload</code> GraphQL 돌연변이에 대한 Google reCAPTCHA 유효성 검사</a>를 요구할 수 있습니다.<br />- 이제 Commerce 관리에서 시작하거나 종료하는 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog">카탈로그 가격 규칙</a>에 대한 시간을 설정할 수 있습니다.</p>
+      <td><p>10월 Adobe Commerce as a Cloud Service 릴리스에 대한 Adobe Commerce 관리 설명서 업데이트:<br />- 일괄 요청당 구성할 수 없는 최대 엔터티 수를 Adobe Commerce as a Cloud Service의 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/config/general/bulk-api">구성 참조</a>에 추가했습니다.<br />- 이제 사전 서명된 파일 업로드를 보호하기 위해 <a href="https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload"><code>initiateUpload</code> GraphQL 돌연변이에 대한 Google reCAPTCHA 유효성 검사</a>를 요구할 수 있습니다.<br />- 이제 Commerce 관리에서 시작하거나 종료하는 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog">카탈로그 가격 규칙</a>에 대한 시간을 설정할 수 있습니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -44,7 +44,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>B2B용 Adobe Commerce Optimizer 커넥터에 대한 설명서를 추가했습니다.<br />- Adobe Commerce Optimizer과의 B2B 공유 카탈로그 동기화를 모니터링하고 복구하기 위해 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status">카탈로그 보기 동기화 상태</a> 및 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys">제한된 액세스 키</a> 관리 페이지를 추가했습니다.<br />- <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/aco-restricted-access-keys">ACO 제한된 액세스 키</a> 구성 참조 페이지를 추가했습니다.<br />- <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage">공유 카탈로그 관리</a> 및 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/companies/account-company-manage">회사 계정 관리</a>에서 연결된 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage">카탈로그 보기 구성 관리</a>를 추가했습니다.<br />- <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-localize">스토어 로컬라이제이션</a>에 스토어 보기의 로케일을 저장하면 이제 연결된 B2B 공유 카탈로그에 대한 카탈로그 보기 다시 인덱스가 트리거됩니다.</p>
+      <td><p>B2B용 Adobe Commerce Optimizer 커넥터에 대한 설명서를 추가했습니다.<br />- Adobe Commerce Optimizer과의 B2B 공유 카탈로그 동기화를 모니터링하고 복구하기 위해 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status">카탈로그 보기 동기화 상태</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys">제한된 액세스 키</a> 관리 페이지를 추가했습니다.<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/config/services/aco-restricted-access-keys">ACO 제한된 액세스 키</a> 구성 참조 페이지를 추가했습니다.<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage">공유 카탈로그 관리</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/companies/account-company-manage">회사 계정 관리</a>에서 연결된 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage">카탈로그 보기 구성 관리</a>를 추가했습니다.<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/store-localize">스토어 로컬라이제이션</a>에 스토어 보기의 로케일을 저장하면 이제 연결된 B2B 공유 카탈로그에 대한 카탈로그 보기 다시 인덱스가 트리거됩니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -66,7 +66,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 새 Visible on Storefront 토글을 포함하도록 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/sources/sources-add">소스 추가</a>를 업데이트했습니다. 이제 각 인벤토리 소스에 상점 가시성을 위한 개별 플래그를 지정할 수 있습니다. 소스는 기본적으로 숨겨집니다.</p>
+      <td><p>Adobe Commerce as a Cloud Service에 대한 새 Visible on Storefront 토글을 포함하도록 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/sources/sources-add">소스 추가</a>를 업데이트했습니다. 이제 각 인벤토리 소스에 상점 가시성을 위한 개별 플래그를 지정할 수 있습니다. 소스는 기본적으로 숨겨집니다.</p>
 </td>
       <td>
         주요 업데이트
@@ -88,7 +88,7 @@ ht-degree: 1%
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>에 대해 지원되는 버전 목록에서 Adobe Commerce 2.4.8-p5를 제거했습니다. 2.4.8 고객은 B2B 버전 1.5.3을 대신 사용해야 합니다.</p>
+      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>에 대해 지원되는 버전 목록에서 Adobe Commerce 2.4.8-p5를 제거했습니다. 2.4.8 고객은 B2B 버전 1.5.3을 대신 사용해야 합니다.</p>
 </td>
       <td>
         기술
