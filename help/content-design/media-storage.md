@@ -3,14 +3,30 @@ title: 미디어 스토리지
 description: 미디어 저장소를 통해 서버에 저장된 Commerce 미디어 파일을 구성하고 액세스하는 방법에 대해 알아봅니다.
 exl-id: 5cf1bb20-d747-4a12-8558-e167c229efe8
 feature: Page Content, Media
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '488'
 ht-degree: 0%
-
 ---
-
 # 미디어 스토리지
 
 미디어 저장소를 사용하면 서버에 저장된 미디어 파일을 구성하고 액세스할 수 있습니다. 파일 위치에 대한 경로는 [기본 URL](../stores-purchase/store-urls.md) 구성에 의해 결정됩니다. 미디어 저장소의 파일은 페이지 및 정적 블록에서 작업하는 동안 편집기에서 액세스할 수 있습니다. 일반적으로 미디어 저장소는 [!DNL Commerce] 프로그램 파일과 동일한 서버의 파일 시스템에 있습니다.
@@ -29,9 +45,9 @@ ht-degree: 0%
 
    ![이미지 삽입 아이콘](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   이 작업은 _[!UICONTROL Insert/edit image]_&#x200B;대화 상자를 엽니다.
+   이 작업은 _[!UICONTROL Insert/edit image]_대화 상자를 엽니다.
 
-1. _[!UICONTROL Source]_&#x200B;후_&#x200B;검색&#x200B;_아이콘(![검색 아이콘](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"})을 클릭합니다.
+1. _[!UICONTROL Source]_후_&#x200B;검색&#x200B;_아이콘(![검색 아이콘](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"})을 클릭합니다.
 
 1. 왼쪽의 디렉터리 트리에서 다음 중 하나를 수행합니다.
 
@@ -69,7 +85,7 @@ ht-degree: 0%
 
 1. [편집기](editor.md) 도구 모음에서 _이미지 삽입_ 아이콘을 클릭합니다.
 
-1. _[!UICONTROL Source]_&#x200B;후_&#x200B;검색&#x200B;_아이콘(![검색 아이콘](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"})을 클릭합니다.
+1. _[!UICONTROL Source]_후_&#x200B;검색&#x200B;_아이콘(![검색 아이콘](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"})을 클릭합니다.
 
    ![검색 아이콘 선택](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
