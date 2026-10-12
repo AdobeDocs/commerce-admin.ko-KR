@@ -69,7 +69,7 @@ ht-degree: 0%
 사이트에 대한 [!DNL Google Analytics] 4 설정이 없는 경우 다음 방법 중 하나를 따르십시오.
 
 - [처음으로 Analytics 데이터 수집 설정](https://support.google.com/analytics/answer/9304153)
-- [ [!DNL Universal Analytics]이(가) 있는 사이트에 Google Analytics 4 추가](https://support.google.com/analytics/answer/9744165)
+- [&#x200B; [!DNL Universal Analytics]이(가) 있는 사이트에 Google Analytics 4 추가](https://support.google.com/analytics/answer/9744165)
 
 ### 2단계: Commerce 구성 완료
 

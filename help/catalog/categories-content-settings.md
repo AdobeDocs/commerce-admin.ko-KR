@@ -41,7 +41,7 @@ ht-degree: 0%
 ---
 # 범주 - 콘텐츠 설정
 
-_[!UICONTROL Content]_설정에 따라 범주 페이지에 표시되는 추가 콘텐츠가 결정됩니다. 카테고리 제품 목록 외에도 페이지에 이미지, 설명 및 CMS 블록이 포함될 수 있습니다. [[!DNL Page Builder]](../page-builder/introduction.md) 콘텐츠 도구를 사용하여 범주 설명을 정의할 수 있습니다.
+_[!UICONTROL Content]_&#x200B;설정에 따라 범주 페이지에 표시되는 추가 콘텐츠가 결정됩니다. 카테고리 제품 목록 외에도 페이지에 이미지, 설명 및 CMS 블록이 포함될 수 있습니다. [[!DNL Page Builder]](../page-builder/introduction.md) 콘텐츠 도구를 사용하여 범주 설명을 정의할 수 있습니다.
 
 ## [!DNL Page Builder]에 범주 설명 추가
 

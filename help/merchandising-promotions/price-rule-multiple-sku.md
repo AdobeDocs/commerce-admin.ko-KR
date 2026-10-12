@@ -50,7 +50,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**(으)로 이동합니다.
 
-1. _[!UICONTROL Attribute Code]_열 상단의 검색 필터에서 `sku`을(를) 입력하고&#x200B;**[!UICONTROL Search]**을(를) 클릭합니다.
+1. _[!UICONTROL Attribute Code]_&#x200B;열 상단의 검색 필터에서 `sku`을(를) 입력하고&#x200B;**[!UICONTROL Search]**&#x200B;을(를) 클릭합니다.
 
 1. 편집 모드에서 `sku` 특성을 열려면 클릭하세요.
 
@@ -75,11 +75,11 @@ ht-degree: 0%
 
    - 다음 줄의 시작 부분에서 _추가_(![아이콘 추가](../assets/icon-add-green-circle.png))를 클릭하고 **[!UICONTROL Product Attribute]** 아래 목록에서 `SKU`을(를) 클릭합니다.
 
-     ![카탈로그 가격 규칙 조건 - SKU는 ](./assets/multiple-skus-condition1a.png){width="600" zoomable="yes"} 중 하나입니다.
+     ![카탈로그 가격 규칙 조건 - SKU는 &#x200B;](./assets/multiple-skus-condition1a.png){width="600" zoomable="yes"} 중 하나입니다.
 
    - 비교를 위해 옵션을 사용할 수 있습니다. SKU 목록에서 하나 이상의 SKU를 찾으려면 `select is one of`. 모두 검색하여 적용해야 하는 SKU 그룹을 찾으려면 `is`을(를) 선택하십시오. `is one of`을(를) 선택하는 것이 좋습니다.
 
-     ![카탈로그 가격 규칙 조건 - SKU는 ](./assets/multiple-skus-condition1b.png){width="600" zoomable="yes"} 중 하나입니다.
+     ![카탈로그 가격 규칙 조건 - SKU는 &#x200B;](./assets/multiple-skus-condition1b.png){width="600" zoomable="yes"} 중 하나입니다.
 
    - 조건을 완료하려면 자세히(**...**) 링크를 클릭하고 사용 가능한 제품 목록의 _선택기_(![목록 아이콘](../assets/icon-list-chooser.png)) 아이콘을 클릭하십시오.
 

@@ -276,7 +276,7 @@ Commerce 2.4.7부터 쇼핑객은 장바구니에 여러 쿠폰을 적용할 수
 
    ![쿠폰 결과 가져오기](./assets/import-coupons-result.png){width="600" zoomable="yes"}
 
-가져오기 진행 상황과 자세한 결과를 모니터링하려면 **[!UICONTROL View progress in Bulk Actions Log]**&#x200B;을(를) 클릭하거나 **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**(으)로 이동하십시오. 각 가져오기는&#x200B;**[!UICONTROL Bulk Actions]**에서 단일 항목으로 나타나고 항목을 선택합니다.
+가져오기 진행 상황과 자세한 결과를 모니터링하려면 **[!UICONTROL View progress in Bulk Actions Log]**&#x200B;을(를) 클릭하거나 **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**(으)로 이동하십시오. 각 가져오기는&#x200B;**[!UICONTROL Bulk Actions]**&#x200B;에서 단일 항목으로 나타나고 항목을 선택합니다.
 
 ## 쿠폰 보고서
 

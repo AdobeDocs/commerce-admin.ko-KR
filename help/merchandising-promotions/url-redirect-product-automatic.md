@@ -67,7 +67,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 스토어 보기 또는 웹 사이트 범위에 대해 URL 재작성을 생성할 수 있습니다. 관리자의 URL 재작성 범위를 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**로 설정합니다._[!UICONTROL Product URL Rewrite Scope]_ 필드에서 범위를 선택합니다.
+> 스토어 보기 또는 웹 사이트 범위에 대해 URL 재작성을 생성할 수 있습니다. 관리자의 URL 재작성 범위를 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;**[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**&#x200B;로 설정합니다._[!UICONTROL Product URL Rewrite Scope]_ 필드에서 범위를 선택합니다.
 
 ## 제품 URL 자동 리디렉션
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. 목록에서 제품을 찾은 다음 를 클릭하여 레코드를 엽니다.
 
-1. **[!UICONTROL Search Engine Optimization]** 섹션에서 ![확장 선택기 ](../assets/icon-display-expand.png)을(를) 확장합니다.
+1. **[!UICONTROL Search Engine Optimization]** 섹션에서 ![확장 선택기 &#x200B;](../assets/icon-display-expand.png)을(를) 확장합니다.
 
    ![제품 검색 엔진 최적화 - 영구 리디렉션](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 

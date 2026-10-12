@@ -173,7 +173,7 @@ Quote status 는 Quote 워크플로우에서 Quote 의 현재 상태에 대한 �
 
 1. 거부할 각 개설 견적 요청을 선택합니다.
 
-1. _[!UICONTROL Actions]_컨트롤을 `Declined`(으)로 설정합니다.
+1. _[!UICONTROL Actions]_&#x200B;컨트롤을 `Declined`(으)로 설정합니다.
 
 1. 메시지가 표시되면 견적이 거절된 이유를 입력하고 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 

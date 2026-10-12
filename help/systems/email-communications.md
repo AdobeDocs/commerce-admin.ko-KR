@@ -40,7 +40,7 @@ _메일 전송 설정_&#x200B;을 통해 반환된 전자 메일 또는 전자 �
 
 >[!IMPORTANT]
 >
->**보안 알림** 모든 판매자는 최근에 식별된 잠재적인 원격 코드 실행 악용으로부터 보호하기 위해 메일 전송 구성을 즉시 설정해야 합니다. 이 문제가 해결될 때까지 전자 메일 통신에 [!DNL Sendmail]을(를) 사용하지 않는 것이 좋습니다. _[!UICONTROL Mail Sending Settings]_에서_[!UICONTROL Set Return Path]_&#x200B;이(가) `No`(으)로 설정되어 있는지 확인하십시오.
+>**보안 알림** 모든 판매자는 최근에 식별된 잠재적인 원격 코드 실행 악용으로부터 보호하기 위해 메일 전송 구성을 즉시 설정해야 합니다. 이 문제가 해결될 때까지 전자 메일 통신에 [!DNL Sendmail]을(를) 사용하지 않는 것이 좋습니다. _[!UICONTROL Mail Sending Settings]_&#x200B;에서&#x200B;_[!UICONTROL Set Return Path]_&#x200B;이(가) `No`(으)로 설정되어 있는지 확인하십시오.
 
 구성 설정의 자세한 목록을 보려면 _구성 참조_&#x200B;의 [_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md)을(를) 참조하십시오.
 

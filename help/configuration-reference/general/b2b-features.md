@@ -66,7 +66,7 @@ ht-degree: 3%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | 웹 사이트 | 활성화되면 세계적으로 사용할 수 있거나 특정 회사에 제한된 사용자 지정 가격으로 조정된 카탈로그를 만들 수 있습니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Enable Shared Catalog direct products price assigning] | 웹 사이트 | _[!UICONTROL Enable Shared Catalog]_필드를 `Yes`(으)로 설정하면 이 옵션을 사용할 수 있습니다. 활성화된 경우 공유 카탈로그에 지정된 제품만 가격 인덱스에 저장됩니다. 공유 카탈로그에 할당되지 않은 제품은 상점 앞에 표시되지 않습니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | 웹 사이트 | _[!UICONTROL Enable Shared Catalog]_&#x200B;필드를 `Yes`(으)로 설정하면 이 옵션을 사용할 수 있습니다. 활성화된 경우 공유 카탈로그에 지정된 제품만 가격 인덱스에 저장됩니다. 공유 카탈로그에 할당되지 않은 제품은 상점 앞에 표시되지 않습니다. 옵션: `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | 웹 사이트 | 활성화되면 회사 구매자는 장바구니에서 견적에 대한 요청을 제출할 수 있습니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}

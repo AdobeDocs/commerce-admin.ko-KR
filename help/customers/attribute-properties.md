@@ -66,7 +66,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >**바로 가기:** 필수 필드만 완료하려면 _[!UICONTROL Storefront Properties]_(으)로 스크롤하여_[!UICONTROL Sort Order]_&#x200B;을(를) 입력한 다음 저장하십시오.
+   >**바로 가기:** 필수 필드만 완료하려면 _[!UICONTROL Storefront Properties]_(으)로 스크롤하여&#x200B;_[!UICONTROL Sort Order]_&#x200B;을(를) 입력한 다음 저장하십시오.
 
 1. 데이터 입력 속성을 완료합니다.
 
@@ -77,7 +77,7 @@ ht-degree: 0%
      | `Text Field` | 한 줄 텍스트 필드. |
      | `Text Area` | 제품 설명과 같은 텍스트 단락을 입력하기 위한 여러 줄 입력 필드입니다. WYSIWYG 편집기를 사용하여 HTML 태그로 텍스트 서식을 지정하거나 텍스트에 태그를 직접 입력할 수 있습니다. |
      | `Multiple Line` | 여러 줄 거리 주소와 유사하게 속성에 대해 여러 텍스트 줄을 만듭니다. 개별 데이터 입력 라인의 수는 2개에서 20개까지 지정할 수 있습니다. 필드의 초기 값을 지정하려면 `Default Value`을(를) 사용하십시오. |
-     | `Date` | 선호하는 날짜 형식 및 시간대로 날짜 값을 표시합니다. 날짜 값은 목록 또는 달력(![달력 아이콘](../assets/icon-calendar.png))에서 선택할 수 있습니다. <br/><br/>**_참고:_**시스템 구성에 따라_&#x200B;관리자_ 사용자는 필드에 날짜를 직접 입력하거나 달력 또는 목록에서 날짜를 선택할 수 있습니다. 날짜 및 시간 값 지정에 대한 자세한 내용은 [날짜 및 시간 옵션](../catalog/attributes-input-types.md#date-and-time-options)을 참조하세요. |
+     | `Date` | 선호하는 날짜 형식 및 시간대로 날짜 값을 표시합니다. 날짜 값은 목록 또는 달력(![달력 아이콘](../assets/icon-calendar.png))에서 선택할 수 있습니다. <br/><br/>**_참고:_**&#x200B;시스템 구성에 따라_&#x200B;관리자_ 사용자는 필드에 날짜를 직접 입력하거나 달력 또는 목록에서 날짜를 선택할 수 있습니다. 날짜 및 시간 값 지정에 대한 자세한 내용은 [날짜 및 시간 옵션](../catalog/attributes-input-types.md#date-and-time-options)을 참조하세요. |
      | `Yes/No` | `Yes` 및 `No`의 사전 정의된 옵션이 있는 드롭다운 목록을 표시합니다. |
      | `Dropdown` | 단일 선택 항목만 허용하는 값의 드롭다운 목록을 표시합니다. 드롭다운 입력 유형은 [구성 가능한 제품](../catalog/product-create-configurable.md)의 주요 구성 요소입니다. |
      | `Multiple Select` | 여러 값을 선택할 수 있는 드롭다운 목록입니다. |

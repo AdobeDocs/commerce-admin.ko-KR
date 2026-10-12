@@ -232,7 +232,7 @@ PayPal은 모든 규모의 비즈니스 요구 사항을 충족하고 전 세계
 
 >[!NOTE]
 >
->나중에 Commerce을 통해 결제를 캡처할 것이 확실하지 않은 경우 _[!UICONTROL Not Capture]_옵션을 선택하지 마십시오. 수집 버튼을 사용하여 지급이 수집될 때까지 대변 메모를 생성할 수 없습니다.
+>나중에 Commerce을 통해 결제를 캡처할 것이 확실하지 않은 경우 _[!UICONTROL Not Capture]_&#x200B;옵션을 선택하지 마십시오. 수집 버튼을 사용하여 지급이 수집될 때까지 대변 메모를 생성할 수 없습니다.
 
 ## [!UICONTROL Purchase Order]
 

@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Commerce as a Cloud Service] 플랫폼에서는 작업 로그 보고서, 작업 로그 아카이브 및 대량 작업 로그를 구성할 수 없지만 관리자의 **[!UICONTROL System]** > _[!UICONTROL Action Logs]_메뉴에서 보고서 출력을 검토할 수 있습니다.
+>[!DNL Adobe Commerce as a Cloud Service] 플랫폼에서는 작업 로그 보고서, 작업 로그 아카이브 및 대량 작업 로그를 구성할 수 없지만 관리자의 **[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;메뉴에서 보고서 출력을 검토할 수 있습니다.
 
 ## 로깅에 대한 관리 작업 구성
 

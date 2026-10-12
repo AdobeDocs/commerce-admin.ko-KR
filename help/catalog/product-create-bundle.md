@@ -65,7 +65,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴의 오른쪽 상단 모서리에서&#x200B;**[!UICONTROL Bundle Product]**을(를) 선택합니다.
+1. _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴의 오른쪽 상단 모서리에서&#x200B;**[!UICONTROL Bundle Product]**&#x200B;을(를) 선택합니다.
 
    ![번들 제품 추가](./assets/product-add-bundle.png){width="700" zoomable="yes"}
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 1. `Catalog, Search`의 기본 **[!UICONTROL Visibility]** 설정을 사용합니다.
 
-1. 제품에 _[!UICONTROL Categories]_을(를) 할당하려면&#x200B;**[!UICONTROL Select…]**상자를 클릭하고 다음 중 하나를 수행합니다.
+1. 제품에 _[!UICONTROL Categories]_&#x200B;을(를) 할당하려면&#x200B;**[!UICONTROL Select…]**&#x200B;상자를 클릭하고 다음 중 하나를 수행합니다.
 
    **기존 범주 선택:**
 
@@ -165,7 +165,7 @@ ht-degree: 0%
 
 ## 5단계: 번들 항목 추가
 
-_[!UICONTROL Bundle Items]_섹션은 번들 제품 형식에 항목을 추가하고 현재 선택한 항목을 편집하는 데 사용됩니다.
+_[!UICONTROL Bundle Items]_&#x200B;섹션은 번들 제품 형식에 항목을 추가하고 현재 선택한 항목을 편집하는 데 사용됩니다.
 
 ![제품에 대해 정의된 번들 항목](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -206,7 +206,7 @@ _[!UICONTROL Bundle Items]_섹션은 번들 제품 형식에 항목을 추가하
 
      >[!NOTE]
      >
-     >수량은 사전 설정 또는 사용자 정의 값일 수 있습니다. 그러나 _[!UICONTROL User Defined]_속성은 확인란 또는 다중 선택 입력 유형에 할당하지 마십시오.
+     >수량은 사전 설정 또는 사용자 정의 값일 수 있습니다. 그러나 _[!UICONTROL User Defined]_&#x200B;속성은 확인란 또는 다중 선택 입력 유형에 할당하지 마십시오.
 
      기본적으로 번들 항목에 포함된 기본 수량은 고객이 변경할 수 없습니다. 단, 번들에 포함될 품목의 수량을 고객이 입력할 수 있다.
 
@@ -259,7 +259,7 @@ _[!UICONTROL Bundle Items]_섹션은 번들 제품 형식에 항목을 추가하
 
    **메서드 2:** 저장 및 닫기
 
-   _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
+   _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
 ## 입력 컨트롤
 
@@ -309,7 +309,7 @@ _[!UICONTROL Bundle Items]_섹션은 번들 제품 형식에 항목을 추가하
 
 ![확인란](../assets/checkbox.png) SKU 및 가중치는 `Fixed` 또는 `Dynamic`일 수 있습니다.
 
-![확인란](../assets/checkbox.png) 수량은 사전 설정 또는 사용자 정의 값일 수 있습니다. 그러나 _[!UICONTROL User Defined]_속성은 확인란 또는 다중 선택 입력 유형에 할당하지 마십시오.
+![확인란](../assets/checkbox.png) 수량은 사전 설정 또는 사용자 정의 값일 수 있습니다. 그러나 _[!UICONTROL User Defined]_&#x200B;속성은 확인란 또는 다중 선택 입력 유형에 할당하지 마십시오.
 
 ![Checkbox](../assets/checkbox.png) 번들 항목은 함께 또는 별도로 배달할 수 있습니다.
 

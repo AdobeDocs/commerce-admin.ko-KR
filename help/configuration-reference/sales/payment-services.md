@@ -77,7 +77,7 @@ ht-degree: 2%
 | [!UICONTROL 3DS Secure authentication] | 웹 사이트 | [3DS 보안 인증을 사용하거나 사용하지 않도록 설정](https://experienceleague.adobe.com/en/docs/commerce/payment-services/security-compliance/security#3ds). 옵션: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | 웹 사이트 | 신용 카드 필드가 체크아웃 페이지에 표시되도록 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Vault enabled] | 스토어 뷰 | [신용 카드 보관](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/vaulting)을 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | 스토어 뷰 | 보관된 결제 방법을 사용하여 [ 관리자 ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/vaulting)에서 고객에 대한 주문을 완료하는 기능을 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | 스토어 뷰 | 보관된 결제 방법을 사용하여 [&#x200B; 관리자 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/vaulting)에서 고객에 대한 주문을 완료하는 기능을 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | 웹 사이트 | 디버그 모드를 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}
@@ -90,8 +90,8 @@ ht-degree: 2%
 |---|---|---|
 | [!UICONTROL Title] | 스토어 뷰 | 체크아웃 중에 결제 방법 보기에서 이 결제 방법의 제목으로 표시할 텍스트를 추가합니다. |
 | [!UICONTROL Payment Action] | 웹 사이트 | 지정한 결제 방법에 대한 [결제 작업](payment-methods.md#payment-actions){target="_blank"}. 옵션: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL Show PayPal buttons on checkout page] | 스토어 뷰 | 체크아웃 페이지에서 [!DNL PayPal Smart Buttons]을(를) 활성화하거나 비활성화합니다. 옵션: [!UICONTROL  Yes] / [!UICONTROL No] |
-| [!UICONTROL Show PayPal buttons on product detail page] | 스토어 뷰 | 제품 세부 정보 페이지에서 [!DNL PayPal Smart Buttons]을(를) 활성화하거나 비활성화합니다. 옵션: [!UICONTROL  Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on checkout page] | 스토어 뷰 | 체크아웃 페이지에서 [!DNL PayPal Smart Buttons]을(를) 활성화하거나 비활성화합니다. 옵션: [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on product detail page] | 스토어 뷰 | 제품 세부 정보 페이지에서 [!DNL PayPal Smart Buttons]을(를) 활성화하거나 비활성화합니다. 옵션: [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons in mini-cart preview] | 스토어 뷰 | 미니 장바구니 미리 보기에서 [!DNL PayPal Smart Buttons]을(를) 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons on cart page] | 스토어 뷰 | 장바구니 페이지에서 [!DNL PayPal Smart Buttons]을(를) 사용하거나 사용하지 않도록 설정합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal Pay Later button] | 스토어 뷰 | 지급 버튼이 표시되는 나중에 지급 옵션 표시를 활성화하거나 비활성화합니다. 옵션: [!UICONTROL Yes] / [!UICONTROL No] |

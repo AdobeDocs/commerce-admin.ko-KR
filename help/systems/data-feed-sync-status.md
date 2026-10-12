@@ -181,9 +181,9 @@ Commerce 데이터베이스에서 제품 및 카테고리 관련 엔터티를 �
 
 내보내기가 완료된 후 엔드 투 엔드 동기화를 확인하려면 다음 방법 중 하나를 사용하십시오. 이 페이지의 내보내기 상태 제한에 대해서는 [위의 참고](#export-status-scope)를 참조하십시오.
 
-- **[!DNL Adobe Commerce as a Cloud Service](Commerce 서비스 포함):** 해당 [데이터 관리 대시보드](data-dashboard.md)를 확인하여 다운스트림 가용성을 확인하십시오.
+- **[!DNL Adobe Commerce as a Cloud Service] (Commerce 서비스 포함):** 해당 [데이터 관리 대시보드](data-dashboard.md)를 확인하여 다운스트림 가용성을 확인하십시오.
 - **Adobe Commerce on Cloud 또는 Adobe Commerce Optimizer Connector를 사용하는 온-프레미스**: 먼저 Commerce 관리자 내보내기 상태를 확인한 다음 [!DNL Commerce Optimizer Studio]의 [데이터 동기화 페이지](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)를 확인하세요.
-- **[!DNL Adobe Commerce Optimizer](독립 실행형):** 데이터를 Commerce 백엔드에서 내보내지 않습니다. [!DNL Commerce Optimizer Studio]의 [데이터 동기화 페이지](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)를 사용하여 데이터 가용성을 확인하십시오.
+- **[!DNL Adobe Commerce Optimizer] (독립 실행형):** 데이터를 Commerce 백엔드에서 내보내지 않습니다. [!DNL Commerce Optimizer Studio]의 [데이터 동기화 페이지](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)를 사용하여 데이터 가용성을 확인하십시오.
 
 >[!TIP]
 >

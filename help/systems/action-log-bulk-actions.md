@@ -67,4 +67,4 @@ ht-degree: 2%
 
 1. 로그에서 원하는 작업을 찾습니다.
 
-1. _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Details]**을(를) 클릭합니다.
+1. _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Details]**&#x200B;을(를) 클릭합니다.

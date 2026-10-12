@@ -36,7 +36,7 @@ ht-degree: 1%
 ---
 # [!DNL Inventory Management] 전역 옵션 구성
 
-이러한 전역 설정은 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**아래의 전체 카탈로그에 적용됩니다.
+이러한 전역 설정은 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**&#x200B;아래의 전체 카탈로그에 적용됩니다.
 
 웹 사이트의 제품 및 재고에 대한 기본 구성 옵션을 구성합니다. 이러한 설정 중 일부는 [제품 옵션 구성](product-options.md)을 통해 제품별로 재정의할 수 있습니다. 거리 우선 순위 설정을 구성하려면 [거리 우선 순위 알고리즘 구성](distance-priority-algorithm.md)을 참조하십시오.
 
@@ -106,7 +106,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >`sourceAvailability` 쿼리는 SKU를 포함하는 소스를 공개하므로 기본적으로 비활성화됩니다. 정확한 수량은 소스 수량이 _[!UICONTROL Stock Options]_섹션에 설정된&#x200B;**[!UICONTROL Only X left Threshold]**에 도달할 때까지 마스킹됩니다. 각 인벤토리 원본에는 기본적으로 꺼져 있는&#x200B;**[!UICONTROL Visible on Storefront]**플래그가 있습니다. 정보원의 주식은 상인이 그것을 가능하게 하기 전에는 결코 반환되지 않는다. 설정하려면&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**(으)로 이동하여 소스를 편집하고 **[!UICONTROL Visible on Storefront]**&#x200B;을(를) 켭니다.
+   >`sourceAvailability` 쿼리는 SKU를 포함하는 소스를 공개하므로 기본적으로 비활성화됩니다. 정확한 수량은 소스 수량이 _[!UICONTROL Stock Options]_&#x200B;섹션에 설정된&#x200B;**[!UICONTROL Only X left Threshold]**&#x200B;에 도달할 때까지 마스킹됩니다. 각 인벤토리 원본에는 기본적으로 꺼져 있는&#x200B;**[!UICONTROL Visible on Storefront]**&#x200B;플래그가 있습니다. 정보원의 주식은 상인이 그것을 가능하게 하기 전에는 결코 반환되지 않는다. 설정하려면&#x200B;**[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**(으)로 이동하여 소스를 편집하고 **[!UICONTROL Visible on Storefront]**&#x200B;을(를) 켭니다.
 
 
 1. **[!UICONTROL Admin bulk operations]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 옵션을 설정합니다.

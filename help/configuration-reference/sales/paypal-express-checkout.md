@@ -66,7 +66,7 @@ ht-degree: 1%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | 웹 사이트 | PayPal 판매자 계정을 설정할 때 지정한 이메일 주소를 지정합니다. 이메일 주소는 대/소문자를 구분하며, PayPal 시스템의 이메일 주소와 정확히 일치해야 합니다. |
-| [!UICONTROL API Authentication Methods] | 웹 사이트 | API 인증에 사용되는 방법을 결정합니다. 옵션: <br/>**`API Signature`**- 양식에 _[!UICONTROL API Signature]_필드를 표시합니다.<br/>**`API Certificate`**- 양식에_[!UICONTROL API Certificate]_ 필드를 표시합니다. |
+| [!UICONTROL API Authentication Methods] | 웹 사이트 | API 인증에 사용되는 방법을 결정합니다. 옵션: <br/>**`API Signature`**- 양식에 _[!UICONTROL API Signature]_&#x200B;필드를 표시합니다.<br/>**`API Certificate`**- 양식에&#x200B;_[!UICONTROL API Certificate]_ 필드를 표시합니다. |
 | [!UICONTROL API Username] | 웹 사이트 | PayPal 판매자 계정과 연결된 API 사용자 이름. |
 | [!UICONTROL API Password] | 웹 사이트 | PayPal 판매자 계정과 연결된 API 암호입니다. |
 | [!UICONTROL API Signature] | 웹 사이트 | PayPal 판매자 계정과 연결된 API 서명. |

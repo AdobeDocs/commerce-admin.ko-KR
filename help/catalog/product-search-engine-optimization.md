@@ -43,7 +43,7 @@ ht-degree: 0%
 
 _검색 엔진 최적화_(SEO)는 검색 엔진에서 페이지를 인덱싱하는 방식을 개선하기 위해 사이트의 내용과 프레젠테이션을 미세 조정하는 방법입니다.
 
-제품에 대한 _[!UICONTROL Search Engine Optimization]_설정은 검색 엔진에서 제품을 색인화하는 데 사용하는 [URL 키](catalog-urls.md) 및 [메타데이터](../merchandising-promotions/meta-data.md) 필드를 지정합니다. 일부 검색 엔진은 메타 키워드를 무시하지만 다른 검색 엔진은 계속 메타 키워드를 사용합니다. 현재 [SEO 모범 사례](../merchandising-promotions/seo-overview.md)는 메타 제목과 메타 설명에 모두 높은 값의 키워드를 통합하는 것입니다.
+제품에 대한 _[!UICONTROL Search Engine Optimization]_&#x200B;설정은 검색 엔진에서 제품을 색인화하는 데 사용하는 [URL 키](catalog-urls.md) 및 [메타데이터](../merchandising-promotions/meta-data.md) 필드를 지정합니다. 일부 검색 엔진은 메타 키워드를 무시하지만 다른 검색 엔진은 계속 메타 키워드를 사용합니다. 현재 [SEO 모범 사례](../merchandising-promotions/seo-overview.md)는 메타 제목과 메타 설명에 모두 높은 값의 키워드를 통합하는 것입니다.
 
 각 메타데이터 필드의 기본값은 구성에 지정된 값을 기반으로 자동 생성될 수 있습니다. 각 필드에는 실제 값으로 대체되는 자리 표시자가 포함됩니다. 자세한 내용은 [제품 필드 자동 생성](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation)을 참조하세요.
 
@@ -55,7 +55,7 @@ _검색 엔진 최적화_(SEO)는 검색 엔진에서 페이지를 인덱싱하�
 
 1. 제품을 편집 모드로 엽니다.
 
-1. 아래로 스크롤하여 _[!UICONTROL Search Engine Optimization]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. 아래로 스크롤하여 _[!UICONTROL Search Engine Optimization]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 ![검색 엔진 최적화](./assets/product-search-engine-optimization.png){width="600" zoomable="yes"}
 

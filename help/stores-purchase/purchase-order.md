@@ -49,7 +49,7 @@ PO(_구매 주문_)를 사용하면 상업용 고객은 PO 번호를 참조하�
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Other Payment Methods]_에서&#x200B;**[!UICONTROL Purchase Order]**섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Other Payment Methods]_&#x200B;에서&#x200B;**[!UICONTROL Purchase Order]**&#x200B;섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![구매 주문](../configuration-reference/sales/assets/payment-methods-purchase-order.png){width="600" zoomable="yes"}
 
@@ -68,7 +68,7 @@ PO(_구매 주문_)를 사용하면 상업용 고객은 PO 번호를 참조하�
 1. **[!UICONTROL Payment from Applicable Countries]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 옵션을 클릭합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 옵션을 클릭합니다.
 
 1. **[!UICONTROL Minimum Order Total]** 및 **[!UICONTROL Maximum Order Total]**&#x200B;을(를) 이 결제 방법을 사용하는 데 필요한 금액으로 설정하십시오.
 
