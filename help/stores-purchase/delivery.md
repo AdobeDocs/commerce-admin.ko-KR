@@ -64,4 +64,4 @@ Adobe Commerce과 Magento Open Source은 다양한 배송 방법과 배송 운�
 
 이 비디오를 통해 배송 및 배송 방법에 대해 알아볼 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410209/?captions=kor&quality=12&learn=on)
