@@ -42,7 +42,7 @@ ht-degree: 1%
 
 ![Google Analytics](./assets/google-api-analytics-ee.png)<!-- zoom -->
 
-<!-- [Google Analytics](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 | ----- | ------------------------------------------ | ----------- |
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 ![Google AdWords](./assets/google-api-google-adwords.png)<!-- zoom -->
 
-<!-- [Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- [Google AdWords](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 | ----- | ------------------------------------------ | ----------- |
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 ![Google Analytics4](./assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
 
-<!-- [Google Analytics4](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics4](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 | ----- | ------------------------------------------ | ----------- |
@@ -136,7 +136,7 @@ ht-degree: 1%
 
 ![Google AdWords](./assets/google-api-gtag-google-adwords.png)<!-- zoom -->
 
-<!-- -- Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- -- Google AdWords](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 | ----- | ------------------------------------------ | ----------- |

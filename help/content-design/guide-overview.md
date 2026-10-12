@@ -4,7 +4,7 @@ description: Adobe Commerce 및 Magento Open Source 관리자와 전자 상거�
 seo-title: Adobe Commerce Content and Design Guide
 seo-description: Describes how to use the Content and Design features for Adobe Commerce and Magento Open Source.
 exl-id: ad3cd024-1703-409f-9820-a0b90e7d460f
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce

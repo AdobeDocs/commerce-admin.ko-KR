@@ -180,7 +180,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
 ## 사용자 정의 캡처 금액
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 판매자에게 부분 캡처 및 특수 결제 시나리오에 대한 보다 높은 유연성을 제공하기 위해 Invoice API는 확장 속성을 사용하여 사용자 정의 캡처 금액을 지원합니다.
 

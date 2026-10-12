@@ -47,7 +47,7 @@ ht-degree: 2%
 
 ![기프트 카드 전자 메일 설정](./assets/gift-cards-gift-card-email-settings.png)<!-- zoom -->
 
-<!-- [Gift Card Email Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
+<!-- [Gift Card Email Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 ![기프트 카드 일반 설정](./assets/gift-cards-gift-card-general-settings.png)<!-- zoom -->
 
-<!-- [Gift Card General Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
+<!-- [Gift Card General Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -76,7 +76,7 @@ ht-degree: 2%
 
 ![기프트 카드 계정 관리에서 보낸 전자 메일](./assets/gift-cards-email-sent-from-account.png)<!-- zoom -->
 
-<!-- [Email Sent from Gift Card Account Management](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
+<!-- [Email Sent from Gift Card Account Management](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -89,7 +89,7 @@ ht-degree: 2%
 
 ![기프트 카드 계정 일반 설정](./assets/gift-cards-gift-card-account-general-settings.png)<!-- zoom -->
 
-<!-- [Gift Card Account General Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
+<!-- [Gift Card Account General Settings](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-accounts#configure-gift-card-accounts) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

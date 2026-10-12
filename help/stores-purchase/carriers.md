@@ -73,7 +73,7 @@ Adobe Commerce 버전 2.4.6, 2.4.7 및 2.4.8에서는 기존 Web Tools API를 �
 
 USPS 배송 서비스가 중단되지 않도록 하려면 최신 버전의 Adobe Commerce으로 업그레이드하거나 다음 작업을 수행하십시오.
 
-- [USPS REST API 마이그레이션 품질 패치](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)를 적용하여 USPS REST API와 통합에 대한 지원을 추가합니다.
+- [USPS REST API 마이그레이션 품질 패치](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)를 적용하여 USPS REST API와 통합에 대한 지원을 추가합니다.
 
 - REST API를 사용하도록 Commerce USPS 구성을 업데이트합니다.
 

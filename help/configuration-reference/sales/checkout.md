@@ -42,7 +42,7 @@ ht-degree: 1%
 
 ![체크아웃 옵션](./assets/checkout-checkout-options.png)<!-- zoom -->
 
-<!--[Checkout Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process#checkout-options) -->
+<!--[Checkout Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process#checkout-options) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |------------------------------------------------------------------|--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 ![장바구니](./assets/checkout-shopping-cart.png)<!-- zoom -->
 
-<!--[Shopping Cart](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration) -->
+<!--[Shopping Cart](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 ![내 장바구니 링크](./assets/checkout-my-cart-link.png)<!-- zoom -->
 
-<!-- [*My Cart Link*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
+<!-- [*My Cart Link*](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -92,7 +92,7 @@ ht-degree: 1%
 
 ![미니 장바구니](./assets/checkout-mini-cart.png)<!-- zoom -->
 
-<!-- [*Mini Cart*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
+<!-- [*Mini Cart*](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -106,7 +106,7 @@ ht-degree: 1%
 
 ![결제가 실패한 이메일](./assets/checkout-payment-failed-emails.png)<!-- zoom -->
 
-<!-- [*Payment Failed Emails*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-payment-failed-emails) -->
+<!-- [*Payment Failed Emails*](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-payment-failed-emails) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

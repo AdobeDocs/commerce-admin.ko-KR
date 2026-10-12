@@ -42,7 +42,7 @@ ht-degree: 7%
 
 ![일반 옵션](./assets/catalog-visual-merchandiser-general-options.png)<!-- zoom -->
 
-<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/visual-merch/smart-attributes-configure) -->
+<!-- [General Options](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/merchandising/visual-merch/smart-attributes-configure) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |

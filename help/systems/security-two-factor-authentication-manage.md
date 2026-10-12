@@ -4,7 +4,7 @@ description: 이중 인증을 관리하고 관리자 사용자에 대한 인증�
 exl-id: 68256214-2d50-4c42-846f-306ffc305f25
 role: Admin
 feature: Configuration, Security, User Account
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: 'https://experienceleague.adobe.com/aE-36667-f0E4GSXDjZZmFUkS3wa-xTLUMbVtjwS6qk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
