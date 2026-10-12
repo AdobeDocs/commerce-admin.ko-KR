@@ -1,35 +1,50 @@
 ---
 title: '[!DNL Adobe Commerce Marketplace]'
-description: 판매자에게 선별된 솔루션을 제공하고 자격을 갖춘 개발자에게 번창하는 비즈니스를 구축할 수 있는 도구, 플랫폼 및 주요 위치를 제공하는  [!DNL Commerce Marketplace]에 대해 알아봅니다.
+description: 판매자에게 선별된 솔루션을 제공하고 자격을 갖춘 개발자에게 번창하는 비즈니스를 구축할 수 있는 도구, 플랫폼 및 주요 위치를 제공하는 [!DNL Commerce Marketplace]에 대해 알아봅니다.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-TQID: https://experienceleague.adobe.com/iWL-VJ99oPBafRQOK16YYTeEUvAoYGK-6bFxPHroYkk
+TQID: 'https://experienceleague.adobe.com/iWL-VJ99oPBafRQOK16YYTeEUvAoYGK-6bFxPHroYkk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
+  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+    internal-label: Commerce ecosystem
 subfeature_v2:
   - id: f8ddfd3b-6194-46e8-a176-0e918039be56
+    internal-label: Cloud architecture
+  - id: dad884f1-e840-49a1-970e-2f965bdbc410
+    internal-label: Extensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: '1438'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 마켓플레이스
 
 [Adobe Commerce Marketplace](https://marketplace.magento.com/)은(는) 판매자에게 선별된 솔루션을 제공하고 자격을 갖춘 개발자에게 번창하는 비즈니스를 구축할 수 있는 도구, 플랫폼 및 주요 위치를 제공하는 애플리케이션 스토어입니다. [!DNL Commerce Marketplace]은(는) 무료로 사용할 수 있는 확장과 판매 중인 다른 확장을 제공합니다. 구매는 신용 카드 또는 [PayPal](https://www.paypal.com/us/home)&#x200B;(으)로 결제할 수 있습니다.
@@ -63,7 +78,7 @@ ht-degree: 0%
 
 ## [!DNL Marketplace] 자격 증명
 
-[!DNL Commerce Marketplace]에서 구입한 확장을 설치하려면 먼저 [!DNL Commerce] 계정에 로그인하여 활성 액세스 키가 있는지 확인하십시오. [[!DNL Marketplace]](https://marketplace.magento.com/) 또는 [Magento.com](https://business.adobe.com/kr/products/magento/magento-commerce.html)의 헤더에서 [!DNL Commerce] 계정에 로그인할 수 있습니다.
+[!DNL Commerce Marketplace]에서 구입한 확장을 설치하려면 먼저 [!DNL Commerce] 계정에 로그인하여 활성 액세스 키가 있는지 확인하십시오. [[!DNL Marketplace]](https://marketplace.magento.com/) 또는 [Magento.com](https://business.adobe.com/products/magento/magento-commerce.html)의 헤더에서 [!DNL Commerce] 계정에 로그인할 수 있습니다.
 
 액세스 키는 [!DNL Commerce] 설치를 [!DNL Commerce] 계정과 동기화하고 자격 증명을 확인하는 데 사용되는 공개 및 개인 키 집합입니다. 계정이 동기화되면 Commerce Marketplace에서 확장 또는 모듈을 설치하거나 [!DNL Commerce] 설치를 업그레이드할 때마다 개인 키를 입력해야 합니다.
 
@@ -73,13 +88,13 @@ ht-degree: 0%
 
 1. [!DNL Commerce] 계정에 로그인합니다.
 
-1. _[!UICONTROL My Account]_&#x200B;페이지에서&#x200B;**[!UICONTROL Marketplace]**&#x200B;탭을 선택합니다.
+1. _[!UICONTROL My Account]_페이지에서&#x200B;**[!UICONTROL Marketplace]**탭을 선택합니다.
 
 1. 이름 옆의 오른쪽 상단 모서리에서 아래쪽 화살표를 클릭하고 **[!UICONTROL My Profile]**&#x200B;을(를) 선택합니다.
 
    ![내 [!DNL Marketplace] 프로필](./assets/marketplace-profile.png){width="600"}
 
-1. _[!UICONTROL My Products]_&#x200B;아래의&#x200B;_[!UICONTROL Marketplace]_ 탭에서 **[!UICONTROL Access Keys]**&#x200B;을(를) 클릭하고 다음 중 하나를 수행합니다.
+1. _[!UICONTROL My Products]_아래의_[!UICONTROL Marketplace]_ 탭에서 **[!UICONTROL Access Keys]**&#x200B;을(를) 클릭하고 다음 중 하나를 수행합니다.
 
    - Marketplace 구매를 위한 액세스 키 세트가 이미 있는지 확인하십시오. 다양한 용도로 여러 액세스 키 세트를 만들 수 있습니다.
 
@@ -97,7 +112,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Commerce 및 Magento Open Source 2.4.0부터 웹 설치 마법사가 제거되며, 명령줄을 사용하여 인스턴스를 [설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/advanced) 또는 [업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade)해야 합니다. 이 요구 사항에는 [모듈](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/modules/upgrade) 및 [확장](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)도 포함됩니다.
+>Adobe Commerce 및 Magento Open Source 2.4.0부터 웹 설치 마법사가 제거되며, 명령줄을 사용하여 인스턴스를 [설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced) 또는 [업그레이드](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade)해야 합니다. 이 요구 사항에는 [모듈](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) 및 [확장](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)도 포함됩니다.
 
 [!DNL Marketplace] 구매에 대한 설치 프로세스는 Commerce의 _온-프레미스_ 설치와 [Adobe 클라우드 아키텍처](https://www.adobe.com/commerce/magento/enterprise.html)에 호스팅된 설치의 경우와 다릅니다.
 
@@ -129,7 +144,7 @@ ht-degree: 0%
 
 ### 오픈 소스 질문
 
-마켓플레이스 지원 팀은 [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) 및 [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) 사이트와 관련된 문제만 해결합니다. Magento Open Source에 대한 질문이 있으면 Magento Open Source을 지원할 수 있는 [파트너](https://business.adobe.com/kr/products/magento/partners.html)에게 문의하십시오.
+마켓플레이스 지원 팀은 [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) 및 [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) 사이트와 관련된 문제만 해결합니다. Magento Open Source에 대한 질문이 있으면 Magento Open Source을 지원할 수 있는 [파트너](https://business.adobe.com/products/magento/partners.html)에게 문의하십시오.
 
 ### 환불 요청
 

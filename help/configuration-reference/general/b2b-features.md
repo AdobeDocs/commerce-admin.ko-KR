@@ -3,28 +3,40 @@ title: '[!UICONTROL General] > [!UICONTROL B2B Features]'
 description: Commerce 관리자의 [!UICONTROL General] > [!UICONTROL B2B Features] 페이지에서 구성 설정을 검토합니다.
 exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 feature: Configuration, B2B
-TQID: https://experienceleague.adobe.com/s9-xEtVsEhdegXaObYrfbu-tSvvcqlXVagEw4QJejlk
+TQID: 'https://experienceleague.adobe.com/s9-xEtVsEhdegXaObYrfbu-tSvvcqlXVagEw4QJejlk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: '345'
 ht-degree: 3%
-
 ---
-
 # [!UICONTROL General] > [!UICONTROL B2B Features]
 
 {{b2b-feature}}
@@ -54,7 +66,7 @@ ht-degree: 3%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | 웹 사이트 | 활성화되면 세계적으로 사용할 수 있거나 특정 회사에 제한된 사용자 지정 가격으로 조정된 카탈로그를 만들 수 있습니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Enable Shared Catalog direct products price assigning] | 웹 사이트 | _[!UICONTROL Enable Shared Catalog]_&#x200B;필드를 `Yes`(으)로 설정하면 이 옵션을 사용할 수 있습니다. 활성화된 경우 공유 카탈로그에 지정된 제품만 가격 인덱스에 저장됩니다. 공유 카탈로그에 할당되지 않은 제품은 상점 앞에 표시되지 않습니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | 웹 사이트 | _[!UICONTROL Enable Shared Catalog]_필드를 `Yes`(으)로 설정하면 이 옵션을 사용할 수 있습니다. 활성화된 경우 공유 카탈로그에 지정된 제품만 가격 인덱스에 저장됩니다. 공유 카탈로그에 할당되지 않은 제품은 상점 앞에 표시되지 않습니다. 옵션: `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | 웹 사이트 | 활성화되면 회사 구매자는 장바구니에서 견적에 대한 요청을 제출할 수 있습니다. 옵션: `Yes` / `No` |
 
 {style="table-layout:auto"}

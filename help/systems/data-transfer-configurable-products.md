@@ -3,28 +3,39 @@ title: 구성 가능한 제품 가져오기
 description: 구성 가능한 제품에 대한 제품 데이터 가져오기의 예를 검토하십시오.
 exl-id: bb8b2a6d-867e-4ab2-bdfd-98a01d79c457
 feature: Products, Data Import/Export
-TQID: https://experienceleague.adobe.com/wTnZwGiENB0-ACjShAkmfx5lP5ToWy7QwrkYy9YcH34
+TQID: 'https://experienceleague.adobe.com/wTnZwGiENB0-ACjShAkmfx5lP5ToWy7QwrkYy9YcH34'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 950
-ht-degree: 0%
-
+source-wordcount: '964'
+ht-degree: 1%
 ---
-
 # 구성 가능한 제품 가져오기
 
 구성 가능한 제품 데이터가 구성되는 방식을 이해하는 가장 좋은 방법은 구성 가능한 제품과 해당 변형을 내보내고 스프레드시트에서 데이터를 검사하는 것입니다.
@@ -40,10 +51,10 @@ ht-degree: 0%
    - [**[!UICONTROL Scope]**](../getting-started/websites-stores-views.md#scope-settings) - `Global`
    - [**[!UICONTROL Catalog Input Type for Store Owner]**](data-attributes-product.md) - 제품 변형에 사용되는 특성의 입력 형식은 다음 중 하나여야 합니다.
 
-      - `Dropdown`
-      - `Visual Swatch`
-      - `Text Swatch`
-      - `Multi-Select`
+     - `Dropdown`
+     - `Visual Swatch`
+     - `Text Swatch`
+     - `Multi-Select`
 
    - **[!UICONTROL Values Required]** - `Yes`
 
@@ -83,7 +94,7 @@ ht-degree: 0%
 
    - **[!UICONTROL Export File Format]**&#x200B;을(를) `CSV`(으)로 설정합니다.
 
-1. _[!UICONTROL Entity Attributes]_&#x200B;에서 아래로 스크롤하거나 특성 레이블 필터를 사용하여&#x200B;**[!UICONTROL SKU]**&#x200B;특성을 찾고 다음을 수행합니다.
+1. _[!UICONTROL Entity Attributes]_에서 아래로 스크롤하거나 특성 레이블 필터를 사용하여&#x200B;**[!UICONTROL SKU]**특성을 찾고 다음을 수행합니다.
 
    - 내보내도록 선택한 구성 가능한 제품의 SKU를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
@@ -97,8 +108,8 @@ ht-degree: 0%
 
    - 워크시트의 맨 오른쪽으로 스크롤하여 다음 열을 찾습니다.
 
-      - `configurable_variations` - 구성 가능한 제품 레코드와 각 변형 간의 일대다 관계를 정의합니다.
-      - `configurable_variation_labels` - 각 변형을 식별하는 레이블을 정의합니다.
+     - `configurable_variations` - 구성 가능한 제품 레코드와 각 변형 간의 일대다 관계를 정의합니다.
+     - `configurable_variation_labels` - 각 변형을 식별하는 레이블을 정의합니다.
 
      이 예에서, 데이터는 열들(CG 및 CH)에서 발견될 수 있다. 변형 수에 따라 `configurable_variations` 열의 데이터 문자열이 길 수 있습니다. 데이터는 관련 제품 변형에 대한 색인으로 사용되며 다음 구조를 가집니다.
 
@@ -167,13 +178,13 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**(으)로 이동합니다.
 
-1. _[!UICONTROL Import Settings]_&#x200B;에서&#x200B;**[!UICONTROL Entity Type]**&#x200B;을(를) `Products`(으)로 설정합니다.
+1. _[!UICONTROL Import Settings]_에서&#x200B;**[!UICONTROL Entity Type]**을(를) `Products`(으)로 설정합니다.
 
-1. _[!UICONTROL Import Behavior]_&#x200B;에서&#x200B;**[!UICONTROL Import Behavior]**&#x200B;을(를) `Add/Update`(으)로 설정합니다.
+1. _[!UICONTROL Import Behavior]_에서&#x200B;**[!UICONTROL Import Behavior]**을(를) `Add/Update`(으)로 설정합니다.
 
    ![데이터 가져오기 동작](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL File to Import]_&#x200B;에서&#x200B;**[!UICONTROL Choose File]**&#x200B;을(를) 클릭하고 가져오기를 위해 준비한 CSV 파일로 이동한 다음 파일을 선택합니다.
+1. _[!UICONTROL File to Import]_에서&#x200B;**[!UICONTROL Choose File]**을(를) 클릭하고 가져오기를 위해 준비한 CSV 파일로 이동한 다음 파일을 선택합니다.
 
    ![데이터 가져오기 파일](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 

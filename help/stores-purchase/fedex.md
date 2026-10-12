@@ -3,27 +3,35 @@ title: 페덱스
 description: FedEx를 상점의 배송 운송업체로 설정하는 방법에 대해 알아보십시오.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/r2D0urz8NAZfeVuKY29905IhseS5Kfivsto7HCwQsqY
+TQID: 'https://experienceleague.adobe.com/r2D0urz8NAZfeVuKY29905IhseS5Kfivsto7HCwQsqY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 911
+source-wordcount: '911'
 ht-degree: 0%
-
 ---
-
 # 페덱스
 
 FedEx는 세계 최대 규모의 운송 서비스 회사 중 하나로 여러 수준의 우선 순위를 가진 항공, 화물 및 지상 운송 서비스를 제공합니다.
@@ -113,13 +121,13 @@ FedEx Web Services Production Access에 대한 FedEx 판매자 계정 및 등록
 
    - **[!UICONTROL Calculate Handling Fee]** 설정:
 
-      - `Fixed Fee`
-      - `Percentage`
+     - `Fixed Fee`
+     - `Percentage`
 
    - **[!UICONTROL Handling Applied]**&#x200B;의 경우 다음 처리 수수료 관리 방법 중 하나를 선택하십시오.
 
-      - `Per Order`
-      - `Per Package`
+     - `Per Order`
+     - `Per Package`
 
    - 계산 방법에 따라 **[!UICONTROL Handling Fee]**&#x200B;을(를) `fixed` 금액 또는 `percentage` 금액으로 입력하십시오.
 

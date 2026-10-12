@@ -1,30 +1,41 @@
 ---
-title: ' [!DNL Inventory Management] 미납 주문 구성'
-description: 현재고 수량이 0일 때 제품을 판매하고 출하하려면  [!DNL Inventory Management] 에서 글로벌 및 제품당 미납주문을 구성하십시오.
+title: '[!DNL Inventory Management] 미납 주문 구성'
+description: 현재고 수량이 0일 때 제품을 판매하고 배송하도록 [!DNL Inventory Management]에서 글로벌 및 제품당 미납주문을 구성하십시오.
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
 feature: Inventory, Orders
-TQID: https://experienceleague.adobe.com/-lJVY97Onykamv--OTs7byd-lNcuNTdgRBs-59A-h1c
+TQID: 'https://experienceleague.adobe.com/-lJVY97Onykamv--OTs7byd-lNcuNTdgRBs-59A-h1c'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '756'
 ht-degree: 0%
-
 ---
-
 # [!DNL Inventory Management] 미납 주문 구성
 
 미납주문을 사용하면 수량이 0이 되거나 재고가 사실상 소진된 후에도 스토어에서 제품을 계속 판매할 수 있습니다. 고객 주문이 미납주문인 경우 자금이 즉시 승인되고 수집되며, 주문의 처리 상태가 변경되지 않으며, 재고를 사용할 수 있을 때까지 배송이 보류 상태로 유지됩니다.
@@ -62,7 +73,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->고객이 _[!UICONTROL backorder qty]_&#x200B;을(를) 사용하여 주문하면 [!DNL Inventory Management]에서 판매 가능 수량에서 수량을 자동으로 뺍니다. 주문이 출하되지 않고 취소된 경우 수량은 집계된 가상 판매 가능 수량으로 반환됩니다.**_취소된 주문 수량은_**&#x200B;소스에 할당되지 않았지만 판매에 사용할 수 있는 총 제품 수(제품 그리드의&#x200B;_[!UICONTROL Salable Quantity]_ 열)로 반환됩니다.
+>고객이 _[!UICONTROL backorder qty]_을(를) 사용하여 주문하면 [!DNL Inventory Management]에서 판매 가능 수량에서 수량을 자동으로 뺍니다. 주문이 출하되지 않고 취소된 경우 수량은 집계된 가상 판매 가능 수량으로 반환됩니다.**_취소된 주문 수량은_**소스에 할당되지 않았지만 판매에 사용할 수 있는 총 제품 수(제품 그리드의_[!UICONTROL Salable Quantity]_ 열)로 반환됩니다.
 
 <!--
 ### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
@@ -110,9 +121,9 @@ The _Notify for Quantity Below_ configuration option is configurable at the glob
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. **[!UICONTROL Edit]** 모드에서 제품을 열고 페이지를 아래로 스크롤하여 _[!UICONTROL Sources]_&#x200B;영역으로 이동합니다.
+1. **[!UICONTROL Edit]** 모드에서 제품을 열고 페이지를 아래로 스크롤하여 _[!UICONTROL Sources]_영역으로 이동합니다.
 
-   [!DNL Inventory Management] 없이 구성된 제품의 경우 탭이 표시되지 않습니다. _[!UICONTROL Quantity]_&#x200B;필드 아래에 `Advanced Inventory` 단추가 표시됩니다.
+   [!DNL Inventory Management] 없이 구성된 제품의 경우 탭이 표시되지 않습니다. _[!UICONTROL Quantity]_필드 아래에 `Advanced Inventory` 단추가 표시됩니다.
 
 1. **[!UICONTROL Advanced Inventory]**&#x200B;을(를) 클릭합니다.
 

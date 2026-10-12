@@ -3,27 +3,39 @@ title: CSV 데이터 파일
 description: 데이터 가져오기 및 내보내기를 지원하기 위해 CSV 파일에 사용되는 구조에 대해 알아봅니다.
 exl-id: 86e362af-2af7-4557-ac49-1efad2f0e976
 feature: Products, Customers, Data Import/Export
-TQID: https://experienceleague.adobe.com/qeKpxnrPVwIX4MgrHlQRMEVQDOZjFvG3Es39rDwNgx4
+TQID: 'https://experienceleague.adobe.com/qeKpxnrPVwIX4MgrHlQRMEVQDOZjFvG3Es39rDwNgx4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 718
+source-wordcount: '718'
 ht-degree: 0%
-
 ---
-
 # CSV 데이터 파일
 
 쉼표로 구분된 값(CSV) 파일 형식은 데이터 전송 작업의 기반으로 사용되며 모든 스프레드시트 및 데이터베이스 애플리케이션에서 지원됩니다. 가져오기 및 내보내기에 지원되는 파일 유형은 다음과 같습니다.
@@ -45,7 +57,7 @@ CSV 파일의 구조는 데이터베이스와 일치해야 합니다. 각 열 �
 
 표의 첫 행에는 열 머리글로 사용되는 각 속성의 이름이 포함되어 있습니다. 나머지 행은 개별 제품 레코드에 대해 설명합니다. SKU 열의 값으로 시작하는 행은 새 제품 레코드의 시작입니다. 단일 제품에는 여러 이미지 또는 제품 옵션에 대한 정보가 포함된 여러 행이 포함될 수 있습니다. SKU 열에 값이 있는 다음 행은 새 제품을 시작합니다.
 
-카테고리 열에는 제품이 지정된 각 카테고리에 대한 경로가 포함됩니다. 경로에는 루트 범주가 포함되며 그 뒤에는 각 수준 사이에 슬래시(`/`)가 옵니다. 기본적으로 쉼표 `,` 문자는 다른 범주 경로를 구분하는 데 사용됩니다. _[!UICONTROL Multiple value separator]_&#x200B;옵션을 사용하여 다른 구분 기호를 지정할 수 있습니다. For example:
+카테고리 열에는 제품이 지정된 각 카테고리에 대한 경로가 포함됩니다. 경로에는 루트 범주가 포함되며 그 뒤에는 각 수준 사이에 슬래시(`/`)가 옵니다. 기본적으로 쉼표 `,` 문자는 다른 범주 경로를 구분하는 데 사용됩니다. _[!UICONTROL Multiple value separator]_옵션을 사용하여 다른 구분 기호를 지정할 수 있습니다. For example:
 
 `Default Category/Gear,Default Category/Gear/Bags`
 

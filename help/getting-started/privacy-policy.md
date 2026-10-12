@@ -3,30 +3,41 @@ title: 개인정보 처리방침 저장
 description: 개인정보 처리방침은 회사에서 수집하는 정보의 유형과 그 사용 방법을 설명해야 합니다.
 exl-id: d8eaa946-2a12-4a36-8f7e-025778ffa7dd
 feature: Compliance
-TQID: https://experienceleague.adobe.com/643rt9zfz1cfPwuZs9ZFPXmb5Hgi-5lV8zmDqWlZBeA
+TQID: 'https://experienceleague.adobe.com/643rt9zfz1cfPwuZs9ZFPXmb5Hgi-5lV8zmDqWlZBeA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 427
+source-wordcount: '427'
 ht-degree: 0%
-
 ---
-
 # 개인정보 처리방침 저장
 
 스토어에 자체 정보로 업데이트해야 하는 샘플 개인정보 보호정책이 포함되어 있습니다. 개인정보 처리방침은 회사에서 수집하는 정보의 유형과 그 사용 방법을 설명해야 합니다. 또한 스토어를 방문한 사람들의 컴퓨터에 있는 [쿠키](compliance-cookie-law.md#default-cookies)의 파일 이름을 나열해야 합니다. 타사 확장 및 추가 기능과 연결된 모든 추가 쿠키가 목록에 포함되어야 합니다.
@@ -53,7 +64,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**(으)로 이동합니다.
 
-1. 그리드에서 **[!UICONTROL Privacy Policy]**&#x200B;을(를) 찾습니다. 그런 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Select]**&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
+1. 그리드에서 **[!UICONTROL Privacy Policy]**&#x200B;을(를) 찾습니다. 그런 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Select]**을(를) 클릭하고&#x200B;**[!UICONTROL Edit]**을(를) 선택합니다.
 
    >[!NOTE]
    >

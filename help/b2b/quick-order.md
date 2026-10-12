@@ -3,31 +3,42 @@ title: 빠른 주문
 description: 빠른 주문 기능과 고객을 위한 활성화에 대해 알아봅니다.
 exl-id: 7007e1b4-a64f-46fe-a235-3ca9f64e77e4
 feature: B2B, Orders
-TQID: https://experienceleague.adobe.com/iwH1JStasz7KM-ECeWAvP-x4niVm-QFg4-GMw8r3SoI
+TQID: 'https://experienceleague.adobe.com/iwH1JStasz7KM-ECeWAvP-x4niVm-QFg4-GMw8r3SoI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 438
+source-wordcount: '438'
 ht-degree: 0%
-
 ---
-
 # 빠른 주문
 
 _빠른 주문_ 기능은 주문하려는 제품의 제품 이름 또는 SKU를 알고 있는 고객의 주문 프로세스를 몇 번의 클릭으로 줄입니다. 여러 SKU가 있는 주문은 수동으로 입력하거나 빠른 주문 양식으로 가져올 수 있습니다. 빠른 주문은 계정에 로그인한 고객 및 게스트가 사용할 수 있습니다. 활성화하면 _빠른 주문_ 링크가 고객 이름 옆에 페이지 맨 위에 나타납니다.
@@ -38,7 +49,7 @@ _빠른 주문_ 기능은 주문하려는 제품의 제품 이름 또는 SKU를 
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널의 _[!UICONTROL General]_&#x200B;섹션에서&#x200B;**[!UICONTROL B2B Features]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 패널의 _[!UICONTROL General]_섹션에서&#x200B;**[!UICONTROL B2B Features]**을(를) 선택합니다.
 
 1. **[!UICONTROL Enable Quick Order]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -110,7 +121,7 @@ _빠른 주문_ 기능은 주문하려는 제품의 제품 이름 또는 SKU를 
 
 ### 방법 3: 제품 목록 업로드
 
-1. _[!UICONTROL Add from File]_&#x200B;섹션에서&#x200B;**[!UICONTROL Download Sample]**&#x200B;을(를) 클릭하여 주문 템플릿을 다운로드합니다.
+1. _[!UICONTROL Add from File]_섹션에서&#x200B;**[!UICONTROL Download Sample]**을(를) 클릭하여 주문 템플릿을 다운로드합니다.
 
    ![파일에서 추가](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"}
 

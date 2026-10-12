@@ -3,28 +3,40 @@ title: 구매 주문
 description: 스토어에서 오프라인 결제 방법으로 구매 발주를 설정하는 방법에 대해 알아봅니다.
 exl-id: 493c1b59-2155-449f-a08a-eb1aa2af9b3e
 feature: Purchase Orders
-TQID: https://experienceleague.adobe.com/Oc2vdP-OTXwo-6cjKWFj5zPf-QJVvU8aK6OUMPko4eY
+TQID: 'https://experienceleague.adobe.com/Oc2vdP-OTXwo-6cjKWFj5zPf-QJVvU8aK6OUMPko4eY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+subfeature_v2:
+  - id: 2d6d41d4-a5c1-5baf-8dbe-bf7300b68bb3
+    internal-label: Purchase Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '296'
 ht-degree: 0%
-
 ---
-
 # 구매 주문
 
 PO(_구매 주문_)를 사용하면 상업용 고객은 PO 번호를 참조하여 승인된 구매에 대해 지불할 수 있습니다. 발주서는 구매 기업이 미리 승인하고 발급하는 방식이다. 체크아웃 시 고객은 결제 방법으로 구매 발주를 선택합니다. 청구서를 접수하면, 회사는 AP 시스템에서 지급을 처리하고 구매에 대해 지불합니다.
@@ -37,7 +49,7 @@ PO(_구매 주문_)를 사용하면 상업용 고객은 PO 번호를 참조하�
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Payment Methods]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Other Payment Methods]_&#x200B;에서&#x200B;**[!UICONTROL Purchase Order]**&#x200B;섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Other Payment Methods]_에서&#x200B;**[!UICONTROL Purchase Order]**섹션의 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![구매 주문](../configuration-reference/sales/assets/payment-methods-purchase-order.png){width="600" zoomable="yes"}
 
@@ -56,7 +68,7 @@ PO(_구매 주문_)를 사용하면 상업용 고객은 PO 번호를 참조하�
 1. **[!UICONTROL Payment from Applicable Countries]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 옵션을 클릭합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 옵션을 클릭합니다.
 
 1. **[!UICONTROL Minimum Order Total]** 및 **[!UICONTROL Maximum Order Total]**&#x200B;을(를) 이 결제 방법을 사용하는 데 필요한 금액으로 설정하십시오.
 

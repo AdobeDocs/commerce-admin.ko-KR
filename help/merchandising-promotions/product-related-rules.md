@@ -3,28 +3,41 @@ title: 관련 제품 규칙
 description: 관련 제품 규칙과 이러한 규칙을 사용하여 관련 제품, 상향 판매 및 교차 판매를 고객에게 동적으로 표시하는 방법에 대해 알아봅니다.
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-TQID: https://experienceleague.adobe.com/-S2cHqetXQ0raH1d7LGRU1zW80jJ2vA9dmgSmvABNEI
+TQID: 'https://experienceleague.adobe.com/-S2cHqetXQ0raH1d7LGRU1zW80jJ2vA9dmgSmvABNEI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 879
+source-wordcount: '879'
 ht-degree: 0%
-
 ---
-
 # 관련 제품 규칙(대상 규칙)
 
 {{ee-feature}}
@@ -43,8 +56,8 @@ ht-degree: 0%
 |--- |--- |
 | [!UICONTROL ID] | 관련된 각 제품 규칙에 할당된 고유 숫자 식별자입니다 |
 | [!UICONTROL Rule] | 관련 제품 규칙의 이름 |
-| [!UICONTROL Start] | 동적 일정 필드(_[!UICONTROL To:]_&#x200B;및_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 시작 날짜를 기준으로 목록을 필터링합니다. |
-| [!UICONTROL End] | 동적 일정 필드(_[!UICONTROL To:]_&#x200B;및_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 종료 날짜를 기준으로 목록을 필터링합니다. |
+| [!UICONTROL Start] | 동적 일정 필드(_[!UICONTROL To:]_및_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 시작 날짜를 기준으로 목록을 필터링합니다. |
+| [!UICONTROL End] | 동적 일정 필드(_[!UICONTROL To:]_및_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 종료 날짜를 기준으로 목록을 필터링합니다. |
 | [!UICONTROL Priority] | 규칙에 대해 정의된 우선 순위를 기준으로 목록을 필터링하려면 이 필드에 텍스트를 입력합니다. |
 | [!UICONTROL Applies To] | 이 옵션은 `Related Products`, `Up-sells` 및 `Cross-sells`에 적용되는 규칙 목록을 필터링합니다. |
 | [!UICONTROL Status] | 이 옵션을 사용하여 규칙 상태(`Active` 또는 `Inactive`)를 기준으로 목록을 필터링합니다. |
@@ -62,7 +75,7 @@ ht-degree: 0%
 예를 들어 우선 순위가 `1`, `2` 및 `3`인 규칙이 세 개 있다고 가정합니다.
 
 - _규칙 1_&#x200B;에 대해 반환된 일치하는 제품이 두 개, _규칙 2_&#x200B;에 대해 일치하는 제품이 6개, _규칙 3_&#x200B;에 대해 일치하는 제품이 20개입니다.
-- 구성에서 _[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;이(가) `6`(으)로 설정되어 있습니다.
+- 구성에서 _[!UICONTROL Maximum Number of Products for Related Products List]_이(가) `6`(으)로 설정되어 있습니다.
 
   | 규칙 | 우선순위 | 일치하는 제품 |
   |---|---|-----|
@@ -110,15 +123,15 @@ ht-degree: 0%
 
    - **[!UICONTROL Show Cross-Sell Products]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Both Selected and Rule Based`
-      - `Selected Only`
-      - `Rule-Based Only`
+     - `Both Selected and Rule Based`
+     - `Selected Only`
+     - `Rule-Based Only`
 
    - **[!UICONTROL Rotation Mode for Products in Cross-Sell Product List]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `By Priority, Then by ID`
-      - `By Priority, Then Random`
-      - `Weighted Random`
+     - `By Priority, Then by ID`
+     - `By Priority, Then Random`
+     - `Weighted Random`
 
 1. 상향 판매 제품 설정을 완료하려면 다음을 수행하십시오.
 
@@ -126,15 +139,15 @@ ht-degree: 0%
 
    - **[!UICONTROL Show Upsell Products]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Both Selected and Rule Based`
-      - `Selected Only`
-      - `Rule-Based Only`
+     - `Both Selected and Rule Based`
+     - `Selected Only`
+     - `Rule-Based Only`
 
    - **[!UICONTROL Rotation Mode for Products in Upsell Product List]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `By Priority, Then by ID`
-      - `By Priority, Then Random`
-      - `Weighted Random`
+     - `By Priority, Then by ID`
+     - `By Priority, Then Random`
+     - `Weighted Random`
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 

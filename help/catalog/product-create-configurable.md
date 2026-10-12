@@ -3,30 +3,41 @@ title: 구성 가능한 제품
 description: 쇼핑객에게 다양한 선택 항목을 제공하는 구성 가능한 제품을 만드는 방법을 알아봅니다.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/-T3-DNO39JLnWyhjbXzzSbA0NJ3QeGtnQgyjJBOQn-I
+TQID: 'https://experienceleague.adobe.com/-T3-DNO39JLnWyhjbXzzSbA0NJ3QeGtnQgyjJBOQn-I'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1994
+source-wordcount: '1994'
 ht-degree: 0%
-
 ---
-
 # 구성 가능한 제품
 
 구성 가능한 제품은 변형(예: 색상 또는 크기)에 대한 드롭다운 옵션과 함께 단일 제품으로 표시됩니다. 각 변형은 자체 SKU를 사용하는 별도의 간단한 제품으로, 사용자 지정 옵션이 있는 간단한 제품과 달리 개별 인벤토리 추적을 가능하게 합니다.
@@ -65,7 +76,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Configurable Product]**&#x200B;을(를) 선택합니다.
+1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Configurable Product]**을(를) 선택합니다.
 
    ![구성 가능한 제품 추가](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
@@ -167,7 +178,7 @@ ht-degree: 0%
 
 ### 6단계: 변형 속성 선택
 
-1. _[!UICONTROL Configurations]_&#x200B;섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Create Configurations]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Configurations]_섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Create Configurations]**을(를) 클릭합니다.
 
    ![구성](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -271,7 +282,7 @@ ht-degree: 0%
 
 **[!UICONTROL Quantity]** 입력.
 
-[Inventory management &#x200B;](../inventory-management/introduction.md):_을(를) 사용하는 여러 Source 판매자(_M)
+[Inventory management ](../inventory-management/introduction.md):_을(를) 사용하는 여러 Source 판매자(_M)
 
 생성된 모든 제품 변형에 대해 출처를 지정하고 수량을 추가합니다.
 
@@ -291,7 +302,7 @@ ht-degree: 0%
 
 각 특성 값에 대해 **[!UICONTROL Quantity]**&#x200B;을(를) 입력하십시오.
 
-[Inventory management &#x200B;](../inventory-management/introduction.md):_을(를) 사용하는 여러 Source 판매자(_M)
+[Inventory management ](../inventory-management/introduction.md):_을(를) 사용하는 여러 Source 판매자(_M)
 
 생성된 모든 제품 변형에 대해 출처를 지정하고 수량을 추가합니다.
 
@@ -319,7 +330,7 @@ ht-degree: 0%
 
 ### 10단계: 제품 이미지 추가
 
-1. 아래로 스크롤하여 _[!UICONTROL Images and Videos]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. 아래로 스크롤하여 _[!UICONTROL Images and Videos]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. _카메라_ 타일을 클릭하고 구성 가능한 제품에 사용할 기본 이미지를 찾습니다.
 
@@ -363,7 +374,7 @@ ht-degree: 0%
 
    **메서드 2: 저장 및 닫기**
 
-   _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
+   _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
 
 ## 재고 상태 구성
 
@@ -411,7 +422,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Shopping Cart]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Shopping Cart]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. **[!UICONTROL Configurable Product Image]**&#x200B;을(를) `Product Thumbnail Itself`(으)로 설정합니다.
 
@@ -435,6 +446,6 @@ ht-degree: 0%
 
 - **장바구니 썸네일:** 장바구니 썸네일은 구성 가능한 제품 레코드 또는 제품 변형의 이미지를 표시할 수 있습니다. 위의 [시스템 구성](#system-configuration-optional)을 참조하십시오.
 
-- **특성 편집 페이지에서&#x200B;**&#x200B;[!UICONTROL Update Product Preview Image]&#x200B;**을(를) `No`(으)로 설정하여 견본을 선택할 때 견본 동작:** [견본 특성](swatches.md#create-swatches-for-products)이(가) 해당 단순 제품 이미지를 표시하지 않도록 구성할 수 있습니다.
+- **특성 편집 페이지에서&#x200B;**[!UICONTROL Update Product Preview Image]**을(를) `No`(으)로 설정하여 견본을 선택할 때 견본 동작:** [견본 특성](swatches.md#create-swatches-for-products)이(가) 해당 단순 제품 이미지를 표시하지 않도록 구성할 수 있습니다.
 
 - **이미지 갤러리 동작:** 테마는 사용자가 제품 구성 사이를 전환할 때 이미지 갤러리가 작동하는 방식을 제어합니다. _Blank_ 테마에 대한 기본 동작은 선택한 변형을 사용하여 상위 구성 가능한 제품 이미지를 재정의합니다. Luma 테마의 경우 기본 동작은 선택한 변형 이미지를 상위 구성 가능한 제품 이미지에 앞에 추가하는 것입니다.

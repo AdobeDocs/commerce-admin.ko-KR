@@ -3,29 +3,39 @@ title: 번들 제품
 description: 쇼핑객이 스토어에서 사용자 지정된 제품을 작성할 수 있는 번들 제품을 만드는 방법을 알아봅니다.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/T4-rAn2fY1I71IAt00o5kKY62NTAYhr-WO0QGdkyNE0
+TQID: 'https://experienceleague.adobe.com/T4-rAn2fY1I71IAt00o5kKY62NTAYhr-WO0QGdkyNE0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1616
+source-wordcount: '1616'
 ht-degree: 0%
-
 ---
-
 # 번들 제품
 
 번들은 사용자 지정 가능한 _자체 제품을 빌드합니다_. 번들의 각 항목은 다음 제품 유형 중 하나를 기반으로 할 수 있습니다.
@@ -55,7 +65,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴의 오른쪽 상단 모서리에서&#x200B;**[!UICONTROL Bundle Product]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴의 오른쪽 상단 모서리에서&#x200B;**[!UICONTROL Bundle Product]**을(를) 선택합니다.
 
    ![번들 제품 추가](./assets/product-add-bundle.png){width="700" zoomable="yes"}
 
@@ -131,7 +141,7 @@ ht-degree: 0%
 
 1. `Catalog, Search`의 기본 **[!UICONTROL Visibility]** 설정을 사용합니다.
 
-1. 제품에 _[!UICONTROL Categories]_&#x200B;을(를) 할당하려면&#x200B;**[!UICONTROL Select…]**&#x200B;상자를 클릭하고 다음 중 하나를 수행합니다.
+1. 제품에 _[!UICONTROL Categories]_을(를) 할당하려면&#x200B;**[!UICONTROL Select…]**상자를 클릭하고 다음 중 하나를 수행합니다.
 
    **기존 범주 선택:**
 
@@ -155,7 +165,7 @@ ht-degree: 0%
 
 ## 5단계: 번들 항목 추가
 
-_[!UICONTROL Bundle Items]_&#x200B;섹션은 번들 제품 형식에 항목을 추가하고 현재 선택한 항목을 편집하는 데 사용됩니다.
+_[!UICONTROL Bundle Items]_섹션은 번들 제품 형식에 항목을 추가하고 현재 선택한 항목을 편집하는 데 사용됩니다.
 
 ![제품에 대해 정의된 번들 항목](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -172,10 +182,10 @@ _[!UICONTROL Bundle Items]_&#x200B;섹션은 번들 제품 형식에 항목을 �
 
    - **[!UICONTROL Input Type]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Drop-down`
-      - `Radio buttons`
-      - `Checkbox`
-      - `Multiple Select`
+     - `Drop-down`
+     - `Radio buttons`
+     - `Checkbox`
+     - `Multiple Select`
 
    - 필드를 필수 항목으로 만들려면 **[!UICONTROL Required]** 확인란을 선택하십시오.
 
@@ -196,7 +206,7 @@ _[!UICONTROL Bundle Items]_&#x200B;섹션은 번들 제품 형식에 항목을 �
 
      >[!NOTE]
      >
-     >수량은 사전 설정 또는 사용자 정의 값일 수 있습니다. 그러나 _[!UICONTROL User Defined]_&#x200B;속성은 확인란 또는 다중 선택 입력 유형에 할당하지 마십시오.
+     >수량은 사전 설정 또는 사용자 정의 값일 수 있습니다. 그러나 _[!UICONTROL User Defined]_속성은 확인란 또는 다중 선택 입력 유형에 할당하지 마십시오.
 
      기본적으로 번들 항목에 포함된 기본 수량은 고객이 변경할 수 없습니다. 단, 번들에 포함될 품목의 수량을 고객이 입력할 수 있다.
 
@@ -249,7 +259,7 @@ _[!UICONTROL Bundle Items]_&#x200B;섹션은 번들 제품 형식에 항목을 �
 
    **메서드 2:** 저장 및 닫기
 
-   _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
+   _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
 
 ## 입력 컨트롤
 
@@ -299,7 +309,7 @@ _[!UICONTROL Bundle Items]_&#x200B;섹션은 번들 제품 형식에 항목을 �
 
 ![확인란](../assets/checkbox.png) SKU 및 가중치는 `Fixed` 또는 `Dynamic`일 수 있습니다.
 
-![확인란](../assets/checkbox.png) 수량은 사전 설정 또는 사용자 정의 값일 수 있습니다. 그러나 _[!UICONTROL User Defined]_&#x200B;속성은 확인란 또는 다중 선택 입력 유형에 할당하지 마십시오.
+![확인란](../assets/checkbox.png) 수량은 사전 설정 또는 사용자 정의 값일 수 있습니다. 그러나 _[!UICONTROL User Defined]_속성은 확인란 또는 다중 선택 입력 유형에 할당하지 마십시오.
 
 ![Checkbox](../assets/checkbox.png) 번들 항목은 함께 또는 별도로 배달할 수 있습니다.
 

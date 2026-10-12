@@ -3,40 +3,51 @@ title: 카테고리 - 디자인 설정
 description: '[!UICONTROL Design] 설정을 사용하여 범주의 모양과 느낌, 연결된 모든 제품 페이지 및 페이지 레이아웃을 정의하는 방법에 대해 알아봅니다.'
 exl-id: 6dc216ac-1c52-4196-9c93-e5cad19901b5
 feature: Catalog Management, Categories, Page Content
-TQID: https://experienceleague.adobe.com/cRTRPl-UTfAKXY8rmtVKlnAZooVWpTCjSkVSdNHXp28
+TQID: 'https://experienceleague.adobe.com/cRTRPl-UTfAKXY8rmtVKlnAZooVWpTCjSkVSdNHXp28'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 379
+source-wordcount: '379'
 ht-degree: 0%
-
 ---
-
 # 카테고리 - 디자인 설정
 
-_[!UICONTROL Design]_&#x200B;섹션을 통해 범주의 모양과 느낌, 연결된 모든 제품 페이지 및 페이지 레이아웃을 제어할 수 있습니다. 프로모션을 위해 카테고리 페이지 및 관련 제품을 사용자 정의하거나 카테고리를 구별할 수 있습니다. 예를 들어, 브랜드나 특수 제품 라인에 대한 독특한 디자인을 개발하거나 특정 기간에 대한 업데이트를 적용할 수 있습니다.
+_[!UICONTROL Design]_섹션을 통해 범주의 모양과 느낌, 연결된 모든 제품 페이지 및 페이지 레이아웃을 제어할 수 있습니다. 프로모션을 위해 카테고리 페이지 및 관련 제품을 사용자 정의하거나 카테고리를 구별할 수 있습니다. 예를 들어, 브랜드나 특수 제품 라인에 대한 독특한 디자인을 개발하거나 특정 기간에 대한 업데이트를 적용할 수 있습니다.
 
 ![범주에 대한 디자인 설정](./assets/category-design.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->각 범주에 대해 디자인 설정이 다른 여러 범주에 동일한 제품이 할당되면 [검색 엔진 최적화 구성 옵션](../configuration-reference/catalog/catalog.md#search-engine-optimization)에서 **제품 URL에 대한 범주 경로 사용** = `Yes`을 설정하는 것이 좋습니다. 이 설정에 액세스하려면 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동하여&#x200B;**[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 왼쪽 패널의 아래에 있는&#x200B;**카탈로그**&#x200B;를 선택한 다음 페이지의&#x200B;**검색 엔진 최적화**&#x200B;섹션을 확장하세요.
+>각 범주에 대해 디자인 설정이 다른 여러 범주에 동일한 제품이 할당되면 [검색 엔진 최적화 구성 옵션](../configuration-reference/catalog/catalog.md#search-engine-optimization)에서 **제품 URL에 대한 범주 경로 사용** = `Yes`을 설정하는 것이 좋습니다. 이 설정에 액세스하려면 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동하여&#x200B;**[!UICONTROL Catalog]**을(를) 확장하고 왼쪽 패널의 아래에 있는&#x200B;**카탈로그**를 선택한 다음 페이지의&#x200B;**검색 엔진 최적화**섹션을 확장하세요.
 
 | 필드 | 설명 |
 |--- |--- |
@@ -52,7 +63,7 @@ _[!UICONTROL Design]_&#x200B;섹션을 통해 범주의 모양과 느낌, 연결
 
 {{ce-feature}}
 
-_[!UICONTROL Scheduled Design Update]_&#x200B;섹션은 사용자 지정 디자인을 범주 페이지에 적용할 날짜 범위를 결정합니다.
+_[!UICONTROL Scheduled Design Update]_섹션은 사용자 지정 디자인을 범주 페이지에 적용할 날짜 범위를 결정합니다.
 
 | 필드 | 설명 |
 |--- |--- |

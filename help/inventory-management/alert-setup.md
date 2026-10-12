@@ -1,30 +1,39 @@
 ---
 title: 제품 경고
-description: 재고 및 가격 변경 제품 알림, 전자 메일 서식 파일을 설정하고  [!DNL Inventory Management] 카탈로그 구성에서 설정을 실행합니다.
+description: 재고 및 가격 변경 제품 알림, 전자 메일 서식 파일을 설정하고 [!DNL Inventory Management] 카탈로그 구성에서 설정을 실행합니다.
 exl-id: c9f736c5-7bba-4e3e-804d-5b0fe52c8f9b
 feature: Inventory, Configuration
-TQID: https://experienceleague.adobe.com/n1n2tqb97EiM-vXZqifVgMOdBqNRdwNM-pjDI-D-b8M
+TQID: 'https://experienceleague.adobe.com/n1n2tqb97EiM-vXZqifVgMOdBqNRdwNM-pjDI-D-b8M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 650
+source-wordcount: '651'
 ht-degree: 0%
-
 ---
-
 # 제품 경고
 
 고객은 이메일로 가격 변경 경고와 재고 경고, 이렇게 두 가지 유형의 경고를 구독할 수 있습니다. 각 경고 유형에 대해 고객이 구독할 수 있는지 확인하고, 사용된 이메일 템플릿을 선택하고, 이메일 발신자를 식별할 수 있습니다.
@@ -47,7 +56,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Catalog]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Product Alerts]_&#x200B;섹션을 확장하려면 클릭하고 다음을 수행합니다.
+1. _[!UICONTROL Product Alerts]_섹션을 확장하려면 클릭하고 다음을 수행합니다.
 
    ![제품 알림](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 
@@ -79,7 +88,7 @@ ht-degree: 0%
 
 1. _기본 템플릿 로드_&#x200B;에서 사용자 지정할 **[!UICONTROL Template]**&#x200B;을(를) 선택합니다.
 
-   테마에 포함된 경고 템플릿을 선택할 수 있습니다. 또는 _[!UICONTROL Magento_PriceAlert]_&#x200B;에서 `Price Alert` 또는 `Stock Alert` 템플릿을 선택할 수 있습니다.
+   테마에 포함된 경고 템플릿을 선택할 수 있습니다. 또는 _[!UICONTROL Magento_PriceAlert]_에서 `Price Alert` 또는 `Stock Alert` 템플릿을 선택할 수 있습니다.
 
 1. **[!UICONTROL Load Template]**&#x200B;을(를) 클릭합니다.
 

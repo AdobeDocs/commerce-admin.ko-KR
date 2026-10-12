@@ -3,32 +3,47 @@ title: Google AdWords
 description: 판매 또는 기타 중요한 작업으로 이어지는 광고 클릭을 측정하기 위해 Google AdWords 전환 추적을 위해 Commerce 스토어를 구성하는 방법에 대해 알아봅니다.
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
-TQID: https://experienceleague.adobe.com/QleYYt3Qc17JJjdUimL1iWfu-PYsx0OGWwfchMN3VVs
+TQID: 'https://experienceleague.adobe.com/QleYYt3Qc17JJjdUimL1iWfu-PYsx0OGWwfchMN3VVs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 659
+source-wordcount: '659'
 ht-degree: 0%
-
 ---
-
 # Google AdWords
 
 [Google AdWords](https://www.google.com/adwords/)은(는) Google 검색 결과와 Google Display Network의 회사 페이지에 광고를 배치하는 데 사용할 수 있는 서비스입니다. AdWords 대시보드에는 캠페인을 관리하고, 응답을 추적하고, 결과를 측정하는 도구가 포함되어 있습니다.
@@ -53,8 +68,8 @@ ht-degree: 0%
 
    - **[!UICONTROL Value]**&#x200B;을(를) 클릭하고 해당하는 경우 변환에 값을 할당합니다. For example:
 
-      - 각 판매에 대해 $5를 만드는 경우 `Each time it happens`을(를) 선택하고 `$5`의 값을 할당하십시오.
-      - 각 판매의 값이 달라지면 값을 비워 둡니다.
+     - 각 판매에 대해 $5를 만드는 경우 `Each time it happens`을(를) 선택하고 `$5`의 값을 할당하십시오.
+     - 각 판매의 값이 달라지면 값을 비워 둡니다.
 
      완료하려면 **[!UICONTROL Done]**&#x200B;을(를) 클릭하십시오.
 
@@ -105,9 +120,9 @@ ht-degree: 0%
 
    - 전환 페이지에서 Google Sites 상태 알림에 사용할 **[!UICONTROL Conversion Format]**&#x200B;을(를) 입력하십시오.
 
-      - `1` - Google 추적에 대한 추가 정보에 대한 링크가 있는 한 줄 알림을 표시합니다.
-      - `2` - Google 추적에 대한 추가 정보에 대한 링크가 있는 두 줄 알림을 표시합니다.
-      - `3` - 고객 알림을 표시하지 않습니다.
+     - `1` - Google 추적에 대한 추가 정보에 대한 링크가 있는 한 줄 알림을 표시합니다.
+     - `2` - Google 추적에 대한 추가 정보에 대한 링크가 있는 두 줄 알림을 표시합니다.
+     - `3` - 고객 알림을 표시하지 않습니다.
 
    - Google 사이트 상태 알림 레이블에 사용할 **[!UICONTROL Conversion Color]**&#x200B;에 대한 [16진수 코드](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"}을(를) 입력하십시오.
 
@@ -144,7 +159,7 @@ ht-degree: 0%
    - `Dynamic` - 동적 주문 금액 값을 기반으로 전환이 발생했는지 확인합니다.
    - `Constant` - 입력된 특정 값을 기준으로 전환이 발생했는지 확인합니다.
 
-   _상수_ 전환 값 형식의 경우 _[!UICONTROL Order Amount]_&#x200B;에 대한 특정&#x200B;**[!UICONTROL Value]**&#x200B;을(를) 입력하여 전환으로 정규화하십시오.
+   _상수_ 전환 값 형식의 경우 _[!UICONTROL Order Amount]_에 대한 특정&#x200B;**[!UICONTROL Value]**을(를) 입력하여 전환으로 정규화하십시오.
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 

@@ -3,28 +3,42 @@ title: 인보이스
 description: 주문 처리 및 고객 서비스 작업을 지원하기 위해 송장을 만들고 인쇄하는 방법에 대해 알아봅니다.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-TQID: https://experienceleague.adobe.com/EGRiNGxTpww0k17-XeVPyrR5h1WDSZnseov8L-Yej-w
+TQID: 'https://experienceleague.adobe.com/EGRiNGxTpww0k17-XeVPyrR5h1WDSZnseov8L-Yej-w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1208
+source-wordcount: '1208'
 ht-degree: 0%
-
 ---
-
 # 인보이스
 
 송장은 주문에 대한 지급 기록 레코드입니다. 단일 주문에 대해 여러 개의 송장을 [생성](#create-an-invoice)할 수 있으며, 각 송장에는 사용자가 지정한 구매 제품을 많거나 적을 수 있습니다. [인쇄용 PDF 송장](#print-invoices)을(를) 고객에 대한 판매 문서로 만들 수도 있습니다.
@@ -86,7 +100,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
    >[!NOTE]
    >
-   >특정 [결제 방법](../configuration-reference/sales/payment-methods.md)에 대한 [결제 작업](../configuration-reference/sales/payment-methods.md#payment-actions)이(가) `Authorize and Capture`(으)로 설정되어 송장이 자동 생성되면 _[!UICONTROL Invoice]_&#x200B;옵션이 표시되지 않습니다. 또한 주문이 수행되고 결제 방법에 대한 결제 작업이 `Authorize`(으)로 설정되어 있고 주문에 대한 송장이 발행된 경우에도 마찬가지입니다.
+   >특정 [결제 방법](../configuration-reference/sales/payment-methods.md)에 대한 [결제 작업](../configuration-reference/sales/payment-methods.md#payment-actions)이(가) `Authorize and Capture`(으)로 설정되어 송장이 자동 생성되면 _[!UICONTROL Invoice]_옵션이 표시되지 않습니다. 또한 주문이 수행되고 결제 방법에 대한 결제 작업이 `Authorize`(으)로 설정되어 있고 주문에 대한 송장이 발행된 경우에도 마찬가지입니다.
 
    ![송장 판매 주문](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -146,7 +160,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**(으)로 이동합니다.
 
-1. _[!UICONTROL Invoices]_&#x200B;그리드에서 송장을 찾은 다음_&#x200B;작업&#x200B;_열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Invoices]_그리드에서 송장을 찾은 다음_&#x200B;작업&#x200B;_열에서&#x200B;**[!UICONTROL View]**을(를) 클릭합니다.
 
 1. 송장의 맨 위에서 **[!UICONTROL Print]**&#x200B;을(를) 클릭하여 송장의 PDF을 생성합니다.
 
@@ -156,7 +170,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**(으)로 이동합니다.
 
-1. _[!UICONTROL Invoices]_&#x200B;그리드에서 인쇄할 각 송장의 확인란을 선택합니다.
+1. _[!UICONTROL Invoices]_그리드에서 인쇄할 각 송장의 확인란을 선택합니다.
 
 1. **[!UICONTROL Actions]** 컨트롤을 `PDF Invoices`(으)로 설정합니다.
 
@@ -166,7 +180,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
 ## 사용자 정의 캡처 금액
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 판매자에게 부분 캡처 및 특수 결제 시나리오에 대한 보다 높은 유연성을 제공하기 위해 Invoice API는 확장 속성을 사용하여 사용자 정의 캡처 금액을 지원합니다.
 

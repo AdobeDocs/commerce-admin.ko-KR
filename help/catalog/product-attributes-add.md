@@ -3,29 +3,39 @@ title: 제품에 속성 추가
 description: 카탈로그의 제품에 속성을 추가하는 방법을 알아봅니다.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/UjUC1RvGmumw8smkucJTNMYlrnQ43uurysnPdD48eog
+TQID: 'https://experienceleague.adobe.com/UjUC1RvGmumw8smkucJTNMYlrnQ43uurysnPdD48eog'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 867
+source-wordcount: '867'
 ht-degree: 0%
-
 ---
-
 # 제품에 속성 추가
 
 특성은 주로 [스토어](../stores-purchase/stores-menu.md) 메뉴에서 관리되지만, 제품 작업 중에 새 특성을 _바로_&#x200B;할 수도 있습니다. 기존 속성 목록에서 선택하거나 속성을 만들 수 있습니다. 새 특성이 제품의 기반이 되는 [특성 집합](../catalog/attribute-sets.md)에 추가됩니다.
@@ -52,7 +62,7 @@ ht-degree: 0%
 
 ![특성 속성](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Attribute Properties]_&#x200B;에서 특성을 식별할&#x200B;**[!UICONTROL Attribute Label]**&#x200B;을(를) 입력하십시오.
+1. _[!UICONTROL Attribute Properties]_에서 특성을 식별할&#x200B;**[!UICONTROL Attribute Label]**을(를) 입력하십시오.
 
 1. 데이터 입력에 사용할 **[!UICONTROL Catalog Input Type for Store Owner]**&#x200B;을(를) [입력 컨트롤](attributes-input-types.md) 유형으로 설정하십시오.
 
@@ -101,7 +111,7 @@ ht-degree: 0%
 
 1. 특성을 제품 표에 열로 포함하려면 **[!UICONTROL Add to Column Options]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
-1. 이 열로 _[!UICONTROL Products]_&#x200B;그리드를 필터링하려면&#x200B;**[!UICONTROL Use in Filter Options]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+1. 이 열로 _[!UICONTROL Products]_그리드를 필터링하려면&#x200B;**[!UICONTROL Use in Filter Options]**을(를) `Yes`(으)로 설정하십시오.
 
 ## 4단계: 필드 레이블 입력
 
@@ -115,7 +125,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 라이브 검색에서 이 속성을 패싯으로 사용하려면 저장소별 레이블을 지정해야 합니다. 없으면 Facet 구성 페이지에 속성 이름이 올바르게 표시되지 않을 수 있습니다. 구성을 업데이트하려면 _Live Search 안내서_&#x200B;의 Live Search 환경 설정 목록[&#128279;](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)에서 편집 옵션을 사용하여 레이블을 수동으로 편집하십시오.
+   > 라이브 검색에서 이 속성을 패싯으로 사용하려면 저장소별 레이블을 지정해야 합니다. 없으면 Facet 구성 페이지에 속성 이름이 올바르게 표시되지 않을 수 있습니다. 구성을 업데이트하려면 _Live Search 안내서_&#x200B;의 Live Search 환경 설정 목록](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional)에서 [편집 옵션을 사용하여 레이블을 수동으로 편집하십시오.
 
 ## 5단계: 상점 속성 설명
 
@@ -135,7 +145,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Use in Search]_&#x200B;설정이 `No`(으)로 설정되어 있으면&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ 설정이 표시되지 않고 [!UICONTROL Use in Layered Navigation] 설정 값이 있는 검색에서 제품 특성이 사용되지 않습니다.
+   >_[!UICONTROL Use in Search]_설정이 `No`(으)로 설정되어 있으면_[!UICONTROL Use in Search Results Layered Navigation]_ 설정이 표시되지 않고 [!UICONTROL Use in Layered Navigation] 설정 값이 있는 검색에서 제품 특성이 사용되지 않습니다.
 
 1. 검색 결과 페이지의 레이어 탐색에서 특성을 사용하려면 **[!UICONTROL Use in Search Results Layered Navigation]**&#x200B;을(를) `Yes`(으)로 설정하고 **[!UICONTROL Position]** 필드에 숫자를 입력하십시오.
 
@@ -143,7 +153,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_[!UICONTROL Position]_&#x200B;필드는 기본적으로 흐리게 표시되어 있으므로 이 설정을 수정하려면 먼저 특성을 저장해야 합니다.
+   >_[!UICONTROL Position]_필드는 기본적으로 흐리게 표시되어 있으므로 이 설정을 수정하려면 먼저 특성을 저장해야 합니다.
 
 1. 가격 규칙에서 특성을 사용하려면 **[!UICONTROL Use for Promo Rule Conditions]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 

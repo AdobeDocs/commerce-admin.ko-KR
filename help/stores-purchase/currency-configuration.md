@@ -3,26 +3,35 @@ title: 통화 구성
 description: 기본 통화의 범위를 설정하고 수락하는 통화와 가격 표시에 사용할 통화를 지정하는 방법에 대해 알아봅니다.
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-TQID: https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE
+TQID: 'https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3033d2ab-c1d2-5b52-b865-72d9e5ad2c37
+    internal-label: Currency
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 826
+source-wordcount: '826'
 ht-degree: 0%
-
 ---
-
 # 통화 구성
 
 개별 통화 환율을 설정하기 전에 먼저 [기본 통화](../configuration-reference/general/currency-setup.md)의 범위를 설정해야 합니다. 기본적으로 Global로 설정되어 전체 [스토어 계층 구조](../getting-started/websites-stores-views.md)에 기본 통화 설정을 적용합니다. 다중 사이트 Adobe Commerce 또는 Magento Open Source을 설치한 경우 범위를 웹 사이트 수준으로 설정하여 여러 기본 통화를 관리할 수 있습니다.
@@ -83,31 +92,31 @@ ht-degree: 0%
 
    - [fixer.io 서비스에 연결하려면(_T)](https://fixer.io/):_
 
-      - **[!UICONTROL Fixer.io]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+     - **[!UICONTROL Fixer.io]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
-      - fixer.io **[!UICONTROL API key]**&#x200B;을(를) 입력하십시오.
+     - fixer.io **[!UICONTROL API key]**&#x200B;을(를) 입력하십시오.
 
-      - **[!UICONTROL Connection Timeout in Seconds]**&#x200B;에 연결 시간이 초과되기 전에 허용할 비활성 시간(초)을 입력합니다.
+     - **[!UICONTROL Connection Timeout in Seconds]**&#x200B;에 연결 시간이 초과되기 전에 허용할 비활성 시간(초)을 입력합니다.
 
      ![일반 구성 - 통화 설정 - Fixer.io 옵션](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
 
    - [[!DNL Fixer Api (APILayer)] 서비스](https://apilayer.com/):_에 연결하려면(_T)
 
-      - **[!UICONTROL Fixer Api (APILayer)]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+     - **[!UICONTROL Fixer Api (APILayer)]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
-      - [!DNL APILayer] **[!UICONTROL API key]**&#x200B;을(를) 입력하십시오.
+     - [!DNL APILayer] **[!UICONTROL API key]**&#x200B;을(를) 입력하십시오.
 
-      - **[!UICONTROL Connection Timeout in Seconds]**&#x200B;에 연결 시간이 초과되기 전에 허용할 비활성 시간(초)을 입력합니다.
+     - **[!UICONTROL Connection Timeout in Seconds]**&#x200B;에 연결 시간이 초과되기 전에 허용할 비활성 시간(초)을 입력합니다.
 
      ![일반 구성 - 통화 설정 - Fixer API(APILayer) 옵션](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
 
    - [[!DNL Currency Convertor API] 서비스](https://free.currencyconverterapi.com/):_에 연결하려면(_T)
 
-      - **[!UICONTROL Currency Convertor API]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+     - **[!UICONTROL Currency Convertor API]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
-      - 통화 전환기 **[!UICONTROL API key]**&#x200B;을(를) 입력하십시오.
+     - 통화 전환기 **[!UICONTROL API key]**&#x200B;을(를) 입력하십시오.
 
-      - **[!UICONTROL Connection Timeout in Seconds]**&#x200B;에 연결 시간이 초과되기 전에 허용할 비활성 시간(초)을 입력합니다.
+     - **[!UICONTROL Connection Timeout in Seconds]**&#x200B;에 연결 시간이 초과되기 전에 허용할 비활성 시간(초)을 입력합니다.
 
      ![일반 구성 - 통화 설정 - 통화 변환기 API 옵션](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
 
@@ -127,9 +136,9 @@ ht-degree: 0%
 
    - **[!UICONTROL Frequency]** — 요금이 업데이트되는 빈도를 확인하려면 다음 중 하나로 설정하십시오.
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
    - **[!UICONTROL Error Email Recipient]** — 가져오기 프로세스 중에 오류가 발생하는 경우 이메일 알림을 받을 사람의 이메일 주소를 입력합니다.
 
@@ -157,13 +166,13 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**(으)로 이동합니다.
 
-   스토어에 사용할 수 있는 각 통화가 _[!UICONTROL Currency]_&#x200B;목록에 나타납니다.
+   스토어에 사용할 수 있는 각 통화가 _[!UICONTROL Currency]_목록에 나타납니다.
 
 1. 필요에 따라 목록에서 설정을 변경합니다.
 
    - 사용할 각 통화에 대해 사용자 지정 기호를 입력하거나 각 통화에 대해 **[!UICONTROL Use Standard]** 확인란을 선택하십시오.
 
-   - 기본 기호를 재정의하려면 _[!UICONTROL Use Standard]_&#x200B;확인란의 선택을 취소하고 사용할 기호를 입력합니다.
+   - 기본 기호를 재정의하려면 _[!UICONTROL Use Standard]_확인란의 선택을 취소하고 사용할 기호를 입력합니다.
 
    >[!NOTE]
    >

@@ -3,27 +3,35 @@ title: 고객 세그먼트 만들기 및 삭제
 description: 고객은 고객 계정 대시보드에서 주문과 관련된 환불 정보를 볼 수 있습니다.
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
-TQID: https://experienceleague.adobe.com/D31F3AtNhNhDaTcOHxX4qNos-0MIP-nh0UVszKQh5y0
+TQID: 'https://experienceleague.adobe.com/D31F3AtNhNhDaTcOHxX4qNos-0MIP-nh0UVszKQh5y0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 978
+source-wordcount: '978'
 ht-degree: 0%
-
 ---
-
 # 고객 세그먼트 만들기 및 삭제
 
 {{ee-feature}}
@@ -32,13 +40,13 @@ ht-degree: 0%
 
 ![고객 세그먼트 목록](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_&#x200B;**[!UICONTROL Customer Segments]눈금&#x200B;**&#x200B;_
+_**[!UICONTROL Customer Segments]눈금&#x200B;**_
 
 | 열 | 설명 |
 |--- |--- |
 | **[!UICONTROL ID]** | 고객 세그먼트에 대한 고유 ID. |
 | **[!UICONTROL Segment]** | 고객 세그먼트의 이름입니다. |
-| **[!UICONTROL Status]** | 고객 세그먼트가 _[!UICONTROL Active]_&#x200B;인지&#x200B;_[!UICONTROL Inactive]_&#x200B;인지를 나타냅니다. |
+| **[!UICONTROL Status]** | 고객 세그먼트가 _[!UICONTROL Active]_인지_[!UICONTROL Inactive]_&#x200B;인지를 나타냅니다. |
 | **[!UICONTROL Website]** | 고객 세그먼트가 속한 웹 사이트를 나타냅니다. |
 
 {style="table-layout:auto"}
@@ -96,7 +104,7 @@ _&#x200B;**[!UICONTROL Customer Segments]눈금&#x200B;**&#x200B;_
 
 1. **[!UICONTROL Save and Continue Edit]**&#x200B;을(를) 클릭합니다.
 
-   _[!UICONTROL General Properties]_&#x200B;세그먼트를 저장한 후 왼쪽 패널에서 추가 옵션을 사용할 수 있습니다.
+   _[!UICONTROL General Properties]_세그먼트를 저장한 후 왼쪽 패널에서 추가 옵션을 사용할 수 있습니다.
 
    ![세그먼트 속성](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
@@ -175,7 +183,7 @@ _&#x200B;**[!UICONTROL Customer Segments]눈금&#x200B;**&#x200B;_
 
 1. 이제 고객 세그먼트를 타겟팅 프로모션, 콘텐츠 및 메일링에 사용할 수 있습니다.
 
-_&#x200B;**[!UICONTROL Matched Customers]눈금&#x200B;**&#x200B;_
+_**[!UICONTROL Matched Customers]눈금&#x200B;**_
 
 | 열 | 설명 |
 |--- |--- |
@@ -205,7 +213,7 @@ _&#x200B;**[!UICONTROL Matched Customers]눈금&#x200B;**&#x200B;_
 
 | 단추 | 설명 |
 |--- |--- |
-| **[!UICONTROL Back]** | 변경 내용을 저장하지 않고 _[!UICONTROL Customer Segments]_&#x200B;페이지로 돌아갑니다. |
+| **[!UICONTROL Back]** | 변경 내용을 저장하지 않고 _[!UICONTROL Customer Segments]_페이지로 돌아갑니다. |
 | **[!UICONTROL Delete]** | 현재 고객 세그먼트를 삭제합니다. 세그먼트의 고객과 연관된 고객 또는 완료된 주문은 제거되지 않습니다. |
 | **[!UICONTROL Reset]** | 고객 세그먼트 양식에서 저장되지 않은 변경 사항을 이전 값으로 재설정합니다. |
 | **[!UICONTROL Refresh Segment Data]** | 세그먼트 데이터를 가장 최근에 저장된 값으로 새로 고칩니다. 세그먼트 데이터를 사용할 수 없거나 오래된 경우 관련성이 있습니다. |
@@ -218,4 +226,4 @@ _&#x200B;**[!UICONTROL Matched Customers]눈금&#x200B;**&#x200B;_
 
 고객 세그먼트 만들기에 대한 시연은 이 비디오 를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410192/?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)

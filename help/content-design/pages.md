@@ -1,38 +1,47 @@
 ---
 title: 페이지
-description: ' [!DNL Commerce] 데모 저장소에 포함된 핵심 콘텐츠 페이지와 기본 페이지 구성 변경에 대한 자세한 내용을 알아봅니다.'
+description: '[!DNL Commerce] 데모 저장소에 포함된 핵심 콘텐츠 페이지와 기본 페이지 구성 변경에 대한 자세한 내용을 알아봅니다.'
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/8vTCiNl1daEV7Tpxxusbwhv8R9-qwZh6-fimyORElIk
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: 'https://experienceleague.adobe.com/8vTCiNl1daEV7Tpxxusbwhv8R9-qwZh6-fimyORElIk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 943
+source-wordcount: '944'
 ht-degree: 0%
-
 ---
-
 # 페이지
 
 콘텐츠는 상점의 모든 제품과 마찬가지로 유통기한의 관점에서 볼 수 있습니다. 소셜 미디어 콘텐츠의 저장 수명이 24시간 미만이라는 것을 알고 있었습니까? 만든 콘텐츠의 잠재적 유통기한은 리소스를 투자할 위치를 결정하는 데 도움이 될 수 있습니다.
 
 저장 수명이 긴 콘텐츠는 경우에 따라 _항상 사용 가능한 콘텐츠_&#x200B;라고도 합니다. 항상 사용되는 콘텐츠의 예로는 고객 성공 사례, _방법_ 지침 및 자주 묻는 질문(FAQ)이 있습니다. 이와 달리 자연적으로 상하기 쉬운 내용에는 이벤트, 업계 뉴스, 보도 자료 등이 포함된다.
 
-![샘플 Luma 저장소 &#x200B;](./assets/storefront-about-us.png){width="700" zoomable="yes"}에 포함된 미국 정보 페이지
+![샘플 Luma 저장소 ](./assets/storefront-about-us.png){width="700" zoomable="yes"}에 포함된 미국 정보 페이지
 
 ## 핵심 콘텐츠 페이지
 
@@ -80,7 +89,7 @@ _기본 페이지_ 구성은 [기본 URL](../stores-purchase/store-urls.md) 및 
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Web]**을(를) 선택합니다.
 
 1. **[!UICONTROL Default Pages]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -103,7 +112,7 @@ _기본 페이지_ 구성은 [기본 URL](../stores-purchase/store-urls.md) 및 
 
    >[!NOTE]
    >
-   >특정 저장소 보기의 경우 _[!UICONTROL Default Web URL]_&#x200B;옆에 있는&#x200B;**[!UICONTROL Use Default]**&#x200B;확인란의 선택을 취소하고 다른 기본 설정을 변경합니다.
+   >특정 저장소 보기의 경우 _[!UICONTROL Default Web URL]_옆에 있는&#x200B;**[!UICONTROL Use Default]**확인란의 선택을 취소하고 다른 기본 설정을 변경합니다.
 
 1. 홈 페이지로 사용할 CMS 페이지로 **[!UICONTROL CMS Home Page]**&#x200B;을(를) 설정합니다. 다음과 같이 생성된 다른 페이지를 홈 페이지로 사용할 수 있습니다.
 

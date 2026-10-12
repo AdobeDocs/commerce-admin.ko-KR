@@ -1,31 +1,43 @@
 ---
 title: 판매자 소싱 유형
-description: 단일 원본 및 다중 원본 판매자 모드를 비교하여  [!DNL Inventory Management]에서 원본, 재고 및 수량을 할당하는 방법을 선택하세요.
+description: 단일 원본 및 다중 원본 판매자 모드를 비교하여 [!DNL Inventory Management]에서 원본, 재고 및 수량을 할당하는 방법을 선택하십시오.
 exl-id: ec928929-5826-4504-9fd0-84256b37cb39
 feature: Inventory, Products
-TQID: https://experienceleague.adobe.com/-ABDMLnAibksuQGkdEM683g8JwcUSt2DQERC0WJnQiM
+TQID: 'https://experienceleague.adobe.com/-ABDMLnAibksuQGkdEM683g8JwcUSt2DQERC0WJnQiM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 487
+source-wordcount: '487'
 ht-degree: 0%
-
 ---
-
 # 판매자 소싱 유형
 
 [!DNL Commerce]은(는) 웹 사이트, 스토어, 창고 및 직송자의 국제적 네트워크에 하나의 웹 사이트를 포함하는 모든 규모의 비즈니스에 대해 [!DNL Inventory Management]을(를) 지원합니다. Adobe Commerce 또는 Magento Open Source을 사용하는 모든 가맹점은 비즈니스 내 위치 또는 소스의 수를 기준으로 두 가지 유형으로 나뉩니다.

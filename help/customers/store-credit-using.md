@@ -3,27 +3,37 @@ title: 스토어 크레딧 적용
 description: 스토어 관리자는 구매에 스토어 크레딧을 적용할 수 있습니다.
 exl-id: 97b6b206-71db-435c-8736-a781437bb0b4
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/O2EJMZscownPnhjPeFROdwikhYmHuDYdCx4N7NpXlho
+TQID: 'https://experienceleague.adobe.com/O2EJMZscownPnhjPeFROdwikhYmHuDYdCx4N7NpXlho'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 321
+source-wordcount: '321'
 ht-degree: 0%
-
 ---
-
 # 스토어 크레딧 적용
 
 {{ee-feature}}
@@ -40,7 +50,7 @@ ht-degree: 0%
 
 1. _Action_ 열에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Customer View]_&#x200B;페이지를 스크롤하고 하단의&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;을(를) 봅니다.
+1. _[!UICONTROL Customer View]_페이지를 스크롤하고 하단의&#x200B;**[!UICONTROL Store Credit Balance]**을(를) 봅니다.
 
 ![크레딧 잔고 저장](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
@@ -78,13 +88,13 @@ ht-degree: 0%
 
 1. 고객이 사용 가능한 스토어 크레딧 금액을 조회합니다.
 
-   _검토 및 결제_ 단계에서 사용 가능한 금액이 _[!UICONTROL Store Credit]_&#x200B;에 표시됩니다.
+   _검토 및 결제_ 단계에서 사용 가능한 금액이 _[!UICONTROL Store Credit]_에 표시됩니다.
 
 1. 주문에 금액을 적용하려면 **[!UICONTROL Use Store Credit]**&#x200B;을(를) 클릭합니다.
 
    >[!INFO]
    >
-   >주문 합계가 다시 계산되며 적용된 스토어 크레딧 금액이 _[!UICONTROL Order Summary]_&#x200B;에 나타납니다.
+   >주문 합계가 다시 계산되며 적용된 스토어 크레딧 금액이 _[!UICONTROL Order Summary]_에 나타납니다.
 
    ![주문에 적용된 크레딧 잔액 저장](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 

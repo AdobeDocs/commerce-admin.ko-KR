@@ -3,7 +3,7 @@ title: 카탈로그 가격 규칙 만들기
 description: 조건 세트가 충족될 때마다 특정 제품에 할인을 적용하는 카탈로그 가격 규칙을 만드는 방법을 알아봅니다.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-TQID: https://experienceleague.adobe.com/rX7YtAYqk0z8140ueglCAzHQUeC2Y-lwRywB5uDdNG4
+TQID: 'https://experienceleague.adobe.com/rX7YtAYqk0z8140ueglCAzHQUeC2Y-lwRywB5uDdNG4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,10 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: a507b1ed-4937-53da-97ae-57d36bd5b9e0
+    internal-label: Price Rules
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -31,7 +35,7 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d1de809dfbdccea260fb7d5f8963a5c20cde15c
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 0%
@@ -46,7 +50,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단에서 **[!UICONTROL Add New Rule]**&#x200B;을(를) 클릭합니다.
 
-   _[!UICONTROL Rule Information]_&#x200B;섹션에는&#x200B;**[!UICONTROL Conditions]**&#x200B;및&#x200B;**[!UICONTROL Actions]**&#x200B;에 대한 확장 가능한 섹션이 포함되어 있습니다.
+   _[!UICONTROL Rule Information]_섹션에는&#x200B;**[!UICONTROL Conditions]**및&#x200B;**[!UICONTROL Actions]**에 대한 확장 가능한 섹션이 포함되어 있습니다.
 
    ![카탈로그 가격 규칙 - 정보](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -237,9 +241,9 @@ ht-degree: 0%
 
 1. 규칙 속성 업데이트:
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **[!UICONTROL Edit]**&#x200B;을(를) 클릭하여 _[!UICONTROL Rule Information]_&#x200B;페이지를 표시합니다.
+   - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **[!UICONTROL Edit]**&#x200B;을(를) 클릭하여 _[!UICONTROL Rule Information]_페이지를 표시합니다.
 
-   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 목록에서 규칙을 클릭하여 _[!UICONTROL Rule Information]_&#x200B;페이지를 표시합니다.
+   - ![Magento Open Source](../assets/open-source.svg)(Magento Open Source만 해당) 목록에서 규칙을 클릭하여 _[!UICONTROL Rule Information]_페이지를 표시합니다.
 
 1. 규칙이 올바르게 작동하는지 테스트합니다.
 
@@ -251,7 +255,7 @@ ht-degree: 0%
 
 이 비디오를 통해 카탈로그 가격 규칙 만들기에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410851?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## 필드 설명
 

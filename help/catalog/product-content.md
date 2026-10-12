@@ -3,31 +3,40 @@ title: 제품 설정 - [!UICONTROL Content]
 description: 제품의 경우 [!UICONTROL Content] 설정은 제품 페이지에 표시되는 기본 제품 설명을 정의합니다.
 exl-id: d38aa828-8656-4935-948f-3188654a91a0
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/Q-zeffK2GElT0OyS3Lapa7XNHkT2sK30bKszPrGhW6k
+TQID: 'https://experienceleague.adobe.com/Q-zeffK2GElT0OyS3Lapa7XNHkT2sK30bKszPrGhW6k'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bd199ede56ca5a34da513beb305cdba02dfe80d
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 325
+source-wordcount: '325'
 ht-degree: 0%
-
 ---
-
 # 제품 설정 - [!UICONTROL Content]
 
-_[!UICONTROL Content]_&#x200B;섹션은 제품 페이지에 나타나는 기본 제품 설명을 입력하고 편집하는 데 사용됩니다. 짧은 설명은 대부분의 RSS 피드에서 사용할 수 있으며 [테마](../content-design/themes.md)에 따라 카탈로그 목록에도 표시될 수 있습니다.
+_[!UICONTROL Content]_섹션은 제품 페이지에 나타나는 기본 제품 설명을 입력하고 편집하는 데 사용됩니다. 짧은 설명은 대부분의 RSS 피드에서 사용할 수 있으며 [테마](../content-design/themes.md)에 따라 카탈로그 목록에도 표시될 수 있습니다.
 
 >[!NOTE]
 >
@@ -49,7 +58,7 @@ _[!UICONTROL Content]_&#x200B;섹션은 제품 페이지에 나타나는 기본 
 
 ## [!DNL Page Builder] 미리 보기
 
-[!DNL Page Builder]&#x200B;(으)로 만든 콘텐츠가 있는 기존 제품에 대해 _[!UICONTROL Content]_&#x200B;섹션을 확장하면 제품 페이지에 표시되는 대로&#x200B;**[!UICONTROL Description]**&#x200B;콘텐츠의 미리 보기가 표시됩니다.**[!UICONTROL Edit with Page Builder]**&#x200B;을(를) 클릭하여 필요한 업데이트를 수행할 수 있는 [!DNL Page Builder] 작업 영역을 엽니다.
+[!DNL Page Builder]&#x200B;(으)로 만든 콘텐츠가 있는 기존 제품에 대해 _[!UICONTROL Content]_섹션을 확장하면 제품 페이지에 표시되는 대로&#x200B;**[!UICONTROL Description]**콘텐츠의 미리 보기가 표시됩니다.**[!UICONTROL Edit with Page Builder]**을(를) 클릭하여 필요한 업데이트를 수행할 수 있는 [!DNL Page Builder] 작업 영역을 엽니다.
 
 ![설명 미리 보기](../page-builder/assets/pb-product-category-content-preview.png){width="600" zoomable="yes"}
 

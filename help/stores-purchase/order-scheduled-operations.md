@@ -3,27 +3,35 @@ title: 예약된 주문 작업
 description: 이 기능을 지원하는 예약된 주문 작업 및 주문 cron 설정에 대해 알아봅니다.
 exl-id: 330fe75a-d901-4696-946e-fa7af9ea3d40
 feature: Orders, Configuration
-TQID: https://experienceleague.adobe.com/pViPmBFGErjXeFyvBNBVuJiw8Pn51JIGkeZ2mJAf72M
+TQID: 'https://experienceleague.adobe.com/pViPmBFGErjXeFyvBNBVuJiw8Pn51JIGkeZ2mJAf72M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 286
+source-wordcount: '286'
 ht-degree: 0%
-
 ---
-
 # 예약된 주문 작업
 
 [Cron](../systems/cron.md) 작업을 사용하여 다음 주문 처리 작업을 예약하십시오.
@@ -59,11 +67,11 @@ ht-degree: 0%
 
 **_업데이트 및 리인덱싱을 사용하려면:_**
 
-[!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [프로덕션 모드](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode)&#x200B;(클라우드 인프라의 Adobe Commerce에서 사용되는 기본 모드)가 활성화되면 다음 명령을 실행합니다.
+[!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [프로덕션 모드](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode)&#x200B;(클라우드 인프라의 Adobe Commerce에서 사용되는 기본 모드)가 활성화되면 다음 명령을 실행합니다.
 
 `bin/magento config:set dev/grid/async_indexing 1`
 
-[기본 모드](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode)를 사용하면 다음 단계를 완료하십시오.
+[기본 모드](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode)를 사용하면 다음 단계를 완료하십시오.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 

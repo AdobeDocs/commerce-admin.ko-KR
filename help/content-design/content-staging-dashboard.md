@@ -3,25 +3,34 @@ title: 컨텐츠 스테이징 대시보드
 description: 컨텐츠 스테이징 대시보드를 사용하여 모든 활성 및 예정된 캠페인에 대한 개요에 액세스합니다.
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/Hwrb3dYdJlggWN-Z-nUKxVBhsejFMZR-yWIgRzfJifQ
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: 'https://experienceleague.adobe.com/Hwrb3dYdJlggWN-Z-nUKxVBhsejFMZR-yWIgRzfJifQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: '452'
 ht-degree: 0%
-
 ---
-
 # 컨텐츠 스테이징 대시보드
 
 {{ee-feature}}
@@ -84,10 +93,10 @@ ht-degree: 0%
 
 1. 표시된 목록 또는 타임라인에서 캠페인을 찾아 열고 세부 정보에 액세스합니다.
 
-   - 목록을 표시하려면 **[!UICONTROL Select]**&#x200B;을(를) 클릭한 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL View/Edit]**&#x200B;을(를) 클릭합니다.
+   - 목록을 표시하려면 **[!UICONTROL Select]**&#x200B;을(를) 클릭한 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL View/Edit]**을(를) 클릭합니다.
    - 타임라인을 표시하려면 한 번 클릭하여 요약을 표시한 다음 **[!UICONTROL View/Edit]**&#x200B;을(를) 클릭합니다.
 
-1. 필요에 따라 _[!UICONTROL General]_&#x200B;섹션의 설정을 업데이트합니다.
+1. 필요에 따라 _[!UICONTROL General]_섹션의 설정을 업데이트합니다.
 
 1. 편집할 항목이 포함된 모든 섹션을 ![확장 선택기](../assets/icon-display-expand.png)합니다.
 

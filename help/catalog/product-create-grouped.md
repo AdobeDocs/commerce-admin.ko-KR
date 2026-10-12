@@ -3,29 +3,39 @@ title: 그룹화된 제품
 description: 그룹으로 표시되는 간단한 독립 실행형 제품으로 구성된 그룹화된 제품을 만드는 방법을 알아봅니다.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/-DMUSccWFP4b7NwCSbsOva58MknalK5oMSsElF-8Gzg
+TQID: 'https://experienceleague.adobe.com/-DMUSccWFP4b7NwCSbsOva58MknalK5oMSsElF-8Gzg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1084
+source-wordcount: '1084'
 ht-degree: 0%
-
 ---
-
 # 그룹화된 제품
 
 그룹화된 제품은 그룹으로 표시되는 간단한 독립 실행형 제품으로 구성됩니다. 단일 제품의 변형을 제공하거나 계절 또는 테마별로 그룹화할 수 있습니다. 그룹화된 제품을 제시하면 고객이 추가 품목을 구매할 수 있는 인센티브를 창출할 수 있다. 그룹화된 제품은 제품의 변형을 제공하고 모두 동일한 페이지에 나열하는 쉬운 방법을 제공합니다.
@@ -42,7 +52,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Grouped Product]**&#x200B;을(를) 선택합니다.
+1. 오른쪽 상단의 _[!UICONTROL Add Product]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Grouped Product]**을(를) 선택합니다.
 
    ![그룹화된 제품 추가](./assets/product-add-grouped.png){width="700" zoomable="yes"}
 
@@ -135,7 +145,7 @@ ht-degree: 0%
 
 1. 제품 그룹에 추가하려면 **[!UICONTROL Add Selected Products]**&#x200B;을(를) 클릭합니다.
 
-   선택한 제품이 _[!UICONTROL Grouped Products]_&#x200B;섹션에 표시됩니다.
+   선택한 제품이 _[!UICONTROL Grouped Products]_섹션에 표시됩니다.
 
    [Inventory management](../inventory-management/sources-stocks.md)을(를) 가진 다중 Source 판매자의 경우, 그리드에는 각 할당된 원본 및 재고 금액이 있는 **[!UICONTROL Quantity per Source]** 열이 포함되어 있습니다.
 
@@ -178,7 +188,7 @@ ht-degree: 0%
 
    **메서드 2:** 저장 및 닫기
 
-   - _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
+   - _[!UICONTROL Save]_( ![메뉴 화살표](../assets/icon-menu-down-arrow-red.png){width="25"}) 메뉴에서&#x200B;**[!UICONTROL Save & Close]**을(를) 선택합니다.
 
 ## 7단계: 장바구니 썸네일 구성(선택 사항)
 

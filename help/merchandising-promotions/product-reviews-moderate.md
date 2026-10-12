@@ -3,27 +3,38 @@ title: 제품 리뷰 중재
 description: 제출된 리뷰가 스토어를 공개적으로 표시하기 위해 적절한지 확인하기 위해 제품 리뷰를 조정하는 방법을 알아봅니다.
 exl-id: 90c3e918-f435-4468-b41b-e8044ad14fb0
 feature: Merchandising, Products
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/DGRJr-P9TUQ1TFh4Da1Z4VwrKfWe2rw5wmbwq9IlAFg
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: 'https://experienceleague.adobe.com/DGRJr-P9TUQ1TFh4Da1Z4VwrKfWe2rw5wmbwq9IlAFg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 419
+source-wordcount: '419'
 ht-degree: 0%
-
 ---
-
 # 제품 리뷰 중재
 
 Commerce 제품 검토의 경우 제출된 제품 검토를 승인해야 표시할 수 있습니다. 이렇게 하면 리뷰가 스토어를 공개적으로 표시하는 데 적절합니다. 제출된 검토는 승인 또는 거부될 때까지 `Pending` 상태입니다.
@@ -34,15 +45,15 @@ Commerce 제품 검토의 경우 제출된 제품 검토를 승인해야 표시�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
-1. 보려는 제품을 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 보려는 제품을 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
 1. 제품 페이지에서 아래로 스크롤하여 **[!UICONTROL Product Reviews]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
-   이 표에서 _[!UICONTROL Action]_&#x200B;열의&#x200B;**[!UICONTROL Edit]**&#x200B;링크를 클릭하여 특정 검토를 변경할 수도 있습니다.
+   이 표에서 _[!UICONTROL Action]_열의&#x200B;**[!UICONTROL Edit]**링크를 클릭하여 특정 검토를 변경할 수도 있습니다.
 
 ## 리뷰 상태 업데이트
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;또는&#x200B;**[!UICONTROL All Reviews]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**또는&#x200B;**[!UICONTROL All Reviews]**(으)로 이동합니다.
 
 1. 목록에서 보류 중인 검토를 클릭하여 세부 정보를 보고 필요한 경우 편집합니다.
 
@@ -50,7 +61,7 @@ Commerce 제품 검토의 경우 제출된 제품 검토를 승인해야 표시�
 
    - 보류 중인 검토를 승인하려면 `Approved`을(를) 선택하십시오.
 
-   - 검토를 거부하려면 `Not Approved`을(를) 선택하십시오. 승인되지 않은 리뷰가 _[!UICONTROL Pending Reviews]_&#x200B;페이지 목록에서 사라집니다.
+   - 검토를 거부하려면 `Not Approved`을(를) 선택하십시오. 승인되지 않은 리뷰가 _[!UICONTROL Pending Reviews]_페이지 목록에서 사라집니다.
 
    >[!NOTE]
    >
@@ -60,7 +71,7 @@ Commerce 제품 검토의 경우 제출된 제품 검토를 승인해야 표시�
 
 1. 필요한 경우 **[!UICONTROL Detailed Rating]**, **[!UICONTROL Nickname]** 및 **[!UICONTROL Summary of Review]**&#x200B;의 값을 변경합니다.
 
-   검토를 사용할 수 있는 저장소 보기를 변경하려면 _[!UICONTROL Visibility]_&#x200B;열에서 필요한 저장소 보기를 선택하십시오.
+   검토를 사용할 수 있는 저장소 보기를 변경하려면 _[!UICONTROL Visibility]_열에서 필요한 저장소 보기를 선택하십시오.
 
    ![검토 페이지 편집](./assets/edit-review-page.png){width="600" zoomable="yes"}
 
@@ -74,7 +85,7 @@ Commerce 제품 검토의 경우 제출된 제품 검토를 승인해야 표시�
 
 1. 업데이트할 리뷰를 선택합니다.
 
-1. 왼쪽 상단 모서리의 _[!UICONTROL Action]_&#x200B;선택기를 사용하여 작업을 적용하십시오.
+1. 왼쪽 상단 모서리의 _[!UICONTROL Action]_선택기를 사용하여 작업을 적용하십시오.
 
 1. **[!UICONTROL Submit]** 클릭
 

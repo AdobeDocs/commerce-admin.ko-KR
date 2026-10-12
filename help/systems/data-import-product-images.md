@@ -3,28 +3,41 @@ title: 제품 이미지 가져오기
 description: 각 이미지의 경로 및 파일 이름을 사용하여 제품 이미지를 가져오는 방법을 알아봅니다.
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
-TQID: https://experienceleague.adobe.com/xqaM2qAUDV1yKXS5-90b7aQJUgEW-ZHg03UFo-dfKME
+TQID: 'https://experienceleague.adobe.com/xqaM2qAUDV1yKXS5-90b7aQJUgEW-ZHg03UFo-dfKME'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 846
+source-wordcount: '846'
 ht-degree: 0%
-
 ---
-
 # 제품 이미지 가져오기
 
 각 유형의 여러 제품 이미지를 Adobe Commerce 및 Magento Open Source으로 가져와서 특정 제품과 연결할 수 있습니다. 각 제품 이미지의 경로와 파일 이름을 CSV 파일에 입력하고, 가져올 이미지 파일을 Commerce 서버 또는 외부 서버의 해당 경로에 업로드합니다.
@@ -73,7 +86,7 @@ Commerce은 알파벳순으로 구성된 제품 이미지에 대한 고유한 �
 
    >[!TIP]
    >
-   >`<Magento-root-folder>/var/import/images` 디렉터리를 사용하려면 _[!UICONTROL Images File Directory]_&#x200B;을(를) 비워 둡니다. Adobe Commerce 및 Magento Open Source 버전 2.3.2부터 기본 가져오기 이미지 기본 디렉토리입니다.
+   >`<Magento-root-folder>/var/import/images` 디렉터리를 사용하려면 _[!UICONTROL Images File Directory]_을(를) 비워 둡니다. Adobe Commerce 및 Magento Open Source 버전 2.3.2부터 기본 가져오기 이미지 기본 디렉토리입니다.
 
    단일 `sku`에 대해 여러 이미지를 가져오는 경우 `additional_images` 열에 이미지를 삽입합니다(아직 추가되지 않은 경우 열 추가). 쉼표로 구분합니다. 예: `image02.jpg,image03.jpg`
 
@@ -99,7 +112,7 @@ Commerce은 알파벳순으로 구성된 제품 이미지에 대한 고유한 �
 
    >[!NOTE]
    >
-   >Adobe Commerce 및 Magento Open Source `2.3.2` 릴리스부터 _[!UICONTROL Images File Directory]_&#x200B;에 지정된 경로는 이미지 기본 디렉터리로 가져오기 위해 연결됩니다. `<remote-storage-root-folder>/var/import/images`. 이전 Adobe Commerce 및 Magento Open Source 릴리스의 경우 가져오기 프로세스 중에 폴더 경로가 지정되는 한 Commerce 서버에서 다른 폴더를 사용할 수 있습니다.
+   >Adobe Commerce 및 Magento Open Source `2.3.2` 릴리스부터 _[!UICONTROL Images File Directory]_에 지정된 경로는 이미지 기본 디렉터리로 가져오기 위해 연결됩니다. `<remote-storage-root-folder>/var/import/images`. 이전 Adobe Commerce 및 Magento Open Source 릴리스의 경우 가져오기 프로세스 중에 폴더 경로가 지정되는 한 Commerce 서버에서 다른 폴더를 사용할 수 있습니다.
 
 1. CSV 데이터에서 이미지 유형(`base_image`, `small_image`, `thumbnail_image` 또는 `additional_images`)에 따라 올바른 행과 올바른 열에 가져올 각 이미지 파일의 이름을 `sku`씩 입력합니다.
 
@@ -121,11 +134,11 @@ Commerce은 알파벳순으로 구성된 제품 이미지에 대한 고유한 �
 
    >[!TIP]
    >
-   >`<Magento-root-folder>/var/import/images` 디렉터리를 사용하려면 _[!UICONTROL Images File Directory]_&#x200B;을(를) 비워 둡니다. Adobe Commerce 및 Magento Open Source 버전 2.3.2부터 기본 가져오기 이미지 기본 디렉토리입니다.
+   >`<Magento-root-folder>/var/import/images` 디렉터리를 사용하려면 _[!UICONTROL Images File Directory]_을(를) 비워 둡니다. Adobe Commerce 및 Magento Open Source 버전 2.3.2부터 기본 가져오기 이미지 기본 디렉토리입니다.
 
    단일 `sku`에 대해 여러 이미지를 가져오는 경우 `additional_images` 열에 이미지를 삽입하십시오(아직 추가되지 않은 경우 열 추가). 쉼표로 구분하십시오. `image02.jpg,image03.jpg`
 
-원격 저장소 모듈 사용 및 관리에 대한 자세한 내용은 _구성 가이드_&#x200B;에서 [원격 저장소 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage)을 참조하세요.
+원격 저장소 모듈 사용 및 관리에 대한 자세한 내용은 _구성 가이드_&#x200B;에서 [원격 저장소 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage)을 참조하세요.
 
 >[!NOTE]
 >

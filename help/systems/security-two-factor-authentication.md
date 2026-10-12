@@ -4,33 +4,45 @@ description: 시스템 및 데이터의 보안을 보장하기 위한 이중 인
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/-201IPkmoP1dmQL3kk4zb3XdTgrYtiUovj4-hkaNrnc
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: 'https://experienceleague.adobe.com/-201IPkmoP1dmQL3kk4zb3XdTgrYtiUovj4-hkaNrnc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4560f5f5-d00c-5b5d-b61b-369d85ef7a26
+    internal-label: User Account
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 836
+source-wordcount: '836'
 ht-degree: 0%
-
 ---
-
 # 이중 인증(2FA)
 
 Adobe Commerce 또는 Magento Open Source 설치용 Commerce _관리자_&#x200B;는 스토어, 주문 및 고객 데이터에 대한 액세스를 제공합니다. 데이터에 대한 무단 액세스를 방지하기 위해 _관리자_&#x200B;에 로그인하려는 모든 사용자는 ID를 확인하기 위해 인증 프로세스를 완료해야 합니다.
@@ -59,7 +71,7 @@ Adobe Commerce은 여러 공급자의 2FA 메서드를 지원합니다. 일부�
 
 1. 왼쪽 패널에서 **[!UICONTROL Security]**&#x200B;을(를) 확장하고 **[!UICONTROL 2FA]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL General]_&#x200B;섹션에서 사용할 공급자를 선택합니다.
+1. _[!UICONTROL General]_섹션에서 사용할 공급자를 선택합니다.
 
    | 공급자 | 함수 |
    |--- |--- |

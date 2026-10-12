@@ -3,31 +3,43 @@ title: 고객 이름 및 주소 옵션
 description: 고객 이름 및 주소 옵션은 이름 및 주소 양식에 포함되는 필드를 결정합니다.
 exl-id: 28949cfc-2c96-4d0a-a35b-b37b3aa2d1e9
 feature: Customers, Configuration
-TQID: https://experienceleague.adobe.com/qMXVcVWZJCrCNywOJF3psuO5vLWkNt9LoNtgFfFBzT8
+TQID: 'https://experienceleague.adobe.com/qMXVcVWZJCrCNywOJF3psuO5vLWkNt9LoNtgFfFBzT8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 809
+source-wordcount: '809'
 ht-degree: 0%
-
 ---
-
 # 고객 이름 및 주소 옵션
 
 _이름 및 주소 옵션_&#x200B;은(는) 고객이 스토어로 [계정](../customers/account-create.md)을(를) 만들 때 이름 및 주소 양식에 포함할 필드를 결정합니다.
@@ -59,7 +71,7 @@ _이름 및 주소 옵션_&#x200B;은(는) 고객이 스토어로 [계정](../cu
 
    >[!INFO]
    >
-   >범위가 `Default Store View`(으)로 설정되어 있으면 _[!UICONTROL Name and Address Options]_&#x200B;섹션이 표시되지 않습니다.
+   >범위가 `Default Store View`(으)로 설정되어 있으면 _[!UICONTROL Name and Address Options]_섹션이 표시되지 않습니다.
 
    ![구성 범위](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 

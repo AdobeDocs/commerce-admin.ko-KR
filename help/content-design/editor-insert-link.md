@@ -2,14 +2,25 @@
 title: 편집기에 링크 삽입
 description: WYSIWYG 편집기를 사용하여 콘텐츠에 대한 링크를 추가합니다
 exl-id: c9930a4f-a082-4bd8-b0c4-9d86b59a2365
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '185'
 ht-degree: 0%
-
 ---
-
 # 편집기에 링크 삽입
 
 링크를 삽입하는 쉬운 방법은 [편집기](editor.md) 도구 모음에서 _링크_ 단추를 사용하는 것입니다. HTML에 대한 지식이 필요하지 않으며 결과도 동일합니다.
@@ -20,7 +31,7 @@ ht-degree: 0%
 
    ![편집기 도구 모음 - 링크 삽입](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
-   이 작업은 _[!UICONTROL Insert link]_&#x200B;대화 상자를 엽니다.
+   이 작업은 _[!UICONTROL Insert link]_대화 상자를 엽니다.
 
    ![편집기 - 링크 삽입 대화 상자](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 

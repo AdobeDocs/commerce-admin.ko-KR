@@ -3,29 +3,39 @@ title: UPS(United Parcel Service)
 description: UPS를 상점의 배송 운송업체로 설정하는 방법에 대해 알아보십시오.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/f612bfVAntUBDK-vzfM4OzI0tMgGblVcZ75gKaKfziQ
+TQID: 'https://experienceleague.adobe.com/f612bfVAntUBDK-vzfM4OzI0tMgGblVcZ75gKaKfziQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1008
+source-wordcount: '1025'
 ht-degree: 0%
-
 ---
-
 # UPS(United Parcel Service)
 
 United Parcel Service(UPS)는 220개 이상의 국가에 육로 및 항공으로 국내 및 국제 배송 서비스를 제공합니다.
@@ -72,12 +82,12 @@ UPS 통합을 사용하려면 [UPS API 시작 안내서](https://developer.ups.c
 
    - **[!UICONTROL Live Account]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Yes` - 프로덕션 모드에서 UPS를 실행하고 고객에게 배송 방법으로 UPS를 제공합니다. 게이트웨이 URL 및 추적 URL에서 올바른 끝점을 사용해야 합니다.
-      - `No` - 테스트 모드에서 UPS를 실행합니다. 게이트웨이 URL 및 추적 URL에서 올바른 끝점을 사용해야 합니다.
+     - `Yes` - 프로덕션 모드에서 UPS를 실행하고 고객에게 배송 방법으로 UPS를 제공합니다. 게이트웨이 URL 및 추적 URL에서 올바른 끝점을 사용해야 합니다.
+     - `No` - 테스트 모드에서 UPS를 실행합니다. 게이트웨이 URL 및 추적 URL에서 올바른 끝점을 사용해야 합니다.
 
    >[!NOTE]
    >
-   >표준 유나이티드 택배 서비스 유형은 사용이 중단될 예정입니다. 새 구성의 경우 기본 `United Parcel Service REST` 형식을 사용하십시오. [배송 레이블](shipping-labels.md).<br/>을 생성하는 데에도 REST 유형이 필요합니다.
+   >표준 유나이티드 택배 서비스 유형은 사용이 중단될 예정입니다. 새 구성의 경우 기본 `United Parcel Service REST` 형식을 사용하십시오. [배송 레이블](shipping-labels.md)을 생성하는 데에도 REST 형식이 필요합니다.<br/>
    >2.4.7 릴리스의 경우 `UPS` 및 `UPS XML` 형식이 사용 중지로 예약되어 있고 `UPS REST`이(가) 기본값이므로 **[!UICONTROL UPS Type]**&#x200B;이(가) 제거됩니다. 기본 Adobe Commerce 통합에서 사용하는 통합 택배 서비스(UPS) API는 현재 OAuth 2.0 보안 모델을 지원하지 않으므로 일시적으로 더 이상 사용되지 않습니다.
 
    >[!IMPORTANT]

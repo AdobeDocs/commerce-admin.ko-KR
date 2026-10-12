@@ -1,30 +1,41 @@
 ---
 title: 인벤토리 가져오기 및 내보내기
-description: 기본 카탈로그 데이터 전송 도구를 사용하여 SKU별로  [!DNL Inventory Management] 소스 할당 및 소스당 수량을 가져오고 내보냅니다.
+description: 기본 카탈로그 데이터 전송 도구를 사용하여 SKU별로 [!DNL Inventory Management] 원본 할당 및 원본당 수량을 가져오고 내보냅니다.
 exl-id: cb2d2e0d-aef8-4b18-b013-9a7b0ab448bd
 feature: Inventory, Data Import/Export
-TQID: https://experienceleague.adobe.com/TrH9Ncak4gPMh-4kejFF0NdCIzjT-xT5-M4eETSQ9FM
+TQID: 'https://experienceleague.adobe.com/TrH9Ncak4gPMh-4kejFF0NdCIzjT-xT5-M4eETSQ9FM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 510
+source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 # 인벤토리 가져오기 및 내보내기
 
 제품이 많은 카탈로그의 경우 확장된 [!DNL Inventory Management] 옵션과 함께 기본 가져오기 및 내보내기 기능을 사용하여 SKU별로 소스 및 수량을 업데이트하십시오. 이러한 옵션을 사용하여 신규 출처를 추가하고 모든 출처 또는 특정 출처에 대한 재고 수량을 갱신할 수 있습니다. 예를 들어 프랑스, 영국 또는 미국의 소스에 대한 제품 정보에 영향을 주지 않고 독일 소스에 대한 제품을 내보낼 수 있습니다.

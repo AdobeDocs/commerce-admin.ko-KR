@@ -3,7 +3,7 @@ title: 개별 고객 계정 만들기
 description: 방문자는 쉽게 개별 고객 계정을 만들어 구매를 관리할 수 있습니다.
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs
+TQID: 'https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -16,6 +16,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -33,7 +37,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9bd9d0a3b3c991236b98b464f8e2be2df37272ac
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 0%
@@ -144,7 +148,7 @@ ht-degree: 0%
 
    >[!INFO]
    >
-   >고객 계정이 저장되면 전체 옵션 세트가 왼쪽 패널과 페이지 상단의 메뉴에 나타납니다. _[!UICONTROL Customer View]_&#x200B;탭에는 계정의 요약이 표시됩니다.
+   >고객 계정이 저장되면 전체 옵션 세트가 왼쪽 패널과 페이지 상단의 메뉴에 나타납니다. _[!UICONTROL Customer View]_탭에는 계정의 요약이 표시됩니다.
 
    ![고객 보기](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -175,7 +179,7 @@ ht-degree: 0%
 
    그렇지 않으면 **[!UICONTROL Save and Continue Edit]**&#x200B;을(를) 클릭하고 이전 단계를 반복하여 주소를 추가합니다.
 
-   선택한 _[!UICONTROL Default Billing]_&#x200B;및_[!UICONTROL Default Shipping]_ 주소가 전체 목록 위에 있는 [!UICONTROL Addresses] 페이지에 새 주소가 표시됩니다.
+   선택한 _[!UICONTROL Default Billing]_및_[!UICONTROL Default Shipping]_ 주소가 전체 목록 위에 있는 [!UICONTROL Addresses] 페이지에 새 주소가 표시됩니다.
 
    ![주소 보기](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -185,7 +189,7 @@ ht-degree: 0%
 
 1. 표에서 새 고객 계정을 찾습니다.
 
-1. _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
 1. 페이지 상단의 메뉴 표시줄에서 **[!UICONTROL Reset Password]**&#x200B;을(를) 클릭합니다.
 
@@ -197,7 +201,7 @@ ht-degree: 0%
 
 | 단추 | 설명 |
 |--- |--- |
-| **[!UICONTROL Back]** | 변경 내용을 저장하지 않고 _[!UICONTROL Customers]_&#x200B;페이지로 돌아갑니다. |
+| **[!UICONTROL Back]** | 변경 내용을 저장하지 않고 _[!UICONTROL Customers]_페이지로 돌아갑니다. |
 | **[!UICONTROL Delete Customer]** | 현재 고객을 삭제합니다. 고객과 연관된 완료된 주문은 제거되지 않습니다. |
 | **[!UICONTROL Reset]** | 고객 양식에서 저장되지 않은 변경 사항을 이전 값으로 재설정합니다. |
 | **[!UICONTROL Create Order]** | 고객에 대한 주문을 생성합니다. |

@@ -3,28 +3,37 @@ title: 특별 가격
 description: 지정된 기간에 대해 특별 가격을 제공하는 방법에 대해 알아봅니다.
 exl-id: 4a1e2045-f0a8-4bae-a5a3-8ce8b258b217
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/j6DspCgn2P4-pHxXuOd-AiJCL0SBezxg-rn6yYmMIk8
+TQID: 'https://experienceleague.adobe.com/j6DspCgn2P4-pHxXuOd-AiJCL0SBezxg-rn6yYmMIk8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 855
+source-wordcount: '859'
 ht-degree: 0%
-
 ---
-
 # 특별 가격
 
 특별 가격은 지정된 기간 동안 제공될 수 있습니다. 지정된 기간 동안 정가 대신 특가가 나타나고, 이어서 정가를 나타내는 표기가 나온다.
@@ -65,7 +74,7 @@ Adobe Commerce에는 [예약된 업데이트](../content-design/content-staging-
 
    상점에서는 카탈로그 목록과 제품 페이지에 특별 가격이 표시됩니다.
 
-   _[!UICONTROL Scheduled Change]_&#x200B;이(가) 페이지 맨 위에 나타납니다.
+   _[!UICONTROL Scheduled Change]_이(가) 페이지 맨 위에 나타납니다.
 
    ![예약된 변경](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -77,11 +86,11 @@ Magento Open Source에는 Advanced Pricing 옵션에 간단한 시작 및 종료
 
 1. 제품을 편집 모드로 엽니다.
 
-1. _[!UICONTROL Price]_&#x200B;필드까지 아래로 스크롤하여&#x200B;**[!UICONTROL Advanced Pricing]**&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Special Price]**&#x200B;금액을 입력합니다.
+1. _[!UICONTROL Price]_필드까지 아래로 스크롤하여&#x200B;**[!UICONTROL Advanced Pricing]**을(를) 클릭하고&#x200B;**[!UICONTROL Special Price]**금액을 입력합니다.
 
 1. _달력_( ![달력 아이콘](../assets/icon-calendar.png)) 아이콘을 사용하여 특별 가격 프로모션의 **[!UICONTROL Start Date]** 및 **[!UICONTROL End Date]**&#x200B;을(를) 선택하십시오.
 
-   특가는 시작일(00:01) 시작 자정 직후부터 적용되며 종료일 전날 자정 직전(23:59)까지 계속됩니다.
+   특가는 시작일(00:01) 시작 자정 직후부터 적용되며 종료일 전날 자정 직전(23:59)까지 계속된다.
 
    ![예약된 변경](./assets/product-special-price-from-ce.png){width="600" zoomable="yes"}
 
@@ -99,7 +108,7 @@ Magento Open Source에는 Advanced Pricing 옵션에 간단한 시작 및 종료
 
 다음 예는 Adobe Commerce에서 구성 가능한 제품의 여러 제품 변형에 동일한 특별 가격을 할당하는 방법을 보여줍니다.
 
-1. _[!UICONTROL Products]_&#x200B;페이지에서&#x200B;**[!UICONTROL Filters]**&#x200B;을(를) 클릭하고 구성 가능한 제품의&#x200B;**[!UICONTROL Name]**&#x200B;을(를) 입력하십시오.
+1. _[!UICONTROL Products]_페이지에서&#x200B;**[!UICONTROL Filters]**을(를) 클릭하고 구성 가능한 제품의&#x200B;**[!UICONTROL Name]**을(를) 입력하십시오.
 
 1. **[!UICONTROL Type]**&#x200B;을(를) `Configurable Product`(으)로 설정하고 **[!UICONTROL Apply Filters]**&#x200B;을(를) 클릭합니다.
 
@@ -109,7 +118,7 @@ Magento Open Source에는 Advanced Pricing 옵션에 간단한 시작 및 종료
 
 1. **[!UICONTROL Actions]** 컨트롤을 `Update attributes`(으)로 설정합니다.
 
-1. _[!UICONTROL Special Price]_&#x200B;필드로 스크롤하여&#x200B;_[!UICONTROL Special Price]_ 필드 아래의 **[!UICONTROL Change]** 확인란을 선택하고 제공할 특별 가격을 입력합니다.
+1. _[!UICONTROL Special Price]_필드로 스크롤하여_[!UICONTROL Special Price]_ 필드 아래의 **[!UICONTROL Change]** 확인란을 선택하고 제공할 특별 가격을 입력합니다.
 
    ![특별 가격 필드](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 
@@ -147,11 +156,11 @@ Magento Open Source에는 Advanced Pricing 옵션에 간단한 시작 및 종료
 
 1. _[!UICONTROL Special Price]** 필드로 아래로 스크롤하여 다음을 수행합니다.
 
-   - _[!UICONTROL Special Price] **&#x200B; 필드 아래의 &#x200B;** [!UICONTROL Change]** 확인란을 선택하고 제공할 특별 가격을 입력합니다.
+   - _[!UICONTROL Special Price]** 필드 아래의 **[!UICONTROL Change]** 확인란을 선택하고 제공할 특별 가격을 입력합니다.
 
    - _다음 날짜부터 특별 가격_ 필드 아래에서 **[!UICONTROL Change]** 확인란을 선택하고 _일정_(![일정 아이콘](../assets/icon-calendar.png))을 클릭한 다음 특별 가격 프로모션의 첫 번째 날짜를 선택합니다.
 
-     특가는 시작일(00:01) 시작 자정 직후부터 적용되며 종료일 전날 자정 직전(23:59)까지 계속됩니다.
+     특가는 시작일(00:01) 시작 자정 직후부터 적용되며 종료일 전날 자정 직전(23:59)까지 계속된다.
 
    - _특가 누계_ 필드 아래에서 **[!UICONTROL Change]** 확인란을 선택하고 _달력_( ![달력 아이콘](../assets/icon-calendar.png))을 클릭한 다음 특가 프로모션의 마지막 날짜를 선택하십시오.
 

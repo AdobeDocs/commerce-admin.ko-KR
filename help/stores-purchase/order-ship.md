@@ -3,33 +3,42 @@ title: 주문 배송
 description: 처리 주문에 대한 배송 정보를 완료하고 배송 및 추적 정보를 조회하는 방법에 대해 알아봅니다.
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/w1MPvqsRVfsRwEcRB5uClGM3vnwAda3sOtkZzuLBKAA
+TQID: 'https://experienceleague.adobe.com/w1MPvqsRVfsRwEcRB5uClGM3vnwAda3sOtkZzuLBKAA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: '453'
 ht-degree: 0%
-
 ---
-
 # 주문 배송
 
 이미 지불되었지만 배송 대기 중인 주문의 상태는 `Processing`입니다. 출하 레코드에는 해당 주문과 연관된 이행 프로세스의 상세 내역이 포함됩니다. 주문이 이행될 때까지 부분 선적을 할 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Orders]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Orders]_&#x200B;목록에서 배송할 주문을 찾은 다음 클릭하여 엽니다.
+1. _[!UICONTROL Orders]_목록에서 배송할 주문을 찾은 다음 클릭하여 엽니다.
 
 1. 오른쪽 상단에서 **[!UICONTROL Ship]** 단추를 클릭합니다.
 
@@ -39,15 +48,15 @@ ht-degree: 0%
 
 1. 통신사가 배송 레이블을 생성하려면 **[!UICONTROL Create Shipping Label]** 확인란을 선택하고 옵션을 설정합니다.
 
-   - 추적 번호를 추가하려면 _[!UICONTROL Shipping Information]_&#x200B;섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Add Tracking Number]**&#x200B;을(를) 클릭합니다.
+   - 추적 번호를 추가하려면 _[!UICONTROL Shipping Information]_섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Add Tracking Number]**을(를) 클릭합니다.
 
    - 다음 중 하나를 수행합니다.
 
-      - **[!UICONTROL Carrier]**&#x200B;을(를) 선택하고 추적 **[!UICONTROL Number]**&#x200B;을(를) 입력하십시오.
+     - **[!UICONTROL Carrier]**&#x200B;을(를) 선택하고 추적 **[!UICONTROL Number]**&#x200B;을(를) 입력하십시오.
 
-      - **[!UICONTROL Carrier]**&#x200B;을(를) `Custom Value`(으)로 설정하고 사용자 지정 통신사에 대한 **[!UICONTROL Title]**&#x200B;을(를) 입력한 다음 추적 **[!UICONTROL Number]**&#x200B;을(를) 입력하십시오.
+     - **[!UICONTROL Carrier]**&#x200B;을(를) `Custom Value`(으)로 설정하고 사용자 지정 통신사에 대한 **[!UICONTROL Title]**&#x200B;을(를) 입력한 다음 추적 **[!UICONTROL Number]**&#x200B;을(를) 입력하십시오.
 
-      - [추적 정보 보기](#track-the-shipment).
+     - [추적 정보 보기](#track-the-shipment).
 
 1. 부분 선적을 하려면 Items to Ship 섹션으로 스크롤한 후 각 항목에 대해 **[!UICONTROL Qty to Ship]**&#x200B;을(를) 입력하십시오.
 
@@ -75,7 +84,7 @@ ht-degree: 0%
 
 1. 목록에서 납품을 찾은 다음 를 클릭하여 레코드를 엽니다.
 
-1. 주문에 주석을 추가하려면 _[!UICONTROL Comments History]_&#x200B;섹션까지 아래로 스크롤한 다음 상자에 설명을 입력하십시오.
+1. 주문에 주석을 추가하려면 _[!UICONTROL Comments History]_섹션까지 아래로 스크롤한 다음 상자에 설명을 입력하십시오.
 
    - 고객에게 전자 메일로 댓글을 보내려면 **[!UICONTROL Notify Customer by Email]** 확인란을 선택하십시오.
 
@@ -91,7 +100,7 @@ ht-degree: 0%
 
 1. 그리드에서 배달 주문을 찾은 다음 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Shipping & Handling Information]_&#x200B;섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Track Order]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Shipping & Handling Information]_섹션까지 아래로 스크롤한 다음&#x200B;**[!UICONTROL Track Order]**을(를) 클릭합니다.
 
    사용 가능한 모든 추적 정보가 팝업 창에 나타납니다.
 

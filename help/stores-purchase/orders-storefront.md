@@ -3,28 +3,37 @@ title: Storefront 주문 관리
 description: 고객이 Commerce 상점 첫 화면에서 주문 내역을 보고 관리하는 방법을 알아봅니다.
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
-TQID: https://experienceleague.adobe.com/FGexEy3ZXcnDUoHOiGc3B24ri2AuP4vX-vX7q3tcbRA
+TQID: 'https://experienceleague.adobe.com/FGexEy3ZXcnDUoHOiGc3B24ri2AuP4vX-vX7q3tcbRA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 753
+source-wordcount: '753'
 ht-degree: 0%
-
 ---
-
 # Storefront 주문 관리
 
 고객은 계정에서 모든 주문에 액세스할 수 있습니다. 주문을 새 주문으로 보고, 필터링하고, 추적하고, 다시 제출할 수 있습니다. 주문 상태에 따라 고객은 주문, 송장, 선적 및 환불 레코드를 인쇄할 수 있습니다.
@@ -33,7 +42,7 @@ ht-degree: 0%
 
 {{b2b-feature}}
 
-초기 _[!UICONTROL My Orders]_&#x200B;결과에는 상거래 인스턴스 내 모든 웹 사이트에서 보낸 하위 사용자의 일치하는 주문도 포함되어 있습니다. 회사 계정과 연결된 고객은 주문 목록을 필터링하여 결과 내에서 레코드를 빠르게 찾을 수 있습니다. 필터 옵션을 표시하기 위해 고객이&#x200B;**[!UICONTROL Filter]**&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Close]**&#x200B;을(를) 클릭하여 필터를 숨깁니다.
+초기 _[!UICONTROL My Orders]_결과에는 상거래 인스턴스 내 모든 웹 사이트에서 보낸 하위 사용자의 일치하는 주문도 포함되어 있습니다. 회사 계정과 연결된 고객은 주문 목록을 필터링하여 결과 내에서 레코드를 빠르게 찾을 수 있습니다. 필터 옵션을 표시하기 위해 고객이&#x200B;**[!UICONTROL Filter]**을(를) 클릭하고&#x200B;**[!UICONTROL Close]**을(를) 클릭하여 필터를 숨깁니다.
 
 ![내 주문](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -57,7 +66,7 @@ ht-degree: 0%
 
 주문 후 로그인한 고객의 사이드바와 **[!UICONTROL My Account]** 페이지에 **[!UICONTROL Recent Orders]** 블록이 표시됩니다. 지난번 구매한 제품 5개를 표시합니다.
 
-고객이 제품을 선택하고 **[!UICONTROL Add to Cart]**&#x200B;을(를) 클릭하여 장바구니에 제품을 읽을 수 있습니다. **[!UICONTROL View all]**&#x200B;을(를) 클릭하여 _[!UICONTROL My Account]_&#x200B;페이지 및&#x200B;**[!UICONTROL Recent Orders]**&#x200B;블록으로 리디렉션하는 마지막 순서를 볼 수도 있습니다.
+고객이 제품을 선택하고 **[!UICONTROL Add to Cart]**&#x200B;을(를) 클릭하여 장바구니에 제품을 읽을 수 있습니다. **[!UICONTROL View all]**&#x200B;을(를) 클릭하여 _[!UICONTROL My Account]_페이지 및&#x200B;**[!UICONTROL Recent Orders]**블록으로 리디렉션하는 마지막 순서를 볼 수도 있습니다.
 
 ### 인쇄 순서
 
@@ -118,7 +127,7 @@ ht-degree: 0%
 
 ## 재주문
 
-_[!UICONTROL Reorder]_&#x200B;링크는&#x200B;_[!UICONTROL View]_ 링크 근처에 있는 주문과 함께 목록에 표시됩니다.
+_[!UICONTROL Reorder]_링크는_[!UICONTROL View]_ 링크 근처에 있는 주문과 함께 목록에 표시됩니다.
 
 ![내 주문 페이지에서 링크 순서 바꾸기](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
@@ -132,7 +141,7 @@ _[!UICONTROL Reorder]_&#x200B;링크는&#x200B;_[!UICONTROL View]_ 링크 근처
 >
 >`Not Visible Individually` 제품의 순서를 변경할 수 있습니다.
 
-_[!UICONTROL Reorder]_&#x200B;링크가&#x200B;_[!UICONTROL My Orders]_ 및 _[!UICONTROL View Order]_&#x200B;페이지에 표시되지 않습니다.
+_[!UICONTROL Reorder]_링크가_[!UICONTROL My Orders]_ 및 _[!UICONTROL View Order]_페이지에 표시되지 않습니다.
 
 ![내 주문 페이지](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
@@ -150,7 +159,7 @@ _[!UICONTROL Reorder]_&#x200B;링크가&#x200B;_[!UICONTROL My Orders]_ 및 _[!U
 - 주문 보기 페이지
 - 내 계정 페이지
 
-_[!UICONTROL Cancel Order]_&#x200B;링크가&#x200B;_[!UICONTROL Reorder]_ 링크 근처에 표시됩니다. 주문을 취소할 수 없는 경우 링크가 표시되지 않습니다.
+_[!UICONTROL Cancel Order]_링크가_[!UICONTROL Reorder]_ 링크 근처에 표시됩니다. 주문을 취소할 수 없는 경우 링크가 표시되지 않습니다.
 
 ![내 주문 페이지에서 링크 취소](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
@@ -168,7 +177,7 @@ _[!UICONTROL Cancel Order]_&#x200B;링크가&#x200B;_[!UICONTROL Reorder]_ 링�
 
    ![내 주문 페이지에서 취소](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   취소 후 _[!UICONTROL Pending]_&#x200B;상태의 주문이&#x200B;_[!UICONTROL Canceled]_ 상태로 변경되고, _[!UICONTROL Processing]_&#x200B;상태의 주문이&#x200B;_[!UICONTROL Closed]_ 상태로 변경되고, 환불이 처리됩니다.
+   취소 후 _[!UICONTROL Pending]_상태의 주문이_[!UICONTROL Canceled]_ 상태로 변경되고, _[!UICONTROL Processing]_상태의 주문이_[!UICONTROL Closed]_ 상태로 변경되고, 환불이 처리됩니다.
 
    취소가 완료되면 고객에게 이메일이 전송됩니다.
 

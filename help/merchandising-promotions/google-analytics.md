@@ -1,36 +1,53 @@
 ---
 title: '[!DNL Google Analytics]'
-description: ' [!DNL Google Analytics] 을(를) 사용하여 Commerce 사이트에 유용한 지표를 수집하는 방법을 알아봅니다.'
+description: '[!DNL Google Analytics]을(를) 사용하여 Commerce 사이트에 유용한 지표를 수집하는 방법을 알아봅니다.'
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
-TQID: https://experienceleague.adobe.com/3YXwPB-1yDciblELQDGHXfnv1hwPJAW4Us0iG6vCf0k
+TQID: 'https://experienceleague.adobe.com/3YXwPB-1yDciblELQDGHXfnv1hwPJAW4Us0iG6vCf0k'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Analytics]
 
 [!DNL Google Analytics]은(는) 오프라인 및 모바일 앱 상호 작용을 지원하고 진행 중인 업데이트에 액세스하여 추적을 위한 추가 사용자 지정 차원 및 지표를 정의할 수 있는 기능을 제공합니다. [!DNL Google Analytics] 4는 Google의 차세대 측정 솔루션이며 [!DNL Universal Analytics]을(를) 대체합니다. 2023년 7월 1일에 표준 Universal Analytics 속성은 새 히트 처리를 중지합니다.
@@ -52,7 +69,7 @@ ht-degree: 0%
 사이트에 대한 [!DNL Google Analytics] 4 설정이 없는 경우 다음 방법 중 하나를 따르십시오.
 
 - [처음으로 Analytics 데이터 수집 설정](https://support.google.com/analytics/answer/9304153)
-- [&#x200B; [!DNL Universal Analytics]이(가) 있는 사이트에 Google Analytics 4 추가](https://support.google.com/analytics/answer/9744165)
+- [ [!DNL Universal Analytics]이(가) 있는 사이트에 Google Analytics 4 추가](https://support.google.com/analytics/answer/9744165)
 
 ### 2단계: Commerce 구성 완료
 

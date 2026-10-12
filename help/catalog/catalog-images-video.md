@@ -3,31 +3,43 @@ title: 카탈로그 이미지 및 비디오
 description: 디지털 미디어를 사용하여 카탈로그 제품 페이지를 개선하고 고객에게 시각화를 제공하는 방법에 대해 알아봅니다.
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
-TQID: https://experienceleague.adobe.com/EfPHXDn5-MioWq2McJoLx-1WLIOhhRrAYvM-9vrb-cg
+TQID: 'https://experienceleague.adobe.com/EfPHXDn5-MioWq2McJoLx-1WLIOhhRrAYvM-9vrb-cg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # 카탈로그 이미지 및 비디오
 
 일관된 비율의 고품질 이미지를 사용하면 상업적 매력과 함께 전문적인 모습을 카탈로그에 제공합니다. 제품당 여러 개의 이미지가 포함된 대형 카탈로그가 있는 경우 관리할 제품 이미지가 수천 개가 아니더라도 수백 개를 쉽게 가질 수 있습니다. 시작하기 전에 이미지 파일에 대한 이름 지정 규칙을 설정하고 원본이 필요한 경우 찾을 수 있도록 구성합니다.
@@ -56,5 +68,5 @@ ht-degree: 0%
 
 이미지 및 비디오 문제를 해결하는 데 대한 도움말을 보려면 다음 Commerce 지원 기술 문서를 참조하십시오.
 
-- [제품 편집 이미지 역할에도 불구하고 제품 이미지가 표시되지 않음](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26859)
-- [배포 후 표시되지 않는 이미지 저장](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)
+- [제품 편집 이미지 역할에도 불구하고 제품 이미지가 표시되지 않음](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26859)
+- [배포 후 표시되지 않는 이미지 저장](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment)

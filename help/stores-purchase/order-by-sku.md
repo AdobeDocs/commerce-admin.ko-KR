@@ -3,28 +3,37 @@ title: SKU별 주문
 description: SKU를 통한 고객 맞춤 오더를 지원하도록 스토어를 구성하는 방법에 대해 알아봅니다.
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
-TQID: https://experienceleague.adobe.com/zMI6ElJA6t8IL8tRqYAPvM7YwCdTCC-u-BVWMV0ZmWQ
+TQID: 'https://experienceleague.adobe.com/zMI6ElJA6t8IL8tRqYAPvM7YwCdTCC-u-BVWMV0ZmWQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 592
+source-wordcount: '592'
 ht-degree: 0%
-
 ---
-
 # SKU별 주문
 
 {{ee-feature}}
@@ -58,11 +67,11 @@ _Order by SKU_&#x200B;은(는) 모든 쇼핑객에게 편리하도록 스토어�
 
 1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
-![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B만 해당) _&#x200B;**SKU별 주문 기능을 사용하려면 빠른 주문 기능을 사용하지 않도록 설정하십시오.**&#x200B;_
+![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B만 해당) _**SKU별 주문 기능을 사용하려면 빠른 주문 기능을 사용하지 않도록 설정하십시오.**_
 
 1. **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL B2B Features]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL B2B Features]**을(를) 선택합니다.
 
 1. **[!UICONTROL B2B Features]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -90,7 +99,7 @@ _Order by SKU_&#x200B;은(는) 모든 쇼핑객에게 편리하도록 스토어�
 
 1. 환경 설정에 따라 개별 항목을 추가합니다.
 
-   _&#x200B;**SKU별로 각 항목 추가:**&#x200B;_
+   _**SKU별로 각 항목 추가:**_
 
    - 주문할 항목의 **[!UICONTROL SKU]** 및 **[!UICONTROL Qty]**&#x200B;을(를) 입력합니다.
 
@@ -98,7 +107,7 @@ _Order by SKU_&#x200B;은(는) 모든 쇼핑객에게 편리하도록 스토어�
 
    - **[!UICONTROL Add to Cart]**&#x200B;을(를) 클릭합니다.
 
-   _&#x200B;**여러 항목의 CSV 파일을 업로드합니다.**&#x200B;_
+   _**여러 항목의 CSV 파일을 업로드합니다.**_
 
    - `SKU` 및 `Qty`에 대한 열이 포함된 [데이터 가져오기 CSV](../systems/data-csv.md)(쉼표로 구분된 값) 파일을 준비합니다.
 

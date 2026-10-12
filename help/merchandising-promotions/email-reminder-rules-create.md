@@ -3,26 +3,37 @@ title: 이메일 미리 알림 만들기
 description: 기존 장바구니 가격 규칙을 사용하는 이메일 미리 알림 규칙을 설정하는 방법을 알아봅니다.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-TQID: https://experienceleague.adobe.com/p7WUWpQFlu2gUeyTU6ZrIHkRJzw8XTp2Mxkvi9Vu-eU
+TQID: 'https://experienceleague.adobe.com/p7WUWpQFlu2gUeyTU6ZrIHkRJzw8XTp2Mxkvi9Vu-eU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1035
+source-wordcount: '1035'
 ht-degree: 0%
-
 ---
-
 # 이메일 미리 알림 만들기
 
 이메일 미리 알림 규칙을 설정하기 전에 먼저 [장바구니 가격 규칙을 설정](price-rules-cart-create.md)하여 제공되는 프로모션을 정의해야 합니다. 이메일 미리 알림을 트리거하는 규칙 조건은 장바구니 속성, 위시리스트 속성 또는 둘 다를 기반으로 할 수 있습니다.
@@ -35,7 +46,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단에서 **[!UICONTROL Add New Rule]**&#x200B;을(를) 클릭합니다.
 
-1. 다음과 같이 _[!UICONTROL Rule Information]_&#x200B;을(를) 완료합니다.
+1. 다음과 같이 _[!UICONTROL Rule Information]_을(를) 완료합니다.
 
    ![전자 메일 미리 알림 규칙](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -68,9 +79,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >고객에게 일치하는 포기한 장바구니, 위시리스트 또는 두 가지 조합을 두 개 이상 보유한 경우, 이메일 미리 알림은 해당 고객에 대해 한 번만 트리거됩니다. 동일한 이메일 미리 알림을 다시 트리거하려면 _[!UICONTROL Repeat Schedule]_&#x200B;필드를 사용하여 이메일 간격(일)을 설정하십시오. <br/>
+   >고객에게 일치하는 포기한 장바구니, 위시리스트 또는 두 가지 조합을 두 개 이상 보유한 경우, 이메일 미리 알림은 해당 고객에 대해 한 번만 트리거됩니다. 동일한 이메일 미리 알림을 다시 트리거하려면 _[!UICONTROL Repeat Schedule]_필드를 사용하여 이메일 간격(일)을 설정하십시오. <br/>
    >
-   >_[!UICONTROL Repeat Schedule]_&#x200B;기간이 끝난&#x200B;**_신규_**&#x200B;포기한 장바구니 및 희망 목록&#x200B;**_이후_**&#x200B;에 대해 동일한 고객에 대해 동일한 이메일 미리 알림이&#x200B;**_다시 시도되지 않음_**&#x200B;입니다.
+   >_[!UICONTROL Repeat Schedule]_기간이 끝난&#x200B;**_신규_**포기한 장바구니 및 희망 목록&#x200B;**_이후_**에 대해 동일한 고객에 대해 동일한 이메일 미리 알림이&#x200B;**_다시 시도되지 않음_**입니다.
    >
    >Adobe Commerce as a Cloud Service에는 단일 규칙을 여러 번 적용할 수 있는 실험 기능이 있습니다. 자세한 내용은 [규칙 반복성](#rule-repeatability)을 참조하십시오.
 
@@ -80,7 +91,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL Emails and Labels]**&#x200B;을(를) 선택합니다.
 
-   ![전자 메일 미리 알림 규칙 - 전자 메일 및 레이블 템플릿 &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![전자 메일 미리 알림 규칙 - 전자 메일 및 레이블 템플릿 ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL Email Templates]** 섹션에서 [스토어 계층 구조](../getting-started/websites-stores-views.md)의 각 웹 사이트 및 스토어 보기에 사용할 전자 메일 템플릿을 선택합니다.
 
@@ -98,7 +109,7 @@ ht-degree: 0%
 
      ![전자 메일 미리 알림 - 제목 및 설명](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - _[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;섹션에서_&#x200B;기본 저장소 보기&#x200B;_에 대한&#x200B;**[!UICONTROL Rule Title]**&#x200B;및&#x200B;**[!UICONTROL Description]**&#x200B;을(를) 입력하십시오. 여러 스토어 조회수의 경우 각각에 대해 적절한 제목과 설명을 입력합니다.
+   - _[!UICONTROL Titles and Descriptions Per Store View]_섹션에서_&#x200B;기본 저장소 보기&#x200B;_에 대한&#x200B;**[!UICONTROL Rule Title]**및&#x200B;**[!UICONTROL Description]**을(를) 입력하십시오. 여러 스토어 조회수의 경우 각각에 대해 적절한 제목과 설명을 입력합니다.
 
      >[!NOTE]
      >
@@ -106,7 +117,7 @@ ht-degree: 0%
 
      ![제목 및 설명 - 스토어 보기](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} [!DNL Adobe Commerce as a Cloud Service]을(를) 사용하는 경우 [!UICONTROL Rule Repeatability] 확인란을 선택하여 [규칙 반복 기능](#rule-repeatability)을 사용하도록 설정할 수 있습니다.
+1. [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} [!DNL Adobe Commerce as a Cloud Service]을(를) 사용하는 경우 [!UICONTROL Rule Repeatability] 확인란을 선택하여 [규칙 반복 기능](#rule-repeatability)을 사용하도록 설정할 수 있습니다.
 
    >[!IMPORTANT]
    >
@@ -116,7 +127,7 @@ ht-degree: 0%
 
 ## 규칙 반복 가능성
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 >[!IMPORTANT]
 >

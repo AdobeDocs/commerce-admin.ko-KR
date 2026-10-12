@@ -3,32 +3,46 @@ title: 카탈로그 및 제품 URL
 description: 카탈로그 제품의 URL 형식 유형 및 구성 방법에 대해 알아봅니다.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-TQID: https://experienceleague.adobe.com/Lf7Xh4w-rI-o-S1HEqM7nJZWuYGhOsB2ZccDg7Hb-3w
+TQID: 'https://experienceleague.adobe.com/Lf7Xh4w-rI-o-S1HEqM7nJZWuYGhOsB2ZccDg7Hb-3w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # 카탈로그 및 제품 URL
 
 제품 및 범주에 할당하는 URL은 검색 엔진이 사이트를 얼마나 잘 색인화하는지 결정하는 데 중요한 역할을 합니다. 카탈로그 작성을 시작하기 전에 사용 가능한 옵션을 고려하십시오. 현재 URL 형식을 보려면 상점으로 이동하여 카탈로그에 있는 제품으로 이동하십시오. URL의 형식은 페이지를 찾는 데 사용하는 현재 구성 설정 및 메서드에 따라 다릅니다.
@@ -56,7 +70,7 @@ URL 키는 제품 또는 범주를 설명하는 정적 URL의 일부입니다. �
 
 >[!NOTE]
 >
->기본적으로, 악센트 부호가 있는 특수 문자는 URL 키에서 악센트 부호가 없는 일반 버전으로 자동 대체됩니다. 예를 들어 `ñ`은(는) `n`(으)로 자동 교체됩니다. _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_&#x200B;구성 옵션을 `No`(으)로 설정하여 이 동작을 비활성화할 수 있습니다. [카탈로그 URL 구성](#configure-catalog-urls)을 참조하세요.
+>기본적으로, 악센트 부호가 있는 특수 문자는 URL 키에서 악센트 부호가 없는 일반 버전으로 자동 대체됩니다. 예를 들어 `ñ`은(는) `n`(으)로 자동 교체됩니다. _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_구성 옵션을 `No`(으)로 설정하여 이 동작을 비활성화할 수 있습니다. [카탈로그 URL 구성](#configure-catalog-urls)을 참조하세요.
 
 URL 키는 단어를 구분하기 위해 문자 사이에 하이픈이 아닌 소문자로 구성되어야 합니다. URL 키의 시작 또는 끝에는 하이픈을 사용할 수 없습니다. 잘 설계된 &quot;검색 엔진 친화적&quot; URL 키에는 제품 이름과 주요 단어가 포함되어 검색 엔진에서 색인화되는 방식을 개선할 수 있습니다. URL 키가 변경되는 경우 자동 리디렉션을 만들도록 URL 키를 구성할 수 있습니다.
 
@@ -132,7 +146,7 @@ URL 키는 단어를 구분하기 위해 문자 사이에 하이픈이 아닌 �
 | 필드 | [범위](../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | 글로벌 | 웹 서버 재쓰기가 활성화된 경우 이 설정을 활성화하면 현재 보기의 스토어 코드가 URL에 삽입됩니다. 옵션: `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | 글로벌 | (단일 스토어 설정의 경우) 사이트에 끊어진 링크가 있으면 이 링크가 트래픽을 &quot;404 페이지를 찾을 수 없음&quot; 메시지가 있는 페이지가 아닌 기본 URL로 리디렉션합니다. 옵션: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_중요!_**&#x200B;다중 스토어 설정에 기본 URL로 자동 리디렉션을 사용하지 마십시오. |
+| [!UICONTROL Auto-redirect to Base URL] | 글로벌 | (단일 스토어 설정의 경우) 사이트에 끊어진 링크가 있으면 이 링크가 트래픽을 &quot;404 페이지를 찾을 수 없음&quot; 메시지가 있는 페이지가 아닌 기본 URL로 리디렉션합니다. 옵션: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_중요!_**다중 스토어 설정에 기본 URL로 자동 리디렉션을 사용하지 마십시오. |
 | [!UICONTROL Catalog media URL format] | 글로벌 | 제품 및 범주에 할당된 URL 형식을 정의합니다. 옵션: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- 변환된 파일 이름을 고유한 해시 값으로 정의합니다.<br />**[!UICONTROL Image optimization based on query parameters]** - 쿼리 매개 변수에 따라 [이미지 최적화](../content-design/media-gallery-image-optimization.md) 프로세스를 정의합니다. |
 
 {style="table-layout:auto"}

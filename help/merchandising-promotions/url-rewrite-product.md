@@ -3,31 +3,42 @@ title: 제품 URL 재작성
 description: 제품 URL 재작성을 사용하여 링크를 Commerce 스토어에 있는 다른 제품의 URL로 리디렉션하는 방법에 대해 알아봅니다.
 exl-id: 42b28ff7-e148-44f2-b6b4-63a38458e752
 feature: Products, Configuration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/Gf-FKoKTnWSHVNB2EsutTTQEc7KL-sL3z8LklPF-1Z8
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: 'https://experienceleague.adobe.com/Gf-FKoKTnWSHVNB2EsutTTQEc7KL-sL3z8LklPF-1Z8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 911
+source-wordcount: '911'
 ht-degree: 0%
-
 ---
-
 # 제품 URL 재작성
 
 시작하기 전에 리디렉션에서 수행할 작업을 정확히 이해했는지 확인하십시오. _target_ / _원래 요청_ 또는 _리디렉션 대상_ / _리디렉션 대상_&#x200B;을 고려하십시오. 사람들이 검색 엔진 또는 오래된 링크에서 이전 페이지로 계속 이동할 수 있지만 리디렉션으로 인해 저장소가 새 대상으로 전환됩니다.
@@ -94,8 +105,8 @@ ht-degree: 0%
 
    - **[!UICONTROL Redirect Type]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Temporary (302)`
-      - `Permanent (301)`
+     - `Temporary (302)`
+     - `Permanent (301)`
 
    - 참조를 위해 간단한 **[!UICONTROL Description]**&#x200B;의 다시 작성을 입력하십시오.
 
@@ -141,11 +152,11 @@ ht-degree: 0%
 
 1. URL 재작성을 업데이트할 모든 제품을 선택합니다.
 
-1. _[!UICONTROL Actions]_&#x200B;에서&#x200B;**[!UICONTROL Update attributes]**&#x200B;을(를) 선택하여 여러 번 또는 모든 다시 쓰기를 업데이트합니다.
+1. _[!UICONTROL Actions]_에서&#x200B;**[!UICONTROL Update attributes]**을(를) 선택하여 여러 번 또는 모든 다시 쓰기를 업데이트합니다.
 
-1. _[!UICONTROL PRODUCTS INFORMATION]_&#x200B;에서&#x200B;**[!UICONTROL Websites]**&#x200B;탭을 클릭합니다.
+1. _[!UICONTROL PRODUCTS INFORMATION]_에서&#x200B;**[!UICONTROL Websites]**탭을 클릭합니다.
 
-1. _[!UICONTROL Add Product To Websites]_&#x200B;섹션에서 URL 재작성을 복원할 모든 웹 사이트를 선택합니다.
+1. _[!UICONTROL Add Product To Websites]_섹션에서 URL 재작성을 복원할 모든 웹 사이트를 선택합니다.
 
 1. 업데이트할 준비가 되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 

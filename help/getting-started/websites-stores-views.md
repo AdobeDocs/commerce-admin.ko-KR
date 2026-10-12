@@ -3,34 +3,44 @@ title: 사이트, 스토어 및 보기 범위
 description: 고객을 위한 쇼핑 경험을 전달하는 데 사용할 수 있는 웹 사이트, 스토어 및 스토어 조회수의 계층 구조에 대해 알아봅니다.
 exl-id: 80fc1b73-c869-4f1c-b1a1-d61823b91d83
 feature: System, Site Management
-TQID: https://experienceleague.adobe.com/S8E0BsK2lZqb82QMhyXOIEVUrXWy1X2h943tvF3sMzM
+TQID: 'https://experienceleague.adobe.com/S8E0BsK2lZqb82QMhyXOIEVUrXWy1X2h943tvF3sMzM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 688
+source-wordcount: '688'
 ht-degree: 0%
-
 ---
-
 # 사이트, 스토어 및 보기 범위
 
 모든 Adobe Commerce 및 Magento Open Source 설치에는 웹 사이트, 스토어 및 스토어 조회수의 [계층](../stores-purchase/stores.md)이 있습니다. _범위_&#x200B;라는 용어는 계층 구조에서 제품, 특성 또는 범주와 같은 데이터베이스 엔터티의 콘텐츠 요소 또는 구성 설정이 적용되는 위치를 결정합니다. 웹 사이트, 스토어 및 스토어 보기에는 일대다 상위/하위 관계가 있습니다. 단일 설치에는 여러 웹 사이트가 있을 수 있으며 각 웹 사이트에는 여러 스토어와 스토어 보기가 있을 수 있습니다.
 
 >[!NOTE]
 >
->자세한 내용은 [!DNL Commerce] 개발자 설명서에서 [여러 웹 사이트 또는 스토어](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)를 참조하십시오.
+>자세한 내용은 [!DNL Commerce] 개발자 설명서에서 [여러 웹 사이트 또는 스토어](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview)를 참조하십시오.
 
 ## 웹 사이트
 

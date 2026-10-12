@@ -3,31 +3,42 @@ title: 부가가치세(VAT)
 description: Adobe Commerce에서 판매자 또는 고객 주소 규칙을 사용하여 부가가치세(VAT)를 계산하는 방법과 제품 또는 서비스별로 다양한 VAT 세율을 적용하는 방법을 알아봅니다.
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
-TQID: https://experienceleague.adobe.com/CEUmSPDUdWxMGWRC4bXjSsBfuYJqkPNYtVx-mqxt1-M
+TQID: 'https://experienceleague.adobe.com/CEUmSPDUdWxMGWRC4bXjSsBfuYJqkPNYtVx-mqxt1-M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 94887844ffd577c59b571fafe6816f562dfcab47
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2042
+source-wordcount: '2042'
 ht-degree: 0%
-
 ---
-
 # 부가가치세(VAT)
 
 일부 국가에서는 재화와 용역에 대해 부가가치세 또는 부가가치세를 부과하고 있다. 고객에게 판매하는 제조 또는 유통 과정, 재료 또는 서비스의 단계에 따라 부가가치세 세율이 다를 수 있습니다. 납부세액을 정확하게 계산하기 위해 둘 이상의 VAT 세율을 적용할 수 있습니다.
@@ -219,7 +230,7 @@ VAT ID 유효성 검사가 활성화된 경우 등록 후 각 고객은 VAT ID �
 
 고객이 VAT 번호 및 기타 주소 필드를 지정하고 저장을 선택하면 시스템이 주소를 저장하고 VAT ID 유효성 검사 요청을 유럽 위원회 서버로 전송합니다. 검증 결과에 따라 기본 그룹 중 하나가 고객에게 지정됩니다. 고객 또는 관리자가 기본 주소의 VAT ID를 변경하거나 전체 기본 주소를 변경하는 경우 이 그룹을 변경할 수 있습니다. 경우에 따라 한 페이지 체크아웃 중에 그룹을 일시적으로 변경할 수 있습니다(그룹 변경이 에뮬레이트됨).
 
-활성화된 경우 _[!UICONTROL Customer Information]_&#x200B;페이지에서 확인란을 선택하여 개별 고객에 대한 VAT ID 유효성 검사를 재정의할 수 있습니다.
+활성화된 경우 _[!UICONTROL Customer Information]_페이지에서 확인란을 선택하여 개별 고객에 대한 VAT ID 유효성 검사를 재정의할 수 있습니다.
 
 ### 체크아웃 워크플로우
 

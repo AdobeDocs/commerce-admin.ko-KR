@@ -3,27 +3,35 @@ title: 세금
 description: 로케일의 요구 사항에 따라 세금을 계산하도록 스토어를 구성하는 방법에 대해 알아봅니다.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-TQID: https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk
+TQID: 'https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1129
+source-wordcount: '1129'
 ht-degree: 0%
-
 ---
-
 # 세금
 
 로케일의 요구 사항에 따라 세금을 계산하도록 스토어를 구성합니다. 제품 및 고객 그룹에 대해 [세금 클래스](tax-class.md)를 설정하고 제품 및 고객 클래스, 세금 구역 및 세율을 결합하는 [세금 규칙](tax-rules.md)을 만들 수 있습니다. Commerce은 고정 제품 세금, 복합 세금 및 국제 경계의 가격에 대한 표시에 대한 구성 설정도 제공합니다. [부가가치세](vat.md)를 징수해야 하는 경우, 유효성 검사를 통해 적절한 금액을 자동으로 계산하도록 스토어를 설정할 수 있습니다.
@@ -32,7 +40,7 @@ ht-degree: 0%
 >
 >Adobe Commerce 및 Magento Open Source 릴리스 2.4.0 - 2.4.3에는 세금 관리 및 주소 정리를 제공하기 위해 Vertex Cloud와 통합하는 데 사용되는 Vertex 공급업체가 개발한 확장 프로그램이 포함되어 있습니다. 2.4.4 릴리스부터 이 확장은 더 이상 핵심 릴리스와 번들로 제공되지 않으며 Commerce Marketplace 또는 공급업체에서 직접 설치하고 업데이트해야 합니다. 확장 및 설명서에 대한 자세한 내용은 [Vertex에 문의](https://marketplace.magento.com/partner/vertex_inc)하십시오.<br><br>
 >
->번들 확장을 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. _업그레이드 안내서_&#x200B;에서 [업그레이드 모듈](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/modules/upgrade)을 참조하세요.
+>번들 확장을 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. _업그레이드 안내서_&#x200B;에서 [업그레이드 모듈](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)을 참조하세요.
 
 ## 빠른 참조
 
@@ -103,7 +111,7 @@ ht-degree: 0%
 - 고객의 배송주소와 성공적 결제 거래 기록을 활용하여 고객의 거주지를 설정할 수 있다. (배송 주소가 결제 제공업체 정보와 일치하는 경우에만 결제가 수락됩니다.)
 - Commerce 데이터베이스 테이블의 데이터 저장소에서 직접 정보를 캡처할 수도 있습니다.
 
-_&#x200B;**디지털 상품 세금 정보를 수집하려면:**&#x200B;_
+_**디지털 상품 세금 정보를 수집하려면:**_
 
 1. 모든 EU 회원국에 대한 세율을 로드합니다.
 

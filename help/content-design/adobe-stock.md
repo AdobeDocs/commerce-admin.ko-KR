@@ -1,30 +1,42 @@
 ---
 title: Adobe Stock 통합
-description: Adobe Stock을  [!DNL Commerce] 인스턴스와 통합하여 스토어에서 사용할 수 있는 수많은 미디어 자산에 액세스합니다.
+description: Adobe Stock을 [!DNL Commerce] 인스턴스와 통합하여 스토어에서 사용할 수 있는 수많은 미디어 자산에 액세스합니다.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/VwiTbOAj5V8s7OWtkq5hfoP4LcvNLPR9QaKStaCdArs
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: 'https://experienceleague.adobe.com/VwiTbOAj5V8s7OWtkq5hfoP4LcvNLPR9QaKStaCdArs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 427
+source-wordcount: '428'
 ht-degree: 0%
-
 ---
-
 # Adobe Stock 통합
 
 스토어에서 사용할 수 있는 수많은 미디어 자산에 액세스하려면 [Adobe Stock](https://stock.adobe.com)을(를) [!UICONTROL Commerce]과(와) 통합하십시오.
@@ -42,7 +54,7 @@ Adobe Stock 서비스는 기업에게 모든 광고 프로젝트를 위해 고�
 
 Adobe Stock 이미지에 라이선스를 부여하려면 다음 작업을 수행하십시오.
 
-- [Adobe 계정](https://helpx.adobe.com/kr/manage-account/using/access-adobe-id-account.html)
+- [Adobe 계정](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
 - 계정과 연결된 유료 [Adobe Stock](https://stock.adobe.com) 플랜
 
 ## [!DNL Commerce]과(와) Adobe Stock 통합
@@ -56,9 +68,9 @@ Adobe Commerce에 대한 Adobe Stock 통합 구성은 두 단계 프로세스입
 
 1. [Adobe Developer Console](https://developer.adobe.com/console/home)&#x200B;(으)로 이동합니다.
 
-1. _[!UICONTROL Quick Start]_&#x200B;에서&#x200B;**[!UICONTROL Create new project]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Quick Start]_에서&#x200B;**[!UICONTROL Create new project]**을(를) 클릭합니다.
 
-1. _[!UICONTROL Project overview]_&#x200B;블록에서&#x200B;**[!UICONTROL Add API]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Project overview]_블록에서&#x200B;**[!UICONTROL Add API]**을(를) 클릭합니다.
 
 1. 통합 목록에서 **[!UICONTROL Adobe Stock]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 

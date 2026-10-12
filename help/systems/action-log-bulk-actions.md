@@ -3,28 +3,38 @@ title: 일괄 액션
 description: 대량 작업 로그를 구성하고 보는 방법에 대해 알아봅니다.
 exl-id: 3907d9ef-3592-4dbb-805f-97b79bafd8ab
 feature: Logs, Configuration
-TQID: https://experienceleague.adobe.com/hmZYwUcG-rgx--kG5RNE3xe38LWn7OM0rq2q7RC3xeQ
+TQID: 'https://experienceleague.adobe.com/hmZYwUcG-rgx--kG5RNE3xe38LWn7OM0rq2q7RC3xeQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: 3c398179-d35a-51ba-b317-6c5b95feef5e
+    internal-label: Logs
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: adab8959a614dc1a714ce53f390f2c1f70c27402
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 157
+source-wordcount: '157'
 ht-degree: 2%
-
 ---
-
 # 일괄 액션
 
 {{ee-feature}}
@@ -35,7 +45,7 @@ ht-degree: 2%
 
 ## 대량 작업 구성
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
@@ -57,4 +67,4 @@ ht-degree: 2%
 
 1. 로그에서 원하는 작업을 찾습니다.
 
-1. _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Details]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Details]**을(를) 클릭합니다.

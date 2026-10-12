@@ -3,29 +3,39 @@ title: 계층 가격
 description: 제품 목록 또는 제품 페이지에서 계층 가격을 사용하여 수량 할인을 제공하는 방법에 대해 알아봅니다.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM
+TQID: 'https://experienceleague.adobe.com/jnHBD-ANVzqZa1IKCAy5aDrtj4n-ZDxXjFH4cGZ3dgM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 892
+source-wordcount: '892'
 ht-degree: 1%
-
 ---
-
 # 계층 가격
 
 계층 가격을 사용하면 상점 첫 화면의 제품 목록 또는 제품 페이지에서 수량 할인을 제공할 수 있습니다. 특정 매장 보기, 고객 그룹 또는 공유 카탈로그에 할인을 적용할 수 있습니다.
@@ -44,9 +54,9 @@ ht-degree: 1%
 
 1. 제품을 편집 모드로 엽니다.
 
-1. _[!UICONTROL Price]_&#x200B;필드 아래에서&#x200B;**[!UICONTROL Advanced Pricing]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Price]_필드 아래에서&#x200B;**[!UICONTROL Advanced Pricing]**을(를) 클릭합니다.
 
-1. _[!UICONTROL Tier Price]_&#x200B;섹션에서&#x200B;**[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Tier Price]_섹션에서&#x200B;**[!UICONTROL Add]**을(를) 클릭합니다.
 
    여러 가격의 계층을 만드는 경우 각 추가 수준에 대해 **[!UICONTROL Add]**&#x200B;을(를) 클릭하면 모든 계층을 동시에 작업할 수 있습니다. 그룹의 각 계층에는 동일한 웹 사이트 및 고객 그룹 또는 공유 카탈로그 할당이 있지만 수량 및 가격은 다릅니다.
 
@@ -72,7 +82,7 @@ ht-degree: 1%
 
      >[!NOTE]
      >
-     >할인된 가격을 받으려면 _[!UICONTROL Special Price]_&#x200B;필드가 아닌&#x200B;_[!UICONTROL Price]_ 필드에 정의된 값에 대해 정의된 백분율이 계산됩니다.
+     >할인된 가격을 받으려면 _[!UICONTROL Special Price]_필드가 아닌_[!UICONTROL Price]_ 필드에 정의된 값에 대해 정의된 백분율이 계산됩니다.
 
      ![계층 가격(백분율)](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -92,7 +102,7 @@ ht-degree: 1%
 
 ## 카탈로그 가격 규칙에 대한 계층 가격 책정 활성화
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 이전 버전의 Commerce에서는 계층 가격을 카탈로그 가격 규칙과 함께 사용할 수 없었습니다. 카탈로그 규칙은 계층 가격 구성을 무시하고 원래 기본 가격에서 할인만 계산했습니다. 이제 Adobe Commerce as a Cloud Service을 사용하여 카탈로그 가격 규칙 계산에 계층 가격을 포함하도록 선택할 수 있습니다.
 
@@ -108,17 +118,17 @@ ht-degree: 1%
 
 단일 제품을 구매할 때 카탈로그 가격 규칙과 함께 계층 가격 책정이 작동하는 방식을 보여 주려면 다음 예를 고려하십시오.
 
-- 제품의 기준 가격은 미화 100달러입니다.
-- 수량 `1`, 고정 가격 90USD의 `Wholesale` 고객 그룹에 대해 계층 가격이 정의됩니다.
+- 제품의 기준 가격은 100 USD입니다.
+- 수량 `1`, 고정 가격 90 USD의 `Wholesale` 고객 그룹에 대해 계층 가격이 정의되어 있습니다.
 - 카탈로그 가격 규칙에서는 `Wholesale` 고객 그룹에 대해 10% 할인을 제공합니다.
 
 카탈로그 가격 규칙에 대해 계층 가격을 사용할 수 있는 경우, 시스템은 다음 플로우를 사용하여 최종 가격을 계산합니다.
 
-1. 고객이 로그인하기 전에 제품 가격이 100달러(표준 기준 가격)로 표시됩니다.
+1. 고객이 로그인하기 전에는 제품 가격이 100 USD(표준 기준 가격)로 표시됩니다.
 
-1. 고객이 `Wholesale` 그룹의 구성원으로 로그인하면 제품 가격이 90달러(`Wholesale` 그룹의 계층 가격)로 조정됩니다.
+1. 고객이 `Wholesale` 그룹의 구성원으로 로그인하면 제품 가격이 90 USD(`Wholesale` 그룹의 계층 가격)로 조정됩니다.
 
-1. 카탈로그 가격 규칙이 적용돼 티어 가격 90달러를 10% 할인해 최종 가격 81달러가 된다.
+1. 카탈로그 가격 룰이 적용돼 90USD 계층 가격에서 10% 할인이 가능해 최종 가격은 81USD이 된다.
 
 다음 테이블에서는 카탈로그 가격 규칙에 대해 계층 가격책정을 사용할 수 있고 카탈로그 가격 규칙이 모든 고객 그룹에 대해 10% 할인을 제공하는 경우의 가격 계산을 요약합니다.
 

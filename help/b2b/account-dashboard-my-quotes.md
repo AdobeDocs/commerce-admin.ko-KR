@@ -3,31 +3,47 @@ title: '[!UICONTROL My Quotes]'
 description: 계정 대시보드에서 사용할 수 있는 견적의 고객 환경에 대해 알아봅니다.
 exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 feature: B2B, Companies, Quotes
-TQID: https://experienceleague.adobe.com/GaasaCrnKreiLSyt2QJp8rffloiC0LJ0-bvdZZ8F5aQ
+TQID: 'https://experienceleague.adobe.com/GaasaCrnKreiLSyt2QJp8rffloiC0LJ0-bvdZZ8F5aQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1221
+source-wordcount: '1221'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL My Quotes]
 
-견적이 활성화되면 고객 계정 대시보드의 _[!UICONTROL My Quotes]_&#x200B;섹션에 고객이 제출한 모든 견적이 나열됩니다. 권한에 따라, 회사를 대신하여 구매하는 구매자만 구매 가격을 협상하기 위한 요청을 제출할 수 있습니다.
+견적이 활성화되면 고객 계정 대시보드의 _[!UICONTROL My Quotes]_섹션에 고객이 제출한 모든 견적이 나열됩니다. 권한에 따라, 회사를 대신하여 구매하는 구매자만 구매 가격을 협상하기 위한 요청을 제출할 수 있습니다.
 
 ![내 견적](./assets/account-dashboard-my-quotes.png){width="700" zoomable="yes"}
 
@@ -37,27 +53,27 @@ ht-degree: 0%
 
 * 견적 관리와 관련된 작업:
 
-   * 견적의 사본 만들기
-   * 견적 닫기
-   * 견적 삭제
-   * 견적 이름 바꾸기
-   * 견적 인쇄
-   * 템플릿 만들기
+  * 견적의 사본 만들기
+  * 견적 닫기
+  * 견적 삭제
+  * 견적 이름 바꾸기
+  * 견적 인쇄
+  * 템플릿 만들기
 
 * 견적 상세내역 갱신 조치:
 
-   * 품목 가격책정 및 갱신 검토
-   * [!UICONTROL Comments] 및 [!UICONTROL History] 섹션에서 협상 프로세스 추적
-   * 견적을 수정하여 항목 제거
-   * 라인 품목 및 견적 레벨에서 메모를 추가하여 판매자와 소통 및 협상
-   * 배송 주소 추가
-   * 라인 품목을 구매요청 목록으로 이동
-   * 조건이 수락될 경우 견적을 주문으로 변환
+  * 품목 가격책정 및 갱신 검토
+  * [!UICONTROL Comments] 및 [!UICONTROL History] 섹션에서 협상 프로세스 추적
+  * 견적을 수정하여 항목 제거
+  * 라인 품목 및 견적 레벨에서 메모를 추가하여 판매자와 소통 및 협상
+  * 배송 주소 추가
+  * 라인 품목을 구매요청 목록으로 이동
+  * 조건이 수락될 경우 견적을 주문으로 변환
 
 * 협상 중 일반 조치:
 
-   * 검토를 위해 판매자에게 견적 보내기
-   * 체크아웃 진행
+  * 검토를 위해 판매자에게 견적 보내기
+  * 체크아웃 진행
 
 다음 예제는 구매자가 업데이트하여 검토를 위해 판매자에게 다시 보낸 견적을 보여 줍니다.
 
@@ -84,7 +100,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL My Quotes]**&#x200B;을(를) 선택합니다.
 
-1. 목록에서 견적을 찾고 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
+1. 목록에서 견적을 찾고 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL View]**을(를) 클릭합니다.
 
 ## 견적 복사
 
@@ -100,7 +116,7 @@ ht-degree: 0%
 
 1. 왼쪽 패널에서 **[!UICONTROL My Quote Templates]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL My Quotes]** 목록에서 견적을 찾고 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Create Quote Template]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL My Quotes]** 목록에서 견적을 찾고 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Create Quote Template]**을(를) 클릭합니다.
 
 ## 견적에서 구매요청 목록으로 라인 항목 이동
 
@@ -112,7 +128,7 @@ ht-degree: 0%
 
 1. 라인 항목을 선택합니다.
 
-1. _[!UICONTROL Actions]_&#x200B;드롭다운에서&#x200B;**[!UICONTROL Move to Requisition list]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Actions]_드롭다운에서&#x200B;**[!UICONTROL Move to Requisition list]**을(를) 클릭합니다.
 
 1. 선택한 품목을 이동할 기존 구매요청 목록을 선택합니다.
 
@@ -134,7 +150,7 @@ ht-degree: 0%
 
 1. 라인 항목을 선택합니다.
 
-1. _[!UICONTROL Actions]_&#x200B;드롭다운에서&#x200B;**[!UICONTROL Move item to new quote]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Actions]_드롭다운에서&#x200B;**[!UICONTROL Move item to new quote]**을(를) 클릭합니다.
 
 1. 모달에서 새 따옴표의 이름을 지정합니다.
 
@@ -162,7 +178,7 @@ ht-degree: 0%
 
 ## 견적 인쇄
 
-1. _[!UICONTROL Items Quoted]_&#x200B;섹션의 오른쪽에 있는 열린 인용구에서 구매자가&#x200B;**[!UICONTROL Print]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Items Quoted]_섹션의 오른쪽에 있는 열린 인용구에서 구매자가&#x200B;**[!UICONTROL Print]**을(를) 클릭합니다.
 
 1. **[!UICONTROL Destination]**&#x200B;을(를) 프린터 또는 PDF으로 확인합니다.
 
@@ -172,13 +188,13 @@ ht-degree: 0%
 
 1. 인용된 항목 섹션 바로 위에 있는 열린 인용문에서 **[!UICONTROL Close quote]**&#x200B;을(를) 클릭합니다.
 
-   요청이 취소되어 견적 상태가 `Closed`(으)로 변경됩니다. 닫힌 따옴표는 따옴표 목록에 남아 있으며, 관리자의 _[!UICONTROL Quotes]_&#x200B;표에 나열되어 있습니다.
+   요청이 취소되어 견적 상태가 `Closed`(으)로 변경됩니다. 닫힌 따옴표는 따옴표 목록에 남아 있으며, 관리자의 _[!UICONTROL Quotes]_표에 나열되어 있습니다.
 
 1. 견적 목록에서 취소된 견적을 제거하려면 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
 1. 확인 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
-   마감된 견적은 해당 견적 목록에서 제거됩니다. 하지만 관리자의 _[!UICONTROL Quotes]_&#x200B;그리드에 `Closed` 상태로 나열된 상태로 유지됩니다.
+   마감된 견적은 해당 견적 목록에서 제거됩니다. 하지만 관리자의 _[!UICONTROL Quotes]_그리드에 `Closed` 상태로 나열된 상태로 유지됩니다.
 
 ## 견적 작업
 
@@ -198,6 +214,6 @@ ht-degree: 0%
 | [!UICONTROL Quote Name] | 구매자가 견적 요청에 지정한 이름. |
 | [!UICONTROL Created] | 견적 요청이 처음 제출된 날짜. |
 | [!UICONTROL Created By] | 견적 요청을 제출한 구매자의 이름과 성입니다. |
-| [!UICONTROL Status] | 견적의 상태를 나타냅니다. 견적의 상태는 구매자 또는 판매자 측의 조치에 의해서만 변경될 수 있습니다. <br/>**[!UICONTROL Submitted]**- 구매자의 견적 요청이 판매자에 의해 아직 열리지 않았습니다. 이 상태에서 구매자는 견적에 대한 요청을 수정할 수 있습니다. 사용 가능한 작업: `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** - 판매자가 요청을 열었고 요청을 검토하고 응답을 준비하는 중입니다. 사용 가능한 작업: `View` / `Close` <br/>**[!UICONTROL Updated]**- 판매자가 구매자에게 응답을 보냈으며 _[!UICONTROL Proceed to Checkout]_&#x200B;버튼이 활성화되었습니다. 이 상태에서 구매자는 견적을 계속 수정할 수 있습니다. 사용 가능한 작업: `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**- 구매자가 견적을 계속 업데이트하고 있으며&#x200B;_[!UICONTROL Proceed to Checkout]_ 버튼이 비활성화되어 있습니다. 사용 가능한 작업: `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**- 구매자가 협상된 견적을 기반으로 주문을 제출했습니다. 견적이 잠겨 있어 편집할 수 없습니다. 사용 가능한 작업:<br/>**[!UICONTROL Closed]** 보기 - 구매자가 협상을 종료하고 견적을 취소합니다. 견적이 잠겨 구매자나 판매자가 편집할 수 없습니다. 사용 가능한 작업: `View` / `Delete` <br/>**[!UICONTROL Declined]**- 판매자가 협상 프로세스 중에 견적 요청 또는 제안된 변경 요청을 거부했습니다. 워크플로의 모든 단계에서 견적을 거부할 수 있습니다. 모든 사용자 정의 가격은 견적에서 제거됩니다. 구매자는 견적을 계속 편집하고 다시 제출하거나 표준 카탈로그 가격으로 구매할 수 있습니다. 사용 가능한 작업: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** - 견적의 수명이 만료되었습니다. 제안된 가격은 모두 재설정됩니다. 구매자는 표준 카탈로그 가격에 따라 구매를 완료하거나 다른 협상 라운드를 시작할 수 있습니다. 사용 가능한 작업: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
+| [!UICONTROL Status] | 견적의 상태를 나타냅니다. 견적의 상태는 구매자 또는 판매자 측의 조치에 의해서만 변경될 수 있습니다. <br/>**[!UICONTROL Submitted]**- 구매자의 견적 요청이 판매자에 의해 아직 열리지 않았습니다. 이 상태에서 구매자는 견적에 대한 요청을 수정할 수 있습니다. 사용 가능한 작업: `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** - 판매자가 요청을 열었고 요청을 검토하고 응답을 준비하는 중입니다. 사용 가능한 작업: `View` / `Close` <br/>**[!UICONTROL Updated]**- 판매자가 구매자에게 응답을 보냈으며 _[!UICONTROL Proceed to Checkout]_버튼이 활성화되었습니다. 이 상태에서 구매자는 견적을 계속 수정할 수 있습니다. 사용 가능한 작업: `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` / `Edit Shipping Address`<br/>**[!UICONTROL Open]**- 구매자가 견적을 계속 업데이트하고 있으며_[!UICONTROL Proceed to Checkout]_ 버튼이 비활성화되어 있습니다. 사용 가능한 작업: `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**- 구매자가 협상된 견적을 기반으로 주문을 제출했습니다. 견적이 잠겨 있어 편집할 수 없습니다. 사용 가능한 작업:<br/>**[!UICONTROL Closed]** 보기 - 구매자가 협상을 종료하고 견적을 취소합니다. 견적이 잠겨 구매자나 판매자가 편집할 수 없습니다. 사용 가능한 작업: `View` / `Delete` <br/>**[!UICONTROL Declined]**- 판매자가 협상 프로세스 중에 견적 요청 또는 제안된 변경 요청을 거부했습니다. 워크플로의 모든 단계에서 견적을 거부할 수 있습니다. 모든 사용자 정의 가격은 견적에서 제거됩니다. 구매자는 견적을 계속 편집하고 다시 제출하거나 표준 카탈로그 가격으로 구매할 수 있습니다. 사용 가능한 작업: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** - 견적의 수명이 만료되었습니다. 제안된 가격은 모두 재설정됩니다. 구매자는 표준 카탈로그 가격에 따라 구매를 완료하거나 다른 협상 라운드를 시작할 수 있습니다. 사용 가능한 작업: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
 
 {style="table-layout:auto"}

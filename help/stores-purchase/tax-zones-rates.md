@@ -3,26 +3,33 @@ title: 조세 구역 및 세율
 description: 세금을 징수 및 송금하는 각 지리적 영역에 대한 세율을 정의하는 방법을 알아봅니다.
 exl-id: d8eb0743-d277-438d-91ed-fc711a6ba3ae
 feature: Taxes
-TQID: https://experienceleague.adobe.com/HHCiYX6ihYArvccmTswjnZ5SNP09D29Srn2JvWiw4tY
+TQID: 'https://experienceleague.adobe.com/HHCiYX6ihYArvccmTswjnZ5SNP09D29Srn2JvWiw4tY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 380
+source-wordcount: '380'
 ht-degree: 0%
-
 ---
-
 # 조세 구역 및 세율
 
 세율은 일반적으로 특정 지리적 지역 내에서 이루어지는 거래에 적용된다. _조세 구역 및 세율_ 도구를 사용하여 세금을 징수하고 송금하는 각 지역에 대한 세율을 지정합니다. 각 조세 구역 및 세율에는 고유 식별자가 있으므로 주어진 지리적 영역(예: 음식이나 의약품에 과세하지 않지만 다른 품목에 과세하는 장소)에 대해 여러 세율을 가질 수 있습니다.
@@ -69,7 +76,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**(으)로 이동합니다.
 
-1. _[!UICONTROL Tax Zones and Rates]_&#x200B;그리드에서 세율을 찾고 편집 모드에서 레코드를 엽니다.
+1. _[!UICONTROL Tax Zones and Rates]_그리드에서 세율을 찾고 편집 모드에서 레코드를 엽니다.
 
    목록에 요금이 많으면 [필터 컨트롤](../getting-started/admin-grid-controls.md)을 사용하여 필요한 요금을 찾으십시오.
 

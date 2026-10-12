@@ -3,30 +3,41 @@ title: 광고된 최소 가격
 description: 특별 가격을 통해 제조업체의 요구 사항을 준수하도록 최소 광고 가격(MAP) 기능을 사용하는 방법을 알아봅니다.
 exl-id: ccd44cfe-3967-4d82-b5b2-3f92701d152e
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/DRNm0PPX81W4jzLnu7ALhJ1lQZYUpTcO6ojp1E50vto
+TQID: 'https://experienceleague.adobe.com/DRNm0PPX81W4jzLnu7ALhJ1lQZYUpTcO6ojp1E50vto'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1143
+source-wordcount: '1143'
 ht-degree: 0%
-
 ---
-
 # 광고된 최소 가격
 
 상인은 제조업자가 제시한 소매가격(MSRP)보다 낮은 가격을 표시하지 못하도록 하는 경우도 있다. MAP(최소 광고 가격)을 사용하면 고객에게 더 나은 가격을 제공하면서도 제조업체의 요구 사항을 준수할 수 있습니다. 요구 사항은 제조업체마다 다르기 때문에 허용되지 않는 페이지에 실제 가격이 표시되지 않도록 스토어를 구성할 수 있습니다.
@@ -87,7 +98,7 @@ MAP이 활성화되면 제품 수준 MAP 설정을 사용할 수 있습니다. M
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Sales]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Minimum Advertised Price]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Minimum Advertised Price]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. 필요한 경우 **맵 사용**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -106,9 +117,9 @@ MAP이 활성화되면 제품 수준 MAP 설정을 사용할 수 있습니다. M
    - 기본값을 변경하려면 **[!UICONTROL Use system value]** 확인란의 선택을 취소하십시오.
 
    - **실제 가격 표시**&#x200B;를 다음 중 하나로 설정합니다.
-      - `In Cart`
-      - `Before Order Confirmation`
-      - `On Gesture (on click)`
+     - `In Cart`
+     - `Before Order Confirmation`
+     - `On Gesture (on click)`
 
 1. **[!UICONTROL Default Popup Text Message]**&#x200B;에 표시할 텍스트를 입력하십시오.
 

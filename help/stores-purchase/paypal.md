@@ -3,31 +3,42 @@ title: PayPal 결제 솔루션
 description: 스토어에 사용할 수 있는 PayPal 결제 솔루션 통합에 대해 알아봅니다.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/Rj1ey1lK7PkyUR-m6CPw6v-C-Mie-vmJtlZAA917K28
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: 'https://experienceleague.adobe.com/Rj1ey1lK7PkyUR-m6CPw6v-C-Mie-vmJtlZAA917K28'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1248
+source-wordcount: '1288'
 ht-degree: 0%
-
 ---
-
 # PayPal 결제 솔루션
 
 PayPal은 온라인 결제 분야의 글로벌 리더이며 고객이 온라인으로 빠르고 안전하게 결제할 수 있는 방법입니다. 사용 가능한 PayPal 솔루션의 선택은 판매자 위치에 따라 다릅니다. PayPal Express Checkout 및 PayPal Payments Standard는 전 세계 모든 지역에서 사용할 수 있습니다. 자세한 내용은 [국가별 PayPal 솔루션](#paypal-solutions-by-country)을 참조하세요.
@@ -120,7 +131,7 @@ PayPal 사기 행위 관리 필터를 사용하면 사기성 거래를 보다 �
 | 액션 | 결과 |
 | --- | --- |
 | [!UICONTROL Review] | 의심되는 주문은 주문 시 _결제 검토_ 상태를 받습니다. 관리자 또는 PayPal 측에서 주문을 검토하고 결제를 승인하거나 취소할 수 있습니다. **[!UICONTROL Accept Payment]** 또는 **[!UICONTROL Deny Payment]**&#x200B;을(를) 클릭하면 주문에 대한 새 트랜잭션이 만들어지지 않습니다. <br/><br/>PayPal 사이트에서 거래 상태를 변경하는 경우 관리자의 [순서] 페이지에서 **[!UICONTROL Get Payment Update]**&#x200B;을 클릭하여 변경 내용을 적용해야 합니다. **[!UICONTROL Accept Payment]** 또는 **[!UICONTROL Deny Payment]**&#x200B;을(를) 클릭하면 PayPal 사이트에서 변경한 내용이 적용됩니다. |
-| [!UICONTROL Deny] | 해당 거래는 페이팔에서 거부되기 때문에 고객이 의심 주문을 할 수 없습니다. <br/><br/>관리자의 결제를 거부하려면 페이지의 오른쪽 상단에 있는 **[!UICONTROL Deny Payment]**&#x200B;을(를) 클릭하십시오. 주문 상태가 `Canceled`(으)로 변경되고 거래가 취소되며 고객 계정에서 자금이 해제됩니다. 주문 보기의 _[!UICONTROL Comments History]_&#x200B;섹션에 해당 정보가 추가됩니다. |
+| [!UICONTROL Deny] | 해당 거래는 페이팔에서 거부되기 때문에 고객이 의심 주문을 할 수 없습니다. <br/><br/>관리자의 결제를 거부하려면 페이지의 오른쪽 상단에 있는 **[!UICONTROL Deny Payment]**&#x200B;을(를) 클릭하십시오. 주문 상태가 `Canceled`(으)로 변경되고 거래가 취소되며 고객 계정에서 자금이 해제됩니다. 주문 보기의 _[!UICONTROL Comments History]_섹션에 해당 정보가 추가됩니다. |
 | [!UICONTROL Flag] | 의심되는 주문이 배치되면 상태 `Processing`을(를) 가져옵니다. 해당 거래는 머천트 계좌 거래 목록에 플래그로 표시되어 있다. |
 
 {style="table-layout:auto"}

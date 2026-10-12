@@ -3,27 +3,35 @@ title: 운송 회사 설정
 description: 상점에 사용할 수 있는 상업용 배송 계정에 대한 지원에 대해 알아보십시오.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/zKN3BQWHywAOLJ-zaJX1-8b7aAYxtzl8v9J7uJG1rFg
+TQID: 'https://experienceleague.adobe.com/zKN3BQWHywAOLJ-zaJX1-8b7aAYxtzl8v9J7uJG1rFg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: '496'
 ht-degree: 0%
-
 ---
-
 # 운송 회사 설정
 
 지원되는 이동통신사에 상업용 계정이 있는 경우 고객이 체크아웃 중에 해당 이동통신사를 선택할 수 있는 편의를 제공할 수 있습니다. 요금은 자동으로 다운로드되므로 정보를 조회할 필요가 없습니다.
@@ -38,10 +46,10 @@ ht-degree: 0%
 
 - 제공할 각 통신사 서비스에 대한 설정을 구성합니다.
 
-   - [**UPS**](ups.md) - UPS(United Parcel Service)는 220개 이상의 국가에 육상 및 항공으로 국내 및 국제 배송 서비스를 제공합니다.
-   - [**USPS**](usps.md) - 미국 우편 서비스(USPS)는 미국 정부의 독립 우편 서비스입니다. USPS는 육로와 항공으로 국내 및 국제 배송 서비스를 제공합니다.
-   - [**FedEx**](fedex.md) - FedEx는 220개 이상의 국가에 육로 및 항공으로 국내 및 국제 배송 서비스를 제공합니다.
-   - [**DHL**](dhl.md) - DHL은 편지, 물품, 정보의 관리 및 전송을 위한 통합 국제 서비스와 맞춤형 고객 중심 솔루션을 제공합니다.
+  - [**UPS**](ups.md) - UPS(United Parcel Service)는 220개 이상의 국가에 육상 및 항공으로 국내 및 국제 배송 서비스를 제공합니다.
+  - [**USPS**](usps.md) - 미국 우편 서비스(USPS)는 미국 정부의 독립 우편 서비스입니다. USPS는 육로와 항공으로 국내 및 국제 배송 서비스를 제공합니다.
+  - [**FedEx**](fedex.md) - FedEx는 220개 이상의 국가에 육로 및 항공으로 국내 및 국제 배송 서비스를 제공합니다.
+  - [**DHL**](dhl.md) - DHL은 편지, 물품, 정보의 관리 및 전송을 위한 통합 국제 서비스와 맞춤형 고객 중심 솔루션을 제공합니다.
 
 ## 차원 가중치
 
@@ -65,11 +73,11 @@ Adobe Commerce 버전 2.4.6, 2.4.7 및 2.4.8에서는 기존 Web Tools API를 �
 
 USPS 배송 서비스가 중단되지 않도록 하려면 최신 버전의 Adobe Commerce으로 업그레이드하거나 다음 작업을 수행하십시오.
 
-- [USPS REST API 마이그레이션 품질 패치](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)를 적용하여 USPS REST API와 통합에 대한 지원을 추가합니다.
+- [USPS REST API 마이그레이션 품질 패치](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210)를 적용하여 USPS REST API와 통합에 대한 지원을 추가합니다.
 
 - REST API를 사용하도록 Commerce USPS 구성을 업데이트합니다.
 
-   - [USPS 배송 회사 구성](usps.md)
+  - [USPS 배송 회사 구성](usps.md)
 
-   - [배송 레이블 구성](shipping-label-create.md)
+  - [배송 레이블 구성](shipping-label-create.md)
 

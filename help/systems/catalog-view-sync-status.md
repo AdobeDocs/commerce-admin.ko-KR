@@ -18,6 +18,12 @@ feature_v2:
     internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -33,7 +39,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1332'
 ht-degree: 0%
@@ -49,7 +55,7 @@ ht-degree: 0%
 
 ## 대상자 및 가용성 {#audience}
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 인프라 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 인프라 및 온프레미스 프로젝트에만 적용됩니다."}
 
 [!DNL Adobe Commerce Optimizer Connector for B2B] 통합으로 B2B 공유 카탈로그를 사용하는 Adobe Commerce on Cloud Infrastructure 및 온-프레미스 상인이 [!UICONTROL Catalog View Sync Status] 페이지를 사용할 수 있습니다. Connector 확장이 설치되면 페이지가 자동으로 설치되고 활성화됩니다.
 
@@ -190,6 +196,6 @@ ht-degree: 0%
 > - [데이터 피드 동기화 상태](data-feed-sync-status.md)
 > - [서비스 > ACO 카탈로그 보기 동기화](../configuration-reference/services/aco-catalog-view-sync.md) - 삭제 및 만들기 유예 기간 및 드리프트 조정자를 구성합니다.
 > - [제한된 액세스 키 관리](restricted-access-keys.md) — 이 페이지에서 만료가 표시되는 키를 관리합니다.
-> - *Adobe Commerce Optimizer Connector 안내서*&#x200B;의 [B2B 공유 카탈로그에 대한 카탈로그 보기 동기화 모니터링](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)
-> - [비공개 카탈로그 보기](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/private-catalog-view)
-> - [제한된 액세스 키](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/restricted-access-keys)
+> - *Adobe Commerce Optimizer Connector 안내서*&#x200B;의 [B2B 공유 카탈로그에 대한 카탈로그 보기 동기화 모니터링](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)
+> - [비공개 카탈로그 보기](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view)
+> - [제한된 액세스 키](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys)

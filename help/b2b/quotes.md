@@ -3,32 +3,44 @@ title: 협상 가능한 견적
 description: 견적 워크플로우와 이 서비스를 회사 계정에 제공하는 방법에 대해 알아봅니다.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-TQID: https://experienceleague.adobe.com/098ze8GgUWx4j1d96UGoEcLfAequOjAbadJHS5AvClU
+TQID: 'https://experienceleague.adobe.com/098ze8GgUWx4j1d96UGoEcLfAequOjAbadJHS5AvClU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: '1273'
 ht-degree: 0%
-
 ---
-
 # 협상 가능한 견적
 
 구매자와 판매자는 견적을 사용하여 계약에 도달할 때까지 주문 추가 품목, 수량 갱신, 할인 요청 및 적용 등에 대한 협상 프로세스를 관리합니다. 견적 협상 프로세스는 승인된 회사 구매자 또는 회사 영업 사원이 시작할 수 있습니다.
@@ -49,8 +61,8 @@ ht-degree: 0%
 
 - [Adobe Commerce B2B 확장이 설치됨](install.md)
 - [구성된 B2B 기능](enable-basic-features.md)
-   - 회사 계정 활성화
-   - B2B 견적 활성화
+  - 회사 계정 활성화
+  - B2B 견적 활성화
 
 ## 견적 워크플로우
 
@@ -161,7 +173,7 @@ Quote status 는 Quote 워크플로우에서 Quote 의 현재 상태에 대한 �
 
 1. 거부할 각 개설 견적 요청을 선택합니다.
 
-1. _[!UICONTROL Actions]_&#x200B;컨트롤을 `Declined`(으)로 설정합니다.
+1. _[!UICONTROL Actions]_컨트롤을 `Declined`(으)로 설정합니다.
 
 1. 메시지가 표시되면 견적이 거절된 이유를 입력하고 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 

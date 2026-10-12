@@ -3,26 +3,33 @@ title: 게스트 체크아웃
 description: 스토어에서 게스트 체크아웃 기능을 활성화하는 방법을 알아봅니다.
 exl-id: ce25eba3-7503-46aa-a5cd-9b7d5662164b
 feature: Checkout
-TQID: https://experienceleague.adobe.com/jxrHQ1knuqHBmM1DsVa9NqdV-XNFdQDWjvwW4kHEyYM
+TQID: 'https://experienceleague.adobe.com/jxrHQ1knuqHBmM1DsVa9NqdV-XNFdQDWjvwW4kHEyYM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 247
+source-wordcount: '247'
 ht-degree: 0%
-
 ---
-
 # 게스트 체크아웃
 
 구매하기 전에 쇼핑객이 계정을 개설하도록 스토어를 구성할 수 있습니다. 기본 설정을 사용하면 게스트가 결제 프로세스를 완료한 후 계정을 등록할 수 있는 옵션과 함께 구매를 수행할 수 있습니다.
@@ -53,7 +60,7 @@ ht-degree: 0%
 
 ## 등록된 이메일에 대한 게스트 주문 액세스 허용
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 기본적으로 비활성화되어 있는 저장소 수준 구성(선택 사항)을 사용하면 게스트 구매자가 등록된 고객 계정과 일치하는 이메일 주소를 사용하여 수행한 주문을 추적할 수 있습니다.
 

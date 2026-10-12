@@ -3,35 +3,44 @@ title: 배송 및 배송
 description: 고객에게 제공할 수 있는 다양한 배송 방법 및 배송 안내인에 대한 지원에 대해 알아보십시오.
 exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/ztcCQwzUB-DEOxTokNeH8TN7AxA0uAOuSVK8c1X--RU
+TQID: 'https://experienceleague.adobe.com/ztcCQwzUB-DEOxTokNeH8TN7AxA0uAOuSVK8c1X--RU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: '280'
 ht-degree: 0%
-
 ---
-
 # 배송 및 배송
 
 고객에게 여러 가지 배송 방법을 선택할 수 있는 매장이 단일 방법을 사용하는 매장보다 전환율이 높다는 연구 결과가 나왔다. 다양한 배송 방법과 배송 운송업체를 설정할 수 있습니다. [배송 설정](shipping-settings.md)은(는) 사용자의 상점이나 창고에서 만든 모든 배송에 대한 출처와 여러 주소로 배송된 주문을 관리하는 기본 설정을 설정합니다. 매장 관리자로부터 새 주문과 기존 주문에 대한 [배송 레이블](shipping-labels.md)을 쉽게 만들 수 있습니다. 선적이 생성되거나 이후에 레이블을 생성할 수 있습니다. 배송 레이블은 PDF 형식으로 저장되고 컴퓨터로 다운로드됩니다.
 
 >[!NOTE]
 >
->Temando의 종료로 인해 [!DNL Magento Shipping]에 대한 지원이 2.4.0에서 제거되었습니다. Commerce의 새 배송 구현에 대한 자세한 상태 정보 및 권장 사항은 [제품 정보](https://business.adobe.com/kr/products/magento/shipping.html){:target="_blank"} 페이지를 참조하십시오.
+>Temando의 종료로 인해 [!DNL Magento Shipping]에 대한 지원이 2.4.0에서 제거되었습니다. Commerce의 새 배송 구현에 대한 자세한 상태 정보 및 권장 사항은 [제품 정보](https://business.adobe.com/products/magento/shipping.html){:target="_blank"} 페이지를 참조하십시오.
 
 ## 기본 게재 방법
 
@@ -55,4 +64,4 @@ Adobe Commerce과 Magento Open Source은 다양한 배송 방법과 배송 운�
 
 이 비디오를 통해 배송 및 배송 방법에 대해 알아볼 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410209/?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)

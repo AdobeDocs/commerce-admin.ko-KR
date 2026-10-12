@@ -3,25 +3,34 @@ title: 캠페인에 항목 추가
 description: 캠페인 중에 카테고리 페이지에 홍보 이미지를 추가하는 데 사용되는 이 캠페인 예제를 검토하십시오.
 exl-id: cd46b657-2586-46dd-beab-42f42d3476b6
 feature: Page Content, Staging
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/Fa-FT3C-j2-1xR9Jx4DRsqwTOEn3AEc-sXXbjXuqn-A
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: 'https://experienceleague.adobe.com/Fa-FT3C-j2-1xR9Jx4DRsqwTOEn3AEc-sXXbjXuqn-A'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 238
+source-wordcount: '238'
 ht-degree: 0%
-
 ---
-
 # 캠페인에 항목 추가
 
 {{ee-feature}}
@@ -56,7 +65,7 @@ ht-degree: 0%
 
 1. 표시된 목록 또는 타임라인에서 캠페인을 찾아 열고 세부 정보에 액세스합니다.
 
-   - 목록을 표시하려면 **[!UICONTROL Select]**&#x200B;을(를) 클릭한 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL View/Edit]**&#x200B;을(를) 클릭합니다.
+   - 목록을 표시하려면 **[!UICONTROL Select]**&#x200B;을(를) 클릭한 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL View/Edit]**을(를) 클릭합니다.
    - 타임라인을 표시하려면 한 번 클릭하여 요약을 표시한 다음 **[!UICONTROL View/Edit]**&#x200B;을(를) 클릭합니다.
 
    ![캠페인 세부 정보](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}

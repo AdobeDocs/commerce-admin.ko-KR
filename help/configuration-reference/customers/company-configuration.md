@@ -3,30 +3,40 @@ title: '[!UICONTROL Customers] > [!UICONTROL Company Configuration]'
 description: Commerce 관리자의 [!UICONTROL Customers] > [!UICONTROL Company Configuration] 페이지에서 구성 설정을 검토합니다.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-TQID: https://experienceleague.adobe.com/pfLr7IPJq34ChjpQYqJdmnl8oqUfpIsv8-nXKrWGsvI
+TQID: 'https://experienceleague.adobe.com/pfLr7IPJq34ChjpQYqJdmnl8oqUfpIsv8-nXKrWGsvI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 841
-ht-degree: 1%
-
+source-wordcount: '841'
+ht-degree: 3%
 ---
-
 # [!UICONTROL Customers] > [!UICONTROL Company Configuration]
 
 {{b2b-feature}}
@@ -60,7 +70,7 @@ ht-degree: 1%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Company Registration Email Recipient] | 스토어 뷰 | 상점에서 회사 등록 요청이 제출되면 알려 주는 상점 연락처. 옵션: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
-| [!UICONTROL Send Company Registration Email Copy To] | 스토어 뷰 | 등록 알림 사본을 받을 각 사용자의 이메일 주소. 여러 이메일 주소는 쉼표로 구분합니다. |
+| [!UICONTROL Send Company Registration Email Copy To] | 스토어 뷰 | 등록 알림 사본을 받을 각 사용자의 이메일 주소. 이메일 주소가 여러 개인 경우 쉼표로 구분합니다. |
 | [!UICONTROL Send Email Copy Method] | 스토어 뷰 | 등록 이메일 사본을 전송하는 데 사용되는 이메일 메서드입니다. 옵션: `Bcc` / `Separate Email` |
 | [!UICONTROL Default Company Registration Email] | 스토어 뷰 | 회사 등록 알림에 기본적으로 사용되는 이메일 템플릿입니다. 기본 템플릿: `Company Registration Request` |
 
@@ -89,7 +99,7 @@ ht-degree: 1%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Company Status Change Email Recipient] | 스토어 뷰 | 회사 상태가 변경될 때마다 알림을 받는 스토어 연락처. 옵션: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
-| [!UICONTROL Send Company Status Change Email Copy To] | 스토어 뷰 | 회사 상태 변경 알림의 사본을 받을 각 사용자의 이메일 주소. 여러 이메일 주소는 쉼표로 구분합니다. |
+| [!UICONTROL Send Company Status Change Email Copy To] | 스토어 뷰 | 회사 상태 변경 알림의 사본을 받을 각 사용자의 이메일 주소. 이메일 주소가 여러 개인 경우 쉼표로 구분합니다. |
 | [!UICONTROL Send Email Copy Method] | 스토어 뷰 | 상태 변경 알림의 복사본을 보내는 데 사용되는 이메일 메서드입니다. 옵션: `Bcc` / `Separate Email` |
 | [!UICONTROL Default "Company Status Change to Active 1' Email] | 스토어 뷰 | 회사 상태가 _승인 보류 중_&#x200B;에서 _활성_(으)로 변경될 때 사용되는 전자 메일 템플릿입니다. 기본 템플릿: `Company Status Active 1` |
 | [!UICONTROL Default 'Company Status Change to Active 2' Email] | 스토어 뷰 | 회사 상태가 _거부됨_ 또는 _차단됨_&#x200B;에서 _활성_(으)로 변경될 때 기본적으로 사용되는 전자 메일 템플릿입니다. 기본 템플릿: `Company Status Active 2` |
@@ -106,7 +116,7 @@ ht-degree: 1%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Company Credit Change Email Sender] | 스토어 뷰 | 회사 크레딧에 변경 사항이 있을 때마다 통지되는 스토어 연락처입니다. 옵션: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
-| [!UICONTROL Send Company Credit Change Email Copy To] | 스토어 뷰 | 회사 크레딧 변경 알림의 사본을 받을 각 사람의 이메일 주소. 여러 이메일 주소는 쉼표로 구분합니다. |
+| [!UICONTROL Send Company Credit Change Email Copy To] | 스토어 뷰 | 회사 크레딧 변경 알림의 사본을 받을 각 사람의 이메일 주소. 이메일 주소가 여러 개인 경우 쉼표로 구분합니다. |
 | [!UICONTROL Send Email Copy Method] | 스토어 뷰 | 신용 변경 통지의 사본을 전송하는 데 사용되는 이메일 방법입니다. 옵션: `Bcc` / `Separate Email` |
 | [!UICONTROL Allocated Email Template] | 스토어 뷰 | 회사 크레딧이 할당된 경우 기본적으로 사용되는 이메일 템플릿입니다. 이 이메일은 회사 관리자에게 전송됩니다. 기본 템플릿: `Credit Limit Allocated` |
 | [!UICONTROL Updated Email Template] | 스토어 뷰 | 회사의 크레딧 제한이 업데이트될 때 기본적으로 사용되는 이메일 템플릿입니다. 이 이메일은 회사 관리자에게 전송됩니다. 기본 템플릿: `Credit Limit Updated` |

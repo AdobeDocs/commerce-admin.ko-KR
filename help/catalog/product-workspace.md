@@ -3,31 +3,45 @@ title: 제품 작업 영역
 description: 제품 작업 영역에서 사용할 수 있는 설정 및 컨트롤에 대해 알아봅니다.
 exl-id: 8258b117-56d2-4d5f-9413-80d51fd5eae6
 feature: Catalog Management, Products, Admin Workspace
-TQID: https://experienceleague.adobe.com/O9e0Z-bHxbokLZd4RbT1puWWAGWnF7SDqvGcc4Bteco
+TQID: 'https://experienceleague.adobe.com/O9e0Z-bHxbokLZd4RbT1puWWAGWnF7SDqvGcc4Bteco'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9958c3ea938ea5ef743f4b347d11e4f833ee1483
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '492'
 ht-degree: 0%
-
 ---
-
 # 제품 작업 영역
 
-사용된 속성 세트에 따라 필드 선택이 변경되지만 제품 작업 영역은 기본적으로 모든 제품 유형에 대해 동일합니다. 제품 속성은 양식 상단에 있으며 다음으로 제품 정보의 확장 가능한 섹션이 옵니다. 새 제품을 처음 저장하면 양식의 왼쪽 상단에 _[!UICONTROL Store View]_&#x200B;선택기가 나타납니다.
+사용된 속성 세트에 따라 필드 선택이 변경되지만 제품 작업 영역은 기본적으로 모든 제품 유형에 대해 동일합니다. 제품 속성은 양식 상단에 있으며 다음으로 제품 정보의 확장 가능한 섹션이 옵니다. 새 제품을 처음 저장하면 양식의 왼쪽 상단에 _[!UICONTROL Store View]_선택기가 나타납니다.
 
 >[!NOTE]
 >
@@ -58,7 +72,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Save] 메뉴
 
-_[!UICONTROL Save]_&#x200B;메뉴에는 저장 및 계속, 제품 저장 및 만들기, 제품 저장 및 복제 또는 저장 및 닫기를 수행할 수 있는 몇 가지 옵션이 포함되어 있습니다.
+_[!UICONTROL Save]_메뉴에는 저장 및 계속, 제품 저장 및 만들기, 제품 저장 및 복제 또는 저장 및 닫기를 수행할 수 있는 몇 가지 옵션이 포함되어 있습니다.
 
 ![메뉴 저장](./assets/product-save-menu.png){width="600" zoomable="yes"}
 
@@ -67,7 +81,7 @@ _[!UICONTROL Save]_&#x200B;메뉴에는 저장 및 계속, 제품 저장 및 만
 | [!UICONTROL Save] | 현재 제품을 저장하고 작업을 계속합니다. |
 | [!UICONTROL Save & New] | 현재 제품을 저장하고 닫은 다음 동일한 제품 유형 및 템플릿을 기준으로 새 제품을 시작합니다. |
 | [!UICONTROL Save & Duplicate] | 현재 제품을 저장하고 닫은 다음 새 복사본을 엽니다. |
-| [!UICONTROL Save & Close] | 현재 제품을 저장하고 _[!UICONTROL Products]_&#x200B;작업 영역으로 돌아갑니다. |
+| [!UICONTROL Save & Close] | 현재 제품을 저장하고 _[!UICONTROL Products]_작업 영역으로 돌아갑니다. |
 
 {style="table-layout:auto"}
 

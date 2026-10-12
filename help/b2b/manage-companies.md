@@ -4,31 +4,44 @@ description: 복잡한 운영 모델을 통해 B2B 조직의 관리 및 관리�
 feature: B2B, Companies, Storefront
 role: Admin
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-TQID: https://experienceleague.adobe.com/po8afDr-Q2XR9pkbzJDdX-9tDvf6FsLVHnP-YzGYrDI
+TQID: 'https://experienceleague.adobe.com/po8afDr-Q2XR9pkbzJDdX-9tDvf6FsLVHnP-YzGYrDI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: '778'
 ht-degree: 0%
-
 ---
-
 # 회사 경영
 
 Adobe Commerce의 회사 관리는 관리자가 B2B 비즈니스 관계를 구성, 구성 및 감독할 수 있는 포괄적인 도구를 제공합니다. 이 기능은 여러 기업 고객, 자회사 또는 복잡한 조직 구조와 함께 작업하는 비즈니스에 필수적입니다.
@@ -75,18 +88,18 @@ Adobe Commerce의 회사 관리는 관리자가 B2B 비즈니스 관계를 구�
 회사 격자의 *[!UICONTROL Company Type]* 열은 각 회사가 B2B 조직에 어떻게 적합한지 보여 줍니다.
 
 * **상위**—하나 이상의 회사가 할당된 중앙 허브
-   * 여러 하위 회사를 제어하지만 다른 상위 회사에 할당할 수 없음
-   * **사용 사례**—본사, 주요 프랜차이즈 조직 또는 지주 회사
+  * 여러 하위 회사를 제어하지만 다른 상위 회사에 할당할 수 없음
+  * **사용 사례**—본사, 주요 프랜차이즈 조직 또는 지주 회사
 
 * **하위**—상위 조직에 할당된 회사
-   * 상위 거버넌스에서 작동하며 구성을 상속할 수 있습니다.
-   * 한 번에 하나의 상위 항목에만 속할 수 있음
-   * **사용 사례** - 지사, 가맹점 또는 지역 부서
+  * 상위 거버넌스에서 작동하며 구성을 상속할 수 있습니다.
+  * 한 번에 하나의 상위 항목에만 속할 수 있음
+  * **사용 사례** - 지사, 가맹점 또는 지역 부서
 
 * **회사**—독립적인 단일 회사
-   * 계층 관계 없이 독립적으로 작동
-   * 상위(회사 할당) 또는 하위(상위 할당)로 변환 가능
-   * **사용 사례**—개인 비즈니스 고객 또는 독립 실행형 클라이언트
+  * 계층 관계 없이 독립적으로 작동
+  * 상위(회사 할당) 또는 하위(상위 할당)로 변환 가능
+  * **사용 사례**—개인 비즈니스 고객 또는 독립 실행형 클라이언트
 
 ### 회사 유형 전환
 
@@ -108,24 +121,24 @@ Adobe Commerce의 회사 관리는 관리자가 B2B 비즈니스 관계를 구�
 회사 그리드에서 회사를 관리할 때 관리자는 *[!UICONTROL Company Hierarchy]* 그리드에서 다음 작업을 수행할 수 있습니다.
 
 * **회사 관계 보기 및 관리**
-   * **연결된 회사 보기**—하나의 중앙 보기에서 상위 조직에 연결된 모든 회사를 봅니다.
-   * **회사 상태 모니터링**—계층 내에서 활성, 보류 중 및 비활성 회사를 추적합니다.
-   * **회사 세부 정보에 액세스**—개별 회사 구성 페이지로 직접 이동
+  * **연결된 회사 보기**—하나의 중앙 보기에서 상위 조직에 연결된 모든 회사를 봅니다.
+  * **회사 상태 모니터링**—계층 내에서 활성, 보류 중 및 비활성 회사를 추적합니다.
+  * **회사 세부 정보에 액세스**—개별 회사 구성 페이지로 직접 이동
 
 * **계층 구성 및 수정**
-   * **회사 할당**—회사 세부 정보 페이지에서 기존 회사를 상위 조직에 추가합니다.
-   * **부모-자식 관계 만들기**—실제 비즈니스 관계를 반영하도록 회사 구성
-   * **구조 재구성** - 비즈니스 요구 사항이 변경되면 다른 상위 조직 간에 회사를 이동합니다.
+  * **회사 할당**—회사 세부 정보 페이지에서 기존 회사를 상위 조직에 추가합니다.
+  * **부모-자식 관계 만들기**—실제 비즈니스 관계를 반영하도록 회사 구성
+  * **구조 재구성** - 비즈니스 요구 사항이 변경되면 다른 상위 조직 간에 회사를 이동합니다.
 
 * **일괄 구성 관리**
-   * **회사 전체에 설정 적용**—회사 격자에서 [!UICONTROL Actions] 컨트롤을 사용하여 여러 회사에 대한 고급 설정을 동시에 업데이트합니다.
-   * **구성 표준화**—관련 조직 간에 일관된 정책 보장
-   * **개별 설정 무시**—선택한 하위 회사에 상위 회사 구성 푸시
+  * **회사 전체에 설정 적용**—회사 격자에서 [!UICONTROL Actions] 컨트롤을 사용하여 여러 회사에 대한 고급 설정을 동시에 업데이트합니다.
+  * **구성 표준화**—관련 조직 간에 일관된 정책 보장
+  * **개별 설정 무시**—선택한 하위 회사에 상위 회사 구성 푸시
 
 * **관리 작업**
-   * **회사 관계 제거**—조직 연결을 해체하려면 *[!UICONTROL Unassign from parent]* 액션을 사용하십시오.
-   * **회사 액세스 관리**—회사 관계를 보고 수정할 수 있는 관리자를 제어합니다.
-   * **계층 구조 변경 모니터링**—조직 구조에 대한 수정 내용 추적
+  * **회사 관계 제거**—조직 연결을 해체하려면 *[!UICONTROL Unassign from parent]* 액션을 사용하십시오.
+  * **회사 액세스 관리**—회사 관계를 보고 수정할 수 있는 관리자를 제어합니다.
+  * **계층 구조 변경 모니터링**—조직 구조에 대한 수정 내용 추적
 
 ## 우수 사례
 

@@ -3,32 +3,41 @@ title: 새 테마 설치
 description: Adobe Commerce 또는 Magento Open Source 스토어의 새 테마 설치에 대해 알아봅니다.
 exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 feature: Page Content, Themes
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/95FY93Orarr7iijUGev462alrGf6eVxUZGkc0dvMX-o
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: 'https://experienceleague.adobe.com/95FY93Orarr7iijUGev462alrGf6eVxUZGkc0dvMX-o'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 8b440f30-6794-5ed6-981f-391de4e9b0cc
+    internal-label: Themes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 191
+source-wordcount: '191'
 ht-degree: 0%
-
 ---
-
 # 새 테마 설치
 
 [!DNL Commerce]을(를) 처음 설치할 때 저장소의 디자인 요소는 기본 `Magento Blank` 테마를 기반으로 합니다. 샘플 데이터를 설치한 경우 _Luma_ 테마도 사용할 수 있습니다. 테마를 수정하거나 다른 사용자가 만든 테마를 추가하거나 직접 만들 수 있습니다. [[!DNL Commerce Marketplace]](../getting-started/commerce-marketplace.md)에는 매장의 모양을 변경하기 위해 설치할 수 있는 다양한 테마가 포함되어 있습니다. 테마를 만들거나 수정하는 방법은 [_프론트엔드 개발 가이드_](https://developer.adobe.com/commerce/frontend-core/guide/)를 참조하세요.
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-시작하기 전에 올바른 [[!DNL Commerce] 액세스 키](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) 집합이 있는지 확인하십시오.
+시작하기 전에 올바른 [[!DNL Commerce] 액세스 키](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) 집합이 있는지 확인하십시오.
 
 [!DNL Commerce] 스토어에 테마를 추가하려면 [!DNL Commerce Marketplace]에서 사용할 수 있는 지침을 따르십시오.
 

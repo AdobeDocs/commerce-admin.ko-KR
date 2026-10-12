@@ -3,27 +3,35 @@ title: 테이블 요금 배송
 description: 스토어에 대한 테이블 레이트 배송 옵션을 설정하는 방법에 대해 알아보십시오.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/14LYGw55vIlhbg71AApSGuuUKzaFEmStaUcw-Uig87E
+TQID: 'https://experienceleague.adobe.com/14LYGw55vIlhbg71AApSGuuUKzaFEmStaUcw-Uig87E'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1044
+source-wordcount: '1044'
 ht-degree: 3%
-
 ---
-
 # 테이블 요금 배송
 
 _테이블 속도_ 배달 방법은 다음을 포함한 조건의 조합을 기준으로 배달 속도를 계산하는 데이터 테이블을 참조합니다.
@@ -48,7 +56,7 @@ _테이블 속도_ 배달 방법은 다음을 포함한 조건의 조합을 기�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널의 _[!UICONTROL Sales]_&#x200B;섹션에서&#x200B;**[!UICONTROL Delivery Methods]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 패널의 _[!UICONTROL Sales]_섹션에서&#x200B;**[!UICONTROL Delivery Methods]**을(를) 선택합니다.
 
 1. **[!UICONTROL Table Rates]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
@@ -84,8 +92,8 @@ _테이블 속도_ 배달 방법은 다음을 포함한 조건의 조합을 기�
 
    - **[!UICONTROL Calculate Handling Fee]** 설정:
 
-      - `Fixed`
-      - `Percent`
+     - `Fixed`
+     - `Percent`
 
    - 요금을 계산하는 데 사용된 방법에 따라 **[!UICONTROL Handling Fee]** 요금을 입력하십시오.
 
@@ -98,7 +106,7 @@ _테이블 속도_ 배달 방법은 다음을 포함한 조건의 조합을 기�
 1. **[!UICONTROL Ship to Applicable Countries]** 설정:
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객이 이 게재 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Ship to Specific Countries]_&#x200B;목록이 나타납니다. 목록에서 이 게재 방법을 사용할 수 있는 각 국가를 선택합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Ship to Specific Countries]_목록이 나타납니다. 목록에서 이 게재 방법을 사용할 수 있는 각 국가를 선택합니다.
 
 1. 테이블 속도를 항상 표시하려면 **[!UICONTROL Show Method if Not Applicable]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -129,10 +137,10 @@ _테이블 속도_ 배달 방법은 다음을 포함한 조건의 조합을 기�
 1. 운송 계산 조건에 대한 적절한 값으로 테이블을 완료합니다.
 
    - 모든 범주에서 가능한 모든 값을 나타내는 와일드카드로 별표(*)를 사용합니다.
-   - _[!UICONTROL Country]_&#x200B;열에는 각 행에 대해 [올바른 3자 코드](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)가 있어야 합니다.
+   - _[!UICONTROL Country]_열에는 각 행에 대해 [올바른 3자 코드](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)가 있어야 합니다.
    - 특정 위치가 목록의 맨 위에 있고 와일드카드 위치가 맨 아래에 있도록 데이터를 _[!UICONTROL Region/State]_(으)로 정렬합니다. 이 방법을 사용하면 먼저 절대값이 있는 규칙을 처리하고 나중에 와일드카드 값을 처리합니다.
-   - 우편 번호 범위는 지원되지 않습니다. 영역/상태 내의 모든 코드를 허용하려면 별표(*)를 사용하거나 _[!UICONTROL Zip/Postal Code]_&#x200B;열에서 특정 위치에 대한 단일 코드를 지정합니다.
-   - _[!UICONTROL Weight (and above)]_&#x200B;열의 값은 최대 소수 네 자리를 가질 수 있습니다(예: `2.5075`). 데이터에서 소수점 이하 자리 수를 더 많이 사용하면 가져오기가 실패합니다.
+   - 우편 번호 범위는 지원되지 않습니다. 영역/상태 내의 모든 코드를 허용하려면 별표(*)를 사용하거나 _[!UICONTROL Zip/Postal Code]_열에서 특정 위치에 대한 단일 코드를 지정합니다.
+   - _[!UICONTROL Weight (and above)]_열의 값은 최대 소수 네 자리를 가질 수 있습니다(예: `2.5075`). 데이터에서 소수점 이하 자리 수를 더 많이 사용하면 가져오기가 실패합니다.
 
    ![가중치와 대상(오스트레일리아)](./assets/table-rates-weight-destination-csv.png){width="500"}
 

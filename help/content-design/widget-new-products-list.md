@@ -3,28 +3,38 @@ title: 새 제품 목록 위젯
 description: 새 제품 목록 위젯을 사용하여 가장 최근에 추가된 제품 목록을 표시하는 방법에 대해 알아봅니다.
 exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 feature: Page Content, Products
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/zFJ9KJgBGtqDaCf-5ZLKHaPquWikVtG90g01QjGo1m0
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: 'https://experienceleague.adobe.com/zFJ9KJgBGtqDaCf-5ZLKHaPquWikVtG90g01QjGo1m0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 638
+source-wordcount: '638'
 ht-degree: 0%
-
 ---
-
 # 새 제품 목록 위젯
 
 새 제품 목록은 다이내믹 컨텐츠의 예제이며 제품 카탈로그에서 가져오는 라이브 데이터로 구성됩니다. 기본적으로 _새 제품_ 목록에는 가장 최근에 추가된 제품 중 처음 8개가 포함됩니다. 그러나 지정된 날짜 범위 내의 제품만 포함하도록 구성할 수도 있습니다.
@@ -37,7 +47,7 @@ ht-degree: 0%
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce 스토어의 경우 [업데이트 예약](content-staging-scheduled-update.md)을 참조한 다음 이 페이지의 2단계를 계속 진행하십시오.
 
-_[!UICONTROL Set Product as New]_&#x200B;날짜 범위 설정은 예약된 업데이트에서만 구성할 수 있습니다.
+_[!UICONTROL Set Product as New]_날짜 범위 설정은 예약된 업데이트에서만 구성할 수 있습니다.
 
 제품을 새 제품으로 설정하면 _새 제품_ 목록에 제품이 추가됩니다. 목록에 더 이상 포함하지 않으려는 경우 언제든지 설정을 다시 변경할 수 있습니다.
 
@@ -61,7 +71,7 @@ _[!UICONTROL Set Product as New]_&#x200B;날짜 범위 설정은 예약된 업�
 
 1. 오른쪽 상단에서 **[!UICONTROL Add Widget]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Settings]_&#x200B;섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Settings]_섹션에서 다음을 수행합니다.
 
    - **[!UICONTROL Type]**&#x200B;을(를) `Catalog New Products List`(으)로 설정합니다.
 
@@ -71,7 +81,7 @@ _[!UICONTROL Set Product as New]_&#x200B;날짜 범위 설정은 예약된 업�
 
    ![새 제품 목록 위젯 설정](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Storefront Properties]_&#x200B;섹션에서 다음을 수행합니다.
+1. _[!UICONTROL Storefront Properties]_섹션에서 다음을 수행합니다.
 
    - **[!UICONTROL Widget Title]**&#x200B;의 경우 위젯에 대한 설명 제목을 입력합니다. 이 제목은 _관리자_&#x200B;에서만 볼 수 있습니다.
 
@@ -85,7 +95,7 @@ _[!UICONTROL Set Product as New]_&#x200B;날짜 범위 설정은 예약된 업�
 
 ## 3단계: 위치 선택
 
-1. _[!UICONTROL Layout Updates]_&#x200B;섹션에서&#x200B;**[!UICONTROL Add Layout Update]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Layout Updates]_섹션에서&#x200B;**[!UICONTROL Add Layout Update]**을(를) 클릭합니다.
 
 1. **[!UICONTROL Display On]**&#x200B;을(를) `Specified Page.`(으)로 설정
 
@@ -111,7 +121,7 @@ _[!UICONTROL Set Product as New]_&#x200B;날짜 범위 설정은 예약된 업�
 1. **[!UICONTROL Display Products]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Products` - 가장 최근에 추가된 항목부터 차례로 제품을 나열합니다.
-   - `New Products` - _new_(으)로 식별된 제품만 나열합니다. 제품은 _[!UICONTROL Set Product As New From/To]_&#x200B;에 지정된 날짜 범위 동안 새로운 것으로 간주됩니다. 새 제품을 정의하지 않고 날짜 범위가 만료되면 목록이 비어 있습니다.
+   - `New Products` - _new_(으)로 식별된 제품만 나열합니다. 제품은 _[!UICONTROL Set Product As New From/To]_에 지정된 날짜 범위 동안 새로운 것으로 간주됩니다. 새 제품을 정의하지 않고 날짜 범위가 만료되면 목록이 비어 있습니다.
 
 1. 여러 페이지가 있는 목록에 탐색 컨트롤을 제공하려면 **[!UICONTROL Display Page Control]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -135,4 +145,4 @@ _[!UICONTROL Set Product as New]_&#x200B;날짜 범위 설정은 예약된 업�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**(으)로 이동합니다.
 
-1. 그리드에서 _새 제품_ 목록이 표시될 페이지를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Preview]**&#x200B;링크를 클릭합니다.
+1. 그리드에서 _새 제품_ 목록이 표시될 페이지를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Preview]**링크를 클릭합니다.

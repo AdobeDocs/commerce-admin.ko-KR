@@ -3,27 +3,35 @@ title: 속성 집합
 description: 속성을 그룹으로 구성하여 제품 레코드에서 표시되는 위치를 결정하는 방법을 알아봅니다.
 exl-id: de0c5fa2-158c-44ff-b84d-e4904ed8aa7d
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/MXe9ockAmhKgFC-ND2CUxqHRAsShfA5Tf8yJsJWy04o
+TQID: 'https://experienceleague.adobe.com/MXe9ockAmhKgFC-ND2CUxqHRAsShfA5Tf8yJsJWy04o'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '393'
 ht-degree: 0%
-
 ---
-
 # 속성 집합
 
 제품을 만들 때 첫 번째 단계 중 하나는 제품 레코드의 템플릿으로 사용되는 속성 세트를 선택하는 것입니다. 속성 세트는 데이터 입력 중에 사용할 수 있는 필드와 고객에게 표시되는 값을 결정합니다.
@@ -56,7 +64,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >시스템 특성이 점으로 표시되어 _[!UICONTROL Groups]_&#x200B;목록에서 제거할 수 없습니다. 그러나 속성 세트의 다른 그룹으로 드래그할 수 있습니다.
+   >시스템 특성이 점으로 표시되어 _[!UICONTROL Groups]_목록에서 제거할 수 없습니다. 그러나 속성 세트의 다른 그룹으로 드래그할 수 있습니다.
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -64,7 +72,7 @@ ht-degree: 0%
 
 ## 속성 그룹 만들기
 
-1. 특성 집합의 _[!UICONTROL Groups]_&#x200B;열에서&#x200B;**[!UICONTROL Add New]**&#x200B;을(를) 클릭합니다.
+1. 특성 집합의 _[!UICONTROL Groups]_열에서&#x200B;**[!UICONTROL Add New]**을(를) 클릭합니다.
 
 1. 새 그룹의 **[!UICONTROL Name]**&#x200B;을(를) 입력하고 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 

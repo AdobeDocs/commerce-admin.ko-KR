@@ -3,30 +3,46 @@ title: 견적 협상
 description: 견적 협상 워크플로우와 구매자를 위한 작업 방법에 대해 알아봅니다.
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-TQID: https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU
+TQID: 'https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2249
+source-wordcount: '2277'
 ht-degree: 0%
-
 ---
-
 # 견적 협상
 
 구성에서 [B2B 견적이 활성화](configure-quotes.md)된 경우, 가격 협상은 회사의 승인된 구매자 또는 영업 사원이 시작할 수 있습니다.
@@ -50,7 +66,7 @@ ht-degree: 0%
 
 1. 관리 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**(으)로 이동합니다.
 
-   새 요청이 _[!UICONTROL Quotes]_&#x200B;표에 나타납니다.
+   새 요청이 _[!UICONTROL Quotes]_표에 나타납니다.
 
 1. _작업_ 열에서 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 
@@ -58,13 +74,13 @@ ht-degree: 0%
 
 ## 2단계: 견적 수정
 
-1. _[!UICONTROL Quote & Account Information]_&#x200B;에서_&#x200B;달력&#x200B;_(![달력 아이콘](../assets/icon-calendar.png)) 아이콘을 클릭합니다.
+1. _[!UICONTROL Quote & Account Information]_에서_&#x200B;달력&#x200B;_(![달력 아이콘](../assets/icon-calendar.png)) 아이콘을 클릭합니다.
 
    ![견적 및 계정 정보](./assets/quote-details-account-information.png){width="575" zoomable="yes"}
 
 1. 견적에 대해 **[!UICONTROL Expiration Date]**&#x200B;을(를) 선택하십시오.
 
-1. _[!UICONTROL Quote Totals]_&#x200B;섹션까지 아래로 스크롤하고 필요에 따라&#x200B;**[!UICONTROL Negotiated Price]**&#x200B;을(를) 업데이트합니다.
+1. _[!UICONTROL Quote Totals]_섹션까지 아래로 스크롤하고 필요에 따라&#x200B;**[!UICONTROL Negotiated Price]**을(를) 업데이트합니다.
 
    ![협상 가격 업데이트](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -82,7 +98,7 @@ ht-degree: 0%
 
 ### 라인 항목 업데이트 적용
 
-필요한 경우 _[!UICONTROL Items Quoted]_&#x200B;섹션에서 라인 항목 변경 내용을 적용합니다.
+필요한 경우 _[!UICONTROL Items Quoted]_섹션에서 라인 항목 변경 내용을 적용합니다.
 
 ![라인 항목 업데이트 적용](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
@@ -93,11 +109,11 @@ ht-degree: 0%
   [!UICONTROL Configure] 옵션은 구성 가능한 제품의 라인 항목에서만 사용할 수 있습니다.
 
 - **[!UICONTROL Action]** 메뉴에서 항목을 업데이트할 동작을 선택하십시오.
-   - **할인 항목**(백분율, 고정 금액 또는 기본 가격)로 할인을 적용합니다.
-선택적으로 추가 할인을 방지하기 위해 할인 금액을 잠글 수 있습니다. 할인이 잠겨있지 않으면,
-라인 품목 할인과 견적 레벨 할인은 모두 제품 가격에 적용됩니다.
-   - **구매자에게 메모를 남기기** 구매자에게 항목에 대한 추가 정보를 제공하기 위해
-   - 견적에 있는 항목을 제거하려면 **제거**&#x200B;하십시오.
+  - **할인 항목**(백분율, 고정 금액 또는 기본 가격)로 할인을 적용합니다.
+    선택적으로 추가 할인을 방지하기 위해 할인 금액을 잠글 수 있습니다. 할인이 잠겨있지 않으면,
+    라인 품목 할인과 견적 레벨 할인은 모두 제품 가격에 적용됩니다.
+  - **구매자에게 메모를 남기기** 구매자에게 항목에 대한 추가 정보를 제공하기 위해
+  - 견적에 있는 항목을 제거하려면 **제거**&#x200B;하십시오.
 
 ### 변경 사항 적용 및 업데이트
 
@@ -117,7 +133,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Proposed Shipping Price]** 입력.
 
-   제안된 배송 가격을 반영하도록 _[!UICONTROL Quote Totals]_&#x200B;이(가) 업데이트됩니다.
+   제안된 배송 가격을 반영하도록 _[!UICONTROL Quote Totals]_이(가) 업데이트됩니다.
 
 ### 지원 문서 첨부
 
@@ -129,7 +145,7 @@ ht-degree: 0%
 
 ## 3단계: 견적 수준 정보 업데이트 및 회신 보내기
 
-1. _[!UICONTROL Comments]_&#x200B;탭의&#x200B;_[!UICONTROL Negotiation]_ 섹션에서 **[!UICONTROL Add your comment]** 섹션에 회신을 입력합니다.
+1. _[!UICONTROL Comments]_탭의_[!UICONTROL Negotiation]_ 섹션에서 **[!UICONTROL Add your comment]** 섹션에 회신을 입력합니다.
 
 1. 지원 문서를 포함하려면 **[!UICONTROL Attach file]**&#x200B;을(를) 클릭하고 디렉터리에서 파일을 선택하십시오.
 
@@ -137,11 +153,11 @@ ht-degree: 0%
 
 1. 견적에 할인을 적용하려면
 
-   - _[!UICONTROL Negotiated Price]_&#x200B;섹션의&#x200B;_[!UICONTROL Quote Totals]_&#x200B;에서 다음 할인 유형 중 하나를 선택하십시오.
+   - _[!UICONTROL Negotiated Price]_섹션의_[!UICONTROL Quote Totals]_&#x200B;에서 다음 할인 유형 중 하나를 선택하십시오.
 
-      - `Percentage Discount`: 할인율을 적용하면 원래 가격이 특정 비율로 줄어듭니다.
-      - `Amount Discount`: 금액 할인은 고정 가격 인하를 적용합니다.
-      - `Proposed Price`: 제안된 가격 할인은 원래 가격과 관계없이 최종 가격을 특정 금액으로 설정합니다.
+     - `Percentage Discount`: 할인율을 적용하면 원래 가격이 특정 비율로 줄어듭니다.
+     - `Amount Discount`: 금액 할인은 고정 가격 인하를 적용합니다.
+     - `Proposed Price`: 제안된 가격 할인은 원래 가격과 관계없이 최종 가격을 특정 금액으로 설정합니다.
 
    - 퍼센트 또는 고정 가격으로 금액을 입력합니다.
 
@@ -149,9 +165,9 @@ ht-degree: 0%
 
    - 각 라인 품목 또는 견적에 대해 전체적으로 할인을 적용할 수 있습니다.
 
-      - **라인 항목 할인**: 라인 항목 할인은 장바구니의 개별 항목에 적용됩니다. 할인은 `percentage`, 특정 `amount` 또는 `proposed price`일 수 있습니다.
-      - **장바구니 수준 할인**: 장바구니 수준 할인이 전체 장바구니에 적용됩니다. 할인은 `percentage` 또는 특정 `amount`일 수 있으며 총 장바구니 값에 적용됩니다.
-      - **장바구니와 라인 항목 할인의 조합**: 경우에 따라 장바구니와 라인 항목 수준 모두에서 할인이 적용될 수 있습니다. 라인 항목 할인이 먼저 적용된 다음 나머지 합계에 대한 장바구니 수준 할인이 적용됩니다.
+     - **라인 항목 할인**: 라인 항목 할인은 장바구니의 개별 항목에 적용됩니다. 할인은 `percentage`, 특정 `amount` 또는 `proposed price`일 수 있습니다.
+     - **장바구니 수준 할인**: 장바구니 수준 할인이 전체 장바구니에 적용됩니다. 할인은 `percentage` 또는 특정 `amount`일 수 있으며 총 장바구니 값에 적용됩니다.
+     - **장바구니와 라인 항목 할인의 조합**: 경우에 따라 장바구니와 라인 항목 수준 모두에서 할인이 적용될 수 있습니다. 라인 항목 할인이 먼저 적용된 다음 나머지 합계에 대한 장바구니 수준 할인이 적용됩니다.
 
 1. 견적을 보내거나 저장합니다.
 
@@ -177,7 +193,7 @@ ht-degree: 0%
 
 | 단추 | 설명 |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | 변경 내용을 저장하지 않고 _[!UICONTROL Quotes]_&#x200B;페이지로 돌아갑니다. |
+| [!UICONTROL Back] | 변경 내용을 저장하지 않고 _[!UICONTROL Quotes]_페이지로 돌아갑니다. |
 | [!UICONTROL Print] | 견적을 프린터로 보내거나 PDF 파일로 저장합니다. |
 | [!UICONTROL Create Copy] | 원래 이름에 `(copy)`이(가) 추가된 현재 견적의 복사본을 만들고 엽니다. [!UICONTROL Name] 필드를 편집하여 새 견적의 이름을 바꾸십시오. 새 견적을 초안으로 저장하거나 고객에게 전송하여 처리합니다. |
 | 템플릿 만들기 | 현재 견적을 기반으로 견적 템플리트를 생성합니다. 견적 템플리트는 구매자와 판매자가 여러 견적에 적용할 수 있는 계약 및 가격 조건에 동의할 수 있도록 함으로써 견적 협상을 간소화합니다. . 계약 시 구매자는 견적 요청(RFQ) 프로세스를 다시 시작하는 대신 후속 주문에 대해 템플릿에서 사전 승인된 연결 견적을 생성할 수 있습니다. |

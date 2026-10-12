@@ -3,27 +3,37 @@ title: 속성을 반환합니다.
 description: 반환 특성과 스토어에서 반환을 처리하는 데 필요한 특성을 만드는 방법에 대해 알아봅니다.
 exl-id: 639c1e94-1211-4a4e-8599-e54ed99b2355
 feature: Attributes, Returns
-TQID: https://experienceleague.adobe.com/bKSZbmmyG9CWVIf0GzCgGImzHRIUV8HgD6asutC7lFo
+TQID: 'https://experienceleague.adobe.com/bKSZbmmyG9CWVIf0GzCgGImzHRIUV8HgD6asutC7lFo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 76cfaac4-e563-56dd-8938-708bf8b84956
+    internal-label: Attributes
+  - id: ac07462c-732c-5c1c-947b-4ce533b4fcfb
+    internal-label: Returns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '306'
 ht-degree: 0%
-
 ---
-
 # 속성을 반환합니다.
 
 {{ee-feature}}
@@ -77,7 +87,7 @@ ht-degree: 0%
    - `Strip HTML Tags`
    - `Escape  HTML Entities`
 
-1. 특성이 고객에게 표시되도록 하려면 _[!UICONTROL Storefront Properties]_&#x200B;섹션에서&#x200B;**[!UICONTROL Show on Storefront]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+1. 특성이 고객에게 표시되도록 하려면 _[!UICONTROL Storefront Properties]_섹션에서&#x200B;**[!UICONTROL Show on Storefront]**을(를) `Yes`(으)로 설정하십시오.
 
 1. (선택 사항) **[!UICONTROL Sort Order]**&#x200B;에 숫자를 입력하여 페이지의 동일한 부분에 있는 다른 속성과 관련하여 이 특성이 표시되는 위치를 결정합니다. (`0` = 첫 번째, `1` = 두 번째, `2` = 세 번째 등)
 

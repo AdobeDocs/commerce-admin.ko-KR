@@ -3,27 +3,35 @@ title: '[!UICONTROL Customers] > [!UICONTROL Promotions]'
 description: Commerce 관리자의 [!UICONTROL Customers] > [!UICONTROL Promotions] 페이지에서 구성 설정을 검토합니다.
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
-TQID: https://experienceleague.adobe.com/Sc1-Wacd9emNUOl9GabUK-J3OLH-eNX2hvk6m8oyjYc
+TQID: 'https://experienceleague.adobe.com/Sc1-Wacd9emNUOl9GabUK-J3OLH-eNX2hvk6m8oyjYc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 19d9b313-1a3c-5bed-9da7-4364f71c3a28
+    internal-label: Promotions/Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 330
-ht-degree: 0%
-
+source-wordcount: '334'
+ht-degree: 2%
 ---
-
 # [!UICONTROL Customers] > [!UICONTROL Promotions]
 
 {{config}}
@@ -34,7 +42,7 @@ ht-degree: 0%
 
 ![자동화된 전자 메일 미리 알림 규칙](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
 
-<!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
+<!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -52,7 +60,7 @@ ht-degree: 0%
 
 ![특정 쿠폰 코드 자동 생성](./assets/promotions-auto-generated-specific-coupon-codes.png)<!-- zoom -->
 
-<!-- [Auto Generated Specific Coupon Codes](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#configure-coupon-codes)  -->
+<!-- [Auto Generated Specific Coupon Codes](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#configure-coupon-codes)  -->
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
@@ -60,6 +68,6 @@ ht-degree: 0%
 | [!UICONTROL Code Format] | 글로벌 | 쿠폰 코드 형식을 정의합니다. 옵션은 다음과 같습니다. <br/>**`Alphanumeric`**- 문자와 숫자의 모든 조합.<br/>**`Alphabetical`** - 문자만 <br/>**`Numeric`**- 숫자만 |
 | [!UICONTROL Code Prefix] | 글로벌 | 모든 쿠폰 코드의 시작 부분에 추가되는 값입니다. 접두사를 사용하지 않으려면 필드를 비워 둡니다. |
 | [!UICONTROL Code Suffix] | 글로벌 | 모든 코드의 끝에 추가되는 값입니다. 접미사를 사용하지 않으려면 필드를 비워 둡니다. |
-| [!UICONTROL Dash Every X Characters] | 글로벌 | 모든 쿠폰 코드에 대시(-)를 삽입하는 간격입니다. 대시를 사용하지 않으려면 필드를 비워 둡니다. <br/>_&#x200B;**참고:**&#x200B;_ 대시 값만 다른 쿠폰 코드는 다른 코드로 간주됩니다. |
+| [!UICONTROL Dash Every X Characters] | 글로벌 | 모든 쿠폰 코드에 대시(-)를 삽입하는 간격입니다. 대시를 사용하지 않으려면 필드를 비워 둡니다. <br/>_**참고:**_ 대시 값만 다른 쿠폰 코드는 다른 코드로 간주됩니다. |
 
 {style="table-layout:auto"}

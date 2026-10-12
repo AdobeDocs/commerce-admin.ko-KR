@@ -1,29 +1,39 @@
 ---
 title: 재고 수량 관리
-description: ' [!DNL Inventory Management]의 새 제품 및 기존 제품에 대한 소스 및 소스당 수량을 할당하는 관리 절차의 개요입니다.'
+description: '[!DNL Inventory Management]의 새 제품 및 기존 제품에 대한 소스 및 소스당 수량을 할당하는 관리 절차의 개요입니다.'
 exl-id: b3d4a4c0-725a-4e62-854f-efb6a5709f73
 feature: Inventory, Products
-TQID: https://experienceleague.adobe.com/ykiHTLnzZGtJrRdp2wZvlL7YLbEb7iAiYlcbY8K7IX8
+TQID: 'https://experienceleague.adobe.com/ykiHTLnzZGtJrRdp2wZvlL7YLbEb7iAiYlcbY8K7IX8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 325
+source-wordcount: '325'
 ht-degree: 0%
-
 ---
-
 # 재고 수량 관리
 
 신규 또는 기존 제품에 대한 출처와 수량을 지정하려면 다음 지침을 따르십시오.
@@ -38,7 +48,7 @@ ht-degree: 0%
 
 - 복수 출처 판매자는 각 위치(창고, 상점, 직송 업체 등)에 대해 제품당 복수 출처와 수량을 지정할 수 있습니다. 제품 재고 금액을 설정하기 전에 소스를 추가하는 것이 좋습니다.
 
-제품에 출처 및 수량을 추가할 때 제품 그리드를 통해 금액을 조회할 수 있습니다. 원본 수가 많은 경우 _[!UICONTROL Quantity per Source]_&#x200B;위로 마우스를 가져가면 현재 수량이 있는 스크롤 가능한 전체 원본 목록을 볼 수 있습니다.
+제품에 출처 및 수량을 추가할 때 제품 그리드를 통해 금액을 조회할 수 있습니다. 원본 수가 많은 경우 _[!UICONTROL Quantity per Source]_위로 마우스를 가져가면 현재 수량이 있는 스크롤 가능한 전체 원본 목록을 볼 수 있습니다.
 
 ![소스당 제품 수량](assets/inventory-product-quantity.png){width="600" zoomable="yes"}
 

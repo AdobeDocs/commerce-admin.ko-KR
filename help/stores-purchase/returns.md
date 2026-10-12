@@ -3,30 +3,38 @@ title: 반환
 description: 반품 워크플로우와 반품 승인 발행에 대해 알아봅니다.
 exl-id: 9dde0360-aa99-4fc4-92ff-976d9874ffec
 feature: Returns
-TQID: https://experienceleague.adobe.com/aqLSVZ943i7njT3XKZowZo9KhQz4azqZ6watc4J1w-Y
+TQID: 'https://experienceleague.adobe.com/aqLSVZ943i7njT3XKZowZo9KhQz4azqZ6watc4J1w-Y'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: ac07462c-732c-5c1c-947b-4ce533b4fcfb
+    internal-label: Returns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 687
+source-wordcount: '687'
 ht-degree: 0%
-
 ---
-
 # 반환
 
-_반품된 상품 승인_(RMA)은 교환 또는 환불을 위해 품목을 반품하도록 요청하는 고객에게 부여될 수 있습니다. 일반적으로 고객은 가맹점에 연락하여 환불을 요청합니다. 승인된 경우, 반품 제품을 식별하기 위해 고유한 RMA 번호가 지정됩니다. 구성에서 모든 제품에 대해 RMA를 활성화하거나 특정 제품에 대해서만 RMA를 허용할 수 있습니다. _[!UICONTROL Returns]_&#x200B;그리드는 현재 반품된 제품 요청(RMA)을 나열하며 새 반품된 요청을 입력하는 데 사용됩니다.
+_반품된 상품 승인_(RMA)은 교환 또는 환불을 위해 품목을 반품하도록 요청하는 고객에게 부여될 수 있습니다. 일반적으로 고객은 가맹점에 연락하여 환불을 요청합니다. 승인된 경우, 반품 제품을 식별하기 위해 고유한 RMA 번호가 지정됩니다. 구성에서 모든 제품에 대해 RMA를 활성화하거나 특정 제품에 대해서만 RMA를 허용할 수 있습니다. _[!UICONTROL Returns]_그리드는 현재 반품된 제품 요청(RMA)을 나열하며 새 반품된 요청을 입력하는 데 사용됩니다.
 
 ![그리드를 반환합니다](./assets/return.png){width="600" zoomable="yes"}
 
@@ -86,7 +94,7 @@ RMA는 단순, 그룹화, 구성 및 번들 제품 유형에 대해 발급할 �
 
 1. 반환 요청을 만들려면 `Complete` 상태의 주문을 클릭합니다.
 
-1. _[!UICONTROL Return Information]_&#x200B;섹션에서&#x200B;**[!UICONTROL Return Items]**&#x200B;탭을 선택합니다.
+1. _[!UICONTROL Return Information]_섹션에서&#x200B;**[!UICONTROL Return Items]**탭을 선택합니다.
 
 1. 반환할 항목을 추가하려면 **[!UICONTROL Add Items]**&#x200B;을(를) 클릭하십시오.
 

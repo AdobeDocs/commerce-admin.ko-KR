@@ -3,43 +3,67 @@ title: Adobe의 확장
 description: Adobe에서 발표한 Adobe Commerce 및 Magento Open Source 확장에 대한 정보를 검토하십시오.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/-QGqm0VMRlCNuKqHGdGVKjs8ZgNcjYZjFaeIFsOLWCA
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: 'https://experienceleague.adobe.com/-QGqm0VMRlCNuKqHGdGVKjs8ZgNcjYZjFaeIFsOLWCA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+    internal-label: Commerce ecosystem
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+  - id: dad884f1-e840-49a1-970e-2f965bdbc410
+    internal-label: Extensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+    internal-label: Content reuse
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1430
+source-wordcount: '1430'
 ht-degree: 0%
-
 ---
-
 # Adobe의 확장
 
 이 항목에서는 Adobe에서 출시한 Adobe Commerce 및 Magento Open Source용 PHP 확장에 대한 정보를 제공합니다.
@@ -145,7 +169,7 @@ Adobe에서는 Composer를 사용하여 별도로 설치해야 하는 추가 확
 
 라이브 서치는 AI가 제공하는 검색 솔루션에 &#39;검색할 때 바로 검색&#39; 기능을 실시간으로 제공하는 Adobe Commerce 전용 기능입니다. 쇼핑객이 입력하는 동안 제품 썸네일과 함께 쇼핑 행동에 따라 필터를 자동으로 조정하는 지능형 페이스팅으로 빠르고 관련성이 높은 결과를 제공합니다. 이 솔루션에는 제품 부양 및 매립을 위한 머천다이징 기능, 동의어 관리 및 검색 분석이 포함됩니다. 추가 비용 없이 Adobe Commerce에 포함된 [!DNL Live Search]은(는) 기본 검색 기능을 보다 정교한 SaaS 기반 검색 환경으로 대체합니다. 시작하려면 최소한의 구성이 필요합니다.
 
-구현 세부 정보 및 기술 요구 사항은 [Live Search 사용 안내서](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)를 참조하십시오.
+구현 세부 정보 및 기술 요구 사항은 [Live Search 사용 안내서](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)를 참조하십시오.
 
 ### [!DNL Product Recommendations]
 
@@ -153,7 +177,7 @@ Adobe에서는 Composer를 사용하여 별도로 설치해야 하는 추가 확
 
 [!DNL Product Recommendations]은(는) Adobe AI 기술을 기반으로 하는 Adobe Commerce 전용 기능으로, 고객 쇼핑 여정 전반에 개인화된 제품 제안을 제공합니다. 이 솔루션은 구매자 행동 및 제품 관계를 실시간으로 분석하여 관련 권장 사항을 자동으로 생성하며, 수동 머천다이징 규칙이 필요하지 않습니다. 이 AI 기반 접근 방식은 전환율과 매출 잠재력을 높이는 동시에 쇼핑객을 위한 보다 매력적인 제품 검색 경험을 만드는 데 도움이 됩니다.
 
-구현 세부 정보 및 모범 사례는 [[!DNL Product Recommendations] 사용 안내서](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/overview)를 참조하세요.
+구현 세부 정보 및 모범 사례는 [[!DNL Product Recommendations] 사용 안내서](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview)를 참조하세요.
 
 ### [!DNL Catalog Service]
 
@@ -161,7 +185,7 @@ Adobe에서는 Composer를 사용하여 별도로 설치해야 하는 추가 확
 
 [!DNL Catalog Service]은(는) GraphQL 끝점을 통해 카탈로그 데이터에 최적화된 액세스를 제공하는 Adobe Commerce 및 Magento Open Source용 고성능 솔루션입니다. 제품 세부 사항 및 관련 정보에 대해 별도의 동기화된 데이터베이스를 유지 관리하므로 직접적인 애플리케이션 통신을 우회하여 보다 빠른 페이지 로드 시간을 제공합니다. 이 서비스는 특히 제품 세부 사항 페이지, 카테고리 목록 및 검색 결과 페이지에 유용하며, 따라서 기존 및 Headless 상거래 구현에 모두 적합합니다.
 
-설치 지침 및 기술적인 세부 정보는 [[!DNL Catalog Service] 사용 안내서](https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/guide-overview)를 참조하십시오.
+설치 지침 및 기술적인 세부 정보는 [[!DNL Catalog Service] 사용 안내서](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -173,4 +197,4 @@ Adobe에서는 Composer를 사용하여 별도로 설치해야 하는 추가 확
 
 [!DNL Payment Services]은(는) 포괄적인 결제 처리 기능을 제공하는 Adobe Commerce 및 Magento Open Source 스토어를 위한 턴키 결제 솔루션입니다. 이 서비스는 보안 결제 게이트웨이 기능과 내장된 사기 방지 기능을 통합하는 동시에 신용/직불 카드, PayPal, Venmo(미국), PayLater 플랜을 비롯한 다양한 결제 옵션을 제공합니다. Commerce 관리 인터페이스를 통한 통합 거래 보고 및 주문 관리 기능이 있어 가맹점이 한 곳에서 결제 추적, 현금 흐름 관리, 금융 데이터 조정 등을 모두 손쉽게 할 수 있다.
 
-자세한 구성 단계 및 결제 방법은 [[!DNL Payment Services] 사용 안내서](https://experienceleague.adobe.com/ko/docs/commerce/payment-services/introduction)를 참조하세요.
+자세한 구성 단계 및 결제 방법은 [[!DNL Payment Services] 사용 안내서](https://experienceleague.adobe.com/en/docs/commerce/payment-services/introduction)를 참조하세요.

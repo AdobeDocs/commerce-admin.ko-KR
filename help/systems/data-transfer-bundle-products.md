@@ -3,27 +3,37 @@ title: 번들 제품 가져오기
 description: 번들 제품에 대한 제품 데이터 가져오기의 예를 검토하십시오.
 exl-id: 52146979-9911-449b-9f14-54377e2ae9f4
 feature: Products, Data Import/Export
-TQID: https://experienceleague.adobe.com/UeGDyElWBOH7kUeeb7Bhqksp-hQ-jq5FkoYTWMShF6A
+TQID: 'https://experienceleague.adobe.com/UeGDyElWBOH7kUeeb7Bhqksp-hQ-jq5FkoYTWMShF6A'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 628
+source-wordcount: '628'
 ht-degree: 0%
-
 ---
-
 # 번들 제품 가져오기
 
 번들 제품은 선택 품목을 제시하며 고객이 구매하고자 하는 품목을 선택할 수 있도록 한다. 번들을 구성하는 모든 항목이 카탈로그에 [단순 제품](../catalog/product-create-simple.md) 또는 [가상 제품](../catalog/product-create-virtual.md) 중 하나로 존재합니다. 일반적으로 번들 제품은 관리자에서 만들어지고 업데이트됩니다. 그러나 데이터를 가져와서 번들 제품을 만들거나 기존 번들 제품을 내보내고 데이터를 편집한 후 다시 카탈로그로 가져올 수도 있습니다. Sprite Yoga Companion Kit는 다음 예에서 사용하는 샘플 데이터의 번들 제품입니다.
@@ -69,7 +79,7 @@ ht-degree: 0%
 
 1. 섹션 아래쪽으로 스크롤하여 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL File name]_&#x200B;그리드의&#x200B;_[!UICONTROL Action]_ 열에서 **[!UICONTROL Select]**&#x200B;을(를) 클릭하고 `Download`을(를) 선택합니다.
+1. _[!UICONTROL File name]_그리드의_[!UICONTROL Action]_ 열에서 **[!UICONTROL Select]**&#x200B;을(를) 클릭하고 `Download`을(를) 선택합니다.
 
    파일이 브라우저에서 사용하는 다운로드 위치에 나타납니다.
 
@@ -97,7 +107,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**(으)로 이동합니다.
 
-1. _[!UICONTROL Import Settings]_&#x200B;에서&#x200B;**[!UICONTROL Entity Type]**&#x200B;을(를) `Products`(으)로 설정합니다.
+1. _[!UICONTROL Import Settings]_에서&#x200B;**[!UICONTROL Entity Type]**을(를) `Products`(으)로 설정합니다.
 
 1. **[!UICONTROL Import Behavior]**&#x200B;을(를) `Replace`(으)로 설정합니다.
 
@@ -111,6 +121,6 @@ ht-degree: 0%
 
 1. 파일이 올바른 경우 **[!UICONTROL Import]**&#x200B;을(를) 클릭합니다.
 
-1. 프로세스가 완료되면 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동하여&#x200B;**[!UICONTROL Flush Cache Storage]**&#x200B;을(를) 클릭합니다.
+1. 프로세스가 완료되면 **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동하여&#x200B;**[!UICONTROL Flush Cache Storage]**을(를) 클릭합니다.
 
    이렇게 하면 업데이트된 제품을 매장 전면에서 즉시 사용할 수 있습니다.

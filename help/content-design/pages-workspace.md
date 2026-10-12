@@ -3,25 +3,37 @@ title: 페이지 작업 영역 컨트롤
 description: 콘텐츠 페이지를 찾고 업데이트하는 데 사용되는 작업 영역 도구에 대해 알아봅니다.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: 'https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1385
+source-wordcount: '1385'
 ht-degree: 0%
-
 ---
-
 # 페이지 작업 영역 컨트롤
 
 페이지 작업 공간에는 필요한 페이지를 신속하게 찾을 수 있는 도구와 개별 또는 여러 페이지에서 일상적인 유지 관리를 수행하는 명령이 포함되어 있습니다. 그리드에서 페이지 속성을 빠르게 업데이트할 수도 있습니다.
@@ -91,7 +103,7 @@ ht-degree: 0%
 
 ## 페이지 검색
 
-_[!UICONTROL Pages]_&#x200B;표의 왼쪽 위에 있는 검색 상자를 사용하여 키워드별로 특정 페이지를 찾을 수 있습니다. 고급 검색의 경우 여러 매개 변수로 검색을 [필터링](../getting-started/admin-grid-controls.md)할 수 있습니다.
+_[!UICONTROL Pages]_표의 왼쪽 위에 있는 검색 상자를 사용하여 키워드별로 특정 페이지를 찾을 수 있습니다. 고급 검색의 경우 여러 매개 변수로 검색을 [필터링](../getting-started/admin-grid-controls.md)할 수 있습니다.
 
 ### 키워드로 검색
 
@@ -151,7 +163,7 @@ _[!UICONTROL Pages]_&#x200B;표의 왼쪽 위에 있는 검색 상자를 사용�
 
 ### 단일 작업
 
-맨 오른쪽에 있는 _[!UICONTROL Action]_&#x200B;열을 사용하여 다음 작업을 개별 페이지에 적용합니다.
+맨 오른쪽에 있는 _[!UICONTROL Action]_열을 사용하여 다음 작업을 개별 페이지에 적용합니다.
 
 - [!UICONTROL Edit] - 편집 모드로 페이지를 엽니다.
 - [!UICONTROL Delete] - 페이지를 삭제합니다(확인 필요).
@@ -161,7 +173,7 @@ _[!UICONTROL Pages]_&#x200B;표의 왼쪽 위에 있는 검색 상자를 사용�
 
 ### 대량 작업
 
-왼쪽 상단 모서리의 _[!UICONTROL Action]_&#x200B;선택기를 사용하여 선택한 여러 페이지에 동시에 다음 작업 중 하나를 적용합니다.
+왼쪽 상단 모서리의 _[!UICONTROL Action]_선택기를 사용하여 선택한 여러 페이지에 동시에 다음 작업 중 하나를 적용합니다.
 
 - [!UICONTROL Delete] - 페이지를 삭제합니다(확인 필요).
 - [!UICONTROL Disable] - 상점 첫 화면의 페이지를 사용하지 않도록 설정합니다.

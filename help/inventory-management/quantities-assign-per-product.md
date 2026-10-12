@@ -1,35 +1,46 @@
 ---
 title: 제품당 재고 수량 지정
-description: ' [!DNL Inventory Management] 판매 가능한 재고를 정확하게 유지하기 위해 제품 페이지에서 소스당 현재고 수량 및 임계값을 설정하십시오.'
+description: '[!DNL Inventory Management] 매출 가능한 재고를 정확하게 유지하도록 제품 페이지에서 소스당 현재고 수량 및 임계값을 설정하십시오.'
 exl-id: 935385bb-6657-4d49-980e-96a3d0d3a187
 feature: Inventory, Products
-TQID: https://experienceleague.adobe.com/0OBXyHUbsWVXmEnWEWd0CGcBNhci57w8HGtDCGCWuOk
+TQID: 'https://experienceleague.adobe.com/0OBXyHUbsWVXmEnWEWd0CGcBNhci57w8HGtDCGCWuOk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 208
+source-wordcount: '209'
 ht-degree: 0%
-
 ---
-
 # 제품당 수량 지정
 
 [소스](sources-assign-per-product.md)를 추가한 후 제품에 대한 재고 수량을 업데이트하십시오. 이 값은 현재고 가용 재고 금액을 추적합니다.
 
-원본을 제거하지 않고 원본의 인벤토리를 발송에서 숨기려면 _[!UICONTROL Source Item Status]_&#x200B;을(를) `Out of Stock`(으)로 설정합니다. SSA 및 배송 옵션은 재고 수량이 있는 `In Stock`(으)로 나열된 소스에만 액세스합니다.
+원본을 제거하지 않고 원본의 인벤토리를 발송에서 숨기려면 _[!UICONTROL Source Item Status]_을(를) `Out of Stock`(으)로 설정합니다. SSA 및 배송 옵션은 재고 수량이 있는 `In Stock`(으)로 나열된 소스에만 액세스합니다.
 
 업데이트된 모든 수량 및 출처는 제품 그리드에 표시됩니다.
 
@@ -48,7 +59,7 @@ ht-degree: 0%
 1. 재고 수량에 대한 통지를 설정하려면 다음 중 하나를 수행합니다.
 
    - 사용자 지정 알림 수량 - **[!UICONTROL Use Default]** 확인란의 선택을 취소하고 **[!UICONTROL Notify Qty]**&#x200B;에 금액을 입력하십시오.
-   - 기본 알림 수량 - **[!UICONTROL Use Default]** 확인란을 선택합니다. [!DNL Commerce]이(가) _[!UICONTROL Advanced Inventory]_&#x200B;또는 전역 저장소 구성의 설정을 확인하고 사용합니다.
+   - 기본 알림 수량 - **[!UICONTROL Use Default]** 확인란을 선택합니다. [!DNL Commerce]이(가) _[!UICONTROL Advanced Inventory]_또는 전역 저장소 구성의 설정을 확인하고 사용합니다.
 
    ![Source당 제품 수량 업데이트](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
 
@@ -59,6 +70,6 @@ ht-degree: 0%
    - **[!UICONTROL Save]**(![메뉴 화살표](../assets/icon-menu-down-arrow-red.png)) 메뉴에서 **[!UICONTROL Save & Close]**&#x200B;을(를) 선택합니다.
 
 
-제품 그리드는 모든 소스 및 관련 수량의 목록으로 업데이트됩니다. 소스가 5개 이상 할당된 제품의 경우 _[!UICONTROL Quantity per Source]_&#x200B;열 위로 마우스를 가져가면 전체 목록이 표시됩니다.
+제품 그리드는 모든 소스 및 관련 수량의 목록으로 업데이트됩니다. 소스가 5개 이상 할당된 제품의 경우 _[!UICONTROL Quantity per Source]_열 위로 마우스를 가져가면 전체 목록이 표시됩니다.
 
 ![소스당 제품 수량](assets/inventory-product-quantity.png){width="600" zoomable="yes"}

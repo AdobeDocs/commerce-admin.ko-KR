@@ -3,28 +3,39 @@ title: 뉴스레터 구독자 관리
 description: 간단한 활성 구독 목록을 사용하여 뉴스레터 구독자를 관리하는 방법을 알아봅니다.
 exl-id: c7e8e642-e3fd-4979-9ea3-2d96839730b2
 feature: Customers, Communications
-TQID: https://experienceleague.adobe.com/l4Kmwm62UeLYZva-SCsVHPmf4IbKQhgoyN9N7zo4O0g
+TQID: 'https://experienceleague.adobe.com/l4Kmwm62UeLYZva-SCsVHPmf4IbKQhgoyN9N7zo4O0g'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 509
+source-wordcount: '509'
 ht-degree: 0%
-
 ---
-
 # 뉴스레터 구독자 관리
 
 구독 목록을 정기적으로 관리하고 구독 취소 요청을 처리하는 것이 좋습니다. 일부 관할권에서는 특정 기간 내에 가입 해지 요청을 처리하는 것이 법률상 요구된다.
@@ -41,7 +52,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**(으)로 이동합니다.
 
-1. 그리드에서 고객을 찾고 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 그리드에서 고객을 찾고 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Newsletter]**&#x200B;을(를) 클릭합니다.
 
@@ -73,7 +84,7 @@ ht-degree: 0%
    >
    >일괄 가입을 해지하려면 취소할 각 가입자의 확인란을 선택합니다.
 
-1. _[!UICONTROL Action]_&#x200B;컨트롤을&#x200B;**[!UICONTROL Unsubscribe]**(으)로 설정하고&#x200B;**[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Action]_컨트롤을&#x200B;**[!UICONTROL Unsubscribe]**(으)로 설정하고&#x200B;**[!UICONTROL Submit]**을(를) 클릭합니다.
 
    ![뉴스레터 구독 취소](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
@@ -81,7 +92,7 @@ ht-degree: 0%
 
 ## 구독자 목록 내보내기
 
-1. _[!UICONTROL Newsletter Subscribers]_&#x200B;목록에서 필터 컨트롤을 사용하여_&#x200B;상태&#x200B;_가 `Subscribed`인 레코드와 적절한 웹 사이트, 스토어 또는 스토어 보기에 대한 레코드만 포함합니다.
+1. _[!UICONTROL Newsletter Subscribers]_목록에서 필터 컨트롤을 사용하여_&#x200B;상태&#x200B;_가 `Subscribed`인 레코드와 적절한 웹 사이트, 스토어 또는 스토어 보기에 대한 레코드만 포함합니다.
 
 1. **[!UICONTROL Export to]** 컨트롤을 다음 중 하나로 설정합니다.
 
@@ -98,6 +109,6 @@ ht-degree: 0%
 
 1. 그리드에서 가입자를 찾은 다음 첫 번째 열에서 확인란을 선택합니다.
 
-1. _[!UICONTROL Action]_&#x200B;컨트롤을&#x200B;**[!UICONTROL Delete]**(으)로 설정하고&#x200B;**[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Action]_컨트롤을&#x200B;**[!UICONTROL Delete]**(으)로 설정하고&#x200B;**[!UICONTROL Submit]**을(를) 클릭합니다.
 
 1. 확인 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.

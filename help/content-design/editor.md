@@ -2,14 +2,25 @@
 title: WYSIWYG 편집기
 description: 편집기를 사용하고 _What You See Is What You Get_(WYSIWYG) 보기에서 콘텐츠로 작업하는 방법을 알아봅니다.
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: f7d2ab41318119fc0f3eed32b3619f0b9071c15d
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
-
 ---
-
 # WYSIWYG 편집기
 
 편집기를 사용하면 콘텐츠의 _What You See Is What You Get_(WYSIWYG) 보기에서 작업하는 동안 입력하고 형식을 지정할 수 있습니다. 기본 HTML 코드로 직접 작업하려는 경우 모드를 쉽게 변경할 수 있습니다. 편집기를 사용하여 [페이지](pages.md), [블록](blocks.md) 및 [제품 설명](../catalog/product-content.md)에 대한 콘텐츠를 만들 수 있습니다. 제품 세부 정보를 작업할 때 **[!UICONTROL Show / Hide Editor]**&#x200B;을(를) 클릭하여 편집기에 액세스합니다.
@@ -37,7 +48,7 @@ WYSIWYG 편집기는 기본적으로 활성화되어 있으며 CMS 페이지 및
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL General]_&#x200B;아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL General]_아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Content Management]**을(를) 선택합니다.
 
 1. ![확장 선택기](../assets/icon-display-expand.png) **[!UICONTROL WYSIWYG Options]**&#x200B;을 확장합니다.
 

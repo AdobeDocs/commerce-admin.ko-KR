@@ -4,28 +4,36 @@ description: 회사 계정에 대한 커뮤니케이션을 보내는 데 사용�
 exl-id: fd61c0c6-0887-4ff2-8002-906ff615bad9
 feature: B2B, Companies, Configuration
 role: Admin
-TQID: https://experienceleague.adobe.com/MeNTcQzgfeH-DJ3TVQ-655Okr-Qt5Lv97pGZJ-67sxQ
+TQID: 'https://experienceleague.adobe.com/MeNTcQzgfeH-DJ3TVQ-655Okr-Qt5Lv97pGZJ-67sxQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 0%
-
+source-wordcount: '676'
+ht-degree: 3%
 ---
-
 # 회사 이메일 옵션 구성
 
 회사에 대한 기본 연락처로 할당된 [영업 담당자](account-company-manage.md)은(는) 회사에 보낸 많은 자동 전자 메일 메시지를 보낸 사람으로 기본적으로 구성됩니다.
@@ -44,12 +52,12 @@ ht-degree: 0%
 
    - 새 회사 등록 요청을 받으면 알림을 받을 [스토어 연락처](../getting-started/store-details.md#store-email-addresses)로 **[!UICONTROL Company Registration Email Recipient]**&#x200B;을(를) 설정합니다.
 
-   - **[!UICONTROL Send Company Registration Email Copy To]** 필드에 등록 알림 복사본을 받을 각 사용자의 전자 메일 주소를 입력합니다. 여러 이메일 주소는 쉼표로 구분합니다.
+   - **[!UICONTROL Send Company Registration Email Copy To]** 필드에 등록 알림 복사본을 받을 각 사용자의 전자 메일 주소를 입력합니다. 이메일 주소가 여러 개인 경우 쉼표로 구분합니다.
 
    - 알림 복사본을 보내는 방법을 결정하려면 **[!UICONTROL Send Email Copy Method]**&#x200B;을(를) 다음 중 하나로 설정하십시오.
 
-      - `Bcc` - 고객에게 보내는 것과 동일한 전자 메일의 헤더에 받는 사람을 포함하여 _무료 사본_&#x200B;을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.
-      - `Separate Email` - 복사본을 별도의 전자 메일로 보냅니다.
+     - `Bcc` - 고객에게 보내는 것과 동일한 전자 메일의 헤더에 받는 사람을 포함하여 _무료 사본_&#x200B;을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.
+     - `Separate Email` - 복사본을 별도의 전자 메일로 보냅니다.
 
    - 기본값 대신 사용할 전자 메일 템플릿을 준비한 경우 **[!UICONTROL Default Company Registration Email]**&#x200B;을(를) 템플릿 이름으로 설정합니다. 기본적으로 `Company Registration Request` 템플릿이 사용됩니다.
 
@@ -73,12 +81,12 @@ ht-degree: 0%
 
    - 회사 상태가 변경되면 알림을 받을 [스토어 연락처](../getting-started/store-details.md#store-email-addresses)(으)로 **[!UICONTROL Company Status Change for Email Recipient]**&#x200B;을(를) 설정합니다.
 
-   - **[!UICONTROL Send Company Status Change Email Copy To]** 필드에 상태 변경 알림의 복사본을 받을 각 사용자의 전자 메일 주소를 입력합니다. 여러 이메일 주소는 쉼표로 구분합니다.
+   - **[!UICONTROL Send Company Status Change Email Copy To]** 필드에 상태 변경 알림의 복사본을 받을 각 사용자의 전자 메일 주소를 입력합니다. 이메일 주소가 여러 개인 경우 쉼표로 구분합니다.
 
    - 알림 복사본을 보내는 방법을 결정하려면 **[!UICONTROL Send Email Copy Method]**&#x200B;을(를) 다음 중 하나로 설정하십시오.
 
-      - `Bcc` - 고객에게 보내는 것과 동일한 전자 메일의 헤더에 받는 사람을 포함하여 _무료 사본_&#x200B;을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.
-      - `Separate Email` - 복사본을 별도의 전자 메일로 보냅니다.
+     - `Bcc` - 고객에게 보내는 것과 동일한 전자 메일의 헤더에 받는 사람을 포함하여 _무료 사본_&#x200B;을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.
+     - `Separate Email` - 복사본을 별도의 전자 메일로 보냅니다.
 
    - 회사 상태가 `Pending Approval`에서 `Active`(으)로 변경될 때 기본값 대신 사용할 전자 메일 템플릿이 준비된 경우 **[!UICONTROL Default 'Company Status Change to Active 1' Email]**&#x200B;을(를) 해당 템플릿으로 설정하십시오. 기본적으로 `Company Status Active 1` 템플릿이 사용됩니다.
 
@@ -96,20 +104,20 @@ ht-degree: 0%
 
    - 회사에 할당된 크레딧 한도가 변경되면 알림을 받을 [스토어 연락처](../getting-started/store-details.md#store-email-addresses)로 **[!UICONTROL Company Credit Change Email Sender]**&#x200B;을(를) 설정합니다. 기본적으로 알림은 _영업 담당자_&#x200B;에게 전송됩니다.
 
-   - **[!UICONTROL Send Company Credit Change Email Copy To]** 필드에 신용 변경 알림의 복사본을 받을 각 사용자의 전자 메일 주소를 입력합니다. 여러 이메일 주소는 쉼표로 구분합니다.
+   - **[!UICONTROL Send Company Credit Change Email Copy To]** 필드에 신용 변경 알림의 복사본을 받을 각 사용자의 전자 메일 주소를 입력합니다. 이메일 주소가 여러 개인 경우 쉼표로 구분합니다.
 
    - 알림 복사본을 보내는 방법을 결정하려면 **[!UICONTROL Send Email Copy Method]**&#x200B;을(를) 다음 중 하나로 설정하십시오.
 
-      - `Bcc` - 고객에게 보내는 것과 동일한 전자 메일의 헤더에 받는 사람을 포함하여 _무료 사본_&#x200B;을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.
-      - `Separate Email` - 복사본을 별도의 전자 메일로 보냅니다.
+     - `Bcc` - 고객에게 보내는 것과 동일한 전자 메일의 헤더에 받는 사람을 포함하여 _무료 사본_&#x200B;을 보냅니다. BCC 수신자는 고객에게 표시되지 않습니다.
+     - `Separate Email` - 복사본을 별도의 전자 메일로 보냅니다.
 
    - 기본값 대신 사용할 이메일 템플릿을 준비한 경우 회사 관리자에게 전송되는 다음 각 알림에 대한 템플릿을 선택합니다.
 
-      - **[!UICONTROL Allocated Email Template]**
-      - **[!UICONTROL Updated Email Template]**
-      - **[!UICONTROL Reimbursed Email Template]**
-      - **[!UICONTROL Refunded Email Template]**
-      - **[!UICONTROL Reverted Email Template]**
+     - **[!UICONTROL Allocated Email Template]**
+     - **[!UICONTROL Updated Email Template]**
+     - **[!UICONTROL Reimbursed Email Template]**
+     - **[!UICONTROL Refunded Email Template]**
+     - **[!UICONTROL Reverted Email Template]**
 
    ![고객 구성 - 회사 크레딧 전자 메일](./assets/company-email-options-company-credit.png){width="600" zoomable="yes"}
 

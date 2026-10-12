@@ -4,30 +4,40 @@ description: 판매자가 협상 프로세스를 시작하기 위해 특정 구�
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-TQID: https://experienceleague.adobe.com/CbwUuAqkrVxLcqdbz-gV-x1i-mRHM6y62KPaBeA3sds
+TQID: 'https://experienceleague.adobe.com/CbwUuAqkrVxLcqdbz-gV-x1i-mRHM6y62KPaBeA3sds'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 823
+source-wordcount: '823'
 ht-degree: 0%
-
 ---
-
 # 구매자에 대한 견적 시작
 
 [영업 기능 구성](configure-quotes.md)에서 견적이 활성화된 경우 영업 사원은 관리자로부터 견적을 만들어 회사 구매자와 협상 프로세스를 시작할 수 있습니다.
@@ -44,7 +54,7 @@ Sales Rep 는 Quote 또는 Customer Grid에서 Quote 를 생성할 수 있습니
 
 >[!NOTE]
 >
->판매자가 구매자를 위한 견적을 만드는 비디오 데모는 _Commerce 비디오 및 자습서_&#x200B;에서 [영업 담당자 견적 시작](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote)을 참조하십시오.
+>판매자가 구매자를 위한 견적을 만드는 비디오 데모는 _Commerce 비디오 및 자습서_&#x200B;에서 [영업 담당자 견적 시작](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote)을 참조하십시오.
 
 ### Quote 그리드에서 Quote 작성
 
@@ -96,7 +106,7 @@ Sales Rep 는 Quote 또는 Customer Grid에서 Quote 를 생성할 수 있습니
 
    >[!NOTE]
    >
-   >라인 항목 할인의 작동 방식에 대한 비디오 데모는 _Commerce 비디오 및 튜토리얼_&#x200B;에서 [영업 담당자가 견적 라인 항목에 할인을 적용](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount)합니다.
+   >라인 항목 할인의 작동 방식에 대한 비디오 데모는 _Commerce 비디오 및 튜토리얼_&#x200B;에서 [영업 담당자가 견적 라인 항목에 할인을 적용](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount)합니다.
 
 1. 필요에 따라 견적 수준 할인 적용:
 

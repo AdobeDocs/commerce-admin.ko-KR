@@ -3,28 +3,42 @@ title: 장바구니 관리
 description: 관리자로부터 직접 고객 장바구니를 지원하는 방법을 알아봅니다.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-TQID: https://experienceleague.adobe.com/6kRS38XXT2krhGWypaXChWpBdtvfLupBJX2k6cE4y6w
+TQID: 'https://experienceleague.adobe.com/6kRS38XXT2krhGWypaXChWpBdtvfLupBJX2k6cE4y6w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+subfeature_v2:
+  - id: deedbb4d-f1b7-58ea-a34a-de1f481f9d4c
+    internal-label: Customer Service
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 746
+source-wordcount: '746'
 ht-degree: 0%
-
 ---
-
 # 장바구니 관리
 
 {{ee-feature}}
@@ -47,7 +61,7 @@ ht-degree: 0%
 | 단추 | 설명 |
 |--- |--- |
 | [!UICONTROL Clear my shopping cart] | 장바구니에서 모든 항목을 제거합니다. |
-| [!UICONTROL Update Items and Quantities|]&#x200B;**[!UICONTROL Qty]** 필드에 필요한 수량을 입력하고 장바구니의 항목 수를 업데이트합니다. |
+| [!UICONTROL Update Items and Quantities|]**[!UICONTROL Qty]** 필드에 필요한 수량을 입력하고 장바구니의 항목 수를 업데이트합니다. |
 | [!UICONTROL Add selections to my cart] | 모든 섹션의 제품을 장바구니에 추가합니다. |
 
 {style="table-layout:auto"}
@@ -70,7 +84,7 @@ ht-degree: 0%
    >
    >고객 레코드를 빠르게 찾으려면 [필터](../getting-started/admin-grid-controls.md) 컨트롤을 사용하십시오.
 
-   _[!UICONTROL Personal Information]_&#x200B;아래의 고객 프로필에서&#x200B;_[!UICONTROL Last Logged In]_ 날짜 및 시간은 고객이 온라인 상태임을 보여 줍니다.
+   _[!UICONTROL Personal Information]_아래의 고객 프로필에서_[!UICONTROL Last Logged In]_ 날짜 및 시간은 고객이 온라인 상태임을 보여 줍니다.
 
    ![온라인 고객의 고객 프로필](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -190,7 +204,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create Order]**&#x200B;을(를) 클릭합니다.
 
-   _[!UICONTROL Create New Order]_&#x200B;페이지에 장바구니의 항목이 표시되고 그 뒤에 배송 및 결제 정보가 표시됩니다.
+   _[!UICONTROL Create New Order]_페이지에 장바구니의 항목이 표시되고 그 뒤에 배송 및 결제 정보가 표시됩니다.
 
 1. 배송 및 결제 정보를 작성합니다.
 

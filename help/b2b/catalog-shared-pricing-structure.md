@@ -4,27 +4,40 @@ description: Adobe Commerce B2B를 사용하여 공유 카탈로그의 가격 �
 exl-id: 67caf56f-1b31-44bb-98dc-ea6ea7d8a4d5
 feature: B2B, Companies, Catalog Management
 role: Admin
-TQID: https://experienceleague.adobe.com/j5p-DXCuqzrs-s8XRHeh8o6rc6S-Z-XsETu5Tso9WOw
+TQID: 'https://experienceleague.adobe.com/j5p-DXCuqzrs-s8XRHeh8o6rc6S-Z-XsETu5Tso9WOw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1307
+source-wordcount: '1307'
 ht-degree: 0%
-
 ---
-
 # 공유 카탈로그 가격 및 구조 설정
 
 공유 카탈로그의 가격 및 구조를 설정하는 작업은 두 단계로 진행됩니다. 프로세스의 현재 위치는 페이지 상단의 진행률 표시줄에 숫자가 강조 표시됩니다. 진행률 표시줄을 클릭하여 언제든지 프로세스의 다른 단계를 볼 수 있습니다. 예를 들어 사용자 지정 가격 책정 작업을 수행하는 경우 제품 선택 페이지로 돌아가 참조할 수 있습니다. 페이지 상단의 진행률 표시줄에서 **[!UICONTROL Products]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Pricing]**&#x200B;을(를) 클릭하여 사용자 지정 가격 페이지로 돌아가기만 하면 됩니다. 이 과정에서 귀하의 작업은 손실되지 않습니다.
@@ -37,7 +50,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**(으)로 이동합니다.
 
-1. 격자에 있는 공유 카탈로그의 경우 _[!UICONTROL Action]_&#x200B;열로 이동하여&#x200B;**[!UICONTROL Set Pricing and Structure]**&#x200B;을(를) 클릭합니다.
+1. 격자에 있는 공유 카탈로그의 경우 _[!UICONTROL Action]_열로 이동하여&#x200B;**[!UICONTROL Set Pricing and Structure]**을(를) 클릭합니다.
 
    ![공유 카탈로그의 가격 및 구조 설정](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
 
@@ -83,7 +96,7 @@ ht-degree: 0%
 
 ## 3단계: 사용자 정의 가격 설정
 
-각 제품에 대해 개별적으로 사용자 지정 가격을 설정하거나 _[!UICONTROL Action]_&#x200B;컨트롤을 사용하여 여러 제품 레코드에 대한 고정 금액 또는 백분율로 사용자 지정 가격을 설정할 수 있습니다.
+각 제품에 대해 개별적으로 사용자 지정 가격을 설정하거나 _[!UICONTROL Action]_컨트롤을 사용하여 여러 제품 레코드에 대한 고정 금액 또는 백분율로 사용자 지정 가격을 설정할 수 있습니다.
 
 - **[!UICONTROL Fixed]**: 최종 제품 가격을 지정합니다. 예를 들어 고정 가격 $10.00를 입력하면 해당 회사의 상점 가격은 $10.00입니다.
 
@@ -97,7 +110,7 @@ ht-degree: 0%
 
 - **[!UICONTROL Percentage]**: 할인율을 기준으로 사용자 지정 가격을 결정합니다. 예를 들어 10% 할인을 제공하려면 사용자 지정 가격 유형을 `Percentage`(으)로 설정하고 `10`을(를) 입력합니다. 할인된 맞춤 가격은 원래 제품 가격의 90%입니다.
 
-다음 제품 유형에 대해 고정 금액 또는 백분율로 할인을 설정하려면 표의 _[!UICONTROL Custom Price]_&#x200B;열을 사용하십시오.
+다음 제품 유형에 대해 고정 금액 또는 백분율로 할인을 설정하려면 표의 _[!UICONTROL Custom Price]_열을 사용하십시오.
 
 - [단순](../catalog/product-create-simple.md)(구성 가능한 제품 변형 포함)
 - [번들](../catalog/product-create-bundle.md)
@@ -119,7 +132,7 @@ _사용자 지정 가격_ 페이지에서 그리드의 제품 선택을 변경�
 1. 다음 방법 중 하나를 사용하여 사용자 정의 가격을 적용할 제품을 선택합니다.
 
    - 카테고리 트리를 사용하여 특정 카테고리의 모든 제품을 선택합니다.
-   - 헤더의 _[!UICONTROL Mass Actions]_&#x200B;컨트롤을 `Select All`(으)로 설정합니다.
+   - 헤더의 _[!UICONTROL Mass Actions]_컨트롤을 `Select All`(으)로 설정합니다.
    - 개별 제품의 확인란을 선택합니다.
 
    표에는 현재 선택한 범주에 있는 제품이 표시되며 표준 컨트롤을 사용하여 제품을 찾고 목록을 필터링할 수 있습니다.
@@ -160,8 +173,8 @@ _사용자 지정 가격_ 페이지에서 그리드의 제품 선택을 변경�
    - 계층 가격이 적용되는 웹 사이트로 **[!UICONTROL Website]**&#x200B;을(를) 설정합니다.
    - 할인을 받기 위해 구매해야 하는 제품의 수량을 입력합니다.
    - **[!UICONTROL Price]**&#x200B;을(를) 다음 할인 유형 중 하나로 설정합니다.
-      - `Fixed`
-      - `Discount`
+     - `Fixed`
+     - `Discount`
    - 할인 금액을 입력합니다.
    - 다른 계층을 입력하려면 **가격 추가**&#x200B;를 클릭하고 프로세스를 반복하여 다음 계층을 정의하십시오.
 
@@ -169,7 +182,7 @@ _사용자 지정 가격_ 페이지에서 그리드의 제품 선택을 변경�
 
 1. 완료되면 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
-   그리드에서 계층 수는 _[!UICONTROL Tier Price]_&#x200B;열에서 괄호로 묶어 표시됩니다.
+   그리드에서 계층 수는 _[!UICONTROL Tier Price]_열에서 괄호로 묶어 표시됩니다.
 
    ![여러 계층](./assets/shared-catalog-tier-price-configure-parentheses.png){width="600" zoomable="yes"}
 
@@ -177,4 +190,4 @@ _사용자 지정 가격_ 페이지에서 그리드의 제품 선택을 변경�
 
 사용자 지정 가격 책정이 완료되면 **[!UICONTROL Generate Catalog]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-이제 공유 카탈로그가 데이터베이스에 저장됩니다. 해당 이름이 _[!UICONTROL Products]_&#x200B;표의&#x200B;_[!UICONTROL Shared Catalog]_ 열에 나타납니다. 다음 단계는 [공유 카탈로그를 회사에 할당](./catalog-shared-assign-companies.md)하는 것입니다.
+이제 공유 카탈로그가 데이터베이스에 저장됩니다. 해당 이름이 _[!UICONTROL Products]_표의_[!UICONTROL Shared Catalog]_ 열에 나타납니다. 다음 단계는 [공유 카탈로그를 회사에 할당](./catalog-shared-assign-companies.md)하는 것입니다.

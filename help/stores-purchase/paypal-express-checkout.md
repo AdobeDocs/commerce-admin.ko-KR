@@ -3,31 +3,42 @@ title: PayPal Express 체크아웃
 description: 스토어에서 온라인 결제 솔루션으로 PayPal Express Checkout을 설정하는 방법에 대해 알아봅니다.
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: 'https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 3148
+source-wordcount: '3201'
 ht-degree: 0%
-
 ---
-
 # PayPal Express 체크아웃
 
 PayPal Express Checkout은 고객에게 신용카드 또는 개인 PayPal 계정의 보안을 통해 결제할 수 있는 기능을 제공함으로써 판매 증대에 도움이 됩니다. 체크아웃 중에 고객이 보안 PayPal 사이트로 리디렉션되어 결제 정보를 완료합니다. 그런 다음 고객이 저장소로 돌아가 나머지 체크아웃 프로세스를 완료합니다. &#39;익스프레스 체크아웃&#39;을 선택하면 익숙한 &#39;페이팔&#39; 버튼이 매장에 추가돼 매출을 높이는 것으로 알려졌다.
@@ -37,7 +48,7 @@ PayPal Express Checkout은 고객에게 신용카드 또는 개인 PayPal 계정
 >**PSD2 요구 사항:** <br/>
 >2019년 9월 14일부터 유럽 은행은 [PSD2](../getting-started/compliance-payment-services-directive.md) 요구 사항을 충족하지 않는 결제를 거절할 수 있습니다. 모든 요구 사항은 PayPal에서 처리되므로 PayPal Express Checkout에서 PSD2를 준수하는 데 필요한 작업은 없습니다.
 
-현재 PayPal 계정이 있는 고객은 _[!UICONTROL Check out with PayPal]_&#x200B;단추를 클릭하여 한 단계로 구매할 수 있습니다. Express Checkout은 독립 실행형으로 사용하거나 PayPal 올인원 솔루션 중 하나와 함께 사용할 수 있습니다. 이미 온라인에서 신용카드를 받고 있다면, 페이팔로 결제하기를 선호하는 신규 고객을 유치하기 위한 추가 옵션으로 &#39;익스프레스 체크아웃&#39;을 제공하면 된다.
+현재 PayPal 계정이 있는 고객은 _[!UICONTROL Check out with PayPal]_단추를 클릭하여 한 단계로 구매할 수 있습니다. Express Checkout은 독립 실행형으로 사용하거나 PayPal 올인원 솔루션 중 하나와 함께 사용할 수 있습니다. 이미 온라인에서 신용카드를 받고 있다면, 페이팔로 결제하기를 선호하는 신규 고객을 유치하기 위한 추가 옵션으로 &#39;익스프레스 체크아웃&#39;을 제공하면 된다.
 
 >[!NOTE]
 >
@@ -52,7 +63,7 @@ PayPal Express Checkout은 고객에게 신용카드 또는 개인 PayPal 계정
 
 다른 결제 방식과 달리 페이팔 익스프레스 체크아웃은 제품 페이지, 미니 장바구니, 장바구니에서 일반적인 체크아웃 워크플로 시작 시 고객이 체크아웃할 수 있도록 했다.
 
-1. **고객 주문** - 고객이 _[!UICONTROL Check out with PayPal]_&#x200B;단추를 클릭/탭합니다.
+1. **고객 주문** - 고객이 _[!UICONTROL Check out with PayPal]_단추를 클릭/탭합니다.
 1. **고객이 PayPal 사이트로 리디렉션됨** - 고객이 거래를 완료하기 위해 PayPal 사이트로 리디렉션됩니다.
 1. **고객이 PayPal 계정에 로그인함** - 거래를 완료하려면 고객이 PayPal 계정에 로그인해야 합니다. 결제 시스템은 PayPal 계정의 청구 및 배송 정보를 사용합니다.
 1. **고객이 체크아웃 페이지로 돌아가기** - 고객이 주문을 검토하도록 스토어의 체크아웃 페이지로 다시 리디렉션됩니다.
@@ -111,13 +122,13 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 
 1. 설치에 웹 사이트, 스토어 또는 보기가 여러 개 있는 경우 이 구성을 적용할 스토어 보기로 **[!UICONTROL Store View]**&#x200B;을(를) 설정합니다.
 
-1. _[!UICONTROL Merchant Location]_&#x200B;섹션에서 비즈니스가 있는&#x200B;**[!UICONTROL Merchant Country]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL Merchant Location]_섹션에서 비즈니스가 있는&#x200B;**[!UICONTROL Merchant Country]**을(를) 선택합니다.
 
    이 설정은 구성에 나타나는 PayPal 솔루션의 선택을 결정합니다.
 
    ![판매자 국가](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Recommended Solutions]_&#x200B;에서&#x200B;**[!UICONTROL PayPal Express Checkout]**&#x200B;에 대해&#x200B;**[!UICONTROL Configure]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Recommended Solutions]_에서&#x200B;**[!UICONTROL PayPal Express Checkout]**에 대해&#x200B;**[!UICONTROL Configure]**을(를) 클릭합니다.
 
    ![PayPal Express 체크아웃 구성](./assets/paypal-express-checkout.png){width="600"}
 
@@ -329,11 +340,11 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
    - `Sale` - 구매 금액이 승인되어 고객 계정에서 즉시 인출됩니다.
    - `Order` - 주문 금액이 PayPal의 고객 잔고, 은행 계좌 또는 신용 카드에서 수집되거나 승인되지 않습니다. 주문 결제 행위는 PayPal 결제 시스템과 가맹점 간의 계약을 나타냅니다. 머천트는 최대 29일 동안 고객 구매자 계정에서 주문된 총액까지 하나 이상의 금액을 캡처할 수 있습니다. 펀드가 주문된 후 판매사는 이후 29일 동안 언제든지 펀드를 캡처할 수 있다. 하나 이상의 송장을 생성하여 주문 금액을 캡처하는 작업은 Commerce 관리자만 수행할 수 있습니다.
 
-1. 제품 페이지에 _[!UICONTROL Check out with PayPal]_&#x200B;단추를 표시하려면&#x200B;**[!UICONTROL Display on Product Details Page]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+1. 제품 페이지에 _[!UICONTROL Check out with PayPal]_단추를 표시하려면&#x200B;**[!UICONTROL Display on Product Details Page]**을(를) `Yes`(으)로 설정하십시오.
 
 1. 결제 작업이 `Order`(으)로 설정된 경우 다음을 완료하십시오.
 
-   - **[!UICONTROL Authorization Honor Period (days)]** - 기본 권한 부여가 유효한 기간을 결정합니다. 값은 PayPal 판매자 계정의 해당 값과 같아야 합니다. PayPal 판매자 계정의 기본값은 `3`입니다. 이 수를 늘리려면 PayPal에 문의해야 합니다. 인증이 마지막 날 오후 11:49(미국 태평양 표준시)에 유효하지 않게 됩니다.
+   - **[!UICONTROL Authorization Honor Period (days)]** - 기본 권한 부여가 유효한 기간을 결정합니다. 값은 PayPal 판매자 계정의 해당 값과 같아야 합니다. PayPal 판매자 계정의 기본값은 `3`입니다. 이 수를 늘리려면 PayPal에 문의해야 합니다. 미국 태평양 표준시 기준 마지막 날 오후 11시 49분에 인증이 유효하지 않게 됩니다.
 
    - **[!UICONTROL Order Valid Period (days)]** - 순서가 유효한 기간을 결정합니다. 주문이 무효화되면 더 이상 그에 대한 송장을 생성할 수 없습니다. PayPal 판매자 계정의 주문 유효 기간 값과 같은 값을 지정하십시오. PayPal 판매자 계정의 기본값은 `29`입니다. 이 번호를 변경하려면 PayPal에 문의해야 합니다.
 
@@ -350,7 +361,7 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 1. **[!UICONTROL Payment Applicable From]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 국가의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 항목을 클릭합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 항목을 클릭합니다.
 
 1. 결제 시스템과의 통신을 로그 파일에 기록하려면 **[!UICONTROL Debug Mode]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -427,7 +438,7 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 1. **[!UICONTROL Payment Applicable From]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 국가의 고객이 이 결제 방법을 사용할 수 있습니다.
-   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_&#x200B;목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 상태에서 각 국가를 클릭합니다.
+   - `Specific Countries` - 이 옵션을 선택하면 _[!UICONTROL Payment from Specific Countries]_목록이 나타납니다. 여러 국가를 선택하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 상태에서 각 국가를 클릭합니다.
 
 1. 로그 파일에 결제 시스템과의 통신을 기록하려면 **[!UICONTROL Debug Mode]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -451,8 +462,8 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 
    - PayPal 보안 FTP 서버에 등록한 경우 다음 SFTP 로그인 자격 증명을 입력하십시오.
 
-      - 로그인
-      - 암호
+     - 로그인
+     - 암호
 
    - 사이트에서 빠른 체크아웃으로 _실행_ 전에 테스트 보고서를 실행하려면 **[!UICONTROL Sandbox Mode]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -470,13 +481,13 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 
    - **[!UICONTROL Schedule]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal은 45일 동안 각 보고서를 유지합니다.
 
@@ -504,9 +515,9 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 
    - PayPal 판매자 페이지에 적용할 **[!UICONTROL Page Style]**&#x200B;의 이름을 입력하십시오.
 
-      - `paypal` - PayPal 페이지 스타일을 사용합니다.
-      - `primary` - 계정 프로필에서 _primary_ 스타일로 식별한 페이지 스타일을 사용합니다.
-      - `your_custom_value` - 계정 프로필에 지정된 사용자 지정 결제 페이지 스타일을 사용합니다.
+     - `paypal` - PayPal 페이지 스타일을 사용합니다.
+     - `primary` - 계정 프로필에서 _primary_ 스타일로 식별한 페이지 스타일을 사용합니다.
+     - `your_custom_value` - 계정 프로필에 지정된 사용자 지정 결제 페이지 스타일을 사용합니다.
 
    - **[!UICONTROL Header Image URL]**&#x200B;의 경우 결제 페이지의 왼쪽 위 모서리에 표시할 이미지의 URL을 입력하십시오. 최대 파일 크기는 750픽셀 너비 x 90픽셀 높이입니다.
 
@@ -516,9 +527,9 @@ Commerce Admin에서 PayPal Express Checkout을 설정하기 전에 PayPal 웹 �
 
    - 페이지의 색상을 설정하려면 다음 각 페이지에 대해 6자의 16진수 코드(기호 `#` 제외)를 입력하십시오.
 
-      - **[!UICONTROL Header Background Color]** - 체크아웃 페이지 헤더의 배경색입니다.
-      - **[!UICONTROL Header Border Color]** - 머리글 주변의 2픽셀 테두리 색입니다.
-      - **[!UICONTROL Page Background Color]** - 체크아웃 페이지와 머리글 및 결제 양식 주변의 배경색입니다.
+     - **[!UICONTROL Header Background Color]** - 체크아웃 페이지 헤더의 배경색입니다.
+     - **[!UICONTROL Header Border Color]** - 머리글 주변의 2픽셀 테두리 색입니다.
+     - **[!UICONTROL Page Background Color]** - 체크아웃 페이지와 머리글 및 결제 양식 주변의 배경색입니다.
 
 #### 스마트 단추 사용자 지정
 

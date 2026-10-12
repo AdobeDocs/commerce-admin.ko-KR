@@ -3,27 +3,39 @@ title: 데이터 가져오기
 description: 데이터 가져오기 지침과 데이터 가져오기 작업을 사용하는 방법에 대해 알아봅니다.
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
-TQID: https://experienceleague.adobe.com/LZ44VOhB95b8bwSgBoDOYYt4DBF5tA7Uz5aTR7QfnUk
+TQID: 'https://experienceleague.adobe.com/LZ44VOhB95b8bwSgBoDOYYt4DBF5tA7Uz5aTR7QfnUk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1564
+source-wordcount: '1564'
 ht-degree: 0%
-
 ---
-
 # 데이터 가져오기
 
 모든 제품 유형에 대한 데이터를 스토어로 가져올 수 있습니다. 또한 제품, 고급 가격 데이터, 고객 데이터, 고객 주소 데이터 및 제품 이미지를 가져올 수 있습니다. 가져오기는 다음 작업을 지원합니다.
@@ -70,7 +82,7 @@ Adobe Commerce의 가져오기 프로세스는 BOM(바이트 순서 표시)을 �
 
 | 작업 | 설명 |
 | --------- | ----------- |
-| 추가/업데이트 | 새 제품 데이터가 데이터베이스의 기존 항목에 대한 기존 제품 데이터에 추가됩니다. `sku`을(를) 제외한 모든 필드를 업데이트할 수 있습니다.<br><br>가져오기 데이터에 지정된 새 세금 클래스가 자동으로 만들어집니다.<br><br>가져오기 파일에 지정된 새 제품 범주가 자동으로 만들어집니다.<br><br>가져오기 파일에 지정된 새 SKU가 자동으로 만들어집니다&#x200B;<br><br>**_참고:_**&#x200B;제품의 경우 가져오기를 통해 SKU를 제외한 모든 필드를 업데이트할 수 있습니다.<br><br>**_중요:_** 웹 사이트 또는 범주와 같은 여러 필드 값은 _추가/업데이트_ 가져오기 동작을 사용하여 제거할 수 없습니다. 이러한 필드는 CSV 파일에 나열되지 않으면 가져오기 후 데이터베이스에 유지됩니다. |
+| 추가/업데이트 | 새 제품 데이터가 데이터베이스의 기존 항목에 대한 기존 제품 데이터에 추가됩니다. `sku`을(를) 제외한 모든 필드를 업데이트할 수 있습니다.<br><br>가져오기 데이터에 지정된 새 세금 클래스가 자동으로 만들어집니다.<br><br>가져오기 파일에 지정된 새 제품 범주가 자동으로 만들어집니다.<br><br>가져오기 파일에 지정된 새 SKU가 자동으로 만들어집니다&#x200B;<br><br>**_참고:_**제품의 경우 가져오기를 통해 SKU를 제외한 모든 필드를 업데이트할 수 있습니다.<br><br>**_중요:_** 웹 사이트 또는 범주와 같은 여러 필드 값은 _추가/업데이트_ 가져오기 동작을 사용하여 제거할 수 없습니다. 이러한 필드는 CSV 파일에 나열되지 않으면 가져오기 후 데이터베이스에 유지됩니다. |
 | 바꾸기 | 기존 제품 데이터가 새 데이터로 바뀝니다.<br><br>**_Important:_** 기존 제품 데이터가 지워지고 시스템의 모든 참조가 손실되므로 데이터를 바꿀 때 주의하십시오.<br><br>가져오기 데이터의 SKU가 기존 엔터티의 SKU와 일치하는 경우 SKU를 포함한 모든 필드가 삭제되고 CSV 데이터를 사용하여 새 레코드가 만들어집니다. CSV 파일이 데이터베이스에 없는 SKU를 참조하는 경우 오류가 발생합니다. 데이터를 확인하여 오류를 표시할 수 있습니다. |
 | 삭제 | 데이터베이스에 있는 가져오기 데이터의 모든 엔티티는 데이터베이스에서 삭제됩니다.<br><br>삭제 작업은 SKU를 제외하고 가져오기 데이터의 모든 열을 무시합니다. 데이터의 다른 모든 속성을 무시할 수 있습니다.<br><br>CSV 파일이 데이터베이스에 없는 SKU를 참조하는 경우 오류가 발생합니다. 데이터를 확인하여 오류를 표시할 수 있습니다. |
 
@@ -163,7 +175,7 @@ Adobe Commerce의 가져오기 프로세스는 BOM(바이트 순서 표시)을 �
 
    >[!NOTE]
    >
-   >Adobe Commerce 및 Magento Open Source `2.3.2` 릴리스부터 _[!UICONTROL Images File Directory]_&#x200B;에 지정된 경로가 이미지 기본 디렉터리로 가져오기 위해 연결됩니다. `<Magento-root-folder>/var/import/images`. 예를 들어 `product_images` 파일을 `<Magento-root-directory>/var/import/images/product_images` 폴더에 배치합니다. `\Magento\ImportExport\etc\config.xml` 파일에서 이미지 가져오기 기본 디렉터리를 구성할 수 있습니다. 원격 저장소 모듈을 사용하도록 설정한 경우 `<remote-storage-root-directory>/var/import/images/product_images` 폴더로 파일을 가져옵니다.
+   >Adobe Commerce 및 Magento Open Source `2.3.2` 릴리스부터 _[!UICONTROL Images File Directory]_에 지정된 경로가 이미지 기본 디렉터리로 가져오기 위해 연결됩니다. `<Magento-root-folder>/var/import/images`. 예를 들어 `product_images` 파일을 `<Magento-root-directory>/var/import/images/product_images` 폴더에 배치합니다. `\Magento\ImportExport\etc\config.xml` 파일에서 이미지 가져오기 기본 디렉터리를 구성할 수 있습니다. 원격 저장소 모듈을 사용하도록 설정한 경우 `<remote-storage-root-directory>/var/import/images/product_images` 폴더로 파일을 가져옵니다.
 
    제품 이미지 가져오기에 대한 자세한 내용은 [제품 이미지 가져오기](data-import-product-images.md)를 참조하세요.
 
@@ -193,7 +205,7 @@ Adobe Commerce의 가져오기 프로세스는 BOM(바이트 순서 표시)을 �
 
 Commerce은 시작 날짜 및 시간, 사용자, 실행 시간 및 가져온 파일에 대한 링크를 포함하여 스토어로 가져온 데이터의 레코드를 유지 관리합니다. _실행 시간_&#x200B;은(는) 가져오기 프로세스의 기간입니다.
 
-가져오기 기록을 보려면 **_1&rbrace;:_**
+가져오기 기록을 보려면 **_1}:_**
 
 _관리자_ 사이드바에서 **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import History]**(으)로 이동합니다.
 

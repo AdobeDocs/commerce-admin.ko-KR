@@ -3,27 +3,44 @@ title: '[!UICONTROL My Purchase Orders]'
 description: 구매 주문과 이를 사용하여 기업이 구매를 관리하는 방법에 대해 알아봅니다.
 exl-id: b7348bc8-b874-4642-a372-530883d9d94c
 feature: B2B, Companies, Purchase Orders
-TQID: https://experienceleague.adobe.com/3Vb9ux3eccHF7GUlNdiKIkc12vLFNJv9R3Rkz81ch4M
+TQID: 'https://experienceleague.adobe.com/3Vb9ux3eccHF7GUlNdiKIkc12vLFNJv9R3Rkz81ch4M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+  - id: 2d6d41d4-a5c1-5baf-8dbe-bf7300b68bb3
+    internal-label: Purchase Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: '474'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL My Purchase Orders]
 
 회사에 대해 구매 주문이 [사용](purchase-order-flow.md)되면 회사 사용자 계정에 로그인한 고객에 대한 모든 주문은 자동으로 구매 주문(PO)으로 만들어집니다. 필요한 권한이 있는 회사 사용자는 하위 사용자가 만든 PO와 함께 만든 PO를 만들고 편집하고 삭제할 수 있습니다.
@@ -62,13 +79,13 @@ _구매 주문 보기_ 페이지에서 고객은 [역할 권한](account-company
 
 1. 일반 체크 아웃 워크플로를 따르고 **[!UICONTROL Place Purchase Order]**&#x200B;을(를) 클릭합니다.
 
-_[!UICONTROL Add Items to Shopping Cart]_&#x200B;을(를) 클릭할 때 장바구니에 항목이 있으면 대화 상자가 표시됩니다. 이 대화 상자를 통해 장바구니 항목을 새 항목과 병합하거나 장바구니의 항목을 PO의 항목으로 바꿀 수 있습니다.
+_[!UICONTROL Add Items to Shopping Cart]_을(를) 클릭할 때 장바구니에 항목이 있으면 대화 상자가 표시됩니다. 이 대화 상자를 통해 장바구니 항목을 새 항목과 병합하거나 장바구니의 항목을 PO의 항목으로 바꿀 수 있습니다.
 
 더 이상 필요하지 않은 경우 원래 구매 발주를 마감할 수 있습니다.
 
 ## 구매 주문 승인
 
-회사 구조 또는 할당된 회사 역할에 따라 승인자로 지정된 고객의 경우 _[!UICONTROL My Purchase Orders]_&#x200B;대시보드 페이지에&#x200B;**[!UICONTROL Requires My Approval]**&#x200B;탭이 표시됩니다. 고객은 이 탭을 클릭하여 승인을 기다리는 PO를 검토합니다. 카운터는 승인 대기 중인 주문 수를 보여 줍니다.
+회사 구조 또는 할당된 회사 역할에 따라 승인자로 지정된 고객의 경우 _[!UICONTROL My Purchase Orders]_대시보드 페이지에&#x200B;**[!UICONTROL Requires My Approval]**탭이 표시됩니다. 고객은 이 탭을 클릭하여 승인을 기다리는 PO를 검토합니다. 카운터는 승인 대기 중인 주문 수를 보여 줍니다.
 
 구매 주문의 **[!UICONTROL View]**&#x200B;을(를) 클릭하고 세부 정보를 검토한 후 승인자는 **[!UICONTROL Approve]** 또는 **[!UICONTROL Reject]**&#x200B;을(를) 클릭할 수 있습니다.
 
@@ -76,7 +93,7 @@ _[!UICONTROL Add Items to Shopping Cart]_&#x200B;을(를) 클릭할 때 장바�
 
 Adobe Commerce 2.4.1부터 승인자는 한 번에 여러 구매 발주를 승인하거나 거부할 수 있습니다.
 
-1. _[!UICONTROL My Purchase Order]_&#x200B;페이지에서&#x200B;**[!UICONTROL Requires My Approval]**&#x200B;탭을 클릭합니다.
+1. _[!UICONTROL My Purchase Order]_페이지에서&#x200B;**[!UICONTROL Requires My Approval]**탭을 클릭합니다.
 
 1. 승인 또는 거부할 각 구매 발주에 대한 확인란을 선택합니다.
 

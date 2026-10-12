@@ -3,30 +3,42 @@ title: 제품 리뷰
 description: 제품 리뷰를 통해 스토어를 향상시키고 제품에 대한 신뢰도를 높이는 방법에 대해 알아보십시오.
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+TQID: 'https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 0%
-
 ---
-
 # 제품 리뷰
 
 제품 리뷰는 공동체 의식을 구축하는 데 도움이 되며, 어떤 광고 자금도 구입할 수 있는 것보다 더 신뢰할 수 있는 것으로 간주됩니다. 실제로 일부 검색 엔진은 제품 리뷰가 있는 사이트가 없는 사이트보다 높은 순위를 제공합니다. 특정 제품을 검색하여 사이트를 찾는 사용자의 경우 제품 리뷰는 기본적으로 스토어의 랜딩 페이지입니다. 제품 리뷰는 사람들이 스토어를 찾고, 계속 참여하며, 종종 판매로 이어지는 데 도움이 됩니다.
@@ -37,7 +49,7 @@ Commerce에는 관리자로부터 관리할 수 있는 기본 제품 검토 기�
 >
 >Adobe Commerce 및 Magento Open Source 릴리스 2.4.0부터 2.4.3까지는 Yotpo 공급업체가 개발한 확장 프로그램이 포함되었습니다. 2.4.4 릴리스부터 이 확장은 더 이상 핵심 릴리스와 번들로 제공되지 않으며 Commerce Marketplace에서 설치하고 업데이트해야 합니다. Marketplace에서는 확장 개발자가 제공하는 현재 설명서에 대한 액세스도 제공합니다.
 ><br><br>
->번들 확장을 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [업그레이드 모듈](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/modules/upgrade)을 참조하십시오.
+>번들 확장을 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [업그레이드 모듈](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)을 참조하십시오.
 
 ## 상점 첫 화면에서 제품 리뷰
 
@@ -59,7 +71,7 @@ Commerce에는 관리자로부터 관리할 수 있는 기본 제품 검토 기�
 
 ### [!UICONTROL My Product Reviews]
 
-고객 계정 대시보드의 _[!UICONTROL My Product Reviews]_&#x200B;섹션에는 고객이 제출하고 게시가 승인된 모든 검토가 나열됩니다. 각 검토 요약에는 검토가 제출된 날짜, 제품 페이지 링크 및 검토 세부 사항이 포함됩니다.
+고객 계정 대시보드의 _[!UICONTROL My Product Reviews]_섹션에는 고객이 제출하고 게시가 승인된 모든 검토가 나열됩니다. 각 검토 요약에는 검토가 제출된 날짜, 제품 페이지 링크 및 검토 세부 사항이 포함됩니다.
 
 ![내 제품 리뷰](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -107,7 +119,7 @@ Commerce 제품 검토를 사용하면 고객이 제품 검토를 제출할 때 
 
    ![관리자 - 등급](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. _[!UICONTROL Rating Title]_&#x200B;섹션에서 새 등급에 대한&#x200B;**[!UICONTROL Default Value]**&#x200B;을(를) 입력합니다.
+1. _[!UICONTROL Rating Title]_섹션에서 새 등급에 대한&#x200B;**[!UICONTROL Default Value]**을(를) 입력합니다.
 
    해당하는 경우 각 스토어 보기에 대한 번역도 입력합니다.
 

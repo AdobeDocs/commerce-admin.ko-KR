@@ -3,10 +3,15 @@ title: 보기 저장
 description: Adobe Commerce에서 상점 보기를 추가하고 편집하는 방법에 대해 알아봅니다. 이 방법을 통해 쇼핑객은 상점 헤더의 언어 선택기를 사용하여 로케일을 전환할 수 있습니다.
 exl-id: aa1f7f1c-a6d0-4ec2-83fe-15fb9646634a
 feature: Site Management, System
-TQID: https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE
+TQID: 'https://experienceleague.adobe.com/2VMBTnzG3lqsNEyx-e46rqDs1wHofaDeHL3j3SuqxOE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+feature_v2:
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -20,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -72,7 +77,7 @@ ht-degree: 0%
 
    ![스토어 보기 만들기 - Adobe Commerce Optimizer 내보내기 설정](./assets/stores-optimizer-export-settings.png){width="600" zoomable="yes"}
 
-   초기 동기화 후에 이 설정을 변경하면 전체 다시 인덱싱이 트리거됩니다. *Commerce 커넥터 안내서*&#x200B;에서 [Adobe Commerce Optimizer 범위 내보내기 구성 사용자 지정](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)을 참조하십시오.
+   초기 동기화 후에 이 설정을 변경하면 전체 다시 인덱싱이 트리거됩니다. *Commerce 커넥터 안내서*&#x200B;에서 [Adobe Commerce Optimizer 범위 내보내기 구성 사용자 지정](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)을 참조하십시오.
 
 1. **[!UICONTROL Save Store View]**&#x200B;을(를) 클릭합니다.
 
@@ -91,9 +96,9 @@ Adobe Commerce 또는 Magento Open Source 설치에 다중 사이트 또는 다�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**(으)로 이동합니다.
 
-1. 그리드의 _[!UICONTROL Store View]_&#x200B;열에서 편집할 보기의 이름을 클릭합니다.
+1. 그리드의 _[!UICONTROL Store View]_열에서 편집할 보기의 이름을 클릭합니다.
 
-   기본 보기를 편집할 때 _[!UICONTROL Store]_&#x200B;및_[!UICONTROL Status]_ 필드를 사용할 수 없습니다.
+   기본 보기를 편집할 때 _[!UICONTROL Store]_및_[!UICONTROL Status]_ 필드를 사용할 수 없습니다.
 
    ![스토어 보기 - 기본 보기 편집](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

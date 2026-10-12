@@ -1,16 +1,32 @@
 ---
 title: 테마
-description: 스토어의 모양과 느낌을 정의하는 레이아웃 파일, 템플릿 파일, 번역 파일 및 스킨을 포함하는  [!DNL Commerce] 테마에 대해 알아봅니다.
+description: 스토어의 모양과 느낌을 정의하는 레이아웃 파일, 템플릿 파일, 번역 파일 및 스킨을 포함하는 [!DNL Commerce]개의 테마에 대해 알아봅니다.
 exl-id: d2ccff51-5019-4f80-8eaa-3fe50d5cd6cc
 feature: Page Content, Themes
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 8b440f30-6794-5ed6-981f-391de4e9b0cc
+    internal-label: Themes
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '462'
 ht-degree: 0%
-
 ---
-
 # 테마
 
 테마는 스토어의 시각적 프레젠테이션을 결정하는 파일 컬렉션입니다. [!DNL Commerce]을(를) 처음 설치하면 스토어의 디자인 요소는 _기본_ 테마를 기반으로 합니다. [!DNL Commerce] 설치와 함께 제공되는 초기 기본 테마 외에도 _그대로_&#x200B;를 사용하거나 필요에 따라 수정할 수 있는 다양한 테마가 있습니다.
@@ -51,9 +67,9 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 구성할 저장소 보기를 찾은 다음 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Edit]**을(를) 클릭합니다.
 
-1. _[!UICONTROL Default Theme]_&#x200B;에서 현재 보기에 사용할&#x200B;**[!UICONTROL Applied Theme]**&#x200B;을(를) 설정합니다.
+1. _[!UICONTROL Default Theme]_에서 현재 보기에 사용할&#x200B;**[!UICONTROL Applied Theme]**을(를) 설정합니다.
 
    ![적용된 테마](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 
@@ -63,7 +79,7 @@ ht-degree: 0%
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. _[!UICONTROL Design Rule]_&#x200B;에서&#x200B;**[!UICONTROL Add New User Agent Rule]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Design Rule]_에서&#x200B;**[!UICONTROL Add New User Agent Rule]**을(를) 클릭합니다.
 
    ![디자인 규칙](./assets/theme-design-rule.png){width="600" zoomable="yes"}
 

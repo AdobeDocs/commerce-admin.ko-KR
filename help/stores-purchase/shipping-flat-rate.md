@@ -3,26 +3,33 @@ title: 정액 배송
 description: 스토어에 대한 정액 배송 옵션을 설정하는 방법에 대해 알아보십시오.
 exl-id: a6874509-a79b-42ab-aa93-d70d18fc33f6
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/mCScBdxmQUXGocuIYFllyZCnrpFOQ6Oh8sJKzo6O2QA
+TQID: 'https://experienceleague.adobe.com/mCScBdxmQUXGocuIYFllyZCnrpFOQ6Oh8sJKzo6O2QA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 554
+source-wordcount: '554'
 ht-degree: 0%
-
 ---
-
 # 정액 배송
 
 _정액 요금_&#x200B;은(는) 항목당 또는 배송당 적용할 수 있는 고정적이고 미리 정의된 요금입니다. 정액제는 간단한 배송 솔루션으로, 특히 일부 운송업체에서 제공하는 정액제 패키지와 함께 사용할 경우 더욱 그렇습니다. 활성화하면 체크아웃 중에 _정액제_&#x200B;가 옵션으로 나타납니다. 특정 통신사가 지정되지 않았으므로 원하는 통신사를 사용할 수 있습니다.
@@ -63,8 +70,8 @@ _정액 요금_&#x200B;은(는) 항목당 또는 배송당 적용할 수 있는 
 
    - **처리 비용 계산**&#x200B;에 대해 처리 비용을 계산하는 데 사용할 메서드를 선택하십시오.
 
-      - `Fixed`
-      - `Percent`
+     - `Fixed`
+     - `Percent`
 
    - **취급 수수료**&#x200B;의 경우 금액을 계산하기 위해 선택한 방법에 따라 부과할 금액을 입력합니다.
 

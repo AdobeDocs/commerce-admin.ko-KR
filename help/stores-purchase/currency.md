@@ -3,29 +3,39 @@ title: 통화
 description: Adobe Commerce 또는 Magento Open Source 스토어에서 고객 경험을 개선하기 위해 여러 통화를 지원하는 방법에 대해 알아봅니다.
 exl-id: 5255fb63-a615-4b05-8b00-5c5a089cbb2d
 feature: Currency, Storefront
-TQID: https://experienceleague.adobe.com/pKkqU2sGYfGBeSZWyvBlmcLBahxfncfGN1d-qWvKnuQ
+TQID: 'https://experienceleague.adobe.com/pKkqU2sGYfGBeSZWyvBlmcLBahxfncfGN1d-qWvKnuQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3033d2ab-c1d2-5b52-b865-72d9e5ad2c37
+    internal-label: Currency
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 120
+source-wordcount: '120'
 ht-degree: 0%
-
 ---
-
 # 통화
 
 Adobe Commerce은 전 세계 200여 개국의 통화를 수락할 수 있는 기능을 제공합니다. 스토어에서 여러 통화를 지원하는 경우 통화 환율이 [업데이트](currency-update.md)된 후 _통화 선택기_&#x200B;가 헤더에 표시됩니다.

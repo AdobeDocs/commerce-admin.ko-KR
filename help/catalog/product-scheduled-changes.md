@@ -3,27 +3,35 @@ title: 예약된 제품 업데이트
 description: 캠페인 및 프로모션 프로그램을 지원하도록 제품 목록에 대한 변경 사항을 예약하는 방법을 알아봅니다.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/eG4RXNCToWJxbPB6GQC9htRnh4z4ktPTb4FPrefJVtk
+TQID: 'https://experienceleague.adobe.com/eG4RXNCToWJxbPB6GQC9htRnh4z4ktPTb4FPrefJVtk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 715
+source-wordcount: '715'
 ht-degree: 0%
-
 ---
-
 # 제품 업데이트 예약
 
 {{ee-feature}}
@@ -67,7 +75,7 @@ ht-degree: 0%
 
    ![새 업데이트로 예약](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
-1. 아래로 스크롤하여 _[!UICONTROL Price]_&#x200B;을(를) 클릭하고&#x200B;**[!UICONTROL Advanced Pricing]**&#x200B;을(를) 클릭합니다.
+1. 아래로 스크롤하여 _[!UICONTROL Price]_을(를) 클릭하고&#x200B;**[!UICONTROL Advanced Pricing]**을(를) 클릭합니다.
 
 1. 예약된 캠페인 동안 제품에 대한 **[!UICONTROL Special Price]**&#x200B;을(를) 입력하고 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
@@ -99,7 +107,7 @@ ht-degree: 0%
 
 ## 예약된 변경 내용 편집
 
-1. 페이지 상단의 _[!UICONTROL Scheduled Changes]_&#x200B;상자에서&#x200B;**[!UICONTROL View/Edit]**&#x200B;을(를) 클릭합니다.
+1. 페이지 상단의 _[!UICONTROL Scheduled Changes]_상자에서&#x200B;**[!UICONTROL View/Edit]**을(를) 클릭합니다.
 
 1. 예약된 업데이트에 필요한 변경 작업을 수행합니다.
 
@@ -107,7 +115,7 @@ ht-degree: 0%
 
 ## 예약된 변경 내용 제거
 
-1. 페이지 상단의 _[!UICONTROL Scheduled Changes]_&#x200B;상자에서&#x200B;**[!UICONTROL View/Edit]**&#x200B;을(를) 클릭합니다.
+1. 페이지 상단의 _[!UICONTROL Scheduled Changes]_상자에서&#x200B;**[!UICONTROL View/Edit]**을(를) 클릭합니다.
 
 1. 상단 표시줄에서 **[!UICONTROL Remove from Update]**&#x200B;을(를) 클릭합니다.
 
@@ -121,7 +129,7 @@ ht-degree: 0%
 
 {{ce-feature}}
 
-_[!UICONTROL Schedule Design Update]_&#x200B;섹션을 통해 제품 페이지의 모양을 임시로 변경할 수 있습니다. 시즌, 프로모션에 대한 디자인 변경을 예약하거나 새로운 항목을 만들기 위해 예약할 수 있습니다. 디자인 변경 사항은 미리 예약할 수 있으므로 정의된 일정에 따라 적용되거나_ drip _이 적용됩니다.
+_[!UICONTROL Schedule Design Update]_섹션을 통해 제품 페이지의 모양을 임시로 변경할 수 있습니다. 시즌, 프로모션에 대한 디자인 변경을 예약하거나 새로운 항목을 만들기 위해 예약할 수 있습니다. 디자인 변경 사항은 미리 예약할 수 있으므로 정의된 일정에 따라 적용되거나_ drip _이 적용됩니다.
 
 ![예약된 디자인 업데이트](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 

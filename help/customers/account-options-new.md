@@ -3,16 +3,32 @@ title: 새로운 고객 계정 옵션
 description: 스토어의 새 고객 계정에 대한 구성 옵션에 대해 알아봅니다.
 exl-id: aa19f0e2-ffbe-433d-8bd5-c14700b67b37
 feature: Customers, Configuration
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
-
 ---
-
 # 새로운 고객 계정 옵션
 
-구성의 _[!UICONTROL Create New Account Options]_&#x200B;섹션에서 기본 계정 옵션은 VAT ID 유효성 검사 및 사용자 지정 통합과 관련된 고급 옵션과 결합됩니다. 다음 지침은 가장 자주 사용되는 옵션만 다룹니다. 자동 고객 그룹 할당에 대한 자세한 내용은 [VAT 유효성 검사](../stores-purchase/vat.md)를 참조하세요.
+구성의 _[!UICONTROL Create New Account Options]_섹션에서 기본 계정 옵션은 VAT ID 유효성 검사 및 사용자 지정 통합과 관련된 고급 옵션과 결합됩니다. 다음 지침은 가장 자주 사용되는 옵션만 다룹니다. 자동 고객 그룹 할당에 대한 자세한 내용은 [VAT 유효성 검사](../stores-purchase/vat.md)를 참조하세요.
 
 ![새 계정 옵션 만들기](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
