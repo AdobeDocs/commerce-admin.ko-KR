@@ -4,25 +4,35 @@ description: 폴더를 사용하여 미디어 에셋을 구성하는 방법에 �
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/g9HhgLLc0FmOZM-Zgxb8231yf8D1TW7X-McoWCQAvKs
+TQID: 'https://experienceleague.adobe.com/g9HhgLLc0FmOZM-Zgxb8231yf8D1TW7X-McoWCQAvKs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 170
+source-wordcount: '170'
 ht-degree: 0%
-
 ---
-
 # 미디어 갤러리 폴더 관리
 
 폴더를 사용하여 새 [미디어 갤러리](media-gallery.md)에서 이미지를 구성하세요. 미디어 에셋의 수가 증가하면 미디어 갤러리에서 폴더를 사용하여 기존 에셋을 보다 쉽게 찾고 관리할 수 있습니다.

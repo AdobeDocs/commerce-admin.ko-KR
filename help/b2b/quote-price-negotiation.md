@@ -3,30 +3,46 @@ title: 견적 협상
 description: 견적 협상 워크플로우와 구매자를 위한 작업 방법에 대해 알아봅니다.
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-TQID: https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU
+TQID: 'https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2249
+source-wordcount: '2277'
 ht-degree: 0%
-
 ---
-
 # 견적 협상
 
 구성에서 [B2B 견적이 활성화](configure-quotes.md)된 경우, 가격 협상은 회사의 승인된 구매자 또는 영업 사원이 시작할 수 있습니다.
@@ -93,11 +109,11 @@ ht-degree: 0%
   [!UICONTROL Configure] 옵션은 구성 가능한 제품의 라인 항목에서만 사용할 수 있습니다.
 
 - **[!UICONTROL Action]** 메뉴에서 항목을 업데이트할 동작을 선택하십시오.
-   - **할인 항목**(백분율, 고정 금액 또는 기본 가격)로 할인을 적용합니다.
-선택적으로 추가 할인을 방지하기 위해 할인 금액을 잠글 수 있습니다. 할인이 잠겨있지 않으면,
-라인 품목 할인과 견적 레벨 할인은 모두 제품 가격에 적용됩니다.
-   - **구매자에게 메모를 남기기** 구매자에게 항목에 대한 추가 정보를 제공하기 위해
-   - 견적에 있는 항목을 제거하려면 **제거**&#x200B;하십시오.
+  - **할인 항목**(백분율, 고정 금액 또는 기본 가격)로 할인을 적용합니다.
+    선택적으로 추가 할인을 방지하기 위해 할인 금액을 잠글 수 있습니다. 할인이 잠겨있지 않으면,
+    라인 품목 할인과 견적 레벨 할인은 모두 제품 가격에 적용됩니다.
+  - **구매자에게 메모를 남기기** 구매자에게 항목에 대한 추가 정보를 제공하기 위해
+  - 견적에 있는 항목을 제거하려면 **제거**&#x200B;하십시오.
 
 ### 변경 사항 적용 및 업데이트
 
@@ -139,9 +155,9 @@ ht-degree: 0%
 
    - _[!UICONTROL Negotiated Price]_&#x200B;섹션의&#x200B;_[!UICONTROL Quote Totals]_&#x200B;에서 다음 할인 유형 중 하나를 선택하십시오.
 
-      - `Percentage Discount`: 할인율을 적용하면 원래 가격이 특정 비율로 줄어듭니다.
-      - `Amount Discount`: 금액 할인은 고정 가격 인하를 적용합니다.
-      - `Proposed Price`: 제안된 가격 할인은 원래 가격과 관계없이 최종 가격을 특정 금액으로 설정합니다.
+     - `Percentage Discount`: 할인율을 적용하면 원래 가격이 특정 비율로 줄어듭니다.
+     - `Amount Discount`: 금액 할인은 고정 가격 인하를 적용합니다.
+     - `Proposed Price`: 제안된 가격 할인은 원래 가격과 관계없이 최종 가격을 특정 금액으로 설정합니다.
 
    - 퍼센트 또는 고정 가격으로 금액을 입력합니다.
 
@@ -149,9 +165,9 @@ ht-degree: 0%
 
    - 각 라인 품목 또는 견적에 대해 전체적으로 할인을 적용할 수 있습니다.
 
-      - **라인 항목 할인**: 라인 항목 할인은 장바구니의 개별 항목에 적용됩니다. 할인은 `percentage`, 특정 `amount` 또는 `proposed price`일 수 있습니다.
-      - **장바구니 수준 할인**: 장바구니 수준 할인이 전체 장바구니에 적용됩니다. 할인은 `percentage` 또는 특정 `amount`일 수 있으며 총 장바구니 값에 적용됩니다.
-      - **장바구니와 라인 항목 할인의 조합**: 경우에 따라 장바구니와 라인 항목 수준 모두에서 할인이 적용될 수 있습니다. 라인 항목 할인이 먼저 적용된 다음 나머지 합계에 대한 장바구니 수준 할인이 적용됩니다.
+     - **라인 항목 할인**: 라인 항목 할인은 장바구니의 개별 항목에 적용됩니다. 할인은 `percentage`, 특정 `amount` 또는 `proposed price`일 수 있습니다.
+     - **장바구니 수준 할인**: 장바구니 수준 할인이 전체 장바구니에 적용됩니다. 할인은 `percentage` 또는 특정 `amount`일 수 있으며 총 장바구니 값에 적용됩니다.
+     - **장바구니와 라인 항목 할인의 조합**: 경우에 따라 장바구니와 라인 항목 수준 모두에서 할인이 적용될 수 있습니다. 라인 항목 할인이 먼저 적용된 다음 나머지 합계에 대한 장바구니 수준 할인이 적용됩니다.
 
 1. 견적을 보내거나 저장합니다.
 

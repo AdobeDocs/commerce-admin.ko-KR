@@ -3,26 +3,33 @@ title: 세금 등급
 description: 세금 규칙에 사용되는 세금 분류를 구성하는 방법을 알아봅니다.
 exl-id: dd867eba-3f1e-45a8-9332-9e668a2092e1
 feature: Taxes
-TQID: https://experienceleague.adobe.com/wzq0p5sH7Ulpl6hiY5IaWPe9AvsrwJjrAZsX4PFZ2-Y
+TQID: 'https://experienceleague.adobe.com/wzq0p5sH7Ulpl6hiY5IaWPe9AvsrwJjrAZsX4PFZ2-Y'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: '501'
 ht-degree: 0%
-
 ---
-
 # 세금 등급
 
 세금 분류는 고객, 제품 및 배송에 지정할 수 있습니다. Commerce은 각 고객의 장바구니를 분석하고, 고객의 등급, 장바구니에 있는 제품의 등급 및 지역에 따라 적절한 세금을 계산합니다. 지역은 고객의 배송 주소, 청구 주소 또는 배송 출처에 따라 결정됩니다. [세금 규칙](tax-rules.md)을(를) 정의하면 새 세금 클래스를 만들 수 있습니다.

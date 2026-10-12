@@ -3,27 +3,41 @@ title: 고정 제품 세금(FPT)
 description: 특정 유형의 제품에 추가되어야 하는 고정 제품 세금(FPT)을 설정하는 방법에 대해 알아봅니다.
 exl-id: f1b475cb-a6fe-4b51-a0c3-7d0a202bd332
 feature: Checkout, Invoices, Taxes, Products
-TQID: https://experienceleague.adobe.com/7jectO0ppETNscBLFCJp5DSWMqXyBYbW75-YoujWaR4
+TQID: 'https://experienceleague.adobe.com/7jectO0ppETNscBLFCJp5DSWMqXyBYbW75-YoujWaR4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 879
+source-wordcount: '879'
 ht-degree: 0%
-
 ---
-
 # 고정 제품 세금(FPT)
 
 일부 과세관할에는 특정 유형의 상품에 추가되어야 하는 고정세가 있다. 필요에 따라 스토어의 세금 계산에 필요한 _고정 제품 세금_(FPT)을 설정할 수 있습니다. 일부 국가에서는 FPT를 사용하여 Waste Electrical and Electronic Equipment (WEEE) 세금을 책정할 수 있습니다. 이 세금은 _생태 세금_ 또는 _생태 세금_&#x200B;이라고도 하며, 재활용 비용을 상쇄하기 위해 특정 유형의 전자 제품에 대해 징수됩니다. 제품 가격의 백분율이 아닌 고정 금액입니다.

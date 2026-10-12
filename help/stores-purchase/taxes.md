@@ -3,27 +3,35 @@ title: 세금
 description: 로케일의 요구 사항에 따라 세금을 계산하도록 스토어를 구성하는 방법에 대해 알아봅니다.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-TQID: https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk
+TQID: 'https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1129
+source-wordcount: '1129'
 ht-degree: 0%
-
 ---
-
 # 세금
 
 로케일의 요구 사항에 따라 세금을 계산하도록 스토어를 구성합니다. 제품 및 고객 그룹에 대해 [세금 클래스](tax-class.md)를 설정하고 제품 및 고객 클래스, 세금 구역 및 세율을 결합하는 [세금 규칙](tax-rules.md)을 만들 수 있습니다. Commerce은 고정 제품 세금, 복합 세금 및 국제 경계의 가격에 대한 표시에 대한 구성 설정도 제공합니다. [부가가치세](vat.md)를 징수해야 하는 경우, 유효성 검사를 통해 적절한 금액을 자동으로 계산하도록 스토어를 설정할 수 있습니다.

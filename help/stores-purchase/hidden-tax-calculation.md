@@ -3,24 +3,33 @@ title: 숨겨진 세금 계산
 description: 세금이 포함된 할인이 있을 때 숨겨진 세금 계산을 구성하는 방법을 알아봅니다.
 exl-id: be2000b1-09d7-4a28-814a-f5da7591e387
 feature: Invoices, Taxes
-TQID: https://experienceleague.adobe.com/KkluEZ6WopfZzfFvnd0XA93av21JP0mxXBS4A4czvA0
+TQID: 'https://experienceleague.adobe.com/KkluEZ6WopfZzfFvnd0XA93av21JP0mxXBS4A4czvA0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 350
+source-wordcount: '350'
 ht-degree: 1%
-
 ---
-
 # 숨겨진 세금 계산
 
 _숨겨진 세금_&#x200B;은(는) 할인 금액이 있는 VAT 금액입니다. 다음 조건이 모두 true인 경우 0이 아닙니다.
@@ -43,10 +52,10 @@ _숨겨진 세금_&#x200B;은(는) 할인 금액이 있는 VAT 금액입니다. 
 
 - 할인 없이 세후 품목 가격=100 USD
 - 할인 없는 세전 품목 가격=100/1.2=83.33 USD
-- 할인=83.33 \ *0.1=8.33 USD
-- Tax=(83.33-8.33) \ *0.2=**15 USD(무효)**
-- 총 주문 제외 세금=83.33-8.33=**75 USD(무효)**
-- 총 주문 금액(세금 포함)=75+15=**90 USD(무효)**
+- Discount=83.33 \ *0.1=8.33 USD
+- Tax=(83.33-8.33) \ *0.2=**15 USD(잘못됨)**
+- 총 주문 수(세금 제외)=83.33-8.33=**75 USD(잘못됨)**
+- 총 주문 수(세금 포함)=75+15=**90 USD(잘못됨)**
 
 ### 장바구니의 유효한 실제 결과
 

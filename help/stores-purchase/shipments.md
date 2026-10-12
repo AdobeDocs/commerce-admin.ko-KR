@@ -3,27 +3,37 @@ title: 배송
 description: 송장에 대한 출하 레코드를 생성하고 출하를 취소하는 방법을 알아봅니다.
 exl-id: 6df83549-ba38-43f7-aab1-dbf3f6b89d74
 feature: Shipping/Delivery, Invoices
-TQID: https://experienceleague.adobe.com/hj6CijsLLJo7GRzfWCsUY1N1qPDyYcz7t5yOSWKUpho
+TQID: 'https://experienceleague.adobe.com/hj6CijsLLJo7GRzfWCsUY1N1qPDyYcz7t5yOSWKUpho'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 937
-ht-degree: 0%
-
+source-wordcount: '951'
+ht-degree: 1%
 ---
-
 # 배송
 
 _[!UICONTROL Shipments]_&#x200B;그리드에는 배송을 위해 준비된 모든 송장의 배송 기록이 나열됩니다. 주문이 [인보이스 발행](invoices.md) 이상일 때 배송 기록을 생성할 수 있습니다.
@@ -162,7 +172,7 @@ Adobe Commerce 및 Magento Open Source은 부분 주문 및 전체 주문 배송
 
    - **[!UICONTROL Shipment Comment Email Template for Guests]**&#x200B;의 경우 스토어에 계정이 없는 고객에 대해 사용되는 템플릿을 선택하십시오.
 
-   - **[!UICONTROL Shipment Comment Email Copy To]**&#x200B;의 경우 배송 댓글 전자 메일 복사본을 보낼 전자 메일 주소를 입력하십시오. 여러 이메일 주소는 쉼표로 구분합니다.
+   - **[!UICONTROL Shipment Comment Email Copy To]**&#x200B;의 경우 배송 댓글 전자 메일 복사본을 보낼 전자 메일 주소를 입력하십시오. 이메일 주소가 여러 개인 경우 쉼표로 구분합니다.
 
    - **[!UICONTROL Shipment Comment Email Copy Method]**&#x200B;의 경우 기본 설정에 따라 `bcc`(숨은 참조) 또는 `separate email copy` 메서드를 선택하십시오.
 

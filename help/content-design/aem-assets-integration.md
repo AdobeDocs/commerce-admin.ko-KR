@@ -1,32 +1,47 @@
 ---
 title: Commerce용 Adobe Experience Manager Assets 통합
-description: Experience Manager Assets을  [!DNL Commerce] 인스턴스와 통합하여 스토어에서 사용할 수 있는 수많은 미디어 자산에 액세스하는 방법에 대해 알아봅니다.
+description: Experience Manager Assets을 [!DNL Commerce] 인스턴스와 통합하여 스토어에서 사용할 수 있는 수많은 미디어 자산에 액세스하는 방법에 대해 알아봅니다.
 feature: CMS, Media, Configuration, Integration
 exl-id: b3c9d12c-bf95-435c-bb93-b8fbf80d084e
-TQID: https://experienceleague.adobe.com/Jr8UkbpstIBaxOiic0GhFX5N8-Jw2R30q-PIFkGGy2Q
+TQID: 'https://experienceleague.adobe.com/Jr8UkbpstIBaxOiic0GhFX5N8-Jw2R30q-PIFkGGy2Q'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 421
+source-wordcount: '422'
 ht-degree: 0%
-
 ---
-
 # Commerce용 Adobe Experience Manager Assets 통합
 
 Commerce용 Adobe Experience Manager(AEM) Assets 통합은 AEM as a Digital Asset Management(DAM) 시스템의 강력한 기능과 Adobe Commerce을 결합하여 eCommerce 경험을 향상시킵니다. Commerce 프로젝트를 AEM의 강력한 자산 관리 환경에 연결하여 이러한 기능을 제공함으로써 상거래 상점 전반에서 자산을 원활하고 확장 가능하며 효율적으로 관리 및 제공할 수 있습니다.

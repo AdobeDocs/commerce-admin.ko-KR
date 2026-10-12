@@ -4,30 +4,42 @@ description: 사용자 지정 URL 재작성을 사용하여 Commerce 스토어�
 exl-id: b15054be-e463-48e6-b6c1-0a8a2141cc01
 feature: Search, Configuration
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/S79sN1Z6sEUM0IsAv525-RvGmLn7ajkwK7P7hE1Mhrc
+TQID: 'https://experienceleague.adobe.com/S79sN1Z6sEUM0IsAv525-RvGmLn7ajkwK7P7hE1Mhrc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 703
+source-wordcount: '703'
 ht-degree: 0%
-
 ---
-
 # 사용자 정의 URL 재작성
 
 사용자 지정 다시 작성은 스토어에서 외부 웹 사이트로 페이지를 리디렉션하는 것과 같은 기타 리디렉션을 관리하는 데 사용할 수 있습니다. 예를 들어 각각 고유한 도메인이 있는 두 개의 Commerce 웹 사이트가 있을 수 있습니다. 사용자 지정 리디렉션을 사용하여 제품, 카테고리 또는 페이지에 대한 요청을 다른 웹 사이트로 리디렉션할 수 있습니다. 다른 리디렉션 유형과 달리, 사용자 지정 리디렉션의 대상은 저장소의 기존 페이지 목록에서 선택되지 않습니다.
@@ -88,8 +100,8 @@ ht-degree: 0%
 
    - **리디렉션**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Temporary (302)`
-      - `Permanent (301)`
+     - `Temporary (302)`
+     - `Permanent (301)`
 
    - 참조용으로 재작성에 대한 간단한 설명을 입력합니다.
 

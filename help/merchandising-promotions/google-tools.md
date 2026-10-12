@@ -3,32 +3,47 @@ title: Google 사이트 도구
 description: 콘텐츠를 최적화하고, 트래픽을 분석하고, 카탈로그를 쇼핑 집계자 및 마켓플레이스에 연결하는 데 사용할 수 있는 Google 도구 통합에 대해 알아봅니다.
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-TQID: https://experienceleague.adobe.com/P-IniOyLDfDk8oe1v9ysmRV6yC7IWpxUBaFF--2YMCg
+TQID: 'https://experienceleague.adobe.com/P-IniOyLDfDk8oe1v9ysmRV6yC7IWpxUBaFF--2YMCg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: '662'
 ht-degree: 0%
-
 ---
-
 # Google 사이트 도구
 
 스토어 구성은 다음의 Google 도구와 통합되어 콘텐츠를 최적화하고, 트래픽을 분석하고, 카탈로그를 쇼핑 집선 및 마켓플레이스에 연결하는 데 도움이 됩니다.
@@ -79,9 +94,9 @@ ht-degree: 0%
 
    - **연락처** 섹션에서 _추가_( ![Google 추가 아이콘](./assets/google-icon-add.png)) 아이콘을 클릭하고 첫 번째 연락처에 대한 정보를 입력합니다. 그런 다음 적용 가능한 각 역할의 확인란을 선택하고 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
-      - 기본 담당자 - (통지 이메일 주소) 통지를 발송하는 담당자입니다.
-      - 데이터 보호 관리자 - (해당되는 경우) 개인정보 보호 규정 준수를 용이하게 하도록 지정된 사람.
-      - EEA(European Economic Area) 담당자 - (해당되는 경우) GDPR 의무와 관련하여 EU 이외의 고객을 대표하는 사람입니다.
+     - 기본 담당자 - (통지 이메일 주소) 통지를 발송하는 담당자입니다.
+     - 데이터 보호 관리자 - (해당되는 경우) 개인정보 보호 규정 준수를 용이하게 하도록 지정된 사람.
+     - EEA(European Economic Area) 담당자 - (해당되는 경우) GDPR 의무와 관련하여 EU 이외의 고객을 대표하는 사람입니다.
 
      해당되는 경우 이 과정을 반복하여 다른 연락처를 추가합니다.
 

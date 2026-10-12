@@ -3,28 +3,37 @@ title: 장바구니 구성
 description: 스토어에서 구매 경험을 지원하기 위해 구성할 수 있는 장바구니 기능에 대해 알아봅니다.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-TQID: https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8
+TQID: 'https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2417
+source-wordcount: '2460'
 ht-degree: 0%
-
 ---
-
 # 장바구니 구성
 
 장바구니 구성은 고객이 장바구니 페이지로 리디렉션되는 시기와 제품 썸네일에 사용되는 이미지를 포함하여 스토어 고객에게 장바구니가 작동하는 방식을 결정합니다. 또한 체크아웃 프로세스가 시작되기 전에 최소 금액에 도달하도록 주문하고, 견적 가격이 유효한 일수를 지정하고, _주문 총계_ 섹션에서 항목 순서를 지정할 수 있습니다.
@@ -176,13 +185,13 @@ Adobe Commerce B2B를 설치하고 활성화하면 _견적_ 기능에 대한 지
 
    - **[!UICONTROL Include Discount Amount]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Yes` - 소계가 할인 포함 최소 금액을 충족해야 합니다. 최소 $50의 예를 사용하여 장바구니에 25% 할인이 적용된 $60 상단이 포함된 경우 결과 소계는 $45이고 장바구니가 최소값을 충족하지 않습니다.
-      - `No` - 소계가 할인 없이 최소 금액을 충족해야 합니다.
+     - `Yes` - 소계가 할인 포함 최소 금액을 충족해야 합니다. 최소 $50의 예를 사용하여 장바구니에 25% 할인이 적용된 $60 상단이 포함된 경우 결과 소계는 $45이고 장바구니가 최소값을 충족하지 않습니다.
+     - `No` - 소계가 할인 없이 최소 금액을 충족해야 합니다.
 
    - **[!UICONTROL Include Tax to Amount]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Yes` - 세금이 포함된 최소 금액을 충족하려면 소계가 필요합니다.
-      - `No` - 소계가 세금 없이 최소 금액을 충족하도록 요구합니다.
+     - `Yes` - 세금이 포함된 최소 금액을 충족하려면 소계가 필요합니다.
+     - `No` - 소계가 세금 없이 최소 금액을 충족하도록 요구합니다.
 
 1. 필요한 경우 최소 주문 금액 메시지 설정을 사용자 정의합니다.
 
@@ -198,9 +207,9 @@ Adobe Commerce B2B를 설치하고 활성화하면 _견적_ 기능에 대한 지
 
    - 필요한 경우 최소 주문 금액 메시지 설정을 사용자 정의합니다.
 
-      - **[!UICONTROL Multi-address Description Message]** - 장바구니 상단에 표시되는 메시지를 사용자 지정하는 데 사용할 텍스트를 입력합니다. 이 텍스트는 최소값에 맞지 않습니다.
+     - **[!UICONTROL Multi-address Description Message]** - 장바구니 상단에 표시되는 메시지를 사용자 지정하는 데 사용할 텍스트를 입력합니다. 이 텍스트는 최소값에 맞지 않습니다.
 
-      - **[!UICONTROL Multi-address Error to Show in Shopping Cart]** - 최소값을 충족하지 않는 다중 주소 주문에 대한 장바구니 오류 메시지를 사용자 지정하는 데 사용할 텍스트를 입력하고 상자에 텍스트를 입력합니다.
+     - **[!UICONTROL Multi-address Error to Show in Shopping Cart]** - 최소값을 충족하지 않는 다중 주소 주문에 대한 장바구니 오류 메시지를 사용자 지정하는 데 사용할 텍스트를 입력하고 상자에 텍스트를 입력합니다.
 
      기본 메시지를 사용하려면 메시지 설명 필드를 비워 둡니다.
 

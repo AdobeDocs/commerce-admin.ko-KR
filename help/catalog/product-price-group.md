@@ -3,28 +3,39 @@ title: 그룹 가격 책정
 description: 그룹 가격을 사용하여 스토어의 고객 그룹에 따라 할인된 항목의 가격을 설정하는 방법에 대해 알아봅니다.
 exl-id: bc5be23f-64eb-47c3-beda-01168abfbf96
 feature: Catalog Management, Products, Customers
-TQID: https://experienceleague.adobe.com/OCeX5pLtUzWdwOW5W8qpI4DCeab2PTAVi5xF8HUr91A
+TQID: 'https://experienceleague.adobe.com/OCeX5pLtUzWdwOW5W8qpI4DCeab2PTAVi5xF8HUr91A'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: '333'
 ht-degree: 0%
-
 ---
-
 # 그룹 가격 책정
 
 관리자의 제품 구성 설정을 사용하여 스토어의 고객 그룹을 기반으로 할인된 항목의 가격을 설정할 수 있습니다. 이 전략적 가격 책정 모델을 _그룹 가격 책정_&#x200B;이라고 합니다.
@@ -67,9 +78,9 @@ ht-degree: 0%
 
    - **[!UICONTROL Price]**&#x200B;의 경우 가격 책정 유형 및 금액을 설정하십시오.
 
-      - `Fixed` - 할인된 제품 가격을 입력합니다.
+     - `Fixed` - 할인된 제품 가격을 입력합니다.
 
-      - `Discount` - 제품 가격의 할인된 가격을 백분율로 입력합니다.
+     - `Discount` - 제품 가격의 할인된 가격을 백분율로 입력합니다.
 
      ![고객 그룹 가격](./assets/product-price-group-discount.png){width="600" zoomable="yes"}
 

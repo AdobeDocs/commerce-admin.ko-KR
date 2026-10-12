@@ -4,25 +4,36 @@ description: 각 고객 계정에 대해 유지 관리할 수 있는 최대 수�
 exl-id: a36dda0e-c00f-4182-9046-717b9d811f71
 feature: B2B, Companies, Configuration
 role: Admin
-TQID: https://experienceleague.adobe.com/we9sPvRg20kEV4EpfemuA7WW-rjv7G6evjr5MwzRGyM
+TQID: 'https://experienceleague.adobe.com/we9sPvRg20kEV4EpfemuA7WW-rjv7G6evjr5MwzRGyM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 215
+source-wordcount: '215'
 ht-degree: 0%
-
 ---
-
 # 구매요청 목록 최대값 구성
 
 구매요청 목록 기능을 사용할 경우, 고객은 자주 구매하는 품목의 여러 목록을 생성하고 이러한 목록을 주문 배치에 사용할 수 있습니다. 로그인한 사용자와 게스트 모두가 사용할 수 있습니다. [B2B 기능을 구성](enable-basic-features.md)할 때 구매요청 목록을 활성화할 수 있습니다.

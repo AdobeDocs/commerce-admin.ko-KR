@@ -3,30 +3,43 @@ title: 선물 등록 설정
 description: 스토어 고객을 위한 선물 레지스트리 유형을 설정하는 방법에 대해 알아봅니다.
 exl-id: d618c769-10be-4881-a799-42484d35c57b
 feature: Gift, Storefront
-TQID: https://experienceleague.adobe.com/LslheZ8xJdGz9NOe8Fkd6QK6uVN8Gz8M8pE-dPwC-5s
+TQID: 'https://experienceleague.adobe.com/LslheZ8xJdGz9NOe8Fkd6QK6uVN8Gz8M8pE-dPwC-5s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4fc0a729-4349-5307-bd06-1b4bfbaf5d0c
+    internal-label: Gift
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1098
+source-wordcount: '1098'
 ht-degree: 0%
-
 ---
-
 # 선물 등록 설정
 
 {{ee-feature}}
@@ -89,13 +102,13 @@ ht-degree: 0%
 
      일부 입력 유형에는 추가 속성이 있습니다. 예를 들어 이벤트 위치에는 이벤트를 검색할 수 있도록 하는 추가 속성이 있으며, 스토어의 선물 등록 공개 목록에 포함됩니다.
 
-      - 특성을 표시할 선물 레지스트리의 섹션으로 **[!UICONTROL Attribute Group]**&#x200B;을(를) 설정합니다.
+     - 특성을 표시할 선물 레지스트리의 섹션으로 **[!UICONTROL Attribute Group]**&#x200B;을(를) 설정합니다.
 
-      - **[!UICONTROL Label]**&#x200B;의 경우 레지스트리의 데이터 입력 필드를 식별할 이름을 입력하십시오.
+     - **[!UICONTROL Label]**&#x200B;의 경우 레지스트리의 데이터 입력 필드를 식별할 이름을 입력하십시오.
 
-      - 고객이 선택하거나 필드에 값을 입력해야 하는 경우 **[!UICONTROL Is Required]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+     - 고객이 선택하거나 필드에 값을 입력해야 하는 경우 **[!UICONTROL Is Required]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
-      - **[!UICONTROL Sort Order]**&#x200B;의 경우 스토어에서 사용할 수 있는 다른 선물 등록과 함께 나열될 때 이 선물 레지스트리가 표시되는 순서를 결정하는 숫자를 입력하십시오.
+     - **[!UICONTROL Sort Order]**&#x200B;의 경우 스토어에서 사용할 수 있는 다른 선물 등록과 함께 나열될 때 이 선물 레지스트리가 표시되는 순서를 결정하는 숫자를 입력하십시오.
 
 1. 다른 옵션을 추가하려면 **새 옵션 추가**&#x200B;를 클릭하세요.
 

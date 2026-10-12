@@ -3,28 +3,37 @@ title: 이메일 커뮤니케이션 구성
 description: 반환된 이메일 라우팅 또는 특정 이메일 주소에 대한 회신을 포함하여 이메일 통신을 구성하는 방법에 대해 알아봅니다.
 exl-id: 7e62e9c5-f214-4fd5-becc-99dcb093cd5c
 feature: Communications, Configuration
-TQID: https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww
+TQID: 'https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 310
+source-wordcount: '310'
 ht-degree: 0%
-
 ---
-
 # 이메일 커뮤니케이션 구성
 
 _메일 전송 설정_&#x200B;을 통해 반환된 전자 메일 또는 전자 메일에 회신하는 기능을 특정 주소로 라우팅할 수 있습니다. 저장소가 SMTP 또는 Windows 서버에서 실행 중인 경우 호스트 및 포트 설정을 확인할 수 있습니다.
@@ -51,22 +60,22 @@ _메일 전송 설정_&#x200B;을 통해 반환된 전자 메일 또는 전자 �
 
    - SMTP 또는 Windows 서버에서 실행 중인 경우 다음 설정을 확인하십시오.
 
-      - **[!UICONTROL Host]** - `localhost` 또는 기타
+     - **[!UICONTROL Host]** - `localhost` 또는 기타
 
-      - **[!UICONTROL Port (25)]** - `25` 또는 기타
+     - **[!UICONTROL Port (25)]** - `25` 또는 기타
 
    - **[!UICONTROL Set Return Path]**&#x200B;의 경우 다음 옵션 중 하나를 선택하십시오.
 
-      - `No` - (권장 보안 조치) 경로에서 기본 스토어 이메일 주소로 이메일을 반환했습니다.
-      - `Yes` - 경로가 기본 스토어 전자 메일 주소로 전자 메일을 반환했습니다.
-      - `Specified` - 경로가 **[!UICONTROL Return Path Email]**&#x200B;에 지정된 전자 메일 주소로 전자 메일을 반환했습니다.
+     - `No` - (권장 보안 조치) 경로에서 기본 스토어 이메일 주소로 이메일을 반환했습니다.
+     - `Yes` - 경로가 기본 스토어 전자 메일 주소로 전자 메일을 반환했습니다.
+     - `Specified` - 경로가 **[!UICONTROL Return Path Email]**&#x200B;에 지정된 전자 메일 주소로 전자 메일을 반환했습니다.
 
    - SMTP 서버에서 실행 중인 경우 연결을 구성합니다.
 
-      - **[!UICONTROL Username]** - SMTP 서버의 로그인 사용자 이름을 입력합니다.
-      - **[!UICONTROL Password]** - SMTP 서버 로그인의 암호를 입력합니다.
-      - **[!UICONTROL Auth]** - SMTP 서버 연결에 대한 인증 유형 선택: `NONE`, `PLAIN` 또는 `LOGIN`
-      - **[!UICONTROL SSL]** - 서버 보안 인증서에 대한 확인 유형 선택: `SSL` 또는 `TLS`
+     - **[!UICONTROL Username]** - SMTP 서버의 로그인 사용자 이름을 입력합니다.
+     - **[!UICONTROL Password]** - SMTP 서버 로그인의 암호를 입력합니다.
+     - **[!UICONTROL Auth]** - SMTP 서버 연결에 대한 인증 유형 선택: `NONE`, `PLAIN` 또는 `LOGIN`
+     - **[!UICONTROL SSL]** - 서버 보안 인증서에 대한 확인 유형 선택: `SSL` 또는 `TLS`
 
      ![고급 구성 - 메일 전송 설정](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png){width="600" zoomable="yes"}
 

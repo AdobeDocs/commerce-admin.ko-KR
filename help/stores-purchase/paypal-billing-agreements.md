@@ -4,28 +4,37 @@ description: 스토어에서 PayPal 결제 계약 및 결제 방법을 지원하
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M
+TQID: 'https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: '821'
 ht-degree: 0%
-
 ---
-
 # PayPal 결제 계약
 
 체크아웃 프로세스를 간소화하기 위해 고객은 결제 서비스 공급자로서 PayPal과 청구 계약을 체결할 수 있습니다. 체크아웃 시 고객은 결제 방법으로 청구 계약을 선택합니다. 결제 시스템은 고유한 번호로 청구 계약을 확인하고 고객 계정에 비용을 청구합니다. 청구 계약이 있는 경우 고객은 더 이상 각 구매에 대한 결제 정보를 입력할 필요가 없습니다. 고객은 고객 계정의 대시보드에서 청구 계약을 관리할 수 있으며, 각 상태는 _활성_ 또는 _취소됨_&#x200B;으로 표시됩니다. 청구 계약이 취소되면 다시 활성화할 수 없습니다.

@@ -3,28 +3,39 @@ title: 뉴스레터 및 구독
 description: 뉴스레터 및 이 기능을 저렴한 홍보 도구로 활성화하는 방법에 대해 알아봅니다.
 exl-id: ad4488c2-1b8b-4326-8486-743c75c5b9a6
 feature: Customers, Communications
-TQID: https://experienceleague.adobe.com/riYrvqQTvcEa2p9EQXv-oy3juefmg4pch20aOHDOoEQ
+TQID: 'https://experienceleague.adobe.com/riYrvqQTvcEa2p9EQXv-oy3juefmg4pch20aOHDOoEQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 314
+source-wordcount: '314'
 ht-degree: 0%
-
 ---
-
 # 뉴스레터 및 구독
 
 일반 뉴스레터를 게시하는 것은 사용 가능한 가장 강력하고 경제적인 마케팅 도구 중 하나로 간주됩니다. Commerce은 구독한 고객에게 뉴스레터를 게시 및 배포하고, 뉴스레터를 생성하고, 구독자 목록을 빌드 및 관리하고, 콘텐츠를 개발하고, 스토어로 트래픽을 유도하는 도구를 제공합니다. [페이지 계층 구조](../content-design/page-hierarchy.md)를 사용하여 과거 문제에 대한 보관 파일을 만들 수도 있습니다.
@@ -61,9 +72,9 @@ ht-degree: 0%
 
    - 구독자에게 전송된 다음 각 이메일 메시지의 이메일 템플릿과 발신자를 확인합니다.
 
-      - [!UICONTROL Success email]
-      - [!UICONTROL Confirmation email]
-      - [!UICONTROL Unsubscribe email]
+     - [!UICONTROL Success email]
+     - [!UICONTROL Confirmation email]
+     - [!UICONTROL Unsubscribe email]
 
    - 이중 옵트인 프로세스를 사용하여 구독을 확인하려면 **[!UICONTROL Need to Confirm]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 

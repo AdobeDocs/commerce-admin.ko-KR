@@ -4,30 +4,41 @@ description: 스토어에서 온라인 결제 솔루션으로 PayPal 결제 표�
 exl-id: b4024dac-34d7-4f1a-ad9d-0fc406194609
 feature: Payments
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/Cn4Fx-2iPKw828MK2lH8lFDsUX4fC7rsYDx6V8L-6Mw
+TQID: 'https://experienceleague.adobe.com/Cn4Fx-2iPKw828MK2lH8lFDsUX4fC7rsYDx6V8L-6Mw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2089
+source-wordcount: '2130'
 ht-degree: 0%
-
 ---
-
 # PayPal 결제 표준
 
 [PayPal 결제 표준](https://developer.paypal.com/docs/paypal-payments-standard/mobile-paypal-payments-standard/)은 온라인으로 결제를 수락하는 가장 쉬운 방법입니다. 고객에게는 신용 카드와 PayPal을 통해 결제 시 체크아웃 버튼을 추가하면 됩니다.
@@ -382,8 +393,8 @@ PayPal 결제 표준을 사용하면 모바일 장치에서 신용카드를 긁�
 
    - PayPal 보안 FTP 서버에 등록한 경우 다음 SFTP 로그인 자격 증명을 입력하십시오.
 
-      - 로그인
-      - 암호
+     - 로그인
+     - 암호
 
    - 사이트에서 빠른 체크아웃을 사용하기 전에 테스트 보고서를 실행하려면 **[!UICONTROL Sandbox Mode]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -401,13 +412,13 @@ PayPal 결제 표준을 사용하면 모바일 장치에서 신용카드를 긁�
 
    - **[!UICONTROL Schedule]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal은 45일 동안 각 보고서를 유지합니다.
 
@@ -435,9 +446,9 @@ _[!UICONTROL Frontend Experience Settings]_&#x200B;을(를) 사용하여 사이�
 
    - PayPal 판매자 페이지에 적용할 **[!UICONTROL Page Style]**&#x200B;의 이름을 입력하십시오.
 
-      - `paypal` - PayPal 페이지 스타일을 사용합니다.
-      - `primary` - 계정 프로필에서 _primary_ 스타일로 식별한 페이지 스타일을 사용합니다.
-      - `your_custom_value` - 계정 프로필에 지정된 사용자 지정 결제 페이지 스타일을 사용합니다.
+     - `paypal` - PayPal 페이지 스타일을 사용합니다.
+     - `primary` - 계정 프로필에서 _primary_ 스타일로 식별한 페이지 스타일을 사용합니다.
+     - `your_custom_value` - 계정 프로필에 지정된 사용자 지정 결제 페이지 스타일을 사용합니다.
 
    - **[!UICONTROL Header Image URL]**&#x200B;의 경우 결제 페이지의 왼쪽 위 모서리에 표시할 이미지의 URL을 입력하십시오. 최대 파일 크기는 750픽셀 너비 x 90픽셀 높이입니다.
 
@@ -447,6 +458,6 @@ _[!UICONTROL Frontend Experience Settings]_&#x200B;을(를) 사용하여 사이�
 
    - 페이지의 색상을 설정하려면 다음 각 페이지에 대해 6자의 16진수 코드(기호 `#` 제외)를 입력하십시오.
 
-      - **[!UICONTROL Header Background Color]** - 체크아웃 페이지 헤더의 배경색입니다.
-      - **[!UICONTROL Header Border Color]** - 머리글 주변의 2픽셀 테두리 색입니다.
-      - **[!UICONTROL Page Background Color]** - 체크아웃 페이지와 머리글 및 결제 양식 주변의 배경색입니다.
+     - **[!UICONTROL Header Background Color]** - 체크아웃 페이지 헤더의 배경색입니다.
+     - **[!UICONTROL Header Border Color]** - 머리글 주변의 2픽셀 테두리 색입니다.
+     - **[!UICONTROL Page Background Color]** - 체크아웃 페이지와 머리글 및 결제 양식 주변의 배경색입니다.

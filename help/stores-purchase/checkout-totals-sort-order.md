@@ -3,26 +3,33 @@ title: 체크아웃 합계를 위한 정렬 순서
 description: 표시된 체크아웃 총계와 주문 요약에서 체크아웃 합계 정렬 순서를 구성하는 방법에 대해 알아봅니다.
 exl-id: 2b1345e3-6ad3-472a-af3e-3f7b24577b13
 feature: Checkout, Configuration
-TQID: https://experienceleague.adobe.com/cXt3dbS5Jd8baKFk8K8HP1Cypk1oMS85iCq-WZ8cIgg
+TQID: 'https://experienceleague.adobe.com/cXt3dbS5Jd8baKFk8K8HP1Cypk1oMS85iCq-WZ8cIgg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 257
+source-wordcount: '257'
 ht-degree: 0%
-
 ---
-
 # 체크아웃 합계를 위한 정렬 순서
 
 주문 검토 중에 합계가 주문 하단에 표시되며 할인, 운송비, 상점 대변 및 세금이 조정됩니다. 각 항목의 순서는 계산의 순서를 결정하며, 각 항목에 지정된 번호로 구성에 설정됩니다. 예를 들어 소계는 섹션의 첫 번째 항목이며 10이라는 값이 지정됩니다. 총계는 마지막으로 나타나고 100이라는 값이 할당됩니다. 합계 섹션의 다른 모든 항목에는 해당 값 사이의 값이 지정됩니다.

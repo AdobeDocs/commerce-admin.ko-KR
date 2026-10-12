@@ -3,30 +3,44 @@ title: 대변 메모
 description: 대변 메모와 이를 사용하여 부분 또는 전체 환불을 발행하는 방법에 대해 알아봅니다.
 exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 feature: Orders, Invoices, Returns
-TQID: https://experienceleague.adobe.com/-G3nrlvCcdrsFJFxGWKZB7j3LsmhBTzNdncuNzsFuE4
+TQID: 'https://experienceleague.adobe.com/-G3nrlvCcdrsFJFxGWKZB7j3LsmhBTzNdncuNzsFuE4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: ac07462c-732c-5c1c-947b-4ce533b4fcfb
+    internal-label: Returns
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 583
+source-wordcount: '583'
 ht-degree: 0%
-
 ---
-
 # 대변 메모
 
 _대변 메모_&#x200B;은(는) 고객이 전액 또는 일부 환불을 받아야 하는 금액을 표시하는 문서입니다. 해당 금액은 구매에 적용되거나 고객에게 환불될 수 있습니다. 단일 주문이나 복수 주문에 대한 대변 메모를 배치로 인쇄할 수 있습니다. 대변 메모를 인쇄하기 전에 주문에 대해 먼저 생성해야 합니다. _신용 메모_ 페이지에는 고객에게 발급된 신용 메모가 나열됩니다.
@@ -40,9 +54,9 @@ _대변 메모_&#x200B;은(는) 고객이 전액 또는 일부 환불을 받아�
 다음 세 가지 방법으로 주문을 환불할 수 있습니다.
 
 - 계정 대변—대변 계정을 사용하여 지급한 주문은 계정 대변으로 환불될 수 있습니다.
-   - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) [크레딧 저장](../customers/store-credit-using.md)
-   - ![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B에서 사용 가능) [계정에서 결제](../b2b/enable-basic-features.md#configure-payment-on-account)(오프라인 메서드)
-   - ![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B에서 사용 가능) [회사 크레딧](../b2b/credit-company.md)
+  - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) [크레딧 저장](../customers/store-credit-using.md)
+  - ![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B에서 사용 가능) [계정에서 결제](../b2b/enable-basic-features.md#configure-payment-on-account)(오프라인 메서드)
+  - ![Adobe Commerce B2B](../assets/b2b.svg)(Adobe Commerce B2B에서 사용 가능) [회사 크레딧](../b2b/credit-company.md)
 - [온라인 환불](payments.md#online-payment-methods)—PayPal 또는 Braintree과 같은 결제 게이트웨이를 통해 신용 카드로 결제된 주문은 결제 프로세서를 통해 온라인으로 환불됩니다.
 - [오프라인 환불](payments.md#offline-payment-methods)—배달 시 현금([COD](cash-on-delivery.md)) 또는 [수표 또는 금전 주문](check-money-order.md)으로 지급된 주문은 오프라인으로 환불됩니다.
 

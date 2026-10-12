@@ -3,13 +3,24 @@ title: 페이지 레이아웃
 description: 페이지 레이아웃 섹션 및 기본 레이아웃을 구성하는 방법에 대해 알아봅니다.
 exl-id: 397a92cf-6f20-4729-8d7c-c5f672fc1c9a
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '906'
 ht-degree: 0%
-
 ---
-
 # 페이지 레이아웃
 
 저장소에 있는 각 페이지의 레이아웃은 페이지의 머리글, 바닥글 및 컨텐츠 영역을 정의하는 고유한 섹션 또는 컨테이너로 구성됩니다. 레이아웃에 따라 각 페이지에는 1개, 2개, 3개 또는 그 이상의 열이 있을 수 있습니다. 레이아웃을 페이지의 _평면도_(으)로 간주하고 CMS, 제품 및 범주 페이지의 기본값으로 사용할 특정 레이아웃을 할당할 수 있습니다.

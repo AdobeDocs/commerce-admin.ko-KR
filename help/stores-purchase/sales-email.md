@@ -3,28 +3,39 @@ title: 영업 이메일
 description: 주문에 대한 고객 커뮤니케이션을 지원하기 위해 판매 이메일을 구성하는 방법에 대해 알아봅니다.
 exl-id: b205dc61-08cc-4783-810c-686ccf2ba300
 feature: Communications, Orders
-TQID: https://experienceleague.adobe.com/M9-GhmO0XeRC9sgZmQXpv759NN-5cM92Bd8ZxxM96yg
+TQID: 'https://experienceleague.adobe.com/M9-GhmO0XeRC9sgZmQXpv759NN-5cM92Bd8ZxxM96yg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 454
+source-wordcount: '454'
 ht-degree: 3%
-
 ---
-
 # 영업 이메일
 
 몇 가지 이메일 메시지는 주문과 관련된 이벤트에 의해 트리거되며 구성은 유사합니다. 메시지 발신자로 표시되는 스토어 연락처, 사용할 이메일 템플릿 및 메시지 사본을 받을 사용자를 식별해야 합니다. 영업 이메일은 이벤트에 의해 트리거될 때 또는 사전 결정된 간격에 따라 전송될 수 있습니다.

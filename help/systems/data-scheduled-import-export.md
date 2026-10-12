@@ -3,29 +3,43 @@ title: 예약된 가져오기 및 내보내기
 description: 예약된 데이터 가져오기 및 내보내기 작업을 관리하는 방법에 대해 알아봅니다.
 exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
-TQID: https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU
+TQID: 'https://experienceleague.adobe.com/Zf5cLdCLjaDo8X8EvH4T9akYnlTBU-3Iyj2EIgMkjtU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2462
+source-wordcount: '2462'
 ht-degree: 0%
-
 ---
-
 # 예약된 가져오기 및 내보내기
 
 {{ee-feature}}
@@ -82,20 +96,20 @@ ht-degree: 0%
 
    - **[!UICONTROL Entity Type]** — 다음 중 하나로 설정합니다.
 
-      - `Products`
-      - `Advanced Pricing`
-      - `Customers and Addresses (single file)`
-      - `Customer Addresses`
-      - `Customer Finances`
-      - `Customers Main File`
-      - `Stock Sources`
+     - `Products`
+     - `Advanced Pricing`
+     - `Customers and Addresses (single file)`
+     - `Customer Addresses`
+     - `Customer Finances`
+     - `Customers Main File`
+     - `Stock Sources`
 
    - **[!UICONTROL Import Behavior]** — 다음 중 하나로 설정합니다.
 
-      - `Add/Update Complex Data` — 데이터베이스의 기존 항목에 대한 기존 복합 데이터에 새 복합 데이터를 추가하거나 업데이트합니다. 이 값은 기본값입니다.
-      - `Replace` — 데이터베이스의 기존 엔터티에 대한 기존 복합 쓰기를 덮어씁니다.
-      - `Delete Entities` — 데이터베이스의 기존 항목을 삭제합니다.
-      - `Custom Action` - 데이터베이스의 기존 엔터티를 사용자 지정합니다.
+     - `Add/Update Complex Data` — 데이터베이스의 기존 항목에 대한 기존 복합 데이터에 새 복합 데이터를 추가하거나 업데이트합니다. 이 값은 기본값입니다.
+     - `Replace` — 데이터베이스의 기존 엔터티에 대한 기존 복합 쓰기를 덮어씁니다.
+     - `Delete Entities` — 데이터베이스의 기존 항목을 삭제합니다.
+     - `Custom Action` - 데이터베이스의 기존 엔터티를 사용자 지정합니다.
 
      >[!NOTE]
      >
@@ -151,7 +165,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Send Failed Email Copy To]**&#x200B;의 경우 알림 복사본을 받을 사용자의 전자 메일 주소를 입력하십시오.
 
-   여러 이메일 주소는 쉼표로 구분합니다.
+   이메일 주소가 여러 개인 경우 쉼표로 구분합니다.
 
 1. **[!UICONTROL Failed Email Copy Method]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
@@ -233,12 +247,12 @@ ht-degree: 0%
 
    - **[!UICONTROL Entity Type]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Advanced Pricing`
-      - `Products`
-      - `Customer Financing`
-      - `Customers Main File`
-      - `Customer Addresses`
-      - `Stock Sources`
+     - `Advanced Pricing`
+     - `Products`
+     - `Customer Financing`
+     - `Customers Main File`
+     - `Customer Addresses`
+     - `Stock Sources`
 
      페이지 하단의 _[!UICONTROL Entity Attributes]_&#x200B;섹션이 선택한 엔터티 형식을 반영하도록 업데이트됩니다.
 
@@ -246,9 +260,9 @@ ht-degree: 0%
 
    - **[!UICONTROL Frequency]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
 1. 예약된 내보내기를 활성화하려면 **[!UICONTROL Status]**&#x200B;을(를) `Enabled`(으)로 설정합니다.
 

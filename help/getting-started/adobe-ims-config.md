@@ -4,30 +4,42 @@ description: Adobe Commerce Admin 사용자 계정 로그인을 Adobe ID과 통�
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-TQID: https://experienceleague.adobe.com/gpbB0FZxHJdlef-Xv6DIMs4ixUg1R4kZxF6Hau94n9o
+TQID: 'https://experienceleague.adobe.com/gpbB0FZxHJdlef-Xv6DIMs4ixUg1R4kZxF6Hau94n9o'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
+  - id: 23bc8570-95c6-5ef5-a563-2e4a4e6b4853
+    internal-label: Identity Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a43dbb4a703f497e496c63f2886832d44e8c7cab
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 916
-ht-degree: 0%
-
+source-wordcount: '935'
+ht-degree: 1%
 ---
-
 # Adobe ID과 Commerce Admin Integration 구성
 
 {{ee-feature}}
@@ -54,7 +66,7 @@ ht-degree: 0%
 * 조직 ID([Adobe Admin Console](https://adminconsole.adobe.com/)에서 가져옴)이며, 길이는 24자 이상이어야 합니다. 인증된 사용자는 이 IMS 조직에 속해야 합니다. 조직 ID 찾기에 대한 자세한 내용은 [Experience Cloud의 조직](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations)을 참조하십시오.
 * 2FA는 모듈을 활성화하기 위해 Adobe Admin Console의 조직 수준에서 적용되어야 합니다. [인증 설정](https://helpx.adobe.com/kr/business/enterprise/manage-your-organization-setup/authentication-settings.html#two-step-verification)을 확인하세요.
 * 클라이언트 ID
-* 클라이언트 암호
+* 클라이언트 비밀
 * [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/credentials)에서 API 키를 검색한 후 클라이언트 ID 및 클라이언트 암호를 사용할 수 있습니다.
 
 Commerce Admin 사용자는 로그인하려면 Adobe ID으로 계정을 만들어야 합니다.
@@ -123,7 +135,7 @@ Commerce Admin 사용자는 로그인하려면 Adobe ID으로 계정을 만들�
 
 * 조직 ID
 * 클라이언트 ID
-* 클라이언트 암호
+* 클라이언트 비밀
 * 2FA 사용
 
 Adobe Commerce에 활성화 성공 또는 실패 여부를 나타내는 메시지가 표시됩니다.

@@ -3,29 +3,45 @@ title: 장바구니 가격 규칙 예 - 무료 배송 프로모션
 description: 장바구니 가격 규칙을 사용하여 무료 배송을 제공하는 예를 검토하십시오.
 exl-id: f7652254-ff01-44ff-a207-2d7cf2017517
 feature: Merchandising, Price Rules, Shopping Cart, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/FR-q4Qj-ZDDzmfEKSvSj-BlwsM7ro-BqAE1yCppTaXE
+TQID: 'https://experienceleague.adobe.com/FR-q4Qj-ZDDzmfEKSvSj-BlwsM7ro-BqAE1yCppTaXE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: a507b1ed-4937-53da-97ae-57d36bd5b9e0
+    internal-label: Price Rules
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 407
+source-wordcount: '407'
 ht-degree: 0%
-
 ---
-
 # 장바구니 가격 규칙 예 - 무료 배송 프로모션
 
 무료 배송은 프로모션으로 제공될 수 있습니다([쿠폰](price-rules-cart-coupon.md) 포함 또는 제외). 무료 배송 쿠폰이나 바우처는 고객 픽업 주문에도 적용될 수 있으므로 주문 송장을 발행하고 배송하여 [워크플로](../stores-purchase/order-processing.md#order-workflow-and-processing)를 완료할 수 있습니다.
@@ -54,8 +70,8 @@ _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL Promoti
    - **[!UICONTROL Websites]** 상자에서 무료 배송 쿠폰을 사용할 수 있는 각 사이트를 선택합니다.
    - 규칙이 적용되는 **[!UICONTROL Customer Groups]**&#x200B;을(를) 선택하십시오.
    - **[!UICONTROL Coupon]**&#x200B;을(를) 다음 중 하나로 설정합니다.
-      - 쿠폰 없이 무료 배송 프로모션을 제공하려면 기본(`No Coupon`) 설정을 수락하십시오.
-      - 가격 규칙이 적용된 쿠폰을 사용하려면 `Specific Coupon`을(를) 선택하세요. 필요한 경우 지침을 완료하여 [쿠폰](price-rules-cart-coupon.md)을 설정합니다.
+     - 쿠폰 없이 무료 배송 프로모션을 제공하려면 기본(`No Coupon`) 설정을 수락하십시오.
+     - 가격 규칙이 적용된 쿠폰을 사용하려면 `Specific Coupon`을(를) 선택하세요. 필요한 경우 지침을 완료하여 [쿠폰](price-rules-cart-coupon.md)을 설정합니다.
 
 1. 아래로 스크롤하여 **[!UICONTROL Actions]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 

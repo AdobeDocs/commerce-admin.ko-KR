@@ -4,28 +4,44 @@ description: 사전 정의된 변수와 이메일 템플릿에 변수를 추가�
 exl-id: 01e909c4-c932-4262-9f33-bd2740a6355f
 role: Admin, User
 feature: System, Variables, Page Content, Communications
-TQID: https://experienceleague.adobe.com/TKhaNVRFLc3VK0iDkCpqoWSnvFRJmDWAIw1uBPzlh00
+TQID: 'https://experienceleague.adobe.com/TKhaNVRFLc3VK0iDkCpqoWSnvFRJmDWAIw1uBPzlh00'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+subfeature_v2:
+  - id: 2191e157-828a-5358-ad69-ebcaa8402915
+    internal-label: Variables
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: '387'
 ht-degree: 0%
-
 ---
-
 # 사전 정의된 변수 사용
 
 [미리 정의된](variables-predefined.md) 변수를 사용하면 [전자 메일](email-templates.md) 및 [뉴스레터](../merchandising-promotions/newsletters.md) 템플릿과 기타 유형의 콘텐츠를 손쉽게 개인화할 수 있습니다. 변수 삽입 단추를 클릭하면 허용되는 [미리 정의된](variables-predefined.md) 변수 목록이 나타납니다. 다음 이미지에 표시된 대로 특정 이메일 템플릿에 사용할 수 있는 변수 목록은 템플릿과 연결된 데이터에 의해 결정됩니다. 자주 사용하는 전자 메일 템플릿 및 관련 변수 목록은 [변수 참조](variables-reference.md)를 참조하십시오.

@@ -1,32 +1,41 @@
 ---
-title: ' [!DNL Commerce] 계정 만들기 및 액세스'
-description: 구입한 제품 및 서비스를 관리하는  [!DNL Commerce] 계정에 대해 알아봅니다.
+title: '[!DNL Commerce] 계정 만들기 및 액세스'
+description: 구입한 제품 및 서비스를 관리하는 [!DNL Commerce] 계정에 대해 알아봅니다.
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-TQID: https://experienceleague.adobe.com/yLnMGRFDtzHhx0bEg5QhKJWc2cr-psvuq9RMEhbHX0s
+TQID: 'https://experienceleague.adobe.com/yLnMGRFDtzHhx0bEg5QhKJWc2cr-psvuq9RMEhbHX0s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 4560f5f5-d00c-5b5d-b61b-369d85ef7a26
+    internal-label: User Account
 subfeature_v2:
   - id: d41d3a54-9721-475c-abd6-295bebfba9e4
+    internal-label: Login credentials and URLs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: '1133'
 ht-degree: 0%
-
 ---
-
 # [!DNL Commerce] 계정에 액세스
 
 [!DNL Commerce] 계정은 클라우드 인프라 또는 온프레미스에 배포된 Adobe Commerce 프로젝트용 Adobe Commerce 서비스를 관리하기 위한 중앙 액세스 지점입니다. 계정 대시보드에서 구독을 보고, Commerce 서비스 API 키를 관리하고, 과거 청구 정보를 검토하고, 조직의 다른 사용자와 공동 작업을 수행할 수 있습니다.

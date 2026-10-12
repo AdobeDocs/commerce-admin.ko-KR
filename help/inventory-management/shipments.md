@@ -1,30 +1,41 @@
 ---
 title: 재고에서 주문 및 선적 관리
-description: 판매 가능 및 현재고 수량이 자동으로 업데이트되므로  [!DNL Inventory Management] 에서 주문, 부분 출하, 환불 및 취소를 관리합니다.
+description: 판매 가능 및 현재고 수량이 자동으로 업데이트되므로 [!DNL Inventory Management]에서 주문, 부분 배송, 환불 및 취소를 관리합니다.
 exl-id: cc4ca518-d98c-48f3-9051-6fb3c6fae9fe
 feature: Inventory, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/snZn77FvwJ-XKXojEtLOEpnPKp-nLZUpkTg6jTA9BY4
+TQID: 'https://experienceleague.adobe.com/snZn77FvwJ-XKXojEtLOEpnPKp-nLZUpkTg6jTA9BY4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 737
+source-wordcount: '738'
 ht-degree: 0%
-
 ---
-
 # 주문 및 배송 관리
 
 [!DNL Inventory Management]에는 배송 프로세스를 통해 재고 수량을 관리할 수 있는 추가 기능 및 옵션이 포함되어 있습니다. 납품을 검토 및 이행하고 주문을 취소하며 대변 메모를 발행하면 제품 판매 가능 및 현재고 수량이 자동으로 갱신됩니다.

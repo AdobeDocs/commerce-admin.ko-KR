@@ -3,28 +3,37 @@ title: 제품 설정 - [!UICONTROL Customizable Options]
 description: 제품의 경우 [!UICONTROL Customizable Options] 설정을 통해 텍스트, 선택 및 날짜 입력 유형을 포함한 옵션을 선택할 수 있습니다.
 exl-id: 7d23c5c5-2b2a-4f2a-b843-9c27b851be5f
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/O5ny4IROYKpKBckgsh7jcjO2qp45Ey9l0t4Fmq1IFBI
+TQID: 'https://experienceleague.adobe.com/O5ny4IROYKpKBckgsh7jcjO2qp45Ey9l0t4Fmq1IFBI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: '821'
 ht-degree: 0%
-
 ---
-
 # 제품 설정 - [!UICONTROL Customizable Options]
 
 사용자 정의 가능한 옵션을 제품에 추가하면 텍스트, 선택 및 날짜 입력 유형을 포함한 다양한 옵션을 손쉽게 제공할 수 있습니다. 사용자 정의 가능한 옵션은 재고 요구 사항이 간단한 경우 좋은 솔루션입니다. 그러나 단일 SKU의 변형을 기반으로 하므로 스톡을 관리하거나 가격 규칙 조건의 기반으로 사용할 수 없습니다. 옵션이 동일한 제품이 여러 개 있는 경우 한 제품을 설정하고 옵션을 다른 제품으로 가져올 수 있습니다.
@@ -67,8 +76,8 @@ ht-degree: 0%
 
    - **[!UICONTROL Price Type]**&#x200B;을(를) 다음 중 하나로 설정합니다.
 
-      - `Fixed` - 변동 가격이 기본 제품 가격과 고정 금액(예: $1)만큼 다릅니다.
-      - `Percentage` - 변형 가격이 기본 제품 가격과 백분율(예: 10%)로 다릅니다.
+     - `Fixed` - 변동 가격이 기본 제품 가격과 고정 금액(예: $1)만큼 다릅니다.
+     - `Percentage` - 변형 가격이 기본 제품 가격과 백분율(예: 10%)로 다릅니다.
 
    - (선택 사항) 옵션에 대해 **[!UICONTROL SKU]**&#x200B;을(를) 입력합니다. 옵션 SKU는 제품 SKU에 추가된 접미사입니다.
 

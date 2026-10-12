@@ -2,13 +2,24 @@
 title: 고객 계정 관리
 description: '[!UICONTROL Customers] 그리드를 사용하여 고객 계정을 찾고 개별 고객 계정에 대한 정보에 액세스합니다.'
 exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
-source-git-commit: 0316475a37ee09948b9ba3649e059155212ab1ae
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
-
 ---
-
 # 고객 계정 관리
 
 _[!UICONTROL Customers]_&#x200B;그리드를 사용하여 고객 계정을 찾습니다. 표준 [작업 공간 컨트롤](../getting-started/admin-workspace.md)을 사용하여 목록을 필터링하고, [열 레이아웃](../getting-started/admin-grid-controls.md)을 변경하고, 보기를 저장하고, 데이터를 내보낼 수 있습니다. 표 위의 [Actions 컨트롤](../getting-started/admin-actions-control.md)을 사용하여 여러 고객 레코드에 작업을 적용할 수 있습니다.

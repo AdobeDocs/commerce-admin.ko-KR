@@ -1,32 +1,43 @@
 ---
-title: ' [!DNL Inventory Management] 사용'
-description: 판매 가능 수량 및 이행 추적을 제어하려면  [!DNL Inventory Management] 을(를) 활성화하거나 비활성화하고 스토어 또는 제품 수준에서 재고를 관리합니다.
+title: '[!DNL Inventory Management] 사용'
+description: '[!DNL Inventory Management]을(를) 활성화 또는 비활성화하고 매장 또는 제품 수준에서 재고를 관리하여 판매 가능 수량 및 이행 추적을 제어합니다.'
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
 feature: Inventory, Configuration
-TQID: https://experienceleague.adobe.com/evCX34nY-m7WQnZt3xw7ng6-It7Xlf5DTanjKbP1fCk
+TQID: 'https://experienceleague.adobe.com/evCX34nY-m7WQnZt3xw7ng6-It7Xlf5DTanjKbP1fCk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 309
+source-wordcount: '310'
 ht-degree: 0%
-
 ---
-
 # [!DNL Inventory Management] 사용
 
 제품 인벤토리를 관리하려면 글로벌 스토어 또는 제품 수준에서 [!DNL Inventory Management]을(를) 사용하도록 설정하십시오. _재고 관리_ 옵션이 활성화되면 [!DNL Inventory Management]은(는) 구성된 재고 및 소스를 통해 사이트에서 사용할 수 있는 제품 수량을 자동으로 추적합니다. 모든 기능과 옵션은 활성화되면 추가 구성 없이 추적 및 보고를 시작합니다.
