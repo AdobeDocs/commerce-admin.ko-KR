@@ -76,9 +76,9 @@ ht-degree: 0%
 | [!UICONTROL Priority] | 규칙에 대해 정의된 우선 순위를 기준으로 목록을 필터링하는 자유 텍스트 필드. |
 | [!UICONTROL Status] | 이 옵션을 사용하여 규칙 상태(`Active` 또는 `Inactive`)를 기준으로 목록을 필터링합니다. |
 | [!UICONTROL Web Site] | 이 옵션을 사용하여 규칙에 정의된 웹 사이트를 기준으로 목록을 필터링합니다. |
-| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **[!UICONTROL Edit]**&#x200B;을(를) 클릭하여 _[!UICONTROL Rule Information]_페이지를 표시하고 규칙 설정을 업데이트합니다(규칙을 만드는 것과 유사). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 및 Adobe Commerce as a Cloud Service만 해당) 동적 일정 필드(_[!UICONTROL To:]_및_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 시작 날짜를 기준으로 목록을 필터링합니다. <br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service]만 해당) 동적 일정 필드(받는 사람: 및 보낸 사람:)를 사용하여 규칙의 시작 날짜 및 시간을 기준으로 목록을 필터링합니다. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 및 Adobe Commerce as a Cloud Service만 해당) 동적 일정 필드(_[!UICONTROL To:]_및_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 종료 날짜를 기준으로 목록을 필터링합니다. <br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service]만 해당) 동적 일정 필드(받는 사람: 및 보낸 사람:)를 사용하여 규칙의 종료 날짜 및 시간을 기준으로 목록을 필터링합니다. |
+| [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) **[!UICONTROL Edit]**&#x200B;을(를) 클릭하여 _[!UICONTROL Rule Information]_&#x200B;페이지를 표시하고 규칙 설정을 업데이트합니다(규칙을 만드는 것과 유사). |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 및 Adobe Commerce as a Cloud Service만 해당) 동적 일정 필드(_[!UICONTROL To:]_&#x200B;및_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 시작 날짜를 기준으로 목록을 필터링합니다. <br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service]만 해당) 동적 일정 필드(받는 사람: 및 보낸 사람:)를 사용하여 규칙의 시작 날짜 및 시간을 기준으로 목록을 필터링합니다. |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg)(Magento Open Source 및 Adobe Commerce as a Cloud Service만 해당) 동적 일정 필드(_[!UICONTROL To:]_&#x200B;및_[!UICONTROL From:]_)를 사용하여 규칙을 만들 때 정의된 규칙의 종료 날짜를 기준으로 목록을 필터링합니다. <br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service]만 해당) 동적 일정 필드(받는 사람: 및 보낸 사람:)를 사용하여 규칙의 종료 날짜 및 시간을 기준으로 목록을 필터링합니다. |
 
 {style="table-layout:auto"}
 
