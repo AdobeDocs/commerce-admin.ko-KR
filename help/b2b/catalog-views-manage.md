@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 토큰 라이프타임을 구성하거나 토큰 발급을 사용하지 않으려면 [서비스 > ACO 카탈로그 보기](/help/configuration-reference/services/aco-catalog-view.md)를 참조하세요.
 
-공유 카탈로그의 _[!UICONTROL Catalog Views]_&#x200B;탭 또는 연결된 회사의&#x200B;_[!UICONTROL Catalog Views]_ 섹션에서 이러한 카탈로그 보기를 검토하고 할당된 키를 관리할 수 있습니다. 둘 다 동일한 카탈로그 보기와 현재 키 할당을 나열합니다. 각 위치에서 정확한 탐색 경로를 보려면 [제한된 액세스 키 편집](#edit-restricted-access-keys)을 참조하십시오.
+공유 카탈로그의 _[!UICONTROL Catalog Views]_탭 또는 연결된 회사의_[!UICONTROL Catalog Views]_ 섹션에서 이러한 카탈로그 보기를 검토하고 할당된 키를 관리할 수 있습니다. 둘 다 동일한 카탈로그 보기와 현재 키 할당을 나열합니다. 각 위치에서 정확한 탐색 경로를 보려면 [제한된 액세스 키 편집](#edit-restricted-access-keys)을 참조하십시오.
 
 [!DNL Adobe Commerce Optimizer]에 대한 공유 카탈로그 데이터 동기화를 모니터링하려면 [카탈로그 보기 동기화 상태 모니터링](/help/systems/catalog-view-sync-status.md)을 참조하세요.
 
@@ -85,3 +85,5 @@ ht-degree: 0%
 > - [카탈로그 보기 동기화 상태 모니터링](/help/systems/catalog-view-sync-status.md)
 > - [공유 카탈로그 관리](catalog-shared-manage.md)
 > - [회사 계정 관리](account-company-manage.md)
+
+<!-- Last updated from includes: 2026-10-01 08:33:41 -->
