@@ -3,7 +3,7 @@ title: 카탈로그 강화
 description: Adobe Commerce의 기본 카탈로그 강화 기능을 사용하여 LLM 및 AI 지원 검색에 대한 제품 이름 및 긴 설명에 AI가 제안하는 개선 사항을 검토하고 적용합니다.
 role: Admin, User, Leader
 recommendations: noCatalog
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 68a48c6de1c76eca5b4cee4442e8793fb4bd29ee
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2429'
 ht-degree: 0%
 ---
 # 카탈로그 강화
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->카탈로그 보강은 백그라운드에서 [!DNL Commerce Catalog Agent] 및 [!DNL Adobe LLM Optimizer]에 의해 제공됩니다. 데이터 보강 기능을 Commerce 카탈로그 워크플로의 일부로 사용합니다. 승인된 이름 및 설명 업데이트를 적용하기 위해 별도의 LLM Optimizer 통합을 관리하지 않습니다. Commerce 외부에서 보다 광범위한 LLM 모니터링 및 최적화를 보려면 [LLM Optimizer 제품 설명서](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/home)를 참조하세요.
+>카탈로그 보강은 백그라운드에서 [!DNL Commerce Catalog Agent] 및 [!DNL Adobe Brand Visibility]에 의해 제공됩니다. 데이터 보강 기능을 Commerce 카탈로그 워크플로의 일부로 사용합니다. 승인된 이름 및 설명 업데이트를 적용하기 위해 별도의 Adobe Brand Visibility 통합을 관리하지 않습니다. Commerce 외부에서 더 광범위한 LLM 모니터링 및 최적화를 보려면 [[!DNL Adobe Brand Visibility] 제품 설명서](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home)를 참조하세요.
 
 ## 작동 방식 {#how-it-works}
 
@@ -81,13 +81,25 @@ ht-degree: 0%
 
 - LLM 중심의 크롤링과 크롤링 중심의 봇을 통해 을 이용할 수 있습니다. 카탈로그 추천 기능에 대한 인식이 필요합니다.
 - 필수 Commerce 서비스 및 카탈로그 연결이 활성화되었으며 정상입니다. 자세한 내용은 [카탈로그 데이터 보강 사용](#enable-catalog-enrichment)을 참조하세요.
-- [IMS가 구성되었습니다](https://experienceleague.adobe.com/ko/docs/core-services/interface/administration/organizations).
-- [Adobe Admin Console](https://helpx.adobe.com/kr/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)에 액세스할 수 있습니다.
+- 카탈로그 보강에 액세스하는 Commerce 관리 사용자는 Adobe IMS를 통해 로그인합니다. [IMS 로그인 및 조직 요구 사항](#ims-sign-in-requirements)을 참조하세요.
+- [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)에 액세스할 수 있습니다.
 - 조직은 기본 AI 서비스에 대해 GenAI 라이더에 서명하거나 명시적으로 옵트아웃했습니다.
 
 >[!NOTE]
 >
 >설정의 일부로, Commerce은 귀사에서 카탈로그 강화 기반 AI 서비스를 다루는 GenAI 라이더에 서명했는지 여부를 확인합니다. 아직 라이더에 서명하지 않았거나 옵트아웃하지 않은 경우 카탈로그 강화를 사용하기 전에 라이더에 서명하거나 업데이트하라는 메시지가 표시됩니다.
+
+### IMS 로그인 및 조직 요구 사항 {#ims-sign-in-requirements}
+
+카탈로그 보강에서는 로그인한 Commerce 관리 사용자의 Adobe IMS 액세스 토큰을 사용하여 [!DNL Adobe Brand Visibility]에 연결합니다. Commerce 사용자 이름과 암호만 있는 기본 Commerce 관리자 로그인은 이 토큰을 생성하지 않으므로, 카탈로그 보강에 액세스하는 관리자는 Adobe IMS를 통해 로그인해야 합니다.
+
+IMS 로그인을 지원하려면 Commerce 인스턴스에 Adobe ID과 Commerce Admin Integration이 활성화되어 있어야 합니다. [Adobe ID과 Commerce Admin Integration 구성](/help/getting-started/adobe-ims-config.md)을 참조하십시오.
+
+>[!IMPORTANT]
+>
+>Adobe ID과 Commerce Admin Integration을 활성화하는 것은 인스턴스 전체 변경 사항입니다. 활성화되면 모든 관리 사용자는 Adobe IMS를 통해 인증해야 하며, 기본 Commerce 사용자 이름 및 암호 로그인은 더 이상 사용할 수 없습니다. 이 통합을 활성화하기 전에 [Adobe IMS(Identity Management 서비스) 통합 개요](/help/getting-started/adobe-ims-integration-overview.md)를 검토하십시오.
+
+Commerce 인스턴스와 연결된 Adobe IMS 조직은 일반적으로 [!DNL Adobe Brand Visibility] 권한을 보유하고 있는 IMS 조직과 다릅니다. Adobe ID과 Commerce 관리 통합을 사용해도 브랜드 가시성 권한에 대한 액세스 권한은 부여되지 않으며 두 조직이 동일할 필요는 없습니다. Adobe 관리자 또는 계정 팀과 협력하여 설정에 필요한 IMS 조직 멤버십 및 계정 액세스 카탈로그 보강이 무엇인지 확인하십시오.
 
 ## 카탈로그 보강 활성화 {#enable-catalog-enrichment}
 
@@ -102,7 +114,7 @@ ht-degree: 0%
    composer update magento/module-catalog-enrichment
    ```
 
-1. 카탈로그 서비스를 아직 설치하지 않은 경우 [그렇게 합니다](https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+1. 카탈로그 서비스를 아직 설치하지 않은 경우 [그렇게 합니다](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
    이제 Commerce 인스턴스에서 **[!UICONTROL Catalog enrichment]**&#x200B;을(를) 사용할 수 있습니다.
 
@@ -112,16 +124,18 @@ ht-degree: 0%
 
 ![카탈로그 보강](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
-### 카탈로그 보강 구성
+### 카탈로그 보강 구성 {#configure-catalog-enrichment}
 
 [!DNL Commerce Catalog Agent]이(가) [!DNL Adobe Commerce] 환경에 연결하여 Commerce 관리자에서 제안을 표시할 수 있도록 **[!UICONTROL Settings]** 탭에서 카탈로그 강화를 구성합니다.
+
+이 탭의 필드는 카탈로그 보강이 연결되는 Commerce 환경 및 스토어 보기를 식별합니다. [!DNL Adobe Brand Visibility] 권한을 보유한 Adobe IMS 조직과 별개입니다. [IMS 로그인 및 조직 요구 사항](#ims-sign-in-requirements)을 참조하세요.
 
 1. 관리자에서 **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**(으)로 이동합니다.
 1. 페이지 상단의 **[!UICONTROL Scope]** 목록에서 구성할 저장소 보기를 선택하거나 **[!UICONTROL All Store Views]**&#x200B;을(를) 떠나 저장소 보기 간 설정을 관리합니다.
 1. **[!UICONTROL Settings]** 탭을 엽니다.
 1. **[!UICONTROL Commerce Configuration]**&#x200B;에서 해당 URL로 레이블이 지정된 저장소 보기 패널을 확장합니다.
 
-   카탈로그 LLM Optimizer 서비스 및 감사 워크플로우를 사용하려면 [!DNL Adobe Commerce] 환경 세부 정보를 제공하십시오.
+   카탈로그 Adobe Brand Visibility 서비스 및 감사 워크플로우를 사용하려면 [!DNL Adobe Commerce] 환경 세부 정보를 제공하십시오.
 
    카탈로그 데이터 보강 설정 탭의 ![Commerce 구성](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
