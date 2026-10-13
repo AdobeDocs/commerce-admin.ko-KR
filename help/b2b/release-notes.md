@@ -59,7 +59,7 @@ B2B 확장에 대한 이러한 릴리스 노트는 다음을 포함하여 Adobe�
 
 >[!NOTE]
 >
->사용 가능한 Adobe Commerce 릴리스에서 지원되는 B2B Commerce 확장 버전에 대한 정보는 [제품 가용성](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability)을 참조하십시오.
+>사용 가능한 Adobe Commerce 릴리스에서 지원되는 B2B Commerce 확장 버전에 대한 정보는 [제품 가용성](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/product-availability)을 참조하십시오.
 
 {{$include /help/_includes/templated/release-notes-v1-5-4.md}}
 
@@ -69,7 +69,7 @@ B2B 확장에 대한 이러한 릴리스 노트는 다음을 포함하여 Adobe�
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.9, 2.4.8.
 
-B2B v1.5.3 릴리스에는 품질 개선 사항, 버그 수정 사항 및 [보안 게시판 APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+B2B v1.5.3 릴리스에는 품질 개선 사항, 버그 수정 사항 및 [보안 게시판 APSB26-05](https://helpx.adobe.com/kr/security/products/magento/apsb26-05.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ### 협상 가능한 견적
 
@@ -210,7 +210,7 @@ B2B v1.5.3 릴리스에는 품질 개선 사항, 버그 수정 사항 및 [보�
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.7-p10 및 2.4.6-p15 보안 패치 릴리스.
 Adobe Commerce 버전 2.4.7 - 2.4.7-p10, 2.4.6 - 2.4.6-p15와 호환됩니다.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB26-49](https://helpx.adobe.com/security/products/magento/apsb26-49.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB26-49](https://helpx.adobe.com/kr/security/products/magento/apsb26-49.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.5.2-p4
 
@@ -219,7 +219,7 @@ Adobe Commerce 버전 2.4.7 - 2.4.7-p10, 2.4.6 - 2.4.6-p15와 호환됩니다.
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.8-p4, 2.4.7-p9 및 2.4.6-p14 보안 패치 릴리스.
 Adobe Commerce 버전 2.4.7 - 2.4.7-p9, 2.4.6 - 2.4.6-p14와 호환됩니다.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB26-05](https://helpx.adobe.com/kr/security/products/magento/apsb26-05.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.5.2-p3
 
@@ -228,7 +228,7 @@ Adobe Commerce 버전 2.4.7 - 2.4.7-p9, 2.4.6 - 2.4.6-p14와 호환됩니다.
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.8-p3, 2.4.7-p8 및 2.4.6-p13 보안 패치 릴리스.
 Adobe Commerce 버전 2.4.7 - 2.4.7-p7, 2.4.6 - 2.4.6-p12와 호환됩니다.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-94](https://helpx.adobe.com/kr/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.5.2-p2
 
@@ -237,7 +237,7 @@ Adobe Commerce 버전 2.4.7 - 2.4.7-p7, 2.4.6 - 2.4.6-p12와 호환됩니다.
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.8-p2, 2.4.7-p7 및 2.4.6-p12 보안 패치 릴리스.
 Adobe Commerce 버전 2.4.7부터 2.4.7-p6까지, 2.4.6부터 2.4.6-p11까지 호환됩니다.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-71](https://helpx.adobe.com/kr/security/products/magento/apsb25-71.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B v1.5.2-p1
 
@@ -246,7 +246,7 @@ Adobe Commerce 버전 2.4.7부터 2.4.7-p6까지, 2.4.6부터 2.4.6-p11까지 �
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.8-p1, 2.4.7-p6 및 2.4.6-p11 보안 패치 릴리스.
 Adobe Commerce 버전 2.4.7 - 2.4.7-p5, 2.4.6 - 2.4.6-p10과 호환됩니다.
 
-![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
+![해결된 문제](../assets/fix.svg)에는 [보안 게시판 APSB25-50](https://helpx.adobe.com/kr/security/products/magento/apsb25-50.html)에 문서화된 보안 수정 사항이 포함되어 있습니다.
 
 ## B2B 1.5.2
 
@@ -326,7 +326,7 @@ B2B v1.5.1 릴리스에는 품질 개선 사항 및 버그 수정이 포함되�
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 버전 2.4.7-p3+ 및 2.4.6-p8+ 보안 패치 릴리스.
 Adobe Commerce 버전 2.4.8-beta1, 2.4.7 ~ 2.4.7-p2, 2.4.6 ~ 2.4.6-p7과 호환됩니다.
 
-Adobe Commerce B2B 버전 1.5.0은 PHP 8.3과도 호환되며 [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원합니다.
+Adobe Commerce B2B 버전 1.5.0은 PHP 8.3과도 호환되며 [GraphQL Application Server](https://experienceleague.adobe.com/ko/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원합니다.
 
 B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 포함되어 있습니다.
 
@@ -409,7 +409,7 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.7-p8+ 및 2.4.6-p13+ 보안 패치 릴리스.
 
-- [보안 게시판 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-94](https://helpx.adobe.com/kr/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 {{b2b-compatibility}}
 
@@ -419,7 +419,7 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.7-p7+ 및 2.4.6-p12+ 보안 패치 릴리스.
 
-- [보안 게시판 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-71](https://helpx.adobe.com/kr/security/products/magento/apsb25-71.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 {{b2b-compatibility}}
 
@@ -429,7 +429,7 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.7-p6+ 및 2.4.6-p11+ 보안 패치 릴리스.
 
-- [보안 게시판 APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-50](https://helpx.adobe.com/kr/security/products/magento/apsb25-50.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 {{b2b-compatibility}}
 
@@ -441,7 +441,7 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 - Adobe Commerce 2.4.7-p5+ 및 2.4.6-p10+ 보안 패치 릴리스와의 호환성을 추가했습니다.
 
-- [보안 게시판 APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-26](https://helpx.adobe.com/kr/security/products/magento/apsb25-26.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 {{b2b-compatibility}}
 
@@ -453,7 +453,7 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 - Adobe Commerce 2.4.7-p4+ 및 2.4.6-p9+ 보안 패치 릴리스와의 호환성을 추가했습니다.
 
-- [보안 게시판 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-08](https://helpx.adobe.com/kr/security/products/magento/apsb25-08.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 {{b2b-compatibility}}
 
@@ -465,7 +465,7 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 - Adobe Commerce 2.4.7-p3+ 및 2.4.6-p8+ 보안 패치 릴리스와의 호환성을 추가했습니다.
 
-- [보안 게시판 APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB24-73](https://helpx.adobe.com/kr/security/products/magento/apsb24-73.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 {{b2b-compatibility}}
 
@@ -479,7 +479,7 @@ B2B v1.5.0 릴리스에는 새로운 기능, 품질 개선 및 버그 수정이 
 
 - Adobe Commerce 2.4.7-p2+ 및 2.4.6-p7+ 보안 패치 릴리스와의 호환성을 추가했습니다.
 
-- 보안 게시판 [APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)에 문서화된 보안 수정 사항을 포함합니다.
+- 보안 게시판 [APSB24-73](https://helpx.adobe.com/kr/security/products/magento/apsb24-73.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 {{b2b-compatibility}}
 
@@ -505,13 +505,13 @@ B2B v1.4.2 릴리스에는 품질 개선 사항 및 버그 수정이 포함되�
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B 버전 1.4.2+는 PHP 8.2와 호환됩니다. Commerce 인스턴스를 버전 2.4.7+로 업그레이드하는 경우 인스턴스가 PHP 버전 8.2를 사용하여 Adobe Commerce B2B 릴리스와의 호환성을 유지하는지 확인하십시오. 또한 B2B 1.4.2+는 현재 [GraphQL 응용 프로그램 서버](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원하지 않습니다.
+>Adobe Commerce B2B 버전 1.4.2+는 PHP 8.2와 호환됩니다. Commerce 인스턴스를 버전 2.4.7+로 업그레이드하는 경우 인스턴스가 PHP 버전 8.2를 사용하여 Adobe Commerce B2B 릴리스와의 호환성을 유지하는지 확인하십시오. 또한 B2B 1.4.2+는 현재 [GraphQL 응용 프로그램 서버](https://experienceleague.adobe.com/ko/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원하지 않습니다.
 
 ### B2B v1.4.1
 
 *2023년 8월 7일*
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/2-4-6-patches). Adobe Commerce 2.4.7-beta1과 호환됩니다.
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/notes/security-patches/2-4-6-patches). Adobe Commerce 2.4.7-beta1과 호환됩니다.
 
 B2B v1.4.1 릴리스에는 품질 개선 사항 및 버그 수정이 포함되어 있습니다.
 
@@ -529,7 +529,7 @@ B2B v1.4.1 릴리스에는 품질 개선 사항 및 버그 수정이 포함되�
 
 *2023년 6월 13일*
 
-[!BADGE 지원됨]{type=Informative tooltip="지원됨"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/2-4-6-patches). Adobe Commerce 2.4.7-beta1과 호환됩니다.
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/notes/security-patches/2-4-6-patches). Adobe Commerce 2.4.7-beta1과 호환됩니다.
 
 이 릴리스에는 B2B 협상 가능 견적 및 여러 버그 수정에 대한 새로운 기능 및 개선 사항이 포함되어 있습니다.
 
@@ -555,7 +555,7 @@ B2B v1.4.1 릴리스에는 품질 개선 사항 및 버그 수정이 포함되�
 
 #### 알려진 문제
 
-[Adobe Commerce 버전 2.4.6-p1](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)에서 B2B 1.4.0을 설치하거나 업그레이드하는 경우 다음 오류가 발생합니다.
+[Adobe Commerce 버전 2.4.6-p1](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/notes/security-patches/2-4-6-patches)에서 B2B 1.4.0을 설치하거나 업그레이드하는 경우 다음 오류가 발생합니다.
 
 ```
 Your requirements could not be resolved to an installable set of packages.
@@ -567,7 +567,7 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-[안정성 태그](https://getcomposer.org/doc/04-schema.md#package-links)가 있는 B2B 보안 패키지에 대한 수동 종속성을 추가하여 이 문제를 해결할 수 있습니다. 자세한 지침은 [Adobe Commerce 기술 자료](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1-4-0-installation-fails-on-adobe-commerce-2-4-6-p1-on-premises)를 참조하세요.
+[안정성 태그](https://getcomposer.org/doc/04-schema.md#package-links)가 있는 B2B 보안 패키지에 대한 수동 종속성을 추가하여 이 문제를 해결할 수 있습니다. 자세한 지침은 [Adobe Commerce 기술 자료](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1-4-0-installation-fails-on-adobe-commerce-2-4-6-p1-on-premises)를 참조하세요.
 
 ### B2B v1.3.5-p13
 
@@ -575,7 +575,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.6-p13+ 보안 패치 릴리스.
 
-- [보안 게시판 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-94](https://helpx.adobe.com/kr/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 ### B2B v1.3.5-p12
 
@@ -583,7 +583,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.6-p12+ 보안 패치 릴리스.
 
-- [보안 게시판 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-71](https://helpx.adobe.com/kr/security/products/magento/apsb25-71.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 ### B2B v1.3.5-p10
 
@@ -593,7 +593,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Adobe Commerce 2.4.6-p10 보안 패치 릴리스와의 호환성을 추가했습니다.
 
-- [보안 게시판 APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-26](https://helpx.adobe.com/kr/security/products/magento/apsb25-26.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 ### B2B v1.3.5-p9
 
@@ -603,7 +603,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Adobe Commerce 2.4.6-p9 보안 패치 릴리스와의 호환성을 추가했습니다.
 
-- [보안 게시판 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-08](https://helpx.adobe.com/kr/security/products/magento/apsb25-08.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 ### B2B v1.3.5-p8
 
@@ -613,7 +613,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Adobe Commerce 2.4.6-p8 보안 패치 릴리스와의 호환성을 추가했습니다.
 
-- [보안 게시판 APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB24-73](https://helpx.adobe.com/kr/security/products/magento/apsb24-73.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 ### B2B v1.3.5-p7
 
@@ -635,7 +635,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 >[!NOTE]
 >
->Commerce을 2.4.6에서 [최신 릴리스](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions#2.4.6)로 업그레이드한 후 지원되는 B2B 1.3.5 패치 릴리스로 업데이트하십시오. 또는 B2B 확장을 버전 1.3.5에서 버전 1.4.0 이상으로 업그레이드하여 최신 기능을 받으십시오.
+>Commerce을 2.4.6에서 [최신 릴리스](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/versions#2.4.6)로 업그레이드한 후 지원되는 B2B 1.3.5 패치 릴리스로 업데이트하십시오. 또는 B2B 확장을 버전 1.3.5에서 버전 1.4.0 이상으로 업그레이드하여 최신 기능을 받으십시오.
 
 - Adobe Commerce 2.4.6에 대한 지원이 추가되었습니다.
 
@@ -665,7 +665,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.5-p16(확장 지원)
 
-- [보안 게시판 APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB26-05](https://helpx.adobe.com/kr/security/products/magento/apsb26-05.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 ### B2B v1.3.4-p15
 
@@ -673,7 +673,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.0 이상 버전
 
-- [보안 게시판 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-94](https://helpx.adobe.com/kr/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 ### B2B v1.3.4-p14
 
@@ -681,7 +681,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.0 이상 버전
 
-- [보안 게시판 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-71](https://helpx.adobe.com/kr/security/products/magento/apsb25-71.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 ### B2B v1.3.4-p13
 
@@ -691,7 +691,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Adobe Commerce 2.4.5-p12에 대한 지원이 추가되었습니다.
 
-- [보안 게시판 APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-50](https://helpx.adobe.com/kr/security/products/magento/apsb25-50.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 ### B2B v1.3.4-p12
 
@@ -701,7 +701,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Adobe Commerce 2.4.5-p12에 대한 지원이 추가되었습니다.
 
-- [보안 게시판 APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-26](https://helpx.adobe.com/kr/security/products/magento/apsb25-26.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 ### B2B v1.3.4-p11
 
@@ -711,7 +711,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Adobe Commerce 2.4.5-p11에 대한 지원이 추가되었습니다.
 
-- [보안 게시판 APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-08](https://helpx.adobe.com/kr/security/products/magento/apsb25-08.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 ### B2B v1.3.4-p10
 
@@ -721,7 +721,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Adobe Commerce 2.4.5-p10에 대한 지원이 추가되었습니다.
 
-- [보안 게시판 APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB24-73](https://helpx.adobe.com/kr/security/products/magento/apsb24-73.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 ### B2B v1.3.4
 
@@ -763,7 +763,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.4-p17(확장 지원)
 
-- [보안 게시판 APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB26-05](https://helpx.adobe.com/kr/security/products/magento/apsb26-05.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 ### B2B v1.3.3-p16
 
@@ -771,7 +771,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.0 이상 버전
 
-- [보안 게시판 APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-94](https://helpx.adobe.com/kr/security/products/magento/apsb25-94.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 ### B2B v1.3.3-p15
 
@@ -779,7 +779,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 [!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.0 이상 버전
 
-- [보안 게시판 APSB25-71](https://helpx.adobe.com/security/products/magento/apsb25-71.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-71](https://helpx.adobe.com/kr/security/products/magento/apsb25-71.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 ### B2B v1.3.3-p14
 
@@ -789,7 +789,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - Adobe Commerce 2.4.5-p12에 대한 지원이 추가되었습니다.
 
-- [보안 게시판 APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html)에 문서화된 보안 수정 사항을 포함합니다.
+- [보안 게시판 APSB25-50](https://helpx.adobe.com/kr/security/products/magento/apsb25-50.html)에 문서화된 보안 수정 사항을 포함합니다.
 
 ### B2B v1.3.3
 
@@ -861,7 +861,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - &#x200B;<!--- MC-41260--> 회사 사용자가 만든 주문에 대해 **[!UICONTROL Return]** 단추를 클릭하면 이제 관리 사용자가 예상대로 반환 만들기 페이지로 리디렉션됩니다. 이전에는 관리자가 주문 내역 페이지로 리디렉션되었습니다.
 
-- `bin/magento setup:upgrade` 동안 `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` 메서드를 실행할 때 [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} <!--- MC-40798--> Adobe Commerce이 더 이상 메모리 부족 오류로 인해 실패하지 않습니다. 이전에는 Adobe Commerce에서 권한을 초기화할 때 일괄 처리 크기를 사용하지 않고 대신 모든 회사 역할의 컬렉션을 로드했습니다.
+- `bin/magento setup:upgrade` 동안 `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` 메서드를 실행할 때 [!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} <!--- MC-40798--> Adobe Commerce이 더 이상 메모리 부족 오류로 인해 실패하지 않습니다. 이전에는 Adobe Commerce에서 권한을 초기화할 때 일괄 처리 크기를 사용하지 않고 대신 모든 회사 역할의 컬렉션을 로드했습니다.
 
 - &#x200B;<!--- MC-40551--> 이제 회사 사용자는 고객 사용자 지정 속성 값을 편집하고 업데이트할 수 있습니다. 이전에는 이러한 속성이 작성 및 편집 사용자 양식과 제대로 바인딩되지 않았습니다. 회사 사용자가 다른 속성 값을 입력할 수 있지만 Adobe Commerce이 이러한 값을 올바르게 저장하지 않았습니다.
 
@@ -1005,7 +1005,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 구매자가 구매 주문을 만든 다음 체크아웃 페이지로 이동할 때 Adobe Commerce에 404 오류가 표시되는 경우가 있습니다. 이 오류는 구매자가 이전에 온라인 결제 방법으로 다른 구매 발주를 만든 후 이전 구매를 완료하지 않고 체크아웃 페이지로 이동한 경우 발생합니다. 구매자는 여전히 구매 발주를 할 수 있습니다. **_해결 방법_**: 없음. <!--- B2B-1605-->
 
-- 특정 결제 방법에 대한 할인은 구매자가 최종 체크아웃 중에 결제 방법을 변경하는 경우에도 구매 발주에 대한 체크아웃 중에 유지됩니다. 이에 따라 고객은 자신이 받을 수 없는 할인을 받을 수 있다. 이 문제는 결제 방법이 변경되더라도 원래 결제 방법에 대한 장바구니 규칙이 계속 적용되기 때문에 발생합니다. **_해결 방법_**: 없음. [Adobe Commerce 2.4.2 B2B 알려진 문제: 결제 방법이 변경된 후에도 온라인 구매 주문에 대한 할인이 유지됩니다.](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change) _기술 자료_ 문서를 참조하십시오. <!-- B2B-1012 -->
+- 특정 결제 방법에 대한 할인은 구매자가 최종 체크아웃 중에 결제 방법을 변경하는 경우에도 구매 발주에 대한 체크아웃 중에 유지됩니다. 이에 따라 고객은 자신이 받을 수 없는 할인을 받을 수 있다. 이 문제는 결제 방법이 변경되더라도 원래 결제 방법에 대한 장바구니 규칙이 계속 적용되기 때문에 발생합니다. **_해결 방법_**: 없음. [Adobe Commerce 2.4.2 B2B 알려진 문제: 결제 방법이 변경된 후에도 온라인 구매 주문에 대한 할인이 유지됩니다.](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change) _기술 자료_ 문서를 참조하십시오. <!-- B2B-1012 -->
 
 - `deleteRequisitionListOutput` 쿼리는 나머지 구매요청 목록 대신 삭제된 구매요청 목록에 대한 세부 정보를 반환합니다. <!--- MC-39894-->
 
@@ -1135,7 +1135,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 - 스토어 관리자가 공유 카탈로그에 없는 주문에 제품을 추가할 수 있도록 수정 사항이 추가되었습니다. 이전에는 카탈로그에 없는 항목을 추가할 때 오류 메시지가 표시되었습니다.
 
-- [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 이전에는 `php bin/magento indexer:set-dimensions-mode catalog_product_price website` 명령을 실행한 다음 공유 카탈로그를 만들려고 하면 오류가 발생했습니다. 이 문제가 수정되었습니다.
+- [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} 이전에는 `php bin/magento indexer:set-dimensions-mode catalog_product_price website` 명령을 실행한 다음 공유 카탈로그를 만들려고 하면 오류가 발생했습니다. 이 문제가 수정되었습니다.
 
 - 회사를 추가하고 기본이 아닌 웹 사이트에 회사 관리자를 할당할 때 잘못된 사이트 ID가 전송되어 오류가 발생했습니다. 이 문제가 수정되었습니다.
 
