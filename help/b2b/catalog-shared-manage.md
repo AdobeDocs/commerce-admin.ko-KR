@@ -46,13 +46,13 @@ ht-degree: 0%
 ---
 # 공유 카탈로그 관리
 
-_[!UICONTROL Shared Catalogs]_페이지에서는 제품 선택, 사용자 지정 가격, 범주 권한 및 카탈로그 세부 정보를 포함하여 공유 카탈로그를 관리하는 데 필요한 도구에 액세스할 수 있습니다. 이 페이지는 필터 및 작업 컨트롤이 있는 표준 관리 작업 영역과 유사합니다. 그리드는 기본 공개 공유 카탈로그를 비롯한 모든 공유 카탈로그와 설정한 사용자 지정 카탈로그를 나열합니다.
+_[!UICONTROL Shared Catalogs]_&#x200B;페이지에서는 제품 선택, 사용자 지정 가격, 범주 권한 및 카탈로그 세부 정보를 포함하여 공유 카탈로그를 관리하는 데 필요한 도구에 액세스할 수 있습니다. 이 페이지는 필터 및 작업 컨트롤이 있는 표준 관리 작업 영역과 유사합니다. 그리드는 기본 공개 공유 카탈로그를 비롯한 모든 공유 카탈로그와 설정한 사용자 지정 카탈로그를 나열합니다.
 
 [!DNL Adobe Commerce Optimizer Connector for B2B] 확장이 설치되어 있는 경우, 각 공유 카탈로그의 데이터를 [!DNL Adobe Commerce Optimizer]&#x200B;(으)로 동기화할 때 만들어진 [!DNL Adobe Commerce Optimizer] 카탈로그 보기와 B2B 상점 환경의 카탈로그 보기를 보호하는 제한된 액세스 키에도 액세스할 수 있습니다.
 
 ## 제품 선택 업데이트
 
-공유 카탈로그 그리드의 _[!UICONTROL Action]_열에서 공유 카탈로그의 제품 선택을 쉽게 업데이트할 수 있습니다. 변경한 내용은 연결된 회사 계정의 구성원에게 표시됩니다. 이 프로세스는 구성 범위를 변경할 수 없다는 점을 제외하고 새 [카탈로그 구조](catalog-shared-pricing-structure.md)에 대한 제품을 선택하는 것과 같습니다.
+공유 카탈로그 그리드의 _[!UICONTROL Action]_&#x200B;열에서 공유 카탈로그의 제품 선택을 쉽게 업데이트할 수 있습니다. 변경한 내용은 연결된 회사 계정의 구성원에게 표시됩니다. 이 프로세스는 구성 범위를 변경할 수 없다는 점을 제외하고 새 [카탈로그 구조](catalog-shared-pricing-structure.md)에 대한 제품을 선택하는 것과 같습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**(으)로 이동합니다.
 
@@ -64,7 +64,7 @@ _[!UICONTROL Shared Catalogs]_페이지에서는 제품 선택, 사용자 지정
 
    공유 카탈로그가 처음 저장된 후에는 범위를 변경할 수 없으므로 첫 번째 항목을 건너뛸 수 있습니다.
 
-특정 제품을 사용하여 작업하는 경우 _[!UICONTROL Products In Shared Catalog]_섹션에는 제품을 사용할 수 있는 각 공유 카탈로그가 나열됩니다. 자세한 내용은 [공유 카탈로그에 제품 추가](catalog-shared-product-add.md)를 참조하세요.
+특정 제품을 사용하여 작업하는 경우 _[!UICONTROL Products In Shared Catalog]_&#x200B;섹션에는 제품을 사용할 수 있는 각 공유 카탈로그가 나열됩니다. 자세한 내용은 [공유 카탈로그에 제품 추가](catalog-shared-product-add.md)를 참조하세요.
 
 공유 카탈로그의 ![제품](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -76,7 +76,7 @@ _[!UICONTROL Shared Catalogs]_페이지에서는 제품 선택, 사용자 지정
 
 1. 업데이트할 그리드의 공유 카탈로그에 대해 **[!UICONTROL Action]** 열로 이동하여 **[!UICONTROL Set Pricing and Structure]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Catalog Structure]_페이지에서&#x200B;**[!UICONTROL Configure]**을(를) 클릭하고 다음 중 하나를 수행합니다.
+1. _[!UICONTROL Catalog Structure]_&#x200B;페이지에서&#x200B;**[!UICONTROL Configure]**&#x200B;을(를) 클릭하고 다음 중 하나를 수행합니다.
 
    - 페이지 상단의 진행 표시기에서 **[!UICONTROL Pricing]**&#x200B;을(를) 클릭합니다.
    - 오른쪽 상단에서 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
@@ -89,7 +89,7 @@ _[!UICONTROL Shared Catalogs]_페이지에서는 제품 선택, 사용자 지정
 
 >[!NOTE]
 >
->**[B2B 릴리스 1.3.0](release-notes.md#b2b-v130) 이상** — 공유 카탈로그를 만들 때 각 [범주 권한](../catalog/category-permissions.md)은(는) _[!UICONTROL Display Product Prices]_에 대해 `Allow`, 할당된 고객 그룹에 대해_[!UICONTROL Add to Cart]_&#x200B;로 설정됩니다. 이전에는 카탈로그 권한이 `Allow`(으)로 설정되어 있어도 이 설정이 `Deny`(으)로 자동 설정되었습니다.
+>**[B2B 릴리스 1.3.0](release-notes.md#b2b-v130) 이상** — 공유 카탈로그를 만들 때 각 [범주 권한](../catalog/category-permissions.md)은(는) _[!UICONTROL Display Product Prices]_&#x200B;에 대해 `Allow`, 할당된 고객 그룹에 대해&#x200B;_[!UICONTROL Add to Cart]_&#x200B;로 설정됩니다. 이전에는 카탈로그 권한이 `Allow`(으)로 설정되어 있어도 이 설정이 `Deny`(으)로 자동 설정되었습니다.
 
 >[!IMPORTANT]
 >
@@ -139,13 +139,13 @@ _[!UICONTROL Shared Catalogs]_페이지에서는 제품 선택, 사용자 지정
 
 ## 카탈로그 보기 구성 관리
 
-[!DNL Adobe Commerce Optimizer Connector for B2B] 확장이 설치되어 있는 공유 카탈로그의 _[!UICONTROL Catalog Views]_섹션에는 공유 카탈로그에서 예상된 [!DNL Adobe Commerce Optimizer] 카탈로그 보기가 나열되며 이를 보호하는 제한된 액세스 키를 관리할 수 있습니다.
+[!DNL Adobe Commerce Optimizer Connector for B2B] 확장이 설치되어 있는 공유 카탈로그의 _[!UICONTROL Catalog Views]_&#x200B;섹션에는 공유 카탈로그에서 예상된 [!DNL Adobe Commerce Optimizer] 카탈로그 보기가 나열되며 이를 보호하는 제한된 액세스 키를 관리할 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**(으)로 이동합니다.
 
 1. 검토할 공유 카탈로그의 경우 **[!UICONTROL Action]** 열로 이동하여 **[!UICONTROL General Settings]**&#x200B;을(를) 선택하십시오.
 
-1. _[!UICONTROL Shared Catalog Information]_패널에서&#x200B;**[!UICONTROL Catalog Views]**을(를) 선택합니다.
+1. _[!UICONTROL Shared Catalog Information]_&#x200B;패널에서&#x200B;**[!UICONTROL Catalog Views]**&#x200B;을(를) 선택합니다.
 
 카탈로그 보기 및 제한된 액세스 키 편집에 대한 자세한 내용은 [카탈로그 보기 구성 관리](catalog-views-manage.md)를 참조하세요.
 
