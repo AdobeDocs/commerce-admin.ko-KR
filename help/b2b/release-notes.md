@@ -44,7 +44,8 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+last-update: 2026-10-13
+source-git-commit: 64a830dd0fc15cbe1c87e5a98f953e253c5db2bd
 workflow-type: tm+mt
 source-wordcount: '11211'
 ht-degree: 0%
@@ -60,6 +61,8 @@ B2B 확장에 대한 이러한 릴리스 노트는 다음을 포함하여 Adobe�
 >[!NOTE]
 >
 >사용 가능한 Adobe Commerce 릴리스에서 지원되는 B2B Commerce 확장 버전에 대한 정보는 [제품 가용성](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/product-availability)을 참조하십시오.
+
+{{$include /help/_includes/templated/release-notes-v1-5-4.md}}
 
 ## B2B v1.5.3
 
@@ -1160,3 +1163,5 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 - Adobe Commerce은 다중 웹 사이트 배포에서 B2B 1.2.0으로 업그레이드하는 동안 예외를 throw합니다. `setup:upgrade`이(가) 실행되면 `PurchaseOrder` 모듈에서 이 오류가 발생합니다. `Module Magento_PurchaseOrder: Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence for moduleMagento_PurchaseOrder`. **해결 방법**: 이제 `magento.com`의 **내 계정** > **다운로드** 섹션에서 사용할 수 있는 `InitPurchaseOrderSalesSequence` 데이터 패치 핫픽스에 `B2B-716 Add NonTransactionableInterface` 인터페이스를 설치합니다.
 - PO(구매 발주)가 승인되기 전에 할인 코드가 만료되면 PO는 할인된 금액을 계속 표시하지만 PO가 승인되면 주문이 할인되지 않은 합계에 배치됩니다. **해결 방법**: 이 문제에 대한 `B2B-709 Purchase Order Discount patch` 핫픽스를 설치하십시오. 핫픽스는 이제 `magento.com`의 **내 계정** > **다운로드** 섹션에서 사용할 수 있습니다.
 - 구매 발주의 품목이 품절되거나 구매 발주를 실제 주문으로 전환할 때 수량이 부족한 경우 오류가 발생합니다. 미납주문이 사용으로 설정된 경우 주문이 정상적으로 처리됩니다.
+
+<!-- Last updated from includes: 2026-10-09 17:06:14 -->

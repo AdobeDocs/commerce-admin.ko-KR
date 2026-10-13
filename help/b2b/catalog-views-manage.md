@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -85,3 +85,5 @@ ht-degree: 0%
 > - [카탈로그 보기 동기화 상태 모니터링](/help/systems/catalog-view-sync-status.md)
 > - [공유 카탈로그 관리](catalog-shared-manage.md)
 > - [회사 계정 관리](account-company-manage.md)
+
+<!-- Last updated from includes: 2026-10-01 08:33:41 -->
