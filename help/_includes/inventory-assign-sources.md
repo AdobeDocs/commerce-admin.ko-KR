@@ -3,11 +3,9 @@ title: 재고 - 출처 및 수량 지정
 description: 카탈로그 제품을 만들 때 소스 및 수량 할당에 대한 섹션을 재사용했습니다.
 source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 # 재고 - 출처 및 수량 지정
 
 [[!DNL Inventory Management]](../inventory-management/introduction.md)을(를) 사용하는 다중 소스 판매자의 경우 **소스** 섹션까지 아래로 스크롤하여 소스 및 수량을 지정하십시오.
