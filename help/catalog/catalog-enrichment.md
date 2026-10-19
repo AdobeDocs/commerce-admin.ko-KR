@@ -3,6 +3,7 @@ title: 카탈로그 강화
 description: Adobe Commerce의 기본 카탈로그 강화 기능을 사용하여 LLM 및 AI 지원 검색에 대한 제품 이름 및 긴 설명에 AI가 제안하는 개선 사항을 검토하고 적용합니다.
 role: Admin, User, Leader
 recommendations: noCatalog
+touch: true
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
@@ -39,7 +40,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 68a48c6de1c76eca5b4cee4442e8793fb4bd29ee
+source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 0%
