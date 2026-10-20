@@ -305,7 +305,7 @@ ht-degree: 0%
 
 ## 대변 메모 인쇄
 
-완료된 대변 메모를 인쇄하거나 보려면 PDF 리더가 설치되어 있어야 합니다. [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader 가져오기")를 무료로 다운로드할 수 있습니다.
+완료된 대변 메모를 인쇄하거나 보려면 PDF 리더가 설치되어 있어야 합니다. [Adobe Reader](https://www.adobe.com/kr/acrobat/pdf-reader.html "Adobe Reader 가져오기")를 무료로 다운로드할 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**(으)로 이동합니다.
 
