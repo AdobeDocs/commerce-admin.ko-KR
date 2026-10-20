@@ -86,7 +86,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 >
 >`Gift Card`, `Store Credit`, `Reward Points` 또는 기타 오프라인 결제 방법을 사용하여 수행한 주문에 대해 송장이 자동으로 만들어지지 않습니다.
 
-주문에 대한 송장을 인쇄하려면 먼저 생성해야 합니다. PDF을 보거나 인쇄하려면 먼저 [Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader 가져오기")와 같은 PDF 리더를 다운로드하여 설치하십시오.
+주문에 대한 송장을 인쇄하려면 먼저 생성해야 합니다. PDF을 보거나 인쇄하려면 먼저 [Adobe Acrobat Reader](https://www.adobe.com/kr/acrobat/pdf-reader.html "Adobe Reader 가져오기")와 같은 PDF 리더를 다운로드하여 설치하십시오.
 
 **_주문 송장 발부:_**
 
@@ -154,7 +154,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
 >[!NOTE]
 >
->PDF을 보거나 인쇄하려면 PDF 판독기가 있어야 합니다. [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader 가져오기")를 무료로 다운로드할 수 있습니다.
+>PDF을 보거나 인쇄하려면 PDF 판독기가 있어야 합니다. [Adobe Reader](https://www.adobe.com/kr/acrobat/pdf-reader.html "Adobe Reader 가져오기")를 무료로 다운로드할 수 있습니다.
 
 ### 단일 청구서 인쇄
 

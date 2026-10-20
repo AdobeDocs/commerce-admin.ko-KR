@@ -65,7 +65,7 @@ Adobe Commerce 또는 Magento Open Source 사이트가 손상된 것으로 의�
 
 1. **정리**: [자격 있는 컨설턴트](https://solutionpartners.adobe.com/s/directory/?partner_type=1) 또는 온라인 서비스를 사용하여 모든 악성 코드의 사이트를 정리합니다. 일부 Commerce 커뮤니티 구성원은 [[!DNL Sucuri Website Malware Removal]](https://sucuri.net/website-antivirus/malware-removal)을(를) 추천합니다. `/media` 폴더에서 남은 실행 코드를 확인합니다. 알 수 없는 모든 관리자 사용자를 제거하고 모든 관리자 암호를 재설정합니다.
 
-1. **보호**: 최신 릴리스로 Commerce 설치를 최신 상태로 유지합니다. 이전 버전을 사용하는 경우 모든 보안 패치를 사용할 수 있게 되면 적용합니다. [Commerce 보안 모범 사례](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf)를 검토하고 따릅니다. [Commerce 보안 경고](https://www.adobe.com/subscription/adbeSecurityNotifications.html)를 구독하세요.
+1. **보호**: 최신 릴리스로 Commerce 설치를 최신 상태로 유지합니다. 이전 버전을 사용하는 경우 모든 보안 패치를 사용할 수 있게 되면 적용합니다. [Commerce 보안 모범 사례](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf)를 검토하고 따릅니다. [Commerce 보안 경고](https://www.adobe.com/kr/subscription/adbeSecurityNotifications.html)를 구독하세요.
 
 1. **보고서**: Commerce에서 특정 취약점이 발견되었다고 생각되면 [Adobe에서 문제를 열어](https://hackerone.com/adobe?type=team) 기술적인 세부 정보를 포함하십시오.
 
