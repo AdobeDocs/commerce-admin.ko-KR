@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '416'
 ht-degree: 0%
 ---
 # 로그인 자격 증명 및 URL
@@ -54,6 +54,10 @@ ht-degree: 0%
 
 ## 관리자 URL
 
+>[!NOTE]
+>
+>Adobe Commerce as a Cloud Service의 경우 Commerce Cloud Manager에서 관리자 링크를 가져옵니다. 액세스 옵션 및 URL 형식은 [관리 인터페이스 선택](admin-unified-experience.md#classic-ui)을 참조하세요. 아래의 설치 기반 URL 예는 Adobe Commerce as a Cloud Service에 적용되지 않습니다.
+
 설치하는 동안 저장소 [관리자](admin.md) 주소를 설정했습니다. 기본 주소는 스토어와 동일하지만 끝에 `/admin`이(가) 있습니다. 이 안내서의 예제에서 기본 디렉터리를 사용하지만 저장소에 고유한 위치에서 관리자를 실행하는 것이 가장 좋습니다.
 
 - `http://mydomain.com/admin`
@@ -69,6 +73,6 @@ ht-degree: 0%
 
 ## 샘플 데이터
 
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
-Adobe은 250개 이상의 제품(약 200개는 구성 가능한 제품)이 있는 샘플 저장소, 카테고리, 프로모션 가격 규칙, CMS 페이지, 배너 등을 포함하는 샘플 데이터 세트를 제공합니다. 샘플 데이터는 상점 첫 화면에서 _Luma_ 테마를 사용합니다. [이 샘플 데이터 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/next-steps/sample-data/overview)는 선택 사항이지만, 전자 상거래 비즈니스의 사용자 지정을 테스트하고 개발하는 데 도움이 될 수 있습니다.
+Adobe은 250개 이상의 제품(약 200개는 구성 가능한 제품)이 있는 샘플 저장소, 카테고리, 프로모션 가격 규칙, CMS 페이지, 배너 등을 포함하는 샘플 데이터 세트를 제공합니다. 샘플 데이터는 상점 첫 화면에서 _Luma_ 테마를 사용합니다. [이 샘플 데이터 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/sample-data/overview)는 선택 사항이지만, 전자 상거래 비즈니스의 사용자 지정을 테스트하고 개발하는 데 도움이 될 수 있습니다.

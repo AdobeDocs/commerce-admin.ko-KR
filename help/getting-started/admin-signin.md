@@ -48,12 +48,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1270'
 ht-degree: 0%
 ---
 # 관리자 계정
+
+>[!NOTE]
+>
+>Adobe Commerce as a Cloud Service의 경우 Adobe Experience Cloud를 통해 로그인하고 Commerce Cloud Manager에서 인스턴스를 엽니다. 액세스 정보는 [Adobe 통합 경험의 Commerce 관리자](admin-unified-experience.md#open-the-commerce-admin), Adobe Commerce as a Cloud Service 사용자 및 역할 관리에 대한 [사용자 관리](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management)를 참조하십시오. 아래 설치 기반 계정 및 로컬 로그인 지침에는 Adobe Commerce as a Cloud Service 로그인 흐름에 대한 설명이 없습니다.
 
 기본 관리자 계정은 설치 중에 처음 설정되었으며 초기 자리 표시자 정보 또는 샘플 데이터 정보를 포함할 수 있습니다. 이 계정의 지정된 소유자는 사용자 이름과 암호를 개인화하고 언제든지 이름, 성 및 이메일 주소를 업데이트할 수 있습니다. 기본적으로 모든 권한을 가진 _슈퍼 사용자_&#x200B;인 이 계정은 일반적으로 비즈니스에 필요한 관리자 사용자 계정을 만듭니다.
 
@@ -153,7 +157,7 @@ ht-degree: 0%
 
    ![로그아웃](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-_[!UICONTROL Sign In]_&#x200B;페이지에 로그아웃되었다는 메시지가 표시됩니다. 컴퓨터를 무인 상태로 둘 때마다_&#x200B;관리자&#x200B;_에서 로그아웃합니다.
+_[!UICONTROL Sign In]_페이지에 로그아웃되었다는 메시지가 표시됩니다. 컴퓨터를 무인 상태로 둘 때마다_&#x200B;관리자&#x200B;_에서 로그아웃합니다.
 
 ## 계정 정보 편집
 

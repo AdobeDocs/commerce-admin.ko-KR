@@ -1,19 +1,17 @@
 ---
 user-guide-title: Adobe Commerce 관리 시작 안내서
-user-guide-description: Adobe Commerce 또는 Magento Open Source 관리자를 처음 사용하는 경우  [!DNL Commerce] 에코시스템의 리소스를 검색하고 고객 여정에 따라 스토어를 탐색하며 주요 관리 기능에 대해 알아보십시오.
+user-guide-description: Adobe Commerce 또는 Magento Open Source 관리자를 처음 사용하는 경우 [!DNL Commerce] 에코시스템의 리소스를 검색하고 고객 여정에 따라 스토어를 탐색하며 주요 관리 기능에 대해 알아보십시오.
 breadcrumb-title: 시작
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
 nudge: true
 color: red
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '214'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Commerce 관리 시작 안내서 {#start}
 
@@ -40,6 +38,7 @@ ht-degree: 0%
   + [접근성](navigation-accessibility.md)
 + 관리자 {#admin}
   + [관리자란 무엇입니까?](admin.md)
+  + [통합 경험 관리자](admin-unified-experience.md)
   + [관리자 계정](admin-signin.md)
   + Adobe Identity Management 서비스(IMS) 통합 {#ims}
     + [IMS 통합 개요](adobe-ims-integration-overview.md)
@@ -73,4 +72,4 @@ ht-degree: 0%
   + [에코시스템](resources.md)
   + [확장](extensions.md)
   + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
++ [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

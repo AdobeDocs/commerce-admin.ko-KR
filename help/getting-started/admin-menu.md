@@ -5,28 +5,39 @@ exl-id: 2619645e-22fc-4365-80c5-14e2ce7ea8df
 TQID: https://experienceleague.adobe.com/sYB6S97lXHf-Bet1RDrQMLidAOew9yjev3aZvFXf-Ak
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: '417'
 ht-degree: 0%
-
 ---
-
 # 관리 사이드바
+
+{{$include /help/_includes/admin-unified-experience-note.md}}
 
 왼쪽의 사이드바는 _관리자_ 저장소의 기본 메뉴이며 데스크톱 및 모바일 장치 모두에 맞게 디자인되었습니다. 플라이아웃 메뉴는 매일 스토어를 관리하는 데 사용하는 모든 도구에 대한 액세스를 제공합니다.
 
@@ -39,9 +50,9 @@ ht-degree: 0%
 | ![고객 메뉴](./assets/icon-admin-sidebar-customers.png) | **[[!UICONTROL Customers]](../customers/customers-introduction.md)** | [!UICONTROL Customers] 메뉴는 고객 계정을 관리하고 현재 온라인 상태인 고객을 확인할 수 있는 곳입니다. |
 | ![마케팅 메뉴](./assets/icon-admin-sidebar-marketing.png) | **[[!UICONTROL Marketing]](../merchandising-promotions/marketing-menu.md)** | [!UICONTROL Marketing] 메뉴는 카탈로그 및 장바구니 가격 규칙과 쿠폰을 설정하는 곳입니다. 가격 규칙은 특정 조건 세트가 충족될 때 작업을 트리거합니다. |
 | ![콘텐츠 메뉴](./assets/icon-admin-sidebar-content.png) | **[[!UICONTROL Content]](../content-design/content-menu.md)** | [!UICONTROL Content] 메뉴는 스토어의 콘텐츠 요소 및 디자인을 관리하는 곳입니다. 페이지, 블록 및 프론트엔드 앱을 만들고 스토어의 프레젠테이션을 관리하는 방법에 대해 알아봅니다. |
-| ![보고서 메뉴](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [!UICONTROL Reports] 메뉴는 [사이트 전체 분석 도구](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/site-wide-analysis-tool/intro)의 판매, 장바구니, 제품, 고객, 태그, 리뷰, 검색어, 24/7 실시간 성능 모니터링 및 권장 사항 등 스토어의 모든 측면에 insight을 제공하는 광범위한 보고서를 제공합니다. |
+| ![보고서 메뉴](./assets/icon-admin-sidebar-reports.png) | **[[!UICONTROL Reports]](reports-menu.md)** | [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [!UICONTROL Reports] 메뉴는 [사이트 전체 분석 도구](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/intro)의 판매, 장바구니, 제품, 고객, 태그, 리뷰, 검색어, 24/7 실시간 성능 모니터링 및 권장 사항 등 스토어의 모든 측면에 insight을 제공하는 광범위한 보고서를 제공합니다. |
 | ![스토어 메뉴](./assets/icon-admin-sidebar-stores.png) | **[[!UICONTROL Stores]](../stores-purchase/stores-menu.md)** | [!UICONTROL Stores] 메뉴에는 다중 사이트 설치 설정, 세금, 통화, 제품 특성 및 고객 그룹을 포함하여 스토어의 모든 측면을 구성하고 유지 관리하는 도구가 포함되어 있습니다. |
 | ![시스템 메뉴](./assets/icon-admin-sidebar-system.png) | **[[!UICONTROL System]](../systems/system-menu.md)** | [!UICONTROL System] 메뉴에는 다른 응용 프로그램과의 통합을 위해 시스템 작업을 관리하고, 확장을 설치하고, 웹 서비스를 관리하는 도구가 포함되어 있습니다. |
-| ![확장 찾기](./assets/icon-admin-sidebar-extensions.png) | **[[!UICONTROL Find Partners & Extensions]](commerce-marketplace.md)** | [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [!DNL Commerce Marketplace]은(는) 스토어에 대한 Adobe Commerce 및 Magento Open Source 솔루션을 찾을 수 있는 곳입니다. |
+| ![확장 찾기](./assets/icon-admin-sidebar-extensions.png) | **[[!UICONTROL Find Partners & Extensions]](commerce-marketplace.md)** | [!BADGE PaaS 전용]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."} [!DNL Commerce Marketplace]은(는) 스토어에 대한 Adobe Commerce 및 Magento Open Source 솔루션을 찾을 수 있는 곳입니다. |
 
 {style="table-layout:auto"}
