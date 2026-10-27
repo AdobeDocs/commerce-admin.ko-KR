@@ -4,7 +4,7 @@ description: Adobe Commerce as a Cloud Service 고객이 Adobe 통합 경험에�
 feature: Admin Workspace
 role: Admin, User
 level: Beginner
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e10d4cd8b48e1714c0f32b6c6733524eaac0aa8c
+source-git-commit: af49ec1ee144f689101b020bb805aea72f49ef16
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1433'
 ht-degree: 0%
 ---
 # Adobe 통합 경험의 Commerce 관리
@@ -55,20 +55,24 @@ Adobe 통합 경험 인터페이스는 Adobe 제품에서 사용되는 공유된
 로그인 흐름을 사용하면 각 인스턴스에 개별적으로 로그인하지 않고도 Commerce 인스턴스 간에 이동할 수 있습니다.
 추가 로그인 프롬프트 없이 Adobe 제품과 Commerce 인스턴스 간에 이동할 수 있습니다.
 
-액세스 프로시저는 _Adobe Commerce as a Cloud Service 안내서_&#x200B;에서 [인스턴스 액세스](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"}를 참조하십시오.
+액세스 프로시저는 _Adobe Commerce as a Cloud Service 안내서_&#x200B;에서 [인스턴스 액세스](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"}를 참조하십시오.
+<!--
 
 >[!BEGINTABS]
 
->[!TAB Commerce Cloud 관리자에서 관리자 열기]
+>[!TAB Open the Admin from Commerce Cloud Manager]
 
-![관리자 열기](./assets/admin-uex-seamless-login-cloud-manager-to-instance.png){width="800" zoomable="yes" border="light"}
+-->
+![관리자 열기](./assets/admin-uex-seamless-login-cloud-manager-to-instance-edited.png){width="800" zoomable="yes" border="light"}
 
->[!TAB 작동 중 보기]
+<!--
+>[!TAB See it in action]
 
-![Commerce Cloud 관리자에서 관리자 열기](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
+![Open the Admin from Commerce Cloud Manager](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
+-->
 ### 관리 인터페이스 선택 {#classic-ui}
 
 통합 경험에서 Commerce 관리자의 초기 릴리스의 경우, Adobe Commerce as a Cloud Service은 Adobe 통합 경험과 클래식 UI라는 두 가지 Commerce 관리 경험을 지원합니다.
@@ -82,7 +86,7 @@ Adobe 통합 경험 인터페이스는 Adobe 제품에서 사용되는 공유된
 | **[!UICONTROL Admin URL (Unified Shell UI)]** | 통합 경험에서 관리자 열기 |
 | **[!UICONTROL Admin URL (Classic UI)]** | 이전 관리자 인터페이스를 엽니다. |
 
-![관리 URL(통합 셸 UI) 및 관리 URL(클래식 UI) 링크를 보여주는 Commerce Cloud Manager 인스턴스 세부 정보 그림](./assets/admin-unified-experience-cloud-manager-instance-details.png){width="800" zoomable="yes" border="light"}
+![관리 URL(통합 셸 UI) 및 관리 URL(클래식 UI) 링크를 보여주는 Commerce Cloud Manager 인스턴스 세부 정보 그림](./assets/admin-unified-experience-cloud-manager-instance-details-edited.png){width="800" zoomable="yes" border="light"}
 
 _인스턴스 목록 스크린샷과 업데이트된 인스턴스 세부 사항 디자인을 기반으로 하는 일러스트레이션입니다. 표시된 URL은 스테이징 호스트를 사용합니다._
 
@@ -172,7 +176,7 @@ _인스턴스 목록 스크린샷과 업데이트된 인스턴스 세부 사항 
 
 >[!ENDTABS]
 
-Adobe Commerce as a Cloud Service 사용자 및 역할 관리에 대해서는 [사용자 관리](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/user-management){target="_blank"}를 참조하십시오.
+Adobe Commerce as a Cloud Service 사용자 및 역할 관리에 대해서는 [사용자 관리](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management){target="_blank"}를 참조하십시오.
 
 ### Commerce 인스턴스 전환
 
@@ -278,4 +282,4 @@ Commerce 관리자의 페이지는 Adobe Unified Experience와 일치하는 새�
 
 >[!MORELIKETHIS]
 >
->[Adobe CX Enterprise 인터페이스 및 관리 안내서](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud)
+>[Adobe CX Enterprise 인터페이스 및 관리 안내서](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)
