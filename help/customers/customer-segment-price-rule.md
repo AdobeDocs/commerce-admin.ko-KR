@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '231'
 ht-degree: 0%
 ---
 # 가격 규칙의 고객 세그먼트
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 _&#x200B;**세그먼트를 장바구니 가격 규칙에 연결하려면:**&#x200B;_
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _프로모션_ > **[!UICONTROL Cart Price Rules]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]**(으)로 이동합니다.
 
 1. 새 규칙 또는 기존 규칙을 엽니다.
 

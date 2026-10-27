@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 0%
@@ -52,7 +52,7 @@ FedEx Web Services Production Access에 대한 FedEx 판매자 계정 및 등록
 
 ## 2단계: 스토어에 대해 FedEx 활성화
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Delivery Methods]**&#x200B;을(를) 선택합니다.
 

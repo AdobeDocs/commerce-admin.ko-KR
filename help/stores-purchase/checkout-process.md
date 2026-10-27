@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 ![주문 요약에 표시된 항목 수](./assets/order-summary.png){width="700" zoomable="yes"}
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
 ### 체크아웃 옵션 변경
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 1. 필요한 다음 옵션 중 하나를 설정합니다.
 1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.

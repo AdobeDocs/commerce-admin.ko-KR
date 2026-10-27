@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 1단계: 속성 속성 완료
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Customer]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Customer]**(으)로 이동합니다.
 
 1. 오른쪽 상단에서 **[!UICONTROL Add New Attribute]**&#x200B;을(를) 클릭합니다.
 

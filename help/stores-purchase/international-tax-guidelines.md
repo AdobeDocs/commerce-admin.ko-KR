@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 0%
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 ### 1단계: 세금 계산 설정 완료
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 다중 사이트 구성의 경우 **[!UICONTROL Store View]**&#x200B;을(를) 구성 대상인 웹 사이트 및 저장소에 설정합니다.
 
@@ -370,13 +370,13 @@ ht-degree: 0%
 
 ### 4단계: 독일에 대한 스토어 뷰 설정
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**(으)로 이동합니다.
 
 1. 기본 웹 사이트에서 **[!UICONTROL Germany]**&#x200B;에 대한 스토어 보기를 만듭니다.
 
 1. 그런 다음 다음을 수행합니다.
 
-   - _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+   - _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
    - 왼쪽 상단 모서리에서 **[!UICONTROL Default Config]**&#x200B;을(를) 프랑스 상점으로 설정합니다.
 
@@ -421,7 +421,7 @@ ht-degree: 0%
 
 ### 6단계: 독일에 대한 세금 설정 구성
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 오른쪽 상단 모서리에서 독일어 스토어에 대한 보기에 **[!UICONTROL Store View]**&#x200B;을(를) 설정하고 **[!UICONTROL OK]**&#x200B;을(를) 클릭하여 확인합니다.
 

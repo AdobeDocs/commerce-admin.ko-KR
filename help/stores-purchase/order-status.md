@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Adobe Commerce 이외의 진행률(예: 주문 피킹 및 납품 진행률). 그
 
 ### 사용자 정의 주문 상태 만들기
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Order Status]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Order Status]**(으)로 이동합니다.
 
 1. 오른쪽 상단에서 **[!UICONTROL Create New Status]**&#x200B;을(를) 클릭합니다.
 
@@ -166,7 +166,7 @@ Adobe Commerce 이외의 진행률(예: 주문 피킹 및 납품 진행률). 그
 
 ### 주문 상태 알림 활성화
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL RSS Feeds]**&#x200B;을(를) 선택합니다.
 
@@ -180,7 +180,7 @@ Adobe Commerce 이외의 진행률(예: 주문 피킹 및 납품 진행률). 그
 
 ### 새 주문 이메일 알림 구성
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Sales Emails]**&#x200B;을(를) 선택합니다.
 

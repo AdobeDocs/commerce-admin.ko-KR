@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '466'
 ht-degree: 0%
 ---
 # 고객 그룹
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 ## 특정 할인과 고객 그룹 연결
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _프로모션_ > **[!UICONTROL Cart Price Rules]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]**(으)로 이동합니다.
 
 1. 적용된 할인에 대해 그룹을 연결할 장바구니 가격 규칙을 선택하거나 [가격 규칙을 만듭니다](../merchandising-promotions/price-rules-catalog.md).
 

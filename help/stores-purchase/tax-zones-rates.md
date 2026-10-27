@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 새 세율 정의
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**(으)로 이동합니다.
 
 1. 오른쪽 상단에서 **[!UICONTROL Add New Tax Rate]**&#x200B;을(를) 클릭합니다.
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ## 기존 세율 편집
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**(으)로 이동합니다.
 
 1. _[!UICONTROL Tax Zones and Rates]_&#x200B;그리드에서 세율을 찾고 편집 모드에서 레코드를 엽니다.
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 ## 세율 삭제
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**(으)로 이동합니다.
 
 1. 삭제할 세율을 찾아 편집 모드로 엽니다.
 

@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 ## 기본 URL 구성
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널의 _일반_&#x200B;에서 **[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
 
@@ -142,7 +142,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 >
 >_URL에 스토어 코드 추가_ 옵션이 `Yes`(으)로 설정된 경우 브라우저 URL에 스토어 코드를 포함해야 합니다. 이 설정을 사용하면 _&quot;404 Page Not Found&quot;_ 오류 없이 URL 다시 쓰기가 올바르게 매핑되고 모든 페이지가 성공적으로 열립니다.
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널의 _[!UICONTROL General]_&#x200B;에서&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
 
@@ -190,7 +190,7 @@ Adobe Commerce 또는 Magento Open Source 설치의 각 웹 사이트에는 상�
 
 ### 방법 1: 관리자의 변경
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Advanced]**&#x200B;을(를) 확장하고 **[!UICONTROL Admin]**&#x200B;을(를) 선택합니다.
 

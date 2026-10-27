@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1188'
 ht-degree: 0%
 ---
 # 쇼핑객 지원 제공
@@ -81,7 +81,7 @@ _고객으로 로그인_&#x200B;을(를) 활성화하려면 Commerce 인스턴�
 
 ### 기능 활성화
 
-1. 관리 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. 관리 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Customers]**&#x200B;을(를) 확장하고 **[!UICONTROL Login as Customer]**&#x200B;을(를) 선택합니다.
 
@@ -101,7 +101,7 @@ _고객으로 로그인_&#x200B;을(를) 활성화하려면 Commerce 인스턴�
 
 ### 관리 사용자에 대한 액세스 활성화
 
-1. _관리자_ 사이드바에서 **[!UICONTROL System]** > _권한_ > **[!UICONTROL User Roles]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL System]** > **[!UICONTROL User Roles]**(으)로 이동합니다.
 
 1. 목록에서 역할을 클릭합니다.
 

@@ -2,32 +2,36 @@
 title: '[!UICONTROL Content] 메뉴'
 description: 스토어에서 콘텐츠를 관리하기 위한 여러 기능에 액세스하려면 [!UICONTROL Content] 메뉴를 사용하십시오.
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: https://experienceleague.adobe.com/UTh5IKGTXZUcSXGQvP7rHtja8EnEELc75EPpvPvSD3E
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: d10dbf4560352b3898c5c4f750e094a4dfe62dae
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '361'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Content] 메뉴
 
 >[!NOTE]
 >
->새 [[!DNL Media Gallery]](media-gallery.md)을(를) 사용하도록 설정하면 _[!UICONTROL Media]_&#x200B;섹션이 [!DNL Media Gallery]에 액세스할 수 있는 단일 옵션과 함께 표시됩니다.**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**(으)로 이동한 다음 왼쪽 패널에서 **[!UICONTROL Advanced]** > **[!UICONTROL System]**&#x200B;을(를) 선택하여 **[!UICONTROL Enable Old Media Gallery]** 옵션을 `No`(으)로 설정할 수 있습니다.
+>새 [[!DNL Media Gallery]](media-gallery.md)을(를) 사용하도록 설정하면 _[!UICONTROL Media]_&#x200B;섹션이 [!DNL Media Gallery]에 액세스할 수 있는 단일 옵션과 함께 표시됩니다.**[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**(으)로 이동하고 왼쪽 패널에서 **[!UICONTROL Advanced]** > **[!UICONTROL System]**&#x200B;을(를) 선택하여 **[!UICONTROL Enable Old Media Gallery]** 옵션을 `No`(으)로 설정합니다.
 
 >[!BEGINTABS]
 
@@ -56,7 +60,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Content]**&#x200B;을(를) 선택�
 - 코드를 작성하지 않고 콘텐츠의 [블록](blocks.md)을(를) 만듭니다. 블록은 텍스트, 이미지 및 비디오까지 포함할 수 있으며 페이지 레이아웃의 모든 부분에 할당할 수 있습니다.
 - ![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) [가격 규칙](../merchandising-promotions/introduction.md#promotions) 및 [고객 세그먼트](../customers/customer-segments.md)의 논리를 통해 제공되는 풍부한 대화형 콘텐츠를 통합하려면 [동적 블록](dynamic-blocks.md)을 만드십시오.
 - 동적 데이터를 표시하고 저장소의 모든 위치에 블록, 링크 및 대화형 요소를 추가하는 [위젯](widgets.md)을 만듭니다.
-- 페이지 빌더 콘텐츠에서 [템플릿](../page-builder/templates.md)을(를) 만들고 새 콘텐츠를 추가하거나 이전 콘텐츠를 바꿀 때 시간과 노력을 절약하십시오.
+- 페이지 빌더 콘텐츠에서 [템플릿](../page-builder/templates.md)을(를) 만들고 새 콘텐츠를 추가하거나 이전 콘텐츠를 바꿀 때 효율성을 개선합니다.
 
 >[!NOTE]
 >
@@ -76,4 +80,4 @@ _관리자_ 사이드바에서 **[!UICONTROL Content]**&#x200B;을(를) 선택�
 
 {{ee-feature}}
 
-[콘텐츠 스테이징](content-staging.md)을 통해 비즈니스 팀은 저장소 관리자로부터 직접 광범위한 콘텐츠 업데이트를 쉽게 만들고 미리 보고 예약할 수 있습니다.
+[콘텐츠 스테이징](content-staging.md)을 통해 비즈니스 팀은 저장소 관리자로부터 직접 광범위한 콘텐츠 업데이트를 만들고 미리 보고 예약할 수 있습니다.

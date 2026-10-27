@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 1단계: 수락된 통화 선택
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 상단 모서리에서 구성이 적용되는 저장소 보기로 **[!UICONTROL Scope]**&#x200B;을(를) 설정합니다.
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 ![통화 기호](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Currency Symbols]**(으)로 이동합니다.
 
    스토어에 사용할 수 있는 각 통화가 _[!UICONTROL Currency]_&#x200B;목록에 나타납니다.
 

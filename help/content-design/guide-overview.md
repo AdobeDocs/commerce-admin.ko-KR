@@ -4,7 +4,6 @@ description: Adobe Commerce 및 Magento Open Source 관리자와 전자 상거�
 seo-title: Adobe Commerce Content and Design Guide
 seo-description: Describes how to use the Content and Design features for Adobe Commerce and Magento Open Source.
 exl-id: ad3cd024-1703-409f-9820-a0b90e7d460f
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -18,14 +17,16 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: fdb0968c8d6caf4917e8658a2a8b3432f60909dc
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '307'
 ht-degree: 6%
 ---
 # Adobe Commerce 컨텐츠 및 디자인 안내서
 
-이 안내서는 Adobe Commerce 및 Magento Open Source 관리에서 일하는 콘텐츠 디자이너 및 머천다이저를 대상으로 합니다. 기본 콘텐츠 구성 요소 작성을 포함하여 콘텐츠 및 디자인 기능에 대한 자세한 정보를 제공합니다. 이는 핵심 [!DNL Commerce] 구성 및 기능에 대한 기본적인 이해를 전제로 합니다.
+이 안내서는 주로 Adobe Commerce 및 Magento Open Source 프로젝트에서 작업하는 콘텐츠 디자이너 및 머천다이저를 대상으로 합니다. 기본 콘텐츠 구성 요소 작성을 포함하여 콘텐츠 및 디자인 기능에 대한 자세한 정보를 제공합니다. 이는 핵심 [!DNL Commerce] 구성 및 기능에 대한 기본적인 이해를 전제로 합니다.
+
+Adobe Commerce as a Cloud Service에서는 디자인 고려 사항이 [storefront](https://experienceleague.adobe.com/en/tools/commerce-storefront/)에 내장되어 있습니다. 하지만 관리자는 여전히 제품 이미지 워터마크 및 트랜잭션 이메일을 구성할 수 있습니다.
 
 이 안내서에서는 다음 주제를 다룹니다.
 

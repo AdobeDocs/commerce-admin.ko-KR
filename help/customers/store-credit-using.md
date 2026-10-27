@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '320'
 ht-degree: 0%
 ---
 # 스토어 크레딧 적용
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ## 스토어 신용 잔액 업데이트
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > _작업_ > **[!UICONTROL All Customers]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**(으)로 이동합니다.
 
 1. 그리드에서 고객을 찾습니다.
 

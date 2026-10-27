@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 1%
@@ -156,7 +156,7 @@ Adobe Commerce 및 Magento Open Source은 부분 주문 및 전체 주문 배송
 
 ## 납품에 대한 주석 설정
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. _[!UICONTROL Sales]_&#x200B;에서&#x200B;**[!UICONTROL Sales Email]**&#x200B;을(를) 선택합니다.
 

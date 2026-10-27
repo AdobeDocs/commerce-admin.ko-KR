@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '1976'
 ht-degree: 1%
@@ -225,7 +225,7 @@ composer require magento/audiences
    >
    >데이터 스트림 ID를 지정할 때 [!DNL Data Connection] 확장에서 [특정 웹 사이트에 연결](https://experienceleague.adobe.com/ko/docs/commerce/data-connection/fundamentals/connect-data#data-collection)합니다. Commerce 스토어에 여러 개의 웹 사이트가 있는 경우 Real-Time CDP의 각 웹 사이트에 대해 [대상을 만들고](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/ui/connect-destination) 각각에 대해 다른 데이터 스트림 ID를 사용하십시오.
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. **[!UICONTROL Services]**&#x200B;을(를) 확장하고 **[!UICONTROL [!DNL Data Connection]]**&#x200B;을(를) 선택합니다.
 
@@ -448,7 +448,7 @@ For example:
 ### 구성에서 잘못된 인증 유형 선택됨
 
 1. Commerce 인스턴스를 엽니다.
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 1. **[!UICONTROL Services]**&#x200B;을(를) 확장하고 **[!UICONTROL [!DNL Data Connection]]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Authentication Type]** 필드에 지정한 서버 간 인증 방법이 올바른지 확인하십시오. Adobe에서는 **OAuth**&#x200B;을(를) 사용하는 것이 좋습니다. [JWT는 더 이상 사용되지 않습니다](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console). 현재 모든 인증서는 2026년 3월 1일까지 만료됩니다.
 

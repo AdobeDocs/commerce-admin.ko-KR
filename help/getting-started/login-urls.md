@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '416'
 ht-degree: 0%
 ---
 # 로그인 자격 증명 및 URL
@@ -53,6 +53,10 @@ ht-degree: 0%
 도메인이 아직 없는 경우 스토어 URL에는 각각 _점선 4진법_ 표기법으로 마침표로 구분된 일련의 4개의 숫자가 포함됩니다.
 
 ## 관리자 URL
+
+>[!NOTE]
+>
+>Adobe Commerce as a Cloud Service의 경우 Commerce Cloud Manager에서 관리자 링크를 가져옵니다. 액세스 옵션 및 URL 형식은 [관리 인터페이스 선택](admin-unified-experience.md#classic-ui)을 참조하세요. 아래의 설치 기반 URL 예는 Adobe Commerce as a Cloud Service에 적용되지 않습니다.
 
 설치하는 동안 저장소 [관리자](admin.md) 주소를 설정했습니다. 기본 주소는 스토어와 동일하지만 끝에 `/admin`이(가) 있습니다. 이 안내서의 예제에서 기본 디렉터리를 사용하지만 저장소에 고유한 위치에서 관리자를 실행하는 것이 가장 좋습니다.
 

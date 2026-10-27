@@ -5,25 +5,32 @@ exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 TQID: https://experienceleague.adobe.com/jtyDgy3jFmn0XymAYcpc2AOLLWSTDw-3OGkvG9a1SDc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: '342'
 ht-degree: 0%
-
 ---
-
 # 이제 고객이 온라인 상태임
 
 [!DNL Customers] 메뉴의 **[!UICONTROL Now Online]** 옵션에는 현재 스토어에서 온라인 상태인 모든 고객과 방문자가 나열됩니다. 고객이 현재 온라인 상태로 표시되는 시간 간격이 구성에 설정되어 있으며, 관리자로부터 [!DNL Customer's] 활동을 볼 수 있는 기간을 결정합니다. 기본적으로 간격은 15분입니다. 이 시간 동안 키보드를 사용하지 않으면 세션이 종료되며 고객은 쇼핑을 계속하려면 계정에 다시 로그인해야 합니다. 카트의 콘텐츠는 나중에 액세스할 수 있도록 저장됩니다.
@@ -46,7 +53,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL Online
 
 ## 시간 간격 구성
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Customers]**&#x200B;을(를) 확장하고 **[!UICONTROL Customer Configuration]**&#x200B;을(를) 선택합니다.
 

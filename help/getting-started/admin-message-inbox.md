@@ -1,29 +1,39 @@
 ---
 title: 관리자 메시지 받은 편지함
-description: Adobe 및  [!DNL Commerce] 시스템에서 중요하고 유용한 메시지를 제공하는 관리자 메시지 받은 편지함에 대해 알아봅니다.
+description: Adobe 및 [!DNL Commerce] 시스템에서 중요하고 유용한 메시지를 제공하는 관리자 메시지 받은 편지함에 대해 알아봅니다.
 exl-id: c53bb0e4-9f18-4d40-8cc4-8c3b485f8d68
 TQID: https://experienceleague.adobe.com/3RgVAR8efVGsjazQsH8-3Ohfw1h8SDuqLyCDzMYAAng
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '434'
 ht-degree: 0%
-
 ---
-
 # 관리자 메시지 받은 편지함
+
+>[!NOTE]
+>
+>Adobe 통합 경험 상단 탐색의 Adobe Commerce as a Cloud Service 알림, 요청 및 제품 공지에 대해서는 [알림 보기](admin-unified-experience.md#view-notifications)를 참조하십시오. 이 항목에서는 Commerce 통합 경험 인터페이스의 알림 패널이 아닌 Adobe 관리 메시지 받은 편지함에 대해 설명합니다.
 
 스토어는 Adobe에서 정기적으로 메시지를 수신합니다. 메시지는 중요도별로 평가되며 시스템 업데이트, 패치, 새로운 릴리스, 예약된 유지 관리 또는 예정된 이벤트를 의미할 수 있습니다. 헤더의 벨 아이콘은 받은 편지함에서 읽지 않은 메시지 수를 나타냅니다.
 

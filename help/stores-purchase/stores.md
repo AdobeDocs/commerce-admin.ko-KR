@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Adobe Commerce의 다중 스토어 설치는 관리자 및 서버의 명령줄�
 
 ### 2단계: 저장소 만들기
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**(으)로 이동합니다.
 
 1. **[!UICONTROL Create Store]**&#x200B;을(를) 클릭하고 새 스토어에 대한 옵션을 설정합니다.
 
@@ -109,7 +109,7 @@ Adobe Commerce의 다중 스토어 설치는 관리자 및 서버의 명령줄�
 
 ### 4단계: 저장소 URL 구성
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;을(를) 클릭합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;을(를) 클릭합니다.
 
 1. 왼쪽 패널의 _[!UICONTROL General]_&#x200B;에서&#x200B;**[!UICONTROL Web]**&#x200B;을(를) 선택합니다.
 
@@ -150,7 +150,7 @@ Adobe Commerce 또는 Magento Open Source의 다중 사이트 설치는 관리�
 
 ### 1단계: 웹 사이트 만들기
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**(으)로 이동합니다.
 
 1. 오른쪽 상단에서 **[!UICONTROL Create Website]**&#x200B;을(를) 클릭합니다.
 

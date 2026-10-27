@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 지정된 일수가 지난 후 주문, 송장, 선적 및 대변 메모를 보관하도록 스토어를 구성할 수 있습니다. 주문 및 주문 관련 문서를 아카이브로 이동하거나 이전 상태로 복원할 수 있습니다. 보관된 주문은 삭제되지 않고 관리자로부터 계속 사용할 수 있습니다. 보관된 데이터를 CSV 파일로 내보내고 스프레드시트로 열 수 있습니다. 활성화하면 _보관_ 작업이 작업 영역의 맨 위에 나타납니다.
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]** 섹션을 확장하고 아래의 **[!UICONTROL Sales]**&#x200B;을(를) 선택합니다.
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 
 ## 수동으로 주문 보관
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Orders]**(으)로 이동합니다.
 
 1. 그리드에서 순서를 선택하려면 첫 번째 열에서 확인란을 선택합니다.
 
@@ -157,7 +157,7 @@ ht-degree: 0%
 
    - _[!UICONTROL Orders]_&#x200B;눈금 위의 단추 모음에서&#x200B;**[!UICONTROL Go to Archive]**&#x200B;을(를) 클릭합니다.
 
-   - _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Archive]_>**[!UICONTROL Orders]**(으)로 이동합니다.
+   - _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Orders]**(으)로 이동합니다.
 
    >[!NOTE]
    >
@@ -173,7 +173,7 @@ ht-degree: 0%
 >
 >보관된 주문에서 복원된 주문은 [!UICONTROL Archive Orders Purchased] 설정에 구성된 일 수에 따라 다시 보관됩니다([주문 보관 구성](#configure-the-order-archive) 참조). 일 수는 주문의 [!UICONTROL Updated At] 날짜에 대해 계산되며, 이 값은 보관 위치에서 주문이 이동될 때 변경됩니다.
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Orders]**(으)로 이동합니다.
 
 1. 단추 모음에서 **[!UICONTROL Go to Archive]**&#x200B;을(를) 클릭합니다.
 
@@ -187,6 +187,6 @@ ht-degree: 0%
 
 ## 보관된 주문 내보내기
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Orders]**(으)로 이동합니다.
 
 1. 작업 메뉴에서 **[!UICONTROL Export]**&#x200B;을(를) 클릭하고 원하는 형식을 선택합니다.

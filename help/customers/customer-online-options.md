@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 쿠키 라이프타임 구성
 
-1. _관리자_ 사이드바에서 [!UICONTROL **스토어**] > _[!UICONTROL Settings]_>[!UICONTROL **구성**]&#x200B;(으)로 이동합니다.
+1. _관리자_ 사이드바에서 [!UICONTROL **스토어**] > [!UICONTROL **구성**]&#x200B;(으)로 이동합니다.
 
 1. 저장소가 여러 개 있는 경우 오른쪽 상단의 **[!UICONTROL Store View]** 선택기를 구성이 적용되는 저장소로 설정합니다.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 보다 쉽게 로그인할 수 있도록 **[!UICONTROL Remember Me]** 기능을 사용하면 사용자 계정 보유자가 상점 앞에 들어갈 때마다 자격 증명을 입력할 필요가 없습니다. 보안상의 이유로 지속성 기능은 기본적으로 비활성화되어 있습니다.
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Customers]**&#x200B;을(를) 확장하고 **[!UICONTROL Persistent Shopping Cart]**&#x200B;을(를) 선택합니다.
 

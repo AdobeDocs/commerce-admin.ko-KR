@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -55,7 +55,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;페이지에는 스토어와 고객 간
 
 ### 청구 계약 보기
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**(으)로 이동합니다.
 
 1. 목록에서 청구 계약을 찾은 다음 을(를) 클릭하여 엽니다.
 
@@ -81,7 +81,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;페이지에는 스토어와 고객 간
 
 ### 청구 계약 취소
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**(으)로 이동합니다.
 
 1. 목록에서 청구 계약을 찾은 다음 을(를) 클릭하여 엽니다.
 
@@ -91,7 +91,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;페이지에는 스토어와 고객 간
 
 ### 청구 계약 삭제
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**(으)로 이동합니다.
 
 1. 목록에서 청구 계약을 찾은 다음 을(를) 클릭하여 엽니다.
 
