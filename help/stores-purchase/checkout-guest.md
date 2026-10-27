@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '233'
 ht-degree: 0%
 ---
 # 게스트 체크아웃
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **_게스트 체크아웃을 사용하지 않도록 설정하려면:_**
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
@@ -60,10 +60,10 @@ ht-degree: 0%
 
 ## 등록된 이메일에 대한 게스트 주문 액세스 허용
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 기본적으로 비활성화되어 있는 저장소 수준 구성(선택 사항)을 사용하면 게스트 구매자가 등록된 고객 계정과 일치하는 이메일 주소를 사용하여 수행한 주문을 추적할 수 있습니다.
 
 활성화되면 등록된 이메일과 함께 수행된 게스트 체크아웃 주문에 대한 액세스 권한이 유지되면서 고객의 주문 내역에도 표시됩니다.
 
-이 기능을 사용하려면 **스토어** > 설정 > **구성** > 판매 > **판매** > **게스트 체크아웃**&#x200B;으로 이동하고 **등록된 전자 메일에 대한 게스트 주문 액세스 허용** 설정을 `Yes`(으)로 설정합니다.
+이 기능을 사용하려면 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Guest Checkout]**(으)로 이동하고 **[!UICONTROL Allow Guest Order Access for Registered Emails]** 설정을 `Yes`(으)로 설정합니다.

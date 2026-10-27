@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-활성화하면 상점에서 고객이 RMA 요청을 제출할 수 있습니다. RMA는 반품할 수 있는 품목이 주문에 있는 경우에만 생성할 수 있습니다. 개별 항목에 대한 반환 요청은 각 제품 레코드의 _RMA 사용_ 특성에 의해 관리됩니다. 기본적으로 구성 설정이 제품에 적용됩니다(_[!UICONTROL Use Config Settings]_&#x200B;이(가) 선택됨)._[!UICONTROL Enable RMA]_&#x200B;이(가) `No`(으)로 설정된 경우 반품할 수 있는 항목 목록에 제품이 표시되지 않습니다. _RMA 사용_ 설정을 변경하면 새 주문과 기존 주문 모두에 적용됩니다.
+활성화하면 상점에서 고객이 RMA 요청을 제출할 수 있습니다. RMA는 반품할 수 있는 품목이 주문에 있는 경우에만 생성할 수 있습니다. 개별 항목에 대한 반환 요청은 각 제품 레코드의 _RMA 사용_ 특성에 의해 관리됩니다. 기본적으로 구성 설정이 제품에 적용됩니다(_[!UICONTROL Use Config Settings]_이(가) 선택됨)._[!UICONTROL Enable RMA]_&#x200B;이(가) `No`(으)로 설정된 경우 반품할 수 있는 항목 목록에 제품이 표시되지 않습니다. _RMA 사용_ 설정을 변경하면 새 주문과 기존 주문 모두에 적용됩니다.
 
 ## 스토어에 대한 RMA 활성화
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Sales]**&#x200B;을(를) 선택합니다.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    이 설정은 상점 앞의 개별 제품에 대한 _RMA 사용_ 특성의 동작을 결정합니다.
 
-   - [!UICONTROL Enable RMA on Product Level]이(가) `Yes`(으)로 설정되면 상점 첫 화면의 고객은 모든 개별 제품을 반환할 수 있습니다. 여기에는 _[!UICONTROL Enable RMA]_= `Yes` 및&#x200B;_[!UICONTROL Enable RMA]_ = `No` 제품 특성 값이 모두 포함됩니다.
+   - [!UICONTROL Enable RMA on Product Level]이(가) `Yes`(으)로 설정되면 상점 첫 화면의 고객은 모든 개별 제품을 반환할 수 있습니다. 여기에는 _[!UICONTROL Enable RMA]_= `Yes` 및_[!UICONTROL Enable RMA]_ = `No` 제품 특성 값이 모두 포함됩니다.
    - [!UICONTROL Enable RMA on Product Level]이(가) `No`(으)로 설정된 경우 상점 첫 화면의 고객은 _[!UICONTROL Enable RMA]_= `Yes` 제품 특성 값이 있는 제품만 반환할 수 있습니다.
 
 1. **[!UICONTROL Use Store Address]**&#x200B;을(를) 다음 값 중 하나로 설정합니다.
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ## 반품에 대한 배송 방법 구성
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Delivery Methods]**&#x200B;을(를) 선택합니다.
 

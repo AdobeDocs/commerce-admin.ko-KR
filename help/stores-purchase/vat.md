@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2042'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Commerce은 둘 다 동일한 국가에 있는 경우 판매자 또는 고객 �
 
 세금 규칙을 만드는 프로세스는 세율을 추가하는 것으로 시작됩니다.
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**(으)로 이동합니다.
 
    ![고객 세금 클래스 설정](./assets/vat-zones.png){width="600" zoomable="yes"}
 
@@ -95,7 +95,7 @@ Commerce은 둘 다 동일한 국가에 있는 경우 판매자 또는 고객 �
 
 ### 단계 2: 제품 세금 분류 설정
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**(으)로 이동합니다.
 
 1. **[!UICONTROL Add New Tax Rule]**&#x200B;을(를) 클릭합니다.
 
@@ -117,7 +117,7 @@ Commerce은 둘 다 동일한 국가에 있는 경우 판매자 또는 고객 �
 
 ### 단계 3: 세금 구역 및 세율 설정
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**(으)로 이동합니다.
 
    이 예에서는 미국 세율을 제거하거나 그대로 둘 수 있습니다.
 
@@ -145,7 +145,7 @@ Commerce은 둘 다 동일한 국가에 있는 경우 판매자 또는 고객 �
 
 세금 규칙은 고객 세금 분류, 제품 세금 분류 및 세율을 조합한 것입니다.
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**(으)로 이동합니다.
 
 1. 다음과 같이 새 세금 규칙을 추가합니다.
 
@@ -167,7 +167,7 @@ Commerce은 둘 다 동일한 국가에 있는 경우 판매자 또는 고객 �
 
 ### 5단계: 제품에 세금 분류 적용
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Catalog]** > **[!UICONTROL Products]**(으)로 이동합니다.
 
 1. 편집 모드로 카탈로그의 제품을 엽니다.
 
@@ -230,7 +230,7 @@ VAT ID 유효성 검사가 활성화된 경우 등록 후 각 고객은 VAT ID �
 
 고객이 VAT 번호 및 기타 주소 필드를 지정하고 저장을 선택하면 시스템이 주소를 저장하고 VAT ID 유효성 검사 요청을 유럽 위원회 서버로 전송합니다. 검증 결과에 따라 기본 그룹 중 하나가 고객에게 지정됩니다. 고객 또는 관리자가 기본 주소의 VAT ID를 변경하거나 전체 기본 주소를 변경하는 경우 이 그룹을 변경할 수 있습니다. 경우에 따라 한 페이지 체크아웃 중에 그룹을 일시적으로 변경할 수 있습니다(그룹 변경이 에뮬레이트됨).
 
-활성화된 경우 _[!UICONTROL Customer Information]_&#x200B;페이지에서 확인란을 선택하여 개별 고객에 대한 VAT ID 유효성 검사를 재정의할 수 있습니다.
+활성화된 경우 _[!UICONTROL Customer Information]_페이지에서 확인란을 선택하여 개별 고객에 대한 VAT ID 유효성 검사를 재정의할 수 있습니다.
 
 ### 체크아웃 워크플로우
 
@@ -308,7 +308,7 @@ VAT ID 유효성 검사를 효과적으로 사용하기 위해 [세금 규칙](t
 
 #### 3단계: VAT ID 유효성 검사 활성화 및 구성
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 필요한 경우 구성에 대해 **[!UICONTROL Store View]**&#x200B;을(를) 설정합니다.
 

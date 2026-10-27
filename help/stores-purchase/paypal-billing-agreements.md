@@ -3,7 +3,7 @@ title: PayPal 결제 계약
 description: 스토어에서 PayPal 결제 계약 및 결제 방법을 지원하는 방법에 대해 알아봅니다.
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: 'https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -51,15 +51,15 @@ ht-degree: 0%
 
 ## 청구 계약 관리
 
-_[!UICONTROL Billing Agreements]_&#x200B;페이지에는 스토어와 고객 간의 모든 청구 계약이 나열됩니다. 판매자는 청구 계약 참조 ID, 상태 및 생성 날짜를 포함하여 고객 또는 청구 계약 정보별로 레코드를 필터링할 수 있습니다. 각 레코드에는 청구 계약에 대한 일반 정보와 결제 수단으로 사용한 모든 판매 주문이 포함됩니다. 고객 청구 계약을 조회, 취소 또는 삭제할 수 있습니다. 취소된 청구 계약은 스토어 관리자만 삭제할 수 있습니다.
+_[!UICONTROL Billing Agreements]_페이지에는 스토어와 고객 간의 모든 청구 계약이 나열됩니다. 판매자는 청구 계약 참조 ID, 상태 및 생성 날짜를 포함하여 고객 또는 청구 계약 정보별로 레코드를 필터링할 수 있습니다. 각 레코드에는 청구 계약에 대한 일반 정보와 결제 수단으로 사용한 모든 판매 주문이 포함됩니다. 고객 청구 계약을 조회, 취소 또는 삭제할 수 있습니다. 취소된 청구 계약은 스토어 관리자만 삭제할 수 있습니다.
 
 ### 청구 계약 보기
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**(으)로 이동합니다.
 
 1. 목록에서 청구 계약을 찾은 다음 을(를) 클릭하여 엽니다.
 
-각 청구 계약 페이지는 두 개의 탭(_[!UICONTROL General Information]_&#x200B;및_[!UICONTROL Related Orders]_)으로 구성됩니다.
+각 청구 계약 페이지는 두 개의 탭(_[!UICONTROL General Information]_및_[!UICONTROL Related Orders]_)으로 구성됩니다.
 
 #### 일반 정보
 
@@ -81,7 +81,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;페이지에는 스토어와 고객 간
 
 ### 청구 계약 취소
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**(으)로 이동합니다.
 
 1. 목록에서 청구 계약을 찾은 다음 을(를) 클릭하여 엽니다.
 
@@ -91,7 +91,7 @@ _[!UICONTROL Billing Agreements]_&#x200B;페이지에는 스토어와 고객 간
 
 ### 청구 계약 삭제
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**(으)로 이동합니다.
 
 1. 목록에서 청구 계약을 찾은 다음 을(를) 클릭하여 엽니다.
 

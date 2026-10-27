@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 수동으로 환율 업데이트
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Currency Rates]**(으)로 이동합니다.
 
 1. 변경할 환율을 클릭하고 지원되는 각 통화에 대한 새 값을 입력합니다.
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 환율 가져오기
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Currency Rates]**(으)로 이동합니다.
 
 1. **[!UICONTROL Import Service]**&#x200B;을(를) 환율 공급자로 설정합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Import]**&#x200B;을(를) 클릭합니다.
 
-   업데이트된 요금이 _[!UICONTROL Currency Rates]_&#x200B;목록에 나타납니다. 마지막 업데이트 이후 요금이 변경된 경우 이전 요금이 참조용으로 아래에 표시됩니다.
+   업데이트된 요금이 _[!UICONTROL Currency Rates]_목록에 나타납니다. 마지막 업데이트 이후 요금이 변경된 경우 이전 요금이 참조용으로 아래에 표시됩니다.
 
 1. 완료되면 **[!UICONTROL Save Currency Rates]**&#x200B;을(를) 클릭합니다.
 
@@ -76,6 +76,6 @@ ht-degree: 0%
 
 1. 허용되는 통화를 지정하고 가져오기 연결과 일정을 설정하려면 [환율 설정](currency-configuration.md)을 완료하십시오.
 
-1. 요금을 일정에 따라 가져오는지 확인하려면 _[!UICONTROL Currency Rates]_&#x200B;목록을 확인하십시오.
+1. 요금을 일정에 따라 가져오는지 확인하려면 _[!UICONTROL Currency Rates]_목록을 확인하십시오.
 
 1. 일정에 대해 설정된 빈도 설정의 기간을 기다렸다가 요금을 다시 확인합니다.

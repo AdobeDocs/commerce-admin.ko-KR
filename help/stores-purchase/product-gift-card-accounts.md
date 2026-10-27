@@ -34,7 +34,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 0%
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 ### 1단계: 이메일 알림 구성
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Gift Cards]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Gift Card Email Settings]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
+1. _[!UICONTROL Gift Card Email Settings]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
    - 기프트 카드 알림을 보낸 사람으로 표시되는 스토어 ID로 **[!UICONTROL Gift Card Notification Email Sender]**&#x200B;을(를) 설정합니다.
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    ![기프트 카드 전자 메일 설정](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Email Sent from Gift Card Account Management]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
+1. _[!UICONTROL Email Sent from Gift Card Account Management]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
    - 선물 카드를 보낸 사람으로 나타나도록 스토어 ID에 **[!UICONTROL Gift Card Email Sender]**&#x200B;을(를) 설정합니다.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ### 2단계: 일반 설정 완료
 
-1. _[!UICONTROL Gift Card General Settings]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Gift Card General Settings]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. 고객이 카드의 값을 현금으로 상환할 수 있도록 하려면 **[!UICONTROL Redeemable]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 ### 3단계: 기프트 카드 코드 풀 설정
 
-1. _[!UICONTROL Gift Card Account General Settings]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
+1. _[!UICONTROL Gift Card Account General Settings]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음을 수행합니다.
 
    ![기프트 카드 계정 일반 설정](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
@@ -122,15 +122,15 @@ ht-degree: 0%
 
 1. 현재 주문의 기프트 카드 계좌 번호를 찾으려면 다음을 수행하십시오.
 
-   - _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**(으)로 이동합니다.
+   - _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Orders]**(으)로 이동합니다.
 
-   - 목록에서 순서를 찾아 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
+   - 목록에서 순서를 찾아 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL View]**을(를) 클릭합니다.
 
-   - _[!UICONTROL Items Ordered]_&#x200B;섹션까지 아래로 스크롤합니다.
+   - _[!UICONTROL Items Ordered]_섹션까지 아래로 스크롤합니다.
 
-   숫자는 **[!UICONTROL Gift Card Accounts]** 아래 _[!UICONTROL Product]_&#x200B;열에 있습니다.
+   숫자는 **[!UICONTROL Gift Card Accounts]** 아래 _[!UICONTROL Product]_열에 있습니다.
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**(으)로 이동합니다.
 
 1. 그리드에서 기프트 카드 계정을 찾아 편집 모드로 엽니다.
 
@@ -140,11 +140,11 @@ ht-degree: 0%
 
 ## 기프트 카드 계정 만들기
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**(으)로 이동합니다.
 
 1. 오른쪽 상단에서 **[!UICONTROL Add Gift Card Account]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Information]_&#x200B;섹션에서&#x200B;**[!UICONTROL Active]**&#x200B;을(를) `Yes`(으)로 설정하고 다음을 수행합니다.
+1. _[!UICONTROL Information]_섹션에서&#x200B;**[!UICONTROL Active]**을(를) `Yes`(으)로 설정하고 다음을 수행합니다.
 
    - 카드 잔액을 체크아웃 시 상환하거나 고객의 스토어 크레딧으로 전송하려면 **[!UICONTROL Redeemable]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
@@ -176,7 +176,7 @@ ht-degree: 0%
 
 ## 기프트 카드 계정 내역 보기
 
-1. **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**(으)로 이동합니다.
+1. **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**(으)로 이동합니다.
 
 1. 편집 모드에서 기프트 카드를 엽니다.
 
@@ -197,7 +197,7 @@ ht-degree: 0%
 
 ## 기프트 카드 계정 삭제
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**(으)로 이동합니다.
 
 1. 삭제할 기프트 카드 계정을 선택하고 편집 모드로 엽니다.
 

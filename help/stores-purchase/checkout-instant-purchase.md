@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -70,7 +70,7 @@ _즉시 구매_&#x200B;를 통해 고객은 계정에 저장된 정보를 사용
 
 ### 1단계: 구성 페이지 열기
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 ### 2단계: 결제 방법 자격 증명 모음 구성
 
@@ -79,11 +79,11 @@ Braintree 또는 Adobe Commerce 및 Magento Open Source용 결제 서비스와 �
 결제 방법을 구성하고 Braintree 또는 결제 서비스에 대한 저장 기능을 활성화하는 방법에 대해 알아봅니다.
 
 - [Braintree](braintree.md)
-- [결제 서비스 설명서](https://experienceleague.adobe.com/ko/docs/commerce/payment-services/guide-overview)
+- [결제 서비스 설명서](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)
 
 ### 3단계: 즉시 구매 활성화
 
-1. _[!UICONTROL Sales]_&#x200B;섹션 아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Sales]**&#x200B;을(를) 선택합니다.
+1. _[!UICONTROL Sales]_섹션 아래의 왼쪽 패널에서&#x200B;**[!UICONTROL Sales]**을(를) 선택합니다.
 
 1. **[!UICONTROL Instant Purchase]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 

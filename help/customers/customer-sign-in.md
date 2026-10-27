@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 고객이 로그인하거나 쇼핑을 계속할 수 있도록 스토어를 구성하여 계정 대시보드로 리디렉션할 수 있습니다.
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Customers]**&#x200B;을(를) 확장하고 **[!UICONTROL Customer Configuration]**&#x200B;을(를) 선택합니다.
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ## 고객 계정에서 로그아웃
 
-1. _[!UICONTROL Welcome, Customer Name!]_&#x200B;옆의 오른쪽 상단 모서리에서 고객이&#x200B;**[!UICONTROL v]**&#x200B;메뉴 선택기를 클릭합니다.
+1. _[!UICONTROL Welcome, Customer Name!]_옆의 오른쪽 상단 모서리에서 고객이&#x200B;**[!UICONTROL v]**메뉴 선택기를 클릭합니다.
 
 1. **[!UICONTROL Sign Out]**&#x200B;을(를) 선택하십시오.
 

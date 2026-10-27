@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -35,10 +35,10 @@ ht-degree: 0%
 # 주문 상태
 
 모든 주문에는 주문 처리 [워크플로](order-processing.md)의 단계와 연결된 주문 상태가 있습니다.\
-순서 상태와 순서 상태의 차이점은 **[!UICONTROL order states]**&#x200B;이(가) 프로그래밍 방식으로 사용된다는 것입니다. 그렇지 않습니다.
+순서 상태와 순서 상태의 차이점은 **[!UICONTROL order states]**이(가) 프로그래밍 방식으로 사용된다는 것입니다. 그렇지 않습니다.
 고객 또는 관리자 사용자에게 표시됩니다. 주문의 흐름과 다음에 대해 가능한 작업을 결정합니다.
 특정 상태에서 주문.\
-**[!UICONTROL Order statuses]**&#x200B;은(는) 고객 및 관리자 사용자에게 주문 상태를 전달하는 데 사용됩니다.
+**[!UICONTROL Order statuses]**은(는) 고객 및 관리자 사용자에게 주문 상태를 전달하는 데 사용됩니다.
 운영 요구 사항에 맞게 추가 주문 상태를 생성할 수 있습니다. 주문 상태를 표시하기 편리함
 Adobe Commerce 이외의 진행률(예: 주문 피킹 및 납품 진행률). 그 주문은 주문에 영향을 미치지 않습니다
 처리 워크플로우입니다.\
@@ -92,19 +92,19 @@ Adobe Commerce 이외의 진행률(예: 주문 피킹 및 납품 진행률). 그
 
 ### 사용자 정의 주문 상태 만들기
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Order Status]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Order Status]**(으)로 이동합니다.
 
 1. 오른쪽 상단에서 **[!UICONTROL Create New Status]**&#x200B;을(를) 클릭합니다.
 
    ![새 주문 상태 만들기](./assets/order-status-new.png){width="600" zoomable="yes"}
 
-1. _[!UICONTROL Order Status Information]_&#x200B;섹션 업데이트:
+1. _[!UICONTROL Order Status Information]_섹션 업데이트:
 
    - 내부 참조를 위해 **[!UICONTROL Status Code]**&#x200B;을(를) 입력하십시오. 첫 번째 문자는 문자(a-z)여야 하고 나머지 문자는 문자와 숫자의 모든 조합(0-9)일 수 있습니다. 공백 대신 밑줄 문자를 사용하십시오.
 
    - **[!UICONTROL Status Label]**&#x200B;에 대해 Admin과 Storefront 모두에서 상태 설정을 식별하는 레이블을 입력하십시오.
 
-1. _[!UICONTROL Store View Specific Labels]_&#x200B;섹션에서 다른 저장소 보기에 필요한 레이블을 입력합니다.
+1. _[!UICONTROL Store View Specific Labels]_섹션에서 다른 저장소 보기에 필요한 레이블을 입력합니다.
 
 1. **[!UICONTROL Save Status]**&#x200B;을(를) 클릭합니다.
 
@@ -138,7 +138,7 @@ Adobe Commerce 이외의 진행률(예: 주문 피킹 및 납품 진행률). 그
 
 ### 기존 주문 상태 편집
 
-1. _[!UICONTROL Order Status]_&#x200B;그리드에서 상태 레코드를 편집 모드로 엽니다.
+1. _[!UICONTROL Order Status]_그리드에서 상태 레코드를 편집 모드로 엽니다.
 
 1. 필요에 따라 상태 설정을 업데이트합니다.
 
@@ -150,15 +150,15 @@ Adobe Commerce 이외의 진행률(예: 주문 피킹 및 납품 진행률). 그
 >
 >상태가 사용 중이면 상태에서 상태 설정을 할당 해제할 수 없습니다.
 
-1. _[!UICONTROL Order Status]_&#x200B;그리드에서 할당 해제할 주문 상태 레코드를 찾습니다.
+1. _[!UICONTROL Order Status]_그리드에서 할당 해제할 주문 상태 레코드를 찾습니다.
 
-1. 행의 오른쪽 끝에 있는 _[!UICONTROL Action]_&#x200B;열에서&#x200B;**[!UICONTROL Unassign]**&#x200B;링크를 클릭합니다.
+1. 행의 오른쪽 끝에 있는 _[!UICONTROL Action]_열에서&#x200B;**[!UICONTROL Unassign]**링크를 클릭합니다.
 
    작업 영역 상단에 주문 상태가 할당 해제되었다는 메시지가 나타납니다. 주문 상태 레이블이 목록에 계속 표시되지만 더 이상 상태에 할당되지 않습니다. 주문 상태 설정은 삭제할 수 없습니다.
 
 >[!NOTE]
 >
->기본 주문 상태가 주문 상태에서 할당 해제된 경우 _&#x200B;**다른**&#x200B;_ 주문 상태는 이 주문 상태의 기본값으로 _&#x200B;**자동으로 설정**&#x200B;_&#x200B;됩니다.
+>기본 주문 상태가 주문 상태에서 할당 해제된 경우 _**다른**_ 주문 상태는 이 주문 상태의 기본값으로 _**자동으로 설정**_&#x200B;됩니다.
 
 ## 알림
 
@@ -166,7 +166,7 @@ Adobe Commerce 이외의 진행률(예: 주문 피킹 및 납품 진행률). 그
 
 ### 주문 상태 알림 활성화
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL RSS Feeds]**&#x200B;을(를) 선택합니다.
 
@@ -180,7 +180,7 @@ Adobe Commerce 이외의 진행률(예: 주문 피킹 및 납품 진행률). 그
 
 ### 새 주문 이메일 알림 구성
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Sales Emails]**&#x200B;을(를) 선택합니다.
 

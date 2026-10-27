@@ -34,16 +34,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1206'
 ht-degree: 0%
 ---
 # 인보이스
 
 송장은 주문에 대한 지급 기록 레코드입니다. 단일 주문에 대해 여러 개의 송장을 [생성](#create-an-invoice)할 수 있으며, 각 송장에는 사용자가 지정한 구매 제품을 많거나 적을 수 있습니다. [인쇄용 PDF 송장](#print-invoices)을(를) 고객에 대한 판매 문서로 만들 수도 있습니다.
 
-_관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이스**(으)로 이동하여 _인보이스_ 그리드를 열고 만든 인보이스에 액세스합니다.
+_관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**(으)로 이동하여 _인보이스_ 그리드를 열고 만든 인보이스에 액세스합니다.
 
 ![인보이스 그리드](./assets/invoices.png){width="700" zoomable="yes"}
 
@@ -86,11 +86,11 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 >
 >`Gift Card`, `Store Credit`, `Reward Points` 또는 기타 오프라인 결제 방법을 사용하여 수행한 주문에 대해 송장이 자동으로 만들어지지 않습니다.
 
-주문에 대한 송장을 인쇄하려면 먼저 생성해야 합니다. PDF을 보거나 인쇄하려면 먼저 [Adobe Acrobat Reader](https://www.adobe.com/kr/acrobat/pdf-reader.html "Adobe Reader 가져오기")와 같은 PDF 리더를 다운로드하여 설치하십시오.
+주문에 대한 송장을 인쇄하려면 먼저 생성해야 합니다. PDF을 보거나 인쇄하려면 먼저 [Adobe Acrobat Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader 가져오기")와 같은 PDF 리더를 다운로드하여 설치하십시오.
 
 **_주문 송장 발부:_**
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Orders]**(으)로 이동합니다.
 
 1. 표에서 `Processing` 상태의 판매 주문을 찾습니다. 그런 다음 다음을 수행합니다.
 
@@ -100,7 +100,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
    >[!NOTE]
    >
-   >특정 [결제 방법](../configuration-reference/sales/payment-methods.md)에 대한 [결제 작업](../configuration-reference/sales/payment-methods.md#payment-actions)이(가) `Authorize and Capture`(으)로 설정되어 송장이 자동 생성되면 _[!UICONTROL Invoice]_&#x200B;옵션이 표시되지 않습니다. 또한 주문이 수행되고 결제 방법에 대한 결제 작업이 `Authorize`(으)로 설정되어 있고 주문에 대한 송장이 발행된 경우에도 마찬가지입니다.
+   >특정 [결제 방법](../configuration-reference/sales/payment-methods.md)에 대한 [결제 작업](../configuration-reference/sales/payment-methods.md#payment-actions)이(가) `Authorize and Capture`(으)로 설정되어 송장이 자동 생성되면 _[!UICONTROL Invoice]_옵션이 표시되지 않습니다. 또한 주문이 수행되고 결제 방법에 대한 결제 작업이 `Authorize`(으)로 설정되어 있고 주문에 대한 송장이 발행된 경우에도 마찬가지입니다.
 
    ![송장 판매 주문](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -154,13 +154,13 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
 >[!NOTE]
 >
->PDF을 보거나 인쇄하려면 PDF 판독기가 있어야 합니다. [Adobe Reader](https://www.adobe.com/kr/acrobat/pdf-reader.html "Adobe Reader 가져오기")를 무료로 다운로드할 수 있습니다.
+>PDF을 보거나 인쇄하려면 PDF 판독기가 있어야 합니다. [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader 가져오기")를 무료로 다운로드할 수 있습니다.
 
 ### 단일 청구서 인쇄
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**(으)로 이동합니다.
 
-1. _[!UICONTROL Invoices]_&#x200B;그리드에서 송장을 찾은 다음_&#x200B;작업&#x200B;_열에서&#x200B;**[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Invoices]_그리드에서 송장을 찾은 다음_&#x200B;작업&#x200B;_열에서&#x200B;**[!UICONTROL View]**을(를) 클릭합니다.
 
 1. 송장의 맨 위에서 **[!UICONTROL Print]**&#x200B;을(를) 클릭하여 송장의 PDF을 생성합니다.
 
@@ -168,9 +168,9 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
 ### 여러 송장 인쇄
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**(으)로 이동합니다.
 
-1. _[!UICONTROL Invoices]_&#x200B;그리드에서 인쇄할 각 송장의 확인란을 선택합니다.
+1. _[!UICONTROL Invoices]_그리드에서 인쇄할 각 송장의 확인란을 선택합니다.
 
 1. **[!UICONTROL Actions]** 컨트롤을 `PDF Invoices`(으)로 설정합니다.
 
@@ -180,7 +180,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Sales]** > _작업_ > **인보이�
 
 ## 사용자 정의 캡처 금액
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 판매자에게 부분 캡처 및 특수 결제 시나리오에 대한 보다 높은 유연성을 제공하기 위해 Invoice API는 확장 속성을 사용하여 사용자 정의 캡처 금액을 지원합니다.
 

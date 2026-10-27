@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -64,7 +64,7 @@ ht-degree: 0%
 >
 >홈페이지가 고객군에서 제외된 경우, 고객 계정 범위를 홈페이지로 제한하거나 모든 웹사이트와 공유하는 경우, 고객은 해당 웹사이트에 로그인할 수 없다. 그룹에서 웹 사이트를 제외하는 방법에 대한 자세한 내용은 [고객 그룹 만들기](customer-groups.md#create-a-customer-group)를 참조하십시오.
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > [!UICONTROL _[!UICONTROL Settings]_] > **[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Customers]**&#x200B;을(를) 확장하고 **[!UICONTROL Customer Configuration]**&#x200B;을(를) 선택합니다.
 

@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## 스토어 보기 추가
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**(으)로 이동합니다.
 
    ![모든 스토어](./assets/stores-all.png){width="700" zoomable="yes"}
 
@@ -94,11 +94,11 @@ Adobe Commerce 또는 Magento Open Source 설치에 다중 사이트 또는 다�
 
 {style="table-layout:auto"}
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**(으)로 이동합니다.
 
-1. 그리드의 _[!UICONTROL Store View]_&#x200B;열에서 편집할 보기의 이름을 클릭합니다.
+1. 그리드의 _[!UICONTROL Store View]_열에서 편집할 보기의 이름을 클릭합니다.
 
-   기본 보기를 편집할 때 _[!UICONTROL Store]_&#x200B;및_[!UICONTROL Status]_ 필드를 사용할 수 없습니다.
+   기본 보기를 편집할 때 _[!UICONTROL Store]_및_[!UICONTROL Status]_ 필드를 사용할 수 없습니다.
 
    ![스토어 보기 - 기본 보기 편집](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 

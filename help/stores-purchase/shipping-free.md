@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -40,7 +40,7 @@ _무료 배송_&#x200B;은(는) 제공할 수 있는 가장 효과적인 프로�
 
 ## 1단계: 무료 배송 구성
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Delivery Methods]**&#x200B;을(를) 선택합니다.
 
@@ -58,7 +58,7 @@ _무료 배송_&#x200B;은(는) 제공할 수 있는 가장 효과적인 프로�
 
    >[!TIP]
    >
-   >[테이블 속도](shipping-table-rate.md)와(과) 함께 무료 배송을 사용하려면 _[!UICONTROL Minimum Order Amount]_&#x200B;을(를) 충족되지 않도록 높게 만드십시오. 이 높은 값을 사용하면 가격 규칙에 의해 트리거되지 않는 한 무료 배송이 적용되지 않습니다.
+   >[테이블 속도](shipping-table-rate.md)와(과) 함께 무료 배송을 사용하려면 _[!UICONTROL Minimum Order Amount]_을(를) 충족되지 않도록 높게 만드십시오. 이 높은 값을 사용하면 가격 규칙에 의해 트리거되지 않는 한 무료 배송이 적용되지 않습니다.
 
 1. **[!UICONTROL Include Tax to Amount]** 설정:
 
@@ -73,7 +73,7 @@ _무료 배송_&#x200B;은(는) 제공할 수 있는 가장 효과적인 프로�
 
    - `All Allowed Countries` - 스토어 구성에 지정된 모든 [국가](../getting-started/store-details.md#country-options)의 고객은 무료 배송을 사용할 수 있습니다.
 
-   - `Specific Countries` - 이 값을 선택하면 _[!UICONTROL Ship to Specific Countries]_&#x200B;목록이 나타납니다. 목록에서 무료 배송을 사용할 수 있는 각 국가를 선택합니다.
+   - `Specific Countries` - 이 값을 선택하면 _[!UICONTROL Ship to Specific Countries]_목록이 나타납니다. 목록에서 무료 배송을 사용할 수 있는 각 국가를 선택합니다.
 
 1. **[!UICONTROL Show Method if Not Applicable]** 설정:
 
@@ -90,7 +90,7 @@ _무료 배송_&#x200B;은(는) 제공할 수 있는 가장 효과적인 프로�
 
 무료 배송에 사용할 각 운송업체에 필요한 구성을 완료해야 합니다. 예를 들어 [UPS 구성](ups.md)이 완료되지 않은 경우 다음 설정을 업데이트하여 무료 배송을 활성화하고 구성하십시오.
 
-1. _[!UICONTROL Delivery Methods]_&#x200B;구성에서&#x200B;**[!UICONTROL UPS]**&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Delivery Methods]_구성에서&#x200B;**[!UICONTROL UPS]**섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
 1. **[!UICONTROL Free Method]**&#x200B;을(를) `UPS Ground` 또는 무료 배송을 위해 지정할 다른 형식으로 설정하십시오.
 

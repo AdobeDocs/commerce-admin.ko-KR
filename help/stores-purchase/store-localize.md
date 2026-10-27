@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 0%
@@ -36,11 +36,11 @@ ht-degree: 0%
 
 ## 1단계: 언어 팩 설치
 
-언어 팩 확장 설치에 대한 표준 지침을 따르십시오. 확장 설치에 대한 자세한 내용은 _확장 안내서_&#x200B;에서 [일반 CLI 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)를 참조하십시오.
+언어 팩 확장 설치에 대한 표준 지침을 따르십시오. 확장 설치에 대한 자세한 내용은 _확장 안내서_&#x200B;에서 [일반 CLI 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)를 참조하십시오.
 
 ## 2단계: 언어에 대한 스토어 보기 만들기
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**(으)로 이동합니다.
 
 1. **[!UICONTROL Create Store View]**&#x200B;을(를) 클릭합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## 3단계: 스토어 보기의 로케일 변경
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. **[!UICONTROL Scope]** 드롭다운에서 구성할 저장소 보기를 선택하고 메시지가 표시되면 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
@@ -102,13 +102,13 @@ ht-degree: 0%
 
 ### 2단계: 필드 레이블 번역
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Product]**(으)로 이동합니다.
 
 1. 목록에서 번역할 속성을 찾아 편집 모드로 엽니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Manage Labels]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Manage Titles]_&#x200B;섹션에서 각 스토어 보기에 대해 번역된 레이블을 입력합니다.
+1. _[!UICONTROL Manage Titles]_섹션에서 각 스토어 보기에 대해 번역된 레이블을 입력합니다.
 
    ![번역된 레이블 입력](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 1. _기본 정보_&#x200B;의 경우 **[!UICONTROL Category Name]**&#x200B;을(를) 번역하세요.
 
-1. _[!UICONTROL Content]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고&#x200B;**[!UICONTROL Description]**&#x200B;을(를) 번역합니다.
+1. _[!UICONTROL Content]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고&#x200B;**[!UICONTROL Description]**을(를) 번역합니다.
 
 1. **[!UICONTROL Search Engine Optimization Settings]** 섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장하고 다음 필드를 번역합니다.
 
@@ -132,7 +132,7 @@ ht-degree: 0%
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. _[!UICONTROL Search Engine Optimization Settings]_&#x200B;섹션에서 다음을 수행하여&#x200B;**[!UICONTROL URL Key]**&#x200B;을(를) 번역합니다.
+1. _[!UICONTROL Search Engine Optimization Settings]_섹션에서 다음을 수행하여&#x200B;**[!UICONTROL URL Key]**을(를) 번역합니다.
 
    - 필드의 오른쪽에 있는 **[!UICONTROL Use Default Value]** 확인란의 선택을 취소합니다.
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 ### 4단계: 제품 속성 및 속성 옵션 번역
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Product]**(으)로 이동합니다.
 
 1. 번역할 속성을 선택합니다.
 

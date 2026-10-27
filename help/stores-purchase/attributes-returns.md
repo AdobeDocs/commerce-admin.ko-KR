@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 반환 속성 만들기
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Returns]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Returns]**(으)로 이동합니다.
 
 1. 오른쪽 상단에서 **[!UICONTROL Add New Attribute]**&#x200B;을(를) 클릭합니다.
 
@@ -87,7 +87,7 @@ ht-degree: 0%
    - `Strip HTML Tags`
    - `Escape  HTML Entities`
 
-1. 특성이 고객에게 표시되도록 하려면 _[!UICONTROL Storefront Properties]_&#x200B;섹션에서&#x200B;**[!UICONTROL Show on Storefront]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
+1. 특성이 고객에게 표시되도록 하려면 _[!UICONTROL Storefront Properties]_섹션에서&#x200B;**[!UICONTROL Show on Storefront]**을(를) `Yes`(으)로 설정하십시오.
 
 1. (선택 사항) **[!UICONTROL Sort Order]**&#x200B;에 숫자를 입력하여 페이지의 동일한 부분에 있는 다른 속성과 관련하여 이 특성이 표시되는 위치를 결정합니다. (`0` = 첫 번째, `1` = 두 번째, `2` = 세 번째 등)
 

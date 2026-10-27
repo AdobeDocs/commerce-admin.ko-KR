@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
@@ -71,11 +71,11 @@ _미니 장바구니_에 장바구니에 있는 항목의 요약이 표시됩니
 
 ### 미니 장바구니 구성
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
-1. _[!UICONTROL Mini Cart]_&#x200B;섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
+1. _[!UICONTROL Mini Cart]_섹션에서 ![확장 선택기](../assets/icon-display-expand.png)를 확장합니다.
 
    ![미니 장바구니 구성](../configuration-reference/sales/assets/checkout-mini-cart.png){width="600" zoomable="yes"}
 
@@ -97,7 +97,7 @@ _미니 장바구니_에 장바구니에 있는 항목의 요약이 표시됩니
 
 ### 장바구니 링크 구성
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;에 연결되었습니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**&#x200B;에 연결되었습니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
@@ -118,7 +118,7 @@ _미니 장바구니_에 장바구니에 있는 항목의 요약이 표시됩니
 
 **_장바구니 표시 시기를 구성하려면:_**
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
@@ -145,7 +145,7 @@ Adobe Commerce B2B를 설치하고 활성화하면 _견적_ 기능에 대한 지
 
 **_견적 라이프타임을 구성하려면:_**
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
@@ -169,7 +169,7 @@ Adobe Commerce B2B를 설치하고 활성화하면 _견적_ 기능에 대한 지
 
 **_최소 주문량을 구성하려면:_**
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Sales]**&#x200B;을(를) 선택합니다.
 
@@ -219,7 +219,7 @@ Adobe Commerce B2B를 설치하고 활성화하면 _견적_ 기능에 대한 지
 
 주문에 허용된 최소 수량을 설정할 수 있습니다. 각 고객 그룹에 따라 최소 수량을 구성할 수도 있습니다.
 
-1. **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Catalog]**&#x200B;을(를) 확장하고 **[!UICONTROL Inventory]**&#x200B;을(를) 선택합니다.
 
@@ -251,7 +251,7 @@ Adobe Commerce B2B를 설치하고 활성화하면 _견적_ 기능에 대한 지
 
 **_장바구니 썸네일을 구성하려면:_**
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Checkout]**&#x200B;을(를) 선택합니다.
 
@@ -281,7 +281,7 @@ Adobe Commerce B2B를 설치하고 활성화하면 _견적_ 기능에 대한 지
 
 ### 선물 옵션 활성화
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 아래의 **[!UICONTROL Sales]**&#x200B;을(를) 선택합니다.
 
@@ -321,7 +321,7 @@ Adobe Commerce B2B를 설치하고 활성화하면 _견적_ 기능에 대한 지
 
 #### 선물 포장 디자인 추가
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Gift Wrapping]**(으)로 이동합니다.
 
    ![선물 포장 표](./assets/gift-wrapping.png){width="700" zoomable="yes"}
 
@@ -345,13 +345,13 @@ Adobe Commerce B2B를 설치하고 활성화하면 _견적_ 기능에 대한 지
 
 1. 선물 포장의 썸네일 **[!UICONTROL Image]**&#x200B;을(를) 업로드하려면 **[!UICONTROL Choose File]**&#x200B;을(를) 클릭하고 디렉터리에서 업로드할 파일을 선택하십시오.
 
-   레코드가 저장된 후 _[!UICONTROL Gift Wrapping Information]_&#x200B;에 이미지의 축소판이 나타납니다.
+   레코드가 저장된 후 _[!UICONTROL Gift Wrapping Information]_에 이미지의 축소판이 나타납니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 #### 선물 포장 디자인 편집
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Gift Wrapping]**(으)로 이동합니다.
 
 1. 목록에서 선물 포장 기록을 찾습니다.
 
@@ -391,7 +391,7 @@ _선물 포장_ 그리드를 연 상태에서 이러한 방법 중 하나를 사
 
 **_선물 옵션 세금을 구성하려면:_**
 
-1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
+1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**(으)로 이동합니다.
 
 1. 왼쪽 패널에서 **[!UICONTROL Sales]**&#x200B;을(를) 확장하고 **[!UICONTROL Tax]**&#x200B;을(를) 선택합니다.
 
