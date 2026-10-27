@@ -73,6 +73,7 @@ Adobe 통합 경험 인터페이스는 Adobe 제품에서 사용되는 공유된
 >[!ENDTABS]
 
 -->
+
 ### 관리 인터페이스 선택 {#classic-ui}
 
 통합 경험에서 Commerce 관리자의 초기 릴리스의 경우, Adobe Commerce as a Cloud Service은 Adobe 통합 경험과 클래식 UI라는 두 가지 Commerce 관리 경험을 지원합니다.
