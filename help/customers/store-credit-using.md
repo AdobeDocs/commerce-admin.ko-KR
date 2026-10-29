@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 크레딧 역할 리소스 저장
 
-[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
 
 다음 리소스는 고객의 스토어 크레딧 잔액을 변경할 수 있는 관리자 사용자와 주문에 스토어 크레딧을 적용할 수 있는 사용자를 결정합니다. 사용자 역할에 리소스를 할당하는 방법에 대한 자세한 내용은 [역할 리소스](../systems/permissions-user-roles.md#role-resources)를 참조하십시오.
 
@@ -94,7 +94,7 @@ REST API를 사용하는 관리자 사용자 및 통합에서는 **[!UICONTROL C
 
 ![주문에 스토어 크레딧 잔액 적용](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
-[!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} **[!UICONTROL Use Store Credit]** 확인란은 사용자 역할에 **[!UICONTROL Can Spend Store Credit]** 리소스가 포함된 경우에만 나타납니다. [신용 역할 리소스 저장](#store-credit-role-resources)을 참조하세요.
+[!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} **[!UICONTROL Use Store Credit]** 확인란은 사용자 역할에 **[!UICONTROL Can Spend Store Credit]** 리소스가 포함된 경우에만 나타납니다. [신용 역할 리소스 저장](#store-credit-role-resources)을 참조하세요.
 
 ## 체크아웃 중 스토어 크레딧 적용
 

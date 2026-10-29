@@ -121,7 +121,7 @@ _고객 보기_ 탭에는 **[!UICONTROL Personal Information]**, **[!UICONTROL R
 
 [크레딧 저장](../customers/store-credit.md) 탭에 고객 계정에 복원된 금액이 표시되면 관리자가 이 값을 관리할 수 있습니다.
 
-[!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} [!UICONTROL Store Credit] 탭과 **[!UICONTROL Customer View]** 탭의 **[!UICONTROL Store Credit Balance]**&#x200B;은(는) 사용자 역할에 **[!UICONTROL Manage Store Credit Balances]** 리소스가 포함된 경우에만 나타납니다. [신용 역할 리소스 저장](../customers/store-credit-using.md#store-credit-role-resources)을 참조하세요.
+[!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} [!UICONTROL Store Credit] 탭과 **[!UICONTROL Customer View]** 탭의 **[!UICONTROL Store Credit Balance]**&#x200B;은(는) 사용자 역할에 **[!UICONTROL Manage Store Credit Balances]** 리소스가 포함된 경우에만 나타납니다. [신용 역할 리소스 저장](../customers/store-credit-using.md#store-credit-role-resources)을 참조하세요.
 
 ### [!UICONTROL Newsletter]
 
