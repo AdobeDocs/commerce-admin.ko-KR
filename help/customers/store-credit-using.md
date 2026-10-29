@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
+source-git-commit: b2b09a49ecd0c585d6ea456f0c00e05d813e324d
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '521'
 ht-degree: 0%
 ---
 # 스토어 크레딧 적용
@@ -42,6 +42,18 @@ ht-degree: 0%
 
 ![고객 크레딧 잔고 및 기록](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
 
+## 크레딧 역할 리소스 저장
+
+[!BADGE SaaS만]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."}
+
+다음 리소스는 고객의 스토어 크레딧 잔액을 변경할 수 있는 관리자 사용자와 주문에 스토어 크레딧을 적용할 수 있는 사용자를 결정합니다. 사용자 역할에 리소스를 할당하는 방법에 대한 자세한 내용은 [역할 리소스](../systems/permissions-user-roles.md#role-resources)를 참조하십시오.
+
+- **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Manage Store Credit Balances]**&#x200B;을(를) 통해 사용자는 저장소 크레딧 잔액을 보고 업데이트할 수 있습니다. **[!UICONTROL Store Credit]** 탭과 **[!UICONTROL Customer View]** 탭의 **[!UICONTROL Store Credit Balance]**&#x200B;이(가) 표시되지 않습니다. 사용자는 여전히 고객 계정에 대해 다른 편집을 수행할 수 있습니다.
+
+- **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]** > **[!UICONTROL Can Spend Store Credit]**&#x200B;을(를) 사용하면 [주문을 만들 때](../stores-purchase/customer-account-create-order.md) 스토어 크레딧을 적용할 수 있습니다. **[!UICONTROL Use Store Credit]** 확인란이 표시되지 않습니다.
+
+REST API를 사용하는 관리자 사용자 및 통합에서는 **[!UICONTROL Can Spend Store Credit]** 리소스가 있어야 장바구니에 저장소 크레딧을 적용하거나 이미 저장소 크레딧이 적용된 장바구니를 주문할 수 있습니다. 자세한 내용은 [크레딧 저장](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/)을 참조하세요.
+
 ## 신용 잔액 보기
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**(으)로 이동합니다.
@@ -50,7 +62,7 @@ ht-degree: 0%
 
 1. _Action_ 열에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. _[!UICONTROL Customer View]_&#x200B;페이지를 스크롤하고 하단의&#x200B;**[!UICONTROL Store Credit Balance]**&#x200B;을(를) 봅니다.
+1. _[!UICONTROL Customer View]_페이지를 스크롤하고 하단의&#x200B;**[!UICONTROL Store Credit Balance]**을(를) 봅니다.
 
 ![크레딧 잔고 저장](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
@@ -82,19 +94,21 @@ ht-degree: 0%
 
 ![주문에 스토어 크레딧 잔액 적용](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
+[!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} **[!UICONTROL Use Store Credit]** 확인란은 사용자 역할에 **[!UICONTROL Can Spend Store Credit]** 리소스가 포함된 경우에만 나타납니다. [신용 역할 리소스 저장](#store-credit-role-resources)을 참조하세요.
+
 ## 체크아웃 중 스토어 크레딧 적용
 
 지점에 대한 신용 잔액이 있는 경우 고객은 상점에서 주문을 하기 전에 주문 잔액에 매장 신용을 적용할 수 있습니다.
 
 1. 고객이 사용 가능한 스토어 크레딧 금액을 조회합니다.
 
-   _검토 및 결제_ 단계에서 사용 가능한 금액이 _[!UICONTROL Store Credit]_&#x200B;에 표시됩니다.
+   _검토 및 결제_ 단계에서 사용 가능한 금액이 _[!UICONTROL Store Credit]_에 표시됩니다.
 
 1. 주문에 금액을 적용하려면 **[!UICONTROL Use Store Credit]**&#x200B;을(를) 클릭합니다.
 
    >[!INFO]
    >
-   >주문 합계가 다시 계산되며 적용된 스토어 크레딧 금액이 _[!UICONTROL Order Summary]_&#x200B;에 나타납니다.
+   >주문 합계가 다시 계산되며 적용된 스토어 크레딧 금액이 _[!UICONTROL Order Summary]_에 나타납니다.
 
    ![주문에 적용된 크레딧 잔액 저장](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 

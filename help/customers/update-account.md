@@ -24,16 +24,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: be637291b09661637cdefefd79fd81157b6e76b2
 workflow-type: tm+mt
-source-wordcount: 505
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # 고객 프로필 업데이트
 
-_[!UICONTROL Customer Information]_&#x200B;페이지의 왼쪽 패널에는 고객 활동, 주소, 주문 통계, 최근 주문, 장바구니 내용, 제품 검토 및 뉴스레터 구독에 대한 정보가 포함되어 있습니다.
+_[!UICONTROL Customer Information]_페이지의 왼쪽 패널에는 고객 활동, 주소, 주문 통계, 최근 주문, 장바구니 내용, 제품 검토 및 뉴스레터 구독에 대한 정보가 포함되어 있습니다.
 
 ![고객 프로필](assets/cust-profile.png){width="700" zoomable="yes"}
 
@@ -122,6 +120,8 @@ _고객 보기_ 탭에는 **[!UICONTROL Personal Information]**, **[!UICONTROL R
 {{ee-feature}}
 
 [크레딧 저장](../customers/store-credit.md) 탭에 고객 계정에 복원된 금액이 표시되면 관리자가 이 값을 관리할 수 있습니다.
+
+[!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} [!UICONTROL Store Credit] 탭과 **[!UICONTROL Customer View]** 탭의 **[!UICONTROL Store Credit Balance]**&#x200B;은(는) 사용자 역할에 **[!UICONTROL Manage Store Credit Balances]** 리소스가 포함된 경우에만 나타납니다. [신용 역할 리소스 저장](../customers/store-credit-using.md#store-credit-role-resources)을 참조하세요.
 
 ### [!UICONTROL Newsletter]
 
