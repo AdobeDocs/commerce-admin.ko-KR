@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
+source-git-commit: c073327e16e3738b5c92f79e442489572046f739
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2437'
 ht-degree: 0%
 ---
 # 카탈로그 강화
@@ -263,6 +263,7 @@ Commerce 인스턴스와 연결된 Adobe IMS 조직은 일반적으로 [!DNL Ado
 
 ## 제한 및 고려 사항 {#limits}
 
+- 데이터 보강은 현재 영어 제품 콘텐츠만 지원합니다.
 - 데이터 보강은 제품 이름과 긴 설명에만 적용됩니다. PDP 레이아웃, 위젯 또는 기타 페이지 수준 상점 컨텐츠가 변경되지 않습니다.
 - 큰 카탈로그와 높은 URL 수는 분석이 완료되는 속도와 한 번에 표시되는 제안 수에 영향을 줄 수 있습니다.
 - 의미 있는 제안은 LLM 관련 보트가 관심 있는 제품 URL에 액세스할 수 있다고 가정합니다. 로봇 규칙, 인증, 지리 차단 및 과도한 개인화를 통해 적용 범위를 줄일 수 있습니다.
