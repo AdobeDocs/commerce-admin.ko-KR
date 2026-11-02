@@ -4,7 +4,7 @@ description: Adobe Commerce의 기본 카탈로그 강화 기능을 사용하여
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c073327e16e3738b5c92f79e442489572046f739
+source-git-commit: a0d661434bd61349bd5616d6635b4c43340308bc
 workflow-type: tm+mt
-source-wordcount: '2437'
+source-wordcount: '3173'
 ht-degree: 0%
 ---
 # 카탈로그 강화
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->카탈로그 보강은 백그라운드에서 [!DNL Commerce Catalog Agent] 및 [!DNL Adobe Brand Visibility]에 의해 제공됩니다. 데이터 보강 기능을 Commerce 카탈로그 워크플로의 일부로 사용합니다. 승인된 이름 및 설명 업데이트를 적용하기 위해 별도의 Adobe Brand Visibility 통합을 관리하지 않습니다. Commerce 외부에서 더 광범위한 LLM 모니터링 및 최적화를 보려면 [[!DNL Adobe Brand Visibility] 제품 설명서](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/home)를 참조하세요.
+>카탈로그 보강은 백그라운드에서 [!DNL Commerce Catalog Agent] 및 [!DNL Adobe Brand Visibility]에 의해 제공됩니다. 데이터 보강 기능을 Commerce 카탈로그 워크플로의 일부로 사용합니다. 승인된 이름 및 설명 업데이트를 적용하기 위해 별도의 Adobe Brand Visibility 통합을 관리하지 않습니다. Commerce 외부에서 더 광범위한 LLM 모니터링 및 최적화를 보려면 [[!DNL Adobe Brand Visibility] 제품 설명서](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home)를 참조하세요.
 
 ## 작동 방식 {#how-it-works}
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 - LLM 중심의 크롤링과 크롤링 중심의 봇을 통해 을 이용할 수 있습니다. 카탈로그 추천 기능에 대한 인식이 필요합니다.
 - 필수 Commerce 서비스 및 카탈로그 연결이 활성화되었으며 정상입니다. 자세한 내용은 [카탈로그 데이터 보강 사용](#enable-catalog-enrichment)을 참조하세요.
 - 카탈로그 보강에 액세스하는 Commerce 관리 사용자는 Adobe IMS를 통해 로그인합니다. [IMS 로그인 및 조직 요구 사항](#ims-sign-in-requirements)을 참조하세요.
-- [Adobe Admin Console](https://helpx.adobe.com/kr/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)에 액세스할 수 있습니다.
+- [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html)에 액세스할 수 있습니다.
 - 조직은 기본 AI 서비스에 대해 GenAI 라이더에 서명하거나 명시적으로 옵트아웃했습니다.
 
 >[!NOTE]
@@ -108,22 +108,33 @@ Commerce 인스턴스와 연결된 Adobe IMS 조직은 일반적으로 [!DNL Ado
 
 ### 카탈로그 보강 및 카탈로그 서비스 확장 설치
 
-1. 다음 명령을 실행하여 Commerce 인스턴스에 카탈로그 보강 확장을 설치합니다.
+1. Commerce 인스턴스에 카탈로그 보강 확장을 설치하고 변경 사항을 적용합니다.
 
    ```bash
-   composer require magento/module-catalog-enrichment --no-update
-   composer update magento/module-catalog-enrichment
+   composer require magento/module-catalog-enrichment:^2.1
+   bin/magento setup:upgrade
+   bin/magento cache:flush
    ```
 
-1. 카탈로그 서비스를 아직 설치하지 않은 경우 [그렇게 합니다](https://experienceleague.adobe.com/ko/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+   `setup:upgrade`에서 확장을 사용하도록 설정하고 데이터베이스 테이블을 만들고 관리자 권한을 부여합니다. 나중에 캐시를 플러시하여 권한을 적용하십시오. 프로덕션 모드에서도 `bin/magento setup:di:compile` 및 `bin/magento setup:static-content:deploy`을(를) 실행합니다.
+
+1. 카탈로그 서비스를 아직 설치하지 않은 경우 [그렇게 합니다](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
    이제 Commerce 인스턴스에서 **[!UICONTROL Catalog enrichment]**&#x200B;을(를) 사용할 수 있습니다.
 
+>[!IMPORTANT]
+>
+>카탈로그 강화 2.1.2 이상에서는 PHP 8.3 이상에서 Adobe Commerce 2.4.7 이상이 필요하며 [!DNL Adobe Brand Visibility] 확장(`magento/llm-optimizer`)과 함께 설치할 수 없습니다. 설치된 경우 업그레이드하기 전에 제거하십시오. 릴리스 노트에서 [이전 버전에서 업그레이드](#upgrade-from-earlier-versions)를 참조하십시오.
+
 ### 카탈로그 강화 액세스
 
-카탈로그 보강 및 카탈로그 서비스 확장을 설치하면 **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]** 아래의 관리자에서 카탈로그 보강 기능을 사용할 수 있습니다.
+카탈로그 보강 및 카탈로그 서비스 확장을 설치하면 **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]** 아래의 관리자에서 카탈로그 보강 기능을 사용할 수 있습니다.
 
 ![카탈로그 보강](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>**[!UICONTROL AI Product Discovery]** 메뉴에도 **[!UICONTROL Product Details Page Enrichment (Beta)]**&#x200B;이(가) 나열됩니다. 제품 세부 사항 페이지 보강은 베타 버전이며 아직 사용 단계는 아닙니다.
 
 ### 카탈로그 보강 구성 {#configure-catalog-enrichment}
 
@@ -131,7 +142,7 @@ Commerce 인스턴스와 연결된 Adobe IMS 조직은 일반적으로 [!DNL Ado
 
 이 탭의 필드는 카탈로그 보강이 연결되는 Commerce 환경 및 스토어 보기를 식별합니다. [!DNL Adobe Brand Visibility] 권한을 보유한 Adobe IMS 조직과 별개입니다. [IMS 로그인 및 조직 요구 사항](#ims-sign-in-requirements)을 참조하세요.
 
-1. 관리자에서 **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**(으)로 이동합니다.
+1. 관리자에서 **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**(으)로 이동합니다.
 1. 페이지 상단의 **[!UICONTROL Scope]** 목록에서 구성할 저장소 보기를 선택하거나 **[!UICONTROL All Store Views]**&#x200B;을(를) 떠나 저장소 보기 간 설정을 관리합니다.
 1. **[!UICONTROL Settings]** 탭을 엽니다.
 1. **[!UICONTROL Commerce Configuration]**&#x200B;에서 해당 URL로 레이블이 지정된 저장소 보기 패널을 확장합니다.
@@ -308,3 +319,79 @@ Commerce 인스턴스와 연결된 Adobe IMS 조직은 일반적으로 [!DNL Ado
 - **After**: &quot;이 구성에는 6개의 표준 시트 삽입 세트와 6개의 표준 사이드 인서트가 포함되어 있습니다. 이 인서트는 팔이나 등과 같은 기능을 하며 레이아웃의 모듈식 구성 요소를 형성합니다. 각 시트에는 상승도와 처짐을 방지하기 위해 설계된 3개의 고밀도 레이어가 있는 표준 폼이 있습니다. 사파이어 네이비 코디드 벨벳 커버는 고급스러운 만큼 내구성이 강하며 은은한 광택과 부드럽고 플러시 느낌을 주는 질감의 코드가 특징이다. 커버는 정밀하고 맞춤화된 룩을 위해 손으로 꿰매어져 있으며 기계 세척이 가능하고 변경 가능하기 때문에 귀하의 공간에 따라 단면화가 가능합니다.&quot;
 
 보강된 설명이 카탈로그에 다시 기록되므로 AI는 쇼핑객이 페이지에서 볼 수 있는 레이아웃이나 디자인을 변경하지 않고도 제품의 카탈로그 데이터를 소비하는 다운스트림 채널 또는 피드뿐만 아니라 Commerce의 제품 세부 사항 페이지에서도 사용할 수 있습니다.
+
+## 릴리스 정보 {#release-notes}
+
+이 릴리스 노트는 카탈로그 데이터 보강 확장(`magento/module-catalog-enrichment`)에서 추가 및 수정 사항을 캡처합니다.
+
+새 기능 ![개](../assets/new.svg)개
+![해결된 문제](../assets/fix.svg) 수정 사항 및 개선 사항
+![알려진 문제](../assets/bug.svg)알려진 문제
+
+### v2.1.2
+
+*2026년 10월 22일*
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"} Adobe Commerce 2.4.9, 2.4.8, 2.4.7(PHP 8.3 ~ 8.5).
+
+버전 2.1.2는 카탈로그 보강이 자체 포함된 확장을 만듭니다. 이제 별도의 [!DNL Adobe Brand Visibility] 확장(`magento/llm-optimizer`)에서 이전에 제공한 모든 내용이 포함됩니다. 승인된 제안을 카탈로그에 적용하고, 롤백하고, 자신의 편집 내용을 덮어쓰지 않도록 보호합니다.
+
+#### 이전 버전에서 업그레이드 {#upgrade-from-earlier-versions}
+
+>[!IMPORTANT]
+>
+>버전 2.1.2는 [!DNL Adobe Brand Visibility] 확장과 함께 설치할 수 없습니다. 설치된 경우 업그레이드의 일부로 제거합니다.
+
+1. 설치된 경우 [!DNL Adobe Brand Visibility] 확장을 제거합니다.
+
+   ```bash
+   composer remove magento/llm-optimizer
+   ```
+
+   `Magento/LlmoCatalog`을(를) `app/code`(으)로 복사하거나 심볼릭 링크하여 확장을 설치한 경우 해당 디렉터리를 삭제하십시오. 모듈을 사용하지 않도록 설정하기만 하면 안 됩니다. 디스크에 남아 있는 사용하지 않는 모듈로 인해 `setup:upgrade`에서 보강된 제품의 원래 값을 저장하는 테이블을 삭제할 수 있습니다.
+
+1. 카탈로그 보강 업데이트 및 변경 사항 적용:
+
+   ```bash
+   composer require magento/module-catalog-enrichment:^2.1
+   bin/magento setup:upgrade
+   bin/magento cache:flush
+   ```
+
+   업그레이드 후 캐시를 플러시합니다. 업그레이드는 기존 액세스 권한을 새 권한 리소스로 이동하며 캐시를 지울 때까지 해당 권한이 적용되지 않습니다.
+
+#### 요구 사항
+
+![새로 만들기](../assets/new.svg) **PHP 8.3 및 Adobe Commerce 2.4.7 이상**—PHP 8.1은 수명이 종료되고 PHP 8.2는 2026년 12월 31일에 수명이 종료되므로 둘 다 지원되지 않습니다. Adobe Commerce 2.4.6 및 이전 버전은 지원되지 않습니다.
+
+#### 새로운 기능
+
+![새로 만들기](../assets/new.svg) **[!UICONTROL AI Product Discovery]메뉴**—이제 카탈로그 보강 페이지의 관리 사이드바에 고유한 섹션이 있습니다. **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**(으)로 이동합니다. 이전에는 페이지가 **[!UICONTROL Catalog]** 아래에 있었습니다.
+
+![새로 만들기](../assets/new.svg) [!BADGE Beta]{type=Informative tooltip="아직 일반적으로 사용할 수 없음"} **[!UICONTROL Product Details Page Enrichment (Beta)]**—제품 세부 정보 페이지에 대한 데이터 보강 제안을 검토하기 위한 **[!UICONTROL AI Product Discovery]**&#x200B;의 새 페이지입니다. 제품 세부 사항 페이지 보강은 베타 버전이며 아직 사용 단계는 아닙니다.
+
+![새로 만들기](../assets/new.svg) **승인된 제안을 적용하고 롤백합니다**—승인된 이름 및 설명 업데이트가 이 확장에 의해 카탈로그에 기록됩니다. Commerce은 처음 변경될 때 보강된 각 속성의 원래 값을 기록하므로, 동일한 속성에 여러 제안이 적용된 후에도 롤백은 항상 보강 전에 있었던 값을 복원합니다.
+
+![새로 만들기](../assets/new.svg) **편집 내용이 준수되었습니다**—관리 제품 양식에서 **[!UICONTROL Update Attributes]**(으)로 보강된 이름 또는 설명을 변경하거나 가져오기를 통해 변경 내용을 적용하면 값이 유지되고 관련 제안 사항은 *오래됨*(으)로 표시됩니다. 기본 범위에서 변경한 내용은 값을 상속하는 저장소 보기에만 영향을 줍니다.
+
+![새로 만들기](../assets/new.svg) **제안에 대한 읽기 전용 카탈로그 액세스**—[!DNL Commerce Catalog Agent]은(는) 제품, 범주, 특성 집합 및 제품 유형 데이터를 읽고 분석할 제품을 선택할 수 있습니다. 읽기는 **[!UICONTROL Used in Product Listing]**(으)로 표시된 특성과 보강할 수 있는 특성만 반환합니다. 카탈로그 데이터를 변경할 수 없습니다.
+
+#### 수정 사항 및 향상된 기능
+
+![해결된 문제](../assets/fix.svg) **다시 시도된 적용 보고서 성공**—이미 완료된 후 적용 요청이 다시 시도되는 경우 다시 시도는 변경 사항을 보고하지 않고 적용된 변경 사항을 보고합니다. 아무것도 두 번 쓰여지지 않았습니다.
+
+![문제를 해결했습니다](../assets/fix.svg) **승인된 서비스만 카탈로그를 변경할 수 있습니다**—적용 및 롤백은 [!DNL Commerce Catalog Agent]의 요청만 수락합니다. 이전에는 유효한 Adobe IMS 토큰이 모두 수락되었습니다. 이제 SOAP 요청에도 동일한 검사가 적용됩니다.
+
+![문제 해결](../assets/fix.svg) **오류 지우기**—Adobe IMS 중단은 이제 `500` 대신 `401`을(를) 반환하므로 카탈로그에 대해 요청이 다시 시도되지 않으며 인식할 수 없는 Adobe IMS 환경은 스테이징으로 처리되지 않고 거부됩니다.
+
+![문제 해결](../assets/fix.svg) **Adobe IMS 환경**—비프로덕션 [!DNL Commerce Services] 데이터 공간에 연결된 인스턴스를 포함하여 기본적으로 카탈로그 보강이 프로덕션 Adobe IMS 환경에 로그인됩니다. 이전에는 이러한 인스턴스가 스테이징 환경으로 전송되었습니다.
+
+![문제 해결](../assets/fix.svg) **도메인 변경 후 로그인**—카탈로그 보강 페이지가 이제 `abv.adobe.com`에서 로드되어 이전 도메인이 리디렉션을 시작한 후 로그인 루프가 수정됩니다.[!DNL Adobe Brand Visibility]
+
+#### 알려진 문제
+
+![알려진 문제](../assets/bug.svg) **전체 [!UICONTROL Catalog] 액세스 권한이 있는 역할**—이 릴리스 전에 저장된 모든 **[!UICONTROL Catalog]**&#x200B;이(가) 부여된 사용자 역할이 **[!UICONTROL Catalog Enrichment Service API]** 리소스에 대한 액세스 권한을 유지합니다. **[!UICONTROL System]** > **[!UICONTROL Permissions]** > **[!UICONTROL User Roles]**&#x200B;에서 이러한 역할을 검토하고 필요하지 않은 리소스의 선택을 취소하십시오.
+
+### v1.0.2
+
+카탈로그 보강 관리 페이지의 초기 릴리스. 카탈로그에 제안을 적용하려면 [!DNL Adobe Brand Visibility] 확장이 필요합니다.
