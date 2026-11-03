@@ -1,8 +1,8 @@
 ---
-source-git-commit: 9d0d0360b2e92c08c280a824951ef8968f0f4f78
+source-git-commit: 12ddff93f620d02c70dc2d1b0c45fb47f9614115
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 1%
+source-wordcount: '729'
+ht-degree: 0%
 ---
 # 새로운 기능 템플릿
 
@@ -10,186 +10,14 @@ ht-degree: 1%
 
 이 섹션에는 지난 60일 동안 변경된 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
 
-### 2026년 11월 2일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>릴리스 정보, 새 메뉴 탐색 및 설치 단계를 포함하도록 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/catalog-enrichment">카탈로그 데이터 보강</a>을 업데이트했습니다.</p>
-</td>
-      <td>
-        릴리스 정보
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6809e8121b81b0565ce9767e3fcf444ad3342f8f">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 10월 29일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>저장소 크레딧을 관리할 수 있는 관리자 사용자를 제어하기 위해 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using#store-credit-role-resources">저장소 크레딧 역할 리소스</a>를 추가했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/72b270ab3fd062fab4268bd4667d61ccab4d8676">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 10월 27일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>통합 셸 인터페이스에 대한 관리 사용 안내서를 업데이트했습니다.<br />- SaaS 전용 앱 관리 항목을 포함하는 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/tools/admin-menu">관리 사이드바</a> 참조를 포함하여 안내서 전체의 탐색 지침을 수정하고 스크린샷을 새로 고쳤습니다.<br />- 제품 이미지 워터마크 및 트랜잭션 이메일을 포함하여 Adobe Commerce as a Cloud Service에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/guide-overview">콘텐츠 및 디자인 기능</a>을 명확하게 수정했습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/d6950d5fa02a2b50e3b481afe36f232da35560b5">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 10월 26일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service 고객을 위한 새로운 Commerce 관리 인터페이스인 Adobe 통합 환경의 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/admin-unified-experience">Commerce 관리</a>에 대한 설명서를 추가했습니다. 이 설명서에서는 업데이트된 Commerce 관리 탐색 메뉴 및 Adobe 통합 경험 인터페이스를 사용하고, 조직, 제품 및 인스턴스를 전환하고, 공유 탐색, 도움말, 알림 및 계정 컨트롤을 사용하는 방법에 대해 설명합니다.</p>
-</td>
-      <td>
-        새 주제
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/2e3b71207ddf49a1b80661f4174a8e892a361e61">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 10월 13일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>사용 가능한 GitHub 참조를 사용하여 구성 요소별로 그룹화된 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/release-notes">B2B 릴리스 노트</a>에 Adobe Commerce B2B 1.5.4-alpha1 고정 문제 세부 정보가 추가되었습니다.</p>
-</td>
-      <td>
-        릴리스 정보
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1e12f5ec4271d0f11872bfca56e73efa843aba82">커밋</a></td>
-    </tr>
-    <tr>
-      <td><p>Adobe IMS를 통해 카탈로그 보강에 로그인하는 방법에 대한 지침과 함께 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/catalog-enrichment">카탈로그 보강</a>을(를) 업데이트하고, Commerce IMS 조직과 Adobe Brand Visibility 권한을 보유한 조직 간의 구분을 명확히 했으며, 스크린샷을 새로 고쳤습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/071b39214ebbd52a656e2f9278dc6696455cb856">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 10월 8일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>10월 Adobe Commerce as a Cloud Service 릴리스에 대한 Adobe Commerce 관리 설명서 업데이트:<br />- 일괄 요청당 구성할 수 없는 최대 엔터티 수를 Adobe Commerce as a Cloud Service의 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/config/general/bulk-api">구성 참조</a>에 추가했습니다.<br />- 이제 사전 서명된 파일 업로드를 보호하기 위해 <a href="https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload"><code>initiateUpload</code> GraphQL 돌연변이에 대한 Google reCAPTCHA 유효성 검사</a>를 요구할 수 있습니다.<br />- 이제 Commerce 관리에서 시작하거나 종료하는 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog">카탈로그 가격 규칙</a>에 대한 시간을 설정할 수 있습니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/377fcad60d7772ec0da69d8ee1c0c1875a567e9b">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 10월 1일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>B2B용 Adobe Commerce Optimizer 커넥터에 대한 설명서를 추가했습니다.<br />- Adobe Commerce Optimizer과의 B2B 공유 카탈로그 동기화를 모니터링하고 복구하기 위해 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status">카탈로그 보기 동기화 상태</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys">제한된 액세스 키</a> 관리 페이지를 추가했습니다.<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/config/services/aco-restricted-access-keys">ACO 제한된 액세스 키</a> 구성 참조 페이지를 추가했습니다.<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage">공유 카탈로그 관리</a> 및 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/companies/account-company-manage">회사 계정 관리</a>에서 연결된 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage">카탈로그 보기 구성 관리</a>를 추가했습니다.<br />- <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/store-localize">스토어 로컬라이제이션</a>에 스토어 보기의 로케일을 저장하면 이제 연결된 B2B 공유 카탈로그에 대한 카탈로그 보기 다시 인덱스가 트리거됩니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/df7cf0481d74403bb4baaaf48e0ccc735ac3af2c">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 9월 23일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Adobe Commerce as a Cloud Service에 대한 새 Visible on Storefront 토글을 포함하도록 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/sources/sources-add">소스 추가</a>를 업데이트했습니다. 이제 각 인벤토리 소스에 상점 가시성을 위한 개별 플래그를 지정할 수 있습니다. 소스는 기본적으로 숨겨집니다.</p>
-</td>
-      <td>
-        주요 업데이트
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1b3beb5c914dae4c07dd591e9b975c0f35bb23cd">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
+| 설명 | 유형 | 날짜/소스 |
+| --- | --- | --- |
+| 릴리스 정보, 새 메뉴 탐색 및 설치 단계를 포함하도록 [카탈로그 데이터 보강](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment)을 업데이트했습니다. | 릴리스 정보 | [2026년 11월 2일](https://github.com/AdobeDocs/commerce-admin.en/commit/6809e8121b81b0565ce9767e3fcf444ad3342f8f) |
+| 저장소 크레딧을 관리할 수 있는 관리자 사용자를 제어하기 위해 [저장소 크레딧 역할 리소스](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using#store-credit-role-resources)를 추가했습니다. | 주요 업데이트 | [2026년 10월 29일](https://github.com/AdobeDocs/commerce-admin.en/commit/72b270ab3fd062fab4268bd4667d61ccab4d8676) |
+| 통합 셸 인터페이스에 대한 관리 사용 안내서를 업데이트했습니다.<br/>- SaaS 전용 앱 관리 항목을 포함하는 [관리 사이드바](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-menu) 참조를 포함하여 안내서 전체의 탐색 지침을 수정하고 스크린샷을 새로 고쳤습니다.<br/>- 제품 이미지 워터마크 및 트랜잭션 이메일을 포함하여 Adobe Commerce as a Cloud Service에 대한 [콘텐츠 및 디자인 기능](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview)을 명확하게 수정했습니다. | 주요 업데이트 | [2026년 10월 27일](https://github.com/AdobeDocs/commerce-admin.en/commit/d6950d5fa02a2b50e3b481afe36f232da35560b5) |
+| Adobe Commerce as a Cloud Service 고객을 위한 새로운 Commerce 관리 인터페이스인 Adobe 통합 환경의 [Commerce 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin-unified-experience)에 대한 설명서를 추가했습니다. 이 설명서에서는 업데이트된 Commerce 관리 탐색 메뉴 및 Adobe 통합 경험 인터페이스를 사용하고, 조직, 제품 및 인스턴스를 전환하고, 공유 탐색, 도움말, 알림 및 계정 컨트롤을 사용하는 방법에 대해 설명합니다. | 새 주제 | [2026년 10월 26일](https://github.com/AdobeDocs/commerce-admin.en/commit/2e3b71207ddf49a1b80661f4174a8e892a361e61) |
+| 사용 가능한 GitHub 참조를 사용하여 구성 요소별로 그룹화된 [B2B 릴리스 노트](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes)에 Adobe Commerce B2B 1.5.4-alpha1 고정 문제 세부 정보가 추가되었습니다. | 릴리스 정보 | [2026년 10월 13일](https://github.com/AdobeDocs/commerce-admin.en/commit/1e12f5ec4271d0f11872bfca56e73efa843aba82) |
+| Adobe IMS를 통해 카탈로그 보강에 로그인하는 방법에 대한 지침과 함께 [카탈로그 보강](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment)을(를) 업데이트하고, Commerce IMS 조직과 Adobe Brand Visibility 권한을 보유한 조직 간의 구분을 명확히 했으며, 스크린샷을 새로 고쳤습니다. | 주요 업데이트 | [2026년 10월 13일](https://github.com/AdobeDocs/commerce-admin.en/commit/071b39214ebbd52a656e2f9278dc6696455cb856) |
+| 10월 Adobe Commerce as a Cloud Service 릴리스에 대한 Adobe Commerce 관리 설명서 업데이트:<br/>- 일괄 요청당 구성할 수 없는 최대 엔터티 수를 Adobe Commerce as a Cloud Service의 [구성 참조](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/bulk-api)에 추가했습니다.<br/>- 이제 사전 서명된 파일 업로드를 보호하기 위해 [`initiateUpload` GraphQL 돌연변이에 대한 Google reCAPTCHA 유효성 검사](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload)를 요구할 수 있습니다.<br/>- 이제 Commerce 관리에서 시작하거나 종료하는 [카탈로그 가격 규칙](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog)에 대한 시간을 설정할 수 있습니다. | 주요 업데이트 | [2026년 10월 8일](https://github.com/AdobeDocs/commerce-admin.en/commit/377fcad60d7772ec0da69d8ee1c0c1875a567e9b) |
+| B2B용 Adobe Commerce Optimizer 커넥터에 대한 설명서를 추가했습니다.<br/>- Adobe Commerce Optimizer과의 B2B 공유 카탈로그 동기화를 모니터링하고 복구하기 위해 [카탈로그 보기 동기화 상태](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status) 및 [제한된 액세스 키](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys) 관리 페이지를 추가했습니다.<br/>- [ACO 제한된 액세스 키](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/aco-restricted-access-keys) 구성 참조 페이지를 추가했습니다.<br/>- [공유 카탈로그 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage) 및 [회사 계정 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/companies/account-company-manage)에서 연결된 [카탈로그 보기 구성 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage)를 추가했습니다.<br/>- [스토어 로컬라이제이션](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-localize)에 스토어 보기의 로케일을 저장하면 이제 연결된 B2B 공유 카탈로그에 대한 카탈로그 보기 다시 인덱스가 트리거됩니다. | 주요 업데이트 | [2026년 10월 1일](https://github.com/AdobeDocs/commerce-admin.en/commit/df7cf0481d74403bb4baaaf48e0ccc735ac3af2c) |
+| Adobe Commerce as a Cloud Service에 대한 새 Visible on Storefront 토글을 포함하도록 [소스 추가](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/sources/sources-add)를 업데이트했습니다. 이제 각 인벤토리 소스에 상점 가시성을 위한 개별 플래그를 지정할 수 있습니다. 소스는 기본적으로 숨겨집니다. | 주요 업데이트 | [2026년 9월 23일](https://github.com/AdobeDocs/commerce-admin.en/commit/1b3beb5c914dae4c07dd591e9b975c0f35bb23cd) |
