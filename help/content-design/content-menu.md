@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[[!DNL Media Gallery]](media-gallery.md)이(가) 활성화되면 _[!UICONTROL Media]_섹션이 [!DNL Media Gallery]에 액세스할 수 있는 단일 옵션과 함께 나타납니다. 이 옵션이 표시되지 않으면&#x200B;**[!UICONTROL Enable Old Media Gallery]**옵션이 `No`(으)로 설정되어 있는지 확인하십시오. 자세한 내용은 [구성 확인 [!DNL Media Gallery] 2}을 참조하세요.](media-gallery.md#enable-the-new-media-gallery)
+>[[!DNL Media Gallery]](media-gallery.md)이(가) 활성화되면 _[!UICONTROL Media]_&#x200B;섹션이 [!DNL Media Gallery]에 액세스할 수 있는 단일 옵션과 함께 나타납니다. 이 옵션이 표시되지 않으면&#x200B;**[!UICONTROL Enable Old Media Gallery]**&#x200B;옵션이 `No`(으)로 설정되어 있는지 확인하십시오. 자세한 내용은 [구성 확인 [!DNL Media Gallery] 2&rbrace;을 참조하세요.](media-gallery.md#enable-the-new-media-gallery)
 
 >[!BEGINTABS]
 
@@ -64,7 +64,7 @@ _관리자_ 사이드바에서 **[!UICONTROL Content]**&#x200B;을(를) 선택�
 
 >[!NOTE]
 >
->이 메뉴의 _[!UICONTROL Banners]_옵션은 2.3.1에서 더 이상 사용되지 않으며 이제 제거되었습니다. 이 기능은 동적 블록으로 대체됩니다.
+>이 메뉴의 _[!UICONTROL Banners]_&#x200B;옵션은 2.3.1에서 더 이상 사용되지 않으며 이제 제거되었습니다. 이 기능은 동적 블록으로 대체됩니다.
 
 ## [!UICONTROL Design] {#design-features}
 
