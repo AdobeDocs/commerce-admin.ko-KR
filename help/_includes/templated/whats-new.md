@@ -1,7 +1,7 @@
 ---
-source-git-commit: e114ec8857feefd8cd9db5a9b8ed7f0f39e135d1
+source-git-commit: 9d0d0360b2e92c08c280a824951ef8968f0f4f78
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '755'
 ht-degree: 1%
 ---
 # 새로운 기능 템플릿
@@ -9,6 +9,94 @@ ht-degree: 1%
 ## 새로운 기능
 
 이 섹션에는 지난 60일 동안 변경된 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+
+### 2026년 11월 2일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>릴리스 정보, 새 메뉴 탐색 및 설치 단계를 포함하도록 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/catalog-enrichment">카탈로그 데이터 보강</a>을 업데이트했습니다.</p>
+</td>
+      <td>
+        릴리스 정보
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6809e8121b81b0565ce9767e3fcf444ad3342f8f">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 10월 29일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>저장소 크레딧을 관리할 수 있는 관리자 사용자를 제어하기 위해 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using#store-credit-role-resources">저장소 크레딧 역할 리소스</a>를 추가했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/72b270ab3fd062fab4268bd4667d61ccab4d8676">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 10월 27일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>통합 셸 인터페이스에 대한 관리 사용 안내서를 업데이트했습니다.<br />- SaaS 전용 앱 관리 항목을 포함하는 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/tools/admin-menu">관리 사이드바</a> 참조를 포함하여 안내서 전체의 탐색 지침을 수정하고 스크린샷을 새로 고쳤습니다.<br />- 제품 이미지 워터마크 및 트랜잭션 이메일을 포함하여 Adobe Commerce as a Cloud Service에 대한 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/guide-overview">콘텐츠 및 디자인 기능</a>을 명확하게 수정했습니다.</p>
+</td>
+      <td>
+        주요 업데이트
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/d6950d5fa02a2b50e3b481afe36f232da35560b5">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 2026년 10월 26일
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>유형</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce as a Cloud Service 고객을 위한 새로운 Commerce 관리 인터페이스인 Adobe 통합 환경의 <a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/admin-unified-experience">Commerce 관리</a>에 대한 설명서를 추가했습니다. 이 설명서에서는 업데이트된 Commerce 관리 탐색 메뉴 및 Adobe 통합 경험 인터페이스를 사용하고, 조직, 제품 및 인스턴스를 전환하고, 공유 탐색, 도움말, 알림 및 계정 컨트롤을 사용하는 방법에 대해 설명합니다.</p>
+</td>
+      <td>
+        새 주제
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/2e3b71207ddf49a1b80661f4174a8e892a361e61">커밋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2026년 10월 13일
 
@@ -102,28 +190,6 @@ ht-degree: 1%
         주요 업데이트
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1b3beb5c914dae4c07dd591e9b975c0f35bb23cd">커밋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 2026년 8월 31일
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>설명</th>
-      <th>유형</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>에 대해 지원되는 버전 목록에서 Adobe Commerce 2.4.8-p5를 제거했습니다. 2.4.8 고객은 B2B 버전 1.5.3을 대신 사용해야 합니다.</p>
-</td>
-      <td>
-        기술
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/fab7dc8f780fa68c147a06752dc96bd7b03444a2">커밋</a></td>
     </tr>
   </tbody>
 </table>
