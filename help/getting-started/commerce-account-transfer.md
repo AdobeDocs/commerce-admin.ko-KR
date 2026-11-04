@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 55f9389c51fd4e1f9aa2475ad999c79f5f7f00df
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1677'
 ht-degree: 0%
 ---
 # Adobe Commerce 계정 양도
@@ -44,7 +44,11 @@ ht-degree: 0%
 >
 >새 계정 소유자가 공유 액세스를 사용하여 확장을 구매한 경우 계정 전송이 시작되자마자 해당 확장에 대한 액세스가 손실됩니다.
 >
+>계정 이전을 시작하기 전에 Marketplace 확장을 검토하십시오. 확장 및 액세스 키는 MAGE ID와 연결됩니다. 전송이 시작되면 공유 액세스에서 구매한 확장에 대한 액세스가 손실됩니다. 표준 계정 이전 프로세스에서는 확장 구매를 다른 계정으로 이전하지 않습니다. 환불을 요청하고 의도한 계정에서 확장을 재구매해야 할 수 있습니다. 양도가 라이선스 재구성의 일부인 경우 Adobe Commerce 지원에 문의하여 별도의 양도 프로세스가 적용되는지 확인하십시오.
+>
 >계정 이전을 요청하기 전에 새 소유자가 [사용자의 [!DNL Commerce Marketplace] 계정](https://commercemarketplace.adobe.com/sales/order/history/)에서 구매한 항목에 대한 주문 ID를 검색하고 [[!DNL Commerce Marketplace] 팀](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case)에 환불을 요청하는지 확인하십시오. 확장 구매는 다른 계정으로 이전할 수 없습니다.
+>
+>또한 수신 MAGE ID에 대한 새 액세스 키를 생성하고 배포에서 사용하는 작성기 자격 증명을 업데이트할 계획입니다. 계정 이전을 시작하기 전에 적용 가능한 확장 및 주요 단계를 완료합니다.
 
 ## 전송 유형 식별
 
@@ -193,6 +197,12 @@ ht-degree: 0%
 1. [전자 메일 확인 단계](#verify-an-adobe-id-email-change)를 완료합니다.
 
 새 소유자가 전자 메일 주소를 확인한 후 [마지막 단계](#final-steps)를 계속하면 Adobe Commerce 지원에서 [[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/) 프로필과 같은 계정 레코드를 업데이트할 수 있습니다.
+
+## 계정 이체에 대한 도움이 필요합니다?**
+
+위의 전송 유형 중 귀하의 상황과 일치하는 것이 없거나 현재 소유자의 이메일 주소에 액세스할 수 없는 경우 Adobe Commerce 지원 티켓을 제출하십시오.
+
+요청에서 적용되지 않는 전송 유형과 현재 소유자의 이메일에 액세스할 수 있는지 설명합니다. 현재 및 새 소유자의 MAGEID, Adobe ID 및 관련 이메일 주소(아는 경우)를 포함합니다. Adobe 지원 팀에서 상황을 검토하고 다음 단계에 대해 조언할 수 있습니다.
 
 ## 최종 단계
 
