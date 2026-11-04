@@ -28,14 +28,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 8d9a194292793ed0d4d350b4d2102f3bb9fdd4ea
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '335'
 ht-degree: 0%
 ---
 # [!DNL Media Gallery]
 
-Adobe Commerce 또는 Magento Open Source 2.4를 사용하면 판매자는 새로운 _향상된_ [!DNL Media Gallery]을(를) 사용하여 서버에서 미디어 파일을 구성하고 관리할 수 있습니다. 이 새 [!DNL Media Gallery]에는 기존 미디어 저장소와 동일한 기능이 포함되어 있지만 개선된 사용자 인터페이스와 [Adobe Stock](https://stock.adobe.com)과의 긴밀한 통합이 포함되어 있습니다.
+판매자는 [!DNL Media Gallery]을(를) 사용하여 서버에서 미디어 파일을 구성하고 관리할 수 있습니다.
 
 ![미디어 갤러리 격자에 표시된 이미지](./assets/media-gallery-grid.png){width="700" zoomable="yes"}
 
@@ -43,7 +43,7 @@ Adobe Commerce 또는 Magento Open Source 2.4를 사용하면 판매자는 새�
 >
 >[_[!UICONTROL Images and Videos]_&#x200B;제품 섹션](../catalog/product-image.md#upload-an-image)에 추가된 제품 이미지는 [!DNL Media Gallery]에서 관리되지 않습니다._[!UICONTROL Content]_ 제품 섹션 필드에 사용된 이미지만 새 [!DNL Media Gallery]에 표시되고 필터링됩니다.
 
-## 새 [!DNL Media Gallery] 사용
+## [!DNL Media Gallery] 구성 확인 {#enable-the-new-media-gallery}
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
@@ -53,7 +53,11 @@ Adobe Commerce 또는 Magento Open Source 2.4를 사용하면 판매자는 새�
 
    ![고급 구성 - [!DNL Media Gallery]](./assets/system-media-gallery.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Enable Old Media Gallery]**&#x200B;을(를) `No`(으)로 설정합니다.
+1. **[!UICONTROL Enable Old Media Gallery]**&#x200B;이(가) `No`(으)로 설정되어 있는지 확인하십시오.
+
+   >[!IMPORTANT]
+   >
+   >**[!UICONTROL Old Media Gallery]**&#x200B;을(를) 활성화하는 옵션은 더 이상 사용되지 않습니다. 이 설정이 항상 `No`(으)로 설정되어 있는지 확인하십시오.
 
 1. **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 
