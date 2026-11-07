@@ -53,7 +53,7 @@ _Column_ 콘텐츠 형식을 사용하여 [[!DNL Page Builder] stage](workspace.
 
 이 비디오를 통해 [!DNL Columns] 컨테이너를 사용하여 페이지 레이아웃을 구체화하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507533?captions=kor&quality=12&learn=on)
 
 ## 열 도구 상자
 
