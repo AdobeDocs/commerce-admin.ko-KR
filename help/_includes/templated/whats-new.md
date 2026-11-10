@@ -1,14 +1,14 @@
 ---
-source-git-commit: 12ddff93f620d02c70dc2d1b0c45fb47f9614115
+source-git-commit: bc8f33290be7bdc71772b9659c1a6f40c1c77d64
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '728'
 ht-degree: 0%
 ---
 # 새로운 기능 템플릿
 
 ## 새로운 기능
 
-이 섹션에는 지난 60일 동안 변경된 사항이 포함되어 있습니다. 복사 편집과 같은 모든 부분 업데이트는 이 목록에서 제외합니다.
+이 섹션에는 지난 60일 동안 변경된 사항이 포함되어 있습니다. 복사 편집과 같은 부분 업데이트는 이 목록에서 제외됩니다.
 
 | 설명 | 유형 | 날짜/소스 |
 | --- | --- | --- |
