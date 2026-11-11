@@ -1,0 +1,29 @@
+---
+title: 머천다이징 설정
+description: '[!DNL Adobe Commerce Optimizer]에 대한 설정을 구성합니다.'
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+TQID: 'https://experienceleague.adobe.com/mkvRlke8kOz0hVD3dYwU24FXwtQrDP5fOWrm3OSJlZA'
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+    internal-label: Commerce as a Cloud Service
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
+  - id: f37757d8-3174-5335-b977-1161792f965d
+    internal-label: Personalization
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+source-git-commit: 742236e7fdb26c56a80f66a44b0a4960210f4dac
+workflow-type: tm+mt
+source-wordcount: '35'
+ht-degree: 0%
+---
+
+# 머천다이징 설정
+
+{{$include /help/_includes/ccdm-shared/settings.md}}

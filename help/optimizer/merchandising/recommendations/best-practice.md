@@ -1,0 +1,36 @@
+---
+title: 권장 사항 모범 사례
+description: 사이트의 다양한 페이지에 권장 사항을 배치할 수 있는 위치와 각 권장 사항 유형에 자주 사용되는 레이블에 대한 권장 사항을 알아봅니다.
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+autotag-review: '2026-11-02T19:20:28.675Z'
+TQID: 'https://experienceleague.adobe.com/l1yAoT3zh-PFftMANgIx0K0OlwecOqjnclAMSQHK7hQ'
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+    internal-label: Commerce as a Cloud Service
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: cdfd3bc1-dc23-5cf0-b965-d3c0c55cde67
+    internal-label: Best Practices
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
+  - id: dec06508-d41f-555a-87e8-29e8bcdfa95a
+    internal-label: Recommendations
+  - id: f37757d8-3174-5335-b977-1161792f965d
+    internal-label: Personalization
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+source-git-commit: 742236e7fdb26c56a80f66a44b0a4960210f4dac
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 0%
+---
+
+# 권장 사항 모범 사례
+
+{{$include /help/_includes/ccdm-shared/merchandising/recommendations/best-practice.md}}

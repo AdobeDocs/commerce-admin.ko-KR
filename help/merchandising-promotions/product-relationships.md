@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -41,6 +41,8 @@ ht-degree: 0%
 # 제품 관계
 
 제품 간의 관계 특성을 정의하여 카탈로그의 제품을 다른 페이지에서 홍보할 수 있습니다. 이러한 관계는 유사하거나 관련된 상품에 대한 관심도에 따라 구매자를 대상으로 하는 데 도움이 된다.
+
+{{ccdm-merchandising-note}}
 
 ## 제품 설정에 정의됨
 
@@ -64,4 +66,4 @@ ht-degree: 0%
 
 ## Adobe AI 기반의 제품 추천
 
-![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) [Adobe AI에서 제공하는 제품 권장 사항](https://experienceleague.adobe.com/ko/docs/commerce/product-recommendations/overview)은(는) 집계된 방문자 데이터를 심층 분석하는 데 인공 지능 및 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 간소화합니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.
+![Adobe Commerce](../assets/adobe-logo.svg)(Adobe Commerce만 해당) [Adobe AI에서 제공하는 제품 권장 사항](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview)은(는) 집계된 방문자 데이터를 심층 분석하는 데 인공 지능 및 머신 러닝 알고리즘을 사용하여 제품 관계를 정의하는 프로세스를 간소화합니다. 이 데이터를 Adobe Commerce 카탈로그와 결합하면 쇼핑객에게 매력적이고 관련성이 높으며 개인화된 경험을 제공합니다.

@@ -33,12 +33,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '412'
 ht-degree: 0%
 ---
 # 카탈로그 보기 구성 관리
+
+>[!NOTE]
+>
+>이 항목에서는 B2B용 Adobe Commerce Optimizer 커넥터를 사용하는 Commerce 배포에 대한 카탈로그 보기 구현에 대해 설명합니다. 머천다이징 서비스 및 CCDM(Composable Catalog Data Model)과 함께 Adobe Commerce as a Cloud Service을 사용하는 경우 _CCDM을 사용한 머천다이징 서비스 안내서_&#x200B;에서 설치 [카탈로그 보기](../optimizer/setup/catalog-view.md)를 참조하십시오.
 
 [!DNL Adobe Commerce Optimizer Connector for B2B] 확장이 설치된 상태에서 [카탈로그 보기] 페이지에는 사용자 지정 공유 카탈로그에 대해 만든 [!DNL Adobe Commerce Optimizer] [카탈로그 보기 예측](https://experienceleague-review.adobe.com/en/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection){target="_blank"}이 나열됩니다.  _projection_&#x200B;은(는) 커넥터가 공유 카탈로그 데이터를 [!DNL Adobe Commerce Optimizer]에 동기화할 때 만들어진 카탈로그 보기입니다. 커넥터는 공유 카탈로그의 각 스토어 뷰에 대해 별도의 프로젝션을 생성하므로 공유 카탈로그에는 여러 카탈로그 뷰가 있을 수 있습니다. 상점 경험에서 이러한 카탈로그 보기는 연결된 공유 카탈로그에 할당된 회사에만 액세스할 수 있습니다.
 
@@ -64,7 +68,7 @@ ht-degree: 0%
 
 토큰 라이프타임을 구성하거나 토큰 발급을 사용하지 않으려면 [서비스 > ACO 카탈로그 보기](/help/configuration-reference/services/aco-catalog-view.md)를 참조하세요.
 
-공유 카탈로그의 _[!UICONTROL Catalog Views]_&#x200B;탭 또는 연결된 회사의&#x200B;_[!UICONTROL Catalog Views]_ 섹션에서 이러한 카탈로그 보기를 검토하고 할당된 키를 관리할 수 있습니다. 둘 다 동일한 카탈로그 보기와 현재 키 할당을 나열합니다. 각 위치에서 정확한 탐색 경로를 보려면 [제한된 액세스 키 편집](#edit-restricted-access-keys)을 참조하십시오.
+공유 카탈로그의 _[!UICONTROL Catalog Views]_탭 또는 연결된 회사의_[!UICONTROL Catalog Views]_ 섹션에서 이러한 카탈로그 보기를 검토하고 할당된 키를 관리할 수 있습니다. 둘 다 동일한 카탈로그 보기와 현재 키 할당을 나열합니다. 각 위치에서 정확한 탐색 경로를 보려면 [제한된 액세스 키 편집](#edit-restricted-access-keys)을 참조하십시오.
 
 [!DNL Adobe Commerce Optimizer]에 대한 공유 카탈로그 데이터 동기화를 모니터링하려면 [카탈로그 보기 동기화 상태 모니터링](/help/systems/catalog-view-sync-status.md)을 참조하세요.
 

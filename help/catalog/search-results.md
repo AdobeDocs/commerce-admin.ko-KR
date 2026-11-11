@@ -32,16 +32,18 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '967'
 ht-degree: 3%
 ---
 # 검색 결과
 
 >[!NOTE]
 >
->이 페이지에서는 [실시간 검색](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)과(와) 다를 수 있는 표준 검색 기능에 대해 설명합니다.
+>이 페이지에서는 [실시간 검색](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)과(와) 다를 수 있는 표준 검색 기능에 대해 설명합니다.
+>
+>CCDM(Composable Catalog Data Model)으로 프로비전된 인스턴스의 경우 머천다이징 서비스에서 [일치 및 순위 검색](/help/optimizer/manage-results/search-relevance-matching.md)을 참조하십시오.
 
 _검색 결과_ 목록에는 빠른 검색 상자 또는 고급 검색 양식에 입력한 검색 조건과 일치하는 모든 제품이 포함됩니다. 카탈로그의 모든 제품 목록에는 기본적으로 동일한 컨트롤이 있습니다. 유일한 차이점은 하나는 검색 쿼리의 결과이고 다른 하나는 [탐색](navigation.md)의 결과입니다.
 
@@ -57,7 +59,7 @@ _검색 결과_ 목록에는 빠른 검색 상자 또는 고급 검색 양식에
 
 >[!IMPORTANT]
 >
->2023년 8월의 Elasticsearch 7 지원 종료 발표로 인해 모든 Adobe Commerce 고객은 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것이 좋습니다. 제품을 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)을 참조하십시오.
+>2023년 8월의 Elasticsearch 7 지원 종료 발표로 인해 모든 Adobe Commerce 고객은 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것이 좋습니다. 제품을 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)을 참조하십시오.
 
 ## 검색 결과를 확장하기 위한 키워드 매핑
 
@@ -72,7 +74,7 @@ _검색 결과_ 목록에는 빠른 검색 상자 또는 고급 검색 양식에
 
 ### 1단계: 속성 만들기
 
-1. _[!UICONTROL Products]_&#x200B;목록에서 편집 모드로 `Montana Wind Jacket`(MJ03)을 엽니다.
+1. _[!UICONTROL Products]_목록에서 편집 모드로 `Montana Wind Jacket`(MJ03)을 엽니다.
 1. 오른쪽 상단에서 **[!UICONTROL Add Attribute]**&#x200B;을(를) 클릭합니다.
 1. _특성 선택_ 페이지에서 **[!UICONTROL Create New Attribute]**&#x200B;을(를) 클릭합니다.
 1. 다음과 같이 속성 속성을 완료합니다.
@@ -99,7 +101,7 @@ _검색 결과_ 목록에는 빠른 검색 상자 또는 고급 검색 양식에
 
 ### 2단계: 첫 번째 제품 매핑
 
-1. 제품 설정 페이지에서 아래로 스크롤하여 _[!UICONTROL Attributes]_&#x200B;섹션을 확장합니다.
+1. 제품 설정 페이지에서 아래로 스크롤하여 _[!UICONTROL Attributes]_섹션을 확장합니다.
 1. **[!UICONTROL Search Keywords]** 필드에 이 제품에 매핑할 SKU `MH01`을(를) 입력합니다.
 
    검색 키워드 필드에 공백으로 구분된 여러 SKU를 입력할 수 있습니다. 이 예제에서는 하나만 입력됩니다.
@@ -107,15 +109,15 @@ _검색 결과_ 목록에는 빠른 검색 상자 또는 고급 검색 양식에
    검색 키워드가 있는 ![특성 섹션](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동하여&#x200B;**[!UICONTROL Page Cache]**&#x200B;을(를) 새로 고칩니다.
+1. **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동하여&#x200B;**[!UICONTROL Page Cache]**을(를) 새로 고칩니다.
 
 ### 3단계: 두 번째 제품 매핑
 
-1. _[!UICONTROL Products]_&#x200B;목록에서 `Chaz Kangaroo Hoodie`(MH01)을(를) 편집 모드로 엽니다.
+1. _[!UICONTROL Products]_목록에서 `Chaz Kangaroo Hoodie`(MH01)을(를) 편집 모드로 엽니다.
 1. 아래로 스크롤하여 **[!UICONTROL Attributes]** 섹션을 확장합니다.
 1. **[!UICONTROL Search Keywords]** 필드에 다른 제품 `MJ03`의 SKU를 입력합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동하여&#x200B;**[!UICONTROL Page Cache]**&#x200B;을(를) 새로 고칩니다.
+1. **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**(으)로 이동하여&#x200B;**[!UICONTROL Page Cache]**을(를) 새로 고칩니다.
 
 ### 4단계: 상점에서 테스트합니다.
 

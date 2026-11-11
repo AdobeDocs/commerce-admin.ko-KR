@@ -36,12 +36,14 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
 ---
 # 검색어 관리
+
+{{ccdm-merchandising-note}}
 
 검색어에 대한 [랜딩 페이지](../content-design/pages.md)은(는) 콘텐츠 페이지, 카테고리 페이지, 제품 세부 사항 페이지 또는 다른 사이트의 페이지일 수 있습니다.
 
@@ -79,7 +81,7 @@ ht-degree: 0%
 
    ![검색어 일반 정보](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Search Query]** 상자의 _[!UICONTROL General Information]_&#x200B;아래에 새 검색어로 추가할 단어 또는 구를 입력합니다.
+1. **[!UICONTROL Search Query]** 상자의 _[!UICONTROL General Information]_아래에 새 검색어로 추가할 단어 또는 구를 입력합니다.
 
 1. 스토어를 여러 언어로 사용할 수 있는 경우 해당 **[!UICONTROL Store]** 보기를 선택하십시오.
 
@@ -91,7 +93,7 @@ ht-degree: 0%
 
 ## 검색어 편집
 
-1. _[!UICONTROL Search Terms]_&#x200B;그리드에서 레코드 행을 클릭하여 검색어를 편집 모드로 엽니다.
+1. _[!UICONTROL Search Terms]_그리드에서 레코드 행을 클릭하여 검색어를 편집 모드로 엽니다.
 
 1. 필요한 사항을 변경합니다.
 
@@ -101,7 +103,7 @@ ht-degree: 0%
 
 검색어를 삭제하는 방법에는 그리드 및 편집 페이지에서 두 가지가 있습니다.
 
-_[!UICONTROL Search Terms]_&#x200B;눈금의&#x200B;**메서드 1:**
+_[!UICONTROL Search Terms]_눈금의&#x200B;**메서드 1:**
 
 1. 목록에서 삭제할 용어의 확인란을 선택합니다.
 
@@ -109,7 +111,7 @@ _[!UICONTROL Search Terms]_&#x200B;눈금의&#x200B;**메서드 1:**
 
 1. 완료되면 **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
-_[!UICONTROL Edit a Search Term]_&#x200B;페이지의&#x200B;**메서드 2:**
+_[!UICONTROL Edit a Search Term]_페이지의&#x200B;**메서드 2:**
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**(으)로 이동합니다.
 
@@ -155,7 +157,7 @@ _[!UICONTROL Edit a Search Term]_&#x200B;페이지의&#x200B;**메서드 2:**
 
 Adobe Commerce은 두 가지 다른 동의어 관리 솔루션을 지원합니다.
 
-- 라이브 검색 [동의어](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/synonyms/synonyms) 기능은 라이브 검색이 설치된 Adobe Commerce 설치에 사용할 수 있습니다.
+- 라이브 검색 [동의어](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/synonyms/synonyms) 기능은 라이브 검색이 설치된 Adobe Commerce 설치에 사용할 수 있습니다.
 - 이 페이지에 설명된 표준 검색 동의어 기능 은 모든 Adobe Commerce 설치에 대해 즉시 사용할 수 있습니다.
 
 >[!NOTE]
@@ -172,7 +174,7 @@ Adobe Commerce은 두 가지 다른 동의어 관리 솔루션을 지원합니�
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**(으)로 이동합니다.
 
-   _[!UICONTROL Search Synonyms]_&#x200B;그리드가 나타납니다. 검색 동의어를 처음 사용하는 경우 그리드가 비어 있습니다.
+   _[!UICONTROL Search Synonyms]_그리드가 나타납니다. 검색 동의어를 처음 사용하는 경우 그리드가 비어 있습니다.
 
    ![동의어 표 검색](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
@@ -195,7 +197,7 @@ Adobe Commerce은 두 가지 다른 동의어 관리 솔루션을 지원합니�
 
 ### 동의어 그룹 편집
 
-1. _[!UICONTROL Search Synonyms]_&#x200B;그리드에서 레코드 행을 클릭하여 편집 모드에서 동의어 그룹을 엽니다.
+1. _[!UICONTROL Search Synonyms]_그리드에서 레코드 행을 클릭하여 편집 모드에서 동의어 그룹을 엽니다.
 
 1. 필요한 사항을 변경합니다.
 
@@ -207,7 +209,7 @@ Adobe Commerce은 두 가지 다른 동의어 관리 솔루션을 지원합니�
 
 검색 동의어 그리드의 **메서드 1:**
 
-1. _[!UICONTROL Search Synonyms]_&#x200B;그리드에서 삭제할 그룹의 확인란을 선택합니다.
+1. _[!UICONTROL Search Synonyms]_그리드에서 삭제할 그룹의 확인란을 선택합니다.
 
 1. 목록의 왼쪽 상단 모서리에서 **[!UICONTROL Actions]**&#x200B;을(를) `Delete`(으)로 설정합니다.
 

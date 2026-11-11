@@ -34,16 +34,18 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1424'
 ht-degree: 2%
 ---
 # 계층화된 탐색
 
 >[!NOTE]
 >
->이 섹션에 설명된 표준 계층화된 탐색은 [패싯](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/facets/facets)을 사용하는 Live Search 필터링된 탐색과 다릅니다.
+>이 섹션에 설명된 표준 계층화된 탐색은 [패싯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)을 사용하는 Live Search 필터링된 탐색과 다릅니다.
+>
+>CCDM(Composable Catalog Data Model)으로 프로비전된 인스턴스의 경우 머천다이징 서비스의 [Facet](/help/optimizer/merchandising/facets/overview.md)을(를) 참조하십시오.
 
 레이어 탐색을 사용하면 카테고리, 가격 범위 또는 기타 사용 가능한 속성에 따라 제품을 쉽게 찾을 수 있습니다. 레이어 탐색은 일반적으로 검색 결과 및 카테고리 페이지의 왼쪽 열에 표시되며, 경우에 따라 홈 페이지에도 표시됩니다. 표준 탐색에는 범주 및 가격 범위의 _항목별 쇼핑_ 목록이 포함되어 있습니다. 제품 개수 및 가격 범위를 포함하여 계층화된 탐색 표시를 구성할 수 있습니다.
 
@@ -53,7 +55,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 항목에서 설명하는 필터링 가능한 특성 요구 사항은 [Live Search](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)와 다릅니다. 자세한 내용은 [패싯](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/facets/facets)을 참조하세요.
+>이 항목에서 설명하는 필터링 가능한 특성 요구 사항은 [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)와 다릅니다. 자세한 내용은 [패싯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)을 참조하세요.
 
 계층화된 탐색을 사용하여 범주별 또는 속성별로 제품을 검색할 수 있습니다. 예를 들어, 쇼핑객이 상단 탐색에서 남성/Shorts 범주를 선택하면 초기 결과에는 해당 범주의 모든 제품이 포함됩니다. 특정 스타일, 기후, 색상, 재질, 패턴, 가격(또는 값의 조합)을 선택하여 목록을 추가로 필터링할 수 있습니다. 필터링 가능한 속성은 각 속성 값을 나열하는 확장 섹션에 표시됩니다. 옵션으로 일치하는 결과가 있는 제품 목록을 구성하여 일치하는 제품이 있거나 없는 제품을 포함할 수 있습니다.
 
@@ -91,7 +93,7 @@ _예: 결과 없이 표시된 필터링 가능한 견본 값_
 
 >[!NOTE]
 >
->- _[!UICONTROL Use in Search]_&#x200B;설정이 `No`(으)로 설정되어 있으면&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ 설정이 표시되지 않습니다. 이 경우 [!UICONTROL Use in Layered Navigation] 설정에 관계없이 제품 특성이 검색에 사용되지 않습니다.
+>- _[!UICONTROL Use in Search]_설정이 `No`(으)로 설정되어 있으면_[!UICONTROL Use in Search Results Layered Navigation]_ 설정이 표시되지 않습니다. 이 경우 [!UICONTROL Use in Layered Navigation] 설정에 관계없이 제품 특성이 검색에 사용되지 않습니다.
 >
 >- [!UICONTROL Position] 필드는 기본적으로 흐리게 표시됩니다. 이 설정을 수정하려면 먼저 속성을 저장해야 합니다.
 
@@ -127,7 +129,7 @@ _예: 결과 없이 표시된 필터링 가능한 견본 값_
 
 1. 필터링된 검색을 찾아보거나 사용하여 목록에서 속성을 찾아 편집 모드로 엽니다.
 
-1. _[!UICONTROL Attribute Information]_&#x200B;에서&#x200B;**[!UICONTROL Storefront Properties]**&#x200B;을(를) 클릭합니다.
+1. _[!UICONTROL Attribute Information]_에서&#x200B;**[!UICONTROL Storefront Properties]**을(를) 클릭합니다.
 
 1. **[!UICONTROL Layered Navigation]**&#x200B;의 경우 `Filterable (with results)`을(를) 선택하십시오.
 
@@ -139,7 +141,7 @@ _예: 결과 없이 표시된 필터링 가능한 견본 값_
 
 >[!NOTE]
 >
->이 섹션에 설명된 가격 탐색 구성은 [패싯](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/facets/facets)을(를) 사용하는 라이브 검색 필터 탐색과 다릅니다.
+>이 섹션에 설명된 가격 탐색 구성은 [패싯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)을(를) 사용하는 라이브 검색 필터 탐색과 다릅니다.
 
 가격 탐색을 사용하여 계층화된 탐색에서 가격 범위별로 제품을 배포할 수 있습니다. 각 범위를 간격으로 분할할 수도 있습니다. 가격 탐색을 계산하는 방법에는 몇 가지가 있습니다.
 
@@ -178,7 +180,7 @@ _예: 결과 없이 표시된 필터링 가능한 견본 값_
 
 >[!IMPORTANT]
 >
->계층화된 탐색에서 _가격 필터_&#x200B;에 따라 제품 및 가격을 올바르게 표시하려면 [판매세 구성](../configuration-reference/sales/tax.md)의 가격 표시 설정이 같은 값(`Excluding Tax` **또는** `Including Tax`)인지 확인하십시오. _[!UICONTROL Calculation Settings]_&#x200B;에 대해&#x200B;**[!UICONTROL Catalog Prices]**&#x200B;값을 확인하십시오._[!UICONTROL Price Display Settings]_&#x200B;의 경우 **[!UICONTROL Display Product Prices in Catalog]** 값을 확인하십시오. 값이 다른 경우 계층화된 탐색의 가격 필터가 가격별로 제품을 제대로 필터링하고 정렬하지 못할 수 있습니다.
+>계층화된 탐색에서 _가격 필터_&#x200B;에 따라 제품 및 가격을 올바르게 표시하려면 [판매세 구성](../configuration-reference/sales/tax.md)의 가격 표시 설정이 같은 값(`Excluding Tax` **또는** `Including Tax`)인지 확인하십시오. _[!UICONTROL Calculation Settings]_에 대해&#x200B;**[!UICONTROL Catalog Prices]**값을 확인하십시오._[!UICONTROL Price Display Settings]_&#x200B;의 경우 **[!UICONTROL Display Product Prices in Catalog]** 값을 확인하십시오. 값이 다른 경우 계층화된 탐색의 가격 필터가 가격별로 제품을 제대로 필터링하고 정렬하지 못할 수 있습니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
@@ -234,15 +236,15 @@ _예: 결과 없이 표시된 필터링 가능한 견본 값_
 
 >[!NOTE]
 >
->이 섹션에 설명된 표준 계층화된 탐색은 [패싯](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/facets/facets)을 사용하는 Live Search 필터링된 탐색과 다릅니다.
+>이 섹션에 설명된 표준 계층화된 탐색은 [패싯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)을 사용하는 Live Search 필터링된 탐색과 다릅니다.
 
 계층화된 탐색 구성은 각 속성 뒤에 제품 카운트가 괄호로 묶여 표시되는지 여부와 가격 탐색에 사용되는 단계 계산의 크기를 결정합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
-1. 왼쪽 패널에서 _[!UICONTROL Catalog]_&#x200B;섹션을 확장하고 아래의&#x200B;**[!UICONTROL Catalog]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 패널에서 _[!UICONTROL Catalog]_섹션을 확장하고 아래의&#x200B;**[!UICONTROL Catalog]**을(를) 선택합니다.
 
-1. _[!UICONTROL Layered Navigation]_&#x200B;섹션을 확장합니다.
+1. _[!UICONTROL Layered Navigation]_섹션을 확장합니다.
 
    >[!NOTE]
    >
