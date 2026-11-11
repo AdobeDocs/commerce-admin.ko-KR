@@ -2,7 +2,7 @@
 title: 머천다이징 서비스 개요
 description: CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스의 카탈로그 구성, 머천다이징, 보고 및 모니터링 도구에 대해 알아봅니다.
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -60,7 +60,7 @@ Commerce Foundation은 제품 및 가격에 대한 신뢰할 수 있는 소스�
 
 - **기회** - 제품 성과, 쇼핑객 행동 및 검색 트렌드를 검토하여 머천다이징 개선을 위한 영역을 식별합니다.
 - **권장 사항**—Commerce 관리에서 권장 사항 단위를 만들고 관리합니다. 권장 사항은 카탈로그 데이터 및 집계된 쇼핑객 행동을 사용하여 &quot;이 제품을 본 고객이 본 경우도 본 경우&quot;와 같은 관련 제품을 제안합니다.
-- **머천다이징 규칙** - 제품의 홍보 및 등급 지정 방법을 제어합니다. 규칙은 모든 카탈로그 보기에 적용되거나 특정 보기에 맞게 조정할 수 있습니다. [머천다이징 규칙 만들기](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add#create-a-rule)를 참조하십시오.
+- **머천다이징 규칙** - 제품의 홍보 및 등급 지정 방법을 제어합니다. 규칙은 모든 카탈로그 보기에 적용되거나 특정 보기에 맞게 조정할 수 있습니다. [머천다이징 규칙 만들기](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/merchandising/rules/add#create-a-rule)를 참조하십시오.
 - **패싯** - 쇼핑객이 브랜드, 크기, 가격 등의 특성별로 제품 결과를 좁히는 데 사용하는 필터를 구성합니다.
 - **동의어** - 동일한 검색어를 연결하여 구매자가 동일한 개념에 대해 다른 단어를 사용하여 제품을 찾을 수 있도록 합니다.
 - **설정**—가격 패싯, 언어 및 고급 검색을 포함한 검색 및 머천다이징 옵션을 구성합니다.

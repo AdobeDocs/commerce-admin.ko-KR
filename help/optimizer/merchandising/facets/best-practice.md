@@ -2,7 +2,7 @@
 title: Facet 모범 사례
 description: 스토어에서 패싯을 구현하기 위한 모범 사례에 대해 알아봅니다.
 role: Admin, Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 autotag-review: '2026-11-02T19:18:56.877Z'
 TQID: 'https://experienceleague.adobe.com/ieVuCgWFcHX0Kly5pqKAQR5Nn2T1XhwiOuq6tmGUbJI'
 product_v2:

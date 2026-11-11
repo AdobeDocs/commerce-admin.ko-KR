@@ -56,8 +56,8 @@ ht-degree: 3%
 | [공유된 카탈로그](../b2b/enable-basic-features.md) | 공유 카탈로그를 통해 판매자는 다양한 회사에 조정된 제품 구성 및 사용자 지정 가격을 제공할 수 있습니다. 회사 계정 및 공유 카탈로그 기능을 포함하여 Adobe Commerce B2B 라이선싱 및 구성이 필요합니다. |
 | [카탈로그 보강](catalog-enrichment.md) | 카탈로그가 LLM 및 AI 지원 검색에서 정확하게 표현되도록 AI가 제안한 개선 사항을 검토하고 제품 이름 및 설명에 적용합니다. |
 | [제품 특성](product-attributes.md) | 제품 옵션에 대한 입력 컨트롤을 사용하여 속성을 만들고 제품 페이지에 추가 정보를 제공합니다. |
-| [카탈로그 보기](../optimizer/setup/catalog-view.md) [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} | CCDM(Composable Catalog Data Model)이 포함된 머천다이징 서비스를 사용하는 Commerce 배포의 경우 각 브랜드, 지역, 비즈니스 단위 또는 채널에 대한 카탈로그 소스, 카탈로그 레이어, 정책 및 가격 책자를 결합하여 클라이언트가 검색할 수 있는 제품 및 가격을 정의합니다. 선택적으로 카탈로그 보기를 비공개로 만들도록 제한합니다. |
-| [정책](../optimizer/setup/policies.md) [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} | CCDM을 사용하는 Commerce 배포의 경우 각 카탈로그 보기가 제공하는 제품을 제어하는 데이터 액세스 필터를 정의하면 올바른 콘텐츠가 올바른 대상으로 전송됩니다. |
+| [카탈로그 보기](../optimizer/setup/catalog-view.md) [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} | CCDM(Composable Catalog Data Model)이 포함된 머천다이징 서비스를 사용하는 Commerce 배포의 경우 각 브랜드, 지역, 비즈니스 단위 또는 채널에 대한 카탈로그 소스, 카탈로그 레이어, 정책 및 가격 책자를 결합하여 클라이언트가 검색할 수 있는 제품 및 가격을 정의합니다. 선택적으로 카탈로그 보기를 비공개로 만들도록 제한합니다. |
+| [정책](../optimizer/setup/policies.md) [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce as a Cloud Service 및 Adobe Commerce Optimizer 프로젝트에만 적용됩니다(Adobe 관리 SaaS 인프라)."} | CCDM을 사용하는 Commerce 배포의 경우 각 카탈로그 보기가 제공하는 제품을 제어하는 데이터 액세스 필터를 정의하면 올바른 콘텐츠가 올바른 대상으로 전송됩니다. |
 
 {style="table-layout:auto"}
 

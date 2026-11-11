@@ -3,7 +3,7 @@ title: 이벤트 개요
 description: '[!DNL Adobe Commerce Optimizer]이(가) 검색 및 권장 사항을 개선하는 데 사용하는 이벤트에 대해 알아봅니다.'
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 autotag-review: '2026-11-02T19:38:31.330Z'
 TQID: 'https://experienceleague.adobe.com/2549A2tz6zEy7541P1TOxbAnWCehwhIjNbnblC1PRdY'
 product_v2:

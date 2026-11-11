@@ -2,7 +2,7 @@
 title: 구성 가능한 카탈로그 데이터 모델을 사용한 머천다이징
 description: '[!DNL Adobe Commerce Optimizer]의 머천다이징 기능에 대해 알아봅니다.'
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 autotag-review: '2026-11-02T19:18:09.501Z'
 TQID: 'https://experienceleague.adobe.com/LMKEDmMUyq3PHXG-xoCeBrkbN9yX71fE3ZkstDKTHjw'
 product_v2:

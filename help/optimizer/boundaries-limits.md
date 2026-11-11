@@ -3,7 +3,7 @@ title: 머천다이징 서비스 제한 및 경계
 description: Adobe Commerce Optimizer 라이선스 제한 및 시스템 경계에 대해 알아봅니다. 용량을 계획하고, 사용량을 추적하고, 제한을 초과할 때 지연 및 제한을 방지할 수 있습니다.
 role: Admin, Developer
 hide: true
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 autotag-review: '2026-11-02T18:48:38.168Z'
 TQID: 'https://experienceleague.adobe.com/KoRp--G2sMvv-Hr7KiHriZrFmtEm0BhGoGWVQQK-ofE'
 product_v2:
@@ -37,7 +37,7 @@ CCDM이 포함된 Adobe Commerce 머천다이징 서비스는 프로젝트에 �
 
 [라이선스 제한 및 시스템 경계](#license-limits-and-system-boundaries) 섹션에서 설명한 라이선스 패키지를 구입하거나 고유한 사용 사례에 대해 사용자 지정 라이선스를 협상하여 라이선스 제한을 늘릴 수 있습니다. 요구 사항에 대해 논의하려면 Adobe 계정 담당자에게 문의하십시오.
 
-시스템 경계에 대한 질문이 있으면 [Adobe 지원](https://experienceleague.adobe.com/home?lang=en#support)에 문의하십시오.
+시스템 경계에 대한 질문이 있으면 [Adobe 지원](https://experienceleague.adobe.com/home?lang=ko#support)에 문의하십시오.
 
 ## 성능 문제 방지
 

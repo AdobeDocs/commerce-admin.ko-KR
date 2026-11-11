@@ -61,6 +61,6 @@ ht-degree: 6%
  Use case {#use-case}
    - [Storefront and catalog admin end-to-end use case](./use-case/admin-use-case.md)
 -->
-- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [관리 사용 안내서로 돌아가기](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home)
 
 

@@ -1,7 +1,7 @@
 ---
 title: 권장 사항 성능
 description: 권장 사항 성능 페이지는 insight에 제품 권장 사항이 얼마나 잘 수행되고 있는지 알려줍니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 autotag-review: '2026-11-02T19:12:08.536Z'
 TQID: 'https://experienceleague.adobe.com/kz7MdvZBW-55Wg9EtKduG33jvzgEl93zWfs30hFe1YY'
 product_v2:

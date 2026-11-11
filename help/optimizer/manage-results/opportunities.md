@@ -1,7 +1,7 @@
 ---
 title: 영업 기회
 description: 스마트 데이터 기반 사이트 개선을 위해 Adobe Sites Optimizer과의 통합을 통해 트래픽, 참여 및 전환을 늘릴 수 있는 기회를 식별합니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 autotag-review: '2026-11-02T19:11:55.167Z'
 TQID: 'https://experienceleague.adobe.com/suVqMbKCBqrvBTt-WDcxmjkgB9bWmXMQzpp0Ek-1TS8'
 product_v2:

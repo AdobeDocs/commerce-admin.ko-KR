@@ -43,7 +43,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 섹션에 설명된 표준 계층화된 탐색은 [패싯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)을 사용하는 Live Search 필터링된 탐색과 다릅니다.
+>이 섹션에 설명된 표준 계층화된 탐색은 [패싯](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/facets/facets)을 사용하는 Live Search 필터링된 탐색과 다릅니다.
 >
 >CCDM(Composable Catalog Data Model)으로 프로비전된 인스턴스의 경우 머천다이징 서비스의 [Facet](/help/optimizer/merchandising/facets/overview.md)을(를) 참조하십시오.
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 항목에서 설명하는 필터링 가능한 특성 요구 사항은 [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)와 다릅니다. 자세한 내용은 [패싯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)을 참조하세요.
+>이 항목에서 설명하는 필터링 가능한 특성 요구 사항은 [Live Search](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)와 다릅니다. 자세한 내용은 [패싯](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/facets/facets)을 참조하세요.
 
 계층화된 탐색을 사용하여 범주별 또는 속성별로 제품을 검색할 수 있습니다. 예를 들어, 쇼핑객이 상단 탐색에서 남성/Shorts 범주를 선택하면 초기 결과에는 해당 범주의 모든 제품이 포함됩니다. 특정 스타일, 기후, 색상, 재질, 패턴, 가격(또는 값의 조합)을 선택하여 목록을 추가로 필터링할 수 있습니다. 필터링 가능한 속성은 각 속성 값을 나열하는 확장 섹션에 표시됩니다. 옵션으로 일치하는 결과가 있는 제품 목록을 구성하여 일치하는 제품이 있거나 없는 제품을 포함할 수 있습니다.
 
@@ -141,7 +141,7 @@ _예: 결과 없이 표시된 필터링 가능한 견본 값_
 
 >[!NOTE]
 >
->이 섹션에 설명된 가격 탐색 구성은 [패싯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)을(를) 사용하는 라이브 검색 필터 탐색과 다릅니다.
+>이 섹션에 설명된 가격 탐색 구성은 [패싯](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/facets/facets)을(를) 사용하는 라이브 검색 필터 탐색과 다릅니다.
 
 가격 탐색을 사용하여 계층화된 탐색에서 가격 범위별로 제품을 배포할 수 있습니다. 각 범위를 간격으로 분할할 수도 있습니다. 가격 탐색을 계산하는 방법에는 몇 가지가 있습니다.
 
@@ -236,7 +236,7 @@ _예: 결과 없이 표시된 필터링 가능한 견본 값_
 
 >[!NOTE]
 >
->이 섹션에 설명된 표준 계층화된 탐색은 [패싯](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets)을 사용하는 Live Search 필터링된 탐색과 다릅니다.
+>이 섹션에 설명된 표준 계층화된 탐색은 [패싯](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/facets/facets)을 사용하는 Live Search 필터링된 탐색과 다릅니다.
 
 계층화된 탐색 구성은 각 속성 뒤에 제품 카운트가 괄호로 묶여 표시되는지 여부와 가격 탐색에 사용되는 단계 계산의 크기를 결정합니다.
 

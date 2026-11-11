@@ -3,7 +3,7 @@ title: 역할별 카탈로그 머천다이징 작업
 description: CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스로 작업하는 관리자, 개발자 및 머천다이저를 위한 작업 지침을 찾으십시오.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 TQID: 'https://experienceleague.adobe.com/0PmobUkdEWspxuRSaIPL8vS1ojDDZ3gw-L-3SfPmJAg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

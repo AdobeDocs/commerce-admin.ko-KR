@@ -3,7 +3,7 @@ title: 카탈로그 보기
 description: 카탈로그 보기가 무엇이며 이를 만들어 비즈니스 구조, 정책 및 가격별로 제품 카탈로그를 구성하는 방법에 대해 알아봅니다.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -127,7 +127,7 @@ B2B 구현의 경우 동기화에 의해 생성된 카탈로그 구조가 의도
 
 ## 관련 콘텐츠
 
-- [Adobe Commerce as a Cloud Service 시작하기](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started)
+- [Adobe Commerce as a Cloud Service 시작하기](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/getting-started)
 - [Adobe Commerce B2B 공유 카탈로그 개요](../../b2b/catalog-shared.md)
-- [Adobe Commerce as a Cloud Service 릴리스 노트](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes)
+- [Adobe Commerce as a Cloud Service 릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce/cloud-service/release-notes)
 - [카탈로그 동기화](data-sync.md)

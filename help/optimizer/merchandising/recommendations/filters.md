@@ -1,7 +1,7 @@
 ---
 title: 권장 사항 필터
 description: 필터를 사용하여 [!DNL Adobe Commerce Optimizer] 권장 사항에 표시할 제품을 제어하는 방법에 대해 알아봅니다.
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 autotag-review: '2026-11-02T19:20:49.757Z'
 TQID: 'https://experienceleague.adobe.com/zkshZLxDWzedszsUyNSh7XrFCjcYxLreERIHT9OVwoc'
 product_v2:

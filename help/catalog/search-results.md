@@ -41,7 +41,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->이 페이지에서는 [실시간 검색](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)과(와) 다를 수 있는 표준 검색 기능에 대해 설명합니다.
+>이 페이지에서는 [실시간 검색](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)과(와) 다를 수 있는 표준 검색 기능에 대해 설명합니다.
 >
 >CCDM(Composable Catalog Data Model)으로 프로비전된 인스턴스의 경우 머천다이징 서비스에서 [일치 및 순위 검색](/help/optimizer/manage-results/search-relevance-matching.md)을 참조하십시오.
 
@@ -59,7 +59,7 @@ _검색 결과_ 목록에는 빠른 검색 상자 또는 고급 검색 양식에
 
 >[!IMPORTANT]
 >
->2023년 8월의 Elasticsearch 7 지원 종료 발표로 인해 모든 Adobe Commerce 고객은 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것이 좋습니다. 제품을 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)을 참조하십시오.
+>2023년 8월의 Elasticsearch 7 지원 종료 발표로 인해 모든 Adobe Commerce 고객은 OpenSearch 2.x 검색 엔진으로 마이그레이션하는 것이 좋습니다. 제품을 업그레이드하는 동안 검색 엔진을 마이그레이션하는 방법에 대한 자세한 내용은 _업그레이드 안내서_&#x200B;에서 [OpenSearch로 마이그레이션](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration)을 참조하십시오.
 
 ## 검색 결과를 확장하기 위한 키워드 매핑
 

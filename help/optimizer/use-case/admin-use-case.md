@@ -4,7 +4,7 @@ description: '[!DNL Adobe Commerce Optimizer]개의 카탈로그 보기 및 정�
 role: Admin, Developer
 feature: Personalization, Integration
 hide: true
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 autotag-review: '2026-11-02T19:39:05.356Z'
 TQID: 'https://experienceleague.adobe.com/5YIe-yCWxOcc56mi2p1QS9mIqaJxVsUvaN-AOF7Khi8'
 product_v2:
