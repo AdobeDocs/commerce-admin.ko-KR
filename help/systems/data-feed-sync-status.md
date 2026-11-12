@@ -1,6 +1,6 @@
 ---
 title: Commerce에서 데이터 피드 동기화 상태 모니터링
-description: 내보내기를 추적합니다. [!DNL Catalog Service], [!DNL Live Search], [!DNL Product Recommendations] 및 [!DNL Adobe Commerce Optimizer Connector]에 대한 동기화 문제를 진단합니다.
+description: '[!DNL Catalog Service], [!DNL Live Search], [!DNL Product Recommendations] 및 [!DNL Adobe Commerce Optimizer Connector]에 대한 내보내기 및 동기화 문제를 추적합니다.'
 feature: Products, Customers, Data Import/Export
 role: Admin
 level: Beginner
@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1683'
 ht-degree: 0%
 ---
 
@@ -179,9 +179,10 @@ Commerce 데이터베이스에서 제품 및 카테고리 관련 엔터티를 �
 
 ### 연결된 서비스에서 데이터 확인 {#confirm-data-in-connected-services}
 
-내보내기가 완료된 후 엔드 투 엔드 동기화를 확인하려면 다음 방법 중 하나를 사용하십시오. 이 페이지의 내보내기 상태 제한에 대해서는 [위의 참고](#export-status-scope)를 참조하십시오.
+내보내기가 완료된 후 엔드 투 엔드 동기화를 확인하려면 다음 방법 중 하나를 사용하십시오. 이 페이지의 내보내기 상태 제한에 대해서는 [위의 참고](#access-data-feed-sync-status-page)를 참조하십시오.
 
 - **[!DNL Adobe Commerce as a Cloud Service] (Commerce 서비스 포함):** 해당 [데이터 관리 대시보드](data-dashboard.md)를 확인하여 다운스트림 가용성을 확인하십시오.
+- CCDM으로 프로비전된 **[!DNL Adobe Commerce as a Cloud Service]:** 제품 및 가격 데이터가 기본적으로 동기화됩니다. 머천다이징 서비스에서 [카탈로그 동기화](/help/optimizer/setup/data-sync.md)를 사용하여 데이터 가용성을 확인하십시오.
 - **Adobe Commerce on Cloud 또는 Adobe Commerce Optimizer Connector를 사용하는 온-프레미스**: 먼저 Commerce 관리자 내보내기 상태를 확인한 다음 [!DNL Commerce Optimizer Studio]의 [데이터 동기화 페이지](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/data-sync)를 확인하세요.
 - **[!DNL Adobe Commerce Optimizer] (독립 실행형):** 데이터를 Commerce 백엔드에서 내보내지 않습니다. [!DNL Commerce Optimizer Studio]의 [데이터 동기화 페이지](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/data-sync)를 사용하여 데이터 가용성을 확인하십시오.
 

@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '830'
 ht-degree: 0%
 ---
 
@@ -49,6 +49,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >파트너 포털과 같이 B2B가 아닌 시나리오에서 개인 카탈로그를 관리하는 데 사용되는 수동으로 만든 키의 경우 [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}에서 키를 관리합니다.
+>
+>CCDM(Composable Catalog Data Model)으로 프로비전된 인스턴스의 경우 머천다이징 서비스의 [제한된 액세스 키](/help/optimizer/setup/restricted-access-keys.md)를 참조하십시오.
 
 ## 대상자 및 가용성 {#audience}
 

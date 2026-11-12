@@ -24,13 +24,11 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: 224
+source-wordcount: '224'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Catalog] 메뉴
 
 [!UICONTROL Catalog] 메뉴를 통해 제품 만들기, 범주 및 재고 관리 도구, [B2B 스토어](/help/b2b/introduction.md)의 사용자 지정 가격 책정 공유 카탈로그 및 AI 지원 검색을 위한 카탈로그 보강에 쉽게 액세스할 수 있습니다.
@@ -50,6 +48,8 @@ ht-degree: 0%
 ![카탈로그 메뉴](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 _관리자_ 사이드바에서 **[!UICONTROL Catalog]**&#x200B;을(를) 클릭합니다.
 

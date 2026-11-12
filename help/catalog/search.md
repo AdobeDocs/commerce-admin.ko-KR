@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # 카탈로그 검색 개요
@@ -42,6 +42,8 @@ ht-degree: 0%
 >[!TIP]
 >
 >[[!DNL Live Search]](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)은(는) 빠르고, 관련성이 높고, 직관적인 검색 환경을 제공하며, Adobe Commerce에서 추가 비용 없이 사용할 수 있습니다. 이 섹션에서는 [!DNL Live Search]과(와) 다를 수 있는 표준 검색 기능에 대해 설명합니다.
+>
+>Adobe Commerce as a Cloud Service 인스턴스가 CCDM(Composable Catalog Data Model)을 사용하여 프로비저닝된 경우 [CCDM을 사용한 머천다이징 서비스](/help/optimizer/overview.md)에서 검색 설정, 패싯, 동의어 및 머천다이징 규칙을 구성합니다.
 
 탐색만 의존한 고객보다 검색을 이용하는 사람이 구매를 할 가능성이 높다는 연구결과가 나왔다. 실제로 일부 연구에 따르면, 검색을 이용하는 사람들은 구매에 성공할 가능성이 거의 두 배이다.
 

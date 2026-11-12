@@ -39,16 +39,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1132'
 ht-degree: 0%
 ---
 # 공유 카탈로그 관리
 
 _[!UICONTROL Shared Catalogs]_&#x200B;페이지에서는 제품 선택, 사용자 지정 가격, 범주 권한 및 카탈로그 세부 정보를 포함하여 공유 카탈로그를 관리하는 데 필요한 도구에 액세스할 수 있습니다. 이 페이지는 필터 및 작업 컨트롤이 있는 표준 관리 작업 영역과 유사합니다. 그리드는 기본 공개 공유 카탈로그를 비롯한 모든 공유 카탈로그와 설정한 사용자 지정 카탈로그를 나열합니다.
 
-[!DNL Adobe Commerce Optimizer Connector for B2B] 확장이 설치되어 있는 경우, 각 공유 카탈로그의 데이터를 [!DNL Adobe Commerce Optimizer]&#x200B;(으)로 동기화할 때 만들어진 [!DNL Adobe Commerce Optimizer] 카탈로그 보기와 B2B 상점 환경의 카탈로그 보기를 보호하는 제한된 액세스 키에도 액세스할 수 있습니다.
+[!DNL Adobe Commerce Optimizer Connector for B2B] 확장이 설치되어 있는 경우, 각 공유 카탈로그의 데이터를 [!DNL Adobe Commerce Optimizer]&#x200B;(으)로 동기화할 때 만들어진 [!DNL Adobe Commerce Optimizer] 카탈로그 보기와 B2B 상점 환경의 카탈로그 보기를 보호하는 제한된 액세스 키에도 액세스할 수 있습니다. CCDM(Composable Catalog Data Model)으로 프로비저닝된 인스턴스의 경우 기본 동기화는 공유 카탈로그에서 카탈로그 보기를 생성합니다. [B2B 카탈로그 보기](/help/optimizer/setup/catalog-view.md#b2b-catalog-views)를 참조하세요.
 
 ## 제품 선택 업데이트
 

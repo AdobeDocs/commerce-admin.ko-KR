@@ -1,5 +1,5 @@
 ---
-title: '[!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]'
+title: '[!UICONTROL Services] > ACO 제한된 액세스 키'
 description: Commerce 관리자의 [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys] 페이지에서 구성 설정을 검토합니다.
 feature: Configuration, Security
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 4%
+source-wordcount: '215'
+ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]
 
 이 설정을 사용하여 [!DNL Adobe Commerce Optimizer Connector for B2B]이(가) B2B 공유 카탈로그 보기에 대해 프로비전하는 제한된 액세스 키에 적용되는 기본 만료 기간을 제어합니다. 이 키를 만들고, 할당하고, 삭제하려면 [제한된 액세스 키 관리](../../systems/restricted-access-keys.md)를 참조하세요.
+
+>[!NOTE]
+>
+>이 페이지는 커넥터에 적용됩니다. CCDM(Composable Catalog Data Model)으로 프로비저닝된 인스턴스는 기본적으로 데이터를 동기화하며 커넥터를 사용하지 않습니다. [CCDM을 사용한 머천다이징 서비스](/help/optimizer/overview.md)를 참조하십시오.
 
 {{config}}
 

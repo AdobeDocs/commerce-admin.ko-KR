@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1358'
 ht-degree: 0%
 ---
 
@@ -52,6 +52,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >카탈로그 데이터 피드의 동기화 상태를 추적하려면 [[!UICONTROL Data Feed Sync Status]](data-feed-sync-status.md) 페이지를 사용하십시오.
+>
+>이 페이지는 커넥터가 만든 카탈로그 보기에 적용됩니다. CCDM(Composable Catalog Data Model)으로 프로비전된 인스턴스의 경우 머천다이징 서비스의 [카탈로그 동기화](/help/optimizer/setup/data-sync.md)를 참조하십시오.
 
 ## 대상자 및 가용성 {#audience}
 

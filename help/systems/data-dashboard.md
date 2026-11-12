@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '797'
 ht-degree: 0%
 ---
 # 데이터 관리 대시보드
@@ -51,6 +51,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >카탈로그 데이터를 Adobe Commerce Optimizer으로 내보내도록 [Adobe Commerce Optimizer 커넥터](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/overview)를 설치한 경우, 데이터 관리 대시보드가 아니라 Commerce Optimizer Studio의 [데이터 동기화 페이지](https://experienceleague.adobe.com/ko/docs/commerce/optimizer/setup/data-sync)를 사용하여 성공적인 데이터 동기화를 확인하십시오.
+>
+>CCDM(Composable Catalog Data Model)으로 프로비전된 인스턴스의 경우 머천다이징 서비스의 [카탈로그 동기화](/help/optimizer/setup/data-sync.md)를 참조하십시오.
 
 ## 대상자
 

@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL System] 메뉴'
-description: Commerce 관리에는 데이터 가져오기 및 내보내기, 시스템 캐시 및 인덱스 관리, 관리자 액세스 및 권한 관리, 백업, 시스템 알림 및 사용자 지정 변수에 대한 액세스 권한을 제공하는 [!UICONTROL System] 메뉴가 포함되어 있습니다.
+description: '[!UICONTROL System] 메뉴에서는 데이터 가져오기 및 내보내기, 캐시 및 인덱스 관리, 권한, 백업 및 알림을 위한 도구에 액세스할 수 있습니다.'
 exl-id: 3f3bfc07-0ac8-4a50-9442-4b2e1e5fba04
 TQID: https://experienceleague.adobe.com/fNQyGiTfJuHW-AuspIq122m0mqxzaLXP63AFHWIT2lo
 product_v2:
@@ -28,13 +28,11 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL System] 메뉴
 
 [!UICONTROL System] 메뉴에는 데이터를 가져오고 내보내고, 시스템 캐시 및 인덱스를 관리하고, 권한, 백업, 시스템 알림 및 사용자 지정 변수를 관리하는 도구가 포함되어 있습니다.
@@ -54,6 +52,8 @@ ht-degree: 0%
 ![시스템 메뉴](./assets/system-menu-accs.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 [!UICONTROL System] 메뉴를 표시하려면 **_To:_**
 

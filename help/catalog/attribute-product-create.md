@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 2b2cbba1005638bccfd8c4f14075cf98475f05f4
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -175,7 +175,7 @@ ht-degree: 0%
 [구성 가능한 제품](product-create-configurable.md)에 대한 옵션 드롭다운 목록으로 사용되는 모든 속성에는 다음 속성이 있어야 합니다.
 
 | 속성 | 값 |
-|----------|------ |
+| ---------- | ------ |
 | 저장소 소유자에 대한 카탈로그 입력 유형 | 드롭다운 |
 | 범위 | 글로벌 |
 

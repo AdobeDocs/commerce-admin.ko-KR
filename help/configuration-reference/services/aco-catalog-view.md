@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Services] > ACO 카탈로그 보기'
-description: Commerce 관리자의 [!UICONTROL Services] > [!UICONTROL ACO Catalog View] 페이지에서 Adobe Commerce Optimizer 구성 설정을 검토하고 업데이트합니다.
+description: Commerce 관리자의 [!UICONTROL Services] > [!UICONTROL ACO Catalog View] 페이지에서 Adobe Commerce Optimizer 설정을 검토하고 업데이트합니다.
 feature: Configuration, Security
 badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 product_v2:
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b32c28afffe75b3f684f0fef81bd61e9cdcb485a
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 3%
+source-wordcount: '239'
+ht-degree: 2%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View]
 
 [!DNL Adobe Commerce Optimizer Connector for B2B]에서 발급한 액세스 토큰을 제어하려면 이 설정을 사용하십시오. 상점은 이러한 토큰을 사용하여 관리자에 구성된 사용자 지정 공유 카탈로그에서 동기화된 데이터로 채워진 Commerce Optimizer 개인 카탈로그 보기를 인증합니다.
+
+>[!NOTE]
+>
+>이 페이지는 커넥터에 적용됩니다. CCDM(Composable Catalog Data Model)으로 프로비저닝된 인스턴스는 기본적으로 데이터를 동기화하며 커넥터를 사용하지 않습니다. [CCDM을 사용한 머천다이징 서비스](/help/optimizer/overview.md)를 참조하십시오.
 
 {{config}}
 

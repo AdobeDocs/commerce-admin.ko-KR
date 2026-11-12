@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Administration
 nudge: true
 last-update: 2026-11-03
-source-git-commit: 007b6b960a2b17a082d3397c703f9f8375a23a9f
+source-git-commit: 837bdd15f7c690be65e72cce8b888d5c2b981fe6
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '801'
 ht-degree: 0%
 ---
 # &#x200B;<!-- use banner as heading -->![관리자 설명서](./assets/banner-user-home.png) {#documentation}
@@ -85,7 +85,7 @@ Magento Open Source은 Adobe이 Adobe Commerce에 공식적으로 기여하고 �
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS만 해당]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce on Cloud 프로젝트(Adobe 관리 PaaS 인프라) 및 온-프레미스 프로젝트에만 적용됩니다."}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a>
     <div><em>이 기능 세트는 복잡한 조직 구조와 다양한 역할 및 구매 권한 수준을 가진 여러 직원을 가진 회사를 주로 사용하는 판매자(판매자)의 요구를 충족하도록 설계되었습니다.</em>
     <br></div>
   </td>
@@ -103,6 +103,15 @@ Magento Open Source은 Adobe이 Adobe Commerce에 공식적으로 기여하고 �
        <img alt="Inventory management" src="./assets/icon-transfer.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../inventory-management/guide-overview.md"> <strong>[!DNL Inventory Management]</strong></a>
     <div><em>단일 상점을 가진 상인이 [!DNL Inventory Management] 기능을 사용하여 여러 창고, 상점, 픽업 위치, 직송 업체 등에 액세스할 수 있습니다. 이러한 기능을 사용하여 판매 수량을 관리하고 납품을 처리하여 주문을 완료합니다. </em></div>
+  </td>
+</tr>
+<tr>
+  <td valign="top">
+    <img alt="머천다이징 서비스" src="./assets/icon-merchandising-ccdm.svg" width="40" height="40"/>
+  </td>
+  <td valign="top">
+    <a href="../optimizer/overview.md"><strong>CCDM(Composable Catalog Data Model)을 사용한 머천다이징 서비스</strong></a> [!BADGE SaaS만 해당]{type=Positive url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로만 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에 적용됩니다."}
+    <div><em>카탈로그 보기 및 정책을 구성하고, 머천다이징 규칙 및 권장 사항을 관리하고, 상점 성능을 검토하고, Commerce 관리에서 카탈로그 동기화를 모니터링합니다.</em></div>
   </td>
 </tr>
 <tr>

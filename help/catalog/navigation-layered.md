@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1424'
 ht-degree: 2%
 ---
 # 계층화된 탐색
@@ -44,6 +44,8 @@ ht-degree: 2%
 >[!NOTE]
 >
 >이 섹션에 설명된 표준 계층화된 탐색은 [패싯](https://experienceleague.adobe.com/ko/docs/commerce/live-search/live-search-admin/facets/facets)을 사용하는 Live Search 필터링된 탐색과 다릅니다.
+>
+>CCDM(Composable Catalog Data Model)으로 프로비전된 인스턴스의 경우 머천다이징 서비스의 [Facet](/help/optimizer/merchandising/facets/overview.md)을(를) 참조하십시오.
 
 레이어 탐색을 사용하면 카테고리, 가격 범위 또는 기타 사용 가능한 속성에 따라 제품을 쉽게 찾을 수 있습니다. 레이어 탐색은 일반적으로 검색 결과 및 카테고리 페이지의 왼쪽 열에 표시되며, 경우에 따라 홈 페이지에도 표시됩니다. 표준 탐색에는 범주 및 가격 범위의 _항목별 쇼핑_ 목록이 포함되어 있습니다. 제품 개수 및 가격 범위를 포함하여 계층화된 탐색 표시를 구성할 수 있습니다.
 

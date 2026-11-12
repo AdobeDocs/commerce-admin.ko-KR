@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '967'
 ht-degree: 3%
 ---
 # 검색 결과
@@ -42,6 +42,8 @@ ht-degree: 3%
 >[!NOTE]
 >
 >이 페이지에서는 [실시간 검색](https://experienceleague.adobe.com/ko/docs/commerce/live-search/overview)과(와) 다를 수 있는 표준 검색 기능에 대해 설명합니다.
+>
+>CCDM(Composable Catalog Data Model)으로 프로비전된 인스턴스의 경우 머천다이징 서비스에서 [일치 및 순위 검색](/help/optimizer/manage-results/search-relevance-matching.md)을 참조하십시오.
 
 _검색 결과_ 목록에는 빠른 검색 상자 또는 고급 검색 양식에 입력한 검색 조건과 일치하는 모든 제품이 포함됩니다. 카탈로그의 모든 제품 목록에는 기본적으로 동일한 컨트롤이 있습니다. 유일한 차이점은 하나는 검색 쿼리의 결과이고 다른 하나는 [탐색](navigation.md)의 결과입니다.
 

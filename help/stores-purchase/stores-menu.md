@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Stores] 메뉴'
-description: Commerce 관리에는 저장소 계층, 구성, 인벤토리, 세금 및 특성을 설정하는 도구에 액세스할 수 있는 [!UICONTROL Stores] 메뉴가 포함되어 있습니다.
+description: '[!UICONTROL Stores] 메뉴에서는 저장소 계층 구조, 구성, 인벤토리, 세금 및 특성을 설정하는 도구에 액세스할 수 있습니다.'
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 TQID: https://experienceleague.adobe.com/LEoQUYqvin2UfF55kCMUiEUh8YungghN-VuEwUOu7gY
 product_v2:
@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '453'
 ht-degree: 0%
 ---
 # [!UICONTROL Stores] 메뉴
@@ -85,6 +85,8 @@ Adobe Commerce 또는 Magento Open Source 설치에서 [웹 사이트, 스토어
 
 [!DNL Adobe Commerce Optimizer Connector]이(가) 설치되면 웹 사이트를 동기화하고 보기 데이터를 [!DNL Adobe Commerce Optimizer]에 저장할 수 있습니다. 웹 사이트 범위는 [가격 동기화](stores.md#step-1-create-a-website)(가격 및 가격 장부)를 제어합니다. 스토어 보기 범위 제어 [제품 동기화](store-views.md#add-a-store-view)(제품 및 제품 특성).
 
-[!UICONTROL All Stores] 표에 표시되는 동기화 상태 표시기에 대해서는 [Adobe Commerce Optimizer 동기화 상태](store-views.md#optimizer-sync-status)를 참조하십시오. 커넥터 설정 및 구성 동작에 대해서는 *Commerce 커넥터 안내서*&#x200B;에서 [Adobe Commerce Optimizer 범위 내보내기 구성 사용자 지정](https://experienceleague.adobe.com/ko/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)을 참조하십시오.
+[!UICONTROL All Stores] 표에 표시되는 동기화 상태 표시기에 대해서는 [Adobe Commerce Optimizer 동기화 상태](store-views.md#optimizer-sync-status)를 참조하십시오. 커넥터 설정 및 구성 동작에 대해서는 *Commerce 커넥터 안내서*&#x200B;에서 [Adobe Commerce Optimizer 범위 내보내기 구성 사용자 지정](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration)을 참조하십시오.
 
 [!DNL Adobe Commerce Optimizer Connector for B2B]이(가) 설치된 경우 사용 가능한 B2B 공유 카탈로그에 대한 데이터도 동기화됩니다. [카탈로그 보기 관리](../b2b/catalog-views-manage.md)를 참조하세요.
+
+CCDM(Composable Catalog Data Model)으로 프로비저닝된 인스턴스는 웹 사이트, 스토어 보기 및 가격 데이터를 기본적으로 동기화하며 커넥터를 사용하지 않습니다. [CCDM을 사용한 머천다이징 서비스](/help/optimizer/overview.md)를 참조하십시오.

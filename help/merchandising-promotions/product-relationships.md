@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -41,6 +41,8 @@ ht-degree: 0%
 # 제품 관계
 
 제품 간의 관계 특성을 정의하여 카탈로그의 제품을 다른 페이지에서 홍보할 수 있습니다. 이러한 관계는 유사하거나 관련된 상품에 대한 관심도에 따라 구매자를 대상으로 하는 데 도움이 된다.
+
+{{ccdm-merchandising-note}}
 
 ## 제품 설정에 정의됨
 

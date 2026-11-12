@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Marketing] 메뉴'
-description: Commerce 관리에는 프로모션, 통신, SEO 및 사용자 생성 컨텐츠를 관리하기 위한 액세스 도구를 제공하는 [!UICONTROL Marketing] 메뉴가 포함되어 있습니다.
+description: Commerce 관리에는 프로모션, 통신, SEO 및 사용자 생성 컨텐츠를 관리하는 도구를 제공하는 [!UICONTROL Marketing] 메뉴가 포함되어 있습니다.
 exl-id: fc0e554b-1bff-45da-bd6f-73e9b1a4fdef
 TQID: https://experienceleague.adobe.com/UZFSZIsLZvPv50Cg8xmpJ0oW7WEfYvcHEiedDhO2qc0
 product_v2:
@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '318'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Marketing] 메뉴
 
 [!UICONTROL Marketing] 메뉴는 프로모션, 통신, SEO 및 사용자 생성 콘텐츠를 관리하기 위한 액세스 도구를 제공합니다.
@@ -52,6 +50,8 @@ ht-degree: 0%
 ![Commerce 관리자 - 마케팅 메뉴](./assets/admin-menu-marketing-ee-accs.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 ## [!UICONTROL Marketing] 메뉴 표시
 

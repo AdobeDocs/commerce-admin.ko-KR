@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: 1129
+source-wordcount: '1129'
 ht-degree: 1%
-
 ---
-
 # Commerce 머천다이징 및 프로모션 소개
 
 프로모션을 타겟팅하고 고객 참여를 위한 기회를 창출하며 구매자를 구매자로 전환합니다. 구매 후 활동을 지원하고 재방문 고객에게 특별 할인을 제공하여 고객 관계를 관리합니다. SEO 이니셔티브를 지원하는 모범 사례 및 기법을 알아보십시오.
+
+{{ccdm-merchandising-note}}
 
 ## 머천다이징
 

@@ -1,9 +1,9 @@
 ---
 title: 코드 조각
 description: 특정 에디션에 적용되는 기능이나 페이지를 참고하기 위해 노트 및 시각적 요소를 재사용함
-source-git-commit: 2a77353224b36200662f8c5a5a0450073fe8506c
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '846'
 ht-degree: 0%
 ---
 # 코드 조각
@@ -85,6 +85,12 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Adobe Commerce B2B 버전 1.4.2+는 PHP 8.2와 호환됩니다. Commerce 인스턴스를 버전 2.4.7+로 업그레이드하는 경우 인스턴스가 PHP 버전 8.2를 사용하여 Adobe Commerce B2B 릴리스와의 호환성을 유지하는지 확인하십시오. 또한 B2B 1.4.2+ 릴리스는 [GraphQL Application Server](https://experienceleague.adobe.com/ko/docs/commerce-operations/performance-best-practices/concepts/application-server)를 지원하지 않습니다.
+
+## CCDM 머천다이징 서비스 참고 {#ccdm-merchandising-note}
+
+>[!NOTE]
+>
+>Adobe Commerce as a Cloud Service 인스턴스가 CCDM(Composable Catalog Data Model)으로 프로비저닝된 경우 머천다이징 서비스에서 카탈로그 보기, 정책, 머천다이징 및 보고를 관리합니다. [CCDM을 사용한 머천다이징 서비스](/help/optimizer/overview.md)를 참조하십시오.
 
 ## reCAPTCHA 양식 목록 {#recaptcha-forms-list}
 
