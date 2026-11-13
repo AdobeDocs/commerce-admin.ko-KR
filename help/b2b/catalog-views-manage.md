@@ -2,7 +2,7 @@
 title: 카탈로그 보기 구성 관리
 description: B2B 공유 카탈로그에 대해 만들어진 Adobe Commerce Optimizer 카탈로그 보기를 검토하고 이를 보호하는 제한된 액세스 키를 할당하는 방법을 알아봅니다.
 feature: B2B, Companies, Catalog Management
-last-update: 2026-10-01
+last-update: 2026-11-11
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%

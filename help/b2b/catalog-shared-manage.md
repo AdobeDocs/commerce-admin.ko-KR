@@ -3,7 +3,7 @@ title: 공유 카탈로그 관리
 description: 공유 카탈로그 페이지에서 사용할 수 있는 정보 및 도구에 대해 알아봅니다.
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 feature: B2B, Companies, Catalog Management
-last-update: 2026-10-01
+last-update: 2026-11-11
 TQID: 'https://experienceleague.adobe.com/q2dtQ-y3ByGhtMNp68-3lN-PqZJ-1mRX4BMCu0lfB54'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -39,7 +39,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
