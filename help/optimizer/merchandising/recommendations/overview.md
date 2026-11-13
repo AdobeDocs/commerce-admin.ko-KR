@@ -2,7 +2,7 @@
 title: Recommendations 소개
 description: 권장 사항은 전환을 늘리고, 매출을 증대하며, 쇼핑객 참여를 촉진하는 데 사용할 수 있는 강력한 마케팅 도구입니다.
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 autotag-review: '2026-11-02T19:21:22.115Z'
 TQID: 'https://experienceleague.adobe.com/vCY1Q8UFKsJwYhr9WfAiPhvWyYYDMQv1A5QwlifywZ0'
 product_v2:

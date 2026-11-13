@@ -1,7 +1,7 @@
 ---
 title: 동의어 유형
 description: '[!DNL Adobe Commerce Optimizer]의 여러 가지 동의어 유형에 대해 알아봅니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 autotag-review: '2026-11-02T19:38:15.772Z'
 TQID: 'https://experienceleague.adobe.com/Y6c89VNtJ-5OLrH7JQ9yiD5pkJbf3eA1NRXtXFLn0yE'
 product_v2:

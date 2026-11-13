@@ -1,7 +1,7 @@
 ---
 title: 패싯 만들기 및 관리
 description: '[!DNL Adobe Commerce Optimizer]에서 패싯을 추가하고 관리하는 방법을 알아봅니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 autotag-review: '2026-11-02T19:18:42.471Z'
 TQID: 'https://experienceleague.adobe.com/AXIGruJgD-JFBGr4jDUscJ2vSBOBcu-TaskyIECQ-b8'
 product_v2:

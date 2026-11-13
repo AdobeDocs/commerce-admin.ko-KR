@@ -1,7 +1,7 @@
 ---
 title: 머천다이징 설정
 description: '[!DNL Adobe Commerce Optimizer]에 대한 설정을 구성합니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 TQID: 'https://experienceleague.adobe.com/mkvRlke8kOz0hVD3dYwU24FXwtQrDP5fOWrm3OSJlZA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
