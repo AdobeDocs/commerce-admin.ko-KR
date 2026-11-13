@@ -3,7 +3,7 @@ title: 일치 및 순위 검색
 description: '[!DNL Adobe Commerce Optimizer]이(가) 정확히, 가까운, 동일 필드 및 교차 필드 일치를 순위 지정하는 방법과 가중치 및 머천다이징 규칙을 사용한 순위 지정 방법에 대해 알아봅니다.'
 role: Admin, Leader, User
 recommendations: noCatalog
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 hide: true
 autotag-review: '2026-11-02T19:17:14.019Z'
 TQID: 'https://experienceleague.adobe.com/9pCrz4vA-A9qR8NpuhylRBFmBc1-wIgi3yG1w-dybTg'
@@ -32,7 +32,8 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 742236e7fdb26c56a80f66a44b0a4960210f4dac
+last-update: 2026-11-11
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%

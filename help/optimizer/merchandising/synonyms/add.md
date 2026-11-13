@@ -1,7 +1,7 @@
 ---
 title: 동의어 만들기 및 관리
 description: '[!DNL Adobe Commerce Optimizer]에 대한 동의어를 만들고 관리하는 방법을 알아봅니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 autotag-review: '2026-11-02T19:37:24.097Z'
 TQID: 'https://experienceleague.adobe.com/-RyVBok0I4hF-srOngE9yw0yjkyDVp-yNNH7FMvDqYI'
 product_v2:
@@ -21,7 +21,8 @@ topic_v2:
     internal-label: Customer engagement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 742236e7fdb26c56a80f66a44b0a4960210f4dac
+last-update: 2026-11-11
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 0%

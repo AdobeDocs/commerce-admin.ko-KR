@@ -1,7 +1,7 @@
 ---
 title: Facet 유형
 description: '[!DNL Adobe Commerce Optimizer]의 다양한 패싯에 대해 알아봅니다.'
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 autotag-review: '2026-11-02T19:19:37.050Z'
 TQID: 'https://experienceleague.adobe.com/jeBR535CTNK0jhGRt9j5yPuEQHb-HQ0HWVxoRD-Fi5Q'
 product_v2:
@@ -21,7 +21,8 @@ topic_v2:
     internal-label: Metadata
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 742236e7fdb26c56a80f66a44b0a4960210f4dac
+last-update: 2026-11-11
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 0%

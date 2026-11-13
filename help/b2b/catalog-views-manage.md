@@ -2,7 +2,7 @@
 title: 카탈로그 보기 구성 관리
 description: B2B 공유 카탈로그에 대해 만들어진 Adobe Commerce Optimizer 카탈로그 보기를 검토하고 이를 보호하는 제한된 액세스 키를 할당하는 방법을 알아봅니다.
 feature: B2B, Companies, Catalog Management
-last-update: 2026-10-01
+last-update: 2026-11-11
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 토큰 라이프타임을 구성하거나 토큰 발급을 사용하지 않으려면 [서비스 > ACO 카탈로그 보기](/help/configuration-reference/services/aco-catalog-view.md)를 참조하세요.
 
-공유 카탈로그의 _[!UICONTROL Catalog Views]_&#x200B;탭 또는 연결된 회사의&#x200B;_[!UICONTROL Catalog Views]_ 섹션에서 이러한 카탈로그 보기를 검토하고 할당된 키를 관리할 수 있습니다. 둘 다 동일한 카탈로그 보기와 현재 키 할당을 나열합니다. 각 위치에서 정확한 탐색 경로를 보려면 [제한된 액세스 키 편집](#edit-restricted-access-keys)을 참조하십시오.
+공유 카탈로그의 _[!UICONTROL Catalog Views]_탭 또는 연결된 회사의_[!UICONTROL Catalog Views]_ 섹션에서 이러한 카탈로그 보기를 검토하고 할당된 키를 관리할 수 있습니다. 둘 다 동일한 카탈로그 보기와 현재 키 할당을 나열합니다. 각 위치에서 정확한 탐색 경로를 보려면 [제한된 액세스 키 편집](#edit-restricted-access-keys)을 참조하십시오.
 
 [!DNL Adobe Commerce Optimizer]에 대한 공유 카탈로그 데이터 동기화를 모니터링하려면 [카탈로그 보기 동기화 상태 모니터링](/help/systems/catalog-view-sync-status.md)을 참조하세요.
 
