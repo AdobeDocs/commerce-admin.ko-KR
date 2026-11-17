@@ -1,7 +1,7 @@
 ---
-source-git-commit: bc8f33290be7bdc71772b9659c1a6f40c1c77d64
+source-git-commit: 9ccd8f3d267875124a80509bb376ab27ffa9af90
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '844'
 ht-degree: 0%
 ---
 # 새로운 기능 템플릿
@@ -12,6 +12,7 @@ ht-degree: 0%
 
 | 설명 | 유형 | 날짜/소스 |
 | --- | --- | --- |
+| Adobe Commerce as a Cloud Service에 대한 CCDM(Composable Catalog Data Model)을 사용한 머천다이징 서비스에 대한 설명서를 추가했습니다.<br/>- [머천다이징 서비스 개요](https://experienceleague.adobe.com/ko/docs/commerce-admin/merchandising-with-ccdm/overview) 및 역할별 [머천다이징 서비스 작업을 추가했습니다.](https://experienceleague.adobe.com/ko/docs/commerce-admin/merchandising-with-ccdm/get-started-merchandising-ccdm) 참조.<br/>- [카탈로그 보기](https://experienceleague.adobe.com/ko/docs/commerce-admin/merchandising-with-ccdm/setup/catalog-view) 및 [가격 책자](https://experienceleague.adobe.com/ko/docs/commerce-admin/merchandising-with-ccdm/setup/pricebooks) 항목을 추가했습니다.<br/>- CCDM 사용자를 머천다이징 서비스로 안내하는 검색, 권장 사항, 카탈로그 동기화 및 커넥터 항목에 메모를 추가했습니다. | 주요 업데이트, 새 주제 | [2026년 11월 11일](https://github.com/AdobeDocs/commerce-admin.en/commit/f31ba4b981fb70f10cb0e1438dbd445550e6253b) |
 | 릴리스 정보, 새 메뉴 탐색 및 설치 단계를 포함하도록 [카탈로그 데이터 보강](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/products/catalog-enrichment)을 업데이트했습니다. | 릴리스 정보 | [2026년 11월 2일](https://github.com/AdobeDocs/commerce-admin.en/commit/6809e8121b81b0565ce9767e3fcf444ad3342f8f) |
 | 저장소 크레딧을 관리할 수 있는 관리자 사용자를 제어하기 위해 [저장소 크레딧 역할 리소스](https://experienceleague.adobe.com/ko/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using#store-credit-role-resources)를 추가했습니다. | 주요 업데이트 | [2026년 10월 29일](https://github.com/AdobeDocs/commerce-admin.en/commit/72b270ab3fd062fab4268bd4667d61ccab4d8676) |
 | 통합 셸 인터페이스에 대한 관리 사용 안내서를 업데이트했습니다.<br/>- SaaS 전용 앱 관리 항목을 포함하는 [관리 사이드바](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/tools/admin-menu) 참조를 포함하여 안내서 전체의 탐색 지침을 수정하고 스크린샷을 새로 고쳤습니다.<br/>- 제품 이미지 워터마크 및 트랜잭션 이메일을 포함하여 Adobe Commerce as a Cloud Service에 대한 [콘텐츠 및 디자인 기능](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/guide-overview)을 명확하게 수정했습니다. | 주요 업데이트 | [2026년 10월 27일](https://github.com/AdobeDocs/commerce-admin.en/commit/d6950d5fa02a2b50e3b481afe36f232da35560b5) |
