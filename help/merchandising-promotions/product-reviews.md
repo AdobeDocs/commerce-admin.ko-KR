@@ -3,7 +3,6 @@ title: 제품 리뷰
 description: 제품 리뷰를 통해 스토어를 향상시키고 제품에 대한 신뢰도를 높이는 방법에 대해 알아보십시오.
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
 TQID: 'https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -34,9 +33,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 560b0b1584040e8d840645328cdea5e51bdca640
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '866'
 ht-degree: 0%
 ---
 # 제품 리뷰
@@ -52,6 +51,12 @@ Commerce에는 관리자로부터 관리할 수 있는 기본 제품 검토 기�
 >번들 확장을 활성화하고 구성한 경우 2.4.4 업그레이드 프로세스의 일부로 composer.json 파일을 업데이트하고 앞으로 확장 업데이트를 관리해야 합니다. 자세한 내용은 _업그레이드 안내서_&#x200B;의 [업그레이드 모듈](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/modules/upgrade)을 참조하십시오.
 
 ## 상점 첫 화면에서 제품 리뷰
+
+[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
+
+>[!NOTE]
+>
+>이 섹션에서는 Adobe Commerce on cloud infrastructure 및 Adobe Commerce 온프레미스에 있는 Luma 스토어프론트에 대한 제품 리뷰를 설명합니다. Adobe Commerce as a Cloud Service에는 Luma 스토어프론트가 포함되어 있지 않으므로 관리자에서 제품 검토를 활성화해도 스토어프론트에 검토 기능이 추가되지 않습니다. 대신 리뷰를 검색하려면 [`reviews`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/reviews) GraphQL 쿼리를 사용하고 리뷰를 만들려면 [`createProductReview`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/mutations/create-review) 돌연변이를 사용해야 합니다.
 
 기본 제품 검토 기능이 활성화되면 고객은 카탈로그에 있는 모든 제품에 대한 검토를 작성할 수 있습니다. 제품 페이지에서 다음을 클릭하여 검토를 작성할 수 있습니다.
 
@@ -83,11 +88,11 @@ Commerce에는 관리자로부터 관리할 수 있는 기본 제품 검토 기�
 
 ## 제품 리뷰 기능 활성화
 
-Commerce 제품 검토 기능은 기본적으로 활성화되어 있습니다.
+Commerce 온 클라우드 인프라 및 Adobe Commerce 온프레미스에서 Adobe Commerce 제품 검토 기능은 기본적으로 활성화되어 있습니다. Adobe Commerce as a Cloud Service에서는 기본적으로 비활성화되어 있습니다.
 
 >[!NOTE]
 >
->이러한 필드를 `No`(으)로 설정하고 Commerce 제품 검토를 비활성화하려면 **시스템 값 사용** 확인란을 지워야 합니다.
+>이러한 필드를 기본값에서 변경하려면 먼저 **[!UICONTROL Use system value]** 확인란의 선택을 취소해야 합니다.
 
 1. _관리자_ 사이드바에서 **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**(으)로 이동합니다.
 
@@ -99,11 +104,11 @@ Commerce 제품 검토 기능은 기본적으로 활성화되어 있습니다.
 
 1. **[!UICONTROL Enabled]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
-   제품 검토를 활성화하는 기본 설정입니다.
+   이 설정을 사용하면 제품 검토를 사용할 수 있습니다.
 
 1. **[!UICONTROL Allow Guests to Write Reviews]**&#x200B;을(를) `Yes`(으)로 설정합니다.
 
-   고객이 제품 리뷰를 작성할 수 있도록 스토어에 계정을 열어야 하는지 여부를 결정하는 기본 설정입니다.
+   이 설정은 고객이 제품 리뷰를 작성할 수 있도록 스토어에 계정을 열어야 하는지 여부를 결정합니다.
 
 1. 완료되면 **[!UICONTROL Save Config]**&#x200B;을(를) 클릭합니다.
 

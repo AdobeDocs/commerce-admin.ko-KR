@@ -37,13 +37,11 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 6a7e2a6f32d89c269a6d767c5d98b46c2c25aa83
 workflow-type: tm+mt
-source-wordcount: 3358
+source-wordcount: '3381'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Catalog] > [!UICONTROL Catalog]
 
 {{config}}
@@ -71,7 +69,7 @@ ht-degree: 0%
 
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | 스토어 뷰 | 제품 검토를 활성화합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Enabled] | 스토어 뷰 | 제품 검토를 활성화합니다. 옵션: `Yes` / `No`<br/>기본값은 Adobe Commerce on cloud infrastructure 및 Adobe Commerce on-premise에서 `Yes`이고, Adobe Commerce as a Cloud Service에서 `No`입니다. |
 | [!UICONTROL Allow Guests to Write Reviews] | 웹 사이트 | 고객이 제품 리뷰를 작성할 수 있도록 스토어에 계정을 열어야 하는지 여부를 결정합니다. |
 
 {style="table-layout:auto"}

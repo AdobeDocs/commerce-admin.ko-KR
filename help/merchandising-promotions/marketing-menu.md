@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
+source-git-commit: 5fe6a09753399a171e55ad8b0bbd8b5ebd385be7
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '291'
 ht-degree: 0%
 ---
 # [!UICONTROL Marketing] 메뉴
@@ -84,7 +84,5 @@ _관리자_ 사이드바에서 **[!UICONTROL Marketing]**&#x200B;을(를) 클릭
 고객이 스토어에서 제품을 찾고, [메타데이터](meta-data.md)를 관리하고, [사이트 맵](sitemap-xml.md)을 만들 수 있도록 [검색어](../catalog/search-terms.md) 및 [동의어](../catalog/search-terms.md#search-synonyms)을(를) 분석하십시오. URL 변경 내용을 관리하고 끊어진 링크를 방지하려면 [리디렉션](url-rewrite.md)을 사용하십시오.
 
 ### [!UICONTROL User Content]
-
-[!BADGE PaaS만]{type=Informative url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."}
 
 사용자가 생성한 [제품 리뷰](product-reviews.md)를 통합하여 커뮤니티를 만들고 매출을 늘리십시오.
