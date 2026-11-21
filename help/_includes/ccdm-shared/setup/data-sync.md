@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.ko-KR/blob/main/help/_includes/ccdm-shared/setup/data-sync.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 카탈로그 동기화
 
 **데이터 동기화** 페이지에는 데이터 소스(기존 Commerce 카탈로그, 제품 정보 관리(PIM) 시스템, ERP(Enterprise Resource Planning) 시스템 등)에서 머천다이징 서비스 데이터 레이어로 전송된 제품 데이터의 동기화 상태에 대한 개요가 표시됩니다.

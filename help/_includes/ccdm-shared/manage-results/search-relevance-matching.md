@@ -1,9 +1,19 @@
 ---
-source-git-commit: 7651ac8a38244adc8b185450e762bffe57dec72b
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '829'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.ko-KR/blob/main/help/_includes/ccdm-shared/manage-results/search-relevance-matching.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 일치 및 순위 검색
 
 >[!IMPORTANT]
@@ -59,7 +69,7 @@ CCDM(Composable Catalog Data Model)을 사용한 머천다이징 서비스는 �
 - **정확한/거의** 구문 일치에서 증폭
 - **모든 쿼리 용어**&#x200B;가 **동일** 필드에 나타나는 경우 증폭
 - 텍스트 관련성과 동작 신호를 혼합하는 **지능형 순위**(활성화된 경우) — [지능형 순위 채점이 작동하는 방식](../merchandising/rules/add.md#how-intelligent-ranking-scoring-works-search)을 참조하십시오.
-- 각 특성 및 기타 텍스트 관련성 요소에 대한 **검색 가중치**(예: 이름 또는 설명 길이에서 용어가 발생하는 빈도). Adobe Commerce 배포의 경우 [특성 Storefront 속성](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results)에서 검색 가능한 특성 및 해당 가중치를 구성하십시오. 독립형 Adobe Commerce Optimizer 배포의 경우 [메타데이터 REST API](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata)를 사용하십시오.
+- 각 특성 및 기타 텍스트 관련성 요소(예: 이름 또는 설명 길이에서 용어가 발생하는 빈도)에 대한 **[검색 가중치](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/catalog/search/search-results)**. *설정*&#x200B;에서 키워드 검색에 참여하는 특성과 관련 **[키워드 검색 가중치](../settings.md)**&#x200B;를 구성하십시오.
 - 고정, 증폭 및 매장과 같은 **[머천다이징 규칙](../merchandising/rules/overview.md)**
 
 신호가 상호 작용하므로 **검색 가중치** 또는 용어 빈도가 더 약한 구문 일치보다 높을 때 광범위한 일치가 더 엄격한 구문 일치보다 높은 순위를 갖기도 합니다.

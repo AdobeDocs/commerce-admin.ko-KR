@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '2823'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.ko-KR/blob/main/help/_includes/ccdm-shared/manage-results/success-metrics.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 성공 지표
 
 이 페이지에서는 스토어의 주요 성능 지표에 대한 개요를 제공합니다. 목표는 CCDM(Composable Catalog Data Model)을 사용하여 머천다이징 서비스를 구현한 결과를 파악하여 성장 기회 및 최적화를 위한 영역을 식별하는 것입니다.

@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '1606'
 ht-degree: 10%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.ko-KR/blob/main/help/_includes/ccdm-shared/setup/events/overview.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 이벤트
 
 이벤트는 실시간 데이터 인사이트를 활용하여 쇼핑 경험을 강화하고 전환을 유도하는 중요한 도구입니다.

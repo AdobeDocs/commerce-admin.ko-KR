@@ -1,9 +1,19 @@
 ---
-source-git-commit: 7651ac8a38244adc8b185450e762bffe57dec72b
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '917'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.ko-KR/blob/main/help/_includes/ccdm-shared/manage-results/recommendation-performance.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 권장 사항 성능
 
 권장 사항 성과 페이지에는 구성된 권장 사항 목록과 함께 주요 지표가 표시되어 효과를 평가할 수 있습니다. 지난 일, 주 또는 월에 대한 지표를 표시하도록 보기를 구성할 수 있습니다. 이러한 통찰력은 각 권장 사항 단위를 보거나 클릭하는 빈도를 보여주므로 성능을 평가하고 최적화할 기회를 식별하는 데 도움이 됩니다.
@@ -102,5 +112,5 @@ ht-degree: 0%
 **예: 모든 보기 선택 아래에 포함 필터가 있는 권장 사항**
 
 - **모든 보기** 권장 사항에는 SKU: SKU_ABC, SKU_CDE, SKU_XYZ가 포함됩니다.
-- **카탈로그 보기: Kingsbluff**&#x200B;에서 SKU_ABC 또는 SKU_CDE를 판매할 수 없습니다. **표시:** SKU_XYZ만(활성화된 다른 모든 필터를 충족하는 경우).
-- **카탈로그 보기: Arkbridge**&#x200B;은(는) 포함된 SKU를 판매할 수 없습니다. **표시됨:** 포함 필터와 카탈로그 보기 가용성을 모두 충족하는 SKU가 없으므로 권장 사항 단위가 없습니다.
+- **카탈로그 보기: Kingsbluff**&#x200B;에서 SKU_ABC 또는 SKU_CDE를 판매할 수 없습니다. **표시:** SKU_XYZ 및 Kingsbluff에 유효한 다른 SKU.
+- **카탈로그 보기: Arkbridge**&#x200B;은(는) 포함된 SKU를 판매할 수 없습니다. **표시:** Arkbridge에서 허용하는 SKU만. 사용할 수 있는 항목이 없으면 추천 단위가 해당 상점 앞에 표시되지 않습니다.
