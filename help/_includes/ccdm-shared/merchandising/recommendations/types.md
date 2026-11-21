@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/merchandising/recommendations/types.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 권장 사항 유형
 
 [!DNL Product Recommendations]은(는) 사이트의 다양한 페이지에 배포할 수 있는 다양한 권장 사항 집합을 제공합니다. 모든 권장 사항 유형은 데이터 기반입니다. 행동 데이터, 제품 속성 데이터 및 지표를 기반으로 합니다. 쉽게 참조할 수 있도록 추천 유형은 다음과 같이 그룹화됩니다.

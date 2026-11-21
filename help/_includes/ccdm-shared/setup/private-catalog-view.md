@@ -1,9 +1,19 @@
 ---
-source-git-commit: 293f07bf3a6a4de70ac8ababffa6334b5c319e97
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/setup/private-catalog-view.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 비공개 카탈로그 보기
 
 기본적으로 [카탈로그 보기](catalog-view.md)는 공개 보기입니다. 유효한 서명 토큰이 있는 요청만 해당 데이터를 검색할 수 있도록 카탈로그 보기에 대한 액세스를 제한합니다.
@@ -98,7 +108,7 @@ B2B 공유 카탈로그를 사용하지 않는 경우(예: 파트너 포털 또�
 
 >[!NOTE]
 >
->CCDM과 함께 머천다이징 서비스를 사용하는 Adobe Commerce B2B 배포의 경우 Commerce 관리자 **제한된 액세스 키** 페이지(**시스템** > **데이터 전송**)에서 액세스 키를 관리합니다. 자세한 내용은 *[!DNL Adobe Commerce Optimizer Connector]통합 안내서*&#x200B;의 [제한된 액세스 키 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys)를 참조하십시오.
+>CCDM과 함께 머천다이징 서비스를 사용하는 Adobe Commerce B2B 배포의 경우 Commerce 관리자 **제한된 액세스 키** 페이지(**시스템** > **데이터 전송**)에서 액세스 키를 관리합니다. 자세한 내용은 *[!DNL Adobe Commerce Optimizer Connector]통합 안내서*&#x200B;의 [제한된 액세스 키 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys)를 참조하십시오.
 
 ## 다음과 같음
 

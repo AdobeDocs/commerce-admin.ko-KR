@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/setup/catalog-sources.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # 카탈로그 소스
 
 카탈로그 소스는 제품, 특성 및 범주의 신뢰할 수 있는 범위를 나타냅니다. 일반적으로 언어, 대상 또는 시스템 출처 경계에 매핑되고 검색, 필터링 및 정렬 동작을 결정합니다.
