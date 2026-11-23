@@ -2,7 +2,7 @@
 title: 머천다이징 규칙 모범 사례
 description: 검색, 기본 목록 및 카테고리 페이지에 대한 머천다이징 규칙을 구현하는 모범 사례에 대해 알아봅니다.
 role: Admin, Developer
-badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
+badgeSaas: label="SaaS만" type="Positive" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="CCDM으로 프로비저닝된 Adobe Commerce as a Cloud Service 인스턴스(Adobe 관리 SaaS 인프라)에만 적용됩니다."
 autotag-review: '2026-11-02T19:36:32.517Z'
 TQID: 'https://experienceleague.adobe.com/P8Zd1gS1pwK1tFO--Ghhb-x69L-PndxfSm-PIimEkyM'
 product_v2:
