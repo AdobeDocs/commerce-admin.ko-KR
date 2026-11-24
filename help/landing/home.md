@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Administration
 nudge: true
 last-update: 2026-11-20
-source-git-commit: cf5a7bc3eb73bd404deb72fe67842543bf7b0931
+source-git-commit: 2baac8054363a312720e9c30637ed556912d51ff
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '828'
 ht-degree: 0%
 ---
 # &#x200B;<!-- use banner as heading -->![관리자 설명서](./assets/banner-user-home.png) {#documentation}
@@ -119,6 +119,13 @@ Magento Open Source은 Adobe이 Adobe Commerce에 공식적으로 기여하고 �
        <img alt="머천다이징 및 프로모션" src="./assets/icon-labels.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../merchandising-promotions/guide-overview.md"> <strong>머천다이징 및 프로모션</strong></a>
     <div><em>타깃팅된 프로모션과 고객 참여를 위한 기회를 만들어 쇼핑객을 구매자로 전환합니다. 구매 후 활동을 지원하고 재방문 고객에게 특별 할인을 제공하여 고객 관계를 관리합니다. SEO 이니셔티브를 지원하는 모범 사례 및 기법을 알아봅니다.</em></div>
+  </td>
+</tr>
+<tr>
+    <td valign="top">
+       <img alt="AI 제품 검색" src="./assets/icon-color-wheel.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="../ai-product-discovery/guide-overview.md"> <strong>AI 제품 검색</strong></a>
+    <div><em>[!DNL Adobe Commerce] 카탈로그 보강 및 PDP 보강이 AI 제품 검색을 위한 정형 제품 데이터와 구매자 중심의 복사본의 차이를 해결하는 방법을 알아봅니다.</em></div>
   </td>
 </tr>
 <tr>

@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a0d661434bd61349bd5616d6635b4c43340308bc
+source-git-commit: 43d0b6e49ef882ec365442c8f4f720af0080feea
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3172'
 ht-degree: 0%
 ---
 # 카탈로그 강화
@@ -130,7 +130,9 @@ Commerce 인스턴스와 연결된 Adobe IMS 조직은 일반적으로 [!DNL Ado
 
 카탈로그 보강 및 카탈로그 서비스 확장을 설치하면 **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]** 아래의 관리자에서 카탈로그 보강 기능을 사용할 수 있습니다.
 
-![카탈로그 보강](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+>[!NOTE]
+>
+>**[!UICONTROL AI Product Discovery]** 메뉴에도 **[!UICONTROL Product Details Page Enrichment (Beta)]**&#x200B;이(가) 나열됩니다. 제품 세부 사항 페이지 보강은 베타 버전이며 아직 사용 단계는 아닙니다.
 
 >[!NOTE]
 >
@@ -148,8 +150,6 @@ Commerce 인스턴스와 연결된 Adobe IMS 조직은 일반적으로 [!DNL Ado
 1. **[!UICONTROL Commerce Configuration]**&#x200B;에서 해당 URL로 레이블이 지정된 저장소 보기 패널을 확장합니다.
 
    카탈로그 Adobe Brand Visibility 서비스 및 감사 워크플로우를 사용하려면 [!DNL Adobe Commerce] 환경 세부 정보를 제공하십시오.
-
-   카탈로그 데이터 보강 설정 탭의 ![Commerce 구성](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. 저장소 보기에 필요한 연결 세부 정보를 입력합니다.
 
@@ -187,8 +187,6 @@ Commerce 인스턴스와 연결된 Adobe IMS 조직은 일반적으로 [!DNL Ado
 - **[!UICONTROL Fixed Suggestions]**: 이미 적용했거나 해결한 항목입니다.
 - **[!UICONTROL Ignored Suggestions]**: 작업에서 의도적으로 제외한 항목입니다.
 
-![카탈로그 보강](./assets/agentic-opportunities.png){zoomable="yes"}
-
 ### 승인된 제안 배포 {#review-deploy-catalog}
 
 승인된 제안을 배포하려면:
@@ -221,8 +219,6 @@ Commerce 인스턴스와 연결된 Adobe IMS 조직은 일반적으로 [!DNL Ado
 
    제품 양식에는 보강된 제품 이름 및/또는 설명이 표시됩니다.
 
-   ![보강된 제품 이름](./assets/enriched-product-name.png){zoomable="yes"}
-
 1. 선택 사항: 대신 수동으로 입력한 이름을 유지하려면 **[!UICONTROL Override Catalog Agent provided Product Name]**&#x200B;을(를) 선택하십시오.
 
    수동 재정의는 제안이 카탈로그와 계속 동기화되는 방식에 영향을 줍니다. 자세한 내용은 [관리자의 수동 재정의](#manual-override-in-the-admin)를 참조하십시오.
@@ -230,8 +226,6 @@ Commerce 인스턴스와 연결된 Adobe IMS 조직은 일반적으로 [!DNL Ado
 1. **[!UICONTROL Content]** 섹션을 확장하고 설명 필드를 찾습니다.
 
    설명 변경을 적용하면 보강된 설명이 나타납니다.
-
-   ![제품 설명 보강](./assets/enrich-product-description.png){zoomable="yes"}
 
 1. 선택 사항: 수동으로 입력한 설명을 대신 유지하려면 **[!UICONTROL Override Catalog Agent provided Description]**&#x200B;을(를) 선택합니다.
 
