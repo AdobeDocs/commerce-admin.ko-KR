@@ -15,8 +15,8 @@ ht-degree: 0%
 
 | 요구 사항 | 적용 대상 | 세부 사항 |
 | --- | --- | --- |
-| Edge에서 최적화 | PDP 보강 | 필수 여부. Edge에서 최적화 는 강화된 제품 데이터를 AI 에이전트에게 제공합니다. [Edge에서 최적화 가이드](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)를 참조하세요. |
-| 로그 전달 | 두 워크플로우 | 선택 사항입니다. 에이전트 트래픽을 기반으로 데이터 보강 권장 사항을 활성화합니다. 이 기능이 없어도 제품 또는 제품 페이지를 수동으로 선택할 수 있습니다. [로그 전달 가이드](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)를 참조하세요. |
+| Edge에서 최적화 | PDP 보강 | 필수 여부. Edge에서 최적화 는 강화된 제품 데이터를 AI 에이전트에게 제공합니다. [Edge에서 최적화 가이드](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)를 참조하세요. |
+| 로그 전달 | 두 워크플로우 | 선택 사항입니다. 에이전트 트래픽을 기반으로 데이터 보강 권장 사항을 활성화합니다. 이 기능이 없어도 제품 또는 제품 페이지를 수동으로 선택할 수 있습니다. [로그 전달 가이드](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)를 참조하세요. |
 | 크롤링 가능 상점 | 카탈로그 강화 | 크롤링 기반 권장 사항 필수. LLM 기반 및 agentic 봇은 제품 페이지에 액세스할 수 있어야 합니다. |
 | [!DNL Adobe Admin Console] 액세스 | 카탈로그 강화 | 필수 여부. 설정하는 동안 [!DNL Adobe Commerce]은(는) 조직에서 GenAI 라이더에 서명했는지 또는 기본 AI 서비스를 옵트아웃했는지 확인합니다. |
 
@@ -36,7 +36,7 @@ TBD (SME): Confirm whether the Admin Console and GenAI rider check also applies 
 **시작하기 전:**
 
 - PHP 8.3 이상에서 [!DNL Adobe Commerce] 2.4.7 이상 [릴리스 정보](release-notes.md)를 참조하세요.
-- [!DNL Adobe IMS] 조직입니다. 조직에 Adobe IMS 통합 개요가 없으면 [Adobe IMS 통합 개요](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview)를 참조하세요. 카탈로그 보강은 로그인한 관리자의 IMS 액세스 토큰을 사용합니다. Commerce 사용자 이름과 암호로만 로그인해도 이 토큰이 제공되지 않습니다.
+- [!DNL Adobe IMS] 조직입니다. 조직에 Adobe IMS 통합 개요가 없으면 [Adobe IMS 통합 개요](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview)를 참조하세요. 카탈로그 보강은 로그인한 관리자의 IMS 액세스 토큰을 사용합니다. Commerce 사용자 이름과 암호로만 로그인해도 이 토큰이 제공되지 않습니다.
 - Commerce 응용 프로그램 서버에 대한 명령줄 액세스 및 `repo.magento.com`에서 패키지를 다운로드할 수 있는 권한입니다.
 
 **설치 및 확인:**
@@ -50,7 +50,7 @@ TBD (SME): Confirm whether the Admin Console and GenAI rider check also applies 
 
    [!DNL Catalog Service]은(는) [!DNL Live Search] 및 [!DNL Product Recommendations]과(와) 함께 자동으로 설치되므로, 두 서비스 중 하나가 활성화된 경우 이 단계를 건너뜁니다.
 
-1. 다른 Commerce 서비스에 대해 아직 구성되지 않은 경우 API 키 및 SaaS 데이터 공간으로 [Commerce 서비스 커넥터](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas)를 구성하십시오.
+1. 다른 Commerce 서비스에 대해 아직 구성되지 않은 경우 API 키 및 SaaS 데이터 공간으로 [Commerce 서비스 커넥터](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/integration-services/saas)를 구성하십시오.
 
 1. 공유 데이터 보강 확장 추가:
 

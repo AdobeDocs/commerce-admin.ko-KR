@@ -4,7 +4,7 @@ description: '[!DNL Adobe Commerce] 제품 세부 정보 페이지 데이터 보
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
+badgePaas or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -129,7 +129,7 @@ PDP 보강 페이지가 **[!UICONTROL Optimizations]** 탭으로 열립니다. �
 
 제안을 검토하고 최적화할 제품 페이지를 선택했으면 **최적화 배포**&#x200B;를 클릭하여 Edge에서 최적화를 사용하여 데이터 보강 기능을 게시합니다. **Edge에 배포** 확인 대화 상자에 선택한 제품 URL, 최적화 유형 및 적용 중인 데이터 보강이 표시됩니다. 배포 후 성공적으로 최적화된 제품 페이지를 확인하는 화면이 표시됩니다.
 
-최적화는 [Edge에서 최적화](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)를 통해 AI 사용자 에이전트에게만 제공됩니다. 사람 방문자는 PDP 디자인, 페이지 성능 또는 브랜드 경험을 변경하지 않고 이전과 동일하게 기존 상점 경험을 계속 볼 수 있습니다.
+최적화는 [Edge에서 최적화](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)를 통해 AI 사용자 에이전트에게만 제공됩니다. 사람 방문자는 PDP 디자인, 페이지 성능 또는 브랜드 경험을 변경하지 않고 이전과 동일하게 기존 상점 경험을 계속 볼 수 있습니다.
 
 ## 제한 및 고려 사항 {#limits}
 
@@ -137,7 +137,7 @@ PDP 보강 페이지가 **[!UICONTROL Optimizations]** 탭으로 열립니다. �
 - 데이터 보강은 카탈로그에 이미 있는 팩트를 구성합니다. 새 제품 정보를 추가하지는 않습니다.
 - PDP 보강 워크플로우가 상점 전면을 변경하지 않습니다.
 - PDP 보강 작업과 카탈로그 보강 작업에는 서로 다른 목적과 워크플로가 있습니다.
-- PDP 최적화는 [Edge에서 최적화](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)를 사용합니다.
+- PDP 최적화는 [Edge에서 최적화](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)를 사용합니다.
 
 ## 우수 사례 {#best-practices}
 
