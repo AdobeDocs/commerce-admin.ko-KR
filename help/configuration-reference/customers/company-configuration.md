@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 15d8881376a2dbec72b43fd32d40101e210f9530
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '878'
 ht-degree: 3%
 ---
 # [!UICONTROL Customers] > [!UICONTROL Company Configuration]
@@ -60,6 +60,7 @@ ht-degree: 3%
 | 필드 | [범위](../../getting-started/websites-stores-views.md#scope-settings) | 설명 |
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | 웹 사이트 | 스토어 방문자가 회사 계정 또는 개인 계정에 대해 [등록](../../customers/customer-sign-in.md)할 수 있는지 여부를 결정합니다. 옵션: `Yes` / `No` |
+| [!UICONTROL Allow Company Configuration on Storefront Registration] | 웹 사이트 | 회사 주소록 설정을 포함하여 상점 등록 중에 `createCompany` GraphQL 돌연변이가 회사 구성을 수락하는지 여부를 결정합니다. 이 옵션은 **[!UICONTROL Allow Company Registration from the Storefront]**&#x200B;이(가) `Yes`(으)로 설정된 경우 사용할 수 있습니다. 모든 회사에 대해 주소록을 활성화하지는 않습니다. 옵션: `Yes` / `No`(기본값) |
 
 {style="table-layout:auto"}
 

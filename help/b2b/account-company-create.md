@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 15d8881376a2dbec72b43fd32d40101e210f9530
 workflow-type: tm+mt
-source-wordcount: '2455'
+source-wordcount: '2640'
 ht-degree: 0%
 ---
 # 회사 계정 만들기
@@ -96,6 +96,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >이 방법을 지원하려면(고객이 상점 앞에서 회사를 등록할 수 있도록 허용) [B2B 기능](enable-basic-features.md)이 사용하도록 설정되어 있는지 확인하십시오.
+
+`createCompany` GraphQL 돌연변이를 사용하는 상점 앞면의 경우 [회사 구성](../configuration-reference/customers/company-configuration.md#general)에서 **[!UICONTROL Allow Company Configuration on Storefront Registration]**&#x200B;을(를) 사용하도록 설정하면 등록 중에 회사 주소록 설정을 제출할 수 있습니다. 이 설정은 기본적으로 비활성화되며 회사 주소록은 그 자체로 활성화되지 않습니다.
 
 1. storefront 헤더의 오른쪽 상단 모서리에서 고객이 **[!UICONTROL Create an Account]**&#x200B;을(를) 클릭하고 **[!UICONTROL Create New Company Account]**&#x200B;을(를) 선택합니다.
 
@@ -254,6 +256,10 @@ ht-degree: 0%
 
    * 회사 직원이 해당 계정의 구매 주문을 만들고 사용할 수 있도록 하려면 **[!UICONTROL Enable Purchase Orders]**&#x200B;을(를) `Yes`(으)로 설정하십시오.
 
+   * 공유 회사 주소록을 사용하려면 **[!UICONTROL Enable Company Address Book]**&#x200B;을(를) `Yes`(으)로 설정하십시오. 이 설정은 기본적으로 `No`입니다.
+
+   * 회사 주소록을 사용할 수 있을 때 체크아웃 시 임시 배송 주소를 허용하려면 **[!UICONTROL Allow Custom Shipping Address]**&#x200B;을(를) `Yes`(으)로 설정하십시오. 이 설정은 기본적으로 `No`입니다.
+
    * 회사에서 사용할 수 있는 **[!UICONTROL Applicable Payment Methods]**&#x200B;을(를) 변경하려면 **[!UICONTROL Use config settings]** 확인란의 선택을 취소하고 다음 중 하나를 선택하십시오.
 
      | 옵션 | 설명 |
@@ -304,6 +310,8 @@ ht-degree: 0%
 * **[회사 사용자 관리](account-company-users.md)**—직원 추가 및 역할 할당
 * **[구매 주문 설정](purchase-order-flow.md)**—필요한 경우 승인 워크플로 구성
 * **[크레딧 설정 검토](credit-company.md)** - 회사 크레딧을 이해하고 관리합니다(활성화된 경우).
+
+지원되는 상점 앞에서 회사 주소록을 사용할 수 있게 되면 회사 사용자는 개인 주소록 대신 체크아웃할 때 회사 주소를 사용할 수 있습니다. 대금 청구에는 기존 회사 주소가 필요합니다. 배송은 사용자 정의 배송 주소가 허용되지 않는 한 회사 주소가 필요합니다. 픽업 위치는 제외됩니다. 회사 역할에는 기본 회사 주소를 추가, 편집, 삭제 및 설정할 수 있는 별도의 권한이 부여될 수 있습니다. 회사는 별도의 기본 청구 및 배송 주소를 가질 수 있습니다.
 
 ## 일반적인 문제 및 문제 해결
 
@@ -462,6 +470,8 @@ ht-degree: 0%
 | [!UICONTROL Customer Group] | (관리자만) 회사에 할당된 [고객 그룹](../customers/customer-groups.md) 또는 [공유 카탈로그](catalog-shared.md)를 표시합니다. |
 | [!UICONTROL Allow Quotes] | (관리자만) 회사 구성원이 회사를 대신하여 협상 가능한 견적을 준비하고 제출할 수 있는지 여부를 결정합니다. |
 | [!UICONTROL Enable Purchase Orders] | (관리자만) 회사 구성원이 회사를 대신하여 주문을 [구매 주문](account-dashboard-my-purchase-orders.md)(으)로 제출할 수 있는지 여부를 결정합니다. |
+| [!UICONTROL Enable Company Address Book] | (관리자만) 지원되는 상점 첫 흐름에서 회사에 대한 회사 주소를 활성화합니다. 옵션: `Yes` / `No`(기본값). |
+| [!UICONTROL Allow Custom Shipping Address] | (관리자만) 회사 주소록이 활성화된 경우 체크아웃 시 임시 배송 주소를 허용합니다. 청구에는 여전히 기존 회사 주소가 필요합니다. 옵션: `Yes` / `No`(기본값). |
 | 해당 결제 방법 | (관리자만) 회사 구매에 사용할 수 있는 결제 방법을 나타냅니다. 옵션: `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
 | [!UICONTROL Payment Methods] | (관리자만) 특정 결제 방법을 활성화하면 활성화됩니다. 회사 계정에 여러 결제 방법을 사용할 수 있도록 하려면 Ctrl 키(PC) 또는 Command 키(Mac)를 누른 채 각 옵션을 선택합니다. |
 | [!UICONTROL Applicable Shipping Methods] | (관리자만) 회사 구매에 사용할 수 있는 배송 방법을 나타냅니다. 옵션: `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |
