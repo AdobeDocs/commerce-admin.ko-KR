@@ -2,9 +2,9 @@
 title: AI 제품 검색 사전 요구 사항
 description: 카탈로그 보강 및 PDP 보강 요구 사항을 검토하고 Adobe Commerce on cloud infrastructure 또는 온프레미스에 공유 보강 확장을 설치합니다.
 role: Admin, Developer
-source-git-commit: 9e234eb68fe34171d9e5cf95e8cdab5c31825492
+source-git-commit: 591fca4f18862d289fb233997e8848cb4692d1e7
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '506'
 ht-degree: 0%
 ---
 # 사전 요구 사항
@@ -18,11 +18,10 @@ ht-degree: 0%
 | Edge에서 최적화 | PDP 보강 | 필수 여부. Edge에서 최적화 는 강화된 제품 데이터를 AI 에이전트에게 제공합니다. [Edge에서 최적화 가이드](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn)를 참조하세요. |
 | 로그 전달 | 두 워크플로우 | 선택 사항입니다. 에이전트 트래픽을 기반으로 데이터 보강 권장 사항을 활성화합니다. 이 기능이 없어도 제품 또는 제품 페이지를 수동으로 선택할 수 있습니다. [로그 전달 가이드](https://experienceleague.adobe.com/ko/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)를 참조하세요. |
 | 크롤링 가능 상점 | 카탈로그 강화 | 크롤링 기반 권장 사항 필수. LLM 기반 및 agentic 봇은 제품 페이지에 액세스할 수 있어야 합니다. |
-| [!DNL Adobe Admin Console] 액세스 | 카탈로그 강화 | 필수 여부. 설정하는 동안 [!DNL Adobe Commerce]은(는) 조직에서 GenAI 라이더에 서명했는지 또는 기본 AI 서비스를 옵트아웃했는지 확인합니다. |
+| [!DNL Adobe Admin Console] 액세스 | 두 워크플로우 | 필수 여부. 설정하는 동안 [!DNL Adobe Commerce]이(가) 조직의 GenAI 라이더 상태를 확인합니다. 조직에서 GenAI 라이더를 옵트아웃하지 않은 경우 액세스할 수 있습니다. |
 
 <!--
 TBD (SME): The Optimize at Edge guide is a Brand Visibility reference, not a Commerce setup guide. Add Commerce-specific Optimize at Edge setup instructions (this might be automated by GA).
-TBD (SME): Confirm whether the Admin Console and GenAI rider check also applies to PDP enrichment.
 -->
 
 ## Commerce 플랫폼 설정 {#set-up}
